@@ -1,0 +1,19 @@
+{
+ "draftedBy": "claude-opus-5-5",
+ "promptVersion": "comment-v5",
+ "comment": "Jestli na vlak dojdeš pěšky, nebo musíš vzít kolo, poznáš z hrubé představy, kolik kilometrů za hodinu který způsob pohybu zvládne. S takovým odhadem v hlavě si naplánuješ výlet a hned poznáš, když ti mapa omylem ukazuje trasu pro auto. Mapová aplikace spočítá trasu přesně, jenže počítá s průměrným chodcem, ne s tebou, tvým batohem a kopcem navíc. Odhad vzdálenosti potřebuje každý den taky ten, kdo řídí taxi nebo plánuje trasy nákladní dopravy.",
+ "learnWithAi": [
+  {
+   "title": "Tipovačka kilometrů za půl hodiny",
+   "text": "Požádej chatbota, ať ti zadá pět situací, třeba chůzi do kopce nebo jízdu na koloběžce, a odhadni, kam se za půl hodiny dostaneš. Odhady s ním porovnej a zeptej se, z čeho vycházejí jeho čísla."
+  },
+  {
+   "title": "Kontrola plánu výletu",
+   "text": "Napiš chatbotovi, kam chceš jít na výlet a kolik máš času, a nech si spočítat, jestli to pěšky stihneš. Výsledek ověř na mapě, protože vzdálenosti mezi místy může chatbot odhadnout špatně."
+  },
+  {
+   "title": "Deset minut chůze naostro",
+   "text": "Odhadni, kolik ujdeš za deset minut, pak to opravdu ujdi a vzdálenost změř v mapě. Chatbotovi popiš rozdíl a nech si vysvětlit, co mohlo tvůj odhad zkreslit."
+  }
+ ]
+}

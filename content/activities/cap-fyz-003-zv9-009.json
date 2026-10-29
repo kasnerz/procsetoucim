@@ -1,0 +1,424 @@
+[
+  {
+    "slug": "fyzika-odraz-svetla-zrcadlo",
+    "title": "Odraz světla a zvláštnosti zrcadlového obrazu",
+    "aliases": [
+      "odraz světla",
+      "zrcadlo",
+      "zrcadlový obraz",
+      "úhel odrazu",
+      "prohozená strana v zrcadle"
+    ],
+    "outcome": "CAP-FYZ-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše „zvláštnosti“ odrazu v zrcadle.",
+        "quote": "Popíše „zvláštnosti“ odrazu v zrcadle."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkoumá odraz v různých zrcadlech a zrcadlových plochách ve svém okolí.",
+        "quote": "Zkoumá odraz v různých zrcadlech a zrcadlových plochách ve svém okolí."
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede přímočaré šíření světla, odraz světla (na zrcadle), lom světla (na rozhraní vzduchu a vody nebo vzduchu a skla).",
+        "quote": "Předvede přímočaré šíření světla, odraz světla (na zrcadle)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zrcadlení",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč je v zrcadle vlevo a vpravo prohozené, a vymyslí pokusy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu zákon odrazu s obrázky a návody na pokusy se zrcátkem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace paprsku na zrcadle ukáže, jak se mění úhel odrazu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zrcátko, baterka a papír ti ukážou odraz přímo před očima."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38dbdfc4-427e-4fc8-b394-b00ec29dbe3a",
+      "http://data.europa.eu/esco/skill/f8bd915e-8424-469f-bab8-e64fc2e4c2dd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyzika-lom-svetla-voda-sklo",
+    "title": "Šíření světla a lom na rozhraní vzduchu a vody nebo skla",
+    "aliases": [
+      "lom světla",
+      "přímočaré šíření světla",
+      "tužka ve sklenici",
+      "paprsek",
+      "rozhraní"
+    ],
+    "outcome": "CAP-FYZ-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Předvede přímočaré šíření světla, odraz světla (na zrcadle), lom světla (na rozhraní vzduchu a vody nebo vzduchu a skla).",
+        "quote": "Předvede přímočaré šíření světla, odraz světla (na zrcadle), lom světla (na rozhraní vzduchu a vody nebo vzduchu a skla)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se tužka ve vodě zdá zlomená, a navrhne pokus."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis lomu světla s obrázky a ukázkovými pokusy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace lomu ukáže, jak se paprsek ohne při změně prostředí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Průhledná sklenice s vodou, tužka a baterka ti lom ukážou na vlastní oči."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38dbdfc4-427e-4fc8-b394-b00ec29dbe3a",
+      "http://data.europa.eu/esco/skill/f8bd915e-8424-469f-bab8-e64fc2e4c2dd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyzika-zrcadla-v-praxi",
+    "title": "Zrcadla kolem nás: rovinná a zakřivená",
+    "aliases": [
+      "zpětné zrcátko",
+      "zrcadlo na křižovatce",
+      "kosmetické zrcátko",
+      "odrazka",
+      "vypouklé zrcadlo"
+    ],
+    "outcome": "CAP-FYZ-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše konkrétní příklady využití zrcadel a čoček a na jednoduchém pokusu ukáže některé jejich vlastnosti.",
+        "quote": "Popíše konkrétní příklady využití zrcadel a čoček a na jednoduchém pokusu ukáže některé jejich vlastnosti."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Uvede příklady, kde má ve svém okolí zrcadla.",
+        "quote": "Uvede příklady, kde má ve svém okolí zrcadla."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše konkrétní příklady využití rovinných i zakřivených zrcadel v praxi.",
+        "quote": "Popíše konkrétní příklady využití rovinných i zakřivených zrcadel v praxi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zrcadla kolem nás",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč zrcadlo na křižovatce zkresluje, a přidá další příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu příklady zrcadel v dopravě, v domácnosti i v dalekohledech."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle nemá aplikace nic užitečného, zrcadla zkoumáš očima."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lžíce, zrcátko a odrazka ti ukážou, jak zrcadlí rovná a zakřivená plocha."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38dbdfc4-427e-4fc8-b394-b00ec29dbe3a",
+      "http://data.europa.eu/esco/skill/3ab7c355-94f2-4b07-ab1b-4dcb29745b0e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyzika-spojka-rozptylka-pokus",
+    "title": "Spojka a rozptylka: průchod světla čočkou",
+    "aliases": [
+      "spojná čočka",
+      "rozptylka",
+      "lupa",
+      "obraz v čočce",
+      "ohnisko"
+    ],
+    "outcome": "CAP-FYZ-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Experimentálně ukáže průchod světla spojkou a rozptylkou.",
+        "quote": "Experimentálně ukáže průchod světla spojkou a rozptylkou."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkoumá průchod světla čočkami (vznik obrazu, změnu směru paprsku, …).",
+        "quote": "Zkoumá průchod světla čočkami (vznik obrazu, změnu směru paprsku, …)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vlastnosti spojek a rozptylek",
+        "url": "https://uloziste.rvp.cz/material/0fb836"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kam se paprsky lámou, a pomůže ti vysvětlit pokus."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu schémata paprsků ve spojce a rozptylce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace čočky ukáže, jak se obraz mění s polohou předmětu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa, lavice a svíčka nebo lampa ti obraz a ohnisko ukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38dbdfc4-427e-4fc8-b394-b00ec29dbe3a",
+      "http://data.europa.eu/esco/skill/a670abe2-c4a2-49a6-996c-760562aeb43d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyzika-stavba-oka-sitnice",
+    "title": "Stavba oka a cesta světla na sítnici",
+    "aliases": [
+      "oko",
+      "části oka",
+      "sítnice",
+      "zornice",
+      "čočka v oku"
+    ],
+    "outcome": "CAP-FYZ-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se se strukturou oka, průchodem světla okem a zachycením světla na sítnici.",
+        "quote": "Seznámí se se strukturou oka, průchodem světla okem a zachycením světla na sítnici."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše průchod světla okem a funkci jeho jednotlivých částí, vysvětlí, jak se oko zaostřuje na různé vzdálenosti, co je krátkozrakost, dalekozrakost, astigmatismus a jak se korigují.",
+        "quote": "Popíše průchod světla okem a funkci jeho jednotlivých částí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Oko",
+        "url": "https://uloziste.rvp.cz/material/9c5508"
+      },
+      {
+        "title": "Oko II",
+        "url": "https://uloziste.rvp.cz/material/ab9463"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co dělá rohovka, zornice a sítnice, a ověří tvůj popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popsané a nakreslené řezy okem s názvy částí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní model oka ti ukáže cestu světla po částech."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Model oka nebo preparát ti ukáže, jak je oko postavené."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38dbdfc4-427e-4fc8-b394-b00ec29dbe3a",
+      "http://data.europa.eu/esco/skill/f8bd915e-8424-469f-bab8-e64fc2e4c2dd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyzika-zaostreni-oka-vady-bryle",
+    "title": "Zaostřování oka, vady zraku a brýle",
+    "aliases": [
+      "krátkozrakost",
+      "dalekozrakost",
+      "astigmatismus",
+      "brýle",
+      "zaostřování oka"
+    ],
+    "outcome": "CAP-FYZ-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše průchod světla okem a funkci jeho jednotlivých částí, vysvětlí, jak se oko zaostřuje na různé vzdálenosti, co je krátkozrakost, dalekozrakost, astigmatismus a jak se korigují.",
+        "quote": "vysvětlí, jak se oko zaostřuje na různé vzdálenosti, co je krátkozrakost, dalekozrakost, astigmatismus a jak se korigují."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše, jak brýle pozmění pohled na okolí.",
+        "quote": "Popíše, jak brýle pozmění pohled na okolí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč krátkozrakost opravuje rozptylka, a vyzkouší tě z toho."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis vad zraku a toho, jak je korigují brýle."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace ukáže, jak vypadá obraz při vadě zraku a s brýlemi."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Brýle nebo lupa ti ukážou, jak čočka mění obraz."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/325e8546-a5bb-4bbe-be43-07df4cd2970e",
+      "http://data.europa.eu/esco/skill/f8bd915e-8424-469f-bab8-e64fc2e4c2dd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyzika-setrvacnost-oka-film",
+    "title": "Setrvačnost oka: film, televize a blikání zářivky",
+    "aliases": [
+      "setrvačnost oka",
+      "film",
+      "blikání zářivky",
+      "televize",
+      "stroboskopický jev"
+    ],
+    "outcome": "CAP-FYZ-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady z běžného života, kde se využívá setrvačnost oka (film, televize, blikání zářivky, …).",
+        "quote": "Uvede příklady z běžného života, kde se využívá setrvačnost oka (film, televize, blikání zářivky, …)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč z rychlých obrázků vzniká pohyb, a navrhne další příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis, jak oko spojí rychle střídané obrázky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na kreslení animace ti ukáže, jak pohyb vzniká z obrázků."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Sešit s obrázky na okraji stránek, který rychle prolistuješ, ukáže pohyb."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38dbdfc4-427e-4fc8-b394-b00ec29dbe3a",
+      "http://data.europa.eu/esco/skill/f8bd915e-8424-469f-bab8-e64fc2e4c2dd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

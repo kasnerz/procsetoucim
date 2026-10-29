@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Plánek linek ti řekne, které zastávky na sebe navazují, ale nepoví, jak daleko od sebe opravdu jsou ani kolik cesta potrvá. Každý model něco vynechává, a kdo to ví, nedělá z něj závěry, které v něm nejsou. Totéž platí pro graf v novinách i pro mapu v atlasu. Lidé, kteří obsluhují jeřáb nebo montují dopravní značení, pracují podle plánů a musí poznat, co z nich vyčtou přímo a co si ověří na místě. Chatbot o plánku napíše hodně, ale klidně si přitom domyslí věci, které v něm nejsou, takže se hodí umět to rozpoznat.",
+  "learnWithAi": [
+    {
+      "title": "Tvrzení, která z plánku nevyčteš",
+      "text": "Poproste chatbota, ať o jednoduchém plánku linek napíše pět tvrzení, z nichž některá z plánku vyčíst nejdou. Hledejte spolu, která to jsou."
+    },
+    {
+      "title": "Otázky k vyfocené mapě",
+      "text": "Vyfoťte s rodičem mapu nebo plánek a vymyslete k němu pět otázek. Nejdřív rozhodněte vy, jestli se odpověď dá z plánku zjistit, a pak to porovnejte s chatbotem."
+    },
+    {
+      "title": "Plánek bytu bez barvy stěn",
+      "text": "Zkuste s rodičem nakreslit plánek bytu a zeptat se chatbota, co se z něj dá poznat. Kde si něco domyslí, třeba barvu stěn, ukažte mu, že to v plánku není."
+    }
+  ]
+}

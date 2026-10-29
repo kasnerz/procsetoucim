@@ -1,0 +1,249 @@
+{
+  "outcome": "CSP-OSV-001-ZV9-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "osobnost-ruzne-cesty-sebepoznani",
+      "title": "Různé způsoby poznávání sebe",
+      "aliases": [
+        "sebepoznání",
+        "sebereflexe",
+        "jak poznat sebe",
+        "rozhovor s blízkými",
+        "poznávání sebe"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "zkouší si různé způsoby poznávání sama sebe prostřednictvím sebereflexe, rozhovorů s blízkými, kazuistik/modelových příběhů vrstevníků"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Prezentuje a využívá různé možnosti poznávání sama sebe."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti pošle otázky k zamyšlení, odpovědi o sobě hledáš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam sebepoznávací dotazníky a ukázky příběhů vrstevníků."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s testy osobnosti ti o tobě nic nezjistí, odpovídáš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Deník a tužka ti pomůžou zapsat, co si o sobě myslíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/409a0245-0e6c-4aac-ba16-0920ecb76a8d",
+        "http://data.europa.eu/esco/skill/519e801b-3cc4-44d4-bcf1-32fdb9a77e51"
+      ],
+      "inspiration": [
+        "Já jako strom"
+      ]
+    },
+    {
+      "slug": "osobnost-vztah-k-sobe-a-druhym",
+      "title": "Co ovlivňuje vztah k sobě a k druhým",
+      "aliases": [
+        "sebevědomí",
+        "nízké sebevědomí",
+        "vysoké sebevědomí",
+        "sebehodnocení",
+        "vztah k sobě"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyzkouší si v modelových situacích, jaké faktory ovlivňují vztah k sobě samému a vztah k druhým, například důsledky příliš nízkého nebo vysokého sebevědomí"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje, jaké faktory ovlivňují jeho vztah k sobě samému a vztah k druhým."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak sebevědomí mění chování, a vymyslí příklady situací."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a videa ukazují, jak sebevědomí ovlivňuje vztahy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti důsledky sebevědomí nezahraje, zkoušíš je ve třídě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Modelové situace zkoušíš s ostatními, žádný nástroj to za tebe nepotká."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/72ead619-88da-4557-8c98-607fd7e2cd47",
+        "http://data.europa.eu/esco/skill/519e801b-3cc4-44d4-bcf1-32fdb9a77e51"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "osobnost-chovani-online-i-offline",
+      "title": "Moje chování ve škole a na internetu",
+      "aliases": [
+        "chování online",
+        "chování na sítích",
+        "digitální prostředí",
+        "moje chování",
+        "potřeby a hodnoty"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vnímá své chování a jednání ve fyzickém a digitálním prostředí, zkouší je vztahovat ke svým vlastnostem, potřebám, hodnotám"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se zeptá, co děláš online a proč, a pomůže ti to roztřídit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam příklady chování na sítích a jeho dopadů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Přehled času v telefonu ukáže, co online opravdu děláš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj tvé chování nevidí, všímáš si ho ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97",
+        "http://data.europa.eu/esco/skill/409a0245-0e6c-4aac-ba16-0920ecb76a8d"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Uvědomuje si svůj vztah",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "poznává sám sebe",
+      "code": "O1",
+      "refs": [
+        "silne-stranky-a-vlastnosti"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "vyzkouší si využívání silných",
+      "code": "O1",
+      "refs": [
+        "silne-stranky-v-narocnych-situacich"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "sdílí ve skupině",
+      "code": "O1",
+      "refs": [
+        "zpetna-vazba"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "zkouší si různé způsoby poznávání sama sebe prostřednictvím zpětné",
+      "code": "O1",
+      "refs": [
+        "zpetna-vazba"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "je otevřený zpětné",
+      "code": "O1",
+      "refs": [
+        "zpetna-vazba"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "navrhne, jak využít silných",
+      "code": "O1",
+      "refs": [
+        "silne-stranky-v-narocnych-situacich"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "navrhuje možné způsoby regulace",
+      "code": "O1",
+      "refs": [
+        "uprava-chovani"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Uvědomuje si sám sebe",
+      "code": "O1",
+      "refs": [
+        "silne-stranky-a-vlastnosti"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Využívá zpětnou vazbu",
+      "code": "O1",
+      "refs": [
+        "zpetna-vazba"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Využívá silné stránky",
+      "code": "O1",
+      "refs": [
+        "silne-stranky-v-narocnych-situacich"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Charakterizuje své chování",
+      "code": "O1",
+      "refs": [
+        "uprava-chovani"
+      ]
+    }
+  ]
+}

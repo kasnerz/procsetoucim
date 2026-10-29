@@ -1,0 +1,445 @@
+{
+  "outcome": "CJS-CJS-002-ZV5-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vlivy-v-pribehu-detsky-hrdina",
+      "title": "Vlivy na hrdinu příběhu",
+      "aliases": [
+        "kdo ovlivňuje postavu",
+        "dobrý nebo špatný vliv",
+        "vliv v příběhu",
+        "čtení s porozuměním",
+        "práce ve skupině"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Ve spolupráci se spolužáky identifikuje v příběhu situace, kdy se dětský hrdina nechává ovlivnit někým či něčím jiným"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Porovná řešení své skupiny s řešením dalších skupin."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Pracuje s případovými situacemi a příběhy a identifikuje, jak, čím a kým se nechávají ovlivňovat dílčí postavy."
+        },
+        {
+          "level": "Splněno",
+          "quote": "V příběhu identifikuje, kým nebo čím je ovlivněno chování vybrané postavy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí krátký příběh a ptá se, kdo hrdinu ovlivnil. Tvou odpověď pak okomentuje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš pohádky a příběhy, ve kterých hledáš, kdo hrdinu ovlivňuje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti příběh nerozebere, vlivy v něm hledáš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Spolužáky a jejich řešení porovnáš jen při společné práci ve třídě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8881a9c2-bd07-4954-bf27-c1f8acca9af0",
+        "http://data.europa.eu/esco/skill/9ccecb58-e720-4465-b309-46e362ca6f75"
+      ],
+      "inspiration": [
+        "Dobrý nebo špatný vliv?"
+      ]
+    },
+    {
+      "slug": "vlivy-dobry-nebo-spatny-posouzeni",
+      "title": "Dobrý, nebo špatný vliv",
+      "aliases": [
+        "pozitivní a negativní vliv",
+        "dobrovolný a povinný vliv",
+        "druhy vlivů",
+        "co je dobré a co ne"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vyjádří se, zda je tento vliv podle něj dobrý či špatný"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozliší, o jaké vlivy se jedná (pozitivní, negativní, dobrovolné, povinné)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "objasní, zda se z jeho pohledu jedná o pozitivní, nebo negativní vliv"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi dobrovolným a povinným vlivem a dá příklady k roztřídění."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články pro děti o vlivu kamarádů nebo médií ti dají příklady k posouzení."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nepozná, co je pro tebe dobrý vliv."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Posoudit vliv musíš ty se svými hodnotami, nástroj to nezvládne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8881a9c2-bd07-4954-bf27-c1f8acca9af0"
+      ],
+      "inspiration": [
+        "Rozpoznání pozitivního, negativního a dobrovolného vlivu"
+      ]
+    },
+    {
+      "slug": "vlivy-muj-vzor-vlastnosti",
+      "title": "Můj vzor a jeho vlastnosti",
+      "aliases": [
+        "kdo je můj vzor",
+        "můj idol",
+        "hrdina",
+        "na koho se chci podobat"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše svůj vzor, jeho vlastnosti a zdůvodní, proč je jeho vzorem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti najít slova pro vlastnosti, když se ptá, co se ti na vzoru líbí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "O známých osobnostech si přečteš, co dokázaly."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Vzor si vybíráš ty, aplikace ti ho nevybere."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zdůvodnění, proč je někdo tvým vzorem, nezvládne žádný nástroj za tebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9ccecb58-e720-4465-b309-46e362ca6f75"
+      ],
+      "inspiration": [
+        "Můj vzor, moje inspirace",
+        "Kdo je můj vzor"
+      ]
+    },
+    {
+      "slug": "vlivy-cil-reklamy",
+      "title": "Cíl reklamy",
+      "aliases": [
+        "k čemu je reklama",
+        "proč se dělá reklama",
+        "reklama a prodej",
+        "co chce reklama"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Na konkrétních příkladech rozliší, co je cílem reklamy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Na příkladech reklam vysvětlí, co chtějí prodat a čím tě lákají."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Reklamy a jejich rozbory si prohlédneš a porovnáš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe cíl reklamy neurčí, úvahu děláš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Reklamu v časopise nebo na plakátu hodnotíš ty, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f"
+      ]
+    },
+    {
+      "slug": "vlivy-kdo-ovlivnuje-moje-chovani",
+      "title": "Kdo a co ovlivňuje moje chování",
+      "aliases": [
+        "vliv lidí na mě",
+        "vliv kamarádů",
+        "vliv reklamy",
+        "vliv influencerů",
+        "lajky",
+        "online výzvy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zamýšlí se nad svým životem a svým okolím a popíše, jak, čím a kým se nechává ovlivňovat."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše, jak jeho chování v určité situaci ovlivňují další lidé, reklama, internet apod."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se na tvé dny a pomáhá ti pojmenovat, co tě ovlivňuje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš články o tom, jak lajky nebo influenceři působí na děti."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvé vlivy nezná, ty je znáš ze svého života."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vlivy ve svém okolí pozoruješ ty, nástroj je za tebe nenajde."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8881a9c2-bd07-4954-bf27-c1f8acca9af0",
+        "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f"
+      ],
+      "inspiration": [
+        "Lajky na internetu",
+        "Vliv influencerů",
+        "Online výzvy"
+      ]
+    },
+    {
+      "slug": "vlivy-znaky-manipulace",
+      "title": "Základní znaky manipulace",
+      "aliases": [
+        "jak poznat manipulaci",
+        "nátlak",
+        "manipulátor",
+        "falešné sliby"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozpozná základní znaky manipulace v různých prostředích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje typické triky, třeba tlak na rychlé rozhodnutí, a ukáže příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popisy manipulace a ukázky, na kterých se cvičíš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace manipulaci ve tvých situacích nepozná, všimnout si jí musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Manipulaci kolem sebe vnímáš ty, žádný nástroj ji neodhalí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f"
+      ]
+    },
+    {
+      "slug": "vlivy-rizikove-situace-online-i-venku",
+      "title": "Rizikové situace venku a na internetu",
+      "aliases": [
+        "nebezpečí na internetu",
+        "nepříjemná komunikace",
+        "cizí lidé online",
+        "rizikové chování",
+        "bezpečně na netu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Uvede příklady rizikových situací, do kterých se může ve fyzickém a digitálním prostředí dostat."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "popíše rizikovou a nepříjemnou situaci či komunikaci ve svém okolí či digitálním prostředí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí modelové situace a ptá se, co by bylo riziko."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby o bezpečnosti dětí na internetu shrnují typická rizika s příklady."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti riziko ve tvé situaci nepopíše, to děláš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rizikovou situaci ve skutečnosti poznáváš ty, nástroj tam není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f2d63656-169c-4110-99fe-33914f902466",
+        "http://data.europa.eu/esco/skill/8e261d1c-12c0-498e-bfc2-ec0c16496c68"
+      ]
+    },
+    {
+      "slug": "vlivy-pravidla-slusne-a-bezpecne-komunikace",
+      "title": "Pravidla slušné a bezpečné komunikace",
+      "aliases": [
+        "pravidla chování online",
+        "netiketa",
+        "slušné chování na internetu",
+        "jak psát zprávy",
+        "bezpečná komunikace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Ve spolupráci se spolužáky uvede příklady pravidel pro slušnou a bezpečnou komunikaci ve fyzickém a digitálním prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne příklady pravidel a ptá se, proč je dobré je dodržovat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby pro děti ukazují pravidla bezpečného chování na internetu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace pravidla pro vaši třídu nevymyslí, domlouváte se spolu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravidla s ostatními společně hledáte a dodržujete, nástroj to nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f2d63656-169c-4110-99fe-33914f902466"
+      ]
+    },
+    {
+      "slug": "vlivy-odmitnuti-neprijemne-komunikace",
+      "title": "Odmítnutí nepříjemné komunikace",
+      "aliases": [
+        "jak říct ne",
+        "jak se bránit",
+        "odmítnout bez křiku",
+        "oznámit dospělému",
+        "asertivita"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Procvičuje techniky odmítání nepříjemné komunikace bez použití agresivity."
+        },
+        {
+          "level": "Splněno",
+          "quote": "V modelové situaci se vymezí vůči nepříjemné nebo rizikové komunikaci."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "odmítne a oznámí nepříjemnou nebo rizikovou komunikaci"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Hraje roli protivníka a ty zkoušíš odpovědi, kterými odmítneš bez hádky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš kontakty na linky pomoci a rady, komu situaci oznámit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe neřekne ne, odmítnout musíš ty hlasem nebo zprávou."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Odmítnout a říct to dospělému můžeš jen ty ve skutečné situaci."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a",
+        "http://data.europa.eu/esco/skill/8e261d1c-12c0-498e-bfc2-ec0c16496c68"
+      ]
+    }
+  ],
+  "aside": []
+}

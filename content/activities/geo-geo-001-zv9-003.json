@@ -1,0 +1,494 @@
+[
+  {
+    "slug": "geopoznani-v-praxi",
+    "title": "K čemu je geografie v práci a v životě",
+    "aliases": [
+      "geografie v práci",
+      "k čemu je zeměpis",
+      "povolání a zeměpis",
+      "geografické poznání"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvede příklady využití geografického poznání a způsobů poznávání v běžném životě a při výkonu některých povolání",
+        "quote": "uvede příklady využití geografického poznání a způsobů poznávání v běžném životě a při výkonu některých povolání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Geografie v práci",
+        "url": ""
+      },
+      {
+        "title": "Moje geografie",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí příklady povolání, která zeměpis potřebují, a ty je zkusíš zdůvodnit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popisy práce geografa, územního plánovače nebo záchranáře."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace neukážou, kde se zeměpis hodí ve tvém dni."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj za tebe příklady z vlastního života nenajde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/440f64e5-e66c-45ee-bc29-53c14a2ad720"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geopoznani-pojmy-popis",
+    "title": "Zeměpisné pojmy pro popis místa",
+    "aliases": [
+      "zeměpisné pojmy",
+      "terminologie",
+      "poloha a rozmístění",
+      "popis místa",
+      "geografické termíny"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "použije vhodnou základní geografickou terminologii k prostorovému vymezení a popisu geografických jevů, jejich příčin a důsledků a vývoje v čase",
+        "quote": "použije vhodnou základní geografickou terminologii k prostorovému vymezení a popisu geografických jevů, jejich příčin a důsledků a vývoje v čase"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy jako poloha nebo rozmístění a opraví tvůj popis místa."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a slovníky pojmů ukážou, co slova znamenají."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s mapou pojmy nevysvětlí a tvůj popis neopraví."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas a mapa ti ukážou, o čem pojmy mluví, a pomůžou ti popsat místo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geopoznani-geograficke-otazky",
+    "title": "Kladení zeměpisných otázek o místě",
+    "aliases": [
+      "kde to je",
+      "proč tady",
+      "geografické otázky",
+      "ptát se na místo",
+      "otázky o regionu"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "klade geografické otázky (o poloze, hodnotách území, funkci a účelu, příčinách a důsledcích, vztazích a interakcích, řádovostní úrovni, minulém a budoucím vývoji sledovaných jevů a procesů), které napomáhají porozumět současnému stavu a budoucímu vývoji míst a regionů",
+        "quote": "klade geografické otázky (o poloze, hodnotách území, funkci a účelu, příčinách a důsledcích, vztazích a interakcích, řádovostní úrovni, minulém a budoucím vývoji sledovaných jevů a procesů), které napomáhají porozumět současnému stavu a budoucímu vývoji míst a regionů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jaké otázky se na místo dají klást, a ty vybereš ty, které dávají smysl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na stránkách o obci nebo kraji uvidíš, na co se ptát."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace odpovídají, nepomůžou ti vymyslet vlastní otázku."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zeptat se musíš ty, tužka a papír otázku nevymyslí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/b10c9a92-d6ff-40bc-ac64-4705949a2ac7"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geopoznani-sber-dat",
+    "title": "Sběr zeměpisných dat o místě",
+    "aliases": [
+      "sběr dat",
+      "terénní průzkum",
+      "dotazník",
+      "měření v terénu",
+      "pozorování krajiny"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "použije vybrané metody sběru geografických dat pro poznávání míst či regionů",
+        "quote": "použije vybrané metody sběru geografických dat pro poznávání míst či regionů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Proměna krajiny Mostecka",
+        "url": "https://uloziste.rvp.cz/material/3c78ed"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet otázky do dotazníku a zvolit, co budeš zjišťovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky obcí a kraje najdeš hotové, třeba na stránkách Českého statistického úřadu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapové aplikace a tabulky ti pomůžou data zapsat a uspořádat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Metr, teploměr a papírová mapa slouží k měření a zápisu přímo v terénu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b10c9a92-d6ff-40bc-ac64-4705949a2ac7",
+      "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geopoznani-problem-z-dat",
+    "title": "Zkoumání problému místa podle dat",
+    "aliases": [
+      "problém místa",
+      "práce s daty",
+      "porovnání dat",
+      "co je tu špatně",
+      "analýza dat o regionu"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "pomocí geografických dat zkoumá hlavní problémy vybraného místa a regionu",
+        "quote": "pomocí geografických dat zkoumá hlavní problémy vybraného místa a regionu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Energie jako výzva",
+        "url": "https://uloziste.rvp.cz/material/cc87fc"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže data seřadit a ukáže, čeho si v tabulce všimnout."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotová data o obci a regionu si dohledáš a porovnáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka nebo mapa ti data seřadí a ukáže, kde se liší."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas a mapa ti ukážou, jak se místa liší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29",
+      "http://data.europa.eu/esco/skill/440f64e5-e66c-45ee-bc29-53c14a2ad720"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geopoznani-priciny-dusledky",
+    "title": "Příčiny a důsledky problémů místa",
+    "aliases": [
+      "příčina a důsledek",
+      "proč vznikl problém",
+      "moje role",
+      "dopady na krajinu",
+      "příčiny problémů"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "identifikuje přírodní a společenské příčiny a důsledky problémů vybraného místa a popíše svou roli jak v příčinách, tak v důsledcích problémů",
+        "quote": "identifikuje přírodní a společenské příčiny a důsledky problémů vybraného místa a popíše svou roli jak v příčinách, tak v důsledcích problémů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Proměna krajiny Mostecka",
+        "url": "https://uloziste.rvp.cz/material/3c78ed"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co je příčina a co následek, a upozorní na krok, který chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a studie o místě ukazují, co už lidé zjistili."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace příčiny neodvodí, tvoji roli v problému nemají jak znát."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svou roli v problému zváží jen ty, nástroj ji nezná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geopoznani-navrh-reseni",
+    "title": "Návrh řešení problému místa podle dat",
+    "aliases": [
+      "návrh řešení",
+      "řešení problému v obci",
+      "doporučení",
+      "problém ve škole nebo bydlišti",
+      "co s tím"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "formuluje návrhy řešení a praktická doporučení opírající se o data",
+        "quote": "formuluje návrhy řešení a praktická doporučení opírající se o data"
+      },
+      {
+        "level": "Splněno",
+        "point": "Navrhne řešení vybraného geografického problému regionu své školy nebo svého bydliště, který prostorově popíše (odpoví na otázku kde), zhodnotí jeho kvalitu a kvantitu (odpoví na otázku, jaké to je), jednoduchými formulacemi odvodí jeho příčiny (odpoví na otázku proč) a důsledky.",
+        "quote": "Navrhne řešení vybraného geografického problému regionu své školy nebo svého bydliště, který prostorově popíše (odpoví na otázku kde), zhodnotí jeho kvalitu a kvantitu (odpoví na otázku, jaké to je), jednoduchými formulacemi odvodí jeho příčiny (odpoví na otázku proč) a důsledky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Moje geografie",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, co by se dalo zkusit jinde, a zkontroluje, zda tvůj návrh vychází z dat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příklady z jiných obcí ti dají nápad, jak podobný problém řešili."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace návrh nevymyslí a neřekne, co se hodí zrovna u vás."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mapa a atlas ukážou stav, návrh musíš vymyslet ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geopoznani-prezentace-vysledku",
+    "title": "Prezentace zjištění o místě a diskuse",
+    "aliases": [
+      "prezentace výsledků",
+      "představit zjištění",
+      "mapa a graf do prezentace",
+      "diskuse ve třídě",
+      "výzkum místa"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "využívá vybrané metody a nástroje prezentace geografických dat a výsledků výzkumů; prezentuje výsledky výzkumu ostatním a zapojuje se do diskuse nad výsledky",
+        "quote": "využívá vybrané metody a nástroje prezentace geografických dat a výsledků výzkumů; prezentuje výsledky výzkumu ostatním a zapojuje se do diskuse nad výsledky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže poskládat osnovu a vymyslet, co ve třídě zazní jako otázky."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové zdroje ti vystoupení před třídou nepřipraví."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prezentační program a tabulky ti pomůžou vytvořit graf a mapu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa a plakát ti pomůžou ukázat výsledky třídě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d0f2f8a7-d935-4a6d-8e54-dcc3e5e2cbeb",
+      "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geopoznani-bezpecny-pobyt-v-prirode",
+    "title": "Bezpečný pohyb a pobyt v přírodě",
+    "aliases": [
+      "bezpečnost v přírodě",
+      "výlet",
+      "pohyb v přírodě",
+      "turistika",
+      "chování v přírodě"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uplatňuje v praxi zásady bezpečného pohybu a pobytu ve volné přírodě.",
+        "quote": "Uplatňuje v praxi zásady bezpečného pohybu a pobytu ve volné přírodě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Zásady dodržuješ v přírodě ty, chatbot za tebe nic neudělá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Pravidla bezpečného pohybu a značení tras si přečteš na turistických stránkách."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa v telefonu ukáže trasu a tvoji polohu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kompas a papírová mapa ti pomůžou s orientací, i když není signál."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0e355580-bd4a-465a-8058-92984623070e",
+      "http://data.europa.eu/esco/skill/9b960424-c101-4e1b-b0bd-c5aa7ecbb559"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

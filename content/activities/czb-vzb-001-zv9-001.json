@@ -1,0 +1,443 @@
+[
+  {
+    "slug": "zdravi-soustavy-organu-lidske-telo",
+    "title": "Orgány a soustavy lidského těla",
+    "aliases": [
+      "orgány těla",
+      "soustavy lidského těla",
+      "trávicí soustava",
+      "oběhová soustava",
+      "k čemu je který orgán"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "popisuje funkci nejdůležitějších orgánů a soustav lidského těla (nervová, dýchací, trávicí, vylučovací, pohybová a opěrná, oběhová, smyslová, rozmnožovací)",
+        "quote": "popisuje funkci nejdůležitějších orgánů a soustav lidského těla (nervová, dýchací, trávicí, vylučovací, pohybová a opěrná, oběhová, smyslová, rozmnožovací)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "prezentuje ucelené poznatky o funkcích orgánů a soustav lidského těla (nervová, dýchací, trávicí, vylučovací, pohybová a opěrná, oběhová, smyslová, rozmnožovací) a dává je do souvislostí se zásadami ochrany zdraví",
+        "quote": "prezentuje ucelené poznatky o funkcích orgánů a soustav lidského těla (nervová, dýchací, trávicí, vylučovací, pohybová a opěrná, oběhová, smyslová, rozmnožovací) a dává je do souvislostí se zásadami ochrany zdraví"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zaostřeno na zdraví",
+        "url": "https://uloziste.rvp.cz/material/182f12"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí funkci orgánu jinými slovy a vyzkouší tě z jednotlivých soustav."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a schémata ukážou, co který orgán dělá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Atlas těla v aplikaci ukáže orgány v řezu a z více stran."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Model těla nebo atlas v knize si můžeš vzít do ruky a prohlédnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3",
+      "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdravi-vliv-zpusobu-zivota-na-telo",
+    "title": "Pozitivní a negativní vlivy na zdraví",
+    "aliases": [
+      "co škodí zdraví",
+      "co zdraví prospívá",
+      "životní styl a tělo",
+      "kouření a plíce",
+      "pohyb a spánek"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozlišuje pozitivní a negativní vlivy způsobu života na činnost organismu",
+        "quote": "rozlišuje pozitivní a negativní vlivy způsobu života na činnost organismu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "popisuje vliv životního stylu a životního prostředí na činnost nejdůležitějších orgánů a soustav lidského těla a zdůvodňuje zásady zdravého životního stylu",
+        "quote": "popisuje vliv životního stylu a životního prostředí na činnost nejdůležitějších orgánů a soustav lidského těla a zdůvodňuje zásady zdravého životního stylu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozliší pozitivní a negativní vlivy na jednotlivé složky zdraví, které doloží konkrétními příklady.",
+        "quote": "Rozliší pozitivní a negativní vlivy na jednotlivé složky zdraví, které doloží konkrétními příklady."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak podpořit zdraví",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak spánek, pohyb nebo kouření působí na tělo, a zeptá se na tvoje příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotní a encyklopedické stránky popisují účinky návyků na tělo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace pro spánek nebo pohyb ukáže, jak se tvoje návyky mění."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný jednoduchý nástroj tvoje návyky nehodnotí, závěr z příkladů děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdravi-zasady-zdraveho-zivotniho-stylu",
+    "title": "Zásady zdravého životního stylu",
+    "aliases": [
+      "zdravý životní styl",
+      "zdravá strava",
+      "pitný režim",
+      "spánek a pohyb",
+      "co dělám pro zdraví"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvede zásady zdravého způsobu života, které aktuálně dodržuje ve svém osobním životě",
+        "quote": "uvede zásady zdravého způsobu života, které aktuálně dodržuje ve svém osobním životě"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Aktivní podpora zdraví",
+        "url": "https://uloziste.rvp.cz/material/0d9311"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou tvůj běžný den a ukáže, kde by se dalo něco zlepšit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Oficiální doporučení k jídlu, pohybu a spánku najdeš na zdravotnických stránkách."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace počítá kroky, spánek nebo vypitou vodu a ukáže tvoje návyky."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Co dodržuješ, víš jen ty, žádný nástroj to za tebe nezjistí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdravi-faktory-ovlivnujici-zdravi",
+    "title": "Faktory, které ovlivňují zdraví",
+    "aliases": [
+      "co ovlivňuje zdraví",
+      "životní styl a prostředí",
+      "zdravotní péče",
+      "genetika a zdraví",
+      "potřeby a zdraví"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede faktory, které ovlivňují lidské zdraví (životní styl, prostředí, zdravotnická péče, genetické faktory), ve vzájemných souvislostech.",
+        "quote": "Uvede faktory, které ovlivňují lidské zdraví (životní styl, prostředí, zdravotnická péče, genetické faktory), ve vzájemných souvislostech."
+      },
+      {
+        "level": "Na cestě",
+        "point": "sleduje konkrétní faktory, které ovlivňují lidské zdraví, a zdůvodňuje, jak souvisí uspokojování lidských potřeb s kvalitou zdravotního stavu",
+        "quote": "sleduje konkrétní faktory, které ovlivňují lidské zdraví, a zdůvodňuje, jak souvisí uspokojování lidských potřeb s kvalitou zdravotního stavu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Celostní přístup ke zdraví",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí příklady, jak se faktory u jednoho člověka propojují, a zeptá se tě na souvislosti."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotní statistiky a články ukazují, co zdraví lidí ovlivňuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace umí změřit pohyb nebo spánek, ale souvislosti mezi faktory za tebe nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Souvislosti mezi faktory v žádném klasickém nástroji nenajdeš, promýšlíš je ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdravi-telo-dusevni-pohoda-vztahy",
+    "title": "Tělesné, duševní a sociální zdraví",
+    "aliases": [
+      "tři složky zdraví",
+      "duševní zdraví",
+      "sociální zdraví",
+      "definice zdraví",
+      "životní pohoda"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady, jak závisí celková životní pohoda na fyzickém stavu organismu, na duševním rozpoložení člověka, na kvalitě jeho sociálních vztahů.",
+        "quote": "Uvede příklady, jak závisí celková životní pohoda na fyzickém stavu organismu, na duševním rozpoložení člověka, na kvalitě jeho sociálních vztahů."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí na konkrétních příkladech zdraví jako stav úplné tělesné, psychické, sociální pohody.",
+        "quote": "Vysvětlí na konkrétních příkladech zdraví jako stav úplné tělesné, psychické, sociální pohody."
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje s využitím konkrétních příkladů o zdraví jako celkové životní pohodě (tělesné, psychické, sociální)",
+        "quote": "diskutuje s využitím konkrétních příkladů o zdraví jako celkové životní pohodě (tělesné, psychické, sociální)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "využívá v diskuzích nabízené příležitosti odhalovat a hlouběji poznávat vztahy mezi jednotlivými složkami zdraví a uvažuje o způsobech, jak zdraví aktivně podporovat a chránit",
+        "quote": "využívá v diskuzích nabízené příležitosti odhalovat a hlouběji poznávat vztahy mezi jednotlivými složkami zdraví a uvažuje o způsobech, jak zdraví aktivně podporovat a chránit"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Celostní přístup ke zdraví",
+        "url": ""
+      },
+      {
+        "title": "Zaostřeno na zdraví",
+        "url": "https://uloziste.rvp.cz/material/182f12"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Připraví příklady a protipříklady k diskusi a ukáže, jak se složky zdraví ovlivňují."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Definici zdraví a příklady duševního zdraví najdeš v odborných zdrojích."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace změří spánek nebo tep, ale pohodu s kamarády a ve škole nezměří."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ s lidmi kolem sebe, žádný nástroj to nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c634630b-210b-4da5-b0f3-894cc292d6e3",
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdravi-odpovednost-za-sebe-i-druhe",
+    "title": "Odpovědnost za zdraví své i druhých",
+    "aliases": [
+      "odpovědné chování",
+      "chovám se zdravě",
+      "zdraví druhých",
+      "rizikové chování",
+      "příklady chování"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná různé způsoby chování lidí z hlediska odpovědnosti za vlastní zdraví i zdraví druhých s využitím příkladů přímé souvislosti mezi tělesným, duševním a sociálním zdravím.",
+        "quote": "Rozpozná různé způsoby chování lidí z hlediska odpovědnosti za vlastní zdraví i zdraví druhých s využitím příkladů přímé souvislosti mezi tělesným, duševním a sociálním zdravím."
+      },
+      {
+        "level": "Na cestě",
+        "point": "posuzuje na příkladech různé způsoby chování lidí z hlediska odpovědnosti za vlastní zdraví i zdraví druhých lidí",
+        "quote": "posuzuje na příkladech různé způsoby chování lidí z hlediska odpovědnosti za vlastní zdraví i zdraví druhých lidí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Aktivní podpora a ochrana zdraví",
+        "url": "https://uloziste.rvp.cz/material/39a9ff"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí krátké situace k posouzení a zeptá se na tvoje zdůvodnění."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Správné rozhodnutí v situaci ve vyhledávači nenajdeš, rozhoduješ ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nevidí situace kolem tebe, posoudit je musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnutí a zdůvodnění děláš ty, žádný nástroj je za tebe nevymyslí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdravi-rozhodovani-v-modelovych-situacich",
+    "title": "Rozhodování ve prospěch zdraví",
+    "aliases": [
+      "jak se rozhodnout",
+      "modelové situace",
+      "zdůvodnit rozhodnutí",
+      "hraní rolí",
+      "volba pro zdraví"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "v modelových situacích se rozhoduje ve prospěch zdraví, svá rozhodnutí zdůvodňuje a dokládá poznatky o činnosti orgánových soustav lidského těla",
+        "quote": "v modelových situacích se rozhoduje ve prospěch zdraví, svá rozhodnutí zdůvodňuje a dokládá poznatky o činnosti orgánových soustav lidského těla"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak podpořit zdraví",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadá modelovou situaci, zeptá se na zdůvodnění a upozorní na slabá místa."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Správné rozhodnutí v situaci ve vyhledávači nenajdeš, rozhoduješ ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nezvolí ani nezdůvodní, jak se rozhodneš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnutí a zdůvodnění děláš ty, žádný nástroj je za tebe nevymyslí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

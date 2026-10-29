@@ -1,0 +1,437 @@
+[
+  {
+    "slug": "slunecni-zareni-sirkova-pasma",
+    "title": "Sluneční záření a teplota podle zeměpisné šířky",
+    "aliases": [
+      "proč je na rovníku horko",
+      "proč je u pólů zima",
+      "šířkové pásy",
+      "sluneční záření",
+      "tvar Země"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Zdůvodní šířkovou pásmovitost množství dopadajícího slunečního záření a průměrné teploty vzduchu jako důsledek tvaru a pohybu Země.",
+        "quote": "Zdůvodní šířkovou pásmovitost množství dopadajícího slunečního záření a průměrné teploty vzduchu jako důsledek tvaru a pohybu Země."
+      },
+      {
+        "level": "Na začátku",
+        "point": "zdůvodní šířkovou pásmovitost množství dopadajícího slunečního záření a průměrné teploty vzduchu jako důsledek tvaru a pohybu Země",
+        "quote": "zdůvodní šířkovou pásmovitost množství dopadajícího slunečního záření a průměrné teploty vzduchu jako důsledek tvaru a pohybu Země"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Země v pohybu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč paprsky dopadají u rovníku strměji, a ověří tvoje zdůvodnění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Schémata a texty ukážou, jak se sluneční paprsky rozprostírají po kouli."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Animace osvětlené Země ukazuje, kde slunce svítí strměji a kde šikměji."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Globus a svítilna ukážou, proč se paprsky u pólů rozprostřou na větší plochu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718",
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "teplota-nadmorska-vyska-hustota",
+    "title": "Teplota vzduchu v různých nadmořských výškách",
+    "aliases": [
+      "proč je v horách zima",
+      "výšková stupňovitost",
+      "teplota a nadmořská výška",
+      "hustota vzduchu"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zdůvodní pokles průměrné teploty vzduchu s nadmořskou výškou (výškovou stupňovitost) jako důsledek menší hustoty vzduchu",
+        "quote": "zdůvodní pokles průměrné teploty vzduchu s nadmořskou výškou (výškovou stupňovitost) jako důsledek menší hustoty vzduchu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč řidší vzduch drží méně tepla, a zkontroluje tvoje zdůvodnění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tabulky teplot na horách a přehledné texty o ovzduší."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Počasí v mapě ukáže rozdíl teplot mezi údolím a vrcholem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr na úpatí a na vrcholu hory ukáže, o kolik je nahoře chladněji."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24",
+      "http://data.europa.eu/esco/skill/840ea882-439c-4fa9-b219-edbe0607fe60"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "denni-chod-teploty-casove-pasmo",
+    "title": "Denní chod teploty a časový posun mezi poledníky",
+    "aliases": [
+      "proč je ráno chladno",
+      "časová pásma",
+      "poledníky",
+      "otáčení Země",
+      "čas ve světě"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zdůvodní denní chod teploty vzduchu a časový posun mezi poledníky jako důsledek rotace Země",
+        "quote": "zdůvodní denní chod teploty vzduchu a časový posun mezi poledníky jako důsledek rotace Země"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Země v pohybu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak otáčení Země střídá den a noc, a poradí s přepočtem času."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Časová pásma a tabulky času ve městech světa si snadno vyhledáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Světové hodiny ukážou, kolik je jinde, a animace Země ukáže, kde je den."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr měří teplotu během dne a globus se svítilnou ukáže, kde je právě den."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718",
+      "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rocni-chod-teploty-sklon-osy",
+    "title": "Roční období a sklon zemské osy",
+    "aliases": [
+      "proč jsou roční období",
+      "léto a zima",
+      "sklon osy",
+      "oběh Země kolem Slunce",
+      "polární den"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zdůvodní roční chod teploty vzduchu v různých zeměpisných šířkách jako důsledek sklonu zemské osy a oběhu Země kolem Slunce",
+        "quote": "zdůvodní roční chod teploty vzduchu v různých zeměpisných šířkách jako důsledek sklonu zemské osy a oběhu Země kolem Slunce"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Země v pohybu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se roční období střídají, a ověří tvoje zdůvodnění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky délky dne a grafy teplot v různých šířkách ti dají materiál k porovnání."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Animace oběhu Země kolem Slunce ukáže, jak se mění osvětlení během roku."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Globus a svítilna ti ukážou, jak sklon osy mění osvětlení v průběhu roku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718",
+      "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "voda-a-pevnina-teplotni-rozdily",
+    "title": "Teplota u moře a uvnitř kontinentu",
+    "aliases": [
+      "moře a pevnina",
+      "přímořské a vnitrozemské podnebí",
+      "proč se voda ohřívá pomalu",
+      "kontinentální podnebí"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zdůvodní teplotní rozdíly přímořských a kontinentálních oblastí jako důsledek odlišných tepelných vlastností vody a pevniny",
+        "quote": "zdůvodní teplotní rozdíly přímořských a kontinentálních oblastí jako důsledek odlišných tepelných vlastností vody a pevniny"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Podnebí doma a jinde",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se voda ohřívá a chladne pomaleji než souš, a zkontroluje tvoje zdůvodnění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Klimatické údaje přímořských a vnitrozemských měst si najdeš a porovnáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace počasí ukáže teploty u moře a ve vnitrozemí v jeden den."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr v písku a ve vodě ukáže, že se ohřívají rozdílně rychle."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24",
+      "http://data.europa.eu/esco/skill/840ea882-439c-4fa9-b219-edbe0607fe60"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "proudeni-vzduchu-vystupy-vzduchu",
+    "title": "Pohyby vzduchu a stoupající teplý vzduch",
+    "aliases": [
+      "proč fouká vítr",
+      "stoupavé proudy",
+      "ohřívání vzduchu",
+      "vzduchové proudění",
+      "větry"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí pohyby vzduchu jeho nerovnoměrným prohříváním a určí oblasti a příslušné sezóny, kde, resp. kdy dochází k výstupům vzduchu",
+        "quote": "vysvětlí pohyby vzduchu jeho nerovnoměrným prohříváním a určí oblasti a příslušné sezóny, kde, resp. kdy dochází k výstupům vzduchu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč teplý vzduch stoupá, a ověří, kde a kdy podle tebe vystupuje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapy proudění a texty o větrech ti ukážou, kde vzduch stoupá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa větru ukazuje, odkud a kam vzduch proudí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr a papírová spirála nad svíčkou nebo lampou ukážou stoupání teplého vzduchu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/840ea882-439c-4fa9-b219-edbe0607fe60",
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "oteplovani-klimatu-energie-zeme",
+    "title": "Oteplování klimatu a energie přicházející na Zemi",
+    "aliases": [
+      "globální oteplování",
+      "změna klimatu",
+      "skleníkový efekt",
+      "energie Slunce a Země"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí současné oteplování klimatu jako důsledek narušení rovnováhy mezi energií na Zemi přicházející a Zemi opouštějící",
+        "quote": "vysvětlí současné oteplování klimatu jako důsledek narušení rovnováhy mezi energií na Zemi přicházející a Zemi opouštějící"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí skleníkový efekt jednoduše a ověří tvoje vysvětlení oteplování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Údaje o oteplování a texty o skleníkovém efektu najdeš na jednom místě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Grafy teplot po letech ukážou, jak se klima mění."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rovnováhu energie Země nezměříš žádným jednoduchým nástrojem po ruce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kde-je-tepleji-porovnani-mist",
+    "title": "Kde je tepleji: srovnání dvou míst a cestovní ruch",
+    "aliases": [
+      "porovnání teplot",
+      "kam na dovolenou",
+      "počasí na dovolené",
+      "teplota dvou míst"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Odvodí, ve kterém ze dvou míst je v daném čase pravděpodobně tepleji, svůj odhad zdůvodní a diskutuje o vlivu na turismus v dané oblasti.",
+        "quote": "Odvodí, ve kterém ze dvou míst je v daném čase pravděpodobně tepleji, svůj odhad zdůvodní a diskutuje o vlivu na turismus v dané oblasti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kde je tepleji? Porovnání teplot napříč světem",
+        "url": "https://uloziste.rvp.cz/material/f3c881"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou tvůj odhad a ukáže, co jsi nezvážil."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Klimatické tabulky obou míst najdeš a odhad si ověříš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Předpověď a mapa teplot ukážou, kde je v daném týdnu tepleji."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas s mapou teplot ti pomůže odhadnout, kde je kdy tepleji."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718",
+      "http://data.europa.eu/esco/skill/fa64c52c-08cf-4074-bc9b-a93075802166"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

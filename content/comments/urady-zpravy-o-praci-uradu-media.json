@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "O tom, co dělá radnice nebo ministerstvo, se většina lidí dozví ze zpráv: z obecního zpravodaje, místních novin nebo z internetu. Když takové zprávy umíš najít, zjistíš, co se v obci chystá, o čem zastupitelstvo hlasovalo a kde se dá ještě něco ovlivnit. Zpravodaj vydává přímo obec, a může tedy psát hlavně o tom, co se povedlo, kdežto nezávislé noviny se dívají i na chyby. Pracovně to sledují ti, kdo vedou obec nebo zasedají v zastupitelstvu, a taky kdo kreslí karikatury politiků. Vyhledávač zprávy najde rychle, vybrat ty o úřadech a poznat, kdo je napsal a proč, ale musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Hledací slova pro zprávy",
+      "text": "Požádej chatbota, ať navrhne slova, podle kterých hledat zprávy o tvé obci a jejím úřadu. Hledej ve vyhledávači a zapiš si, která slova vedla k užitečným článkům."
+    },
+    {
+      "title": "Třídění nalezených titulků",
+      "text": "Vlož chatbotovi pět titulků, které se ti podařilo najít, a nech ho navrhnout, podle čeho je roztřídit. Roztřiď je nejdřív podle svého a pak porovnej."
+    },
+    {
+      "title": "Stejná událost ze dvou stran",
+      "text": "Najdi jednu událost z obce ve zpravodaji i v jiném médiu a oba texty dej chatbotovi. Ať se tě ptá, v čem se liší a proč, a každé jeho shrnutí ověř v původních článcích."
+    }
+  ]
+}

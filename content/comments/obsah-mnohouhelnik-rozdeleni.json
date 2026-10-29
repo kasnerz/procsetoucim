@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Pokoj tvaru L nebo střecha z několika šikmých ploch nemají žádný jednoduchý vzorec na obsah. Takový útvar se rozdělí na obdélníky a trojúhelníky, nebo se doplní na větší obdélník a kus navíc se odečte. Přesně tak postupuje, kdo obkládá koupelnu s výklenkem nebo měří pozemek pro katastr. Aplikace s geometrií útvar rozdělí za tebe, ale vymyslet, kde ho rozdělit, je právě to, co se tu trénuje, a stejně se dá rozložit na menší kusy i úloha, která na první pohled vypadá těžce.",
+  "learnWithAi": [
+    {
+      "title": "Útvary tvaru L a T",
+      "text": "Nakreslete s rodičem na čtverečkovaný papír útvar tvaru L nebo T a zkus ho rozdělit na obdélníky. Potom poproste chatbota o jiné rozdělení a porovnejte, jestli vyšel stejný obsah."
+    },
+    {
+      "title": "Nápověda k rozdělení útvaru",
+      "text": "Když nevíš, kde útvar rozdělit, popište ho s rodičem chatbotu a chtějte jen nápovědu, ne výsledek. Počítat pak budeš ty."
+    },
+    {
+      "title": "Půdorys vlastního pokoje",
+      "text": "Změřte s rodičem pokoj nebo chodbu, nakresli půdorys a vypočítej obsah rozdělením na části. Chatbot zkontroluje postup, čísla si ale přepočítejte na kalkulačce, v delších výpočtech se může splést."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "outcome": "INF-INF-001-ZV5-003",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Pracuje s jednou i s více podmínkami v zadání.",
+      "cards": [
+        "inf-vice-podminek-v-zadani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Znázorní běžnou situaci pomocí modelu.",
+      "cards": [
+        "inf-nakres-situace-jako-model"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkoumá jednoduchý model a určuje základní prvky (např. zastávky na mapě sítě veřejné dopravy).",
+      "cards": [
+        "inf-prvky-a-znacky-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozpoznává jednoduché vztahy mezi prvky (např. spojení mezi dvěma zastávkami).",
+      "cards": [
+        "inf-vztahy-mezi-prvky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětluje, co základní prvky a symboly v modelu představují (např. čára je spojení, bod je zastávka).",
+      "cards": [
+        "inf-prvky-a-znacky-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyvozuje základní informace z modelu (např. určí trasu mezi dvěma zastávkami).",
+      "cards": [
+        "inf-trasa-v-planku-site"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Určuje, které informace lze z modelu přímo získat (např. spojení mezi zastávkami), a které nelze.",
+      "cards": [
+        "inf-co-model-rika-a-nerika"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozezná všechny relevantní prvky modelu, včetně složitějších komponent.",
+      "cards": [
+        "inf-prvky-a-znacky-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí a popíše různé typy vztahů mezi prvky.",
+      "cards": [
+        "inf-vztahy-mezi-prvky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše účel modelu a význam různých symbolů a značek, včetně méně zjevných prvků.",
+      "cards": [
+        "inf-prvky-a-znacky-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyčte, odvodí a odhadne informace z modelu, zdůvodní své rozhodnutí.",
+      "cards": [
+        "inf-co-model-rika-a-nerika"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Odvodí informace z jednoduchého modelu.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

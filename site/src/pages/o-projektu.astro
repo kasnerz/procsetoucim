@@ -1,0 +1,936 @@
+---
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import SectionHead from "../components/SectionHead.astro";
+import Paper from "../components/Paper.astro";
+import {
+  TOOLS,
+  VERDICT,
+  RULES,
+  activities,
+  coverage,
+  meta,
+  CEDEFOP_CITE,
+} from "../lib/data";
+const reviewed = activities.filter((a) => a.review.reviewed).length;
+const CEDEFOP = CEDEFOP_CITE;
+const builtIso: string | null = meta.buildDate ?? meta.build_date ?? null;
+// "2026-10-29" -> "29. 10. 2026", like the other dates on the page.
+const built = builtIso?.replace(/^(\d{4})-(\d{2})-(\d{2}).*/, (_, y, m, d) => `${+d}. ${+m}. ${y}`) ?? null;
+const covs = Object.values(coverage);
+const nPoints = covs.reduce((n, c) => n + c.points.length, 0);
+const nAside = covs.reduce(
+  (n, c) => n + c.points.filter((p) => p.aside).length,
+  0,
+);
+// This page speaks neutrally, without addressing the reader (user 2026-10-25); the shared tool and rule texts use
+// tykání elsewhere on the site, so the page has its own wording where they differ.
+const TOOL_DESC: Record<string, string> = {
+  chatbot:
+    "Dostane zadání a odpoví celými větami. Třeba ChatGPT, Gemini nebo Claude.",
+  internet:
+    "Hotové informace k dohledání: vyhledávač, Wikipedie, Internetová jazyková příručka, encyklopedie.",
+};
+const RULE_TEXT: Record<string, string> = {
+  P1: "Z věty v RVP vznikne krátký název činnosti, třeba „Měření pH roztoků“. Nic se nepřidává.",
+  P2: "Odborné výrazy nahradíme běžnými slovy nebo je vysvětlíme v názvu. Pojmy, které se mají děti naučit, necháme.",
+};
+---
+
+<Base title="O projektu">
+  <div class="wrap page">
+    <section class="lead col">
+      <h1>O projektu</h1>
+      <p class="lede">
+        <i>„Proč se to učím?“</i> To je otázka, kterou si žáci kladli vždycky – dnes
+        ale nabývá na zvláštní intenzitě. Schopnosti AI nástrojů dosáhly takové úrovně,
+        že se přímo nabízí ztratit motivaci se učit a hodit vzdělání za hlavu. Nebo
+        ne?
+      </p>
+
+      <p class="lede">
+        Tento projekt se snaží ukázat, že <b>AI je jen další nástroj</b> – stejně
+        jako kalkulačka, internet nebo mobilní telefon. Nic z toho nenahradí potřebu
+        „mít něco v hlavě“.
+      </p>
+      <p class="lede">
+        Ano, AI zvládne (téměř) všechno. Kdo si ale bude muset od AI pokaždé
+        nechávat kontrolovat český pravopis, překládat anglické texty, řešit
+        logické úlohy nebo vysvětlovat mapu okolí, <b
+          >bude za ostatními pozadu</b
+        >. AI za nás také nebude hrát v kapele ani nám nebude zlepšovat fyzickou
+        kondici. A měli bychom se mít na pozoru, když nám řekne, koho volit.
+      </p>
+      <svg
+        class="scene"
+        viewBox="0 0 520 196"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path
+          d="M8 182C90 179.5 170 183 262 181C350 179 436 182.5 512 180.5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          opacity=".45"></path>
+        <g transform="rotate(-6 260 48)">
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+          >
+            <path
+              d="M242 26V18M254 26V18M266 26V18M278 26V18M242 70V78M254 70V78M266 70V78M278 70V78M232 36H224M232 44H224M232 52H224M232 60H224M288 36H296M288 44H296M288 52H296M288 60H296"
+            ></path>
+            <path
+              d="M233 27C250 25.5 270 25.5 287.5 26.5L288 69.5C270 70.5 250 70.5 232.5 69.5Z"
+              fill="#fff"
+              stroke-linejoin="round"></path>
+          </g>
+          <circle cx="239" cy="33" r="1.8" fill="currentColor"></circle>
+          <g
+            fill="none"
+            stroke="var(--red)"
+            stroke-width="3.4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M246 61L253.5 37L261 61M248.8 53H258.4"></path>
+            <path d="M271 37V61M266 37H276M266 61H276"></path>
+          </g>
+        </g>
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          opacity=".55"
+        >
+          <path d="M196 38H212M190 50H208M198 62H212"></path>
+        </g>
+
+        <g transform="translate(260 180) scale(1.12) translate(-260 -180)">
+          <g
+            fill="none"
+            stroke="var(--blue)"
+            stroke-width="2.4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="260" cy="117" r="9" fill="#fff"></circle>
+            <path d="M260 126V156M260 156L250 180M260 156L270 180"></path>
+            <path d="M260 134L247 146L238 137M260 134L273 146L282 137"></path>
+            <path
+              d="M281 99C281.5 94 289 93.5 290 98.5C290.5 102 286 103 286 107"
+            ></path>
+          </g>
+          <circle cx="256.5" cy="113" r="1.4" fill="var(--blue)"></circle>
+          <circle cx="263.5" cy="113" r="1.4" fill="var(--blue)"></circle>
+          <circle cx="286" cy="112" r="1.6" fill="var(--blue)"></circle>
+        </g>
+
+        <g
+          fill="none"
+          stroke="var(--red)"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="57" cy="117" r="8" fill="#fff"></circle>
+          <path d="M55 125L48 152M48 152L59 165L56 180M48 152L39 166L28 161"
+          ></path>
+          <path d="M53.5 132L63 140L70 133M53.5 132L44 139L37 135"></path>
+        </g>
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          opacity=".55"
+        >
+          <path d="M14 128H26M10 139H24M16 150H26"></path>
+        </g>
+
+        <g
+          fill="none"
+          stroke="var(--red)"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M146.5 111.5C153 111 156 117 152.5 124"></path>
+          <circle cx="140" cy="116" r="8" fill="#fff"></circle>
+          <path d="M140 124V136"></path>
+          <path d="M140 131L128 160H152Z" fill="url(#hatch-red)"></path>
+          <path d="M134 160L133 180M146 160L147 180"></path>
+        </g>
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="135" cy="146.5" r="6.5"></circle>
+          <circle cx="126" cy="152.5" r="8.5"></circle>
+          <g fill="#fff" stroke="none"
+            ><circle cx="135" cy="146.5" r="5.4"></circle><circle
+              cx="126"
+              cy="152.5"
+              r="7.4"></circle></g
+          >
+          <path d="M137 145L163 127M163 127L167.5 122.5"></path>
+          <circle cx="130" cy="149.5" r="2.2"></circle>
+          <path d="M121 157L124.5 154.5"></path>
+        </g>
+        <g
+          fill="none"
+          stroke="var(--red)"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M140 129L133 140L134 148M140 129L152 133L157 130.5"></path>
+          <path d="M165.5 104V92C169 93.5 171 96 170.5 100M178 96V86.5"></path>
+        </g>
+        <circle cx="163" cy="104.5" r="2.8" fill="var(--red)"></circle>
+        <circle cx="175.8" cy="96.5" r="2.4" fill="var(--red)"></circle>
+
+        <g
+          fill="none"
+          stroke="var(--red)"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="380" cy="117" r="8" fill="#fff"></circle>
+          <path d="M380 125V156M380 156L372 180M380 156L388 180"></path>
+          <path d="M380 130L367 139M380 130L393 139"></path>
+        </g>
+        <path
+          d="M362 134L372 137L382 134L392 137L402 134L402 153L392 156L382 153L372 156L362 153Z"
+          fill="#fff"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linejoin="round"></path>
+        <path
+          d="M372 137V156M382 134V153M392 137V156"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+          opacity=".5"></path>
+        <path
+          d="M366 150C371 142 378 150 384 144C388 140 391 143 393 142"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          stroke-dasharray="2 3"></path>
+        <path
+          d="M394.5 139.5L399.5 144.5M399.5 139.5L394.5 144.5"
+          fill="none"
+          stroke="var(--red)"
+          stroke-width="2"
+          stroke-linecap="round"></path>
+
+        <g
+          fill="none"
+          stroke="var(--red)"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M455.5 111.5C449 111 446 117 449.5 124"></path>
+          <circle cx="462" cy="116" r="8" fill="#fff"></circle>
+          <path d="M462 124V136"></path>
+          <path d="M462 131L450 160H474Z" fill="url(#hatch-red)"></path>
+          <path d="M456 160L455 180M468 160L469 180"></path>
+          <path d="M462 130L476 135L488 138.5M462 130L455 146"></path>
+        </g>
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M486.5 132.5L498 130.5L501 151.5L489.5 153.5Z" fill="#fff"
+          ></path>
+          <path
+            d="M478 151C490 150 502 150 512 151L511.5 180.5C501 181 489 181 478.5 180.5Z"
+            fill="#fff"></path>
+        </g>
+        <path
+          d="M490.5 140.5L493 143.5L497 136.5"
+          fill="none"
+          stroke="var(--blue)"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"></path>
+      </svg>
+    </section>
+
+    <section class="lead col" aria-labelledby="m0">
+      <SectionHead id="m0" icon="lifebuoy">AI jako schopný pomocník</SectionHead
+      >
+      <p class="lede">
+        Nechceme ale AI shazovat. Tenhle projekt třeba AI využívá naplno. A i
+        tak to byla makačka!
+      </p>
+
+      <p class="lede">
+        Nechali jsme AI modely <b>
+          rozebrat <a href="https://prohlednout.rvp.cz"
+            >nové RVP pro základní školy</a
+          > bod po bodu
+        </b>. Ke každé věci, kterou se žáci učí, jsme nechali AI zanalyzovat, k
+        čemu může být dobré se ji učit. Tento názor jsme podložili veřejně dostupnými
+        daty o povoláních a budoucnosti práce z evropských a mezinárodních
+        zdrojů (ESCO, Cedefop, ILO).
+      </p>
+      <p class="lede">
+        Pro vzdělávací systém je zároveň AI velká změna! Ale především díky
+        tomu, že umožňuje učit se řadu věcí snáz. Proto jsme přidali i nápady,
+        jak <b>využít AI k efektivnějšímu učení</b>.
+      </p>
+    </section>
+
+    <section class="lead col" aria-labelledby="m0-slop">
+      <SectionHead id="m0-slop" icon="feedback-loop"
+        >Slop? Ne, jen výchozí bod</SectionHead
+      >
+      <p class="lede">
+        Jak už to tak u projektů využívajících AI bývá, i přes hezký kabátek zde
+        může být řada věcí nedotažená.
+      </p>
+      <p class="lede">
+        Zásadní je proto feedback od žáků, rodičů, učitelů i veřejnosti. Vidíte
+        nepravdivé tvrzení? Nahlaste ho! Chcete web zlepšit? Napište jak!
+      </p>
+      <p class="lede">
+        Obecný feedback můžete poslat přes <b
+          ><a href="/kontakt/">kontaktní formulář</a></b
+        >. Každá karta zároveň obsahuje možnost nahlásit chybu nebo rovnou
+        navrhnout zlepšení: stačí kliknout na ikonu tužky v pravém horním rohu
+        karty.
+      </p>
+      <svg
+        class="scene"
+        viewBox="0 46 520 142"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path
+          d="M8 182C90 179.5 170 183 262 181C350 179 436 182.5 512 180.5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          opacity=".45"></path>
+        <g transform="translate(-30 0)">
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M130.5 96C122 89 122.5 74.5 136 74C149.5 74.5 150 89 141.5 96L141 102H131Z"
+              fill="#fff"></path>
+            <path d="M132 106H140.5M133.5 110H139"></path>
+          </g>
+          <path
+            d="M132.5 96L134 88.5L136 93.5L138 88.5L139.5 96"
+            fill="none"
+            stroke="var(--red)"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"></path>
+          <path
+            d="M136 67V61M121.5 74.5L117 71M150.5 74.5L155 71M118 86.5H112.5M154 86.5H159.5"
+            fill="none"
+            stroke="var(--red)"
+            stroke-width="2"
+            stroke-linecap="round"></path>
+
+          <g
+            fill="none"
+            stroke="var(--blue)"
+            stroke-width="2.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M113.5 111.5C107 111 104 117 107.5 124"></path>
+            <circle cx="120" cy="116" r="8" fill="#fff"></circle>
+            <path d="M120 124V136"></path>
+            <path d="M120 131L108 160H132Z" fill="url(#hatch-blue)"></path>
+            <path d="M114 160L113 180M126 160L127 180"></path>
+            <path d="M120 131L130 139L141 135M120 132L128 147L141 145"></path>
+          </g>
+          <g transform="rotate(-5 152 137)">
+            <path
+              d="M141 124C148 123.5 155 123.5 163 124.5L162 150C155 150.5 148 150.5 141.5 150Z"
+              fill="#fff"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linejoin="round"></path>
+            <path
+              d="M145.5 135H156M145.5 140H158M145.5 145H153"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+              stroke-linecap="round"
+              opacity=".5"></path>
+            <path
+              d="M154.5 131.5L159.5 126.5"
+              fill="none"
+              stroke="var(--blue)"
+              stroke-width="2.4"
+              stroke-linecap="round"></path>
+          </g>
+
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            opacity=".55"
+          >
+            <path d="M200 142C224 136.5 252 137 282 140.5"></path>
+            <path d="M273 134L283 140.8L274 147"></path>
+          </g>
+
+          <g
+            fill="none"
+            stroke="var(--blue)"
+            stroke-width="2.2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M333.5 111.5C327 111 324 117 327.5 124"></path>
+            <circle cx="340" cy="116" r="8" fill="#fff"></circle>
+            <path d="M340 124V136"></path>
+            <path d="M340 131L328 160H352Z" fill="url(#hatch-blue)"></path>
+            <path d="M334 160L333 180M346 160L347 180"></path>
+            <path d="M340 130L354 126L363 112M340 131L332 146"></path>
+          </g>
+          <path
+            d="M367 106C385 93 404 83 429 79"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-dasharray="2 3"></path>
+          <g
+            fill="#fff"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linejoin="round"
+          >
+            <path d="M476 60L433 72L447 78.5Z"></path>
+            <path d="M476 60L447 78.5L451.5 92Z"></path>
+          </g>
+          <path
+            d="M408 63H422M416 53H428"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            opacity=".55"></path>
+        </g>
+      </svg>
+    </section>
+
+    <Paper
+      as="article"
+      seed="about/method"
+      tilt={0.12}
+      depth={4}
+      class="method"
+      tone="var(--paper-sheet)"
+      aria-labelledby="h-method"
+    >
+      <h2 id="h-method" class="method-title">Metodika</h2>
+      <section class="section col" aria-labelledby="m1">
+        <SectionHead level={3} id="m1" icon="book"
+          >Z čeho projekt vychází</SectionHead
+        >
+        <div class="prose">
+          <p>
+            Vycházíme z nového <a href="https://prohlednout.rvp.cz"
+              >Rámcového vzdělávacího programu pro základní vzdělávání (RVP ZV)</a
+            >, který vydává <a href="https://www.npi.cz"
+              >Národní pedagogický institut</a
+            >. RVP říká, co mají děti umět do konce 3., 5. a 9. třídy. Každý cíl
+            má v RVP popsané úrovně (Na začátku, Na cestě, Splněno a minimální
+            doporučenou úroveň) a ukázky úloh. Školy si podle RVP píšou vlastní
+            školní programy, takže přesný ročník se mezi školami liší. Proto
+            uvádíme jen to, do konce které třídy to RVP chce.
+          </p>
+          <p>
+            Každý řádek v popisu úrovní je jeden bod, třeba „Pracuje s legendou
+            a směrovou růžicí.“ Z bodů děláme karty: bod převedeme do jednoduché
+            řeči podle pěti pravidel. Oficiální znění bodu i použitá pravidla
+            jsou na každé kartě.
+          </p>
+        </div>
+        <ul class="prose rules small" id="pravidla">
+          {
+            Object.entries(RULES).map(([k, r]) => (
+              <li>
+                <span class="code">{k}</span> <strong>{r.name}.</strong>{" "}
+                {RULE_TEXT[k] ?? r.text}
+              </li>
+            ))
+          }
+        </ul>
+        <div class="prose">
+          <p>
+            Dva body o legendě a měřítku mapy tak daly jednu kartu „Legenda,
+            měřítko a směrová růžice“. Bod „Sčítá, odčítá, násobí a dělí v oboru
+            přirozených čísel do 10 000 pamětně i písemně.“ naopak čtyři,
+            protože kalkulačka u nich vychází pokaždé jinak. Bez karty zůstane
+            bod jen tehdy, když je stejný bod rozebraný u jiného cíle, když
+            popisuje postoj nebo způsob učení, nebo když shrnuje celý cíl.
+          </p>
+          <p class="small soft">
+            Zatím máme rozebraných {covs.length} cílů s {nPoints} body. Bez karty
+            z nich zůstalo {nAside}.
+          </p>
+        </div>
+      </section>
+
+      <section class="section col" aria-labelledby="m2">
+        <SectionHead level={3} id="m2" icon="ruler">Nástroje</SectionHead>
+        <div class="prose">
+          <p>
+            Projekt vysvětluje, proč je důležité obsah učiva znát a umět, i když
+            už to samé umí dělat i některé nástroje. Ty jsme rozdělili do čtyř
+            kategorií:
+          </p>
+        </div>
+        <ul class="tl">
+          {
+            TOOLS.map((t) => (
+              <li>
+                <>
+                  <Icon name={t.icon} size="28" />
+                  <span>
+                    <strong>{t.name}.</strong> {TOOL_DESC[t.id] ?? t.desc}
+                  </span>
+                </>
+              </li>
+            ))
+          }
+        </ul>
+        <div class="prose">
+          <p>
+            Původně jsme chtěli zjišťovat, jestli nějaké úlohy už umí daný
+            nástroj dělat kompletně sám a není tedy důvod se je nadále učit. Ale
+            dospěli jsme k tomu, že to <b>nikdy není tak úplně pravda</b>!
+            Kalkulačka sice spočítá libovolný příklad dokonale přesně – ale jsou
+            situace, kdy není čas kalkulačku vytahovat. AI přeloží libovolný
+            text do libovolného jazyka – ale nezaskočí do živé diskuze se
+            zahraničními kolegy.
+          </p>
+          <p>
+            Podobný argument se dá najít v podstatě kdekoliv. Proto u každého
+            nástroje pouze hodnotíme, jestli s danou věcí opravdu pomůže.
+          </p>
+        </div>
+      </section>
+
+      <section class="section col" aria-labelledby="m3">
+        <SectionHead level={3} id="m3" icon="chart-bar"
+          >Čísla o práci a škole</SectionHead
+        >
+        <div class="prose">
+          <p>
+            <strong>Práce.</strong> Ke každé kartě přiřadíme dovednosti z evropské
+            databáze povolání ESCO. Pak spočítáme, kolik povolání je uvádí jako nezbytné
+            a kolik lidí v Česku v takových povoláních pracuje. Jak moc které z nich
+            dovednost opravdu využívá, odhaduje podle popisu povolání v ESCO rozhodovací
+            model Jev. Počty pracujících jsou po skupinách povolání podle prognózy
+            Cedefop. Když v jedné skupině potřebuje dovednost jen část povolání, počítáme
+            jen odpovídající část lidí. Dál ukazujeme, jak moc tato povolání mění
+            generativní AI podle indexu Mezinárodní organizace práce (ILO), a jestli
+            v nich podle Cedefop do roku 2035 spíš přibude, nebo ubude míst. Stránka
+            povolání má i štítky ze sbírek ESCO. Výzkumná povolání ESCO označuje samo.
+            Zelené a digitální dovednosti počítáme: štítek dostane povolání, u kterého
+            do sbírky patří aspoň pětina dovedností a znalostí, které u něj ESCO uvádí.
+          </p>
+          <p>
+            <strong>Skupiny povolání.</strong> Prognóza Cedefop jde nejpodrobněji
+            do 40 skupin povolání (CZ-ISCO, dvoumístný kód), ne k jednotlivým povoláním.
+            Stránka povolání proto ukazuje čísla pro celou skupinu, kam povolání patří:
+            kolik lidí v ní v Česku pracuje v roce 2025 a kolik jich bude pracovat
+            v roce 2035, kolik míst bude do roku 2035 potřeba obsadit a jaké vzdělání
+            v ní lidé budou mít. Místa k obsazení počítáme jako Cedefop: lidé, kteří
+            ze skupiny odejdou, plus změna počtu míst. Armádu prognóza nezahrnuje.
+            Každá skupina má i vlastní stránku se seznamem svých povolání. U řádků
+            s povoláními ukazujeme jen odhad ILO, který jde až ke čtyřmístným skupinám.
+          </p>
+          <p>
+            <strong>Škola.</strong> RVP propojuje cíle mezi sebou. Počítáme, kolik
+            dalších cílů na daném cíli staví a s kolika klíčovými kompetencemi a gramotnostmi
+            souvisí.
+          </p>
+        </div>
+      </section>
+
+      <section class="section col" aria-labelledby="m4">
+        <SectionHead level={3} id="m4" icon="sparkles"
+          >Co psala umělá inteligence</SectionHead
+        >
+        <div class="prose">
+          <p>
+            Názvy karet a přiřazení pravidel, hodnocení nástrojů a výběr
+            dovedností z ESCO navrhuje jazykový model Claude od firmy Anthropic,
+            u většiny cílů menší model Claude Sonnet. Texty „Proč se to učíš“ a
+            „Jak se to učit s AI“ píše větší model Claude Opus. Krátké popisy,
+            jak dovednost používají jednotlivá povolání, píše Claude Sonnet
+            podle popisů povolání v ESCO. Jak moc povolání dovednost využívá,
+            odhaduje model Jev. Čísla o povoláních a pracovním trhu počítá
+            program přímo z dat, bez AI.
+          </p>
+          <!-- <p>
+            U každé karty píšeme, jestli ji zkontroloval člověk. Zatím je
+            zkontrolovaných {reviewed} z {activities.length}.
+          </p> -->
+        </div>
+      </section>
+
+      <section class="section col" aria-labelledby="m5">
+        <SectionHead level={3} id="m5" icon="triangle-alert"
+          >Kde se můžeme mýlit</SectionHead
+        >
+        <ul class="prose limits">
+          <li>
+            Zjednodušení je úsudek, i když se drží pravidel. Proto je na každé
+            kartě oficiální znění bodu, ze kterého vznikla.
+          </li>
+          <li>
+            Dovednosti v ESCO jsou často obecné, třeba „provádět výpočty“. Mezi
+            povoláními u karty jsou proto i taková, kde se hodí jen malá část
+            toho, co karta popisuje. Popisy povolání to říkají.
+          </li>
+          <li>
+            ESCO popisuje povolání v celé Evropě, ne přímo v Česku. Dovednosti v
+            něm jsou obecné, takže několik různých věcí ze školy má stejná čísla
+            o práci. Rozdíl mezi nimi pak dělá hlavně hodnocení nástrojů.
+          </li>
+          <li>
+            ESCO uvádí dovednost jen u povolání, kde je výslovně důležitá.
+            Pravopis tak ESCO uvádí hlavně u jazykových povolání, i když psát
+            bez chyb se hodí skoro všude. Čísla o práci proto spíš podhodnocují
+            běžné dovednosti.
+          </li>
+          <li>
+            Index ILO měří, jakou část úkolů v práci zvládne generativní AI.
+            Neříká, kolik míst zanikne. Většina povolání se spíš promění.
+          </li>
+          <li>
+            Jedna skupina povolání v prognóze Cedefop zahrnuje desítky různých
+            povolání. O jednom konkrétním povolání tak její čísla říkají jen
+            málo.
+          </li>
+          <li>
+            Prognóza Cedefop je orientační a má velkou nejistotu. U malých
+            skupin povolání (pod 10 000 lidí) ji bereme s velkou rezervou.
+          </li>
+          <li>
+            Nástroje se rychle mění. Hodnocení odpovídá stavu na podzim 2026.
+          </li>
+        </ul>
+      </section>
+
+      <section class="section col" aria-labelledby="m6">
+        <SectionHead level={3} id="m6" icon="bookmark"
+          >Zdroje a citace</SectionHead
+        >
+        <ul class="prose sources small">
+          <li>
+            Národní pedagogický institut ČR: Rámcový vzdělávací program pro
+            základní vzdělávání, otevřená data ze 16. 12. 2025. <a
+              href="https://prohlednout.rvp.cz"
+              rel="external">prohlednout.rvp.cz</a
+            >
+          </li>
+          <li>
+            ESCO – European Skills, Competences, Qualifications and Occupations,
+            v1.2.1, Evropská komise. <a
+              href="https://esco.ec.europa.eu"
+              rel="external">esco.ec.europa.eu</a
+            >
+          </li>
+          <li>
+            Gmyrek, P. a kol. (2025): Generative AI and Jobs: A Refined Global
+            Index of Occupational Exposure. ILO Working Paper 140. Data CC BY
+            4.0. <a
+              href="https://github.com/pgmyrek/2025_GenAI_scores_ISCO08"
+              rel="external">github.com/pgmyrek/2025_GenAI_scores_ISCO08</a
+            >
+          </li>
+          <li>{CEDEFOP}</li>
+          <li>
+            Ikony: Matita (matita.dev), licence MIT. Několik ikon jsme
+            dokreslili ve stejném stylu.
+          </li>
+        </ul>
+        {built && <p class="tiny soft">Data naposledy zpracována {built}.</p>}
+      </section>
+    </Paper>
+
+    <section class="lead col" aria-labelledby="m-who">
+      <SectionHead id="m-who" icon="user">Kdo za tím stojí</SectionHead>
+      <p class="lede">
+        Projekt vytvořil <b>Zdeněk Kasner</b>: freelancer, lektor, programátor a
+        blogger. Donedávna působil v akademické sféře, nyní pomáhá s nasazením
+        AI modelů na vlastním hardwaru. Více na <a
+          href="https://zdenekkasner.cz/cs/">zdenekkasner.cz</a
+        >.
+      </p>
+      <svg
+        class="scene"
+        viewBox="0 50 520 138"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path
+          d="M8 182C90 179.5 170 183 262 181C350 179 436 182.5 512 180.5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          stroke-linecap="round"
+          opacity=".45"></path>
+
+        <g
+          fill="#fff"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M96 165C110 164.5 128 164.5 142 165.5L141.5 180.5C128 181 110 181 96.5 180.5Z"
+          ></path>
+          <path
+            d="M100 151C112 150.5 126 150.5 138 151.5L138.5 165C126 165.5 112 165.5 100.5 165Z"
+          ></path>
+          <path
+            d="M103 139C113 138.5 124 138.5 134 139.5L133.5 151C124 151.5 113 151.5 103.5 151Z"
+            transform="rotate(-7 118 145)"></path>
+        </g>
+        <path
+          d="M101 172.5H137M105 158H133"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+          stroke-linecap="round"
+          opacity=".5"></path>
+
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M186 138L176 181M274 138L284 181M178 141H282"></path>
+          <path
+            d="M172 66C205 64.5 250 64.5 288 66.5L287 139C250 140 205 140 172.5 139Z"
+            fill="#fff"></path>
+        </g>
+        <path
+          d="M192 88L192 112M192 88L211 112M211 88L192 112M211 88L211 112M211 88L230 112M230 88L211 112M230 88L230 112M230 88L249 112M249 88L230 112M249 88L249 112"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.2"
+          opacity=".35"></path>
+        <g fill="none" stroke="var(--red)" stroke-linecap="round">
+          <path d="M268 88L192 112" stroke-width=".9"></path>
+          <path d="M268 88L211 112" stroke-width="1.4"></path>
+          <path d="M268 88L230 112" stroke-width="3.2"></path>
+          <path d="M268 88L249 112" stroke-width="1.8"></path>
+          <path d="M268 88L268 112" stroke-width="2.4"></path>
+        </g>
+        <g fill="#fff" stroke="currentColor" stroke-width="1.8">
+          <rect x="187" y="72" width="10" height="16"></rect>
+          <rect x="206" y="72" width="10" height="16"></rect>
+          <rect x="225" y="72" width="10" height="16"></rect>
+          <rect x="244" y="72" width="10" height="16"></rect>
+          <rect x="187" y="112" width="10" height="20"></rect>
+          <rect x="206" y="112" width="10" height="20"></rect>
+          <rect x="225" y="112" width="10" height="20"></rect>
+          <rect x="244" y="112" width="10" height="20"></rect>
+          <rect x="263" y="112" width="10" height="20"></rect>
+        </g>
+        <g fill="currentColor" opacity=".25">
+          <rect x="187" y="117" width="10" height="5"></rect>
+          <rect x="206" y="127" width="10" height="5"></rect>
+          <rect x="225" y="112" width="10" height="5"></rect>
+          <rect x="244" y="122" width="10" height="5"></rect>
+          <rect x="263" y="117" width="10" height="5"></rect>
+          <rect x="206" y="76" width="10" height="4"></rect>
+          <rect x="244" y="80" width="10" height="4"></rect>
+        </g>
+        <path
+          d="M187 117H197M187 122H197M187 127H197M206 117H216M206 122H216M206 127H216M225 117H235M225 122H235M225 127H235M244 117H254M244 122H254M244 127H254M263 117H273M263 122H273M263 127H273M187 76H197M187 80H197M187 84H197M206 76H216M206 80H216M206 84H216M225 76H235M225 80H235M225 84H235M244 76H254M244 80H254M244 84H254"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1"
+          opacity=".5"></path>
+        <rect
+          x="263"
+          y="72"
+          width="10"
+          height="16"
+          fill="url(#hatch-red)"
+          stroke="var(--red)"
+          stroke-width="2.2"></rect>
+
+        <g
+          fill="none"
+          stroke="var(--blue)"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="318" cy="116" r="8" fill="#fff"></circle>
+          <path d="M318 124V156M318 156L310 180M318 156L326 180"></path>
+          <path d="M318 131L302 124L285 113M318 131L327 146"></path>
+        </g>
+        <path
+          d="M285 113L277 107.5"
+          fill="none"
+          stroke="var(--red)"
+          stroke-width="3.4"
+          stroke-linecap="round"></path>
+
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M370 152L372 181M450 152L448 181"></path>
+          <path d="M364 150C390 149 430 149 456 150.5"></path>
+          <path
+            d="M392 124C402 123.5 414 123.5 424 124L423.5 145H392.5Z"
+            fill="#fff"></path>
+          <path d="M388 145.5H428L432 149.5H384Z" fill="#fff"></path>
+          <path d="M438 139H448L447 149H439Z" fill="#fff"></path>
+          <path d="M448 141.5C452 141.5 452 146.5 447.5 146.5"></path>
+        </g>
+        <path
+          d="M397 131H413M397 136H418M397 141H409M441 135C439.5 132 442.5 130 441 127M445 135C443.5 132 446.5 130 445 127"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.4"
+          stroke-linecap="round"
+          opacity=".5"></path>
+      </svg>
+    </section>
+  </div>
+</Base>
+<style>
+  .page {
+    display: grid;
+    gap: var(--s7);
+  }
+  .lead {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: var(--s3);
+  }
+  .section + .section {
+    margin-top: 0;
+  }
+  /* The method part sits on one big sheet of its own, so it reads apart from the intro on the bare page above. */
+  .method {
+    max-width: 920px;
+    width: 100%;
+    margin: var(--s5) auto 0;
+    padding: clamp(24px, 4vw, 48px) clamp(18px, 4.5vw, 52px);
+    display: grid;
+    gap: var(--s7);
+  }
+  .method-title {
+    text-align: center;
+    font-size: calc(clamp(2.3rem, 6vw, 3.4rem) * var(--title-scale));
+  }
+  .method :global(.head-title) {
+    font-size: calc(1.8rem * var(--title-scale));
+    font-weight: var(--title-weight);
+  }
+  .section .prose,
+  .section .tl {
+    margin-inline: auto;
+  }
+  .lede {
+    font-size: 1.1875rem;
+    max-width: 58ch;
+  }
+  /* Doodles in the same pencil style as the home page offer cards. Under the lead: the AI chip above a helpless
+     blue stickman, red people around him doing what the paragraph says AI won't do for them. Under the feedback
+     section: a girl reading a card gets an idea, then sends it off as a paper plane. Under "Kdo za tím stojí": the
+     author, faceless, points a marker at token embeddings and attention lines on an easel, between books and a
+     table with a laptop and a mug of tea. */
+  .scene {
+    width: min(100%, 560px);
+    height: auto;
+    color: var(--ink);
+    margin-block: var(--s2);
+  }
+  .tl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--s3);
+    max-width: var(--measure);
+  }
+  .tl li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--s3);
+    align-items: center;
+  }
+  .limits,
+  .sources {
+    padding-left: 1.2em;
+    display: grid;
+    gap: var(--s2);
+  }
+  .sources li {
+    overflow-wrap: anywhere;
+  }
+  .rules {
+    list-style: none;
+    margin-inline: auto;
+    padding: 0;
+    display: grid;
+    gap: var(--s2);
+    color: var(--ink-soft);
+  }
+  .rules > * + * {
+    margin-top: 0;
+  }
+  .rules strong {
+    color: var(--ink);
+  }
+  .code {
+    font-family: var(--font-title);
+    font-weight: var(--title-weight-small);
+    color: var(--blue);
+    margin-right: 4px;
+  }
+  #pravidla {
+    scroll-margin-top: var(--s4);
+  }
+</style>

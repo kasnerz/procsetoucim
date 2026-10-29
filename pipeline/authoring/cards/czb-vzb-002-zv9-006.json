@@ -1,0 +1,346 @@
+{
+  "outcome": "CZB-VZB-002-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "zasady-zdraveho-zivotniho-stylu-denni-rezim",
+      "title": "Zásady zdravého životního stylu",
+      "aliases": [
+        "zdravý životní styl",
+        "pravidelná strava",
+        "pitný režim",
+        "spánek",
+        "zdravé návyky"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vysvětluje potřebu dodržovat pravidelný stravovací"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvádí argumenty, jimiž dokládá potřebu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvádí a zdůvodňuje zásady zdravého životního stylu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na konkrétních příkladech ilustruje význam pravidelného"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč tělo potřebuje pravidelné jídlo, pití a spánek, a zeptá se tě na příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Doporučení pro spánek a pitný režim si najdeš na stránkách o zdraví."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na pití vody nebo spánek ti ukáže, jak pravidelný režim vypadá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Láhev ani budík ti nevysvětlí, proč je pravidelnost důležitá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7"
+      ],
+      "inspiration": [
+        "Zdravotně preventivní chování"
+      ]
+    },
+    {
+      "slug": "sestaveni-dne-pracovni-a-vikendovy-rezim",
+      "title": "Denní režim pro školní a volný den",
+      "aliases": [
+        "rozvrh dne",
+        "denní plán",
+        "režim dne",
+        "plán na víkend",
+        "rozvrhnout čas"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše denní režim"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "sestaví denní režim školáka"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Sestavuje denní režim pro pracovní a víkendový den"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "popisuje jednotlivé činnosti, které tvoří náplň"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Z tvých zadání navrhne ukázkový rozvrh dne, který pak upravíš podle sebe."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Doporučené doby spánku a pohybu pro tvůj věk si najdeš na zdravotnických stránkách."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalendář nebo plánovač ti rozvrh dne rozloží do hodin a připomene ho."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, pravítko a pastelky stačí na nakreslení vlastního denního kruhu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622",
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+      ],
+      "inspiration": [
+        "Můj režim dne",
+        "Můj pracovní den"
+      ]
+    },
+    {
+      "slug": "ktere-cinnosti-dne-zdravi-prospivaji-a-skodi",
+      "title": "Prospěšné a rizikové činnosti dne",
+      "aliases": [
+        "co je zdravé",
+        "digitální zařízení",
+        "škodlivé návyky",
+        "mobil a zdraví",
+        "školní den"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvádí, které aktivity je vhodné zařazovat"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "tyto aktivity posuzuje z hlediska vlivu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyhodnotí, že mnoho aktivit denního režimu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, kdy je třeba mobil v pořádku a kdy už škodí, a ptá se na tvoje zvyky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na stránkách o zdraví najdeš doporučení k času u obrazovky i k pohybu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na sledování času u obrazovky ukáže, kolik ho opravdu trávíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Svůj den hodnotíš ty, žádný nástroj za tebe nerozhodne, co ti dělá dobře."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+        "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622"
+      ],
+      "inspiration": [
+        "Sledujeme, které činnosti tvoří náš školní den"
+      ]
+    },
+    {
+      "slug": "rizika-spatneho-denniho-rezimu-a-nemoci",
+      "title": "Rizika nevhodného denního režimu",
+      "aliases": [
+        "nezdravý režim",
+        "nedostatek spánku",
+        "nemoci z životního stylu",
+        "vliv na orgány",
+        "únava"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využívá znalosti a dovednosti o fungování organismu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Dává do souvislosti rizika nevhodného denního režimu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "dává do souvislostí správně nastavený denní režim"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyvozuje v diskuzích"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak málo spánku nebo pohybu zatěžuje tělo, a nechá tě důsledky shrnout vlastními slovy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a zdravotnické weby popisují, které nemoci souvisejí se spánkem, stravou a pohybem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Atlas lidského těla v aplikaci ukáže, které orgány režim ovlivňuje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tělesné soustavy za tebe nikdo nepropojí, teploměr ani váha důsledky režimu nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7",
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+      ],
+      "inspiration": [
+        "Učení a zdraví"
+      ]
+    },
+    {
+      "slug": "strideni-prace-a-odpocinku-aktivni-pasivni-odpocinek",
+      "title": "Střídání učení, pohybu a odpočinku",
+      "aliases": [
+        "aktivní odpočinek",
+        "pasivní odpočinek",
+        "stres",
+        "jak se uvolnit",
+        "únava"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zdůvodňuje potřebu střídání jednotlivých aktivit"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje aktivní a pasivní odpočinek"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi aktivním a pasivním odpočinkem a navrhne ti způsoby uvolnění."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody na dechová cvičení a uvolnění najdeš na webu nebo ve videu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s vedeným dýcháním tě krok za krokem provede uvolněním."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Uvolnit se musíš ty, procházka ani míč to za tebe neudělají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fbdfc3bf-56a0-4454-a17d-2f513fe57b53",
+        "http://data.europa.eu/esco/skill/b0f4dea9-2a99-449e-b042-9afada464cb1"
+      ]
+    },
+    {
+      "slug": "porovnani-vlastniho-rezimu-s-doporucenimi-a-uprava",
+      "title": "Úprava vlastního režimu podle doporučení",
+      "aliases": [
+        "změnit režim",
+        "rady odborníků",
+        "zdraví v médiích",
+        "vlastní návyky",
+        "zlepšit denní režim"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zamýšlí se nad vlastním denním režimem"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Aplikuje zásady zdravého životního stylu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Hodnotí adekvátní denní režim"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti rozlišit, co v internetové radě sedí s doporučením odborníků, a navrhne drobnou změnu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Oficiální doporučení si porovnáš s tím, co říkají videa a články."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Sledování spánku nebo kroků ukáže, jestli se tvoje změna povedla."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Změnu zvyků děláš ty každý den, deník ani budík ji za tebe neudělají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622",
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+      ],
+      "inspiration": [
+        "Zdravotně preventivní chování"
+      ]
+    }
+  ],
+  "aside": []
+}

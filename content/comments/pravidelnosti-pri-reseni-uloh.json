@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když v úloze objevíš pravidelnost, nemusíš počítat každý krok zvlášť: stačí si všimnout, že do kasičky každý den přibude stejně korun, a hned víš, kolik tam bude za měsíc. Takové úlohy jsou v matematice všude a na druhém stupni je budeš řešit rovnicemi. Hledat vzor v číslech je jádro práce lidí, kteří zpracovávají statistiky a data, a v práci, kde se to hodí, je zhruba 7 % lidí, kteří v Česku pracují. Tabulka v počítači ti řadu hodnot rozepíše, ale všimnout si vzoru a použít ho na úlohu musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Úloha s kasičkou",
+      "text": "Požádejte chatbota o slovní úlohu, ve které se něco každý den opakuje, třeba úspory v kasičce. Vyřešte ji spolu a zkuste přijít na zkratku, se kterou nemusíte počítat každý den zvlášť."
+    },
+    {
+      "title": "Tabulka ke slovní úloze",
+      "text": "Zapište si úlohu do tabulky a chatbota se zeptejte jen na to, jak ji rozvrhnout. Čísla doplňte vy a vzor hledejte v tabulce."
+    },
+    {
+      "title": "Kontrola vlastního postupu",
+      "text": "Napište svůj postup k úloze s pravidelností a dejte ho chatbotovi zkontrolovat. U delších výpočtů si výsledek ověřte kalkulačkou, chatbot se v počítání může splést."
+    }
+  ]
+}

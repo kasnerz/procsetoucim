@@ -1,0 +1,316 @@
+[
+  {
+    "slug": "tv-zasady-hygieny-a-bezpecnosti-pri-cviceni",
+    "title": "Hygiena a bezpečnost při cvičení",
+    "aliases": [
+      "pravidla v tělocvičně",
+      "oblečení na tělocvik",
+      "převlékání na tělák",
+      "bezpečnost v tělocvičně",
+      "hygiena po cvičení"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uplatňuje základní zásady bezpečnosti a hygieny při a po pohybových aktivitách.",
+        "quote": "Uplatňuje základní zásady bezpečnosti a hygieny při a po pohybových aktivitách."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Seznamuje se se základními zásadami hygieny a bezpečnosti při různých pohybových činnostech.",
+        "quote": "Seznamuje se se základními zásadami hygieny a bezpečnosti při různých pohybových činnostech."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zná základní zásady hygieny a bezpečnosti při různých pohybových činnostech.",
+        "quote": "Zná základní zásady hygieny a bezpečnosti při různých pohybových činnostech."
+      },
+      {
+        "level": "Splněno",
+        "point": "Uplatňuje základní zásady hygieny a bezpečnosti při různých pohybových činnostech.",
+        "quote": "Uplatňuje základní zásady hygieny a bezpečnosti při různých pohybových činnostech."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečná tělocvična",
+        "url": "https://uloziste.rvp.cz/material/a4b61f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se po cvičení myješ a co si obout, ale pravidla ti stejně řekne učitel."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam přehled pravidel pro tělocvičnu, hřiště nebo bazén a důvody, proč platí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Obouváš se, převlékáš a myješ se ty, aplikace to za tebe neudělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidla dodržuješ svým jednáním, žádný nástroj ti k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0c944316-12f6-4949-a156-a03dbaae790f",
+      "http://data.europa.eu/esco/skill/dcc96a49-0bac-4a9c-8f8e-a32b4e47e6eb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-vsimnout-si-nebezpeci-a-predchazet-urazu",
+    "title": "Všimnout si nebezpečí a předejít úrazu",
+    "aliases": [
+      "nebezpečí při tělocviku",
+      "upozornit učitele",
+      "úraz v tělocvičně",
+      "jak předejít úrazu",
+      "nebezpečná situace"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Uvědomuje si problém, který by mohl vést k ohrožení jeho bezpečí nebo bezpečí jiného žáka.",
+        "quote": "Uvědomuje si problém, který by mohl vést k ohrožení jeho bezpečí nebo bezpečí jiného žáka."
+      },
+      {
+        "level": "Splněno",
+        "point": "Upozorní na jakýkoli problém, který by mohl vést k ohrožení jeho bezpečí nebo bezpečí jiného žáka.",
+        "quote": "Upozorní na jakýkoli problém, který by mohl vést k ohrožení jeho bezpečí nebo bezpečí jiného žáka."
+      },
+      {
+        "level": "Splněno",
+        "point": "Svým jednáním předchází nebezpečným situacím.",
+        "quote": "Svým jednáním předchází nebezpečným situacím."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečná tělocvična",
+        "url": "https://uloziste.rvp.cz/material/a4b61f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Na příkladech ukáže, co bývá při sportu nebezpečné, a můžeš si to projít s rodiči."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popisy a fotky ukážou typické úrazy a jak jim předejít, třeba kluzkou podlahu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rozlišit nebezpečí v tělocvičně a říct to nahlas musíš ty, aplikace tam není."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozbitou žíněnku nebo mokrou podlahu poznáš očima ty a řekneš o tom učiteli."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317",
+      "http://data.europa.eu/esco/skill/dcc96a49-0bac-4a9c-8f8e-a32b4e47e6eb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-plavani-hygiena-bazen-adaptace-na-vodu",
+    "title": "Hygiena v bazénu a zvyknutí na vodu",
+    "aliases": [
+      "plavecký výcvik",
+      "sprcha před bazénem",
+      "pravidla v bazénu",
+      "bát se vody",
+      "plavání ve škole"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Adaptuje se na vodní prostředí, dodržuje hygienu plavání, zvládá v souladu s individuálními předpoklady plavecké dovednosti.",
+        "quote": "Adaptuje se na vodní prostředí, dodržuje hygienu plavání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Hygiena a bezpečnost při plaveckém výcviku",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se před bazénem sprchuješ, a poradí, jak se zbavit strachu z vody."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Řád bazénu a popisy plaveckého výcviku ukážou, co se v bazénu smí a nesmí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Do vody vstupuješ ty a zvykáš si na ni tělem, aplikace ti v tom nepomůže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Plavecké brýle a čepice se hodí, ale na vodu si zvykneš jen ve vodě ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0c944316-12f6-4949-a156-a03dbaae790f",
+      "http://data.europa.eu/esco/skill/eb0d83b2-3aa4-4a36-a60a-99b6746429e2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-plavani-plavecka-technika-v-bazenu",
+    "title": "Plavecká technika",
+    "aliases": [
+      "kraul",
+      "prsa",
+      "plavání",
+      "jak plavat",
+      "plavecký styl"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Adaptuje se na vodní prostředí, dodržuje hygienu plavání, zvládá v souladu s individuálními předpoklady plavecké dovednosti.",
+        "quote": "zvládá v souladu s individuálními předpoklady plavecké dovednosti."
+      },
+      {
+        "level": "Splněno",
+        "point": "Zvládá v souladu s individuálními předpoklady vybranou plaveckou techniku, prvky sebezáchrany a bezpečnosti.",
+        "quote": "Zvládá v souladu s individuálními předpoklady vybranou plaveckou techniku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hygiena a bezpečnost při plaveckém výcviku",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše záběr rukou a nohou a poradí, co zlepšit, plavat ale musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a obrázky ukážou správný záběr, třeba u kraulu nebo prsou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Plavat umíš jen tím, že plaveš ty, aplikace ti záběr nezacvičí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Plovací deska a ploutve ti pomohou procvičit nohy nebo ruce zvlášť."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/eb0d83b2-3aa4-4a36-a60a-99b6746429e2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-plavani-sebezachrana-ve-vode-pobrezni-hlidka",
+    "title": "Sebezáchrana a bezpečnost ve vodě",
+    "aliases": [
+      "tonutí",
+      "záchrana ve vodě",
+      "plavání v nouzi",
+      "bezpečně u vody",
+      "pobřežní hlídka"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zvládá v souladu s individuálními předpoklady vybranou plaveckou techniku, prvky sebezáchrany a bezpečnosti.",
+        "quote": "prvky sebezáchrany a bezpečnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Pobřežní hlídka",
+        "url": "https://uloziste.rvp.cz/material/75ed31"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se zachovat, když ti dojdou síly, a co dělat, když někdo tone."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zásady bezpečnosti u vody a postup při záchraně najdeš v ověřených příručkách."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Udržet se nad vodou nebo zavolat o pomoc musíš ty, aplikace tě nevytáhne."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Záchranný kruh nebo vesta tě udrží nad vodou, když si je umíš správně použít."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a7774bdc-de0f-423e-b527-ef1409fbee6a",
+      "http://data.europa.eu/esco/skill/eb0d83b2-3aa4-4a36-a60a-99b6746429e2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

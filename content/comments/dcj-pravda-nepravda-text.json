@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Rozhodnout, jestli věta odpovídá textu, znamená číst pozorně a nevěřit prvnímu dojmu. V cizím jazyce je to těžší, protože jedno malé slovo, třeba zápor, otočí smysl celé věty. Chatbot umí tvrzení s textem porovnat taky, občas se ale splete a jeho chybu odhalíš jen pozorným čtením. Totéž se ti hodí v češtině u návodu nebo zprávy na internetu a v práci to denně dělají lidé, kteří zkoumají staré dokumenty, píšou zprávy ze zahraničí nebo jednají s jinými státy.",
+  "learnWithAi": [
+    {
+      "title": "Pět tvrzení k příběhu",
+      "text": "Požádej chatbota o krátký příběh v cizím jazyce a pět tvrzení o něm, z nichž některá nesedí. U každého rozhodni, jestli platí, a pak si nech odpovědi zkontrolovat."
+    },
+    {
+      "title": "Past se záporem",
+      "text": "Nech chatbota napsat krátký popis a k němu dvojice tvrzení, která se liší jen jedním slovem, třeba záporem. Z každé dvojice vyber to, které odpovídá textu."
+    },
+    {
+      "title": "Tvrzení pro chatbota",
+      "text": "Přečti si krátký text z učebnice a vymysli k němu tři pravdivá a tři nepravdivá tvrzení v cizím jazyce. Pošli je chatbotovi i s textem, ať hádá on, a zkontroluj, jestli se trefil."
+    }
+  ]
+}

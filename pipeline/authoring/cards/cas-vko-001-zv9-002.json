@@ -1,0 +1,422 @@
+{
+  "outcome": "CAS-VKO-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "co-jsou-hodnoty",
+      "title": "Co jsou hodnoty",
+      "aliases": [
+        "hodnoty",
+        "co je pro mě důležité",
+        "respekt a odpovědnost",
+        "příklady hodnot"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vysvětlí, co si představuje pod hodnotami z nabídky příkladů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí hodnoty jednoduše a dá příklady z běžného života."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš seznamy hodnot a články, které je vysvětlují."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": [
+        "Hledáme hodnoty v (ne)obyčejných situacích!"
+      ]
+    },
+    {
+      "slug": "hodnoty-v-situacich",
+      "title": "Hodnoty v konkrétních situacích",
+      "aliases": [
+        "pomoc kamarádovi",
+        "kdy se hodnoty hodí",
+        "hodnoty v životě",
+        "příklad ze života"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvede příklad jednoduché situace (např. pomoc kamarádovi), kde by se jeho vybrané hodnoty mohly uplatnit"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "přiřadí tyto hodnoty ke konkrétním životním situacím"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "popíše, jak se prakticky žebříček hodnot odráží v různých situacích jeho života"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymýšlí situace, ve kterých si své hodnoty vyzkoušíš."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co je pro tebe důležité, ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c",
+        "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a"
+      ],
+      "inspiration": [
+        "Hledáme hodnoty v (ne)obyčejných situacích!"
+      ]
+    },
+    {
+      "slug": "zebricek-hodnot",
+      "title": "Můj žebříček hodnot",
+      "aliases": [
+        "seřadit hodnoty",
+        "co je pro mě nejdůležitější",
+        "osobní hodnoty"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "z nabídky sestavuje vlastní žebříček životních hodnot"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Sestaví vlastní žebříček životních hodnot."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Vytvoří svůj žebříček hodnot"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Tvůj žebříček sestavuje jen tvoje rozhodnutí, ne cizí odpověď."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co je pro tebe důležité, ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c",
+        "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a"
+      ],
+      "inspiration": [
+        "Moje deklarace lidských práv"
+      ]
+    },
+    {
+      "slug": "zduvodneni-hodnot",
+      "title": "Zdůvodnění výběru hodnot",
+      "aliases": [
+        "proč jsou to moje hodnoty",
+        "obhájit žebříček",
+        "vysvětlit svůj výběr"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zdůvodní svůj výběr životních hodnot."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se proč a hledá slabá místa v tvém zdůvodnění."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co je pro tebe důležité, ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c",
+        "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "konflikt-dvou-hodnot",
+      "title": "Konflikt dvou hodnot",
+      "aliases": [
+        "když si hodnoty odporují",
+        "etické dilema",
+        "těžké rozhodnutí",
+        "věrnost zásadám a tlak druhých"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "uvede příklad situace, kdy se dostal do konfliktu mezi dvěma svými hodnotami"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí dilemata, na kterých si konflikt dvou hodnot vyzkoušíš."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co je pro tebe důležité, ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c",
+        "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a"
+      ],
+      "inspiration": [
+        "Na čí straně je pravda? Malý výzkum o spravedlnosti"
+      ]
+    },
+    {
+      "slug": "vliv-prostredi-na-hodnoty",
+      "title": "Vliv prostředí na hodnoty",
+      "aliases": [
+        "kultura a hodnoty",
+        "rodina a hodnoty",
+        "proč mají lidé jiné hodnoty"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje na příkladu konkrétních lidí o vlivu sociálního a kulturního prostředí na utváření hodnot různých skupin lidí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná, v čem se liší hodnoty v různých kulturách a rodinách."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš texty o tom, jak žijí lidé v jiných zemích a obdobích."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c",
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ],
+      "inspiration": [
+        "Co odhaluje můj svět?",
+        "Hodnoty ve stopách"
+      ]
+    },
+    {
+      "slug": "porovnani-hodnot-se-spoluzakem",
+      "title": "Porovnání hodnot se spolužákem",
+      "aliases": [
+        "shoda a rozdíl hodnot",
+        "porovnat žebříčky",
+        "hodnoty kamaráda"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "porovná své hodnoty s hodnotami spolužáka a najde alespoň jednu shodu a jeden rozdíl"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Hodnoty spolužáka zjistíš jen z rozhovoru, chatbot je nezná."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co je důležité pro spolužáka, ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zmena-hodnot-v-case",
+      "title": "Změna hodnot v čase",
+      "aliases": [
+        "jak se hodnoty mění",
+        "co mě změní",
+        "dnes a za deset let"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje o tom, jak se jeho žebříček hodnot může měnit v průběhu času a co může tyto změny způsobit"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Jak se změní tvoje hodnoty, chatbot nevidí, zná jen průměr."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co je pro tebe důležité, ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c",
+        "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "jednani-s-odlisnymi-hodnotami",
+      "title": "Jednání s člověkem s jinými hodnotami",
+      "aliases": [
+        "když má druhý jiný názor",
+        "respekt k odlišnosti",
+        "modelová situace",
+        "domluva s jiným člověkem"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V modelové situaci předvede, jak se vhodně vypořádat s odlišným hodnotovým žebříčkem jiné osoby."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje člověka s jinými hodnotami, takže si rozhovor zkusíš nanečisto."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co je pro tebe důležité, ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342"
+      ],
+      "inspiration": [
+        "Na čí straně je pravda? Malý výzkum o spravedlnosti"
+      ]
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

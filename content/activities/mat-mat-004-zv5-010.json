@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "jiste-nahodne-nemozne-jevy",
+    "title": "Jisté, náhodné a nemožné jevy",
+    "aliases": [
+      "jisté a nemožné",
+      "vždy někdy nikdy",
+      "co se stane určitě",
+      "náhoda ve škole",
+      "náhodný jev"
+    ],
+    "outcome": "MAT-MAT-004-ZV5-010",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozlišuje situace, které nastanou vždy, nastanou někdy, nebo nenastanou nikdy.",
+        "quote": "Rozlišuje situace, které nastanou vždy, nastanou někdy, nebo nenastanou nikdy."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Rozpozná náhodné, jisté a nemožné jevy.",
+        "quote": "Rozpozná náhodné, jisté a nemožné jevy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jisté, náhodné, nemožné?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí ti situace k roztřídění a vysvětlí, proč je která jistá, náhodná nebo nemožná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky mají příklady a cvičení na jisté, náhodné a nemožné jevy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací hry ti dají situace k třídění a hned ukážou, jestli je tvůj tip správný."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kostka, mince nebo pytlík s kuličkami ti ukážou, co padne vždy, někdy nebo nikdy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b758675a-b03b-4e4b-897c-57ca14b1a3d0",
+      "http://data.europa.eu/esco/skill/1dabb413-18e8-48ed-a963-44978e67ad32"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odhad-pravdepodobnosti-jevu",
+    "title": "Odhad pravděpodobnosti pro rozhodnutí",
+    "aliases": [
+      "pravděpodobnost",
+      "jaká je šance",
+      "co je pravděpodobnější",
+      "odhad šance",
+      "volba programu"
+    ],
+    "outcome": "MAT-MAT-004-ZV5-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Odhaduje pravděpodobnost jevu pro rozhodování v dané situaci.",
+        "quote": "Odhaduje pravděpodobnost jevu pro rozhodování v dané situaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Volba programu",
+        "url": "https://uloziste.rvp.cz/material/5faedc"
+      },
+      {
+        "title": "Dvě kostky",
+        "url": "https://uloziste.rvp.cz/material/2e91eb"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak šanci odhadnout, a projde s tebou, jestli je tvoje úvaha rozumná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam vysvětlení pravděpodobnosti a příklady, jak se podle ní rozhoduje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulátor kostek nebo losování ukáže, jak často se jev opravdu stane."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kostky, karty nebo kuličky v sáčku si můžeš zkusit a svůj odhad porovnat s tím, co padlo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1dabb413-18e8-48ed-a963-44978e67ad32",
+      "http://data.europa.eu/esco/skill/b758675a-b03b-4e4b-897c-57ca14b1a3d0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pokus-s-nahodou-a-zapis-vysledku",
+    "title": "Pokus s náhodou a zápis výsledků",
+    "aliases": [
+      "hod mincí",
+      "hod kostkou",
+      "čárkování výsledků",
+      "zápis pokusu",
+      "tabulka výsledků pokusu"
+    ],
+    "outcome": "MAT-MAT-004-ZV5-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Experimentuje a náhodné jevy eviduje pro určení pravděpodobnosti daného jevu.",
+        "quote": "Experimentuje a náhodné jevy eviduje pro určení pravděpodobnosti daného jevu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Experiment s hodem mincí",
+        "url": ""
+      },
+      {
+        "title": "Dvě kostky",
+        "url": "https://uloziste.rvp.cz/material/2e91eb"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kostkou hážeš a výsledky zapisuješ ty, chatbot za tebe pokus neudělá."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Výsledky vlastního pokusu na internetu nenajdeš, musíš je naházet."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program spočítá, kolikrát co padlo, a z výsledků nakreslí graf."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mince a kostka dají výsledky, papír a tužka je zapíšou čárkami do tabulky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

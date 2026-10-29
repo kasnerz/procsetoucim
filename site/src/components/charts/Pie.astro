@@ -1,0 +1,21 @@
+---
+// Hand-drawn pie: a pencil circle with the share hatched in, starting at 12 o'clock.
+import { rng, circle, wedge } from "../../lib/sketch";
+interface Props { value: number; seed: string; size?: number; tone?: "blue" | "red"; label: string }
+const { value, seed, size = 120, tone = "blue", label } = Astro.props;
+const r = rng(seed);
+const v = Math.max(0, Math.min(1, value));
+---
+<svg class="pie" width={size} height={size} viewBox="0 0 100 100" role="img" aria-label={label}>
+  <path d={wedge(50, 50, 42, v)} class={`wedge ${tone}`} />
+  <path d={circle(50, 50, 42.5, r)} class="ring" />
+  <path d={circle(50, 50, 41.5, r, 0.03)} class="ring thin" />
+</svg>
+<style>
+  .pie { flex: none; display: block; overflow: visible; }
+  .wedge { stroke-width: 1.6; stroke-linejoin: round; }
+  .wedge.blue { fill: url(#hatch-blue); stroke: var(--blue); }
+  .wedge.red { fill: url(#hatch-red); stroke: var(--red); }
+  .ring { fill: none; stroke: var(--ink); stroke-width: 1.8; stroke-linecap: round; }
+  .ring.thin { stroke-width: 0.9; opacity: 0.6; }
+</style>

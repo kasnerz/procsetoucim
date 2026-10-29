@@ -1,0 +1,13 @@
+---
+// Source line with the exact Cedefop citation, required wherever its figures appear (docs/data-terms.md). `what` says
+// which figures on the page come from it.
+import { CEDEFOP_CITE } from "../lib/data";
+// `short`: just "Zdroj: Cedefop Skills Forecast 2026, Thessaloniki: Greece" as a link, the full citation in its
+// tooltip (user 2026-10-20, on the occupation page's forecast box).
+interface Props { what?: string; short?: boolean; class?: string }
+const { what = "Počty pracujících a prognóza míst", short = false, class: cls } = Astro.props;
+const [text, url] = CEDEFOP_CITE.split("Downloaded from: ");
+---
+{short
+  ? <p class:list={["tiny soft cedefop-src", cls]}>Zdroj: <a href={url} title={CEDEFOP_CITE}>Cedefop Skills Forecast 2026, Thessaloniki: Greece</a></p>
+  : <p class:list={["tiny soft cedefop-src", cls]}>{what}: {text}Downloaded from: <a href={url}>{url}</a></p>}

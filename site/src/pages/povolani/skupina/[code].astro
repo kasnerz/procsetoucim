@@ -1,0 +1,52 @@
+---
+// One ISCO-08 2-digit group of occupations (user 2026-10-29): the Cedefop figures for the group in Czechia
+// (GroupBox), then its occupations in alphabetical order, each with how much AI changes it (ILO).
+import Base from "../../../layouts/Base.astro";
+import Crumbs from "../../../components/Crumbs.astro";
+import Icon from "../../../components/Icon.astro";
+import Paper from "../../../components/Paper.astro";
+import SectionHead from "../../../components/SectionHead.astro";
+import GroupBox from "../../../components/GroupBox.astro";
+import AiLevel from "../../../components/AiLevel.astro";
+import { occupations, groups, occupationCards, cardsWord, AI_LEVEL_LEGEND, ISCO2_ICON } from "../../../lib/data";
+
+export function getStaticPaths() {
+  const codes = [...new Set(Object.values(occupations).map((o) => o.isco2))];
+  return codes.map((code) => ({ params: { code } }));
+}
+const { code } = Astro.params as { code: string };
+const base = import.meta.env.BASE_URL;
+const label = groups[code] ?? code;
+const major = groups[code[0]];
+const list = Object.values(occupations).filter((o) => o.isco2 === code).sort((a, b) => a.label.localeCompare(b.label, "cs"));
+const cards = (id: string) => occupationCards.get(id)?.length ?? 0;
+---
+<Base title={label} description={`Povolání ve skupině ${label}: kolik lidí v ní v Česku pracuje, kolik jich bude potřeba a jak práci mění AI.`}>
+  <div class="wrap page">
+    <Crumbs items={[{ label: "Povolání", href: `${base}povolani/` }, { label }]} />
+    <section class="lead col">
+      <Icon name={ISCO2_ICON[code] ?? "briefcase"} size="46" class="big" />
+      <h1>{label}</h1>
+      <p class="soft">{major && <>Spadá pod hlavní skupinu „{major}“. </>}Evropská databáze povolání ESCO v ní popisuje {list.length.toLocaleString("cs-CZ")} povolání.</p>
+    </section>
+
+    <GroupBox code={code} title="Skupina v číslech" lead="Čísla platí pro celou skupinu povolání v Česku." />
+
+    <section class="section col" aria-labelledby="h-list">
+      <SectionHead id="h-list" icon="list">Povolání ve skupině</SectionHead>
+      <Paper as="ul" kind="lined" seed={`group-list/${code}`} tilt={0.25} class="rows">
+        {list.map((o) => {
+          const n = cards(o.id);
+          return <li><a href={`${base}povolani/${o.id}/`}><span class="rname">{o.label}</span><span class="meta num">{n > 0 ? `${n} ${cardsWord(n)}` : "Žádná karta"}</span><span class="right"><AiLevel occ={o} /></span></a></li>;
+        })}
+      </Paper>
+      <p class="tiny soft center">{AI_LEVEL_LEGEND}</p>
+    </section>
+  </div>
+</Base>
+<style>
+  .page { display: grid; gap: var(--s7); }
+  .lead { display: grid; justify-items: center; text-align: center; gap: var(--s3); }
+  .lead :global(.big) { color: var(--purple); }
+  .lead p { max-width: 62ch; }
+</style>

@@ -1,0 +1,299 @@
+{
+  "outcome": "INF-INF-001-ZV5-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "inf-prvky-a-znacky-modelu",
+      "title": "Prvky a značky v modelu",
+      "aliases": [
+        "co znamená značka",
+        "schéma",
+        "diagram",
+        "mapa linek",
+        "symboly"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vysvětluje, co základní prvky a symboly v modelu představují"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše účel modelu a význam různých symbolů a značek"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozezná všechny relevantní prvky modelu, včetně složitějších komponent."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zkoumá jednoduchý model a určuje základní prvky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí značky v plánku a ptá se, co která znamená."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš plánky linek a legendy ke značkám."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Plán linek v aplikaci značky ukáže, ale číst je za tebe nebude."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka s hledáním prvků nepomůžou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/dfce2aba-783e-4e17-9c17-e74aca505ec2",
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "inf-vztahy-mezi-prvky",
+      "title": "Vztahy mezi prvky modelu",
+      "aliases": [
+        "spojení mezi zastávkami",
+        "co s čím souvisí",
+        "šipky ve schématu",
+        "životní cyklus"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozpoznává jednoduché vztahy mezi prvky"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Určí a popíše různé typy vztahů mezi prvky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá schéma a ptá se, které prvky spolu souvisí a jak."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Internet schémata ukáže, vztahy v nich ale hledáš ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s plánem sítě vztahy neprocvičuje."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka ti pomůžou vztahy zakreslit čarami."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/dfce2aba-783e-4e17-9c17-e74aca505ec2",
+        "http://data.europa.eu/esco/skill/bf59255e-782a-4e83-a93c-6055cfdd8e7f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "inf-trasa-v-planku-site",
+      "title": "Trasa v plánku sítě",
+      "aliases": [
+        "trasa mezi zastávkami",
+        "jak se dostanu z A do B",
+        "mapa veřejné dopravy",
+        "přestupy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vyvozuje základní informace z modelu (např. určí trasu mezi dvěma zastávkami)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá plánek a zeptá se tě na trasu, pak ji zkontroluje."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Internet najde trasu hotovou, ty ji ale hledat nebudeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Plánovač spojení trasu najde za tebe, procvičení nenabídne."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový plánek a prst na čáře ti trasu ukážou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+        "http://data.europa.eu/esco/skill/dfce2aba-783e-4e17-9c17-e74aca505ec2"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "inf-vice-podminek-v-zadani",
+      "title": "Více podmínek v zadání",
+      "aliases": [
+        "hledání podle podmínek",
+        "a zároveň",
+        "nejkratší cesta s přestupem",
+        "splnit všechny podmínky"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Pracuje s jednou i s více podmínkami v zadání."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí úlohy s více podmínkami a zkontroluje, jestli všechny splňuješ."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Internet podmínky ve tvém zadání nehlídá."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Filtr v aplikaci nebo tabulce ukáže, co splňuje všechny podmínky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj podmínky nehlídá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/dfce2aba-783e-4e17-9c17-e74aca505ec2",
+        "http://data.europa.eu/esco/skill/bf59255e-782a-4e83-a93c-6055cfdd8e7f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "inf-co-model-rika-a-nerika",
+      "title": "Co se z modelu dozvíš a co ne",
+      "aliases": [
+        "čtení z modelu",
+        "odhad z modelu",
+        "zdůvodnění",
+        "co v plánku chybí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Určuje, které informace lze z modelu přímo získat"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vyčte, odvodí a odhadne informace z modelu, zdůvodní své rozhodnutí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě, co z modelu plyne a co ne, a probere důvody."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Internet odpovědi najde, ale model za tebe číst nebude."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s mapou nebo plánem ti hranice modelu neukáže."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj tu nemá co nabídnout."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/dfce2aba-783e-4e17-9c17-e74aca505ec2",
+        "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "inf-nakres-situace-jako-model",
+      "title": "Nákres situace jako model",
+      "aliases": [
+        "schéma situace",
+        "kreslení diagramu",
+        "plánek",
+        "znázornění"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Znázorní běžnou situaci pomocí modelu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, co zakreslit a co vynechat, a zkontroluje tvůj nákres."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady schémat a plánků, podle kterých se učíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí aplikace umožní schéma snadno předělat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka jsou na nákres nejrychlejší."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bf59255e-782a-4e83-a93c-6055cfdd8e7f",
+        "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Odvodí informace z jednoduchého modelu",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

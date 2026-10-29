@@ -1,0 +1,469 @@
+[
+  {
+    "slug": "sikana-natlak-agrese-pojmy-chovani",
+    "title": "Šikana, nátlak, agrese a porušení soukromí",
+    "aliases": [
+      "co je šikana",
+      "nátlak",
+      "agrese",
+      "ubližování ve škole",
+      "porušení pravidel"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Přiřadí situace k pojmům šikana, nátlak, agrese, porušení pravidel, ohrožení soukromí.",
+        "quote": "Přiřadí situace k pojmům šikana, nátlak, agrese, porušení pravidel, ohrožení soukromí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Šikana, agrese, nátlak, porušení soukromí",
+        "url": "https://uloziste.rvp.cz/material/316cd6"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí pojmy na příkladech a zkusí s tebou zařadit vymyšlené situace."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Webové stránky o šikaně popisují znaky jednotlivých pojmů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro rozlišení šikany a agrese žádná aplikace nic užitečného nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pojmy rozlišuješ úvahou o situaci, žádný nástroj v ruce k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f6c12779-bd4c-4908-a766-dd0db556c63b",
+      "http://data.europa.eu/esco/skill/f8e5f1fd-82ee-45c0-b179-399d8e9a22aa",
+      "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sikana-rozbor-modelove-situace",
+    "title": "Rozbor modelové situace: co nelze tolerovat",
+    "aliases": [
+      "modelová situace",
+      "poznat šikanu",
+      "proč se to nesmí",
+      "příběh o chování",
+      "co je špatně"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Ve skupině analyzuje modelovou situaci a označí, které chování a jednání je v rozporu s pravidly a nelze ho tolerovat, a vysvětlí proč.",
+        "quote": "Ve skupině analyzuje modelovou situaci"
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelové situaci (z reálného prostředí či z komunikace na internetu) identifikuje znaky šikany, nátlaku, agrese či jiných nebezpečných jevů.",
+        "quote": "V modelové situaci (z reálného prostředí či z komunikace na internetu) identifikuje znaky"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí, proč identifikované nevhodné chování či jednání nelze tolerovat či přehlížet.",
+        "quote": "Vysvětlí, proč identifikované nevhodné chování"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše chování jednotlivých aktérů a vyjádří k němu své pocity a postoje (vhodné/nevhodné) na základě seznámení se s předloženým příběhem.",
+        "quote": "Popíše chování jednotlivých aktérů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Situace, kterým se musí zabránit",
+        "url": "https://uloziste.rvp.cz/material/ecf165"
+      },
+      {
+        "title": "Řešení situací, které není možné přehlížet",
+        "url": "https://uloziste.rvp.cz/material/104fd9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vymyslí další příběhy k rozboru a zeptá se, co v nich nesedí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příběhy a případy z webů o prevenci šikany dají materiál k rozboru."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rozbor ve skupině a vlastní názor, proč něco nejde tolerovat, žádná aplikace neudělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnout musíte ve skupině vy, k tomu nástroj v ruce není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f6c12779-bd4c-4908-a766-dd0db556c63b",
+      "http://data.europa.eu/esco/skill/f8e5f1fd-82ee-45c0-b179-399d8e9a22aa",
+      "http://data.europa.eu/esco/skill/5acf6408-e084-4202-9442-ffcf0119811c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sikana-rizika-na-internetu",
+    "title": "Rizika komunikace na internetu",
+    "aliases": [
+      "nebezpečí na internetu",
+      "kyberšikana",
+      "cizí lidé online",
+      "soukromí na internetu",
+      "bezpečný chat"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Dokáže pojmenovat rizika související s komunikací na internetu.",
+        "quote": "Dokáže pojmenovat rizika související s komunikací na internetu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Chování v digitálním světě a šikana",
+        "url": "https://uloziste.rvp.cz/material/35f3c1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rizika chatů a sítí a ukáže, jak vypadá podvodná zpráva."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o bezpečném internetu pro děti sepisují rizika s příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nastavení soukromí v aplikaci ti ukáže, co o tobě vidí cizí lidé."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj ti o rizicích na internetu nic neřekne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb",
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44",
+      "http://data.europa.eu/esco/skill/5acf6408-e084-4202-9442-ffcf0119811c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sikana-rizika-spatnych-reakci",
+    "title": "Rizika špatných reakcí na nevhodné chování",
+    "aliases": [
+      "odplata",
+      "pomsta",
+      "jak nereagovat",
+      "nebezpečná reakce",
+      "když se bráním"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozpozná rizika z navrhovaných postupů, které jsou reakcí na porušení pravidel a nevhodné jednání a chování.",
+        "quote": "Rozpozná rizika z navrhovaných postupů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot projde navrženou reakci a vysvětlí, co se může pokazit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rady od organizací pro děti ukazují, které reakce situaci zhoršují."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Uvažovat o následcích reakce musíš ty, aplikace to nezvládne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "K posouzení rizik reakce nepotřebuješ žádný nástroj."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f6c12779-bd4c-4908-a766-dd0db556c63b",
+      "http://data.europa.eu/esco/skill/f8e5f1fd-82ee-45c0-b179-399d8e9a22aa",
+      "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sikana-tisnova-linka-volani",
+    "title": "Volání na tísňovou linku",
+    "aliases": [
+      "číslo 112",
+      "150",
+      "155",
+      "158",
+      "zavolat policii",
+      "záchranka"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s postupem volání na tísňovou linku a předvede jej, předvede oznámení nevhodného chování učiteli / rodiči / jiné důvěryhodné osobě či autoritě.",
+        "quote": "Seznámí se s postupem volání na tísňovou linku"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Ve skupině rozliší jednotlivé části předloženého (vzorového) rozhovoru při volání na tísňovou linku, oznámení nevhodného chování učiteli/rodiči/jiné důvěryhodné osobě či autoritě.",
+        "quote": "Ve skupině rozliší jednotlivé části předloženého (vzorového) rozhovoru při volání na tísňovou linku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti zahraje operátora a ty si zkusíš, co a v jakém pořadí říct."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky složek záchranného systému popisují čísla linek a pořadí otázek."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace Záchranka pošle polohu a ukáže, co operátor chce vědět."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Volání vede telefon a tvůj hlas, na papíře ho nezkusíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e",
+      "http://data.europa.eu/esco/skill/3b6834bd-b781-4dc6-b8c3-3fa74b865120"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sikana-oznameni-duveryhodne-osobe",
+    "title": "Oznámení nevhodného chování důvěryhodné osobě",
+    "aliases": [
+      "komu to říct",
+      "říct učiteli",
+      "říct rodičům",
+      "nenápadně nahlásit",
+      "požádat o pomoc"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s postupem volání na tísňovou linku a předvede jej, předvede oznámení nevhodného chování učiteli / rodiči / jiné důvěryhodné osobě či autoritě.",
+        "quote": "předvede oznámení nevhodného chování učiteli / rodiči / jiné důvěryhodné osobě či autoritě"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Ve skupině rozliší jednotlivé části předloženého (vzorového) rozhovoru při volání na tísňovou linku, oznámení nevhodného chování učiteli/rodiči/jiné důvěryhodné osobě či autoritě.",
+        "quote": "oznámení nevhodného chování učiteli/rodiči/jiné důvěryhodné osobě či autoritě"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti zahraje učitele a ty si předem zkusíš, jak situaci popsat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Webové stránky poradenských linek pro děti ukazují, kam se obrátit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Říct to dospělému musíš osobně ty, aplikace to za tebe neodnese."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Oznámení je rozhovor s člověkem, žádný nástroj ho nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f8e5f1fd-82ee-45c0-b179-399d8e9a22aa",
+      "http://data.europa.eu/esco/skill/867ad40d-bd25-46d1-88b5-27381f673ad5",
+      "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sikana-nacvik-vhodne-reakce",
+    "title": "Nácvik vhodné reakce na nevhodné chování",
+    "aliases": [
+      "jak reagovat",
+      "nácvik situace",
+      "hraní rolí",
+      "nenechat si to líbit",
+      "říct ne"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "V modelových situacích procvičuje správné chování.",
+        "quote": "V modelových situacích procvičuje správné chování."
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede vhodný postup (reakci) na určité nevhodné jednání a chování.",
+        "quote": "Předvede vhodný postup (reakci)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot hraje druhou stranu scénky a dává ti prostor zkoušet různé reakce."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové rady si přečteš, ale reakci to nenacvičí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Reagovat před lidmi a vlastním hlasem se v aplikaci nenaučíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Reakci předvádíš ty, k tomu nástroj v ruce není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f6c12779-bd4c-4908-a766-dd0db556c63b",
+      "http://data.europa.eu/esco/skill/f8e5f1fd-82ee-45c0-b179-399d8e9a22aa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sikana-slusna-a-bezpecna-komunikace",
+    "title": "Slušná a bezpečná komunikace",
+    "aliases": [
+      "pravidla chatu",
+      "slušné psaní",
+      "netiketa",
+      "bezpečné chování online",
+      "komunikace na internetu"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řídí se pravidly slušné a bezpečné komunikace.",
+        "quote": "Řídí se pravidly slušné a bezpečné komunikace."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí pravidla slušného chatu a poradí, jak odpovědět na nepříjemnou zprávu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Pravidla slušné komunikace a bezpečného chatu jsou sepsaná na webech o internetu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace umí zablokovat nebo nahlásit nepříjemného uživatele."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidla dodržuješ ty při psaní, nástroj ti je nepřipomene."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb",
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

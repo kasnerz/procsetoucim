@@ -1,0 +1,334 @@
+{
+  "outcome": "CAP-CHE-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "travici-cesta-zivin-etapy-organy",
+      "title": "Etapy trávení a orgány",
+      "aliases": [
+        "trávení",
+        "trávicí soustava",
+        "cesta potravy",
+        "schéma trávení",
+        "kde se tráví"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyjmenuje základní etapy trávení základních živin a orgány, ve kterých probíhají."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše hlavní procesy trávení sacharidů, tuků a bílkovin pomocí jednoduchého schématu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co se s jídlem děje v ústech, žaludku a střevech, a ptá se tě na pořadí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Schéma trávení a popisy orgánů najdeš v encyklopedii."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s modelem těla ti ukáže trávicí trubici a orgány po jednom."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a pastelky: schéma si nakreslíš a popíšeš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3"
+      ],
+      "inspiration": [
+        "Etapy trávení",
+        "Schéma trávení"
+      ]
+    },
+    {
+      "slug": "metabolismus-zivin-bilkoviny-tuky-sacharidy",
+      "title": "Přeměna bílkovin, tuků a sacharidů v těle",
+      "aliases": [
+        "metabolismus",
+        "látková přeměna",
+        "co se děje s jídlem",
+        "odpadní látky",
+        "kyslík v těle",
+        "model přeměny látek"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše metabolismus základních živin (bílkoviny, tuky, sacharidy) a jejich roli v organismu včetně odpadních produktů metabolizmu."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Na modelu vysvětlí základní principy přeměny látek v lidském těle."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí přeměny živin krok za krokem a zkontroluje tvůj popis modelu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice a encyklopedie mají schémata přeměn živin."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace metabolismu ukáže, co se s živinami děje uvnitř těla."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Model sestavíš z papíru nebo tvoří třída, běžný nástroj ho za tebe nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3",
+        "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1"
+      ],
+      "inspiration": [
+        "Tělo jako čistička – Živý model dusíkové cesty"
+      ]
+    },
+    {
+      "slug": "energie-z-potravy-rychlost-odbourani",
+      "title": "Energie v bílkovinách, tuku a cukru",
+      "aliases": [
+        "energie z jídla",
+        "kolik energie má jídlo",
+        "rychlá energie",
+        "cukr nebo tuk",
+        "kalorie",
+        "složky potravy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovná jednotlivé složky potravy z energetického hlediska, vysvětlí rychlost jejich odbourávání a množství uvolněné energie."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná zdroje energie a vysvětlí, proč cukr dodá sílu rychle a tuk pomalu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulky energetických hodnot potravin najdeš na webu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na počítání jídla ukáže energii v jednotlivých potravinách."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kuchyňská váha nic o odbourávání v těle neřekne, porovnání děláš hlavou ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1",
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1"
+      ]
+    },
+    {
+      "slug": "latka-prvek-slouceniny-pojmy",
+      "title": "Látka, prvek a sloučenina",
+      "aliases": [
+        "látka prvek sloučenina",
+        "pojmy v chemii",
+        "chemické prvky",
+        "sloučeniny",
+        "periodická tabulka"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Používá pojmy látka, prvek a sloučenina ve správných kontextech."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozliší pojmy na příkladech a opraví tě, když je zaměníš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Definice a příklady najdeš v encyklopedii."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s periodickou tabulkou ukáže prvky a jejich sloučeniny."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pojmy se používají ve větách, žádná pomůcka je za tebe nepoužije."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1",
+        "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d"
+      ]
+    },
+    {
+      "slug": "prvky-v-tele-vyznam-pro-funkci",
+      "title": "Prvky a sloučeniny v těle",
+      "aliases": [
+        "železo v těle",
+        "vápník",
+        "minerály",
+        "voda v těle",
+        "kyslík",
+        "důležité prvky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady vybraných prvků a sloučenin a vysvětlí jejich význam pro správné fungování lidského těla."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu tělo potřebuje železo nebo vápník, a zeptá se tě na příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie ukáže, kde se prvky v těle nacházejí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s tabulkou potravin ukáže, kolik minerálů jídlo obsahuje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj nevysvětlí funkci prvků v těle."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3"
+      ]
+    },
+    {
+      "slug": "enzymy-a-hormony-v-tele",
+      "title": "Enzymy a hormony",
+      "aliases": [
+        "enzymy",
+        "hormony",
+        "trávicí enzymy",
+        "inzulin",
+        "regulace v těle"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí funkce enzymů a hormonů v lidském těle."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí na příkladech, co enzym a hormon dělají, a ptá se tě na rozdíl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Schémata a popisy enzymů a hormonů najdeš v encyklopedii."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace ukáže, jak enzym štěpí živinu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mikroskop enzymy ani hormony neukáže, vysvětlit je musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3",
+        "http://data.europa.eu/esco/skill/46d64d3c-22d6-4186-b2a7-9765e6585eae"
+      ],
+      "inspiration": [
+        "Enzymy v lidském těle"
+      ]
+    },
+    {
+      "slug": "alkaloidy-omamne-latky-rizika",
+      "title": "Alkaloidy a návykové látky",
+      "aliases": [
+        "drogy",
+        "alkohol a kouření",
+        "nikotin",
+        "kofein",
+        "návykové látky",
+        "závislost"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše účinky a rizika zneužívání alkaloidů, omamných a psychoaktivních látek, včetně jejich vlivu na lidské tělo."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak látky působí na tělo, a odpoví na otázky, které se stydíš dát nahlas."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ověřené stránky o prevenci závislostí popisují účinky a rizika."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti rozhodování neusnadní, rizika musíš pochopit ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj účinky látek na tělo nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/60c544c9-0815-479c-bcec-93c7891815ea",
+        "http://data.europa.eu/esco/skill/b70ab677-5781-40b5-9198-d98f4a34310f"
+      ]
+    }
+  ],
+  "aside": []
+}

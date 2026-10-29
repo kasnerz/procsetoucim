@@ -1,0 +1,71 @@
+{
+  "outcome": "CAP-CHE-001-ZV9-005",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "K jednotlivým výstražným symbolům na obalech chemických látek přiřadí jejich význam.",
+      "cards": [
+        "vystrazne-symboly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětlí rizika spojená s konkrétními chemickými látkami a navrhne opatření pro bezpečné zacházení s nimi.",
+      "cards": [
+        "rizika-latek-a-opatreni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Interpretuje význam výstražných symbolů a uvádí k nim konkrétní příklady látek.",
+      "cards": [
+        "vystrazne-symboly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Demonstruje základní pravidla bezpečného chování v laboratoři.",
+      "cards": [
+        "pravidla-v-laboratori"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Simuluje správný postup při nejčastějších nehodách při práci s chemickými látkami a poskytnutí první pomoci při nejčastějších nehodách v chemické laboratoři či v domácnosti.",
+      "cards": [
+        "prvni-pomoc-pri-nehode"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na modelových příkladech práce s běžně dostupnými chemickými látkami zhodnotí příklady správného a nesprávného zacházení s nimi.",
+      "cards": [
+        "spravne-a-spatne-zachazeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě dostupných informací posoudí nebezpečné vlastnosti konkrétního výrobku a určí správný postup pro použití a nakládání s výrobkem.",
+      "cards": [
+        "etiketa-vyrobku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vysvětlí rizika spojená se zacházením s vybranými běžně dostupnými chemickými látkami a pracuje s nimi bezpečně.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

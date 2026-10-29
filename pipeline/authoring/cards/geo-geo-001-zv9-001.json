@@ -1,0 +1,240 @@
+{
+  "outcome": "GEO-GEO-001-ZV9-001",
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "druhy-map",
+      "title": "Druhy map, glóbus a letecké snímky: co ukazují",
+      "aliases": [
+        "druhy map",
+        "glóbus",
+        "plán",
+        "satelitní snímek",
+        "fyzická mapa",
+        "politická mapa"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popíše vlastnosti vybraných druhů map, mapám příbuzných znázornění"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíly mezi mapou, plánem a snímkem a zkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky všech druhů map najdeš na webu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapová aplikace přepíná mezi mapou a snímkem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas a glóbus ukazují druhy map vedle sebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+        "http://data.europa.eu/esco/skill/440f64e5-e66c-45ee-bc29-53c14a2ad720"
+      ],
+      "inspiration": [
+        "Čtenář map"
+      ]
+    },
+    {
+      "slug": "vyber-mapy",
+      "title": "Výběr vhodné mapy",
+      "aliases": [
+        "jakou mapu použít",
+        "turistická mapa",
+        "vrstvy mapy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "kriticky vybírá tištěné i digitální mapy a další zdroje geografických dat vhodné pro daný účel a situaci"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jaká mapa se k tvému účelu hodí, a zeptá se na detaily."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapy najdeš na webu, třeba na Geoportálu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace mají různé vrstvy: turistickou, letecký snímek, dopravu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírová mapa funguje bez signálu a baterie."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+        "http://data.europa.eu/esco/skill/440f64e5-e66c-45ee-bc29-53c14a2ad720"
+      ],
+      "inspiration": [
+        "Čtenář map"
+      ]
+    },
+    {
+      "slug": "letecke-snimky",
+      "title": "Letecké a satelitní snímky",
+      "aliases": [
+        "satelitní snímek",
+        "letecký snímek",
+        "ortofotomapa"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "čte, analyzuje a interpretuje obsah vybraných druhů map a dalších základních zdrojů geografických dat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, co na snímku vidí, výsledek musíš ověřit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Snímky z různých let najdeš na webu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapová aplikace přepne ze snímku na mapu pro srovnání."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj ti snímek nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/440f64e5-e66c-45ee-bc29-53c14a2ad720",
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+      ],
+      "inspiration": [
+        "Honba za pokladem ve městě"
+      ]
+    },
+    {
+      "slug": "mapa-a-graf-z-dat",
+      "title": "Mapa, graf a tabulka z dat",
+      "aliases": [
+        "graf",
+        "tabulka",
+        "vytvořit mapu",
+        "vizualizace dat",
+        "číst graf"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "čte, analyzuje a interpretuje obsah vybraných druhů map a dalších základních zdrojů geografických dat"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vytváří jednoduché mapy a další vizualizace geografických dat (grafy, tabulky) a dokáže je číst, analyzovat a interpretovat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, jak data zobrazit, a vysvětlí, co z grafu plyne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Data i hotové mapy najdeš na webu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový program graf nakreslí, data a typ grafu vybíráš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko a papír stačí na jednoduchý graf nebo náčrt mapy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/440f64e5-e66c-45ee-bc29-53c14a2ad720",
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+      ],
+      "inspiration": [
+        "Developer dětských hřišt - mapa hřišť v okolí mého bydliště",
+        "Jak se tam dostanu?"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Čte mapu, a to jak vlastní mapové pole, tak legendu a měřítko, vyhledá mapu vhodnou vzhledem k účelu.",
+      "code": "O1",
+      "refs": [
+        "legenda-a-meritko"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zorientuje mapu.",
+      "code": "O1",
+      "refs": [
+        "orientace-podle-mapy"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Orientuje se s pomocí papírové či elektronické mapy v prostoru.",
+      "code": "O1",
+      "refs": [
+        "orientace-podle-mapy"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vyhledá a popíše s pomocí turistické mapy průběh určené trasy, popř. vybere konkrétní trasu na základě předem daných parametrů (nejkratší, nejrychlejší, nejmenší stoupání apod.).",
+      "code": "O1",
+      "refs": [
+        "planovani-trasy"
+      ]
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Používá mapy k orientaci ve svém okolí.",
+      "code": "O1",
+      "refs": [
+        "orientace-podle-mapy"
+      ]
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

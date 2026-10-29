@@ -1,0 +1,317 @@
+---
+// Feedback dashboard (user 2026-10-29): contact messages and card feedback, with filters and new / done / rejected.
+// Linked from nowhere. The page holds no data: its script logs in at the feedback server (feedback/server.py,
+// /api/admin/, signed session cookie) and loads the rows from there. All user text goes in with textContent.
+import Base from "../layouts/Base.astro";
+import Paper from "../components/Paper.astro";
+import Icon from "../components/Icon.astro";
+import { activities, outcomes } from "../lib/data";
+
+// Card titles and subjects, so a row shows the card's name, not its slug.
+const cards = Object.fromEntries(activities.map((a) => [a.slug, [a.title, outcomes[a.outcome]?.subject.name ?? ""]]));
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Připomínky" description="Připomínky ke kartám a zprávy z kontaktního formuláře." search={false}>
+  <div class="wrap page" data-admin>
+    <section class="lead col">
+      <h1>Připomínky</h1>
+    </section>
+
+    <Paper seed="pripominky/login" tilt={0.3} class="sheet" data-login hidden>
+      <form class="fb-form login" data-login-form>
+        <label class="fb-field">
+          <span class="fb-label">Heslo</span>
+          <input type="password" name="password" autocomplete="current-password" required />
+        </label>
+        <p class="fb-msg" data-login-msg aria-live="polite"></p>
+        <div class="fb-actions"><button class="fb-send" type="submit"><Icon name="key" size="20" />Přihlásit</button></div>
+      </form>
+    </Paper>
+
+    <div class="board" data-board hidden>
+      <Paper kind="grid" seed="pripominky/cisla" tilt={0.3} class="numbers">
+        <div class="n"><span class="big-num num" data-n="new"></span><span class="soft">nových</span></div>
+        <div class="n"><span class="big-num num" data-n="card"></span><span class="soft">ke kartám</span></div>
+        <div class="n"><span class="big-num num" data-n="contact"></span><span class="soft">z kontaktního formuláře</span></div>
+      </Paper>
+
+      <div class="filters">
+        <div class="tabs" role="group" aria-label="Stav" data-tabs="status"></div>
+        <div class="tabs" role="group" aria-label="Odkud" data-tabs="source"></div>
+        <label class="search"><Icon name="search" size="20" /><input type="search" data-q placeholder="Hledat v textu, kartě nebo e-mailu" aria-label="Hledat" /></label>
+      </div>
+
+      <div class="cols">
+        <Paper as="aside" kind="lined" seed="pripominky/karty" class="rows cards">
+          <h2>Karty</h2>
+          <ul class="rows" data-limit="0" data-cards></ul>
+        </Paper>
+        <div class="list" data-list></div>
+      </div>
+
+      <p class="center"><button type="button" class="act" data-logout><Icon name="lock" size="18" />Odhlásit</button></p>
+    </div>
+
+    {/* Torn scraps for the rows (cloned by the script) and the icons they use. */}
+    <template data-papers>
+      {Array.from({ length: 7 }, (_, i) => <Paper as="article" seed={`pripominky/${i}`} tilt={0.35} class="entry" />)}
+    </template>
+    <template data-icons>
+      {["mail", "check", "undo"].map((n) => <span data-icon={n}><Icon name={n} size="18" /></span>)}
+    </template>
+  </div>
+  <script type="application/json" data-cards-json set:html={JSON.stringify({ base, cards })} />
+  <script is:inline>
+  (() => {
+    const { base, cards } = JSON.parse(document.querySelector("[data-cards-json]").textContent);
+    const API = `${base}api/admin/`;
+    const STATUS = [["new", "Nové"], ["done", "Vyřízené"], ["rejected", "Zamítnuté"], ["all", "Vše"]];
+    const SOURCE = [["all", "Odkudkoli"], ["contact", "Kontakt"], ["card", "Karty"]];
+    const KIND = { error: "Chyba", suggestion: "Návrh", revision: "Vlastní znění", question: "Dotaz", other: "Něco jiného" };
+    const PART = {
+      card: "Celá karta", title: "Název karty", rvp: "Oficiální znění v RVP", comment: "Proč se to učíš", tools: "Nástroje",
+      jobs: "Kam to vede", numbers: "Čísla", learn: "Jak se to učit s AI", other: "Něco jiného",
+    };
+    const ROLE = { pupil: "žák nebo žákyně", parent: "rodič", teacher: "učitel nebo učitelka", other: "někdo jiný" };
+    const ACTIONS = {
+      new: [["done", "Vyřízeno", "check"], ["rejected", "Zamítnout"]],
+      done: [["new", "Vrátit mezi nové", "undo"]],
+      rejected: [["new", "Vrátit mezi nové", "undo"]],
+    };
+    const STATUS_NOTE = { done: "Vyřízeno", rejected: "Zamítnuto" };
+
+    const $ = (s) => document.querySelector(s);
+    const papers = [...$("[data-papers]").content.children];
+    const icon = (name) => $("[data-icons]").content.querySelector(`[data-icon="${name}"] svg`).cloneNode(true);
+    function el(tag, props = {}, ...kids) {
+      const e = Object.assign(document.createElement(tag), props);
+      for (const k of kids) if (k != null && k !== false) e.append(k);
+      return e;
+    }
+    const post = (path, body) => fetch(API + path, {
+      method: "POST", credentials: "same-origin",
+      headers: { "Content-Type": "application/json", "X-Feedback-Admin": "1" }, body: JSON.stringify(body),
+    });
+    const title = (slug) => cards[slug]?.[0] || slug;
+    const when = (iso) => {
+      const d = new Date(iso.replace(/([+-]\d\d)(\d\d)$/, "$1:$2"));
+      return isNaN(d) ? iso : d.toLocaleString("cs-CZ", { day: "numeric", month: "numeric", year: "numeric", hour: "2-digit", minute: "2-digit" });
+    };
+
+    // Word diff (LCS) between the text the card showed and the proposed one.
+    function diff(a, b) {
+      const x = a.split(/(\s+)/), y = b.split(/(\s+)/), n = x.length, m = y.length;
+      if (n * m > 4e6) return null;
+      const L = Array.from({ length: n + 1 }, () => new Uint32Array(m + 1));
+      for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--)
+        L[i][j] = x[i] === y[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+      const out = [], push = (t, s) => out.length && out.at(-1)[0] === t ? out.at(-1)[1] += s : out.push([t, s]);
+      let i = 0, j = 0;
+      while (i < n && j < m) {
+        if (x[i] === y[j]) { push("=", x[i]); i++; j++; }
+        else if (L[i + 1][j] >= L[i][j + 1]) push("-", x[i++]);
+        else push("+", y[j++]);
+      }
+      while (i < n) push("-", x[i++]);
+      while (j < m) push("+", y[j++]);
+      return out;
+    }
+
+    let rows = [];
+    const state = { status: "new", source: "all", card: "", q: "" };
+
+    function matches(r) {
+      if (state.status !== "all" && r.status !== state.status) return false;
+      if (state.source === "contact" && r.card) return false;
+      if (state.source === "card" && !r.card) return false;
+      if (state.card && r.card !== state.card) return false;
+      if (state.q) {
+        const hay = [r.text, r.revision, r.contact, r.card, r.card && title(r.card), r.page].join(" ").toLowerCase();
+        if (!hay.includes(state.q)) return false;
+      }
+      return true;
+    }
+
+    function tabs(key, opts, counts) {
+      $(`[data-tabs="${key}"]`).replaceChildren(...opts.map(([id, label]) => {
+        const b = el("button", { type: "button", className: "tab" }, el("span", { className: "t", textContent: label }),
+          counts ? el("span", { className: "c num", textContent: counts[id] ?? 0 }) : null);
+        b.setAttribute("aria-pressed", state[key] === id);
+        b.onclick = () => { state[key] = id; render(); };
+        return b;
+      }));
+    }
+
+    function entry(r, i) {
+      const p = papers[i % papers.length].cloneNode(true);
+      p.classList.add(r.status);
+      const head = el("div", { className: "e-head" },
+        el("span", { className: `pill k-${r.kind}`, textContent: KIND[r.kind] || r.kind }),
+        r.card ? el("span", { className: "pill", textContent: PART[r.part] || r.part }) : null,
+        STATUS_NOTE[r.status] ? el("span", { className: "e-status", textContent: STATUS_NOTE[r.status] }) : null,
+        el("span", { className: "e-when tiny soft num", textContent: `${when(r.created_at)} · #${r.id}` }));
+      const name = r.card
+        ? el("h3", {}, el("a", { href: `${base}aktivita/${encodeURIComponent(r.card)}/`, target: "_blank", rel: "noreferrer", textContent: title(r.card) }),
+            cards[r.card]?.[1] ? el("span", { className: "e-subject small soft", textContent: cards[r.card][1] }) : null)
+        : el("h3", { textContent: "Kontaktní formulář" });
+      p.append(head, name);
+      if (r.text) p.append(el("p", { className: "e-text", textContent: r.text }));
+      if (r.kind === "revision") {
+        const d = r.original ? diff(r.original, r.revision) : null;
+        p.append(d
+          ? el("p", { className: "e-diff" }, ...d.map(([t, s]) => t === "=" ? s : el(t === "+" ? "ins" : "del", { textContent: s })))
+          : el("p", { className: "e-diff", textContent: r.revision }));
+        if (r.original) p.append(el("details", { className: "small" }, el("summary", { textContent: "Původní a navržené znění zvlášť" }),
+          el("p", { className: "e-was", textContent: r.original }), el("p", { className: "e-was", textContent: r.revision })));
+      }
+      const foot = el("div", { className: "e-foot small" });
+      if (r.role) foot.append(el("span", { className: "soft", textContent: ROLE[r.role] || r.role }));
+      if (r.contact) foot.append(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(r.contact)
+        ? el("a", { href: `mailto:${r.contact}`, className: "e-mail" }, icon("mail"), r.contact)
+        : el("span", { textContent: r.contact }));
+      // The page it was sent from, unless it is the obvious one (the card's own page, the Kontakt page).
+      if (r.page && /^\/(?![\/\\])/.test(r.page) && r.page !== (r.card ? `${base}aktivita/${r.card}/` : `${base}kontakt/`))
+        foot.append(el("a", { href: r.page, target: "_blank", rel: "noreferrer", textContent: r.page }));
+      foot.append(el("span", { className: "e-acts" }, ...(ACTIONS[r.status] || ACTIONS.new).map(([to, label, ic]) =>
+        el("button", { type: "button", className: "act", onclick: () => setStatus(r, to) }, ic ? icon(ic) : null, label))));
+      p.append(foot);
+      return p;
+    }
+
+    function render() {
+      const count = (f) => rows.filter(f).length;
+      const st = { new: count((r) => r.status === "new"), done: count((r) => r.status === "done"), rejected: count((r) => r.status === "rejected"), all: rows.length };
+      $('[data-n="new"]').textContent = st.new;
+      $('[data-n="card"]').textContent = count((r) => r.card);
+      $('[data-n="contact"]').textContent = count((r) => !r.card);
+      tabs("status", STATUS, st);
+      tabs("source", SOURCE);
+
+      // Cards with feedback, most new first.
+      const per = {};
+      for (const r of rows) if (r.card) {
+        const c = per[r.card] ||= { all: 0, new: 0 };
+        c.all++; if (r.status === "new") c.new++;
+      }
+      const order = Object.entries(per).sort((p, q) => q[1].new - p[1].new || q[1].all - p[1].all || title(p[0]).localeCompare(title(q[0]), "cs"));
+      const pick = (slug, label, c) => {
+        const b = el("button", { type: "button", className: "row" }, el("span", { className: "rname", textContent: label }),
+          c ? el("span", { className: "right" }, c.new ? el("span", { className: "badge num", title: "nových", textContent: c.new }) : null,
+            el("span", { className: "tiny soft num", title: "celkem", textContent: c.all })) : null);
+        b.setAttribute("aria-pressed", state.card === slug);
+        b.onclick = () => { state.card = state.card === slug ? "" : slug; if (slug) state.source = "all"; render(); };
+        return el("li", {}, b);
+      };
+      $("[data-cards]").replaceChildren(pick("", "Všechny karty"), ...order.map(([slug, c]) => pick(slug, title(slug), c)));
+      if (!order.length) $("[data-cards]").append(el("li", {}, el("p", { className: "row small soft", textContent: "Zatím žádné." })));
+
+      const shown = rows.filter(matches);
+      $("[data-list]").replaceChildren(...(shown.length ? shown.map(entry)
+        : [el("p", { className: "empty center soft", textContent: rows.length ? "Filtru nic neodpovídá." : "Zatím nepřišla žádná připomínka." })]));
+    }
+
+    async function setStatus(r, status) {
+      const res = await post("status", { id: r.id, status });
+      if (res.status === 401) return showLogin();
+      if (!res.ok) return alert(`Nepovedlo se (${res.status}).`);
+      r.status = status;
+      render();
+    }
+
+    function showLogin(msg = "") {
+      $("[data-board]").hidden = true;
+      $("[data-login]").hidden = false;
+      $("[data-login-msg]").textContent = msg;
+      $("[data-login-form] input").focus();
+    }
+
+    async function load() {
+      const res = await fetch(API + "feedback", { cache: "no-store", credentials: "same-origin" }).catch(() => null);
+      if (res && res.status === 401) return showLogin();
+      if (!res || !res.ok) return showLogin(`Připomínky se nepodařilo načíst (${res ? res.status : "síť"}).`);
+      rows = await res.json();
+      $("[data-login]").hidden = true;
+      $("[data-board]").hidden = false;
+      render();
+    }
+
+    $("[data-login-form]").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = e.currentTarget, btn = f.querySelector("button");
+      btn.disabled = true;
+      const res = await post("login", { password: f.password.value }).catch(() => null);
+      btn.disabled = false;
+      if (res && res.ok) { f.reset(); return load(); }
+      showLogin(!res ? "Server neodpovídá." : res.status === 429 ? "Moc pokusů. Zkus to znovu za hodinu." : res.status === 401 ? "Tohle heslo nesedí." : `Nepovedlo se (${res.status}).`);
+    });
+    $("[data-logout]").onclick = async () => { await post("logout", {}); rows = []; showLogin(); };
+    $("[data-q]").oninput = (e) => { state.q = e.target.value.trim().toLowerCase(); render(); };
+    load();
+  })();
+  </script>
+</Base>
+
+<style>
+  .page { display: grid; gap: var(--s6); }
+  .lead { display: grid; justify-items: center; text-align: center; gap: var(--s3); }
+  .page :global(.sheet) { width: 100%; max-width: 420px; margin-inline: auto; }
+  .login input { width: 100%; font: inherit; font-size: 1rem; padding: 8px 10px; border: 0; background: #fff var(--box-line) 0 0 / 100% 100% no-repeat; }
+  .fb-msg { color: var(--red); }
+
+  .board { display: grid; gap: var(--s5); }
+  .board :global(.numbers) { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s4) var(--s7); width: fit-content; max-width: 100%; margin-inline: auto; padding: var(--s4) var(--s6); }
+  .n { display: grid; justify-items: center; gap: var(--s1); text-align: center; }
+
+  .filters { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--s3) var(--s5); }
+  .tabs { display: flex; flex-wrap: wrap; gap: var(--s1) var(--s3); }
+  .tabs :global(.tab) { display: inline-flex; align-items: baseline; gap: 5px; padding: 4px 4px; border: 0; background: none; cursor: pointer; font-weight: 600; color: var(--ink-soft); }
+  .tabs :global(.tab:hover .t) { color: var(--ink); text-decoration: underline; text-decoration-color: var(--pen); text-decoration-thickness: 2px; text-underline-offset: 0.25em; }
+  .tabs :global(.tab[aria-pressed="true"]) { color: var(--ink); }
+  .tabs :global(.tab[aria-pressed="true"] .t) { background: var(--hl-red) 0 92% / 100% 0.7em no-repeat; padding-inline: 0.12em; }
+  .tabs :global(.c) { font-size: 0.8125rem; font-weight: 500; }
+  .search { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; min-width: min(320px, 100%); background: #fff var(--box-line) 0 0 / 100% 100% no-repeat; color: var(--ink-soft); }
+  .search input { flex: 1; min-width: 0; border: 0; background: none; padding: 4px 0; font-size: 1rem; color: var(--ink); }
+  .search input:focus { outline: none; }
+  .search:focus-within { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 6px; }
+
+  .cols { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: var(--s6); align-items: start; }
+  .board :global(.cards) { position: sticky; top: var(--s4); padding: var(--s4) 0 var(--s3); }
+  .board :global(.cards h2) { font-size: calc(1.6rem * var(--title-scale)); padding: 0 var(--s4) 0 34px; }
+  .board :global(.cards ul) { max-height: calc(100vh - 120px); overflow: auto; }
+  .board :global(.cards .row) { width: 100%; border: 0; background: none; cursor: pointer; text-align: left; color: inherit; font: inherit; }
+  .board :global(.cards .row:hover .rname) { text-decoration: underline; text-decoration-color: var(--blue); text-decoration-thickness: 2px; }
+  .board :global(.cards .row[aria-pressed="true"] .rname) { background: var(--hl-red) 0 92% / 100% 0.6em no-repeat; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  .board :global(.cards .rname) { font-size: calc(1.1rem * var(--title-scale)); }
+  .board :global(.badge) { min-width: 22px; height: 22px; padding: 0 6px; border-radius: 11px; display: inline-grid; place-items: center; background: var(--red); color: #fff; font-size: 0.75rem; font-weight: 700; }
+  @media (max-width: 860px) {
+    .cols { grid-template-columns: minmax(0, 1fr); }
+    .board :global(.cards) { position: relative; top: 0; }
+    .board :global(.cards ul) { max-height: 280px; }
+  }
+
+  .list { display: grid; gap: var(--s5); }
+  .list :global(.entry) { display: grid; gap: var(--s2); padding: var(--s4) var(--s5); }
+  .list :global(.entry.done), .list :global(.entry.rejected) { opacity: 0.6; }
+  .list :global(.e-head) { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s1) var(--s2); }
+  .list :global(.pill.k-error) { color: var(--red); }
+  .list :global(.pill.k-revision), .list :global(.pill.k-suggestion) { color: var(--blue-dark); }
+  .list :global(.e-status) { font-size: 0.8125rem; font-weight: 700; color: var(--red); }
+  .list :global(.e-when) { margin-left: auto; }
+  .list :global(h3) { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px var(--s3); }
+  .list :global(h3 a) { text-decoration: none; }
+  .list :global(h3 a:hover) { text-decoration: underline; text-decoration-color: var(--blue); }
+  .list :global(.e-subject) { font-family: var(--font-body); font-weight: 500; }
+  .list :global(.e-text), .list :global(.e-diff), .list :global(.e-was) { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .list :global(.e-diff) { padding: var(--s2) var(--s5); background: var(--paper-top) var(--box-line) 0 0 / 100% 100% no-repeat; }
+  .list :global(.e-diff del) { color: var(--red); text-decoration-thickness: 1.5px; }
+  .list :global(.e-diff ins) { text-decoration: none; background: var(--hl-blue) 0 90% / 100% 0.66em no-repeat; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+  .list :global(.e-was) { margin-top: var(--s2); padding-left: var(--s3); border-left: 2px solid var(--rule); }
+  .list :global(.e-foot) { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s1) var(--s4); margin-top: var(--s1); }
+  .list :global(.e-mail) { display: inline-flex; align-items: center; gap: 5px; }
+  .list :global(.e-mail .icon) { color: var(--blue); }
+  .list :global(.e-acts) { margin-left: auto; display: flex; flex-wrap: wrap; gap: var(--s2); }
+  .page :global(.act) { display: inline-flex; align-items: center; gap: 6px; padding: 3px 12px; border: 0; cursor: pointer; font-weight: 600; color: var(--ink); background: #fff var(--box-line) 0 0 / 100% 100% no-repeat; }
+  .page :global(.act:hover) { color: var(--blue); }
+  .page :global(.act .icon) { color: var(--red); }
+  .empty { padding: var(--s6) 0; }
+</style>

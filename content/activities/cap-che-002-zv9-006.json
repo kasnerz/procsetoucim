@@ -1,0 +1,499 @@
+[
+  {
+    "slug": "slozky-vzduchu-ovzdusi-chemie",
+    "title": "Složky vzduchu",
+    "aliases": [
+      "z čeho je vzduch",
+      "dusík a kyslík",
+      "složení ovzduší",
+      "plyny ve vzduchu"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vyjmenuje hlavní složky ovzduší.",
+        "quote": "Vyjmenuje hlavní složky ovzduší."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Složení vzduchu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je ve vzduchu, a vymyslí ti otázky na opakování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie nebo encyklopedie mají přehled složek vzduchu s podíly."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace složky vzduchu za tebe nezapamatuje a nic zvláštního tu nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Složky vzduchu si pamatuješ ty, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "znacky-slozek-vzduchu-vzorce",
+    "title": "Chemické značky a vzorce složek vzduchu",
+    "aliases": [
+      "značka dusíku",
+      "vzorec oxidu uhličitého",
+      "N2 O2 CO2",
+      "chemické značky"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozlišuje mezi jednotlivými složkami vzduchu a zapíše je chemickou značkou či vzorcem.",
+        "quote": "Rozlišuje mezi jednotlivými složkami vzduchu a zapíše je chemickou značkou či vzorcem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Složení vzduchu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkouší tě ze značek a vzorců a vysvětlí, proč má kyslík dvojku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulka prvků a encyklopedie ukážou správný zápis značky i vzorce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kartičky nebo kvíz ti dají procvičovat značky dokola."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zapisuješ tužkou do sešitu, tabulka prvků ti pomůže zkontrolovat zápis."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "smes-roztok-atom-molekula-vzduch",
+    "title": "Směs, roztok, atom a molekula",
+    "aliases": [
+      "co je směs",
+      "atom a molekula",
+      "roztok",
+      "prvek a sloučenina"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozlišuje pojmy směs, roztok, atom a molekula a správně a aktivně je používá v ústní i psané komunikaci.",
+        "quote": "Rozlišuje pojmy směs, roztok, atom a molekula a správně a aktivně je používá v ústní i psané komunikaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Složení vzduchu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy na příkladech a opraví ti větu, kde je použiješ špatně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové stránky mají definice a obrázky atomů a molekul."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní modely ukážou molekuly, které bez zvětšení nevidíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pojmy používáš ve vlastních větách, to za tebe žádný nástroj neřekne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-slozeni-vzduchu-lokality-data",
+    "title": "Porovnání složení vzduchu v různých místech",
+    "aliases": [
+      "vzduch u nás a jinde",
+      "porovnání dat o vzduchu",
+      "koncentrace v ovzduší",
+      "naměřená data o vzduchu"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Porovná informace o složení vzduchu ve svém okolí s využitím poskytnutých zdrojů dat.",
+        "quote": "Porovná informace o složení vzduchu ve svém okolí s využitím poskytnutých zdrojů dat."
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovnává koncentrace hlavních složek vzduchu (např. dusík, kyslík, oxid uhličitý) a na datech z dostupných zdrojů identifikuje rozdíly v různých lokalitách.",
+        "quote": "Porovnává koncentrace hlavních složek vzduchu (např. dusík, kyslík, oxid uhličitý) a na datech z dostupných zdrojů identifikuje rozdíly v různých lokalitách."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co dýcháme? – Analýza složení vzduchu v Česku a u nás doma",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti projít tabulku dat, ale rozdíly mezi místy si musíš všimnout ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky s měřením kvality ovzduší ukazují aktuální hodnoty z tvého okolí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program nebo aplikace s mapou měření srovnají místa v grafu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Údaje o vzduchu ve svém okolí v učebnici nenajdeš, papír a pravítko tu nepomůžou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdroje-znecisteni-ovzdusi-zivot",
+    "title": "Zdroje znečištění ovzduší a jejich vliv",
+    "aliases": [
+      "kdo znečišťuje vzduch",
+      "smog",
+      "výfukové plyny a topení",
+      "znečištění ovzduší"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Sestaví přehled hlavních zdrojů znečištění ovzduší a interpretuje jejich vliv na kvalitu života.",
+        "quote": "Sestaví přehled hlavních zdrojů znečištění ovzduší a interpretuje jejich vliv na kvalitu života."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Znečištění ovzduší",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne osnovu přehledu a vysvětlí, jak zdroje souvisejí s tím, jak se žije."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky o ovzduší mají seznamy zdrojů a mapy emisí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace přehled nesestaví, kvalitu života z ní nevyčteš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Přehled píšeš a vysvětluješ ty, klasický nástroj k tomu nic nenabízí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/75f312e1-622b-4751-8d93-815b32feaf8d",
+      "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "limity-kvality-ovzdusi-normy",
+    "title": "Data o vzduchu a zákonné limity",
+    "aliases": [
+      "limity pro ovzduší",
+      "doporučení WHO",
+      "imisní limity",
+      "je vzduch v normě"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Interpretuje data o složení vzduchu v kontextu platných norem a doporučení (např. limity WHO, česká legislativa).",
+        "quote": "Interpretuje data o složení vzduchu v kontextu platných norem a doporučení (např. limity WHO, česká legislativa)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vzduch který dýcháme - a co s tím můžeme dělat",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co znamená limit, a poradí, jak číst hodnoty vedle limitu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky WHO a státních úřadů mají platné limity i aktuální měření."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace o kvalitě ovzduší barvou ukáže, zda je hodnota nad limitem."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Limity jsou v předpisech na internetu, papír a pravítko k nim nepomůžou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f",
+      "http://data.europa.eu/esco/skill/5641a2af-9eb2-4209-9fc6-856f78f2d2f2",
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "smysl-mereni-kvality-vzduchu-mista",
+    "title": "Proč se měří kvalita vzduchu",
+    "aliases": [
+      "měřicí stanice",
+      "k čemu je měření vzduchu",
+      "monitoring ovzduší",
+      "měření smogu"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí přínos měření kvality vzduchu v různých místech.",
+        "quote": "Vysvětlí přínos měření kvality vzduchu v různých místech."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vzduch který dýcháme - a co s tím můžeme dělat",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou, k čemu měření slouží, a zeptá se na tvůj příklad."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o měřicích stanicích ukazují, kde se měří a jak se výsledky používají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s mapou stanic ukáže, jak se hodnoty mezi místy liší."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Přínos měření vysvětluješ svými slovy, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f",
+      "http://data.europa.eu/esco/skill/ab2e56f3-24f0-413b-a67b-291a67fc2d1f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "latky-znecistujici-ovzdusi-zdravi",
+    "title": "Znečišťující látky a zdraví",
+    "aliases": [
+      "prachové částice",
+      "oxidy dusíku",
+      "oxid siřičitý",
+      "vliv smogu na zdraví"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí vliv koncentrace znečišťujících látek (např. prachové částice, oxidy dusíku, oxid siřičitý) na kvalitu ovzduší, životní prostředí a zdraví člověka.",
+        "quote": "Vysvětlí vliv koncentrace znečišťujících látek (např. prachové částice, oxidy dusíku, oxid siřičitý) na kvalitu ovzduší, životní prostředí a zdraví člověka."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Znečištění ovzduší",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak která látka působí, a zkontroluje tvoje vysvětlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotní a ekologické stránky popisují účinky látek podle koncentrace."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti ukáže číslo, ale účinek na zdraví nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Vliv látek na zdraví vysvětluješ svými slovy, nástroj k tomu nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/75f312e1-622b-4751-8d93-815b32feaf8d",
+      "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastnosti-plynu-vzduch-pokusy",
+    "title": "Vlastnosti plynů v běžném životě",
+    "aliases": [
+      "hustota vzduchu",
+      "horký vzduch stoupá",
+      "zkapalňování plynů",
+      "podporuje hoření"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladech z reálného života vysvětlí základní vlastnosti plynů (hustota vzduchu v závislosti na teplotě, rozdíly hustoty běžných plynů, zkapalňování plynů, podporuje nebo nepodporuje hoření apod.).",
+        "quote": "Na příkladech z reálného života vysvětlí základní vlastnosti plynů (hustota vzduchu v závislosti na teplotě, rozdíly hustoty běžných plynů, zkapalňování plynů, podporuje nebo nepodporuje hoření apod.)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Složení vzduchu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč horký vzduch stoupá, a vymyslí ti příklady z domova."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a videa pokusů ukážou chování plynů, které doma neuděláš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace plynů ukážou, jak se částice chovají při zahřátí nebo stlačení."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr, balonek a svíčka (s dospělými) ti vlastnosti plynů předvedou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

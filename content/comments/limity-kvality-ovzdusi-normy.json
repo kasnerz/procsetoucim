@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Číslo z měřicí stanice samo nic neřekne, dokud ho nepostavíš vedle limitu. Teprve pak víš, jestli je v pořádku jít v den se smogem běhat, nebo je lepší zůstat uvnitř. Limity určují zákony a doporučují je zdravotnické organizace, a protože se v číslech liší, musíš vědět, se kterým srovnáváš. Kdo měří a hodnotí ovzduší, dělá takové srovnání každý den. Aplikace ti hodnotu obarví červeně, ale co ten limit chrání a co pro tebe znamená, z barvy nevyčteš.",
+  "learnWithAi": [
+    {
+      "title": "Rozdíl mezi limitem a doporučením",
+      "text": "Zeptej se chatbota, čím se liší zákonný limit od doporučení zdravotníků. Vysvětlení přepiš do dvou vět tak, aby mu rozuměl někdo z rodiny."
+    },
+    {
+      "title": "Dnešní hodnota vedle limitu",
+      "text": "Najdi aktuální hodnotu prachu z nejbližší stanice a napiš chatbotovi, co z ní vyvozuješ. Limit si ověř na stránkách úřadu, chatbot se v číslech může plést."
+    },
+    {
+      "title": "Tělocvik ve smogovém dni",
+      "text": "Popiš chatbotovi situaci, kdy je venku smog a třída má jít na tělocvik ven. Ať se tě vyptává, podle jakých hodnot a limitů se rozhodneš, a obhaj svůj názor."
+    }
+  ]
+}

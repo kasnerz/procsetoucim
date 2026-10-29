@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dobrý pokus začíná otázkou, na kterou se dá odpovědět, a odhadem, co se stane, napsaným dřív, než začneš. Když měníš jen jednu věc, třeba množství vody u řeřichy, a ostatní necháš stejné, víš, čím byl výsledek způsobený; když jich změníš víc najednou, nevíš to. Stejně se ověřuje, jestli funguje nový lék nebo hnojivo. Chatbot ti může plán prověřit a upozornit na chybu, otázku a domněnku ale musíš mít svoje, jinak nemáš co ověřovat. S takovými plány pracuje každý den, kdo dělá výzkum v laboratoři, u zvířat nebo v zemědělství, a takových míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Zúžení otázky pro pokus",
+      "text": "Napiš chatbotovi obecnou otázku, třeba co rostlinám prospívá, a požádej ho, ať ti pomůže ji zúžit na takovou, kterou ověří pokus. Konečnou podobu otázky vyber ty."
+    },
+    {
+      "title": "Pokus s ukrytou chybou",
+      "text": "Požádej chatbota o popis vymyšleného pokusu, ve kterém je schválně chyba v plánu. Najdi ji a napiš, jak by měl pokus vypadat správně."
+    },
+    {
+      "title": "Kontrola plánu pokusu",
+      "text": "Popiš chatbotovi svůj plán pokusu a požádej ho, ať hledá místa, kde měníš víc věcí najednou. Plán pak oprav podle sebe, ne podle jeho hotového řešení."
+    }
+  ]
+}

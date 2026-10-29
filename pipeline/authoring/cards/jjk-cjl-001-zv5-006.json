@@ -1,0 +1,259 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "manipulace-poznat-triky-reklama-media",
+      "title": "Rozpoznání manipulace v reklamě a médiích",
+      "aliases": [
+        "manipulace",
+        "reklama",
+        "triky v reklamě",
+        "jak poznat manipulaci",
+        "marketing",
+        "falešná reklama"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozpozná situace, kde se může s manipulací setkat: běžná komunikace, mediální komunikace, marketing, reklama."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí běžné triky, třeba tlak na rychlé rozhodnutí, a dá ti ukázky ke zkoumání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na stránkách o mediální výchově najdeš popsané triky s příklady."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace trik v reklamě nepozná, všimnout si ho musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj za tebe nepozná, že se tě někdo snaží ovlivnit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f",
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ],
+      "inspiration": [
+        "Manipulace",
+        "Reklama",
+        "Levná jablka - reklama"
+      ]
+    },
+    {
+      "slug": "manipulace-ptat-se-na-zdroj-informace",
+      "title": "Otázky na zdroj a jeho důvěryhodnost",
+      "aliases": [
+        "kdo to napsal",
+        "zdroj informace",
+        "důvěryhodný zdroj",
+        "komu věřit",
+        "fake news"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Ptá se na konkrétní informace a jejich zdroje."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Ptá se na důvěryhodnost zdroje, odkud konkrétní informace pochází."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne otázky, které si ke zdroji položit, ale jeho původ ti nepotvrdí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam, kdo web provozuje, a můžeš ho porovnat s dalšími zdroji."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti důvěryhodnost zdroje neřekne, posoudit ji musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na papíře ani v nástroji se důvěryhodnost zdroje nezměří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+        "http://data.europa.eu/esco/skill/db33c0f3-43ee-4ba3-ba47-9269ac837697"
+      ],
+      "inspiration": [
+        "Co o nás ví internet a jak to využívá v reklamě"
+      ]
+    },
+    {
+      "slug": "manipulace-kriticke-posouzeni-sdeleni",
+      "title": "Kritické posouzení sdělení",
+      "aliases": [
+        "kritické myšlení",
+        "posoudit text",
+        "pravda nebo ne",
+        "čemu věřit",
+        "hodnocení informací"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zhodnotí informace, které se dozvěděl, a dává je do souvislosti s těmi, které již zná."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Kriticky posoudí informace nebo myšlenky obsažené v textu nebo v jiném sdělení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě na důkazy a na to, komu sdělení prospívá, rozhodnout musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ověřit si tvrzení můžeš v encyklopedii nebo u jiných zdrojů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace sdělení neposoudí za tebe, hodnotit ho musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Úsudek o tom, čemu věřit, žádný nástroj nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/db33c0f3-43ee-4ba3-ba47-9269ac837697",
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ],
+      "inspiration": [
+        "Manipulace"
+      ]
+    },
+    {
+      "slug": "manipulace-moje-zkusenost-priklad",
+      "title": "Příklad manipulace z vlastní zkušenosti",
+      "aliases": [
+        "kdy mě někdo zmanipuloval",
+        "příklad manipulace",
+        "vyprávění o manipulaci",
+        "naléhání"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklad situace, kdy se setkal s manipulací."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Zkušenost je tvoje, chatbot ji nezná ani za tebe nevybere."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Zážitek z vlastního života na internetu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvůj zážitek nemá, vybavit si ho musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zážitek z vlastního života žádný nástroj nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f"
+      ],
+      "inspiration": [
+        "Kup si mě"
+      ]
+    },
+    {
+      "slug": "manipulace-plakat-reklama-vlastni-produkt",
+      "title": "Plakát nebo reklama na vlastní produkt",
+      "aliases": [
+        "plakát",
+        "reklama",
+        "vyrobit reklamu",
+        "slogan",
+        "propagace"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vytvoří plakát, mediální reklamu, která má zákazníky přivést k nákupu jeho produktu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne slogany a otázky, co zákazníky osloví, výběr děláš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky plakátů ti ukážou, jak se věci nabízejí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Grafický program ti pomůže plakát nakreslit a rozvrhnout."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, fixy a pravítko stačí na plakát nakreslený rukou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f",
+        "http://data.europa.eu/esco/skill/66fda9e5-f9f7-4342-b4f1-23355bcdd0b9"
+      ],
+      "inspiration": [
+        "Kup si mě",
+        "Reklama"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Uvědomuje si a formuluje souvislosti",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

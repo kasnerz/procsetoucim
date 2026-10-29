@@ -1,0 +1,71 @@
+{
+  "outcome": "MAT-MAT-002-ZV5-005",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Změří a porovná délky, obsahy, objemy pomocí nestandardních jednotek (kroky, palce, dřívka, provázek…, list papíru, čtverec v síti…, krychle...).",
+      "cards": [
+        "mereni-krokem-provazkem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Odhadne délku, obsah a objem použitím nestandardní jednotky.",
+      "cards": [
+        "mereni-krokem-provazkem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Změří, porovná a odhadne délky použitím standardní jednotky.",
+      "cards": [
+        "delky-metr-centimetr"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Určí obsah mřížového útvaru ve čtvercové síti.",
+      "cards": [
+        "obsah-ctverecky-mrizka"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyjádří objem krychlového tělesa pomocí jednotkových krychlí.",
+      "cards": [
+        "objem-jednotkove-krychle"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí obsah mnohoúhelníku pomocí jeho rozdělení nebo doplnění na útvar tak, aby obsah snadno zjistil.",
+      "cards": [
+        "obsah-mnohouhelnik-rozdeleni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy s reálným kontextem týkající se míry mnohoúhelníku (obvodu, obsahu) i míry krychlového tělesa (povrchu a objemu).",
+      "cards": [
+        "obvod-obsah-ulohy-pokoj",
+        "povrch-objem-ulohy-bazen"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Využívá standardní jednotky délky k měření a porovnávání.",
+      "cards": [
+        "delky-metr-centimetr"
+      ],
+      "aside": null
+    }
+  ]
+}

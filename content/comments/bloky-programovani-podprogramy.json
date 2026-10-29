@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Podprogram je vlastní blok, do kterého schováš část programu, která se opakuje, třeba skok nebo nakreslení domečku, a pak ji jen zavoláš jménem. Program se tak čte jako krátký seznam srozumitelných kroků a chybu opravíš na jednom místě místo na pěti. Takhle si vývojáři dělí velké programy na části, na kterých může pracovat víc lidí najednou. Stejná myšlenka se hodí i mimo počítač, když velký úkol, třeba úklid pokoje, rozdělíš na menší celky s vlastním názvem. Chatbot ti ukáže, jak vlastní blok vytvořit, co do něj patří, ale poznáš až zkoušením.",
+  "learnWithAi": [
+    {
+      "title": "Ranní příprava jako program",
+      "text": "Zkuste s rodičem napsat postup ranní přípravy do školy a rozdělit ho na menší části s názvy. Chatbot ať vám řekne, která část by mohla být podprogram a proč."
+    },
+    {
+      "title": "Pojmenování vlastního bloku",
+      "text": "Poproste chatbota, ať vám popíše program, který kreslí několik stejných domečků. Vymysli, jak by se jmenoval vlastní blok pro jeden domeček a co by v něm bylo."
+    },
+    {
+      "title": "Oprava na jednom místě",
+      "text": "Postavte s rodičem program s vlastním blokem a potom v bloku něco změňte. Zeptejte se chatbota, proč se změna projevila všude, kde blok voláte, a zkus to vysvětlit vlastními slovy."
+    }
+  ]
+}

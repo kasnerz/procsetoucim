@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Z jedné ropy se v rafinérii oddělí plyn do zapalovače, benzín, nafta i asfalt na silnice, a to podle toho, při jaké teplotě se která část vypaří. Malé molekuly se vaří dřív, velké později, a na téhle souvislosti stojí celé dělení ropy. Kdo řídí směnu v rafinérii nebo obsluhuje velín plynárny, počítá s tím každý den, a kdo se stará o lodní motory nebo kotle, díky tomu rozumí palivu, se kterým pracuje. Tabulku teplot varu najdeš v encyklopedii, ale vysvětlit, proč to tak je, a odhadnout, kde se oddělí látka, kterou v tabulce nemáš, zvládneš jen s tou souvislostí v hlavě.",
+  "learnWithAi": [
+    {
+      "title": "Řazení produktů z ropy",
+      "text": "Požádej chatbota o šest produktů z ropy v náhodném pořadí. Seřaď je podle teploty varu, své pořadí zdůvodni velikostí molekul a nech si ukázat, kde máš chybu."
+    },
+    {
+      "title": "Vysvětlení pro mladšího kamaráda",
+      "text": "Napiš pro mladšího kamaráda pár vět o tom, proč se velké molekuly vaří později než malé. Chatbot v textu najde nepřesná místa, přepsat je ale musíš ty."
+    },
+    {
+      "title": "Odhad před pokusem",
+      "text": "Před destilací ve školní laboratoři si s chatbotem projdi, co se bude dít, a napiš si odhad, co se oddělí první. Po pokusu porovnej odhad se skutečností."
+    }
+  ]
+}

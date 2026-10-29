@@ -1,0 +1,17 @@
+---
+import Base from "../layouts/Base.astro";
+import Search from "../components/Search.astro";
+import Icon from "../components/Icon.astro";
+---
+<Base title="Hledat" search={false}>
+  <div class="wrap page col" data-search-page>
+    <Icon name="search" size="48" class="page-icon" />
+    <h1>Hledat</h1>
+    <Search autofocus big />
+  </div>
+</Base>
+<style>
+  .page { display: grid; justify-items: center; text-align: center; gap: var(--s5); }
+  .page :global(.page-icon) { color: var(--ink-soft); }
+  .page :global(.results) { text-align: left; width: 100%; }
+</style>

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Otázky k textu a věty typu pravda, nebo nepravda vypadají jako obyčejný test, ale hlavně ti ukážou, jestli textu opravdu rozumíš, nebo si to jen myslíš. Přesné čtení se hodí, když podle anglického návodu skládáš stavebnici nebo hledáš v anglické hře, co máš udělat. Chatbot ti k textu otázky vymyslí a odpovědi opraví, takže se to dá dobře trénovat, odpovídat ale musíš ty. V knihovně nebo v nemocnici se v textech hledají konkrétní odpovědi každý den, i když hlavně v češtině.",
+  "learnWithAi": [
+    {
+      "title": "Tvrzení o zvířeti z textu",
+      "text": "Poproste chatbota o krátký anglický text o zvířeti a pět vět, u kterých rozhodneš, jestli jsou pravda. Chatbot vám pak ukáže, kde v textu je odpověď."
+    },
+    {
+      "title": "Otázky k textu z učebnice",
+      "text": "Vložte do chatbota text z učebnice a nechte ho vymyslet tři otázky. Odpovídej podle textu a ukaž prstem větu, ve které odpověď stojí."
+    },
+    {
+      "title": "Vlastní pravdivé a nepravdivé věty",
+      "text": "Zkuste s rodičem obrátit role: ty vymyslíš k přečtenému textu dvě pravdivé a dvě nepravdivé věty a chatbot je posoudí. Kontrolujte, jestli to posoudil správně."
+    }
+  ]
+}

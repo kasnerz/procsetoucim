@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Rozvrh hodin, jízdní řád nebo tabulka bodů ve hře mají sloupce a řádky, a kdo se v nich vyzná, najde údaj za pár vteřin. Na tom stojí další informatika ve škole: později budeš tabulky navrhovat, nastavovat pravidla pro záznamy a používat funkce, které data zpracují automaticky. S tabulkami denně pracuje každý, kdo vede sklad, sekretariát nebo daňovou agendu. Tabulkový program ti sloupce označí písmeny a řádky čísly, ale kam se podívat, musíš poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Hádanka z rozvrhu hodin",
+      "text": "Poproste s rodičem chatbota, ať vám napíše rozvrh hodin jako tabulku. Ptejte se navzájem, co je ve třetím řádku a druhém sloupci, a hledej prstem."
+    },
+    {
+      "title": "Tabulka zvířat k popisu",
+      "text": "Zkuste spolu chatbota požádat o tabulku zvířat se sloupci jméno, barva a počet nohou. Ukaž, kde jsou všechny údaje o jednom zvířeti a kde všechny barvy, a pojmenuj, co je řádek a co sloupec."
+    },
+    {
+      "title": "Údaj ve špatném sloupci",
+      "text": "Nechte chatbota vytvořit tabulku, ve které je jeden údaj ve špatném sloupci, třeba číslo mezi jmény. Najdi ho a řekni rodiči, kam správně patří."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Grafy potkáváš v aplikaci s počasím i ve zprávách, kde se ukazuje, jak rostou ceny. Kdo v grafu najde maximum, minimum a hodnotu v určitém čase, nenechá se tak snadno zmást osou, která nezačíná od nuly a z malého rozdílu dělá velký. Popsat průběh slovy je těžší: musíš rozlišit, kdy teplota roste rychle a kdy jen pomalu, a říct to tak, aby to pochopil i ten, kdo graf nevidí. Jako hlavní náplň práce se čtení grafů objevuje spíš výjimečně, třeba při sledování výroby potravin, v běžném životě ho ale využiješ často.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k vlastnímu grafu",
+      "text": "Pošli chatbotovi fotku svého grafu teploty a nech si k němu dát otázky, třeba kdy bylo nejchladněji. Odpovídej jen podle grafu, AI se při čtení obrázku může splést."
+    },
+    {
+      "title": "Slovní popis průběhu",
+      "text": "Napiš několika větami, jak se teplota ve tvém grafu měnila, a nech chatbota říct, co je nejasné. Popis pak přepiš vlastními slovy."
+    },
+    {
+      "title": "Zavádějící grafy ze zpráv",
+      "text": "Požádej chatbota, ať ti vysvětlí, jak může graf klamat, třeba useknutou osou. Najdi pak jeden graf ve zprávách a zkontroluj, jestli jeho osa začíná od nuly."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Zvuk nevidíš, ale aplikace s mikrofonem ho nakreslí jako křivku a najednou je poznat, čím se liší šum od tónu nebo pískání od bručení. Hustší vlnky znamenají vyšší tón, vyšší vlnky hlasitější zvuk, a takové čtení grafu se ti hodí i u jiných dat. Kdo nahrává nebo upravuje hudbu, sleduje podobný obraz zvuku pořád, třeba aby bylo vidět, kde je nahrávka přebuzená. Aplikace zvuk změří a vykreslí, vysvětlit, co na obrazovce vidíš, je ale úkol pro tebe.",
+  "learnWithAi": [
+    {
+      "title": "Hlas jako křivka",
+      "text": "Zazpívej do aplikace nízký a vysoký tón, potom tichý a hlasitý. Popiš chatbotovi, jak se křivka změnila, a nech si vysvětlit, proč."
+    },
+    {
+      "title": "Výzvy pro měření zvuku",
+      "text": "Požádej chatbota o pět úkolů pro aplikaci, třeba najít nejhlubší tón, který dokážeš zazpívat. Splň je a výsledky si zapiš do tabulky."
+    },
+    {
+      "title": "Hádání zvuku podle křivky",
+      "text": "Vyfoť obrazovku aplikace s několika zvuky a nech chatbota hádat, který je šum a který tón. Když se splete, vysvětli mu, podle čeho se to pozná."
+    }
+  ]
+}

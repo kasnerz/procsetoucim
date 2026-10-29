@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "opis-anglickych-slov-a-vet",
+    "title": "Opis anglických slov a vět podle vzoru",
+    "aliases": [
+      "opis slov",
+      "opisování angličtina",
+      "opsat text k obrázku",
+      "psaní anglických slov"
+    ],
+    "outcome": "JJK-AJA-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Opíše text ke správnému obrázku.",
+        "quote": "Opíše text ke správnému obrázku."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Opíše jednotlivá slova nebo jednoduché věty podle vzoru.",
+        "quote": "Opíše jednotlivá slova nebo jednoduché věty podle vzoru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Opis slov",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Opisuješ rukou ty, chatbot ti slova nenapíše a pravopis si tím nenacvičíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace s kartičkami ukáže slovo u obrázku a zkontroluje tvůj zápis."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovník ukáže vzor, podle kterého slova správně opíšeš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Anglický slovník ve tvaru knížky nebo karty s obrázky ti dají vzor k opsání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "doplneni-slov-do-anglickeho-textu",
+    "title": "Doplnění chybějících slov do textu",
+    "aliases": [
+      "doplň slova",
+      "doplňování angličtina",
+      "chybějící slova v textu",
+      "cvičení s mezerami"
+    ],
+    "outcome": "JJK-AJA-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Doplní chybějící slova či informace do textu.",
+        "quote": "Doplní chybějící slova či informace do textu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Doplnění chybějících slov",
+        "url": ""
+      },
+      {
+        "title": "Práce s informacemi v tabulce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí ti cvičné věty s mezerami a po vyplnění vysvětlí, co je špatně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace na procvičování slovíček zkontroluje, správnost vybraného slova."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Online cvičení s mezerami ti hned ukážou správné řešení."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pracovní list s mezerami a tužka stačí, slova doplňuješ ty a pak je porovnáš s řešením."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "popis-osoby-a-situace-anglicky",
+    "title": "Písemný popis osoby nebo situace",
+    "aliases": [
+      "popis kamaráda",
+      "my friend",
+      "popis osoby angličtina",
+      "popis obrázku",
+      "my day"
+    ],
+    "outcome": "JJK-AJA-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Jednoduše písemně popíše osobu nebo situaci.",
+        "quote": "Jednoduše písemně popíše osobu nebo situaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "My friend",
+        "url": "https://uloziste.rvp.cz/material/f9235c"
+      },
+      {
+        "title": "My day",
+        "url": "https://uloziste.rvp.cz/material/7d2887"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Opraví tvůj popis a vysvětlí chyby, nebo ti ukáže vzorový krátký popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Překladač a kontrola pravopisu ti ukážou překlepy a neznámé slovo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovník a příručka ti dají slova na vzhled, rodinu nebo činnosti."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník ti pomůže najít slovo, které ti chybí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/c2f70431-2cc5-4552-bcb7-6564512c15bd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kratky-anglicky-text-seznam-popis",
+    "title": "Krátký anglický text: seznam nebo popis",
+    "aliases": [
+      "nákupní seznam angličtina",
+      "shopping list",
+      "krátký text anglicky",
+      "napsat text anglicky",
+      "jednoduchý popis"
+    ],
+    "outcome": "JJK-AJA-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Napíše krátký text s použitím známých slov a frází.",
+        "quote": "Napíše krátký text s použitím známých slov a frází."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Napíše krátký text jako je nákupní seznam nebo jednoduchý popis.",
+        "quote": "Napíše krátký text jako je nákupní seznam nebo jednoduchý popis."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "My day",
+        "url": "https://uloziste.rvp.cz/material/7d2887"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje tvůj krátký text, vysvětlí chyby a navrhne jiné fráze."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu označí překlepy, překladač ověří neznámé slovo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Wikipedie nebo slovník ti dají slova a hotové fráze, které do textu použiješ."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník v knížce ti poradí slovo, kterým text dopíšeš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/c2f70431-2cc5-4552-bcb7-6564512c15bd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

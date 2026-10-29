@@ -1,0 +1,94 @@
+{
+  "outcome": "INF-INF-003-ZV5-007",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Popíše v tabulce sloupce a řádky.",
+      "cards": [
+        "tabulka-sloupce-radky-zapis-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznamuje se zadáním úlohy, určí, jaká data jsou potřeba zaznamenat.",
+      "cards": [
+        "urceni-potrebnych-dat-zadani-ulohy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Orientuje se v základní struktuře tabulky (sloupce a řádky) nebo seznamu.",
+      "cards": [
+        "tabulka-sloupce-radky-zapis-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Třídí data podle různých kategorií (shodných a odlišných vlastností).",
+      "cards": [
+        "trideni-dat-kategorie-sloupce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zapisuje číselná i nečíselná data do předpřipravených jednoduchých struktur (např. tabulka, seznam).",
+      "cards": [
+        "zapis-dat-do-tabulky-seznamu-sbirka"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Analyzuje zadání, určí potřebná data a rozpozná, jaká data jsou důležitá.",
+      "cards": [
+        "urceni-potrebnych-dat-zadani-ulohy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Třídí data v tabulce nebo seznamu podle zadaných kategorií.",
+      "cards": [
+        "trideni-dat-kategorie-sloupce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí, jak třídění usnadňuje práci s daty.",
+      "cards": [
+        "proc-trideni-usnadnuje-praci-s-daty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zaznamená a uspořádá různé typy dat v tabulce nebo seznamu.",
+      "cards": [
+        "zapis-dat-do-tabulky-seznamu-sbirka"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede příklady, kde je vhodné použít různé typy struktur, seznam, tabulka.",
+      "cards": [
+        "seznam-nebo-tabulka-kdy-ktera-struktura"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Zaznamenává do existující tabulky číselná i nečíselná data problému, který opakovaně řešil.",
+      "cards": [
+        "zapis-dat-do-tabulky-seznamu-sbirka"
+      ],
+      "aside": null
+    }
+  ]
+}

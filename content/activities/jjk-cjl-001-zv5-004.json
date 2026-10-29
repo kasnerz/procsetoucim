@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "vyp-aktivni-nasloucham",
+    "title": "Pozorné naslouchání",
+    "aliases": [
+      "naslouchání",
+      "poslouchat",
+      "soustředit se",
+      "dávat pozor",
+      "poslech"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Pozorně a soustředěně naslouchá.",
+        "quote": "Pozorně a soustředěně naslouchá."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Aktivní naslouchání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Poslouchat musíš ty, chatbot za tebe nic nezachytí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Stránka ti pozornost nenacvičí, poslouchat musíš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe neposlouchá, soustředění je na tobě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj nenahradí tvoje uši a soustředění."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyp-doptat-se-na-nejasne",
+    "title": "Doptání na nejasné sdělení",
+    "aliases": [
+      "zeptat se",
+      "nerozumím",
+      "doptávání",
+      "ptát se",
+      "požádat o vysvětlení"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Doptá se, pokud si není jistý obsahem sdělení.",
+        "quote": "Doptá se, pokud si není jistý obsahem sdělení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Aktivní naslouchání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje mluvčího s nejasným zadáním, ty si procvičíš doptávání."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Zeptat se musíš kamaráda nebo učitele, na webu nikdo neodpoví."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nezodpoví, co ti řekl člověk vedle tebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zeptat se musíš ty, žádný nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyp-zamer-mluvciho",
+    "title": "Komunikační záměr mluvčího",
+    "aliases": [
+      "co tím chtěl říct",
+      "informovat, pobavit, varovat",
+      "prosba a otázka",
+      "záměr řeči",
+      "výzva a varování"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozezná komunikační záměr mluvčího (chce informovat, pobavit, varovat, požádat, zeptat se).",
+        "quote": "Rozezná komunikační záměr mluvčího (chce informovat, pobavit, varovat, požádat, zeptat se)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Pojmenuje komunikační záměr mluvčího.",
+        "quote": "Pojmenuje komunikační záměr mluvčího."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vím, co mi chceš říct",
+        "url": "https://uloziste.rvp.cz/material/76409d"
+      },
+      {
+        "title": "Rozpoznání komunikační situace",
+        "url": "https://uloziste.rvp.cz/material/1198e1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi varováním a prosbou a dá ti věty k tipování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady vět, které informují, varují nebo se ptají."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace záměr mluvčího v rozhovoru za tebe nepozná."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Záměr poznáš z hlasu a situace, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyp-emoce-mluvciho",
+    "title": "Nálada mluvčího: pozitivní, negativní, neutrální",
+    "aliases": [
+      "poznat náladu",
+      "emoce",
+      "jak se kdo cítí",
+      "radost a zlost",
+      "mimika a hlas"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Posoudí podle projevů mluvčího, zda je jeho postoj v konkrétní situaci provázen pozitivní, negativní nebo neutrální emocí.",
+        "quote": "Posoudí podle projevů mluvčího, zda je jeho postoj v konkrétní situaci provázen pozitivní, negativní nebo neutrální emocí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozpoznání komunikační situace",
+        "url": "https://uloziste.rvp.cz/material/1198e1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, podle čeho emoci poznat, a popíše krátké ukázky k tipování."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Náladu člověka před sebou z webu nepoznáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nepřečte náladu kamaráda, díváš se a posloucháš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Hlas a výraz tváře posuzuješ ty, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyp-reakce-na-vyjadreni",
+    "title": "Reakce na vyjádření v modelové situaci",
+    "aliases": [
+      "jak odpovědět",
+      "reagovat",
+      "co řeknu",
+      "hraní rolí",
+      "modelová situace"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Reaguje v modelové situaci na konkrétní vyjádření.",
+        "quote": "Reaguje v modelové situaci na konkrétní vyjádření."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Reakce",
+        "url": "https://uloziste.rvp.cz/material/61d15d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje druhou stranu rozhovoru, ty si zkusíš odpovědět."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Webová stránka ti nezahraje protějšek, na kterého reaguješ."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Reagovat musíš ty, aplikace s tebou rozhovor nevede."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odpovídáš hlasem a jednáním ty, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyp-vhodnost-reakce",
+    "title": "Posouzení reakce a návrh jiné",
+    "aliases": [
+      "byla to dobrá odpověď",
+      "lepší reakce",
+      "zhodnotit odpověď",
+      "jak to říct jinak",
+      "zdůvodnit"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí, zda byla reakce vhodná.",
+        "quote": "Zhodnotí, zda byla reakce vhodná."
+      },
+      {
+        "level": "Splněno",
+        "point": "Navrhne jinou reakci a svůj návrh zdůvodní.",
+        "quote": "Navrhne jinou reakci a svůj návrh zdůvodní."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Reakce",
+        "url": "https://uloziste.rvp.cz/material/61d15d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Posoudí tvoji odpověď a ukáže jiné varianty, tvoje je pak dál zdůvodníš ty."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Úsudek o tom, co bylo vhodné, si na webu nepřečteš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvoji reakci neposoudí, hodnotit ji musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Přemýšlíš a zdůvodňuješ ty, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

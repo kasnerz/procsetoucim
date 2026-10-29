@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když si každý den zapisuješ teplotu za oknem nebo vedeš seznam karet ve sbírce, potřebuješ, aby každý údaj skončil ve správné kolonce a dal se později najít. Do tabulky patří čísla i slova a stačí jeden údaj o řádek vedle, aby celá tabulka přestala dávat smysl. Tvoje měření ani tvoji sbírku žádný chatbot nezná, takže zapisuješ ty a aplikace ti nanejvýš pohlídá buňky a spočítá součty. Pečlivý zápis dat je denní práce lidí, kteří vedou sklady, spisovny, faktury nebo záznamy o zvířatech v zoo.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka na týden počasí",
+      "text": "Popište chatbotovi, co chcete týden sledovat, třeba počasí nebo kolik hodin spíš. Ať navrhne prázdnou tabulku, kterou pak každý den vyplňuješ tužkou ty."
+    },
+    {
+      "title": "Seznam vlastní sbírky",
+      "text": "Vymyslete spolu s chatbotem, jaké sloupce má mít seznam tvé sbírky, třeba název, barva a odkud kus je. Zapiš do něj aspoň deset kusů a hlídej, aby každý údaj byl ve správném sloupci."
+    },
+    {
+      "title": "Kontrola vyplněné tabulky",
+      "text": "Vyplněnou tabulku přepište do chatbota a zeptejte se, jestli je někde slovo ve sloupci s čísly nebo chybí údaj. Opravy udělej ty, ne chatbot."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "outcome": "INF-INF-004-ZV5-008",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Využívá digitální technologie k badatelským činnostem a poznávání světa kolem sebe.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Poznává základní prvky ovládání aplikací (např. kopírování, scrollování) a používá je v jednoduchých úkolech na různých zařízeních (počítač, tablet).",
+      "cards": [
+        "spolecne-ovladani-aplikaci-kopirovani-scrollovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vrací se k rozdělané práci pomocí základních funkcí (např. otevření dokumentu, který si uložil lokálně nebo cloudově).",
+      "cards": [
+        "navrat-k-rozdelane-praci-ulozeny-dokument"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vybírá jednoduchou aplikaci pro základní úkol (např. textový editor pro psaní, prohlížeč obrázků pro zobrazení obrázků).",
+      "cards": [
+        "vyber-aplikace-pro-ukol-digitalni-zarizeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Odstraňuje základní typy dat (např. smazání dokumentu z plochy počítače nebo složky).",
+      "cards": [
+        "mazani-dat-dokument-ze-slozky-plochy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá společné prvky ovládání v různých aplikacích a na různých zařízeních.",
+      "cards": [
+        "spolecne-ovladani-aplikaci-kopirovani-scrollovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Spravuje soubory – pojmenovává, ukládá, přejmenovává a vymazává je na různých zařízeních a rozpozná rozdíl mezi lokálně a cloudově uloženými daty.",
+      "cards": [
+        "pojmenovani-a-ukladani-souboru-lokalne-cloud"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vybírá a kombinuje různé aplikace pro řešení komplexnějších úkolů a porovnává různé možnosti.",
+      "cards": [
+        "vyber-aplikace-pro-ukol-digitalni-zarizeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Spravuje úložiště na různých zařízeních – počítač, tablet, cloud; zvažuje, která data je potřeba odstranit.",
+      "cards": [
+        "sprava-uloziste-pocitac-tablet-cloud"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Najde a spustí známou aplikaci nebo program.",
+      "cards": [
+        "spusteni-zname-aplikace-digitalni-zarizeni"
+      ],
+      "aside": null
+    }
+  ]
+}

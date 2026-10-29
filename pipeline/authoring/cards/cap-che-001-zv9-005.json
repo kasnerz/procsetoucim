@@ -1,0 +1,291 @@
+{
+  "outcome": "CAP-CHE-001-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vystrazne-symboly",
+      "title": "Výstražné symboly na obalech",
+      "aliases": [
+        "výstražné symboly",
+        "piktogramy nebezpečí",
+        "co znamená symbol na obalu",
+        "lebka a křížky",
+        "žíravina"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "K jednotlivým výstražným symbolům na obalech chemických látek přiřadí jejich význam."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Interpretuje význam výstražných symbolů a uvádí k nim konkrétní příklady látek."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí význam symbolů a vyzkouší tě z nich."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Přehled symbolů a příklady látek si ověříš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace z fotky obalu symbol rozpozná a ukáže, co znamená."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Symboly čteš očima, nástroj tu nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d",
+        "http://data.europa.eu/esco/skill/907039e2-5b33-4ea5-96ca-b6082711b491"
+      ],
+      "inspiration": [
+        "Výstražné symboly"
+      ]
+    },
+    {
+      "slug": "etiketa-vyrobku",
+      "title": "Čtení etikety výrobku",
+      "aliases": [
+        "etiketa",
+        "co je napsáno na obalu",
+        "návod na použití",
+        "složení a nebezpečí výrobku",
+        "čistič"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na základě dostupných informací posoudí nebezpečné vlastnosti konkrétního výrobku a určí správný postup pro použití a nakládání s výrobkem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí odborné výrazy z etikety jednodušším jazykem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Bezpečnostní list výrobku najdeš online."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace z fotky přečte i malé písmo nebo ho přeloží."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Etiketu čteš ty, nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d",
+        "http://data.europa.eu/esco/skill/02e235f4-a30a-412a-a06e-1c471ad28678"
+      ],
+      "inspiration": [
+        "Etiketa chemické látky",
+        "Co prozradí obal?"
+      ]
+    },
+    {
+      "slug": "pravidla-v-laboratori",
+      "title": "Pravidla bezpečného chování v laboratoři",
+      "aliases": [
+        "bezpečnost v laboratoři",
+        "laboratorní řád",
+        "ochranné pomůcky",
+        "brýle a plášť",
+        "chování v chemii"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Demonstruje základní pravidla bezpečného chování v laboratoři."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč jednotlivá pravidla platí, a vyzkouší tě z nich."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Laboratorní řád ti škola dá, dodržovat ho musíš ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe pravidla nedodrží."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Ochranné brýle a rukavice tě chrání, nosit je musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6f571969-3640-4774-a9bc-fd2ef583fdec"
+      ],
+      "inspiration": [
+        "Nebezpečné látky ve školní laboratoři – simulace a pravidla pro nakládání"
+      ]
+    },
+    {
+      "slug": "prvni-pomoc-pri-nehode",
+      "title": "První pomoc při nehodě s látkou",
+      "aliases": [
+        "první pomoc",
+        "polití kyselinou",
+        "popálení",
+        "zasažení oka",
+        "nehoda v laboratoři"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Simuluje správný postup při nejčastějších nehodách při práci s chemickými látkami a poskytnutí první pomoci při nejčastějších nehodách v chemické laboratoři či v domácnosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou postupy a zeptá se, co uděláš dál."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Oficiální pokyny první pomoci si přečteš předem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace první pomoci vede krok za krokem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lékárnička a oplach vodou jsou to, čím při nehodě pomáháš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+        "http://data.europa.eu/esco/skill/0dcea846-04b4-4ffc-8c75-a35c991454b1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "rizika-latek-a-opatreni",
+      "title": "Rizika látek a bezpečná opatření",
+      "aliases": [
+        "rizika chemikálií",
+        "jak se chránit",
+        "nebezpečné látky doma",
+        "bezpečné zacházení",
+        "saponát a chlor"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vysvětlí rizika spojená s konkrétními chemickými látkami a navrhne opatření pro bezpečné zacházení s nimi."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere rizika látky a navrhne opatření, ty je zkontroluješ."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Bezpečnostní listy uvádějí rizika a opatření k látkám."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s databází látek ukáže rizika, opatření navrhuješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rizika posuzuješ hlavou, nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/907039e2-5b33-4ea5-96ca-b6082711b491",
+        "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "spravne-a-spatne-zachazeni",
+      "title": "Správné a nesprávné zacházení s látkami",
+      "aliases": [
+        "co je špatně na obrázku",
+        "chyby při pokusu",
+        "bezpečné a nebezpečné chování",
+        "hodnocení situace"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na modelových příkladech práce s běžně dostupnými chemickými látkami zhodnotí příklady správného a nesprávného zacházení s nimi."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Najde chyby v popsané situaci a vysvětlí je."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pravidla bezpečné práce si ověříš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Situaci za tebe aplikace neposoudí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj situaci neposoudí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6f571969-3640-4774-a9bc-fd2ef583fdec",
+        "http://data.europa.eu/esco/skill/907039e2-5b33-4ea5-96ca-b6082711b491"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Vysvětlí rizika spojená se zacházením",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

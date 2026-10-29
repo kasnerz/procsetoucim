@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stavebnice podle návodu vypadá jednoduše, dokud nepřeskočíš krok a na konci ti nezbudou šroubky navíc. Číst schéma a držet se pořadí se učíš na modelu, kde chyba stojí jen čas, a hodí se ti to při skládání nábytku nebo zapojování lampičky. Podle technické dokumentace se v práci řídí zhruba 4 % lidí, kteří v Česku pracují, třeba ti, kdo montují přesné přístroje nebo letadlové motory, a tam vynechaný krok znamená vadný výrobek. Chatbot ti vysvětlí značku, které nerozumíš, šroubovák ale držíš ty a ty taky hlídáš, jestli díl sedí.",
+  "learnWithAi": [
+    {
+      "title": "Vysvětlení nejasné značky",
+      "text": "Když ve schématu narazíš na značku nebo krok, kterému nerozumíš, popiš ho chatbotovi a nech si ho vysvětlit. Ověř si to na modelu, než díl přišroubuješ."
+    },
+    {
+      "title": "Kontrolní seznam před stavbou",
+      "text": "Požádej chatbota o seznam, co si před stavbou podle návodu zkontrolovat, třeba díly a nářadí. Seznam si vytiskni a u práce ho odškrtávej."
+    },
+    {
+      "title": "Model podle slovního popisu",
+      "text": "Nech chatbota popsat slovy postup sestavení jednoduchého modelu, bez obrázku. Podle textu model postav ze stavebnice a zapiš si místa, kde popis nestačil."
+    }
+  ]
+}

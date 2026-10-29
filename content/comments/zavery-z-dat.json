@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Z čísel v tabulce se dá vyčíst víc než jednotlivé údaje, třeba že ve středu pršelo, a proto bylo chladněji. Když umíš takový závěr vyslovit a zkontrolovat, jestli z dat opravdu plyne, nenachytá tě tak snadno tvrzení, které čísla nepodporují. Na to navazuje pozdější práce s daty v informatice, včetně toho, jak se trénuje a hodnotí umělá inteligence. Chatbot závěr z dat napíše hned, jenže někdy si ho přimyslí, a poznat to umí jen ten, kdo se do čísel podívá.",
+  "learnWithAi": [
+    {
+      "title": "Závěry z týdne počasí",
+      "text": "Poproste s rodičem chatbota o tabulku počasí za týden a vymyslete z ní dva závěry. Nechte chatbota říct, jestli z čísel opravdu plynou."
+    },
+    {
+      "title": "Hledání chybného závěru",
+      "text": "Zkuste s rodičem požádat chatbota o tři závěry k jedné tabulce, z nichž jeden je schválně špatně. Najděte ten chybný a vysvětlete proč."
+    },
+    {
+      "title": "Týdenní měření cesty do školy",
+      "text": "Zapisujte s rodičem týden něco z domácnosti, třeba kolik minut trvá cesta do školy, a vyslovte závěr. Chatbota se zeptejte, jaká další data by ho potvrdila nebo vyvrátila."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tipnout si, za jak dlouho doběhneš na zastávku, a pak to opravdu změřit, je nejrychlejší způsob, jak zjistit, nakolik můžeš svým odhadům věřit. Porovnávat odhad s měřením se tady učíš na chůzi a běhu a stejně to pak budeš dělat u každého pokusu ve fyzice. Stopky v mobilu změří čas přesněji než ty, odhad ale musíš mít hotový dřív, než je spustíš, jinak nemáš s čím srovnávat. S časem a pohybem počítá třeba ten, kdo v logistice plánuje, kdy kamion dorazí, nebo kdo zkouší kolejová vozidla, a takových pracovních míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Připravená tabulka měření",
+      "text": "Požádej chatbota o jednoduchou tabulku pro chůzi, běh a jízdu na kole se sloupci odhad, naměřený čas a rozdíl. Vyplň ji venku se stopkami v ruce."
+    },
+    {
+      "title": "Předpověď na delší trasu",
+      "text": "Z naměřených časů spočítej, jak dlouho ti zabere dvakrát delší trasa, a výpočet dej chatbotovi ke kontrole. Pak trasu opravdu ujdi a podívej se, jestli předpověď vyšla."
+    },
+    {
+      "title": "Pátrání po příčině rozdílu",
+      "text": "Napiš chatbotovi svoje odhady a naměřené časy a zeptej se, čím může být rozdíl způsobený, třeba semafory nebo únavou. Které vysvětlení sedí, posuď podle toho, co se na trase opravdu dělo."
+    }
+  ]
+}

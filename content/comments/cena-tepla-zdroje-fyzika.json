@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dřevo se prodává v metrech, uhlí v tunách, a tak na první pohled nepoznáš, co z toho vyjde levněji než plyn nebo elektřina. Teprve přepočet na cenu jedné kilowatthodiny tepla ukáže, za co domácnost platí víc. Hodí se to, když se doma rozhoduje o novém kotli nebo tepelném čerpadle, a v práci to řeší lidé, kteří navrhují a opravují topení nebo radí domácnostem s úsporami. Přepočet zvládne kalkulačka i chatbot, výhřevnost paliv a aktuální ceny ale musíš najít a dosadit ty, jinak výsledek nic neříká.",
+  "learnWithAi": [
+    {
+      "title": "Přepočet krok za krokem",
+      "text": "Požádej chatbota, ať ti ukáže přepočet ceny dřeva na kWh jen do prvního kroku. Další kroky dopočítej a nech si je zkontrolovat."
+    },
+    {
+      "title": "Srovnání dvou paliv",
+      "text": "Najdi aktuální ceny dvou paliv, spočítej cenu za kWh a výsledek porovnej s tím, co uvede chatbot. Při rozdílu hledej, kdo z vás udělal chybu, čísla AI nemusí být aktuální."
+    },
+    {
+      "title": "Porada před výměnou kotle",
+      "text": "Ať chatbot hraje rodinu, která vybírá nové topení a ptá se tě na radu. Odpovídej s vlastními výpočty v ruce."
+    }
+  ]
+}

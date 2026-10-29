@@ -1,0 +1,358 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "mluveni-tempo-intonace-pristrz",
+      "title": "Tempo, intonace a přízvuk řeči",
+      "aliases": [
+        "tempo řeči",
+        "intonace",
+        "melodie věty",
+        "větný přízvuk",
+        "jak mluvit nahlas",
+        "výslovnost"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Mluví v přiměřeném tempu, se správnou intonací."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Mluví v přiměřeném tempu, se správnou intonací, větným přízvukem, dynamikou a melodií."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Mluvíš ty vlastním hlasem, chatbot ti tempo ani melodii nenacvičí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Text o intonaci ti hlas nezmění, mluvit musíš ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahrávka z diktafonu ukáže, jak rychle a jak hlasitě mluvíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na hlas a dech tu žádný jednoduchý nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911"
+      ],
+      "inspiration": [
+        "Nahrávka rozhovoru spolužáků"
+      ]
+    },
+    {
+      "slug": "mluveni-spravne-slovni-tvary",
+      "title": "Správné tvary slov při mluvení",
+      "aliases": [
+        "tvary slov",
+        "skloňování v řeči",
+        "časování v řeči",
+        "mluvit správně",
+        "gramatika v mluvě"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vhodně užívá slovní tvary v komunikační situaci."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vhodně užívá slovní tvary."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, který tvar slova se hodí do věty, a dá ti věty k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka ukáže správný tvar slova."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s kontrolou textu hlídají psaní, mluvenou řeč ti nespraví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tvar slova ve větě, kterou říkáš, ti žádný nástroj neřekne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "mluveni-souvisle-vetne-celky",
+      "title": "Souvislé věty v mluveném projevu",
+      "aliases": [
+        "souvislé věty",
+        "vyprávění",
+        "jak souvisle mluvit",
+        "celá věta",
+        "mluvit ve větách"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Tvoří souvislé větné celky."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Tvoří souvislé větné celky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá ti téma k vyprávění a poradí, jak věty spojit, mluvit pak musíš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové texty ti nenaučí tvořit vlastní věty za pochodu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahrávka ukáže, kde se ti věta rozpadla nebo ses zasekl."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Věty tvoříš v hlavě a říkáš je nahlas, nástroj k tomu není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911"
+      ],
+      "inspiration": [
+        "Zážitkový kruh"
+      ]
+    },
+    {
+      "slug": "mluveni-prosba-omluva-otazka",
+      "title": "Prosba, oznámení, přání, rozkaz, otázka a omluva",
+      "aliases": [
+        "jak se omluvit",
+        "jak poprosit",
+        "jak se zeptat",
+        "oznámení",
+        "přání",
+        "slušná žádost"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vhodným způsobem vyjádří prosbu, oznámení, přání, rozkaz, otázku, omluvu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže různé způsoby, jak poprosit nebo se omluvit, a nacvičíš si je v rolích."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručky slušného vyjadřování dají příklady vhodných formulací."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti omluvu ani prosbu neřeknou, mluvíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Omluvu někomu říkáš ty, nástroj ji nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911"
+      ],
+      "inspiration": [
+        "Obrázky pro modelové komunikační situace"
+      ]
+    },
+    {
+      "slug": "mluveni-formalni-a-neformalni",
+      "title": "Formální a neformální mluvení",
+      "aliases": [
+        "formální řeč",
+        "neformální řeč",
+        "mluvit s učitelem",
+        "mluvit s kamarádem",
+        "spisovně nebo nespisovně",
+        "obecná čeština"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozliší základní prvky komunikace formální/veřejné oproti základním prvkům komunikace neformální/soukromé."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Používá spisovnou nebo nespisovnou podobu jazyka podle komunikačního partnera."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se liší mluva s učitelem a s kamarádem, a ukáže příklady obojího."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručky a články ukážou rozdíl mezi spisovným a nespisovným tvarem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Volbu tónu při mluvení za tebe žádná aplikace neudělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Podle posluchače se rozhoduješ ty, nástroj k tomu nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911",
+        "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f"
+      ],
+      "inspiration": [
+        "Velkej a malej"
+      ]
+    },
+    {
+      "slug": "mluveni-citove-zabarvena-slova",
+      "title": "Citově zabarvená a neutrální slova",
+      "aliases": [
+        "citově zabarvená slova",
+        "zdrobněliny",
+        "hanlivá slova",
+        "neutrální slova",
+        "slova s emocí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vhodně použije slova citově zabarvená a neutrální."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi neutrálním a citově zabarveným slovem a nabídne příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky a příručky ukážou, jestli je slovo hanlivé, láskyplné nebo neutrální."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace k výběru slov při mluvení nic nenabízí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovo vybíráš ty podle situace, papírový slovník to za tebe nerozhodne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "mluveni-pravidla-diskuse-a-rozhovoru",
+      "title": "Pravidla diskuse a vedení rozhovoru",
+      "aliases": [
+        "pravidla diskuse",
+        "jak začít rozhovor",
+        "jak ukončit rozhovor",
+        "dialog",
+        "vedení rozhovoru",
+        "střídání v řeči"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Dodržuje společně stanovená pravidla pro vedení diskuse nebo dialogu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Dodržuje pravidla pro vedení dialogu – vhodně zahájí a ukončí rozhovor."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pravidla slušné diskuse a zahraje s tebou rozhovor, který zahájíš a ukončíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o komunikaci ukážou, jak rozhovor začít a ukončit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Rozhovor se spolužáky vedeš ty naživo, aplikace v něm nepomůže."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Střídání v řeči a poslouchání nacvičuješ s lidmi, ne s nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/324f0243-1a21-4f5c-9f71-52eebc2596ed",
+        "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911"
+      ],
+      "inspiration": [
+        "Kouřové signály"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "V mluvené komunikaci používá osvojené",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

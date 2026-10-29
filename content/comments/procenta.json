@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Sleva v obchodě a stav baterie v telefonu se udávají v procentech, protože procento je část ze sta a dá se s ním srovnat cokoli. Kdo procentům rozumí, pozná, jestli je sleva opravdu výhodná, nebo jestli obchod předtím zvedl původní cenu. Procentní kalkulačka na internetu výsledek spočítá, ale zadat do ní správný celek a poznat, jestli výsledek dává smysl, musíš umět ty. S procenty se setkáš ve zprávách i u půjček a s podobnými čísly pracuje v práci zhruba 25 % lidí, kteří v Česku pracují.",
+  "learnWithAi": [
+    {
+      "title": "Výpočet slevy v procentech",
+      "text": "Požádej chatbota, ať vymyslí deset slev s cenou před a po. Spočítej, kolik procent je sleva, a teprve potom si nech výsledky zkontrolovat."
+    },
+    {
+      "title": "Zdražení a zlevnění o deset procent",
+      "text": "Nech si od chatbota vysvětlit, proč zdražení o deset procent a následné zlevnění o deset procent nevrátí původní cenu. Ověř si to na vlastním příkladu."
+    },
+    {
+      "title": "Otázky k článku s procenty",
+      "text": "Najdi ve zprávách graf nebo článek s procenty a nech chatbota položit ti k němu otázky. Odpovídej z textu, a když chatbot uvádí vlastní čísla, ověř si je ve zdroji."
+    }
+  ]
+}

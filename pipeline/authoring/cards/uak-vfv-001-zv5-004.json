@@ -1,0 +1,397 @@
+{
+  "outcome": "UAK-VFV-001-ZV5-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vytvarne-otisky-a-sestavy-z-predmetu",
+      "title": "Otisky a sestavy z předmětů",
+      "aliases": [
+        "otisky",
+        "frotáž",
+        "koláž z předmětů",
+        "tvary z různých materiálů",
+        "experimenty s materiály"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Experimentuje se stopou a otisky různých předmětů a materiálů s různými povrchy."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Vytváří běžné i nezvyklé tvary sestavou z různách částí."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Vytváří sestavy z různých objektů které vytvořil, kombinuje je s různými druhy předmětů z různých materiálů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Otisky děláš rukama ty, chatbot ti žádný předmět neotiskne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Fotky děl a nápady na otisky ukážou, co všechno se dá zkusit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace na kreslení otisk neudělá, jde o skutečný povrch pod rukou."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Barva, razítko, papír a různé materiály ti ukážou, jak který povrch otiskne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+        "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f"
+      ]
+    },
+    {
+      "slug": "vytvarne-svetlo-a-stin-na-predmetech",
+      "title": "Světlo a stín na předmětech",
+      "aliases": [
+        "stín",
+        "osvětlení",
+        "svítilna",
+        "stínové divadlo",
+        "jak světlo mění věci",
+        "projekce"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Experimentuje se světlem, proměnou objektu a situace v důsledku různého osvětlení (nasvícení)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Experimentuje s dílem, jeho kompozicí či situací v pohybu a v čase (práce se světlem a stínem, čočkami)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s principem světelné projekce ( s využitím kapesní svítilny)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vytvoří objekty z různých materiálů nebo použije již vytvořené objekty/předměty a seskupí je do různých celků a sleduje proměny, ke kterým dochází vlivem pohybu světla (použije dostupný a bezpečný světelný zdroj)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč stín mění velikost, a poradí, co si se svítilnou zkusit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázky a popisy stínového divadla ti dají nápady na vlastní pokus."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace světlo na tvých předmětech nezmění, svítilnou hýbeš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kapesní svítilna a lupa ukážou, jak se mění stín i barvy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c39b8441-359e-4cf9-8a52-c5f6dd918813"
+      ],
+      "inspiration": [
+        "Stínové divadlo"
+      ]
+    },
+    {
+      "slug": "vytvarne-flipbook-a-stop-motion",
+      "title": "Jednoduchá animace: flipbook a stop motion",
+      "aliases": [
+        "flipbook",
+        "stop motion",
+        "animace",
+        "kreslená animace",
+        "praxinoskop",
+        "rychlost přehrávání"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Výtvarný objekt, kompozici či situaci proměňuje a pomocí jednoduché animační techniky (flipbook, praxinoskop, amatérský animační software) ji zaznamenává v čase (kresba fází pohybu, pixilace, aj.)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Experimentuje s rychlostí reprodukce pohyblivého obrazu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak z kreseb vznikne pohyb, a poradí, jaké fáze nakreslit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa a návody ukážou postup flipbooku i stop motion."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animační aplikace ti spojí fotky do pohybu a nechá zkoušet rychlost."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Blok papíru a tužka stačí na flipbook, jednotlivé fáze kreslíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/eee58e6d-4587-42f0-b9a0-fe055cfe2044",
+        "http://data.europa.eu/esco/skill/1c00bc98-2713-4c62-82c5-6d86f2e6a4cb"
+      ],
+      "inspiration": [
+        "Animace objektu z modelovací hmoty technikou stop motion",
+        "Příprava optické hračky thaumatrop"
+      ]
+    },
+    {
+      "slug": "vytvarne-obraz-se-zvukem",
+      "title": "Pohyblivý obraz se zvukem",
+      "aliases": [
+        "zvuk k animaci",
+        "ruchy",
+        "hudba k filmu",
+        "ozvučení",
+        "zvukové efekty"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Kombinuje pohyblivý obraz a zvuk (ruchy, hudební prvky)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jaký zvuk se hodí k jaké scéně, a navrhne ruchy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zvukové knihovny a ukázky ti ukážou, jak zní různé ruchy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahrávací a střihová aplikace spojí tvůj záznam s obrazem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Hudební nástroje a předměty ve třídě dají zvuk, který si nahraješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+      ]
+    },
+    {
+      "slug": "vytvarne-pribeh-v-serii-fotografii",
+      "title": "Příběh v sérii fotografií",
+      "aliases": [
+        "fotokomiks",
+        "fotografie s příběhem",
+        "série fotek",
+        "focení příběhu",
+        "fotografování"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Tvoří série fotografií s cílem vyprávět příběh nebo jeho část."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže rozvrhnout příběh do snímků, rozhodovat, co kde ukázat, musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky amatérské i archivní fotografie ti dají nápady na záběry."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Foťák v telefonu a úpravy fotek ti umožní snímky rychle zkoušet a řadit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj tu nemá co nabídnout, fotíš telefonem nebo foťákem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/38509fa4-7c06-4a4b-9622-f521f03c37b8"
+      ],
+      "inspiration": [
+        "Amatérská a archivní fotografie"
+      ]
+    },
+    {
+      "slug": "vytvarne-vlastni-pokus-s-vytvarnymi-a-filmovymi-prostredky",
+      "title": "Vlastní pokus s výtvarnými a filmovými prostředky",
+      "aliases": [
+        "vlastní experiment",
+        "výtvarný pokus",
+        "film a výtvarka",
+        "vlastní dílo",
+        "tvůrčí záměr"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Navrhuje, realizuje a vyhodnotí vlastní jednoduchý experiment s použitím výtvarných a filmových prostředků."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vytvoří dílo, které kombinuje výtvarné a filmové prostředky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vymyslet pokus a ptá se, co se povedlo, ale pokus děláš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky děl dají nápady na kombinaci kresby a pohyblivého obrazu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animační a kamerová aplikace ti pokus zaznamená a umožní zkoušet znovu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, barvy, svítilna a modelovací hmota jsou materiál pokusu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+        "http://data.europa.eu/esco/skill/eee58e6d-4587-42f0-b9a0-fe055cfe2044"
+      ]
+    },
+    {
+      "slug": "vytvarne-predvedeni-a-sdileni-dila",
+      "title": "Předvedení a sdílení vlastního díla",
+      "aliases": [
+        "prezentace díla",
+        "promítání",
+        "ukázat spolužákům",
+        "výstavka",
+        "sdílení tvorby"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Záznam reprodukuje před ostatními (prezentace flipbooku, roztočení praxinoskopu, projekce)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Sdílí vytvořené dílo s ostatními způsobem, který si zvolil."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak dílo představit, a pomůže připravit pár vět k ukázce."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Zdroje ti dílo nepředvedou, ukazuješ ho ty před lidmi."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na promítání a sdílení ukážou dílo na plátně nebo odešlou."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Praxinoskop, flipbook či projektor ti dílo pomohou ukázat živě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+      ]
+    },
+    {
+      "slug": "vytvarne-vyber-a-uchovani-vlastni-tvorby",
+      "title": "Výběr a uchování vlastní tvorby",
+      "aliases": [
+        "archiv prací",
+        "složka s pracemi",
+        "výběr nejlepších prací",
+        "portfolio",
+        "uložit výkresy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vybírá pro něj důležité výsledky vlastní tvůrčí činnosti a vhodným způsobem je uchovává."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak práce třídit a podepsat, vybíráš ale ty podle toho, co je ti blízké."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody k ukládání výkresů a fotek ti ukážou, co vydrží."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Fotky v telefonu a složky v počítači práce uloží a seřadí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Desky, krabice a složka na výkresy chrání práce před zmačkáním."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/64e505a8-8c7a-40a4-9776-0fd5ced146fa"
+      ]
+    }
+  ],
+  "aside": []
+}

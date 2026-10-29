@@ -1,0 +1,27 @@
+---
+// One stacked bar split into parts (fills: solid, hatch, light, empty), with an optional legend. `display` replaces
+// the percentages, e.g. with coarse headcounts where a source allows only indicative figures (Cedefop).
+interface Seg { value: number; label: string; fill: string }
+interface Props { segs: Seg[]; label: string; legend?: boolean; height?: number; display?: (v: number) => string }
+const { segs, label, legend = true, height = 20, display } = Astro.props;
+const total = segs.reduce((s, x) => s + x.value, 0) || 1;
+const pc = display ?? ((v: number) => `${Math.round((v / total) * 100)} %`);
+---
+<div class="stack">
+  <div class="sbar sketch-box" style={`height:${height}px`} role="img" aria-label={`${label}: ${segs.map((s) => `${s.label} ${pc(s.value)}`).join(", ")}`}>
+    {segs.filter((s) => s.value > 0).map((s) => <i class={s.fill} style={`flex:${s.value / total}`}></i>)}
+  </div>
+  {legend && (
+    <ul class="slegend">
+      {segs.map((s) => <li><i class={`sw sketch-box ${s.fill}`}></i>{s.label} <strong class="num">{pc(s.value)}</strong></li>)}
+    </ul>
+  )}
+</div>
+<style>
+  .stack { display: grid; gap: var(--s2); }
+  .sbar { display: flex; padding: 3px; gap: 2px; }
+  .sbar i { min-width: 2px; }
+  .slegend { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2px var(--s4); font-size: 0.8125rem; }
+  .slegend li { display: inline-flex; align-items: center; gap: 6px; }
+  .sw { width: 16px; height: 12px; padding: 2px; background-clip: content-box; }
+</style>

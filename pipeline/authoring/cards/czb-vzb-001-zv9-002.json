@@ -1,0 +1,690 @@
+{
+  "outcome": "CZB-VZB-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "funkce-organu-a-soustav",
+      "title": "Orgány a soustavy lidského těla",
+      "aliases": [
+        "stavba těla",
+        "orgány",
+        "trávicí soustava",
+        "oběhová soustava",
+        "biologie člověka"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "popisuje funkce nejdůležitějších orgánů a soustav lidského těla"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozvíjí znalosti a dovednosti o stavbě lidského těla"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co orgán dělá, a zkouší tě z toho."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Anatomické atlasy a encyklopedie ukážou orgány na obrázcích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s 3D modelem těla ukáže, kde orgány leží a jak spolu souvisí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Anatomický model nebo papírový atlas ukáže, kde orgány leží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3",
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "priciny-a-druhy-nemoci",
+      "title": "Příčiny a druhy nemocí",
+      "aliases": [
+        "jak vznikají nemoci",
+        "infekční a neinfekční nemoci",
+        "druhy nemocí",
+        "autoimunitní nemoci"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "popisuje příčiny vybraných onemocnění"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyvozuje základní mechanismy vzniku nemocí"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Shrne rozdíly mezi jednotlivými typy nemocí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak nemoc vzniká, a zkouší tě na příkladech."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby zdravotnických institucí vysvětlí příčiny nemocí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na příčiny nemocí aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pro příčiny nemocí žádný klasický nástroj neexistuje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "http://data.europa.eu/esco/skill/9fa6b84e-d625-4d1d-a5d0-e7f6b357deb8"
+      ],
+      "inspiration": [
+        "Chronické neinfekční choroby"
+      ]
+    },
+    {
+      "slug": "priznaky-nemoci",
+      "title": "Příznaky nemocí",
+      "aliases": [
+        "příznaky",
+        "jak poznám nemoc",
+        "objektivní a subjektivní příznaky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Určí základní subjektivní a objektivní příznaky vybraných infekčních a neinfekčních nemocí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi tím, co cítíš ty, a tím, co změří lékař, a zkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby uvádějí příznaky nemocí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace příznaky nerozliší lépe než ty, diagnózu ti nedá."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr změří horečku, tlakoměr tlak."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "skupiny-infekcnich-nemoci",
+      "title": "Skupiny infekčních nemocí",
+      "aliases": [
+        "přenosné nemoci",
+        "alimentární nákazy",
+        "respirační nákazy",
+        "nemoci přenášené zvířaty"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozřazuje jednotlivá infekční onemocnění do skupin"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Roztřídí nemoci do skupin a zkouší tě z nich."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a zdravotnické weby nemoci přehledně rozdělují."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na třídění nemocí aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na třídění nemocí není klasický nástroj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d13053b-ee35-492c-8976-8178420df398",
+        "http://data.europa.eu/esco/skill/9fa6b84e-d625-4d1d-a5d0-e7f6b357deb8"
+      ],
+      "inspiration": [
+        "Jak se chránit před infekčním onemocněním"
+      ]
+    },
+    {
+      "slug": "ochrana-pred-nakazou",
+      "title": "Ochrana před nákazou",
+      "aliases": [
+        "jak se chránit před nemocí",
+        "mytí rukou",
+        "přenos nemocí",
+        "HIV/AIDS",
+        "prevence infekcí"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvádí příklady, jak se chránit před infekčními chorobami"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje o cestách přenosu a preventivních způsobech chování"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Navrhuje preventivní opatření před nákazou"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí cesty přenosu a ptá se, jak se v dané situaci chránit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pravidla ochrany najdeš na webech zdravotnických institucí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Chránit se musíš ty, aplikace to za tebe neudělá."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Mýdlo, voda a rouška chrání v praxi."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d13053b-ee35-492c-8976-8178420df398",
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+      ],
+      "inspiration": [
+        "Jak se chránit před infekčním onemocněním"
+      ]
+    },
+    {
+      "slug": "epidemie-a-pandemie",
+      "title": "Chování při epidemii a pandemii",
+      "aliases": [
+        "epidemie",
+        "pandemie",
+        "karanténa",
+        "očkování",
+        "covid"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede a zdůvodní základní doporučené způsoby chování v situacích epidemie a pandemie."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "popisuje a zdůvodňuje základní postupy prevence epidemií a pandemií"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se při epidemii doporučuje karanténa, a zkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Aktuální pravidla vydávají úřady a najdeš je na jejich webech."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Při epidemii se chováš ty, aplikace to za tebe neudělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pro chování při epidemii žádný nástroj není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9fa6b84e-d625-4d1d-a5d0-e7f6b357deb8",
+        "http://data.europa.eu/esco/skill/6d13053b-ee35-492c-8976-8178420df398"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zivotni-styl-a-nemoci",
+      "title": "Životní styl a nemoci",
+      "aliases": [
+        "rizikové faktory",
+        "špatný životní styl",
+        "srdce a cévy",
+        "rakovina",
+        "chronické nemoci"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvádí příklady, kdy dochází ke vzniku neinfekčních onemocnění"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše konkrétní příklady, jak ovlivňuje životní styl vznik neinfekčních onemocnění."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zdůvodňuje výskyt neinfekčních nemocí"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "charakterizuje rizikové faktory životního stylu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak spánek, strava a pohyb souvisí s nemocemi, a zkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby ukazují, jak životní styl ovlivňuje nemoci."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti životní styl nevysvětlí, nanejvýš ho zapíše."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj životní styl nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+      ],
+      "inspiration": [
+        "Chronické neinfekční choroby"
+      ]
+    },
+    {
+      "slug": "predchazeni-nemocem-ze-zivotniho-stylu",
+      "title": "Předcházení chronickým nemocem",
+      "aliases": [
+        "zdravý životní styl",
+        "jak předejít nemoci",
+        "prevence",
+        "zdravá strava a pohyb"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "navrhuje, jak je možné vzniku a rozvoji neinfekčních onemocnění předcházet"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí význam zdravého životního stylu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "navrhuje možnosti, jak výskyt jednotlivých onemocnění eliminovat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže navrhnout konkrétní denní návyky a zeptá se, co zvládneš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby shrnují, co chronickým nemocem předchází."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace sleduje spánek, kroky a pití a ukáže, kde ti něco chybí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj nemocem nezabrání, změnit návyky musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+        "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622"
+      ],
+      "inspiration": [
+        "Prevencí ke zdraví",
+        "Výhody života ve zdraví",
+        "Chráníme své zdraví"
+      ]
+    },
+    {
+      "slug": "zasady-ochrany-zdravi",
+      "title": "Zásady ochrany zdraví",
+      "aliases": [
+        "jak chránit zdraví",
+        "zdravé chování",
+        "chování v modelové situaci"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede a zdůvodní zásady aktivní ochrany zdraví."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "v modelových situacích uplatňuje zdravotně relevantní chování"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč zásady fungují, a ptá se na situace z tvého dne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zásady ochrany zdraví najdeš na webech zdravotnických institucí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe zásady nedodrží."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj zásady neuplatní, dodržovat je musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622"
+      ],
+      "inspiration": [
+        "Chráníme své zdraví"
+      ]
+    },
+    {
+      "slug": "zdravotni-informace",
+      "title": "Zdravotní informace a jejich hodnověrnost",
+      "aliases": [
+        "vyhledání zdravotních informací",
+        "hoax o zdraví",
+        "důvěryhodný zdroj",
+        "internet a zdraví"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyhledává a vyhodnocuje zdravotně relevantní informace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne informace a vysvětlí je jednoduše, může se ale mýlit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš víc zdrojů a můžeš je porovnat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti nepoví, které zdroje jsou pravdivé."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj hodnověrnost informací neposoudí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622",
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zdravotnicka-pece",
+      "title": "Zdravotnická péče v Česku",
+      "aliases": [
+        "praktický lékař",
+        "specialista",
+        "ambulance a nemocnice",
+        "jak funguje zdravotnictví"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "orientuje se v základním systému zdravotnické péče v České republice"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi ambulantní a nemocniční péčí a zkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby nemocnic a pojišťoven ukážou, kam kdy jít."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti systém péče nevysvětlí lépe než web."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj ti systém zdravotnictví nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9b63d92b-5a3a-46b0-b2ba-c98b39ea5aaf"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "preventivni-prohlidky",
+      "title": "Preventivní prohlídky a programy",
+      "aliases": [
+        "preventivní prohlídka",
+        "k lékaři",
+        "očkování",
+        "screening"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje význam preventivních prohlídek a preventivních programů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu prohlídky slouží, a zeptá se na tvůj názor."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš, které prohlídky a programy existují a kdy se konají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace nebo kalendář připomene termín prohlídky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj tu k ničemu není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "http://data.europa.eu/esco/skill/9b63d92b-5a3a-46b0-b2ba-c98b39ea5aaf"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "umirani-a-smrt",
+      "title": "Umírání a smrt jako součást života",
+      "aliases": [
+        "smrt",
+        "umírání",
+        "rozloučení",
+        "hospic"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje o umírání a smrti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Odpoví na otázky, které se ti nechce klást nahlas, o smrti se ale promluv i s blízkými."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš články a texty o ztrátě a loučení."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tématem smrti nepomůže."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k tématu nemá co říct."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c634630b-210b-4da5-b0f3-894cc292d6e3"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dusevni-pohoda",
+      "title": "Dovednosti pro duševní pohodu",
+      "aliases": [
+        "wellbeing",
+        "duševní zdraví",
+        "stres",
+        "pohoda",
+        "relaxace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozvíjí základní dovednosti podporující wellbeing a prevenci duševních onemocnění"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne dechové cvičení a ptá se, co ti pomáhá, těžké věci řeš s člověkem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš cvičení a rady od odborníků na duševní zdraví."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace vede dechová cvičení a krátké relaxace."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj pohodu nevytvoří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c634630b-210b-4da5-b0f3-894cc292d6e3",
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Uplatňuje zásady aktivní ochrany zdraví",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

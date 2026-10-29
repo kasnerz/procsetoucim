@@ -1,0 +1,345 @@
+{
+  "outcome": "UAK-HTD-002-ZV5-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "poslech-tempo-a-hlasitost",
+      "title": "Tempo a hlasitost hudby",
+      "aliases": [
+        "rychlá a pomalá hudba",
+        "hlasitě a potichu",
+        "tempo",
+        "dynamika",
+        "zrychlování a zpomalování"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vnímá rozdíly mezi tichou a hlasitou hudbou, rychlým či pomalým tempem."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozvíjí schopnost rozpoznávat hudební prvky, jako je tempo (pomalu / rychle, zrychlování / zpomalování) a rytmus (těžká / lehká doba), dynamika (hlasitě / potichu), reaguje na tyto prvky v rámci svých činností."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Hudbu slyšíš ty, chatbot ti rozdíl v tempu neposlouchá a nepředvede."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky skladeb s popisem tempa a hlasitosti si pustíš a porovnáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Přehrávač zpomalí nebo zrychlí tutéž skladbu, metronom ukáže tempo."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Metronom odměřuje tempo a bubínek či tleskání ti pomůže ho cítit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+        "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+      ],
+      "inspiration": [
+        "Ticho a zvuk - dynamický záznam"
+      ]
+    },
+    {
+      "slug": "poslech-nalada-hudby",
+      "title": "Nálada hudby",
+      "aliases": [
+        "veselá a smutná hudba",
+        "klidná hudba",
+        "dramatická hudba",
+        "co hudba vyjadřuje",
+        "atmosféra hudby"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozlišuje různé nálady v hudbě (veselá /smutná, klidná / dramatická)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Je schopný emocionálně reagovat na atmosféru zvolené hudby."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Náladu poznáš uchem a pocitem, chatbot hudbu neslyší a tvůj pocit nezná."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky veselé i smutné hudby a porovnáš, co v nich slyšíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Hudební aplikace má seznamy skladeb podle nálady, které si pustíš za sebou."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj ti náladu skladby nepoví, tu poznáváš poslechem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+        "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+      ],
+      "inspiration": [
+        "Od semínka ke květince -poslech: Eduard Grieg – Ranní nálada"
+      ]
+    },
+    {
+      "slug": "poslech-nastroje-podle-zvuku",
+      "title": "Hudební nástroje podle zvuku a vzhledu",
+      "aliases": [
+        "poznávání nástrojů",
+        "barva tónu",
+        "jaký nástroj hraje",
+        "housle a trubka",
+        "orchestr"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Tříbí schopnost rozpoznávat sluchem barvu tónu či zrakem podobu některých hudebních nástrojů."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pojmenuje v proudu znějící hudby některé výrazné hudební znaky (např. tempo, dynamiku, kontrasty, změny nálad, některé hudební nástroje)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Chatbot nástroj neslyší, zvuk houslí a trubky od sebe rozlišíš jen uchem ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a videa ukážou nástroje vedle sebe, i se zvukem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kvíz s nahrávkami nástrojů si zahraješ a ověříš, jestli tipuješ správně."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Skutečný nástroj si prohlédneš zblízka, zkusíš tón a později poznáš sluchem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/29d4aaba-99f9-4733-bd74-ad558f2ae3a7",
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0"
+      ],
+      "inspiration": [
+        "Skřítci v kouzelné jeskyni"
+      ]
+    },
+    {
+      "slug": "poslech-pohyb-a-tleskani",
+      "title": "Pohyb a tleskání podle hudby",
+      "aliases": [
+        "tleskání v rytmu",
+        "chůze podle hudby",
+        "rytmus",
+        "tanec",
+        "napodobování rytmu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Dokáže reagovat na hudbu pohybem (tleskání v rytmu, chůze v tempu hudby, napodobováním rytmických úseků, apod.)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "V rytmu tleskáš a chodíš ty, chatbot tě neslyší ani nevidí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa s rytmickými hrami ukážou, co máš napodobit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Rytmická aplikace ťuká tempo a ukáže, jestli tleskáš včas."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Metronom nebo bubínek drží stálé tempo, do kterého tleskáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "poslech-vyjadreni-slovy-a-obrazkem",
+      "title": "Vyjádření pocitů z poslechu hudby",
+      "aliases": [
+        "povídání o hudbě",
+        "kresba k hudbě",
+        "co jsem slyšel",
+        "pocity z hudby",
+        "hudební zážitek"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Naslouchá jednoduchým skladbám či krátkým úsekům hudby, vyjadřuje své pocity a zážitky pomocí slov, obrázků, neverbálních projevů."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vyjádří se ke znějící hudbě a využívá k tomu získané hudební poznatky a dovednosti i zkušenosti z tvořivých aktivit."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Svůj pocit z hudby znáš jen ty, chatbot ho za tebe nepopíše."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníček hudebních pojmů ti dá slova, kterými poslech popíšeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí aplikace ti dovolí hudbu rychle zachytit barvami a tvary."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pastelky a papír stačí na nakreslení toho, co hudba v tobě vyvolala."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba",
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0"
+      ],
+      "inspiration": [
+        "Svěcení jara"
+      ]
+    },
+    {
+      "slug": "poslech-jednoduche-nastroje-a-pomucky",
+      "title": "Hra na jednoduché nástroje a pomůcky",
+      "aliases": [
+        "hudební nástroje ve škole",
+        "rytmické nástroje",
+        "hra na flétnu",
+        "bubínek",
+        "nehudební nástroje"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozvíjí své dovednosti při používání jednoduchých hudebních i nehudebních nástrojů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Na nástroj hraješ rukama ty, chatbot ti tón nezahraje ani neopraví."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa ukážou, jak se na jednoduchý nástroj drží a hraje."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Ladička v aplikaci ti řekne, jestli hraješ správný tón."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Flétna, bubínek nebo chrastítko jsou přesně ty nástroje, na kterých cvičíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8f8a8803-dc72-4488-9991-7c7d373e01fa",
+        "http://data.europa.eu/esco/skill/29d4aaba-99f9-4733-bd74-ad558f2ae3a7"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Buduje svůj vztah k hudbě",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Prostřednictvím poslechových činností",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Pozorně a citlivě vnímá vhodně vybrané hudební dílo.",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "V rámci tvořivého poslechu",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zapojuje se do jednoduchých aktivit",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Aktivně se zapojuje do tvořivých aktivit",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "V aktivitách vnímá smysl",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

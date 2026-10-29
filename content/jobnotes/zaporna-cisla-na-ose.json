@@ -1,0 +1,20 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee": "Ve skladu sleduje stavy zásob, kde záporný zůstatek znamená chybu nebo dlužné zboží. Číst tabulku a poznat, že je něco pod nulou, mu pomáhá s kontrolou.",
+  "ade351da-7bda-424e-8682-bbdcab2a25be": "Čte výkazy, kde mohou být záporné hodnoty, třeba odčet za nepřítomnost. Zná, co číslo pod nulou znamená, a kontroluje, aby seděly součty. Kreslit osu nemusí.",
+  "63042e8f-dd59-47fe-87f3-3b2ce21f196a": "Čte plány a nastavuje stroj podle hodnot, které mohou být kladné i záporné, třeba při posunu nástroje. Osu zná z výkresů a z displeje stroje.",
+  "6aa78e46-ce22-421f-8a75-e915ac63c9d0": "Čte grafy a přehledy o hovorech a výkonu týmu. Záporné hodnoty, třeba pokles oproti minulému měsíci, musí umět správně přečíst. Osu nekreslí, jen ji čte.",
+  "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": "Tvoří grafy a čte je. Záporné hodnoty a osy s nulou jsou tu běžné, protože ukazují pokles nebo rozdíl proti průměru. Osu umí nakreslit i přečíst.",
+  "2bdf0696-776c-47e6-9259-6460af224dac": "Odečítá hodnoty z měřidel a zapisuje je. Záporné číslo tu bývá výjimka, třeba u stavu po opravě, ale číst údaj správně musí. Osu nekreslí.",
+  "1d75ea5a-f902-4b47-8d63-5c6d2a5c0bb5": "Analyzuje měření, tabulky a grafy o uspořádání pracoviště. Záporné hodnoty a osy s nulou čte, když porovnává stav před změnou a po ní.",
+  "047108c3-f987-40a4-bef0-f2b3407ec16a": "Pracuje s měřením a grafy, kde záporné hodnoty a osy s nulou jsou běžné. Čtení takových obrázků patří k odborné práci, kreslení zvládne program.",
+  "1c862e14-80f8-4aa8-8f1c-fd2ca95b63ad": "Při čtení grafů teploty je vidět, kde leží nula a kdy teplota klesne pod ni. Graf s osou je v meteorologii běžná pomůcka.",
+  "f0e1cc13-48e0-4995-8699-ee43467bce0d": "Číselná osa je jedna z hlavních pomůcek při výuce záporných čísel. Kdo učí, ji kreslí na tabuli a ukazuje, kde leží -3 a +2 vzhledem k nule.",
+  "668943cc-c454-4a1b-a296-2fcb524a6222": "Na mapě mořského dna se hloubky měří od hladiny, takže leží pod nulou. Číst takovou osu hloubek patří k práci, i když data zpracuje vybavení.",
+  "0d7ae791-653e-4297-9f61-8bad87f61d57": "Teploměr je vlastně svislá číselná osa. Při odečítání hodnot a psaní zpráv se pozná, kde je nula a co leží pod ní.",
+  "439c52ae-23ce-4d1e-bea1-bac135497977": "Hloubka dna pod hladinou se vynáší na osu se zápornými hodnotami. Při mapování podmořského povrchu se údaje čtou od nuly nahoru i dolů.",
+  "258e46f9-0075-4a2e-adae-1ff0477e0f30": "Při vizualizaci dat se na osách grafů objevují i záporné hodnoty. Je potřeba je na ose správně umístit, aby graf nezkresloval."
+ }
+}

@@ -1,0 +1,430 @@
+{
+  "outcome": "CAS-VKO-001-ZV9-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "predsudek-stereotyp-vlastnimi-slovy-vko",
+      "title": "Předsudek a stereotyp, příklady",
+      "aliases": [
+        "co je předsudek",
+        "co je stereotyp",
+        "příklady předsudků",
+        "předsudek nebo stereotyp"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vlastními slovy vysvětlí, co je předsudek a co je stereotyp"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvádí příklady předsudků a stereotypů"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozpozná předsudky a stereotypy v komunikaci a jednání v běžném životě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi předsudkem a stereotypem a dá příklady k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky a encyklopedie definují oba pojmy a uvádějí příklady."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace, která by ti pomohla pojmy vysvětlit, tu nic užitečného nenabízí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vlastní slova a příklady z okolí si vymýšlíš ty, nástroj ti je nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf",
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ],
+      "inspiration": [
+        "Definování pojmu „předsudek“",
+        "Stereotypy pod lupou",
+        "Co se říká o..."
+      ]
+    },
+    {
+      "slug": "vznik-predsudku-prvni-dojem-vko",
+      "title": "Jak vznikají předsudky",
+      "aliases": [
+        "odkud se berou předsudky",
+        "první dojem",
+        "zobecňování",
+        "proč máme předsudky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zamýšlí se nad tím, jak předsudky a stereotypy vznikají"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak k předsudkům vede první dojem nebo přejatý názor, a ptá se tě dál."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a encyklopedie popisují, odkud se stereotypy berou."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pro přemýšlení o tom, odkud máš vlastní názory, aplikace nic nenabízí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Přemýšlení o sobě a svém okolí žádný nástroj neobstará."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf"
+      ],
+      "inspiration": [
+        "Brýle předsudků"
+      ]
+    },
+    {
+      "slug": "otazky-na-predsudky-vko",
+      "title": "Otázky, které odhalují předsudky",
+      "aliases": [
+        "jak poznat předsudek",
+        "ptát se proč",
+        "ověřování tvrzení",
+        "je to pravda o všech"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "klade otázky, které pomáhají odhalovat předsudky nebo stereotypy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne otázky typu „platí to o všech?“ a vyzkouší je s tebou na příkladech."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody na kritické myšlení uvádějí otázky, které slouží k ověřování tvrzení."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Otázky k odhalování předsudků žádná aplikace nepokládá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Ptát se a poslouchat odpovědi musíš ty, nástroj k tomu není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf"
+      ],
+      "inspiration": [
+        "Lovci stereotypů"
+      ]
+    },
+    {
+      "slug": "predsudky-v-mediich-a-online-vko",
+      "title": "Předsudky v médiích a na internetu",
+      "aliases": [
+        "stereotypy v médiích",
+        "předsudky na sociálních sítích",
+        "jak poznat předsudky v textu",
+        "stereotypy v reklamě"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "analyzuje informace získané z médií a online zdrojů z pohledu předsudků a stereotypů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Identifikuje předsudky a stereotypy v komunikaci, v médiích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Prohlédne ukázku textu a ukáže, kde zobecňuje, ty pak posoudíš, jestli má pravdu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ověřovací weby a články o médiích ti pomohou zjistit, jestli tvrzení platí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace, která by předsudky v textu spolehlivě poznala, není."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Noviny a časopisy jsou materiál k rozboru, rozbor děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698",
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf"
+      ],
+      "inspiration": [
+        "Stereotypy ve společnosti",
+        "Stereotypy pod lupou"
+      ]
+    },
+    {
+      "slug": "typy-osobnosti-komunikace-vko",
+      "title": "Různé typy lidí a způsob komunikace s nimi",
+      "aliases": [
+        "typy osobností",
+        "jak mluvit s různými lidmi",
+        "jsme každý jiný",
+        "komunikace s lidmi kolem"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozeznává různé typy osobností ve svém okolí, pojmenuje, v čem se liší, a navrhne vhodný způsob komunikace s nimi"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, jak se lidé liší při řešení sporů, a navrhne, jak s nimi domluvit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o komunikaci uvádějí příklady, jak mluvit s různými lidmi."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s testy osobnosti ti neřeknou, jak mluvit s lidmi, které znáš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Lidi ve svém okolí pozoruješ a mluvíš s nimi ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7",
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "setkani-s-jinymi-skupinami-vko",
+      "title": "Setkání s lidmi z jiných skupin",
+      "aliases": [
+        "domov seniorů",
+        "živá knihovna",
+        "poznávání jiných lidí",
+        "respekt k rozmanitosti"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "setkává se s lidmi z odlišných sociálních, náboženských, etnických, věkových či jiných skupin (např. domov seniorů, živá knihovna) a získanou zkušenost reflektuje"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "sdílí, co je pro něj obohacující a co je obtížné při setkávání s jinými lidmi a jak prakticky projevuje respekt k rozmanitosti ve společnosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Setkání se uskuteční naživo, chatbot ti jen pomůže si předem připravit otázky."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Zkušenost z osobního setkání na internetu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace osobní setkání nenahradí, vyprávění lidí slyšíš naživo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "S lidmi se potkáváš a mluvíš ty, žádný nástroj to neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf",
+        "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7",
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ],
+      "inspiration": [
+        "Brýle předsudků"
+      ]
+    },
+    {
+      "slug": "dopad-predsudku-na-chovani-a-spolecnost-vko",
+      "title": "Dopad předsudků na lidi a společnost",
+      "aliases": [
+        "diskriminace",
+        "jak předsudky škodí",
+        "předsudky a rozhodování",
+        "příklady z minulosti a dneška"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí na příkladech, jak mohou předsudky a stereotypy ovlivnit chování a rozhodování jedince a jaký dopad mohou mít na společnost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere s tebou příklady, kdy předsudek vedl k výsledku, který nikdo nechtěl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a dokumenty popisují případy diskriminace, ke kterým se dá vracet."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace dopady předsudků na lidi nevysvětluje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vysvětlení vlastními slovy a na příkladech ti nikdo nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707",
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf"
+      ],
+      "inspiration": [
+        "Stereotypy ve společnosti"
+      ]
+    },
+    {
+      "slug": "debata-o-predsudcich-vko",
+      "title": "Debata o předsudcích a stereotypech",
+      "aliases": [
+        "diskuze o stereotypech",
+        "argumenty",
+        "kritický přístup",
+        "debatní kroužek"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zapojuje se do diskuzí a debat k tématu předsudků a stereotypů, kde předkládá argumenty podporující kritický přístup"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje protistranu a ukáže slabá místa tvých argumentů, ať si debatu předem vyzkoušíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdroje ti dodají fakta a příklady, o které můžeš opřít argumenty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepřednese argument před třídou, mluvit musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Debatuješ hlasem před ostatními, nástroj za tebe nepromluví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bad0f996-a299-4631-a7d8-104185b2ef22",
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "moje-vlastni-predsudky-vko",
+      "title": "Moje vlastní předsudky",
+      "aliases": [
+        "přemýšlení o sobě",
+        "moje chování",
+        "mám předsudky",
+        "sebereflexe"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje své vlastní postupy a chování v souvislosti s předsudky a stereotypy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Poznat vlastní předsudek můžeš jen ty, chatbot tě nezná."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "O tvém vlastním chování na internetu nic není."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace o tobě a tvém chování nic neví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "O vlastním chování přemýšlíš ty, deník ti jen pomůže zapsat myšlenky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf",
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

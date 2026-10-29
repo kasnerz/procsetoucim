@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "ucel-informacniho-systemu-skolni-obedy",
+    "title": "K čemu informační systém slouží",
+    "aliases": [
+      "školní informační systém",
+      "objednávání obědů",
+      "k čemu je systém",
+      "účel systému",
+      "elektronická žákovská"
+    ],
+    "outcome": "INF-INF-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše účel informačních systémů, které zná.",
+        "quote": "Popíše účel informačních systémů, které zná."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Diskutuje o informačních systémech, které zná (např. školní informační systém, objednávání obědů).",
+        "quote": "Diskutuje o informačních systémech, které zná"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše účel a základní funkce konkrétního informačního systému (např. školní informační systém).",
+        "quote": "Popíše účel a základní funkce konkrétního informačního systému"
+      },
+      {
+        "level": "Splněno",
+        "point": "Diskutuje o funkcích a účelu známých informačních systémů, uvede konkrétní příklady a situace.",
+        "quote": "Diskutuje o funkcích a účelu známých informačních systémů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Informační systém naší školy",
+        "url": "https://uloziste.rvp.cz/material/002853"
+      },
+      {
+        "title": "Knihovna",
+        "url": "https://uloziste.rvp.cz/material/c48281"
+      },
+      {
+        "title": "Informační systémy v každodenní životě",
+        "url": "https://uloziste.rvp.cz/material/8bd367"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, k čemu takové systémy slouží, a zeptá se tě na příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis systému, třeba knihovního, a jeho nápovědu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Při zkoušení systému v praxi vidíš, co všechno umí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír ani pravítko ti účel systému neukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "data-informacniho-systemu-znamky",
+    "title": "Data v informačním systému",
+    "aliases": [
+      "jaká data systém má",
+      "jména a známky",
+      "co si systém pamatuje",
+      "údaje v systému",
+      "databáze"
+    ],
+    "outcome": "INF-INF-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Identifikuje základní typy dat, se kterými vybraný informační systém pracuje (např. jména, známky ve školním informačním systému).",
+        "quote": "Identifikuje základní typy dat, se kterými vybraný informační systém pracuje"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše funkce informačního systému a typy dat, se kterými pracují.",
+        "quote": "Popíše funkce informačního systému a typy dat, se kterými pracují."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Digitální galerie",
+        "url": "https://uloziste.rvp.cz/material/bc83ef"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co jsou data, a ověří, jestli jsou údaje, které jsi našla nebo našel, správné."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení, jaké údaje systémy sbírají a proč."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Při prohlížení systému vidíš konkrétní údaje a jejich uspořádání."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Údaje v systému nezměříš ani nenakreslíš běžným nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uzivatele-informacniho-systemu-ucitel-rodic",
+    "title": "Kdo informační systém používá",
+    "aliases": [
+      "žáci rodiče učitelé",
+      "komu systém slouží",
+      "různí uživatelé",
+      "co potřebuje učitel",
+      "role v systému"
+    ],
+    "outcome": "INF-INF-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Určí, komu informační systém slouží (např. žákům, rodičům, učitelům) a jaký je jeho hlavní účel.",
+        "quote": "Určí, komu informační systém slouží"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše informační systém – funkce pro různé uživatele a jejich potřeby.",
+        "quote": "Popíše informační systém"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Informační systém naší školy",
+        "url": "https://uloziste.rvp.cz/material/002853"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti poradí, na jaké role a potřeby se zaměřit, a zkontroluje tvůj seznam."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis systému a návod pro různé uživatele."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti neřekne, kdo všechno systém používá a proč."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír ani pravítko ti uživatele systému neurčí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uzitecnost-informacniho-systemu-vyhody",
+    "title": "Užitečnost informačního systému",
+    "aliases": [
+      "výhody a nevýhody",
+      "k čemu je to dobré",
+      "přehled známek",
+      "vyhledávání knih",
+      "změny v rozvrhu"
+    ],
+    "outcome": "INF-INF-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Popíše na základě vlastní zkušenosti užitečnost informačního systému (např. přehled známek, změny v rozvrhu, možnost volby obědů, vyhledávání knih).",
+        "quote": "Popíše na základě vlastní zkušenosti užitečnost informačního systému"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí užitečnost informačního systému, jeho výhody a nevýhody.",
+        "quote": "Zhodnotí užitečnost informačního systému, jeho výhody a nevýhody."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Knihovna",
+        "url": "https://uloziste.rvp.cz/material/c48281"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot se tě ptá na zkušenosti a ukáže ti výhody i nevýhody, na které jsi nepomyslela nebo nepomyslel."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš články a zkušenosti jiných lidí se systémy."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe neposoudí, co ti systém dal a co ne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zkušenost a názor si dáváš dohromady ty, klasický nástroj nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cteni-tabulky-informacni-system",
+    "title": "Orientace v tabulce",
+    "aliases": [
+      "tabulka",
+      "řádky a sloupce",
+      "číst tabulku",
+      "najít údaj v tabulce"
+    ],
+    "outcome": "INF-INF-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Orientuje se v tabulce.",
+        "quote": "Orientuje se v tabulce."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí řádky a sloupce a zadá ti otázky k tabulce."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady tabulek a vysvětlení, jak se čtou."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program ukáže údaje v buňkách a umí je seřadit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová tabulka, třeba rozvrh, se čte prstem po řádku a sloupci."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

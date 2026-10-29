@@ -1,0 +1,244 @@
+{
+  "outcome": "GEO-GEO-002-ZV9-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "hospodarske-sektory-trendy-cesko-svet",
+      "title": "Hospodářské sektory v Česku a ve světě",
+      "aliases": [
+        "primární sekundární terciární sektor",
+        "sektory hospodářství",
+        "kde lidé pracují",
+        "zemědělství průmysl služby"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "s pomocí základních charakteristik popíše hospodářské sektory a jejich hlavní trendy v Česku a ve světě"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí rozdíl mezi sektory a vymyslí ti příklady na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Statistiky a encyklopedie ukážou, kolik lidí pracuje v kterém sektoru."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulky a grafy s daty ukazují, jak se sektory v čase mění."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Atlas ani pravítko sektory nepopíšou, k tomu potřebuješ data."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b",
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ],
+      "inspiration": [
+        "Jeden dělá to a druhý zase tohle...."
+      ]
+    },
+    {
+      "slug": "lokalizacni-faktory-odvetvi-hospodarstvi",
+      "title": "Proč je odvětví právě tam: lokalizační faktory",
+      "aliases": [
+        "lokalizační faktory",
+        "proč je továrna tady",
+        "kde se daří zemědělství",
+        "hutní a textilní průmysl",
+        "cestovní ruch"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "k hlavním odvětvím hospodářství uvede specifické lokalizační faktory (přírodní i společenské), které jsou podstatné pro jejich úspěšný rozvoj (např. intenzivní × extenzivní zemědělství, hutní průmysl × textilní průmysl, věda a výzkum, masový a individuální cestovní ruch)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na základě znalosti specifik odvětví hospodářství vysvětlí, které lokalizační faktory jsou pro jejich úspěšný rozvoj podstatné (např. zemědělství, hutní průmysl × textilní průmysl, věda a výzkum, cestovní ruch)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč hutě stojí u surovin, a zeptá se tě na další odvětví."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a mapy surovin, půdy či památek ukážou, co odvětví potřebuje."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapové aplikace ukážou terén, dopravu a města kolem podniků."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas s mapami půd, nerostů a dopravy ti ukáže, co kde je."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b",
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ],
+      "inspiration": [
+        "Výrobní mozaika"
+      ]
+    },
+    {
+      "slug": "hospodarska-vyspelost-regionu-hdp",
+      "title": "Hospodářská vyspělost regionů",
+      "aliases": [
+        "HDP",
+        "vyspělé a méně vyspělé regiony",
+        "sektorová struktura",
+        "srovnání regionů"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na základě relevantních charakteristik (HDP, sektorová struktura, vzdělanost…) posoudí hospodářskou vyspělost míst a regionů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co znamená HDP na obyvatele, a prověří, jak z čísel usuzuješ."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Statistické úřady zveřejňují HDP, vzdělanost i sektory podle regionů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový editor seřadí regiony a nakreslí z dat graf."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka spočítá podíl, ale co čísla říkají o regionu, posuzuješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b",
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dopady-hospodarskych-cinnosti-na-region",
+      "title": "Dopady podniků a korporací na region",
+      "aliases": [
+        "nadnárodní firmy",
+        "výhody a nevýhody továrny",
+        "dopady těžby",
+        "dopady na přírodu a lidi"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pojmenuje hlavní pozitivní a negativní dopady konkrétních hospodářských činností na místo/region jejich lokalizace (specificky pro nadnárodní korporace)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti k jedné firmě pomůže najít přínosy i problémy a zeptá se na tvé důvody."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy, firemní weby a statistiky zaměstnanosti ukážou, co firma v regionu dělá."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná jednoúčelová aplikace dopady firmy na region nevyhodnotí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Atlas ani pravítko dopady na lidi a přírodu neukážou, posuzuješ je ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b",
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ],
+      "inspiration": [
+        "Město v proměnách času"
+      ]
+    },
+    {
+      "slug": "navrh-umisteni-podnikani-v-okoli-domova",
+      "title": "Navrhni, kam v okolí domova umístit podnik",
+      "aliases": [
+        "kam postavit továrnu",
+        "podnikání v místě bydliště",
+        "umístění obchodu",
+        "plán podnikání ve městě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Navrhuje vhodnou lokalizaci různých druhů ekonomických činností / podnikání ve známém městě / v místě bydliště svého místního regionu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti k návrhu položí otázky o dopravě a zákaznících a najde slabá místa."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Plán města a statistiky obyvatel ukážou, kde bydlí zákazníci a vede doprava."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapová aplikace ukáže silnice, zastávky a okolní budovy."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírová mapa ti dovolí zakreslit a porovnat možná místa."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+        "http://data.europa.eu/esco/skill/fa64c52c-08cf-4074-bc9b-a93075802166"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Má základní povědomí",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

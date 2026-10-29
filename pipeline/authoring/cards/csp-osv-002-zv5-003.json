@@ -1,0 +1,428 @@
+{
+  "outcome": "CSP-OSV-002-ZV5-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "skupina-aktivni-nasloucham",
+      "title": "Aktivní naslouchání ve skupině",
+      "aliases": [
+        "naslouchání",
+        "poslouchat kamaráda",
+        "nepřerušovat",
+        "pozorně poslouchat",
+        "prosociální chování"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "aktivního naslouchání"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zkouší naslouchat druhým a ocenit druhé za jejich přínos."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak naslouchat, a dá ti příklady, jak poděkovat za nápad."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a videa ukazují, jak vypadá pozorné naslouchání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace za tebe druhého neposlouchá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Naslouchat musíš uchem a pozorností, pomůcka k tomu neexistuje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "skupina-role-ve-tymu",
+      "title": "Role ve skupinové práci",
+      "aliases": [
+        "role ve skupině",
+        "kdo co dělá",
+        "skupinová práce",
+        "práce ve dvojici",
+        "vedoucí skupiny"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Zapojuje se do interakce ve skupině."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zkouší si práci ve skupině a zapojení se do skupinové činnosti."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Všímá si své role ve skupinové činnosti."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zkouší pojmenovat různé role ve skupinové činnosti."
+        },
+        {
+          "level": "Splněno",
+          "quote": "rozpozná na příkladu svou roli a role druhých ve skupině"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vypíše běžné role ve skupině a vysvětlí, co která obnáší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o týmových rolích dají slova, kterými roli popíšeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Do skupiny se zapojíš ty, aplikace to za tebe neudělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Roli ve skupině si vyzkoušíš jen s lidmi kolem sebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01"
+      ],
+      "inspiration": [
+        "Jak mi to jde společně s týmem",
+        "Společná stavba města"
+      ]
+    },
+    {
+      "slug": "skupina-soutez-nebo-spoluprace",
+      "title": "Spolupráce a soutěžení",
+      "aliases": [
+        "kooperace",
+        "soutěžení",
+        "soutěž nebo spolupráce",
+        "výhody spolupráce",
+        "hrát proti sobě"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zažije situace kooperace a soutěžení, diskutuje výhody a nevýhody těchto forem skupinové interakce."
+        },
+        {
+          "level": "Splněno",
+          "quote": "pojmenuje výhody a nevýhody kooperace a soutěžení"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot sepíše výhody a nevýhody obou způsobů a ty je porovnáš se zkušeností."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o týmové práci a soutěžích dají příklady k diskusi."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Spolupráci ani soutěž v aplikaci nezažiješ, zažiješ je ve třídě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "K tomuto tématu žádný nástroj neexistuje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01"
+      ],
+      "inspiration": [
+        "Most přes řeku"
+      ]
+    },
+    {
+      "slug": "skupina-spolecny-cil",
+      "title": "Co pomáhá splnit společný cíl skupiny",
+      "aliases": [
+        "společný cíl",
+        "co skupině vadí",
+        "problémy ve skupině",
+        "jak se nám dařilo",
+        "práce v týmu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Při práci ve skupině navrhne, co přispívá ke splnění společného cíle i případné nedostatky a problémy, které činnost skupiny ovlivňují."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot popíše časté potíže skupin a navrhne, co zkusit jinak."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o týmové práci ukážou, co skupinám pomáhá."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nevidí, co se děje ve vaší skupině."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Co skupině pomáhá, poznáš při společné práci, ne s pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01"
+      ],
+      "inspiration": [
+        "Spolupráce v rámci projektu prospěšného druhým"
+      ]
+    },
+    {
+      "slug": "skupina-bezpecna-atmosfera",
+      "title": "Bezpečná atmosféra ve skupině a řešení sporu",
+      "aliases": [
+        "konflikt",
+        "hádka",
+        "řešení sporu",
+        "dohoda ve třídě",
+        "bezpečí ve skupině"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Seznamuje se s faktory, které ovlivňují atmosféru bezpečí ve skupině."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "V modelových situacích navrhne, jak podpořit atmosféru bezpečí v rámci skupinové činnosti"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Prostřednictvím dohodnutých postupů se podílí na vytváření atmosféry bezpečí ve skupině."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co ve skupině pomáhá a jak spor uklidnit, a nabídne modelové situace."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o řešení sporů dají postupy, které můžete vyzkoušet."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Spor ve třídě aplikace nevyřeší, domlouváte se vy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Atmosféru ve skupině tvoříš svým chováním, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ],
+      "inspiration": [
+        "Co sám nerad, nečiň druhým"
+      ]
+    },
+    {
+      "slug": "skupina-zpetna-vazba",
+      "title": "Zpětná vazba spolužákům",
+      "aliases": [
+        "zpětná vazba",
+        "pochvala",
+        "ocenit spolužáka",
+        "hodnocení kamaráda",
+        "jak poradit"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sdílí svoje zkušenosti ze skupinové činnosti, vyzkouší si poskytnutí konstruktivní zpětné vazby druhým k jejich zapojení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti ukáže, jak říct pochvalu i radu tak, aby nezranila."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o zpětné vazbě dají vzory vět, které můžeš použít."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Zpětnou vazbu říkáš spolužákovi ty, aplikace ji nevyřídí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "K tomu žádná pomůcka není, jen ty a druhý člověk."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b"
+      ],
+      "inspiration": [
+        "Jak mi to jde společně s týmem"
+      ]
+    },
+    {
+      "slug": "skupina-eticke-chovani",
+      "title": "Eticky vhodné a nevhodné chování",
+      "aliases": [
+        "etika",
+        "slušné chování",
+        "správné a špatné",
+        "pravidla chování",
+        "co se nedělá"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "eticky vhodného/nevhodné chování"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "V modelových situacích zkouší rozlišovat, které chování je eticky vhodné/nevhodné."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Ve svém chování a jednání zkouší uplatňovat základní etická pravidla."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popisuje své eticky vhodné chování."
+        },
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích rozlišuje jednání, ve kterém jsou uplatňována základní etická pravidla, projevy prosociálního chování."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot rozebere příběhy a vysvětlí, proč je chování vhodné, nebo ne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a pohádky o slušném chování dají příklady k rozboru."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Chovat se slušně musíš ty, aplikace to za tebe nezvládne."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "K etice pomůcka neexistuje, rozhoduješ se ty při jednání."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c"
+      ],
+      "inspiration": [
+        "Co sám nerad, nečiň druhým"
+      ]
+    },
+    {
+      "slug": "skupina-respekt-a-asertivita",
+      "title": "Respekt k druhým a hájení vlastního názoru",
+      "aliases": [
+        "asertivita",
+        "respekt",
+        "říct svůj názor",
+        "uznat chybu",
+        "omluvit se",
+        "potřeby"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "V modelové situaci získává zkušenost s různými projevy respektu a asertivity"
+        },
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích aplikuje empatické naslouchání, respekt vůči druhým (např. uznáním názoru druhých, uznáním chyby a snahou o její nápravu) i sobě (např. vyjádřením a obhajobou svého názoru nebo vyjádřením svých potřeb)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot nabídne věty pro omluvu i pro slušné řečení ne a ty si je vyzkoušíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o asertivitě ukážou rozdíl mezi nátlakem a hájením názoru."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Omluvit se nebo říct ne musíš ty, aplikace za tebe nepromluví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Respekt se projevuje slovy a chováním, pomůcka nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

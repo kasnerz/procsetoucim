@@ -1,0 +1,516 @@
+[
+  {
+    "slug": "stavba-reprodukcni-soustavy-zdravi",
+    "title": "Stavba a funkce reprodukční soustavy",
+    "aliases": [
+      "reprodukční soustava",
+      "pohlavní orgány",
+      "jak funguje tělo",
+      "rozmnožování člověka",
+      "výchova ke zdraví"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvádí základní poznatky o stavbě a funkci reprodukční soustavy",
+        "quote": "uvádí základní poznatky o stavbě a funkci reprodukční soustavy"
+      },
+      {
+        "level": "Na cestě",
+        "point": "dává do souvislostí poznatky o stavbě a funkci reprodukční soustavy a vyvozuje doporučení, jak sexuální a reprodukční zdraví chránit",
+        "quote": "dává do souvislostí poznatky o stavbě a funkci reprodukční soustavy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Sexuální a reprodukční zdraví",
+        "url": "https://uloziste.rvp.cz/material/b14e71"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí stavbu těla a odpoví na tvoje otázky, co si ověříš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a zdravotní weby mají schémata a popisy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Anatomický atlas v aplikaci ukáže orgány z více stran."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný jednoduchý nástroj tuhle látku nenačrtne ani nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/949ee0a9-d22b-4a56-bc7a-7ed35bf0b839",
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864",
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ochrana-pohlavni-nemoci-pocati",
+    "title": "Ochrana před pohlavními nemocemi a neplánovaným početím",
+    "aliases": [
+      "pohlavní nemoci",
+      "HIV",
+      "AIDS",
+      "jak se chránit",
+      "početí",
+      "výchova ke zdraví"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvádí, jak se chránit před pohlavně přenosnými nemocemi včetně HIV/AIDS, neplánovaným početím, nekonsenzuálním chováním",
+        "quote": "uvádí, jak se chránit před pohlavně přenosnými nemocemi včetně HIV/AIDS, neplánovaným početím, nekonsenzuálním chováním"
+      },
+      {
+        "level": "Na cestě",
+        "point": "pojmenuje a vysvětlí hlavní vnější a vnitřní vlivy ohrožující sexuální a reprodukční zdraví",
+        "quote": "pojmenuje a vysvětlí hlavní vnější a vnitřní vlivy ohrožující sexuální a reprodukční zdraví"
+      },
+      {
+        "level": "Splněno",
+        "point": "S využitím poznatků o stavbě a funkci reprodukční soustavy navrhne a zdůvodní postupy ochrany sexuálního a reprodukčního zdraví.",
+        "quote": "navrhne a zdůvodní postupy ochrany sexuálního a reprodukčního zdraví"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chráníme sexuální a reprodukční zdraví",
+        "url": "https://uloziste.rvp.cz/material/aa8742"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se nemoci přenášejí a jak se chránit, a zeptáš se na vše."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotnické weby mají ověřené informace o ochraně a rizicích."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe rozhodování o ochraně nenahradí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnutí o ochraně děláš ty, kalkulačka ani pravítko k tomu nejsou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/949ee0a9-d22b-4a56-bc7a-7ed35bf0b839",
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113",
+      "http://data.europa.eu/esco/skill/2f31126e-b6c9-4a20-8747-3b1eeb0ba426"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "antikoncepce-metody-formy",
+    "title": "Metody antikoncepce",
+    "aliases": [
+      "antikoncepce",
+      "kondom",
+      "tabletky",
+      "ochrana před početím",
+      "plánování rodiny"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "orientuje se v metodách a formách antikoncepce",
+        "quote": "orientuje se v metodách a formách antikoncepce"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Porovná metody a řekne, jak fungují a jak spolehlivé jsou."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Lékařské weby popisují jednotlivé metody a jejich použití."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace sledující cyklus ti metody nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj ti metody antikoncepce nepředstaví."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2f31126e-b6c9-4a20-8747-3b1eeb0ba426",
+      "http://data.europa.eu/esco/skill/949ee0a9-d22b-4a56-bc7a-7ed35bf0b839",
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "plodnost-pozdni-rodicovstvi-zivot",
+    "title": "Plodnost a odkládané rodičovství",
+    "aliases": [
+      "plodnost",
+      "pozdní rodičovství",
+      "bezdětnost",
+      "kdy mít děti",
+      "neplodnost"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popisuje hlavní faktory, které ovlivňují plodnost žen a mužů",
+        "quote": "popisuje hlavní faktory, které ovlivňují plodnost žen a mužů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje v návaznosti na modelové situace problematiku předčasného a odkládaného / pozdního rodičovství",
+        "quote": "diskutuje v návaznosti na modelové situace problematiku předčasného a odkládaného / pozdního rodičovství"
+      },
+      {
+        "level": "Splněno",
+        "point": "Argumentuje možná rizika odkládaného a pozdního rodičovství včetně rizika nedobrovolné bezdětnosti, rozliší dobrovolnou a nedobrovolnou bezdětnost.",
+        "quote": "Argumentuje možná rizika odkládaného a pozdního rodičovství včetně rizika nedobrovolné bezdětnosti, rozliší dobrovolnou a nedobrovolnou bezdětnost."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše souvislost mezi sexuálním a reprodukčním chováním a možnou životní perspektivou.",
+        "quote": "Popíše souvislost mezi sexuálním a reprodukčním chováním a možnou životní perspektivou."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co plodnost ovlivňuje, a pomůže ti vymyslet protiargumenty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotnické weby a statistiky ukážou, co plodnost ovlivňuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace o plodnosti ti nenahradí vlastní úvahu o životních plánech."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Úvahu o vlastním životě nezměříš žádným nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/949ee0a9-d22b-4a56-bc7a-7ed35bf0b839",
+      "http://data.europa.eu/esco/skill/2f31126e-b6c9-4a20-8747-3b1eeb0ba426",
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "respektujici-vztah-nasili-poznani",
+    "title": "Respektující chování a násilí ve vztahu",
+    "aliases": [
+      "partnerské násilí",
+      "respekt ve vztahu",
+      "bezpečný vztah",
+      "odmítnout násilí",
+      "šikana ve vztahu"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozpozná na modelových příkladech, které chování ve vztahu lze považovat za respektující a bezpečné, a kdy se jedná o projevy partnerského, sexuálního, a/nebo genderově podmíněného násilí, proti kterým je třeba se vymezit",
+        "quote": "rozpozná na modelových příkladech, které chování ve vztahu lze považovat za respektující a bezpečné, a kdy se jedná o projevy partnerského, sexuálního, a/nebo genderově podmíněného násilí, proti kterým je třeba se vymezit"
+      },
+      {
+        "level": "Na začátku",
+        "point": "identifikuje v modelových situacích chování osob, kterým ohrožují bezpečí druhých, a zdůvodní právo takové chování odmítnout",
+        "quote": "identifikuje v modelových situacích chování osob, kterým ohrožují bezpečí druhých, a zdůvodní právo takové chování odmítnout"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Respektující a bezpečné chování",
+        "url": ""
+      },
+      {
+        "title": "Abeceda bezpečného chování",
+        "url": "https://uloziste.rvp.cz/material/30bd58"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou příklady a vysvětlí, kde končí respekt a začíná násilí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby pro děti a linky pomoci popisují varovné znaky a kam se obrátit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepozná, co se děje ve tvém vztahu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroj nepozná, kdy ti někdo ubližuje, to poznáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/497ac2d8-6a9c-45d1-8149-e7aa2d9e2cff",
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113",
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "souhlas-vrstevnici-online-vztahy",
+    "title": "Souhlas a respekt mezi vrstevníky, i online",
+    "aliases": [
+      "souhlas",
+      "konsenzus",
+      "vrstevnické vztahy",
+      "randění",
+      "sexting",
+      "chování na sociálních sítích"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uplatňuje v modelových situacích respektující chování při navazování vrstevnických vztahů",
+        "quote": "uplatňuje v modelových situacích respektující chování při navazování vrstevnických vztahů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "v modelových situacích zdůvodňuje vhodné způsoby konsenzuálního chování souvisejícího se sexualitou ve fyzickém i digitálním prostředí",
+        "quote": "v modelových situacích zdůvodňuje vhodné způsoby konsenzuálního chování souvisejícího se sexualitou ve fyzickém i digitálním prostředí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Láska na první pohled",
+        "url": "https://uloziste.rvp.cz/material/2d0626"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje roli kamaráda v modelové situaci a vysvětlí, co je souhlas."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby o bezpečí online popisují pravidla souhlasu a rizika sdílení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nenahradí rozhovor, ve kterém ty říkáš ano nebo ne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Souhlas dáváš ty osobně, žádný nástroj ho nezařídí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113",
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864",
+      "http://data.europa.eu/esco/skill/497ac2d8-6a9c-45d1-8149-e7aa2d9e2cff"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odpovedne-chovani-rizikove-situace",
+    "title": "Odpovědné chování a rizikové situace",
+    "aliases": [
+      "odpovědné chování",
+      "rizikové situace",
+      "rozhodnutí ve vztahu",
+      "bezpečí a zdraví",
+      "modelové situace"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Posoudí význam odpovědného respektujícího sexuálního chování ve vztahu k sobě samému i ostatním.",
+        "quote": "Posoudí význam odpovědného respektujícího sexuálního chování ve vztahu k sobě samému i ostatním."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozhodne na modelových příkladech o vhodném řešení vzniklých rizikových situací v oblasti reprodukčního zdraví a lidské sexuality.",
+        "quote": "Rozhodne na modelových příkladech o vhodném řešení vzniklých rizikových situací v oblasti reprodukčního zdraví a lidské sexuality."
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje význam odpovědného respektujícího sexuálního chování ve vztahu k sobě samému i ostatním",
+        "quote": "diskutuje význam odpovědného respektujícího sexuálního chování ve vztahu k sobě samému i ostatním"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere modelové situace a ukáže důsledky různých řešení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Poradenské weby popisují, kam se v rizikové situaci obrátit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe situaci nevyřeší ani nezvážíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroj za tebe rozhodnutí neudělá, vážit důsledky musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113",
+      "http://data.europa.eu/esco/skill/949ee0a9-d22b-4a56-bc7a-7ed35bf0b839",
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sexualita-telo-psychika-vztah-pojmy",
+    "title": "Lidská sexualita a správné pojmy",
+    "aliases": [
+      "sexualita",
+      "gender",
+      "sexuální identita",
+      "pud a cit",
+      "pojmy"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popisuje lidskou sexualitu jako kombinaci fyzické a psychosociální složky osobnosti, na příkladech dokládá význam vůle, rozumu, citu a pudu v sexualitě",
+        "quote": "popisuje lidskou sexualitu jako kombinaci fyzické a psychosociální složky osobnosti, na příkladech dokládá význam vůle, rozumu, citu a pudu v sexualitě"
+      },
+      {
+        "level": "Splněno",
+        "point": "Charakterizuje lidskou sexualitu jako kombinaci fyziologické a psychosociální složky osobnosti.",
+        "quote": "Charakterizuje lidskou sexualitu jako kombinaci fyziologické a psychosociální složky osobnosti."
+      },
+      {
+        "level": "Splněno",
+        "point": "Používá správnou terminologii v souvislosti se sexuálním a reprodukčním zdravím, genderovou a sexuální identitou.",
+        "quote": "Používá správnou terminologii v souvislosti se sexuálním a reprodukčním zdravím, genderovou a sexuální identitou."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Sexuální a reprodukční zdraví",
+        "url": "https://uloziste.rvp.cz/material/b14e71"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy jednoduše a opraví, když je použiješ špatně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a slovníky mají definice pojmů pod ověřeným zdrojem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti rozumění vlastní sexualitě nedá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovníkový obsah tu klasický nástroj nenabízí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864",
+      "http://data.europa.eu/esco/skill/949ee0a9-d22b-4a56-bc7a-7ed35bf0b839",
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

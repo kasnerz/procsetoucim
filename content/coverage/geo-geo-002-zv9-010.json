@@ -1,0 +1,63 @@
+{
+  "outcome": "GEO-GEO-002-ZV9-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Má základní povědomí o ekonomických aktivitách člověka v prostoru.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "s pomocí základních charakteristik popíše hospodářské sektory a jejich hlavní trendy v Česku a ve světě",
+      "cards": [
+        "hospodarske-sektory-trendy-cesko-svet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "k hlavním odvětvím hospodářství uvede specifické lokalizační faktory (přírodní i společenské), které jsou podstatné pro jejich úspěšný rozvoj (např. intenzivní × extenzivní zemědělství, hutní průmysl × textilní průmysl, věda a výzkum, masový a individuální cestovní ruch)",
+      "cards": [
+        "lokalizacni-faktory-odvetvi-hospodarstvi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na základě relevantních charakteristik (HDP, sektorová struktura, vzdělanost…) posoudí hospodářskou vyspělost míst a regionů",
+      "cards": [
+        "hospodarska-vyspelost-regionu-hdp"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě znalosti specifik odvětví hospodářství vysvětlí, které lokalizační faktory jsou pro jejich úspěšný rozvoj podstatné (např. zemědělství, hutní průmysl × textilní průmysl, věda a výzkum, cestovní ruch).",
+      "cards": [
+        "lokalizacni-faktory-odvetvi-hospodarstvi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Pojmenuje hlavní pozitivní a negativní dopady konkrétních hospodářských činností na místo/region jejich lokalizace (specificky pro nadnárodní korporace).",
+      "cards": [
+        "dopady-hospodarskych-cinnosti-na-region"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhuje vhodnou lokalizaci různých druhů ekonomických činností / podnikání ve známém městě / v místě bydliště svého místního regionu.",
+      "cards": [
+        "navrh-umisteni-podnikani-v-okoli-domova"
+      ],
+      "aside": null
+    }
+  ]
+}

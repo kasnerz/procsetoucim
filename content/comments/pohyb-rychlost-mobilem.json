@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Aplikace s GPS ti ukáže rychlost při jízdě na kole nebo v autobuse a tady se učíš, odkud to číslo bere a kdy mu můžeš věřit. Mobil počítá rychlost z toho, jak se mění jeho poloha, takže v tunelu nebo mezi vysokými domy údaje skáčou. Ovládání aplikace se naučíš za pár minut, cennější je porovnat její čísla s vlastním měřením stopkami a metrem. Rychloměr a navigaci používá každý den, kdo vozí lidi taxíkem, ale přijdou vhod i při běhu nebo na výletě na kole.",
+  "learnWithAi": [
+    {
+      "title": "Co znamenají čísla v aplikaci",
+      "text": "Vyfoť obrazovku aplikace po jízdě a zeptej se chatbota, co znamená průměrná a nejvyšší rychlost. Vysvětli pak vlastními slovy, proč jsou ta dvě čísla různá."
+    },
+    {
+      "title": "Mobil proti stopkám a metru",
+      "text": "Změř na hřišti rychlost mobilem i stopkami a metrem a obě čísla napiš chatbotovi. Nech si vysvětlit, proč se mohou lišit, a posuď, které měření je u tebe přesnější."
+    },
+    {
+      "title": "Místa, kde GPS chybuje",
+      "text": "Požádej chatbota, ať navrhne, kde zkusit měřit, aby se ukázalo, kdy GPS chybuje. Měření proveď venku, výsledky mu popiš a porovnej je s tím, co předpověděl."
+    }
+  ]
+}

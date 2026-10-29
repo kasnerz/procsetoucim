@@ -1,0 +1,160 @@
+{
+  "outcome": "CZB-TEV-001-ZV5-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "cviky-na-rozvoj-zdatnosti",
+      "title": "Cviky na rozvoj zdatnosti",
+      "aliases": [
+        "posilování",
+        "kondiční cvičení",
+        "jak být fit",
+        "zdatnost"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Seznamuje se se způsoby rozvoje tělesné zdatnosti."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozvíjí tělesnou zdatnost podle pokynů učitele a svých individuálních možností."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Cvičit musíš ty, popis od chatbota ti sílu ani obratnost nepřidá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Popisy cviků a videa najdeš online."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace počítá opakování a ukazuje cviky, cvičíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Švihadlo nebo činky se hodí, sílu ale získáš jen cvičením."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/70da7d81-87f5-4724-b72d-c0d79c1d5281",
+        "http://data.europa.eu/esco/skill/90e8f54b-064f-4721-8ccc-b5f61968b227"
+      ],
+      "inspiration": [
+        "Cviky na rozvoj zdatnosti - seznámení",
+        "Cviky na rozvoj zdatnosti - rozvoj",
+        "Cviky na rozvoj zdatnosti - orientační měření"
+      ]
+    },
+    {
+      "slug": "plan-dalsiho-rozvoje-zdatnosti",
+      "title": "Plán dalšího rozvoje zdatnosti",
+      "aliases": [
+        "tréninkový plán",
+        "jak se zlepšit",
+        "zpětná vazba od učitele"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Navrhuje na základě zpětné vazby učitele, jak dále rozvíjet tělesnou zdatnost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Podle tvého popisu navrhne plán, upravit ho podle sebe musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázkové tréninkové plány najdeš online."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Z tvých záznamů navrhne další krok a připomene tréninky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Plán nevznikne z nástroje, vymýšlíš ho ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9bb41cd3-eb0e-4fb3-a345-c9c6ed5d43dd",
+        "http://data.europa.eu/esco/skill/70da7d81-87f5-4724-b72d-c0d79c1d5281"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "prekonavani-namahy",
+      "title": "Překonání námahy při cvičení",
+      "aliases": [
+        "vydržet",
+        "nevzdat se",
+        "zadýchání",
+        "vytrvalost"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Uplatňuje vůli při překonávání námahy spojenou s tělesnou zátěží."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Překonává námahu a obtíže spojené s tělesnou zátěží."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Vydržet za tebe nemůže, ani když poradí s dýcháním."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Rady si přečteš, vydržet musíš ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tělo za tebe nenamáhá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Překonat únavu musíš svým tělem a vůlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a147904-22b3-498a-b4d9-7bceeb86b45d"
+      ],
+      "inspiration": [
+        "Výstup na Mount Everest po schodech",
+        "Turistická výprava"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Uplatňuje základní postupy vedoucí",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

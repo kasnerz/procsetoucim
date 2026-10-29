@@ -1,0 +1,359 @@
+[
+  {
+    "slug": "vlastni-tvorba-linie-tvar-barva",
+    "title": "Linie, tvar a barva při volné tvorbě",
+    "aliases": [
+      "čára tvar barva",
+      "volná tvorba",
+      "čmárání",
+      "výtvarné prvky",
+      "kreslení pro radost"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Při spontánní tvorbě objevuje různé výtvarné prvky.",
+        "quote": "Při spontánní tvorbě objevuje různé výtvarné prvky."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Prvky uplatňuje k vyjádření svých vjemů, pocitů, představ.",
+        "quote": "Prvky uplatňuje k vyjádření svých vjemů, pocitů, představ."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Emoce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Čáru a barvu objevuješ rukou na papíře, text ti je nenahradí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky obrazů a kreseb ti ukážou, co všechno dokáže čára nebo barva."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V kreslicí aplikaci rychle zkoušíš tvary a barvy a vracíš tahy zpět."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pastelky, štětec a tuš ti dají každý jiný druh čáry."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-tvorba-kresba-malba-techniky",
+    "title": "Kresba a malba různými technikami",
+    "aliases": [
+      "kreslení",
+      "malování",
+      "temperové barvy",
+      "pastel",
+      "tužka a štětec",
+      "výtvarná technika"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Užívá různé prostředky, nástroje a materiály při kresbě, malbě, prostorové tvorbě.",
+        "quote": "Užívá různé prostředky, nástroje a materiály při kresbě, malbě, prostorové tvorbě."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Objevuje možnosti kresby, malby, modelování, prostorové tvorby a vychází přitom z vlastního nápadu, nebo zadání.",
+        "quote": "Objevuje možnosti kresby, malby, modelování, prostorové tvorby a vychází přitom z vlastního nápadu, nebo zadání."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Moje ráno; Stopy a otisky",
+        "url": "https://uloziste.rvp.cz/material/fcfb25"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kreslíš a maluješ ty, chatbot ti štětec nepodrží."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videonávody a ukázky ti ukážou, jak vypadá akvarel nebo kresba uhlem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace nabízí štětce a barvy, které si bez nákladů vyzkoušíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka, voskovky a barvy na papíře se chovají pokaždé jinak a to poznáš jen rukou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1faf62ee-28fd-432b-972b-fab2cbe81773",
+      "http://data.europa.eu/esco/skill/d7be0e5d-157f-410f-91f0-4c790f2fe458",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-tvorba-modelovani-objekty",
+    "title": "Modelování a objekty v prostoru",
+    "aliases": [
+      "modelování z hlíny",
+      "modelína",
+      "prostorová tvorba",
+      "sochy",
+      "výroba z krabic a papíru"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Tvoří objekty z různých materiálů a umísťuje je do prostoru.",
+        "quote": "Tvoří objekty z různých materiálů a umísťuje je do prostoru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Masky a autoportréty",
+        "url": "https://uloziste.rvp.cz/material/c7bab7"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Objekt z hlíny nebo kartonu ti vyrobí jen vlastní ruce."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a fotky hotových soch ti dají nápad, z čeho a jak začít."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Obrazovka ti nedá pocit hlíny v ruce ani skutečné místo v prostoru."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Modelína, hlína, drát a karton jsou materiál, ze kterého objekt stavíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-tvorba-pocity-a-predstavy",
+    "title": "Vyjádření pocitů a představ obrazem nebo objektem",
+    "aliases": [
+      "jak nakreslit pocit",
+      "kresba emoce",
+      "fantazie",
+      "malování z hlavy",
+      "volná tvorba podle zadání"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyjadřuje výtvarnými prostředky vjemy, pocity, prožitky a realizuje své nápady.",
+        "quote": "Vyjadřuje výtvarnými prostředky vjemy, pocity, prožitky a realizuje své nápady."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Tvoří spontánně i podle zadání.",
+        "quote": "Tvoří spontánně i podle zadání."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Experimentuje s výtvarnými prostředky a to tak, aby co nejvýstižněji vyjádřil to, co vychází z jeho fantazie, smyslových vjemů, pocitů.",
+        "quote": "Experimentuje s výtvarnými prostředky a to tak, aby co nejvýstižněji vyjádřil to, co vychází z jeho fantazie, smyslových vjemů, pocitů."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyjadřuje své vjemy, představy a myšlenky v plošné a prostorové tvorbě.",
+        "quote": "Vyjadřuje své vjemy, představy a myšlenky v plošné a prostorové tvorbě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Emoce",
+        "url": ""
+      },
+      {
+        "title": "Dynamika a rytmus pohybu větru",
+        "url": "https://uloziste.rvp.cz/material/ae7a8d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Tvoje pocity a představy zná jen tvoje hlava, chatbot je nenakreslí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Cizí obrazy ti dají podnět, ale tvoje vlastní vyjádření nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Hotové filtry a šablony za tebe vyberou tvar, tvoje představa se ztratí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, barvy a hlína ti dovolí dát tvaru přesně takovou podobu, jakou chceš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0",
+      "http://data.europa.eu/esco/skill/1faf62ee-28fd-432b-972b-fab2cbe81773"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-tvorba-vyber-a-bezpecnost",
+    "title": "Výběr materiálů a bezpečná práce při tvorbě",
+    "aliases": [
+      "bezpečnost při výtvarné výchově",
+      "nůžky a lepidlo",
+      "co použít",
+      "zkoušení materiálů"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vybere si cíleně prostředky, se kterými chce pracovat a má odvahu s nimi experimentovat, a to s ohledem na bezpečnost svou i ostatních.",
+        "quote": "Vybere si cíleně prostředky, se kterými chce pracovat a má odvahu s nimi experimentovat, a to s ohledem na bezpečnost svou i ostatních."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, čím lepit nebo řezat, a vysvětlí, jak s nástrojem zacházet bezpečně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Bezpečnostní pokyny na obalu a návody ukážou, co materiál snese."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Materiál vybíráš a zkoušíš rukama, aplikace ti ho nepodá."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Podložka, zástěra a tupé nůžky chrání tebe i spolužáky při práci."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-tvorba-nazev-dila",
+    "title": "Pojmenování vlastního díla",
+    "aliases": [
+      "název obrázku",
+      "jak nazvat dílo",
+      "titulek ke kresbě",
+      "pojmenovat výtvor"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pojmenuje dílo podle svého uvážení tak, aby byl jeho název výstižný pro něj samotného.",
+        "quote": "Pojmenuje dílo podle svého uvážení tak, aby byl jeho název výstižný pro něj samotného."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Název má sedět tobě, cizí nápad ho nenahradí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Názvy cizích děl ti nepoví, co vidíš ve svém."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti název nevymyslí, musíš ho říct ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Název vychází z toho, co chceš svým dílem říct, a nástroj k tomu nemá co dodat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

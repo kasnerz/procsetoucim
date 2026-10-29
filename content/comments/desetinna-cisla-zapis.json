@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Ceny a výsledky měření se zapisují desetinnými čísly a zaokrouhlují se, aby se s nimi dalo pracovat. Když víš, že 0,35 je třicet pět setin, zapíšeš ho i jako zlomek a porovnáš s jiným číslem bez kalkulačky. Zaokrouhlení ti dovolí rychle odhadnout výsledek a ohlídat kalkulačku nebo tabulku, která vypíše deset desetinných míst. Kalkulačka zaokrouhlí, ale na kolik míst to má smysl, rozhoduješ ty. S takovými čísly pracuje zhruba 25 % lidí, kteří v Česku pracují.",
+  "learnWithAi": [
+    {
+      "title": "Řazení a zaokrouhlení na desetiny",
+      "text": "Požádej chatbota o deset desetinných čísel s různým počtem míst. Seřaď je, zaokrouhli na desetiny a teprve potom si nech odpovědi zkontrolovat."
+    },
+    {
+      "title": "Délka 2,5 a 2,50 metru",
+      "text": "Nech chatbota vysvětlit, proč se 2,5 m a 2,50 m rovnají, a přesto v měření neznamenají úplně totéž. Zkus to pak vysvětlit spolužákovi vlastními slovy."
+    },
+    {
+      "title": "Desetinné zlomky z účtenky",
+      "text": "Vezmi účtenku nebo výsledky měření z fyziky a zapiš několik čísel jako desetinné zlomky. Chatbot zápis zkontroluje, a když něco nesedí, nech si ukázat jen to místo."
+    }
+  ]
+}

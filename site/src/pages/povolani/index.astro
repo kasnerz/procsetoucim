@@ -1,0 +1,31 @@
+---
+// Occupations (user 2026-10-20, 2026-10-29): search the whole ESCO occupation list, then the occupation groups as a
+// treemap (GroupTreemap), each group linking to its page with the occupations.
+import Base from "../../layouts/Base.astro";
+import Search from "../../components/Search.astro";
+import SectionHead from "../../components/SectionHead.astro";
+import GroupTreemap from "../../components/GroupTreemap.astro";
+import { occupations } from "../../lib/data";
+const all = Object.values(occupations);
+---
+<Base title="Povolání" description="Vyhledávání v evropské databázi povolání ESCO: které věci ze školy každé povolání potřebuje.">
+  <div class="wrap page">
+    <section class="lead col">
+      <h1>Povolání</h1>
+      <p class="soft">Evropská databáze povolání ESCO popisuje {all.length.toLocaleString("cs-CZ")} povolání a dovednosti, které každé z nich potřebuje. U povolání najdeš, které věci ze školy k té práci patří, a odhad, jak moc ji mění AI.</p>
+    </section>
+    <div class="find col" data-search-page>
+      <Search index="povolani-index.json" page="povolani/" label="Hledat povolání" placeholder="Jaké povolání? Třeba kuchař" empty="Zkus obecnější název práce." limit={30} />
+    </div>
+    <section class="section" aria-labelledby="h-groups">
+      <SectionHead id="h-groups" icon="layers">Skupiny povolání</SectionHead>
+      <GroupTreemap />
+    </section>
+  </div>
+</Base>
+<style>
+  .page { display: grid; gap: var(--s7); }
+  .lead { display: grid; justify-items: center; text-align: center; gap: var(--s3); }
+  .lead p { max-width: 62ch; }
+  .find { max-width: 640px; }
+</style>

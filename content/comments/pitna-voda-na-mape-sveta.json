@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tobě teče pitná voda z kohoutku, jinde na světě ji lidé nosí ze vzdálené studny. Mapa zdrojů ukazuje proč: sladké vody je na Zemi málo, velká část je zamrzlá v ledovcích a zbytek je rozložený velmi nerovnoměrně. Pomůže ti rozumět zprávám o suchu nebo o sporech států o vodu z jedné řeky. Vodohospodáři, kteří plánují, odkud bude obec brát vodu, když studny vyschnou, s takovým pohledem pracují každý den. Mapu ti ukáže atlas i aplikace, vyčíst z ní souvislosti se ale musíš naučit.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k mapě vody",
+      "text": "Požádej chatbota, ať ti k mapě zdrojů pitné vody položí pět otázek, na které se dá odpovědět jen z mapy. Odpovídej podle mapy v atlase, ne zpaměti."
+    },
+    {
+      "title": "Hledání suchých oblastí",
+      "text": "Otevři v atlase mapu zdrojů vody a napiš si oblasti, kde je podle tebe vody nejméně. Zeptej se chatbota, jestli souhlasí, a sporné případy dohledej v atlase."
+    },
+    {
+      "title": "Den bez vodovodu",
+      "text": "Nech chatbota hrát dítě z oblasti, kde se voda nosí ze studny, a vyptávej se ho na jeho den. Co ti řekne o konkrétní zemi, porovnej s atlasem, protože si může vymýšlet."
+    }
+  ]
+}

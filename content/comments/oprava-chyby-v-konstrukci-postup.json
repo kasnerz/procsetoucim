@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Žárovka nesvítí nebo se autíčko nerozjede a ty musíš přijít na to, proč. Hledání chyby má postup: vyloučíš, co funguje, a zúžíš problém na jedno místo, třeba na uvolněný spoj. Stejně postupují ti, kdo udržují a opravují stroje nebo motory letadel, a takových míst spíš přibude. Tenhle způsob uvažování se ale hodí i u rozbitého kola nebo počítače, který nechce naběhnout. Chatbot ti z popisu závady navrhne, kde hledat, změřit spoj a najít skutečnou příčinu ale musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Hádanka se skrytou závadou",
+      "text": "Požádej chatbota, ať si vymyslí obvod se skrytou chybou, a hledej ji otázkami, na které odpovídá jen ano, nebo ne. Snaž se chybu najít na co nejméně otázek."
+    },
+    {
+      "title": "Možné příčiny od nejčastější",
+      "text": "Popiš chatbotovi, co tvůj model dělá špatně, a nech si vypsat možné příčiny od nejpravděpodobnější. Ověřuj je na modelu jednu po druhé a zapisuj, co už je vyloučené."
+    },
+    {
+      "title": "Přepsaný postup stavby",
+      "text": "Když chybu najdeš, napiš si, ve kterém kroku stavby vznikla, a požádej chatbota o pomoc s přepsáním postupu, aby se neopakovala. Nový postup vyzkoušej na další stavbě."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Na zadní straně obalu je tabulka s energií, tuky, cukry a solí a kdo ji umí přečíst, pozná, kolik cukru je v tyčince, která se tváří jako zdravá. Údaje bývají uvedené na 100 gramů, takže bez přepočtu na porci snadno podceníš, kolik toho opravdu sníš. Skener čárového kódu ti hodnoty načte, porovnat dva výrobky a vybrat ten rozumnější ale musíš ty. Při nákupu se to hodí každému, nejvíc lidem, kteří kvůli nemoci nebo alergii hlídají, co jedí. V práci to potřebuje, kdo sestavuje dietní jídelníčky nebo ve výrobě odpovídá za to, aby údaje na obalu seděly.",
+  "learnWithAi": [
+    {
+      "title": "Neznámé řádky z etikety",
+      "text": "Zeptej se chatbota na řádky z etikety, kterým nerozumíš, třeba na rozdíl mezi sacharidy a cukry. Vysvětlení pak zkus říct vlastními slovy a nech si je opravit."
+    },
+    {
+      "title": "Dva jogurty vedle sebe",
+      "text": "Opiš etikety dvou jogurtů a napiš, který je podle tebe lepší a proč. Chatbot ať tvoje zdůvodnění zkontroluje a upozorní na údaj, který ti unikl."
+    },
+    {
+      "title": "Přepočet na skutečnou porci",
+      "text": "Z obalu cereálií opiš tabulku živin a spočítej, kolik cukru sníš ve své obvyklé misce. Výpočet dej chatbotovi ke kontrole a nech si ukázat, kde se vaše čísla liší."
+    }
+  ]
+}

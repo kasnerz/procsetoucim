@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Rozvrh hodin, jízdní řád i přehled známek se čtou stejně: najdeš řádek, najdeš sloupec a tam, kde se potkají, je odpověď. Kdo se v tabulce rychle zorientuje, nemusí se ptát, kdy jede autobus nebo jaké předměty má zítra. S tabulkami pracují každý den lidé ve skladech i v kancelářích a tabulkové programy jim velkou část řazení a počítání udělají samy. Přečíst, co tabulka říká, a všimnout si údaje, který nedává smysl, ale musí člověk.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k vlastnímu rozvrhu",
+      "text": "Přepište spolu svůj rozvrh do chatu a poproste chatbota o deset otázek, třeba kolikátou hodinu máš ve středu tělocvik. Odpovídáš ty, chatbot jen kontroluje."
+    },
+    {
+      "title": "Vymyšlený jízdní řád",
+      "text": "Nechte chatbota vytvořit malý jízdní řád autobusu a vymyslet k němu úkoly, třeba kdy jede poslední spoj. Odpověď hledáš prstem v tabulce, ne v chatu."
+    },
+    {
+      "title": "Chyba schovaná v tabulce",
+      "text": "Poproste chatbota o tabulku výsledků turnaje, ve které je schovaná jedna chyba, třeba tým zapsaný dvakrát. Hledáte ji spolu, ale ukázat ji musíš ty."
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+[
+  {
+    "slug": "pohyb-porovnani-rychlosti",
+    "title": "Pozorování a porovnání pohybů",
+    "aliases": [
+      "jak se co pohybuje",
+      "rychlejší a pomalejší",
+      "popis pohybu",
+      "pohyb kolem nás"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Pozoruje a popíše různé pohyby z běžného života, porovná rychlost různých pohybů.",
+        "quote": "Pozoruje a popíše různé pohyby z běžného života, porovná rychlost různých pohybů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohyb hračky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, čím se pohyby liší, a poradí slova pro popis."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Pohyb kolem sebe pozoruješ očima, ve vyhledávači není."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe pohyb nepopíše, díváš se ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pohyb pozoruješ a porovnáváš ty, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-odhad-vzdalenosti",
+    "title": "Odhad uražené vzdálenosti za daný čas",
+    "aliases": [
+      "odhad vzdálenosti",
+      "kam dojdu za minutu",
+      "jak daleko dojedu",
+      "odhad dráhy"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Odhadne, jakou vzdálenost urazí různými způsoby pohybu za daný čas.",
+        "quote": "Odhadne, jakou vzdálenost urazí různými způsoby pohybu za daný čas."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Měření rychlosti",
+        "url": "https://uloziste.rvp.cz/material/91b537"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Odhad děláš z vlastní zkušenosti, chatbot nezná tvoje tempo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky rychlostí chůze či kola dají srovnání pro tvůj odhad."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa s vzdálenostmi ukáže, jak daleko jsi opravdu došel."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pásmo nebo metr změří, kolik jsi opravdu urazil."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/97fb21db-a4e5-4b03-af21-03b9d510d872"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-odhad-casu-mereni",
+    "title": "Odhad a měření času pohybu",
+    "aliases": [
+      "stopky",
+      "jak dlouho to trvá",
+      "odhad času",
+      "kdo je nejrychlejší"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Odhadne a změří, za jak dlouho urazí danou vzdálenost různými způsoby pohybu, při kterém způsobu pohybu bude nejrychlejší a nejpomalejší, měření porovná s odhadem.",
+        "quote": "Odhadne a změří, za jak dlouho urazí danou vzdálenost různými způsoby pohybu, při kterém způsobu pohybu bude nejrychlejší a nejpomalejší, měření porovná s odhadem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohyb hračky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Čas měříš při vlastním pohybu, chatbot ho nenaměří."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Dobu tvé chůze či běhu ve vyhledávači nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Stopky v mobilu měří čas i mezičasy a uloží je."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stopky ukážou čas, který pak porovnáš s odhadem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-mereni-vzdalenosti-casu",
+    "title": "Měření vzdálenosti a času pohybu",
+    "aliases": [
+      "měření dráhy",
+      "metr a stopky",
+      "změřit pohyb",
+      "vzdálenost a čas"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Změří vzdálenost a čas daného pohybu.",
+        "quote": "Změří vzdálenost a čas daného pohybu."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohyb hračky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jak měření uspořádat a co zapsat do tabulky."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Čísla z tvého vlastního pokusu ve vyhledávači nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Stopky a mapa v mobilu pomohou s časem i se vzdáleností."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Metr, pásmo a stopky ti dají naměřené hodnoty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-vzdalenost-ve-zdrojich",
+    "title": "Údaje o vzdálenosti na rozcestnících a v jízdních řádech",
+    "aliases": [
+      "turistické značení",
+      "rozcestník",
+      "jízdní řád",
+      "směrovky"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se se způsobem uvádění vzdálenosti v různých zdrojích (turistické značení, jízdní řád, směrovky na silnicích, …).",
+        "quote": "Seznámí se se způsobem uvádění vzdálenosti v různých zdrojích (turistické značení, jízdní řád, směrovky na silnicích, …)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozcestníky",
+        "url": "https://uloziste.rvp.cz/material/43f99b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co značí kilometry, minuty či hodiny na různých ukazatelích."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o značení a mapy ukazují, jak se vzdálenost zapisuje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže vzdálenost trasy v km i čas chůze."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa a rozcestník ti ukážou vzdálenost přímo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4be5ce29-9ecb-47c6-b38d-a2552230dd3f",
+      "http://data.europa.eu/esco/skill/97fb21db-a4e5-4b03-af21-03b9d510d872"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-rychlost-draha-cas",
+    "title": "Průměrná rychlost, dráha a čas",
+    "aliases": [
+      "výpočet rychlosti",
+      "s = v · t",
+      "jak spočítat rychlost",
+      "kolik ujedu za hodinu"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Úvahou spočte uraženou vzdálenost ze znalosti rychlosti a času pohybu.",
+        "quote": "Úvahou spočte uraženou vzdálenost ze znalosti rychlosti a času pohybu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Změří vzdálenost a čas konkrétního pohybu, na základě měření určí průměrnou rychlost pohybu.",
+        "quote": "na základě měření určí průměrnou rychlost pohybu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Ze znalosti rychlosti předpoví dobu pohybu.",
+        "quote": "Ze znalosti rychlosti předpoví dobu pohybu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Úsekové měření rychlosti",
+        "url": "https://uloziste.rvp.cz/material/290df7"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí vztah rychlosti, dráhy a času a zadá příklady k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a vzorové příklady ukazují postup výpočtu rychlosti."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka v mobilu zkontroluje tvůj výpočet."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka zkontroluje výsledek z papíru."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-graf-vzdalenosti-casu",
+    "title": "Graf pohybu: vzdálenost v čase",
+    "aliases": [
+      "graf dráhy",
+      "graf závislosti",
+      "kreslení grafu",
+      "tabulka a graf pohybu"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vybere vhodný typ grafu pro daný pohyb (např. závislost vzdálenosti na čase nebo rychlosti na čase).",
+        "quote": "Vybere vhodný typ grafu pro daný pohyb (např. závislost vzdálenosti na čase nebo rychlosti na čase)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vybrané měření pohybu zpracuje do grafu závislosti vzdálenosti na čase – ke zpracování použije tabulkový editor nebo graf zpracuje ručně; vytvoří graf i dalších situací – pohyb dvou těles, která nezačínají na stejném místě nebo ve stejném čase.",
+        "quote": "Vybrané měření pohybu zpracuje do grafu závislosti vzdálenosti na čase"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohyb měřený mobilem",
+        "url": "https://uloziste.rvp.cz/material/b94d6c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, co patří na osy a jaký typ grafu zvolit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázkové grafy pohybu ukazují, jak graf vypadá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový editor nakreslí graf z tvých hodnot, ty ho zkontroluješ."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Čtverečkovaný papír a pravítko stačí na ruční graf."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+      "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-cteni-grafu",
+    "title": "Čtení grafu pohybu",
+    "aliases": [
+      "co říká graf",
+      "kde se potkají",
+      "kdy těleso stojí",
+      "graf rychlosti"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "V konkrétním grafu hledá základní informace (hodnotu v daném čase, jak se těleso pohybovalo, kde se dvě tělesa případně setkala, apod.).",
+        "quote": "V konkrétním grafu hledá základní informace"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě grafu závislosti vzdálenosti na čase interpretuje pohyb tělesa: jak se měnila rychlost pohybu, kde těleso zastavilo; z grafu přečte základní informace: kde bylo těleso v daném čase, za jak dlouho dojelo na dané místo, kde se dvě tělesa setkala.",
+        "quote": "Na základě grafu závislosti vzdálenosti na čase interpretuje pohyb tělesa"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Úsekové měření rychlosti",
+        "url": "https://uloziste.rvp.cz/material/290df7"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co značí stoupání či vodorovný úsek grafu, a zadá další grafy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky grafů pohybu s řešením procvičí čtení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace graf zobrazí, ale číst ho musíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko ti pomůže odečíst hodnoty z papírového grafu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-rychlost-mobilem",
+    "title": "Měření rychlosti mobilní aplikací",
+    "aliases": [
+      "rychlost v mobilu",
+      "GPS rychloměr",
+      "aplikace na rychlost",
+      "měření rychlosti"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vyzkouší možnosti aplikace na mobilním telefonu umožňující sledovat rychlost pohybu.",
+        "quote": "Vyzkouší možnosti aplikace na mobilním telefonu umožňující sledovat rychlost pohybu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Změří rychlost pomocí aplikace na mobilním telefonu.",
+        "quote": "Změří rychlost pomocí aplikace na mobilním telefonu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohyb měřený mobilem",
+        "url": "https://uloziste.rvp.cz/material/b94d6c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jakou aplikaci zvolit a jak číst zobrazené údaje."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Rychlost tvého pohybu vyhledávač nezná."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s GPS ukáže tvou rychlost a trasu při pohybu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rychlost mobilem neměří žádný klasický nástroj."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/97fb21db-a4e5-4b03-af21-03b9d510d872"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

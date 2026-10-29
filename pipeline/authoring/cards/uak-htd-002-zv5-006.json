@@ -1,0 +1,249 @@
+{
+  "outcome": "UAK-HTD-002-ZV5-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "hudba-tanec-divadlo-poznat-druh",
+      "title": "Hudba, tanec a divadlo: poznat, o co jde",
+      "aliases": [
+        "hudba nebo tanec",
+        "druhy umění",
+        "co je divadlo",
+        "poznat druh umění",
+        "hudba tanec divadlo"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Zná názvy základních druhů umění"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozliší hudební, taneční a divadelní dílo"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se hudba, tanec a divadlo poznají, a zeptá se tě na ukázky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu najdeš ukázky z koncertů, tanečních a divadelních představení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Přehrávač hudby a videa pustí ukázku, kterou pak zařadíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Hudební nástroj nebo míč ti nepomůže poznat, co právě vidíš nebo slyšíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663",
+        "http://data.europa.eu/esco/skill/3204e6a3-676d-4824-806d-b34c6b798f31"
+      ],
+      "inspiration": [
+        "A kam patří opera?"
+      ]
+    },
+    {
+      "slug": "druhy-umeni-a-mista-kultura",
+      "title": "Druhy umění a kde je potkáš",
+      "aliases": [
+        "galerie muzeum divadlo",
+        "kde najdu umění",
+        "kniha obraz píseň film",
+        "koncertní sál",
+        "knihovna"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozlišuje jednotlivé druhy umění"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje druhy umění i místa, kde je potkáš, a ty si to přiřadíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové stránky divadel, galerií a knihoven ukážou, co v nich je."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapy ti ukážou, kde ve tvém městě je divadlo, kino nebo knihovna."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný jednoduchý nástroj ti nepomůže umění zařadit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25"
+      ],
+      "inspiration": [
+        "Múzy volají o pomoc"
+      ]
+    },
+    {
+      "slug": "prostredi-divadla-a-koncertu-sal",
+      "title": "Divadlo a koncertní sál: kde se umění předvádí",
+      "aliases": [
+        "jak vypadá divadlo",
+        "koncertní sál",
+        "jeviště a hlediště",
+        "kam do divadla",
+        "prostředí představení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše autentické prostředí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, jak divadlo nebo koncertní sál vypadá, a ty to porovnáš se svou zkušeností."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Fotky a videa sálů a jevišť ukážou místa, kam ses zatím nedostala ani nedostal."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Prostředí popíšeš z vlastní návštěvy, aplikace ti ji nenahradí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nic z běžných nástrojů ti prostředí sálu neukáže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9f43c56e-3ec5-490b-ab02-2e42fb700ca9"
+      ],
+      "inspiration": [
+        "Metody práce s divadelním zážitkem"
+      ]
+    },
+    {
+      "slug": "pojmy-orchestr-dirigent-jeviste",
+      "title": "Pojmy: dirigent, orchestr, herec, tanečník, jeviště",
+      "aliases": [
+        "co dělá dirigent",
+        "orchestr",
+        "herec a tanečník",
+        "jeviště",
+        "pojmy v divadle"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozumí základním pojmům"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy jednoduše a zeptá se tě, kdo co v představení dělá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie vysvětlí pojmy a ukážou fotky orchestru a jeviště."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jednoúčelová aplikace pojmy z hudby a divadla nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dětská encyklopedie nebo slovník pojmů pod rukou pojem vysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+        "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+      ],
+      "inspiration": [
+        "Beethovenova 6. symfonie - aktivní poslech"
+      ]
+    },
+    {
+      "slug": "vyrazove-prostredky-hudby-tance-divadla",
+      "title": "Čím se vyjadřuje hudba, tanec a divadlo",
+      "aliases": [
+        "výrazové prostředky",
+        "pohyb a zpěv",
+        "mluvené slovo",
+        "co jsem slyšel a viděl",
+        "rozbor představení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Ve zhlédnutém nebo poslechnutém díle"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Na základě zkušeností z vlastní tvůrčí činnosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, na co si při poslechu a sledování dát pozor, a projde s tebou tvé postřehy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Nahrávky a videa ti ukážou dílo, které můžeš sledovat víckrát."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Přehrávač pustí ukázku znovu, zpomalí ji nebo vrátí na místo, které ti uniklo."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vlastní nástroj nebo hlas ti ukážou, jak se dá vyjádřit nálada."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3204e6a3-676d-4824-806d-b34c6b798f31",
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0"
+      ],
+      "inspiration": [
+        "Taneční představení MOMO a ukradený čas",
+        "Taneční divadlo Kozí Kraviny i pro neslyšící"
+      ]
+    }
+  ],
+  "aside": []
+}

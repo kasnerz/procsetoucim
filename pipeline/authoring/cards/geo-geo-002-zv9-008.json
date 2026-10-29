@@ -1,0 +1,293 @@
+{
+  "outcome": "GEO-GEO-002-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "cteni-grafu-a-map-obyvatelstva-demograf",
+      "title": "Čtení grafů, tabulek a map o obyvatelích",
+      "aliases": [
+        "věková pyramida",
+        "demografický graf",
+        "kartogram",
+        "tabulka obyvatel",
+        "tematická mapa"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Interpretuje a s pomocí správné terminologie komentuje obsah grafů, tabulek, kartogramů či tematických map zobrazující strukturu obyvatelstva, prostorový (migrační) a přirozený pohyb obyvatel."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "analyzuje a interpretuje základní demografické ukazatele o počtu, struktuře a pohybu obyvatel získané z různých zdrojů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co znamená věková pyramida nebo porodnost, a zkontroluje, co z grafu vyčteš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Statistiky Českého statistického úřadu a Wikipedie dávají grafy a tabulky ke čtení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový editor z čísel nakreslí graf a můžeš porovnat regiony."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír na rozepsání čísel jsou fajn, ale graf ti nepomůžou přečíst."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c94dd931-f568-48e2-9a1c-922f1ce21f67",
+        "http://data.europa.eu/esco/skill/a06907da-7037-45ef-846c-4b684c9b6f91"
+      ],
+      "inspiration": [
+        "Regiony pod lupou demografie"
+      ]
+    },
+    {
+      "slug": "vyvoj-obyvatel-v-miste-bydliste-demograf",
+      "title": "Vývoj obyvatel v místě, kde bydlíš",
+      "aliases": [
+        "kolik lidí bydlí v mém městě",
+        "počet obyvatel obce",
+        "stárnutí obce",
+        "budoucnost mého města"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše vývoj počtu obyvatel a jejich strukturu v místě svého bydliště, identifikuje klíčové faktory, které ovlivnily současný stav, a odhadne (diskutuje) budoucí vývoj."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti vymyslet, co všechno mohlo ovlivnit tvoje město, a zkontroluje tvůj odhad."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Statistiky obce a webové stránky města ukážou počty obyvatel za posledních let."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový editor z čísel o obci nakreslí graf vývoje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obecní kronika nebo papírová mapa ti nic nespočítají, zbyde ti vlastní úsudek."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/27910071-8dcd-40e5-9b58-7db56e9d6d2c",
+        "http://data.europa.eu/esco/skill/c94dd931-f568-48e2-9a1c-922f1ce21f67"
+      ],
+      "inspiration": [
+        "Můj domov včera, dnes a zítra"
+      ]
+    },
+    {
+      "slug": "faktory-rozmisteni-obyvatel-regionu-demograf",
+      "title": "Proč lidé v regionu bydlí tak, jak bydlí",
+      "aliases": [
+        "rozmístění obyvatel",
+        "hustota zalidnění",
+        "proč se lidé stěhují",
+        "stěhování lidí",
+        "příčiny migrace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "pro konkrétní region uvádí faktory, které podmínily rozmístění, strukturu a pohyb obyvatelstva a odhaduje, které faktory je budou ovlivňovat do budoucna"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Má základní povědomí o změnách v populaci přirozenou cestou i prostorovým pohybem obyvatelstva"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak půda, práce nebo doprava ovlivňují stěhování, a zeptá se tě na další příčiny."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a zeměpisné atlasy dávají fakta o regionech a jejich obyvatelích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapy v aplikacích ukážou řeky, hory, silnice a města, které rozmístění vysvětlují."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírový atlas ukáže hustotu zalidnění, ale příčiny z něj nevyčteš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c94dd931-f568-48e2-9a1c-922f1ce21f67",
+        "http://data.europa.eu/esco/skill/b483124c-180c-4d3a-8b7c-72e4e7a5b49b"
+      ],
+      "inspiration": [
+        "Proč migrujeme?",
+        "Klíčové prvky života v různých regionech"
+      ]
+    },
+    {
+      "slug": "diskuse-o-migraci-a-obyvatelstvu-demograf",
+      "title": "Diskuse o migraci a stárnutí obyvatel",
+      "aliases": [
+        "migrace v médiích",
+        "uprchlíci",
+        "stárnutí populace",
+        "debata o migraci",
+        "fakta a názory"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Diskutuje s oporou ve faktech a relevantních datech o aktuálních problémech týkajících se obyvatelstva (migrace, struktura) na různých měřítkových úrovních regionů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti sestavit argumenty a vyzkouší na tobě protiargumenty, mluvit ale musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdroje se čísly o migraci ti dají fakta, o které se můžeš v diskusi opřít."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s daty ukáže čísla pro různé země i kraje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "V diskusi mluvíš s lidmi, žádný klasický nástroj k tomu nemáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b483124c-180c-4d3a-8b7c-72e4e7a5b49b",
+        "http://data.europa.eu/esco/skill/c94dd931-f568-48e2-9a1c-922f1ce21f67"
+      ],
+      "inspiration": [
+        "Migrace v médiích"
+      ]
+    },
+    {
+      "slug": "politika-statu-a-pohyb-obyvatel-demograf",
+      "title": "Jak stát ovlivňuje počet a pohyb obyvatel",
+      "aliases": [
+        "podpora porodnosti",
+        "rozvojová pomoc",
+        "politika státu",
+        "imigrační politika"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyhledá příklady, jak lze strukturu a přirozený i migrační pohyb obyvatelstva ovlivnit prostřednictvím politiky státu, rozvojové pomoci apod."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co je rodičovský příspěvek nebo rozvojová pomoc, a navrhne, co hledat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové stránky ministerstev a Wikipedie dávají konkrétní příklady opatření."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace pro mapy ani data tu žádné opatření nenajdou."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírový atlas ani pravítko příklady politiky neukážou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/97c2e91e-3480-4651-a9e3-1c29ddeaa0cb",
+        "http://data.europa.eu/esco/skill/b483124c-180c-4d3a-8b7c-72e4e7a5b49b"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dopady-pohybu-obyvatel-na-region-demograf",
+      "title": "Dopady struktury obyvatel na region a jejich řešení",
+      "aliases": [
+        "důsledky stárnutí",
+        "vylidňování",
+        "přelidnění",
+        "dopady migrace",
+        "problémy regionu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "uvede pozitivní a negativní dopady struktury a pohybu obyvatelstva konkrétního regionu a příklady řešení negativních dopadů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti vymyslet dopady na školy, práci nebo přírodu a ptá se, co by pomohlo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o vylidňujících se regionech dávají skutečné příklady a řešení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mapami a daty ukáže, kde ubývá nebo přibývá lidí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírový atlas ukáže rozložení lidí, dopady ti nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c94dd931-f568-48e2-9a1c-922f1ce21f67",
+        "http://data.europa.eu/esco/skill/a06907da-7037-45ef-846c-4b684c9b6f91"
+      ],
+      "inspiration": [
+        "Regiony pod lupou demografie"
+      ]
+    }
+  ],
+  "aside": []
+}

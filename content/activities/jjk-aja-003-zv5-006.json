@@ -1,0 +1,230 @@
+[
+  {
+    "slug": "anglicky-vzkaz-prani-psana-zprava",
+    "title": "Vzkaz a přání v angličtině",
+    "aliases": [
+      "vzkaz anglicky",
+      "přání anglicky",
+      "krátká zpráva",
+      "blahopřání",
+      "message"
+    ],
+    "outcome": "JJK-AJA-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Napíše velmi krátký vzkaz nebo přání.",
+        "quote": "Napíše velmi krátký vzkaz nebo přání."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Sestaví jednoduchý vzkaz s využitím známých frází.",
+        "quote": "Sestaví jednoduchý vzkaz s využitím známých frází."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Přáni",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže fráze pro přání a vzkazy a opraví chyby v tvé krátké zprávě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníky a stránky s ukázkami přání ukážou hotové fráze, které si zkopíruješ do svého."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a kontrola pravopisu ti ukážou, jak se slovo píše a kde je chyba."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník ti dá slovíčka, vzkaz pak píšeš ty do sešitu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-pozvanka-psana-zprava",
+    "title": "Pozvánka v angličtině",
+    "aliases": [
+      "pozvánka anglicky",
+      "invitation",
+      "pozvání na oslavu",
+      "party invitation"
+    ],
+    "outcome": "JJK-AJA-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Napíše jednoduchou pozvánku.",
+        "quote": "Napíše jednoduchou pozvánku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pozvánka",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, co do pozvánky patří (kdy, kde, kdo), a opraví tvůj text."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové pozvánky ti ukážou fráze, které můžeš použít."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a kontrola pravopisu odhalí chybně napsaná slova."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti dá slovíčka na čas a místo, větu skládáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-cteni-dopisu-odpoved-zprava",
+    "title": "Porozumění dopisu nebo e-mailu v angličtině",
+    "aliases": [
+      "číst e-mail anglicky",
+      "porozumět dopisu",
+      "odpověď na email",
+      "reading a letter"
+    ],
+    "outcome": "JJK-AJA-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porozumí textu písemné korespondence.",
+        "quote": "Porozumí textu písemné korespondence."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Odpověď na email",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí slova a věty, kterým nerozumíš, a ověří, jestli dopisu rozumíš správně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníky a příklady e-mailů ukážou, co jednotlivá slova znamenají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ukáže význam neznámých slov, čtení dopisu zůstává na tobě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti pomůže najít význam neznámých slov v dopisu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-kratky-dopis-pohlednice-zprava",
+    "title": "Krátký dopis a pohlednice v angličtině",
+    "aliases": [
+      "dopis anglicky",
+      "pohlednice",
+      "postcard",
+      "odpověď na e-mail",
+      "psaní více vět"
+    ],
+    "outcome": "JJK-AJA-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří krátký text, který obsahuje více než jednu větu, například vzkaz nebo jednoduchý dopis s odpovídající strukturou.",
+        "quote": "Vytvoří krátký text, který obsahuje více než jednu větu, například vzkaz nebo jednoduchý dopis s odpovídající strukturou."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Holiday postcard exchange",
+        "url": "https://uloziste.rvp.cz/material/591830"
+      },
+      {
+        "title": "Class blog comments",
+        "url": "https://uloziste.rvp.cz/material/0cd2da"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže stavbu dopisu (oslovení, text, pozdrav) a opraví tvé věty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové dopisy a pohlednice ukážou, jak se začíná a končí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu a překladač ukážou chyby ve tvém textu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník dá slovíčka, věty a stavbu dopisu skládáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

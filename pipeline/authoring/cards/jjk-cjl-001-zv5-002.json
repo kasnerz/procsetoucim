@@ -1,0 +1,295 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "slovni-zasoba-protiklady-slov",
+      "title": "Slova opačného významu",
+      "aliases": [
+        "protiklady",
+        "antonyma",
+        "opak slova",
+        "slova s opačným významem"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vhodně použije slova opačného významu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí ti další dvojice protikladů a zkontroluje ti tvoje věty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš seznamy protikladů a slovníky protikladů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Slovníková aplikace ukáže k slovu jeho opak."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Protiklady do věty vybíráš ty, tužka a sešit s tím nepomůžou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ],
+      "inspiration": [
+        "Protiklady"
+      ]
+    },
+    {
+      "slug": "slovni-zasoba-nadrazena-podrazena-slova",
+      "title": "Slova nadřazená, podřazená a souřadná",
+      "aliases": [
+        "nadřazená slova",
+        "podřazená slova",
+        "souřadná slova",
+        "pojmy a skupiny slov",
+        "jablko ovoce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Použije ve vlastním sdělení slova významem nadřazená, podřazená a souřadná."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl na příkladech a zkontroluje, jestli jsou slova zařazená správně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie ukáže, do jaké skupiny slovo patří."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace slova do skupin za tebe neroztřídí tak, aby slova zůstala v tvé hlavě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír s tříděním slov nepomůžou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ],
+      "inspiration": [
+        "Vyvozujeme slova významem nadřazená, podřazená, souřadná"
+      ]
+    },
+    {
+      "slug": "slovni-zasoba-slova-stejneho-vyznamu",
+      "title": "Slova stejného nebo podobného významu",
+      "aliases": [
+        "synonyma",
+        "slova se stejným významem",
+        "nahrazení slova",
+        "podobná slova"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Nahradí slova v daném kontextu slovy se stejným nebo podobným významem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne víc náhrad a vysvětlí, která do věty sedí a která ne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník synonym ukáže možná slova na výběr."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se synonymy nabídne slova, ty vybereš to, které do věty sedí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník v tištěné podobě dá slova na výběr, vybíráš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "slovni-zasoba-stavba-slova-pribuzna-slova",
+      "title": "Kořen, předpona, přípona, koncovka a příbuzná slova",
+      "aliases": [
+        "kořen slova",
+        "předpona",
+        "přípona",
+        "koncovka",
+        "příbuzná slova",
+        "stavba slova"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozlišuje ve slově kořen, část předponovou, příponovou a koncovku."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozumí pojmu příbuzné slovo."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere slovo na části a vymyslí další slova se stejným kořenem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Jazyková příručka a školní stránky ukážou rozbor slov na příkladech."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace slovo rozebere za tebe, rozebírat slova se tím nenaučíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a sešit s rozborem slova nepomůžou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "slovni-zasoba-vyber-vhodneho-slova",
+      "title": "Vhodné a významově správné slovo ve větě",
+      "aliases": [
+        "správné slovo",
+        "výběr slova",
+        "přesné vyjádření",
+        "slovní zásoba",
+        "bohatá slovní zásoba"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Používá vhodná a významově správná slova v daném kontextu."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Využívá svoji slovní zásobu při práci s textem a domluví se v běžných situacích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Řekne ti, jestli slovo do věty sedí, a navrhne přesnější."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Jazyková příručka vysvětlí rozdíl mezi podobnými slovy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola textu v aplikaci označí slova, která do věty nesedí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovo do věty vybíráš ty, tužka s tím nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/ee21af25-7dff-47eb-9863-b5b944105a06"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "slovni-zasoba-odhad-vyznamu-a-slovnik",
+      "title": "Odhad významu slova a ověření ve slovníku",
+      "aliases": [
+        "neznámé slovo",
+        "význam slova",
+        "slovník cizích slov",
+        "hledání ve slovníku"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Odhaduje význam slov, svoji odpověď ověří ve slovníku."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí neznámé slovo a řekne ti, jestli tvůj odhad sedí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Online slovníky ti význam slova rychle potvrdí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Slovníková aplikace ti k slovu hned ukáže význam."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tištěný slovník ti odpověď ověří a naučí tě hledat podle abecedy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c",
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Přečte přiměřeně dlouhý text a rozumí mu.",
+      "code": "O1",
+      "refs": [
+        "cteni-textu"
+      ]
+    }
+  ]
+}

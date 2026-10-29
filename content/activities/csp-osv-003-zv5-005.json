@@ -1,0 +1,313 @@
+[
+  {
+    "slug": "osv-domaci-prace-a-tvuj-podil",
+    "title": "Práce v domácnosti a tvůj podíl",
+    "aliases": [
+      "domácí práce",
+      "úklid doma",
+      "pomáhám doma",
+      "povinnosti doma",
+      "kdo co dělá doma"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozliší vybrané druhy pracovních činností spojených s chodem domácnosti, popíše své zapojení do nich a sdílí své zkušenosti a prožitky.",
+        "quote": "Rozliší vybrané druhy pracovních činností spojených s chodem domácnosti, popíše své zapojení do nich a sdílí své zkušenosti a prožitky."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpozná na příkladech význam pracovních činností ve svém domácím prostředí.",
+        "quote": "Rozpozná na příkladech význam pracovních činností ve svém domácím prostředí."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Získává a sdílí zkušenosti s různými druhy pracovních činností spojených s chodem domácnosti.",
+        "quote": "Získává a sdílí zkušenosti s různými druhy pracovních činností spojených s chodem domácnosti."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkouší popsat své zapojení do různých druhů pracovních činností v domácnosti, a podíl členů domácnosti na činnostech.",
+        "quote": "Zkouší popsat své zapojení do různých druhů pracovních činností v domácnosti, a podíl členů domácnosti na činnostech."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Doma uklízíš a vaříš ty, chatbot s tím nic neudělá."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co kdo dělá u vás doma, na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s úkoly za tebe neumyje nádobí ani neuvaří."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Smeták, hadr a vařečka ti práci v domácnosti usnadní."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4f1b6304-f54a-42f0-9604-5427a28d240f",
+      "http://data.europa.eu/esco/skill/04838ae5-a737-48a0-a782-3d1b6b6cb75b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv-povolani-kolem-nas",
+    "title": "Povolání kolem nás a co dělají",
+    "aliases": [
+      "profese",
+      "povolání v okolí",
+      "čím je kdo",
+      "práce dospělých",
+      "povolání v rodině"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pojmenuje povolání, která se vyskytují v jeho rodině a blízkém okolí, popíše jejich náplň a význam a na příkladu představí, jaký vztah k povolání má vybraná blízká osoba.",
+        "quote": "Pojmenuje povolání, která se vyskytují v jeho rodině a blízkém okolí, popíše jejich náplň a význam"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná běžná povolání ve svém blízkém okolí a podílí se na pracovních činnostech v rámci prostředí školy.",
+        "quote": "Rozpozná běžná povolání ve svém blízkém okolí"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Všímá si různých profesí, se kterými se setkává ve svém okolí a diskutuje o tom, co ho zaujalo.",
+        "quote": "Všímá si různých profesí, se kterými se setkává ve svém okolí a diskutuje o tom, co ho zaujalo."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Profese v rozhovoru",
+        "url": "https://uloziste.rvp.cz/material/7748ff"
+      },
+      {
+        "title": "S obrázkem do světa povolání",
+        "url": "https://uloziste.rvp.cz/material/ae5b4c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co dělá třeba zedník nebo lékárnice, a zodpoví doplňující otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popisy povolání a jejich náplně si přečteš na stránkách o povoláních."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti povolání z tvého okolí nepojmenuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Lidi kolem sebe si všímáš ty, nástroj ti je neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv-rozhovor-o-povolani",
+    "title": "Rozhovor s blízkými o jejich povolání",
+    "aliases": [
+      "ptám se rodičů na práci",
+      "rozhovor s rodinou",
+      "povolání rodičů",
+      "zkušenosti z práce",
+      "rodokmen povolání"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pojmenuje povolání, která se vyskytují v jeho rodině a blízkém okolí, popíše jejich náplň a význam a na příkladu představí, jaký vztah k povolání má vybraná blízká osoba.",
+        "quote": "na příkladu představí, jaký vztah k povolání má vybraná blízká osoba"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zjišťuje od členů rodiny a blízkých jaké je jejich povoláních a jaké zkušenosti mají s povoláním, a diskutuje o nich.",
+        "quote": "Zjišťuje od členů rodiny a blízkých jaké je jejich povoláních a jaké zkušenosti mají s povoláním, a diskutuje o nich."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Naslouchá zkušenostem lidí z různých profesí a diskutuje, co se mu na nich líbí.",
+        "quote": "Naslouchá zkušenostem lidí z různých profesí a diskutuje, co se mu na nich líbí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Profese v rozhovoru",
+        "url": "https://uloziste.rvp.cz/material/7748ff"
+      },
+      {
+        "title": "Rodokmen povolání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet otázky, které se můžeš svých blízkých zeptat."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Zkušenosti tvých blízkých na internetu nejsou, zeptat se musíš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rozhovor vedeš ty, aplikace za tebe nikoho nevyslechne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka poslouží jen k zapsání odpovědí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/896563fc-6255-4419-89c2-ffed30159ad6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv-co-se-mi-libi-na-povolani",
+    "title": "Co se mi na povolání líbí a k čemu je dobré",
+    "aliases": [
+      "výhody a nevýhody povolání",
+      "oblíbené povolání",
+      "čím chci být",
+      "přínos povolání",
+      "k čemu je povolání"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "U vybraných povoláních popíše, co se mu na nich líbí, výhody/nevýhody, navrhne příklad jejich přínosu pro okolí (lidé, příroda apod.).",
+        "quote": "U vybraných povoláních popíše, co se mu na nich líbí, výhody/nevýhody, navrhne příklad jejich přínosu pro okolí (lidé, příroda apod.)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Tohle zvládnu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti sepsat výhody a nevýhody povolání a nabídne příklady přínosu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis práce, takže víš, co se ti na ní může líbit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Co se ti líbí, rozhodneš jen ty, aplikace to nepozná."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Názor si děláš ty, nástroj ho za tebe nemá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv-hra-na-povolani",
+    "title": "Hra na různá povolání",
+    "aliases": [
+      "hrajeme na povolání",
+      "hra na obchod",
+      "hra na lékaře",
+      "zkouším si práci",
+      "role ve hře"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Získává formou hry zkušenosti s činnostmi spojenými s různými povoláními.",
+        "quote": "Získává formou hry zkušenosti s činnostmi spojenými s různými povoláními."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne nápady na hru a role, třeba kuchař nebo pošťačka."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hrát hru je třeba s kamarády, internet ji za tebe nezahraje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace se dívá z obrazovky, hrát musíš ty a s ostatními."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kasa, kostýmy a pomůcky z povolání hru oživí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

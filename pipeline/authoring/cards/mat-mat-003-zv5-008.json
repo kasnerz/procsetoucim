@@ -1,0 +1,80 @@
+{
+  "outcome": "MAT-MAT-003-ZV5-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "modelovani-rovnobezek-kolmic-prostredi",
+      "title": "Rovnoběžky a kolmice v počítačovém prostředí",
+      "aliases": ["rovnoběžky na počítači", "kolmice v aplikaci", "různoběžky", "geometrický program", "manipulační prostředí"],
+      "sources": [
+        {"level": "Na začátku", "quote": "V manipulačních prostředích vyznačí základní geometrické útvary."},
+        {"level": "Na cestě", "quote": "V manipulačních prostředích vymodeluje rovnoběžné, různoběžné a kolmé úsečky."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Úsečky v prostředí posouváš myší ty, chatbot je za tebe nevyznačí."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš obrázky a vysvětlení, jak vypadají rovnoběžky, různoběžky a kolmice."},
+        "aplikace": {"verdict": "pomuze", "why": "Geometrický program nechá úsečky přesouvat a hned vidíš, kdy jsou rovnoběžné nebo kolmé."},
+        "klasicky": {"verdict": "pomuze", "why": "Dvě tužky nebo špejle na stole ukážou rovnoběžné, různoběžné i kolmé polohy."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"],
+      "inspiration": ["Manipulativní činnosti"]
+    },
+    {
+      "slug": "rysovani-usecek-kolmic-kruznic",
+      "title": "Rýsování úseček, rovnoběžek, kolmic a kružnic",
+      "aliases": ["rýsování", "narýsuj úsečku", "kolmice trojúhelníkem", "kružítko", "čtvercová síť"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Provádí základní geometrické konstrukce."},
+        {"level": "Na cestě", "quote": "Narýsuje úsečku dané délky, rovnoběžné a kolmé úsečky/přímky, kružnice a označí je (ve čtvercové síti a na čistém papíře)."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Rýsuješ tužkou a pravítkem na papír, chatbot ti čáru nenarýsuje."},
+        "internet": {"verdict": "pomuze", "why": "Videa a obrázky ukážou, jak přiložit trojúhelník s ryskou nebo zapíchnout kružítko."},
+        "aplikace": {"verdict": "nepomuze", "why": "Rýsování na papíře se v aplikaci nenaučíš, tužku a kružítko musíš držet v ruce ty."},
+        "klasicky": {"verdict": "pomuze", "why": "Pravítko, trojúhelník s ryskou a kružítko jsou nástroje, kterými rýsuješ."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2", "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"],
+      "inspiration": ["Rýsuj podle zadání", "Tečkovaná"]
+    },
+    {
+      "slug": "rysovani-utvaru-podle-predlohy",
+      "title": "Rýsování útvarů podle předlohy",
+      "aliases": ["překresli útvar", "rýsování podle zadání", "obrazec z čar", "mozaika", "narýsuj podle obrázku"],
+      "sources": [
+        {"level": "Splněno", "quote": "Zkonstruuje rýsováním útvary podle předlohy nebo jednoduchých zadání."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Útvar rýsuješ ty na papír, chatbot ti ho narýsovat nemůže."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš předlohy a návody k obrazcům, které si pak narýsuješ."},
+        "aplikace": {"verdict": "pomuze", "why": "Geometrický program ti ukáže, jak má hotový útvar vypadat, a porovnáš ho se svým."},
+        "klasicky": {"verdict": "pomuze", "why": "Pravítko, trojúhelník a kružítko jsou nástroje, kterými útvar narýsuješ."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2", "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"],
+      "inspiration": ["Rýsuj podle zadání", "Mozaika"]
+    },
+    {
+      "slug": "popis-postupu-rysovani",
+      "title": "Popis postupu rýsování",
+      "aliases": ["jak se rýsuje", "postup konstrukce", "slovní popis rýsování", "krok za krokem"],
+      "sources": [
+        {"level": "Splněno", "quote": "Popíše postup konstrukce jednoduchého útvaru s využitím rýsování úseček, rovnoběžek, kolmic nebo kružnic."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Přečte tvůj popis a řekne, který krok chybí nebo je v nesprávném pořadí."},
+        "internet": {"verdict": "pomuze", "why": "Ukáže vzorové postupy konstrukcí, podle kterých si zkontroluješ pořadí kroků."},
+        "aplikace": {"verdict": "pomuze", "why": "Geometrický program zaznamená kroky konstrukce a můžeš je porovnat se svým popisem."},
+        "klasicky": {"verdict": "pomuze", "why": "Při rýsování podle svého popisu s pravítkem a kružítkem hned poznáš, kde postup nesedí."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2"],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

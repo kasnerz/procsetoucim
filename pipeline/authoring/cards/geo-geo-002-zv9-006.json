@@ -1,0 +1,248 @@
+{
+  "outcome": "GEO-GEO-002-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "geo-pohyb-litosfernich-desek",
+      "title": "Pohyb litosférických desek a jeho důsledky",
+      "aliases": [
+        "litosférické desky",
+        "tektonika",
+        "posun kontinentů",
+        "vznik pohoří",
+        "proč jsou hory"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vysvětlí principy pohybu litosférických desek a jeho důsledky z hlediska vzniku hornin, vzniku a zániku zemské kůry, rozložení hlavních rysů reliéfu Země (globální tektonika)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí desky jinými slovy, zkouší tě a vymyslí k tomu příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a atlas ukážou hranice desek a polohu pohoří."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace a mapy desek ukazují posun, který očima nevidíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Globus a model ze dvou desek z papíru ukážou, jak se srážejí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+        "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+      ],
+      "inspiration": [
+        "Vnitřní a vnější činitelé"
+      ]
+    },
+    {
+      "slug": "geo-vnejsi-cinitele-v-okoli-obce",
+      "title": "Zvětrávání, odnos a ukládání materiálu v okolí obce",
+      "aliases": [
+        "zvětrávání",
+        "eroze",
+        "odnos půdy",
+        "řeka mění krajinu",
+        "jak vzniká údolí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí působení vnějších geomorfologických činitelů a uvede příklady takového působení ve své obci a jejím okolí (zvětrávání, odnos, přemisťování a ukládání materiálu)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak voda, led a vítr rozpadají a odnášejí horniny."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapy a fotky ukážou strže, říční náplavy a skály kolem tvé obce."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti neukáže, co se děje na svahu za tvým domem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa, lopatka a lahev s vodou ti ukážou, jak voda odnáší hlínu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+        "http://data.europa.eu/esco/skill/89a94a26-29d4-4cd7-9e9d-faebc300c1b1"
+      ],
+      "inspiration": [
+        "Kdo to vytvořil?"
+      ]
+    },
+    {
+      "slug": "geo-relief-vnitrni-a-vnejsi-cinitele",
+      "title": "Reliéf jako výsledek vnitřních a vnějších činitelů",
+      "aliases": [
+        "jak vznikl reliéf",
+        "vnitřní a vnější činitelé",
+        "čtení reliéfu",
+        "jak vznikly hory",
+        "tvary povrchu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "interpretuje reliéf jako důsledek kombinace působení vnitřních a vnějších geomorfologických činitelů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "V konkrétních místech interpretuje reliéf jako důsledek kombinace působení vnitřních a vnějších geomorfologických činitelů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, co vytvořilo konkrétní kopec a co ho opotřebovalo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Geologické mapy a popisy míst ti dají fakta k úvaze."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapové aplikace s terénem a satelitem ukážou tvary reliéfu zblízka."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas a vrstevnicová mapa ukážou, kde je kopec nebo údolí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+        "http://data.europa.eu/esco/skill/032b0bed-22b1-456b-8009-91e6b838fe45"
+      ],
+      "inspiration": [
+        "Geomorfologický detektiv: Reliéf na fotografiích"
+      ]
+    },
+    {
+      "slug": "geo-rizikove-geomorfologicke-procesy",
+      "title": "Zemětřesení, sopky, sesuvy a tsunami: kde a proč",
+      "aliases": [
+        "zemětřesení",
+        "sopečná erupce",
+        "sesuv půdy",
+        "tsunami",
+        "přírodní katastrofy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyjmenuje rizikové geomorfologické procesy, zdůvodní zákonitosti jejich výskytu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč sopky a zemětřesení leží u hranic desek."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapy zemětřesení a sopek ukážou, kde se opakují."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mapou zemětřesení v reálném čase ukáže, kde se země třásla."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj ti nepomůže zjistit, proč se sopka probouzí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "geo-jednani-pri-ohrozeni-prirodnim-rizikem",
+      "title": "Jak se zachovat při ohrožení přírodním rizikem",
+      "aliases": [
+        "co dělat při zemětřesení",
+        "evakuace",
+        "bezpečné chování",
+        "ochrana před sesuvem",
+        "tsunami varování"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "v případě ohrožení jedná tak, aby minimalizoval s nimi spojená rizika"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou správný postup a zeptá se tě na něj jako při zkoušce."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pokyny hasičů a civilní ochrany najdeš na jednom místě."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s výstrahami ti pošle varování ze tvého okolí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Při ohrožení jednáš ty, nástroj za tebe neuteče ani nezavolá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Popíše na příkladech působení přírodních vlivů",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

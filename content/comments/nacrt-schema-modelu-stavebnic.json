@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Náčrt dostane nápad z hlavy na papír tak, aby mu rozuměl i někdo jiný a aby se podle něj dalo stavět. Stačí na něj tužka a pravítko, a přesto na něm poznáš, jestli ti něco nechybí, ještě než sáhneš po dílech. Výkresy kreslí ti, kdo projektují stavby nebo zařizují interiéry, a podle cizího výkresu zase řeže dřevo ten, kdo vyrábí nábytek, takže výkresu musí rozumět i ten, kdo sám kreslí málo. Kreslicí aplikace ti udělá rovné čáry a kóty, ale co na výkres patří a jak model vypadá, musíš vědět ty. Takových míst v technice spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Kontrolní seznam pro náčrt",
+      "text": "Poproste s rodičem chatbota, ať vám řekne, co má mít dobrý náčrt modelu, třeba rozměry nebo popisky dílů. Podle toho pak zkontroluj svůj náčrt."
+    },
+    {
+      "title": "Kresba podle slovního popisu",
+      "text": "Nechte chatbota popsat slovy jednoduchý model, třeba houpačku z kostek, a nakresli ho na čtverečkovaný papír. S rodičem porovnejte, jestli kresba odpovídá popisu."
+    },
+    {
+      "title": "Otázky k tvému výkresu",
+      "text": "S rodičem popište chatbotovi tvůj náčrt jen slovy a požádejte ho, ať se zeptá na všechno, co z popisu nepozná. Co chybělo, do náčrtu dokresli."
+    }
+  ]
+}

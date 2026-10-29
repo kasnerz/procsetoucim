@@ -1,0 +1,392 @@
+[
+  {
+    "slug": "ovzdusi-zdroje-latky",
+    "title": "Zdroje znečištění ovzduší a jejich látky",
+    "aliases": [
+      "znečištění ovzduší",
+      "co znečišťuje vzduch",
+      "smog zdroje",
+      "výfukové plyny",
+      "komíny"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvede hlavní zdroje znečištění ovzduší včetně konkrétních produkovaných znečišťujících látek.",
+        "quote": "Uvede hlavní zdroje znečištění ovzduší včetně konkrétních produkovaných znečišťujících látek."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [
+      {
+        "title": "Znečišťování ovzduší",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co vzniká v dopravě, topení a průmyslu, a vyzkouší tě z látek."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky ČHMÚ ukážou zdroje i látky, které z nich vycházejí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s mapou ukáže hodnoty, ale zdroje a látky se z ní nenaučíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Teploměr ani pravítko ti o zdrojích znečištění nic neřeknou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/75f312e1-622b-4751-8d93-815b32feaf8d",
+      "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ovzdusi-portal-chmu-data",
+    "title": "Data o kvalitě ovzduší na portálu ČHMÚ",
+    "aliases": [
+      "ČHMÚ",
+      "imisní monitoring",
+      "AIM",
+      "kvalita ovzduší v mém městě",
+      "prachové částice"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Orientuje se v možnostech poskytovaných dat na portálu ČHMÚ z hlediska ochrany ovzduší a jejich hodnocení v rámci celé ČR a daném regionu.",
+        "quote": "Orientuje se v možnostech poskytovaných dat na portálu ČHMÚ z hlediska ochrany ovzduší a jejich hodnocení v rámci celé ČR a daném regionu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhledá informace o vybraných polutantech ve vybraném regionu (oxidy síry, oxidy dusíku a prachové částice) na portálu ČHMÚ v aplikaci automatizovaného imisního monitoringu (AIM).",
+        "quote": "Vyhledá informace o vybraných polutantech ve vybraném regionu (oxidy síry, oxidy dusíku a prachové částice) na portálu ČHMÚ v aplikaci automatizovaného imisního monitoringu (AIM)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kvalita vzduchu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co znamenají jednotky a limity, a poradí, jak čtení tabulky pochopit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Portál ČHMÚ nabízí data o ovzduší v celé zemi i ve tvém kraji."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s mapou imisí ukáže hodnoty oxidů a prachu na měřicích stanicích."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírová mapa ani pravítko data o ovzduší neukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9f763ac3-1d6c-48d2-ab54-324b1b144f40",
+      "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ovzdusi-schema-cesta-opatreni",
+    "title": "Schéma cesty znečištění ovzduší a opatření",
+    "aliases": [
+      "nakreslit schéma",
+      "příčiny a následky znečištění",
+      "jak omezit znečištění",
+      "lidská činnost a ovzduší"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Nakreslí schéma ukazující vliv lidských aktivit na složení ovzduší a navrhne opatření pro snížení znečištění.",
+        "quote": "Nakreslí schéma ukazující vliv lidských aktivit na složení ovzduší a navrhne opatření pro snížení znečištění."
+      },
+      {
+        "level": "Splněno",
+        "point": "Navrhne možnosti omezení lidské činnosti způsobující produkci polutantů a popíše procesy, kterými se znečišťující látky dostávají do ovzduší.",
+        "quote": "Navrhne možnosti omezení lidské činnosti způsobující produkci polutantů a popíše procesy, kterými se znečišťující látky dostávají do ovzduší."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Cesta znečištění – od příčiny k řešení",
+        "url": ""
+      },
+      {
+        "title": "Lidské stopy v ovzduší – jak změnit budoucnost?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí cestu látky od komína do vzduchu a navrhne, co jde omezit, kreslíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotová schémata a články o opatřeních ti ukážou, jak může vypadat dobrý výkres."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace umožní schéma upravovat a přesouvat šipky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka stačí na schéma, v němž spojíš příčiny, látky a opatření."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/75f312e1-622b-4751-8d93-815b32feaf8d",
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ovzdusi-skleniky-efekt-schema",
+    "title": "Skleníkový efekt na jednoduchém schématu",
+    "aliases": [
+      "skleníkový efekt",
+      "oxid uhličitý",
+      "globální oteplování",
+      "skleníkové plyny"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím jednoduchého schématu simuluje a diskutuje o podstatě a důsledcích skleníkového efektu.",
+        "quote": "S využitím jednoduchého schématu simuluje a diskutuje o podstatě a důsledcích skleníkového efektu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Skleníkový efekt – vše do sebe zapadá?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak plyny drží teplo u Země, a vede s tebou rozhovor o důsledcích."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Animace a výklady ukážou, jak sluneční záření prochází atmosférou a vrací se."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace skleníkového efektu v aplikaci ukáže, co se stane s teplotou při víc plynů."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhovor ve třídě vedeš ty se spolužáky, teploměr skleníkový efekt nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/c8b4b02c-d9ce-4e24-ab43-5dd52c6dff48"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ovzdusi-skleniky-opatreni-doma",
+    "title": "Zmírnění skleníkového efektu doma a ve škole",
+    "aliases": [
+      "úspora energie",
+      "jak pomoct klimatu",
+      "CO2 doma",
+      "opatření ve škole"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě vědeckých zjištění navrhuje konkrétní možnosti zmírnění dopadů skleníkového efektu v místě svého bydliště, ve své škole, ve své rodině.",
+        "quote": "Na základě vědeckých zjištění navrhuje konkrétní možnosti zmírnění dopadů skleníkového efektu v místě svého bydliště, ve své škole, ve své rodině."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Lidské stopy v ovzduší – jak změnit budoucnost?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet nápady pro tvůj dům a školu a zeptá se, co si u vás můžete změnit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a zprávy o klimatu dávají ověřená čísla, o která se nápady opřou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace spočítá stopu, ale co změnit u vás, vymýšlíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Teploměr změří teplo v bytě, nápady na úspory z něj nevyčteš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8b4b02c-d9ce-4e24-ab43-5dd52c6dff48",
+      "http://data.europa.eu/esco/skill/8f585def-6ade-41b3-b897-3d71fba4151d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ovzdusi-ozonova-vrstva",
+    "title": "Ozonová vrstva, její zeslabování a obnova",
+    "aliases": [
+      "ozonová díra",
+      "freony",
+      "ozón",
+      "UV záření"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Objasní změny v tloušťce ozonové vrstvy a zhodnotí dopady na život na Zemi v případě jejího zeslabování i obnovy.",
+        "quote": "Objasní změny v tloušťce ozonové vrstvy a zhodnotí dopady na život na Zemi v případě jejího zeslabování i obnovy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč ozon ubývá a roste, a ptá se tě na dopady na lidi a přírodu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky o ozonové vrstvě ukážou vývoj tloušťky vrstvy."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s UV indexem ukáže dnešní záření, o ozonové vrstvě se z ní nedozvíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj ozonovou vrstvu neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ovzdusi-smog-oxidacni-redukcni",
+    "title": "Oxidační a redukční smog",
+    "aliases": [
+      "smog",
+      "letní smog",
+      "zimní smog",
+      "kyselý déšť"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí rozdíl a objasní příčiny vzniku oxidačního a redukčního typu smogu, uvede konkrétní kroky, kterými by bylo možné předcházet jejich vzniku.",
+        "quote": "Vysvětlí rozdíl a objasní příčiny vzniku oxidačního a redukčního typu smogu, uvede konkrétní kroky, kterými by bylo možné předcházet jejich vzniku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí oba typy smogu, srovná je a vymyslí cvičné otázky, jak mu předejít."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky ČHMÚ popisují, kdy a z čeho smog vzniká."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ukáže smogovou situaci dnes, rozdíl mezi typy smogu z ní nepochopíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Smog nezměříš pravítkem ani teploměrem a rozdíl typů z nich nepoznáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/75f312e1-622b-4751-8d93-815b32feaf8d",
+      "http://data.europa.eu/esco/skill/9f763ac3-1d6c-48d2-ab54-324b1b144f40"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Krajina kolem tebe je z velké části předělaná lidmi: pole vznikla na místě lesů, řeky dostaly rovná koryta a z lomů zbyly jámy. Když umíš na starých mapách a leteckých snímcích najít, co se změnilo a proč, rozumíš, odkud se berou povodně nebo úbytek hmyzu, o kterých slyšíš ve zprávách. Pracují s tím lidé, kteří chrání přírodu na úřadech a v lesích, a ti, kdo vedou doly a lomy a po těžbě musí krajinu vrátit do použitelného stavu. Starou mapu ti najde internet, ale rozdíl mezi ní a tím, co vidíš z okna, musíš přečíst ty.",
+  "learnWithAi": [
+    {
+      "title": "Obec na starém snímku",
+      "text": "Najdi v mapové aplikaci historický snímek svého okolí a zapiš, co se změnilo. Chatbota požádej o otázky k hledání příčin, odpovědi ale dohledej v kronice nebo na webu obce."
+    },
+    {
+      "title": "Následky narovnaného potoka",
+      "text": "Vyber jeden zásah, třeba narovnání potoka, a nech chatbota vypsat jeho možné důsledky pro rostliny a živočichy. U každého napiš, jestli ho můžeš na místě opravdu pozorovat."
+    },
+    {
+      "title": "Hádanka o krajině",
+      "text": "Nech chatbota popsat krajinu bez názvu, třeba s rovnou řekou a obřími poli, a hádej, co v ní lidé změnili a proč. Ať ti řekne, co v tvém odhadu chybí."
+    }
+  ]
+}

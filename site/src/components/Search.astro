@@ -1,0 +1,100 @@
+---
+import Icon from "./Icon.astro";
+// Defaults search the cards and RVP goals; the occupation page passes its own index, page, texts and limit.
+interface Props { autofocus?: boolean; big?: boolean; index?: string; page?: string; label?: string; placeholder?: string; empty?: string; limit?: number }
+const {
+  autofocus = false, big = false, index = "hledat-index.json", page = "hledat/", label = "Hledat, co se učíš",
+  placeholder = "Co se učíš? Třeba násobilka", empty = "Zkus jiné slovo nebo projdi předměty.", limit = 12,
+} = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<div class:list={["search", big && "big"]} data-base={base} data-index={index} data-empty={empty} data-limit={limit}>
+  <form role="search" action={`${base}${page}`} method="get" class="sform">
+    <label for="sq" class="visually-hidden">{label}</label>
+    <span class="sicon" aria-hidden="true"><Icon name="search" size="24" /></span>
+    <input id="sq" name="q" type="search" placeholder={placeholder} autocomplete="off" autofocus={autofocus} />
+    <button type="submit">Hledat</button>
+  </form>
+  <p class="status small soft" aria-live="polite"></p>
+  <ul class="paper lined rows results" hidden></ul>
+</div>
+
+<script>
+  import MiniSearch from "minisearch";
+
+  const fold = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+  type Doc = { id: string; type: string; title: string; aliases: string; context: string; meta: string; href: string };
+
+  for (const root of document.querySelectorAll<HTMLElement>(".search")) {
+    const base = root.dataset.base || "/";
+    const input = root.querySelector<HTMLInputElement>("input")!;
+    const list = root.querySelector<HTMLUListElement>(".results")!;
+    const status = root.querySelector<HTMLElement>(".status")!;
+    let ms: MiniSearch<Doc> | null = null;
+
+    async function ensure() {
+      if (ms) return ms;
+      const docs: Doc[] = await (await fetch(`${base}${root.dataset.index || "hledat-index.json"}`)).json();
+      ms = new MiniSearch<Doc>({
+        fields: ["title", "aliases", "context"],
+        storeFields: ["type", "title", "meta", "href"],
+        processTerm: (t) => fold(t),
+        searchOptions: { prefix: true, fuzzy: 0.2, boost: { title: 3, aliases: 2 }, combineWith: "AND" },
+      });
+      ms.addAll(docs);
+      return ms;
+    }
+
+
+    async function run(q: string) {
+      if (q.trim().length < 2) { list.hidden = true; status.textContent = ""; return; }
+      const idx = await ensure();
+      let res = idx.search(q);
+      if (res.length === 0) res = idx.search(q, { combineWith: "OR" });
+      // Activities before RVP goals at similar relevance.
+      res.sort((a, b) => (b.score * (b.type === "a" ? 1.6 : 1)) - (a.score * (a.type === "a" ? 1.6 : 1)));
+      res = res.slice(0, Number(root.dataset.limit) || 12);
+      list.replaceChildren();
+      for (const r of res) {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = base + r.href;
+        const name = document.createElement("span"); name.className = "rname"; name.textContent = r.title;
+        const meta = document.createElement("span"); meta.className = "meta"; meta.textContent = r.meta;
+        a.append(name, meta);
+        li.append(a); list.append(li);
+      }
+      list.hidden = res.length === 0;
+      status.textContent = res.length === 0 ? `Pro „${q}“ jsme nic nenašli. ${root.dataset.empty}` : "";
+    }
+
+    let t: number | undefined;
+    input.addEventListener("input", () => { clearTimeout(t); t = window.setTimeout(() => run(input.value), 120); });
+    const q0 = new URLSearchParams(location.search).get("q");
+    if (q0 && root.closest("[data-search-page]")) { input.value = q0; run(q0); }
+  }
+</script>
+
+<style>
+  .search { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s3); width: 100%; }
+  /* A sheet with a doubled pencil outline. */
+  .sform {
+    position: relative; display: flex; align-items: center;
+    background: var(--box-line) 0 0 / 100% 100% no-repeat, var(--box-line) 3px 2px / calc(100% - 5px) calc(100% - 3px) no-repeat, #fff;
+    box-shadow: 2px 3px 0 var(--shadow);
+  }
+  .sform:focus-within { outline: 3px solid var(--blue); outline-offset: 4px; }
+  .sicon { position: absolute; left: 16px; color: var(--ink-soft); display: flex; }
+  .sform input { flex: 1; min-width: 0; padding: 13px 14px 13px 48px; border: 0; background: transparent; font-size: 1.0625rem; outline: none; }
+  .sform input::placeholder { color: var(--ink-soft); }
+  .sform button {
+    /* Inside both pencil outlines, ragged edge included. */
+    flex: none; margin: 8px 9px 8px 4px; border: 0; background: var(--blue); color: #fff; padding: 9px 20px; cursor: pointer; font-weight: 600;
+    clip-path: polygon(2px 3px, 30% 0, 70% 2px, 100% 0, calc(100% - 2px) 50%, 100% 100%, 60% calc(100% - 2px), 25% 100%, 0 calc(100% - 3px), 1px 45%);
+  }
+  .sform button:hover { background: var(--blue-dark); }
+  .big .sform input { font-size: 1.1875rem; padding-block: 17px; }
+  .big .sform button { padding: 12px 24px; }
+  .status { text-align: center; }
+  .results { padding-top: var(--s3); }
+</style>

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Víceciferná čísla v dospělosti skoro nikdo nenásobí ručně, na to je kalkulačka nebo tabulka v počítači. Ve škole se postup učíš proto, že spojuje malou násobilku s pozicemi číslic: když násobíš 23 krát 14, ve skutečnosti počítáš 23 krát 4 a 23 krát 10. Kdo tomu rozumí, odhadne, že výsledek musí být kolem tří set, a pozná překlep v kalkulačce. Lidé na stavbě nebo ti, kdo pokládají potrubí, počítají plochy a délky s kalkulačkou, a přesto jim pochopení násobení pomáhá poznat, jestli výsledek může sedět.",
+  "learnWithAi": [
+    {
+      "title": "Násobení dvojciferným číslem",
+      "text": "Poproste s rodičem chatbota o tři příklady na násobení dvojciferným číslem. Spočítej je na papír a nechte si zkontrolovat jen výsledky."
+    },
+    {
+      "title": "Posunutý druhý řádek",
+      "text": "Zkuste chatbota poprosit, ať vysvětlí, proč se při násobení druhý řádek posouvá o místo doleva. Potom to vysvětli rodiči vlastními slovy."
+    },
+    {
+      "title": "Hledání chyby ve výpočtu",
+      "text": "Vyfoťte svůj výpočet a nechte chatbota hledat krok, kde vznikla chyba, ale opravu udělej ty. Výsledek nakonec ověřte kalkulačkou, v dlouhém výpočtu se chatbot může splést."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Najít v jízdním řádu čas odjezdu nebo v receptu množství mouky je pořád totéž: hledáš jednu konkrétní informaci a zbytek textu přeskakuješ. Kdo to umí, nemusí číst celý text od začátku a ušetří spoustu času. Vyhledávač a funkce hledání v prohlížeči najdou slovo, ale jestli je to opravdu ta informace, kterou potřebuješ, poznáš ty. V nemocnici se takhle hledá v záznamech pacienta předchozí nemoc nebo dávka léku.",
+  "learnWithAi": [
+    {
+      "title": "Text o vymyšleném výletu",
+      "text": "Poproste chatbota o krátký text o vymyšleném výletu se spoustou údajů a o tři otázky k němu. Hledejte odpovědi spolu a ukazujte prstem, kde v textu stojí."
+    },
+    {
+      "title": "Hledání v učebnici na čas",
+      "text": "Vložte do chatbota stránku z učebnice a nechte ho zadávat, co máš v textu najít. Rodič měří čas a chatbot pak řekne, jestli sedí věta, na kterou ukážeš."
+    },
+    {
+      "title": "Obrácené role při hledání",
+      "text": "Zkuste s rodičem obrátit role: ty vybereš informaci z textu a zeptáš se na ni chatbota. Zkontrolujte v textu, jestli ji našel správně a nic si nepřidal."
+    }
+  ]
+}

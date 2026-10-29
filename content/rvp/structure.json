@@ -1,0 +1,1380 @@
+{
+ "areas": [
+  {
+   "code": "JJK",
+   "name": "Jazyk a jazyková komunikace",
+   "subjects": [
+    {
+     "code": "CJL",
+     "name": "Český jazyk a literatura",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Český jazyk a literatura",
+       "outcomes": [
+        "JJK-CJL-001-ZV5-005",
+        "JJK-CJL-001-ZV5-008",
+        "JJK-CJL-001-ZV5-009",
+        "JJK-CJL-001-ZV5-002",
+        "JJK-CJL-001-ZV5-001",
+        "JJK-CJL-001-ZV5-004",
+        "JJK-CJL-001-ZV5-006",
+        "JJK-CJL-001-ZV5-003",
+        "JJK-CJL-001-ZV5-007",
+        "JJK-CJL-001-ZV9-003",
+        "JJK-CJL-001-ZV9-007",
+        "JJK-CJL-001-ZV9-010",
+        "JJK-CJL-001-ZV9-014",
+        "JJK-CJL-001-ZV9-001",
+        "JJK-CJL-001-ZV9-012",
+        "JJK-CJL-001-ZV9-008",
+        "JJK-CJL-001-ZV9-016",
+        "JJK-CJL-001-ZV9-002",
+        "JJK-CJL-001-ZV9-009",
+        "JJK-CJL-001-ZV9-005",
+        "JJK-CJL-001-ZV9-011",
+        "JJK-CJL-001-ZV9-013",
+        "JJK-CJL-001-ZV9-015",
+        "JJK-CJL-001-ZV9-004",
+        "JJK-CJL-001-ZV9-006"
+       ]
+      }
+     ]
+    },
+    {
+     "code": "AJA",
+     "name": "Anglický jazyk",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Recepce",
+       "outcomes": [
+        "JJK-AJA-001-ZV5-001",
+        "JJK-AJA-001-ZV5-002",
+        "JJK-AJA-001-ZV9-006",
+        "JJK-AJA-001-ZV9-005",
+        "JJK-AJA-001-ZV9-003",
+        "JJK-AJA-001-ZV9-002",
+        "JJK-AJA-001-ZV9-001",
+        "JJK-AJA-001-ZV9-004",
+        "JJK-AJA-001-ZV9-007"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Produkce",
+       "outcomes": [
+        "JJK-AJA-002-ZV5-003",
+        "JJK-AJA-002-ZV5-004",
+        "JJK-AJA-002-ZV9-012",
+        "JJK-AJA-002-ZV9-011",
+        "JJK-AJA-002-ZV9-009",
+        "JJK-AJA-002-ZV9-013",
+        "JJK-AJA-002-ZV9-010",
+        "JJK-AJA-002-ZV9-008"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Interakce",
+       "outcomes": [
+        "JJK-AJA-003-ZV5-005",
+        "JJK-AJA-003-ZV5-006",
+        "JJK-AJA-003-ZV9-017",
+        "JJK-AJA-003-ZV9-018",
+        "JJK-AJA-003-ZV9-014",
+        "JJK-AJA-003-ZV9-016",
+        "JJK-AJA-003-ZV9-015"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Mediace",
+       "outcomes": [
+        "JJK-AJA-004-ZV9-019",
+        "JJK-AJA-004-ZV9-021",
+        "JJK-AJA-004-ZV9-020",
+        "JJK-AJA-004-ZV9-022"
+       ]
+      }
+     ]
+    },
+    {
+     "code": "DCJ",
+     "name": "Další cizí jazyk",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Recepce",
+       "outcomes": [
+        "JJK-DCJ-001-ZV9-003",
+        "JJK-DCJ-001-ZV9-001",
+        "JJK-DCJ-001-ZV9-002"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Produkce",
+       "outcomes": [
+        "JJK-DCJ-002-ZV9-004",
+        "JJK-DCJ-002-ZV9-005"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Interakce",
+       "outcomes": [
+        "JJK-DCJ-003-ZV9-006",
+        "JJK-DCJ-003-ZV9-007"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Mediace",
+       "outcomes": [
+        "JJK-DCJ-004-ZV9-008",
+        "JJK-DCJ-004-ZV9-009"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "MAT",
+   "name": "Matematika a její aplikace",
+   "subjects": [
+    {
+     "code": "MAT",
+     "name": "Matematika",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Číslo a početní operace",
+       "outcomes": [
+        "MAT-MAT-001-ZV5-004",
+        "MAT-MAT-001-ZV5-001",
+        "MAT-MAT-001-ZV5-002",
+        "MAT-MAT-001-ZV5-003",
+        "MAT-MAT-001-ZV9-001",
+        "MAT-MAT-001-ZV9-002",
+        "MAT-MAT-001-ZV9-003"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Měření a výpočty",
+       "outcomes": [
+        "MAT-MAT-002-ZV5-005",
+        "MAT-MAT-002-ZV9-006",
+        "MAT-MAT-002-ZV9-004",
+        "MAT-MAT-002-ZV9-005"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Geometrie v rovině a v prostoru",
+       "outcomes": [
+        "MAT-MAT-003-ZV5-006",
+        "MAT-MAT-003-ZV5-008",
+        "MAT-MAT-003-ZV5-007",
+        "MAT-MAT-003-ZV9-008",
+        "MAT-MAT-003-ZV9-007",
+        "MAT-MAT-003-ZV9-009",
+        "MAT-MAT-003-ZV9-010"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Statistika a pravděpodobnost",
+       "outcomes": [
+        "MAT-MAT-004-ZV5-010",
+        "MAT-MAT-004-ZV5-009",
+        "MAT-MAT-004-ZV5-011",
+        "MAT-MAT-004-ZV9-013",
+        "MAT-MAT-004-ZV9-011",
+        "MAT-MAT-004-ZV9-014",
+        "MAT-MAT-004-ZV9-012"
+       ]
+      },
+      {
+       "code": "5",
+       "name": "Algebra",
+       "outcomes": [
+        "MAT-MAT-005-ZV5-013",
+        "MAT-MAT-005-ZV5-012",
+        "MAT-MAT-005-ZV9-016",
+        "MAT-MAT-005-ZV9-015",
+        "MAT-MAT-005-ZV9-018",
+        "MAT-MAT-005-ZV9-017",
+        "MAT-MAT-005-ZV9-019"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "INF",
+   "name": "Informatika",
+   "subjects": [
+    {
+     "code": "INF",
+     "name": "Informatika",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Data, informace a modelování",
+       "outcomes": [
+        "INF-INF-001-ZV5-001",
+        "INF-INF-001-ZV5-003",
+        "INF-INF-001-ZV5-002",
+        "INF-INF-001-ZV9-001",
+        "INF-INF-001-ZV9-003",
+        "INF-INF-001-ZV9-002",
+        "INF-INF-001-ZV9-004"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Algoritmizace a programování",
+       "outcomes": [
+        "INF-INF-002-ZV5-004",
+        "INF-INF-002-ZV5-005",
+        "INF-INF-002-ZV9-008",
+        "INF-INF-002-ZV9-005",
+        "INF-INF-002-ZV9-007",
+        "INF-INF-002-ZV9-006"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Informační systémy",
+       "outcomes": [
+        "INF-INF-003-ZV5-007",
+        "INF-INF-003-ZV5-006",
+        "INF-INF-003-ZV9-011",
+        "INF-INF-003-ZV9-010",
+        "INF-INF-003-ZV9-009"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Digitální technologie",
+       "outcomes": [
+        "INF-INF-004-ZV5-009",
+        "INF-INF-004-ZV5-008",
+        "INF-INF-004-ZV5-010",
+        "INF-INF-004-ZV9-013",
+        "INF-INF-004-ZV9-012",
+        "INF-INF-004-ZV9-014"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CJS",
+   "name": "Člověk a jeho svět",
+   "subjects": [
+    {
+     "code": "CJS",
+     "name": "Člověk a jeho svět",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Místo, kde žijeme",
+       "outcomes": [
+        "CJS-CJS-001-ZV5-003",
+        "CJS-CJS-001-ZV5-007",
+        "CJS-CJS-001-ZV5-004",
+        "CJS-CJS-001-ZV5-005",
+        "CJS-CJS-001-ZV5-006",
+        "CJS-CJS-001-ZV5-001",
+        "CJS-CJS-001-ZV5-002"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Lidé kolem nás",
+       "outcomes": [
+        "CJS-CJS-002-ZV5-010",
+        "CJS-CJS-002-ZV5-008",
+        "CJS-CJS-002-ZV5-011",
+        "CJS-CJS-002-ZV5-009"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Lidé a čas",
+       "outcomes": [
+        "CJS-CJS-003-ZV5-014",
+        "CJS-CJS-003-ZV5-013",
+        "CJS-CJS-003-ZV5-012"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Rozmanitost přírody",
+       "outcomes": [
+        "CJS-CJS-004-ZV5-021",
+        "CJS-CJS-004-ZV5-020",
+        "CJS-CJS-004-ZV5-017",
+        "CJS-CJS-004-ZV5-016",
+        "CJS-CJS-004-ZV5-018",
+        "CJS-CJS-004-ZV5-015",
+        "CJS-CJS-004-ZV5-019"
+       ]
+      },
+      {
+       "code": "5",
+       "name": "Člověk, jeho zdraví a bezpečí",
+       "outcomes": [
+        "CJS-CJS-005-ZV5-026",
+        "CJS-CJS-005-ZV5-031",
+        "CJS-CJS-005-ZV5-030",
+        "CJS-CJS-005-ZV5-023",
+        "CJS-CJS-005-ZV5-024",
+        "CJS-CJS-005-ZV5-029",
+        "CJS-CJS-005-ZV5-022",
+        "CJS-CJS-005-ZV5-025",
+        "CJS-CJS-005-ZV5-027",
+        "CJS-CJS-005-ZV5-032",
+        "CJS-CJS-005-ZV5-028"
+       ]
+      },
+      {
+       "code": "6",
+       "name": "Lidé a svět financí",
+       "outcomes": [
+        "CJS-CJS-006-ZV5-034",
+        "CJS-CJS-006-ZV5-035",
+        "CJS-CJS-006-ZV5-033"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CAS",
+   "name": "Člověk a společnost",
+   "subjects": [
+    {
+     "code": "DEJ",
+     "name": "Dějepis",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Poznáváme minulost",
+       "outcomes": [
+        "CAS-DEJ-001-ZV9-011",
+        "CAS-DEJ-001-ZV9-009",
+        "CAS-DEJ-001-ZV9-008",
+        "CAS-DEJ-001-ZV9-001",
+        "CAS-DEJ-001-ZV9-010",
+        "CAS-DEJ-001-ZV9-012",
+        "CAS-DEJ-001-ZV9-004",
+        "CAS-DEJ-001-ZV9-002",
+        "CAS-DEJ-001-ZV9-007",
+        "CAS-DEJ-001-ZV9-003",
+        "CAS-DEJ-001-ZV9-006",
+        "CAS-DEJ-001-ZV9-005"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Tvoříme dějiny",
+       "outcomes": [
+        "CAS-DEJ-002-ZV9-013",
+        "CAS-DEJ-002-ZV9-018",
+        "CAS-DEJ-002-ZV9-014",
+        "CAS-DEJ-002-ZV9-015",
+        "CAS-DEJ-002-ZV9-017",
+        "CAS-DEJ-002-ZV9-016"
+       ]
+      }
+     ]
+    },
+    {
+     "code": "VKO",
+     "name": "Výchova k občanství",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Já ve společnosti",
+       "outcomes": [
+        "CAS-VKO-001-ZV9-002",
+        "CAS-VKO-001-ZV9-004",
+        "CAS-VKO-001-ZV9-001",
+        "CAS-VKO-001-ZV9-003"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Odpovědný občan",
+       "outcomes": [
+        "CAS-VKO-002-ZV9-005",
+        "CAS-VKO-002-ZV9-009",
+        "CAS-VKO-002-ZV9-008",
+        "CAS-VKO-002-ZV9-006",
+        "CAS-VKO-002-ZV9-011",
+        "CAS-VKO-002-ZV9-012",
+        "CAS-VKO-002-ZV9-010",
+        "CAS-VKO-002-ZV9-007"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Já a svět financí",
+       "outcomes": [
+        "CAS-VKO-003-ZV9-015",
+        "CAS-VKO-003-ZV9-014",
+        "CAS-VKO-003-ZV9-013"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "GEO",
+   "name": "Geografie",
+   "subjects": [
+    {
+     "code": "GEO",
+     "name": "Geografie",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Geografie a její metody poznávání",
+       "outcomes": [
+        "GEO-GEO-001-ZV9-002",
+        "GEO-GEO-001-ZV9-003",
+        "GEO-GEO-001-ZV9-001"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Přírodní a socioekonomické prostředí a jejich vzájemné interakce",
+       "outcomes": [
+        "GEO-GEO-002-ZV9-007",
+        "GEO-GEO-002-ZV9-011",
+        "GEO-GEO-002-ZV9-012",
+        "GEO-GEO-002-ZV9-010",
+        "GEO-GEO-002-ZV9-005",
+        "GEO-GEO-002-ZV9-006",
+        "GEO-GEO-002-ZV9-008",
+        "GEO-GEO-002-ZV9-009",
+        "GEO-GEO-002-ZV9-004"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Místa a regiony světa",
+       "outcomes": [
+        "GEO-GEO-003-ZV9-016",
+        "GEO-GEO-003-ZV9-015",
+        "GEO-GEO-003-ZV9-013",
+        "GEO-GEO-003-ZV9-014"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Udržitelnost života na Zemi",
+       "outcomes": [
+        "GEO-GEO-004-ZV9-018",
+        "GEO-GEO-004-ZV9-017"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CAP",
+   "name": "Člověk a příroda",
+   "subjects": [
+    {
+     "code": "FYZ",
+     "name": "Fyzika",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Vlastnosti látek a měření veličin",
+       "outcomes": [
+        "CAP-FYZ-001-ZV9-001",
+        "CAP-FYZ-001-ZV9-002"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Pohyb, síly a energie",
+       "outcomes": [
+        "CAP-FYZ-002-ZV9-003",
+        "CAP-FYZ-002-ZV9-007",
+        "CAP-FYZ-002-ZV9-005",
+        "CAP-FYZ-002-ZV9-006",
+        "CAP-FYZ-002-ZV9-004"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Zvuk a světlo",
+       "outcomes": [
+        "CAP-FYZ-003-ZV9-008",
+        "CAP-FYZ-003-ZV9-009"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Elektřina a magnetismus",
+       "outcomes": [
+        "CAP-FYZ-004-ZV9-010",
+        "CAP-FYZ-004-ZV9-011",
+        "CAP-FYZ-004-ZV9-012"
+       ]
+      },
+      {
+       "code": "5",
+       "name": "Mikrosvět a makrosvět",
+       "outcomes": [
+        "CAP-FYZ-005-ZV9-014",
+        "CAP-FYZ-005-ZV9-013"
+       ]
+      }
+     ]
+    },
+    {
+     "code": "CHE",
+     "name": "Chemie",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Chemie a já",
+       "outcomes": [
+        "CAP-CHE-001-ZV9-004",
+        "CAP-CHE-001-ZV9-005",
+        "CAP-CHE-001-ZV9-002",
+        "CAP-CHE-001-ZV9-001",
+        "CAP-CHE-001-ZV9-003"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Chemie a planeta Země",
+       "outcomes": [
+        "CAP-CHE-002-ZV9-007",
+        "CAP-CHE-002-ZV9-008",
+        "CAP-CHE-002-ZV9-009",
+        "CAP-CHE-002-ZV9-006"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Chemie a společnost",
+       "outcomes": [
+        "CAP-CHE-003-ZV9-012",
+        "CAP-CHE-003-ZV9-011",
+        "CAP-CHE-003-ZV9-010",
+        "CAP-CHE-003-ZV9-013",
+        "CAP-CHE-003-ZV9-014"
+       ]
+      }
+     ]
+    },
+    {
+     "code": "PRI",
+     "name": "Přírodopis",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Živé struktury a jejich funkce",
+       "outcomes": [
+        "CAP-PRI-001-ZV9-003",
+        "CAP-PRI-001-ZV9-001",
+        "CAP-PRI-001-ZV9-002"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Organismy a prostředí",
+       "outcomes": [
+        "CAP-PRI-002-ZV9-005",
+        "CAP-PRI-002-ZV9-004",
+        "CAP-PRI-002-ZV9-008",
+        "CAP-PRI-002-ZV9-006",
+        "CAP-PRI-002-ZV9-007"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Rozmnožování a dědičnost",
+       "outcomes": [
+        "CAP-PRI-003-ZV9-009",
+        "CAP-PRI-003-ZV9-010"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Evoluce a rozmanitost",
+       "outcomes": [
+        "CAP-PRI-004-ZV9-013",
+        "CAP-PRI-004-ZV9-012",
+        "CAP-PRI-004-ZV9-011",
+        "CAP-PRI-004-ZV9-014"
+       ]
+      },
+      {
+       "code": "5",
+       "name": "Dynamická planeta",
+       "outcomes": [
+        "CAP-PRI-005-ZV9-015",
+        "CAP-PRI-005-ZV9-018",
+        "CAP-PRI-005-ZV9-017",
+        "CAP-PRI-005-ZV9-016"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "UAK",
+   "name": "Umění a kultura",
+   "subjects": [
+    {
+     "code": "VFV",
+     "name": "Výtvarná a filmová výchova",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Vlastní tvorba a její sdílení",
+       "outcomes": [
+        "UAK-VFV-001-ZV5-001",
+        "UAK-VFV-001-ZV5-004",
+        "UAK-VFV-001-ZV5-003",
+        "UAK-VFV-001-ZV5-002",
+        "UAK-VFV-001-ZV9-001",
+        "UAK-VFV-001-ZV9-003",
+        "UAK-VFV-001-ZV9-005",
+        "UAK-VFV-001-ZV9-002",
+        "UAK-VFV-001-ZV9-004"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Recepce a reflexe uměleckého díla",
+       "outcomes": [
+        "UAK-VFV-002-ZV5-006",
+        "UAK-VFV-002-ZV5-005",
+        "UAK-VFV-002-ZV9-006",
+        "UAK-VFV-002-ZV9-007"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Kulturní povědomí a jednání",
+       "outcomes": [
+        "UAK-VFV-003-ZV5-007",
+        "UAK-VFV-003-ZV9-009",
+        "UAK-VFV-003-ZV9-008"
+       ]
+      }
+     ]
+    },
+    {
+     "code": "HTD",
+     "name": "Hudební, taneční a dramatická výchova",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Interpretace, vlastní tvorba a její sdílení",
+       "outcomes": [
+        "UAK-HTD-001-ZV5-003",
+        "UAK-HTD-001-ZV5-002",
+        "UAK-HTD-001-ZV5-001",
+        "UAK-HTD-001-ZV9-005",
+        "UAK-HTD-001-ZV9-003",
+        "UAK-HTD-001-ZV9-001",
+        "UAK-HTD-001-ZV9-004",
+        "UAK-HTD-001-ZV9-002"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Recepce a reflexe uměleckého díla",
+       "outcomes": [
+        "UAK-HTD-002-ZV5-006",
+        "UAK-HTD-002-ZV5-005",
+        "UAK-HTD-002-ZV5-004",
+        "UAK-HTD-002-ZV9-007",
+        "UAK-HTD-002-ZV9-006"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Kulturní povědomí a jednání",
+       "outcomes": [
+        "UAK-HTD-003-ZV5-007",
+        "UAK-HTD-003-ZV9-009",
+        "UAK-HTD-003-ZV9-008"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CZB",
+   "name": "Člověk, zdraví a bezpečí",
+   "subjects": [
+    {
+     "code": "VZB",
+     "name": "Výchova ke zdraví a bezpečí",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Ochrana a podpora zdraví – nemoci, úrazy, prevence, sexuální a reprodukční zdraví",
+       "outcomes": [
+        "CZB-VZB-001-ZV9-002",
+        "CZB-VZB-001-ZV9-005",
+        "CZB-VZB-001-ZV9-001",
+        "CZB-VZB-001-ZV9-003",
+        "CZB-VZB-001-ZV9-004"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Denní režim – hygiena, výživa a pohyb",
+       "outcomes": [
+        "CZB-VZB-002-ZV9-008",
+        "CZB-VZB-002-ZV9-006",
+        "CZB-VZB-002-ZV9-007"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Osobní bezpečí",
+       "outcomes": [
+        "CZB-VZB-003-ZV9-011",
+        "CZB-VZB-003-ZV9-009",
+        "CZB-VZB-003-ZV9-010",
+        "CZB-VZB-003-ZV9-013",
+        "CZB-VZB-003-ZV9-012"
+       ]
+      },
+      {
+       "code": "4",
+       "name": "Osobní bezpečí za mimořádných událostí a v souvislosti s obranou státu",
+       "outcomes": [
+        "CZB-VZB-004-ZV9-014",
+        "CZB-VZB-004-ZV9-017",
+        "CZB-VZB-004-ZV9-016",
+        "CZB-VZB-004-ZV9-015"
+       ]
+      }
+     ]
+    },
+    {
+     "code": "TEV",
+     "name": "Tělesná výchova",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Činnosti ovlivňující pohybové učení a zdraví",
+       "outcomes": [
+        "CZB-TEV-001-ZV5-004",
+        "CZB-TEV-001-ZV5-003",
+        "CZB-TEV-001-ZV5-001",
+        "CZB-TEV-001-ZV5-002",
+        "CZB-TEV-001-ZV5-005",
+        "CZB-TEV-001-ZV9-005",
+        "CZB-TEV-001-ZV9-003",
+        "CZB-TEV-001-ZV9-004",
+        "CZB-TEV-001-ZV9-002",
+        "CZB-TEV-001-ZV9-001"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Činnosti podporující pohybové učení",
+       "outcomes": [
+        "CZB-TEV-002-ZV5-008",
+        "CZB-TEV-002-ZV5-006",
+        "CZB-TEV-002-ZV5-007",
+        "CZB-TEV-002-ZV5-009",
+        "CZB-TEV-002-ZV5-010",
+        "CZB-TEV-002-ZV9-011",
+        "CZB-TEV-002-ZV9-010",
+        "CZB-TEV-002-ZV9-006",
+        "CZB-TEV-002-ZV9-008",
+        "CZB-TEV-002-ZV9-007",
+        "CZB-TEV-002-ZV9-009"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Zdravotní a aplikovaná tělesná výchova",
+       "outcomes": [
+        "CZB-TEV-003-ZV5-012",
+        "CZB-TEV-003-ZV5-011",
+        "CZB-TEV-003-ZV5-015",
+        "CZB-TEV-003-ZV5-016",
+        "CZB-TEV-003-ZV5-013",
+        "CZB-TEV-003-ZV5-014",
+        "CZB-TEV-003-ZV9-016",
+        "CZB-TEV-003-ZV9-015",
+        "CZB-TEV-003-ZV9-018",
+        "CZB-TEV-003-ZV9-013",
+        "CZB-TEV-003-ZV9-014",
+        "CZB-TEV-003-ZV9-017",
+        "CZB-TEV-003-ZV9-012"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CSP",
+   "name": "Člověk, jeho osobnost a svět práce",
+   "subjects": [
+    {
+     "code": "OSV",
+     "name": "Osobnostní a sociální výchova",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Osobnostní rozvoj",
+       "outcomes": [
+        "CSP-OSV-001-ZV5-002",
+        "CSP-OSV-001-ZV5-001",
+        "CSP-OSV-001-ZV9-003",
+        "CSP-OSV-001-ZV9-004",
+        "CSP-OSV-001-ZV9-002",
+        "CSP-OSV-001-ZV9-005",
+        "CSP-OSV-001-ZV9-001"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Sociální a etický rozvoj",
+       "outcomes": [
+        "CSP-OSV-002-ZV5-003",
+        "CSP-OSV-002-ZV5-004",
+        "CSP-OSV-002-ZV9-009",
+        "CSP-OSV-002-ZV9-008",
+        "CSP-OSV-002-ZV9-010",
+        "CSP-OSV-002-ZV9-006",
+        "CSP-OSV-002-ZV9-007"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Kariérový rozvoj",
+       "outcomes": [
+        "CSP-OSV-003-ZV5-006",
+        "CSP-OSV-003-ZV5-005",
+        "CSP-OSV-003-ZV9-015",
+        "CSP-OSV-003-ZV9-012",
+        "CSP-OSV-003-ZV9-013",
+        "CSP-OSV-003-ZV9-011",
+        "CSP-OSV-003-ZV9-014"
+       ]
+      }
+     ]
+    },
+    {
+     "code": "TCH",
+     "name": "Polytechnická výchova a praktické činnosti",
+     "okruhy": [
+      {
+       "code": "1",
+       "name": "Práce s technickým materiálem a technická tvořivost",
+       "outcomes": [
+        "CSP-TCH-001-ZV5-001",
+        "CSP-TCH-001-ZV9-002",
+        "CSP-TCH-001-ZV9-001"
+       ]
+      },
+      {
+       "code": "2",
+       "name": "Péče o domácnost a zahradu",
+       "outcomes": [
+        "CSP-TCH-002-ZV5-002",
+        "CSP-TCH-002-ZV9-004",
+        "CSP-TCH-002-ZV9-003"
+       ]
+      },
+      {
+       "code": "3",
+       "name": "Konstrukční činnosti a automatizace",
+       "outcomes": [
+        "CSP-TCH-003-ZV5-003",
+        "CSP-TCH-003-ZV9-005"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "literacies": [
+  {
+   "code": "ZGC",
+   "name": "Čtenářská a pisatelská",
+   "components": [
+    {
+     "code": "VZT",
+     "name": "Vztah ke čtení a čtenářství, psaní a pisatelství",
+     "outcomes": [
+      "ZGC-VZT-000-ZV3-001",
+      "ZGC-VZT-000-ZV5-001",
+      "ZGC-VZT-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "BPO",
+     "name": "Budování porozumění v četbě a v procesu psaní",
+     "outcomes": [
+      "ZGC-BPO-000-ZV3-001",
+      "ZGC-BPO-000-ZV5-001",
+      "ZGC-BPO-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "KCP",
+     "name": "Kritické čtení a psaní",
+     "outcomes": [
+      "ZGC-KCP-000-ZV3-001",
+      "ZGC-KCP-000-ZV5-001",
+      "ZGC-KCP-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "PVL",
+     "name": "Porozumění vlastnímu čtení, čtenářství, psaní a pisatelství",
+     "outcomes": [
+      "ZGC-PVL-000-ZV3-001",
+      "ZGC-PVL-000-ZV5-001",
+      "ZGC-PVL-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  },
+  {
+   "code": "ZGM",
+   "name": "Logicko-matematická",
+   "components": [
+    {
+     "code": "MRF",
+     "name": "Matematická reflexe",
+     "outcomes": [
+      "ZGM-MRF-000-ZV3-001",
+      "ZGM-MRF-000-ZV5-001",
+      "ZGM-MRF-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "POM",
+     "name": "Použití matematiky",
+     "outcomes": [
+      "ZGM-POM-000-ZV3-001",
+      "ZGM-POM-000-ZV5-001",
+      "ZGM-POM-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "MUV",
+     "name": "Matematické uvažování",
+     "outcomes": [
+      "ZGM-MUV-000-ZV3-001",
+      "ZGM-MUV-000-ZV5-001",
+      "ZGM-MUV-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "MOD",
+     "name": "Modelování matematického problému",
+     "outcomes": [
+      "ZGM-MOD-000-ZV3-001",
+      "ZGM-MOD-000-ZV5-001",
+      "ZGM-MOD-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  }
+ ],
+ "competences": [
+  {
+   "code": "KKU",
+   "name": "Klíčová kompetence k učení",
+   "components": [
+    {
+     "code": "USU",
+     "name": "Umění se učit",
+     "outcomes": [
+      "KKU-USU-000-ZV5-001",
+      "KKU-USU-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "SMU",
+     "name": "Smysl a cíl učení, celoživotní učení",
+     "outcomes": [
+      "KKU-SMU-000-ZV5-001",
+      "KKU-SMU-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  },
+  {
+   "code": "KKK",
+   "name": "Klíčová kompetence komunikační",
+   "components": [
+    {
+     "code": "VYJ",
+     "name": "Vyjadřování",
+     "outcomes": [
+      "KKK-VYJ-000-ZV5-001",
+      "KKK-VYJ-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "POR",
+     "name": "Porozumění",
+     "outcomes": [
+      "KKK-POR-000-ZV5-001",
+      "KKK-POR-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "AKN",
+     "name": "Aktivní naslouchání",
+     "outcomes": [
+      "KKK-AKN-000-ZV5-001",
+      "KKK-AKN-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "VJZ",
+     "name": "Vícejazyčnost",
+     "outcomes": [
+      "KKK-VJZ-000-ZV5-001",
+      "KKK-VJZ-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  },
+  {
+   "code": "KOS",
+   "name": "Klíčová kompetence osobnostní a sociální",
+   "components": [
+    {
+     "code": "WEL",
+     "name": "Vlastní wellbeing",
+     "outcomes": [
+      "KOS-WEL-000-ZV5-001",
+      "KOS-WEL-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "ODO",
+     "name": "Resilience: odolávání obtížným situacím",
+     "outcomes": [
+      "KOS-ODO-000-ZV5-001",
+      "KOS-ODO-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "SEB",
+     "name": "Identita",
+     "outcomes": [
+      "KOS-SEB-000-ZV5-001",
+      "KOS-SEB-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "EMP",
+     "name": "Empatie a porozumění druhým",
+     "outcomes": [
+      "KOS-EMP-000-ZV5-001",
+      "KOS-EMP-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "VZT",
+     "name": "Budování a udržování zdravých vztahů",
+     "outcomes": [
+      "KOS-VZT-000-ZV5-001",
+      "KOS-VZT-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  },
+  {
+   "code": "KOB",
+   "name": "Klíčová kompetence k občanství a udržitelnosti",
+   "components": [
+    {
+     "code": "RES",
+     "name": "Respektující vztah k životu a světu",
+     "outcomes": [
+      "KOB-RES-000-ZV5-001",
+      "KOB-RES-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "ZPS",
+     "name": "Zohledňování propojenosti světa",
+     "outcomes": [
+      "KOB-ZPS-000-ZV5-001",
+      "KOB-ZPS-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "UDR",
+     "name": "Směřování k udržitelné budoucnosti",
+     "outcomes": [
+      "KOB-UDR-000-ZV5-001",
+      "KOB-UDR-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "ODP",
+     "name": "Odpovědné rozhodování a jednání",
+     "outcomes": [
+      "KOB-ODP-000-ZV5-001",
+      "KOB-ODP-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "PCP",
+     "name": "Aktivní občanství, participace a přesvědčení o vlastním vlivu (zmocňování)",
+     "outcomes": [
+      "KOB-PCP-000-ZV5-001",
+      "KOB-PCP-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  },
+  {
+   "code": "KPP",
+   "name": "Klíčová kompetence k podnikavosti a pracovní",
+   "components": [
+    {
+     "code": "NAP",
+     "name": "Nápady, příležitosti a výzvy",
+     "outcomes": [
+      "KPP-NAP-000-ZV5-001",
+      "KPP-NAP-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "ZDR",
+     "name": "Mobilizování zdrojů",
+     "outcomes": [
+      "KPP-ZDR-000-ZV5-001",
+      "KPP-ZDR-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "REA",
+     "name": "Realizace akcí, aktivit, projektů",
+     "outcomes": [
+      "KPP-REA-000-ZV5-001",
+      "KPP-REA-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "TYM",
+     "name": "Spolupráce a týmová práce",
+     "outcomes": [
+      "KPP-TYM-000-ZV5-001",
+      "KPP-TYM-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  },
+  {
+   "code": "KRP",
+   "name": "Klíčová kompetence k řešení problémů",
+   "components": [
+    {
+     "code": "RPS",
+     "name": "Řešení běžných problematických situací",
+     "outcomes": [
+      "KRP-RPS-000-ZV5-001",
+      "KRP-RPS-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "VED",
+     "name": "Kritické hodnocení a využití vědeckého poznání",
+     "outcomes": [
+      "KRP-VED-000-ZV5-001",
+      "KRP-VED-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "BAD",
+     "name": "Badatelství",
+     "outcomes": [
+      "KRP-BAD-000-ZV5-001",
+      "KRP-BAD-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "KRP",
+     "name": "Práce s informacemi a kritické myšlení",
+     "outcomes": [
+      "KRP-KRP-000-ZV5-001",
+      "KRP-KRP-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  },
+  {
+   "code": "KKT",
+   "name": "Klíčová kompetence kulturní",
+   "components": [
+    {
+     "code": "KON",
+     "name": "Kulturní kontext",
+     "outcomes": [
+      "KKT-KON-000-ZV5-001",
+      "KKT-KON-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "UMK",
+     "name": "Umění a kultura jako prostředek komunikace",
+     "outcomes": [
+      "KKT-UMK-000-ZV5-001",
+      "KKT-UMK-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "SVJ",
+     "name": "Kulturní a umělecké sebevyjádření",
+     "outcomes": [
+      "KKT-SVJ-000-ZV5-001",
+      "KKT-SVJ-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "IDR",
+     "name": "Kulturní identita a rozmanitost",
+     "outcomes": [
+      "KKT-IDR-000-ZV5-001",
+      "KKT-IDR-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  },
+  {
+   "code": "KDI",
+   "name": "Klíčová kompetence digitální",
+   "components": [
+    {
+     "code": "DAT",
+     "name": "Digitální informace a data",
+     "outcomes": [
+      "KDI-DAT-000-ZV5-001",
+      "KDI-DAT-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "ZAP",
+     "name": "Zapojení do společnosti prostřednictvím digitálních technologií",
+     "outcomes": [
+      "KDI-ZAP-000-ZV5-001",
+      "KDI-ZAP-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "TDO",
+     "name": "Tvorba digitálního obsahu",
+     "outcomes": [
+      "KDI-TDO-000-ZV5-001",
+      "KDI-TDO-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "BZK",
+     "name": "Bezpečnost v digitálním prostředí",
+     "outcomes": [
+      "KDI-BZK-000-ZV5-001",
+      "KDI-BZK-000-ZV9-001"
+     ]
+    },
+    {
+     "code": "VIN",
+     "name": "Digitální vývoj a inovace",
+     "outcomes": [
+      "KDI-VIN-000-ZV5-001",
+      "KDI-VIN-000-ZV9-001"
+     ]
+    }
+   ],
+   "outcomes": []
+  }
+ ],
+ "themes": [
+  {
+   "code": "PTP",
+   "name": "Péče o sebe a druhé",
+   "components": [],
+   "outcomes": [
+    "PTP-000-000-ZV5-001",
+    "PTP-000-000-ZV5-003",
+    "PTP-000-000-ZV5-002",
+    "PTP-000-000-ZV9-002",
+    "PTP-000-000-ZV9-003",
+    "PTP-000-000-ZV9-001"
+   ]
+  },
+  {
+   "code": "PTS",
+   "name": "Společnost pro všechny",
+   "components": [],
+   "outcomes": [
+    "PTS-000-000-ZV5-001",
+    "PTS-000-000-ZV5-005",
+    "PTS-000-000-ZV5-004",
+    "PTS-000-000-ZV5-003",
+    "PTS-000-000-ZV5-002",
+    "PTS-000-000-ZV9-004",
+    "PTS-000-000-ZV9-001",
+    "PTS-000-000-ZV9-003",
+    "PTS-000-000-ZV9-006",
+    "PTS-000-000-ZV9-005",
+    "PTS-000-000-ZV9-002"
+   ]
+  },
+  {
+   "code": "PTU",
+   "name": "Udržitelné prostředí",
+   "components": [],
+   "outcomes": [
+    "PTU-000-000-ZV5-001",
+    "PTU-000-000-ZV5-002",
+    "PTU-000-000-ZV5-003",
+    "PTU-000-000-ZV9-001",
+    "PTU-000-000-ZV9-003",
+    "PTU-000-000-ZV9-002"
+   ]
+  }
+ ]
+}

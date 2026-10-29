@@ -1,0 +1,83 @@
+{
+  "outcome": "GEO-GEO-002-ZV9-009",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Zná základní lokalizační faktory při zakládnání sídel",
+      "cards": [
+        "lokalizacni-faktory-vzniku-sidel"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vysvětlí procesy urbanizace a suburbanizace a na příkladech doloží jejich příčiny a důsledky na společnost i přírodu",
+      "cards": [
+        "urbanizace-a-suburbanizace-sidla"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "popíše vybraná sídla (velkoměsta vyspělého vs rozvojového světa; venkovská vs městská sídla) s využitím hlavních geografických charakteristik, zhodnotí vliv jejich geografické",
+      "cards": [
+        "velkomesta-sveta-a-venkov-srovnani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "polohy na budoucí rozvoj těchto sídel na různé řádovostní úrovni identifikuje jádrové a periferní oblasti, uvede příklady problémů",
+      "cards": [
+        "velkomesta-sveta-a-venkov-srovnani",
+        "jadro-a-periferie-problemy-oblasti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "života v těchto oblastech",
+      "cards": [
+        "jadro-a-periferie-problemy-oblasti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S pomocí fotografie, leteckého snímku nebo ortofotomapy popíše a porovná strukturu sídel z různých částí světa, diskutuje o faktorech, které ovlivnily jejich současnou podobu.",
+      "cards": [
+        "sidla-z-leteckeho-snimku-svet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Odvodí, které faktory byly důležité pro vznik a rozvoj sídla, ve kterém žije, a provede srovnání s dalšími sídly, tzn. najde příklady sídel s podobnými a naopak s výrazně odlišnými lokalizačními faktory.",
+      "cards": [
+        "lokalizacni-faktory-vzniku-sidel"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě analýzy územního plánu navrhuje opatření, jak zlepšit život v místě svého bydliště, diskutuje o výhodách a nevýhodách života na venkově / v menším městě / v centru velkoměsta / v okolí velkoměsta (v příměstské krajině).",
+      "cards": [
+        "uzemni-plan-navrh-zlepseni-bydliste",
+        "vyhody-nevyhody-bydleni-venkov-mesto"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše místo, kde žije.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "moje-obec-na-mape-a-v-kraji-krajina"
+        ]
+      }
+    }
+  ]
+}

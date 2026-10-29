@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když dva lidé změří stejný stůl a jednomu vyjde o milimetr víc, nemusí se mýlit ani jeden. Každé měřidlo má jen určitou přesnost a malý rozdíl je nevyhnutelná nejistota, kdežto pohled na hladinu v odměrce šikmo shora nebo pravítko přiložené od kraje místo od nuly je chyba, které se dá vyhnout. Rozlišit to potřebuje, kdo pracuje v laboratoři, kde špatný odečet zkazí rozbor, i ten, kdo řeže dlaždice podle naměřené délky. Hodí se to u každého čísla, které někdo naměřil: poznáš, kdy je rozdíl skutečný a kdy jde jen o přesnost měřidla.",
+  "learnWithAi": [
+    {
+      "title": "Špatně přiložené pravítko",
+      "text": "Požádej chatbota, ať ti popíše několik způsobů, jak se dá pravítkem změřit délka špatně. Každý si vyzkoušej a zapiš, o kolik se výsledek změnil."
+    },
+    {
+      "title": "Nejistota, nebo chyba při odečtu",
+      "text": "Nech chatbota popsat několik situací z měření a u každé rozhodni, jestli jde o nejistotu, nebo o chybu při odečítání. Svoje rozhodnutí zdůvodni a nech si ho okomentovat."
+    },
+    {
+      "title": "Vlastní vysvětlení rozdílu",
+      "text": "Napiš vlastními slovy, čím se nejistota měření liší od chyby, a pošli to chatbotovi. Ať ti řekne, co chybí nebo je nepřesné, a text pak oprav bez jeho pomoci."
+    }
+  ]
+}

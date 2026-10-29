@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Popsat, co na mapě vidíš, vyvodit z toho závěr a najít další zdroj, který ho potvrdí, je postup pro každý referát i novinový článek. U dějin, kde se snadno šíří zkreslené příběhy, právě podle toho poznáš tvrzení s dokladem od pouhého dojmu. V práci ho používají lidé v archeologii a ve výzkumu dějin, ale i ti, kdo podle map plánují trasy v terénu a ověřují si je dalšími podklady. Chatbot ti poradí, kde další mapy a texty hledat, jenže někdy uvede zdroj, který neexistuje, takže dohledat a přečíst ho musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Popis mapy bez obrázku",
+      "text": "Popiš chatbotovi mapu tak přesně, aby si ji dokázal představit, aniž by ji viděl. Ať ti řekne, co z popisu nepochopil, a doplň to."
+    },
+    {
+      "title": "Zdroje k ověření závěru",
+      "text": "Zeptej se chatbota, v jakých zdrojích by se dal ověřit tvůj závěr z mapy. Aspoň jeden zdroj si opravdu najdi a zkontroluj, že existuje a říká to, co chatbot tvrdí."
+    },
+    {
+      "title": "Závěr s doklady",
+      "text": "Napiš krátký odstavec o tom, co mapa ukazuje, co z toho plyne a čím to dokládáš. Chatbot ať označí místa, kde závěr stojí jen na dojmu, opravy udělej ty."
+    }
+  ]
+}

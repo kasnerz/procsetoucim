@@ -1,0 +1,397 @@
+[
+  {
+    "slug": "lokalizacni-faktory-vzniku-sidel",
+    "title": "Proč vznikla obec nebo město tam, kde stojí",
+    "aliases": [
+      "lokalizační faktory",
+      "proč vzniklo město",
+      "založení sídla",
+      "poloha města u řeky",
+      "vznik obce"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zná základní lokalizační faktory při zakládnání sídel",
+        "quote": "Zná základní lokalizační faktory"
+      },
+      {
+        "level": "Splněno",
+        "point": "Odvodí, které faktory byly důležité pro vznik a rozvoj sídla, ve kterém žije, a provede srovnání s dalšími sídly, tzn. najde příklady sídel s podobnými a naopak s výrazně odlišnými lokalizačními faktory.",
+        "quote": "Odvodí, které faktory byly důležité pro vznik a rozvoj sídla"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Cesty civilizací: Od základních potřeb k městské vybavenosti",
+        "url": "https://uloziste.rvp.cz/material/264674"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč se sídla zakládala u řek či brodů, a ptá se tě na tvé město."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Historie a poloha tvé obce je popsaná na stránkách obce a ve Wikipedii."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže řeku, silnice a kopce kolem obce, ze kterých faktory vyčteš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa ti ukáže, co leží kolem obce, a faktory z ní vyčteš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/7d594881-a9b4-4d4c-8a8b-75082c136b78"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sidla-z-leteckeho-snimku-svet",
+    "title": "Sídla ze snímku shora a jejich srovnání",
+    "aliases": [
+      "letecký snímek",
+      "ortofotomapa",
+      "srovnání měst ve světě",
+      "jak vypadá město shora",
+      "struktura města"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S pomocí fotografie, leteckého snímku nebo ortofotomapy popíše a porovná strukturu sídel z různých částí světa, diskutuje o faktorech, které ovlivnily jejich současnou podobu.",
+        "quote": "S pomocí fotografie, leteckého snímku nebo ortofotomapy popíše a porovná strukturu sídel z různých částí světa"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Město jako funkční skládačka",
+        "url": "https://uloziste.rvp.cz/material/17083d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Snímek si prohlížíš a porovnáváš ty, chatbot ho za tebe neuvidí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ortofotomapy a fotografie měst z celého světa si najdeš a prohlédneš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Satelitní mapa ti ukáže město shora a můžeš ho přiblížit i oddálit."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný jednoduchý nástroj ti město shora neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cbb330ab-55ac-4eec-b54c-b85c6219f508",
+      "http://data.europa.eu/esco/skill/377861af-f966-4c87-a2db-7e99904312b9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "urbanizace-a-suburbanizace-sidla",
+    "title": "Urbanizace a suburbanizace",
+    "aliases": [
+      "stěhování do měst",
+      "přesun lidí z vesnic do města",
+      "příměstská zástavba",
+      "urbanizace",
+      "suburbanizace"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí procesy urbanizace a suburbanizace a na příkladech doloží jejich příčiny a důsledky na společnost i přírodu",
+        "quote": "vysvětlí procesy urbanizace a suburbanizace"
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí oba pojmy jinými slovy a dá ti příklady příčin a důsledků."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a statistiky ukazují, jak se lidé stěhují do měst a za město."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti pojmy nevysvětlí, pomůže jen s hledáním dat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7f18039d-dfae-471b-9daa-507f6b2d2842",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "velkomesta-sveta-a-venkov-srovnani",
+    "title": "Srovnání velkoměst a venkovských sídel",
+    "aliases": [
+      "město a vesnice",
+      "velkoměsto rozvojového světa",
+      "rozdíly venkov a město",
+      "vliv polohy na rozvoj města",
+      "srovnání sídel"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše vybraná sídla (velkoměsta vyspělého vs rozvojového světa; venkovská vs městská sídla) s využitím hlavních geografických charakteristik, zhodnotí vliv jejich geografické",
+        "quote": "popíše vybraná sídla (velkoměsta vyspělého vs rozvojového světa; venkovská vs městská sídla)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "polohy na budoucí rozvoj těchto sídel na různé řádovostní úrovni identifikuje jádrové a periferní oblasti, uvede příklady problémů",
+        "quote": "polohy na budoucí rozvoj těchto sídel"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Nad plánem obce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti sestaví srovnání dvou měst podle bodů a zeptá se, co jsi vybral(a) ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Údaje o počtu lidí, poloze a dopravě konkrétních měst najdeš ve zdrojích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže polohu, okolí a dopravní spojení obou sídel."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas světa ukáže, kde města leží, srovnání z něj uděláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/7d594881-a9b4-4d4c-8a8b-75082c136b78",
+      "http://data.europa.eu/esco/skill/7f18039d-dfae-471b-9daa-507f6b2d2842"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jadro-a-periferie-problemy-oblasti",
+    "title": "Jádrové a periferní oblasti",
+    "aliases": [
+      "periferie",
+      "okrajové oblasti",
+      "problémy venkova",
+      "jádro a okraj",
+      "vylidňování"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "polohy na budoucí rozvoj těchto sídel na různé řádovostní úrovni identifikuje jádrové a periferní oblasti, uvede příklady problémů",
+        "quote": "identifikuje jádrové a periferní oblasti, uvede příklady problémů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "života v těchto oblastech",
+        "quote": "života v těchto oblastech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl mezi jádrem a periferií a dá příklady problémů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapy a statistiky krajů ukážou, kde je práce a kde lidé ubývají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže, jak je místo daleko od velkého města a dálnice."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa ukáže vzdálenosti, oblasti na ní rozliším ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/0a71a150-17fd-448e-a5b8-19fbea76d569"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uzemni-plan-navrh-zlepseni-bydliste",
+    "title": "Územní plán a návrhy pro tvé bydliště",
+    "aliases": [
+      "územní plán obce",
+      "co se u nás staví",
+      "jak zlepšit město",
+      "plán obce",
+      "návrh opatření pro obec"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě analýzy územního plánu navrhuje opatření, jak zlepšit život v místě svého bydliště, diskutuje o výhodách a nevýhodách života na venkově / v menším městě / v centru velkoměsta / v okolí velkoměsta (v příměstské krajině).",
+        "quote": "Na základě analýzy územního plánu navrhuje opatření, jak zlepšit život v místě svého bydliště"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Územní plánování",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí značky v plánu a zeptá se, co by se ti v obci líbilo změnit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Územní plán své obce najdeš na jejích stránkách, včetně map a výkresů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže, co v obci je, třeba školy, zastávky a hřiště."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový plán obce si můžeš popsat a barevně do něj kreslit své návrhy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7f18039d-dfae-471b-9daa-507f6b2d2842",
+      "http://data.europa.eu/esco/skill/f1f5eb7f-1776-456b-83a4-f3e06df2da5a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyhody-nevyhody-bydleni-venkov-mesto",
+    "title": "Výhody a nevýhody bydlení na venkově a ve městě",
+    "aliases": [
+      "bydlení na vesnici",
+      "život ve městě",
+      "příměstí",
+      "venkov nebo velkoměsto",
+      "kde se žije líp"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě analýzy územního plánu navrhuje opatření, jak zlepšit život v místě svého bydliště, diskutuje o výhodách a nevýhodách života na venkově / v menším městě / v centru velkoměsta / v okolí velkoměsta (v příměstské krajině).",
+        "quote": "diskutuje o výhodách a nevýhodách života na venkově / v menším městě / v centru velkoměsta / v okolí velkoměsta (v příměstské krajině)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot s tebou probere argumenty pro i proti a zeptá se na tvůj názor."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky a články o dojíždění, cenách bydlení a službách ti dají fakta do diskuse."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti za tebe nepostaví názor, jen ukážou vzdálenosti."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ s lidmi ty, klasický nástroj do debaty nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7d594881-a9b4-4d4c-8a8b-75082c136b78",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

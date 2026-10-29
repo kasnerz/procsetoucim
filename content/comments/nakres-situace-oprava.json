@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "První nákres obvykle něco vynechá, třeba dveře v plánku třídy nebo šipku, kudy se jde. Umět ho zpřesnit a opravit je stejně důležité jako ho nakreslit, protože podle nepřesného plánku nic nenajdeš. V informatice na to navážeš u schémat a grafů, které se taky ladí na několikrát. Opravovat výkresy podle připomínek je denní práce lidí, kteří projektují stroje nebo navrhují budovy, protože chyba na výkresu se pak objeví na hotové věci. Kreslicí aplikace opravu usnadní, ale co v nákresu chybí, musíš poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Plánek pokoje podle otázek",
+      "text": "Nakreslete s rodičem plánek svého pokoje a popište ho chatbotovi slovy. Ať se doptá na všechno, co z popisu nepoznal, a doplňte to do nákresu."
+    },
+    {
+      "title": "Chybný popis cesty",
+      "text": "Poproste chatbota, ať popíše cestu ze školy domů s jednou schválně chybnou informací. Nakreslete ji s rodičem podle popisu a najděte, kde nákres nedává smysl."
+    },
+    {
+      "title": "Kontrola nákresu na hřišti",
+      "text": "S učitelem nebo rodičem vezměte nákres hřiště a projděte se po skutečném hřišti. Co chybí, zapište a chatbota se zeptejte, jak takové věci na plánku značit."
+    }
+  ]
+}

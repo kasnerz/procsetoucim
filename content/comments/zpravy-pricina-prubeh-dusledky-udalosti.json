@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Zpráva většinou ukáže jen to, co se stalo dnes, a proč k tomu došlo a co z toho plyne, se musíš dozvědět jinde. Když umíš událost rozložit na příčiny, průběh a možné důsledky, nenecháš se strhnout prvním dojmem a líp odhadneš, co bude znamenat pro tvoje okolí. Chatbot ti pomůže schéma seřadit, ale příčiny si umí i domyslet, takže každý krok si ověřuj ve zpravodajství nebo v encyklopedii. Takhle uvažují lidé, kteří vedou redakce nebo píšou zprávy ze zahraničí, a hodí se to každému, kdo má něco rozhodnout.",
+  "learnWithAi": [
+    {
+      "title": "Schéma jedné události",
+      "text": "Nakresli si k vybrané události tři sloupce: příčiny, průběh a důsledky. Popiš schéma chatbotovi a nech se upozornit, kde máš důsledek mezi příčinami nebo naopak."
+    },
+    {
+      "title": "Rozhovor jako v rozhlase",
+      "text": "Nech chatbota vést s tebou rozhovor o vybrané události jako v rozhlasovém pořadu a odpovídej na jeho otázky po příčinách a důsledcích. Co nevíš, dohledej."
+    },
+    {
+      "title": "Odhad za měsíc a za rok",
+      "text": "Napiš vlastní odhad, co z události vyplyne za měsíc a za rok. Chatbot ať přidá další možnosti a ty u každé zvaž, jak je pravděpodobná."
+    }
+  ]
+}

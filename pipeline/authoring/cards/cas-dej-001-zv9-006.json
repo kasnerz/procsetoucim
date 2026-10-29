@@ -1,0 +1,438 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dejepis-nabozenstvi-tri-monoteisticka",
+      "title": "Židovství, křesťanství a islám",
+      "aliases": [
+        "tři náboženství",
+        "monoteismus",
+        "Bible Korán Tóra",
+        "synagoga kostel mešita",
+        "vznik islámu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Orientuje se v základních pojmech"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Vyjmenuje základní události spojené s jejich vznikem"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovná tři nejrozšířenější monoteistická náboženství"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy a rozdíly mezi náboženstvími a vymyslí ti otázky na zkoušení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie dají přehled o vzniku a svatých textech."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace tě nenaučí porovnávat náboženství, jen ukáže fakta."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Časová osa na papíře ti pomůže seřadit události vzniku."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/15f9284a-5385-42ac-92c7-b8352ea43c36",
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": [
+        "Mojžíš",
+        "Jak vznikl islám?"
+      ]
+    },
+    {
+      "slug": "dejepis-nabozenstvi-smysl-zivota",
+      "title": "Jak náboženství vysvětlovalo svět",
+      "aliases": [
+        "smysl života",
+        "co je po smrti",
+        "víra a vysvětlení světa",
+        "mýty",
+        "proč lidé věřili"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Na vybraných příkladech doloží, jak náboženství pomáhalo"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou, na jaké otázky náboženství odpovídalo, a poví příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty o mýtech a obřadech dají příklady, které můžeš uvést."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nemá co nabídnout, příklady musíš vybrat a vysvětlit ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj k tomu nepomáhá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/15f9284a-5385-42ac-92c7-b8352ea43c36",
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+      ]
+    },
+    {
+      "slug": "dejepis-krestanske-svatky-puvod",
+      "title": "Křesťanské svátky a jejich původ",
+      "aliases": [
+        "Vánoce",
+        "Velikonoce",
+        "Všech svatých",
+        "dušičky",
+        "církevní svátky"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyjmenuje základní historické události spojené s křesťanstvím"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co se o Vánocích a Velikonocích slaví, a zeptá se tě na to."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a encyklopedie popíší původ každého svátku."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s kalendářem jen ukáže datum, původ svátku nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalendář a papírová časová osa ukážou, kdy se svátky slaví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/15f9284a-5385-42ac-92c7-b8352ea43c36",
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ]
+    },
+    {
+      "slug": "dejepis-nabozenska-motivace-jednani",
+      "title": "Náboženství a jednání lidí v dějinách",
+      "aliases": [
+        "křížové výpravy",
+        "Jan Hus",
+        "Martin Luther",
+        "Jan Amos Komenský",
+        "svatá Anežka",
+        "proč lidé jednali z víry"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Uvede konkrétní příklady náboženské motivace"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na příkladech z různých dějinných epoch ilustruje, jak náboženství ovlivňovalo"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyloží, proč Hus nebo křižáci jednali, jak jednali, a prověří tvůj příklad."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a učebnice dají fakta o životě a době těchto lidí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s mapou ukáže místa, ale motivy lidí nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dějepisný atlas a časová osa ukážou, kdy se co dělo."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/15f9284a-5385-42ac-92c7-b8352ea43c36"
+      ],
+      "inspiration": [
+        "Jan Hus – pohledy na jeho názory",
+        "Jaký význam měla víra pro život lidí v 17. století?"
+      ]
+    },
+    {
+      "slug": "dejepis-nabozenstvi-jinych-kultur-predkolumbovske",
+      "title": "Náboženství antických Řeků a předkolumbovské Ameriky",
+      "aliases": [
+        "bohové starých Řeků",
+        "Aztékové",
+        "Mayové",
+        "Inkové",
+        "antická mytologie"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Své porozumění náboženskému jednání a myšlení prohloubí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vypráví o bozích a obřadech a vysvětlí, k čemu je lidé potřebovali."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie dají fakta o bozích a obřadech těchto kultur."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace sama nenaučí chápat víru jiných kultur."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas a mapa ukážou, kde tyto kultury žily."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/15f9284a-5385-42ac-92c7-b8352ea43c36",
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+      ]
+    },
+    {
+      "slug": "dejepis-nabozenske-texty-zakony-normy",
+      "title": "Vliv náboženských textů na zákony a kulturu",
+      "aliases": [
+        "Bible a zákony",
+        "desatero",
+        "svaté knihy",
+        "normy a pravidla",
+        "náboženské texty"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Uvede příklady dopadu biblických i jiných náboženských textů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co v textu stojí, a ukáže, jak se promítl do pravidel."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty Bible nebo jiných knih si přečteš a najdeš v nich pravidla."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s textem Bible jen zobrazí, souvislosti s pravidly najdeš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj k tomu nepomáhá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0befe984-aa6e-4b54-85db-d00bb51f8ed5",
+        "http://data.europa.eu/esco/skill/15f9284a-5385-42ac-92c7-b8352ea43c36"
+      ]
+    },
+    {
+      "slug": "dejepis-nabozenske-konflikty-vice-stran",
+      "title": "Náboženské konflikty z pohledu více stran",
+      "aliases": [
+        "násilná christianizace",
+        "pogromy",
+        "arabská expanze",
+        "náboženské války",
+        "motivace stran"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Uvede konkrétní příklady konfliktů různých náboženství"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Je schopný se dívat na události náboženských konfliktů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne postoje obou stran a pomůže ti vžít se do každé z nich."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a historické texty uvádějí fakta a různé pohledy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace sama pohledy stran neporovná."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj k tomu nepomáhá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+      ],
+      "inspiration": [
+        "Pronásledování Romů v minulosti"
+      ]
+    },
+    {
+      "slug": "dejepis-nabozenska-tolerance-priklady",
+      "title": "Příklady náboženské tolerance",
+      "aliases": [
+        "toleranční patent",
+        "Al-Andalus",
+        "soužití náboženství",
+        "české země v 16. století",
+        "snášenlivost"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Prozkoumá příklady náboženské tolerance"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se v Al-Andalusu nebo u nás v 16. století lidé snášeli."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a učebnice dají dobové důvody a fakta o toleranci."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s mapou ukáže jen místa, ne důvody tolerance."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dějepisný atlas ukáže, kde a kdy různé víry žily vedle sebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/15f9284a-5385-42ac-92c7-b8352ea43c36"
+      ]
+    },
+    {
+      "slug": "dejepis-sekularizace-a-islamizace",
+      "title": "Sekularizace a islamizace",
+      "aliases": [
+        "sekularizace",
+        "islamizace",
+        "církev a stát",
+        "odluka církve od státu",
+        "nábožensky nezaložená společnost"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Diskutuje o tom, jaké důsledky může mít sekularizace"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí pojmy sekularizace a islamizace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí oba pojmy na příkladech a protiargumentuje ti v diskusi."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie definuje pojmy a uvádí příklady z dnešní Evropy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace sama pojmy nevysvětlí ani neprodiskutuje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj k tomu nepomáhá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/15f9284a-5385-42ac-92c7-b8352ea43c36",
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Doloží, jaký vliv mělo náboženství",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

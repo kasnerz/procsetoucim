@@ -1,0 +1,535 @@
+[
+  {
+    "slug": "htd-rytmus-a-rytmicke-hry",
+    "title": "Rytmus a rytmické hry",
+    "aliases": [
+      "rytmus",
+      "tleskání",
+      "rytmická hra",
+      "hra na rytmus",
+      "hudba ve škole"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Hravou formou se seznamuje se základními prvky hudby, jako je rytmus, melodie a zpěv.",
+        "quote": "Hravou formou se seznamuje se základními prvky hudby, jako je rytmus, melodie a zpěv."
+      },
+      {
+        "level": "Na cestě",
+        "point": "- pracuje s jednoduššími rytmickými, pěveckými a intonačními cvičeními a hrami,",
+        "quote": "pracuje s jednoduššími rytmickými, pěveckými a intonačními cvičeními a hrami"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Válíme těsto s písničkou",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Rytmus tleskáš a vyklepáváš ty, chatbot ti ho nezahraje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa s rytmickými hrami ti ukážou, co máš po nich opakovat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Metronom a rytmické hry ti drží tempo, když si rytmus zkoušíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Bubínek, dřívka nebo vlastní tělo ti dají rytmus, který slyšíš a cítíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8f8a8803-dc72-4488-9991-7c7d373e01fa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "htd-zpev-a-hlas",
+    "title": "Zpěv a hlas",
+    "aliases": [
+      "zpěv",
+      "zpívání",
+      "můj hlas",
+      "intonace",
+      "zpívání písniček"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zkoumá možnosti svého hlasu, rytmického cítění a pohybového projevu v souvislosti s hudbou.",
+        "quote": "Zkoumá možnosti svého hlasu, rytmického cítění a pohybového projevu v souvislosti s hudbou."
+      },
+      {
+        "level": "Na cestě",
+        "point": "- formuje svůj hlasový projev nasloucháním sama sebe i druhých,",
+        "quote": "formuje svůj hlasový projev nasloucháním sama sebe i druhých"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hra na jména (pohyb a hlas)",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Zpíváš vlastním hlasem, chatbot za tebe nezazpívá ani nenaslouchá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Nahrávky písní s textem ti dají, co si máš zazpívat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Ladička a aplikace s nahrávkou ti ukážou, jestli držíš tón."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Klavír nebo flétna ti dají tón, na který si ladíš hlas."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e50a68c5-2a5d-4815-8bd1-e4334aed7683",
+      "http://data.europa.eu/esco/skill/e78ac0fc-7a1d-4462-960a-a560c2e152ce"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "htd-doprovod-na-predmety",
+    "title": "Doprovod na předměty a jednoduché nástroje",
+    "aliases": [
+      "hra na nástroje",
+      "doprovod písničky",
+      "hra na bubínek",
+      "orffovy nástroje",
+      "hra na předměty"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- rozvíjí svou hrubou i jemnou motoriku prostřednictvím cvičení a hry jednoduchých doprovodů za pomoci předmětů či snadno ovladatelných hudebních nástrojů,",
+        "quote": "rozvíjí svou hrubou i jemnou motoriku prostřednictvím cvičení a hry jednoduchých doprovodů za pomoci předmětů či snadno ovladatelných hudebních nástrojů"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Zapojuje se do herních aktivit, v nichž uplatňuje svou představivost a fantazii a v nichž využívá své přirozené hlasové, mluvní a pohybové dovednosti, dovednosti pro hru s předměty a nástroji, rytmické dovednosti apod.",
+        "quote": "dovednosti pro hru s předměty a nástroji"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Doprovod hraješ rukama ty, chatbot ti nástroj do ruky nevezme."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa ti ukážou jednoduché doprovody, které si zahraješ po nich."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Metronom a nahrávka písničky ti pomůžou doprovod udržet v tempu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Bubínek, triangl nebo hrnec s vařečkou jsou nástroj, na který hraješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8f8a8803-dc72-4488-9991-7c7d373e01fa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "htd-nalada-a-tempo-hudby",
+    "title": "Nálada, tempo a dynamika hudby",
+    "aliases": [
+      "poslech hudby",
+      "tempo",
+      "nálada hudby",
+      "dynamika",
+      "hlasitě a potichu"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- sleduje průběh hudby a vnímá souvislosti s její náladou, dynamikou, tempem a svojí aktivitou,",
+        "quote": "sleduje průběh hudby a vnímá souvislosti s její náladou, dynamikou, tempem a svojí aktivitou"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Tančíme na měňavou hudbu",
+        "url": "https://uloziste.rvp.cz/material/ee6e3f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je tempo a dynamika, a navrhne skladby k poslechu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Nahrávky různých skladeb ti dají materiál k poslechu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Přehrávač se zpomalením ti nechá slyšet, jak se tempo mění."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Metronom ti ukáže tempo, které pak slyšíš v hudbě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/52eb7ab6-269f-4f44-a21d-b0c705eaf857",
+      "http://data.europa.eu/esco/skill/3204e6a3-676d-4824-806d-b34c6b798f31"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "htd-tanecni-pohyb-k-hudbe",
+    "title": "Pohyb a tanec k hudbě",
+    "aliases": [
+      "tanec",
+      "pohyb na hudbu",
+      "taneční hra",
+      "kreativní tanec",
+      "pohybová hra"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- zapojuje se do her a cvičení založených na vyjadřování a komunikaci pohybem/tanečním pohybem,",
+        "quote": "zapojuje se do her a cvičení založených na vyjadřování a komunikaci pohybem/tanečním pohybem"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Zvládá základní pohybové dovednosti.",
+        "quote": "Zvládá základní pohybové dovednosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Tanec zamrzání a rozmrzání vody",
+        "url": "https://uloziste.rvp.cz/material/9be8ec"
+      },
+      {
+        "title": "Roztanči třídu!",
+        "url": "https://uloziste.rvp.cz/material/b3c6f0"
+      },
+      {
+        "title": "Kreativní taneční hra “Barevné části těla”",
+        "url": "https://uloziste.rvp.cz/material/3c892d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Tančíš celým tělem, chatbot za tebe nepohne ani rukou."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa s tanečními hrami ti ukážou pohyby, které si zkoušíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Hudba z přehrávače ti dává tempo a náladu, ke kterým tančíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pohyb tvoří tělo, k tomu žádný nástroj nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4",
+      "http://data.europa.eu/esco/skill/5ddcee55-4da6-425f-a582-6710b0182a2d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "htd-drzeni-tela",
+    "title": "Držení těla",
+    "aliases": [
+      "správné držení těla",
+      "jak sedět a stát",
+      "zdravá záda",
+      "vnímání těla"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- skrze vnímání vlastního těla a pohybu si v hrách a cvičeních osvojuje principy správného a zdravého držení těla,",
+        "quote": "skrze vnímání vlastního těla a pohybu si v hrách a cvičeních osvojuje principy správného a zdravého držení těla"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Držení těla cítíš ty, chatbot ti záda nenarovná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky a videa ukazují, jak vypadá zdravé stání a sezení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvoje držení těla neopraví, to cítíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zrcadlo ti ukáže, jak opravdu stojíš a sedíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ac846964-c171-4d43-8834-cc83ff96f582"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "htd-hra-v-roli",
+    "title": "Hra v roli a rolové hry",
+    "aliases": [
+      "hraní rolí",
+      "divadlo",
+      "hra za postavu",
+      "dramatická výchova",
+      "improvizace",
+      "loutka"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vstupuje za postavu do jednoduchých rolových her a situací.",
+        "quote": "Vstupuje za postavu do jednoduchých rolových her a situací."
+      },
+      {
+        "level": "Na cestě",
+        "point": "- zapojuje se do herních aktivit a cvičení, v nichž získává základní dovednosti pro tvorbu v oblasti dramatické výchovy a divadla (hlasové a mluvní, pohybové, komunikační, improvizační, dovednosti pro hru v roli, skupinovou spolupráci apod.).",
+        "quote": "získává základní dovednosti pro tvorbu v oblasti dramatické výchovy a divadla"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s předmětem a loutkou",
+        "url": "https://uloziste.rvp.cz/material/355b74"
+      },
+      {
+        "title": "Rozehrané živé obrazy na dané náměty - situace.",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí postavy a situace pro hru a může ti s nimi nanečisto zahrát partnera."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Ukázky divadla a loutek tě nenaučí postavu zahrát, to děláš před ostatními ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Roli hraješ hlasem a tělem před ostatními, aplikace to nezastoupí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Loutka, šátek nebo klobouk ti pomůžou vžít se do postavy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2747a004-2b3c-4879-92ec-d2665bfee36a",
+      "http://data.europa.eu/esco/skill/74be20a7-fcfe-4715-bb62-8937a547a982"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "htd-hra-s-fantazii",
+    "title": "Hra s fantazií a představivostí",
+    "aliases": [
+      "fantazie",
+      "představivost",
+      "tvořivá hra",
+      "vymýšlení příběhů",
+      "hra s předmětem"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zapojuje se do herních aktivit, v nichž uplatňuje svou představivost a fantazii a v nichž využívá své přirozené hlasové, mluvní a pohybové dovednosti, dovednosti pro hru s předměty a nástroji, rytmické dovednosti apod.",
+        "quote": "Zapojuje se do herních aktivit, v nichž uplatňuje svou představivost a fantazii"
+      },
+      {
+        "level": "Splněno",
+        "point": "Prostřednictvím her, cvičení zkoumá své tvůrčí možnosti, rozvíjí svou představivost a fantazii, získává a rozvíjí dovednosti a návyky uplatnitelné v reprodukčních, interpretačních a tvůrčích činnostech hudební, taneční a dramatické výchovy i mimo ně.",
+        "quote": "zkoumá své tvůrčí možnosti, rozvíjí svou představivost a fantazii"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozmlouváme s Marťany",
+        "url": "https://uloziste.rvp.cz/material/a19a1f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne nápady na hru a situace, ze kterých si vybereš."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové nápady z internetu ti fantazii nahradí, vymýšlet musíš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Představivost se nedá stáhnout, aplikace ti ji nezlepší."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Obyčejné předměty, třeba krabice nebo šátek, se ve hře mění v něco jiného."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4327690a-e639-4b58-98b5-d078d6b90b07"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "htd-uprava-hlasu-a-pohybu",
+    "title": "Úprava vlastního hlasu, pohybu a hry",
+    "aliases": [
+      "zlepšit zpěv",
+      "oprava pohybu",
+      "jak mluvit hlasitěji",
+      "sebehodnocení projevu",
+      "hra na nástroj"
+    ],
+    "outcome": "UAK-HTD-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pod vedením učitele a na základě zkušenosti z her, cvičení a tvůrčích činností koriguje svůj hlasový, mluvní, pěvecký, tělesný a pohybový projev i hru s hudebními i nehudebními nástroji a předměty.",
+        "quote": "koriguje svůj hlasový, mluvní, pěvecký, tělesný a pohybový projev i hru s hudebními i nehudebními nástroji a předměty"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Svůj projev opravuješ podle toho, co slyšíš a cítíš, chatbot ho neuslyší."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Ve vyhledávači nenajdeš, jak zní a vypadá právě tvůj projev."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nahraješ se a poslechneš si, co zlepšit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zrcadlo ti ukáže pohyb a postoj, které chceš změnit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e50a68c5-2a5d-4815-8bd1-e4334aed7683",
+      "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

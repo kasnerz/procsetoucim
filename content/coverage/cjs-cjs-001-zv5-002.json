@@ -1,0 +1,118 @@
+{
+  "outcome": "CJS-CJS-001-ZV5-002",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Orientuje se vpravo, vlevo, před, za, nahoře, dole.",
+      "cards": [
+        "vpravo-vlevo"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Pozná, zda je objekt zachycen z boku či shora.",
+      "cards": [
+        "plan-tridy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Orientuje se ve smyšlené (dětské) mapě.",
+      "cards": [
+        "plan-tridy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Orientuje se v plánu (mapě velkého měřítka).",
+      "cards": [
+        "plan-tridy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Pracuje s legendou a směrovou růžicí.",
+      "cards": [
+        "legenda-a-meritko"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Orientuje se v plánu třídy, nakreslí/vymodeluje plán dětského pokoje.",
+      "cards": [
+        "plan-tridy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "V okolí školy vyhledá podle mapy vybrané objekty a popíše je.",
+      "cards": [
+        "orientace-podle-mapy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyhledá téže objekty v realitě, turistické mapě a na ortofotomapě / leteckém snímku.",
+      "cards": [
+        "orientace-podle-mapy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "S pomocí mapy popíše odlišnosti dvou míst.",
+      "cards": [
+        "porovnani-dvou-mist"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Čte mapu, a to jak vlastní mapové pole, tak legendu a měřítko, vyhledá mapu vhodnou vzhledem k účelu.",
+      "cards": [
+        "legenda-a-meritko"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zorientuje mapu.",
+      "cards": [
+        "orientace-podle-mapy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Orientuje se s pomocí papírové či elektronické mapy v prostoru.",
+      "cards": [
+        "orientace-podle-mapy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhledá a popíše s pomocí turistické mapy průběh určené trasy, popř. vybere konkrétní trasu na základě předem daných parametrů (nejkratší, nejrychlejší, nejmenší stoupání apod.).",
+      "cards": [
+        "planovani-trasy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vysvětlí pojem mapa, pozná mapu České republiky.",
+      "cards": [
+        "mapa-ceska"
+      ],
+      "aside": null
+    }
+  ]
+}

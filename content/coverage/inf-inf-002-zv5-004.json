@@ -1,0 +1,126 @@
+{
+  "outcome": "INF-INF-002-ZV5-004",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Popíše posloupnost kroků, které vedou k řešení situace.",
+      "cards": [
+        "algoritmus-kroky-posloupnost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Diskutuje nad možnostmi řešení.",
+      "cards": [
+        "algoritmus-porovnani-postupu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Popisuje jednoduchý problém, uvádí základní vstupy a očekávané výstupy (např. cesta v bludišti, ve čtvercové síti).",
+      "cards": [
+        "algoritmus-problem-vstupy-vystupy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Navrhuje kroky potřebné k vyřešení problému a uspořádává je v základní posloupnosti.",
+      "cards": [
+        "algoritmus-kroky-posloupnost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Sestavuje a zapisuje jednoduchý algoritmus pomocí slov nebo jednoduchých symbolů (např. šipky).",
+      "cards": [
+        "algoritmus-zapis-sipky-symboly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Ověřuje správnost svého postupu. (např. podle očekávaného výstupu).",
+      "cards": [
+        "algoritmus-overeni-oprava-chyb"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozhoduje o správnosti/nesprávnosti svého postupu na základě výsledného řešení.",
+      "cards": [
+        "algoritmus-overeni-oprava-chyb"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětluje svůj postup v jednoduchých krocích a popisuje jeho základní logiku.",
+      "cards": [
+        "algoritmus-porovnani-postupu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Pojmenuje problém, určí potřebné vstupy a výstupy a vysvětlí jejich vztahy.",
+      "cards": [
+        "algoritmus-problem-vstupy-vystupy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozdělí problém na menší části, sestaví kroky do logické posloupnosti a zváží různé možnosti.",
+      "cards": [
+        "algoritmus-kroky-posloupnost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Použije symboly k vytvoření přesnějšího a strukturovaného zápisu algoritmu a otestuje jeho funkčnost.",
+      "cards": [
+        "algoritmus-zapis-sipky-symboly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Testuje svůj postup na různých příkladech, identifikuje chyby a provádí jednoduché úpravy k jeho vylepšení.",
+      "cards": [
+        "algoritmus-overeni-oprava-chyb"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhodnotí různé postupy, vysvětlí své volby a navrhne, jak postupy zlepšit.",
+      "cards": [
+        "algoritmus-porovnani-postupu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí svá řešení, diskutuje výhody a nevýhody a zdůvodní svá rozhodnutí.",
+      "cards": [
+        "algoritmus-porovnani-postupu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše kroky známé činnosti či postupu.",
+      "cards": [
+        "algoritmus-kroky-posloupnost"
+      ],
+      "aside": null
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "outcome": "CSP-OSV-001-ZV5-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "silne-stranky-a-vlastnosti",
+      "title": "Moje vlastnosti a silné stránky",
+      "aliases": [
+        "silné stránky",
+        "moje vlastnosti",
+        "v čem jsem dobrý",
+        "co mi jde"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozpoznává a pojmenuje vybrané osobnostní vlastnosti a dovednosti a v rámci nich své silné stránky."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Poznává své osobnostní vlastnosti a dovednosti a v rámci nich své silné stránky."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Poznává různé osobnostní vlastnosti a dovednosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí slova pro vlastnosti a dá příklady, vybíráš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy vlastností ti dají slova, ze kterých vybíráš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Dotazník v aplikaci jen opakuje, co do něj napíšeš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vlastnosti žádným nástrojem nezměříš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Co jsou to silné stránky?",
+        "Ukázka silných stránek"
+      ]
+    },
+    {
+      "slug": "vlastnosti-postav",
+      "title": "Vlastnosti postav v příběhu",
+      "aliases": [
+        "vlastnosti postavy",
+        "charakteristika postavy",
+        "jaký je hrdina",
+        "příběh a vlastnosti"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Navrhuje jakou vybranou osobnostní vlastnost nebo dovednost má postava v příběhu a jak pomohla postavě v příběhu."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Poznává a zkouší pojmenovat kladné osobnostní vlastnosti a dovednosti postav v příběhu/modelových situacích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí neznámá slova pro vlastnosti a ověří tvůj nápad."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam vlastností ti pomůže najít správné slovo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace na tohle nemá nic užitečného."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vlastnosti postav nepoznáš pomocí nástroje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Osobnostní vlastnosti v příběhu"
+      ]
+    },
+    {
+      "slug": "co-mi-ve-skole-jde",
+      "title": "Co mi ve škole jde a co ne",
+      "aliases": [
+        "co je pro mě snadné",
+        "co je těžké",
+        "v čem jsem dobrý ve škole",
+        "co mi dělá potíže"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Zkouší pojmenovat jaké činnosti ve škole jsou pro něj snadné a jaké obtížné, a jaké vlastnosti a dovednosti mu mohou pomoci."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Když napíšeš, co ti jde hůř, navrhne dovednosti, které mohou pomoci."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na webu to o tobě nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvoje zkušenosti ze školy nezná."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj tu nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "co-me-bavi",
+      "title": "Co mě baví a co tím rozvíjím",
+      "aliases": [
+        "co mě baví",
+        "koníčky",
+        "zájmy",
+        "k čemu mi jsou kroužky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Poznává, co ho ve školních nebo zájmových činnostech baví a jaké osobnostní vlastnosti a dovednosti díky nim rozvíjí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "K tomu, co tě baví, navrhne vlastnosti, které si tím cvičíš."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na webu nenajdeš, co baví zrovna tebe."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepozná, co tě baví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tady ti obyčejný nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pokrok-a-co-pomohlo",
+      "title": "Můj pokrok a co mi pomohlo",
+      "aliases": [
+        "můj pokrok",
+        "čeho jsem dosáhl",
+        "co mi pomohlo",
+        "dopis budoucímu já"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na příkladu osobního pokroku rozpoznává a pojmenuje, jaké osobnostní vlastnosti a dovednosti mu k jeho dosažení pomohly."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže slovy popsat, co se ti povedlo, pokrok ale znáš jen ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na webu to o tobě nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Deník nebo záznam pokroku ukáže, jak se ti dařilo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tady ti obyčejný nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Moje schopnost, které si vážím",
+        "Dopis budoucímu já"
+      ]
+    },
+    {
+      "slug": "cil-a-co-rozvinout",
+      "title": "Co chci dokázat a co k tomu potřebuji",
+      "aliases": [
+        "můj cíl",
+        "co chci dokázat",
+        "na čem chci pracovat",
+        "plány a cíle"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Navrhuje, co by chtěl ve školních nebo zájmových činnostech dokázat a jaké osobnostní vlastnosti a dovednosti k tomu může využít, jaké potřebuje rozvinout."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže cíl zformulovat a navrhne kroky, co chceš, víš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hledat tu nemáš co, cíl si vybíráš ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na sledování cílů hlídá, jak postupuješ."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tady ti obyčejný nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Dopis budoucímu já"
+      ]
+    },
+    {
+      "slug": "silne-stranky-v-narocnych-situacich",
+      "title": "Silné stránky v náročných situacích",
+      "aliases": [
+        "jak zvládnout těžkou situaci",
+        "silné stránky v praxi",
+        "poradím si",
+        "modelová situace"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozpoznává možnosti využití svých vybraných silných stránek při zvládání běžných i náročných situací ve školním i mimoškolním prostředí."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pojmenuje vlastní silné stránky a v modelové situaci ilustruje jejich využití při zvládání náročných situací."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Navrhuje jaké osobnostní vlastnosti a dovednosti pomáhají ve zvládání běžných i náročných situací ve školním i mimoškolním prostředí, zkouší si v modelových situacích upravovat svoje chování."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "K situaci navrhne vlastnosti, které pomáhají, a zahraje roli."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na webu najdeš obecné rady, ne svoje silné stránky."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tě do situace nepostaví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tady ti obyčejný nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Ukázka silných stránek"
+      ]
+    },
+    {
+      "slug": "uprava-chovani",
+      "title": "Úprava vlastního chování",
+      "aliases": [
+        "změnit chování",
+        "jak se zachovat",
+        "hraní rolí",
+        "modelová situace"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V modelové situaci upravuje své chování na základě znalosti svých osobnostních vlastností a dovedností."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Radu dá, své chování ale musíš změnit ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Rady z webu chování za tebe nezmění."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe chování nezmění."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tady ti obyčejný nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zpetna-vazba",
+      "title": "Zpětná vazba od druhých",
+      "aliases": [
+        "zpětná vazba",
+        "kritika",
+        "pochvala",
+        "co mi o mně říkají druzí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Naslouchá zpětné vazbě k rozvoji svých osobnostních vlastností a dovedností, kterou dostává od druhých, a rozlišuje, s čím z toho (ne)souhlasí a proč."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Naslouchá zpětné vazbě k rozvoji svých osobnostních vlastností a dovedností, kterou dostává od druhých a zkouší popsat, jak tuto zpětnou vazbu využije."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vazbu roztřídit, posoudit ji musíš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Zpětnou vazbu dostáváš od lidí kolem sebe, ne z webu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe poslouchat nebude."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tady ti obyčejný nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/05aa7c09-46e7-433f-a81b-92841f4551e7"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "jak-se-ucim",
+      "title": "Jak se mi dobře učí",
+      "aliases": [
+        "jak se učit",
+        "styl učení",
+        "moje potřeby při učení",
+        "učení po svém"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Komunikuje o svých potřebách při učení a zkouší postupy učení, které mu vyhovují."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne různé způsoby učení, které z nich sedí tobě, zjistíš zkoušením."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tipy a postupy, jak se učit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s kartičkami nebo plánem učení ti pomůže něco vyzkoušet."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Časovač a papírové kartičky ti pomohou zkusit učení po krátkých blocích."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Rozpozná na příkladech",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

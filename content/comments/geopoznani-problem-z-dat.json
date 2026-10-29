@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kdo má data, nemusí o problémech obce jen hádat. Z čísel o obyvatelích nebo z mapy záplav se dá ukázat, že ze vsi odcházejí mladí lidé nebo že se řeka vylévá pořád na stejných místech. Hodí se to každému, kdo chce mluvit do dění v obci, a v práci to denně potřebují lidé, kteří plánují rozvoj měst nebo sledují stav krajiny z leteckých snímků. Tabulka nebo chatbot data rychle seřadí, ale co je v nich podstatné a jestli vůbec dávají smysl, musíš posoudit ty.",
+  "learnWithAi": [
+    {
+      "title": "Vymyšlené město s problémem",
+      "text": "Požádej chatbota o tabulku dat o vymyšleném městě, ve které je skrytý problém, třeba málo míst ve školkách. Najdi ho a zdůvodni podle čísel."
+    },
+    {
+      "title": "Závěry z tabulky obyvatel",
+      "text": "Vlož do chatbota tabulku počtu obyvatel své obce za několik let a napiš k ní tři vlastní závěry. Nech ho posoudit, který z nich data opravdu podporují."
+    },
+    {
+      "title": "Srovnání sousedních obcí",
+      "text": "Porovnej s pomocí chatbota dvě sousední obce podle věku obyvatel a dojíždění za prací. Čísla si ověř na stránkách statistického úřadu, protože chatbot je může splést."
+    }
+  ]
+}

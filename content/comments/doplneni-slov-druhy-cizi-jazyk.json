@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když ve větě v cizím jazyce chybí slovo, musíš z okolí poznat, co tam patří a v jakém tvaru. Totéž děláš, když čteš jídelní lístek, nápis na nádraží nebo zprávu od kamarádky ze zahraničí a polovině slov nerozumíš. Doplňování do vět tě to učí po malých kouscích, dokud ti tvary nezačnou naskakovat samy. Překladač nebo chatbot ti správné slovo řeknou hned, jenže v rozhovoru na ně není čas a jejich návrh poznáš jako dobrý, jen když jazyku trochu rozumíš. V práci to nejvíc potřebuje ten, kdo opravuje texty po ostatních nebo učí jazyky.",
+  "learnWithAi": [
+    {
+      "title": "Věty s chybějícím slovem",
+      "text": "Požádej chatbota o deset vět v jazyce, který se učíš, s jedním vynechaným slovem z tématu, které právě probíráte. Doplň je a nech si vysvětlit každou chybu."
+    },
+    {
+      "title": "Dialog s mezerami",
+      "text": "Napiš chatbotovi téma, třeba nakupování nebo cestu do školy, a nech ho připravit krátký rozhovor, ve kterém chybí celé fráze. Doplň je bez slovníku a zeptej se, jestli tvoje fráze dávají smysl i tam, kde se liší."
+    },
+    {
+      "title": "Vlastní doplňovačka pro spolužáka",
+      "text": "Vymysli pět vět s mezerou pro spolužáka nebo sourozence a dej je chatbotovi zkontrolovat. Ať ti řekne, jestli má každá mezera jen jedno rozumné řešení, a nejasné věty uprav."
+    }
+  ]
+}

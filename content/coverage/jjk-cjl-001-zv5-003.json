@@ -1,0 +1,107 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-003",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Píše správné tvary písmen a číslic, píše slova a větné celky.",
+      "cards": [
+        "psani-rukou"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Rozlišuje zvukovou a grafickou podobu slova.",
+      "cards": [
+        "i-y-po-tvrdych-a-mekkych"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Při psaní vlastního textu využívá znalost pravopisných pravidel: y/ý po tvrdých souhláskách; i/í po měkkých souhláskách; y/ý a i/í po pravopisně obojetných souhláskách ve vyjmenovaných slovech a běžně používaných slovech příbuzných.",
+      "cards": [
+        "i-y-po-tvrdych-a-mekkych",
+        "vyjmenovana-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Píše velká písmena na začátku věty a v typických případech vlastních jmen.",
+      "cards": [
+        "velka-pismena"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Využívá osnovu při tvorbě vlastního textu.",
+      "cards": [
+        "vypravovani-podle-osnovy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozpozná podstatná jména, slovesa, spojky a předložky.",
+      "cards": [
+        "slovni-druhy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Při psaní vlastního textu využívá osvojená pravopisná pravidla.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Dokáže ověřit pravopis v pravidlech českého pravopisu nebo v internetové jazykové příručce.",
+      "cards": [
+        "overeni-pravopisu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná větu jednoduchou a souvětí a zdůvodní základní případy užití interpunkčních znamének.",
+      "cards": [
+        "carky-v-souveti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Spojí věty jednoduché do souvětí a vhodně obmění strukturu textu s ohledem na svůj komunikační záměr.",
+      "cards": [
+        "spojovani-vet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Napíše vypravování, pozvánku, popis, dopis, oznámení, zprávu, blahopřání, vyplní dotazník i v digitální podobě.",
+      "cards": [
+        "vypravovani-podle-osnovy",
+        "pozvanka-a-blahoprani",
+        "vyplneni-dotazniku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vede dialog srozumitelný pro okolí, s využitím osvojených mluvnických a pravopisných pravidel; píše jednoduché texty.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

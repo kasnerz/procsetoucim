@@ -1,0 +1,65 @@
+{
+  "outcome": "UAK-VFV-003-ZV5-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "kulturni-instituce-a-akce-v-okoli",
+      "title": "Kulturní události a instituce v okolí",
+      "aliases": ["kultura v okolí", "kam do kina nebo divadla", "muzeum a knihovna u nás", "místní tradice", "kulturní akce"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Uvede příklad kulturní události nebo uměleckého díla, se kterým se setkal ve svém okolí."},
+        {"level": "Splněno", "quote": "Uvede příklady kulturních institucí a akcí v blízkém okolí, regionu a uvede příklady aktivit, zážitků, s nimiž se může v těchto institucích setkat."},
+        {"level": "Na cestě", "quote": "Seznamuje se s různými kulturními událostmi a rozmanitými projevy umělecké tvorby ve svém nejbližším okolí, lokalitě, regionu."},
+        {"level": "Na cestě", "quote": "Seznamuje se s významnými kulturními institucemi a tradicemi ve svém okolí, lokalitě, regionu."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Co se děje u vás ve městě, chatbot neví spolehlivě, spíš si něco vymyslí."},
+        "internet": {"verdict": "pomuze", "why": "Web obce, knihovny nebo kina ukazuje, jaké akce a instituce máte nablízku."},
+        "aplikace": {"verdict": "pomuze", "why": "Mapa a kalendář akcí v aplikaci najdou divadla, muzea a koncerty v okolí."},
+        "klasicky": {"verdict": "pomuze", "why": "Plakát, městský zpravodaj nebo papírová mapa ukazují akce a místa přímo u vás."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/f3b841c9-17d1-4cc3-9e6b-36c17b0d15d3", "http://data.europa.eu/esco/skill/14f9a27c-d52e-4e3d-9819-e564d4ec3d71"],
+      "inspiration": ["Místní tradice a kulturní události", "Kultura v našem okolí", "Návštěva místního kina"]
+    },
+    {
+      "slug": "zazitek-z-kulturni-akce-vypraveni",
+      "title": "Vyprávění o zážitku z kulturní události",
+      "aliases": ["zážitek z divadla", "co jsem viděl v kině", "povídání o výstavě", "výlet do muzea", "povyprávět zážitek"],
+      "sources": [
+        {"level": "Na začátku", "quote": "sdělí svůj zážitek ze společně (v rámci školní výuky) navštívené kulturní události nebo události, kterou navštívil ve svém volném čase"},
+        {"level": "Splněno", "quote": "Podělí se s ostatními o svůj zážitek z některé kulturní události, které se zúčastnil."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Zážitek máš jen ty, chatbot na akci nebyl a jeho vyprávění by nebylo tvoje."},
+        "internet": {"verdict": "nepomuze", "why": "Na internetu najdeš program, ale co jsi ti na akci přišlo zajímavé, v něm není."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace ti nepoví, co se ti na akci líbilo, to říkáš ty svými slovy."},
+        "klasicky": {"verdict": "pomuze", "why": "Vstupenka, program nebo kresba z akce ti pomůžou vybavit si, co se na akci dělo."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/9f43c56e-3ec5-490b-ab02-2e42fb700ca9"],
+      "inspiration": ["Návštěva místního kina"]
+    },
+    {
+      "slug": "doporuceni-kulturni-akce-kamaradum",
+      "title": "Doporučení kulturní akce nebo místa s důvodem",
+      "aliases": ["doporučit film", "proč jít do divadla", "tip na výlet", "doporučení kamarádovi", "doporučit výstavu"],
+      "sources": [
+        {"level": "Splněno", "quote": "Uvede důvod, proč by svým spolužákům nebo prarodičům a kamarádům doporučil navštívit nějakou kulturní událost či instituci."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Důvod, proč něco doporučuješ, vychází z tvého zážitku, ten chatbot nemá."},
+        "internet": {"verdict": "pomuze", "why": "Z recenzí a popisu akce zjistíš, pro koho je a co nabízí, což se hodí k argumentu."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace ti důvod nevymyslí, doporučuješ podle toho, co ti akce dala."},
+        "klasicky": {"verdict": "nepomuze", "why": "Doporučuješ ústně nebo na papíře a žádný nástroj za tebe důvod nenajde."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/f3b841c9-17d1-4cc3-9e6b-36c17b0d15d3"],
+      "inspiration": ["Kultura v našem okolí"]
+    }
+  ],
+  "aside": []
+}

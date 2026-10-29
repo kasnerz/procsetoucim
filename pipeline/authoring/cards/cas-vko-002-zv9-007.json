@@ -1,0 +1,306 @@
+{
+  "outcome": "CAS-VKO-002-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pravni-texty-ustava-listina-zakony-ctenarska",
+      "title": "Čtení zákonů, smluv a Listiny práv",
+      "aliases": [
+        "ústava",
+        "listina práv",
+        "zákoník",
+        "smlouva",
+        "čtení zákona",
+        "populárně-naučný text"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "čte s porozuměním vybrané pasáže z různých právních textů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pracuje s konkrétními právními texty, jako jsou Ústava ČR, Listina základních práv a svobod, zákony, smlouvy, občanský zákoník, zákoník práce."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "pracuje s populárně-naučnými texty ke společenskovědním tématům"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí nesrozumitelnou větu zákona jednoduššími slovy, ale čteš ji ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Úplné znění Ústavy, Listiny i zákoníků je k přečtení zdarma na internetu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se zákony ti dohledá paragraf a ukáže jeho znění."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tištěný zákoník nebo slovník cizích slov ti pomůže, když čteš nad papírem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64",
+        "http://data.europa.eu/esco/skill/97b713f0-b9e8-4903-8dee-7e0b4019a1c0"
+      ],
+      "inspiration": [
+        "Listina základních práv a svobod",
+        "Práce se zákoníkem"
+      ]
+    },
+    {
+      "slug": "struktura-pravniho-textu-clanky-paragrafy",
+      "title": "Uspořádání právního textu",
+      "aliases": [
+        "hlava a článek",
+        "paragraf",
+        "odstavec",
+        "obsah zákona",
+        "jak je zákon řazený"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "posuzuje celkové uspořádání a strukturu vybraných právních textů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže na příkladu, jak se dělí zákon na části, paragrafy a odstavce."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu se zákonem vidíš obsah a můžeš skákat mezi paragrafy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se zákony ti zobrazí obsah a rychle najde paragraf."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírový zákoník neřekne, jak je text uspořádaný, to posuzuješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+      ],
+      "inspiration": [
+        "Práce se zákoníkem"
+      ]
+    },
+    {
+      "slug": "shrnuti-pravniho-textu-vlastnimi-slovy-odborny",
+      "title": "Shrnutí odborného textu vlastními slovy",
+      "aliases": [
+        "shrnout zákon",
+        "převyprávět paragraf",
+        "stručný obsah",
+        "vlastními slovy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vlastními slovy shrnuje obsah odborného právního textu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná tvé shrnutí s textem a upozorní, co chybí nebo je zkreslené."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výklad zákona pro veřejnost ti ukáže, jak ho lze říct jednodušeji."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Shrnout text ve vlastních slovech musíš ty, aplikace s tím nepomůže."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka na poznámky ti pomůžou vybrat to hlavní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+      ],
+      "inspiration": [
+        "Smlouva bez pasti"
+      ]
+    },
+    {
+      "slug": "klicova-slova-a-myslenky-pravni-text-hledani",
+      "title": "Klíčová slova a hlavní myšlenky v právním textu",
+      "aliases": [
+        "zvýraznit důležité",
+        "hlavní myšlenka",
+        "klíčové slovo",
+        "neznámé slovo v zákoně",
+        "výklad pojmů"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyhledává klíčová slova a klíčové myšlenky v odborném právním textu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí neznámý právní pojem a ty si pak ověříš, že hlavní myšlenku vidíš správně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník pojmů a výklad zákona vysvětlí slova, která neznáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Vyhledávání v textu zákona ti ukáže všechna místa s daným slovem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Zvýrazňovač na vytištěném textu ti pomůže označit důležitá místa."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+      ],
+      "inspiration": [
+        "Čtení s porozuměním"
+      ]
+    },
+    {
+      "slug": "reseni-situace-podle-zakona-modelova-uloha",
+      "title": "Řešení situace podle právního textu",
+      "aliases": [
+        "najít v zákoně",
+        "příklad ze života",
+        "jaký paragraf platí",
+        "modelová situace",
+        "spor o smlouvu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "s oporou o konkrétní právní texty řeší jednoduché problémové úlohy nebo situace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti najít, který paragraf se k situaci hodí, a ty ho pak ověříš v textu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu se zákony najdeš znění předpisu, o který se úloha opírá."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se zákony ti dohledá paragraf podle klíčového slova."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozhodnutí, který text platí a jak, děláš ty, papír ti ho nedá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64",
+        "http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7"
+      ],
+      "inspiration": [
+        "Svoboda slova versus ochrana práv druhých"
+      ]
+    },
+    {
+      "slug": "pracovni-smlouva-mladistveho-chybejici-polozky",
+      "title": "Kontrola pracovní smlouvy mladistvého",
+      "aliases": [
+        "brigáda",
+        "smlouva o práci",
+        "co má obsahovat smlouva",
+        "práce pro mladistvé",
+        "dohoda o práci"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná chybějící nebo nesprávné položky v ukázce pracovní smlouvy pro mladistvého."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co má pracovní smlouva obsahovat, a podle toho ukázku zkontroluješ ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zákoník práce a vzory smluv jsou na internetu, porovnáš s nimi ukázku."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe smlouvu nepřečte a chybějící údaje v ní nenajde."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír ti nepoví, co chybí, to porovnáváš ty podle zákoníku."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/97b713f0-b9e8-4903-8dee-7e0b4019a1c0",
+        "http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7"
+      ],
+      "inspiration": [
+        "Smlouva bez pasti"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Reflektuje, co je pro něj obtížné",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "reflektuje, co je pro něj obtížné",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+[
+  {
+    "slug": "tv-znat-pravidla-her-a-soutezi-vybijena",
+    "title": "Pravidla her a soutěží",
+    "aliases": [
+      "pravidla vybíjené",
+      "pravidla přehazované",
+      "pravidla miniházené",
+      "jak se hraje",
+      "pravidla her v tělocviku"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Seznamuje se se základními pravidly her a soutěží.",
+        "quote": "Seznamuje se se základními pravidly her a soutěží."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zná základní pravidla her a soutěží.",
+        "quote": "Zná základní pravidla her a soutěží."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vybíjená",
+        "url": "https://uloziste.rvp.cz/material/d3ceed"
+      },
+      {
+        "title": "Pravidla přehazované",
+        "url": ""
+      },
+      {
+        "title": "Pravidla přehazované - seznámení",
+        "url": ""
+      },
+      {
+        "title": "Miniházená",
+        "url": "https://uloziste.rvp.cz/material/cec461"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pravidla hry jinými slovy a zeptá se tě, jestli si je pamatuješ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš psaná pravidla vybíjené, přehazované nebo miniházené i s obrázky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pravidla her se učíš při hraní, aplikace s tebou na hřišti hrát nebude."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Míč ani píšťalka pravidla nevysvětlí, ukážou je až při hře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8b2f716d-4ee3-41ca-97de-62ef56f80591"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-dodrzovat-pravidla-a-fair-play-hra",
+    "title": "Dodržování pravidel a fair play",
+    "aliases": [
+      "fair play",
+      "hrát podle pravidel",
+      "férová hra",
+      "nepodvádět ve hře",
+      "soutěž v tělocviku"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Dodržuje základní pravidla jednoduchých her a soutěží.",
+        "quote": "Dodržuje základní pravidla jednoduchých her a soutěží."
+      },
+      {
+        "level": "Splněno",
+        "point": "Dodržuje pravidla her a soutěží a chová se v duchu fair play.",
+        "quote": "Dodržuje pravidla her a soutěží a chová se v duchu fair play."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vybíjená",
+        "url": "https://uloziste.rvp.cz/material/d3ceed"
+      },
+      {
+        "title": "Miniházená",
+        "url": "https://uloziste.rvp.cz/material/cec461"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Pravidla dodržuješ ve hře ty, chatbot tě při ní neuvidí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Fair play poznáš při hře se spolužáky, webová stránka ho za tebe nepředvede."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace se hry neúčastní, férové chování je na tobě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Míč ani vybavení nehlídají, jestli hraješ čestně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/733db58b-f62e-4548-8078-b0f4e5182383"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-poznat-a-vysvetlit-prestupek-proti-pravidlum",
+    "title": "Rozpoznání a vysvětlení porušení pravidel",
+    "aliases": [
+      "přestupek ve hře",
+      "faul",
+      "porušení pravidel",
+      "proč byla chyba",
+      "vysvětlit pravidlo"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozlišuje základní porušení pravidel.",
+        "quote": "Rozlišuje základní porušení pravidel."
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede a vysvětlí, k jakému porušení pravidel došlo.",
+        "quote": "Uvede a vysvětlí, k jakému porušení pravidel došlo."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pravidla přehazované - aplikace",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíšeš mu situaci ze hry a vysvětlí, které pravidlo se porušilo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "V pravidlech hry najdeš, co je přestupek a jak se trestá."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Přestupek při hře vidíš a pojmenuješ ty, aplikace ho nezachytí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Píšťalka nebo karta rozhodčího přestupek jen oznámí, nepoznáš ho jimi."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/45fce913-bbf7-4796-a190-4f9f4ac439a4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-upozornit-na-poruseni-pravidel-pri-sledovani-hry",
+    "title": "Sledování hry a upozornění na porušení pravidel",
+    "aliases": [
+      "rozhodčí ve hře",
+      "sledovat hru",
+      "upozornit na chybu",
+      "pískat hru",
+      "soudce při hře"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Sleduje hru či soutěž a upozorňuje na porušení pravidel.",
+        "quote": "Sleduje hru či soutěž a upozorňuje na porušení pravidel."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Hru sleduješ očima ty, chatbot ji nevidí a nemůže ti říct, co se stalo."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co se děje ve hře, musíš zachytit hned ty, web ti to nepoví."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace hru nesleduje a na přestupek neupozorní, to děláš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Píšťalkou a rukou dáš ostatním najevo, že někdo pravidlo porušil."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/de1d76d0-6fa2-488f-a65a-007c22384ba2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

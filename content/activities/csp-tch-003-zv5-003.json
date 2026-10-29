@@ -1,0 +1,525 @@
+[
+  {
+    "slug": "zkoumani-hotovych-modelu-stavebnic",
+    "title": "Zkoumání hotových modelů a konstrukcí",
+    "aliases": [
+      "jak je to postavené",
+      "rozebrat model",
+      "prohlížení konstrukce",
+      "stavebnice",
+      "model"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Prostřednictvím manipulativní činnosti zkoumá existující modely a konstrukce.",
+        "quote": "Prostřednictvím manipulativní činnosti zkoumá existující modely a konstrukce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Konstrukce mostu",
+        "url": "https://uloziste.rvp.cz/material/86b02f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Model v rukou nemáš ani nevidí, chatbot ti ho neprozkoumá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky a videa hotových mostů nebo jeřábů ukážou, jak jsou postavené."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace na 3D modely nechá model otáčet, ale nahmatat ho musíš rukama."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Model držíš v ruce, otáčíš ho a vidíš, co se při tom hýbe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cteni-navodu-ke-stavebnici",
+    "title": "Čtení návodu a schématu ke stavebnici",
+    "aliases": [
+      "návod ke stavebnici",
+      "číst schéma",
+      "jak číst návod",
+      "montážní výkres",
+      "videonávod"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Čte návod nebo jinou jednoduchou technickou dokumentaci.",
+        "quote": "Čte návod nebo jinou jednoduchou technickou dokumentaci."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Samostatně nebo ve skupině konstruuje podle námětových karet, schémat, modelů.",
+        "quote": "Samostatně nebo ve skupině konstruuje podle námětových karet, schémat, modelů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Konstrukční činnosti se stavebnicí Merkur",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí značky ve schématu a pojmenuje součástky z popisu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videonávody a návody ke stavebnicím najdeš na webu výrobce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace ke stavebnici ukáže kroky v 3D a můžeš je přibližovat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový návod si položíš vedle stavby a prstem sleduješ kroky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2feeef46-05cf-445c-9ca1-c96a30e10106",
+      "http://data.europa.eu/esco/skill/cffc3e97-e942-4b13-a2f3-0bf4910c06d3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stavba-modelu-podle-navodu-merkur",
+    "title": "Stavba modelu podle návodu",
+    "aliases": [
+      "skládání stavebnice",
+      "montáž a demontáž",
+      "stavba podle návodu",
+      "šroubování",
+      "merkur"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Provádí jednoduché konstrukční činnosti s návodem.",
+        "quote": "Provádí jednoduché konstrukční činnosti s návodem."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Samostatně nebo ve spolupráci se spolužáky konstruuje podle jednoduché technické dokumentace.",
+        "quote": "Samostatně nebo ve spolupráci se spolužáky konstruuje podle jednoduché technické dokumentace."
+      },
+      {
+        "level": "Splněno",
+        "point": "Postupuje podle jednoduché technické dokumentace a dodržuje platný postup.",
+        "quote": "Postupuje podle jednoduché technické dokumentace a dodržuje platný postup."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Konstrukční činnosti se stavebnicí Merkur",
+        "url": ""
+      },
+      {
+        "title": "Stavba hradu",
+        "url": "https://uloziste.rvp.cz/material/77c73f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Šrouby utahuješ ty, chatbot ti model nepostaví."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hledání návodu ti nepomůže stavět, díly spojuješ rukama."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nesroubuje díly, jen ukáže další krok."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Šroubovák, klíč a stavebnice jsou to, čím model opravdu postavíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2feeef46-05cf-445c-9ca1-c96a30e10106",
+      "http://data.europa.eu/esco/skill/26071360-b2b1-4089-9c73-b51792b29ed5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nacrt-schema-modelu-stavebnic",
+    "title": "Náčrt a schéma vlastního modelu",
+    "aliases": [
+      "nakreslit model",
+      "technický výkres",
+      "náčrt konstrukce",
+      "schéma stavby",
+      "technická dokumentace"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vytváří náčrt nebo schéma modelu.",
+        "quote": "Vytváří náčrt nebo schéma modelu."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vytváří jednoduchou technickou dokumentaci dle pokynů učitele.",
+        "quote": "Vytváří jednoduchou technickou dokumentaci dle pokynů učitele."
+      },
+      {
+        "level": "Splněno",
+        "point": "Podle pokynů učitele vytváří jednoduchou technickou dokumentaci i s využitím digitálních technologií.",
+        "quote": "Podle pokynů učitele vytváří jednoduchou technickou dokumentaci i s využitím digitálních technologií."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot poradí, co do náčrtu patří, nakreslit ho ale musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky technických výkresů ti ukážou, jak se kreslí rozměry."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace umí rovné čáry a kóty, nakreslit model ale musíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka, pravítko a čtverečkovaný papír stačí na čitelný náčrt."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyzikalni-principy-ve-stavbach-houpacka",
+    "title": "Fyzikální principy v konstrukcích",
+    "aliases": [
+      "páka",
+      "stabilita",
+      "těžiště",
+      "proč se věž neřítí",
+      "pevnost konstrukce"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Seznamuje se s informacemi o principech a zákonitostech uplatňovaných při konstrukčních činnostech.",
+        "quote": "Seznamuje se s informacemi o principech a zákonitostech uplatňovaných při konstrukčních činnostech."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Samostatně nebo ve spolupráci se spolužáky aplikuje poznatky základních fyzikálních principů a přírodních zákonitostí do jednoduchých konstrukčních aktivit.",
+        "quote": "Samostatně nebo ve spolupráci se spolužáky aplikuje poznatky základních fyzikálních principů a přírodních zákonitostí do jednoduchých konstrukčních aktivit."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vytváří jednoduché technické modely a konstrukce na základě znalosti základních fyzikálních principů a přírodních zákonitostí.",
+        "quote": "Vytváří jednoduché technické modely a konstrukce na základě znalosti základních fyzikálních principů a přírodních zákonitostí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Konstrukce mostu",
+        "url": "https://uloziste.rvp.cz/material/86b02f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč je široký základ stabilní, a vymyslí příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové weby ukazují páku, těžiště nebo pevnost mostu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace ti ukáže, kdy se věž převrátí, než ji postavíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stavebnice a závaží ti ukážou, kdy se konstrukce zhroutí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+      "http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pokusy-s-materialem-stavebnic",
+    "title": "Pokusy s materiálem a způsoby spojování",
+    "aliases": [
+      "zkoušení materiálů",
+      "co udrží",
+      "spojování dílů",
+      "experiment se stavbou",
+      "papír, dřevo, kov"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Prostřednictvím řízené manipulativní činnosti experimentuje s materiálem a způsoby konstrukcí.",
+        "quote": "Prostřednictvím řízené manipulativní činnosti experimentuje s materiálem a způsoby konstrukcí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Materiál zkoušíš rukama, chatbot za tebe nic neohne ani nezatíží."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Web ti poví, jaký materiál je pevný, ale vlastnosti vyzkoušíš až při stavbě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace materiál neohne ani nezatíží, výsledek zjistíš na modelu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, špejle a lepidlo ti hned ukážou, co udrží a co se ohne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-reseni-konstrukce-jerab",
+    "title": "Vlastní úprava konstrukce",
+    "aliases": [
+      "vylepšit model",
+      "vymyslet vlastní stavbu",
+      "jeřáb",
+      "houpačka",
+      "vlastní nápad"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhuje úpravy nebo vlastní tvůrčí řešení funkční konstrukce.",
+        "quote": "Navrhuje úpravy nebo vlastní tvůrčí řešení funkční konstrukce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Stavba hradu",
+        "url": "https://uloziste.rvp.cz/material/77c73f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot navrhne, co na modelu zlepšit, rozhodnout se ale musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové konstrukce na webu ti dají nápad, co si upravit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s 3D stavebnicí nechá zkusit změnu bez rozebírání."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Díly stavebnice přestavíš a hned vidíš, jestli se model hýbe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/42b23922-1c40-4dbe-9e0c-7a568dfdf06b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "overeni-funkcnosti-konstrukce-model",
+    "title": "Zkouška funkčnosti hotového modelu",
+    "aliases": [
+      "funguje to",
+      "otestovat model",
+      "hodnocení stavby",
+      "oprava chyby",
+      "kontrola konstrukce"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Hodnotí funkčnost a správnost konstrukce/modelu.",
+        "quote": "Hodnotí funkčnost a správnost konstrukce/modelu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot z popisu poradí, co zkontrolovat, model ti ale neotestuje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Seznam obvyklých chyb ve stavbách ti řekne, kam se podívat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti model nezatíží ani nerozpohybuje, zkoušet musíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Váha, pravítko a vlastní ruka ukážou, zda model drží a hýbe se."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bezpecnost-pri-konstrukcnich-cinnostech",
+    "title": "Bezpečnost při stavění a montáži",
+    "aliases": [
+      "bezpečná práce",
+      "nářadí",
+      "úraz",
+      "pravidla v dílně",
+      "ochranné pomůcky"
+    ],
+    "outcome": "CSP-TCH-003-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Dodržuje bezpečnost a hygienu při konstrukčních činnostech.",
+        "quote": "Dodržuje bezpečnost a hygienu při konstrukčních činnostech."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Chatbot vyjmenuje pravidla, držet se jich při práci musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Pravidla bezpečné práce s nářadím si můžeš přečíst, než začneš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tě před úrazem nezachrání, opatrně pracují ruce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Brýle, rukavice a správně držený šroubovák chrání před úrazem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dcc96a49-0bac-4a9c-8f8e-a32b4e47e6eb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,387 @@
+{
+  "outcome": "CJS-CJS-001-ZV5-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "role-prezidenta-v-pribehu",
+      "title": "Role prezidenta v příběhu",
+      "aliases": [
+        "prezident",
+        "co dělá prezident",
+        "hlava státu",
+        "prezident republiky",
+        "prezident v příběhu"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše práci politiků, prezidenta, soudců a policistů na modelových situacích či příběhu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše činnost jednotlivých představitelů státu v předloženém příběhu, modelové situaci nebo mediálním sdělení."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, jakou roli měli v předložené modelové situaci či příběhu jednotliví představitelé státu"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Popíše svou představu o činnosti prezidenta, soudců a policistů a porovná své představy s předloženými příklady."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co prezident dělá, a dá ti modelový příběh k rozboru."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a stránky Hradu popisují, co prezident dělá."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádný program ti roli prezidenta nevysvětlí lépe než text."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani kalkulačka s prezidentem nic společného nemají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+      ],
+      "inspiration": [
+        "Role prezidenta",
+        "Činnosti prezidenta",
+        "Porozumění roli prezidenta"
+      ]
+    },
+    {
+      "slug": "role-politiku-ministr-premier",
+      "title": "Role vlády a politiky",
+      "aliases": [
+        "politici",
+        "ministr",
+        "premiér",
+        "předseda vlády",
+        "vláda"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše práci politiků, prezidenta, soudců a policistů na modelových situacích či příběhu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše činnost jednotlivých představitelů státu v předloženém příběhu, modelové situaci nebo mediálním sdělení."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, jakou roli měli v předložené modelové situaci či příběhu jednotliví představitelé státu"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Popíše svou představu o činnosti prezidenta, soudců a policistů a porovná své představy s předloženými příklady."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co dělá ministr a předseda vlády, a vymyslí modelovou situaci."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na stránkách vlády najdeš, kdo je ministr čeho a co dělá."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace ti nevysvětlí, k čemu jsou politici."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k tomu nic nenabízí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+      ]
+    },
+    {
+      "slug": "role-policistu-v-pribehu",
+      "title": "Role policie v příběhu",
+      "aliases": [
+        "policista",
+        "co dělá policie",
+        "policie",
+        "zákon a pořádek",
+        "policisté"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše práci politiků, prezidenta, soudců a policistů na modelových situacích či příběhu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše činnost jednotlivých představitelů státu v předloženém příběhu, modelové situaci nebo mediálním sdělení."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, jakou roli měli v předložené modelové situaci či příběhu jednotliví představitelé státu"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Popíše svou představu o činnosti prezidenta, soudců a policistů a porovná své představy s předloženými příklady."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kdy policista zasahuje a proč, a dá ti příběh k rozboru."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky policie popisují, co policisté dělají a jak se s nimi mluví."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti práci policistů nevysvětlí, ta se děje venku."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k rozboru práce policistů nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0153530-9ff3-4fe6-8f9e-012d06ac5b89",
+        "http://data.europa.eu/esco/skill/42645b84-0699-4072-b9cf-335512434b67"
+      ],
+      "inspiration": [
+        "Role policistů a soudců",
+        "Úloha soudu a policie"
+      ]
+    },
+    {
+      "slug": "role-soudcu-v-pribehu",
+      "title": "Role soudu v příběhu",
+      "aliases": [
+        "soudce",
+        "soud",
+        "co dělá soudce",
+        "spravedlnost",
+        "soudní síň"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše práci politiků, prezidenta, soudců a policistů na modelových situacích či příběhu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše činnost jednotlivých představitelů státu v předloženém příběhu, modelové situaci nebo mediálním sdělení."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, jakou roli měli v předložené modelové situaci či příběhu jednotliví představitelé státu"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Popíše svou představu o činnosti prezidenta, soudců a policistů a porovná své představy s předloženými příklady."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak soudce rozhoduje spor, a dá ti modelový soudní příběh."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu soudů a ve Wikipedii najdeš, jak soud probíhá."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace soud nevysvětlí, ten se odehrává mezi lidmi."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k rozboru práce soudců nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/db10b60e-efd2-4ba9-a873-d1e2ec37620f",
+        "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+      ],
+      "inspiration": [
+        "Role policistů a soudců",
+        "Úloha soudu a policie"
+      ]
+    },
+    {
+      "slug": "zpravy-o-prezidentovi-soudech-policii",
+      "title": "Prezident, soudy a policie ve zprávách",
+      "aliases": [
+        "zprávy v televizi",
+        "noviny",
+        "prezident ve zprávách",
+        "policie ve zprávách",
+        "mediální sdělení"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Popíše činnost jednotlivých představitelů státu v předloženém příběhu, modelové situaci nebo mediálním sdělení."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady činnosti prezidenta, soudců a policistů, se kterými se setká prostřednictvím mediálních sdělení, a vysvětlí jejich smysl."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí zprávu, které nerozumíš, a řekne, proč se to děje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Dětské zprávy a deníky ukazují, co prezident, soudy a policie řeší."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti zprávu nevysvětlí, jen ji ukáže."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj ti zprávu nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0153530-9ff3-4fe6-8f9e-012d06ac5b89",
+        "http://data.europa.eu/esco/skill/db10b60e-efd2-4ba9-a873-d1e2ec37620f"
+      ],
+      "inspiration": [
+        "Činnosti prezidenta",
+        "Úloha soudu a policie"
+      ]
+    },
+    {
+      "slug": "proc-jsou-prezident-soudci-policiste-dulezity",
+      "title": "Proč jsou státní představitelé důležití",
+      "aliases": [
+        "k čemu je prezident",
+        "k čemu je policie",
+        "proč máme soud",
+        "stát",
+        "politici ve společnosti"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vysvětlí, proč jsou ve společnosti prezident, politici, soudci, policisté důležití."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí na příkladech, co by se stalo, kdyby policie nebo soudy chyběly."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie dětem vysvětlují, k čemu stát prezidenta a soudy má."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace ti důvod nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj s tím nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71",
+        "http://data.europa.eu/esco/skill/f0153530-9ff3-4fe6-8f9e-012d06ac5b89"
+      ]
+    },
+    {
+      "slug": "moje-predstava-o-praci-statnich-predstavitelu",
+      "title": "Moje představa a skutečnost",
+      "aliases": [
+        "moje představa",
+        "co dělá prezident podle mě",
+        "porovnání představ",
+        "myšlenková mapa státu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše svou představu o činnosti prezidenta, soudců a policistů a porovná své představy s předloženými příklady."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Řekne ti, co z tvé představy sedí a co ne, a dá ti příklady na srovnání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Skutečné příklady z práce prezidenta najdeš na internetu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Svou představu si vymýšlíš ty, aplikace ji nenakreslí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír představu zapíšou, ale srovnat ji musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+      ],
+      "inspiration": [
+        "Porozumění roli prezidenta"
+      ]
+    }
+  ],
+  "aside": []
+}

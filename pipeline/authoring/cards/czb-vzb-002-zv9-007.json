@@ -1,0 +1,122 @@
+{
+  "outcome": "CZB-VZB-002-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "osobni-hygiena-a-nakazy-denni-rezim-hygiena",
+      "title": "Osobní hygiena a ochrana před nákazou",
+      "aliases": ["mytí rukou", "osobní hygiena", "infekční nemoci", "jak se nenakazit", "čistota těla"],
+      "sources": [
+        {"level": "Na začátku", "quote": "uvede a uplatňuje základní pravidla osobní hygieny"},
+        {"level": "Na začátku", "quote": "zdůvodní potřebu uplatňovat základní hygienická opatření"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, jak se nemoci přenášejí a proč pomáhá mytí rukou."},
+        "internet": {"verdict": "pomuze", "why": "Pravidla hygieny a prevence nákaz najdeš na stránkách o zdraví."},
+        "aplikace": {"verdict": "nepomuze", "why": "Ruce si umyješ ty, aplikace za tebe hygienu nedodrží."},
+        "klasicky": {"verdict": "nepomuze", "why": "Mýdlo ti nevysvětlí, proč a kdy si máš mýt ruce."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d13053b-ee35-492c-8976-8178420df398",
+        "http://data.europa.eu/esco/skill/0c944316-12f6-4949-a156-a03dbaae790f"
+      ],
+      "inspiration": ["Osobní hygiena v každodenním životě"]
+    },
+    {
+      "slug": "vyznam-hygieny-a-rezimu-pro-zdravi-regenerace",
+      "title": "Proč hygiena a denní režim chrání zdraví",
+      "aliases": ["denní režim", "duševní hygiena", "intimní hygiena", "zdravé návyky", "proč dodržovat režim"],
+      "sources": [
+        {"level": "Splněno", "quote": "Zdůvodní význam dodržování zásad tělesné a duševní hygieny a denního režimu pro zdraví."},
+        {"level": "Na cestě", "quote": "zdůvodňuje význam tělesné, duševní a intimní hygieny pro zdraví"},
+        {"level": "Na cestě", "quote": "posuzuje, nakolik mohou každodenní aktivity"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí souvislost spánku, jídla a hygieny se zdravím a zeptá se tě na příklady."},
+        "internet": {"verdict": "pomuze", "why": "Doporučení o režimu a hygieně si ověříš na stránkách o zdraví."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace na spánek nebo pití ti ukáže, jak tvůj den ovlivňuje tělo."},
+        "klasicky": {"verdict": "nepomuze", "why": "Budík ani láhev ti nevysvětlí, proč má režim vliv na zdraví."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c634630b-210b-4da5-b0f3-894cc292d6e3",
+        "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3"
+      ],
+      "inspiration": ["Zásady hygieny a podpora zdraví"]
+    },
+    {
+      "slug": "hodnoceni-pracovniho-tydne-odpocinek-spanek",
+      "title": "Hodnocení vlastního týdne a odpočinku",
+      "aliases": ["týdenní rozvrh", "spánek a odpočinek", "dost pohybu", "jak odpočívat", "režim týdne"],
+      "sources": [
+        {"level": "Splněno", "quote": "Zhodnotí, do jaké míry v průběhu vlastního pracovního týdne"},
+        {"level": "Na cestě", "quote": "zhodnotí, do jaké míry v průběhu vlastního pracovního týdne"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Projde s tebou tvůj týden a zeptá se, kde chybí pohyb, spánek nebo klid."},
+        "internet": {"verdict": "pomuze", "why": "Doporučené množství spánku a pohybu pro tvůj věk najdeš na stránkách o zdraví."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace na sledování spánku a pohybu ti ukáže, jak vypadal tvůj týden."},
+        "klasicky": {"verdict": "nepomuze", "why": "Papírový diář ti týden zapíše, ale nepoví, jestli v něm odpočíváš dost."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3",
+        "http://data.europa.eu/esco/skill/c634630b-210b-4da5-b0f3-894cc292d6e3"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "stresory-a-druhy-stresu-odpovedna-osoba",
+      "title": "Stresory a druhy stresu",
+      "aliases": ["stres", "co mě stresuje", "dlouhodobý stres", "krátkodobý stres", "komu říct o stresu"],
+      "sources": [
+        {"level": "Splněno", "quote": "Rozliší možné stresory a typ stresu"},
+        {"level": "Na cestě", "quote": "objasní na konkrétních příkladech negativní vliv stresu"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, co je krátkodobý a dlouhodobý stres, a pomůže ti najít příklady."},
+        "internet": {"verdict": "pomuze", "why": "O stresu a jeho vlivu na zdraví si přečteš na zdravotnických stránkách."},
+        "aplikace": {"verdict": "nepomuze", "why": "Co tě stresuje, poznáš ty, aplikace to z tebe nepozná."},
+        "klasicky": {"verdict": "nepomuze", "why": "Žádný nástroj za tebe stres nepoznává ani neřeší, mluvíš o něm s lidmi."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/49e1eb78-e6b1-4116-8e9f-f23316ee503e",
+        "http://data.europa.eu/esco/skill/d15f8745-28f8-4abf-a7b6-6cb8a304efd2"
+      ],
+      "inspiration": ["Překážky, těžkosti a radosti"]
+    },
+    {
+      "slug": "relaxacni-techniky-psychohygiena-kompenzace",
+      "title": "Relaxační a kompenzační techniky",
+      "aliases": ["relaxace", "uvolnění", "dechová cvičení", "protažení", "jak se zklidnit"],
+      "sources": [
+        {"level": "Splněno", "quote": "Předvede a uplatňuje kompenzační a relaxační techniky"},
+        {"level": "Na cestě", "quote": "nacvičuje kompenzační a relaxační techniky"},
+        {"level": "Na začátku", "quote": "popíše prvky duševní hygieny"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Popíše postup dechového cvičení nebo protažení a navrhne, kdy se hodí."},
+        "internet": {"verdict": "pomuze", "why": "Návody na relaxaci a protažení najdeš na stránkách o zdraví a cvičení."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace s dechovým cvičením ti vede tempo a hlídá čas."},
+        "klasicky": {"verdict": "nepomuze", "why": "Uvolnit se musíš ty, podložka ani míč to za tebe neudělají."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b0f4dea9-2a99-449e-b042-9afada464cb1",
+        "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3"
+      ],
+      "inspiration": ["Kompenzační a relaxační techniky"]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Popíše význam tělesné, intimní a duševní hygieny", "code": "O3", "refs": []},
+    {"level": "Na cestě", "start": "cíleně upevňuje zdravotně preventivní návyky", "code": "O2", "refs": []},
+    {"level": "Na cestě", "start": "rozvíjí dovednosti potřebné k regeneraci", "code": "O2", "refs": []},
+    {"level": "Na cestě", "start": "účastní se aktivit cílených na rozvoj sociálních dovedností", "code": "O2", "refs": []}
+  ]
+}

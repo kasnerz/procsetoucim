@@ -1,0 +1,429 @@
+[
+  {
+    "slug": "domacnost-vybaveni-prehled",
+    "title": "Technické vybavení domácnosti a k čemu slouží",
+    "aliases": [
+      "spotřebiče v domácnosti",
+      "vybavení domácnosti",
+      "kuchyňské spotřebiče",
+      "k čemu je spotřebič"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "orientuje se v základním technickém vybavení pro péči o domácnost",
+        "quote": "orientuje se v základním technickém vybavení pro péči o domácnost"
+      },
+      {
+        "level": "Na začátku",
+        "point": "upevňuje porozumění funkcím technického vybavení využívaného při péči o domácnost",
+        "quote": "upevňuje porozumění funkcím technického vybavení využívaného při péči o domácnost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu spotřebiče slouží, a vymyslí otázky na procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a návody ukážou spotřebiče s obrázky a popisem funkce."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti spotřebiče doma neukáže a nenaučí tě je poznat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový návod k obsluze říká, k čemu spotřebič slouží a jak se používá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a031363f-f190-4449-96ee-4b347b077324",
+      "http://data.europa.eu/esco/skill/5033c2fb-ec55-4b8e-b0a4-9379593f1e1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "domacnost-pouzivani-spotrebicu",
+    "title": "Používání spotřebičů a nářadí v domácnosti",
+    "aliases": [
+      "vaření na sporáku",
+      "pračka",
+      "vysavač",
+      "běžná údržba domácnosti",
+      "úklid"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Provádí úkony spojené s běžnou údržbou domácnosti, používá základní technické vybavení domácnosti včetně kuchyňských spotřebičů.",
+        "quote": "používá základní technické vybavení domácnosti včetně kuchyňských spotřebičů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě praktických zkušeností účelně využívá a ovládá základní technické vybavení pro péči o domácnost.",
+        "quote": "účelně využívá a ovládá základní technické vybavení pro péči o domácnost"
+      },
+      {
+        "level": "Na začátku",
+        "point": "účelně využívá vybraných nástrojů, nářadí a pomůcek při běžných situacích v chodu domácnosti",
+        "quote": "účelně využívá vybraných nástrojů, nářadí a pomůcek při běžných situacích v chodu domácnosti"
+      },
+      {
+        "level": "Na cestě",
+        "point": "získává praktické zkušenosti s využitím a kombinací vybraných nástrojů, nářadí a pomůcek pro péči o domácnost",
+        "quote": "získává praktické zkušenosti s využitím a kombinací vybraných nástrojů, nářadí a pomůcek pro péči o domácnost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Manipulace a údržba vysavače",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Spotřebič obsluhuješ rukama ty, chatbot ho za tebe nezapne ani nenastaví."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návod k modelu najdeš online, třeba když ztratíš papírový."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Spotřebič nastavuješ na něm samotném, aplikace s tím nepomůže."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Návod k obsluze a kuchyňská váha nebo minutka ti pomůžou spotřebič používat správně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a031363f-f190-4449-96ee-4b347b077324"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "domacnost-udrzba-a-drobne-opravy",
+    "title": "Údržba a drobné opravy v domácnosti",
+    "aliases": [
+      "opravy doma",
+      "údržba spotřebiče",
+      "oprava v domácnosti",
+      "výměna žárovky",
+      "čištění vysavače"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Provádí úkony spojené s běžnou údržbou domácnosti, používá základní technické vybavení domácnosti včetně kuchyňských spotřebičů.",
+        "quote": "Provádí úkony spojené s běžnou údržbou domácnosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Provádí jednoduché opravy a údržbu technického vybavení v domácnosti.",
+        "quote": "Provádí jednoduché opravy a údržbu technického vybavení v domácnosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak na drobné opravy",
+        "url": "https://uloziste.rvp.cz/material/231a9b"
+      },
+      {
+        "title": "Manipulace a údržba vysavače",
+        "url": ""
+      },
+      {
+        "title": "Drobné opravy v domácnosti pomocí 3D tisku",
+        "url": "https://uloziste.rvp.cz/material/18894d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše postup opravy po krocích a poradí, co zkusit, když něco nefunguje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videonávody a servisní příručky ukážou postup u konkrétního spotřebiče."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Opravit a vyčistit něco musíš rukama ty, aplikace to neudělá."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Šroubovák, kleště a papírový návod potřebuješ k samotné opravě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5033c2fb-ec55-4b8e-b0a4-9379593f1e1c",
+      "http://data.europa.eu/esco/skill/aeb5c424-120a-4d80-82a9-e24c5044714c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "domacnost-jak-spotrebice-funguji",
+    "title": "Jak fungují domácí spotřebiče",
+    "aliases": [
+      "princip spotřebiče",
+      "jak funguje pračka",
+      "jak funguje lednička",
+      "fyzika v domácnosti"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozumí základním principům fungování technického vybavení domácnosti s využitím poznatků z různých vědních oborů (STEM, STEAM).",
+        "quote": "Rozumí základním principům fungování technického vybavení domácnosti"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vysvětluje principy fungování technického vybavení využívaného při péči o domácnost",
+        "quote": "vysvětluje principy fungování technického vybavení využívaného při péči o domácnost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí princip spotřebiče jednoduše a ověří, jestli ho umíš vysvětlit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a výukové videa ukážou, co je uvnitř spotřebiče a jak pracuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Výukové aplikace obvykle nepokrývají principy konkrétních spotřebičů."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Starý rozebraný spotřebič a encyklopedie ti ukážou součástky, které v něm pracují."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a031363f-f190-4449-96ee-4b347b077324"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "domacnost-porovnani-vybaveni",
+    "title": "Porovnání vybavení domácnosti",
+    "aliases": [
+      "co koupit do domácnosti",
+      "energetický štítek",
+      "úspora energie",
+      "spotřebič nebo druhý spotřebič",
+      "kolik spotřebič stojí"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě analýzy hodnotí základní technické vybavení pro péči o domácnost.",
+        "quote": "Na základě analýzy hodnotí základní technické vybavení pro péči o domácnost"
+      },
+      {
+        "level": "Na cestě",
+        "point": "srovnává dostupné možnosti technického vybavení domácnosti",
+        "quote": "srovnává dostupné možnosti technického vybavení domácnosti"
+      },
+      {
+        "level": "Na cestě",
+        "point": "analyzuje a posuzuje základní technické vybavení pro péči o domácnost",
+        "quote": "analyzuje a posuzuje základní technické vybavení pro péči o domácnost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne kritéria srovnání, třeba spotřebu, cenu a bezpečnost, a zkontroluje tvůj závěr."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Srovnávače cen, recenze a energetické štítky dávají údaje, ze kterých vybíráš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka ti spočítá roční náklady na provoz dvou spotřebičů vedle sebe."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka spočítá spotřebu a cenu, papír s tabulkou srovnání zpřehlední."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/83fc0b2b-6cd2-46af-b1ff-d3fc83604c26",
+      "http://data.europa.eu/esco/skill/a031363f-f190-4449-96ee-4b347b077324"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "domacnost-kontrola-funkcnosti",
+    "title": "Kontrola, jestli spotřebič funguje správně",
+    "aliases": [
+      "spotřebič nefunguje",
+      "zkouška spotřebiče",
+      "co je špatně se spotřebičem",
+      "závada"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "ověřuje, zda technické zařízení v domácnosti funguje správným způsobem",
+        "quote": "ověřuje, zda technické zařízení v domácnosti funguje správným způsobem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou, co zkontrolovat, když spotřebič nefunguje, a v jakém pořadí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návod k modelu a tabulka chybových hlášení říkají, co značí kontrolka nebo kód."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Funkci spotřebiče ověříš zkouškou na něm, aplikace ji zkoušet nemůže."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zkoušečka, teploměr nebo hodinky ukážou, jestli spotřebič dělá, co má."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5033c2fb-ec55-4b8e-b0a4-9379593f1e1c",
+      "http://data.europa.eu/esco/skill/a031363f-f190-4449-96ee-4b347b077324"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "domacnost-bezpecnost-a-hygiena",
+    "title": "Bezpečnost a hygiena při práci v domácnosti",
+    "aliases": [
+      "bezpečnost doma",
+      "úraz elektřinou",
+      "pravidla bezpečné práce",
+      "hygiena při úklidu"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "bezpečně manipuluje se základními nástroji, nářadím a pomůckami v modelových situacích",
+        "quote": "bezpečně manipuluje se základními nástroji, nářadím a pomůckami v modelových situacích"
+      },
+      {
+        "level": "Na začátku",
+        "point": "zná a dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele",
+        "quote": "zná a dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele"
+      },
+      {
+        "level": "Na cestě",
+        "point": "dodržuje a zdůvodňuje nezbytnost dodržování zásad bezpečnosti a hygieny práce",
+        "quote": "dodržuje a zdůvodňuje nezbytnost dodržování zásad bezpečnosti a hygieny práce"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvědomuje si rizika práce s technickým vybavením v domácnosti a dbá na bezpečnost a hygienu při manipulaci.",
+        "quote": "dbá na bezpečnost a hygienu při manipulaci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se pravidla dodržují, a vymyslí situace k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Bezpečnostní pokyny výrobců a hasičů popisují rizika a správný postup."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Bezpečně pracuješ rukama ty, aplikace tě neochrání před úrazem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Ochranné rukavice, brýle a značky na nářadí tě chrání při práci."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5033c2fb-ec55-4b8e-b0a4-9379593f1e1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Text, který odevzdáš nebo pošleš, nese tvoje jméno, i když s ním pomáhal počítač. Proto se učíš po sobě číst: najít překlepy a pravopisné chyby a zkontrolovat, jestli text splnil zadání, téma a rozsah. Kontrola pravopisu a chatbot najdou hodně chyb, ale nepoznají, jestli text říká to, co chceš říct. Pečlivé čtení po sobě je denní práce korektorů a lidí, kteří připravují texty firem, a hodí se každému, kdo píše přihlášku nebo zprávu do práce.",
+  "learnWithAi": [
+    {
+      "title": "Text se schovanými chybami",
+      "text": "Požádej chatbota o krátký text s deseti schovanými chybami. Najdi je dřív, než ti řekne, kde byly, a sleduj, které druhy chyb přehlížíš nejčastěji."
+    },
+    {
+      "title": "Chyby označené, ale neopravené",
+      "text": "Vlož chatbotovi svůj sloh a popros ho, ať chyby jen označí, ne opraví. Opravy dopiš ty a nech si je zkontrolovat."
+    },
+    {
+      "title": "Hodnocení podle zadání",
+      "text": "Napiš chatbotovi zadání úlohy i svůj text a nech ho posoudit, jestli splňuje téma a rozsah. Když s jeho hodnocením nesouhlasíš, zkus ho přesvědčit vlastními argumenty."
+    }
+  ]
+}

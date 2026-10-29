@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Neznámé slovo v knize tě nemusí zastavit: z okolní věty a z části slova, kterou znáš, často odhadneš, co znamená. Krátký pohled do slovníku pak odhad potvrdí, nebo opraví. Takhle čtou zkušení čtenáři i překladatelé, kteří hádají z kontextu a ověřují tam, kde na přesném významu záleží. Chatbot i slovníková aplikace ti význam řeknou hned, bez vlastního odhadu se ale čtení pořád zastavuje a hádat z kontextu se nenaučíš. Ověřování taky učí, že první nápad nemusí být správný, ať je tvůj, nebo chatbotův.",
+  "learnWithAi": [
+    {
+      "title": "Neznámé slovo ve větě",
+      "text": "Poproste chatbota o větu s neobvyklým slovem, které neznáš. Nejdřív zkus s rodičem odhadnout jeho význam z věty a teprve potom si ho nechte vysvětlit."
+    },
+    {
+      "title": "Příběh s vymyšlenými slovy",
+      "text": "Nechte chatbota napsat krátký příběh s několika vymyšlenými slovy. Z příběhu odhadni, co asi znamenají, a porovnej to s tím, co chatbot zamýšlel."
+    },
+    {
+      "title": "Slova z rozečtené knihy",
+      "text": "Zapiš si s rodičem slova, která tě zarazila při čtení, a ke každému svůj odhad. Potom porovnejte odhad, vysvětlení od chatbota a tištěný slovník a všimněte si, kde se liší."
+    }
+  ]
+}

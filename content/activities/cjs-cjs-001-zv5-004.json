@@ -1,0 +1,280 @@
+[
+  {
+    "slug": "zakladni-udaje-o-cr-misto",
+    "title": "Základní údaje o České republice",
+    "aliases": [
+      "česká republika",
+      "co je v česku",
+      "hlavní město Praha",
+      "státní symboly",
+      "naše země"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uvede základní informace o České republice.",
+        "quote": "Uvede základní informace o České republice."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co o Česku stojí za zapamatování, a pozná tvoje odpovědi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie dají ověřené údaje o Česku."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kvízy o Česku ti dají procvičování po částech."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas a učebnice mají přehledně pohromadě mapu i údaje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "specifika-meho-regionu-misto",
+    "title": "Čím je zvláštní můj region",
+    "aliases": [
+      "můj kraj",
+      "naše obec",
+      "region kde žiju",
+      "jedinečnost regionu",
+      "památky v okolí"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše specifika regionu, v němž žije.",
+        "quote": "Popíše specifika regionu, v němž žije."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jedinečnost regionu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá otázky, podle kterých region popíšeš, a ukáže, co jsi vynechal."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky obce a kraje mají historii, přírodu i zajímavá místa."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa v telefonu ukáže řeky, lesy a města okolo tebe."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mapa regionu a regionální atlas ukážou, co je u vás typické."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stejne-a-jine-moje-misto",
+    "title": "Čím se moje místo liší a v čem je podobné",
+    "aliases": [
+      "moje město oproti jiným",
+      "podobné a rozdílné",
+      "kde bydlím",
+      "srovnání s jinými místy"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše, v čem je místo jeho bydliště oproti ostatním místům na Zemi / v Evropě / v ČR odlišné a v čem je stejné či podobné.",
+        "quote": "Popíše, v čem je místo jeho bydliště oproti ostatním místům na Zemi / v Evropě / v ČR odlišné a v čem je stejné či podobné."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Můj dům",
+        "url": "https://uloziste.rvp.cz/material/f24632"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, co je u vás jiné, a pomůže ti najít podobnosti."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Údaje a fotky jiných míst ti dají s čím své srovnat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa s družicovým pohledem ukáže, jak vypadají jiná místa."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas světa dá vedle sebe krajinu, města a podnebí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718",
+      "http://data.europa.eu/esco/skill/7d594881-a9b4-4d4c-8a8b-75082c136b78"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-dvou-uzemi-vlastnosti",
+    "title": "Porovnání dvou území podle vlastností",
+    "aliases": [
+      "porovnat dva státy",
+      "dvě území",
+      "tabulka srovnání",
+      "co je typické pro stát"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Porovná dvě území z hlediska vybraných charakteristik.",
+        "quote": "Porovná dvě území z hlediska vybraných charakteristik."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše a porovná dvě území z hlediska vybraných charakteristik a možných důsledků na přírodu a život lidí v nich.",
+        "quote": "Popíše a porovná dvě území z hlediska vybraných charakteristik"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Porovnáváme dvě území",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, podle čeho území srovnat, a zkontroluje tvoji tabulku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Údaje o rozloze, podnebí a lidech najdeš v encyklopediích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program ti srovná čísla dvou území vedle sebe."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas má mapy podnebí a hustoty lidí ke srovnání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dusledky-vlastnosti-uzemi-zivot",
+    "title": "Jak území ovlivňuje přírodu a život lidí",
+    "aliases": [
+      "důsledky pro život lidí",
+      "proč tam lidé žijí jinak",
+      "příroda a lidé",
+      "povolání v okolí"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše a porovná dvě území z hlediska vybraných charakteristik a možných důsledků na přírodu a život lidí v nich.",
+        "quote": "možných důsledků na přírodu a život lidí v nich."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Povolání v naší obci",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co z čeho plyne, a vysvětlí souvislosti, které ti nedávají smysl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a fotky ukážou, jak lidé v horách či u moře žijí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Souvislosti mezi krajinou a životem lidí musíš vymyslet ty, aplikace je nenajde."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas se mapami půdy, hor a hospodářství ukáže, co kde lidé dělají."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718",
+      "http://data.europa.eu/esco/skill/7d594881-a9b4-4d4c-8a8b-75082c136b78"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,394 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dejmapy-sidlo-a-krajina-v-etape",
+      "title": "Sídlo a krajina v dějinné etapě",
+      "aliases": [
+        "jak vypadala vesnice",
+        "pravěké sídlo",
+        "středověké město",
+        "krajina v minulosti",
+        "jak se žilo dřív"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše, jak vypadalo lidské sídlo a krajina v příslušné dějinné etapě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí, jak vypadala osada či hrad, a ty to pak popíšeš po svém."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie mají popisy a rekonstrukce sídel z každé doby."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s historickými mapami ukáže, jak místo vypadalo dřív."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Popis sídla vymýšlíš ty, klasická pomůcka k tomu nic nedá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+      ],
+      "inspiration": [
+        "Jak žili lidé v polis?",
+        "Jak vypadala raně středověká Evropa?"
+      ]
+    },
+    {
+      "slug": "dejmapy-legenda-historicke-mapy",
+      "title": "Legenda a prvky historické mapy",
+      "aliases": [
+        "legenda mapy",
+        "značky na mapě",
+        "hranice na mapě",
+        "měřítko mapy",
+        "barvy na mapě"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Orientuje se v legendě mapy."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "definuje pojmy a prvky spojené s prací s mapou (legenda, hranice, sídla, škály, barevné rozlišení)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co značí symboly a barvy, a zkouší tě na příkladech."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výklady o čtení map vysvětlují značky a měřítko."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se starými mapami ukazuje legendu a umožní přepínat vrstvy."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas má legendu přímo na stránce a značky si v něm projdeš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+        "http://data.europa.eu/esco/skill/2dfa5bd5-c87c-461c-bce9-69b2c58732bd"
+      ],
+      "inspiration": [
+        "Co se u nás změnilo za 200 let?"
+      ]
+    },
+    {
+      "slug": "dejmapy-hledani-v-mape-z-obdobi",
+      "title": "Hledání informací v mapách z různých období",
+      "aliases": [
+        "najít na mapě",
+        "stará mapa",
+        "mapa z minulosti",
+        "vyhledat město na mapě"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyhledá v jednoduchých mapách z různých období požadované informace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Mapu čteš ty, chatbot ji za tebe nepřečte ani nenajde v ní to, co hledáš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Archivy a mapové portály nabízejí skeny starých map k prohlížení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se starými mapami ti ukáže místo v různých dobách vedle sebe."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas dějin a nástěnná mapa se dají prohlížet a ukazovat prstem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Proměny města Zlína"
+      ]
+    },
+    {
+      "slug": "dejmapy-porovnani-dvou-map-stejneho-mista",
+      "title": "Porovnání map stejného místa z různých dob",
+      "aliases": [
+        "porovnat mapy",
+        "rozdíly mezi mapami",
+        "co se změnilo",
+        "dvě mapy",
+        "stanovisko autora mapy"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Porovná dvě mapy stejné lokace, vyhledá odlišnosti."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "S pomocí vyučujícího porovná různé mapy z různých časových období a určí stanovisko autorů map."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti pomůže vymyslet, v čem se mapy mohou lišit, a ty to ověříš na mapách."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdroje o vzniku mapy napoví, kdo ji kreslil a proč."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s posuvníkem mezi starou a novou mapou ukáže rozdíly hned."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dvě papírové mapy vedle sebe můžeš přikládat a srovnávat rukou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Proměny města Zlína",
+        "Co se u nás změnilo za 200 let?"
+      ]
+    },
+    {
+      "slug": "dejmapy-mapa-jako-historicky-pramen",
+      "title": "Mapa jako historický pramen",
+      "aliases": [
+        "pramen",
+        "historický pramen",
+        "co mapa říká",
+        "otázky k mapě",
+        "proč mapa vznikla"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vysvětlí význam mapy jako pramene historikovy práce"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Využije mapu jako historický pramen, který dokáže zodpovědět otázky vyučujícího"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Používá mapu jako pramen, který odpovídá na žákem položené otázky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co je pramen, a pomůže ti vymyslet otázky, které mapě položíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručky pro dějepis popisují, jak se s historickými mapami pracuje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace mapu zobrazí, ale otázky k ní si klást musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádná pomůcka za tebe neodpoví, co z mapy plyne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Jak mohou národnostní mapy ovlivňovat naše představy o tom, kdo žije na určitém území a komu toto území “patří”?"
+      ]
+    },
+    {
+      "slug": "dejmapy-co-mapa-neprozradi",
+      "title": "Na co se mapou odpovědět dá a na co ne",
+      "aliases": [
+        "omezení mapy",
+        "co z mapy nevyčtu",
+        "otázky k mapě",
+        "co mapa neukáže"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Odliší otázky, na které můžeme získat odpovědi z map, od toho, co z map vyčíst nemůžeme."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti dá příklady otázek, ty je roztřídíš na ty, které mapa zodpoví, a ostatní."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výklady o práci s prameny ukazují, co mapa neříká."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti nepoví, na co se z mapy odpovědět nedá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani atlas neřeknou, co se z mapy vyčíst dá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+      ]
+    },
+    {
+      "slug": "dejmapy-popis-mapy-a-doklady",
+      "title": "Popis mapy a doložení závěrů dalšími zdroji",
+      "aliases": [
+        "popsat mapu",
+        "co vidím na mapě",
+        "doložit závěr",
+        "další zdroje k mapě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše, co na mapě vidí, jaký to má význam pro jeho poznávání minulosti a které další mapové podklady nebo zdroje mu mohou pomoci vyslovené závěry doložit."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti poradí, kde hledat další zdroje, a ty zkontroluješ, co v nich opravdu stojí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Archivy, knihovny a Wikipedie nabízejí další mapy i texty k tématu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace závěry nedoloží, zdroje porovnáváš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Atlas dá jen další mapu, doložit závěr musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+      ]
+    },
+    {
+      "slug": "dejmapy-zmeny-v-case-a-udalosti",
+      "title": "Změny na mapách a historické události",
+      "aliases": [
+        "změny na mapě",
+        "vznik státu",
+        "hranice států",
+        "války a hranice",
+        "růst měst",
+        "industrializace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Na mapách ukáže, k jakým změnám v průběhu času došlo (např. formování politických celků, urbanizace, industrializace) a propojí své závěry s historickými událostmi (války, územní nároky, diplomatická jednání a závěry, motivace lidí žijících v daném regionu)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na mapách ukáže, k jakým změnám v průběhu času došlo, a propojí své závěry s historickými událostmi (války, územní nároky, diplomatická jednání a závěry, motivace lidí žijících v daném regionu)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč se hranice posunuly, změnu na mapě ale hledáš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie popisují války a dohody, kvůli kterým se hranice měnily."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s časovou osou ukáže, jak se hranice a města v čase měnily."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas dějin ukazuje změny na řadě map za sebou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+      ],
+      "inspiration": [
+        "Co se u nás změnilo za 200 let?",
+        "Proměny města Zlína"
+      ]
+    }
+  ],
+  "aside": []
+}

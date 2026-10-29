@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Výsledek vlastního pokusu má cenu, když víš, jestli sedí s tím, co už zjistili jiní. Když se tvůj závěr od učebnice liší, nemusí jít o chybu: můžeš mít málo měření, jiné podmínky, nebo může chybovat zdroj. Tohle srovnávání se ti hodí pokaždé, když čteš zprávu, ve které někdo tvrdí, že něco zjistil. Lidé ve výzkumu, v biomedicíně nebo v laboratořích to dělají u každého výsledku. Chatbot ti rychle shrne, co se o jevu ví, i on je ale jen další zdroj, který se může plést, takže jeho shrnutí porovnej s encyklopedií nebo učebnicí.",
+  "learnWithAi": [
+    {
+      "title": "Ověřování vět chatbota",
+      "text": "Zeptej se chatbota, co o tvém jevu říká věda, a u každé jeho věty dohledej, jestli ji potvrdí učebnice nebo odborný web. Věty bez opory si označ."
+    },
+    {
+      "title": "Možné důvody rozdílu",
+      "text": "Když ti vyšlo něco jiného než v učebnici, popiš chatbotovi svůj postup a nech si navrhnout, čím se rozdíl mohl stát. Které možnosti u tebe opravdu platí, posoudíš ty."
+    },
+    {
+      "title": "Výsledek ve třech zdrojích",
+      "text": "Napiš svůj závěr a porovnej ho s učebnicí, encyklopedií a odpovědí chatbota. Zapiš, v čem se shodují, a rozhodni, kterému zdroji věříš víc a proč."
+    }
+  ]
+}

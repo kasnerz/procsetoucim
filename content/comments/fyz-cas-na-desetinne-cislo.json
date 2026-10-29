@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Jakmile se s časem násobí nebo dělí, potřebuješ ho jako desetinné číslo: rychlost v kilometrech za hodinu spočítáš z 0,75 h, ze 45 minut přímo ne. Stejně se počítá výplata za brigádu placenou od hodiny. Lidé, kteří sestavují rozpočty výroby, takhle násobí čas práce hodinovou sazbou běžně. Kalkulačka 45 vydělí 60 za tebe, musíš ale vědět, že se dělí šedesáti, a ne stem. Častá chyba je zapsat 1 h 30 min jako 1,3 h a tu kalkulačka sama nepozná.",
+  "learnWithAi": [
+    {
+      "title": "Minuty na desetiny hodiny",
+      "text": "Požádej chatbota o patnáct časů typu 1 h 12 min a převáděj je na hodiny. Odpovědi mu pošli najednou a nech si vysvětlit ty chybné."
+    },
+    {
+      "title": "Opačný převod na minuty",
+      "text": "Ať ti chatbot dává desetinná čísla jako 2,4 h a ty je převádíš zpátky na hodiny a minuty. Když nevíš, nech si ukázat jen první krok."
+    },
+    {
+      "title": "Výplata za týden brigády",
+      "text": "Nech chatbota vymyslet týden brigády s různě dlouhými směnami a hodinovou mzdou. Výplatu spočítej a výpočet ověř kalkulačkou, AI se u delších výpočtů může splést."
+    }
+  ]
+}

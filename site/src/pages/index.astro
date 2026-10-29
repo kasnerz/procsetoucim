@@ -1,0 +1,333 @@
+---
+import Base from "../layouts/Base.astro";
+import Search from "../components/Search.astro";
+import Logo from "../components/Logo.astro";
+import Icon from "../components/Icon.astro";
+import Paper from "../components/Paper.astro";
+import SectionHead from "../components/SectionHead.astro";
+import WorryPosts from "../components/WorryPosts.astro";
+import AboutBlock from "../components/AboutBlock.astro";
+import SubjectRooms from "../components/SubjectRooms.astro";
+import ToolMarks from "../components/ToolMarks.astro";
+import AiLevel from "../components/AiLevel.astro";
+import Bars from "../components/charts/Bars.astro";
+import { activities, outcomes, measures, occupations, iloLevel, relevance, useLevel, TOOLS, subjectIcon, subjectSlug } from "../lib/data";
+
+const base = import.meta.env.BASE_URL;
+const doneOutcomes = new Set(activities.map((a) => a.outcome));
+const totalOutcomes = Object.values(outcomes).filter((o) => o.kind === "obor").length;
+const n = activities.length;
+// The subtitle's last word: what could do it for you. Takes turns, AI chatbot first (and the only
+// one with reduced motion).
+const DOERS = ["AI chatbot", "vyhledávač", "aplikace", "kalkulačka"];
+// Starting points (user 2026-10-20): a row of four cards and a row of four occupations, drawn at random on every visit by the script
+// below from pools embedded as JSON. The server renders a first draw (one card from each of four subjects, the first
+// occupations) for visitors without JavaScript; the script refills the same paper slots.
+const picks = activities
+  .filter((a, i, arr) => arr.findIndex((x) => outcomes[x.outcome]?.subject.code === outcomes[a.outcome]?.subject.code) === i)
+  .slice(0, 4);
+const tmKey = (a: (typeof activities)[number]) => TOOLS.map((t) => (a.tools[t.id].verdict === "pomuze" ? "1" : "0")).join("");
+const subjCodes = [...new Set(activities.map((a) => outcomes[a.outcome]?.subject.code).filter(Boolean))] as string[];
+const cardPool = activities.map((a) => {
+  const o = outcomes[a.outcome];
+  return { s: a.slug, t: a.title, c: subjCodes.indexOf(o?.subject.code ?? ""), n: o?.subject.name ?? "", m: tmKey(a) };
+});
+const tmSamples = [...new Map(activities.map((a) => [tmKey(a), a])).values()];
+// Occupations that use a card's skill often or constantly (Jev estimate, rounded), each once, with that card.
+const occSeen = new Set<string>();
+const occPool = activities.flatMap((a) => {
+  const rel = relevance(a.slug);
+  return (measures[a.slug]?.topOccupations ?? []).slice(0, 2).flatMap((id) => {
+    const lvl = useLevel(rel[id] ?? 0);
+    if (lvl < 3 || occSeen.has(id) || !occupations[id] || iloLevel(occupations[id]) < 0) return [];
+    occSeen.add(id);
+    return [{ id, l: occupations[id].label, ai: iloLevel(occupations[id]) }];
+  });
+});
+const occPicks = occPool.slice(0, 4);
+// One occupation per AI level, rendered into templates the random draw copies from.
+const aiSamples = [0, 1, 2, 3].map((l) => Object.values(occupations).find((o) => iloLevel(o) === l)).filter(Boolean);
+// "Rozebrané věci v číslech" (user 2026-10-29, replaced a histogram of worker shares and the per-tool stacks): three
+// figures a reader can click through, each with its own colour: the cards most used at work (blue), the occupations
+// with the widest reach (raspberry), cards no tool helps with (grey, rightmost; user 2026-10-29).
+// Cards no tool helps with (our tool verdicts); the page shows a fresh random handful of them, in no order.
+const noTool = activities.filter((a) => TOOLS.every((t) => a.tools[t.id].verdict !== "pomuze"));
+// How often each card is used at work: occupations that use it often or constantly (Jev level 3-4). The cards with the
+// most such occupations, one per subject; the occupations with the most such cards, one per ISCO 4-digit group.
+const often = activities.map((a) => ({ a, occs: Object.entries(relevance(a.slug)).filter(([, v]) => useLevel(v) >= 3).map(([id]) => id) }));
+const subjSeen = new Set<string>();
+const usedRows = often.slice().sort((x, y) => y.occs.length - x.occs.length)
+  .filter(({ a }) => { const c = outcomes[a.outcome]?.subject.code ?? ""; return !subjSeen.has(c) && !!subjSeen.add(c); }).slice(0, 5)
+  .map(({ a, occs }) => ({ label: a.title, value: occs.length, display: `${occs.length}`, href: `${base}aktivita/${a.slug}/` }));
+const perOcc = new Map<string, number>();
+for (const { occs } of often) for (const id of occs) perOcc.set(id, (perOcc.get(id) ?? 0) + 1);
+const groupSeen = new Set<string>();
+const occRows = [...perOcc.entries()].filter(([id]) => occupations[id]).sort((x, y) => y[1] - x[1])
+  .filter(([id]) => { const g = occupations[id].isco4; return !groupSeen.has(g) && !!groupSeen.add(g); }).slice(0, 5)
+  .map(([id, c]) => ({ label: occupations[id].label, value: c, display: `${c}`, href: `${base}povolani/${id}/` }));
+---
+<Base search={false} home>
+  <div class="wrap home">
+    <section class="hero" aria-labelledby="h">
+      <div class="hero-main">
+      <div class="board">
+      <hgroup class="titles">
+        <span class="board-logo" aria-hidden="true"><Logo size={80} uid="board" /></span>
+        <h1 id="h">Proč se<br /> to <Paper as="span" kind="grid" seed="hero/ucim" tilt={0} depth={3} tone="#fff" class="ucim">učím?</Paper></h1>
+        <p class="sub">
+          <span class="visually-hidden">…když to za mě udělá AI chatbot, vyhledávač, aplikace nebo kalkulačka?</span>
+          <span aria-hidden="true">…když to za mě udělá <span class="doers" data-doers>{DOERS.map((d, i) => <span class:list={["doer", { off: i > 0 }]}><span class="hl purple"><span class="t">{d}</span></span></span>)}<span class="sponge"><svg viewBox="0 0 48 30"><path d="M5 9.5C5 6.6 6.8 5 9.6 5.1L38.6 4.6C41.6 4.6 43.3 6.4 43.2 9.3L42.9 21.4C42.8 24.2 41 25.6 38.3 25.6L9.4 25.9C6.6 25.9 5 24.3 5.1 21.5Z" fill="#e8cf66" stroke="#1f2430" stroke-width="1.4" stroke-linejoin="round" /><path d="M5.3 20.2C17 19.6 31 20.1 42.9 19.7L42.8 21.6C42.7 24.3 41 25.6 38.3 25.6L9.4 25.9C6.7 25.9 5.1 24.3 5.2 21.6Z" fill="#4f6a52" stroke="#1f2430" stroke-width="1.2" stroke-linejoin="round" /><g fill="#c7a83f"><ellipse cx="12" cy="10" rx="1.6" ry="1.1" /><ellipse cx="19.5" cy="13.2" rx="1.1" ry=".8" /><ellipse cx="27" cy="9" rx="1.4" ry="1" /><ellipse cx="34.5" cy="12.6" rx="1.7" ry="1.1" /><ellipse cx="15" cy="15.8" rx=".9" ry=".7" /><ellipse cx="39" cy="8.6" rx=".9" ry=".7" /><ellipse cx="23.5" cy="16.2" rx="1.2" ry=".8" /><ellipse cx="31" cy="16.4" rx=".8" ry=".6" /></g></svg></span></span></span>
+        </p>
+      </hgroup>
+      <svg class="tray" viewBox="0 0 260 22" aria-hidden="true" focusable="false"><g fill="none" stroke="#1f2430" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.6C70 9.1 170 10 258 9.4L255.6 16.2C170 16.8 80 16 5 16.6Z" fill="#f8f8f8" /><path d="M46 8.4C46 5.6 47 4.4 49 4.4H86.6C88.4 4.4 89.2 5.6 89.2 8.4" /><path d="M36.4 8.2C36.6 6.4 37.4 5.4 39 5.4H46" /><path d="M171 8.4C171 5.5 172 4.3 174 4.3H211.4C213.2 4.3 214 5.5 214 8.4" /><path d="M214 5.3H221C222.6 5.3 223.4 6.3 223.6 8.2" /></g><path d="M37 8.4C37.2 6.6 38 5.8 39.2 5.8H45.6V8.6Z" fill="#a51f2d" /><path d="M214.4 5.8H220.8C222 5.8 222.8 6.6 223 8.4L214.4 8.6Z" fill="#1d3f8f" /><path d="M50 7.6L86 7.2M175 7.5L211 7.1" stroke="#a9aeb5" stroke-width="1" stroke-linecap="round" /></svg>
+      </div>
+      <div class="hero-search" data-search-page><Search big /></div>
+      </div>
+      <WorryPosts />
+    </section>
+
+    <AboutBlock />
+
+    <section class="section" aria-labelledby="h-try">
+      <SectionHead id="h-try" icon="flag">Můžeš začít třeba tady</SectionHead>
+      <h3 class="picks-h">Témata</h3>
+      <ul class="picks" data-picks="card">
+        {picks.map((a) => {
+          const o = outcomes[a.outcome];
+          return (
+            <li data-kind="card">
+              <Paper as="a" seed={`pick/${a.slug}`} tilt={1} class="pick" href={`${base}aktivita/${a.slug}/`}>
+                {o && <Icon name={subjectIcon(o.subject.code)} size="34" class="pick-icon" />}
+                <span class="t" title={a.title}>{a.title}</span>
+                <span class="small soft">{o?.subject.name}</span>
+                <span class="pick-need"><ToolMarks a={a} /></span>
+              </Paper>
+            </li>
+          );
+        })}
+      </ul>
+      <h3 class="picks-h">Povolání</h3>
+      <ul class="picks" data-picks="occ">
+        {occPicks.map((p) => (
+          <li data-kind="occ">
+            <Paper as="a" kind="ruled" seed={`pick-occ/${p.id}`} tilt={1} class="pick occ" href={`${base}povolani/${p.id}/`}>
+              <Icon name="briefcase" size="34" class="pick-icon" />
+              <span class="t" title={p.l}>{p.l}</span>
+              <span class="pick-need"><AiLevel occ={occupations[p.id]} words class="big" /></span>
+            </Paper>
+          </li>
+        ))}
+      </ul>
+      {subjCodes.map((c) => <template data-ico={c}><Icon name={subjectIcon(c)} size="34" class="pick-icon" /></template>)}
+      {tmSamples.map((a) => <template data-tm={tmKey(a)}><ToolMarks a={a} /></template>)}
+      {aiSamples.map((o) => <template data-ai={iloLevel(o)}><AiLevel occ={o} words class="big" /></template>)}
+      <script type="application/json" id="pick-pool" set:html={JSON.stringify({ subj: subjCodes, cards: cardPool, occs: occPool })} />
+    </section>
+
+    <section class="section" aria-labelledby="h-num">
+      <SectionHead id="h-num" icon="chart-bar">Rozebrané věci v číslech<Fragment slot="lead">Zatím máme rozebraných {doneOutcomes.size} z {totalOutcomes} cílů RVP, celkem {n} konkrétních věcí. Čísla se budou měnit, jak budou přibývat další.</Fragment></SectionHead>
+      <div class="figs">
+        <Paper kind="grid" seed="home/used" class="fig">
+          <h3>Nejpoužívanější věci v práci</h3>
+          <p class="small">Počet povolání, která danou věc využívají často nebo neustále. Z každého předmětu ukazujeme nejvýš jednu věc, jinak by tu byla jen matematika.</p>
+          <Bars rows={usedRows} seed="home/used-bars" label="Věci podle počtu povolání, která je často využívají" />
+          <p class="tiny soft">Povolání z databáze ESCO, odhad AI (model Jev).</p>
+        </Paper>
+        <Paper kind="grid" seed="home/occs" class="fig">
+          <h3>Povolání s nejširším záběrem</h3>
+          <p class="small">Počet rozebraných věcí, které povolání využívá často nebo neustále.</p>
+          <Bars rows={occRows} tone="red" seed="home/occs-bars" label="Povolání podle počtu věcí ze školy, které často využívají" />
+          <p class="tiny soft">Povolání z databáze ESCO, odhad AI (model Jev).</p>
+        </Paper>
+        <Paper kind="grid" seed="home/gaps" class="fig">
+          <h3>Tady ti nástroje nepomůžou</h3>
+          <p class="small">U {noTool.length} věcí nepomůže žádný nástroj. Tady je několik z nich.</p>
+          <ul class="notool" data-notool>
+            {noTool.map((a) => <li><a href={`${base}aktivita/${a.slug}/`}>{a.title}</a></li>)}
+          </ul>
+          <p class="tiny soft">Hodnocení nástrojů navrhla AI.</p>
+        </Paper>
+      </div>
+    </section>
+
+
+    <section class="section" aria-labelledby="h-subj">
+      <SectionHead id="h-subj" icon="map">Předměty<Fragment slot="lead">Každý předmět má ve škole svou třídu. Klikni a uvidíš, co se tam učí. Čísla jsou počty karet.</Fragment></SectionHead>
+      <SubjectRooms />
+    </section>
+  </div>
+</Base>
+
+<script>
+  // "Tady ti nástroje nepomůžou": shuffle the list; the styles show only the first few.
+  const notool = document.querySelector<HTMLElement>("[data-notool]");
+  if (notool) {
+    const items = [...notool.children];
+    for (let i = items.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [items[i], items[j]] = [items[j], items[i]]; }
+    notool.append(...items);
+  }
+</script>
+<script>
+  // "Můžeš začít třeba tady": a fresh random draw on every visit, cards in the first row, occupations in the second.
+  // The slots keep their paper and markup; only the contents change.
+  const list = document.querySelector<HTMLElement>("[data-picks]")?.parentElement;
+  const poolEl = document.getElementById("pick-pool");
+  if (list && poolEl) {
+    type Card = { s: string; t: string; c: number; n: string; m: string };
+    type Occ = { id: string; l: string; ai: number };
+    const pool = JSON.parse(poolEl.textContent || "{}") as { subj: string[]; cards: Card[]; occs: Occ[] };
+    const draw = <T,>(xs: T[], k: number) => {
+      const a = xs.slice();
+      for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+      return a.slice(0, k);
+    };
+    const base = import.meta.env.BASE_URL;
+    const cardSlots = [...list.querySelectorAll<HTMLElement>('[data-kind="card"]')];
+    const occSlots = [...list.querySelectorAll<HTMLElement>('[data-kind="occ"]')];
+    // At most one card per subject, like the first draw.
+    const seen = new Set<number>();
+    const cards = draw(pool.cards, pool.cards.length).filter((c) => !seen.has(c.c) && seen.add(c.c)).slice(0, cardSlots.length);
+    const tmpl = (sel: string) => (document.querySelector<HTMLTemplateElement>(sel)?.content.firstElementChild?.cloneNode(true) ?? null) as Element | null;
+    cards.forEach((c, i) => {
+      const a = cardSlots[i].querySelector("a")!;
+      a.href = `${base}aktivita/${c.s}/`;
+      const ct = a.querySelector<HTMLElement>(".t")!;
+      ct.textContent = ct.title = c.t;
+      a.querySelector(".soft")!.textContent = c.n;
+      const ico = tmpl(`template[data-ico="${pool.subj[c.c]}"]`);
+      if (ico) a.querySelector(".pick-icon")?.replaceWith(ico);
+      const tm = tmpl(`template[data-tm="${c.m}"]`);
+      if (tm) a.querySelector(".tmarks")?.replaceWith(tm);
+    });
+    draw(pool.occs, occSlots.length).forEach((o, i) => {
+      const a = occSlots[i].querySelector("a")!;
+      a.href = `${base}povolani/${o.id}/`;
+      const ot = a.querySelector<HTMLElement>(".t")!;
+      ot.textContent = ot.title = o.l;
+      const ai = tmpl(`template[data-ai="${o.ai}"]`);
+      if (ai) a.querySelector(".ai-level")?.replaceWith(ai);
+    });
+  }
+
+  // The tool word takes turns in one sweep: a small blackboard sponge wipes the old word away from left to right
+  // and the new word, purple marker first, appears right behind it, as if written in where the sponge has passed.
+  const slot = document.querySelector<HTMLElement>("[data-doers]");
+  const words = slot ? [...slot.querySelectorAll<HTMLElement>(".doer")] : [];
+  const sponge = slot?.querySelector<HTMLElement>(".sponge");
+  if (slot && sponge && words.length > 1 && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    let i = 0;
+    const SWEEP = 1300;
+    const timing = { duration: SWEEP, easing: "cubic-bezier(0.4, 0, 0.6, 1)" };
+    const swap = (old: HTMLElement, next: HTMLElement) => {
+      next.classList.remove("off");
+      const wo = old.getBoundingClientRect().width, wn = next.getBoundingClientRect().width;
+      const w = Math.max(wo, wn);
+      const sw = sponge.getBoundingClientRect().width;
+      const em = parseFloat(getComputedStyle(slot).fontSize);
+      // Sponge centre runs along the longer word; small up-and-down scrubbing strokes on the way.
+      const frames = Array.from({ length: 15 }, (_, k) => {
+        const p = k / 14;
+        const y = Math.sin(p * Math.PI * 8) * em * 0.14;
+        const r = Math.sin(p * Math.PI * 8 + 1) * 7 - 4;
+        return { transform: `translate(${p * w - sw / 2}px, ${y}px) rotate(${r}deg)`, opacity: p < 0.05 ? p / 0.05 : p > 0.93 ? (1 - p) / 0.07 : 1 };
+      });
+      sponge.animate(frames, timing);
+      // Old word: gone up to the sponge's centre. New word: there up to the sponge's back edge (marker), the
+      // letters a little further behind, like a pen following the sponge.
+      const back = sw * 0.35, pen = sw * 0.6;
+      const reveal = (lag: number) => [
+        { clipPath: `inset(-40% ${wn + lag}px -40% 0)` },
+        { clipPath: `inset(-40% ${wn - w - lag}px -40% 0)` },
+      ];
+      next.querySelector(".hl")!.animate(reveal(back), { ...timing, fill: "backwards" });
+      next.querySelector(".t")!.animate(reveal(pen), { ...timing, fill: "backwards" });
+      return old.animate([{ clipPath: "inset(-40% 0 -40% 0)" }, { clipPath: `inset(-40% 0 -40% ${w}px)` }], { ...timing, fill: "forwards" }).finished;
+    };
+    setInterval(async () => {
+      if (document.hidden) return;
+      const old = words[i];
+      i = (i + 1) % words.length;
+      await swap(old, words[i]);
+      old.classList.add("off");
+      old.getAnimations().forEach((a) => a.cancel());
+    }, 3600);
+  }
+</script>
+
+
+<style>
+  .home { display: grid; gap: var(--s8); }
+  /* Below the search a pile of worry posts (components/WorryPosts.astro). Search results open over them. */
+  .hero { display: grid; justify-items: center; text-align: center; gap: var(--s5); width: min(100%, 1040px); margin: 0 auto;
+          padding-top: var(--s2); }
+  /* The title is written on a small whiteboard (user 2026-10-20), drawn like everything else on the page: a double
+     pencil outline for the frame, the dotted page showing through, a pencil-drawn tray with two markers, and the logo
+     drawn above the title. */
+  .hero-main { position: relative; display: grid; justify-items: center; gap: var(--s5); width: 100%; }
+  /* Hidden for now (user 2026-10-20): the frame, the tray and the logo; with them hidden the board has almost no
+     padding, so the title sits close under the menu. Restore the padding (s5 sides, s6 bottom) with the frame. */
+  .board::before, .board::after, .tray, .board-logo { display: none; }
+  .board { position: relative; z-index: 1; padding: 0 clamp(var(--s5), 4.5vw, var(--s7)) var(--s2); }
+  .board::before, .board::after { content: ""; position: absolute; pointer-events: none; background: var(--box-line) 0 0 / 100% 100% no-repeat; }
+  .board::before { inset: 0; }
+  .board::after { inset: 7px; opacity: 0.55; }
+  .titles { margin: 0; display: grid; justify-items: center; gap: var(--s2); }
+  .board-logo { width: clamp(56px, 8vw, 80px); aspect-ratio: 1; margin-bottom: 2px; }
+  .board-logo :global(.logo) { width: 100%; height: 100%; }
+  .tray { position: absolute; left: 50%; bottom: -12px; translate: -50% 0; width: min(260px, 70%); height: auto; }
+  /* Title and subtitle in the title font, Grandstander (user 2026-10-25; Mynerve before). The title is set on two lines,
+     "Proč se" / "to učím?", at 150 % of its one-line size (user 2026-10-25). */
+  .hero-main h1 { font-family: var(--title-font, var(--font-title)); font-weight: var(--title-weight); font-size: calc(clamp(2.8rem, 10.2vw, 6.4rem) * 1.4 * var(--title-scale) * var(--title-size, 1)); line-height: 1.02; white-space: nowrap; }
+  /* The subtitle is written under the title, tucked up close. */
+  .sub {
+    font-family: var(--sub-font, var(--font-title)); font-weight: 700; text-wrap: balance;
+    font-size: calc(1.75rem * var(--sub-size, 1)); line-height: 1.15;
+    color: var(--ink); margin-top: 0.1em;
+  }
+  @media (max-width: 560px) {
+    .hero-main h1 { font-size: calc(min(4.8rem, 21vw) * 0.93 * var(--title-scale) * var(--title-size, 1)); }
+    .sub { font-size: calc(1.1rem * var(--sub-size, 1)); }
+  }
+  /* The doers share one slot as wide as the longest, so the line does not jump when the word changes. */
+  .doers { position: relative; display: inline-grid; justify-items: start; vertical-align: baseline; margin-left: 0.15em; }
+  /* "učím?" written on a small torn scrap of squared paper stuck on slightly askew (user 2026-10-20). */
+  .hero-main :global(.ucim) { display: inline-block; padding: 0.04em 0.12em 0; margin-left: 0.02em; line-height: 0.92; color: var(--red); rotate: -2.5deg; }
+  .doer { grid-area: 1 / 1; font-weight: 700; white-space: nowrap; color: var(--purple); }
+  .doer .hl { background-position: 0 88%; background-size: 100% 0.5em; padding-inline: 0.1em; }
+  .doer.off { visibility: hidden; }
+  .sponge { position: absolute; left: 0; top: 50%; width: 1.5em; height: 0.95em; margin-top: -0.5em; opacity: 0; pointer-events: none;
+            filter: drop-shadow(1px 2px 1.5px rgb(30 36 48 / 0.25)); }
+  .sponge svg { display: block; width: 100%; height: 100%; }
+  /* The one exception to "no transitions" (user 2026-10-19): the sponge sweep in the script above. The sponge
+     passes over the words, the new word appears behind it. */
+  .sponge { z-index: 1; }
+  .hero-search { position: relative; z-index: 1; }
+  .hero-search { width: min(100%, 640px); z-index: 2; }
+  .hero-search :global(.results) { position: absolute; left: 0; right: 0; top: 100%; margin-top: var(--s2); }
+
+  /* Three rankings in one row on wide screens, two then one on narrower ones. */
+  .figs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s5); max-width: 1120px; width: 100%; margin-inline: auto; align-items: start; }
+  @media (max-width: 1000px) { .figs { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .figs > :global(:last-child) { grid-column: 1 / -1; } }
+  @media (max-width: 640px) { .figs { grid-template-columns: minmax(0, 1fr); } }
+  .fig { display: grid; gap: var(--s3); align-content: start; }
+  .fig h3 { font-size: calc(1.35rem * var(--title-scale)); }
+  /* Cards no tool helps with: a random handful (script below), each with a grey hatched mark. Without JavaScript the
+     first ones show. */
+  .notool { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s2); }
+  .notool li { position: relative; padding-left: 22px; font-size: 0.875rem; line-height: 1.3; }
+  .notool li::before { content: ""; position: absolute; left: 0; top: 0.15em; width: 11px; height: 11px; border: 1.5px solid #9aa1ab; border-radius: 2px 3px 2px 3px;
+                       background: repeating-linear-gradient(-50deg, #9aa1ab 0 1.4px, transparent 1.4px 3.6px); }
+  .notool li:nth-child(n + 6) { display: none; }
+
+  .picks-h { text-align: center; font-family: var(--font-body); font-weight: 600; font-size: 0.9375rem; color: var(--ink-soft); margin-bottom: var(--s3); }
+  .picks + .picks-h { margin-top: var(--s6); }
+  .picks { list-style: none; margin: 0 auto; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: var(--s5); max-width: 1040px; width: 100%; }
+  /* One column as wide as the card: a long unbreakable word (kameraman/kameramanka) ends in an ellipsis instead of overhanging. */
+  .pick { display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; gap: var(--s2); height: 100%; padding: var(--s5) var(--s4); }
+  .pick :global(.pick-icon) { color: var(--ink-soft); }
+  .pick .t { font-family: var(--font-title); font-weight: var(--title-weight-small); font-size: calc(1.35rem * var(--title-scale)); line-height: 1.15;
+           max-width: 100%; overflow: hidden; text-overflow: ellipsis; padding-block: 0.1em; }
+  .pick-need { display: inline-flex; align-items: center; gap: var(--s2); margin-top: auto; }
+  .pick.occ :global(.pick-icon) { color: var(--purple); }
+  .pick.occ .pick-need { margin-top: auto; }
+</style>

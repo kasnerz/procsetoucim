@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Škola, kroužky, úkoly a telefon zaberou celý týden a na odpočinek zbývají jen kousky. Když si týden zpětně projdeš, uvidíš, kolik v něm bylo spánku a pohybu a jestli zbyla chvíle jen na klid. Aplikace na sledování spánku ti dodá čísla, zhodnotit je a rozhodnout, co změníš, musíš ale ty, protože znáš svůj rozvrh i to, jak se cítíš. Takový pohled na vlastní zátěž se ti bude hodit před zkouškami i později v práci, a lidé, kteří vedou sportovní tréninky, takhle plánují odpočinek pro ty, které trénují.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka spánku a pohybu",
+      "text": "Požádej chatbota o jednoduchou tabulku na sedm dní se sloupci spánek, pohyb, pití a klid. Vyplňuj ji každý večer ručně."
+    },
+    {
+      "title": "Otázky k vyplněnému týdnu",
+      "text": "Vyplněný týden přepiš chatbotovi a nech si položit otázky, ne rady, třeba proč ve středu chyběl pohyb. Odpovídej a nakonec napiš, co změníš."
+    },
+    {
+      "title": "Malá změna na týden",
+      "text": "Vyber jednu změnu, třeba večer bez telefonu, a nech chatbota navrhnout, jak ji udržet celý týden. Po týdnu porovnej, jak spíš a jak se cítíš, s tím, co bylo předtím."
+    }
+  ]
+}

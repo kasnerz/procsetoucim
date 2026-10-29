@@ -1,0 +1,404 @@
+[
+  {
+    "slug": "cteni-textu",
+    "title": "Čtení přiměřeně dlouhého textu",
+    "aliases": [
+      "čtení",
+      "čtení textu",
+      "číst nahlas",
+      "čtení z obrazovky",
+      "čtenářský deník"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zná písmena, čte slova a větné celky.",
+        "quote": "Zná písmena, čte slova a větné celky."
+      },
+      {
+        "level": "Splněno",
+        "point": "Přečte přiměřeně rozsáhlý text i v elektronické podobě.",
+        "quote": "Přečte přiměřeně rozsáhlý text i v elektronické podobě."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Čte i texty elektronické.",
+        "quote": "Čte i texty elektronické."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozvíjíme počáteční čtení s porozuměním",
+        "url": "https://uloziste.rvp.cz/material/7056d6"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Čtení trénuješ očima ty, chatbot ho za tebe nezlepší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Knihovny a weby nabízejí texty k přečtení pro tvůj věk."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Čtečka e-knih umí zvětšit písmo, takže se čte pohodlněji."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kniha z knihovny je přímo text, který čteš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porozumeni-slovum-a-vetam",
+    "title": "Porozumění slovům a větám",
+    "aliases": [
+      "rozumět textu",
+      "co to slovo znamená",
+      "porozumění čtenému",
+      "význam slov",
+      "kontrola porozumění"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozumí významu slov a větných celků.",
+        "quote": "Rozumí významu slov a větných celků."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Ověřuje si porozumění čtenému.",
+        "quote": "Ověřuje si porozumění čtenému."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Slovo nebo větu vysvětlí jednodušeji, přečtenému musíš porozumět ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník nebo Wikipedie vysvětlí význam slova."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovníková aplikace slovo vysvětlí nebo přeloží."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "V papírovém slovníku slovo dohledáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849",
+      "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hledani-informace-v-textu",
+    "title": "Hledání informace v textu",
+    "aliases": [
+      "najdi v textu",
+      "odpověď v textu",
+      "vyhledat informaci",
+      "práce s textem",
+      "najít část textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhledá přímo vyjádřenou informaci v tištěných i elektronických zdrojích.",
+        "quote": "Vyhledá přímo vyjádřenou informaci v tištěných i elektronických zdrojích."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhledá část textu, která obsahuje požadovanou informaci.",
+        "quote": "Vyhledá část textu, která obsahuje požadovanou informaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Záhada Obřího zubu",
+        "url": "https://uloziste.rvp.cz/material/589788"
+      },
+      {
+        "title": "Není banán jako banán",
+        "url": "https://uloziste.rvp.cz/material/b8619d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "V textu, který mu vložíš, ukáže, kde informace stojí, a ty ji ověříš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač najde stránku, kde informace je, a ty ji v ní najdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Funkce hledání v prohlížeči najde slovo v dlouhém textu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tištěný text prohledáváš očima ty, nástroj tě nezastoupí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2",
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "otazky-k-textu",
+    "title": "Otázky, které pomáhají pochopit text",
+    "aliases": [
+      "ptát se k textu",
+      "kladení otázek",
+      "usuzování",
+      "čtenářské strategie",
+      "porozumění obsahu"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Položí otázku, která mu pomůže pochopit obsah sdělení.",
+        "quote": "Položí otázku, která mu pomůže pochopit obsah sdělení."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Osvojuje si postupy, které mu pomáhají pochopit obsah sdělení, např. kladení otázek, usuzování, propojování informací ze dvou částí textu.",
+        "quote": "kladení otázek, usuzování, propojování informací ze dvou částí textu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí otázky k textu, na které odpovíš ty, a odpovědi pak porovná s tvými."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Otázky si kladeš ty, na internetu je nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Na kladení otázek k textu není žádná běžná aplikace."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Otázky si kladeš v hlavě, nástroj je nepoloží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "propojeni-informaci-ze-dvou-textu",
+    "title": "Propojení informací ze dvou textů",
+    "aliases": [
+      "porovnat dva texty",
+      "závěr z textu",
+      "spojit informace",
+      "vyvodit závěr",
+      "dvě části textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Propojí informace ze dvou textů (ze dvou částí jednoho textu) a vyvodí závěr.",
+        "quote": "Propojí informace ze dvou textů (ze dvou částí jednoho textu) a vyvodí závěr."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Počasí",
+        "url": "https://uloziste.rvp.cz/material/6aed57"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Porovná dva texty a zeptá se, co z nich plyne, závěr si nejdřív zkus ty."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Závěr z vlastních textů na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Na spojování informací z textů není žádná běžná aplikace."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zvýrazňovač označí v obou textech informace, které k sobě patří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92",
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "overovani-informaci-ve-zdrojich",
+    "title": "Ověřování informací ve více zdrojích",
+    "aliases": [
+      "ověřit informaci",
+      "je to pravda",
+      "porovnat zdroje",
+      "důvěryhodný zdroj",
+      "fakta na internetu"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Ověřuje si informace ve více zdrojích.",
+        "quote": "Ověřuje si informace ve více zdrojích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Chatbot si údaje může vymyslet, jako zdroj k ověření nestačí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stejný údaj porovnáš na několika stránkách i na Wikipedii."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač nabídne víc zdrojů vedle sebe."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie nebo kniha je nezávislý zdroj k porovnání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+      "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klicova-slova-ve-vyhledavaci",
+    "title": "Klíčová slova do vyhledávače",
+    "aliases": [
+      "googlení",
+      "jak hledat na internetu",
+      "vyhledávání",
+      "hledání na webu",
+      "internetový vyhledávač"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zadá vhodné klíčové slovo do vyhledávače.",
+        "quote": "Zadá vhodné klíčové slovo do vyhledávače."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jaká slova do vyhledávače zkusit, když nevíš, jak hledat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač ti hned ukáže, jestli slova fungují, a nabídne podobná."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač při psaní nabízí slova, podle kterých vidíš možnosti."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klíčová slova vybíráš ty, obyčejný nástroj ti je nenapíše."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2",
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

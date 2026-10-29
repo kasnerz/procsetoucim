@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "cil-pohyboveho-rezimu",
+    "title": "Cíl pro můj pohybový režim",
+    "aliases": [
+      "pohybový plán",
+      "cíl pohybu",
+      "kolik se hýbat",
+      "plán cvičení"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Stanoví si ve spolupráci s vyučujícím konkrétní cíl pro úpravu svého pohybového režimu.",
+        "quote": "Stanoví si ve spolupráci s vyučujícím konkrétní cíl pro úpravu svého pohybového režimu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohybový režim - plán",
+        "url": ""
+      },
+      {
+        "title": "Můj pohybový plán",
+        "url": "https://uloziste.rvp.cz/material/c600ff"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže formulovat cíl, který jde změřit, třeba dvakrát týdně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš doporučení, kolik pohybu je pro děti běžné."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace umí nastavit týdenní cíl a hlídat ho."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Cíl si vymýšlíš ty, nástroj ho nenavrhne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed",
+      "http://data.europa.eu/esco/skill/14db3283-8b66-4649-9192-41defda9c33e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zaznam-pohybovych-aktivit",
+    "title": "Záznam pohybových aktivit",
+    "aliases": [
+      "deník pohybu",
+      "zápis cvičení",
+      "kolik jsem se hýbal",
+      "sportovní deník"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vede si záznam o absolvovaných pohybových aktivitách.",
+        "quote": "Vede si záznam o absolvovaných pohybových aktivitách."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohybový režim - záznam",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne tabulku nebo deníček, kam záznamy píšeš."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Záznam o tvém pohybu na webu nenajdeš, píšeš ho ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace počítá kroky a čas, záznam si pak prohlédneš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Sešit nebo kalendář uchová záznamy, stopky změří čas."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyhodnoceni-cile",
+    "title": "Splnění cíle pohybového režimu",
+    "aliases": [
+      "splnil jsem cíl",
+      "vyhodnocení pohybu",
+      "zhodnocení plánu"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhodnotí, zda se mu podařilo splnit stanovený cíl svého pohybového režimu.",
+        "quote": "Vyhodnotí, zda se mu podařilo splnit stanovený cíl svého pohybového režimu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohybový režim - vyhodnocení",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou záznam a ptá se, jestli se cíl splnil a proč ne."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Obecné stránky nevědí, kolik jsi opravdu cvičil."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Ukáže v grafu, jak blízko cíli jsi."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír zapíšou výsledek, ale vyhodnotit ho musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dbfb9dda-48d9-4a10-9821-3237f868071b",
+      "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pravidelnost-delka-intenzita",
+    "title": "Pravidelnost, délka a intenzita pohybu",
+    "aliases": [
+      "intenzita cvičení",
+      "jak často se hýbat",
+      "tepová frekvence",
+      "zátěž"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zaznamenanou pohybovou aktivitu zhodnotí z hlediska pravidelnosti, délky trvání a intenzity.",
+        "quote": "Zaznamenanou pohybovou aktivitu zhodnotí z hlediska pravidelnosti, délky trvání a intenzity."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohybový režim - vyhodnocení",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy pravidelnost a intenzita a ze záznamu se zeptá, co vyplývá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš, jak poznat mírnou a vysokou zátěž."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace zapisuje délku a ukazuje tepovou frekvenci."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stopky změří délku a po zátěži si nahmatáš tep."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dbfb9dda-48d9-4a10-9821-3237f868071b",
+      "http://data.europa.eu/esco/skill/14db3283-8b66-4649-9192-41defda9c33e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

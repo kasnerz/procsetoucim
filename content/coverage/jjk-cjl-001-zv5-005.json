@@ -1,0 +1,111 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-005",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Zná písmena, čte slova a větné celky.",
+      "cards": [
+        "cteni-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Rozumí významu slov a větných celků.",
+      "cards": [
+        "porozumeni-slovum-a-vetam"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Ověřuje si porozumění čtenému.",
+      "cards": [
+        "porozumeni-slovum-a-vetam"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Čte i texty elektronické.",
+      "cards": [
+        "cteni-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Osvojuje si postupy, které mu pomáhají pochopit obsah sdělení, např. kladení otázek, usuzování, propojování informací ze dvou částí textu.",
+      "cards": [
+        "otazky-k-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zadá vhodné klíčové slovo do vyhledávače.",
+      "cards": [
+        "klicova-slova-ve-vyhledavaci"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Přečte přiměřeně rozsáhlý text i v elektronické podobě.",
+      "cards": [
+        "cteni-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhledá přímo vyjádřenou informaci v tištěných i elektronických zdrojích.",
+      "cards": [
+        "hledani-informace-v-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhledá část textu, která obsahuje požadovanou informaci.",
+      "cards": [
+        "hledani-informace-v-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Položí otázku, která mu pomůže pochopit obsah sdělení.",
+      "cards": [
+        "otazky-k-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Propojí informace ze dvou textů (ze dvou částí jednoho textu) a vyvodí závěr.",
+      "cards": [
+        "propojeni-informaci-ze-dvou-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Ověřuje si informace ve více zdrojích.",
+      "cards": [
+        "overovani-informaci-ve-zdrojich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Čte s porozuměním přiměřeně náročné texty, včetně textů elektronických.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

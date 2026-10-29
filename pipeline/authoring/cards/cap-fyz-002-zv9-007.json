@@ -1,0 +1,286 @@
+{
+  "outcome": "CAP-FYZ-002-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "ucinnost-stroju-energie-fyzika",
+      "title": "Spotřeba energie a účinnost strojů",
+      "aliases": [
+        "účinnost",
+        "spotřeba energie",
+        "stroje a přístroje",
+        "kolik energie se ztratí"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše souvislost spotřeby energie s účinností"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí účinnost na příkladu žárovky a LED a vymyslí otázky k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tabulky a články o účinnosti běžných přístrojů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jedna aplikace účinnost stroje nepopíše, vysvětlit ji musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovy popsat souvislost ti nepomůže teploměr ani kalkulačka."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/83fc0b2b-6cd2-46af-b1ff-d3fc83604c26",
+        "http://data.europa.eu/esco/skill/ddce2912-bc0f-4a47-aa2b-c1de48bc4b44"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "spotreba-spotrebicu-cena-provozu-fyzika",
+      "title": "Spotřeba spotřebičů a cena provozu",
+      "aliases": [
+        "kolik stojí elektřina",
+        "příkon spotřebiče",
+        "kWh",
+        "štítek spotřebiče",
+        "elektroměr",
+        "jak ušetřit elektřinu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Posoudí energetickou náročnost"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Přečte příkon elektrických spotřebičů"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zjistí cenu za 1 kWh spotřebované elektrické energie"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Najde v domácnosti měřiče"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí kWh, zkontroluje tvůj výpočet ceny a nabídne nápady na úspory."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš aktuální ceny elektřiny za kWh a tabulky typické spotřeby."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka spotřeby nebo tabulka ve spreadsheetu spočítá cenu provozu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti pomůže spočítat cenu a štítek s příkonem si přečteš na spotřebiči."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/29bfe2cd-f011-4f94-a3aa-f77768e60460",
+        "http://data.europa.eu/esco/skill/21c27eba-bd1f-42f5-a1d5-c250227030f7",
+        "http://data.europa.eu/esco/skill/ddce2912-bc0f-4a47-aa2b-c1de48bc4b44"
+      ],
+      "inspiration": [
+        "Spotřeba elektřiny v domácnosti"
+      ]
+    },
+    {
+      "slug": "cena-tepla-zdroje-fyzika",
+      "title": "Cena tepla z různých zdrojů",
+      "aliases": [
+        "vytápění domácnosti",
+        "cena za kWh tepla",
+        "plyn, dřevo, elektřina",
+        "čím se topí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovná cenu za 1 kWh u různých zdrojů tepla"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zjistí cenu za 1 kWh u různých zdrojů tepla"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, jak přepočítat cenu uhlí nebo dřeva na kWh, a zkontroluje tvůj postup."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ceny plynu, dřeva a elektřiny i výhřevnost paliv."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka ve spreadsheetu srovná ceny za kWh u více zdrojů."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka přepočte cenu paliva na kWh a porovná zdroje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/128f318e-1bc8-4921-821f-b0aad1d98922",
+        "http://data.europa.eu/esco/skill/2bc626f8-32ce-4131-9f65-c52929d55a95"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "energie-jidla-pohyb-fyzika",
+      "title": "Energie z jídla a spotřeba při pohybu",
+      "aliases": [
+        "kalorie",
+        "kJ",
+        "energetická hodnota potravin",
+        "kolik energie spálím",
+        "štítek potraviny"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovná energetickou hodnotu jídla"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Z údajů na konkrétní potravině"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Najde orientační údaje o energii spotřebované"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Uvědomí si, že každá potravina"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Převede kJ na kcal a zkontroluje tvoje porovnání jídla a pohybu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tabulky energie potravin a výdeje při sportu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s tabulkou potravin a sportů ukáže energii jídla i pohybu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka převede kJ na kcal a údaje ze štítku ti srovná s pohybem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1",
+        "http://data.europa.eu/esco/skill/c3102a5f-dafd-417c-8210-1eb779a05448"
+      ],
+      "inspiration": [
+        "Energie potravin",
+        "Energetická spotřeba při různých činnostech",
+        "Energetické štítky potravin"
+      ]
+    },
+    {
+      "slug": "druhy-elektraren-fyzika",
+      "title": "Jak elektrárny vyrábějí elektřinu",
+      "aliases": [
+        "typy elektráren",
+        "jaderná elektrárna",
+        "uhelná",
+        "vodní",
+        "solární",
+        "odkud je elektřina"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše, z čeho elektrárenské společnosti"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s různými druhy elektráren"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Uvědomí si, odkud se do domácnosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak funguje jaderná a vodní elektrárna, a zkusí tě z toho vyzkoušet."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš přehled elektráren v Česku a jejich podíl na výrobě."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace druhy elektráren nevysvětlí, popsat je musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj elektrárny nepopíše, jen ti ukáže model."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee",
+        "http://data.europa.eu/esco/skill/81d274bc-6dbf-4003-bcba-f76478d5d930",
+        "http://data.europa.eu/esco/skill/50e6eba0-4440-4ba5-bb58-3ee78a96e29b"
+      ],
+      "inspiration": [
+        "Typy elektráren v ČR"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Uvědomí si, že za spotřebovanou",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

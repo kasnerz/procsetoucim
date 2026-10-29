@@ -1,0 +1,183 @@
+[
+  {
+    "slug": "anglicky-rozhovor-osobni-udaje",
+    "title": "Anglické otázky na osobní údaje",
+    "aliases": [
+      "představení anglicky",
+      "what is your name",
+      "how old are you",
+      "osobní údaje anglicky",
+      "seznámení"
+    ],
+    "outcome": "JJK-AJA-003-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Zeptá se na osobní údaje a odpovídá na otázky vztahující se k osobním údajům.",
+        "quote": "Zeptá se na osobní údaje a odpovídá na otázky vztahující se k osobním údajům."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Find someone who",
+        "url": "https://uloziste.rvp.cz/material/713c87"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Hraje kamaráda, ptá se tě anglicky a opraví tvoje odpovědi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové otázky a nahrávky, jak se anglicky představit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Jazyková aplikace tě nechá opakovat otázky a odpovědi nahlas."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník s tebou nemluví, ptáš se a odpovídáš ty člověku naproti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-rozhovor-znama-temata",
+    "title": "Krátký anglický rozhovor o známém tématu",
+    "aliases": [
+      "konverzace v angličtině",
+      "povídání anglicky",
+      "dialog anglicky",
+      "rozhovor se spolužákem",
+      "can you swim"
+    ],
+    "outcome": "JJK-AJA-003-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zapojuje se do velmi jednoduchých rozhovorů s učitelem nebo se spolužáky, v nichž používá osvojené fráze.",
+        "quote": "Zapojuje se do velmi jednoduchých rozhovorů s učitelem nebo se spolužáky, v nichž používá osvojené fráze."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zapojuje se do jednoduchých rozhovorů s učitelem nebo se spolužáky, které se týkají probíraných témat.",
+        "quote": "Zapojuje se do jednoduchých rozhovorů s učitelem nebo se spolužáky, které se týkají probíraných témat."
+      },
+      {
+        "level": "Splněno",
+        "point": "Zapojuje se do rozhovorů o známých tématech a dokáže klást otázky a reagovat na odpovědi.",
+        "quote": "Zapojuje se do rozhovorů o známých tématech a dokáže klást otázky a reagovat na odpovědi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Can you swim?",
+        "url": ""
+      },
+      {
+        "title": "Otázky a odpovědi",
+        "url": ""
+      },
+      {
+        "title": "Summer camp",
+        "url": "https://uloziste.rvp.cz/material/794c6c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vede s tebou nanečisto rozhovor na téma ze třídy a vysvětlí chyby."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukáže vzorové dialogy a nahrávky, jak se ptát a odpovídat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s mluvenými dialogy ti dá procvičit otázky i reakce nahlas."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník s tebou nemluví, odpovídáš ty člověku naproti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-nazor-s-vysvetlenim",
+    "title": "Anglický názor s krátkým vysvětlením",
+    "aliases": [
+      "říct názor anglicky",
+      "i like because",
+      "proč se mi to líbí anglicky",
+      "vyjádřit názor"
+    ],
+    "outcome": "JJK-AJA-003-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyjádří velmi jednoduše svůj názor a přidá krátké vysvětlení.",
+        "quote": "Vyjádří velmi jednoduše svůj názor a přidá krátké vysvětlení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak říct názor s „because“, a opraví tvoje věty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "V jazykové příručce najdeš vzorové věty s názorem a důvodem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti dohledá slovo, které v anglické větě chybí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti dá anglické slovo, které potřebuješ pro svůj důvod."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

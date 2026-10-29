@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Chybu v koncovce typu „s chlapcy“ si čtenář všimne v přihlášce, v e-mailu i na plakátu. Kontrola pravopisu v počítači část takových chyb najde, jenže když chybný tvar existuje jako jiné slovo, mlčí. U dvojic jako „mladí kluci“ a „mladý kluk“ pozná správnou koncovku jen ten, kdo ví, ke kterému slovu přídavné jméno patří a podle jakého vzoru se skloňuje. Pro korektory a lidi, kteří přepisují soudní jednání, je to denní práce, ostatním to dává jistotu, že jejich text nikoho nezarazí.",
+  "learnWithAi": [
+    {
+      "title": "Věty s vynechanými koncovkami",
+      "text": "Požádej chatbota o patnáct vět s vynechanými koncovkami podstatných a přídavných jmen. Doplň je a u každé chyby si nech ukázat, podle kterého vzoru se slovo skloňuje."
+    },
+    {
+      "title": "Mladí kluci a mladý kluk",
+      "text": "Když ti není jasné, proč se píše „mladí kluci“, ale „mladý kluk“, popros chatbota o vysvětlení jednoduššími slovy a o další podobné dvojice na vyzkoušení."
+    },
+    {
+      "title": "Označené chyby ve slohu",
+      "text": "Vlož chatbotovi svůj sloh a nech ho chyby v koncovkách jen označit, ne opravit. Opravy udělej ty a teprve potom si je nech zkontrolovat."
+    }
+  ]
+}

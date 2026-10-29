@@ -1,0 +1,63 @@
+{
+  "outcome": "JJK-AJA-001-ZV5-002",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Čte jednotlivá slova a krátké věty, které si již ústně osvojil a jimž rozumí.",
+      "cards": [
+        "cteni-znamych-slov-a-vet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Rozpoznává známé výrazy v krátkých textech.",
+      "cards": [
+        "cteni-znamych-slov-a-vet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "-",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Čte krátké texty jako rozhovory, jednoduché popisy nebo příběhy a rozumí jejich základnímu obsahu.",
+      "cards": [
+        "porozumeni-kratkemu-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "U neznámých slov se snaží odhadnout jejich význam podle kontextu.",
+      "cards": [
+        "odhad-vyznamu-neznameho-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Porozumění textu prokáže například vyhledáním požadované informace, odpovědí na související otázky, posouzením, zda jsou věty týkající se obsahu textu pravdivé, nebo ne.",
+      "cards": [
+        "overeni-porozumeni-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozumí psané podobě slov vztahujících se k jeho preferencím a zájmům.",
+      "cards": [
+        "cteni-znamych-slov-a-vet"
+      ],
+      "aside": null
+    }
+  ]
+}

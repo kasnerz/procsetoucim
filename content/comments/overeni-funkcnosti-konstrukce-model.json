@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Model, který vypadá hotově, ještě nemusí fungovat: kolo se zasekne nebo rameno pod závažím povolí. Když stavbu zkoušíš podle předem daných otázek, najdeš chybu dřív, než se model rozbije, a to se hodí u domácích oprav i při stavbě složitějších modelů a robotů na druhém stupni. Zkoušení je hlavní náplň práce lidí, kteří kontrolují hotová auta a lodě nebo prověřují, jestli nově instalované zařízení opravdu běží, a takových míst spíš přibude. Chatbot ti poradí, na co se zaměřit, ale zatížit model a sledovat, co se stane, musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Otázky pro kontrolu modelu",
+      "text": "Poproste s rodičem chatbota o krátký seznam otázek, podle kterých zjistíš, jestli model funguje. Přečtěte si je a model podle nich vyzkoušej."
+    },
+    {
+      "title": "Hledání příčiny závady",
+      "text": "Když se model zasekne, popište s rodičem chatbotovi, kde a kdy se to děje. Nechte si navrhnout, co zkontrolovat, a příčinu pak hledej na modelu."
+    },
+    {
+      "title": "Zápis ze zkoušky modelu",
+      "text": "Zkuste s učitelem nebo rodičem nechat chatbota připravit jednoduchý zápis zkoušky, do kterého zapíšeš, co model zvládl a co ne. Vyplň ho po každé úpravě."
+    }
+  ]
+}

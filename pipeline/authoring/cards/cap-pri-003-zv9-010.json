@@ -1,0 +1,435 @@
+{
+  "outcome": "CAP-PRI-003-ZV9-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dna-v-bunkach-dedicna-informace",
+      "title": "DNA v buňkách a kde je uložená dědičná informace",
+      "aliases": [
+        "DNA",
+        "dědičná informace",
+        "buňka a DNA",
+        "k čemu je DNA",
+        "gen"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zdůvodní přítomnost DNA (téměř) v každé buňce"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "přítomnost DNA v (téměř) každé buňce"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí, že každá buňka potřebuje DNA"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "odvodí a vlastními slovy popíše, že když jsou znaky"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "popíše, kde je uložena dědičná informace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč má buňka DNA, a zeptá se tě, jestli to vysvětlíš po svém."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a výukové stránky mají schémata buňky s DNA."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Výuková aplikace ti buňku ukáže zblízka a nechá tě hledat, kde je DNA."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Mikroskop ukáže buňky, ale DNA v nich neuvidíš, pomůže jen model."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691"
+      ],
+      "inspiration": [
+        "DNA a dědičnost"
+      ]
+    },
+    {
+      "slug": "dna-bilkovina-znak-cesta",
+      "title": "Od DNA přes bílkoviny ke znakům",
+      "aliases": [
+        "gen a bílkovina",
+        "jak vzniká znak",
+        "DNA a bílkoviny",
+        "srpkovitá anémie",
+        "barvivo"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "vysvětlí souvislosti mezi dědičnou informací (genem), bílkovinou a projevem znaku"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "souvislosti mezi dědičnou informací, tvorbou bílkovin a projevem znaků"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vlastními slovy, případně s využitím vlastního nebo předloženého schématu popíše"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí cestu od DNA ke znaku jiným příkladem a opraví tvůj popis."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové weby mají schémata, podle kterých popis nakreslíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace v aplikaci ukazuje, jak se bílkoviny sestavují podle DNA."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a pastelky pomůžou schéma nakreslit, ale samy nic nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691",
+        "http://data.europa.eu/esco/skill/d6ed2572-96be-483f-863b-d8a3c19255ea"
+      ],
+      "inspiration": [
+        "Popis vzniku bílkovin podle DNA s využitím schématu"
+      ]
+    },
+    {
+      "slug": "vice-bilkovin-vice-znaku-prostredi",
+      "title": "Znaky s více bílkovinami a vliv prostředí",
+      "aliases": [
+        "jeden znak více bílkovin",
+        "vliv prostředí na znaky",
+        "znaky a prostředí",
+        "složité znaky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "uvede, že ve skutečnosti jsou přímočaré vztahy 1 bílkovina"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč jeden znak ovlivňuje víc bílkovin, a dá příklady k ověření."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Odborné články a encyklopedie popisují znaky, které ovlivňuje i prostředí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pro takto složité vztahy nemá běžná aplikace co nabídnout."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pozorovat se dá výsledek, třeba výška, ale ne to, jak bílkoviny spolupracují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "analyza-dna-priklady-vyuziti",
+      "title": "Příklady využití analýzy DNA",
+      "aliases": [
+        "rozbor DNA",
+        "test otcovství",
+        "genetický test",
+        "DNA v kriminalistice",
+        "DNA stopy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede konkrétní příklady využití analýzy DNA"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "příklady využití analýzy DNA"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vyjmenuje, kde se DNA analyzuje, a ptá se tě, jak by se to dalo využít."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a zpravodajské články ukazují skutečné případy, třeba z kriminalistiky."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Běžná aplikace DNA nerozebere, to dělá laboratoř."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Doma nebo ve třídě DNA rozebrat nejde, kromě jednoduchého pokusu s izolací."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691",
+        "http://data.europa.eu/esco/skill/d6ed2572-96be-483f-863b-d8a3c19255ea"
+      ],
+      "inspiration": [
+        "Příklady významu DNA pro jedince"
+      ]
+    },
+    {
+      "slug": "dna-pribuznost-dvojcata-lide",
+      "title": "Proč se lidé liší DNA a proč jsou si příbuzní podobní",
+      "aliases": [
+        "jednovaječná dvojčata",
+        "příbuzenství a DNA",
+        "proč jsme každý jiný",
+        "dědění od rodičů"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popíše, že lidé se liší svojí DNA"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak se DNA dědí od rodičů, a nechá tě spočítat příklady s příbuznými."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové weby vysvětlují dědění DNA a podobnost příbuzných."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Výuková aplikace může ukázat, jak se rodičovská DNA míchá do dítěte."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rodokmen na papíře pomůže s příbuzenstvím, ale DNA z něj nepoznáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691",
+        "http://data.europa.eu/esco/skill/d6ed2572-96be-483f-863b-d8a3c19255ea"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dedicne-a-nededicne-nemoci",
+      "title": "Dědičné a nedědičné nemoci",
+      "aliases": [
+        "hemofilie",
+        "cystická fibróza",
+        "angína a tetanus",
+        "covid",
+        "je nemoc dědičná"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozliší dědičné nemoci"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí rozdíl mezi dědičnou a infekční nemocí a zkouší tě na příkladech."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby a encyklopedie jasně uvádějí, které nemoci jsou dědičné."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti nemoc do dědičné a nedědičné netřídí, to musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Teploměr nebo lékařské přístroje dědičnost nemoci neurčí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691",
+        "http://data.europa.eu/esco/skill/d6ed2572-96be-483f-863b-d8a3c19255ea"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zpusoby-pozmenovani-dna-porovnani",
+      "title": "Způsoby pozměňování DNA: šlechtění, mutace a genové úpravy",
+      "aliases": [
+        "šlechtění",
+        "GMO",
+        "genetické modifikace",
+        "ozařování semen",
+        "inzulin z bakterií",
+        "mutace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "způsoby záměrného pozměňování DNA"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "u šlechtění (tj. výběru rodičů s požadovanými znaky"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "přehledně shrne výhody a nevýhody jednotlivých způsobů pozměňování DNA"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí rozdíly mezi šlechtěním a genovou úpravou a pomůže ti sestavit přehled."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a odborné weby popisují jednotlivé způsoby i příklady jako inzulin z bakterií."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka nebo myšlenková mapa v aplikaci ti pomůže uspořádat výhody a nevýhody."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Šlechtění zkusit lze, ale přesnost genových úprav kuchyňskými nástroji neposoudíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e3423f86-0e6b-4bec-a354-1d21fe8597b6",
+        "http://data.europa.eu/esco/skill/61bef658-d7f9-4759-b1b0-0f9cb3bc581a"
+      ],
+      "inspiration": [
+        "Využití GMO - inzulin z bakterií"
+      ]
+    },
+    {
+      "slug": "diskuse-o-pozmenovani-dna-etika",
+      "title": "Diskuse o pozměňování DNA z hlediska biologie a etiky",
+      "aliases": [
+        "GMO ano nebo ne",
+        "geneticky upravený člověk",
+        "etika genetiky",
+        "argumenty",
+        "názor na GMO"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na konkrétních příkladech diskutuje o dopadu pozměňování DNA"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "dopad pozměňování DNA u různých organismů (včetně člověka) z etického hlediska"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "při diskuzi o pozměňování DNA používá argumenty založené na faktech"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "srozumitelně vyjádří svůj názor"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se s tebou o příkladu pohádá z obou stran a ukáže slabá místa tvých argumentů."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zpravodajské a odborné články dají fakta, o která můžeš argument opřít."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nemá co říct k etickému sporu, názor si tvoříš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Diskutuješ s lidmi, ne s nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d1b0108-3d56-45e2-bf0a-dca06a8ee5e3",
+        "http://data.europa.eu/esco/skill/61bef658-d7f9-4759-b1b0-0f9cb3bc581a"
+      ],
+      "inspiration": [
+        "Diskuse k pozměňování DNA"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "porovná shody a rozdíly v rozmanitosti",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "identifikuje fenomény spojené",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

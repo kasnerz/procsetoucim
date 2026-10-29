@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Návod ke stavebnici je text, ve kterém je málo slov a většinu informací nese šipka, číslo dílu nebo pořadí obrázků. Kdo ho umí číst, složí skříň z obchodu, zapojí nový přístroj podle letáku a na druhém stupni zvládne stavět podle složitějších schémat. Podle výkresu nebo schématu něco sestavuje a zapojuje zhruba 5 % lidí, kteří v Česku pracují, třeba při montáži kabelů nebo přesných přístrojů, a špatně přečtený obrázek tam znamená chybně zapojený panel. Aplikace ti kroky ukáže ve 3D a chatbot vysvětlí neznámou značku, ale porovnat návod se stavbou před sebou musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Značky z návodu",
+      "text": "Vyfoťte s rodičem stránku z návodu a poproste chatbota, ať vysvětlí značky, kterým nerozumíš. Zkontrolujte, jestli vysvětlení sedí s tím, co vidíš na dílech."
+    },
+    {
+      "title": "Stavba podle slovního návodu",
+      "text": "Zkuste s rodičem nechat chatbota napsat krátký slovní návod na jednoduchou stavbu, třeba věž z kostek. Postav ji podle něj a řekni, který krok byl nejasný."
+    },
+    {
+      "title": "Vlastní návod pro kamaráda",
+      "text": "Napiš s rodičem kroky, jak se staví tvůj oblíbený model, a dejte je chatbotovi přečíst. Poproste ho, ať řekne, ve kterém kroku by se podle tvého návodu ztratil."
+    }
+  ]
+}

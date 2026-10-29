@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "anglicky-navod-a-recept-aja-pokyny",
+    "title": "Anglický recept a návod",
+    "aliases": [
+      "recept v angličtině",
+      "návod v angličtině",
+      "anglické pokyny",
+      "jak se dělá dort",
+      "sendvič recept"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozumí daným instrukcím.",
+        "quote": "Rozumí daným instrukcím."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Rozumí základním instrukcím, pokud jsou jasně formulovány a doplněny vizuálními nebo jinými podpůrnými materiály.",
+        "quote": "Rozumí základním instrukcím, pokud jsou jasně formulovány a doplněny vizuálními nebo jinými podpůrnými materiály."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Sendvič",
+        "url": "https://uloziste.rvp.cz/material/958e1c"
+      },
+      {
+        "title": "Dort",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí neznámá slovesa z receptu a ukáže, co znamená každý krok."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník a stránky s recepty ukážou význam slov i obrázky ke krokům."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti přeloží neznámé slovo, ale smysl kroků vyčteš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník pomůže najít slovo, které neznáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a0d96ce8-aeeb-4ffb-bd78-21c0598179ff",
+      "http://data.europa.eu/esco/skill/54d68400-9da3-4077-a7ee-52e68b390ef6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "razeni-kroku-postupu-aja-pokyny",
+    "title": "Řazení kroků do správného pořadí",
+    "aliases": [
+      "seřadit instrukce",
+      "správné pořadí kroků",
+      "postup podle návodu",
+      "pořadí v receptu"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Písemně nebo ústně prokáže porozumění návodům a postupům podle zadání (např. seřadí instrukce podle správné posloupnosti, postupuje podle pokynů).",
+        "quote": "Písemně nebo ústně prokáže porozumění návodům a postupům podle zadání (např. seřadí instrukce podle správné posloupnosti, postupuje podle pokynů)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Dort",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí cvičný postup s promíchanými kroky, který pak řadíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na webu najdeš další recepty a návody k procvičení pořadí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pořadí kroků vyčteš z textu ty, aplikace za tebe nic neseřadí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kroky na papírových proužcích si můžeš skládat do pořadí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/54d68400-9da3-4077-a7ee-52e68b390ef6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "mluvene-pokyny-lekarna-aja-pokyny",
+    "title": "Mluvené pokyny a bezpečnostní upozornění",
+    "aliases": [
+      "poslech pokynů",
+      "pokyny v angličtině",
+      "v lékárně",
+      "bezpečnostní pokyny"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozumí instrukcím na známá témata.",
+        "quote": "Rozumí instrukcím na známá témata."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Návštěva lékárny",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Poslouchat anglický hlas a rozumět mu musíš ty, textový chatbot ti to nenacvičí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Nahrávky a videa s anglickými pokyny si můžeš pouštět opakovaně."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s poslechem přehrává pokyny pomalu i znovu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírový slovník ti nepomůže rozumět mluvenému slovu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

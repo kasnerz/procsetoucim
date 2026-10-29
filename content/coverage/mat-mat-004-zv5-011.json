@@ -1,0 +1,46 @@
+{
+  "outcome": "MAT-MAT-004-ZV5-011",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Vyhledá prvky splňující jednu podmínku.",
+      "cards": [
+        "hledani-podle-podminky-tricarka"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zdůvodní, že všechny prvky jistého souboru splňují danou podmínku.",
+      "cards": [
+        "zduvodneni-pro-vsechny-prvky-triprvky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí a zdůvodní všechny možnosti splňující více podmínek.",
+      "cards": [
+        "vice-podminek-najednou-triprvky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Pracuje s negací (nesplňuje danou podmínku).",
+      "cards": [
+        "negace-nesplnuje-podminku-triprvky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vyhledá prvky nebo skupiny prvků splňující dané podmínky.",
+      "cards": [
+        "hledani-podle-podminky-tricarka"
+      ],
+      "aside": null
+    }
+  ]
+}

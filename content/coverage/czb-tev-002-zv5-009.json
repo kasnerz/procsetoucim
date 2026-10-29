@@ -1,0 +1,65 @@
+{
+  "outcome": "CZB-TEV-002-ZV5-009",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se s principy fair play.",
+      "cards": [
+        "tv-principy-fair-play-seznameni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Koriguje své jednání v duchu fair play.",
+      "cards": [
+        "tv-oprava-vlastniho-jednani-fairplaycz"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Uvědomuje si rozdílnost pohybových dovedností, předpokladů a zájmů ostatních.",
+      "cards": [
+        "tv-ohled-na-ruzne-dovednosti-fairplaycz"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Jedná v duchu fair play.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-dodrzovat-pravidla-a-fair-play-hra"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Respektuje pohybové dovednosti, předpoklady a zájmy ostatních.",
+      "cards": [
+        "tv-ohled-na-ruzne-dovednosti-fairplaycz"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zhodnotí své jednání i jednání dalších účastníků při utkání, soutěži, společné činnosti.",
+      "cards": [
+        "tv-hodnoceni-jednani-v-utkani-fairplaycz"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Jedná v duchu fair play, včetně respektu k ostatním žákům.",
+      "cards": [
+        "tv-ohled-na-ruzne-dovednosti-fairplaycz"
+      ],
+      "aside": null
+    }
+  ]
+}

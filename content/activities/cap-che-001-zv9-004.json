@@ -1,0 +1,555 @@
+[
+  {
+    "slug": "latky-v-domacnosti",
+    "title": "Chemické látky v domácnosti a k čemu slouží",
+    "aliases": [
+      "látky v domácnosti",
+      "co je v koupelně",
+      "třídění látek",
+      "ocet a soda",
+      "chemikálie doma"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvede příklady chemických látek běžně používaných v domácnosti včetně jejich využití.",
+        "quote": "Uvede příklady chemických látek běžně používaných v domácnosti včetně jejich využití."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Roztřídí vybrané látky běžně užívané v domácnosti podle jejich vlastností a možností využití.",
+        "quote": "Roztřídí vybrané látky běžně užívané v domácnosti podle jejich vlastností a možností využití."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chemické látky v domácnosti",
+        "url": ""
+      },
+      {
+        "title": "Chemické složení a využívání látek v domácnosti",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu která látka slouží, a vyzkouší tě z třídění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš seznamy látek a jejich použití."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a indikátorový papírek ukážou vlastnosti, podle kterých třídíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2aff15fb-1c24-42b5-89ca-17696df25370",
+      "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ph-roztoku",
+    "title": "Měření pH roztoků",
+    "aliases": [
+      "pH papírek",
+      "kyselý nebo zásaditý",
+      "pokus s pH",
+      "červené zelí",
+      "indikátor"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Experimentálně zjistí a porovná pH běžně dostupných roztoků látek a na základě zjištěných výsledků zhodnotí možnosti jejich použití.",
+        "quote": "Experimentálně zjistí a porovná pH běžně dostupných roztoků látek a na základě zjištěných výsledků zhodnotí možnosti jejich použití."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí stupnici pH a pomůže ti pochopit, co čekat od pokusu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky pH běžných látek porovnáš se svým měřením."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s čidlem pH nebo s čtením barvy papírku ukáže naměřenou hodnotu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Indikátorový papírek nebo pH metr hodnotu změří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c0e81b5-9d3d-4933-82f1-9af41ca43407",
+      "http://data.europa.eu/esco/skill/ab2e56f3-24f0-413b-a67b-291a67fc2d1f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kyseliny-a-zasady",
+    "title": "Kyseliny a zásady v domácnosti",
+    "aliases": [
+      "ocet",
+      "jedlá soda",
+      "kyselina citronová",
+      "jar a čističe",
+      "co je zásada"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady běžných kyselin a zásad a jejich využití v domácnosti.",
+        "quote": "Uvede příklady běžných kyselin a zásad a jejich využití v domácnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl a nechá tě hádat příklady z domácnosti."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na Wikipedii najdeš seznamy kyselin a zásad a jejich použití."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příklady znáš z hlavy, nástroj tu nemá co měřit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d",
+      "http://data.europa.eu/esco/skill/2aff15fb-1c24-42b5-89ca-17696df25370"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uprava-ph-vody",
+    "title": "Pojem pH a úprava pH vody",
+    "aliases": [
+      "co je pH",
+      "pH bazénu",
+      "pH akvária",
+      "upravit pH",
+      "kyselost vody"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí pojem pH a navrhne řešení modelových situací úpravy pH vody (např. v bazénu, akváriu).",
+        "quote": "Vysvětlí pojem pH a navrhne řešení modelových situací úpravy pH vody (např. v bazénu, akváriu)."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pH a probere s tebou, co dělat u kyselé nebo zásadité vody."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení pH a návody pro bazén i akvárium."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na výpočet dávek chemie do bazénu ušetří počítání, rozhodnout musíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Test nebo pH metr zjistí stav vody, úpravu volíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c0e81b5-9d3d-4933-82f1-9af41ca43407",
+      "http://data.europa.eu/esco/skill/ab2e56f3-24f0-413b-a67b-291a67fc2d1f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hnojiva-a-rust-rostliny",
+    "title": "Hnojiva a růst rostlin: návrh pokusu",
+    "aliases": [
+      "hnojivo",
+      "pokus s fazolemi",
+      "zálivka",
+      "živiny pro rostliny",
+      "dusík fosfor draslík"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Demonstruje znalost o složení základních hnojiv a jejich význam pro růst rostliny na návrhu pokusu ověřujícího vliv složení zálivky na růst rostliny.",
+        "quote": "Demonstruje znalost o složení základních hnojiv a jejich význam pro růst rostliny na návrhu pokusu ověřujícího vliv složení zálivky na růst rostliny."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Hnojiva a fazole",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co hnojiva obsahují, a najde slabá místa v tvém návrhu pokusu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš složení hnojiv a příklady pokusů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka na zapisování růstu ti pomůže porovnat výsledky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a váha změří, jak rostlina vyrostla."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/33e5a0ea-6e6f-4b22-9865-71864de92985",
+      "http://data.europa.eu/esco/skill/2a58e994-74b9-4211-85ac-cfb409a9b667"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "latky-prinos-a-rizika",
+    "title": "Dezinfekce, paliva, rozpouštědla a hnojiva: přínos a rizika",
+    "aliases": [
+      "dezinfekce",
+      "pesticidy",
+      "paliva",
+      "rozpouštědla",
+      "škodlivé látky",
+      "životní prostředí"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozezná látky používané k dezinfekci a odstraňování nežádoucích organismů (bakterie, hmyz, hlodavci, plevele, plísně, řasy apod.), paliva, rozpouštědla a hnojiva a zhodnotí přínos i rizika jejich používání z pohledu zdraví člověka i vlivů na životní prostředí.",
+        "quote": "Rozezná látky používané k dezinfekci a odstraňování nežádoucích organismů (bakterie, hmyz, hlodavci, plevele, plísně, řasy apod.), paliva, rozpouštědla a hnojiva a zhodnotí přínos i rizika jejich používání z pohledu zdraví člověka i vlivů na životní prostředí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Chemikálie v domácnosti",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu látky slouží, a probere s tebou přínosy i rizika."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš bezpečnostní listy a články o dopadech na zdraví a přírodu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rizika posuzuješ hlavou, nástroj tu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5b6abc4b-0cfe-4178-845d-479da3d2d699",
+      "http://data.europa.eu/esco/skill/145fb42f-ebee-48e2-bdf8-2e935edc7158",
+      "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "mydla-a-cistici-prostredky",
+    "title": "Mýdla, prací a čisticí prostředky",
+    "aliases": [
+      "jak funguje mýdlo",
+      "prací prášek",
+      "čisticí prostředky",
+      "drogerie",
+      "vhodný čistič"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Objasní roli vybraných drogistických přípravků v domácnosti (kosmetické prostředky, mýdla a prací prostředky), uvede jejich příklady a vybrané kosmetické produkty (např. mýdlo, balzám na rty, rtěnka, šumivá koule do koupele) připraví v laboratoři.",
+        "quote": "Objasní roli vybraných drogistických přípravků v domácnosti (kosmetické prostředky, mýdla a prací prostředky), uvede jejich příklady"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Porovná složení a vlastnosti běžných čisticích prostředků a vysvětlí jejich vhodnost pro různé typy materiálů.",
+        "quote": "Porovná složení a vlastnosti běžných čisticích prostředků a vysvětlí jejich vhodnost pro různé typy materiálů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Informace z etiket",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co v čističích funguje, a porovná je s tebou."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na etiketách a webech výrobců najdeš složení a použití."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Složení čteš a porovnáváš ty, nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/51a26193-9abe-4bce-9108-f50835be1c35",
+      "http://data.europa.eu/esco/skill/2aff15fb-1c24-42b5-89ca-17696df25370"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyroba-kosmetiky",
+    "title": "Výroba mýdla nebo balzámu v laboratoři",
+    "aliases": [
+      "balzám na rty",
+      "rtěnka",
+      "šumivá koule do koupele",
+      "vyrobit mýdlo",
+      "laboratorní práce"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Objasní roli vybraných drogistických přípravků v domácnosti (kosmetické prostředky, mýdla a prací prostředky), uvede jejich příklady a vybrané kosmetické produkty (např. mýdlo, balzám na rty, rtěnka, šumivá koule do koupele) připraví v laboratoři.",
+        "quote": "vybrané kosmetické produkty (např. mýdlo, balzám na rty, rtěnka, šumivá koule do koupele) připraví v laboratoři"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou recept a vysvětlí, proč se suroviny chovají tak, jak se chovají."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš recepty, postupy a bezpečnostní pokyny."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Mýdlo ani balzám žádná aplikace neuvaří."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Váha, kádinka a kahan jsou k výrobě nutné."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ceda9207-797c-4d4a-b65a-5eb59084f011",
+      "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "koroze-kovu",
+    "title": "Koroze železa a mědi a ochrana kovů",
+    "aliases": [
+      "rez",
+      "zelená patina",
+      "proti korozi",
+      "natřít kov",
+      "rezavění"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Srovná proces koroze železných a měděných materiálů a vybírá vhodné přípravky zajišťující ochranu kovů proti korozi.",
+        "quote": "Srovná proces koroze železných a měděných materiálů a vybírá vhodné přípravky zajišťující ochranu kovů proti korozi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč kovy korodují, a probere s tebou, čím je chránit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení koroze a přehled ochranných nátěrů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pokus s hřebíky a měděným drátem ti korozi ukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1a07f1f7-ac56-46b9-a876-1876e48d0f89",
+      "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "spravne-nakladani-s-produkty",
+    "title": "Používání, skladování a likvidace drogistických výrobků",
+    "aliases": [
+      "etiketa",
+      "výstražné symboly",
+      "skladování chemikálií",
+      "likvidace odpadu",
+      "nebezpečný odpad"
+    ],
+    "outcome": "CAP-CHE-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladech konkrétních produktů zdůvodní potřebu správného nakládání (používání, skladování, likvidace) s vybranými drogistickými produkty.",
+        "quote": "Na příkladech konkrétních produktů zdůvodní potřebu správného nakládání (používání, skladování, likvidace) s vybranými drogistickými produkty."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Informace z etiket",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se produkty musí používat, skladovat a likvidovat určitým způsobem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš pokyny výrobce a pravidla sběrného dvora."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Správný postup znáš z hlavy, nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d",
+      "http://data.europa.eu/esco/skill/2aff15fb-1c24-42b5-89ca-17696df25370"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

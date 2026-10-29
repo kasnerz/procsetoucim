@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kilo hovězího, šálek kávy nebo džíny potřebují na výrobu velmi rozdílné množství vody a rozdíly bývají překvapivě velké. Když umíš taková data porovnat, chápeš, proč se o vodě mluví u jídla i oblečení, a nenachytá tě jediné číslo vytržené z článku. Zároveň trénuješ práci s daty: najít zdroj, převést litry na stejnou jednotku a z tabulky udělat graf. Pracují s tím lidé, kteří ve firmách řeší udržitelnost a životní prostředí nebo řídí výrobu tak, aby nic nepřišlo nazmar. Takových míst do roku 2035 spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Přepočet na jednu porci",
+      "text": "Požádej chatbota o úlohy, ve kterých převedeš litry vody na kilogram výrobku na litry na jednu porci nebo kus. Počítej na papíře a výsledky mu pošli ke kontrole."
+    },
+    {
+      "title": "Žebříček věcí z domova",
+      "text": "Vyber pět věcí, které běžně jíš nebo nosíš, a seřaď je podle toho, kolik vody podle tebe potřebují. Pak nech chatbota pořadí okomentovat a čísla si dohledej v tabulkách, protože si je může splést."
+    },
+    {
+      "title": "Kontrola vlastního grafu",
+      "text": "Udělej v tabulkovém programu graf vodní stopy několika výrobků a popiš chatbotovi, co z něj vyčteš. Ať ti řekne, jestli tvůj závěr z grafu opravdu plyne."
+    }
+  ]
+}

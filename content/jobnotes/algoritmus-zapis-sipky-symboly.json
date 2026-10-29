@@ -1,0 +1,12 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "d68ff35f-e34d-4e32-88ab-d6c06a6c25b9": "Pravidla hry se zapisují do specifikace slovy i schématy. Zápis musí být tak přesný, aby podle něj programátor hru dokázal vytvořit, i když to ještě není kód.",
+  "6ce5f7e3-a534-4aa2-ab23-255408ddb53a": "Postup, který zařízení provede, se nejdřív zapíše slovy nebo schématem a až potom programuje. U takového zápisu se také zkouší, jestli dělá, co má.",
+  "35553663-deab-4d9a-bf22-15c1625d28e8": "Algoritmus se často nejprve načrtne ve schématu nebo popíše slovy. Teprve potom se z něj dělá kód a testuje se, jestli funguje.",
+  "4874fa37-0cd1-4a68-aed8-a838851f242d": "Při vylepšování překladů se postup rozboru textu zapisuje po krocích. Pak se naprogramuje a zkouší na textech, na kterých se ukáže, kde postup selhává.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Postup kurzu se zakresluje do schématu s kroky a šipkami. Programovat se tu nemusí, zápis postupu ve schématu se ale občas hodí.",
+  "555235ce-8c45-409b-a6c9-83e69c2d2bce": "Technický postup se v práci zapisuje do podrobných pokynů a schémat. Algoritmy v popisu práce jsou, ale konkrétní zápis symboly je jen jedna z možností."
+ }
+}

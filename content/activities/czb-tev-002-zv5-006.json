@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "tv-pokyny-povely-signaly-rozcvicka",
+    "title": "Pokyny, povely a signály v tělocviku",
+    "aliases": [
+      "povely v tělocviku",
+      "pokyny při cvičení",
+      "tělocvičné názvosloví",
+      "signály píšťalka",
+      "nástup a rozcvička"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Seznamuje se s pokyny, povely a signály spojenými s různými pohybovými činnostmi.",
+        "quote": "Seznamuje se s pokyny, povely a signály spojenými s různými pohybovými činnostmi."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozumí pokynům, povelům a signálům spojených s různými pohybovými činnostmi.",
+        "quote": "Rozumí pokynům, povelům a signálům spojených s různými pohybovými činnostmi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pokyny při rozcvičování - seznámení",
+        "url": ""
+      },
+      {
+        "title": "Pokyny při rozcvičování - porozumění",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co které tělocvičné slovo nebo gesto znamená."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš seznam tělocvičných povelů a obrázky gest."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Povely a signály poznáváš v hale, aplikace je za tebe neslyší."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Píšťalka jen houkne, co znamená, se naučíš od učitele a z cvičení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-cviceni-podle-povelu-jednotlive-i-v-tymu",
+    "title": "Cvičení podle povelů a signálů",
+    "aliases": [
+      "cvičení podle pokynů",
+      "týmové cvičení",
+      "předcvičování",
+      "rozcvička",
+      "poslouchat povely"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Reaguje správně na základní pokyny, povely, signály a vykonává podle nich individuální i týmovou pohybovou činnost.",
+        "quote": "Reaguje správně na základní pokyny, povely, signály a vykonává podle nich individuální i týmovou pohybovou činnost."
+      },
+      {
+        "level": "Splněno",
+        "point": "Podle pokynů, povelů a signálů vykonává různé pohybové činnosti.",
+        "quote": "Podle pokynů, povelů a signálů vykonává různé pohybové činnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pokyny při rozcvičování",
+        "url": ""
+      },
+      {
+        "title": "Předcvičování",
+        "url": "https://uloziste.rvp.cz/material/ce8a65"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Cvičíš tělem ty, chatbot tvoje pohyby nevidí ani neopraví."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa předcvičování ukážou, jak má pohyb vypadat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Cvičební aplikace dává povely a signály a ty podle nich cvičíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Píšťalka nebo bubínek dávají signály, na které reaguješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-soulad-cviceni-a-slovnich-instrukci",
+    "title": "Posouzení, zda cvičení odpovídá pokynům",
+    "aliases": [
+      "kontrola cvičení",
+      "hodnocení spolužáků",
+      "správné provedení cviku",
+      "podle pokynů",
+      "společné posouzení"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Se spolužáky společně posoudí soulad cvičení a slovních instrukcí.",
+        "quote": "Se spolužáky společně posoudí soulad cvičení a slovních instrukcí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Cvičení vidíš se spolužáky vy, chatbot vaše pohyby neposoudí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popis a video správného provedení cviku porovnáš s tím, co jste předvedli."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Natočené cvičení si pustíš zpomaleně a porovnáš s pokynem."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Soulad pohybu s pokynem posuzujete očima a domluvou mezi sebou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,143 @@
+{
+  "outcome": "UAK-VFV-001-ZV5-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "reakce-na-dilo-slovo-gesto",
+      "title": "Reakce na dílo slovem a gestem",
+      "aliases": ["co mě na obraze zaujalo", "povídání o obrázku", "hodnocení práce spolužáků", "jak se mi to líbí", "reakce na výtvarné dílo"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Reaguje na svou tvorbu i tvorbu ostatních slovem, pohybem, zvukem či jinými nonverbálními prostředky."},
+        {"level": "Na začátku", "quote": "reaguje na své dílo i dílo ostatních bezprostředně i s odstupem"},
+        {"level": "Na začátku", "quote": "označí, co jej na díle zaujalo, vyjádří se gestem, pohybem, slovem"},
+        {"level": "Splněno", "quote": "Určí, co je pro něj na díle významné a co chce jinak než slovy sdělit ostatním."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Co tebe na obrázku zaujalo, ti chatbot neřekne, to poznáš jen ty."},
+        "internet": {"verdict": "pomuze", "why": "Rozbory obrazů a slovník pocitů ti dají slova, když ti nějaké chybí."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace za tebe nic necítí, dojem z díla vyjadřuješ ty slovem nebo gestem."},
+        "klasicky": {"verdict": "nepomuze", "why": "Dojem z díla vyjadřuješ hlasem a tělem, nástroj k tomu nepotřebuješ."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663", "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25"],
+      "inspiration": ["Hodnocení gestem"]
+    },
+    {
+      "slug": "reakce-na-dilo-barvy-a-tvary",
+      "title": "Dojem z díla v barvách a tvarech",
+      "aliases": ["nakreslit pocit", "barvy a nálada", "emoce v obraze", "z malby kresba", "přepsat obraz do kresby"],
+      "sources": [
+        {"level": "Na začátku", "quote": "svůj dojem z díla vyjádří volbou barev, tvarů, linií a jejich kombinací"},
+        {"level": "Na cestě", "quote": "převedením malby do kresby a naopak"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Barvy a čáry pro svůj dojem vybíráš ty, chatbot tvůj dojem nezná."},
+        "internet": {"verdict": "pomuze", "why": "Ukázky obrazů ti ukážou, jak barvy a tvary vyjadřují radost nebo strach."},
+        "aplikace": {"verdict": "pomuze", "why": "V kreslicí aplikaci zkoušíš barvy a tvary a snadno je měníš, než se ti zdají správné."},
+        "klasicky": {"verdict": "pomuze", "why": "Pastelky a štětec ti dají čáru a barvu, kterou svůj dojem skutečně nakreslíš."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0", "http://data.europa.eu/esco/skill/1faf62ee-28fd-432b-972b-fab2cbe81773"],
+      "inspiration": ["Emoce"]
+    },
+    {
+      "slug": "reakce-na-dilo-zvuk-pohyb-improvizace",
+      "title": "Dílo ve zvuku a pohybu",
+      "aliases": ["zahrát obraz", "tanec podle obrázku", "živý obraz", "ozvučit obraz", "pohybová improvizace"],
+      "sources": [
+        {"level": "Na cestě", "quote": "převedením do zvukové podoby,"},
+        {"level": "Na cestě", "quote": "pohybovou improvizací, využitím prvků performance,"},
+        {"level": "Na cestě", "quote": "ozvučení projekce díla,"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Zahrát zvuk nebo se pohnout musíš ty, chatbot ti může jen poradit nápad."},
+        "internet": {"verdict": "pomuze", "why": "Ukázky zvuků a tance ti dají nápad, jak by obraz mohl znít nebo se hýbat."},
+        "aplikace": {"verdict": "pomuze", "why": "Nahrávací aplikace zachytí tvoje zvuky a dovolí je podložit pod promítaný obraz."},
+        "klasicky": {"verdict": "pomuze", "why": "Chrastítko, flétna nebo bubínek dají obrazu zvuk, který vyzkoušíš a upravíš."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/4327690a-e639-4b58-98b5-d078d6b90b07", "http://data.europa.eu/esco/skill/fba972bf-7c08-4deb-a2dc-b157886097fe"],
+      "inspiration": ["Živý obraz"]
+    },
+    {
+      "slug": "reakce-na-dilo-kratky-vzkaz-basen",
+      "title": "Krátký text k dílu: vzkaz nebo báseň",
+      "aliases": ["báseň k obrázku", "vzkaz autorovi", "slovní asociace", "napsat k obrazu", "řetězení slov"],
+      "sources": [
+        {"level": "Na cestě", "quote": "krátkým textem (může jít o vzkaz, báseň, výběr určitých slov a jejich řetězení, slovní asociaci)"}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot ti může nabídnout rýmy a slova na téma obrazu, vybíráš a píšeš pak ty."},
+        "internet": {"verdict": "pomuze", "why": "Ukázky básní a slovníky synonym ti dají materiál pro vlastní slova."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace ti nepoví, co ti dílo připomíná, a to je to hlavní, co píšeš."},
+        "klasicky": {"verdict": "pomuze", "why": "Tužka a papír ti nechají vypsat slova volně a škrtat, dokud sedí."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd", "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25"],
+      "inspiration": []
+    },
+    {
+      "slug": "reakce-na-dilo-fotografie-serie",
+      "title": "Fotografie k dílu a příběh z fotek",
+      "aliases": ["vyfotit obraz", "fotka jako obraz", "upravit fotku", "série fotek", "fotopříběh"],
+      "sources": [
+        {"level": "Na cestě", "quote": "fotografií, která vzbuzuje asociace s dílem,"},
+        {"level": "Na cestě", "quote": "přenesení díla do jiného prostředí (i na fotografii) nebo kontextu,"},
+        {"level": "Na cestě", "quote": "úpravou fotografie díla jednoduchými digitálními nástroji,"},
+        {"level": "Na cestě", "quote": "vytvářením série fotografií, vyjadřující jednoduchý příběh či vyprávění."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Fotku s tvým nápadem vyfotíš ty, chatbot nestojí před dílem."},
+        "internet": {"verdict": "pomuze", "why": "Ukázky fotografií a návody na kompozici ti ukážou, jak udělat dobrý záběr."},
+        "aplikace": {"verdict": "pomuze", "why": "Fotoaparát a editor v telefonu ti fotku pořídí, ořízne a upraví barvy a světlo."},
+        "klasicky": {"verdict": "nepomuze", "why": "Fotografovat a upravovat snímky se dá jen digitálně, tužka ani pravítko nepomůžou."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/38509fa4-7c06-4a4b-9622-f521f03c37b8", "http://data.europa.eu/esco/skill/d90bad2f-7fcc-4e85-a02f-ba4837732892"],
+      "inspiration": []
+    },
+    {
+      "slug": "reakce-na-dilo-video-animace",
+      "title": "Krátké video a animace díla",
+      "aliases": ["natočit obraz", "animovaný film", "stop motion", "záběr na detail", "video o obrazu"],
+      "sources": [
+        {"level": "Na cestě", "quote": "krátkým videem, které přiblíží dílo z různých úhlů pohledu nebo přiblížení na detail,"},
+        {"level": "Na cestě", "quote": "animací díla,"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Natáčíš a rozhýbáváš ty, chatbot může nanejvýš poradit, jak na to."},
+        "internet": {"verdict": "pomuze", "why": "Návody na natáčení a ukázky animací ti ukážou, jak vypadá záběr z blízka a stop motion."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace na video a animaci spojí tvoje záběry a obrázky a dovolí je sestříhat."},
+        "klasicky": {"verdict": "nepomuze", "why": "Video a animace vznikají na zařízení s kamerou, klasický nástroj k tomu nestačí."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/eee58e6d-4587-42f0-b9a0-fe055cfe2044", "http://data.europa.eu/esco/skill/5ce80f97-b385-4a41-9339-a6593d0709c1"],
+      "inspiration": []
+    },
+    {
+      "slug": "reakce-na-dilo-sdileni-s-ostatnimi",
+      "title": "Sdílení vlastní tvorby s ostatními",
+      "aliases": ["ukázat třídě svou práci", "vernisáž", "představit obrázek", "výběr způsobu reakce", "prezentace tvorby"],
+      "sources": [
+        {"level": "Splněno", "quote": "Vybere si konkrétní způsob reakce na svou tvorbu i tvorbu ostatních."},
+        {"level": "Splněno", "quote": "Sdílí obsah díla verbálními i nonverbálními prostředky."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Před třídou stojíš ty, chatbot za tebe svou práci nepředstaví."},
+        "internet": {"verdict": "nepomuze", "why": "Hotové informace ti neřeknou, jak chceš svou práci ukázat ty."},
+        "aplikace": {"verdict": "pomuze", "why": "Prezentační aplikace nebo fotoalbum ti poskládají obrázky a zvuk do ukázky pro ostatní."},
+        "klasicky": {"verdict": "pomuze", "why": "Nástěnka, rám a lavice s výstavkou ti dají místo, kde dílo ukážeš."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {"level": "Splněno", "start": "Vytvoří obsah jako reakci na vlastní či cizí dílo.", "code": "O3", "refs": []},
+    {"level": "Na cestě", "start": "Reaguje na svou tvorbu i tvorbu ostatních:", "code": "O3", "refs": []}
+  ]
+}

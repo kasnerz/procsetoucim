@@ -1,0 +1,322 @@
+[
+  {
+    "slug": "bloky-programovani-sestaveni-programu",
+    "title": "Skládání programu z bloků",
+    "aliases": [
+      "blokové programování",
+      "Scratch",
+      "skládání bloků",
+      "program z bloků",
+      "pořadí příkazů"
+    ],
+    "outcome": "INF-INF-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Skládá základní bloky do jednoduché posloupnosti, která splňuje zadání (např. pohyb objektu).",
+        "quote": "Skládá základní bloky do jednoduché posloupnosti, která splňuje zadání (např. pohyb objektu)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Sestaví program s více kroky, kombinuje různé typy bloků a zvažuje správné pořadí kroků pro splnění zadání.",
+        "quote": "Sestaví program s více kroky, kombinuje různé typy bloků a zvažuje správné pořadí kroků pro splnění zadání."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Robot stavitel",
+        "url": "https://uloziste.rvp.cz/material/ea6bd2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co který blok dělá, a poradí, jak úkol rozdělit na kroky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a ukázkové projekty ve Scratchi ti ukážou, jak podobný program vypadá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V blokovém prostředí bloky přetahuješ a hned vidíš, co program dělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka program nespustí, v bloky ho přeložíš v prostředí na obrazovce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bloky-programovani-opakovani-cyklus",
+    "title": "Opakování v programu",
+    "aliases": [
+      "cyklus",
+      "opakuj",
+      "opakující se bloky",
+      "krok vpřed 5x",
+      "opakující se vzory"
+    ],
+    "outcome": "INF-INF-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná opakující se vzory.",
+        "quote": "Rozpozná opakující se vzory."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Identifikuje opakující se bloky (např. krok vpřed 5x).",
+        "quote": "Identifikuje opakující se bloky (např. krok vpřed 5x)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vytvoří jednoduchý program (např. pohyb vpřed) s opakujícími se bloky.",
+        "quote": "Vytvoří jednoduchý program (např. pohyb vpřed) s opakujícími se bloky."
+      },
+      {
+        "level": "Splněno",
+        "point": "Používá opakování v programu ke zjednodušení kódu.",
+        "quote": "Používá opakování v programu ke zjednodušení kódu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Schody",
+        "url": "https://uloziste.rvp.cz/material/b58e8c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, kdy se hodí blok opakování, a ukáže, jak se pět stejných kroků zkrátí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukazují příklady s cyklem, které si můžeš vyzkoušet po svém."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V blokovém prostředí zkusíš obě verze a uvidíš, že dělají totéž."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Opakování ve vzoru najdeš i na papíře, program tím ale nesestavíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bloky-programovani-podprogramy",
+    "title": "Podprogramy pro opakující se části",
+    "aliases": [
+      "podprogram",
+      "vlastní blok",
+      "funkce",
+      "opakující se část programu",
+      "přehlednost programu"
+    ],
+    "outcome": "INF-INF-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří podprogramy pro opakující se části programu, vysvětlí jejich výhody pro přehlednost a efektivitu.",
+        "quote": "Vytvoří podprogramy pro opakující se části programu, vysvětlí jejich výhody pro přehlednost a efektivitu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Navrhne jiná řešení s využitím podprogramů.",
+        "quote": "Navrhne jiná řešení s využitím podprogramů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Robot stavitel",
+        "url": "https://uloziste.rvp.cz/material/ea6bd2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, k čemu je vlastní blok, a ukáže, jak rozdělit program na části."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ke Scratchi ukazují, jak si vlastní blok vytvořit a použít."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V blokovém prostředí si vlastní blok vytvoříš a vyzkoušíš, jak zkrátí program."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka program nespustí, v bloky ho přeložíš v prostředí na obrazovce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bloky-programovani-hledani-chyb",
+    "title": "Hledání a oprava chyb v programu",
+    "aliases": [
+      "ladění programu",
+      "chyba v programu",
+      "blok na špatném místě",
+      "oprava programu",
+      "bug"
+    ],
+    "outcome": "INF-INF-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Kontroluje základní chyby v posloupnosti bloků (např. blok je na nesprávném místě) a opravuje je.",
+        "quote": "Kontroluje základní chyby v posloupnosti bloků (např. blok je na nesprávném místě) a opravuje je."
+      },
+      {
+        "level": "Splněno",
+        "point": "Otestuje celý program, najde případné chyby, chybné podmínky nebo opakování a opraví je.",
+        "quote": "Otestuje celý program, najde případné chyby, chybné podmínky nebo opakování a opraví je."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti k popisu chyby napíše, kde ji hledat, hledání ale musíš dotáhnout ty."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Fóra a návody popisují časté chyby začátečníků, tvoji chybu v nich ale nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prostředí program spustí a ukáže, kde se chová jinak, než má."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka program nespustí, v bloky ho přeložíš v prostředí na obrazovce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bloky-programovani-zkouseni-popis",
+    "title": "Zkoušení programu a popis, co dělá",
+    "aliases": [
+      "testování programu",
+      "ověření programu",
+      "co program dělá",
+      "vylepšení programu",
+      "kontrola postupu"
+    ],
+    "outcome": "INF-INF-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Ověří správnost postupu řešení.",
+        "quote": "Ověří správnost postupu řešení."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Ověřuje, že program funguje a popíše, co program dělá.",
+        "quote": "Ověřuje, že program funguje a popíše, co program dělá."
+      },
+      {
+        "level": "Splněno",
+        "point": "Testuje různé části programu, provádí drobné úpravy pro zlepšení funkčnosti a efektivnosti.",
+        "quote": "Testuje různé části programu, provádí drobné úpravy pro zlepšení funkčnosti a efektivnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Včelka jede do úlu",
+        "url": "https://uloziste.rvp.cz/material/ae533f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti k tvému popisu položí otázky, které odhalí, co jsi v programu přehlédl."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotový postup z internetu nezkouší tvůj program, jen ukáže cizí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prostředí program spustí, takže hned vidíš, jestli dělá, co má."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka program nespustí, v bloky ho přeložíš v prostředí na obrazovce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
+      "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "V zemské kůře je spousta kyslíku a křemíku, ale zlata nebo některých kovů do elektroniky jen nepatrně, a i proto jsou drahé. Alternativní periodická tabulka, která místo značek ukazuje, kolik je kterého prvku a kolik se ho spotřebuje, učí číst data z neobvyklého obrázku a porovnávat dvě věci najednou. Kdo umí přečíst, čeho je málo a čeho se spotřebuje hodně, rozumí zprávám o cenách surovin nebo o recyklaci. S takovými údaji pracují lidé v geologii a geochemii, když hledají, kde se prvky v horninách hromadí. Většina lidí si z toho do práce odnese spíš obecný přehled než konkrétní údaje.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k jedné tabulce",
+      "text": "Otevři alternativní periodickou tabulku a požádej chatbota o pět otázek, na které odpovíš jen z ní. Když se chatbot v údajích splete, věř tabulce."
+    },
+    {
+      "title": "Vzácné a hodně spotřebované prvky",
+      "text": "Najdi v tabulce prvky, kterých je v zemské kůře málo, ale spotřebuje se jich hodně. Zeptej se chatbota, k čemu se používají, a pak si domysli, co z toho plyne pro jejich cenu nebo recyklaci."
+    },
+    {
+      "title": "Spolužák, který tabulku nezná",
+      "text": "Nech chatbota hrát spolužáka, který alternativní tabulku nikdy neviděl, a vysvětli mu, co ukazuje a čím se liší od běžné. Odpovídej na jeho dotazy, dokud ji nepochopí."
+    }
+  ]
+}

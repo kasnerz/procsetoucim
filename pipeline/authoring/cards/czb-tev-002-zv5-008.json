@@ -1,0 +1,100 @@
+{
+  "outcome": "CZB-TEV-002-ZV5-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-mereni-vykonu-pomucky-hod-micku",
+      "title": "Měření pohybového výkonu",
+      "aliases": ["měření výkonu v tělocviku", "jak změřit hod", "stopky v tělocviku", "změřit skok nebo běh", "pásmo a stopky"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Měří dle pokynů pohybové výkony"},
+        {"level": "Na začátku", "quote": "Seznamuje se s různými způsoby pro změření svého výkonu."},
+        {"level": "Na cestě", "quote": "Zkouší různé způsoby pro změření svého výkonu."},
+        {"level": "Splněno", "quote": "Změří svůj výkon."}
+      ],
+      "rules": ["P1", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Délku hodu ani čas běhu chatbot nezměří, to děláš ty na hřišti."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš, jak se měří hod, skok nebo běh a jaké pomůcky se k tomu hodí."},
+        "aplikace": {"verdict": "pomuze", "why": "Stopky nebo krokoměr v telefonu naměří čas i vzdálenost."},
+        "klasicky": {"verdict": "pomuze", "why": "Pásmo změří délku hodu nebo skoku, stopky čas běhu."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/de1d76d0-6fa2-488f-a65a-007c22384ba2"],
+      "inspiration": ["Měření výkonu v hodu míčkem - způsoby", "Měření výkonu v hodu míčkem - seznámení"]
+    },
+    {
+      "slug": "tv-vyber-aplikace-pro-mereni-pohybu",
+      "title": "Aplikace pro měření pohybu",
+      "aliases": ["aplikace na sport", "krokoměr", "měření běhu v telefonu", "sportovní hodinky", "záznam pohybu"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Seznamuje se s vhodnými aplikacemi pro změření (zaznamenání) pohybové činnosti."},
+        {"level": "Splněno", "quote": "Vybere a použije vhodnou aplikaci pro změření (zaznamenání) pohybové činnosti."}
+      ],
+      "rules": ["P1", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Poradí, jaký druh aplikace se hodí na běh, skoky nebo plavání."},
+        "internet": {"verdict": "pomuze", "why": "Přečteš si, co která aplikace měří, a najdeš návod k ní."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace naměří čas, trasu nebo kroky a výsledek si uloží."},
+        "klasicky": {"verdict": "nepomuze", "why": "Pásmo ani stopky nejsou aplikace, vybereš ji z nabídky v telefonu."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/de1d76d0-6fa2-488f-a65a-007c22384ba2"],
+      "inspiration": ["Sportovní deník"]
+    },
+    {
+      "slug": "tv-zapis-a-porovnani-vykonu-s-predchozim",
+      "title": "Zápis výkonu a porovnání s předchozím",
+      "aliases": ["sportovní deník", "zapsat výsledek", "porovnat výkony", "zlepšení výkonu", "tabulka výsledků v tělocviku"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "porovnává je s výkony přechozími."},
+        {"level": "Splněno", "quote": "Změřený výkon zaznamená a porovná se svým předchozím výkonem."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Tvoje výsledky zná jen deník nebo záznam, chatbot je nemá."},
+        "internet": {"verdict": "nepomuze", "why": "Web ti výsledky nezapíše, porovnáváš je ty se svými."},
+        "aplikace": {"verdict": "pomuze", "why": "Tabulka nebo sportovní aplikace uloží výsledky a ukáže, o kolik se výkon změnil."},
+        "klasicky": {"verdict": "pomuze", "why": "Do sešitu nebo deníku zapíšeš výsledky a kalkulačkou spočítáš rozdíl."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/de1d76d0-6fa2-488f-a65a-007c22384ba2"],
+      "inspiration": ["Sportovní deník", "Měření výkonu v hodu míčkem - reflexe"]
+    },
+    {
+      "slug": "tv-pricina-zlepseni-ci-zhorseni-vykonu",
+      "title": "Příčina zlepšení nebo zhoršení výkonu",
+      "aliases": ["proč je výkon horší", "proč to letí dál", "co ovlivňuje výkon", "únava a výkon", "rozcvička před měřením"],
+      "sources": [
+        {"level": "Splněno", "quote": "Uvede, co je možnou příčinou zlepšení či zhoršení výkonu."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Probere s tebou, co výkon mohlo ovlivnit: spánek, rozcvička, technika."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš články o tom, co zlepšuje sportovní výkon a co ho zhoršuje."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace ukáže čísla, ale proč se změnila, musíš vymyslet ty."},
+        "klasicky": {"verdict": "nepomuze", "why": "Pásmo ani stopky příčinu nenaměří, tu hledáš ve svém tréninku."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/dbfb9dda-48d9-4a10-9821-3237f868071b", "http://data.europa.eu/esco/skill/de1d76d0-6fa2-488f-a65a-007c22384ba2"],
+      "inspiration": ["Měření výkonu v hodu míčkem - reflexe"]
+    },
+    {
+      "slug": "tv-zarazeni-pohybu-do-dne-pro-zlepseni-vykonu",
+      "title": "Pohyb v denním režimu pro lepší výkon",
+      "aliases": ["jak si zlepšit výkon", "cvičení doma", "plán cvičení", "kruhový trénink", "pravidelný pohyb"],
+      "sources": [
+        {"level": "Splněno", "quote": "Rozhodne o zařazení pohybových činností do denního režimu, které povedou ke zlepšení (udržení) daného výkonu při dalším měření."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Navrhne cviky a rozvrh na týden, ty ho pak upravíš podle svého dne."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš nápady na cvičení a ukázky jednoduchého kruhového tréninku."},
+        "aplikace": {"verdict": "pomuze", "why": "Kalendář nebo aplikace s cviky ti připomene, kdy cvičit."},
+        "klasicky": {"verdict": "nepomuze", "why": "Míč ani švihadlo nerozhodnou, kdy a co budeš cvičit."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/14db3283-8b66-4649-9192-41defda9c33e"],
+      "inspiration": ["Kruhový trénink", "Sportovní deník"]
+    }
+  ],
+  "aside": []
+}

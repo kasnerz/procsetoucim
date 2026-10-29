@@ -1,0 +1,293 @@
+[
+  {
+    "slug": "nabiti-trenim-pritahovani-odpuzovani",
+    "title": "Nabíjení třením, přitahování a odpuzování",
+    "aliases": [
+      "statická elektřina",
+      "elektrický náboj",
+      "třená tyč",
+      "brčko a hadr",
+      "odpuzování nábojů"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Předvede přitahování a odpuzování nabitých těles.",
+        "quote": "Předvede přitahování a odpuzování nabitých těles."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkoumá, jaké efekty lze pozorovat díky plastové tyči třené hadrem.",
+        "quote": "Zkoumá, jaké efekty lze pozorovat díky plastové tyči třené hadrem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pokusy s nabitými brčky",
+        "url": "https://uloziste.rvp.cz/material/b32e9d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se stejné náboje odpuzují, a navrhne ti pokus."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a návody s brčky a balónky ukážou, co si máš vyzkoušet."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Brčko třeš a pozoruješ ty, simulace tvoje pokusy nenahradí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Plastové pravítko, hadr a brčko na nitce ti sílu náboje ukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8ac1986-38fa-43b2-89dc-50a4beeb420e",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "detekce-naboje-plechovka-elektroskop",
+    "title": "Zjištění, že je těleso nabité",
+    "aliases": [
+      "elektroskop",
+      "detekce náboje",
+      "plechovka na polystyrenu",
+      "doutnavka",
+      "jiskra"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Různými způsoby detekuje náboj na nabitém tělese (např. plechovce, elektroskopu).",
+        "quote": "Různými způsoby detekuje náboj na nabitém tělese (např. plechovce, elektroskopu)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Detekce náboje",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vyjmenuje způsoby, jak náboj poznat, a vysvětlí, co které ukáže."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukážou, jak si elektroskop nebo plechovku na polystyrenu připravit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Jiskru, odpuzování brčka i záblesk doutnavky vidíš jen v pokusu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Elektroskop, doutnavka a brčko na nitce náboj opravdu ukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8ac1986-38fa-43b2-89dc-50a4beeb420e",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vodice-izolanty-pretok-naboje",
+    "title": "Vodiče a izolanty",
+    "aliases": [
+      "vodivost",
+      "co vede elektřinu",
+      "izolant",
+      "drát",
+      "vodič"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Experimentálně zjistí, zda se daným materiálem přesouvá náboj, nebo ne.",
+        "quote": "Experimentálně zjistí, zda se daným materiálem přesouvá náboj, nebo ne."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Ví, že se elektřina vodí drátem.",
+        "quote": "Ví, že se elektřina vodí drátem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vodiče a izolanty",
+        "url": "https://uloziste.rvp.cz/material/ef211d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč kov vede a plast ne, a pomůže ti vymyslet pokus."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky vodivosti materiálů ti dají s čím porovnat své zjištění."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Materiály zkoušíš rukama ty, aplikace ti vodivost drátu nezměří."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nabitá plechovka a drát, dřevo či sklo ukážou, co náboj propustí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8ac1986-38fa-43b2-89dc-50a4beeb420e",
+      "http://data.europa.eu/esco/skill/57869946-cec2-4121-981c-84c9846c58d0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jak-dlouho-vydrzi-naboj-trenim",
+    "title": "Kdy náboj uteče a kdy vydrží",
+    "aliases": [
+      "vlhký vzduch",
+      "ztráta náboje",
+      "balónek přilnul ke stěně",
+      "statická elektřina v zimě"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zkoumá podmínky, za jakých náboj získaný třením rychle uteče nebo vydrží delší dobu.",
+        "quote": "Zkoumá podmínky, za jakých náboj získaný třením rychle uteče nebo vydrží delší dobu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, co měnit při pokusu, a vysvětlí, proč vlhkost náboj odvádí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popisy podobných pokusů a vysvětlení, na co dát pozor."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Čas, po který náboj drží, měříš v pokusu ty, ne aplikace."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Balónek, hadr a hodinky ti ukážou, jak dlouho náboj drží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8ac1986-38fa-43b2-89dc-50a4beeb420e",
+      "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bourka-pravidla-bezpecneho-chovani",
+    "title": "Bezpečné chování při bouřce",
+    "aliases": [
+      "blesk",
+      "bouřka",
+      "jak se chovat za bouřky",
+      "atmosférická elektřina"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Formuluje a zdůvodní pravidla bezpečného chování při bouřce.",
+        "quote": "Formuluje a zdůvodní pravidla bezpečného chování při bouřce."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s projevy bouřky a jejich riziky.",
+        "quote": "Seznámí se s projevy bouřky a jejich riziky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak se chovat za bouřky?",
+        "url": "https://uloziste.rvp.cz/material/fee84e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč blesk vybírá vysoké předměty, a prověří tvá pravidla."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Pravidla pro bouřku a mapa bouřek v okolí jsou k dohledání."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s radarem bouřek ti ukáže, odkud se blíží."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidla musíš umět zdůvodnit ty, tužka ani teploměr v tom nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8ac1986-38fa-43b2-89dc-50a4beeb420e",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

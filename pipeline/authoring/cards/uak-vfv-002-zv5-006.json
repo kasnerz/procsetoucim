@@ -1,0 +1,262 @@
+{
+  "outcome": "UAK-VFV-002-ZV5-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "umeleckadila-druhy-del",
+      "title": "Druhy výtvarných a filmových děl",
+      "aliases": [
+        "malba a kresba",
+        "grafika a socha",
+        "druhy filmů",
+        "animovaný film",
+        "dokumentární film",
+        "architektura"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "setkává se s různými typy uměleckých děl (pestrost přístupů, možnost uplatnit různé pojmy)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozlišuje mezi vybranými druhy děl výtvarné a filmové povahy – malba, kresba, grafika, socha, umění ve veřejném prostoru, architektura, hraný, dokumentární, animovaný a experimentální film."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi malbou a grafikou nebo mezi hraným a dokumentárním filmem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a encyklopedie ukážou příklady všech druhů děl s obrázky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace galerií a muzeí ti ukážou díla k porovnání."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dílo poznáš, když ho vidíš naživo nebo ve filmu, nástroj to za tebe nezvládne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+      ],
+      "inspiration": [
+        "Co mají umělecká díla společné"
+      ]
+    },
+    {
+      "slug": "umeleckadila-pocity-z-dila",
+      "title": "Pocity z uměleckého díla a jejich popis",
+      "aliases": [
+        "co mi dílo říká",
+        "jak na mě obraz působí",
+        "pocity z filmu",
+        "popsat dojem"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Uvědomuje si pocity a představy, které v něm výtvarné či filmové dílo vyvolává."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Verbalizuje svůj prožitek a jeho intenzitu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne slova pro pocity, když ti nějaké chybí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Cizí popisy díla nenahradí tvůj vlastní pocit z něj."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti pocit z obrazu nebo filmu nepopíše."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pocit z díla máš jen ty, žádný nástroj ho nezná."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/86c8482c-776b-43b5-a01c-956601069cfe",
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+      ],
+      "inspiration": [
+        "Příběh podle fotografií"
+      ]
+    },
+    {
+      "slug": "umeleckadila-nazor-a-rozhovor",
+      "title": "Vlastní názor na dílo a rozhovor o něm",
+      "aliases": [
+        "říct názor na obraz",
+        "bavit se o filmu",
+        "hodnocení díla",
+        "povídání o umění"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Účastní se komunikace o výtvarném či filmovém díle, rozumí základním pojmům v komunikaci ostatních."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zformuluje a sdělí názor na vybrané výtvarné či filmové dílo"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Aktivně se zapojí do komunikace o různých typech uměleckých děl."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyzkouší tě na tvůj názor a zeptá se, proč si to myslíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Rozbory a recenze ukážou, jak o díle mluví jiní."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tebou o díle nepromluví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozhovor ve třídě vedeš hlasem ty, žádný nástroj ho nevede."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/86c8482c-776b-43b5-a01c-956601069cfe"
+      ],
+      "inspiration": [
+        "Dopis autorovi díla"
+      ]
+    },
+    {
+      "slug": "umeleckadila-oborove-pojmy",
+      "title": "Pojmy o výtvarném a filmovém umění",
+      "aliases": [
+        "linie a tvar",
+        "kontrast",
+        "zátiší a portrét",
+        "tempera a pastel",
+        "filmová postava",
+        "koláž"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "setkává se vhodnou formou se základními oborovými pojmy výtvarného a filmového umění a učí se je vhodně užívat"
+        },
+        {
+          "level": "Splněno",
+          "quote": "V komunikaci o díle používá vybrané oborové pojmy (linie, tvar, barva, odstín, kontrast, kresba, malba, tempera, pastel, koláž, socha, sousoší, zátiší, portrét, krajina; celovečerní a krátký film, filmová postava, děj, příběh, animace, loutka, pohádka)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem na příkladu a zadá cvičné otázky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníčky a encyklopedie pojmy vysvětlují a ukazují na obrázcích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kartičkové a kvízové aplikace ti pojmy pomůžou procvičit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pojmy použiješ při povídání o díle, na to nástroj nemáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/86c8482c-776b-43b5-a01c-956601069cfe",
+        "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+      ],
+      "inspiration": [
+        "Co mají umělecká díla společné"
+      ]
+    },
+    {
+      "slug": "umeleckadila-uzite-umeni-reklama",
+      "title": "Užité umění a reklama",
+      "aliases": [
+        "filmový plakát",
+        "reklama v televizi",
+        "užité umění",
+        "plakát a reklama"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje užité umění vizuální a audiovizuální reklamu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se reklama liší od užitého umění, a dá příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internet ukáže plakáty, reklamy a předměty užitého umění k porovnání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti rozdíl nerozliší, díváš se a posuzuješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Reklamu od užitého umění odliší tvoje oči, nástroj k tomu není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f",
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+      ],
+      "inspiration": [
+        "Filmový plakát"
+      ]
+    }
+  ],
+  "aside": []
+}

@@ -1,0 +1,346 @@
+[
+  {
+    "slug": "algoritmus-problem-vstupy-vystupy",
+    "title": "Problém, vstupy a výstupy",
+    "aliases": [
+      "co chci vyřešit",
+      "vstup a výstup",
+      "zadání úkolu",
+      "popis problému"
+    ],
+    "outcome": "INF-INF-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pojmenuje problém, určí potřebné vstupy a výstupy a vysvětlí jejich vztahy.",
+        "quote": "Pojmenuje problém, určí potřebné vstupy a výstupy a vysvětlí jejich vztahy."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popisuje jednoduchý problém, uvádí základní vstupy a očekávané výstupy (např. cesta v bludišti, ve čtvercové síti).",
+        "quote": "Popisuje jednoduchý problém, uvádí základní vstupy a očekávané výstupy (např. cesta v bludišti, ve čtvercové síti)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Recept na hamburger",
+        "url": "https://uloziste.rvp.cz/material/6d6889"
+      },
+      {
+        "title": "Svačina pro kamaráda",
+        "url": "https://uloziste.rvp.cz/material/1a9da7"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, co je zadání, a upozorní, když chybí nějaký vstup nebo výstup."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Zadání svého problému ve vyhledávači nenajdeš, popsat ho musíš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Bludišťové hry ti ukážou start jako vstup a cíl jako výstup."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravítko ani tužka ti nepomůžou rozhodnout, co je vstup a co výstup."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "algoritmus-kroky-posloupnost",
+    "title": "Kroky řešení v logickém pořadí",
+    "aliases": [
+      "postup krok za krokem",
+      "rozdělit problém",
+      "posloupnost kroků",
+      "jak na to"
+    ],
+    "outcome": "INF-INF-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše kroky známé činnosti či postupu.",
+        "quote": "Popíše kroky známé činnosti či postupu."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše posloupnost kroků, které vedou k řešení situace.",
+        "quote": "Popíše posloupnost kroků, které vedou k řešení situace."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozdělí problém na menší části, sestaví kroky do logické posloupnosti a zváží různé možnosti.",
+        "quote": "Rozdělí problém na menší části, sestaví kroky do logické posloupnosti a zváží různé možnosti."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Navrhuje kroky potřebné k vyřešení problému a uspořádává je v základní posloupnosti.",
+        "quote": "Navrhuje kroky potřebné k vyřešení problému a uspořádává je v základní posloupnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Recept na hamburger",
+        "url": "https://uloziste.rvp.cz/material/6d6889"
+      },
+      {
+        "title": "Svačina pro kamaráda",
+        "url": "https://uloziste.rvp.cz/material/1a9da7"
+      },
+      {
+        "title": "Vystřihovánky",
+        "url": "https://uloziste.rvp.cz/material/0a1297"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak jiní problém rozdělí na kroky, a ty svůj postup porovnáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš hotové návody a recepty a vidíš, jak se kroky řadí za sebou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti kroky vlastního problému nevymyslí a nepoznáš z nich, jak je řadit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírky nebo kartičky s kroky si můžeš přeskládat do pořadí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "algoritmus-zapis-sipky-symboly",
+    "title": "Zápis postupu slovy a symboly",
+    "aliases": [
+      "zápis algoritmu",
+      "šipky",
+      "vývojový diagram",
+      "zapsat postup"
+    ],
+    "outcome": "INF-INF-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Použije symboly k vytvoření přesnějšího a strukturovaného zápisu algoritmu a otestuje jeho funkčnost.",
+        "quote": "Použije symboly k vytvoření přesnějšího a strukturovaného zápisu algoritmu a otestuje jeho funkčnost."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Sestavuje a zapisuje jednoduchý algoritmus pomocí slov nebo jednoduchých symbolů (např. šipky).",
+        "quote": "Sestavuje a zapisuje jednoduchý algoritmus pomocí slov nebo jednoduchých symbolů (např. šipky)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Můj plán",
+        "url": "https://uloziste.rvp.cz/material/4c633f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se dají kroky zakreslit šipkami, a řekne ti, kde je zápis nejasný."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukáže vzory zápisů, třeba vývojové diagramy a jejich značky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Programovací hra z bloků ti krok zapsaný šipkami rovnou provede."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a papír stačí, postup zapíšeš a zkusíš ho prstem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "algoritmus-overeni-oprava-chyb",
+    "title": "Ověření a oprava postupu",
+    "aliases": [
+      "ladění",
+      "najít chybu v postupu",
+      "vyzkoušet postup",
+      "opravit postup"
+    ],
+    "outcome": "INF-INF-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Testuje svůj postup na různých příkladech, identifikuje chyby a provádí jednoduché úpravy k jeho vylepšení.",
+        "quote": "Testuje svůj postup na různých příkladech, identifikuje chyby a provádí jednoduché úpravy k jeho vylepšení."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Ověřuje správnost svého postupu. (např. podle očekávaného výstupu).",
+        "quote": "Ověřuje správnost svého postupu. (např. podle očekávaného výstupu)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozhoduje o správnosti/nesprávnosti svého postupu na základě výsledného řešení.",
+        "quote": "Rozhoduje o správnosti/nesprávnosti svého postupu na základě výsledného řešení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vystřihovánky",
+        "url": "https://uloziste.rvp.cz/material/0a1297"
+      },
+      {
+        "title": "Můj plán",
+        "url": "https://uloziste.rvp.cz/material/4c633f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde tvůj postup na příkladu a ukáže krok, kde se to rozbije."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvůj vlastní postup ve vyhledávači neověříš, zkoušíš ho ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Programovací hra ti postup provede a hned vidíš, kde se zasekl."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Postup si odehraješ s kartičkami nebo figurkou a výsledek porovnáš se zadáním."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "algoritmus-porovnani-postupu",
+    "title": "Porovnání a vysvětlení postupů",
+    "aliases": [
+      "který postup je lepší",
+      "vysvětlit řešení",
+      "různé varianty",
+      "výhody a nevýhody postupu"
+    ],
+    "outcome": "INF-INF-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Diskutuje nad možnostmi řešení.",
+        "quote": "Diskutuje nad možnostmi řešení."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhodnotí různé postupy, vysvětlí své volby a navrhne, jak postupy zlepšit.",
+        "quote": "Vyhodnotí různé postupy, vysvětlí své volby a navrhne, jak postupy zlepšit."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí svá řešení, diskutuje výhody a nevýhody a zdůvodní svá rozhodnutí.",
+        "quote": "Vysvětlí svá řešení, diskutuje výhody a nevýhody a zdůvodní svá rozhodnutí."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vysvětluje svůj postup v jednoduchých krocích a popisuje jeho základní logiku.",
+        "quote": "Vysvětluje svůj postup v jednoduchých krocích a popisuje jeho základní logiku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Svačina pro kamaráda",
+        "url": "https://uloziste.rvp.cz/material/1a9da7"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne jiné postupy a ptá se, proč sis vybral právě ten tvůj."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové odpovědi nic neřeknou o tom, proč je lepší tvůj postup."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s tebou o tvém řešení nediskutuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Vysvětlení a spor o varianty se vedou řečí s lidmi, ne s nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

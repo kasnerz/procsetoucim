@@ -1,0 +1,17 @@
+---
+// Site logo (user 2026-10-25): a raspberry question mark on a torn scrap of squared notebook paper, a raster image
+// (public/logo.webp, logo.png; cropped from the user's source, 126x132 px for display at up to 44 px high). The
+// favicons are a separate, simpler drawing (public/favicon.svg). `uid` is kept for older callers and no longer used.
+interface Props { size?: number; uid?: string }
+const { size = 44 } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const width = Math.round((size * 126) / 132);
+---
+<picture class="logo">
+  <source srcset={`${base}logo.webp`} type="image/webp" />
+  <img src={`${base}logo.png`} width={width} height={size} style={`height:${size}px`} alt="" decoding="async" />
+</picture>
+<style>
+  .logo { flex: none; display: block; line-height: 0; }
+  .logo img { display: block; width: auto; }
+</style>

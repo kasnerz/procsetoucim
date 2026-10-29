@@ -1,0 +1,329 @@
+[
+  {
+    "slug": "bezpecna-hesla-rizika-dat",
+    "title": "Bezpečná hesla",
+    "aliases": [
+      "silné heslo",
+      "tvorba hesla",
+      "biometrické údaje",
+      "odemykání otiskem",
+      "ochrana účtu"
+    ],
+    "outcome": "INF-INF-004-ZV5-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Dodržuje bezpečnostní pravidla při používání hesel pro přístup k digitálním zařízením (seznamuje se s pravidly tvorby bezpečných hesel).",
+        "quote": "Dodržuje bezpečnostní pravidla při používání hesel pro přístup k digitálním zařízením"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Používá bezpečná hesla pro přístup do svého pracovního prostředí na digitálních zařízeních.",
+        "quote": "Používá bezpečná hesla pro přístup do svého pracovního prostředí na digitálních zařízeních."
+      },
+      {
+        "level": "Splněno",
+        "point": "Používá silná hesla, vysvětlí význam biometrických údajů pro zabezpečení.",
+        "quote": "Používá silná hesla, vysvětlí význam biometrických údajů pro zabezpečení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hesla v digitálním světě",
+        "url": "https://uloziste.rvp.cz/material/b3e748"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pravidla pro silné heslo a poradí, jak si ho zapamatovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o bezpečnosti ukážou, jak heslo zní slabě a jak silně."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Správce hesel vytvoří silné heslo a uloží ho, kontrola síly hesla ti ukáže slabinu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Heslo si vymýšlíš a pamatuješ ty, papír s ním na stole bezpečnost nezvýší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44",
+      "http://data.europa.eu/esco/skill/5898d99a-62a4-4e10-a2e3-0d815ce44248"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bezpecne-pripojeni-wifi-pevne",
+    "title": "Bezpečné připojení: Wi-Fi a kabel",
+    "aliases": [
+      "wifi",
+      "veřejná wifi",
+      "připojení k internetu",
+      "kabel nebo wifi",
+      "bezpečná síť"
+    ],
+    "outcome": "INF-INF-004-ZV5-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozpoznává základní typy připojení (např. Wi-Fi, pevné připojení) a bezpečně se připojí k Wi-Fi síti.",
+        "quote": "Rozpoznává základní typy připojení (např. Wi-Fi, pevné připojení) a bezpečně se připojí k Wi-Fi síti."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše výhody a nevýhody wifi a pevného připojení.",
+        "quote": "Popíše výhody a nevýhody wifi a pevného připojení."
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede možná opatření pro bezpečné připojení k digitálním zařízením.",
+        "quote": "Uvede možná opatření pro bezpečné připojení k digitálním zařízením."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Internetová bezpečnost",
+        "url": "https://uloziste.rvp.cz/material/4646bd"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Srovná wifi s kabelem a vysvětlí, proč je cizí síť riskantní."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a články popíšou, jak poznat zabezpečenou síť."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Připojit se a zvolit důvěryhodnou síť musíš ty, aplikace za tebe nerozhodne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kabel do routeru zapojíš rukou, ale o bezpečí sítě nic neřekne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "citliva-data-zneuziti-udaju",
+    "title": "Veřejné a citlivé údaje",
+    "aliases": [
+      "osobní údaje",
+      "soukromí",
+      "co nesdílet",
+      "jméno a adresa",
+      "zneužití dat"
+    ],
+    "outcome": "INF-INF-004-ZV5-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Sděluje informace s ohledem na soukromí a bezpečí svoje i blízkých osob v osobním kontaktu.",
+        "quote": "Sděluje informace s ohledem na soukromí a bezpečí svoje i blízkých osob v osobním kontaktu."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozlišuje mezi veřejnými a citlivými informacemi (např. jméno, adresa) a seznamuje se s tím, že citlivá data mohou být zneužita.",
+        "quote": "Rozlišuje mezi veřejnými a citlivými informacemi (např. jméno, adresa) a seznamuje se s tím, že citlivá data mohou být zneužita."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozliší různé typy dat a informací, popíše rizika jejich sdílení a uvede příklady možných důsledků.",
+        "quote": "Rozliší různé typy dat a informací, popíše rizika jejich sdílení a uvede příklady možných důsledků."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Naše třída online – jak chránit, co je naše",
+        "url": "https://uloziste.rvp.cz/material/8bcf6a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, které údaje jsou citlivé, a vymyslí příklady, co se stane po jejich zveřejnění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o bezpečnosti dětí online uvádějí konkrétní případy zneužití údajů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Co o sobě sdělíš, rozhoduješ ty, aplikace to za tebe nezváží."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Citlivost údajů neposoudí ani tužka, ani papír, to děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5d5ba629-0b4c-424f-8803-000c3736f3f7",
+      "http://data.europa.eu/esco/skill/a56dec32-05ef-45de-a256-ee6741f356db"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "overene-aplikace-varovne-signaly",
+    "title": "Bezpečné aplikace a stránky",
+    "aliases": [
+      "varovné signály",
+      "falešné stránky",
+      "ověřená aplikace",
+      "podvodný web",
+      "stahování aplikací"
+    ],
+    "outcome": "INF-INF-004-ZV5-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Používá aplikace a webové stránky, které jsou ověřené a bezpečné, podle pokynů učitele nebo rodičů.",
+        "quote": "Používá aplikace a webové stránky, které jsou ověřené a bezpečné, podle pokynů učitele nebo rodičů."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vybírá bezpečné aplikace a webové stránky, rozpozná varovné signály.",
+        "quote": "Vybírá bezpečné aplikace a webové stránky, rozpozná varovné signály."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Dodržuje bezpečnostní pravidla stanovená pro práci s digitálními technologiemi.",
+        "quote": "Dodržuje bezpečnostní pravidla stanovená pro práci s digitálními technologiemi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Internetová bezpečnost",
+        "url": "https://uloziste.rvp.cz/material/4646bd"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vypíše varovné znaky podvodného webu a vysvětlí, jak vybrat aplikaci."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Recenze a stránky o podvodech ukážou, jestli je aplikace nebo web známý jako škodlivý."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Antivirus nebo obchod s aplikacemi označí známé hrozby, než je otevřeš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidla ti pomůže zapamatovat plakát, rozpoznat falešný web musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44",
+      "http://data.europa.eu/esco/skill/5898d99a-62a4-4e10-a2e3-0d815ce44248"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "obsah-internetu-podle-chovani",
+    "title": "Obsah internetu podle toho, co děláš",
+    "aliases": [
+      "doporučování videí",
+      "algoritmus",
+      "bublina na internetu",
+      "reklamy podle zájmů",
+      "co mi internet nabízí"
+    ],
+    "outcome": "INF-INF-004-ZV5-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zjišťuje, že obsah internetu může být ovlivněn jeho předchozími akcemi.",
+        "quote": "Zjišťuje, že obsah internetu může být ovlivněn jeho předchozími akcemi."
+      },
+      {
+        "level": "Splněno",
+        "point": "Zjišťuje, jak se mění nabídka obsahu na internetu podle toho, co dělá uživatel, a diskutuje o tom, jak to může ovlivnit jeho vlastní rozhodování.",
+        "quote": "Zjišťuje, jak se mění nabídka obsahu na internetu podle toho, co dělá uživatel, a diskutuje o tom, jak to může ovlivnit jeho vlastní rozhodování."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co dělám, to se mi vrací…",
+        "url": "https://uloziste.rvp.cz/material/44e010"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč ti internet nabízí podobná videa, a vede s tebou rozhovor o vlivu na rozhodování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a pokusy ukazují, jak se výsledky vyhledávání liší podle historie."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Ve svém účtu uvidíš historii a nabídku, kterou ti aplikace skládá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír ani tužka nenabízí obsah podle tvého chování, tady nemají co ukázat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

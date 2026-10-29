@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když se v zimě mluví o smogu, nemusíš spoléhat na dohady: na portálu ČHMÚ uvidíš, co právě naměřila stanice ve tvém kraji. Orientace v takových datech se hodí i jinde, protože čísla s jednotkami a limity potkáš třeba u rozboru pitné vody nebo na výsledcích krevních testů. Každý den s nimi pracují lidé, kteří analyzují znečištění ovzduší, většina ostatních to využije jen občas. Chatbot ti vysvětlí, co znamená mikrogram na metr krychlový, ale aktuální hodnotu z tvého okolí si najdi a přečti na portálu, chatbot si ji často jen domyslí.",
+  "learnWithAi": [
+    {
+      "title": "Jednotky a limity srozumitelně",
+      "text": "Opiš z portálu ČHMÚ jednu hodnotu i s jednotkou a zeptej se chatbota, co znamená a podle čeho se pozná, jestli je vysoká. Na portálu pak najdi, s jakým limitem se srovnává."
+    },
+    {
+      "title": "Otázky pro průzkum portálu",
+      "text": "Nech si od chatbota připravit pět otázek, na které odpovíš jen z dat AIM, třeba kde byl včera nejvíc prachu. Odpovědi najdi na portálu a nech ho posoudit, jestli dávají smysl."
+    },
+    {
+      "title": "Porovnání dvou krajů",
+      "text": "Vyber dvě stanice v různých krajích, porovnej oxidy dusíku za týden a svoje vysvětlení rozdílu napiš chatbotovi. Ať ti řekne, co by rozdíl mohlo ještě způsobit, a zvaž, co z toho sedí."
+    }
+  ]
+}

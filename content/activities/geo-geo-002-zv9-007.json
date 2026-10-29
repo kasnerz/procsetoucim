@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "biomy-a-pudni-typy-geo9",
+    "title": "Hlavní biomy a půdní typy",
+    "aliases": [
+      "biomy",
+      "půdní typy",
+      "tundra a tajga",
+      "step a poušť",
+      "černozem",
+      "podzol"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozlišuje a charakterizuje hlavní biomy a vybrané půdní typy",
+        "quote": "rozlišuje a charakterizuje hlavní biomy a vybrané půdní typy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Přiřaď biom",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi tajgou a stepí a vymyslí ti otázky na zkoušení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a atlas ukážou fotky biomů a popis půd."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kvízy a karty s biomy a půdami ti pomůžou je rozlišit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas s mapou biomů a půd je základ, ze kterého se učíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zonalni-a-azonalni-faktory-biomu",
+    "title": "Proč jsou biomy a půdy právě tam",
+    "aliases": [
+      "zonalita",
+      "zeměpisná šířka a biom",
+      "nadmořská výška",
+      "proč tam roste les",
+      "azonální"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zdůvodní rozmístění biomů a půdních typů jako důsledek vlivu zonálních a azonálních faktorů",
+        "quote": "zdůvodní rozmístění biomů a půdních typů jako důsledek vlivu zonálních a azonálních faktorů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kde biom můj?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se s šířkou i výškou mění biom, a opraví tvé zdůvodnění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Učebnice online a Wikipedie popisují zonalitu s obrázky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Zdůvodnění rozmístění biomů musíš vymyslet ty, aplikace ho nenapíše."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas s mapami klimatu, biomů a půd ti ukáže souvislosti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odvozeni-biomu-a-pudy-pro-misto",
+    "title": "Půda a biom pro dané místo z klimagramu a polohy",
+    "aliases": [
+      "klimagram",
+      "určení biomu",
+      "jaká tam bude půda",
+      "poloha a podnebí",
+      "hornina a půda"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "pro konkrétní místo odvodí na základě přírodních podmínek daných geografickou polohou (klima, dostupnost vody, převažující horniny) odpovídající půdní typ a biom",
+        "quote": "pro konkrétní místo odvodí na základě přírodních podmínek"
+      },
+      {
+        "level": "Splněno",
+        "point": "Pro konkrétní místo odvodí na základě geografické polohy odpovídající biom, půdní typ a hospodářské využití krajiny.",
+        "quote": "Pro konkrétní místo odvodí na základě geografické polohy odpovídající biom, půdní typ"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kde a proč co roste? – Biomy, půdy a hospodaření (čtení klimagramu)",
+        "url": "https://uloziste.rvp.cz/material/bd9adc"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje tvůj postup od polohy a klimagramu k biomu a půdě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Klimatická data a mapy půd najdeš online a ověříš s nimi závěr."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapové aplikace ukážou polohu, výšku a typ krajiny místa."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Klimagram v atlase čteš ty, atlas ti dá jen podklady."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566",
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pudy-a-zivot-v-krajine-hospodareni",
+    "title": "Jak půdy a organismy ovlivňují hospodaření lidí",
+    "aliases": [
+      "úrodná půda",
+      "zemědělství a půda",
+      "lesy a pole",
+      "využití krajiny",
+      "co se kde pěstuje"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na konkrétních příkladech vysvětlí, jak přirozené rozšíření půd a živých organismů podmiňuje a ovlivňuje lidské aktivity",
+        "quote": "na konkrétních příkladech vysvětlí, jak přirozené rozšíření půd a živých organismů podmiňuje a ovlivňuje lidské aktivity"
+      },
+      {
+        "level": "Splněno",
+        "point": "Pro konkrétní místo odvodí na základě geografické polohy odpovídající biom, půdní typ a hospodářské využití krajiny.",
+        "quote": "hospodářské využití krajiny"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá příklady, proč se na černozemi pěstuje obilí, a ptá se tě na další."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zemědělské a lesnické stránky ukazují, co se kde daří."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Souvislosti mezi půdou a hospodařením vysvětluješ ty, aplikace je nevymyslí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas s mapou využití země ukáže pole, louky a lesy podle půd."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e693138a-842f-4d9f-9aa5-bf515605c359",
+      "http://data.europa.eu/esco/skill/270c4de9-97f9-4a7a-95d1-63670f1ec3bc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

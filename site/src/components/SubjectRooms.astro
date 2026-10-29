@@ -1,0 +1,133 @@
+---
+// "Předměty" as classroom cards: each paper scrap is the floor plan of one room (user 2026-10-20), its walls
+// just inside the torn edge. Every room has the same rectangular shell (windows on the left, board on the top
+// wall, door bottom right) and one or two faint things that belong to the subject. The subject icon and name sit
+// in the middle like the label on a floor plan; the card count is the room number in the top right corner.
+import Icon from "./Icon.astro";
+import Paper from "./Paper.astro";
+import { rng, rect, line, circle } from "../lib/sketch";
+import { subjects, activities, outcomes, subjectSlug, subjectIcon } from "../lib/data";
+
+const W = 320, H = 190;
+const L = 12, T = 12, R = 308, B = 178; // walls
+const DOOR = { x: 252, w: 34 };
+const base = import.meta.env.BASE_URL;
+const count = (code: string) => activities.filter((a) => outcomes[a.outcome]?.subject.code === code).length;
+
+type Ink = "wall" | "soft" | "green" | "blue" | "door";
+function room(code: string): Record<Ink, string> {
+  const r = rng(`room/${code}`);
+  const ink: Record<Ink, string[]> = { wall: [], soft: [], green: [], blue: [], door: [] };
+  const soft = (...d: string[]) => ink.soft.push(...d);
+  const poly = (pts: number[][]) => pts.slice(1).forEach((p, i) => soft(line(pts[i][0], pts[i][1], p[0], p[1], r, 0.6)));
+
+  // Shell: walls with two windows on the left, a door gap at the bottom right.
+  const WIN = [[40, 78], [112, 150]];
+  ink.wall.push(line(L - 2, T, R + 2, T, r, 0.8), line(R, T - 2, R, B + 2, r, 0.8));
+  ink.wall.push(line(R + 2, B, DOOR.x + DOOR.w, B, r, 0.6), line(DOOR.x, B, L - 2, B, r, 0.8));
+  ink.wall.push(line(L, B + 2, L, WIN[1][1], r, 0.6), line(L, WIN[1][0], L, WIN[0][1], r, 0.6), line(L, WIN[0][0], L, T - 2, r, 0.6));
+  for (const [a, b] of WIN) soft(line(L - 3, a, L - 3, b, r, 0.3), line(L + 3, a, L + 3, b, r, 0.3));
+  ink.door.push(`M${DOOR.x + DOOR.w},${B} A${DOOR.w},${DOOR.w} 0 0 0 ${DOOR.x},${B - DOOR.w}`);
+  soft(line(DOOR.x + DOOR.w, B, DOOR.x + DOOR.w, B - DOOR.w, r, 0.4));
+
+  const board = (x0 = 110, x1 = 210) => soft(line(x0, T + 6, x1, T + 6, r, 0.6), line(x0, T + 10, x1, T + 10, r, 0.5));
+  const desks = (cols: number, rows: number, x0: number, x1: number, y0: number, y1: number) => {
+    const dw = 34, dh = 16;
+    const gx = cols > 1 ? (x1 - x0 - cols * dw) / (cols - 1) : 0, gy = rows > 1 ? (y1 - y0 - rows * dh) / (rows - 1) : 0;
+    for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) soft(rect(x0 + i * (dw + gx), y0 + j * (dh + gy), dw, dh, r, 0.7));
+  };
+  const plant = (x: number, y: number) => ink.green.push(circle(x - 5, y - 3, 7, r, 0.2), circle(x + 5, y - 2, 6, r, 0.2), circle(x, y + 5, 6, r, 0.2));
+  const classroom = () => { board(); desks(3, 2, 50, 240, 64, 140); };
+
+  switch (code) {
+    case "CJL": // bookshelf
+      classroom(); soft(rect(R - 20, 40, 14, 100, r, 0.6)); for (let y = 60; y < 140; y += 20) soft(line(R - 20, y, R - 6, y, r, 0.4)); break;
+    case "AJA": // tables of four
+      board(); for (const [x, y] of [[60, 64], [170, 64], [60, 124], [170, 124]]) soft(rect(x, y, 60, 26, r, 0.7)); break;
+    case "DCJ": // a horseshoe of desks
+      board(); soft(rect(50, 50, 20, 100, r, 0.7), rect(R - 74, 50, 20, 100, r, 0.7), rect(70, 50, R - 144, 18, r, 0.7)); break;
+    case "MAT": // set square on the wall
+      board(110, 190); desks(3, 2, 50, 240, 64, 140); poly([[214, T + 16], [258, T + 16], [214, T + 40], [214, T + 16]]); break;
+    case "INF": // monitors on the desks
+      board(); desks(3, 2, 50, 240, 64, 140);
+      for (const x of [50, 128, 206]) for (const y of [64, 140 - 16]) soft(rect(x + 9, y + 3, 16, 5, r, 0.3)); break;
+    case "FYZ": // demonstration table with a magnet
+      board(); soft(rect(100, 34, 120, 22, r, 0.6)); poly([[150, 38], [150, 50], [166, 50], [166, 38]]); desks(3, 1, 50, 240, 110, 126); break;
+    case "CHE": // lab benches with flasks
+      board(); for (const y of [64, 118]) soft(rect(40, y, 210, 22, r, 0.6), circle(80, y + 11, 5, r, 0.2), circle(200, y + 11, 5, r, 0.2)); break;
+    case "PRI": // aquarium with a fish, a plant
+      classroom(); soft(rect(R - 70, 30, 52, 24, r, 0.5));
+      ink.blue.push(`M${R - 54},42 q5,-4 10,0 q-5,4 -10,0 M${R - 44},42 l4,-3 v6 z`); plant(34, 96); break;
+    case "GEO": // globe
+      classroom(); soft(circle(R - 36, 44, 16, r, 0.06), line(R - 52, 44, R - 20, 44, r, 0.3)); break;
+    case "DEJ": // timeline along the wall
+      classroom(); soft(line(40, B - 12, 230, B - 12, r, 0.4)); for (let k = 0; k < 5; k++) soft(line(48 + k * 44, B - 17, 48 + k * 44, B - 7, r, 0.2)); break;
+    case "VKO": // desks in a U, a ballot box
+      board(); soft(rect(50, 50, 20, 100, r, 0.7), rect(R - 74, 50, 20, 100, r, 0.7), rect(70, 132, R - 144, 18, r, 0.7), rect(140, 76, 34, 26, r, 0.5), line(149, 84, 165, 84, r, 0.2)); break;
+    case "OSV": // circle of cushions
+      board(); for (let k = 0; k < 8; k++) { const a = (k / 8) * Math.PI * 2; soft(circle(150 + Math.cos(a) * 44, 100 + Math.sin(a) * 44, 8, r, 0.2)); } break;
+    case "CJS": // a carpet and a plant
+      board(); soft(rect(90, 56, 130, 70, r, 0.8)); plant(R - 26, 60); plant(34, 130); break;
+    case "HTD": // piano and a stage
+      board(); soft(rect(30, 30, 60, 24, r, 0.6)); for (let k = 1; k < 6; k++) soft(line(30 + k * 10, 31, 30 + k * 10, 44, r, 0.2));
+      soft(rect(150, 46, 120, 56, r, 0.7)); break;
+    case "VFV": // easels
+      for (let k = 0; k < 4; k++) { const x = 46 + k * 54, y = 74; poly([[x, y + 30], [x + 12, y], [x + 24, y + 30]]); soft(rect(x + 4, y + 4, 16, 13, r, 0.4)); } break;
+    case "TCH": // workbenches with vices
+      for (const y of [62, 116]) soft(rect(40, y, 210, 24, r, 0.6), rect(40, y - 7, 12, 7, r, 0.3), rect(150, y - 7, 12, 7, r, 0.3)); break;
+    case "VZB": // first-aid box and mats
+      ink.wall.push(line(44, 32, 44, 46, r, 0.2), line(37, 39, 51, 39, r, 0.2)); soft(rect(32, 28, 24, 22, r, 0.4));
+      for (const x of [86, 146, 206]) soft(rect(x, 76, 46, 76, r, 0.6)); break;
+    case "TEV": // court with a centre circle
+      soft(rect(30, 28, 260, 136, r, 0.6), line(160, 28, 160, 164, r, 0.4), circle(160, 96, 22, r, 0.05)); break;
+  }
+  return Object.fromEntries(Object.entries(ink).map(([k, v]) => [k, v.join(" ")])) as Record<Ink, string>;
+}
+
+const list = subjects().map((s) => ({ ...s, n: count(s.code), ink: room(s.code) }));
+---
+<ul class="rooms">
+  {list.map((s) => (
+    <li>
+      <Paper as="a" href={`${base}predmet/${subjectSlug(s.code)}/`} seed={`room-card/${s.code}`} tilt={0.9} depth={4} class="room">
+        <svg class="sk" viewBox={`0 0 ${W} ${H}`} aria-hidden="true">
+          <path d={s.ink.soft} class="soft" />
+          <path d={s.ink.green} class="green" />
+          <path d={s.ink.blue} class="blue" />
+          <path d={s.ink.door} class="door" />
+          <path d={s.ink.wall} class="wall" />
+        </svg>
+        <span class="label">
+          <Icon name={subjectIcon(s.code)} size="32" class="emblem" />
+          <span class="t">{s.name}</span>
+        </span>
+        {s.n > 0 && <span class="badge num">{s.n}<span class="visually-hidden"> karet</span></span>}
+      </Paper>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .rooms { list-style: none; margin: 0 auto; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s5); max-width: 1040px; width: 100%; }
+  @media (max-width: 860px) { .rooms { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s4) var(--s3); } }
+  .room { display: block; position: relative; aspect-ratio: 320 / 190; padding: 0; }
+  .sk { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .sk path { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+  .wall { stroke: var(--ink); stroke-width: 1.8; }
+  .soft { stroke: #b6bbc1; stroke-width: 1; }
+  .green { stroke: #8fa898; stroke-width: 1; }
+  .blue { stroke: var(--blue); stroke-width: 1; opacity: 0.5; }
+  .door { stroke: #a9aeb5; stroke-width: 1; stroke-dasharray: 3 3; }
+  /* The label floats over the furniture on a soft patch of clear paper, so it reads first. */
+  .label { position: absolute; inset: 12% 9% 10%; display: grid; place-content: center; justify-items: center; gap: 4px; text-align: center; }
+  .label :global(.emblem) { position: relative; z-index: 1; color: var(--purple); background: var(--tone); border-radius: 50%; box-shadow: 0 0 6px 5px var(--tone); }
+  .t { font-family: var(--font-title); font-weight: var(--title-weight); font-size: calc(1.8rem * var(--title-scale)); line-height: 1; text-wrap: balance;
+       padding: 0 0.15em; background: var(--tone); box-shadow: 0 0 10px 8px var(--tone); }
+  .badge { position: absolute; top: 13%; right: 7.5%; min-width: 26px; height: 26px; padding: 0 6px; border-radius: 13px; display: inline-grid; place-items: center; background: var(--red); color: #fff; font-size: 0.8125rem; font-weight: 700; }
+  @media (max-width: 560px) {
+    .label { inset: 10% 6% 8%; gap: 2px; }
+    .label :global(.emblem) { width: 22px; height: 22px; }
+    .t { font-size: calc(1.25rem * var(--title-scale)); }
+    .badge { min-width: 20px; height: 20px; padding: 0 5px; font-size: 0.6875rem; }
+  }
+</style>

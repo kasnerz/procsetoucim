@@ -1,0 +1,21 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee": "Ve skladových záznamech se objeví mínus, když se vydá víc, než je na skladě. Pozná tak chybu v evidenci nebo chybějící zboží.",
+  "ade351da-7bda-424e-8682-bbdcab2a25be": "Při výplatách kontroluje, kolik zaměstnanec odpracoval a kolik si vzal dovolené. Záporná hodnota ve výkazu znamená přečerpání nebo chybu.",
+  "63042e8f-dd59-47fe-87f3-3b2ce21f196a": "Čte výkresy a souřadnice, kde se pohyby nástroje označují plusem a mínusem. Záporné číslo znamená jiný směr, takže musí vědět, kam stroj posune.",
+  "6aa78e46-ce22-421f-8a75-e915ac63c9d0": "Sleduje čísla ve výkazech a grafech, třeba odchylky od plánu. Mínus ukazuje, že se něco nestihlo nebo je pod plánem. Nepočítá, jen čte.",
+  "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": "Ve statistikách a grafech jsou záporné hodnoty, třeba pokles nebo ztráta. Musí je správně přečíst a popsat, co znamenají.",
+  "2bdf0696-776c-47e6-9259-6460af224dac": "Odečítá stavy na měřidlech a předává je dál. Záporné hodnoty se objevují vzácně, třeba při chybě. Základní práce je jednoduchý opis čísel.",
+  "1d75ea5a-f902-4b47-8d63-5c6d2a5c0bb5": "Při srovnávání starého a nového uspořádání pracoviště čte změny v číslech. Záporná změna znamená zhoršení nebo úsporu, podle toho, co se měří.",
+  "047108c3-f987-40a4-bef0-f2b3407ec16a": "Pracuje s dávkami a měřením, kde záleží na odchylkách nahoru i dolů. Záporné hodnoty musí číst správně, protože znamenají rozdíl proti požadavku.",
+  "1c862e14-80f8-4aa8-8f1c-fd2ca95b63ad": "Teploty pod nulou patří do každé zimní předpovědi. Při práci s naměřenými daty se pozná, že -5 °C je chladněji než -2 °C, a čte se, jak se teplota v čase mění.",
+  "0d7ae791-653e-4297-9f61-8bad87f61d57": "Z přístrojů se odečítá teplota a zapisuje do zpráv, v zimě i pod nulou, kde je důležité znaménko. Záporná čísla jsou jen malá část práce, hlavně jde o obsluhu přístrojů.",
+  "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": "Záporná čísla se objevují třeba u teploty nebo elektrického náboje, ale většina fyziky stojí na složitější matematice. Základ ze školy se tu bere jako samozřejmost.",
+  "668943cc-c454-4a1b-a296-2fcb524a6222": "Hloubka dna se vztahuje k hladině a místa pod ní mají záporné hodnoty. Při mapování podvodního terénu se s tím počítá, ale většinu měření dělá vybavení.",
+  "258e46f9-0075-4a2e-adae-1ff0477e0f30": "V datech se často objevují záporné hodnoty, třeba pokles nebo ztráta. Je třeba je správně přečíst, ale samotné počítání zvládá software.",
+  "5b3ef95b-7d99-4af9-b2d0-41c6bc33f58c": "Záporná čísla se tu objeví výjimečně, třeba u teploty nebo odchylky od předepsané hodnoty. K běžné práci s nádržemi víc patří dodržování specifikace šarže.",
+  "6fefa90d-9a71-49c6-be92-52397e9795e6": "Záporné číslo se hodí u sázky, která přinese ztrátu. Hlavně se tu ale počítá s kurzy a částkami, záporná čísla jsou okrajová."
+ }
+}

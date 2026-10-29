@@ -1,0 +1,598 @@
+{
+  "outcome": "CAP-PRI-001-ZV9-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pozorovani-organu",
+      "title": "Uložení a tvar orgánů na modelu nebo preparátu",
+      "aliases": [
+        "pitva",
+        "3D model těla",
+        "virtuální pitva",
+        "kde je srdce",
+        "ryba vnitřní orgány",
+        "tkáň orgánu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "pozoruje a popisuje uložení a tvar orgánů v organismu pomocí 3D modelu, VR modelu nebo preparovaného organismu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "tvar a velikost orgánů a vzájemně porovnává, popisuje jejich stavbu, pozoruje a porovnává tkáň orgánu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na základě pozorování nebo pitvy si vybere orgánovou soustavu daného živého organismu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Orgány pozoruješ očima a rukama, chatbot je nevidí ani nezahmatá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš obrázky a videa pitev, které v hodině neuvidíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s 3D modelem nebo virtuální pitvou ukáže orgány."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Model, lupa nebo preparát ti dají orgány opravdu pozorovat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3",
+        "http://data.europa.eu/esco/skill/e286eddc-75e5-4ae3-966b-ec89c1c046ba"
+      ],
+      "inspiration": [
+        "Model ruky",
+        "Halloweenská anatomie"
+      ]
+    },
+    {
+      "slug": "stavba-a-funkce-organu",
+      "title": "Stavba orgánu a jeho funkce",
+      "aliases": [
+        "k čemu je orgán",
+        "stavba těla",
+        "tvar a funkce",
+        "orgánové soustavy",
+        "části těla"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "samostatně nebo ve skupině analyzuje tvar jednotlivých orgánů a soustav a dává ho do souvislosti s funkcí"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "s použitím modelu objasňuje, jak struktura souvisí s funkcí u jednotlivých orgánů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše tvar a stavbu jednotlivých orgánů a soustav a dává je do souvislosti s funkcí"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše s využitím předložené vizualizace stavbu těla člověka a přiřadí funkci jednotlivým částem"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč má orgán svůj tvar, a posoudí tvou úvahu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popisy orgánů a schémata v encyklopedii."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Atlas těla v aplikaci ukáže stavbu a umožní ji otáčet."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Model těla ukáže, jak jsou orgány poskládané."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3",
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7"
+      ],
+      "inspiration": [
+        "Lidské tělo jako dobře fungující stroj"
+      ]
+    },
+    {
+      "slug": "prirovnani-a-model-tela",
+      "title": "Přirovnání a model k vysvětlení orgánu",
+      "aliases": [
+        "srdce jako pumpa",
+        "cévy jako trubky",
+        "model orgánu",
+        "vymodeluj",
+        "myšlenková mapa"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "využívá vhodná přirovnání (např. srdce jako pumpa, cévy jako trubky) pro slovní popis"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Využívá vhodná přirovnání pro slovní popis a s použitím modelu objasňuje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne přirovnání k orgánu a řekne, kde přestává platit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš známá přirovnání, vlastní si vymýšlíš ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Do kreslicí aplikace nakreslíš schéma modelu a snadno ho opravíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Plastelína, hadice a papír ti umožní model orgánu vyrobit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3"
+      ],
+      "inspiration": [
+        "Model trávící soustavy",
+        "Vymodeluj svou rostlinu"
+      ]
+    },
+    {
+      "slug": "propojeni-soustav",
+      "title": "Propojení orgánových soustav v těle",
+      "aliases": [
+        "tělo jako celek",
+        "hormony",
+        "výměna látek a energie",
+        "myšlenková mapa těla",
+        "soustavy spolu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vysvětluje souvislost jednotlivých orgánů a jejich funkcí v rámci orgánové soustavy"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "dává do souvislosti různé orgánové soustavy, které se navzájem ovlivňují"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Dává do souvislosti různé orgánové soustavy, které se navzájem ovlivňují nablízko i na dálku (pomocí hormonů apod.) a tvoří propojený celek"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak spolu soustavy souvisí, a zkontroluje tvou mapu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš výklad o hormonech a propojení soustav."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na myšlenkové mapy pomůže vztahy uspořádat."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Souvislosti mezi soustavami obyčejný nástroj neukáže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7",
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "reakce-tela-na-pocasi",
+      "title": "Reakce těla na chlad a teplo",
+      "aliases": [
+        "husí kůže",
+        "pocení",
+        "třesení v zimě",
+        "proč se potíme",
+        "reakce organismu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na základě osobních zkušeností vyvodí reakci organismu na nepříznivé vnější podmínky (husí kůže v reakci na chlad, pocení v reakci na zimu …), zdůvodní účel reakce"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč dostáváš husí kůži a proč se potíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vysvětlení, proč tělo reaguje na chlad a teplo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti reakci těla nevysvětlí ani nezměří."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr ukáže, jak se mění teplota těla nebo kůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "imunita",
+      "title": "Imunita a její posilování",
+      "aliases": [
+        "obranyschopnost",
+        "očkování",
+        "otužování",
+        "vitamíny",
+        "jak bojuje tělo s nemocí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí na základě vlastního pozorování a práce s informačními zdroji pojem obranyschopnost organismu (imunita)"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvede konkrétní příklady posilování imunity (vitamíny, otužování, očkování …)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "význam imunity včetně způsobů jejího posilování (např. očkováním)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak imunita funguje, a zeptá se tě, co ji posiluje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vysvětlení imunity a očkovací kalendář."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti imunitu nevysvětlí ani neposílí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Imunitu obyčejný nástroj ani neukáže, ani neposílí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7",
+        "http://data.europa.eu/esco/skill/0bc42cda-a6f0-4cac-9b34-7911faba0bd4"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "antibiotika-a-rezistence",
+      "title": "Antibiotika a rezistence bakterií",
+      "aliases": [
+        "antibiotika",
+        "probiotika",
+        "rezistence",
+        "nadužívání antibiotik",
+        "léčba bakterií"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí účel užívání antibiotik při léčbě, pozitivní i negativní dopady na organismus"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí, jak předcházet nežádoucím dopadům na zdraví (užití probiotik) a vysvětlí problém s nadužíváním antibiotik u lidí i zvířat (tvorba rezistence)"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "popíše pojem rezistence z hlediska organismů, které ji vytváří"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí působení antibiotik na organismus a jeho části, rizika jejich nadužívání"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak antibiotika působí a jak vzniká rezistence."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš články lékařů o antibiotikách a rezistenci."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti antibiotika nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj ti o antibiotikách nic neřekne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0bc42cda-a6f0-4cac-9b34-7911faba0bd4",
+        "http://data.europa.eu/esco/skill/0450eaee-1a00-4622-8f4e-5356fce816d2"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "porovnani-soustav-organismu",
+      "title": "Orgánové soustavy různých organismů",
+      "aliases": [
+        "člověk a zvířata",
+        "společné životní funkce",
+        "srovnání soustav",
+        "rostliny a živočichové"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "pozoruje a porovnává orgánové soustavy a jejich funkce u různých skupin organismů pomocí obrazů nebo modelů"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyvozuje podobnosti a rozdíly a zobecňuje, jaké životní funkce jsou vlastní všem živým organismům"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovnává orgánové soustavy mezi sebou a také mezi různými skupinami organismů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná dvě soustavy a shrne, co mají společné."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš obrázky a srovnávací tabulky různých organismů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Srovnání soustav aplikace neukáže."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Model nebo lupa ti ukážou rozdíly na vlastní oči."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3",
+        "http://data.europa.eu/esco/skill/e286eddc-75e5-4ae3-966b-ec89c1c046ba"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zdravi-a-organy",
+      "title": "Jak udržet zdraví podle stavby těla",
+      "aliases": [
+        "zdravý pohyb",
+        "stravování",
+        "nemoci a poruchy",
+        "cvičení",
+        "péče o zdraví"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na základě znalostí o orgánových soustavách a jejich propojenosti v lidském těle vyvodí doporučení pro udržení vlastního zdraví"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na základě znalostí o orgánových soustavách a jejich propojenosti v lidském těle vyvodí doporučení pro udržení vlastního zdraví"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč pohyb a strava působí na orgány, a probere tvé úvahy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš doporučení lékařů a výživová doporučení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Fitness aplikace počítá pohyb a jídelníček, zdraví za tebe nehlídá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zdravé návyky ti obyčejný nástroj nezařídí ani nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "spolecne-znaky-skupiny",
+      "title": "Společné vlastnosti skupiny organismů",
+      "aliases": [
+        "znaky skupiny",
+        "životní projevy",
+        "co mají společné ptáci",
+        "skupina živočichů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vyvozuje vlastnosti společné pro danou skupinu organismů"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "identifikuje fenomény spojené se životními projevy vybrané skupiny organismů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí společné znaky skupiny a vyzkouší tě na příkladech."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš atlasy a popisy skupin organismů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na poznávání rostlin nebo zvířat určí druh a ukáže znaky."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa a pozorování venku ti ukážou znaky na skutečných organismech."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e286eddc-75e5-4ae3-966b-ec89c1c046ba",
+        "http://data.europa.eu/esco/skill/2a58e994-74b9-4211-85ac-cfb409a9b667"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "rozdily-mezi-jedinci",
+      "title": "Rozdíly mezi jedinci jednoho druhu",
+      "aliases": [
+        "mládě a dospělý",
+        "samec a samice",
+        "proměnlivost druhu",
+        "stáří a vzhled"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "pozoruje a popisuje rozdíly ve vzhledu mezi různě starými jedinci daného druhu"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví a vnitrodruhové variabilitě"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy jako variabilita a poradí, na co se při pozorování zaměřit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš fotky mláďat i dospělých jedinců jednoho druhu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace druh určí, ale rozdíly mezi jedinci neukáže."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa nebo dalekohled ti pomůžou rozdíly zblízka pozorovat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e286eddc-75e5-4ae3-966b-ec89c1c046ba",
+        "http://data.europa.eu/esco/skill/2a58e994-74b9-4211-85ac-cfb409a9b667"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na cestě",
+      "start": "stavba a funkce orgánů a orgánových soustav",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "tělo jako propojený celek",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "důsledky pro život organismů a člověka",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

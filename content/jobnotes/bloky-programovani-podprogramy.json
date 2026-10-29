@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "f2b15a0e-e65a-438a-affb-29b9d50b77d1": "Kus kódu použitý na více místech se zapíše jednou jako funkce a jinde se na něj jen odkazuje. Program je pak kratší, přehlednější a oprava se dělá na jediném místě.",
+  "9ebaf3f0-0be0-47b7-b2b1-b3b04130fa81": "Pohyb postavy nebo výpočet zásahu se napíše jednou a volá se při každém použití. Bez toho by byl kód her dlouhý a špatně se opravoval.",
+  "68d973df-bf10-4bf7-9a1b-fbd9f604b9db": "Postup pro zpracování jednoho vzorku se zapíše jako samostatná část a použije se na všechny další. Program se pak snáz čte i upravuje.",
+  "4874fa37-0cd1-4a68-aed8-a838851f242d": "Jednotlivé kroky zpracování textu, třeba rozdělení na věty, se skládají do samostatných částí. Dají se pak ladit zvlášť a použít v dalších projektech.",
+  "c3b82711-273d-4fa8-8de7-0ac3d99c16fc": "V přednáškách se na příkladech ukazuje, proč se opakující se kus kódu zapisuje jen jednou. Psaní vlastních programů tvoří menší část práce.",
+  "dc8ef7da-d2c0-4474-96a0-6d0385eeec1e": "Skripty pro zálohování nebo kontrolu serveru se dělí na části, které jdou použít znovu. Hlavní náplní je ale provoz a dohled, ne programování.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Při tvorbě kurzu se opakující se části, třeba úvod lekce, připraví jako šablona a použijí se znovu. Je to stejná myšlenka jako podprogram, jen bez kódu.",
+  "62979364-6fac-41f2-87ca-202bca19a6ab": "Často používaný prvek, třeba šroub, se nakreslí jednou a vkládá se do výkresů. Princip je podobný podprogramu, programovat se tu ale většinou nemusí."
+ }
+}

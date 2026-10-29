@@ -1,0 +1,20 @@
+---
+// Compact verdicts for list rows: the four tool icons, each with a teacher's mark (✓ + −).
+import Icon from "./Icon.astro";
+import { TOOLS, VERDICT, VERDICT_ICON, type Activity } from "../lib/data";
+interface Props { a: Activity }
+const { a } = Astro.props;
+const label = TOOLS.map((t) => `${t.name}: ${VERDICT[a.tools[t.id].verdict].toLowerCase()}`).join("; ");
+---
+<span class="tmarks" role="img" aria-label={label} title={label}>
+  {TOOLS.map((t) => {
+    const v = a.tools[t.id].verdict;
+    return <span class={`tm v-${v}`}><Icon name={t.icon} size="19" use /><Icon name={VERDICT_ICON[v]} size="12" class="mk" use /></span>;
+  })}
+</span>
+<style>
+  .tmarks { display: inline-flex; gap: 7px; }
+  .tm { position: relative; display: inline-flex; color: var(--ink-soft); padding-right: 5px; }
+  .tm :global(.mk) { position: absolute; right: -2px; bottom: -3px; color: var(--red); background: var(--sheet); border-radius: 50%; }
+  .tm.v-nepomuze { opacity: 0.4; }
+</style>

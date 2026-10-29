@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Výkres nebo schéma řekne jinému člověku přesně, co a jak postavit, i když u toho nejsi. Když umíš nakreslit náčrt s rozměry a popisky, tvůj nápad může postavit kdokoli, a když se model rozbije, máš podle čeho ho opravit. Technickou dokumentaci každý den kreslí a čtou ti, kdo navrhují stroje nebo elektroniku, a takových míst spíš přibude. CAD program nakreslí rovné čáry a přesné kóty, co do výkresu patří a jestli dává smysl, ale musíš vědět ty.",
+  "learnWithAi": [
+    {
+      "title": "Kontrola náčrtu s rozměry",
+      "text": "Popiš chatbotovi slovy svůj náčrt i s rozměry a zeptej se, co na výkresu chybí, aby podle něj mohl stavět někdo jiný. Chybějící údaje do výkresu doplň ručně."
+    },
+    {
+      "title": "Kvíz z technických značek",
+      "text": "Požádej chatbota, ať tě zkouší z běžných značek, třeba pro kótu, řez nebo součástky v elektrickém schématu. Odpovídej bez nápovědy a sporné značky si ověř v učebnici."
+    },
+    {
+      "title": "Návod očima začátečníka",
+      "text": "Napiš k vlastnímu modelu návod na sestavení a dej ho chatbotovi s prosbou, ať ho čte jako začátečník a vypíše kroky, kterým nerozumí. Návod pak oprav ty."
+    }
+  ]
+}

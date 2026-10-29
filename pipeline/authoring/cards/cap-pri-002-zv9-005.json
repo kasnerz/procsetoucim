@@ -1,0 +1,409 @@
+{
+  "outcome": "CAP-PRI-002-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "zmeny-krajiny-clovekem-priroda",
+      "title": "Jak člověk změnil krajinu",
+      "aliases": [
+        "změny krajiny",
+        "zásahy člověka do přírody",
+        "člověk a příroda",
+        "co se v krajině změnilo"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše změny v přírodě vyvolané člověkem"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "určí, jak v daném místě"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "vyhledá, co k tomu vedlo"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "identifikuje zásahy člověka do krajiny"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se krajina měnila, a vymyslí otázky k hledání příčin."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Staré mapy, letecké snímky a články ukážou, jak se místo změnilo."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapy s historickými snímky ti ukážou stejné místo dřív a dnes."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Změny v krajině poznáš pohledem na místo, ne pomocí nástroje v ruce."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+        "http://data.europa.eu/esco/skill/29c60c96-d71c-4a6e-ad81-fca0a4e48925"
+      ],
+      "inspiration": [
+        "Péče o krajinu",
+        "Zdraví krajiny"
+      ]
+    },
+    {
+      "slug": "dopady-zasahu-ekosystem-kurovec",
+      "title": "Dopady zásahu člověka na ekosystém",
+      "aliases": [
+        "dopady na přírodu",
+        "sekaný trávník",
+        "kůrovec",
+        "důsledky zásahu",
+        "pozitivní a negativní dopady"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "posoudí a zhodnotí důsledky zásahu člověka"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyhodnotí, jaké dopady a souvislosti"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "zhodnotí možné pozitivní i negativní dopady"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere s tebou, co zásah způsobí, a zeptá se, co jsi nezvážil."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Odborné články a stránky ochranářů popisují, co zásah udělal s druhy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe důsledky zásahu neposoudí, posuzuješ je ty z poznatků."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Úsudek o dopadech si skládáš v hlavě, kladivo ani lupa ho nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "porovnani-travnik-louka-spolecenstva",
+      "title": "Porovnání trávníku a louky",
+      "aliases": [
+        "trávník a louka",
+        "dvě společenstva",
+        "vlastní výzkum",
+        "sekaný trávník",
+        "druhy na louce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "porovná vlastním výzkumem dvě různá společenstva"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, co na ploše sledovat a jak výsledky zapsat do tabulky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Atlasy a klíče ti pomohou určit rostliny a živočichy, které najdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na poznávání rostlin určí nalezené druhy a fotky uložíš k porovnání."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa, metr a fotoaparát ti pomohou plochy změřit a zdokumentovat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda",
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "typy-chranenych-uzemi-region",
+      "title": "Typy chráněných území",
+      "aliases": [
+        "chráněná území",
+        "národní park",
+        "přírodní rezervace",
+        "CHKO",
+        "ochrana přírody v regionu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozliší typy chráněných území"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvede příklad územní ochrany přírody z regionu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi národním parkem, rezervací a CHKO a zkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy chráněných území a stránky správ parků ukážou, co je v tvém regionu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa s vrstvou chráněných území ukáže, kde leží rezervace v okolí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Typy území si musíš pamatovat a rozlišovat v hlavě, papírová mapa ti je nepopíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e9d6ebab-13ad-45ce-a955-fc3f1e56add8",
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda"
+      ],
+      "inspiration": [
+        "Návrhy k ochraně přírody v přírodní rezervaci"
+      ]
+    },
+    {
+      "slug": "zpusoby-obnovy-pece-o-uzemi",
+      "title": "Způsoby obnovy a péče o území",
+      "aliases": [
+        "obnova přírody",
+        "kosení a pastva",
+        "ponechat přírodě",
+        "péče o louku",
+        "rekultivace"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Odliší různé způsoby obnovy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Přiřadí k různým případům"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kdy pomůže kosení, pastva nebo nechat místo být, a ověří tvůj výběr."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručky ochranářů popisují, jak se o různá místa pečuje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nevybere péči o místo, volíš ji ty podle stavu území."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádné nářadí ti neporadí, jakou péči si místo žádá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/29c60c96-d71c-4a6e-ad81-fca0a4e48925",
+        "http://data.europa.eu/esco/skill/e9d6ebab-13ad-45ce-a955-fc3f1e56add8"
+      ],
+      "inspiration": [
+        "Jak oživit pole"
+      ]
+    },
+    {
+      "slug": "navrh-opatreni-misto-v-okoli",
+      "title": "Návrh opatření pro místo v okolí",
+      "aliases": [
+        "navrhni opatření",
+        "skládka",
+        "brownfield",
+        "bývalý lom",
+        "školní zahrada",
+        "zahrada pro opylovače"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "identifikuje místo v okolí"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Identifikuje v okolí nebo v širším regionu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou nápady pro místo a zeptá se, co by opatření způsobilo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady obnovy lomů a mokřadů dají inspiraci pro vlastní návrh."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa s leteckým snímkem pomůže najít zanedbaná místa v okolí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Metr a papír ti pomohou místo změřit a nakreslit plánek."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/29c60c96-d71c-4a6e-ad81-fca0a4e48925",
+        "http://data.europa.eu/esco/skill/e9d6ebab-13ad-45ce-a955-fc3f1e56add8",
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+      ],
+      "inspiration": [
+        "Zahrada pro opylovače",
+        "Péče o krajinu"
+      ]
+    },
+    {
+      "slug": "opatreni-biodiverzita-skola-hodnoceni",
+      "title": "Opatření pro biodiverzitu u školy a jeho výsledky",
+      "aliases": [
+        "biodiverzita ve škole",
+        "hmyzí hotel",
+        "květnatá louka",
+        "vyhodnocení opatření"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "reflektuje a hodnotí dopady jím realizovaného opatření"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vymyslet, co sledovat a jak výsledek opatření popsat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody ke školním zahradám a hmyzím hotelům ukážou, co čekat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Opatření děláš venku a pozoruješ ho na vlastní oči, aplikace ho nevyhodnotí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa a zápisník ti pomohou počítat druhy na místě před opatřením a po něm."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda",
+        "http://data.europa.eu/esco/skill/29c60c96-d71c-4a6e-ad81-fca0a4e48925"
+      ],
+      "inspiration": [
+        "Zahrada pro opylovače"
+      ]
+    },
+    {
+      "slug": "udrzitelnost-kazdodenni-cinnosti",
+      "title": "Seznam činností pro udržitelnost",
+      "aliases": [
+        "udržitelnost",
+        "co můžu dělat pro planetu",
+        "šetření vodou a energií",
+        "třídění odpadu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vytvoří vlastní seznam každodenních činností"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne ti nápady a zeptá se, co z nich zvládneš každý den."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky o udržitelnosti dají příklady a čísla k úsporám."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Seznam sepisuješ ty podle svého dne, aplikace ho nevymyslí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Činnosti děláš doma a venku vlastníma rukama, pomůcka ti je neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

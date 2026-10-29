@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Počet obyvatel nebo srážky v krajích jsou jen dlouhé řady čísel, dokud je někdo nepřevede do mapy nebo grafu. Když umíš z grafu vyčíst, kde je čeho nejvíc, a nakreslit jednoduchý graf z vlastních dat, rozumíš zprávám i učebnicím líp než jen z textu. Kdo kreslí mapy, sleduje počasí nebo zkoumá krajinu, dělá to každý den a takových míst v práci spíš přibude. Tabulkový program graf nakreslí za pár vteřin, jaký graf vybrat a co z něj plyne, ale rozhoduješ ty.",
+  "learnWithAi": [
+    {
+      "title": "Závěry z vymyšleného grafu",
+      "text": "Požádej chatbota, ať ti popíše graf s vymyšlenými daty, a napiš, co z něj vyčteš. Nech si říct, který z tvých závěrů data nepodporují."
+    },
+    {
+      "title": "Graf k týdenním teplotám",
+      "text": "Pošli chatbotovi krátkou tabulku, třeba teploty za týden, a zeptej se, jaký graf by se k ní hodil. Graf nakresli na papír a nech si ho okomentovat."
+    },
+    {
+      "title": "Mapa z dat o tvém kraji",
+      "text": "Vyber si skutečná data o svém kraji a s pomocí chatbota z nich navrhni jednoduchou mapu. Čísla, která chatbot přidá od sebe, si ověř u zdroje dat."
+    }
+  ]
+}

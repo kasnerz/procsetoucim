@@ -1,0 +1,566 @@
+[
+  {
+    "slug": "geometrie-rovinne-utvary",
+    "title": "Rovinné útvary a jejich názvy",
+    "aliases": [
+      "trojúhelník",
+      "čtverec a kruh",
+      "mnohoúhelník",
+      "rovinné útvary",
+      "jak se jmenuje útvar"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozpozná, modeluje a pojmenuje dvojrozměrné útvary (mnohoúhelníky, kruh) a tělesa (krychle, kvádr, jehlan, kužel, válec, koule).",
+        "quote": "Rozpozná, modeluje a pojmenuje dvojrozměrné útvary (mnohoúhelníky, kruh) a tělesa (krychle, kvádr, jehlan, kužel, válec, koule)."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Modeluje a rozliší geometrické útvary v rovině.",
+        "quote": "Modeluje a rozliší geometrické útvary v rovině."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozpozná a popíše dvojrozměrné útvary.",
+        "quote": "Rozpozná a popíše dvojrozměrné útvary."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Myslím si útvar",
+        "url": "https://uloziste.rvp.cz/material/ab0064"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, čím se liší pětiúhelník od šestiúhelníku, a zadá ti útvary k pojmenování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky a přehledy ukážou útvary s jejich správnými názvy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Skládací a kreslicí aplikace ti nechají útvar poskládat a pojmenovat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Šablona nebo tvary z papíru si vezmeš do ruky a obkreslíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/432ab648-aece-4237-969f-8bca94fe181c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-telesa-pojmenovani",
+    "title": "Tělesa: krychle, kvádr, jehlan, kužel, válec, koule",
+    "aliases": [
+      "tělesa",
+      "krychle a kvádr",
+      "jehlan",
+      "kužel a válec",
+      "koule",
+      "tělesa kolem nás"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozpozná, modeluje a pojmenuje dvojrozměrné útvary (mnohoúhelníky, kruh) a tělesa (krychle, kvádr, jehlan, kužel, válec, koule).",
+        "quote": "Rozpozná, modeluje a pojmenuje dvojrozměrné útvary (mnohoúhelníky, kruh) a tělesa (krychle, kvádr, jehlan, kužel, válec, koule)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Chápání vztahů mezi tělesy a jejich zobrazením v rovině",
+        "url": "https://uloziste.rvp.cz/material/77be2e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše tvar tělesa a navrhne, kde ho najdeš doma, třeba válec jako plechovku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky a modely těles ukážou, jak který vypadá a jak se jmenuje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s otáčivými 3D modely ukážou těleso ze všech stran."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stavebnice nebo krabice ti dají těleso do ruky, můžeš ho otočit a obejít."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/97965983-0da4-4902-9daf-d5cd2693ef73"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-vlastnosti-utvaru-teles",
+    "title": "Vlastnosti útvarů a těles",
+    "aliases": [
+      "strany a vrcholy",
+      "počet hran",
+      "stěny tělesa",
+      "popis útvaru",
+      "vlastnosti těles"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozpozná a popíše vlastnosti dvojrozměrných útvarů a těles.",
+        "quote": "Rozpozná a popíše vlastnosti dvojrozměrných útvarů a těles."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Myslím si útvar",
+        "url": "https://uloziste.rvp.cz/material/ab0064"
+      },
+      {
+        "title": "Geometrické hádanky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě na strany, vrcholy a hrany a opraví, když něco přehlédneš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky a obrázky ukážou, kolik má který útvar stran a které jsou rovnoběžné."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní modely ti nechají spočítat stěny, hrany a vrcholy na obrazovce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Krabice a pravítko ti ukážou rovné strany, hrany i vrcholy na skutečném tělese."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-pravy-primy-plny-uhel",
+    "title": "Pravý, přímý a plný úhel",
+    "aliases": [
+      "pravý úhel",
+      "přímý úhel",
+      "plný úhel",
+      "úhly",
+      "kolik stupňů"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpozná pravý, přímý a plný úhel a jejich vztah.",
+        "quote": "Rozpozná pravý, přímý a plný úhel a jejich vztah."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, že dva pravé úhly dají přímý a čtyři plný, a zadá ti příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Přehled úhlů s obrázky ti ukáže, jak který vypadá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s otáčivým ramenem úhlu ti ukážou, kdy úhel přejde z pravého do přímého."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Úhloměr a trojúhelník s pravým úhlem ti úhel změří a ověří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/432ab648-aece-4237-969f-8bca94fe181c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-shodne-utvary",
+    "title": "Shodné útvary",
+    "aliases": [
+      "shodnost",
+      "stejné útvary",
+      "otočení a posunutí",
+      "zrcadlení",
+      "dvojice útvarů"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozpozná shodné dvojrozměrné útvary a tělesa (v otočení, v posunutí, v osové souměrnosti a v rovinové souměrnosti).",
+        "quote": "Rozpozná shodné dvojrozměrné útvary a tělesa (v otočení, v posunutí, v osové souměrnosti a v rovinové souměrnosti)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Dvojice útvarů",
+        "url": "https://uloziste.rvp.cz/material/9d8b57"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co znamená shodné, a zadá ti dvojice útvarů, které máš roztřídit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky shodných a neshodných dvojic ti ukážou, jak je rozlišit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace ti útvar nechají otočit, posunout a zrcadlit a porovnat s druhým."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Průhledný papír nebo vystřižený útvar přiložíš na druhý a vidíš, jestli sedí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/432ab648-aece-4237-969f-8bca94fe181c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-osova-soumernost-osa",
+    "title": "Osově souměrné útvary a osa souměrnosti",
+    "aliases": [
+      "osová souměrnost",
+      "osa souměrnosti",
+      "zrcadlový obrázek",
+      "souměrné obrázky",
+      "přeložit napůl"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozpozná osově souměrné dvojrozměrné útvary a určí jejich osu souměrnosti.",
+        "quote": "Rozpozná osově souměrné dvojrozměrné útvary a určí jejich osu souměrnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Osově souměrné obrázky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí osu souměrnosti a zadá ti písmena a obrázky, u kterých ji máš najít."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky souměrných tvarů z přírody a písmen ti ukážou, kde osa leží."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace ti obrázek zrcadlí podle osy a ty vidíš, jestli sedí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zrcátko nebo přeložený papír ti ukáže, kde leží osa souměrnosti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/432ab648-aece-4237-969f-8bca94fe181c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-skladani-rozkladani-utvaru",
+    "title": "Skládání a rozkládání útvarů",
+    "aliases": [
+      "tangram",
+      "složit útvar",
+      "rozdělit útvar",
+      "skládačka z tvarů",
+      "nový útvar z trojúhelníků"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vytvoří nové dvojrozměrné útvary složením dvou či více útvarů nebo rozložením daného útvaru a popíše jejich vlastnosti.",
+        "quote": "Vytvoří nové dvojrozměrné útvary složením dvou či více útvarů nebo rozložením daného útvaru a popíše jejich vlastnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Geometrické hádanky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne skládačky a pomůže popsat, jaký útvar ze dvou trojúhelníků vznikl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody na skládačky ukážou, jak se z tvarů dají poskládat nové útvary."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Skládací aplikace ti nechají útvary přesouvat a vidíš, co vznikne."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírové tvary a nůžky ti dovolí útvary skládat i stříhat vlastníma rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/432ab648-aece-4237-969f-8bca94fe181c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-konstrukce-utvaru",
+    "title": "Konstrukce útvarů podle vlastností",
+    "aliases": [
+      "rýsování útvaru",
+      "sestrojit čtverec",
+      "konstrukce trojúhelníku",
+      "kružítko a pravítko",
+      "narýsovat"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá vlastnosti útvarů ke konstrukcím.",
+        "quote": "Využívá vlastnosti útvarů ke konstrukcím."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí postup konstrukce krok za krokem a zeptá se, proč ho děláš takto."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a videa ukážou postup rýsování, který si můžeš zopakovat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrický program ti útvar narýsuje podle tvých kroků a ukáže, kde se tvůj postup odchýlil."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko, trojúhelník a kružítko jsou nástroje, kterými konstrukci rýsuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/b07daddc-8625-4360-946e-ad2b0e56ebf6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-reseni-uloh-vlastnostmi",
+    "title": "Řešení úloh pomocí vlastností útvarů",
+    "aliases": [
+      "geometrická úloha",
+      "hádanka s útvary",
+      "úloha na útvary",
+      "kolik čtverců",
+      "řešit geometrii"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá vlastností útvarů k řešení problémů.",
+        "quote": "Využívá vlastností útvarů k řešení problémů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Geometrické hádanky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti nápovědu, jakou vlastnost útvaru použít, a zkontroluje tvůj postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové úlohy s řešením ukážou, jak se vlastnosti útvarů využívají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrické hádanky a hry ti dají úlohy s okamžitou kontrolou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, pravítko a nůžky ti pomohou úlohu nakreslit, vystřihnout a vyzkoušet."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/b07daddc-8625-4360-946e-ad2b0e56ebf6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-site-krychle-kvadru",
+    "title": "Sítě těles, síť krychle a kvádru",
+    "aliases": [
+      "síť krychle",
+      "síť kvádru",
+      "rozložená krychle",
+      "rozložit krabici",
+      "slepit těleso"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Přiřadí těleso a jeho síť a vytvoří síť krychle a kvádru.",
+        "quote": "Přiřadí těleso a jeho síť a vytvoří síť krychle a kvádru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Chápání vztahů mezi tělesy a jejich zobrazením v rovině",
+        "url": "https://uloziste.rvp.cz/material/77be2e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se těleso rozloží do sítě, a ověří, jestli tvá síť půjde složit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky sítí ukazují, které se dají složit do krychle a které ne."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace ti síť na obrazovce poskládá do tělesa a hned vidíš chybu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, nůžky a lepidlo ti dovolí síť vystřihnout a skutečně složit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/aafbb139-02c6-4f35-bc62-ff73faf97d6d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

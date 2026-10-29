@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "prehled-zajmu-kariera-osobni",
+    "title": "Přehled mých zájmů",
+    "aliases": [
+      "co mě baví",
+      "moje koníčky",
+      "zájmové kroužky",
+      "moje zájmy"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Tvoří si přehled o tom, co ho zajímá, jaké zájmové činnosti ho baví.",
+        "quote": "Tvoří si přehled o tom, co ho zajímá"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkoumá své zapojení do různých druhů zájmových aktivit.",
+        "quote": "Zkoumá své zapojení do různých druhů zájmových aktivit."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpozná na příkladech své zájmy (dovednosti, školní i zájmové aktivity), které ho baví a rád by se v nich dále rozvíjel.",
+        "quote": "Rozpozná na příkladech své zájmy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co mě baví",
+        "url": ""
+      },
+      {
+        "title": "Můj koníček",
+        "url": "https://uloziste.rvp.cz/material/182b11"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se tě, co děláš rád, a pomůže ti zájmy roztřídit."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co tě baví, ve vyhledávači nenajdeš, to víš jen ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti zájmy nepoznají, vybíráš ze zkušenosti ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka stačí na mapu zájmů, kterou si můžeš doplňovat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kroky-rozvoje-zajmu-planovani",
+    "title": "Plán kroků k rozvoji zájmu",
+    "aliases": [
+      "plán rozvoje",
+      "jak se zlepšit",
+      "moje cíle",
+      "kroky ke zlepšení"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uvede příklad kroků, jak se rozvíjet ve vybrané oblasti svých zájmů.",
+        "quote": "Uvede příklad kroků"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkusí si naplánovat kroky k rozvoji svých zájmů.",
+        "quote": "Zkusí si naplánovat kroky"
+      },
+      {
+        "level": "Splněno",
+        "point": "Realizuje vybrané kroky k rozvoji svých zájmů a rozliší, které může udělat sám a které s podporou okolí, rodiny a školy.",
+        "quote": "Realizuje vybrané kroky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Plán pro rozvoj svého zájmu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne možné kroky a ty si z nich vybereš, které dávají smysl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tipy, jak se v daném koníčku zlepšovat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalendář nebo seznam úkolů ti pohlídá kroky v plánu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový plán s kroky si pověsíš nad stůl a odškrtáváš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pomoc-okoli-zajmy-rozvoj",
+    "title": "Samostatné kroky a pomoc okolí",
+    "aliases": [
+      "pomoc od rodiny",
+      "s kým se domluvit",
+      "pomoc od učitele",
+      "samostatně nebo s pomocí"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Realizuje vybrané kroky k rozvoji svých zájmů a rozliší, které může udělat sám a které s podporou okolí, rodiny a školy.",
+        "quote": "Realizuje vybrané kroky k rozvoji svých zájmů a rozliší"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kdo ti doma nebo ve škole opravdu pomůže, se domluvíš ty."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Že potřebuješ dospělého, ti internet neřekne, domluvit se musíš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace se za tebe nezeptá rodičů nebo učitelky."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pomoc si u rodiny a ve škole říkáš hlasem, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prilezitosti-v-okoli-zajmy-kariera",
+    "title": "Příležitosti k rozvoji zájmů v okolí",
+    "aliases": [
+      "kroužky v okolí",
+      "kde se to naučit",
+      "zájmové kluby",
+      "kam chodit"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Seznamuje se příležitostmi k rozvoji svých zájmů.",
+        "quote": "Seznamuje se příležitostmi"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zjišťuje příležitosti k rozvoji svých zájmů ve svém blízkém okolí.",
+        "quote": "Zjišťuje příležitosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Navrhne a diskutuje o tom, jaké příležitosti k rozvoji jeho zájmů jsou v jeho okolí.",
+        "quote": "Navrhne a diskutuje o tom, jaké příležitosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Nezná kroužky ve tvém městě, spolehlivě je najdeš jinde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na webu města, školy nebo klubu najdeš kroužky a jejich rozvrh."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ukáže, co je blízko tvého domova a jak se tam dostaneš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástěnka ve škole je klasická, ale nástroj to není, ptáš se lidí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "portfolio-uspechu-zajmy-osobni",
+    "title": "Portfolio mých úspěchů",
+    "aliases": [
+      "moje úspěchy",
+      "složka s úspěchy",
+      "pochlubit se",
+      "záznam pokroku"
+    ],
+    "outcome": "CSP-OSV-003-ZV5-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zkouší si pojmenovávat své úspěchy ve vybrané oblasti svých zájmů.",
+        "quote": "Zkouší si pojmenovávat své úspěchy"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Průběžně zaznamenává své úspěchy do portfolia.",
+        "quote": "Průběžně zaznamenává své úspěchy"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zaznamenává a prezentuje příklady úspěchů při rozvoji svých zájmů v osobním portfoliu, diskutuje o svých zkušenostech s dosahováním pokroku.",
+        "quote": "Zaznamenává a prezentuje příklady úspěchů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Podívejte, moje úspěchy",
+        "url": "https://uloziste.rvp.cz/material/f91e62"
+      },
+      {
+        "title": "Sledování rozvoje svých zájmů",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti najít slova pro úspěch a navrhne, jak portfolio uspořádat."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvoje úspěchy na internetu nejsou, zapisuješ je ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Fotky a poznámky v aplikaci uspořádáš a ukážeš je ostatním."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Složka, sešit nebo nástěnka drží tvoje práce pohromadě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+      "http://data.europa.eu/esco/skill/68c27e3e-a3f7-4f76-856a-761d65364199"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

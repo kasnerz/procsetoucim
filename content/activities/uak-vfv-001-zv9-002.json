@@ -1,0 +1,447 @@
+[
+  {
+    "slug": "zav9-vfv-tvurci-zamer",
+    "title": "Tvůrčí záměr před začátkem práce",
+    "aliases": [
+      "co chci vytvořit",
+      "nápad na dílo",
+      "plán obrazu nebo filmu",
+      "skica nápadu",
+      "zadání práce"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Stanoví si dosažitelný tvůrčí záměr využívající prostředky výtvarného umění, filmového umění a jejich kombinace.",
+        "quote": "Stanoví si dosažitelný tvůrčí záměr"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže nápad upřesnit a zeptá se, co zvládneš za čas a s materiálem, který máš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky hotových děl a filmů ti dají inspiraci, jak může podobný záměr vypadat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace záměr nevymyslí, ten vzniká v tvé hlavě a na tvé skice."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a papír stačí na skicu, na které si záměr zkusíš ujasnit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5d09da0d-ac68-40a1-9c21-cd6d9413358d",
+      "http://data.europa.eu/esco/skill/50373f03-3e81-4d2e-99c6-d0f2ff42b138"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zav9-vfv-volba-kombinace-postupu",
+    "title": "Volba a kombinace výtvarných a filmových postupů",
+    "aliases": [
+      "kombinace technik",
+      "koláž a animace",
+      "experimentování s materiály",
+      "výběr techniky",
+      "míchání postupů"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Volí, kombinuje a experimentuje s prostředky, postupy a materiály podle zadání nebo tvůrčího záměru.",
+        "quote": "Volí, kombinuje a experimentuje s prostředky, postupy a materiály"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vytvořil dílo, které kombinuje výtvarné a filmové prostředky.",
+        "quote": "Vytvořil dílo, které kombinuje výtvarné a filmové prostředky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Výroba jednoduchého flipbooku",
+        "url": "https://uloziste.rvp.cz/material/6c2fbb"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot navrhne, jaké techniky jdou spojit, a vysvětlí, jak se který materiál chová."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a ukázky děl ti ukážou postupy, které jsi dosud nezkoušel(a)."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí nebo animační aplikace ti dovolí kombinace zkoušet a vrátit zpět."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Štětec, nůžky, lepidlo a papír ti ukážou, jak se materiály doopravdy spojují."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zav9-vfv-vyber-vybaveni-tvorba",
+    "title": "Výběr vybavení a nástrojů pro vlastní dílo",
+    "aliases": [
+      "jaké nástroje použít",
+      "výběr fotoaparátu",
+      "čím natočit film",
+      "vybavení pro tvorbu",
+      "příprava pomůcek"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vybírá si vhodné vybavení a nástroje pro zpracování tvůrčího záměru.",
+        "quote": "Vybírá si vhodné vybavení a nástroje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot porovná, co se hodí na tvůj záměr, třeba telefon proti fotoaparátu nebo stativ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Recenze a návody ti řeknou, co se s kterým vybavením dá a nedá."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace vybavení nevybere, to rozhoduješ ty podle svého záměru."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zkoušíš si v ruce, co se ti s kterým nástrojem pracuje dobře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zav9-vfv-postprodukce-vlastni-tvorby",
+    "title": "Postprodukce vlastní tvorby",
+    "aliases": [
+      "úprava fotek",
+      "střih videa",
+      "úprava po natočení",
+      "dodělávání díla",
+      "ladění barev a zvuku"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Experimentuje s postprodukcí vlastní tvorby.",
+        "quote": "Experimentuje s postprodukcí vlastní tvorby."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jak se střih nebo úprava barev dělá, a poradí, co zkusit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videonávody ukážou krok za krokem, jak se v programu upravuje obraz a zvuk."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Střihové a fotografické aplikace ti dovolí zkoušet úpravy a vracet je zpět."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Postprodukce se dělá na počítači nebo telefonu, klasický nástroj k ní nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5ce80f97-b385-4a41-9339-a6593d0709c1",
+      "http://data.europa.eu/esco/skill/9ce52938-fe28-4548-b38d-0c783933e19a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zav9-vfv-digitalni-technologie-dilo",
+    "title": "Digitální technologie při tvorbě díla",
+    "aliases": [
+      "tvorba v počítači",
+      "kreslení na tabletu",
+      "natáčení telefonem",
+      "digitální umění",
+      "tvorba s technikou"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá pro realizaci výsledného díla dostupné digitální technologie.",
+        "quote": "Využívá pro realizaci výsledného díla dostupné digitální technologie."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Integruje praktické zkušenosti s dostupnými digitálními technologiemi do své tvorby a cíleně je využívá pro realizaci výsledného produktu.",
+        "quote": "Integruje praktické zkušenosti s dostupnými digitálními technologiemi"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jak v programu něco nastavit, když ti to nejde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a nápověda programů ukážou funkce, které bys jinak hledal(a) dlouho."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí, fotografické a střihové aplikace jsou přímo tím, čím dílo tvoříš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Digitální dílo klasickým nástrojem neuděláš, ten patří k jiným technikám."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b99c9b86-b16f-4592-8505-de3d9c99e25b",
+      "http://data.europa.eu/esco/skill/a71577b2-7550-4222-88ee-dcbd2d881516"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zav9-vfv-sdeleni-osobni-obsah",
+    "title": "Dílo s osobním nebo společenským sdělením",
+    "aliases": [
+      "obrázek nebo film o něčem důležitém",
+      "vlastní téma",
+      "dílo s příběhem",
+      "sdělení v obraze",
+      "tvorba ve skupině"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Sám nebo ve skupině realizuje výtvarné nebo audiovizuální sdělení, které nese určitý osobní nebo společensky významný obsah.",
+        "quote": "Sám nebo ve skupině realizuje výtvarné nebo audiovizuální sdělení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jedinečný moment",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot s tebou probere téma a ptá se, co chceš říct, dílo ale vytvoříš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky děl o podobných tématech ti ukážou, jak jiní sdělení zpracovali."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace sdělení nevymyslí, jen ti dá nástroje, kterými ho zpracuješ."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obsah díla je tvůj zážitek a názor, žádný nástroj ho za tebe nemá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436",
+      "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zav9-vfv-role-v-tvurcim-tymu",
+    "title": "Role v tvůrčím týmu",
+    "aliases": [
+      "práce ve skupině na filmu",
+      "kdo co dělá při natáčení",
+      "režisér a kameraman",
+      "společné dílo",
+      "dělba práce"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvědomuje si svou roli v tvůrčím procesu (v realizačním týmu), vedoucím ke konkrétnímu tvůrčímu výstupu.",
+        "quote": "Uvědomuje si svou roli v tvůrčím procesu (v realizačním týmu)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zapojí se sám nebo ve skupině do tvůrčího procesu.",
+        "quote": "Zapojí se sám nebo ve skupině do tvůrčího procesu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Filmová projekce ve škole",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jaké role při tvorbě filmu jsou, a co která obnáší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Titulky filmů a popisy filmových profesí ti ukážou, kdo na díle pracuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nepoznají, co umíš a co tým potřebuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dohodnout se v týmu můžeš jen s lidmi, kteří jsou s tebou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b1719a15-5aa0-4e9a-90b8-c036b192b6f0",
+      "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zav9-vfv-ucinek-dila-na-divaky",
+    "title": "Ověření účinku díla na diváky",
+    "aliases": [
+      "ukázat dílo ostatním",
+      "reakce publika",
+      "zpětná vazba k dílu",
+      "promítání filmu",
+      "jak dílo působí"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prezentuje svou práci ostatním se záměrem ověřit si komunikační účinky díla.",
+        "quote": "Prezentuje svou práci ostatním se záměrem ověřit si komunikační účinky díla."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Filmová projekce ve škole",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže připravit otázky, na které se diváků zeptáš."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Reakce diváků ve vyhledávači nenajdeš, zjistíš je od lidí kolem sebe."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezjistí, co dílo způsobilo ve tvých spolužácích."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ukážeš dílo opravdovým lidem a díváš se, jak reagují."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

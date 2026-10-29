@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "c4071145-a774-4cf4-aefa-ae18a385cca4": "Při návrhu dopravních systémů se čas přepočítává na hodiny i desetiny hodiny, aby se daly sečíst a porovnat. Půl hodiny jako 0,5 h se tu hodí při počítání doby trvání úseků.",
+  "219d1c30-3849-4de3-b0d6-07da187b6521": "Čas práce se v kalkulaci násobí hodinovou sazbou, a proto se minuty zapisují jako desetinná čísla. Tři čtvrtě hodiny tak znamenají 0,75 h.",
+  "1c862e14-80f8-4aa8-8f1c-fd2ca95b63ad": "V modelech počasí a statistikách se čas často zapisuje jako číslo. Převod minut na desetinné vyjádření je jen malá součást mnohem složitějších výpočtů.",
+  "a9bcc9e0-5be7-47a0-818b-acad10fe90d9": "Při zpracování naměřených časů se minuty a vteřiny někdy přepočítávají na desetinná čísla. Hlavní práce je ale s přístroji a zkouškami, převod je jen pomocný krok.",
+  "0d7ae791-653e-4297-9f61-8bad87f61d57": "Časové údaje z měření se do tabulek a výpočtů zadávají jako čísla. Převod minut na desetiny hodiny se občas hodí, většinu přepočtů ale provádí software.",
+  "258e46f9-0075-4a2e-adae-1ff0477e0f30": "Čas bývá ve sloupci dat zapsaný v minutách a pro výpočty se mění na jednotná čísla. Převod je jen drobný krok, většinu práce tu dělají modely a vizualizace.",
+  "9ebaf3f0-0be0-47b7-b2b1-b3b04130fa81": "Ve hře se čas odpočítává v sekundách a jejich zlomcích a pohyb postav se počítá z uplynulého času. Převody mezi zápisy času se tu občas hodí, ale většinu dělá program.",
+  "35efc04c-429a-407e-a00a-f07fd03c2743": "Při testování rádiových zařízení se časy a kmitočty zapisují jako čísla. Převod minut na desetiny hodiny je tu spíš výjimka, nejčastěji se čas čte přímo z přístroje."
+ }
+}

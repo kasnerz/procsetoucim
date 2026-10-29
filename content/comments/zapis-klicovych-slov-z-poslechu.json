@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "V hlášení na nádraží nebo ve vzkazu na záznamníku zazní spousta slov, ale důležité jsou jen některé, třeba čas a číslo nástupiště. Učíš se je zachytit a rychle zapsat, i když nerozumíš všemu, a podle pár slov poznat, jestli se mluví v obchodě, nebo v hotelu. Stejně se dělají poznámky z přednášky nebo z porady, a zapsané údaje se pak dají převést do tabulky nebo na časovou osu. Aplikace umí nahrávku přepsat, jenže na nádraží ji nemáš čas pouštět znovu a vybrat, co je důležité, musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Hlášení z nádraží",
+      "text": "Požádej chatbota o krátké hlášení z nádraží v jazyce, který se učíš, a nech si ho v hlasovém režimu přečíst. Zapiš čas a nástupiště a pak je porovnej s textem."
+    },
+    {
+      "title": "Rozhovory z obchodu a hotelu",
+      "text": "Nech chatbota vymyslet krátké rozhovory z obchodu a z hotelu, ale bez názvu místa. Při poslechu hádej, kde se odehrávají, a zapiš slova, podle kterých to poznáš."
+    },
+    {
+      "title": "Klíčová slova z videa",
+      "text": "Pusť si krátké cizojazyčné video, zapiš klíčová slova a pošli je chatbotovi spolu s přepisem videa. Nech si říct, co ti uteklo a proč to bylo důležité."
+    }
+  ]
+}

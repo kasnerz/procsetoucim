@@ -1,0 +1,295 @@
+[
+  {
+    "slug": "slovniky-a-prirucky",
+    "title": "Hledání ve slovnících a jazykových příručkách",
+    "aliases": [
+      "slovník",
+      "Internetová jazyková příručka",
+      "význam slova",
+      "Pravidla českého pravopisu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "pracuje samostatně s Internetovou jazykovou příručkou, s Pravidly českého pravopisu, s jazykovými slovníky a příručkami",
+        "quote": "pracuje samostatně s Internetovou jazykovou příručkou, s Pravidly českého pravopisu, s jazykovými slovníky a příručkami"
+      },
+      {
+        "level": "Na začátku",
+        "point": "vyhledá zadané slovo, ověří jeho význam a pravopisnou podobu a tyto dovednosti využívá ve svých písemných projevech",
+        "quote": "vyhledá zadané slovo, ověří jeho význam a pravopisnou podobu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vyhledá zadané slovo, ověří jeho význam a pravopisnou podobu a tyto dovednosti využívá ve svých písemných projevech",
+        "quote": "vyhledá zadané slovo, ověří jeho význam a pravopisnou podobu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s pravidly českého pravopisu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí význam a pravopis, u řídkých slov se ale může splést."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internetová jazyková příručka a slovníky na webu jsou přesně to, co se tu učíš používat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovníková aplikace slovo najde rychle, i v cizím jazyce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník nebo Pravidla českého pravopisu fungují bez zapnutého zařízení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c",
+      "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "koncovky-podle-vzoru",
+    "title": "Koncovky podstatných a přídavných jmen podle vzorů",
+    "aliases": [
+      "vzory",
+      "pán hrad muž stroj",
+      "koncovky",
+      "morfologický pravopis"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "osvojuje si postupně pravidla morfologického, lexikálního a syntaktického pravopisu",
+        "quote": "osvojuje si postupně pravidla morfologického, lexikálního a syntaktického pravopisu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se v koncovce píše i nebo y, a dá ti věty na procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internetová jazyková příručka ukáže tvary každého slova."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu najde část chyb v koncovkách, ne všechny."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravidla českého pravopisu v knize ukážou vzory i výjimky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+      "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "shoda-prisudku-s-podmetem",
+    "title": "Shoda přísudku s podmětem",
+    "aliases": [
+      "shoda podmětu s přísudkem",
+      "ženy přišly",
+      "muži přišli",
+      "syntaktický pravopis"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "osvojuje si postupně pravidla morfologického, lexikálního a syntaktického pravopisu",
+        "quote": "osvojuje si postupně pravidla morfologického, lexikálního a syntaktického pravopisu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč ve větě shoda sedí nebo nesedí, a dá ti věty na procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Pravidlo najdeš v Internetové jazykové příručce."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Kontrola pravopisu chybu ve shodě často nepozná."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj shodu nezkontroluje, větu čteš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+      "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "formalni-email",
+    "title": "Formální e-mail a dopis",
+    "aliases": [
+      "e-mail učiteli",
+      "formální dopis",
+      "úřední dopis",
+      "e-mail"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří písemný projev komplexní z hlediska formálního i obsahového v psané podobě i v digitálním prostředí.",
+        "quote": "Vytvoří písemný projev komplexní z hlediska formálního i obsahového v psané podobě i v digitálním prostředí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "E-mail učiteli",
+        "url": ""
+      },
+      {
+        "title": "Dopis kamarádovi",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak formální e-mail postavit, a řekne, co v tvém návrhu nesedí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzory oslovení a závěrů najdeš snadno."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Pošta v telefonu nabízí hotové věty, kontrola pravopisu opraví chyby."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj e-mail nenapíše ani neposoudí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kontrola-vlastniho-textu",
+    "title": "Kontrola a hodnocení textu",
+    "aliases": [
+      "přečíst si to po sobě",
+      "oprava textu",
+      "korektura",
+      "zvládám zlepšuji se",
+      "hodnocení textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "využívá kritéria hodnocení pravopisu – zvládám, zlepšuji se, nezvládám",
+        "quote": "využívá kritéria hodnocení pravopisu – zvládám, zlepšuji se, nezvládám"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě osvojených schopností a dovedností zhodnotí písemné projevy podle zadání (rozsah, téma ad.).",
+        "quote": "Na základě osvojených schopností a dovedností zhodnotí písemné projevy podle zadání (rozsah, téma ad.)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vytvoří funkční písemný projev a zhodnotí ho na základě osvojených schopností a dovedností.",
+        "quote": "Vytvoří funkční písemný projev a zhodnotí ho na základě osvojených schopností a dovedností."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s pravidly českého pravopisu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Najde chyby a navrhne formulace, co přijmeš, rozhoduješ ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Sporná místa si ověříš v příručce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu najde část chyb."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj text nezkontroluje, čteš ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/637ca2e2-0624-48b1-be6e-9ff4580344ac",
+      "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

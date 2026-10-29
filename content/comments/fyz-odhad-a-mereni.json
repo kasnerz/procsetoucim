@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Odhad se hodí ve chvílích, kdy metr ani váhu po ruce nemáš: jestli se krabice vejde do kufru auta nebo jestli taška s nákupem neutrhne ucho. Kdo umí odhadovat, pozná taky na první pohled, že měření nebo výpočet vyšly úplně mimo, a zkusí to znovu. V laboratoři i při opravách v domě slouží odhad jako rychlá kontrola, rozhoduje ale vždycky naměřená hodnota. Zlepšit se v odhadu dá jen tak, že ho opakovaně porovnáváš s měřením, a s tím chatbot nepomůže, protože předmět nevidí ani ho nemá v ruce.",
+  "learnWithAi": [
+    {
+      "title": "Hra na odhad délek",
+      "text": "Nech chatbota, ať ti zadá deset věcí v pokoji k odhadu, třeba délku postele. Odhady zapiš, pak všechno změř a spočítej, o kolik se odhad lišil."
+    },
+    {
+      "title": "Dlaň a krok jako měřítko",
+      "text": "Zeptej se chatbota, jaké běžné věci se hodí jako měřítko, třeba šířka dlaně nebo hmotnost jablka. Svou dlaň a krok si pak změř, protože čísla od AI platí jen pro průměrného člověka."
+    },
+    {
+      "title": "Tabulka odhadů a měření",
+      "text": "Zapisuj si týden odhady a naměřené hodnoty do tabulky a pak ji pošli chatbotovi. Ať ti pomůže zjistit, jestli spíš přeháníš, nebo podceňuješ, a u kterých věcí nejvíc."
+    }
+  ]
+}

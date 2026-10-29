@@ -1,0 +1,81 @@
+---
+import Base from "../../layouts/Base.astro";
+import Crumbs from "../../components/Crumbs.astro";
+import Icon from "../../components/Icon.astro";
+import SectionHead from "../../components/SectionHead.astro";
+import Paper from "../../components/Paper.astro";
+import ActivityRow from "../../components/ActivityRow.astro";
+import Bars from "../../components/charts/Bars.astro";
+import { subjects, activitiesFor, STAGES, subjectSlug, subjectIcon, outcomeSlug, type SubjectGroup } from "../../lib/data";
+
+export function getStaticPaths() {
+  return subjects().map((s) => ({ params: { code: subjectSlug(s.code) }, props: { s } }));
+}
+const { s } = Astro.props as { s: SubjectGroup };
+const base = import.meta.env.BASE_URL;
+const stages = STAGES.map((st) => ({
+  ...st,
+  okruhy: s.okruhy
+    .map((ok) => ({ ...ok, outcomes: ok.outcomes.filter((o) => o.stage === st.code) }))
+    .filter((ok) => ok.outcomes.length > 0),
+})).filter((st) => st.okruhy.length > 0);
+const covRows = stages.map((st) => {
+  const all = st.okruhy.flatMap((ok) => ok.outcomes);
+  const done = all.filter((o) => activitiesFor(o.code).length > 0).length;
+  return { label: st.years, value: done, max: all.length, display: `${done} z ${all.length}`, href: `#${st.code.toLowerCase()}` };
+});
+const nCards = s.outcomes.reduce((n, o) => n + activitiesFor(o.code).length, 0);
+---
+<Base title={s.name}>
+  <div class="wrap page">
+    <Crumbs items={[{ label: "Předměty", href: `${base}predmety/` }, { label: s.name }]} />
+    <section class="lead col">
+      <Icon name={subjectIcon(s.code)} size="48" class="subj" />
+      <h1>{s.name}</h1>
+      <nav class="stage-nav" aria-label="Období">
+        {stages.map((st) => <a class="tag" href={`#${st.code.toLowerCase()}`}>{st.years}</a>)}
+      </nav>
+    </section>
+    <Paper kind="grid" seed={`subj-cov/${s.code}`} class="cov">
+      <p><span class="big-num">{nCards}</span> <span class="small">karet z {s.outcomes.length} cílů RVP</span></p>
+      <h2 class="fig-h">Rozebrané cíle podle období</h2>
+      <Bars rows={covRows.map((r) => ({ label: r.label, value: r.max ? r.value / r.max : 0, display: r.display, href: r.href }))} max={1} seed={`subj-bars/${s.code}`} label="Rozebrané cíle RVP podle období" />
+    </Paper>
+    {stages.map((st) => (
+      <section class="section col stage" id={st.code.toLowerCase()} aria-labelledby={`h-${st.code}`}>
+        <SectionHead id={`h-${st.code}`} icon="flag">{st.years}<Fragment slot="lead">Cíle RVP {st.label}</Fragment></SectionHead>
+        {st.okruhy.map((ok) => (
+          <Paper kind="lined" seed={`ok/${s.code}/${st.code}/${ok.code}`} tilt={0.2} class="okruh">
+            {s.okruhy.length > 1 && <h3>{ok.name}</h3>}
+            {ok.outcomes.map((o) => {
+              const acts = activitiesFor(o.code);
+              return (
+                <div class="goal">
+                  <p class="goal-text"><a href={`${base}vystup/${outcomeSlug(o.code)}/`}>{o.text}</a>{acts.length === 0 && <span class="tiny soft"> zatím bez karet</span>}</p>
+                  {acts.length > 0 && <ul class="rows">{acts.map((a) => <ActivityRow a={a} meta="" />)}</ul>}
+                </div>
+              );
+            })}
+          </Paper>
+        ))}
+      </section>
+    ))}
+  </div>
+</Base>
+<style>
+  .page { display: grid; gap: var(--s7); }
+  .lead { display: grid; justify-items: center; text-align: center; gap: var(--s4); }
+  .lead :global(.subj) { color: var(--purple); }
+  .stage-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s2) var(--s3); }
+  .tag { font-weight: 600; text-decoration: none; padding: 3px 12px; background: var(--box-line) 0 0 / 100% 100% no-repeat; }
+  .tag:hover { color: var(--blue); }
+  .cov { max-width: 620px; width: 100%; margin-inline: auto; display: grid; gap: var(--s2); }
+  .fig-h { font-family: var(--font-body); font-size: 0.875rem; font-weight: 700; }
+  .stage { scroll-margin-top: var(--s4); }
+  .okruh { display: grid; gap: var(--s3); padding: var(--s4) var(--s4) var(--s4) 38px; }
+  .okruh h3 { font-size: calc(1.4rem * var(--title-scale)); }
+  .goal { display: grid; gap: 2px; }
+  .goal + .goal { border-top: 1.5px solid var(--rule); padding-top: var(--s2); }
+  .goal-text { font-weight: 600; }
+  .goal .rows { padding: 0 0 0 var(--s2); }
+</style>

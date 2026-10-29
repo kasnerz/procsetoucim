@@ -1,0 +1,581 @@
+[
+  {
+    "slug": "jidelnicek-denni-dlouhodoby-denni-rezim",
+    "title": "Sestavení jídelníčku na jeden i více dní",
+    "aliases": [
+      "jídelníček",
+      "co jíst za den",
+      "týdenní jídelníček",
+      "plán jídel",
+      "výživová doporučení"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Sestaví jednodenní i dlouhodobý jídelníček na základě znalostí základních výživových doporučení.",
+        "quote": "Sestaví jednodenní i dlouhodobý jídelníček"
+      },
+      {
+        "level": "Na začátku",
+        "point": "uvede základní výživová doporučení pro stravování dětí",
+        "quote": "uvede základní výživová doporučení pro stravování dětí"
+      },
+      {
+        "level": "Na začátku",
+        "point": "navrhne jídelníček pro sebe na jeden den, zhodnotí navržený jídelníček podle základních výživových doporučení",
+        "quote": "navrhne jídelníček pro sebe na jeden den"
+      },
+      {
+        "level": "Splněno",
+        "point": "Sestaví jídelníček na jeden a více dnů a zdůvodní jeho složení z hlediska potřeb organismu.",
+        "quote": "Sestaví jídelníček na jeden a více dnů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zdraví na talíři",
+        "url": "https://uloziste.rvp.cz/material/2a7aa1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí doporučení a ukáže příklady jídelníčků, ty z nich vybíráš a zdůvodňuješ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výživová doporučení pro děti si přečteš v ověřených zdrojích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na jídelníček spočítá živiny, které do něj zapíšeš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Jídelníček neskládáš kalkulačkou ani pravítkem, nic ti nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff82aa43-aef7-40fe-9d0e-2426e95b4417",
+      "http://data.europa.eu/esco/skill/e2858f53-a141-4cba-ad05-5b5a976b1d62"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jidelnicek-posouzeni-podle-doporuceni-vyziva",
+    "title": "Posouzení jídelníčku podle výživových doporučení",
+    "aliases": [
+      "zhodnocení jídelníčku",
+      "je můj jídelníček zdravý",
+      "jak se stravuju",
+      "porovnání s doporučeními"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "navrhne jídelníček pro sebe na jeden den, zhodnotí navržený jídelníček podle základních výživových doporučení",
+        "quote": "zhodnotí navržený jídelníček"
+      },
+      {
+        "level": "Splněno",
+        "point": "Posuzuje návrhy jídelníčků vzhledem k aktuálním výživovým doporučením.",
+        "quote": "Posuzuje návrhy jídelníčků"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zhodnotí vlastní způsob stravování vzhledem k aktuálním výživovým doporučením",
+        "quote": "zhodnotí vlastní způsob stravování"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Řekni mi, co jíš",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Můžeš mu popsat svůj den a nechat si vysvětlit, kde se liší od doporučení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Doporučené porce a pyramidu najdeš u ověřených zdrojů a porovnáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace spočítá živiny z toho, co zapíšeš, a ty je porovnáš s doporučením."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pro posouzení jídelníčku nemá pravítko ani teploměr žádné využití."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff82aa43-aef7-40fe-9d0e-2426e95b4417",
+      "http://data.europa.eu/esco/skill/cb5bac93-9111-4275-af1d-f40b0a73511b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "potraviny-prospesne-rizikove-vyziva-hodnoceni",
+    "title": "Zdravější a rizikovější potraviny",
+    "aliases": [
+      "zdravé potraviny",
+      "nezdravé jídlo",
+      "co je zdravé",
+      "složení potravin",
+      "výběr potravin"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozlišuje, které potraviny a nápoje přispívají a které neprospívají našemu zdraví",
+        "quote": "rozlišuje, které potraviny a nápoje přispívají"
+      },
+      {
+        "level": "Na cestě",
+        "point": "určuje, které potraviny prospívají zdraví a které mohou být pro zdraví rizikové, a to z hlediska složení, množství i frekvence konzumace",
+        "quote": "určuje, které potraviny prospívají zdraví"
+      },
+      {
+        "level": "Na cestě",
+        "point": "posuzuje vhodnost základních potravin a potravinářských výrobků pro zařazení do jídelníčku",
+        "quote": "posuzuje vhodnost základních potravin"
+      },
+      {
+        "level": "Splněno",
+        "point": "Preferuje při sestavování jídelníčku potraviny s vhodným obsahem živin.",
+        "quote": "Preferuje při sestavování jídelníčku potraviny"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zdraví na talíři",
+        "url": "https://uloziste.rvp.cz/material/2a7aa1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co v potravině zdraví prospívá a co škodí, a řekne proč."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Složení a výživové údaje potravin najdeš v tabulkách a na stránkách výrobců."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace přečte čárový kód a ukáže složení a množství cukru či soli."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kuchyňská váha jen zváží porci, zdravější volbu ti neurčí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1",
+      "http://data.europa.eu/esco/skill/cb5bac93-9111-4275-af1d-f40b0a73511b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zivina-zdroje-vyznam-organismus-vyziva",
+    "title": "Živiny, jejich zdroje a význam pro tělo",
+    "aliases": [
+      "bílkoviny sacharidy tuky",
+      "vitaminy",
+      "minerální látky",
+      "zdroje živin",
+      "co obsahuje jídlo"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "charakterizuje význam živin (bílkovin, sacharidů, tuků, vitaminů, minerálních látek) přijímaných potravou pro činnost organismu",
+        "quote": "charakterizuje význam živin"
+      },
+      {
+        "level": "Na cestě",
+        "point": "orientuje se ve složení základních potravin (uvádí, které potraviny jsou významnými zdroji jednotlivých živin)",
+        "quote": "orientuje se ve složení základních potravin"
+      },
+      {
+        "level": "Splněno",
+        "point": "Propojuje informace o obsahu živin a dalších látek v potravinách s možnými vlivy konzumace těchto potravin na zdravotní stav.",
+        "quote": "Propojuje informace o obsahu živin"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Význam živin přijímaných potravou pro činnost organismu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu tělo která živina potřebuje, a zkouší tě z toho."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky složení potravin a encyklopedie ukážou, kde se živiny vyskytují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace o výživě ukáže obsah živin v potravině a pomůže je porovnat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný jednoduchý nástroj živiny v jídle neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1",
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "travici-soustava-zpracovani-potravy-vyziva",
+    "title": "Cesta potravy trávicí soustavou",
+    "aliases": [
+      "trávení",
+      "trávicí soustava",
+      "vstřebávání živin",
+      "žaludek a střeva"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvádí do souvislostí činnost jednotlivých částí trávicí soustavy a složení přijímané stravy (příjem potravy, mechanické a chemické zpracování potravy, vstřebání živin z potravy a vyloučení nestrávených či nestravitelných zbytků)",
+        "quote": "uvádí do souvislostí činnost jednotlivých částí trávicí soustavy"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí proces zpracování přijímané potravy v organismu, dává do souvislostí činnost jednotlivých částí trávicí soustavy a složení přijímané stravy.",
+        "quote": "Vysvětlí proces zpracování přijímané potravy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí trávení krok za krokem a odpoví na tvoje doplňující otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Schémata a videa ukážou, co se v těle děje, i když to vidět nemůžeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s 3D modelem těla ukáže orgány a cestu potravy."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Trávení v těle neuvidíš, pomůcky jako pravítko nebo mikroskop tu nepomůžou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+      "http://data.europa.eu/esco/skill/cb5bac93-9111-4275-af1d-f40b0a73511b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nedostatek-nadbytek-tuk-cukr-sul-vlaknina",
+    "title": "Zdravotní rizika nedostatku a nadbytku v jídle",
+    "aliases": [
+      "moc cukru",
+      "moc soli",
+      "vláknina",
+      "ovoce a zelenina",
+      "přejídání",
+      "málo jíst"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "objasní zdravotní rizika spojená s nedostatečným příjmem ovoce, zeleniny, vlákniny",
+        "quote": "objasní zdravotní rizika spojená s nedostatečným příjmem ovoce"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí zdravotní rizika spojená s nadbytečným příjmem tuků, cukru a soli",
+        "quote": "vysvětlí zdravotní rizika spojená s nadbytečným příjmem tuků"
+      },
+      {
+        "level": "Na začátku",
+        "point": "uvede rizika nadměrného přejídání a nedostatečného příjmu potravy",
+        "quote": "uvede rizika nadměrného přejídání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Klíče k bezpečnému stravování",
+        "url": "https://uloziste.rvp.cz/material/79e174"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co se děje v těle při nedostatku nebo nadbytku, a uvede příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ověřené zdravotnické stránky popisují rizika i doporučené množství."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace spočítá, kolik cukru a soli přijmeš za den, a ty to porovnáš s doporučením."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rizika nedostatku a nadbytku v jídle žádný jednoduchý nástroj neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cb5bac93-9111-4275-af1d-f40b0a73511b",
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stravovaci-pitny-rezim-pravidelnost-denni",
+    "title": "Stravovací a pitný režim",
+    "aliases": [
+      "pitný režim",
+      "pravidelné jídlo",
+      "snídaně",
+      "kolik pít",
+      "svačiny"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vysvětlí zásady a význam stravovacího a pitného režimu, který podporuje zdraví a minimalizuje jeho možné poškození",
+        "quote": "vysvětlí zásady a význam stravovacího a pitného režimu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "uvádí argumenty, proč je důležité sledovat, které potraviny a nápoje zařazujeme do jídelníčku a v jakém denním množství",
+        "quote": "uvádí argumenty, proč je důležité sledovat"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zdůvodní potřebu dodržovat správný stravovací a pitný režim.",
+        "quote": "Zdůvodní potřebu dodržovat správný stravovací"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč jíst pravidelně a pít dost, a pomůže ti sepsat argumenty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Doporučení k pravidelnosti jídla a pití najdeš v ověřených zdrojích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace připomíná pití a zapisuje jídla, takže vidíš svůj režim."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Režim dodržuješ ty, žádný jednoduchý nástroj ti ho nezajistí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+      "http://data.europa.eu/esco/skill/e2858f53-a141-4cba-ad05-5b5a976b1d62"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zubni-kaz-cukr-potraviny-vyziva",
+    "title": "Zubní kaz a jídlo",
+    "aliases": [
+      "zubní kaz",
+      "kazy",
+      "sladkosti a zuby",
+      "cukr a zuby"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "popíše souvislost mezi konzumací některých potravin a vznikem zubního kazu",
+        "quote": "popíše souvislost mezi konzumací některých potravin a vznikem zubního kazu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak cukr s bakteriemi vytváří kaz, a odpoví na dotazy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky zubařů a encyklopedie ukážou obrázky a popisují vznik kazu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace na čištění zubů hlídá čas, souvislost jídla a kazu ti nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zubní kartáček čistí zuby, vznik kazu z jídla nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nemoci-vyzivove-chovani-spolecnost-rizika",
+    "title": "Nemoci spojené se stravováním",
+    "aliases": [
+      "civilizační nemoci",
+      "obezita",
+      "cukrovka",
+      "otrava jídlem",
+      "alimentární nákazy"
+    ],
+    "outcome": "CZB-VZB-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje souvislosti mezi výživovým chováním a neinfekčními a degenerativními nemocemi",
+        "quote": "diskutuje souvislosti mezi výživovým chováním a neinfekčními"
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje souvislosti mezi výživovým chováním a alimentárními nákazami",
+        "quote": "diskutuje souvislosti mezi výživovým chováním a alimentárními"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady nemocí vázaných na nevhodný stravovací režim a jejich rizika pro jedince i společnost.",
+        "quote": "Uvede příklady nemocí vázaných na nevhodný stravovací režim"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Klíče k bezpečnému stravování",
+        "url": "https://uloziste.rvp.cz/material/79e174"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak souvisí strava s nemocemi, a můžeš si s ním zkusit diskutovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ověřené zdravotnické stránky popisují nemoci i jejich rizika pro jedince a společnost."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace na zdraví nevysvětlí, proč nevhodná strava způsobuje nemoci."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Teploměr ani lékárnička souvislost mezi jídlem a nemocí neukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cb5bac93-9111-4275-af1d-f40b0a73511b",
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

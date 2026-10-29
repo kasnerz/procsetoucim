@@ -1,0 +1,251 @@
+[
+  {
+    "slug": "nazvy-naradi",
+    "title": "Názvy běžného nářadí a nástrojů",
+    "aliases": [
+      "nářadí",
+      "kladivo a šroubovák",
+      "zahradní nářadí",
+      "jak se to jmenuje"
+    ],
+    "outcome": "CSP-TCH-002-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Charakterizuje běžné nástroje, nářadí a pomůcky využívané při péči o domácnost, zahradu a zeleň v interiéru.",
+        "quote": "Charakterizuje běžné nástroje, nářadí a pomůcky využívané při péči o domácnost, zahradu a zeleň v interiéru."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Pojmenuje běžné nástroje, nářadí a pomůcky využívané při péči o domácnost, zahradu a zeleň v interiéru.",
+        "quote": "Pojmenuje běžné nástroje, nářadí a pomůcky využívané při péči o domácnost, zahradu a zeleň v interiéru."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Poznává běžné nástroje, nářadí a pomůcky využívané při péči o domácnost, zahradu a zeleň v interiéru.",
+        "quote": "Poznává běžné nástroje, nářadí a pomůcky využívané při péči o domácnost, zahradu a zeleň v interiéru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Podle popisu nebo fotky nářadí pojmenuje a může tě zkoušet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázkové encyklopedie a vyhledávání ukážou název i obrázek."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Z fotky nářadí aplikace odhadne název, někdy se splete."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Skutečné nářadí vidíš a držíš v ruce, a to si zapamatuješ nejlíp."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38",
+      "http://data.europa.eu/esco/skill/8a1942a8-bebd-4cc5-bdff-fe215aaa3de5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "k-cemu-naradi-slouzi",
+    "title": "K čemu nářadí slouží",
+    "aliases": [
+      "funkce nářadí",
+      "k čemu je šroubovák",
+      "k čemu slouží nástroj"
+    ],
+    "outcome": "CSP-TCH-002-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše funkce jednotlivých nástrojů, nářadí a pomůcek využívaných při péči o domácnost, zahradu a zeleň v interiéru.",
+        "quote": "Popíše funkce jednotlivých nástrojů, nářadí a pomůcek využívaných při péči o domácnost, zahradu a zeleň v interiéru."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Určí funkce vybraných nástrojů, nářadí a pomůcek využívaných při péči o domácnost, zahradu a zeleň v interiéru.",
+        "quote": "Určí funkce vybraných nástrojů, nářadí a pomůcek využívaných při péči o domácnost, zahradu a zeleň v interiéru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu nářadí slouží, a ptá se, čím by šel daný úkol vyřešit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a encyklopedie ukážou nářadí při práci."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nářadí nevysvětlí lépe než obyčejný web."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Když nářadí vyzkoušíš, pochopíš, k čemu slouží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38",
+      "http://data.europa.eu/esco/skill/8a1942a8-bebd-4cc5-bdff-fe215aaa3de5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prace-s-naradim",
+    "title": "Práce s nářadím při domácích opravách a zahradě",
+    "aliases": [
+      "opravy",
+      "dotáhnout šroub",
+      "šroubovák",
+      "práce na zahradě",
+      "péče o zahradu"
+    ],
+    "outcome": "CSP-TCH-002-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Účelně využívá vybrané nástroje, nářadí a pomůcky běžně využívané při chodu domácnosti nebo péči o zahradu a zeleň v interiéru.",
+        "quote": "Účelně využívá vybrané nástroje, nářadí a pomůcky běžně využívané při chodu domácnosti nebo péči o zahradu a zeleň v interiéru."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Samostatně nebo ve spolupráci se spolužáky provádí základní úkony péče o domácnost, zahradu a zeleň v modelových situacích.",
+        "quote": "Samostatně nebo ve spolupráci se spolužáky provádí základní úkony péče o domácnost, zahradu a zeleň v modelových situacích."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Prostřednictvím praktických aktivit se seznamuje s využitím běžných nástrojů, nářadí a pomůcek určených k péči o domácnost, zahradu a zeleň v interiéru.",
+        "quote": "Prostřednictvím praktických aktivit se seznamuje s využitím běžných nástrojů, nářadí a pomůcek určených k péči o domácnost, zahradu a zeleň v interiéru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Drobné opravy na školní zahradě – dotažení vrutů na lavičce, na plotě, poličce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí postup a vysvětlí kroky, šroub ale dotáhneš rukama ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videonávody ukážou, jak na to."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nic nedotáhne ani nezalije."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nářadí je to, čím práci děláš, bez něj to nejde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38",
+      "http://data.europa.eu/esco/skill/8a1942a8-bebd-4cc5-bdff-fe215aaa3de5",
+      "http://data.europa.eu/esco/skill/4f1b6304-f54a-42f0-9604-5427a28d240f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bezpecna-manipulace",
+    "title": "Bezpečná práce s nářadím",
+    "aliases": [
+      "bezpečnost při práci",
+      "bezpečnost nářadí",
+      "jak nezranit",
+      "hygiena práce"
+    ],
+    "outcome": "CSP-TCH-002-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Bezpečně manipuluje se základními nástroji, nářadím, pomůckami a technickým vybavením v modelových situacích.",
+        "quote": "Bezpečně manipuluje se základními nástroji, nářadím, pomůckami a technickým vybavením v modelových situacích."
+      },
+      {
+        "level": "Splněno",
+        "point": "Zná a dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele.",
+        "quote": "Zná a dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Na pokyn učitele bezpečně manipuluje se základními nástroji, nářadím a pomůckami v modelových situacích.",
+        "quote": "Na pokyn učitele bezpečně manipuluje se základními nástroji, nářadím a pomůckami v modelových situacích."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Na základě demonstrace bezpečně manipuluje se základními nástroji, nářadím a pomůckami v modelových situacích.",
+        "quote": "Na základě demonstrace bezpečně manipuluje se základními nástroji, nářadím a pomůckami v modelových situacích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou zásady bezpečnosti, nářadí ale držíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Pravidla bezpečné práce najdeš v návodech výrobců."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tě při práci nehlídá."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Rukavice a brýle tě chrání, práci s nářadím si musíš vyzkoušet."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

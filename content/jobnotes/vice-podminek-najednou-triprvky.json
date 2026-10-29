@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "8d9ec84d-cf2d-4179-87bc-335cda54a427": "Při návrhu databáze se počítá s dotazy, které spojují víc podmínek najednou, třeba zákazníky z Brna, kteří nakoupili v lednu.",
+  "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2": "Při čištění a zpracování dat se vybírají záznamy, které splňují několik podmínek zároveň, a výsledek se kontroluje.",
+  "ff656b3a-65a8-4b4f-b04e-9db12936519b": "Z databází obyvatel se vybírají skupiny podle několika údajů najednou, třeba věku a místa bydliště, a sledují se jejich změny.",
+  "ac37627c-a999-4779-997e-9795cc4f9a3d": "Databáze se tu hodí při návrhu rozvodů a hlídání provozu. Víc podmínek se potkává třeba při výběru zařízení podle bezpečnostních předpisů a potřeb odběratelů.",
+  "4e4a1aa1-ca53-406e-9ca6-889d4621a0ed": "Při katalogizaci digitálních médií se záznamy hledají podle několika údajů najednou, třeba typu, data a metadat.",
+  "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230": "Data o přepravě a skladování se třídí podle více podmínek, aby se našlo, kde se dodávky zdržují. Je to jen část práce.",
+  "760ad7dd-f29d-4e4d-be1f-15100550ab80": "Databáze tu slouží okrajově, třeba k hledání vzorů podle několika vlastností najednou. Většinu práce tvoří úprava střihů v CAD.",
+  "c4046ba8-cfe0-4748-beac-22e865962d75": "Při sledování výroby se porovnává několik parametrů najednou a ověřuje se, zda splňují zadání zákazníka. Databáze jsou menší část práce."
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Házet mincí pořád dokola a čárkami zapisovat, kolikrát padl rub a kolikrát líc, vypadá jako hra. Stejným postupem ale lidé ve výzkumu, ve statistice nebo v pojišťovnách zjišťují, jak často se něco stává: místo dohadů udělají pokus a výsledky spočítají. Z vlastních čárek uvidíš, že při mnoha hodech se výsledky ustálí, i když jednotlivý hod odhadnout nejde. Tabulka v počítači ti čárky sečte a nakreslí graf, házení a zapisování ale za tebe neudělá. Práce s daty a pokusy spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Návrh pokusu s kostkou",
+      "text": "Poproste s rodičem chatbota, ať vám navrhne jednoduchý pokus s mincí nebo kostkou a tabulku na zápis. Házení a čárkování už je na vás."
+    },
+    {
+      "title": "Odhad před házením",
+      "text": "Než začnete házet, napište si s rodičem odhad, kolikrát padne šestka. Výsledky pak ukažte chatbotovi a nechte si vysvětlit, proč se od odhadu liší."
+    },
+    {
+      "title": "Sloupcový graf z čárek",
+      "text": "Nakreslete s učitelem z vaší tabulky ručně sloupcový graf. Potom přepište čísla do chatbota, nechte si popsat, jak má graf vypadat, a hledejte rozdíly."
+    }
+  ]
+}

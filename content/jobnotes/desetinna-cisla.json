@@ -1,0 +1,22 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "35efc04c-429a-407e-a00a-f07fd03c2743": "Při měření a opravách rádií pracuje s hodnotami jako 0,5 V nebo 2,4 GHz. Desetinnou čárku musí číst správně, jinak změří nebo nastaví něco jiného.",
+  "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": "Sbírá údaje a počítá z nich průměry a podíly. Většinu výpočtů dělá program, ale musí poznat, že desetinné číslo ve výsledku dává smysl.",
+  "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2": "S čísly s desetinnou čárkou pracuje pořád, jenže výpočty dělá software. Analytik hlídá, jestli výsledek vychází řádově správně, nebo se někde posunula čárka.",
+  "258e46f9-0075-4a2e-adae-1ff0477e0f30": "Pracuje s velkými soubory čísel, z nichž většina je desetinná. Počítá je program, člověk ale kontroluje, jestli výsledky dávají smysl.",
+  "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": "Studentům vysvětluje matematiku od základů výš. Počítání s desetinnými čísly mu jde automaticky, ale musí umět ukázat, proč čárka patří právě sem.",
+  "f0e1cc13-48e0-4995-8699-ee43467bce0d": "Žáky učí, jak se desetinná čísla sčítají a násobí. Sám je počítá bez přemýšlení, a musí proto umět vysvětlit, kde žáci nejčastěji udělají chybu.",
+  "219d1c30-3849-4de3-b0d6-07da187b6521": "Odhaduje náklady na materiál, práci i čas, takže pracuje s částkami s haléři a množstvím v desetinných číslech. Součty dělá tabulka, odhad musí sedět.",
+  "b9296f1a-a68b-4ac7-9904-f2cf1374fbaf": "Počítá zatížení a pnutí v materiálech, kde jsou desetinná čísla všude. Výpočty dělá software, analytik ale pozná, když výsledek vychází řádově jinak.",
+  "0cca32c2-9308-4927-adb2-14771ab787f0": "Ceny materiálu, hodiny práce a množství na stavbě mají haléře i desetiny, a rozpočet je jejich součet. Tady se desetinná čísla sčítají a násobí celý den.",
+  "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81": "Při směně se částka násobí kurzem, který má několik desetinných míst, a výsledek se zaokrouhluje na haléře nebo centy. Chyba v čárce by se projevila hned v pokladně.",
+  "2b871272-bd61-4206-bd1a-0b96d7023098": "Pokladna počítá za člověka, ale kdo u ní sedí, zkontroluje cenu na váze nebo vrácené drobné. Ceny jsou samá desetinná čísla a zákazník čeká.",
+  "264e1a4a-5074-47e2-a6d9-d225d48e8a9a": "Kurz sázky se zapisuje desetinným číslem, třeba 2,35. Výhra se pak násobí vsazenou částkou, takže tu jde o násobení desetinných čísel.",
+  "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547": "Zboží se váží na desítky gramů a cena za kilo má haléře. Cena nákupu vyjde z násobení hmotnosti cenou, takže desetinná čísla jsou u váhy denní práce.",
+  "9a99a5fe-875d-49b2-9b53-cc1b73be1659": "Při prodeji jízdenek a vracení peněz se sčítají a odčítají částky s haléři. Denní výkaz tržeb musí vyjít, ale většinu součtů dělá pokladní systém.",
+  "04f39bfa-bc03-4480-98bc-b18ce4fe4b4b": "Účetní závěrky se skládají z velkého počtu částek s haléři. Hlavní účetní hlavně kontroluje, jestli výsledky dávají smysl, a ne každý součet počítá ručně.",
+  "bafbc672-0ad9-41af-9de8-db0c91a24f9b": "Faktura je tabulka cen, množství a součtů, někdy s dobropisem, který se odečítá. Jak částky sedí, rozhoduje o tom, jestli zákazník zaplatí správně."
+ }
+}

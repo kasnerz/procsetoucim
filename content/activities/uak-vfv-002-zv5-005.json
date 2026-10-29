@@ -1,0 +1,300 @@
+[
+  {
+    "slug": "vyprava-pocity-z-dila-vypovedet",
+    "title": "Vyjádření pocitů z výtvarného díla nebo filmu",
+    "aliases": [
+      "jaký pocit ve mně dílo vyvolalo",
+      "povídání o obrazu",
+      "pocity z filmu",
+      "můj zážitek z díla",
+      "jak na mě obraz působí"
+    ],
+    "outcome": "UAK-VFV-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyjádří svůj zážitek ze setkání s výtvarným a audiovizuálním dílem.",
+        "quote": "Vyjádří svůj zážitek ze setkání s výtvarným a audiovizuálním dílem."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Uvědomuje si, že různá díla či události v něm vyvolávají různé pocity, představy a myšlenky a svůj prožitek zejména z výtvarného či filmového díla sdílí s ostatními.",
+        "quote": "Uvědomuje si, že různá díla či události v něm vyvolávají různé pocity"
+      },
+      {
+        "level": "Splněno",
+        "point": "Verbalizuje svůj prožitek z výtvarného a filmového díla, posoudí jeho intenzitu – jestli a jak na něj zapůsobilo.",
+        "quote": "Verbalizuje svůj prožitek z výtvarného a filmového díla"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Barva nálady",
+        "url": "https://uloziste.rvp.cz/material/760db3"
+      },
+      {
+        "title": "Živé obrazy",
+        "url": "https://uloziste.rvp.cz/material/166a85"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne slova pro pocity, když nevíš, jak svůj zážitek pojmenovat."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co v tobě obraz nebo film vyvolal, nenajdeš ve zdroji, víš to jen ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvé pocity nepojmenuje, ty je říkáš nahlas."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pocity z díla se nedají změřit ani odškrtnout, popisuješ je ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/86c8482c-776b-43b5-a01c-956601069cfe"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyprava-soustredene-divani-na-dilo",
+    "title": "Soustředěné prohlížení jednoho díla",
+    "aliases": [
+      "dívat se na obraz",
+      "všímat si detailů",
+      "koukání na film",
+      "pozorné vnímání",
+      "prohlížení obrazu"
+    ],
+    "outcome": "UAK-VFV-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Soustředí pozornost na konkrétní umělecké dílo, nebo událost.",
+        "quote": "Soustředí pozornost na konkrétní umělecké dílo, nebo událost."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Žák dostává příležitost k tomu, aby mohl vnímat různá díla či projevy zejména výtvarné a audiovizuální kultury a mohl se soustředit na pocity, které v něm dílo nebo událost vyvolávají.",
+        "quote": "mohl se soustředit na pocity, které v něm dílo nebo událost vyvolávají"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Virtuální galerie",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Soustředit se musíš ty, chatbot za tebe nic nepozoruje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrazy z galerií a ukázky filmů si můžeš prohlížet i doma v klidu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tě od díla spíš odvede, pozornost drží jen ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Při dívání nepotřebuješ nástroj, stačí oči a chvíle ticha."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyprava-galerie-muzeum-kino-naziva",
+    "title": "Návštěva galerie, muzea nebo kina",
+    "aliases": [
+      "výlet do galerie",
+      "chození do muzea",
+      "výstava",
+      "kino se školou",
+      "koncert nebo projekce",
+      "kde se mi dílo líbí víc"
+    ],
+    "outcome": "UAK-VFV-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Získává zkušenost s vnímáním díla v autentickém prostředí galerie, muzea, kina, i při návštěvě výstavy, koncertu, projekce nebo jiné kulturní události (pořádané školou, kam dochází, nebo jinou školou).",
+        "quote": "Získává zkušenost s vnímáním díla v autentickém prostředí galerie, muzea, kina"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Získává zkušenost s vnímáním díla v autentickém prostředí galerie, muzea, kina, i při návštěvě výstavy, koncertu, projekce nebo jiné kulturní události (pořádané např. základní uměleckou či jinou školou).",
+        "quote": "Získává zkušenost s vnímáním díla v autentickém prostředí galerie, muzea, kina"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše svou zkušenost s různými prostředími, ve kterých dílo vnímá nebo kde událost probíhá (galerie, kino, veřejný prostor, škola) a jednoduše sdělí, čemu dává přednost a proč (promítání filmu ve škole / v kině; vnímání reprodukcí obrazů ve škole / návštěva galerie, virtuální galerie).",
+        "quote": "Popíše svou zkušenost s různými prostředími, ve kterých dílo vnímá"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Virtuální galerie",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "V sále stojíš ty, chatbot za tebe nic neprožije ani nesrovná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Web galerie nebo kina ukáže program, výstavy a virtuální prohlídky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tě k budově dovede, ale zážitek z díla v ní nenajdeš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zážitek v sále zažiješ osobně, žádný nástroj ho nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/14f9a27c-d52e-4e3d-9819-e564d4ec3d71"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyprava-poslech-cizi-nazor-na-dilo",
+    "title": "Poslech cizího názoru na dílo",
+    "aliases": [
+      "názor spolužáka na obraz",
+      "jiný pohled na dílo",
+      "poslouchat názory",
+      "respekt k názoru",
+      "různé názory na film"
+    ],
+    "outcome": "UAK-VFV-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vyslechne názor někoho jiného na dílo či událost, dokáže o tomto názoru přemýšlet a respektuje ho.",
+        "quote": "Vyslechne názor někoho jiného na dílo či událost, dokáže o tomto názoru přemýšlet a respektuje ho."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Poslouchat spolužáky a respektovat je musíš ty, chatbot je nenahradí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Recenze a rozhovory s tvůrci ukážou, jak o díle přemýšlejí jiní."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti neřekne, co si o díle myslí lidé kolem tebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Cizí názor slyšíš od lidí ve třídě, nástroj tu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/86c8482c-776b-43b5-a01c-956601069cfe"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyprava-otazka-k-dilu",
+    "title": "Otázka, kterou si klademe k dílu",
+    "aliases": [
+      "co se zeptat na obraz",
+      "ptát se na dílo",
+      "otázky k filmu",
+      "na co se u díla ptát"
+    ],
+    "outcome": "UAK-VFV-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Položí si otázku, která je pro něj ke vnímání díla nebo události důležitá.",
+        "quote": "Položí si otázku, která je pro něj ke vnímání díla nebo události důležitá."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže příklady otázek k obrazu nebo filmu, ze kterých si vybereš."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Důležitou otázku k dílu si musíš najít ty, web ti ji nepoloží."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe otázku nevymyslí, a kdyby ano, nebyla by tvoje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Otázka vzniká při dívání na dílo, nástroj k ní nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/86c8482c-776b-43b5-a01c-956601069cfe",
+      "http://data.europa.eu/esco/skill/d5c6e438-2e6d-4919-8f1b-17cf93080b4b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

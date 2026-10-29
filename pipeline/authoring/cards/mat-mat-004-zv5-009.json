@@ -1,0 +1,286 @@
+{
+  "outcome": "MAT-MAT-004-ZV5-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "statistika-co-jsou-data-trideni",
+      "title": "Co jsou data a jak je třídit",
+      "aliases": [
+        "data",
+        "třídění dat",
+        "seskupování",
+        "co jsou data",
+        "uspořádání"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Pojmenuje v konkrétních situacích, co jsou data, označí je nebo je zaznamená."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Organizuje soubor dat podle různých organizačních principů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co jsou data, a vymyslí další soubory k třídění."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Data ve třídě nebo doma třídíš ty, ve vyhledávači nejsou."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka v počítači ti data seřadí a seskupí, a ty vidíš různá třídění."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky nebo předměty si rozkládáš do hromádek a třídíš rukama."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "statistika-sber-zapis-dat",
+      "title": "Sběr a zápis dat",
+      "aliases": [
+        "sbírání dat",
+        "průzkum ve třídě",
+        "čárkování",
+        "evidence dat",
+        "anketa"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sesbírá, vybere a eviduje odpovídající data z reálné situace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Data ze třídy nebo z výletu nasbíráš ty, chatbot u nich nebyl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Hotové tabulky a čísla se hodí, když sbíráš data o něčem, co se měřit nedá."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka nebo formulář ti pomůže data přehledně zapisovat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír s čárkami, teploměr nebo metr ti data zachytí přímo na místě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61",
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "statistika-cteni-grafu-tabulek",
+      "title": "Čtení tabulek, grafů a schémat",
+      "aliases": [
+        "čtení grafu",
+        "sloupcový graf",
+        "tabulka",
+        "schéma",
+        "Vennův diagram"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Čte a vytvoří grafický záznam souboru dat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co graf ukazuje, a zeptá se tě na hodnoty z obrázku."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu vzorové grafy a tabulky s vysvětlením, jak se čtou."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s grafy ti ukáže, jak se obrázek mění s čísly."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Grafy v učebnici čteš očima ty, pravítko za tebe nic nepřečte."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61"
+      ],
+      "inspiration": [
+        "Čtení informací z grafu"
+      ]
+    },
+    {
+      "slug": "statistika-kresleni-grafu-tabulek",
+      "title": "Vytvoření tabulky, grafu a Vennova diagramu",
+      "aliases": [
+        "kreslení grafu",
+        "sloupcový graf",
+        "Vennův diagram",
+        "tvorba tabulky",
+        "dvě a tři množiny"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Čte a vytvoří grafický záznam souboru dat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, který druh grafu se k datům hodí, a zkontroluje popis os."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky hotových grafů a Vennových diagramů ti ukážou, jak má vypadat správný záznam."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor nebo kreslicí program graf z tvých dat nakreslí a ukáže chyby."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko a čtverečkovaný papír ti pomůžou nakreslit přesné sloupce."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61",
+        "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "statistika-informace-z-dat-problemy",
+      "title": "Hledání odpovědí v souboru dat",
+      "aliases": [
+        "řešení úloh z tabulky",
+        "informace z tabulky",
+        "porovnání dat",
+        "úlohy z grafu",
+        "výlet"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Získá informace z organizovaného souboru dat pro řešení problémů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí úlohy k tabulce a vysvětlí postup, když nevíš, kde hledat."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Odpověď musíš najít v tabulce, kterou máš před sebou, ne na internetu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor ti pomůže řadit a filtrovat data, aby odpověď byla vidět."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírová tabulka a pravítko ti pomůžou sledovat řádek a sloupec."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+      ],
+      "inspiration": [
+        "Cestujeme MHD",
+        "Výlet"
+      ]
+    },
+    {
+      "slug": "statistika-aritmeticky-prumer",
+      "title": "Aritmetický průměr",
+      "aliases": [
+        "průměr",
+        "aritmetický průměr",
+        "průměrná hodnota",
+        "výpočet průměru"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Určí aritmetický průměr malého souboru dat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co průměr znamená, a zkontroluje tvoje výpočty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu vysvětlení průměru s příklady z běžného života."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka v telefonu nebo tabulka ti průměr spočítá a ty ověříš svůj výpočet."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti ověří součet i dělení, které počítáš na papíře."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+        "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

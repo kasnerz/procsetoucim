@@ -1,0 +1,179 @@
+{
+  "outcome": "CSP-TCH-001-ZV5-001",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Prostřednictvím vlastní praktické činnosti se seznamuje s technickými materiály, jejich vlastnostmi a využitím.",
+      "cards": [
+        "technicke-materialy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Prostřednictvím vlastní praktické činnosti se seznamuje s pomůckami, nástroji a nářadím pro ruční zpracování materiálu.",
+      "cards": [
+        "naradi-a-nastroje"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Prostřednictvím praktických činností poznává historická i současná řemesla, lidové tradice a zvyky.",
+      "cards": [
+        "remesla-a-tradice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se s různými typy učebních úloh, včetně tvůrčích, dle pokynů učitele.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Poznává jednoduché obrazové návody a postupy práce.",
+      "cards": [
+        "obrazove-navody"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se se zásadami bezpečnosti a hygieny práce.",
+      "cards": [
+        "bezpecnost-a-hygiena"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Pozná a charakterizuje technické materiály (jejich vlastnosti a využití) a pomůcky, nástroje a nářadí určené k ručnímu zpracování těchto materiálů.",
+      "cards": [
+        "technicke-materialy",
+        "naradi-a-nastroje"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozvíjí své manuální dovednosti prostřednictvím vlastní praktické činnosti.",
+      "cards": [
+        "vyroba-vyrobku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vytváří zvykoslovné předměty jako součást kulturních tradic.",
+      "cards": [
+        "zvykoslovne-predmety"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Realizuje instruktivní i tvůrčí učební úlohy podle zadání učitele.",
+      "cards": [
+        "vyroba-vyrobku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozvíjí samostatnost prostřednictvím práce s jednoduchými obrazovými návody a postupy práce.",
+      "cards": [
+        "obrazove-navody"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Uvědomuje si na základě zkušeností z modelových situací význam i kulturní hodnotu lidské práce.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele.",
+      "cards": [
+        "bezpecnost-a-hygiena"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Pozná a charakterizuje základní technické materiály (tradiční i novodobé) a popíše možnosti jejich využití pro tvůrčí činnosti.",
+      "cards": [
+        "technicke-materialy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede konkrétní příklady tradičních a inovativních postupů práce a zhodnotí je z hlediska uplatnitelnosti.",
+      "cards": [
+        "remesla-a-tradice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhuje dílčí změny ve využití technického materiálu nebo realizaci postupu práce, včetně znovuvyužití materiálu, a tím rozvíjí tvořivost.",
+      "cards": [
+        "zmeny-a-znovuvyuziti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Realizuje základní tradiční i inovativní postupy práce s technickým materiálem samostatně nebo ve skupině, a tím rozvíjí zručnost.",
+      "cards": [
+        "vyroba-vyrobku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Prostřednictvím práce s jednoduchými obrazovými návody a postupy práce rozvíjí samostatnost.",
+      "cards": [
+        "obrazove-navody"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Prostřednictvím konkrétních aktivit praktického charakteru propojuje poznatky z různých vědních oborů (STEM, STEAM).",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele a uvědomuje si jejich význam při realizaci praktických činností a důsledky při jejich nedodržení.",
+      "cards": [
+        "bezpecnost-a-hygiena"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Realizuje přiměřené pracovní operace a postupy s různými a běžně dostupnými druhy technického materiálu za využití základních pomůcek, nářadí a nástrojů za dodržení základních zásad hygieny a bezpečnosti práce.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

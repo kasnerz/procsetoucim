@@ -1,0 +1,511 @@
+[
+  {
+    "slug": "dospivani-obdobi-lidskeho-zivota",
+    "title": "Období lidského života",
+    "aliases": [
+      "od dětství do stáří",
+      "věkové období",
+      "kojenec batole dospělý",
+      "životní etapy"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "popisuje jednotlivá období lidského života",
+        "quote": "popisuje jednotlivá období lidského života"
+      },
+      {
+        "level": "Na cestě",
+        "point": "uvádí základní charakteristiky jednotlivých období lidského života, prenatálního i postnatálního",
+        "quote": "uvádí základní charakteristiky jednotlivých období lidského života, prenatálního i postnatálního"
+      },
+      {
+        "level": "Splněno",
+        "point": "Charakterizuje jednotlivá období lidského života.",
+        "quote": "Charakterizuje jednotlivá období lidského života."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Cesta životem",
+        "url": ""
+      },
+      {
+        "title": "Od dětství k dospělosti",
+        "url": "https://uloziste.rvp.cz/material/136861"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, čím se liší dětství, dospívání a stáří, a zeptá se tě na ně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie shrnou, jak se člověk v jednotlivých obdobích mění."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pořadí období si prohlédneš v knize nebo na plakátu, aplikace za to nestojí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Časovou osu života si nakreslíš tužkou a papírem, nástroj nic nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/868fc91a-f988-48e2-81e5-33e1b3de0ac2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dospivani-reprodukcni-soustava-stavba",
+    "title": "Stavba a funkce reprodukční soustavy",
+    "aliases": [
+      "rozmnožování člověka",
+      "pohlavní orgány",
+      "reprodukční soustava",
+      "jak funguje tělo"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvádí základní poznatky o stavbě a funkci reprodukční soustavy",
+        "quote": "uvádí základní poznatky o stavbě a funkci reprodukční soustavy"
+      },
+      {
+        "level": "Na cestě",
+        "point": "využívá znalosti o stavbě a funkcí reprodukční soustavy k ochraně sexuálního a reprodukčního zdraví",
+        "quote": "využívá znalosti o stavbě a funkcí reprodukční soustavy k ochraně sexuálního a reprodukčního zdraví"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, k čemu jednotlivé části slouží, a procvičí tě v otázkách."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a zdravotnické weby ukážou schémata a správné názvy částí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Anatomická aplikace ukáže soustavu ze všech stran a umožní popisky procvičit."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírový atlas tělo ukáže, ale nic ti nevysvětlí ani neověří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/949ee0a9-d22b-4a56-bc7a-7ed35bf0b839"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dospivani-telesne-zmeny",
+    "title": "Tělesné změny v dospívání",
+    "aliases": [
+      "puberta",
+      "dospívání",
+      "růst a hormony",
+      "měnící se tělo"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše s užitím vhodné terminologie morfologické a fyziologické změny v období dospívání",
+        "quote": "popíše s užitím vhodné terminologie morfologické a fyziologické změny v období dospívání"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše změny morfologické a fyziologické v období dospívání, i změny v oblasti psychosociální, a uvede příklady, jak na ně vhodně reagovat.",
+        "quote": "Popíše změny morfologické a fyziologické v období dospívání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Změny v dospívání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co se při dospívání děje a jak se to správně jmenuje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotnické weby pro mladé popisují změny a ukazují, že rozdíly mezi lidmi jsou běžné."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace pro sledování cyklu nebo růstu popis změn neučí, stačí tě zaznamenat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Změny zažíváš ty, přístroj je za tebe správnými slovy nepopíše."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/949ee0a9-d22b-4a56-bc7a-7ed35bf0b839",
+      "http://data.europa.eu/esco/skill/868fc91a-f988-48e2-81e5-33e1b3de0ac2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dospivani-psychicke-zmeny-reakce",
+    "title": "Změny nálad a vztahů v dospívání",
+    "aliases": [
+      "výkyvy nálad",
+      "puberta psychika",
+      "odpoutávání od rodičů",
+      "sebeuvědomění"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvádí příklady, jak vhodně reagovat na změny v psychosociální oblasti v období dospívání (sebeuvědomění, sebeprosazování, abstraktní myšlení, výkyvy nálad, nabývání vlastních postojů a odpovědnosti, osobních životních hodnot, rozlišování vlastních silných a slabých stránek, zájem o sexualitu, genderová a sexuální identita, navazování vztahů ve skupině vrstevníků, odpoutávání od rodičů aj.)",
+        "quote": "uvádí příklady, jak vhodně reagovat na změny v psychosociální oblasti v období dospívání"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše změny morfologické a fyziologické v období dospívání, i změny v oblasti psychosociální, a uvede příklady, jak na ně vhodně reagovat.",
+        "quote": "změny v oblasti psychosociální, a uvede příklady, jak na ně vhodně reagovat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Změny v dospívání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč se nálady střídají, a nabídne příklady, jak s nimi naložit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby pro mladé a poradny popisují výkyvy nálad a radí, co s nimi dělat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace na deník nálad ti pomůže všimnout si, kdy se ti nálada mění."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Co se v tobě děje a jak zareaguješ, rozhoduješ ty, žádný nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/868fc91a-f988-48e2-81e5-33e1b3de0ac2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dospivani-pocati-a-plod",
+    "title": "Početí a vývoj před narozením",
+    "aliases": [
+      "jak vzniká dítě",
+      "těhotenství",
+      "embryo a plod",
+      "plánování rodičovství"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí princip početí a vývoj jedince před narozením",
+        "quote": "vysvětlí princip početí a vývoj jedince před narozením"
+      },
+      {
+        "level": "Na cestě",
+        "point": "posoudí vnější a vnitřní vlivy na vývoj embrya a plodu a vysvětlí, proč v graviditě dochází k fyziologickým i psychosociálním změnám",
+        "quote": "posoudí vnější a vnitřní vlivy na vývoj embrya a plodu a vysvětlí, proč v graviditě dochází k fyziologickým i psychosociálním změnám"
+      },
+      {
+        "level": "Splněno",
+        "point": "Používá poznatky o principu početí v souvislosti s plánováním rodičovství.",
+        "quote": "Používá poznatky o principu početí v souvislosti s plánováním rodičovství."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Příběh lásky",
+        "url": "https://uloziste.rvp.cz/material/38ea3f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí početí a vývoj plodu krok za krokem a odpoví na doplňující otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a zdravotnické weby ukazují vývoj plodu po týdnech a vlivy, které mu škodí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace o těhotenství zobrazí vývoj plodu po týdnech jako obrázky a popisy."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Atlas na papíře ukáže obrázky vývoje, ale nic ti k vlivům neověří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5b671d86-f1fa-4468-947c-374dc6cdf6b8",
+      "http://data.europa.eu/esco/skill/49ba1b34-ae1a-4a6d-8d66-8f1f029d361d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dospivani-respekt-souhlas-vztahy",
+    "title": "Respekt a souhlas ve vztazích",
+    "aliases": [
+      "souhlas",
+      "partnerské vztahy",
+      "zdravý vztah",
+      "genderová identita",
+      "přijetí vlastního těla"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozhoduje na modelových příkladech, které chování ve vztahu lze považovat za respektující a bezpečné",
+        "quote": "rozhoduje na modelových příkladech, které chování ve vztahu lze považovat za respektující a bezpečné"
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje otázky partnerských vztahů, genderové identity, odpovědného, respektujícího a konsenzuálního sexuálního a partnerského chování i problémy nevhodného i nekonsenzuálního chování souvisejícího se sexualitou, ohrožení domácím a sexuálním násilím",
+        "quote": "diskutuje otázky partnerských vztahů, genderové identity, odpovědného, respektujícího a konsenzuálního sexuálního a partnerského chování"
+      },
+      {
+        "level": "Na cestě",
+        "point": "v modelových situacích diskutuje o významu pozitivního přijetí vlastního těla a vlastní pohlavní identity, o respektujícím chování ve vztazích a destigmatizaci ne-heterosexuality",
+        "quote": "v modelových situacích diskutuje o významu pozitivního přijetí vlastního těla a vlastní pohlavní identity, o respektujícím chování ve vztazích a destigmatizaci ne-heterosexuality"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zdůvodní význam souhlasu a nenásilí v blízkých a sexuálních vztazích.",
+        "quote": "Zdůvodní význam souhlasu a nenásilí v blízkých a sexuálních vztazích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Příběh lásky",
+        "url": "https://uloziste.rvp.cz/material/38ea3f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot rozebere příklady vztahů, vysvětlí souhlas a poslouchá tvé argumenty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Poradenské weby pro mladé vysvětlují, co je souhlas a jak vypadá zdravý vztah."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe neřekne, kdy je ve vztahu něco v pořádku, a ani to nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Respekt ve vztahu ukážeš chováním ke druhým, ne pomocí nástroje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dospivani-nevhodne-chovani-reakce",
+    "title": "Nevhodné chování a násilí, jak reagovat",
+    "aliases": [
+      "obtěžování",
+      "sexuální násilí",
+      "nevhodné zprávy",
+      "rizikové chování online",
+      "odmítnout nátlak"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozpozná v modelových situacích způsoby chování, které už nelze tolerovat a navrhuje postupy vhodné reakce",
+        "quote": "rozpozná v modelových situacích způsoby chování, které už nelze tolerovat a navrhuje postupy vhodné reakce"
+      },
+      {
+        "level": "Na cestě",
+        "point": "analyzuje, které chování odpovídá sexuální normě a které ji překračuje (z hlediska věku, zdraví, práva, etiky, sociokulturního prostředí aj.)",
+        "quote": "analyzuje, které chování odpovídá sexuální normě a které ji překračuje"
+      },
+      {
+        "level": "Na cestě",
+        "point": "navrhuje postupy prevence výskytu rizikových projevů chování souvisejících se sexualitou ve fyzickém i digitálním světě",
+        "quote": "navrhuje postupy prevence výskytu rizikových projevů chování souvisejících se sexualitou ve fyzickém i digitálním světě"
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozezná genderově podmíněné násilí, nevhodné chování a nevhodnou komunikaci v souvislosti se sexuálním zneužíváním a sexuální kriminalitou.",
+        "quote": "Rozezná genderově podmíněné násilí, nevhodné chování a nevhodnou komunikaci v souvislosti se sexuálním zneužíváním a sexuální kriminalitou."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozliší, že někteří lidé se mohou chovat ve fyzickém i digitálním světě proti etickým i legislativním pravidlům a mohou ohrožovat bezpečí druhých, zdůvodní své právo takové chování odmítnout a oznámit tuto skutečnost odpovědné dospělé osobě.",
+        "quote": "Rozliší, že někteří lidé se mohou chovat ve fyzickém i digitálním světě proti etickým i legislativním pravidlům a mohou ohrožovat bezpečí druhých, zdůvodní své právo takové chování odmítnout"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot rozebere modelové situace a vysvětlí, co je hranice a co už nelze tolerovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Webové poradny a zákony popisují, co je nevhodné chování a co je trestné."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe hranici nepozná, ve skutečné situaci ji poznáš a odmítneš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ve skutečné situaci odmítáš ty svým hlasem, žádný nástroj to nezvládne za tebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/497ac2d8-6a9c-45d1-8149-e7aa2d9e2cff",
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dospivani-kam-se-obratit-pomoc",
+    "title": "Kam se obrátit, když ti někdo ubližuje",
+    "aliases": [
+      "linka bezpečí",
+      "odborná pomoc",
+      "komu říct",
+      "oznámit násilí"
+    ],
+    "outcome": "CZB-VZB-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozliší, že někteří lidé se mohou chovat ve fyzickém i digitálním světě proti etickým i legislativním pravidlům a mohou ohrožovat bezpečí druhých, zdůvodní své právo takové chování odmítnout a oznámit tuto skutečnost odpovědné dospělé osobě.",
+        "quote": "oznámit tuto skutečnost odpovědné dospělé osobě"
+      },
+      {
+        "level": "Splněno",
+        "point": "Obrátí se v případě rizika či přímého ohrožení na odbornou pomoc.",
+        "quote": "Obrátí se v případě rizika či přímého ohrožení na odbornou pomoc."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "V ohrožení potřebuješ živého člověka, chatbot ti nepomůže ani nezavolá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internet ti ukáže čísla a chaty linek pomoci a adresy poraden."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nepromluví s dospělým, kterému to máš oznámit."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dospělému to musíš říct ty, nástroj to za tebe neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/497ac2d8-6a9c-45d1-8149-e7aa2d9e2cff"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

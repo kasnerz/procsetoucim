@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kód E na obalu jen označuje konkrétní látku, kterou úřady pro dané použití schválily, třeba konzervant, díky kterému chléb tak rychle neplesniví, nebo barvivo, které dělá bonbony pestřejšími. Kdo ví, k čemu aditiva slouží, nepodlehne panice z každého éčka ani reklamě s nápisem „bez éček“ a umí se rozhodnout podle sebe. Aplikace ti kód rozluští za pár vteřin, jestli ti látka vadí, třeba kvůli alergii, ale posoudíš ty. Každý den s tím pracují lidé ve výrobě potravin, kteří rozhodují, co do výrobku přidat, a ti, kdo dohlížejí na bezpečnost jídla.",
+  "learnWithAi": [
+    {
+      "title": "Kvíz o skupinách aditiv",
+      "text": "Požádej chatbota, ať ti dá deset kódů E, a u každého urči, jestli jde o barvivo, konzervant, nebo jinou skupinu. Výsledky si ověř v oficiálním seznamu přídatných látek, chatbot si čísla kódů může splést."
+    },
+    {
+      "title": "Éčka z domácích obalů",
+      "text": "Posbírej doma kódy E z několika obalů a zkus odhadnout, k čemu v potravině jsou. Chatbot ti pak řekne, co jednotlivé látky dělají, a ty své odhady porovnáš."
+    },
+    {
+      "title": "Rozhovor s výrobcem uzenin",
+      "text": "Nech chatbota hrát výrobce, který obhajuje konzervant v uzeninách, a vyptávej se ho, proč tam je a co by se stalo bez něj. Na konci si napiš, které jeho argumenty tě přesvědčily a proč."
+    }
+  ]
+}

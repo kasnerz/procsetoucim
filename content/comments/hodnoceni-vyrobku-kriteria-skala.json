@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Říct o výrobku „je hezký“ nebo „je to špatně“ nikomu nepomůže, dokud nevíš, podle čeho to posuzuješ. Kritéria, třeba jestli krabička drží tvar, jestli jde víko otevřít a kolik zbylo odřezků, ti dají měřítko, které platí pro všechny výrobky ve třídě stejně. Přesně tak pracují lidé, kteří ve výrobě kontrolují kvalitu látek, desek nebo součástek: mají předem dané, co sledují a kdy kus neprojde. Chatbot ti navrhne seznam kritérií, ale vybrat ta, na kterých u tvého výrobku opravdu záleží, musíš ty, protože ho máš v ruce.",
+  "learnWithAi": [
+    {
+      "title": "Kritéria pro vlastní výrobek",
+      "text": "Popiš chatbotovi výrobek, který zrovna děláš, a požádej ho o deset možných kritérií hodnocení. Škrtni ta, která se k němu nehodí, a u zbylých napiš proč."
+    },
+    {
+      "title": "Bodová škála bez nejasností",
+      "text": "Sestav si bodovou škálu pro jedno kritérium, třeba pevnost spoje, a nech chatbota ukázat, kde se dá popis vyložit dvojím způsobem. Nejasná místa přepiš ty."
+    },
+    {
+      "title": "Náročný zákazník",
+      "text": "Nech chatbota zahrát zákazníka, který si tvůj výrobek kupuje a vyptává se, proč je dobrý. Ze svých odpovědí poskládej kritéria, na kterých mu záleží."
+    }
+  ]
+}

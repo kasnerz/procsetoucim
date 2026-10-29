@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Když si hustotu dřeva změříš vlastní váhou a odměrkou, uvidíš, jak snadno se do výsledku vloudí chyba a proč se měření opakuje. Takhle se ověřuje většina toho, co víme o látkách, a stejný způsob práce používají laboranti i lidé, kteří zkoumají pohyb lidského těla. V povoláních, kde se věci ověřují měřením, pracuje zhruba 3 % lidí, kteří v Česku pracují, a takových míst spíš přibude. Tabulkovou hodnotu najdeš na internetu za vteřinu, ale jen vlastní pokus tě naučí poznat, kdy naměřenému číslu věřit.",
+  "learnWithAi": [
+    {
+      "title": "Hustota kamínku",
+      "text": "Zeptej se chatbota, jak změřit hustotu kamínku jen s váhou a odměrkou. Postup si nech vysvětlit, výpočet ale udělej bez něj."
+    },
+    {
+      "title": "Rozdíly mezi měřeními",
+      "text": "Pošli chatbotovi tabulku svých naměřených hodnot a nech si vysvětlit, proč se jednotlivá měření liší. Hodnotu z tabulek si ověř v učebnici."
+    },
+    {
+      "title": "Hledání zkreslení výsledku",
+      "text": "Popiš chatbotovi postup svého pokusu a požádej ho, ať najde všechno, co mohlo výsledek zkreslit. Které výhrady jsou oprávněné, posuď podle toho, jak pokus opravdu proběhl."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "outcome": "JJK-AJA-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tema-anglicke-nahravky-poslechmedia",
+      "title": "Téma anglické nahrávky",
+      "aliases": [
+        "o čem je nahrávka",
+        "poslech v angličtině",
+        "klíčová slova při poslechu",
+        "téma videa",
+        "angličtina poslech"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Identifikuje téma informací v médiích se známým obsahem a vyhledá klíčové informace, pokud jsou jasně označeny nebo vizuálně podpořeny."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozpozná téma pomalého a jasně strukturovaného mluveného projevu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí slovíčka z nahrávky a vymyslí podobné krátké poslechy na zadané téma."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu najdeš pomalé nahrávky s obrázky a přepisem, na kterých téma poznáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s titulky ukazuje klíčová slova, když je v nahrávce nestihneš zachytit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Poslouchat musíš ty, žádný klasický nástroj ti téma nahrávky nepozná."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "hlavni-myslenky-podcastu-videoreportaze",
+      "title": "Hlavní myšlenky podcastu nebo reportáže v angličtině",
+      "aliases": [
+        "porozumění podcastu",
+        "videoreportáž anglicky",
+        "předpověď počasí anglicky",
+        "poslech s porozuměním",
+        "hlavní myšlenka"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozumí hlavním myšlenkám obsahu v médiích o známých tématech."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "S dopomocí rozumí hlavním myšlenkám obsahu v médiích o známých tématech."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, nejasná místa v nahrávce a zeptá se tě na hlavní myšlenky, které pak řekneš po svém."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Anglické zpravodajské a výukové weby nabízejí pomalé reportáže s přepisem na ověření."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Přehrávač s titulky a zpomalením umožní poslech opakovat, dokud tomu rozumíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozumět musíš ty, kniha nebo slovník ti nahrávku nepřeloží do hlavy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ],
+      "inspiration": [
+        "Zdravý životní styl"
+      ]
+    },
+    {
+      "slug": "prirazeni-obrazku-titulku-poslechmedia",
+      "title": "Přiřazení obrázku nebo titulku k poslechu",
+      "aliases": [
+        "přiřadit obrázek",
+        "poslechová úloha",
+        "spojování při poslechu",
+        "titulek k nahrávce",
+        "poslech angličtina cvičení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V poslechových úlohách přiřadí například obrázek nebo titulek."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí cvičné poslechové úlohy s možnostmi a vysvětlí, proč je jedna správná."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové poslechové cvičení s klíčem hned ukáže, jestli je tvoje volba správná."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Výuková aplikace pustí nahrávku víckrát a opraví tvoje přiřazení."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obrázky přiřazuješ podle sluchu ty, klasický nástroj ti k tomu nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ],
+      "inspiration": [
+        "Práce s krátkým článkem"
+      ]
+    },
+    {
+      "slug": "dukaz-porozumeni-poslechu-anglicky-ustne-pisemne",
+      "title": "Ukázání porozumění slyšenému",
+      "aliases": [
+        "odpovědi na poslech",
+        "shrnutí nahrávky",
+        "říct co jsem slyšel",
+        "poslech písemně",
+        "odpovědi k poslechu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Písemně nebo ústně prokáže porozumění mediálně zpracovaného textu z oblasti svého zájmu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Písemně nebo ústně prokáže porozumění."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Písemně nebo ústně prokáže porozumění."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Přečte tvoje shrnutí nahrávky a řekne, co ti ve shrnutí chybí nebo je špatně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Přepis nahrávky na webu ti ukáže, jestli tvoje odpovědi sedí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s poslechovými otázkami ti odpovědi opraví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Odpovídáš ty svými slovy, klasický nástroj za tebe nic neřekne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

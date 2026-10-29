@@ -1,0 +1,28 @@
+---
+// Inline hand-drawn icons at build time (src/lib/icons.ts: our sketch set, then Matita). No runtime requests.
+import { iconSvg, SYMBOL_ICONS } from "../lib/icons";
+
+// use: draw the icon by reference to its <symbol> in Base.astro (iconSymbols) instead of repeating its paths. For icons
+// repeated in every row of long lists (ToolMarks), which made up most of the HTML before (user 2026-10-29). The symbol
+// carries the viewBox; such an icon is always decorative (ToolMarks labels the whole group).
+interface Props { name: string; size?: number | string; label?: string; class?: string; style?: string; use?: boolean }
+const { name, size = "1.25em", label, class: cls, style, use = false } = Astro.props;
+if (use && !SYMBOL_ICONS.includes(name)) throw new Error(`Icon ${name} has no symbol; add it to SYMBOL_ICONS`);
+const { viewBox, body } = iconSvg(name);
+---
+{use ? <svg width={size} height={size} class:list={["icon", cls]} style={style} aria-hidden="true" set:html={`<use href="#i-${name}"/>`} /> : <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox={viewBox}
+  width={size}
+  height={size}
+  class:list={["icon", cls]}
+  style={style}
+  role={label ? "img" : undefined}
+  aria-label={label}
+  aria-hidden={label ? undefined : "true"}
+  focusable="false"
+  set:html={body}
+/>}
+<style>
+  .icon { flex: none; display: inline-block; vertical-align: -0.18em; }
+</style>

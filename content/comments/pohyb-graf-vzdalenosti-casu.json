@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Z tabulky čísel toho moc nevyčteš, z grafu na první pohled poznáš, kdy cyklista zastavil a kdy jel rychleji. Proto se učíš vybrat správný typ grafu a nakreslit ho, ručně i v tabulkovém editoru. Editor ti graf nakreslí z jakýchkoli čísel, jenže se špatně zvolenými osami vznikne úhledný obrázek, který nic neříká, a to poznáš jen ty. S takovými grafy pracují třeba lidé, kteří v dopravě plánují trasy a časy, většinou v povoláních, kde AI podle odhadů změní hodně úkolů. Nakreslit graf zvládne počítač, posoudit ho musí člověk.",
+  "learnWithAi": [
+    {
+      "title": "Výběr os a typu grafu",
+      "text": "Popiš chatbotovi nějaký pohyb, třeba jízdu výtahem, a zeptej se, co dát na osy a proč. Svůj návrh napiš dřív, než odpoví, a pak oba porovnej."
+    },
+    {
+      "title": "Dva cyklisti na jednom grafu",
+      "text": "Požádej chatbota o tabulku časů a vzdáleností dvou cyklistů, z nichž jeden vyjel později. Nakresli graf ručně, vyfoť ho a nech chatbota zkontrolovat osy a body."
+    },
+    {
+      "title": "Graf z vlastního měření",
+      "text": "Svoje naměřené hodnoty zapiš do tabulkového editoru a nech ho nakreslit graf. Pak se chatbota zeptej, jaké chyby se v takových grafech dělají, a svůj graf podle toho zkontroluj."
+    }
+  ]
+}

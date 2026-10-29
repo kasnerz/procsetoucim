@@ -1,0 +1,424 @@
+[
+  {
+    "slug": "zatezove-situace-a-jejich-projevy-osvdev",
+    "title": "Zátěžové situace a jejich projevy",
+    "aliases": [
+      "stres ve škole",
+      "co mě stresuje",
+      "druhy stresu",
+      "jak poznám stres",
+      "reakce na stres"
+    ],
+    "outcome": "CSP-OSV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "pojmenovává různé druhy zátěžových situací a stresu",
+        "quote": "pojmenovává různé druhy zátěžových situací a stresu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "zkouší rozpoznávat vlastní reakce na stres",
+        "quote": "zkouší rozpoznávat vlastní reakce na stres"
+      },
+      {
+        "level": "Na začátku",
+        "point": "vnímá vliv různých stresových podnětů na sebe (např. spojené se vzděláváním, vztahy ve škole a jiné)",
+        "quote": "vnímá vliv různých stresových podnětů na sebe"
+      },
+      {
+        "level": "Na cestě",
+        "point": "poznává působení náročných situací a mimořádných stavů na psychické, tělesné i vztahové úrovni",
+        "quote": "poznává působení náročných situací a mimořádných stavů na psychické, tělesné i vztahové úrovni"
+      },
+      {
+        "level": "Na cestě",
+        "point": "reflektuje stresové podněty, které na něj působí (např. spojené se vzděláváním, vztahy ve škole a jiné) a jaké emoce při nich prožívá",
+        "quote": "reflektuje stresové podněty, které na něj působí"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě vlastních zkušeností popíše běžné zátěžové situace ve školním i mimoškolním či digitálním prostředí a jejich projevy na psychické (emoce, myšlení), tělesné i vztahové úrovni.",
+        "quote": "Na základě vlastních zkušeností popíše běžné zátěžové situace"
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpoznává u sebe a u druhých stresové podněty (např. spojené se vzděláváním, vztahy ve škole).",
+        "quote": "Rozpoznává u sebe a u druhých stresové podněty"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Náročné situace",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se stres projevuje v těle, myšlenkách a vztazích, a ptá se na příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a výukové stránky popisují druhy stresu a jeho příznaky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Své reakce na stres vnímáš ty, aplikace je za tebe nepozná."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový deník ti pomůže zapsat, co tě stresuje a jak to poznáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d15f8745-28f8-4abf-a7b6-6cb8a304efd2",
+      "http://data.europa.eu/esco/skill/7d8ca06a-f737-4927-96f2-de4f2cd15895"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "mereni-urovne-stresu-osvdev",
+    "title": "Úroveň prožívaného stresu",
+    "aliases": [
+      "jak moc jsem ve stresu",
+      "stupnice stresu",
+      "měření stresu",
+      "deník nálad",
+      "sledování stresu"
+    ],
+    "outcome": "CSP-OSV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "poznává vnímání úrovně prožívaného stresu",
+        "quote": "poznává vnímání úrovně prožívaného stresu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vnímá a zkouší vyjádřit úrovně prožívaného stresu",
+        "quote": "vnímá a zkouší vyjádřit úrovně prožívaného stresu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Mapuje úrovně prožívaného stresu s možným využitím digitálních technologií.",
+        "quote": "Mapuje úrovně prožívaného stresu s možným využitím digitálních technologií"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Náročné situace",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kolik stresu prožíváš, víš jen ty, chatbot to z tvých slov nezměří."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam stupnice a ukázky, jak úroveň stresu popsat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na sledování nálady a stresu ukládají tvé záznamy a ukážou, kdy bývá stres vyšší."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Škála od 1 do 10 na papíře ti pomůže úroveň stresu pojmenovat a porovnat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d15f8745-28f8-4abf-a7b6-6cb8a304efd2",
+      "http://data.europa.eu/esco/skill/7d8ca06a-f737-4927-96f2-de4f2cd15895"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "seberegulacni-techniky-a-jejich-ucinek-osvdev",
+    "title": "Techniky zvládání stresu a jejich účinek",
+    "aliases": [
+      "jak se uklidnit",
+      "dechová cvičení",
+      "relaxace",
+      "odolnost",
+      "co pomáhá proti stresu"
+    ],
+    "outcome": "CSP-OSV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "v modelových situacích rozvíjí různorodé seberegulační techniky",
+        "quote": "v modelových situacích rozvíjí různorodé seberegulační techniky"
+      },
+      {
+        "level": "Na cestě",
+        "point": "v modelových situacích zkouší využívat různorodé seberegulační techniky pro zvládání stresu a posilování odolnosti a pojmenovávat jejich účinek",
+        "quote": "v modelových situacích zkouší využívat různorodé seberegulační techniky"
+      },
+      {
+        "level": "Splněno",
+        "point": "Aplikuje různorodé seberegulační techniky pro zvládání stresu a posilování odolnosti a vyhodnotí na sobě jejich účinek.",
+        "quote": "Aplikuje různorodé seberegulační techniky pro zvládání stresu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Nácvikové aktivity zvládání stresu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí a navrhne techniky uklidnění a pomůže ti promyslet, co z nich ti sedlo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a návody ukazují dechová a uvolňovací cvičení krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s vedeným dechem a relaxací tě cvičením provede a ukáže ti čas."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dýchat a uvolnit se musíš ty, pomůcka k tomu nestačí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b0f4dea9-2a99-449e-b042-9afada464cb1",
+      "http://data.europa.eu/esco/skill/fbdfc3bf-56a0-4454-a17d-2f513fe57b53"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vsimavost-ke-svemu-prozivani-osvdev",
+    "title": "Všímavost ke svému prožívání",
+    "aliases": [
+      "mindfulness",
+      "všímavost",
+      "jak si všimnout pocitů",
+      "pozornost k sobě",
+      "meditace"
+    ],
+    "outcome": "CSP-OSV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozvíjí všímavost ke svému prožívání",
+        "quote": "rozvíjí všímavost ke svému prožívání"
+      },
+      {
+        "level": "Na cestě",
+        "point": "v modelových situacích zkouší různé techniky zvýšení všímavosti k vlastnímu prožívání",
+        "quote": "v modelových situacích zkouší různé techniky zvýšení všímavosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reflektuje rozvoj všímavosti ke svému prožívání a dalších strategií přecházení stresu.",
+        "quote": "Reflektuje rozvoj všímavosti ke svému prožívání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozvíjím všímavost ke svému prožívání",
+        "url": "https://uloziste.rvp.cz/material/115cc1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Všímat si sebe můžeš jen ty, chatbot ti pozornost nenacvičí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a nahrávky ti ukážou, jak všímavost cvičit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s vedenou všímavostí tě cvičením provede a připomíná ti pravidelné cvičení."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zastavit se a všímat si dechu a těla musíš ty, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c634630b-210b-4da5-b0f3-894cc292d6e3",
+      "http://data.europa.eu/esco/skill/b0f4dea9-2a99-449e-b042-9afada464cb1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volba-strategie-podle-silnych-stranek-osvdev",
+    "title": "Volba postupu v náročné situaci",
+    "aliases": [
+      "jak řešit těžkou situaci",
+      "moje silné stránky",
+      "strategie řešení",
+      "předcházení problémům",
+      "zdůvodnit rozhodnutí"
+    ],
+    "outcome": "CSP-OSV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozvíjí strategie sebepodpory, psychohygieny, předcházení stresu",
+        "quote": "rozvíjí strategie sebepodpory, psychohygieny, předcházení stresu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "v modelové náročné situaci zkouší volit vhodné postupy",
+        "quote": "v modelové náročné situaci zkouší volit vhodné postupy"
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelových náročných situacích zvolí vhodné strategie jejich řešení s využitím svých silných stránek a své volby zdůvodní.",
+        "quote": "V modelových náročných situacích zvolí vhodné strategie jejich řešení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Moje strategie pro pohodu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti projít možné postupy v modelové situaci a ptá se, co by pro tebe fungovalo nejlíp."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam příklady řešení a seznamy silných stránek, ze kterých můžeš vyjít."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nezvolí, co se k tvé situaci a tvým silným stránkám hodí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír s tabulkou výhod a nevýhod ti pomůže možnosti porovnat a vybrat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8460be3-f4ba-44a0-a961-0389069a3614",
+      "http://data.europa.eu/esco/skill/49e1eb78-e6b1-4116-8e9f-f23316ee503e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odborna-pomoc-a-jak-si-o-ni-rict-osvdev",
+    "title": "Odborná pomoc a jak si o ni říct",
+    "aliases": [
+      "linka důvěry",
+      "školní psycholog",
+      "kam se obrátit",
+      "komu říct o pomoc",
+      "poradna"
+    ],
+    "outcome": "CSP-OSV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje různé způsoby pomoci, například ve svém blízkém okolí (přátelé, rodina, učitel, apod.) i různorodé odborné pomoci",
+        "quote": "diskutuje různé způsoby pomoci, například ve svém blízkém okolí"
+      },
+      {
+        "level": "Na cestě",
+        "point": "seznamuje se s dostupnou odbornou pomocí a způsobem, jak se na odborníka obrátit (poradenské pracoviště školy, linky pomoci a jiná centra pomoci, psychologické, psychiatrické, psychoterapeutické, apod.)",
+        "quote": "seznamuje se s dostupnou odbornou pomocí"
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelové situaci uplatní postupy, jak si říct o pomoc při běžných i obtížných životních situacích, se zahrnutím více možností a rozlišením pomoci dostupné v nejbližším okolí a různých typů odborné pomoci.",
+        "quote": "V modelové situaci uplatní postupy, jak si říct o pomoc"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Náročné situace",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi psychologem a psychiatrem a pomůže ti připravit, co říct."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam kontakty na linky pomoci, poradny a krizová centra."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ukáže, kde je nejbližší poradna nebo centrum pomoci."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Říct si o pomoc musíš ty, lidem v okolí, tužka s tím nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/90ccd1bc-af3f-4c04-b2dd-bef2ba62905d",
+      "http://data.europa.eu/esco/skill/50b631f8-1ed7-46f5-9b47-96169d06c726"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

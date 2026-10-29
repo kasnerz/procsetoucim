@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "dejiny-kvalitni-historicky-text",
+    "title": "Kvalitní historický text a jeho důkazy",
+    "aliases": [
+      "důkazy v textu",
+      "zdroje v textu",
+      "dobrý historický text",
+      "primární a sekundární zdroj",
+      "populárně naučný text"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhledá v textech příklady kritérii, podle kterých pozná kvalitní historický text – odkazování na primární i sekundární zdroje a argumentace podpořená důkazy.",
+        "quote": "Vyhledá v textech příklady kritérii"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Pracuje s populárně naučnými texty; hledá v nich důkazy pro a proti určitému tvrzení.",
+        "quote": "Pracuje s populárně naučnými texty; hledá v nich důkazy pro a proti určitému tvrzení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co psaly školní učebnice o husitech?",
+        "url": "https://uloziste.rvp.cz/material/24a028"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je zdroj a důkaz, a ukáže to na krátkém textu, který ti vymyslí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vybraný text si otevřeš a ve zdrojích najdeš, kam odkazuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tu nemá žádnou stejnou úlohu, důkazy v textu hledáš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zvýrazňovač a tužka pomůžou označit tvrzení a jeho důkaz."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b",
+      "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dejiny-zdroj-a-vlastni-vyklad-autora",
+    "title": "Informace ze zdroje a výklad autora",
+    "aliases": [
+      "fakt a názor",
+      "co je ve zdroji",
+      "interpretace autora",
+      "domněnka v textu"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Odliší v textu informace ze zdroje od vlastní interpretace autora.",
+        "quote": "Odliší v textu informace ze zdroje od vlastní interpretace autora."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti krátký text a po tvém rozlišení řekne, kde se mýlíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Původní zdroj najdeš a porovnáš ho s tím, co z něj autor udělal."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe rozdíl mezi zdrojem a výkladem nepozná."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužkou podtrhneš, co je ze zdroje a co si autor domyslel."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+      "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dejiny-zobrazeni-minulosti-ve-filmu-a-knihach",
+    "title": "Minulost ve filmu, knize, komiksu a na sítích",
+    "aliases": [
+      "historický film",
+      "historický román",
+      "komiks o historii",
+      "historie na sociálních sítích",
+      "jak se ukazuje minulost"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše na příkladech zobrazování minulosti a dějinných událostí ve filmu, v literatuře a v nových médiích včetně umělé inteligence.",
+        "quote": "Popíše na příkladech zobrazování minulosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše s využitím příkladů, čím jsou jednotlivé mediální žánry při zacházení s minulostí specifické a jak ovlivňují vnímání publika.",
+        "quote": "Popíše s využitím příkladů, čím jsou jednotlivé mediální žánry"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prohlubuje své seznámení se s různými mediálními žánry a samostatně popíše jejich základní rozdíly v zobrazení minulosti a vliv na publikum (role emocí, barev, ironie, domýšlení dobových reálií apod.).",
+        "quote": "Prohlubuje své seznámení se s různými mediálními žánry"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Postupně se seznámí s dalšími mediálními žánry, které historii různou formou zprostředkovávají - historickým dokumentem, filmem, literaturou, komiksem nebo příspěvkem na sociálních sítích či blogu.",
+        "quote": "Postupně se seznámí s dalšími mediálními žánry"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše s pomocí vyučujícího základní rozdíl ve zobrazení minulosti populárně naučným textem a vybraným mediálním žánrem.",
+        "quote": "Popíše s pomocí vyučujícího základní rozdíl"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak film zobrazuje historické události",
+        "url": "https://uloziste.rvp.cz/material/3d7c1f"
+      },
+      {
+        "title": "Je Asterix věrohodný Kelt?",
+        "url": "https://uloziste.rvp.cz/material/219659"
+      },
+      {
+        "title": "Holokaust Romů ve filmu",
+        "url": "https://uloziste.rvp.cz/material/f9ed65"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Porovná, jak o jedné události vypráví film a kniha, a vysvětlí vliv emocí a barev."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam ukázky, recenze a rozbory historických filmů a komiksů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s hudbou nebo kresbou ti nevysvětlí, jak žánr mění pohled na minulost."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj nerozliší film od skutečné historie, to děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+      "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dejiny-porovnani-dvou-zobrazeni-udalosti",
+    "title": "Porovnání dvou zobrazení jedné události",
+    "aliases": [
+      "dvě verze události",
+      "rozdíly ve vyprávění",
+      "porovnat dva texty",
+      "první světová válka v obrazech"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Porovná dvě odlišná zobrazení určité události a popíše hlavní rozdíly.",
+        "quote": "Porovná dvě odlišná zobrazení určité události"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak zobrazujeme první světovou válku?",
+        "url": "https://uloziste.rvp.cz/material/aa7fea"
+      },
+      {
+        "title": "Co psaly školní učebnice o husitech?",
+        "url": "https://uloziste.rvp.cz/material/24a028"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "K tvému zápisu ukáže, co v něm chybí, a ptá se, čím se verze liší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Dvě zobrazení téže události si najdeš a postavíš vedle sebe."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe obě zobrazení nesrovná, rozdíly hledáš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír s dvěma sloupci pomůže rozdíly zapsat vedle sebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+      "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dejiny-overeni-historickeho-hoaxu",
+    "title": "Ověřování historického hoaxu",
+    "aliases": [
+      "dezinformace o historii",
+      "falešná zpráva",
+      "hoax",
+      "ověřit tvrzení",
+      "historický mýtus"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladu vyučujícím vybraného hoaxu nebo dezinformace s historickou tematikou vyhledá kvalitní informace a na jejich základě ověřuje historická tvrzení.",
+        "quote": "Na příkladu vyučujícím vybraného hoaxu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se dezinformace pozná, ale tvrzení musíš ověřit ve zdrojích ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a archivy ukážou, co o události opravdu víme."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Vyhledávání obrázků ukáže, odkud snímek pochází a kde se objevil dřív."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tištěná encyklopedie nebo učebnice dá ověřený údaj k porovnání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dejiny-historie-s-umelou-inteligenci",
+    "title": "Historie a odpovědi umělé inteligence",
+    "aliases": [
+      "ptát se chatbota na historii",
+      "chyby v odpovědích AI",
+      "fabulace",
+      "ověřit odpověď AI",
+      "AI a dějiny"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využije umělou inteligenci při zkoumání minulosti.",
+        "quote": "Využije umělou inteligenci při zkoumání minulosti."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Za přítomnosti vyučujícího pokládá dotazy umělé inteligenci, které se týkají historických událostí.",
+        "quote": "Za přítomnosti vyučujícího pokládá dotazy umělé inteligenci"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Sleduje, jak vyučující odhaluje fabulaci nebo nepřesnosti v odpovědích umělé inteligence.",
+        "quote": "Sleduje, jak vyučující odhaluje fabulaci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Odpoví na dotaz o minulosti, ale odpověď si musíš ověřit, protože si občas vymýšlí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Odpověď chatbota porovnáš s encyklopedií a najdeš, co v ní nesedí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s hlasem neprověří, jestli je odpověď pravdivá, to ověřuješ ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Učebnice a atlas dají ověřený údaj, se kterým odpověď srovnáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dejiny-obrazy-a-texty-od-umele-inteligence",
+    "title": "Obrázky a texty o minulosti od umělé inteligence",
+    "aliases": [
+      "obrázek vytvořený AI",
+      "AI obrázek historie",
+      "umělý text o minulosti",
+      "porovnat s originálem"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Porovnává původní zobrazení minulosti s texty a obrazy, které vygenerovala umělá inteligence.",
+        "quote": "Porovnává původní zobrazení minulosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vytvoří text nebo popis obrázku, který pak porovnáš s dobovým zdrojem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Dobové fotografie a prameny najdeš online a srovnáš je s výtvorem AI."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Generátor obrázků vytvoří scénu, ve které hledáš chyby proti dobovým snímkům."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nic nesrovná, rozdíly od originálu hledáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+      "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "outcome": "CJS-CJS-001-ZV5-007",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Po návštěvě na obecním úřadu vyjmenuje alespoň dvě záležitosti, které může občan na tomto úřadu řešit.",
+      "cards": [
+        "co-se-vyrizuje-na-obecnim-urade"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Identifikuje místa, kde obecní úřad zveřejňuje informace (vývěsky, internetové stránky, sociální sítě, místní zpravodaj).",
+      "cards": [
+        "kde-urad-zverejnuje-informace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhledá informace týkající se řešení záležitostí občanů souvisejících s činností obecního úřadu (např. Kde obecní úřad sídlí? Kdy jsou úřední hodiny? Kde zařídit občanský průkaz nebo cestovní pas? Kde zaplatit poplatek za psa nebo odpady? Kde řešit uzavření manželství?).",
+      "cards": [
+        "co-se-vyrizuje-na-obecnim-urade",
+        "kontakt-a-uredni-hodiny-uradu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhne podnět na zlepšení života v obci a představí ho představiteli obce.",
+      "cards": [
+        "napad-na-zlepseni-obce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše práci starosty obecního úřadu.",
+      "cards": [
+        "prace-starosty"
+      ],
+      "aside": null
+    }
+  ]
+}

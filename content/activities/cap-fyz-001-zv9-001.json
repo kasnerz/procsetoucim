@@ -1,0 +1,525 @@
+[
+  {
+    "slug": "latky-a-skupenstvi",
+    "title": "Třídění látek podle skupenství",
+    "aliases": [
+      "pevné kapalné plynné",
+      "skupenství látek",
+      "příklady látek",
+      "látky kolem nás"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Roztřídí vybrané látky ze svého okolí podle skupenství, pojmenuje typické vlastnosti jednotlivých skupenství látek.",
+        "quote": "Roztřídí vybrané látky ze svého okolí podle skupenství"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Uvede příklady látek v různých skupenstvích.",
+        "quote": "Uvede příklady látek v různých skupenstvích."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Roztřídí látky podle skupenství za běžné teploty.",
+        "quote": "Roztřídí látky podle skupenství za běžné teploty."
+      },
+      {
+        "level": "Splněno",
+        "point": "Identifikuje tři skupenství vody, jmenuje několik dalších látek, které zná alespoň ve dvou skupenstvích; uvede, při jaké teplotě dochází k tání a varu vody.",
+        "quote": "jmenuje několik dalších látek, které zná alespoň ve dvou skupenstvích"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Třídění látek podle skupenství",
+        "url": "https://uloziste.rvp.cz/material/ab31bc"
+      },
+      {
+        "title": "Skupenství",
+        "url": "https://uloziste.rvp.cz/material/3b3d9a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vyzkouší tě na příkladech látek a vysvětlí, co se ti nezdá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie ověří, v jakém skupenství látka je."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe látky netřídí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Třídíš očima a hlavou, nástroj tu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastnosti-skupenstvi",
+    "title": "Vlastnosti pevných látek, kapalin a plynů",
+    "aliases": [
+      "vlastnosti skupenství",
+      "srovnání skupenství",
+      "tvar a objem",
+      "kapaliny a plyny"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Roztřídí vybrané látky ze svého okolí podle skupenství, pojmenuje typické vlastnosti jednotlivých skupenství látek.",
+        "quote": "pojmenuje typické vlastnosti jednotlivých skupenství látek"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Jmenuje některé vlastnosti jednotlivých skupenství.",
+        "quote": "Jmenuje některé vlastnosti jednotlivých skupenství."
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovná vlastnosti jednotlivých skupenství – jmenuje, které jsou společné pro kapaliny a plyny, které jsou společné pro pevné látky a kapaliny, které platí pouze pro jednotlivá skupenství.",
+        "quote": "Porovná vlastnosti jednotlivých skupenství"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Skupenství",
+        "url": "https://uloziste.rvp.cz/material/3b3d9a"
+      },
+      {
+        "title": "Přelévání plynu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Porovná skupenství s tebou a vymyslí příklady, které si můžeš ověřit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Učebnice a encyklopedie vlastnosti shrnou, ověříš si je."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe skupenství neporovná."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stříkačka a nádoba s vodou a vzduchem ukážou, co se dá stlačit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "skupenstvi-vody",
+    "title": "Skupenství vody v přírodě",
+    "aliases": [
+      "led voda pára",
+      "oběh vody",
+      "voda v přírodě",
+      "tři skupenství vody"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Identifikuje tři skupenství vody, jmenuje několik dalších látek, které zná alespoň ve dvou skupenstvích; uvede, při jaké teplotě dochází k tání a varu vody.",
+        "quote": "Identifikuje tři skupenství vody"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Uvede příklady, kdy a kde se voda v přírodě vyskytuje v pevném, kapalném a plynném skupenství.",
+        "quote": "Uvede příklady, kdy a kde se voda v přírodě vyskytuje v pevném, kapalném a plynném skupenství."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše skupenství vody při oběhu vody na Zemi.",
+        "quote": "Popíše skupenství vody při oběhu vody na Zemi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Voda z různých pohledů",
+        "url": "https://uloziste.rvp.cz/material/88d3e2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí oběh vody a vyzkouší tě z příkladů skupenství."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a meteorologické stránky ukazují oběh vody s obrázky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Počasí vidíš venku, aplikace to za tebe nepopíše."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr venku ukáže, kdy led taje a voda mrzne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tani-a-var-vody",
+    "title": "Teplota tání a varu vody",
+    "aliases": [
+      "kdy voda vře",
+      "kdy voda taje",
+      "0 a 100 stupňů",
+      "bod varu"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Identifikuje tři skupenství vody, jmenuje několik dalších látek, které zná alespoň ve dvou skupenstvích; uvede, při jaké teplotě dochází k tání a varu vody.",
+        "quote": "uvede, při jaké teplotě dochází k tání a varu vody"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč voda taje a vře při těchto teplotách, a zkontroluje tvé odhady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky teplot tání a varu ověří, co víš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměrem změříš, kdy led taje a voda vře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pokus-zmena-skupenstvi",
+    "title": "Pokus se změnou skupenství",
+    "aliases": [
+      "tání ledu",
+      "vaření vody",
+      "tuhnutí",
+      "pokus s vodou"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Navrhne, předvede a popíše pokus změny skupenství.",
+        "quote": "Navrhne, předvede a popíše pokus změny skupenství."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Skupenství",
+        "url": "https://uloziste.rvp.cz/material/3b3d9a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže navrhnout pokus a vysvětlí, co čekat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš návody na jednoduché pokusy."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace pokus neprovede."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr a kahan nebo vařič jsou přímo k pokusu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pokus-overeni-vlastnosti",
+    "title": "Pokus na ověření vlastnosti látky",
+    "aliases": [
+      "ověření vlastností",
+      "pokus s látkou",
+      "zkoušení vlastností",
+      "badatelský pokus"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Ověří experimentálně vybrané vlastnosti látek.",
+        "quote": "Ověří experimentálně vybrané vlastnosti látek."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí s postupem a pomůže ti vyhodnotit naměřené hodnoty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tabulkové hodnoty, se kterými svůj výsledek porovnáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka ti zpracuje naměřené hodnoty do přehledu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Váha, pravítko, teploměr a odměrka ti pokus umožní."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+      "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "otazky-a-navrh-pokusu",
+    "title": "Otázka a návrh pokusu",
+    "aliases": [
+      "vymyslet pokus",
+      "vědecká otázka",
+      "jak to zjistit",
+      "navrhnout experiment"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Navrhne experiment k ověření určené vlastnosti látek nebo skupenství.",
+        "quote": "Navrhne experiment k ověření určené vlastnosti látek nebo skupenství."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyslovuje otázky týkající se dalších vlastností látek, navrhne vhodný experiment, který pomůže na položené otázky odpovědět.",
+        "quote": "Vyslovuje otázky týkající se dalších vlastností látek, navrhne vhodný experiment"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Skupenství",
+        "url": "https://uloziste.rvp.cz/material/3b3d9a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou návrh pokusu a najde v něm slabá místa."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové pokusy ti dají nápady, otázku si klade ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace pokus nevymyslí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj otázku nevymyslí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+      "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-materialu-pro-predmety",
+    "title": "Výběr materiálu pro předměty",
+    "aliases": [
+      "z čeho se to dělá",
+      "materiál předmětu",
+      "sklo dřevo kov",
+      "vlastnosti materiálů"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zdůvodní výběr materiálu pro výrobu konkrétních předmětů.",
+        "quote": "Zdůvodní výběr materiálu pro výrobu konkrétních předmětů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou vlastnosti materiálů a zeptá se na tvé zdůvodnění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vlastnosti materiálů k porovnání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace materiál nezdůvodní."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Předmět vezmeš do ruky, ohneš ho a vyzkoušíš, co vydrží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "trideni-odpadu-podle-materialu",
+    "title": "Třídění odpadu podle materiálu",
+    "aliases": [
+      "tříděný odpad",
+      "popelnice",
+      "plast papír sklo",
+      "recyklace"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Roztřídí předměty dle materiálů do kontejnerů na tříděný odpad.",
+        "quote": "Roztřídí předměty dle materiálů do kontejnerů na tříděný odpad."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Pravidla se liší podle obce, chatbot může poradit špatně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky obce ukazují, co do kterého kontejneru patří."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace o třídění odpadu u nejasného předmětu ukáže kontejner."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odpad třídíš rukama ty, nástroj ho nevytřídí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/110d7aa3-e44e-4cce-a927-8d4de615f3d9",
+      "http://data.europa.eu/esco/skill/40f65a56-ccbe-4601-9f32-1cc6cdd24f28"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

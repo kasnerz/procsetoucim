@@ -1,0 +1,454 @@
+[
+  {
+    "slug": "umeni-a-tradice-v-okoli-kulturni-priklady",
+    "title": "Hudba, divadlo a tance v okolí",
+    "aliases": [
+      "kulturní tradice v okolí",
+      "divadlo ve městě",
+      "příklady folklóru",
+      "hudba a tanec v mém okolí"
+    ],
+    "outcome": "UAK-HTD-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uvede příklad hudebních, divadelních nebo tanečních projevů a nejvýznamnějších kulturních tradic ve svém okolí.",
+        "quote": "Uvede příklad hudebních"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Náš folklór",
+        "url": "https://uloziste.rvp.cz/material/2cddae"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne druhy hudby, tanců a divadla, které bývají v obcích, a ty pak ověříš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Web obce nebo regionu ukáže koncerty, soubory a tradice, které se u vás konají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa najde divadlo, sál nebo kulturní dům ve tvém okolí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírová mapa ani pravítko ti neukážou, co se u vás hraje a tančí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24554d47-70d2-4153-bb27-84e338e76792",
+      "http://data.europa.eu/esco/skill/56e30a60-0a87-4631-85ea-c69bc8bd0519"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "mistni-umelecka-tradice-hledani-ve-zdrojich",
+    "title": "Vyhledání umělecké tradice svého místa",
+    "aliases": [
+      "místní tradice",
+      "folklór v mém regionu",
+      "hledání informací o tradici",
+      "tradice v mém městě"
+    ],
+    "outcome": "UAK-HTD-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Ze zdrojů vyhledá uměleckou tvorbu (tradici), která je spjatá s lokalitou, ve které žije.",
+        "quote": "Ze zdrojů vyhledá"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Naše kulturní památka",
+        "url": "https://uloziste.rvp.cz/material/46bba5"
+      },
+      {
+        "title": "Náš folklór",
+        "url": "https://uloziste.rvp.cz/material/2cddae"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, kde a jak hledat, ale místní fakta musíš ověřit jinde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Muzeum, obec nebo regionální web popíše tradici a ukáže fotky a nahrávky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa a vyhledávač v telefonu najdou místa spojená s tradicí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ani pravítko ti informace o místní tradici nenajdou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/56e30a60-0a87-4631-85ea-c69bc8bd0519",
+      "http://data.europa.eu/esco/skill/24554d47-70d2-4153-bb27-84e338e76792"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kulturni-instituce-v-okoli-a-jejich-programy",
+    "title": "Kulturní instituce a jejich programy",
+    "aliases": [
+      "divadlo",
+      "muzeum a galerie",
+      "kulturní dům",
+      "co se hraje v divadle",
+      "koncertní síň"
+    ],
+    "outcome": "UAK-HTD-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady kulturních institucí v blízkém okolí, regionu a uvede příklady aktivit, zážitků, s nimiž se v těchto institucích může setkat.",
+        "quote": "Uvede příklady kulturních institucí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kulturní instituce a jejich programy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je filharmonie nebo kulturní dům, a poradí, co se v nich dá zažít."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Webové stránky divadla nebo domu kultury ukážou program a ceny vstupenek."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ukáže, kde instituce najdeš a jak se tam dostaneš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírový plánek města ukáže budovy, ale ne to, co se v nich děje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24554d47-70d2-4153-bb27-84e338e76792",
+      "http://data.europa.eu/esco/skill/f3b841c9-17d1-4cc3-9e6b-36c17b0d15d3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozhovor-o-kulturni-akci-a-prinos-umeni",
+    "title": "Rozhovor o navštívené kulturní akci",
+    "aliases": [
+      "povídání o představení",
+      "výlet do divadla",
+      "co mi dala kulturní akce",
+      "beseda o návštěvě"
+    ],
+    "outcome": "UAK-HTD-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zapojuje se do rozhovoru o kulturní akci, která ve škole proběhla, o kulturní instituci, kterou společně se třídou navštívili.",
+        "quote": "Zapojuje se do rozhovoru"
+      },
+      {
+        "level": "Splněno",
+        "point": "V diskusi pojmenovává přínos různých kulturních projevů v lokalitě, ve které žije.",
+        "quote": "V diskusi pojmenovává"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kulturní instituce a jejich programy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Co jste ve třídě viděli a co tě zaujalo, ví jen ty a spolužáci."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Web divadla ti program ukáže, ale rozhovor s třídou za tebe nevede."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe nevyjádří, co tě na akci zaujalo."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj nenahradí rozhovor s lidmi, kteří tam byli s tebou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24554d47-70d2-4153-bb27-84e338e76792",
+      "http://data.europa.eu/esco/skill/f3b841c9-17d1-4cc3-9e6b-36c17b0d15d3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "umeni-jine-kultury-popis-projevu",
+    "title": "Umění a zvyky jiných kultur",
+    "aliases": [
+      "umění jiných národů",
+      "menšinové kultury",
+      "tance a hudba jiných zemí",
+      "cizí kultura"
+    ],
+    "outcome": "UAK-HTD-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše některé podoby uměleckých a kulturních projevů spjatých s jinou kulturou.",
+        "quote": "Popíše některé podoby"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak vypadá tanec nebo hudba jiné kultury, a ty si to ověříš ve zdroji."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a videa ukážou hudbu, tance a oděvy jiných kultur."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Přehrávač videa a hudby pustí ukázky, které pak popíšeš vlastními slovy."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Bubínek ani papír ti neukážou, jak se hraje a tančí jinde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/56e30a60-0a87-4631-85ea-c69bc8bd0519",
+      "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-kulturnich-projevu-svatky-a-zvyky",
+    "title": "Porovnání svátků a zvyků spolužáků",
+    "aliases": [
+      "rozdíly ve svátcích",
+      "jak slavíme svátky",
+      "společné a rozdílné zvyky",
+      "projekt o kulturách"
+    ],
+    "outcome": "UAK-HTD-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Nachází v kulturních zvyklostech a tradicích spolužáků společné znaky i rozdíly (např. různé svátky a způsob jejich slavení).",
+        "quote": "Nachází v kulturních zvyklostech"
+      },
+      {
+        "level": "Splněno",
+        "point": "Spolupracuje například na projektu, který se zaměřuje na porovnání uměleckých projevů rozdílných kultur.",
+        "quote": "Spolupracuje například na projektu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Příběh mé vánoční ozdoby",
+        "url": "https://uloziste.rvp.cz/material/4277ee"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti sestavit tabulku otázek pro spolužáky, odpovědi ale zjistíš od nich."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie popíše, jak se svátky slaví v různých zemích a komunitách."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezná zvyky tvých spolužáků, ty musíš zjistit na místě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka jen zapíšou, co ti spolužáci řeknou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/56e30a60-0a87-4631-85ea-c69bc8bd0519",
+      "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "svatky-a-zvyky-rodiny-a-mista-vlastni",
+    "title": "Svátky a zvyky z rodiny a okolí",
+    "aliases": [
+      "vánoční zvyky",
+      "velikonoční tradice",
+      "rodinné tradice",
+      "jak slavíme doma"
+    ],
+    "outcome": "UAK-HTD-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "K tradičním svátkům přiřadí některé zvyky z vlastní rodiny a místa, ve kterém žije.",
+        "quote": "K tradičním svátkům přiřadí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Příběh mé vánoční ozdoby",
+        "url": "https://uloziste.rvp.cz/material/4277ee"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, odkud se zvyk vzal, ale co se dělá u vás doma, víš jen ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Web o tradicích popíše, jak se svátky slavily v tvém kraji."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace neví, co děláte doma o Vánocích nebo Velikonocích."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj ti nepoví, co se dělá u vás doma, zeptat se musíš rodiny."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/56e30a60-0a87-4631-85ea-c69bc8bd0519"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "udrzovani-regionalnich-tradic-ucast-obec",
+    "title": "Udržování regionálních tradic",
+    "aliases": [
+      "pomáhat s tradicemi",
+      "pálení čarodějnic",
+      "masopust",
+      "jarmark",
+      "pomoc při slavnosti"
+    ],
+    "outcome": "UAK-HTD-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Spolupodílí se na udržování regionálních tradic.",
+        "quote": "Spolupodílí se"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Náš folklór",
+        "url": "https://uloziste.rvp.cz/material/2cddae"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Tradici za tebe neudržíš ani popisem, zapojit se musíš ty s ostatními."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Web obce ukáže, kdy se slavnost koná a kdo ji pořádá."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace neupeče koláče ani nenacvičí průvod, to děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kostým ani nástroj nezapojí, účast je na tobě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f3b841c9-17d1-4cc3-9e6b-36c17b0d15d3",
+      "http://data.europa.eu/esco/skill/3a519990-ae6c-4c8b-a827-2bf96d949940"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "9ebaf3f0-0be0-47b7-b2b1-b3b04130fa81": "Hra je v jádru posloupnost příkazů, které se musí řadit ve správném pořadí. Kdo hry programuje, dělá to denně, jen místo bloků píše kód.",
+  "6e5ceba0-df96-465f-adb4-2e06ae715d43": "Stroj provádí kroky přesně v tom pořadí, v jakém jsou v programu. Při simulaci a zkušebním provozu se ukáže, jestli pořadí vychází.",
+  "d68ff35f-e34d-4e32-88ab-d6c06a6c25b9": "Při návrhu hry se popisuje, co se v jakém pořadí děje, a píší se specifikace. Programovat všechno tu není nutné, ale logiku kroků je potřeba umět rozložit.",
+  "d5a43cd3-230e-46d0-ba05-d67d61e5cfbb": "Animace nebo interaktivní prvek se skládají z kroků, které na sebe navazují. Skládat program z bloků tu někdy pomůže, hlavní práce je ale grafika a zvuk.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Při tvorbě kurzu se plánuje pořadí kroků, kterými se někdo něco naučí. S programem to má společnou jen myšlenku posloupnosti, programovat se tu většinou nemusí."
+ }
+}

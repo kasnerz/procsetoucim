@@ -1,0 +1,11 @@
+---
+// Centered section heading: pencil icon, title with a pen stroke underneath, optional lead line.
+import Icon from "./Icon.astro";
+interface Props { id: string; icon?: string; level?: 2 | 3 }
+const { id, icon, level = 2 } = Astro.props;
+const Tag = level === 2 ? "h2" : "h3";
+---
+<div class="section-head">
+  <Tag id={id} class="head-title">{icon && <Icon name={icon} size="30" />}<span><slot /></span></Tag>
+  {Astro.slots.has("lead") && <p class="soft"><slot name="lead" /></p>}
+</div>

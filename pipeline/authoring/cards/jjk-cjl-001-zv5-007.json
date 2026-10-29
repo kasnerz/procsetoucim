@@ -1,0 +1,82 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "cizojazycne-pozdravy-barvy-cisla",
+      "title": "Opakování slov v cizích jazycích",
+      "aliases": ["pozdravy v cizích jazycích", "barvy a čísla v jiném jazyce", "jak se řekne v cizině", "zvířata v cizích jazycích", "výslovnost cizích slov"],
+      "sources": [{"level": "Na začátku", "quote": "Napodobuje to, co je řečeno v jiných jazycích (např. pozdravy, pojmenování zvířat, barvy, čísla)."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Chatbot ti slovo napíše, ale výslovnost nacvičíš jen vlastními ústy."},
+        "internet": {"verdict": "pomuze", "why": "Nahrávky rodilých mluvčích ti ukážou, jak pozdrav doopravdy zní."},
+        "aplikace": {"verdict": "pomuze", "why": "Slovníčková aplikace slova přehraje a nechá tě je opakovat."},
+        "klasicky": {"verdict": "nepomuze", "why": "Papírový obrázkový slovník zvuk nepřehraje, výslovnost z něj nepoznáš."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/8e16511d-3540-47e1-8620-8f111b7ae280"],
+      "inspiration": ["Dny v týdnu na mapě Evropy", "Miluji tě", "Dobrou chuť!"]
+    },
+    {
+      "slug": "podobnost-jazyku-s-cestinou-rozmanitost",
+      "title": "Podobnost jazyků s češtinou",
+      "aliases": ["příbuzné jazyky", "slovanské jazyky", "polština a čeština", "chorvatština", "kolik je jazyků"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Pozoruje podobnost některých jazyků s češtinou"},
+        {"level": "Na cestě", "quote": "Získává poznatky o rozmanitosti jazyků."},
+        {"level": "Splněno", "quote": "Uvede příklad podobnosti některých jazyků s češtinou."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot vysvětlí, které jazyky jsou češtině příbuzné, a dá ti věty k porovnání."},
+        "internet": {"verdict": "pomuze", "why": "Wikipedie a mapy jazyků ukážou, kde se mluví jazyky podobnými češtině."},
+        "aplikace": {"verdict": "pomuze", "why": "Překladač ti větu ukáže ve více jazycích vedle sebe, podobnost si všimneš ty."},
+        "klasicky": {"verdict": "nepomuze", "why": "Podobnost jazyků nezměříš žádným nástrojem, všímáš si jí uchem a okem."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2"],
+      "inspiration": ["Zkoumáme podobnost jazyků s překladačem"]
+    },
+    {
+      "slug": "falesni-pratele-podobna-slova-jiny-vyznam",
+      "title": "Podobná slova s jiným významem",
+      "aliases": ["falešní přátelé", "stejné slovo jiný význam", "jagody borůvky", "polská slova", "zrádná slova"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Všimne si, že některá podobně nebo stejně znějící slova mají odlišný význam"},
+        {"level": "Splněno", "quote": "Uvede příklad podobně nebo stejně znějících slov, která mají v češtině odlišný význam."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot ti vyjmenuje slova, která se v polštině nebo slovenštině liší významem."},
+        "internet": {"verdict": "pomuze", "why": "Seznamy zrádných slov a dvojjazyčné slovníky najdeš online."},
+        "aplikace": {"verdict": "pomuze", "why": "Překladač ti slovo přeloží, takže poznáš, že znamená něco jiného než v češtině."},
+        "klasicky": {"verdict": "pomuze", "why": "Dvojjazyčný papírový slovník ukáže pravý význam slova, které znáš jen podle zvuku."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/fd8c0029-9dc7-4b54-845b-ed30c61ba0f8"],
+      "inspiration": ["Zkoumáme podobnost jazyků s překladačem"]
+    },
+    {
+      "slug": "vyznam-slov-ciziho-puvodu-slovni-zasoba",
+      "title": "Význam slov cizího původu a slovní zásoba",
+      "aliases": ["cizí slova", "význam slov", "slovní zásoba", "slovník cizích slov", "co znamená slovo"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Vysvětlí význam používaných slov a rozšiřuje si slovní zásobu."},
+        {"level": "Splněno", "quote": "Odhaduje význam běžně používaných slov cizího původu."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot slovo vysvětlí jednoduše a dá ti věty, ve kterých ho použiješ."},
+        "internet": {"verdict": "pomuze", "why": "Slovník cizích slov a Wikipedie ti význam ověří, když si tipneš."},
+        "aplikace": {"verdict": "pomuze", "why": "Slovníková aplikace ti slovo vyhledá a ukáže příklady použití."},
+        "klasicky": {"verdict": "pomuze", "why": "Slovník cizích slov v knize ti potvrdí, jestli tvůj odhad významu platí."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"]
+    }
+  ],
+  "aside": [
+    {"level": "Na cestě", "start": "Vytváří si pozitivní vztah", "code": "O2", "refs": []},
+    {"level": "Splněno", "start": "Vyjádří svůj vztah", "code": "O2", "refs": []}
+  ]
+}

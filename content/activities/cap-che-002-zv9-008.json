@@ -1,0 +1,488 @@
+[
+  {
+    "slug": "kolobeh-vody-faze-vypar-srazky",
+    "title": "Fáze koloběhu vody",
+    "aliases": [
+      "koloběh vody",
+      "výpar a kondenzace",
+      "srážky a vsakování",
+      "kam se voda dostane"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše jednotlivé fáze koloběhu vody.",
+        "quote": "Popíše jednotlivé fáze koloběhu vody."
+      },
+      {
+        "level": "Splněno",
+        "point": "Znázorní základní fáze koloběhu vody (výpar, kondenzace, srážky, vsakování, odtok) včetně popisu těchto procesů a zahrne do něj vliv lidské činnosti (např. vliv urbanizace, zemědělství, znečišťování vodních zdrojů, stavba přehrad… na změny v distribuci srážek, sucho, záplavy).",
+        "quote": "Znázorní základní fáze koloběhu vody (výpar, kondenzace, srážky, vsakování, odtok) včetně popisu těchto procesů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Koloběh vody",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co se s vodou děje při výparu a kondenzaci, a zeptá se tě na pořadí fází."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a výukové stránky mají schémata koloběhu k porovnání s tvým."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Fáze koloběhu si popíšeš a nakreslíš ty, aplikace to za tebe nepochopí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a pastelky ti dají prostor nakreslit schéma a popsat šipky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kolobeh-vody-model-molekuly",
+    "title": "Model koloběhu vody z molekul",
+    "aliases": [
+      "molekuly vody",
+      "pevné, kapalné a plynné skupenství",
+      "model skupenství",
+      "led, voda, pára"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Sestaví model koloběhu vody s využitím modelů zobrazujících vzdálenost a uspořádání molekul vody v daných skupenstvích.",
+        "quote": "Sestaví model koloběhu vody s využitím modelů zobrazujících vzdálenost a uspořádání molekul vody v daných skupenstvích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Voda třikrát jinak",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč jsou molekuly v páře daleko od sebe a v ledu u sebe, a zkontroluje tvůj popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky a animace ukážou uspořádání molekul ve třech skupenstvích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Molekulární simulace ukáže, jak se molekuly při ohřevu a ochlazení pohybují."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kuličky nebo plastelína ti pomůžou model molekul postavit rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vliv-cloveka-na-kolobeh-vody",
+    "title": "Vliv člověka na koloběh vody",
+    "aliases": [
+      "urbanizace a voda",
+      "sucho a záplavy",
+      "přehrady",
+      "znečištění vody"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Na modelu vysvětlí koloběh vody v přírodě včetně příkladů vlivu činnosti člověka.",
+        "quote": "Na modelu vysvětlí koloběh vody v přírodě včetně příkladů vlivu činnosti člověka."
+      },
+      {
+        "level": "Splněno",
+        "point": "Znázorní základní fáze koloběhu vody (výpar, kondenzace, srážky, vsakování, odtok) včetně popisu těchto procesů a zahrne do něj vliv lidské činnosti (např. vliv urbanizace, zemědělství, znečišťování vodních zdrojů, stavba přehrad… na změny v distribuci srážek, sucho, záplavy).",
+        "quote": "a zahrne do něj vliv lidské činnosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Koloběh vody",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak beton, pole nebo přehrada mění odtok vody, a zkontroluje tvé příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a data o suchu a záplavách v Česku dají konkrétní příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe vliv člověka do modelu nezakreslí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Schéma na papíře dopíšeš šipkami, kam se voda po zásahu člověka dostane."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a",
+      "http://data.europa.eu/esco/skill/4ee4ed1d-dc38-48e0-a9e6-a6b64f316ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pitna-voda-na-mape-sveta",
+    "title": "Rozložení pitné vody na Zemi",
+    "aliases": [
+      "zdroje pitné vody",
+      "nedostatek vody ve světě",
+      "mapa vody",
+      "kde je málo vody"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S pomocí mapy popíše nerovnoměrné rozložení zdrojů pitné vody na Zemi.",
+        "quote": "S pomocí mapy popíše nerovnoměrné rozložení zdrojů pitné vody na Zemi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti vymyslet, co z mapy vyčíst, a zkontroluje tvůj popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlasy a mapy sdílí data o zdrojích vody a nedostatku vody ve světě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní mapa ukáže, kde je vody dost a kde málo."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Školní atlas ti ukáže zdroje vody v tištěné mapě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a",
+      "http://data.europa.eu/esco/skill/4ee4ed1d-dc38-48e0-a9e6-a6b64f316ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tvrdost-vody-vodni-kamen-chemie",
+    "title": "Tvrdost vody a vodní kámen",
+    "aliases": [
+      "tvrdá voda",
+      "vápník a hořčík ve vodě",
+      "vodní kámen v konvici",
+      "mapa tvrdosti vody"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S pomocí údajů o množství iontů vápníku a hořčíku ve vodě vysvětlí spojitost tvrdosti vody a vzniku vodního kamene.",
+        "quote": "S pomocí údajů o množství iontů vápníku a hořčíku ve vodě vysvětlí spojitost tvrdosti vody a vzniku vodního kamene."
+      },
+      {
+        "level": "Splněno",
+        "point": "S pomocí mapy tvrdosti vody v ČR a s výsledky chemického rozboru vody rozhodne, kde je větší/menší šance vzniku vodního kamene.",
+        "quote": "S pomocí mapy tvrdosti vody v ČR a s výsledky chemického rozboru vody rozhodne, kde je větší/menší šance vzniku vodního kamene."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak vápník a hořčík tvoří vodní kámen, a zkontroluje tvé rozhodnutí podle čísel."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vodárny zveřejňují rozbory vody a mapy tvrdosti pro tvoje město."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnout z čísel a mapy musíš ty, aplikace se v tom nenaučí za tebe."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Testovací proužky změří tvrdost vody z kohoutku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2f48c606-a936-46a4-9058-dd925973efd6",
+      "http://data.europa.eu/esco/skill/d589970b-933d-4656-bcb6-a43b3cc67888"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vodni-stopa-moje-snizeni",
+    "title": "Moje vodní stopa",
+    "aliases": [
+      "spotřeba vody",
+      "kolik vody spotřebuji",
+      "šetření vodou",
+      "vodní stopa domácnosti"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Spočítá svou vodní stopu (např. pomocí https://www.voda.limited/vodni-zuctovani), porovná ji s průměrnou stopou v ČR i ve světě a navrhne 3 konkrétní způsoby, jak by ji mohl snížit.",
+        "quote": "Spočítá svou vodní stopu (např. pomocí https://www.voda.limited/vodni-zuctovani), porovná ji s průměrnou stopou v ČR i ve světě a navrhne 3 konkrétní způsoby, jak by ji mohl snížit."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Moje vodní stopa",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti vymyslet způsoby, jak spotřebu snížit, a zkontroluje tvé počty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Online kalkulačky vodní stopy a statistiky ukážou průměr v ČR i ve světě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka vodní stopy spočítá celek z tvých odpovědí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří součty, vodoměr ukáže skutečnou spotřebu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/103f7814-d262-4df6-a1b6-759bc51f76cb",
+      "http://data.europa.eu/esco/skill/4ee4ed1d-dc38-48e0-a9e6-a6b64f316ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vodni-stopa-vyrobku-zemedelstvi-prumysl",
+    "title": "Voda potřebná na výrobu",
+    "aliases": [
+      "water footprint",
+      "kolik vody spotřebuje výroba",
+      "voda v jídle",
+      "voda na tričko"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím dat porovná množství vody potřebné k přípravě vybraných zemědělských a průmyslových produktů (water footprint).",
+        "quote": "S využitím dat porovná množství vody potřebné k přípravě vybraných zemědělských a průmyslových produktů (water footprint)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, odkud se ve výrobě bere tolik vody, a zkontroluje tvé porovnání."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky vodní stopy výrobků najdeš u organizací pro vodu a zemědělství."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program z čísel udělá graf pro porovnání výrobků."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti pomůže přepočítat litry na kilo nebo kus výrobku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/103f7814-d262-4df6-a1b6-759bc51f76cb",
+      "http://data.europa.eu/esco/skill/4ee4ed1d-dc38-48e0-a9e6-a6b64f316ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "upravna-vody-a-cistirna-okoli",
+    "title": "Úpravna pitné vody a čistírna",
+    "aliases": [
+      "čistírna odpadních vod",
+      "úpravna vody",
+      "jak se čistí voda",
+      "vodárna"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí princip úpravny pitné vody a čističky odpadních vod a uvede příklady těchto zařízení ve svém okolí.",
+        "quote": "Vysvětlí princip úpravny pitné vody a čističky odpadních vod a uvede příklady těchto zařízení ve svém okolí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí kroky čištění vody, od česlí po filtraci, a zeptá se tě na pořadí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vodárny a města popisují, jak jejich zařízení fungují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ti ukáže, kde je ve tvém okolí vodárna nebo čistírna."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Filtr z písku a kamínků si vyzkoušíš v pokusu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5206a9b8-8337-4f0b-ae00-163a2f55d8cf",
+      "http://data.europa.eu/esco/skill/fcc29203-1f8d-4c54-90ee-78cb18467695"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odpadni-voda-z-domacnosti-zpusoby",
+    "title": "Čištění odpadních vod z domácnosti",
+    "aliases": [
+      "septik",
+      "kanalizace",
+      "domácí čistírna",
+      "jímka"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede tři nejčastější druhy zpracování odpadní vody z domácnosti a analyzuje ten, který mají v domácnosti.",
+        "quote": "Uvede tři nejčastější druhy zpracování odpadní vody z domácnosti a analyzuje ten, který mají v domácnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi kanalizací, septikem a domácí čistírnou a zkontroluje tvé srovnání."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obec nebo vodárna zveřejňuje, jak se odpadní voda u vás zpracovává."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Zjistit, kam teče voda z vašeho domu, můžeš jen ty u rodičů, ne aplikace."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj za tebe nezjistí, jak se voda zpracovává u vás doma."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5206a9b8-8337-4f0b-ae00-163a2f55d8cf",
+      "http://data.europa.eu/esco/skill/fcc29203-1f8d-4c54-90ee-78cb18467695"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Graf ukáže na první pohled, co ze sloupce čísel vyčteš jen pracně: kdy bylo nejtepleji a jak rychle se pak ochladilo. Kdo graf kreslí, musí rozhodnout, co dá na kterou osu, jak ji rozdělí a jestli body spojí čarou. Tabulkový program nakreslí graf za pár vteřin, zvolí ale klidně i nevhodný typ nebo měřítko a to pozná jen ten, kdo ví, jak má graf vypadat. V práci kreslí grafy z měření lidé, kteří připravují předpovědi počasí nebo zpracovávají data, a takových míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Spojnicový, nebo sloupcový graf",
+      "text": "Nech si zadat několik sad měření, třeba teplotu vody při ohřevu nebo počet deštivých dní v měsících, a ke každé vyber typ grafu. Chatbot ti řekne, jestli volba sedí."
+    },
+    {
+      "title": "Kontrola ručně kresleného grafu",
+      "text": "Nakresli graf ze svých hodnot, vyfoť ho a pošli chatbotovi. Ať zkontroluje osy, jednotky a měřítko a řekne, co chybí, opravy ale dělej ty."
+    },
+    {
+      "title": "Prověrka grafu z tabulkového programu",
+      "text": "Vlož svoje hodnoty do tabulkového programu a nech ho graf nakreslit. Zeptej se chatbota, jak poznat špatně nastavenou osu, a svůj graf podle toho prověř."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Jídelní lístek v cizině nebo jízdní řád často přečteš jen zčásti, a přesto z nich zjistíš, co potřebuješ. Škola tě učí najít v takovém textu jednu konkrétní informaci, třeba cenu nebo čas odjezdu, a nenechat se zaskočit slovy, která neznáš. Překladač z fotky ti převede celou ceduli, ale kdo jazyk aspoň trochu umí, najde údaj rychleji a pozná, když překladač přeloží něco nesmyslně. Hledat údaje v cizojazyčných nabídkách musí třeba lidé, kteří nakupují zboží od zahraničních dodavatelů nebo provázejí turisty.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k jídelnímu lístku",
+      "text": "Požádej chatbota o krátký jídelní lístek v jazyce, který se učíš, a o pět otázek k němu. Odpovídej co nejrychleji a nech si odpovědi zkontrolovat."
+    },
+    {
+      "title": "Vysvětlení jediného slova",
+      "text": "Nech chatbota vysvětlit jen to jedno slovo, které ti brání najít odpověď, ne celou větu. Zbytek si poskládej z toho, co už znáš."
+    },
+    {
+      "title": "Leták nebo obal z obchodu",
+      "text": "Vyfoť cizojazyčný obal nebo leták a nejdřív v něm bez pomoci najdi cenu nebo složení. Potom si text nech přeložit a porovnej, překladač se u krátkých nápisů často plete."
+    }
+  ]
+}

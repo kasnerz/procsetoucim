@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "V testech z angličtiny a u jazykových zkoušek se porozumění poslechu ověřuje úlohami: vybereš správnou možnost, doplníš údaj nebo odpovíš na otázku. Rozumět nahrávce je jedna věc, stihnout odpověď zapsat je druhá, a pomáhá přečíst si otázky předem a psát si během poslechu krátké poznámky. Mimo školu děláš totéž, když po telefonátu v angličtině předáváš někomu, co se domluvilo. Aplikace ti test vyhodnotí, odpověď z nahrávky ale musíš vytáhnout ty.",
+  "learnWithAi": [
+    {
+      "title": "Poslechový test na míru",
+      "text": "Řekni si chatbotovi o krátký text k poslechu a pět otázek s možnostmi a, b, c. Odpověz a nech si vysvětlit, kde v textu byla správná odpověď."
+    },
+    {
+      "title": "Odpovědi jen z poznámek",
+      "text": "Při poslechu delšího rozhovoru si piš jen klíčová slova a čísla. Na otázky, které ti pak chatbot položí, odpovídej jen z těchto poznámek, bez dalšího poslechu."
+    },
+    {
+      "title": "Otevřené otázky k nahrávce",
+      "text": "Nech si zadat otevřené otázky k poslechu a odpovídej celou anglickou větou. Chatbot ti opraví jazyk, ale podle přepisu si zkontroluj, jestli sedí i obsah."
+    }
+  ]
+}

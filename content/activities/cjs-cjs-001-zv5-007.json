@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "co-se-vyrizuje-na-obecnim-urade",
+    "title": "Co se vyřizuje na obecním úřadě",
+    "aliases": [
+      "obecní úřad",
+      "občanský průkaz",
+      "cestovní pas",
+      "poplatek za psa",
+      "sňatek"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Po návštěvě na obecním úřadu vyjmenuje alespoň dvě záležitosti, které může občan na tomto úřadu řešit.",
+        "quote": "vyjmenuje alespoň dvě záležitosti, které může občan na tomto úřadu řešit"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhledá informace týkající se řešení záležitostí občanů souvisejících s činností obecního úřadu (např. Kde obecní úřad sídlí? Kdy jsou úřední hodiny? Kde zařídit občanský průkaz nebo cestovní pas? Kde zaplatit poplatek za psa nebo odpady? Kde řešit uzavření manželství?).",
+        "quote": "Kde zařídit občanský průkaz nebo cestovní pas?"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co můžu řešit na úřadě",
+        "url": ""
+      },
+      {
+        "title": "Místní obecní úřad",
+        "url": "https://uloziste.rvp.cz/material/68e085"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu úřad slouží, a vymyslí otázky na návštěvu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Web obce ukáže seznam agend, formuláře a postupy."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe úřad nenavštíví ani nezjistí, co tam řešit."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "K vyjmenování záležitostí žádný nástroj nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kontakt-a-uredni-hodiny-uradu",
+    "title": "Adresa, kontakt a úřední hodiny úřadu",
+    "aliases": [
+      "kde je úřad",
+      "úřední hodiny",
+      "telefon na úřad",
+      "kdy má úřad otevřeno"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhledá informace týkající se řešení záležitostí občanů souvisejících s činností obecního úřadu (např. Kde obecní úřad sídlí? Kdy jsou úřední hodiny? Kde zařídit občanský průkaz nebo cestovní pas? Kde zaplatit poplatek za psa nebo odpady? Kde řešit uzavření manželství?).",
+        "quote": "Kde obecní úřad sídlí? Kdy jsou úřední hodiny?"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Návštěva obecního úřadu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Malou obec zná špatně, adresu i hodiny může vymyslet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Web obce a vyhledávač ukážou adresu, kontakty i hodiny."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ukáže cestu k úřadu a často i otevírací dobu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Údaje o úřadu na obyčejném nástroji nenajdeš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1",
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kde-urad-zverejnuje-informace",
+    "title": "Kde úřad zveřejňuje informace",
+    "aliases": [
+      "úřední deska",
+      "vývěska",
+      "web obce",
+      "místní zpravodaj"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Identifikuje místa, kde obecní úřad zveřejňuje informace (vývěsky, internetové stránky, sociální sítě, místní zpravodaj).",
+        "quote": "Identifikuje místa, kde obecní úřad zveřejňuje informace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vyjmenuje obvyklé kanály úřadů, vaši obec ale zná málo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Web a sociální sítě obce ukážou, kde všude zveřejňuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace k tomu nic užitečného nepřidá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Vývěsku najdeš očima a nohama, žádný nástroj nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17",
+      "http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prace-starosty",
+    "title": "Práce starosty",
+    "aliases": [
+      "starosta",
+      "co dělá starosta",
+      "kdo vede obec",
+      "zastupitelstvo"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše práci starosty obecního úřadu.",
+        "quote": "Popíše práci starosty obecního úřadu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Srozumitelně vysvětlí, co starosta dělá, a odpoví na otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Web obce a encyklopedie popisují funkci starosty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s tím nepomůže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Práci starosty nepopíšeš pomocí nástroje, jen ze znalosti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1ad823ab-5eb5-4377-a24a-d3deca1f7bfd",
+      "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "napad-na-zlepseni-obce",
+    "title": "Nápad na zlepšení života v obci",
+    "aliases": [
+      "podnět",
+      "nápad pro obec",
+      "představit starostovi",
+      "dětské zastupitelstvo"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne podnět na zlepšení života v obci a představí ho představiteli obce.",
+        "quote": "Navrhne podnět na zlepšení života v obci a představí ho představiteli obce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Zlepšení života v obci",
+        "url": "https://uloziste.rvp.cz/material/368bd6"
+      },
+      {
+        "title": "Občan a obecní úřad",
+        "url": "https://uloziste.rvp.cz/material/fe3ba0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže nápad srozumitelně sepsat a nacvičit, představit ho musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zjistíš, komu podnět poslat a jak se podává."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Podnět za tebe nikdo nepředstaví, aplikace tu nemá úlohu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Při osobním představení ti nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1ad823ab-5eb5-4377-a24a-d3deca1f7bfd",
+      "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

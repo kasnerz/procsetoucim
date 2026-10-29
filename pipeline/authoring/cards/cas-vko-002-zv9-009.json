@@ -1,0 +1,367 @@
+{
+  "outcome": "CAS-VKO-002-ZV9-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "urady-stat-a-obec-kdo-co-resi",
+      "title": "Státní správa a samospráva: kdo co řeší",
+      "aliases": [
+        "státní správa",
+        "samospráva",
+        "obec a stát",
+        "kdo co řeší",
+        "úřady"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na příkladech ze svého okolí doloží"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "z příkladů vybere situace nebo činnosti"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Přiřadí k jednotlivým částem státní správy a samosprávy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi státem a obcí a zkontroluje, tvoje třídění příkladů do skupin."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby obce a státních úřadů uvádějí, co který úřad řeší."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tímhle rozdělením nepracuje, třídění příkladů děláš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozhodnout, co patří státu a co obci, nejde změřit ani spočítat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17",
+        "http://data.europa.eu/esco/skill/2839f191-cd94-49a9-ac16-46018066b8b2"
+      ],
+      "inspiration": [
+        "Co pro mě obec dělá"
+      ]
+    },
+    {
+      "slug": "urady-se-kterymi-jsem-se-potkal-zivotni-situace",
+      "title": "Úřady v mých životních situacích",
+      "aliases": [
+        "kdy jsem byl na úřadě",
+        "životní situace",
+        "moje zkušenost s úřadem",
+        "státní správa v životě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede, se kterými institucemi"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "na situacích ze svého života vysvětlí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě na situace z tvého života a pomůže ti je roztřídit."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoje vlastní zkušenosti s úřady ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace tvoje zkušenosti s úřady nezná."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vzpomínat na vlastní situace musíš ty, nástroj k tomu není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17",
+        "http://data.europa.eu/esco/skill/2839f191-cd94-49a9-ac16-46018066b8b2"
+      ],
+      "inspiration": [
+        "Komunikuji s úřady"
+      ]
+    },
+    {
+      "slug": "urady-postup-vyrizeni-zivotni-situace-navod",
+      "title": "Návod na vyřízení životní situace na úřadě",
+      "aliases": [
+        "jak vyřídit na úřadě",
+        "postup na úřadě",
+        "návod pro občana",
+        "životní situace občana"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zjistí, jak postupovat při řešení"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pro jednu z těchto životních situací zpracuje návod"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zpracuje přehled životních situací občana"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti uspořádat kroky do návodu a najde v něm, co chybí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby úřadů a Portál občana popisují postup, formuláře i poplatky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Online formuláře a rezervační systémy ti ukážou jednotlivé kroky vyřízení."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Návod nenapíše pero ani papír, postup zjistíš u úřadu a sepíšeš ho ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2839f191-cd94-49a9-ac16-46018066b8b2",
+        "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17"
+      ],
+      "inspiration": [
+        "Komunikuji s úřady"
+      ]
+    },
+    {
+      "slug": "urady-online-rezervace-portal-obcana",
+      "title": "Portál občana a online rezervace termínu",
+      "aliases": [
+        "portál občana",
+        "online objednání na úřad",
+        "rezervace termínu",
+        "na úřad online nebo osobně"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "zváží, jak efektivně využít Portál občana"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyzkouší si, jak v online rezervačním systému"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje o možnostech, výhodách a nevýhodách"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu portál slouží, a pomůže ti sepsat výhody a nevýhody online vyřízení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody na webu úřadu ukazují, jak se k termínu dostat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Rezervační systém a Portál občana jsou aplikace, na kterých si postup vyzkoušíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Termín si objednáš na webu, ne klasickým nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2839f191-cd94-49a9-ac16-46018066b8b2",
+        "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17"
+      ],
+      "inspiration": [
+        "Komunikuji s úřady"
+      ]
+    },
+    {
+      "slug": "urady-obcansky-prukaz-navod-obcanka",
+      "title": "Vyřízení občanského průkazu",
+      "aliases": [
+        "občanka",
+        "jak získat občanku",
+        "občanský průkaz v 15 letech",
+        "vyřízení občanky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyhledá informace o vydání občanského průkazu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne postup a pomůže ti sepsat kroky do přehledného návodu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Web obce a ministerstva uvádí, co přinést, kolik to stojí a kam jít."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace úřad nenahradí, žádost podáváš osobně nebo přes portál."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Průkaz ti nevydá žádný nástroj, postup zjistíš z úřadu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2839f191-cd94-49a9-ac16-46018066b8b2",
+        "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17"
+      ],
+      "inspiration": [
+        "Jak na občanku?"
+      ]
+    },
+    {
+      "slug": "urady-komunikace-lokalni-problem-zastupci-obce",
+      "title": "Řešení místního problému s úřadem obce",
+      "aliases": [
+        "napsat úřadu",
+        "problém v obci",
+        "komunikace s obcí",
+        "stížnost obci",
+        "nápad pro obec"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "při řešení lokálních výzev a problémů komunikuje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti sepsat zdvořilý dopis nebo e-mail a promyslet, na koho se obrátit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Web obce ukáže, komu problém napsat a jak podat podnět."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tvým problémem za tebe na úřad nepromluví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "S lidmi z úřadu mluvíš nebo jim píšeš ty, nástroj to nezastoupí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2839f191-cd94-49a9-ac16-46018066b8b2",
+        "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17"
+      ],
+      "inspiration": [
+        "Řešené ekologické nehody",
+        "Téma udržitelnosti v naší obci"
+      ]
+    },
+    {
+      "slug": "urady-zpravy-o-praci-uradu-media",
+      "title": "Zprávy o práci úřadů a obce",
+      "aliases": [
+        "úřady ve zprávách",
+        "zprávy o starostovi",
+        "zastupitelstvo",
+        "média o obci"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vyhledá příklady mediálních sdělení"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, jak zprávy o úřadech hledat a podle čeho je roztřídit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zpravodaje obcí, zpravodajské weby a archivy ukazují aktuální zprávy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace k tomu nemá nic zvláštního, zprávy najdeš na webech."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zprávy o úřadech žádný klasický nástroj nehledá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698",
+        "http://data.europa.eu/esco/skill/d39022ab-d102-4720-b689-540d6f056b17"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "vlastními slovy popíše, k čemu slouží obecní úřad",
+      "code": "O1",
+      "refs": [
+        "co-se-vyrizuje-na-obecnim-urade"
+      ]
+    }
+  ]
+}

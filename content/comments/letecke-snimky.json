@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Na leteckém nebo satelitním snímku vidíš krajinu tak, jak opravdu vypadá, i s tím, co na mapě chybí, třeba nové domy nebo vykácený les. Kdo snímek umí číst, pozná z něj, kde je vjezd do dvora nebo jak se město za pár let rozrostlo. Lidem, kteří rozvážejí balíky, to pomáhá najít správný vchod, a kdo se zabývá dálkovým průzkumem Země, ze snímků dělá mapy. Chatbot ti obrázek popíše, jenže se může splést, a ověřit to umíš jen tehdy, když víš, na co se díváš.",
+  "learnWithAi": [
+    {
+      "title": "Snímek tvého okolí",
+      "text": "Najdi v mapové aplikaci snímek svého okolí a popiš chatbotovi, co na něm vidíš. Požádej ho, ať se doptává na věci, které v popisu chybí."
+    },
+    {
+      "title": "Poznávání krajiny na snímku",
+      "text": "Zeptej se chatbota, jak se na snímku podle barvy a tvaru pozná pole, les, voda a silnice. Vyzkoušej to na snímku neznámého místa a odhad ověř na mapě."
+    },
+    {
+      "title": "Dva snímky z různých let",
+      "text": "Porovnej dva snímky stejného místa z různých let a nech chatbota pomoct s nápady, čím se změna mohla stát. Jeho odhady ber jako tipy a ověř je v dalších zdrojích."
+    }
+  ]
+}

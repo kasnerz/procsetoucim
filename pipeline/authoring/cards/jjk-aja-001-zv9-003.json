@@ -1,0 +1,55 @@
+{
+  "outcome": "JJK-AJA-001-ZV9-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pribeh-ve-filmu-s-anglickymi-titulky",
+      "title": "Děj filmu nebo seriálu s anglickými titulky",
+      "aliases": ["film v angličtině", "seriál s titulky", "angličtina ve filmu", "porozumění ději", "anglické titulky"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Rozumí základním informacím v jednodušších příbězích s využitím titulků v cílovém jazyce."},
+        {"level": "Na cestě", "quote": "Rozumí hlavním myšlenkám příběhu."},
+        {"level": "Splněno", "quote": "Rozumí obsahu jednoduššího příběhu."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí ti slovo nebo frázi, které ti ve filmu uniklo, a ověří, jak jsi pochopil(a) děj."},
+        "internet": {"verdict": "pomuze", "why": "Slovník a shrnutí děje ti pomohou s tím, čemu jsi nerozuměl(a)."},
+        "aplikace": {"verdict": "pomuze", "why": "Přehrávač s anglickými titulky a zpomalením ti dá čas přečíst, co postavy říkají."},
+        "klasicky": {"verdict": "pomuze", "why": "Papírový slovník ti ukáže význam slov, která v titulcích neznáš."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bc8b2c74-cce5-497e-85c2-51d3ede632ad"
+      ],
+      "inspiration": ["Příběh o muži v New Yorku", "Příběh - letecká havárie"]
+    },
+    {
+      "slug": "prevyprava-pribehu-rizeni-casti-aja",
+      "title": "Převyprávění a řazení částí příběhu",
+      "aliases": ["převyprávění", "řazení děje", "co se stalo dál", "vyprávění příběhu", "poslechové úlohy"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Písemně nebo ústně prokáže porozumění."},
+        {"level": "Na cestě", "quote": "Písemně nebo ústně prokáže porozumění."},
+        {"level": "Splněno", "quote": "Písemně nebo ústně prokáže porozumění příběhu v poslechových úlohách (např. řadí jednotlivé části textu chronologicky, odhaduje další vývoj příběhu, příběh vypráví svými slovy)."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ptá se tě na děj, opraví tvé převyprávění a nechá tě hádat, co bude dál."},
+        "internet": {"verdict": "pomuze", "why": "Shrnutí děje najdeš online a porovnáš s ním své převyprávění."},
+        "aplikace": {"verdict": "pomuze", "why": "Nahrávka v telefonu ti dovolí poslechnout si, jak příběh vyprávíš."},
+        "klasicky": {"verdict": "nepomuze", "why": "Děj řadíš a vyprávíš ty, tužka ani papír tomu nepomůžou."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd",
+        "http://data.europa.eu/esco/skill/bc8b2c74-cce5-497e-85c2-51d3ede632ad"
+      ],
+      "inspiration": ["Příběh o třech prasátkách"]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Rozumí jednoduchým a zřetelně sděleným instrukcím", "code": "O1", "refs": ["pokyny-v-anglictine-ve-tride"]}
+  ]
+}

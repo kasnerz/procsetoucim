@@ -1,0 +1,78 @@
+{
+  "outcome": "CAP-CHE-001-ZV9-001",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozlišuje jednotlivé složky potravin.",
+      "cards": [
+        "potraviny-zakladni-zivinove-skupiny"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zařadí základní potraviny do kategorií sacharidů, bílkovin, tuků, vitamínů a aditiv a u vybraných typických zástupců vysvětlí jejich důležitost v jídelníčku (u aditiv důvod jejich výskytu v potravinách).",
+      "cards": [
+        "potraviny-zakladni-zivinove-skupiny"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí skupiny látek obsažených v běžných potravinách a uvede konkrétní příklady přirozeně se vyskytujících a uměle dodaných složek.",
+      "cards": [
+        "potraviny-pridane-latky-a-prirodni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí význam jednotlivých složek potravy (bílkoviny, sacharidy, tuky, vitaminy) pro zdraví člověka a popíše rizika jejich nadbytku nebo nedostatku.",
+      "cards": [
+        "potraviny-zivin-nadbytek-nedostatek"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Porovná základní a alternativní zdroje bílkovin, sacharidů a tuků a zhodnotí jejich přínos pro organismus v kontextu udržitelnosti.",
+      "cards": [
+        "potraviny-zdroje-bilkovin-udrzitelnost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí vliv nadbytku a nedostatku základních živin (tuky, sacharidy, bílkoviny, vitaminy) na zdraví člověka.",
+      "cards": [
+        "potraviny-zivin-nadbytek-nedostatek"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Orientuje se v údajích na etiketách běžných potravin a vyhodnotí jejich energetickou hodnotu, obsah živin a aditiv.",
+      "cards": [
+        "potraviny-etiketa-energie-zivin"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Posoudí význam a vliv používání aditiv (barviva, konzervanty) v potravinářství na kvalitu potravin a zdraví člověka a význam jejich označování kódy E.",
+      "cards": [
+        "potraviny-aditiva-kody-e"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vyjmenuje základní živiny ve vybraných potravinách.",
+      "cards": [
+        "potraviny-zakladni-zivinove-skupiny"
+      ],
+      "aside": null
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "slug": "historicky-pramen-lokalni-historie",
+    "title": "Historický pramen",
+    "aliases": [
+      "pramen",
+      "primární zdroj",
+      "starý dopis",
+      "staré fotografie",
+      "dobové předměty"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Porozumí pojmu historický pramen jako primární zdroj informací (vyhledá další zdroje: fotografie, dobové artefakty, rodinné záznamy, dopisy apod.).",
+        "quote": "Porozumí pojmu historický pramen jako primární zdroj informací (vyhledá další zdroje: fotografie, dobové artefakty, rodinné záznamy, dopisy apod.)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Minulost a současnost na fotografiích nebo v tisku",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je pramen, a dá příklady, podle kterých poznáš další."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Muzea a archivy ukazují fotografie a dopisy, podle nich pramen poznáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace pramen za tebe nenajde, v rodinných věcech hledáš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pramen je starý předmět nebo papír, který držíš v ruce, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "navsteva-pamatky-muzea-knihovny-lokalni",
+    "title": "Návštěva památky, muzea nebo knihovny",
+    "aliases": [
+      "exkurze do muzea",
+      "vycházka za historií",
+      "památka",
+      "knihovna",
+      "muzeum"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Navštíví historickou památku, muzeum, veřejnou knihovnu, a využije ji pro práci s historickými prameny.",
+        "quote": "Navštíví historickou památku, muzeum, veřejnou knihovnu, a využije ji pro práci s historickými prameny."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vycházka za historickým pramenem",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Do muzea nebo knihovny jdeš ty, chatbot tam předměty neuvidí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Otevírací doba a sbírky najdeš na webu, před cestou si připravíš otázky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ti ukáže cestu k památce a ke knihovně."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Exponáty si prohlížíš a zapisuješ do sešitu, k tomu stačí tužka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+      "http://data.europa.eu/esco/skill/4e8d34e2-b236-4d05-9607-85fb4bd9c0cb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ruzne-pohledy-na-udalost-pametnik",
+    "title": "Různé pohledy na jednu událost",
+    "aliases": [
+      "kdo to říká",
+      "jiný pohled",
+      "vyprávění pamětníků",
+      "subjektivní pohled",
+      "názor v pramenu"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Uvědomí si, že vnímání dané události záleží na osobě nebo jiném zdroji.",
+        "quote": "Uvědomí si, že vnímání dané události záleží na osobě nebo jiném zdroji."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kdo byl kdo",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vezme dva popisy téže události a ukáže, v čem se liší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš si další zprávy o události a porovnáš je s tím, co víš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace texty neporovnává, rozdíl mezi dvěma vyprávěními poznáš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozdíly v tom, kdo co řekl, nástroj neodhalí, posuzuješ je ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vice-pramenu-k-jedne-otazce-lokalni",
+    "title": "Práce s více prameny",
+    "aliases": [
+      "porovnání zdrojů",
+      "dva zdroje",
+      "bádání",
+      "hledání odpovědí",
+      "historická otázka"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pracuje s dostupnými prameny z více zdrojů.",
+        "quote": "Pracuje s dostupnými prameny z více zdrojů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Co se změnilo v naší obci za posledních 50 let",
+        "url": "https://uloziste.rvp.cz/material/5b23ca"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet otázku k pramenu a zkontroluje, co ses v něm dočetl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Staré mapy, kroniky a fotografie obce najdeš online i v digitálních archivech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Fotoaparát v telefonu pramen zvětší nebo zaznamená, než ho vrátíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a pravítko ti pomůžou prohlédnout drobné značky a změřit starý předmět."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pribeh-pametnika-rozhovor-vzpominky",
+    "title": "Příběh pamětníka",
+    "aliases": [
+      "rozhovor s pamětníkem",
+      "vyprávění babičky",
+      "rodokmen",
+      "historický příběh",
+      "komiks z historie"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří příběh pamětníka na základě získaných vzpomínek a dalších pramenů.",
+        "quote": "Vytvoří příběh pamětníka na základě získaných vzpomínek a dalších pramenů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Domovní znamení",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže rozvrhnout příběh a navrhne otázky, ale rozhovor vedeš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš dobu, o které pamětník vypráví, a ověříš data a místa."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Diktafon v telefonu zachytí vyprávění, přehraješ si ho při psaní příběhu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pamětníka se ptáš ty, pero a papír zápis nevedou za tebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/66d47084-9437-48b2-819b-c4c8214ed650",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pamatihodnosti-regionu-kde-bydlim",
+    "title": "Památky a zajímavosti kraje, kde bydlíš",
+    "aliases": [
+      "pamětihodnosti",
+      "hrady a zámky",
+      "místní památky",
+      "historie obce",
+      "region"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyjmenuje nejvýznamnější historické pamětihodnosti a zajímavosti regionu, ve kterém bydlí.",
+        "quote": "Vyjmenuje nejvýznamnější historické pamětihodnosti a zajímavosti regionu, ve kterém bydlí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Náměstí – srdce obce v proměnách času",
+        "url": "https://uloziste.rvp.cz/material/d8fbf1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vyjmenuje známé památky kraje, tvůj seznam pak zkontroluješ jinde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby kraje a obce a Wikipedie mají seznamy památek s popisem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa s památkami ukáže, co je u tebe doma nejblíž."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Paměť ti nenahradí ani tištěná mapa, seznam vyjmenuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f5eae448-0e52-4550-b982-9ff108c2ef55",
+      "http://data.europa.eu/esco/skill/4e8d34e2-b236-4d05-9607-85fb4bd9c0cb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

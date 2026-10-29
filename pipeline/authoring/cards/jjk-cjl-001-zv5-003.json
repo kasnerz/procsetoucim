@@ -1,0 +1,520 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-003",
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "psani-rukou",
+      "title": "Psaní písmen a číslic rukou",
+      "aliases": [
+        "psaní rukou",
+        "psací písmo",
+        "tvary písmen",
+        "číslice",
+        "krasopis"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Píše správné tvary písmen a číslic, píše slova a větné celky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Rukou píšeš ty, chatbot ti tvary písmen nenacvičí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzory písma si můžeš vytisknout a obtahovat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Diktování i klávesnice píšou za tebe, tvary písmen se z nich nenaučíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Sešit s linkami a tužka drží písmo ve správné velikosti."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+      ],
+      "inspiration": [
+        "Obrázky pro psaní textu"
+      ]
+    },
+    {
+      "slug": "i-y-po-tvrdych-a-mekkych",
+      "title": "Psaní i/y po tvrdých a měkkých souhláskách",
+      "aliases": [
+        "tvrdé a měkké souhlásky",
+        "měkké i",
+        "tvrdé y",
+        "i y"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rozlišuje zvukovou a grafickou podobu slova."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Při psaní vlastního textu využívá znalost pravopisných pravidel: y/ý po tvrdých souhláskách; i/í po měkkých souhláskách;"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pravidlo jednoduše a vymyslí cvičné věty s chybějícím i nebo y."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka ukáže, jak se slovo píše."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu podtrhne chybné i nebo y v tvém textu, vysvětlení nedá."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravidla pravopisu v knize pravidlo vysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+        "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+      ],
+      "inspiration": [
+        "Psaní podle obrázkové osnovy"
+      ]
+    },
+    {
+      "slug": "vyjmenovana-slova",
+      "title": "Doplňování i/y ve vyjmenovaných slovech",
+      "aliases": [
+        "vyjmenovaná slova",
+        "obojetné souhlásky",
+        "doplňování i y",
+        "být bít",
+        "slova příbuzná"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "y/ý a i/í po pravopisně obojetných souhláskách ve vyjmenovaných slovech a běžně používaných slovech příbuzných."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí cvičné věty a vysvětlí, proč se v nich píše y nebo i."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka ukáže každé vyjmenované slovo a jeho příbuzná."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu opraví část chyb, záměnu slov jako bít a být nepozná."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Seznam vyjmenovaných slov v knize si projdeš a ověříš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+        "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "velka-pismena",
+      "title": "Velká písmena na začátku věty a ve jménech",
+      "aliases": [
+        "velká písmena",
+        "vlastní jména",
+        "velké písmeno"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Píše velká písmena na začátku věty a v typických případech vlastních jmen."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kdy se píše velké písmeno, a zadá ti věty na doplnění."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka rozhodne sporné případy psaní velkých písmen."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Telefon opraví začátek věty automaticky, jména za něj zkontroluješ ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravidla pravopisu v knize ukážou, co je vlastní jméno."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+        "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "slovni-druhy",
+      "title": "Slovní druhy: podstatná jména, slovesa, spojky a předložky",
+      "aliases": [
+        "slovní druhy",
+        "podstatné jméno",
+        "sloveso",
+        "spojka",
+        "předložka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozpozná podstatná jména, slovesa, spojky a předložky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak slovní druh poznat, a zadá ti věty k určování."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka u slova ukáže, jaký je to slovní druh."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Běžné aplikace slovní druhy neurčují."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj slovní druhy neurčí, poznáváš je z věty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "carky-v-souveti",
+      "title": "Čárky ve větě a v souvětí",
+      "aliases": [
+        "čárky",
+        "interpunkce",
+        "souvětí",
+        "věta jednoduchá"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná větu jednoduchou a souvětí a zdůvodní základní případy užití interpunkčních znamének."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Najde ve tvém textu chybějící čárky a vysvětlí, proč tam patří."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka vysvětlí pravidla pro čárky s příklady."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu najde část chybějících čárek, ne všechny."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravidla pravopisu v knize ukážou, kdy čárka patří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+        "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "spojovani-vet",
+      "title": "Spojování vět do souvětí",
+      "aliases": [
+        "souvětí",
+        "spojit věty",
+        "přeformulovat",
+        "stavba textu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Spojí věty jednoduché do souvětí a vhodně obmění strukturu textu s ohledem na svůj komunikační záměr."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže víc způsobů, jak tvé věty spojit, a ty vybereš ten, který sedí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvé věty na webu nenajdeš, spojuješ je ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Některé korektory navrhnou jinou formulaci tvé věty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Věty spojuješ ty při psaní, žádný nástroj ti je nespojí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "overeni-pravopisu",
+      "title": "Ověření pravopisu v jazykové příručce",
+      "aliases": [
+        "Internetová jazyková příručka",
+        "Pravidla českého pravopisu",
+        "jak se to píše",
+        "ověřit pravopis"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Dokáže ověřit pravopis v pravidlech českého pravopisu nebo v internetové jazykové příručce."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Učíš se hledat v příručce, chatbot se u sporných slov mýlí a zdroj neukáže."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka je přesně to, co se tu učíš používat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu ukáže slovo, které je třeba ověřit."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravidla pravopisu v knize jsou druhý zdroj k ověření."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c",
+        "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vypravovani-podle-osnovy",
+      "title": "Vypravování, popis a zpráva podle osnovy",
+      "aliases": [
+        "vypravování",
+        "osnova",
+        "sloh",
+        "slohová práce",
+        "příběh",
+        "popis",
+        "zpráva"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Využívá osnovu při tvorbě vlastního textu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Napíše vypravování, pozvánku, popis, dopis, oznámení, zprávu, blahopřání, vyplní dotazník i v digitální podobě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3",
+        "P4",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Řekne, co ve tvém textu chybí, přepsat ho ale musíš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotový příběh ti nepomůže, máš napsat svůj."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu ukáže chyby ve tvém textu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Osnovu i text vymýšlíš ty, nástroj ti je nevymyslí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+      ],
+      "inspiration": [
+        "Psaní podle obrázkové osnovy",
+        "Můj příběh o špačkovi"
+      ]
+    },
+    {
+      "slug": "pozvanka-a-blahoprani",
+      "title": "Pozvánka, blahopřání, oznámení a dopis",
+      "aliases": [
+        "pozvánka",
+        "blahopřání",
+        "oznámení",
+        "přání k narozeninám",
+        "dopis"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Napíše vypravování, pozvánku, popis, dopis, oznámení, zprávu, blahopřání, vyplní dotazník i v digitální podobě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, co do pozvánky patří, a zkontroluje, jestli ve tvém textu nic nechybí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzory pozvánek a přání ukážou, co mají obsahovat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se šablonami dá pozvánce nebo přání hotový vzhled."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Text vymýšlíš ty, nástroj ho nenapíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+      ],
+      "inspiration": [
+        "Slavíme svátek",
+        "Projekt – Dopis spisovateli/spisovatelce"
+      ]
+    },
+    {
+      "slug": "vyplneni-dotazniku",
+      "title": "Vyplnění dotazníku a formuláře",
+      "aliases": [
+        "dotazník",
+        "formulář",
+        "přihláška",
+        "vyplnit formulář"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Napíše vypravování, pozvánku, popis, dopis, oznámení, zprávu, blahopřání, vyplní dotazník i v digitální podobě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co otázka ve formuláři chce, a vymyslí cvičný formulář."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody k vyplnění formulářů najdeš na webech škol a úřadů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Automatické vyplnění píše za tebe, formulář se tak nenaučíš číst."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Formulář vyplňuješ ty, obyčejný nástroj tu nemá co nabídnout."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Při psaní vlastního textu využívá osvojená pravopisná pravidla.",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Vede dialog srozumitelný pro okolí, s využitím osvojených mluvnických a pravopisných pravidel; píše jednoduché texty.",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

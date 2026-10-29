@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Vyjmenovaná slova jsou slova, ve kterých se po b, f, l, m, p, s, v, z píše y, a jejich seznam se ve škole učí zpaměti. Bez nich nepoznáš, proč se píše býk, ale bič, nebo proč být a bít znamenají něco jiného. Kontrola pravopisu v počítači tady často selže, protože bít i být jsou správně napsaná slova a chybu nepodtrhne. Kdo píše texty pro jiné, třeba úřední dopisy nebo knihy, musí tyhle rozdíly poznat bez nápovědy. Pro ostatní je to hlavně otázka toho, jak jejich zprávy a e-maily působí na čtenáře.",
+  "learnWithAi": [
+    {
+      "title": "Příběh s chybějícím i a y",
+      "text": "Poproste chatbota o krátký příběh, ve kterém chybí i a y jen ve vyjmenovaných slovech a slovech příbuzných. Doplň je a nechte si chyby vysvětlit."
+    },
+    {
+      "title": "Hledání příbuzných slov",
+      "text": "Vyberte spolu jedno vyjmenované slovo, třeba myslet, a zkus vymyslet co nejvíc slov příbuzných. Chatbot pak ukáže další, ale sporná slova ověřte v příručce."
+    },
+    {
+      "title": "Dvojice být a bít",
+      "text": "Zkuste s rodičem dvojice jako být a bít nebo výr a vír: chatbot vymyslí větu a ty rozhodneš, které slovo do ní patří a proč."
+    }
+  ]
+}

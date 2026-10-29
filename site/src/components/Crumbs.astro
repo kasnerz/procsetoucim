@@ -1,0 +1,24 @@
+---
+// Breadcrumbs: plain links with a pencil arrow back; the current page is plain text.
+import Icon from "./Icon.astro";
+interface Props { items: { label: string; href?: string }[] }
+const { items } = Astro.props;
+---
+<nav class="crumbs" aria-label="Kde jsi">
+  <ol>
+    {items.map((it, i) => (
+      <li>
+        {it.href
+          ? <a href={it.href}>{i === 0 && <Icon name="arrow-left" size="18" />}<span>{it.label}</span></a>
+          : <span class="here" aria-current={i === items.length - 1 ? "page" : undefined}>{it.label}</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+<style>
+  ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: var(--s1) var(--s2); font-size: 0.9375rem; }
+  li + li::before { content: "·"; color: var(--ink-soft); margin-right: var(--s2); }
+  a { display: inline-flex; align-items: center; gap: 4px; font-weight: 600; text-decoration: none; }
+  a:hover span { text-decoration: underline; text-decoration-color: var(--blue); }
+  .here { color: var(--ink-soft); }
+</style>

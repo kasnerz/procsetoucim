@@ -1,0 +1,228 @@
+---
+// The occupation groups as a treemap (user 2026-10-29, replaced a plain list of links on the Povolání page): the
+// ISCO-08 2-digit groups nested in the ten major groups, each rectangle a link to its group page. Buttons switch what
+// sets the size: people at work in 2025, the number of occupations (ESCO), job openings to 2035 (Cedefop, coarse
+// headcounts only), occupations that AI changes a lot (ILO). Every layout is computed here, squarified, for desktop,
+// tablet and phone; the buttons only swap them (no animation). Without JavaScript the first (people at work, user
+// 2026-10-29) shows. Each box is a white torn paper scrap with the group's pencil icon (ISCO2_ICON); small boxes show
+// only the icon and are named in the list under the treemap.
+import { getIconData, iconToSVG, replaceIDs } from "@iconify/utils";
+import matita from "@iconify-json/matita/icons.json";
+import sketch from "../icons/sketch.json";
+import { occupations, groups, isco2, iloLevel, peopleAbout, ISCO1, ISCO2_ICON, ISCO2_SHORT, CEDEFOP_CITE } from "../lib/data";
+import { tear, rng } from "../lib/sketch";
+
+type Box = { x: number; y: number; w: number; h: number };
+type Item = { key: string; value: number };
+
+/** Squarified treemap (Bruls, Huizing, van Wijk 2000): rows of items whose worst aspect ratio is as close to 1 as
+ *  possible. Returns the items with their boxes in the units of `box`. */
+function squarify<T extends Item>(items: T[], box: Box): (T & Box)[] {
+  const total = items.reduce((s, i) => s + i.value, 0);
+  if (!total) return [];
+  const scale = (box.w * box.h) / total;
+  const rest = items.filter((i) => i.value > 0).sort((a, b) => b.value - a.value).map((i) => ({ i, a: i.value * scale }));
+  const out: (T & Box)[] = [];
+  let { x, y, w, h } = box;
+  const worst = (row: { a: number }[], side: number) => {
+    const s = row.reduce((t, r) => t + r.a, 0);
+    const mx = Math.max(...row.map((r) => r.a)), mn = Math.min(...row.map((r) => r.a));
+    return Math.max((side * side * mx) / (s * s), (s * s) / (side * side * mn));
+  };
+  const place = (row: { i: T; a: number }[]) => {
+    const s = row.reduce((t, r) => t + r.a, 0);
+    if (w >= h) {
+      const cw = s / h;
+      let cy = y;
+      for (const r of row) { const ch = r.a / cw; out.push({ ...r.i, x, y: cy, w: cw, h: ch }); cy += ch; }
+      x += cw; w -= cw;
+    } else {
+      const rh = s / w;
+      let cx = x;
+      for (const r of row) { const rw = r.a / rh; out.push({ ...r.i, x: cx, y, w: rw, h: rh }); cx += rw; }
+      y += rh; h -= rh;
+    }
+  };
+  let row: { i: T; a: number }[] = [];
+  while (rest.length) {
+    const side = Math.min(w, h);
+    if (!row.length || worst([...row, rest[0]], side) <= worst(row, side)) row.push(rest.shift()!);
+    else { place(row); row = []; }
+  }
+  if (row.length) place(row);
+  return out;
+}
+
+const base = import.meta.env.BASE_URL;
+const all = Object.values(occupations);
+const codes = [...new Set(all.map((o) => o.isco2))].sort();
+const count = (c: string, f: (o: (typeof all)[number]) => boolean = () => true) => all.filter((o) => o.isco2 === c && f(o)).length;
+const METRICS = [
+  { id: "people", label: "Lidé v práci", value: (c: string) => isco2[c]?.employment2025 ?? 0, show: (v: number) => `${peopleAbout(v)} lidí` },
+  { id: "count", label: "Počet povolání", value: (c: string) => count(c), show: (v: number) => `${v} povolání` },
+  { id: "openings", label: "Místa k obsazení do 2035", value: (c: string) => Math.max(0, isco2[c]?.openings2026to2035 ?? 0), show: (v: number) => `${peopleAbout(v)} míst` },
+  { id: "ai", label: "Povolání, která AI mění hodně", value: (c: string) => count(c, (o) => iloLevel(o) === 3), show: (v: number) => `${v} povolání` },
+];
+// Three layouts, each in units of about one CSS pixel at the narrowest width it is shown, so the text estimate below
+// holds there and only gets roomier above it: wide from 1100px, mid from 641px, tall for phones. The 24-unit header
+// of a major group matches its 24px strip.
+const SHAPES = [{ id: "wide", w: 1020, h: 650, k: 1 }, { id: "mid", w: 600, h: 640, k: 1 }, { id: "tall", w: 330, h: 1250, k: 12 / 13 }];
+const HEAD = 24;
+// Rough text fit (measured in Chromium): a 13px label takes about 6.4 units a character and 16 a line, the 12px value
+// 5.6 a character and 18 a line, the icon at the start of the label about 20 across and 5 down, the box padding with
+// a little slack about 22 across and 18 down. A box gets icon, full name and value, else the short name (ISCO2_SHORT) with or without the value, else the
+// icon alone, else nothing; boxes with the icon alone or nothing are listed under the treemap. On phones the text is
+// a pixel smaller (k).
+const CH = 6.4, LINE = 16, VCH = 5.6, VLINE = 18, ICON = 20;
+const lines = (text: string, width: number, ch = CH, lead = 0) => {
+  let n = 1, cur = lead;
+  for (const word of text.split(" ")) {
+    const len = word.length * ch;
+    if (len > width) return Infinity;
+    if (cur && cur + ch + len > width) { n++; cur = len; } else cur += (cur ? ch : 0) + len;
+  }
+  return n;
+};
+const fit = (code: string, value: string, w: number, h: number, k: number) => {
+  const iw = w - 22, ih = h - 18, line = LINE * k;
+  const val = 4 + lines(value, iw, VCH * k) * VLINE * k;
+  const name = (t: string) => 5 + lines(t, iw, CH * k, ICON) * line;
+  const short = ISCO2_SHORT[code] ?? groups[code];
+  if (name(groups[code]) + val <= ih) return "full";
+  if (name(short) + val <= ih) return "short";
+  if (name(short) <= ih) return "name";
+  if (w >= 24 && h >= 24) return "icon";
+  return "none";
+};
+const layouts = METRICS.map((m) => ({
+  ...m,
+  shapes: SHAPES.map((s) => {
+    const majors = [...new Set(codes.map((c) => c[0]))].map((k) => {
+      const subs = codes.filter((c) => c[0] === k).map((c) => ({ key: c, value: m.value(c) }));
+      return { key: k, value: subs.reduce((t, x) => t + x.value, 0), subs };
+    });
+    const placed = squarify(majors, { x: 0, y: 0, w: s.w, h: s.h }).map((mj) => {
+      const head = mj.h > HEAD * 2.5 && mj.w > 70;
+      const body = { x: 0, y: 0, w: mj.w, h: head ? mj.h - HEAD : mj.h };
+      return {
+        ...mj, head,
+        pos: `left:${(mj.x / s.w) * 100}%;top:${(mj.y / s.h) * 100}%;width:${(mj.w / s.w) * 100}%;height:${(mj.h / s.h) * 100}%`,
+        cells: squarify(mj.subs, body).map((c) => ({
+          ...c, fit: fit(c.key, m.show(c.value), c.w, c.h, s.k),
+          pos: `left:${(c.x / body.w) * 100}%;top:${(c.y / body.h) * 100}%;width:${(c.w / body.w) * 100}%;height:${(c.h / body.h) * 100}%`,
+        })),
+      };
+    });
+    return { id: s.id, majors: placed, small: placed.flatMap((mj) => mj.cells.filter((c) => c.fit === "icon" || c.fit === "none")).sort((a, b) => b.value - a.value) };
+  }),
+}));
+const [citeText, citeUrl] = CEDEFOP_CITE.split("Downloaded from: ");
+// The group icons once, as a sprite the boxes and the list point to.
+const sprite = codes.map((c) => {
+  const name = ISCO2_ICON[c];
+  const d = getIconData(sketch as any, name) ?? getIconData(matita as any, name);
+  if (!d) throw new Error(`Icon ${name} not found in sketch or matita`);
+  const svg = iconToSVG(d);
+  return `<symbol id="tm-g${c}" viewBox="${svg.attributes.viewBox}">${replaceIDs(svg.body)}</symbol>`;
+}).join("");
+// A few torn outlines (lib/sketch) shared by all boxes, each box with its own slight tilt.
+const TEARS = 12;
+const tearCss = Array.from({ length: TEARS }, (_, i) => `[data-treemap] .tt${i}{--tear:${tear(`treemap/${i}`, 3)}}`).join("");
+const look = (seed: string) => { const r = rng(seed); return { cls: `tt${Math.floor(r() * TEARS)}`, tilt: ((r() - 0.5) * 1.6).toFixed(2) }; };
+---
+<div class="treemap" data-treemap>
+  <svg class="tm-sprite" aria-hidden="true" set:html={sprite} />
+  <Fragment set:html={`<style>${tearCss}</style>`} />
+  <div class="tm-buttons" role="group" aria-label="Velikost podle" hidden>
+    {METRICS.map((m, i) => <button type="button" class="tm-btn sketch-box" data-metric={m.id} aria-pressed={i === 0 ? "true" : "false"}><span>{m.label}</span></button>)}
+  </div>
+  {layouts.map((l, i) => (
+    <div class="tm-layout" data-m={l.id} hidden={i > 0}>
+      {l.shapes.map((s) => (
+        <div class:list={["tm-view", s.id]}>
+          <div class="tm-shape">
+            {s.majors.map((mj) => (
+              <div class="tm-major" style={mj.pos} title={groups[mj.key]}>
+                {mj.head && <div class="tm-head">{ISCO1[mj.key]}</div>}
+                <div class="tm-body">
+                  {mj.cells.map((c) => {
+                    const p = look(`${l.id}/${s.id}/${c.key}`);
+                    return (
+                      <a class:list={["tm-cell", `fit-${c.fit}`]} style={c.pos} href={`${base}povolani/skupina/${c.key}/`} title={`${groups[c.key]}: ${l.show(c.value)}`} aria-label={`${groups[c.key]}: ${l.show(c.value)}`}>
+                        <span class:list={["tm-in paper", p.cls]} style={`--tilt:${p.tilt}deg`}>
+                          <span class="tm-txt">
+                            <span class="tl"><svg class="gi" aria-hidden="true"><use href={`#tm-g${c.key}`} /></svg><span class="full">{groups[c.key]}</span><span class="short">{ISCO2_SHORT[c.key] ?? groups[c.key]}</span></span>
+                            <span class="tv">{l.show(c.value)}</span>
+                          </span>
+                        </span>
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+          </div>
+          {s.small.length > 0 && (
+            <ul class="tm-small tiny">
+              {s.small.map((c) => <li><svg class="gi" aria-hidden="true"><use href={`#tm-g${c.key}`} /></svg><a href={`${base}povolani/skupina/${c.key}/`}>{groups[c.key]}</a> <span class="soft">{l.show(c.value)}</span></li>)}
+            </ul>
+          )}
+        </div>
+      ))}
+    </div>
+  ))}
+  <p class="tiny soft tm-src">Zdroj: ESCO v1.2.1, Mezinárodní organizace práce (ILO, 2025) a <a href={citeUrl} title={CEDEFOP_CITE}>Cedefop Skills Forecast 2026, Thessaloniki: Greece</a>. Lidé v práci a místa k obsazení jsou orientační prognóza pro Česko.</p>
+</div>
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>("[data-treemap]")) {
+    const buttons = [...root.querySelectorAll<HTMLButtonElement>(".tm-btn")];
+    const layouts = [...root.querySelectorAll<HTMLElement>(".tm-layout")];
+    root.querySelector<HTMLElement>(".tm-buttons")!.hidden = false;
+    for (const b of buttons) {
+      b.addEventListener("click", () => {
+        for (const x of buttons) x.setAttribute("aria-pressed", String(x === b));
+        for (const l of layouts) l.hidden = l.dataset.m !== b.dataset.metric;
+      });
+    }
+  }
+</script>
+<style>
+  .treemap { display: grid; gap: var(--s4); max-width: 1100px; margin-inline: auto; width: 100%; }
+  .tm-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s2); }
+  .tm-buttons[hidden] { display: none; }
+  .tm-btn { font: inherit; font-size: 0.9375rem; font-weight: 600; color: var(--ink-soft); background-color: transparent; border: 0; padding: 6px 14px; cursor: pointer; }
+  .tm-btn:hover { color: var(--blue); }
+  .tm-btn[aria-pressed="true"] { color: var(--ink); }
+  .tm-btn[aria-pressed="true"] span { background: var(--hl-red) 0 92% / 100% 0.7em no-repeat; padding-inline: 0.12em; }
+  .tm-layout[hidden] { display: none; }
+  .tm-view { display: none; gap: var(--s3); }
+  .tm-view.wide { display: grid; }
+  @media (max-width: 1099px) { .tm-view.wide { display: none; } .tm-view.mid { display: grid; } }
+  @media (max-width: 640px) { .tm-view.mid { display: none; } .tm-view.tall { display: grid; } }
+  .tm-shape { position: relative; width: 100%; }
+  .wide .tm-shape { aspect-ratio: 1020 / 650; }
+  .mid .tm-shape { aspect-ratio: 600 / 640; }
+  .tall .tm-shape { aspect-ratio: 330 / 1250; }
+  .tm-major { position: absolute; display: flex; flex-direction: column; padding: 3px; }
+  .tm-head { height: 24px; flex: none; padding: 2px 4px 0; font-family: var(--font-title); font-weight: var(--title-weight); font-size: calc(1.05rem * var(--title-scale)); line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tm-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+  .gi { width: 16px; height: 16px; flex: none; color: var(--purple); vertical-align: -3px; margin-right: 4px; }
+  .tm-body { position: relative; flex: 1; }
+  .tm-cell { position: absolute; display: block; padding: 2px; text-decoration: none; color: var(--ink); }
+  .tm-in { --tone: var(--paper-top); display: block; height: 100%; padding: 6px 7px; }
+  .tm-txt { display: flex; flex-direction: column; gap: 2px; height: 100%; overflow: hidden; }
+  .tm-cell:hover .tm-in::before { translate: 2.5px 4px; background: var(--shadow-hover); }
+  .tm-cell:hover .tl { color: var(--blue); }
+  .tl { font-size: 0.8125rem; font-weight: 600; line-height: 1.2; }
+  .tv { font-size: 0.75rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .tall .tl { font-size: 0.75rem; }
+  .tall .tv { font-size: 0.6875rem; }
+  .fit-full .short, .fit-short .full, .fit-name .full, .fit-name .tv, .fit-icon .full, .fit-icon .short, .fit-icon .tv, .fit-none .tm-txt { display: none; }
+  .fit-icon .tm-txt { align-items: center; justify-content: center; }
+  .fit-icon .gi { margin: 0; }
+  .fit-icon .tm-in { padding: 0; }
+  .tm-small { list-style: none; margin: 0; padding: 0; columns: 2 18rem; column-gap: var(--s5); }
+  .tm-small li { break-inside: avoid; padding: 2px 0 2px 22px; position: relative; }
+  .tm-small .gi { position: absolute; left: 0; top: 0.3em; width: 16px; height: 16px; }
+  .tm-src { text-align: center; max-width: 70ch; margin-inline: auto; }
+</style>

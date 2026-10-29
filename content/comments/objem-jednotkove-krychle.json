@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stavba z kostek ukazuje, co je objem: kolik místa zabírá těleso v prostoru. Když spočítáš kostky po vrstvách, přicházíš na to, proč se objem kvádru počítá násobením, což tě čeká v dalších ročnících. Stejně uvažuje každý, kdo skládá krabice do kufru auta nebo bedny do regálu ve skladu. Aplikace spočítá i kostky, které nejsou vidět, jenže představit si těleso z různých stran se musí naučit tvoje hlava, a to jde nejlíp se skutečnými kostkami v ruce.",
+  "learnWithAi": [
+    {
+      "title": "Stavby podle popisu",
+      "text": "Poproste s rodičem chatbota, ať vám popíše jednoduchou stavbu, třeba dvě vrstvy po čtyřech kostkách. Postav ji ze skutečných kostek a spočítej, kolik jich je."
+    },
+    {
+      "title": "Krabice plná kostek",
+      "text": "Zeptejte se chatbota na úlohu o krabici, do které se skládají kostky po vrstvách. Než se podíváte na jeho řešení, spočítej ji s kostkami na stole."
+    },
+    {
+      "title": "Schované kostky ve stavbě",
+      "text": "Postav stavbu, ve které některé kostky nejsou vidět, a požádejte s rodičem chatbota o vysvětlení, jak je spočítat po vrstvách. Pak stavbu rozeberte a ověřte, jestli to sedí."
+    }
+  ]
+}

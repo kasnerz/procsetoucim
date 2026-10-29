@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Síla se značí F, měří se v newtonech a na siloměru ji uvidíš doopravdy: kolik musíš táhnout aktovku po stole nebo jak silně Země přitahuje zavěšené závaží. Číst stupnici a psát ke každému číslu správnou jednotku budeš ve fyzice pořád, stejně jako u každého jiného měřidla od kuchyňské váhy po tlakoměr. Sílu měří lidé, kteří zkoušejí stroje ve vývoji, a třeba i ve fyzioterapii se sleduje, jak sval po úrazu sílí. Chatbot ti vysvětlí, co je newton, siloměr ale musíš zavěsit, odečíst a změřit znovu, když výsledek nesedí.",
+  "learnWithAi": [
+    {
+      "title": "Stupnice siloměru slovy",
+      "text": "Popros chatbota o slovní popisy stupnic siloměru, třeba s rozsahem a polohou ručičky, a urči z nich naměřenou sílu. Chybné odpovědi si nech rozebrat."
+    },
+    {
+      "title": "Tíha penálu v newtonech",
+      "text": "Požádej chatbota, ať ti vysvětlí, jak hmotnost předmětu souvisí s jeho tíhou v newtonech. Potom si tipni tíhu svého penálu a ověř ji siloměrem."
+    },
+    {
+      "title": "Protokol z měření",
+      "text": "Zapiš výsledky svého měření tažné síly do krátkého protokolu a dej ho chatbotovi přečíst. Ať ti ukáže chybějící jednotky nebo nejasné věty, opravy ale udělej ty."
+    }
+  ]
+}

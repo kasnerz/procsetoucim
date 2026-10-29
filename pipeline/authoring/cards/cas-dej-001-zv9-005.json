@@ -1,0 +1,395 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dejsvatky-statni-svatky-v-kalendari",
+      "title": "Státní svátky a významné dny v kalendáři",
+      "aliases": [
+        "státní svátky",
+        "svátky v kalendáři",
+        "významné dny",
+        "kdy je svátek",
+        "datum svátku"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Uvede příklady státních svátků"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vlastními slovy popíše státní a ostatní svátky"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Spojí historicky významné dny v kalendáři"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vypíše svátky a vyzkouší tě, ke kterému datu patří."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam státních svátků a dnů volna najdeš v kalendáři na webu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalendář v telefonu ukáže, kdy který svátek vychází."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový kalendář s vyznačenými svátky si můžeš pověsit nad stůl."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+      ],
+      "inspiration": [
+        "Státní svátky"
+      ]
+    },
+    {
+      "slug": "dejsvatky-duvody-slaveni-svatku",
+      "title": "Proč slavíme státní svátky",
+      "aliases": [
+        "důvody svátků",
+        "historie svátků",
+        "proč se slaví",
+        "co se stalo",
+        "tradice a obyčeje"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Objasní důvody, proč slavíme státní svátky"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí důvody jejich slavení"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co se stalo v den svátku, a poradí, jak to říct vlastními slovy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a webové stránky o svátcích popisují událost za každým dnem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s kalendářem ukáže datum, důvod svátku ti nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj ti důvod svátku nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Svatý Václav",
+        "Proč slavili ve středověku Vánoce?"
+      ]
+    },
+    {
+      "slug": "dejsvatky-ulice-a-budovy-po-udalostech",
+      "title": "Ulice a budovy pojmenované po událostech a osobnostech",
+      "aliases": [
+        "názvy ulic",
+        "pojmenování ulic",
+        "pomníky",
+        "ulice u nás",
+        "po kom je ulice"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Najde ve svém okolí názvy ulic a budov"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Když najdeš název ulice, vysvětlí, kdo to byl a jaká událost se s ním pojí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač a Wikipedie ti k jménu ulice najdou životopis i událost."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa v telefonu ukáže názvy ulic v okolí školy a domova."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Ulice a tabulky objevuješ venku nohama ty, papírová mapa to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/177983da-20a1-451c-98e6-21e6b4ed97ae"
+      ]
+    },
+    {
+      "slug": "dejsvatky-zdroje-o-vyznamnych-dnech",
+      "title": "Zjišťování faktů o významných dnech a výročích",
+      "aliases": [
+        "hledání informací",
+        "zdroje o svátcích",
+        "výročí",
+        "mezinárodní dny",
+        "ověřování informací"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Využije různé zdroje a zjistí faktografické informace"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Využije různé zdroje a zjistí faktografické informace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne fakta o výročí, ale jména a data si ověř jinde, chatbot se plete."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky institucí dají ověřená data a souvislosti."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná jednoúčelová aplikace zdroje o výročích netřídí, hledáš je ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalendář, encyklopedie nebo učebnice v knihovně dají data k porovnání."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a"
+      ]
+    },
+    {
+      "slug": "dejsvatky-vlastni-kalendar-vyznamnych-dnu",
+      "title": "Vlastní kalendář významných dnů",
+      "aliases": [
+        "můj kalendář",
+        "dny, které jsou důležité pro mě",
+        "svátky spolužáků",
+        "romské a ukrajinské svátky",
+        "doplnění kalendáře"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Doplňuje kalendář dalšími událostmi"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Doplňuje kalendář událostmi"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co které skupiny slaví, a poradí, jak se zeptat spolužáků."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové stránky komunit a kulturních institucí popisují jejich významné dny."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalendář v telefonu umí přidat vlastní události s datem a poznámkou."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Do papírového kalendáře dopíšeš významné dny, které ti řekli spolužáci a učitelé."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c",
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ]
+    },
+    {
+      "slug": "dejsvatky-svatky-a-moje-zkusenost",
+      "title": "Význam svátků a moje zkušenost s nimi",
+      "aliases": [
+        "moje oslavy",
+        "aktuálnost svátků",
+        "jak slavím",
+        "zapojení do oslav",
+        "význam svátku dnes"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Posoudí význam a aktuálnost vybraných svátků"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Položí ti otázky k tvému prožívání svátku, odpovědět musíš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Ve webovém zdroji tvou zkušenost nenajdeš, ta je tvoje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvůj vztah ke svátkům neposoudí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj za tebe neposoudí, co ti svátek říká."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+      ],
+      "inspiration": [
+        "Které státní svátky a významné dny bychom měli slavit?"
+      ]
+    },
+    {
+      "slug": "dejsvatky-svatky-a-identita-skupiny",
+      "title": "Jak svátky a výročí utvářejí identitu",
+      "aliases": [
+        "identita",
+        "národní identita",
+        "kdo jsme",
+        "proč se liší připomínání",
+        "vytěsňování událostí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Diskutuje o tom, jaký vliv na utváření identity"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, jak svátky a výročí ovlivňují"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne argumenty pro obě strany a zeptá se, proč se některé dny slaví a jiné ne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a encyklopedie ukážou, jak se připomínání událostí v čase měnilo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace diskuzi ve třídě nevede, o identitě mluvíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Diskutovat o vlastní identitě pomůže spolužák, žádný nástroj to nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Mělo by se 28. září slavit jako Den české státnosti?"
+      ]
+    },
+    {
+      "slug": "dejsvatky-zneuziti-svatku-politikou",
+      "title": "Politické zneužívání svátků v minulosti",
+      "aliases": [
+        "propaganda",
+        "zneužití svátků",
+        "politika a svátky",
+        "9. května",
+        "1. máj"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady politického zneužívání svátků"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak režimy využívaly oslavy, a poradí, kde ověřit příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a archivy popisují, jak se svátky využívaly v propagandě."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace příklady zneužití svátků nevybere."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dobové plakáty a fotografie v muzeu ukazují, jak oslavy vypadaly."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a"
+      ]
+    }
+  ],
+  "aside": []
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Změřit vzdálenost a čas zní jednoduše, dokud nezjistíš, že se pásmo prohýbá a stopky mačkáš o kus později, než kamarád vyběhne. Tady se učíš měřit víckrát, zapisovat jednotky a počítat s tím, že každé měření má malou chybu, a bez toho by žádný výpočet rychlosti nedával smysl. Mobil ti změří čas i délku trasy, ale u krátkých úseků se jeho poloha snadno splete o několik metrů, proto je dobré umět měřit i metrem. Přesné měření v terénu je každodenní práce lidí, kteří vyměřují pozemky a stavby, a takových pracovních míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Postup a tabulka na zápis",
+      "text": "Popiš chatbotovi, co chceš změřit, třeba sprint na hřišti, a požádej ho o postup a tabulku na zápis. Rozhodni, co z návrhu dává smysl, a zbytek škrtni."
+    },
+    {
+      "title": "Chyby, které měření kazí",
+      "text": "Zeptej se chatbota, jaké chyby se při měření stopkami a pásmem dělají nejčastěji. Při dalším měření si u každé zapiš, jestli se objevila i u tebe."
+    },
+    {
+      "title": "Rozbor pěti stejných měření",
+      "text": "Změř stejný úsek pětkrát a hodnoty dej chatbotovi. Nech si vysvětlit, proč se liší a jak z nich spočítat průměr, a ten pak spočítej na papíře."
+    }
+  ]
+}

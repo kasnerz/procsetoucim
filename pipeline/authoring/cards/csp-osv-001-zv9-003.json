@@ -1,0 +1,345 @@
+{
+  "outcome": "CSP-OSV-001-ZV9-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "osobni-rozvoj-priority-cile",
+      "title": "Priority a cíle osobního rozvoje",
+      "aliases": [
+        "moje priority",
+        "cíle do roku",
+        "co chci zlepšit",
+        "smart cíl",
+        "krátkodobý a dlouhodobý cíl"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Podle svých priorit si stanoví krátkodobý cíl osobního rozvoje"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Podle svých priorit si stanoví dlouhodobější cíl osobního rozvoje"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zvažuje své priority a zkouší si stanovit krátkodobý i dlouhodobější cíl"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "zkusí si stanovit jednoduchý cíl osobního rozvoje"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "diskutuje své priority v osobním rozvoji"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak má vypadat konkrétní a měřitelný cíl, a řekne ti, co se na tvém cíli dá upřesnit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukáže příklady SMART cílů a postupů, podle kterých si svůj cíl zformuluješ."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Co je pro tebe důležité, ti žádná aplikace nezjistí, to rozhoduješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Priority a cíle si stanovuješ v hlavě, papír je jen zapíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed",
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ],
+      "inspiration": [
+        "SMART cíle a první malý krok",
+        "Priority při plánování"
+      ]
+    },
+    {
+      "slug": "osobni-rozvoj-plan-kroku",
+      "title": "Plán kroků k cíli",
+      "aliases": [
+        "plán s kroky",
+        "jak dosáhnu cíle",
+        "rozepsat cíl na kroky",
+        "první krok",
+        "slon po kouskách"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "zkusí si sestavit plán s několika kroky, a první krok si vyzkoušet a vyhodnotit"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše cíle svého osobního rozvoje a jednotlivé kroky k jejich dosažení."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zkouší si stanovovat různé cíle osobního rozvoje, a kroky k jejich dosažení"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, jak cíl rozdělit na menší kroky, a ty vybereš, co zvládneš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tipy a ukázky plánů, jak jít za cílem krok za krokem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Plánovač nebo kalendář ti kroky rozloží do dnů a připomene je."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, nástěnka nebo diář ti plán ukážou před očima."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed",
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ],
+      "inspiration": [
+        "Slon – jak jít za svým snem, krok za krokem",
+        "Plán a realizace vlastního SMART cíle"
+      ]
+    },
+    {
+      "slug": "osobni-rozvoj-sledovani-planu",
+      "title": "Sledování plánu a pokroku",
+      "aliases": [
+        "jak mi to jde",
+        "deník cíle",
+        "zaškrtávací tabulka",
+        "sledování pokroku",
+        "aplikace na návyky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Při sestavování, monitorování a vyhodnocení svého plánu využívá různé nástroje včetně digitálních technologií."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "při sestavování, monitorování a vyhodnocení svého plánu využívá různé nástroje včetně digitálních technologií"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak plán sledovat, a pomůže vymyslet tabulku nebo deník."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvůj pokrok na internetu nenajdeš, sleduješ ho ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na úkoly a návyky ukáže, kolik kroků máš hotovo."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový diář nebo tabulka s fajfkami ukáže, co už je splněno."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "osobni-rozvoj-hodnoceni-strategii",
+      "title": "Vyhodnocení plánu a změny postupu",
+      "aliases": [
+        "splněný cíl",
+        "co mi pomohlo",
+        "změnit plán",
+        "sebereflexe",
+        "zhodnotit cíl"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Při realizaci plán vyhodnocuje a reflektuje strategie, které mu pomohly cíle dosáhnout."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zkouší si vyhodnocovat průběžné kroky k cíli, a různé strategie k dosažení cíle"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na základě zkušenosti s realizací cílů navrhuje možné změny stanovených cílů nebo kroků k jejich dosažení"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se, co fungovalo a co ne, a pomůže ti zformulovat, co změnit."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co se v tvém plánu osvědčilo, ví jen ten, kdo ho zkoušel."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nemá z čeho vyhodnotit, jak to šlo právě tobě."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Zápisky v deníku ukážou, co se dělo a co ti pomáhalo."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "osobni-rozvoj-prekazky-neuspech",
+      "title": "Překážky a neúspěch při plnění cíle",
+      "aliases": [
+        "co mi brání",
+        "proč se to nepovedlo",
+        "překonání překážky",
+        "prokrastinace",
+        "odkládání úkolů"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V modelové situaci neúspěšného naplnění cílů zhodnotí možné příčiny"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "v modelové situaci poznává jak překonat vybranou překážku k dosažení cíle"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "v modelové situaci zkouší různé strategie pro překonávání překážek k dosažení svých cílů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou modelovou situaci a nabídne několik způsobů, jak překážku zdolat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš články a rady, jak se vyrovnat s odkládáním a neúspěchem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nevymyslí, co ti stojí v cestě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Překážky v modelové situaci rozebíráš s ostatními, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed"
+      ],
+      "inspiration": [
+        "Slon – jak jít za svým snem, krok za krokem",
+        "SWOT v plánování osobního rozvoje"
+      ]
+    },
+    {
+      "slug": "osobni-rozvoj-sdileni-zkusenosti",
+      "title": "Povídání o zkušenostech s plánováním",
+      "aliases": [
+        "představit svůj cíl",
+        "diskuse ve třídě",
+        "prezentace o mém plánu",
+        "vyprávění o zkušenostech"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Prezentuje získané zkušenosti s plánováním a realizací osobního rozvoje."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "diskutuje získané zkušeností s plánováním a realizací"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje získané zkušeností s plánováním a realizací osobního rozvoje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti sepsat, co chceš říct, a vyzkoušet krátký výstup nanečisto."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Vlastní zkušenost si v encyklopedii nepřečteš, vyprávíš ji ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prezentační program pomůže zpracovat podklady pro vystoupení."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před třídou mluvíš ty, k tomu žádný nástroj neslouží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Stanovuje si krátkodobý cíl",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "outcome": "CAP-FYZ-003-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "zvuk-zdroje-a-vznik-kmitani",
+      "title": "Zdroje zvuku a jeho vznik kmitáním",
+      "aliases": [
+        "odkud se bere zvuk",
+        "co je zvuk",
+        "zdroje zvuku",
+        "kmitání",
+        "proč něco zní"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Uvede příklady zdrojů zvuku."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Pozoruje, že tělesa, která vydávají zvuk, kmitají."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí vznik konkrétních zvuků."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč struna nebo reproduktor zní, a zeptá se tě na tvůj příklad."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu popis vzniku zvuku a obrázky kmitající struny."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s kamerou zpomalí video a ukáže kmitání struny."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kmitající pravítko nebo struna ti ukážou, že zvuk vzniká pohybem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99",
+        "http://data.europa.eu/esco/skill/29d4aaba-99f9-4733-bd74-ad558f2ae3a7"
+      ],
+      "inspiration": [
+        "Předměty vydávající zvuk",
+        "Zdroje zvuku"
+      ]
+    },
+    {
+      "slug": "kmitavy-pohyb-predvedeni",
+      "title": "Kmitavý pohyb",
+      "aliases": [
+        "kmitání",
+        "kyvadlo",
+        "pružina",
+        "pravidelný pohyb",
+        "kmity"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Předvede kmitavý pohyb."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Závažím nebo pravítkem musíš pohnout ty, chatbot ho nerozkmitá."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Návod si přečteš, kmitání ale nevyvoláš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Simulace kyvadla ukáže kmity, které doma nevidíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Závaží na pružině nebo pravítko na hraně lavice kmitá před tebou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99"
+      ],
+      "inspiration": [
+        "Kmitavý pohyb"
+      ]
+    },
+    {
+      "slug": "perioda-frekvence-amplituda-mereni",
+      "title": "Perioda, frekvence a amplituda kmitání",
+      "aliases": [
+        "perioda",
+        "frekvence",
+        "amplituda",
+        "hertz",
+        "výchylka",
+        "kolik kmitů za sekundu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s pojmem perioda, frekvence a amplituda."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Změří periodu a amplitudu u vhodného kmitavého pohybu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy jinými slovy a zkontroluje, jestli správně počítáš periodu z frekvence."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Definice a vzorce si vyhledáš v učebnici nebo na Wikipedii."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na natáčení videa nebo stopky změří čas kmitů přesněji než oko."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Stopky a pravítko změří periodu a amplitudu přímo na kmitajícím závaží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99",
+        "http://data.europa.eu/esco/skill/cfa2be0d-96d5-4017-a866-962efb9c5070"
+      ],
+      "inspiration": [
+        "Kmitavý pohyb"
+      ]
+    },
+    {
+      "slug": "vlneni-priklady-a-predvedeni",
+      "title": "Vlnění a jeho příklady",
+      "aliases": [
+        "vlny",
+        "vlna na vodě",
+        "vlnění",
+        "šíření vlnění",
+        "vlna na laně"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Uvede příklady různých vlnění."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Předvede vlnění."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá příklady vln od vody po světlo a vysvětlí, čím se liší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu obrázky a animace různých vln."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Simulace vlnění ukáže, jak se vlna šíří a odráží."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dlouhá pružina nebo lano ti vlnění ukáže přímo v ruce."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vizualizace-zvuku-v-aplikaci",
+      "title": "Průběh zvuku v aplikaci",
+      "aliases": [
+        "osciloskop",
+        "jak vypadá zvuk",
+        "zobrazení tónu",
+        "průběh tónu",
+        "šum a tón",
+        "hlasitost a výška tónu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s digitální aplikací schopnou vizualizovat zvuk."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pomocí vizualizace na digitální aplikaci ukáže průběh šumu a průběh tónů různých frekvencí i různých hlasitostí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč má vyšší tón hustší vlnku a hlasitější tón vyšší vlnku."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Průběh svého zvuku chatbot nevidí ani nezobrazí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace nakreslí tvůj hlas nebo tón ze zvukové ladičky jako křivku."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj průběh zvuku nezobrazí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cfa2be0d-96d5-4017-a866-962efb9c5070",
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99",
+        "http://data.europa.eu/esco/skill/7c794fa9-7b30-40a4-a3c8-a34c6bdc367a"
+      ],
+      "inspiration": [
+        "Průběhy tónů a jiných zvuků"
+      ]
+    },
+    {
+      "slug": "vyska-a-hlasitost-tonu",
+      "title": "Výška a hlasitost zvuku",
+      "aliases": [
+        "vysoký a hluboký tón",
+        "proč je tón vyšší",
+        "hlasitý a tichý zvuk",
+        "frekvence a tón",
+        "hudba a fyzika"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Uvědomuje si, že různé zvuky mohou mít různou hlasitost."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Uvědomuje si, že různá tělesa vydávají zvuky různé výšky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, že vyšší frekvence dává vyšší tón, a propojí to s hudbou."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulky frekvencí tónů a ukázky zvuků najdeš na webu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Ladička v aplikaci přehraje tón a ukáže jeho frekvenci."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Struny, trubky nebo láhve s vodou ti rozdílné výšky tónů pustí do uší."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99",
+        "http://data.europa.eu/esco/skill/54e7e8a6-3de2-453a-9f75-645e3488b9c0",
+        "http://data.europa.eu/esco/skill/29d4aaba-99f9-4733-bd74-ad558f2ae3a7"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vzdalenost-bourky-z-blesku-a-hromu",
+      "title": "Vzdálenost bouřky z času mezi bleskem a hromem",
+      "aliases": [
+        "jak daleko je bouřka",
+        "blesk a hrom",
+        "rychlost zvuku",
+        "počítání bouřky",
+        "kolik sekund mezi bleskem a hromem"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Uvědomuje si, že zvuk hromu má jinou rychlost než světlo blesku."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Připomene si výpočet vzdálenosti ze známé rychlosti a času."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Ze znalosti času mezi bleskem a hromem vypočítá přibližnou vzdálenost bouřky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkontroluje tvůj postup a vysvětlí, proč světlo vidíš dřív než slyšíš zvuk."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš rychlost zvuku ve vzduchu a pravidlo o třech sekundách na kilometr."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Stopky v telefonu nebo aplikace s radarem bouřek ti změří čas nebo ukážou polohu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti zkontroluje výpočet vzdálenosti z rychlosti a času."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/840ea882-439c-4fa9-b219-edbe0607fe60",
+        "http://data.europa.eu/esco/skill/1b270383-b30c-4092-a9ed-b1637ecf2b79"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "mereni-hluku-aplikaci",
+      "title": "Měření hluku v okolí",
+      "aliases": [
+        "hlukoměr",
+        "decibely",
+        "kolik decibelů",
+        "hladina hluku",
+        "hlasitost v okolí",
+        "aplikace na měření hluku"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s digitální aplikací schopnou určit hluk."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s typickými hodnotami hladiny intenzity zvuku s ohledem na zdraví."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pomocí digitální aplikace změří hluk na různých místech ve svém okolí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co znamenají decibely, a pomůže ti srovnat naměřené hodnoty s bezpečnými."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tabulky hluku od šepotu po letadlo a hygienické limity."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mikrofonem telefonu změří hluk v učebně i na ulici."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Hluk bez přístroje jen odhadneš, ucho ho přesně neměří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/351cd749-498c-4ed3-9e38-58fc9bbf8f0e",
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99",
+        "http://data.europa.eu/esco/skill/7c794fa9-7b30-40a4-a3c8-a34c6bdc367a"
+      ],
+      "inspiration": [
+        "Hluk kolem nás"
+      ]
+    },
+    {
+      "slug": "ochrana-pred-hlukem",
+      "title": "Škodlivý hluk a ochrana před ním",
+      "aliases": [
+        "ochrana sluchu",
+        "špunty do uší",
+        "hluk a zdraví",
+        "jak se chránit před hlukem",
+        "zvuková izolace",
+        "sluchátka a hlasitost"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Identifikuje zdroje zvuku v běžných situacích, popíše potenciálně škodlivé důsledky zvuku a popíše způsoby ochrany před nadměrným hlukem."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Experimentálně zkoumá různé způsoby omezení hluku."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Uvede příklady způsobů omezení hluku, které zná ze své zkušenosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak hluk poškozuje sluch, a navrhne pokusy s různými izolacemi."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš doporučení lékařů a popis zvukové izolace materiálů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na měření hluku ukáže, o kolik materiál zvuk zeslabí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Špunty, molitan nebo karton ti při pokusu opravdu zvuk ztlumí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/351cd749-498c-4ed3-9e38-58fc9bbf8f0e",
+        "http://data.europa.eu/esco/skill/1a4490c8-e98b-49f0-bdc8-78484a978dc0",
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99"
+      ],
+      "inspiration": [
+        "Hluk kolem nás"
+      ]
+    },
+    {
+      "slug": "slyseni-nejvyssi-tony",
+      "title": "Jak vysoké tóny slyšíš",
+      "aliases": [
+        "slyšitelnost",
+        "test sluchu",
+        "nejvyšší tón",
+        "sluchový rozsah",
+        "ultrazvuk",
+        "kolik hertzů slyším"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pomocí digitální aplikace určí, jak vysoké tóny ještě slyší."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozsah lidského sluchu a proč se s věkem zhoršuje, test za tebe ale neposlechne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš rozsah lidského sluchu a ukázky tónů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace přehrává tóny od nízkých po vysoké a ty poznáš, kde přestaneš slyšet."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj tóny o přesné frekvenci nevytvoří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1a4490c8-e98b-49f0-bdc8-78484a978dc0",
+        "http://data.europa.eu/esco/skill/26879b10-1df9-4071-a4c5-cb8e32eddb99"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Uvědomuje si, že některé děje se pravidelně opakují.",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

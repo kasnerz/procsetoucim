@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "2b871272-bd61-4206-bd1a-0b96d7023098": "U pokladny se pořád sčítají ceny položek a odečítá se, kolik vrátit. Pokladna součet spočítá, ale kdo u ní pracuje, musí poznat, že částka nesedí.",
+  "9a99a5fe-875d-49b2-9b53-cc1b73be1659": "Při prodeji jízdenek a vracení peněz se sčítají ceny s desetinnými částkami. Denní výkaz tržeb se zapisuje a musí souhlasit s pokladnou.",
+  "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547": "Ceny z několika vážení se sčítají do jednoho účtu a od zaplacené částky se odečítá, kolik vrátit. Většinou jde o částky s desetinnou čárkou.",
+  "0cca32c2-9308-4927-adb2-14771ab787f0": "Náklady na materiál, práci a techniku se sčítají do rozpočtu stavby. Průběžně se odečítá, co už je utraceno, aby bylo jasné, kolik zbývá.",
+  "961cbd1f-2a9b-4756-b227-67a1c23c94b6": "Při směně žetonů za peníze a při vyplácení výher se částky sčítají a odečítají. Peníze v registrační pokladně se po směně počítají a musí sedět.",
+  "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81": "Každá směna se zapisuje do záznamů a na konci musí součet přijatých a vydaných peněz sedět. Kurzy mají desetinná místa, počítání s nimi je tu běžné.",
+  "78db356f-a96a-4456-ab29-2de62e52f830": "Příjmy a výdaje instituce se sčítají a odečítají v účetních záznamech. Software pomáhá, ale rozdíl mezi příjmy a výdaji musí dávat smysl.",
+  "bafbc672-0ad9-41af-9de8-db0c91a24f9b": "Na fakturu se sčítají položky a odečítá se třeba dobropis. Částky mají desetinná místa a při chybě dostane zákazník špatný doklad."
+ }
+}

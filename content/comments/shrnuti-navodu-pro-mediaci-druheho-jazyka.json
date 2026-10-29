@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když kamarád nerozumí návodu v cizím jazyce nebo třída potřebuje vědět, co stálo v článku, celý překlad mu nepomůže. Pomůže mu pár vět s tím hlavním. Hodí se to v práci, kde je informací víc, než kolik lidé stihnou přečíst: kdo se stará o komunikaci firmy, každý den zkracuje zprávy a podklady pro ostatní, a kdo zkoumá trh, shrnuje zjištění do krátké zprávy. Automatické shrnutí dnes umí aplikace i chatbot, jenže nevědí, co z textu potřebuje právě tvůj posluchač. Rozhodnout, co je hlavní a co se dá vynechat, zůstává na tobě, a bez toho nepoznáš, jestli strojové shrnutí něco důležitého nevypustilo.",
+  "learnWithAi": [
+    {
+      "title": "Návod zkrácený pro kamaráda",
+      "text": "Vlož do chatbota krátký návod v cizím jazyce a napiš k němu česky tři věty pro kamaráda. Požádej ho, ať tvoje shrnutí porovná s textem a řekne, jestli ti nechybí hlavní bod."
+    },
+    {
+      "title": "Výběr nejdůležitějších údajů",
+      "text": "Požádej chatbota o jednoduchý článek v jazyce, který se učíš, a vyber z něj nejvýš pět údajů pro někoho, kdo ho číst nebude. Potom se zeptej, které by vybral on a proč."
+    },
+    {
+      "title": "Report z několika zdrojů",
+      "text": "Najdi si dva krátké texty k jednomu tématu, třeba o místě, kam pojedete na výlet, a sepiš z nich krátký report pro třídu. Chatbot ať ho přečte jako spolužák a zeptá se na všechno, čemu nerozuměl."
+    }
+  ]
+}

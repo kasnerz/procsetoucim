@@ -1,0 +1,366 @@
+{
+  "outcome": "UAK-HTD-001-ZV5-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "reakce-na-tvorbu",
+      "title": "Reakce na tvorbu slovem, pohybem a zvukem",
+      "aliases": [
+        "jak reaguješ na písničku",
+        "reakce pohybem",
+        "reakce zvukem",
+        "bez slov"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Reaguje na svou tvorbu i tvorbu ostatních jemu dostupnými prostředky - slovem, pohybem, zvukem či jinými nonverbálními prostředky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Zareagovat slovem, pohybem nebo zvukem můžeš jen ty, chatbot za tebe nezatleská."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoji reakci na vystoupení internet nenabízí, vzniká až u tebe."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nezareaguje ani nezatančí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Hudební nástroj ti dá zvuk, kterým můžeš na tvorbu odpovědět."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/93350886-a21b-4e61-a1b1-319a325c0f90"
+      ],
+      "inspiration": [
+        "Reflektivní řízený rozhovor"
+      ]
+    },
+    {
+      "slug": "pocity-z-vlastni-prace",
+      "title": "Pocity z vlastní a společné práce",
+      "aliases": [
+        "jak se ti dařilo",
+        "pocity po vystoupení",
+        "co ti šlo dobře",
+        "co zlepšit"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyjadřuje verbálně i neverbálně své pocity a reakce na svou individuální i skupinovou práci."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vyjadřuje své pocity a prožitky z individuální i skupinové činnosti, naslouchá zpětné vazbě, zamýšlí se nad svou prací a rozeznává, co mu šlo dobře, v čem by se mohl dále rozvíjet."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne slova pro pocity, ty vybereš ta, která sedí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoje pocity z vystoupení internet nezná."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvůj zážitek nepopíše."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pocity z práce nástrojem nezměříš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/93350886-a21b-4e61-a1b1-319a325c0f90",
+        "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69"
+      ],
+      "inspiration": [
+        "Hudební výchova: Sólový projev a jeho reflexe",
+        "Reflexe tvůrčí činnosti Čtyři živly v taneční a hudební improvizaci"
+      ]
+    },
+    {
+      "slug": "oceneni-prace-druhych",
+      "title": "Ocenění práce spolužáků",
+      "aliases": [
+        "pochvala spolužákovi",
+        "co se mi líbilo",
+        "potlesk",
+        "inspirace od druhých"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Věnuje pozornost tvorbě jiných, dává a zdůvodňuje ocenění pro ostatní, pojmenovává, co ho na tvorbě zaujalo a čím je pro něj inspirativní."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zapojuje se do zpětné vazby vedené učitelem vyjadřuje, co ho na práci ostatních zaujalo."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Projevuje zájem o práci spolužáků, vyjadřuje verbálně i neverbálně jednoduchá ocenění (\"líbí se mi\", potleskem)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, jak pochvalu zdůvodnit, ale co tě zaujalo, poznáš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na internetu nic hledat nepotřebuješ, práci spolužáků vidíš ve třídě."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nepochválí ani nezatleská."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Ocenit někoho můžeš jen ty, potleskem nebo slovy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b"
+      ],
+      "inspiration": [
+        "Příklad reflektivního a zpětnovazebního procesu po tvůrčí nebo interpretační činnosti žáků",
+        "Premiéra skončila! Jdeme na tiskovku!"
+      ]
+    },
+    {
+      "slug": "zpetna-vazba-ucitele",
+      "title": "Přijetí zpětné vazby",
+      "aliases": [
+        "rada od učitele",
+        "připomínky spolužáků",
+        "jak se zlepšit",
+        "pochvala a kritika"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Přijímá zpětnou vazbu od učitele a spolužáků, vnímá ji jako inspiraci pro vlastní práci."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Naslouchá zpětné vazbě učitele učitele a reaguje na ni ve své činnosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Přeloží radu učitele do kroků, co příště změnit."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Zpětnou vazbu k tvé práci internet nemá."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe radu nevyslechne ani nepoužije."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Poslechnout si radu a použít ji musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+        "http://data.europa.eu/esco/skill/93350886-a21b-4e61-a1b1-319a325c0f90"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "kriteria-hodnoceni",
+      "title": "Hodnocení podle kritérií",
+      "aliases": [
+        "podle čeho se hodnotí",
+        "sebehodnocení",
+        "kritéria od učitele",
+        "hodnoticí otázky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zapojuje se do reflexe vedené učitelem, opírá se o učitelem formulovaná kritéria hodnocení."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Při formulaci zpětné vazby a sebehodnocení se opírá o jednoduchá kritéria daná učitelem."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Rozumí jednoduchým kritériím hodnocení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí kritéria jednoduššími slovy a ukáže příklad."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Kritéria ke tvému vystoupení určuje učitel, na internetu nejsou."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace vystoupení podle zadání učitele neohodnotí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírová tabulka ti jen připomene body, hodnotit musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+        "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69"
+      ],
+      "inspiration": [
+        "Reflektivní řízený rozhovor"
+      ]
+    },
+    {
+      "slug": "muj-podil-na-spolecne-tvorbe",
+      "title": "Můj podíl na společné tvorbě",
+      "aliases": [
+        "co jsem dělal ve skupině",
+        "skupina nebo sám",
+        "společné vystoupení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozeznává rozdíl mezi prožitkem z individuální a skupinové tvorby a interpretace."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše svůj podíl na společném procesu interpretace a tvorby."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se tě na tvoji roli ve skupině a pomůže ji popsat."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvůj podíl na společné práci internet nezná."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvoji roli ve skupině nezná."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj ti tvůj podíl nepopíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/93350886-a21b-4e61-a1b1-319a325c0f90",
+        "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436"
+      ],
+      "inspiration": [
+        "Dramatická výchova: příklady pro reflektivní aktivity"
+      ]
+    },
+    {
+      "slug": "oborove-pojmy",
+      "title": "Hudební a dramatické pojmy",
+      "aliases": [
+        "tón",
+        "rytmus",
+        "role",
+        "jeviště",
+        "slovník hudební výchovy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozumí základním oborovým pojmům, s nimiž se seznámil v praktických reprodukčních, produkčních, interpretačních a tvůrčích činnostech."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Využívá jemu dostupné pojmy a terminologii při popisu a případném hodnocení vlastního projevu i projevu druhých."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozumí širší škále oborových pojmů, když jsou používány ve výuce nebo v rámci činnosti, a na základě toho správně reaguje."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "V činnostech se seznamuje se základními oborovými pojmy (tón, rytmus, role, jeviště apod.) a začíná jim intuitivně rozumět."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem jednoduše a s příklady, použít ho musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a slovníky pojmů ti ukážou, co které slovo znamená."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Hudební aplikace pojem ukáže na zvuku, třeba tón nebo rytmus."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Na nástroji si tón a rytmus zahraješ a uslyšíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

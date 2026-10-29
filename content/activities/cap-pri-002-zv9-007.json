@@ -1,0 +1,716 @@
+[
+  {
+    "slug": "klimatu-kolobeh-uhliku-schema",
+    "title": "Koloběh uhlíku ve schématu",
+    "aliases": [
+      "koloběh uhlíku",
+      "fotosyntéza dýchání rozklad",
+      "uhlík v přírodě",
+      "schéma koloběhu"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "identifikuje přírodní procesy s použitím schématu koloběhu uhlíku (fotosyntéza, dýchání, rozklad) a objasní jejich roli v produkci a zachytávání skleníkových plynů",
+        "quote": "identifikuje přírodní procesy s použitím schématu koloběhu uhlíku"
+      },
+      {
+        "level": "Splněno",
+        "point": "Identifikuje přírodní procesy s použitím schématu koloběhu uhlíku (fotosyntéza, dýchání, rozklad), objasní jejich roli v produkci a zachytávání skleníkových plynů obsahujících uhlík.",
+        "quote": "Identifikuje přírodní procesy s použitím schématu koloběhu uhlíku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Detektivové uhlíkového koloběhu",
+        "url": "https://uloziste.rvp.cz/material/184dd4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kam ve schématu patří fotosyntéza, dýchání i rozklad, a dá se ho ptát dál."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotová schémata a popisy koloběhu uhlíku si můžeš porovnat s vlastním."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na kreslení ti pomůže schéma narýsovat a přeskládat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj ti roli procesů v koloběhu neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24",
+      "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0",
+      "http://data.europa.eu/esco/skill/442328a8-8a11-4e15-b80c-402a9bd5844d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-procesy-v-okoli-uhlik",
+    "title": "Fotosyntéza, dýchání a rozklad v okolí",
+    "aliases": [
+      "fotosyntéza v přírodě",
+      "rozklad listí",
+      "stromy a půda zásobárny uhlíku",
+      "pozorování přírody"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozpozná v přírodě ve svém okolí organismy a procesy, které souvisí s koloběhem uhlíku, konkrétně fotosyntézu u zelených organismů ve vodě a na souši, rozklad a dýchání, stromy a půdu jako zásobárny uhlíku.",
+        "quote": "Rozpozná v přírodě ve svém okolí organismy a procesy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozklad a uhlík v půdě",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Procesy v okolí poznáváš očima ty venku, chatbot u toho není."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky a popisy ti ukážou, jak rozpoznat rozkládající se list nebo zelenou řasu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na určování rostlin ti pomůže poznat, co před sebou máš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a rýč ti ukážou rozklad v půdě zblízka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0",
+      "http://data.europa.eu/esco/skill/e5727f3b-0dc9-4daf-84e0-d5789b33a6d9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-emise-lidske-cinnosti",
+    "title": "Lidská činnost a skleníkové plyny",
+    "aliases": [
+      "příčiny změn klimatu",
+      "emise skleníkových plynů",
+      "odlesňování",
+      "zemědělství a klima",
+      "rybolov"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "objasní roli činnosti člověka (včetně zemědělství, odlesňování, intenzivního rybolovu) v emisích skleníkových plynů ze souše a oceánu",
+        "quote": "objasní roli činnosti člověka (včetně zemědělství"
+      },
+      {
+        "level": "Splněno",
+        "point": "Objasní roli činnosti člověka (včetně zemědělství, odlesňování, intenzivního rybolovu) v emisích skleníkových plynů ze souše a oceánu.",
+        "quote": "Objasní roli činnosti člověka (včetně zemědělství"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Objasní na příkladech roli činnosti člověka při změně klimatu a uvede příklady opatření, která změnu klimatu a její dopady na přírodu a lidské zdraví zmírňují.",
+        "quote": "Objasní na příkladech roli činnosti člověka při změně klimatu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, odkud se který skleníkový plyn bere, a dá ti příklady ke zkoušení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu čísla a mapy emisí ze zemědělství, lesů a oceánů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná jednoúčelová aplikace ti roli zemědělství nebo rybolovu ve změně klimatu nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Teploměr ani pravítko ti emise z krajiny neukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24",
+      "http://data.europa.eu/esco/skill/081d7679-5070-4777-bece-a28c49f15636"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-projevy-a-narocky-druhu",
+    "title": "Projevy změn klimatu a nároky druhů",
+    "aliases": [
+      "oteplování",
+      "změna srážek",
+      "acidifikace oceánů",
+      "klima a druhy",
+      "populace a klima"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvede příklady nároků druhu, populace nebo ekosystému na klimatické podmínky a popíše různé projevy změn klimatu (např. změny srážkového režimu, zvýšení teplot, acidifikace oceánů)",
+        "quote": "uvede příklady nároků druhu, populace nebo ekosystému na klimatické podmínky"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Zhodnotí možné pozitivní i negativní dopady změny podmínek na život organismů.",
+        "quote": "Zhodnotí možné pozitivní i negativní dopady změny podmínek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Klima a želvy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč druh potřebuje určitou teplotu nebo vodu, a vymyslí s tebou příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlasy druhů a grafy teplot a srážek ukazují, co který druh snáší."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe nesoudí, co změna podmínek udělá s druhem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr a srážkoměr ti ukážou podmínky u vás na zahradě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24",
+      "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-zpetne-vazby-body-zlomu",
+    "title": "Zpětné vazby a body zlomu",
+    "aliases": [
+      "kladná zpětná vazba",
+      "záporná zpětná vazba",
+      "bod zlomu",
+      "ekosystém a klima"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "objasní roli kladných a záporných zpětných vazeb v ekosystému a jejich roli při změnách klimatu (body zlomu)",
+        "quote": "objasní roli kladných a záporných zpětných vazeb"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí zpětnou vazbu na jednoduchých příkladech a zeptá se tě, co se stane dál."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a videa ukazují, jak tání ledu zrychluje oteplování."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti zpětnou vazbu v ekosystému nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj ti zpětnou vazbu v ekosystému neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24",
+      "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0",
+      "http://data.europa.eu/esco/skill/442328a8-8a11-4e15-b80c-402a9bd5844d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-ekosystem-scenare-dukazy",
+    "title": "Stav ekosystému a scénáře změn",
+    "aliases": [
+      "korálové útesy",
+      "scénáře klimatu",
+      "důkazy a názory",
+      "zavádějící tvrzení",
+      "ověřování informací"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "s použitím různých informačních zdrojů popíše současný stav vybraných ekosystémů (např. korálové útesy) a možné změny za různých scénářů (teplota, srážky); rozlišuje přitom scénáře, argumenty a závěry postavené na vědeckých důkazech od názorů a zavádějících tvrzení",
+        "quote": "s použitím různých informačních zdrojů popíše současný stav vybraných ekosystémů"
+      },
+      {
+        "level": "Splněno",
+        "point": "S použitím různých informačních zdrojů popíše současný stav vybraných ekosystémů a možné změny za různých scénářů (teplota, srážky); rozlišuje přitom scénáře, argumenty a závěry postavené na vědeckých důkazech od názorů a zavádějících tvrzení.",
+        "quote": "S použitím různých informačních zdrojů popíše současný stav vybraných ekosystémů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Klima a želvy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí scénáře a dá ti tvrzení k posouzení, ale co je pravda, ověřuješ ty ve zdrojích."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vědecké zprávy, mapy a grafy ukazují, jak se ekosystém mění."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe nerozliší důkaz od zavádějícího tvrzení."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj ti zdroje neporovná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0",
+      "http://data.europa.eu/esco/skill/442328a8-8a11-4e15-b80c-402a9bd5844d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-dopad-na-zdravi-plodiny",
+    "title": "Dopad změny klimatu na zdraví a plodiny",
+    "aliases": [
+      "vlny veder",
+      "přehřátí",
+      "zdraví a klima",
+      "úroda a sucho",
+      "hospodářské plodiny"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě informačních zdrojů identifikuje dopad změny klimatu na lidské zdraví (přehřívání organismu při vlnách veder, riziko infarktu apod.) a vybrané druhy organismů nebo hospodářsky významné plodiny",
+        "quote": "na základě informačních zdrojů identifikuje dopad změny klimatu na lidské zdraví"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě informačních zdrojů identifikuje dopad změny klimatu na lidské zdraví (přehřívání organismu při vlnách veder, riziko infarktu) a na vybrané druhy organismů nebo hospodářsky významné plodiny.",
+        "quote": "Na základě informačních zdrojů identifikuje dopad změny klimatu na lidské zdraví"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč vedro zatěžuje srdce a oběh, a pomůže ti shrnout zdroje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotní a zemědělské stránky uvádějí, co vedra dělají lidem a plodinám."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s počasím ti dopad na zdraví nebo úrodu nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr změří vedro na místě, kde jsi."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-adaptace-druhu",
+    "title": "Přizpůsobení druhů změně klimatu",
+    "aliases": [
+      "adaptace",
+      "kdo přežije oteplení",
+      "přizpůsobení organismů",
+      "ohrožené druhy"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvede příklady adaptací a na základě důkazů argumentuje o tom, které druhy nebo skupiny se budou schopné v blízké budoucnosti změnám klimatu přizpůsobit a které nikoliv, naslouchá přitom ostatním a vyjadřuje své emoce týkající se dopadu změn klimatu",
+        "quote": "uvede příklady adaptací a na základě důkazů argumentuje"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady adaptací a na základě důkazů argumentuje o tom, které druhy nebo skupiny se budou schopné v blízké budoucnosti změnám klimatu přizpůsobit a které nikoli, naslouchá přitom ostatním a vyjadřuje své emoce týkající se dopadu změn klimatu.",
+        "quote": "Uvede příklady adaptací a na základě důkazů argumentuje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Polarizující medvědi",
+        "url": "https://uloziste.rvp.cz/material/d7f121"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne příklady adaptací a zkusí s tebou protiargumenty, rozhodnout musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Studie a atlasy druhů dávají důkazy, o které argument opřeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe argument nesestaví."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj k argumentaci o druzích nic nedá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-opatreni-prirodni-procesy",
+    "title": "Opatření založená na přírodních procesech",
+    "aliases": [
+      "zeleň ve městě",
+      "výpar z rostlin",
+      "vsakování vody",
+      "kompostování",
+      "adaptační opatření"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvede příklady opatření založených na přírodních procesech (fotosyntéza, rozklad, výpar vody z rostlin) zmírňujících dopady změn klimatu",
+        "quote": "uvede příklady opatření založených na přírodních procesech"
+      },
+      {
+        "level": "Na cestě",
+        "point": "argumentuje na základě důkazů o účinnosti různých adaptačních opatření v sídlech a v krajině",
+        "quote": "argumentuje na základě důkazů o účinnosti různých adaptačních opatření"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady opatření založených na přírodních procesech (fotosyntéza, rozklad, výpar vody z rostlin) zmírňujících dopady změn klimatu a argumentuje na základě důkazů o jejich účinnosti v sídlech a v krajině.",
+        "quote": "Uvede příklady opatření založených na přírodních procesech"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Objasní na příkladech roli činnosti člověka při změně klimatu a uvede příklady opatření, která změnu klimatu a její dopady na přírodu a lidské zdraví zmírňují.",
+        "quote": "uvede příklady opatření, která změnu klimatu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vlhké město",
+        "url": ""
+      },
+      {
+        "title": "Mikroklima v okolí školy",
+        "url": "https://uloziste.rvp.cz/material/9b54e8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak zeleň ochlazuje, a vymyslí příklady opatření k posouzení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu měření a příklady měst, která sázejí zeleň a zachycují dešťovou vodu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace opatření ve tvém okolí nevyhodnotí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr ti ukáže rozdíl mezi stínem stromu a asfaltem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8f585def-6ade-41b3-b897-3d71fba4151d",
+      "http://data.europa.eu/esco/skill/270c4de9-97f9-4a7a-95d1-63670f1ec3bc",
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-zmirneni-a-pricina",
+    "title": "Zmírnění dopadů a řešení příčiny",
+    "aliases": [
+      "zmírnění a příčina",
+      "snížení emisí",
+      "dešťová voda",
+      "rozlišení opatření"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozliší opatření, která pouze zmírňují dopady (např. výpar z rostlin a ochlazování okolí), od těch, která jsou zaměřená na příčinu (snížení emisí skleníkových plynů)",
+        "quote": "rozliší opatření, která pouze zmírňují dopady"
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozliší opatření, která pouze zmírňují dopady (výpar z rostlin a ochlazování okolí, hospodaření s dešťovou vodou), od těch, která jsou zaměřená na příčinu (snížení emisí skleníkových plynů).",
+        "quote": "Rozliší opatření, která pouze zmírňují dopady"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkouší tě, zda opatření jen zmírňuje dopad, nebo řeší příčinu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Přehledy opatření ukazují, které snižují emise a které jen tlumí následky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace opatření za tebe netřídí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj opatření netřídí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/081d7679-5070-4777-bece-a28c49f15636",
+      "http://data.europa.eu/esco/skill/8f585def-6ade-41b3-b897-3d71fba4151d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-zmeny-krajiny-clovekem",
+    "title": "Jak člověk změnil krajinu",
+    "aliases": [
+      "změna krajiny",
+      "příčiny a důsledky",
+      "krajina v ČR a v zahraničí"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Určí, jak v daném místě (v ČR i mimo ČR) člověk pozměnil krajinu.",
+        "quote": "Určí, jak v daném místě (v ČR i mimo ČR) člověk pozměnil krajinu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vyhledá, co k tomu vedlo a jaké mohou být důsledky.",
+        "quote": "Vyhledá, co k tomu vedlo"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se krajiny měnily, ale místo musíš prozkoumat ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Staré a nové mapy a fotky ukazují, co se na místě změnilo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace s leteckými snímky ukáže změny v krajině."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa ti ukáže, co se na místě změnilo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0",
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klimatu-moje-udrzitelne-zvyky",
+    "title": "Vlastní seznam činností pro udržitelnost",
+    "aliases": [
+      "co můžu udělat pro planetu",
+      "udržitelnost",
+      "třídění",
+      "šetření energií"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vytvoří vlastní seznam každodenních činností a opatření, jak on sám může přispět k udržitelnosti na Zemi.",
+        "quote": "Vytvoří vlastní seznam každodenních činností"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne nápady, ale seznam z toho, co děláš, napíšeš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu tipy na šetření energií a vodou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace seznam za tebe nesepíše."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka ti seznam uloží, ať ho máš na očích."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/081d7679-5070-4777-bece-a28c49f15636",
+      "http://data.europa.eu/esco/skill/270c4de9-97f9-4a7a-95d1-63670f1ec3bc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

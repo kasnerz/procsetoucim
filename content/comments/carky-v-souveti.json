@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Čárka v souvětí ukazuje, kde končí jedna myšlenka a začíná druhá, a někdy mění celý smysl. Známý příklad je „Pojďte jíst, děti“, který bez čárky vyzní dost jinak. Kontrola pravopisu v počítači najde jen část chybějících čárek, a když nevíš, proč tam čárka patří, nepoznáš, jestli ti radí dobře. Na čárkách stojí i skladba, kterou budeš probírat ve vyšších ročnících. Kdo opravuje texty před tiskem nebo zapisuje u soudu, s čárkami pracuje každý den.",
+  "learnWithAi": [
+    {
+      "title": "Souvětí bez čárek",
+      "text": "Poproste chatbota o deset souvětí bez čárek. Doplňte je spolu a nechte si u každé chyby vysvětlit, proč tam čárka patří."
+    },
+    {
+      "title": "Čárka, která mění smysl",
+      "text": "Zeptejte se chatbota na věty, ve kterých čárka mění smysl, a zkuste spolu nakreslit, co znamená každá verze."
+    },
+    {
+      "title": "Vyprávění o víkendu",
+      "text": "Napiš krátké vyprávění o víkendu a dej ho s rodičem chatbotu. Ať jen označí věty, kde čárka chybí, a doplň ji ty."
+    }
+  ]
+}

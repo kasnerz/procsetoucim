@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "hledani-podle-podminky-tricarka",
+    "title": "Hledání podle jedné podmínky",
+    "aliases": [
+      "najdi všechny",
+      "třídění podle vlastnosti",
+      "které splňují podmínku",
+      "barevná trička",
+      "sudá čísla"
+    ],
+    "outcome": "MAT-MAT-004-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyhledá prvky nebo skupiny prvků splňující dané podmínky.",
+        "quote": "Vyhledá prvky nebo skupiny prvků splňující dané podmínky."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vyhledá prvky splňující jednu podmínku.",
+        "quote": "Vyhledá prvky splňující jednu podmínku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Barevná trička",
+        "url": ""
+      },
+      {
+        "title": "Sudá čísla",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí ti úlohy typu najdi všechna sudá čísla a vysvětlí, v čem je chyba."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Prvky ve tvé úloze v encyklopedii nenajdeš, vybíráš je z nabídky před sebou."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka umí vybrat řádky podle podmínky, takže si zkontroluješ svůj výběr."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Karty, kostky nebo trička si fyzicky roztřídíš do hromádek podle vlastnosti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vice-podminek-najednou-triprvky",
+    "title": "Více podmínek najednou",
+    "aliases": [
+      "splňuje obě podmínky",
+      "a zároveň",
+      "všechny možnosti",
+      "vyhledávání s více podmínkami",
+      "sportovci"
+    ],
+    "outcome": "MAT-MAT-004-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí a zdůvodní všechny možnosti splňující více podmínek.",
+        "quote": "Určí a zdůvodní všechny možnosti splňující více podmínek."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Sportovci",
+        "url": ""
+      },
+      {
+        "title": "Číselné skupiny",
+        "url": "https://uloziste.rvp.cz/material/8af630"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadá ti úlohy se dvěma podmínkami a vysvětlí, proč některá možnost do výběru nepatří."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Možnosti ve své úloze určíš ty, hotový seznam k ní na internetu není."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka s filtrem podle dvou sloupců ti hned ukáže, co splňuje obě podmínky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kruhy z provázku na stole ukážou, co patří do obou skupin najednou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "negace-nesplnuje-podminku-triprvky",
+    "title": "Prvky, které podmínku nesplňují",
+    "aliases": [
+      "negace",
+      "které nejsou",
+      "kromě",
+      "nesplňuje podmínku",
+      "opak podmínky"
+    ],
+    "outcome": "MAT-MAT-004-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pracuje s negací (nesplňuje danou podmínku).",
+        "quote": "Pracuje s negací (nesplňuje danou podmínku)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Sudá čísla",
+        "url": ""
+      },
+      {
+        "title": "Barevná trička",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti úlohy typu najdi všechna lichá čísla a vysvětlí, kdy je opak podmínky."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Negaci své úlohy neodhalí žádný vyhledávač, musíš o ní přemýšlet ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Filtr v tabulce umí vybrat řádky, které podmínku nesplňují, a zkontroluje tě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Z hromady karet vyndáš ty s vlastností a zbytek je přesně to, co hledáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zduvodneni-pro-vsechny-prvky-triprvky",
+    "title": "Zdůvodnění, že podmínku splňují všechny prvky",
+    "aliases": [
+      "proč to platí pro všechny",
+      "dokaž že všechny",
+      "zdůvodnění",
+      "číselná geometrie myslím si číslo",
+      "každý prvek"
+    ],
+    "outcome": "MAT-MAT-004-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zdůvodní, že všechny prvky jistého souboru splňují danou podmínku.",
+        "quote": "Zdůvodní, že všechny prvky jistého souboru splňují danou podmínku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Číselná geometrie „Myslím si číslo“",
+        "url": "https://uloziste.rvp.cz/material/5cf92d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poslechne si tvé zdůvodnění a ukáže, kde v něm chybí krok nebo příklad."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Zdůvodnění k tvému souboru prvků nikde není hotové, vymýšlíš ho ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti výběr ověří, ale důvod, proč platí pro všechny, musíš říct ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Karty a kostky můžeš projít jednu po druhé a ukázat, že platí pro každou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Hlášení na letišti, že se mění nástupní brána, nebo vzkaz od vedoucí cizí výpravy, kdy a kde je sraz: v takové zprávě je důležité hlavně kdy a kde, zbytku stačí rozumět zhruba. Kdo se naučí zachytit čas a místo i v proudu cizích slov, ten se v cizině neztratí a umí je říct ostatním. Vybírat z pokynů to podstatné potřebuje i ten, kdo řídí letadlo a poslouchá pokyny z věže, nebo kdo skládá nábytek podle návodu. Aplikace umí hlášení přepsat do textu, jenže na nádraží většinou nestihneš telefon ani vytáhnout.",
+  "learnWithAi": [
+    {
+      "title": "Hlášení z nádraží",
+      "text": "Požádej chatbota o pět krátkých hlášení z nádraží v jazyce, který se učíš. U každého si zapiš jen čas a místo a nech si zkontrolovat, jestli sedí."
+    },
+    {
+      "title": "Sraz schovaný ve vzkazu",
+      "text": "Ať ti chatbot napíše delší vzkaz od průvodce výletu, kde jsou čas a místo srazu schované mezi spoustou dalších informací. Najdi je a řekni je česky."
+    },
+    {
+      "title": "Pokyny jen poslechem",
+      "text": "Pokud chatbot umí mluvit, nech si pokyny přečíst nahlas bez textu na obrazovce. Zapiš si čas a místo a teprve potom si text zobraz a porovnej."
+    }
+  ]
+}

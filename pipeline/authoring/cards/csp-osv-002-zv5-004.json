@@ -1,0 +1,400 @@
+{
+  "outcome": "CSP-OSV-002-ZV5-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "emoce-sve-i-cizi-a-jejich-pricina",
+      "title": "Emoce své i druhých a jejich příčiny",
+      "aliases": [
+        "pocity",
+        "jak se cítím",
+        "emoce",
+        "nálada",
+        "proč se tak cítím"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozpozná základní emoce a potřeby své i druhých lidí."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Poznává základní emoce a jejich projevy u sebe a druhých."
+        },
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích rozpozná a pojmenuje své emoce a vysvětlí možné příčiny toho, proč se tak může cítit."
+        },
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích pojmenuje možné emoce druhých lidí a pravděpodobné příčiny toho, proč se tak mohou cítit."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "V modelových situacích rozpozná a pojmenuje své emoce a vysvětlí možné příčiny toho, proč se tak může cítit."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "V modelových situacích popíše, jaké emoce mohou jejich aktéři pociťovat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí příběhy ke zkoumání a vysvětlí, co emoce znamená."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu seznamy emocí a popis, jak se projevují."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Deníček nálad ti pomůže pojmenovat, jak se cítíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky s obličeji emocí ti pomohou pocity pojmenovat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+      ],
+      "inspiration": [
+        "Odečet nálady",
+        "Emoce na obrázku",
+        "Kufřík emocí a potřeb"
+      ]
+    },
+    {
+      "slug": "emoce-co-je-vyvolava",
+      "title": "Co v nás vyvolává emoce",
+      "aliases": [
+        "proč se zlobím",
+        "co mě rozčílí",
+        "vzpomínky a pocity",
+        "spouštěče emocí"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Poznává, jaké vnitřní podněty (myšlenky, vzpomínky aj.) a vnější podněty (situace, předměty, místa aj.) mohou vyvolávat emoce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak myšlenky a situace mění pocity, a dá příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu popis, co emoce spouští."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace nepozná, co v tobě vyvolává emoce."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Co tě rozčílí nebo potěší, zjistíš jen sledováním sebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+      ],
+      "inspiration": [
+        "Obraz mého dne"
+      ]
+    },
+    {
+      "slug": "emoce-potreby-ve-skole-i-doma",
+      "title": "Moje potřeby ve škole i mimo ni",
+      "aliases": [
+        "co potřebuju",
+        "potřeby",
+        "základní potřeby",
+        "co mi chybí"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Poznává základní lidské potřeby."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na příkladech konkrétních situací spojených se školním i mimoškolním prostředím pojmenuje své potřeby."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jaké potřeby lidé mají, a dá příklady situací."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu přehled základních lidských potřeb."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti neřekne, co potřebuješ ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky s potřebami ti pomohou vybrat tu, která platí pro tebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+      ],
+      "inspiration": [
+        "Kufřík emocí a potřeb"
+      ]
+    },
+    {
+      "slug": "emoce-zvladani-hnevu-a-napeti",
+      "title": "Techniky zvládání emocí",
+      "aliases": [
+        "jak se uklidnit",
+        "hněv",
+        "zlost",
+        "nadechnout se",
+        "stop technika"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "S využitím naučených technik reguluje projevy svých emocí v běžných situacích ve školním prostředí."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Poznává různé techniky regulace projevů emocí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí techniky uklidnění a navrhne, kterou zkusit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu popisy technik, třeba dýchání do klidu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s dechovým cvičením ti dává rytmus nádechu a výdechu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Uklidnit se musíš ty, žádný předmět to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a147904-22b3-498a-b4d9-7bceeb86b45d"
+      ],
+      "inspiration": [
+        "Jak na hněv",
+        "STOP v nepříjemných situacích"
+      ]
+    },
+    {
+      "slug": "emoce-vhodne-nacasovani-potreb",
+      "title": "Vhodný a nevhodný způsob, jak naplnit potřebu",
+      "aliases": [
+        "kdy o něco říct",
+        "jak požádat",
+        "scénka",
+        "slušně si říct"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích předvede vhodný a nevhodný způsob a načasování naplňování vlastních potřeb ve školním prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Scénku předvádíš před lidmi ty, chatbot za tebe nezahraje."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Vhodné načasování v dané třídě ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvoji scénku nezahraje ani neposoudí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Scénku zahraješ jen ty a spolužáci."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+      ],
+      "inspiration": [
+        "Dárek"
+      ]
+    },
+    {
+      "slug": "emoce-jak-naplnit-potreby-svoje-i-cizi",
+      "title": "Jak naplnit potřeby své i druhých",
+      "aliases": [
+        "co můžu udělat já",
+        "pomoc druhým",
+        "diskuse o potřebách",
+        "co udělají druzí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Diskutuje o tom, jak lze naplňovat vlastní potřeby a potřeby druhých lidí ve školním i mimoškolním prostředí"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Navrhuje příklady toho, co přispívá k naplňování jeho základních potřeb ve školním a mimoškolním prostředí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne nápady, co zkusit a co čekat od druhých, vybíráš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu příklady, jak lidé řeší různé potřeby."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tebou o potřebách nepohovoří a nic nenavrhne."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Diskutuješ s lidmi a žádný nástroj to nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "emoce-empaticke-naslouchani",
+      "title": "Empatické naslouchání",
+      "aliases": [
+        "umět naslouchat",
+        "poslouchat kamaráda",
+        "empatie",
+        "vcítit se"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zkouší si v modelových situacích empatické naslouchání."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak naslouchat, a dá věty, kterými ukážeš zájem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu popis, jak vypadá dobré naslouchání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Naslouchat druhému člověku musíš ty, aplikace to nezvládne."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Naslouchání zkoušíš s lidmi a nástroj ti nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": [
+        "Empatie a naslouchání"
+      ]
+    },
+    {
+      "slug": "emoce-bezpecne-prostredi-ve-tride",
+      "title": "Bezpečné prostředí ve škole",
+      "aliases": [
+        "bezpečná třída",
+        "jak být ohleduplný",
+        "dobrá třída",
+        "klima třídy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše, jak konkrétně může přispívat k vytváření bezpečného školního prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá příklady, čím může žák přispět, a ty je porovnáš se svými."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu popis, co dělá třídu bezpečnou."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti nenavrhne, co můžeš udělat ve své třídě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Ve třídě se chováš ty, žádný předmět ti nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

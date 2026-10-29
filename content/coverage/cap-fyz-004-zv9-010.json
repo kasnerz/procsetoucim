@@ -1,0 +1,88 @@
+{
+  "outcome": "CAP-FYZ-004-ZV9-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Ví ze zkušenosti, že vrtění na židli nebo svlékání svetru může způsobit „elektrickou ránu“.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Ví, že se elektřina vodí drátem.",
+      "cards": [
+        "vodice-izolanty-pretok-naboje"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkoumá, jaké efekty lze pozorovat díky plastové tyči třené hadrem.",
+      "cards": [
+        "nabiti-trenim-pritahovani-odpuzovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkoumá podmínky, za jakých náboj získaný třením rychle uteče nebo vydrží delší dobu.",
+      "cards": [
+        "jak-dlouho-vydrzi-naboj-trenim"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s projevy bouřky a jejich riziky.",
+      "cards": [
+        "bourka-pravidla-bezpecneho-chovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede přitahování a odpuzování nabitých těles.",
+      "cards": [
+        "nabiti-trenim-pritahovani-odpuzovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Různými způsoby detekuje náboj na nabitém tělese (např. plechovce, elektroskopu).",
+      "cards": [
+        "detekce-naboje-plechovka-elektroskop"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Experimentálně zjistí, zda se daným materiálem přesouvá náboj, nebo ne.",
+      "cards": [
+        "vodice-izolanty-pretok-naboje"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Formuluje a zdůvodní pravidla bezpečného chování při bouřce.",
+      "cards": [
+        "bourka-pravidla-bezpecneho-chovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Ukáže vybrané vlastnosti elektrického náboje na jednoduchých pokusech.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

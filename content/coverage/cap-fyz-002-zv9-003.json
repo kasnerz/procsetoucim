@@ -1,0 +1,118 @@
+{
+  "outcome": "CAP-FYZ-002-ZV9-003",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Odhadne, jakou vzdálenost urazí různými způsoby pohybu za daný čas.",
+      "cards": [
+        "pohyb-odhad-vzdalenosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Odhadne a změří, za jak dlouho urazí danou vzdálenost různými způsoby pohybu, při kterém způsobu pohybu bude nejrychlejší a nejpomalejší, měření porovná s odhadem.",
+      "cards": [
+        "pohyb-odhad-casu-mereni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Úvahou spočte uraženou vzdálenost ze znalosti rychlosti a času pohybu.",
+      "cards": [
+        "pohyb-rychlost-draha-cas"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Změří vzdálenost a čas daného pohybu.",
+      "cards": [
+        "pohyb-mereni-vzdalenosti-casu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se se způsobem uvádění vzdálenosti v různých zdrojích (turistické značení, jízdní řád, směrovky na silnicích, …).",
+      "cards": [
+        "pohyb-vzdalenost-ve-zdrojich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vybere vhodný typ grafu pro daný pohyb (např. závislost vzdálenosti na čase nebo rychlosti na čase).",
+      "cards": [
+        "pohyb-graf-vzdalenosti-casu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "V konkrétním grafu hledá základní informace (hodnotu v daném čase, jak se těleso pohybovalo, kde se dvě tělesa případně setkala, apod.).",
+      "cards": [
+        "pohyb-cteni-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyzkouší možnosti aplikace na mobilním telefonu umožňující sledovat rychlost pohybu.",
+      "cards": [
+        "pohyb-rychlost-mobilem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Změří vzdálenost a čas konkrétního pohybu, na základě měření určí průměrnou rychlost pohybu.",
+      "cards": [
+        "pohyb-rychlost-draha-cas"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vybrané měření pohybu zpracuje do grafu závislosti vzdálenosti na čase – ke zpracování použije tabulkový editor nebo graf zpracuje ručně; vytvoří graf i dalších situací – pohyb dvou těles, která nezačínají na stejném místě nebo ve stejném čase.",
+      "cards": [
+        "pohyb-graf-vzdalenosti-casu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě grafu závislosti vzdálenosti na čase interpretuje pohyb tělesa: jak se měnila rychlost pohybu, kde těleso zastavilo; z grafu přečte základní informace: kde bylo těleso v daném čase, za jak dlouho dojelo na dané místo, kde se dvě tělesa setkala.",
+      "cards": [
+        "pohyb-cteni-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Změří rychlost pomocí aplikace na mobilním telefonu.",
+      "cards": [
+        "pohyb-rychlost-mobilem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Ze znalosti rychlosti předpoví dobu pohybu.",
+      "cards": [
+        "pohyb-rychlost-draha-cas"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Pozoruje a popíše různé pohyby z běžného života, porovná rychlost různých pohybů.",
+      "cards": [
+        "pohyb-porovnani-rychlosti"
+      ],
+      "aside": null
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+[
+  {
+    "slug": "urcovani-organismu-v-ekosystemu-lesa",
+    "title": "Určování organismů a jejich role v ekosystému",
+    "aliases": [
+      "určování rostlin",
+      "určovací klíč",
+      "atlas",
+      "určovací aplikace",
+      "kdo tu žije"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "určuje (s pomocí určovacích klíčů, atlasů, určovacích aplikací) organismy v daném ekosystému a na základě práce s informačními zdroji specifikuje jejich roli v daném ekosystému/vliv na daný ekosystém.",
+        "quote": "určuje (s pomocí určovacích klíčů, atlasů, určovacích aplikací) organismy v daném ekosystému"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Určí daný organismus s pomocí určovacího klíče, atlasu nebo aplikace.",
+        "quote": "Určí daný organismus s pomocí určovacího klíče, atlasu nebo aplikace."
+      },
+      {
+        "level": "Splněno",
+        "point": "Určuje s pomocí různých informačních zdrojů organismy a specifikuje jejich roli v daném ekosystému.",
+        "quote": "Určuje s pomocí různých informačních zdrojů organismy a specifikuje jejich roli v daném ekosystému."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, podle čeho se druhy liší, a poradí, jak rozpoznat podobné druhy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlasy a databáze druhů ukážou fotky a popis, se kterými porovnáš nález."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Určovací aplikace navrhne druh podle fotky, ty ověříš znaky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Určovací klíč a atlas v tištěné podobě tě provedou znaky krok za krokem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/73997f48-cd9d-4724-872d-86ecbb2ed9a2",
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vztahy-organismu-dravec-korist-opylovani",
+    "title": "Vztahy mezi organismy v ekosystému",
+    "aliases": [
+      "dravec a kořist",
+      "parazit",
+      "opylování",
+      "mykorhiza",
+      "soužití druhů"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "pojmenuje nejvýznamnější vztahy (včetně mutualistických: mykorhiza, opylování), které utváří ekosystém, a zásahy člověka do ekosystému",
+        "quote": "pojmenuje nejvýznamnější vztahy (včetně mutualistických: mykorhiza, opylování), které utváří ekosystém, a zásahy člověka do ekosystému"
+      },
+      {
+        "level": "Splněno",
+        "point": "Pojmenuje v ekosystému nejvýznamnější vztahy včetně mutualistických (mykorhiza, opylování) a zásahy člověka.",
+        "quote": "Pojmenuje v ekosystému nejvýznamnější vztahy včetně mutualistických (mykorhiza, opylování) a zásahy člověka."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi parazitem a dravcem a dá ti další příklady k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové weby popisují příklady vztahů s obrázky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro pojmenování vztahů mezi druhy nemá aplikace co nabídnout."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Vztahy v přírodě žádný nástroj nezměří, rozpoznáš je při pozorování."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ekologicke-skupiny-producent-rozkladac",
+    "title": "Producenti, rozkladači a další ekologické skupiny",
+    "aliases": [
+      "producent",
+      "rozkladač",
+      "parazit",
+      "invazní druh",
+      "společné vlastnosti skupin"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popisuje rozdíly mezi organismy, zařazuje je do ekologických skupin (producent, parazit, rozkladač, invazní druh apod.) a porovná tyto role v rámci ekosystému (např. borovice jako producent - rostliny produkují glukózu a tvoří z ní další látky např. dřevo a přeměňuje anorganické látky na organické, naopak rozkladač – hřib přeměňuje organické látky na anorganické)",
+        "quote": "popisuje rozdíly mezi organismy, zařazuje je do ekologických skupin (producent, parazit, rozkladač, invazní druh apod.)"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vyvozuje vlastnosti společné pro danou skupinu organismů.",
+        "quote": "Vyvozuje vlastnosti společné pro danou skupinu organismů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, čím se liší borovice a hřib, a zkouší tě na zařazení dalších druhů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie ukáže, kam druh patří a jak získává živiny."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace druh nejvýš pojmenuje, zařazení do skupiny a porovnání musíš vymyslet ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Skupiny porovnáváš hlavou nad pozorováním, nástroj za tebe nic nesrovná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fotosynteza-energie-a-latky-v-ekosystemu",
+    "title": "Fotosyntéza a tok energie",
+    "aliases": [
+      "fotosyntéza",
+      "glukóza",
+      "biomasa",
+      "ukládání uhlíku",
+      "energie od Slunce"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše proces fotosyntézy a zhodnotí jeho význam pro přeměnu energie, růst biomasy a ukládání uhlíku, vysvětlí získávání potravy jako předávání energie ve formě organických látek (fotosyntézou vzniká stavební a zásobní látka glukóza, glukózu přeměňují na stavební celulózu a vzniká např. dřevo, energii uloženou ve dřevě dokážeme tím, že ho zapálíme – vzniká teplo a světlo)",
+        "quote": "popíše proces fotosyntézy a zhodnotí jeho význam pro přeměnu energie, růst biomasy a ukládání uhlíku"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na modelu popíše proces fotosyntézy a zhodnotí jeho význam pro přeměnu energie, růst biomasy a ukládání uhlíku, přitom vysvětlí získávání potravy jako předávání energie ve formě organických látek.",
+        "quote": "Na modelu popíše proces fotosyntézy a zhodnotí jeho význam pro přeměnu energie, růst biomasy a ukládání uhlíku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí fotosyntézu po krocích a zeptá se tě, kam se energie ze Slunce dostane."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové weby mají schémata fotosyntézy a potravních řetězců."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní animace ukáže, jak se látky a energie mění, ty ji popíšeš vlastními slovy."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný přístroj ti fotosyntézu nevysvětlí, popsat ji musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pruzkum-ekosystemu-v-terenu-zaznam",
+    "title": "Průzkum ekosystému v terénu",
+    "aliases": [
+      "pozorování v přírodě",
+      "terénní průzkum",
+      "zakreslení do mapy",
+      "schéma lokality",
+      "podmínky prostředí"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "prozkoumává vybraný ekosystém v terénu, popisuje podmínky prostředí, využívání ekosystému člověkem a vysvětluje provázanost výskytu daného organismu se zdrojem potravy",
+        "quote": "prozkoumává vybraný ekosystém v terénu, popisuje podmínky prostředí"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Prozkoumává ekosystém v terénu a zaznamenává do zjednodušujícího zobrazení (mapy nebo schématu)",
+        "quote": "Prozkoumává ekosystém v terénu a zaznamenává do zjednodušujícího zobrazení (mapy nebo schématu)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Mapa lesní divočiny",
+        "url": "https://uloziste.rvp.cz/material/fe277a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, co v terénu sledovat a jak si výsledky zapsat do tabulky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapy a popisy lokality ti řeknou, co tam čekat, a ty to porovnáš s nálezy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s mapou nebo fotoaparátem ti pomůže zaznamenat místo nálezu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr, lupa a sešit slouží k měření a zápisu přímo na místě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/96835f47-da71-415b-8cbf-d37386dc98d4",
+      "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cteni-ekologickych-modelu-potravni-sit",
+    "title": "Čtení potravních sítí a ekologických modelů",
+    "aliases": [
+      "potravní síť",
+      "potravní řetězec",
+      "schéma dravec a kořist",
+      "simulace šíření druhů"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popisuje a interpretuje různé typy ekologických modelů (potravní sítě, schémata typu dravec-kořist, prostorové simulace šíření druhů)",
+        "quote": "popisuje a interpretuje různé typy ekologických modelů (potravní sítě, schémata typu dravec-kořist, prostorové simulace šíření druhů)"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná roli organismů v ekosystému a vztahy mezi nimi na základě pozorování a/nebo vyobrazení.",
+        "quote": "Rozpozná roli organismů v ekosystému a vztahy mezi nimi na základě pozorování a/nebo vyobrazení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Potravní síť - mořský ekosystém",
+        "url": "https://uloziste.rvp.cz/material/38185d"
+      },
+      {
+        "title": "Základy modelování ekologických vztahů",
+        "url": "https://uloziste.rvp.cz/material/7ea07b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co šipky v potravní síti znamenají, a vymyslí úlohy k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové potravní sítě a schémata si prohlédneš a porovnáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace ukáže, jak se mění počty dravců a kořisti, ty výsledek vyložíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Čtení schématu je práce hlavy, klasický nástroj k ní nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+      "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tvorba-modelu-ekosystemu-dioramy",
+    "title": "Vlastní model ekosystému",
+    "aliases": [
+      "model ekosystému",
+      "dioráma",
+      "terárium v lahvi",
+      "biotop v krabici",
+      "schéma ekosystému"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vytváří model (např. schéma, dioráma, reálný model v lahvi nebo teráriu) na základě svého pozorování a relevantních informačních zdrojů - vybírá jednotlivé organismy nebo skupiny organismů, které použije do modelu, vyznačuje vztahy mezi jednotlivými prvky v modelu.",
+        "quote": "vytváří model (např. schéma, dioráma, reálný model v lahvi nebo teráriu) na základě svého pozorování a relevantních informačních zdrojů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vytváří zjednodušující model vztahů mezi organismy, prostředím a člověkem a zdůvodní výběr těchto prvků při tvorbě modelu.",
+        "quote": "Vytváří zjednodušující model vztahů mezi organismy, prostředím a člověkem a zdůvodní výběr těchto prvků při tvorbě modelu."
+      },
+      {
+        "level": "Na cestě",
+        "point": "zdůvodní svůj výběr organismů a prezentovaných vztahů ve svém modelu, zhodnotí adekvátnost svého výběru",
+        "quote": "zdůvodní svůj výběr organismů a prezentovaných vztahů ve svém modelu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "prezentuje svůj model ostatním a na základě připomínek od spolužáků a učitele svůj model zpřesní",
+        "quote": "prezentuje svůj model ostatním a na základě připomínek od spolužáků a učitele svůj model zpřesní"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Biotopy v krabici",
+        "url": "https://uloziste.rvp.cz/material/117604"
+      },
+      {
+        "title": "Model ekosystému - plakát tropický les",
+        "url": "https://uloziste.rvp.cz/material/f23004"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vybrat organismy do modelu a zeptá se, proč je do modelu dáváš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky, popisy druhů a hotové modely dávají nápady, co do modelu zahrnout."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace nebo myšlenková mapa slouží k nakreslení schématu, vztahy v něm určuješ ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, krabice a lahev jsou materiál na dioráma nebo terárium, které sestavíš rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109",
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kontrola-modelu-ekosystemu-vystiznost",
+    "title": "Kontrola, zda model ekosystému sedí",
+    "aliases": [
+      "je model správně",
+      "zhodnocení modelu",
+      "platí model jinde",
+      "výstižnost modelu"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zhodnotí, zda model výstižně zobrazuje prvky, vztahy a toky energie charakteristické pro daný ekosystém",
+        "quote": "zhodnotí, zda model výstižně zobrazuje prvky, vztahy a toky energie charakteristické pro daný ekosystém"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí, zda model výstižně zobrazuje organismy, jejich skupiny, prostředí, vztahy a toky energie charakteristické pro daný ekosystém (tedy zda platí i pro jiné lokality a období).",
+        "quote": "Zhodnotí, zda model výstižně zobrazuje organismy, jejich skupiny, prostředí, vztahy a toky energie charakteristické pro daný ekosystém"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Prohlédne tvůj popis modelu a vytkne, co chybí nebo nesedí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdroje o ekosystému ukážou, co do něj patří, a podle nich model porovnáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace model neposoudí, srovnání s ekosystémem děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroj nerozhodne, jestli model sedí, to posuzuješ ty podle pozorování."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109",
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "udrzitelne-vyuzivani-ekosystemu-scenare",
+    "title": "Udržitelné využívání ekosystému člověkem",
+    "aliases": [
+      "udržitelnost",
+      "zásah člověka do přírody",
+      "simulace ekosystému",
+      "výběrová těžba",
+      "aquaponie"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě simulace (změny teploty, pH, intenzity zásahů člověka) nebo jiného modelu vyhodnotí dopady a souvislosti (negativní a pozitivní zpětné vazby) konkrétního zásahu nebo způsobu hospodaření",
+        "quote": "na základě simulace (změny teploty, pH, intenzity zásahů člověka) nebo jiného modelu vyhodnotí dopady a souvislosti"
+      },
+      {
+        "level": "Na cestě",
+        "point": "v různých scénářích ukazuje dopad ne/udržitelného využívání na jednotlivé prvky v modelu a na vztahy mezi nimi",
+        "quote": "v různých scénářích ukazuje dopad ne/udržitelného využívání na jednotlivé prvky v modelu a na vztahy mezi nimi"
+      },
+      {
+        "level": "Na cestě",
+        "point": "navrhne pro modelovaný ekosystém udržitelné využívání člověkem (např. výběrová těžba v lese), případně vysvětlí využití přírodních procesů probíhajících v ekosystému pro udržitelnou produkci potravin (např. aquaponie)",
+        "quote": "navrhne pro modelovaný ekosystém udržitelné využívání člověkem"
+      },
+      {
+        "level": "Splněno",
+        "point": "V různých scénářích ukazuje dopad ne/udržitelného využívání na jednotlivé prvky modelu a na vztahy mezi nimi a navrhne pro modelovaný ekosystém udržitelné využívání.",
+        "quote": "V různých scénářích ukazuje dopad ne/udržitelného využívání na jednotlivé prvky modelu a na vztahy mezi nimi a navrhne pro modelovaný ekosystém udržitelné využívání."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou, co se stane, když v lese změníš způsob těžby, a vymyslí další scénáře."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a studie o hospodaření v lese nebo na rybníce dávají skutečné příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace ukáže dopad změny teploty nebo zásahu, závěry z ní vyvodíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Návrh udržitelného využívání vymýšlíš ty, žádný klasický nástroj k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/270c4de9-97f9-4a7a-95d1-63670f1ec3bc",
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zmena-krajiny-clovekem-a-dusledky",
+    "title": "Jak člověk změnil krajinu a co z toho plyne",
+    "aliases": [
+      "změna krajiny",
+      "zásah člověka",
+      "příčiny a důsledky",
+      "krajina v ČR a ve světě"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Určí, jak v daném místě (v ČR i mimo ČR) člověk pozměnil krajinu.",
+        "quote": "Určí, jak v daném místě (v ČR i mimo ČR) člověk pozměnil krajinu."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vyhledá, co k tomu vedlo a jaké mohou být důsledky.",
+        "quote": "Vyhledá, co k tomu vedlo a jaké mohou být důsledky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti utřídit příčiny a důsledky změny krajiny a ptá se, co v nich chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Staré a nové mapy, snímky a články ukážou, jak se místo změnilo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa s družicovými snímky nechá porovnat, jak místo vypadá dnes a jak dřív."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Změny krajiny nezjistí žádný přístroj, příčiny hledáš ty ve zdrojích."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "opatreni-pro-biodiverzitu-u-skoly",
+    "title": "Opatření pro biodiverzitu v okolí školy",
+    "aliases": [
+      "biodiverzita",
+      "hmyzí hotel",
+      "péče o přírodu",
+      "pomoc přírodě"
+    ],
+    "outcome": "CAP-PRI-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Reflektuje a hodnotí dopady jím realizovaného opatření podporujícího biodiverzitu v blízkém okolí školy či regionu.",
+        "quote": "Reflektuje a hodnotí dopady jím realizovaného opatření podporujícího biodiverzitu v blízkém okolí školy či regionu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí s hodnocením, co se po opatření změnilo, a zeptá se, podle čeho to poznáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a příklady opatření ukážou, co jiné školy zkoušejí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe opatření nezhodnotí, změny v okolí sleduješ ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dopad opatření poznáš pozorováním, žádný nástroj ho nezhodnotí za tebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+      "http://data.europa.eu/esco/skill/270c4de9-97f9-4a7a-95d1-63670f1ec3bc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

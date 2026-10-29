@@ -1,0 +1,12 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "f2b15a0e-e65a-438a-affb-29b9d50b77d1": "Program se spouští na různých vstupech a porovnává se, co vrátí, s tím, co má. Když výsledek nesedí, hledá se chyba v kódu a upravuje se, dokud nesedí.",
+  "57af9090-55b4-4911-b2d0-86db01c00b02": "Software pro zabudované zařízení se zkouší na zařízení samotném. Když se chová jinak, než zadání říká, hledá se příčina a kód se opravuje.",
+  "4874fa37-0cd1-4a68-aed8-a838851f242d": "Při zlepšování strojového překladu se program spouští na textech a výsledek se srovnává s dobrým lidským překladem. Rozdíly ukážou, kde je chyba v postupu.",
+  "fde4372d-8293-42de-afbb-8b5a9b274fe7": "Při vylepšování konstrukce nebo výrobního procesu se ověřuje, jestli nový postup dává očekávaný výsledek. Část práce je ale spíš technická podpora a odpovědi na dotazy.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Hotový kurz se vyzkouší na učících se a podle toho, kde se zasekli, se upraví. Programátorsky se tu neladí, ale postup se tak zkouší a opravuje podobně.",
+  "f49d893a-ac89-4f3b-b547-1cbdf4d69fde": "S ověřováním postupu se tu setkáte jen okrajově: při údržbě strojů se pracuje se specializovaným softwarem, a když ukáže chybu, hledá se její příčina. Programy se tu nepíšou."
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Každý člověk slyší jen určitý rozsah tónů a ta horní hranice se s věkem posouvá dolů, takže tón, který ty slyšíš, už tvoji rodiče nemusí zaslechnout. Test v aplikaci ti ukáže, kde je hranice tvého sluchu, a když ho za čas zopakuješ, zjistíš, jestli se neposunula. Výsledek ovlivní i sluchátka, protože některá nejvyšší tóny vůbec nezahrají. Přesněji a s ověřenými přístroji se sluch měří u ušního lékaře, kde podle výsledku vybírají třeba naslouchátka.",
+  "learnWithAi": [
+    {
+      "title": "Test sluchu celé rodiny",
+      "text": "Požádej chatbota, ať ti vysvětlí, proč starší lidé přestávají slyšet vysoké tóny. Udělej pak test s někým z rodiny a porovnejte, kde komu sluch končí."
+    },
+    {
+      "title": "Chyby při testu sluchu",
+      "text": "Popiš chatbotovi, jak test probíhal, se kterými sluchátky a jak nahlas, a nech ho najít, co mohlo výsledek zkreslit. Test pak zopakuj s opravou."
+    },
+    {
+      "title": "Graf sluchu ve třídě",
+      "text": "Zapiš si nejvyšší slyšený tón několika spolužáků a nech chatbota poradit, jak z čísel udělat graf. Graf nakresli ty a popiš, co z něj vyčteš."
+    }
+  ]
+}

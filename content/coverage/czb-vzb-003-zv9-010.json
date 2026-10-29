@@ -1,0 +1,172 @@
+{
+  "outcome": "CZB-VZB-003-ZV9-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "uvede příklady rizikových situací, do kterých se může v digitálním prostředí dostat",
+      "cards": [
+        "digibezpeci-rizikove-situace-online"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "v modelové situaci se vymezí vůči nepříjemné nebo rizikové komunikaci",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "sikana-nacvik-vhodne-reakce",
+          "vlivy-odmitnuti-neprijemne-komunikace"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "uvádí příklady pravidel pro slušnou a bezpečnou komunikaci v digitálním prostředí",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "sikana-slusna-a-bezpecna-komunikace",
+          "vlivy-pravidla-slusne-a-bezpecne-komunikace"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "popíše, jak jeho chování v určité situaci ovlivňují další lidé, reklama, internet apod.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "vlivy-kdo-ovlivnuje-moje-chovani"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "v diskuzi vyjadřuje své názory tak, aby byla respektována práva a pocity jeho i druhých",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "analyzuje konkrétní modelové situace, v nichž jsou používána digitálních zařízení (i umělá inteligence) ve vztahu k bio-psycho-sociálnímu zdraví",
+      "cards": [
+        "digibezpeci-dopady-chovani-modelove-situace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "diskutuje o pravidlech bezpečného chování v kyberprostoru (na sociálních sítích, při hraní her, sdělování a sdílení osobních dat)",
+      "cards": [
+        "digibezpeci-osobni-udaje-ochrana",
+        "digibezpeci-pravidla-sit-hry-sdileni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vysvětlí, co znamená digitální identita a digitální stopa",
+      "cards": [
+        "digibezpeci-digitalni-identita-stopa"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "popisuje na konkrétních příkladech momenty spojené s budováním digitální identity, které považuje za vhodné a které za nevhodné",
+      "cards": [
+        "digibezpeci-digitalni-identita-stopa"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "diskutuje o rizicích, která ho v digitálním prostředí mohou ohrozit (např. phishing, hoax, kybergrooming, sexting, nevhodný digitální obsah aj.)",
+      "cards": [
+        "digibezpeci-phishing-hoax-kybergrooming"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "posuzuje čas strávený na digitálních zařízeních v návaznosti na dodržování zásad vyváženého denního režimu (s ohledem na pohybovou aktivitu, spánkový režim, stravovací a pitný režim)",
+      "cards": [
+        "digibezpeci-cas-u-obrazovky-denni-rezim"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "využívá aplikace, které umožní monitorovat či podporovat zdraví, účelně, posoudí i jejich možná rizika ve vztahu k biopsychosociálnímu zdraví",
+      "cards": [
+        "digibezpeci-aplikace-pro-zdravi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Analyzuje své chování v digitálním prostředí ve vztahu k budování své digitální identity a zanechávání digitální stopy.",
+      "cards": [
+        "digibezpeci-digitalni-identita-stopa"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Identifikuje rizika, která ho mohou v digitálním prostředí ohrozit.",
+      "cards": [
+        "digibezpeci-phishing-hoax-kybergrooming"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhodnotí možné dopady chování v konkrétních modelových situacích používání digitálních zařízení ve vztahu ke zdraví a bezpečí.",
+      "cards": [
+        "digibezpeci-dopady-chovani-modelove-situace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zdůvodní a dodržuje pravidla bezpečného a zdraví neohrožujícího chování při práci s digitálními technologiemi.",
+      "cards": [
+        "digibezpeci-pravidla-sit-hry-sdileni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Reguluje čas strávený na digitálních zařízeních v souladu s dodržováním zásad vyváženého denního režimu.",
+      "cards": [
+        "digibezpeci-cas-u-obrazovky-denni-rezim"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Kriticky přistupuje k informacím a zdrojům s tematikou zdraví a životního stylu, vybírá relevantní a ověřené zdroje, účelně pracuje s nástroji umělé inteligence ve vztahu ke zdraví a životnímu stylu.",
+      "cards": [
+        "digibezpeci-zdroje-o-zdravi-a-umela-inteligence"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozpozná nebezpečné aktivity a situace vyskytující se v digitálním prostředí a uvede, proč je důležité chránit zde bezpečí své i ostatních, včetně ochrany osobních údajů.",
+      "cards": [
+        "digibezpeci-rizikove-situace-online",
+        "digibezpeci-osobni-udaje-ochrana"
+      ],
+      "aside": null
+    }
+  ]
+}

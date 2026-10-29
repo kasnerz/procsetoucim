@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "e7417f4f-7072-4b07-a71f-71f6fc7f5e5b": "Ve zvířecí zahradě se vedou záznamy o každém zvířeti a jeho péči, a to včetně historických. Co se do záznamu píše, se musí přesně vědět, jako jména a známky ve školním systému.",
+  "3765a20d-5160-4e8f-82f1-ad7872b9db24": "Systémy na ukládání informací jsou jádro této práce. Je potřeba vědět, jaká data se v nich drží, jak jsou uspořádaná a kdo se k nim smí dostat.",
+  "8d9ec84d-cf2d-4179-87bc-335cda54a427": "Při návrhu databáze se rozhoduje, jaké typy dat se budou ukládat a jak spolu souvisí. Je to jako rozhodnout, že ve školním systému bude vedle jména žáka i třída a známky.",
+  "b11e1742-5e28-4270-b081-b0193d85ee7d": "V databázích se programují a mění tabulky, do kterých se data ukládají. Každý sloupec má svůj typ, třeba text, číslo nebo datum, stejně jako jméno a známka u žáka.",
+  "ef5b17a5-3ca8-4965-bd3d-61c4aca490d1": "Dokumenty se evidují, zařazují a archivují a na požádání se vydávají dál. Aby se našly, musí se u každého vědět, jaké údaje o něm systém drží.",
+  "4e4a1aa1-ca53-406e-9ca6-889d4621a0ed": "Digitální knihovny se třídí a popisují údaji, kterým se říká metadata. U každého souboru se tak určuje, jaká data k němu patří, podobně jako ke známce patří datum a předmět.",
+  "ef909843-97c6-4c48-8038-2e7aefdfcad5": "Dohlíží se na provoz systémů v nemocnicích a na to, jaká data o pacientech se v nich vedou. S databázemi se pracuje často, ale vedle toho se řeší i zdravotní péče.",
+  "f470b785-643c-46f9-8b31-6085427ab7b8": "Letecké informace, třeba změny letových řádů, se vyhodnocují a zapisují do systémů. Co se tam smí a má zapsat, je potřeba vědět přesně, protože se podle toho létá."
+ }
+}

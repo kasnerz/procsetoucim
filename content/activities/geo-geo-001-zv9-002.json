@@ -1,0 +1,328 @@
+[
+  {
+    "slug": "elektronicka-mapa-orientace",
+    "title": "Orientace s elektronickou mapou",
+    "aliases": [
+      "mapa v telefonu",
+      "navigace",
+      "kde jsem",
+      "GPS mapa"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Orientuje se s pomocí elektronické mapy v prostoru.",
+        "quote": "Orientuje se s pomocí elektronické mapy v prostoru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "GPS - orienťák",
+        "url": ""
+      },
+      {
+        "title": "Kudy tudy do Bavorova?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí značky a funkce mapy, polohu ti ale neurčí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody k mapovým aplikacím najdeš online."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Elektronická mapa ukáže tvou polohu a směr."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa a kompas pomohou, když není signál."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/97fb21db-a4e5-4b03-af21-03b9d510d872"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "druhy-geotechnologii",
+    "title": "GIS, GPS a družicové snímky",
+    "aliases": [
+      "geoinformační technologie",
+      "GIS",
+      "GNSS",
+      "dálkový průzkum Země",
+      "družicové snímky"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vlastními slovy charakterizuje geoinformační technologie, rozlišuje jejich základní typy (tj. geografické informační systémy, globální navigační satelitní systémy, dálkový průzkum Země) a zvolí vhodné technologie pro řešení reálných problémů",
+        "quote": "vlastními slovy charakterizuje geoinformační technologie, rozlišuje jejich základní typy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí GIS, GPS a dálkový průzkum prostě a zkouší tě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a encyklopedie popisují všechny tři typy."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikaci používáš, rozdíly mezi typy ti nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj tu nic nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/377861af-f966-4c87-a2db-7e99904312b9",
+      "http://data.europa.eu/esco/skill/4f6b656a-54d0-48ce-9b55-ebcac5904a14"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-technologie-k-problemu",
+    "title": "Výběr mapové technologie pro úkol",
+    "aliases": [
+      "jakou mapu použít",
+      "příklady využití map",
+      "GPS nebo GIS",
+      "mapy pro učení"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vlastními slovy charakterizuje geoinformační technologie, rozlišuje jejich základní typy (tj. geografické informační systémy, globální navigační satelitní systémy, dálkový průzkum Země) a zvolí vhodné technologie pro řešení reálných problémů",
+        "quote": "zvolí vhodné technologie pro řešení reálných problémů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "uvede příklady využití geoinformačních technologií pro vlastní učení a řešení problémů",
+        "quote": "uvede příklady využití geoinformačních technologií pro vlastní učení a řešení problémů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne technologii k úkolu a zdůvodní proč, rozhodneš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady použití, výběr pro úkol děláš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nevybere, jaká technologie se hodí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj tu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/377861af-f966-4c87-a2db-7e99904312b9",
+      "http://data.europa.eu/esco/skill/4f6b656a-54d0-48ce-9b55-ebcac5904a14"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "postup-prace-s-geodaty",
+    "title": "Postup práce s mapovými daty",
+    "aliases": [
+      "jak získat data z mapy",
+      "zpracování dat",
+      "sdílení mapy",
+      "vizualizace dat"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "navrhuje postupy využití vybraných geoinformačních technologií k získávání, zpracování, vizualizaci a sdílení geografických dat při řešení různých problémů",
+        "quote": "navrhuje postupy využití vybraných geoinformačních technologií k získávání, zpracování, vizualizaci a sdílení geografických dat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Sepíše možný postup po krocích, ty ho upravíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a příklady najdeš, postup si skládáš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace provede jen jeden krok, postup nenavrhne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj tu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/377861af-f966-4c87-a2db-7e99904312b9",
+      "http://data.europa.eu/esco/skill/08b04e53-ed25-41a2-9f90-0b9cd939ba3d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "data-o-mistech-z-mapy",
+    "title": "Popis a porovnání míst v mapě",
+    "aliases": [
+      "porovnání míst",
+      "změny krajiny",
+      "letecké snímky",
+      "popis regionu"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "používá vybrané geoinformační technologie pro získávání geografických dat pro popis míst a regionů, jejich porovnání a změn",
+        "quote": "používá vybrané geoinformační technologie pro získávání geografických dat pro popis míst a regionů, jejich porovnání a změn"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Webový geek",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše místo ze známých zdrojů, aktuální snímky nevidí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlasy a statistiky dají údaje, srovnání děláš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Webová mapa ukáže místa i staré snímky vedle sebe."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový atlas dává údaje o regionech, změny ale neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/377861af-f966-4c87-a2db-7e99904312b9",
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-mapa-v-gis",
+    "title": "Tvorba vlastní mapy v interaktivní mapě",
+    "aliases": [
+      "vlastní mapa",
+      "vytvořit mapu",
+      "vlastní body v mapě",
+      "jednoduchý GIS"
+    ],
+    "outcome": "GEO-GEO-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá jím zvolené webové interaktivní mapy nebo jednoduchý GIS k získávání a vytváření geografických dat a informací.",
+        "quote": "Využívá jím zvolené webové interaktivní mapy nebo jednoduchý GIS k získávání a vytváření geografických dat a informací."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Webový geek",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí s postupem v mapovém nástroji, mapu ti nevytvoří."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody k mapovým nástrojům najdeš na webu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Webová mapa umožní nakreslit body a trasy a uložit je."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papírové mapě si vlastní mapu nakreslíš tužkou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9e14c1d8-72f2-45ba-815d-0d12e12d19fa",
+      "http://data.europa.eu/esco/skill/377861af-f966-4c87-a2db-7e99904312b9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

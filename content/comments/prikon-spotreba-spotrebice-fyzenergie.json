@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Na štítku rychlovarné konvice nebo nabíječky stojí příkon ve wattech, a když ho vynásobíš časem, víš, kolik energie spotřebič vzal ze zásuvky. Tak zjistíš, jestli víc energie spotřebuje vysávání, nebo nabíjení mobilu, a podle čeho doma šetřit. Lidé, kteří radí domácnostem s úsporami, zapojují elektřinu v domech nebo řídí spotřebu energie ve firmách, s tím počítají denně. Aplikace k chytré zásuvce ti spotřebu ukáže, ale přečíst štítek a odhadnout, kolik co spotřebuje, se hodí při každém nákupu spotřebiče.",
+  "learnWithAi": [
+    {
+      "title": "Watt, nebo kilowatthodina",
+      "text": "Zeptej se chatbota, čím se liší watt od kilowatthodiny, a nech si dát pět otázek, ve kterých musíš vybrat správnou jednotku."
+    },
+    {
+      "title": "Štítky doma",
+      "text": "Opiš příkon ze štítků tří spotřebičů doma a odhadni, jak dlouho denně běží. Výpočet energie napiš na papír a chatbota požádej jen o kontrolu jednotek."
+    },
+    {
+      "title": "Spor o nabíječku a konvici",
+      "text": "Ať chatbot tvrdí, že nabití mobilu spotřebuje víc energie než uvaření vody v konvici. Spočítej to z příkonu a času a výsledek si zkontroluj kalkulačkou."
+    }
+  ]
+}

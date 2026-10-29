@@ -1,0 +1,382 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-011",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "role-zen-a-muzu-v-epochach",
+      "title": "Role žen a mužů v různých epochách",
+      "aliases": [
+        "role žen ve středověku",
+        "postavení ženy a muže",
+        "jak se žilo ženám",
+        "povinnosti žen a mužů v minulosti"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše roli, postavení a povinnosti ženy a muže v různých dějinných epochách a společenských postaveních."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Sám nebo s pomocí rekonstruuje a popíše pojetí společenských rolí mužů a žen ve vybraných situacích v minulosti"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Analyzuje konkrétní příklady života mužů a žen, případně queer osob v různých historických situacích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co se od žen a mužů v dané době čekalo, a vyzkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš texty o životě žen a mužů ve středověku i jindy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Čím mohly být ženy ve středověku?"
+      ]
+    },
+    {
+      "slug": "prace-se-zdroji-o-rolich",
+      "title": "Zdroje o ženách a mužích v minulosti",
+      "aliases": [
+        "populárně naučný text o ženách",
+        "politická karikatura",
+        "zobrazení mužů a žen",
+        "jak číst starý obrázek"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Informace získá ze zdrojů (např. odborně popularizační text o postavení žen ve středověku, politická karikatura z 19. století, různá zobrazení mužů a žen)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže rozluštit karikaturu nebo text a zeptá se, co zdroj tvrdí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš historické texty, karikatury a obrazy ke zkoumání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Jak nahlíželi/y na ženu"
+      ]
+    },
+    {
+      "slug": "pribeh-konformity-a-diskriminace",
+      "title": "Příklad člověka, který normy dodržel nebo porušil",
+      "aliases": [
+        "významná osobnost minulosti",
+        "kdo porušil pravidla své doby",
+        "konformita",
+        "modelová historická osobnost"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyhledá příklad konformity a diskriminace související se sociálním postavením, resp. genderovou identitou"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne osobnosti, které pravidla dodržely nebo porušily, a vysvětlí je."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš životopisy osobností a popis dobových pravidel."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ],
+      "inspiration": [
+        "Elena Lacková: Kontinuita a proměny ve společenském postavení žen"
+      ]
+    },
+    {
+      "slug": "diskriminace-a-vynucovani-norem",
+      "title": "Diskriminace a vynucování pravidel chování",
+      "aliases": [
+        "diskriminace v dějinách",
+        "pronásledování",
+        "genderové normy",
+        "proč museli nosit jiné oblečení"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Identifikuje příklady diskriminace a charakteristické rysy utváření a/nebo vynucování sociálních a genderových norem"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady diskriminace a/nebo pronásledování lidí, kteří se odlišovali od genderových norem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se pravidla vynucovala, a ukáže rozdíly mezi dobami."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady postihů i zákonů, které chování určovaly."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "ukazatele-zmen-rolí-zen-a-muzu",
+      "title": "Ukazatele pro srovnání dob",
+      "aliases": [
+        "vzdělání, práce a politika",
+        "co se změnilo",
+        "co zůstalo stejné",
+        "podle čeho porovnávat"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sledované ukazatele si stanovují předem s vyučujícím (např. možnost vzdělání, kvalifikované práce, politické kariéry)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše na základě stanovených ukazatelů, co se v dějinách z hlediska genderových rolí a norem mění a co zůstává stejné."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne ukazatele, třeba vzdělání nebo práci, a pomůže je porovnat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš data o vzdělání, práci a volebním právu v různých dobách."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dalsi-historicke-situace",
+      "title": "Stejný postup pro další dobu",
+      "aliases": [
+        "19. století",
+        "60. léta 20. století",
+        "porovnání dvou dob",
+        "další příklad z dějin"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Postup opakuje na příkladu dalších historických situací (např. 19. století, 60. léta 20. století)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne další dobu a zeptá se tě na stejné ukazatele."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš zdroje o 19. století i o šedesátých letech 20. století."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Žena v kuchyni, žena v továrně: kdo byl skutečně svobodný?"
+      ]
+    },
+    {
+      "slug": "vlastni-nazor-na-promeny-roli",
+      "title": "Vlastní názor na proměny rolí",
+      "aliases": [
+        "můj názor na dějiny",
+        "co se mění a co ne",
+        "vlastní náhled"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "formuje vlastní náhled a názor na základě porozumění historickým změnám i neměnným stavům v rámci genderových rolí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se, proč si to myslíš, a ukáže protiargument."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš různé pohledy na dějiny rolí z knih i článků."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Cizí postoje ani hodnoty ti aplikace nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tohle se řeší hlavou a rozhovorem, ne pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "role-driv-a-dnes",
+      "title": "Role mužů a žen dříve a dnes",
+      "aliases": [
+        "rozdíl mezi minulostí a dneškem",
+        "co je dnes jinak",
+        "co zůstává stejné"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Porovná, jaké byly role mužů a žen v minulosti a v současnosti."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "stanoví, čím se současnost odlišuje a co zůstává stejné"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se na rozdíly a podobnosti a pomůže seřadit poznatky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš statistiky a články o rolích žen a mužů dnes i dříve."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

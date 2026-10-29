@@ -1,0 +1,434 @@
+[
+  {
+    "slug": "obnovitelne-zdroje-surovin-chesurovin",
+    "title": "Obnovitelné a neobnovitelné zdroje surovin",
+    "aliases": [
+      "obnovitelné zdroje",
+      "neobnovitelné zdroje",
+      "ropa uhlí a slunce",
+      "zdroje energie"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvede konkrétní příklady obnovitelných a neobnovitelných zdrojů surovin.",
+        "quote": "Uvede konkrétní příklady obnovitelných a neobnovitelných zdrojů surovin."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uvede příklady využívání materiálů a energetických surovin v kontextu udržitelnosti.",
+        "quote": "Uvede příklady využívání materiálů a energetických surovin v kontextu udržitelnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Obnovitelné a neobnovitelné zdroje surovin",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl a zeptá se tě na příklady, které pak zkontroluje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie ukážou, co se obnovuje a co dojde."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná jednoúčelová aplikace tě tohle třídění nenaučí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Třídění zdrojů na obnovitelné a neobnovitelné nezměříš žádným přístrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fosilni-paliva-kovy-plasty-chesurovin",
+    "title": "Fosilní paliva, kovy a plasty kolem nás",
+    "aliases": [
+      "ropa zemní plyn uhlí",
+      "z čeho jsou věci",
+      "suroviny v průmyslu",
+      "petrochemie"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Identifikuje hlavní materiály a energetické suroviny používané v průmyslu a každodenním životě (např. fosilní paliva, kovy, plasty) a stručně popíše jejich složení.",
+        "quote": "Identifikuje hlavní materiály a energetické suroviny používané v průmyslu a každodenním životě"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Energetické suroviny",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, z čeho se věci skládají, a vyzkouší tě na příkladech."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie ukáže složení ropy, uhlí i plastů a k čemu slouží."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s tabulkou prvků složení surovin nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Podívat se na věc v ruce ti o její surovině nic neřekne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/279e8cb1-b704-41b3-a1c9-60f130e303b4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tezba-zpracovani-fosilnich-paliv-chesurovin",
+    "title": "Těžba, zpracování a dopady fosilních paliv",
+    "aliases": [
+      "těžba ropy",
+      "těžba uhlí",
+      "dopady těžby",
+      "znečištění ze spalování"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše základní principy získávání a zpracování fosilních paliv a jejich využití včetně dopadů na životní prostředí.",
+        "quote": "Popíše základní principy získávání a zpracování fosilních paliv a jejich využití včetně dopadů na životní prostředí."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše environmentální dopady těžby a využití energetických surovin.",
+        "quote": "Popíše environmentální dopady těžby a využití energetických surovin."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Environmentální dopady těžby a využití energetických surovin",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti princip těžby a dopady vysvětlí jednoduše a pak se tě zeptá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a články o těžbě ukážou postup i dopady na krajinu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle téma nemá jednoúčelová aplikace co nabídnout."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dopady těžby si v ruce ani na lavici nezměříš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/279e8cb1-b704-41b3-a1c9-60f130e303b4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "teplota-varu-destilace-ropy-chesurovin",
+    "title": "Molekuly a teplota varu při zpracování ropy",
+    "aliases": [
+      "destilace ropy",
+      "benzin nafta",
+      "teplota varu",
+      "velikost molekuly"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí spojitost mezi velikostí molekuly a teplotou varu na příkladech produktů průmyslového zpracování ropy a uvede jejich využití.",
+        "quote": "Vysvětlí spojitost mezi velikostí molekuly a teplotou varu na příkladech produktů průmyslového zpracování ropy a uvede jejich využití."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí, proč se větší molekuly vaří výš, a zkontroluje tvoje vysvětlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie ukáže tabulku frakcí ropy s teplotami varu a využitím."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace destilace ti ukáže, co se při které teplotě oddělí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr a pokus s varem kapalin ukážou, že každá se vaří jinak."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/279e8cb1-b704-41b3-a1c9-60f130e303b4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "palivo-nebo-obnovitelny-zdroj-chesurovin",
+    "title": "Porovnání paliv a obnovitelných zdrojů",
+    "aliases": [
+      "benzin nebo solár",
+      "fosilní paliva proti obnovitelným",
+      "udržitelnost paliv",
+      "vodík a jaderná energie"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porovná užívání běžných paliv (fosilních a vyráběných) jako zdrojů energie z pohledu efektu i udržitelnosti s obnovitelnými zdroji.",
+        "quote": "Porovná užívání běžných paliv (fosilních a vyráběných) jako zdrojů energie z pohledu efektu i udržitelnosti s obnovitelnými zdroji."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Energetické suroviny",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot probere výhody a nevýhody zdrojů a zkontroluje tvoje srovnání."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdroje o energetice dají čísla a argumenty, které porovnáváš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka v počítači ti pomůže srovnat zdroje podle vlastních sloupců."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ruční nástroj porovnání udržitelnosti paliv nenabízí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee",
+      "http://data.europa.eu/esco/skill/83fc0b2b-6cd2-46af-b1ff-d3fc83604c26"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohony-aut-budoucnost-chesurovin",
+    "title": "Pohony automobilů dnes a v budoucnu",
+    "aliases": [
+      "elektromobil",
+      "spalovací motor",
+      "vodíkové auto",
+      "alternativní pohony"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě dosavadních zjištění posoudí možnosti a výzvy budoucího využití možných pohonů automobilů (alternativních i fosilních).",
+        "quote": "Na základě dosavadních zjištění posoudí možnosti a výzvy budoucího využití možných pohonů automobilů (alternativních i fosilních)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot s tebou probere přínosy a potíže pohonů a zpochybní tvoje závěry."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a statistiky o autech dávají fakta k tvému posouzení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka spotřeby a nabíjení spočítá, kolik který pohon stojí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj pohony aut neposoudí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e9ff446f-6a8a-4e35-a611-176508964be3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "plasty-od-zdroje-po-recyklaci-chesurovin",
+    "title": "Plasty od suroviny po recyklaci",
+    "aliases": [
+      "plasty a recyklace",
+      "z čeho je plast",
+      "třídění plastů",
+      "vlastnosti plastů"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladu plastů popíše průběh zpracování od jejich zdroje po samotné využití a možnosti recyklace.",
+        "quote": "Na příkladu plastů popíše průběh zpracování od jejich zdroje po samotné využití a možnosti recyklace."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vlastnosti plastů",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí cestu plastu z ropy do výrobku a pak z něj udělá otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky o recyklaci ukážou postup výroby i zpracování."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Cestu plastu nevysvětlí žádná běžná jednoúčelová aplikace."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Vzorky plastů a značky recyklace v ruce ti ukážou rozdíly mezi druhy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9c66b182-96ec-43b3-8821-2aeb7df66f12",
+      "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "opatreni-udrzitelnost-ve-meste-chesurovin",
+    "title": "Opatření pro udržitelné využívání surovin u nás",
+    "aliases": [
+      "třídění a recyklace",
+      "šetření surovinami",
+      "udržitelnost ve městě",
+      "co zlepšit v obci"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zmapuje stávající opatření pro udržitelné využívání materiálů a surovin (např. třídění, recyklace, používání obnovitelných zdrojů, snižování spotřeby) a navrhne možnosti rozšíření těchto opatření v ČR, v regionu či v místě svého bydliště.",
+        "quote": "Zmapuje stávající opatření pro udržitelné využívání materiálů a surovin"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot probere nápady na zlepšení a upozorní na slabá místa tvého návrhu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky obce a ČR ukážou, jaká opatření už fungují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa s kontejnery ukáže, kde se v okolí třídí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Opatření ve svém okolí zmapuješ chůzí a ptaním, ne nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/103f7814-d262-4df6-a1b6-759bc51f76cb",
+      "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "clovek-nebo-priroda",
+    "title": "Co vytvořil člověk a co příroda",
+    "aliases": [
+      "přírodní a lidský výtvor",
+      "umělé a přírodní věci",
+      "člověk nebo příroda"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozlišuje, co vytvořil člověk a co příroda.",
+        "quote": "Rozlišuje, co vytvořil člověk a co příroda."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Člověk nebo příroda",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí příklady k třídění a řekne ti, kde je hranice nejasná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš fotky a popisy, kdo co vytvořil."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na rozpoznání rostlin ukáže, co je přírodní druh."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Lupa nepoví, kdo věc vyrobil. To poznáš z okolí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "chovani-v-prirode",
+    "title": "Správné chování v přírodě",
+    "aliases": [
+      "pravidla v lese",
+      "nedělat bordel v přírodě",
+      "odpadky v lese",
+      "ochrana přírody"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše správné chování v přírodě a jednoduše zdůvodní důsledky nevhodného chování.",
+        "quote": "Popíše správné chování v přírodě a jednoduše zdůvodní důsledky nevhodného chování."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše na základě příkladů, proč je důležité dodržovat zásady udržitelného chování v přírodě.",
+        "quote": "Popíše na základě příkladů, proč je důležité dodržovat zásady udržitelného chování v přírodě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč jsou pravidla v přírodě, a co způsobí jejich porušení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Řády chráněných území a pravidla se dají dohledat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe odpadky nesebere a nezačne se chovat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidla v přírodě dodržuješ ty, žádný nástroj to za tebe nezvládne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6",
+      "http://data.europa.eu/esco/skill/110d7aa3-e44e-4cce-a927-8d4de615f3d9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zmeny-krajiny",
+    "title": "Jak člověk změnil krajinu",
+    "aliases": [
+      "změny krajiny",
+      "zásahy člověka do přírody",
+      "jak se mění obec",
+      "stará a nová mapa"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí, jak v daném místě (v ČR i mimo ČR) člověk pozměnil krajinu.",
+        "quote": "Určí, jak v daném místě (v ČR i mimo ČR) člověk pozměnil krajinu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vliv člověka na krajinu",
+        "url": ""
+      },
+      {
+        "title": "Zásahy člověka do přírody",
+        "url": ""
+      },
+      {
+        "title": "Jak se mění naše obec",
+        "url": "https://uloziste.rvp.cz/material/33fc73"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se krajina mění, a dá příklady z Česka i ze světa."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Staré a nové fotky i mapy ukáží, co se na místě změnilo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa s leteckým snímkem ukáže pole, města a lomy."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa ukáže cesty, rybníky a zástavbu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priciny-a-nasledky-zasahu",
+    "title": "Příčiny a následky zásahů do krajiny",
+    "aliases": [
+      "proč se krajina změnila",
+      "důsledky změn",
+      "dopad na přírodu",
+      "co k tomu vedlo"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhledá, co k tomu vedlo a jaké mohou být důsledky.",
+        "quote": "Vyhledá, co k tomu vedlo a jaké mohou být důsledky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí příčiny a následky zásahu a ptá se na další souvislosti."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš články, studie a zprávy o konkrétních zásazích."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti příčiny a následky nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tady ti obyčejný nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "seznam-setrnych-cinnosti",
+    "title": "Můj seznam šetrných činností",
+    "aliases": [
+      "jak šetřit planetu",
+      "třídění odpadu",
+      "šetřit vodou a energií",
+      "udržitelnost"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří vlastní seznam každodenních činností a opatření, jak on sám může přispět k udržitelnosti na Zemi.",
+        "quote": "Vytvoří vlastní seznam každodenních činností a opatření, jak on sám může přispět k udržitelnosti na Zemi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne nápady a pomůže seznam utřídit podle toho, co zvládneš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tipy, jak šetřit vodu, energii a odpad."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace seznam za tebe nesplní, činnosti děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tady ti obyčejný nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6",
+      "http://data.europa.eu/esco/skill/110d7aa3-e44e-4cce-a927-8d4de615f3d9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dobra-a-spatna-praxe",
+    "title": "Dobré a špatné příklady z okolí",
+    "aliases": [
+      "co dělají lidé dobře",
+      "co dělají lidé špatně",
+      "životní prostředí v obci",
+      "hodnocení obce"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Uvede ze svého okolí příklady dobré i špatné praxe vztahu lidí k životnímu prostředí.",
+        "quote": "Uvede ze svého okolí příklady dobré i špatné praxe vztahu lidí k životnímu prostředí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak se vede naší obci",
+        "url": "https://uloziste.rvp.cz/material/c9ebbe"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč je příklad dobrý nebo špatný, a navrhne protipříklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady z obcí a škol, které se osvědčily."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace příklady z tvého okolí neznají."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tady ti obyčejný nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,256 @@
+{
+  "outcome": "CJS-CJS-001-ZV5-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "hlasovani-ve-tride-zazitek",
+      "title": "Hlasování ve třídě",
+      "aliases": [
+        "hlasování",
+        "volby ve třídě",
+        "třídní volby",
+        "hlasovat",
+        "výsledek hlasování"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Hlasuje při rozhodování ve třídě."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Účastní se hlasování v reálné situaci a popíše své pocity po vyhlášení výsledků."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zapojuje se do hlasování ve třídě a popíše, na základě jakých informací se rozhodoval."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Hlasuješ a vnímáš výsledek ty, chatbot za tebe nic nezažije."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Svůj hlas dáváš ve třídě, na webu pro něj nic nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Hlasuje se rukou nebo lístkem, aplikace ti hlas nedá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Hlasovací lístek jen zapíše tvoji volbu, rozhodnout se musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+        "http://data.europa.eu/esco/skill/eed2447e-13a2-4583-9066-cdb38d90c808"
+      ],
+      "inspiration": [
+        "Třídní volby",
+        "Volba třídního mazlíčka"
+      ]
+    },
+    {
+      "slug": "hlasovani-pravidla-spravedlnost",
+      "title": "Pravidla spravedlivého hlasování",
+      "aliases": [
+        "pravidla hlasování",
+        "spravedlivé volby",
+        "tajné hlasování",
+        "kdo smí hlasovat",
+        "podvádění při hlasování"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Popíše, jaká pravidla musí být při hlasování v reálné situaci dodržována."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zhodnotí popsaný průběh hlasování z hlediska dodržení principu hlasování."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč má mít každý jeden hlas, a probere s tebou příklad."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam popsané volby a jejich pravidla k porovnání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace ti nenaučí posoudit, jestli hlasování proběhlo spravedlivě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj, který by pravidla hlasování hlídal, ve třídě není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+        "http://data.europa.eu/esco/skill/eed2447e-13a2-4583-9066-cdb38d90c808"
+      ],
+      "inspiration": [
+        "Pravidla při hlasování",
+        "Nespravedlivé volby"
+      ]
+    },
+    {
+      "slug": "hlasovani-priprava-tridni-volby",
+      "title": "Příprava hlasování ve třídě",
+      "aliases": [
+        "příprava voleb",
+        "jak se volí",
+        "hlasovací lístek",
+        "urna",
+        "volební komise"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Připraví hlasování ve třídě ve spolupráci se spolužáky a vysvětlí, jak volby probíhají."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, co všechno k hlasování potřebuješ, a ty to pak ve třídě dotáhneš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukáže, jak probíhají skutečné volby, a máš z čeho vzít nápad."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Hlasování připravuješ se spolužáky, aplikace za vás nic nezařídí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, tužka a krabice na lístky ti hlasování doopravdy umožní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+        "http://data.europa.eu/esco/skill/eed2447e-13a2-4583-9066-cdb38d90c808"
+      ],
+      "inspiration": [
+        "Třídní volby",
+        "Volby"
+      ]
+    },
+    {
+      "slug": "hlasovani-vyznam-pro-spolecnost",
+      "title": "Proč je hlasování pro společnost důležité",
+      "aliases": [
+        "k čemu je hlasování",
+        "proč volit",
+        "demokracie",
+        "volby",
+        "rozhodování ve skupině"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Na základě hlasování v reálné situaci vysvětlí, proč může být hlasování pro společnost, které se situace týká, důležité."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, co se stane, když rozhodují jen někteří, a ty to zkusíš vysvětlit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam text o demokracii a volbách, ze kterého můžeš čerpat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace ti důvod, proč hlasovat, nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nic z klasických nástrojů na tuto otázku neodpoví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a2151ed1-82b9-4314-8ca3-339bc923da9d",
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37"
+      ],
+      "inspiration": [
+        "Volby"
+      ]
+    },
+    {
+      "slug": "hlasovani-kdy-vhodne",
+      "title": "Kdy je hlasování vhodné",
+      "aliases": [
+        "kdy hlasovat",
+        "hlasování nebo dohoda",
+        "kdo rozhoduje",
+        "rozhodování ve třídě",
+        "vhodné řešení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V různých situacích rozhodne, zda je pro řešení problému vhodné hlasování, a vysvětlí proč."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá ti situace k posouzení a řekne, jestli tvoje zdůvodnění drží."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové odpovědi tam nejsou, situaci posuzuješ ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace za tebe situaci neposoudí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj na tohle neexistuje, rozhodnutí je na tvé úvaze."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37"
+      ],
+      "inspiration": [
+        "Třídní volby"
+      ]
+    }
+  ],
+  "aside": []
+}

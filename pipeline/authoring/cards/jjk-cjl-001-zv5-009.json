@@ -1,0 +1,207 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dotvareni-pohadky-o-ucene-huse",
+      "title": "Dokončení a přetvoření textu",
+      "aliases": [
+        "dokončit pohádku",
+        "dopsat příběh",
+        "přepsat text",
+        "změnit konec",
+        "dotvořit text"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Podle zadání či spontánně doplňuje, přetváří, dotváří umělecký text."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti ukáže, jak by mohl příběh pokračovat, ty si pak vymýšlíš vlastní konec."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky dokončených pohádek a bajek ti dají nápad, jak začít."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti text nedotvoří, nápady a slova vybíráš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka ti pomůžou psát a škrtat verze, než se ti konec líbí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+      ],
+      "inspiration": [
+        "Nedokončená pohádka - o učené huse"
+      ]
+    },
+    {
+      "slug": "psani-vlastniho-pribehu-podle-prectene-knihy",
+      "title": "Vlastní text podle přečteného",
+      "aliases": [
+        "napsat příběh",
+        "vlastní vyprávění",
+        "slohová práce",
+        "psaní podle knihy",
+        "napsat pohádku"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vytvoří literární text na základě přečteného, podle zadaných kritérií nebo podle vlastního výběru."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí, z čeho se příběh skládá, a řekne, co se ti v textu nepovedlo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzorové texty a rady pro psaní příběhu ti ukážou, jak se to dělá."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu v aplikaci najde chyby v tvém textu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník a tužka ti pomůžou hledat slova a psát čistopis."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+        "http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd"
+      ],
+      "inspiration": [
+        "Můj příběh"
+      ]
+    },
+    {
+      "slug": "dramatizace-pohadky-v-tride",
+      "title": "Dramatizace pohádky",
+      "aliases": [
+        "hrát pohádku",
+        "divadlo ve třídě",
+        "scénka",
+        "hraní rolí",
+        "dramatizace"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Využívá dramatizaci ke ztvárnění literárního textu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti poradí, jak rozdělit role a co která postava říká."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty pohádek a nápady na rekvizity ti pomůžou se připravit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Hraješ svým hlasem a tělem, aplikace to za tebe nezahraje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před spolužáky hraješ ty, žádná pomůcka to nezastoupí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74be20a7-fcfe-4715-bb62-8937a547a982",
+        "http://data.europa.eu/esco/skill/1263904f-1c2c-48f5-a6ca-0176ef5d2060"
+      ],
+      "inspiration": [
+        "Dramatizace pohádky"
+      ]
+    },
+    {
+      "slug": "ztvarneni-textu-komiksem-etudou-nebo-zaznamem",
+      "title": "Ztvárnění textu komiksem, etudou nebo záznamem",
+      "aliases": [
+        "komiks podle příběhu",
+        "dramatická etuda",
+        "natočit video",
+        "audiozáznam",
+        "ztvárnění emocí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Ve svých aktivitách propojuje různé druhy umění (např. komiks, dramatická etuda, audio a videozáznamy)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Ztvární literární text pomocí umělecké formy, kterou si sám zvolí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti pomůže vymyslet, jak příběh rozdělit na obrázky nebo scény."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky komiksů a krátkých filmů ti dají nápad, jak příběh převyprávět."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na kreslení, nahrávání zvuku a střih videa ti umožní příběh zpracovat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, pastelky a tužka ti stačí na komiks, který nakreslíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5d8b0aff-0599-470a-8eef-9e8cb3ad1626",
+        "http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd"
+      ],
+      "inspiration": [
+        "Ztvárnění emocí jako součást práce s literárním textem",
+        "O lesní žínce"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Pracuje s literárním textem",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

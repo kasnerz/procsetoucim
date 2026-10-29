@@ -1,0 +1,359 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dej-pojem-industrializace",
+      "title": "Co je industrializace",
+      "aliases": [
+        "industrializace",
+        "průmyslová revoluce",
+        "stroje a továrny",
+        "výroba ve strojích"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vysvětlí pojem industrializace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem jinými slovy a dá ti příklady, které si pak řekneš po svém."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové stránky ukážou, co industrializace byla."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pro dějepisný pojem žádná samostatná aplikace nejde použít."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný přístroj ti pojem nevysvětlí, v dějepisu ho vysvětlíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": [
+        "Průmyslová revoluce"
+      ]
+    },
+    {
+      "slug": "dej-zivot-pred-a-po-vynalezu",
+      "title": "Život před vynálezem a po něm",
+      "aliases": [
+        "před a po vynálezu",
+        "jak lidé žili dřív",
+        "změna života",
+        "vynález a život lidí",
+        "porovnání skupin obyvatel"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše, jak lidstvo žilo před objevem či používáním konkrétního vynálezu a jak po něm."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Porovná způsob života vybrané skupiny obyvatel před a po vynálezu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovná způsob života několika různých skupin obyvatel před a po vynálezu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne, jak se žilo před vynálezem, a ty si jeho odpověď ověříš ve zdrojích."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš texty, obrazy a tabulky z té doby, ze kterých srovnání poskládáš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti zdroje neporovná, srovnání dělá tvůj úsudek."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Samotný přístroj nic o minulosti života neřekne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Jak změnila továrna život dětí?",
+        "Průmyslová revoluce: vítězové a poražení"
+      ]
+    },
+    {
+      "slug": "dej-zdroje-ke-zmene-zivota",
+      "title": "Práce se dvěma zdroji o minulosti",
+      "aliases": [
+        "texty a obrazy",
+        "statistické tabulky a grafy",
+        "historické zdroje",
+        "jak číst pramen"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "s využitím dvou vhodných zdrojů (texty, obrazy, statistické tabulky a grafy apod.)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak číst obraz nebo graf z minulosti, a zeptá se tě, co z něj vyčteš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Archivy a muzea mají texty, obrazy i tabulky z doby průmyslové revoluce."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace za tebe zdroj nevybere a nepřečte."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Lupa ani pravítko ti nepovědí, co zdroj říká o době."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Průmyslová revoluce"
+      ]
+    },
+    {
+      "slug": "dej-kdo-vynalez-prosazoval-a-odmital",
+      "title": "Kdo vynález prosazoval a kdo ho odmítal",
+      "aliases": [
+        "odpůrci vynálezů",
+        "luddité",
+        "kdo vynálezy využíval",
+        "reakce na změny"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše aktivity osob, které iniciovaly, využívaly nebo odmítly daný objev, vynález či vědecký přístup."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Uvede příklady, jak různě na změny reagovali lidé i celé skupiny obyvatel."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje příklady lidí, kteří vynálezy prosazovali nebo odmítali, a ty zjistíš proč."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Životopisy vynálezců a texty o odporu proti strojům najdeš v encyklopediích."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti postoje lidí v minulosti nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tady nepomůže žádný přístroj, jde o pochopení lidí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Průmyslová revoluce: vítězové a poražení"
+      ]
+    },
+    {
+      "slug": "dej-industrializace-v-regionu-skoly",
+      "title": "Industrializace v regionu školy",
+      "aliases": [
+        "průmysl v mém okolí",
+        "továrny ve městě",
+        "místní historie",
+        "průmyslová revoluce u nás",
+        "Vrchlabí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vysvětlí důsledky industrializace a její projevy v regionu školy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti s otázkami k tématu, o regionu školy ale neví víc než knihy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Regionální weby, muzea a archivy popisují, jaké továrny stály v okolí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa ukáže, kde bývaly továrny a dráhy v okolí školy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Přístroj o místní minulosti nic neřekne, najdeš to v textech a na místě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Jak průmyslová revoluce změnila Vrchlabí?",
+        "Jak změnili svět? Průmyslová revoluce v českých zemích"
+      ]
+    },
+    {
+      "slug": "dej-kladne-a-zaporne-dusledky-technologii",
+      "title": "Kladné a záporné stránky nových technologií",
+      "aliases": [
+        "výhody a nevýhody vynálezů",
+        "dopady technologií",
+        "dobré a špatné stránky",
+        "porovnání inovací"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše kladné i záporné důsledky používání moderních technologií v minulosti."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovná různé technologické inovace a posoudí míru pozitivního a negativního vlivu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vypíše výhody a nevýhody inovace, ty pak o nich přemýšlíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty a příklady z různých zdrojů ukážou přínosy i škody vynálezu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nezváží, co bylo horší a co lepší."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Posoudit vliv na lidi musíš ty, přístroj to nezvládne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": [
+        "Průmyslová revoluce: vítězové a poražení"
+      ]
+    },
+    {
+      "slug": "dej-ruzny-dopad-na-spolecenske-vrstvy",
+      "title": "Různý dopad vynálezu na společenské vrstvy",
+      "aliases": [
+        "bohatí a chudí",
+        "společenské nerovnosti",
+        "dělníci a továrníci",
+        "kdo vyhrál a kdo prohrál",
+        "vrstvy společnosti"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "uvede příklady, jak zkoumané změny ovlivnily společenské nerovnosti a konflikty"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Posoudí, zda v dané době byl dopad vynálezu či objevu stejný na různé společenské vrstvy a regiony, nebo zda se lišil."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě, komu změna prospěla a komu ne, a ty to doložíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Historické texty a tabulky ukážou rozdíly mezi vrstvami a kraji."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Rozdíly mezi vrstvami za tebe žádná aplikace nezhodnotí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Přístroj společenské rozdíly neposoudí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Průmyslová revoluce: vítězové a poražení",
+        "Jak změnila továrna život dětí?"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Od vyučujícího zjistí",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

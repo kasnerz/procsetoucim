@@ -1,0 +1,56 @@
+{
+  "outcome": "JJK-DCJ-001-ZV9-003",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "- vyhledá důležitou informaci v autentickém materiálu",
+      "cards": [
+        "hledani-informace-v-cizim-materialu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "- porozumí základním informacím, které jsou obsaženy v autentickém materiálu",
+      "cards": [
+        "porozumeni-informacim-v-materialu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "- najde a zopakuje znění jednoduché krátké informace, kterou vyhledal v autentickém materiálu - porovná vyhledané informace v různých autentických materiálech",
+      "cards": [
+        "hledani-informace-v-cizim-materialu",
+        "porovnani-informaci-z-materialu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Prokáže porozumění konkrétním informacím, které vyhledal v autentickém materiálu, správně odpoví na otázky týkající se textu nebo ústně shrne důležité body z materiálu.",
+      "cards": [
+        "porozumeni-informacim-v-materialu",
+        "ustni-shrnuti-z-materialu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytvoří jednoduché shrnutí nebo výstup na základě autentických materiálů, napíše krátký text nebo sestaví prezentaci o informacích, které získal z různých materiálů.",
+      "cards": [
+        "kratky-text-nebo-prezentace-z-materialu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vyhledá v krátkém slovním spojení jednoduchou informaci.",
+      "cards": [
+        "hledani-informace-v-cizim-materialu"
+      ],
+      "aside": null
+    }
+  ]
+}

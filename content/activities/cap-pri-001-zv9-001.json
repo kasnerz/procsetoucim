@@ -1,0 +1,674 @@
+[
+  {
+    "slug": "zivy-a-nezivy-svet",
+    "title": "Živá a neživá příroda",
+    "aliases": [
+      "živé a neživé",
+      "znaky života",
+      "co je živé"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozlišuje živou a neživou přírodu",
+        "quote": "rozlišuje živou a neživou přírodu"
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje tvé třídění a vysvětlí sporné případy, třeba oheň."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš seznam znaků života, podle kterého třídíš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Roztřídit živé a neživé ti žádná aplikace nepomůže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Živé a neživé rozlišuješ úvahou, na to nástroj nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "funkce-organu-v-tele",
+    "title": "Funkce orgánů v těle",
+    "aliases": [
+      "orgány",
+      "k čemu je srdce",
+      "orgány živočichů",
+      "životní funkce"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "popíše základní funkce orgánů v těle živočichů",
+        "quote": "popíše základní funkce orgánů v těle živočichů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí funkci orgánu jednoduššími slovy a vyzkouší tě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš schémata těla s popisem, co který orgán dělá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Atlas těla v aplikaci ukáže, kde orgán leží a jak vypadá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Funkce orgánů se učíš z výkladu, obyčejný nástroj tu nemá co ukázat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ovladani-mikroskopu",
+    "title": "Práce s mikroskopem",
+    "aliases": [
+      "mikroskop",
+      "zaostření",
+      "světlo v mikroskopu",
+      "zvětšení",
+      "obraz je otočený"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "pozoruje preparát a ovládá ostření mikroskopu, nastaví vhodnou intenzitu světla",
+        "quote": "pozoruje preparát a ovládá ostření mikroskopu, nastaví vhodnou intenzitu světla"
+      },
+      {
+        "level": "Na cestě",
+        "point": "reflektuje princip zvětšení a otočení obrazu",
+        "quote": "reflektuje princip zvětšení a otočení obrazu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "pozoruje preparát a ovládá ostření mikroskopu, nastaví vhodnou intenzitu světla",
+        "quote": "pozoruje preparát a ovládá ostření mikroskopu, nastaví vhodnou intenzitu světla"
+      },
+      {
+        "level": "Na začátku",
+        "point": "reflektuje princip zvětšení a otočení obrazu",
+        "quote": "reflektuje princip zvětšení a otočení obrazu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Začínáme s mikroskopem",
+        "url": "https://uloziste.rvp.cz/material/505041"
+      },
+      {
+        "title": "Mechový nálev pod mikroskopem",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč mikroskop obraz zvětšuje a otáčí, ostříš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš návody k mikroskopu, třeba jak nastavit světlo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Virtuální mikroskop si vyzkoušíš dřív než skutečný."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Skutečný mikroskop ti ukáže preparát, ostříš a nastavuješ světlo ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72aed9bf-33ba-474d-a02e-5ae3de2d5e05"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rusive-objekty",
+    "title": "Skutečný objekt a rušivé objekty",
+    "aliases": [
+      "bubliny v preparátu",
+      "co vidím v mikroskopu",
+      "prasklina",
+      "rozpoznání objektu"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozliší biologický objekt pozorování od rušivých objektů (např. bubliny, praskliny apod.)",
+        "quote": "rozliší biologický objekt pozorování od rušivých objektů (např. bubliny, praskliny apod.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Podle popisu řekne, jak se bublina liší od buňky, ale chybuje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš fotky preparátů, s nimiž svůj obraz porovnáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Bublinu od buňky pod mikroskopem aplikace nerozliší."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "V mikroskopu uvidíš bublinu i buňku a poznáš, jak se liší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/41ef4b15-1c8c-488e-9abc-6731d8011312",
+      "http://data.europa.eu/esco/skill/72aed9bf-33ba-474d-a02e-5ae3de2d5e05"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priprava-preparatu",
+    "title": "Příprava preparátu",
+    "aliases": [
+      "preparát",
+      "podložní sklíčko",
+      "krycí sklíčko",
+      "cibule pod mikroskopem",
+      "odběr vzorku"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "odebírá vzorky, u kterých lze mikroskopovat buňky",
+        "quote": "odebírá vzorky, u kterých lze mikroskopovat buňky"
+      },
+      {
+        "level": "Na cestě",
+        "point": "do kapky média (typicky vody) na podložním sklíčku vloží vhodný biologický objekt (např. pokožku cibule, list měříku, kousek dužniny šípku, šupinu, peří)",
+        "quote": "do kapky média (typicky vody) na podložním sklíčku vloží vhodný biologický objekt (např. pokožku cibule, list měříku, kousek dužniny šípku, šupinu, peří)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zakryje krycím sklíčkem a objekt pozoruje",
+        "quote": "zakryje krycím sklíčkem a objekt pozoruje"
+      },
+      {
+        "level": "Splněno",
+        "point": "Samostatně připraví jednoduchý preparát a mikroskopuje.",
+        "quote": "Samostatně připraví jednoduchý preparát a mikroskopuje."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Mechový nálev pod mikroskopem",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše postup krok za krokem a poradí s bublinami pod sklíčkem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš návod s fotkami, jak sklíčko připravit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Preparát připravuješ rukama, aplikace sklíčko nepoloží."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mikroskop ukáže, jestli se preparát povedl."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e2e9bf69-80b3-4237-afd9-40960dc3c67e",
+      "http://data.europa.eu/esco/skill/72aed9bf-33ba-474d-a02e-5ae3de2d5e05"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "protokol-a-nakres",
+    "title": "Protokol a nákres z mikroskopu",
+    "aliases": [
+      "protokol",
+      "nákres tužkou",
+      "zápis pozorování",
+      "kreslení buněk",
+      "laboratorní zápis"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "do protokolu zaznamená heslovitý postup, zvětšení a nákres pozorované struktury tužkou",
+        "quote": "do protokolu zaznamená heslovitý postup, zvětšení a nákres pozorované struktury tužkou"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne vzor protokolu a přečte tvůj zápis, pozorování zapíšeš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzory protokolů, podle kterých si zápis uspořádáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Nákres se dělá tužkou, kreslicí aplikace tu nepomůže."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a papír jsou přesně to, čím kreslíš a zapisuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72aed9bf-33ba-474d-a02e-5ae3de2d5e05",
+      "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jedna-nebo-mnoho-bunek",
+    "title": "Jednobuněčné a mnohobuněčné organismy",
+    "aliases": [
+      "jedna buňka nebo mnoho",
+      "kvasinky",
+      "pletivo a tkáň",
+      "z kolika buněk",
+      "jednobuněčný"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozliší s pomocí zadaných kritérií jednobuněčný organismus a složitější struktury (pletivo, tkáň, mnohobuněčný organismus)",
+        "quote": "rozliší s pomocí zadaných kritérií jednobuněčný organismus a složitější struktury (pletivo, tkáň, mnohobuněčný organismus)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "pozoruje více preparátů pletiv/tkání (např. řez stonkem, řez listem, otiskový preparát či řez tkání) a jednobuněčný organismus (např. kvasinky z pekařského droždí) v mikroskopu či na fotografii a porovná, z kolika buněk se daný organismus skládá",
+        "quote": "pozoruje více preparátů pletiv/tkání (např. řez stonkem, řez listem, otiskový preparát či řez tkání) a jednobuněčný organismus (např. kvasinky z pekařského droždí) v mikroskopu či na fotografii a porovná, z kolika buněk se daný organismus skládá"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí, že organismy jsou z buněk, a rozliší jednobuněčný a mnohobuněčný organismus.",
+        "quote": "Vysvětlí, že organismy jsou z buněk, a rozliší jednobuněčný a mnohobuněčný organismus."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozliší s pomocí zadaných kritérií jednobuněčný organismus a mnohobuněčný organismus.",
+        "quote": "Rozliší s pomocí zadaných kritérií jednobuněčný organismus a mnohobuněčný organismus."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jedna nebo mnoho",
+        "url": "https://uloziste.rvp.cz/material/4cd3f3"
+      },
+      {
+        "title": "Buňky a tkáně člověka ve virtuálním mikroskopu",
+        "url": "https://uloziste.rvp.cz/material/dca3b0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje tvé třídění podle kritérií a vysvětlí, kde se liší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš fotky a popisy jednobuněčných i mnohobuněčných organismů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Virtuální mikroskop ukáže tkáně, které doma nemáš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mikroskop ukáže buňky kvasinek i řezu listem, třídíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/41ef4b15-1c8c-488e-9abc-6731d8011312"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ruzne-typy-bunek",
+    "title": "Různé typy buněk a jejich úkoly",
+    "aliases": [
+      "specializované buňky",
+      "druhy buněk",
+      "buňky v těle",
+      "buňky jsou základ života"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "pozoruje, popíše a vyvodí, že u mnohobuněčných organismů jsou různé typy buněk, které se specializují na různé funkce",
+        "quote": "pozoruje, popíše a vyvodí, že u mnohobuněčných organismů jsou různé typy buněk, které se specializují na různé funkce"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vyvodí složení organismů z různých typů buněk jako základní společný rys všeho živého",
+        "quote": "vyvodí složení organismů z různých typů buněk jako základní společný rys všeho živého"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše, že u mnohobuněčných organismů jsou různé typy buněk specializované na různé funkce.",
+        "quote": "Popíše, že u mnohobuněčných organismů jsou různé typy buněk specializované na různé funkce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Buňky a tkáně člověka ve virtuálním mikroskopu",
+        "url": "https://uloziste.rvp.cz/material/dca3b0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč mají nervová a svalová buňka jiný tvar, a vyzkouší tě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš snímky různých buněk s popisem jejich úkolů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Virtuální mikroskop ukáže buňky z různých tkání."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mikroskop ukáže rozdíly mezi buňkami, popisuješ je ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/41ef4b15-1c8c-488e-9abc-6731d8011312"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "casti-bunky",
+    "title": "Části buňky a jejich přirovnání",
+    "aliases": [
+      "organely",
+      "jádro a membrána",
+      "buňka jako město",
+      "mitochondrie",
+      "chloroplast"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "pomocí přirovnání a analogií (např. s vlastním tělem, budovou, firmou, školou) popíše struktury uvnitř buňky a jejich funkce",
+        "quote": "pomocí přirovnání a analogií (např. s vlastním tělem, budovou, firmou, školou) popíše struktury uvnitř buňky a jejich funkce"
+      },
+      {
+        "level": "Na cestě",
+        "point": "stručně popíše funkce základních částí buňky: membrána, jádro, cytoplazma s organelami v případě eukaryotické buňky: mitochondrie, chloroplast [znalost těchto pojmů se u žáků nepředpokládá], různé typy váčků a membránových útvarů",
+        "quote": "stručně popíše funkce základních částí buňky: membrána, jádro, cytoplazma s organelami v případě eukaryotické buňky: mitochondrie, chloroplast [znalost těchto pojmů se u žáků nepředpokládá], různé typy váčků a membránových útvarů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "na základě jednoduchých přirovnání ze života (např. uchovávání důležité informace, pořizování kopií v knihovně; ohraničení a kontrola, kdo projde dovnitř a ven – vnější zdi budovy a vrátnice; solární panely apod.) popíše vybranou buněčnou organelu s ohledem na typ buňky a její funkci v buňce jako celku: např. chloroplast přítomný v buňkách zelených (fotosyntetizujících) rostlin, řas a sinic, který je díky zelenému barvivu schopný zachytit energii slunečního záření a přeměnit ji na energii v cukru, kterou může buňka dále využít",
+        "quote": "na základě jednoduchých přirovnání ze života (např. uchovávání důležité informace, pořizování kopií v knihovně; ohraničení a kontrola, kdo projde dovnitř a ven – vnější zdi budovy a vrátnice; solární panely apod.) popíše vybranou buněčnou organelu s ohledem na typ buňky a její funkci v buňce jako celku"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě jednoduchých přirovnání ze života popíše funkce, které v bakteriální buňce a v buňce rostlin, hub a živočichů plní její části (organely a membrána).",
+        "quote": "Na základě jednoduchých přirovnání ze života popíše funkce, které v bakteriální buňce a v buňce rostlin, hub a živočichů plní její části (organely a membrána)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Buňka v práci",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí další přirovnání k organelám a řekne, kde tvé nesedí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš schémata buňky s popisem jednotlivých částí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s 3D modelem ukáže části, které ve školním mikroskopu nevidíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj části buňky ani neukáže, ani nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "virus",
+    "title": "Virus jako nebuněčný parazit",
+    "aliases": [
+      "viry",
+      "co je virus",
+      "hostitelská buňka",
+      "jsou viry živé"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše virus jako parazitický organismus, který není schopen zmnožit svoji dědičnou informaci, vytvořit podle ní bílkoviny, ani jiné látky, a tedy se rozmnožit se či se projevit jako živý jinak, než že použije látky, energii, procesy a ústrojí hostitelské buňky",
+        "quote": "popíše virus jako parazitický organismus, který není schopen zmnožit svoji dědičnou informaci, vytvořit podle ní bílkoviny, ani jiné látky, a tedy se rozmnožit se či se projevit jako živý jinak, než že použije látky, energii, procesy a ústrojí hostitelské buňky"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše virus jako nebuněčného parazita, který není schopný životního projevu bez hostitelské buňky.",
+        "quote": "Popíše virus jako nebuněčného parazita, který není schopný životního projevu bez hostitelské buňky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč virus bez hostitelské buňky nic nezmůže, a vyzkouší tě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis virů v encyklopedii."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Animace množení viru ukážou postup, který nevidíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Virus je pro školní mikroskop příliš malý, klasický nástroj ho neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0bc42cda-a6f0-4cac-9b34-7911faba0bd4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "deje-v-bunce",
+    "title": "Děje v organele a celek buňky",
+    "aliases": [
+      "buněčné dýchání",
+      "co dělá mitochondrie",
+      "jak buňka funguje",
+      "vstupy a výstupy děje"
+    ],
+    "outcome": "CAP-PRI-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na vybraném příkladu organely (např. mitochondrie) zjednodušeně popíše, co se v ní (na ní apod.) odehrává, co do daného děje vstupuje, jaké jsou produkty a jakou má tento děj význam pro buňku, např. na úrovni: v mitochondrii probíhá buněčné dýchání, tedy děj, při kterém se energie z živin (cukrů) přemění na energii vázanou tak, že ji buňka může rychle použít. K buněčnému dýchání je potřeba kyslík, vzniká při něm také oxid uhličitý a voda.",
+        "quote": "na vybraném příkladu organely (např. mitochondrie) zjednodušeně popíše, co se v ní (na ní apod.) odehrává, co do daného děje vstupuje, jaké jsou produkty a jakou má tento děj význam pro buňku"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí, jak jsou spolu propojeny funkce a procesy na úrovni buňky do komplexního celku",
+        "quote": "vysvětlí, jak jsou spolu propojeny funkce a procesy na úrovni buňky do komplexního celku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Buňka v práci",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí děj v mitochondrii jednoduše a zeptá se, co do něj vstupuje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš výklad o buněčném dýchání s obrázky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Animace dějů v buňce ukážou, jak na sebe navazují."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Děje v buňce obyčejný nástroj neukáže ani nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

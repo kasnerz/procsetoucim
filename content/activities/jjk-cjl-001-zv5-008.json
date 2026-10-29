@@ -1,0 +1,353 @@
+[
+  {
+    "slug": "vyber-knihy-podle-zajmu",
+    "title": "Výběr knihy podle zájmu",
+    "aliases": [
+      "co číst",
+      "výběr knihy",
+      "oblíbená kniha",
+      "knihovna",
+      "nový žánr"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vybírá si literární text podle svého zájmu.",
+        "quote": "Vybírá si literární text podle svého zájmu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vybere si literární text podle svého zájmu nebo potřeby.",
+        "quote": "Vybere si literární text podle svého zájmu nebo potřeby."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozšiřuje si svůj čtenářský zájem o další literární žánry.",
+        "quote": "Rozšiřuje si svůj čtenářský zájem o další literární žánry."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak si vybíráme knihy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Podle toho, co tě baví, navrhne knihy a řekne, čím jsou zajímavé."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Seznamy knih a hodnocení čtenářů ti dají nápady, co zkusit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Katalog knihovny najde knihy podle tématu, autora nebo žánru."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Knihu poznáš tak, že ji vezmeš do ruky a nalistuješ, nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0ab9d433-10e5-4683-ae54-4687179a5259",
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "literarni-zanry",
+    "title": "Poezie a próza: pohádka, povídka, bajka, pověst",
+    "aliases": [
+      "žánry",
+      "druhy textů",
+      "báseň",
+      "pohádka nebo pověst",
+      "bajka"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě vlastní čtenářské zkušenosti odliší základní literární žánry – poezie, próza (pohádka, povídka, bajka, pověst).",
+        "quote": "Na základě vlastní čtenářské zkušenosti odliší základní literární žánry – poezie, próza (pohádka, povídka, bajka, pověst)."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [
+      {
+        "title": "Co je co?",
+        "url": "https://uloziste.rvp.cz/material/fad9a2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, podle čeho žánr poznáš, a vymyslí ukázky na procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a slovník literárních pojmů žánry popíšou a dají příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro určování žánrů žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žánr poznáš čtením, obyčejný nástroj k tomu nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7bb85eab-18df-437c-adce-7b729abb315e",
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dojmy-ze-cteni-a-poslechu",
+    "title": "Dojmy ze čtení a poslechu",
+    "aliases": [
+      "co se mi líbilo",
+      "zápis z četby",
+      "čtenářský deník",
+      "jak na mě kniha působila",
+      "poslech příběhu"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše své dojmy (libost či nelibost) ze čtení nebo poslechu uměleckého textu.",
+        "quote": "Popíše své dojmy (libost či nelibost) ze čtení nebo poslechu uměleckého textu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Formuluje svůj čtenářský prožitek z uměleckého díla a doloží ho citací z textu.",
+        "quote": "Formuluje svůj čtenářský prožitek z uměleckého díla"
+      },
+      {
+        "level": "Splněno",
+        "point": "Formuluje své prožitky z poslechu uměleckého díla.",
+        "quote": "Formuluje své prožitky z poslechu uměleckého díla."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zápis z četby",
+        "url": "https://uloziste.rvp.cz/material/de16d8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne slova pro pocity, když nevíš, jak svůj dojem popsat."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvůj dojem ve vyhledávači nenajdeš, ten máš jen ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Jak na tebe text působí, aplikace nezjistí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Své pocity z knihy za tebe žádný nástroj nepopíše."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "citace-z-textu",
+    "title": "Doložení svého dojmu citací z textu",
+    "aliases": [
+      "citát z knihy",
+      "ukázka z textu",
+      "podvojný deník",
+      "vybrat větu z knihy"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Formuluje svůj čtenářský prožitek z uměleckého díla a doloží ho citací z textu.",
+        "quote": "Formuluje svůj čtenářský prožitek z uměleckého díla a doloží ho citací z textu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Pracujeme s podvojným deníkem",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "V přiloženém textu najde místa, o která se tvůj dojem může opřít."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Citaci k tvému dojmu z jiné knihy nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V e-knize najdeš hledáním místo, odkud citaci vezmeš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Citaci vybereš čtením, tužka ti ji nenajde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "literarni-pojmy",
+    "title": "Literární pojmy: autor, vypravěč, sloka, rým",
+    "aliases": [
+      "autor a ilustrátor",
+      "vypravěč",
+      "co je sloka",
+      "rým",
+      "postava"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "V souvislosti s četbou a aktivitami vztahujícími se k uměleckým textům si spontánně osvojuje některé literární pojmy (autor, spisovatel, ilustrátor, ilustrace, postava, vypravěč, sloka, rým).",
+        "quote": "V souvislosti s četbou a aktivitami vztahujícími se k uměleckým textům si spontánně osvojuje některé literární pojmy (autor, spisovatel, ilustrátor, ilustrace, postava, vypravěč, sloka, rým)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Co je co?",
+        "url": "https://uloziste.rvp.cz/material/fad9a2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pojem vysvětlí jednoduše, ukáže na příkladu a může tě z něj zkoušet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník nebo Wikipedie pojem vysvětlí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tyto pojmy žádná užitečná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník literárních pojmů ze školy nebo knihovny pojmy vysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7bb85eab-18df-437c-adce-7b729abb315e",
+      "http://data.europa.eu/esco/skill/3659c733-e366-4a2f-86c6-304ab01481cc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "text-a-moje-zkusenost",
+    "title": "Souvislost textu s mým životem",
+    "aliases": [
+      "jako v mém životě",
+      "kniha a já",
+      "co mi to připomíná",
+      "propojení s vlastní zkušeností"
+    ],
+    "outcome": "JJK-CJL-001-ZV5-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Popíše souvislost mezi textem a vlastními životními nebo čtenářskými zkušenostmi.",
+        "quote": "Popíše souvislost mezi textem a vlastními životními nebo čtenářskými zkušenostmi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Když mu popíšeš svou zkušenost, pomůže najít, co ji s příběhem spojuje."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Svou zkušenost ve vyhledávači nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Tvoji zkušenost žádná aplikace nezná."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Souvislost s tvým životem obyčejný nástroj nenajde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

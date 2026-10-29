@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Ve větě „Děti si hráli na zahradě“ je chyba, kterou kontrola pravopisu často nepozná, protože tvar „hráli“ sám o sobě existuje. Správné „hrály“ napíšeš jen tehdy, když ve větě najdeš podmět a víš, jakého je rodu. V dlouhých souvětích, kde stojí podmět daleko od slovesa, se v tom snadno spletou i dospělí, a proto shodu pečlivě hlídají korektoři nebo lidé, kteří přepisují soudní jednání. Chatbot ti pravidlo vysvětlí a dá věty na procvičení, ve vlastním textu ale shodu hlídáš ty.",
+  "learnWithAi": [
+    {
+      "title": "Podmět daleko od slovesa",
+      "text": "Požádej chatbota o deset vět, ve kterých je podmět daleko od slovesa, a doplň i nebo y v příčestí. U každé chyby si nech ukázat, kde podmět stojí."
+    },
+    {
+      "title": "Postup krok za krokem",
+      "text": "Napiš chatbotovi větu, u které váháš, a popros ho o postup krok za krokem od hledání podmětu po výběr koncovky. U podmětů typu „ženy a muži“ si výsledek ověř v příručce."
+    },
+    {
+      "title": "Diktát s nástrahami ve shodě",
+      "text": "Nech chatbota hrát učitele, který ti diktuje věty s nástrahami ve shodě, a piš je ručně. Správné tvary si nech ukázat až po dopsání celého diktátu."
+    }
+  ]
+}

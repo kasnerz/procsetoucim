@@ -1,0 +1,306 @@
+{
+  "outcome": "CAP-CHE-001-ZV9-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "potraviny-zakladni-zivinove-skupiny",
+      "title": "Živiny a složky v jídle",
+      "aliases": [
+        "bílkoviny sacharidy tuky",
+        "složení potravin",
+        "co je v jídle",
+        "živiny",
+        "potravinová pyramida"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Vyjmenuje základní živiny ve vybraných potravinách."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Rozlišuje jednotlivé složky potravin."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zařadí základní potraviny do kategorií sacharidů, bílkovin, tuků, vitamínů a aditiv a u vybraných typických zástupců vysvětlí jejich důležitost v jídelníčku (u aditiv důvod jejich výskytu v potravinách)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co jsou sacharidy nebo tuky, a vymyslí ti úkoly na třídění potravin."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulky a encyklopedie ukážou, kolik bílkovin má sýr nebo chléb."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s databází potravin ti u každé potraviny vypíše živiny."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj ti složky jídla neukáže, ty je musíš poznat z učiva."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1"
+      ],
+      "inspiration": [
+        "Složení potravin",
+        "Potravinová pyramida - koláž zdravého jídelníčku"
+      ]
+    },
+    {
+      "slug": "potraviny-pridane-latky-a-prirodni",
+      "title": "Přirozené a přidané látky v potravinách",
+      "aliases": [
+        "přírodní a umělé látky v jídle",
+        "co se do jídla přidává",
+        "barviva a konzervanty",
+        "přísady v potravinách"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Určí skupiny látek obsažených v běžných potravinách a uvede konkrétní příklady přirozeně se vyskytujících a uměle dodaných složek."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Roztřídí látky v jídle na přirozené a přidané a dá ti příklady k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky o potravinách vysvětlí, co do jídla přidávají výrobci."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na čtení složení ukáže, které látky v produktu jsou přidané."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj nepozná, co je v potravině přirozené a co přidané."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/e4a46d74-71a8-469a-85ad-e40278a23ba1"
+      ],
+      "inspiration": [
+        "Složení potravin",
+        "Analýza složení potravin"
+      ]
+    },
+    {
+      "slug": "potraviny-zivin-nadbytek-nedostatek",
+      "title": "Živiny a zdraví: nadbytek a nedostatek",
+      "aliases": [
+        "bílkoviny sacharidy tuky vitaminy",
+        "nedostatek vitaminů",
+        "přejídání",
+        "k čemu je tělu jídlo",
+        "zdravý jídelníček"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí význam jednotlivých složek potravy (bílkoviny, sacharidy, tuky, vitaminy) pro zdraví člověka a popíše rizika jejich nadbytku nebo nedostatku."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí vliv nadbytku a nedostatku základních živin (tuky, sacharidy, bílkoviny, vitaminy) na zdraví člověka."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co dělají vitaminy v těle, a vyzkouší tě otázkami."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické a poradenské stránky popisují, co způsobuje nedostatek vitaminů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na jídelníček ukáže, kolik živin za den sníš a čeho je málo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dopad jídla na tělo žádný nástroj v ruce neukáže, ten vysvětluje učivo."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/c3102a5f-dafd-417c-8210-1eb779a05448",
+        "http://data.europa.eu/esco/skill/f190355a-cea5-4cd0-b6cd-a5c3d9a14985"
+      ],
+      "inspiration": [
+        "Tvoje jídlo, Tvoje volba",
+        "Potravinová pyramida - koláž zdravého jídelníčku"
+      ]
+    },
+    {
+      "slug": "potraviny-zdroje-bilkovin-udrzitelnost",
+      "title": "Zdroje bílkovin, sacharidů a tuků",
+      "aliases": [
+        "maso nebo luštěniny",
+        "rostlinné bílkoviny",
+        "alternativní zdroje bílkovin",
+        "udržitelné jídlo",
+        "porovnání potravin"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovná základní a alternativní zdroje bílkovin, sacharidů a tuků a zhodnotí jejich přínos pro organismus v kontextu udržitelnosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná třeba maso a luštěniny a ptá se tě, co z toho vyplývá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam data o živinách a o tom, kolik zdrojů výroba potravin spotřebuje."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s databází potravin vedle sebe ukáže živiny dvou zdrojů bílkovin."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zdroje živin porovnáváš hlavou nad tabulkou, obyčejný nástroj je neporovná."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1"
+      ],
+      "inspiration": [
+        "Složení potravin",
+        "Analýza složení potravin"
+      ]
+    },
+    {
+      "slug": "potraviny-etiketa-energie-zivin",
+      "title": "Etiketa potraviny: energie a živiny",
+      "aliases": [
+        "čtení etikety",
+        "výživové údaje",
+        "kalorie na obalu",
+        "složení na obalu",
+        "energetická hodnota"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Orientuje se v údajích na etiketách běžných potravin a vyhodnotí jejich energetickou hodnotu, obsah živin a aditiv."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí údaje na etiketě a zkontroluje tvoje srovnání dvou výrobků."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Kalorické tabulky a stránky o potravinách ti pomůžou etiketu porovnat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Skener čárového kódu v aplikaci načte složení a energii výrobku."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka a váha ti pomůžou přepočítat energii na porci."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1",
+        "http://data.europa.eu/esco/skill/27db7f61-085f-481c-8e74-1c97b7649d90",
+        "http://data.europa.eu/esco/skill/e9a68ed0-d96e-4054-b1c3-9bbdc5ed6b46"
+      ],
+      "inspiration": [
+        "Kalorické tabulky",
+        "Analýza složení potravin"
+      ]
+    },
+    {
+      "slug": "potraviny-aditiva-kody-e",
+      "title": "Aditiva a kódy E",
+      "aliases": [
+        "éčka v jídle",
+        "barviva a konzervanty",
+        "E kódy",
+        "přídatné látky",
+        "konzervanty v potravinách"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Posoudí význam a vliv používání aditiv (barviva, konzervanty) v potravinářství na kvalitu potravin a zdraví člověka a význam jejich označování kódy E."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu je konkrétní konzervant, a probere s tebou, co o něm říkají zdroje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy kódů E a stránky o bezpečnosti potravin ti kód dohledají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace ti kód E z obalu rozluští a ukáže, co látka dělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj kód E nerozluští, ten musíš dohledat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e9a68ed0-d96e-4054-b1c3-9bbdc5ed6b46",
+        "http://data.europa.eu/esco/skill/e4a46d74-71a8-469a-85ad-e40278a23ba1"
+      ],
+      "inspiration": [
+        "Složení potravin",
+        "Analýza složení potravin"
+      ]
+    }
+  ],
+  "aside": []
+}

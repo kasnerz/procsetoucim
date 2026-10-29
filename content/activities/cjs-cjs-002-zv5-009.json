@@ -1,0 +1,403 @@
+[
+  {
+    "slug": "skolni-rad-prava-povinnosti-zaku-cjsrad",
+    "title": "Práva a povinnosti ve školním řádu",
+    "aliases": [
+      "školní řád",
+      "co smím ve škole",
+      "povinnosti žáka",
+      "práva žáka",
+      "dovolené a zakázané"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyjádří vlastními slovy práva a povinnosti žáka ve škole.",
+        "quote": "Vyjádří vlastními slovy práva a povinnosti žáka ve škole."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Pracuje se školním řádem, kdy dokáže odpovědět na to, zda je předložené chování (příklady konkrétních situací) dovolené či zakázané.",
+        "quote": "Pracuje se školním řádem"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zná svá práva a povinnosti (školní řád).",
+        "quote": "Zná svá práva a povinnosti (školní řád)."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Seznámí se se školním řádem.",
+        "quote": "Seznámí se se školním řádem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Znám školní řád naší školy",
+        "url": "https://uloziste.rvp.cz/material/c99d6f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí ti, co znamená nejasný bod řádu, a vymyslí příklady situací."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové školní řády a texty o právech žáků si přečteš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádný program ti řád tvé školy nenaučí, platí jen u vás."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Řád si přečteš a zapamatuješ ty, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+      "http://data.europa.eu/esco/skill/f2d63656-169c-4110-99fe-33914f902466"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "povinnosti-doma-a-ve-skole-cjspriklady",
+    "title": "Povinnosti ve škole a doma",
+    "aliases": [
+      "moje povinnosti",
+      "co musím doma",
+      "úkoly doma",
+      "povinnosti ve třídě"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvede příklady svých povinností ve škole a doma.",
+        "quote": "Uvede příklady svých povinností ve škole a doma."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Své povinnosti znáš ty, chatbot tvůj domov ani třídu nezná."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Na internetu najdeš cizí povinnosti, ne ty svoje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s úkoly ti jen připomene zapsané úkoly, povinnosti nevymyslí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroj nepotřebuješ, o svých povinnostech vyprávíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d63656-169c-4110-99fe-33914f902466"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "proc-chranit-prava-deti-zakonem-cjsduvod",
+    "title": "Proč zákon chrání práva dětí",
+    "aliases": [
+      "práva dětí",
+      "ochrana dětí",
+      "proč jsou zákony",
+      "dětská práva"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí, proč je nutné práva dětí chránit zákonem.",
+        "quote": "Vysvětlí, proč je nutné práva dětí chránit zákonem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Práva dítěte",
+        "url": "https://uloziste.rvp.cz/material/aa5eac"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí ti, co se může stát, když děti nemají ochranu, a zeptáš se na další."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Texty o právech dítěte najdeš v encyklopedii nebo na webu školy."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace k tomu žádnou užitečnou pomoc nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Úvahu o tom, proč zákon chrání děti, si musíš promyslet ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+      "http://data.europa.eu/esco/skill/f2d63656-169c-4110-99fe-33914f902466"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "umluva-o-pravech-ditete-situace-cjsprirazeni",
+    "title": "Přiřazení situací k právům v Úmluvě o právech dítěte",
+    "aliases": [
+      "úmluva o právech dítěte",
+      "které právo bylo porušeno",
+      "práva dítěte",
+      "přiřazování situací"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Při práci se zjednodušeným textem Úmluvy o právech dítěte přiřadí modelové situace k jednotlivým dětským právům podle toho, které právo bylo v situaci porušeno.",
+        "quote": "Při práci se zjednodušeným textem Úmluvy o právech dítěte přiřadí modelové situace k jednotlivým dětským právům"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Úmluva o právech dítěte",
+        "url": "https://uloziste.rvp.cz/material/4a4031"
+      },
+      {
+        "title": "Porušení práv dětí",
+        "url": "https://uloziste.rvp.cz/material/3224a6"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí ti další situace k procvičení a ověří, jestli sedí právo, z tvé odpovědi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zjednodušený text Úmluvy si přečteš a porovnáš s ním svou odpověď."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti situaci k právu nepřiřadí, musíš ji pochopit."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Vytištěný text Úmluvy a tužka ti pomohou jen podtrhnout, přiřazuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+      "http://data.europa.eu/esco/skill/6b2bc23e-67e1-4587-9dfb-a09af24aeafa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "poruseni-prava-nebo-povinnosti-modelova-situace-cjs",
+    "title": "Poznat porušené právo nebo zanedbanou povinnost",
+    "aliases": [
+      "porušení práv",
+      "zanedbání povinnosti",
+      "modelová situace",
+      "co je nespravedlivé"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "V modelových situacích rozpozná, kdy bylo porušeno některé právo člověka nebo kdy byla zanedbána některá povinnost.",
+        "quote": "V modelových situacích rozpozná"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Porušení práv dětí",
+        "url": "https://uloziste.rvp.cz/material/3224a6"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti krátké příběhy k rozboru a ukáže, co v nich ještě zbylo k nalezení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příklady a seznam práv si dohledáš a porovnáš s příběhem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace situaci neposoudí, úsudek je na tobě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroj ti tu nepomůže, situaci posuzuješ hlavou ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nasledek-poruseni-prava-zanedbani-povinnosti-cjs",
+    "title": "Následky porušení práv a zanedbání povinnosti",
+    "aliases": [
+      "co se stane když",
+      "následky",
+      "důsledky porušení",
+      "trest a důsledek"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pro konkrétní situaci popíše možný následek porušení práv nebo zanedbání povinnosti.",
+        "quote": "Pro konkrétní situaci popíše možný následek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, co by se stalo dál, a ukáže ti další možné následky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zpravodajství a poradny popisují, jak podobné případy dopadly."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace následek nevymyslí, přemýšlíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Na odhad následků nástroj není, domýšlíš je ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64",
+      "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nespravedlnost-v-pribehu-reseni-ve-skupine-cjs",
+    "title": "Řešení nespravedlnosti v příběhu ve skupině",
+    "aliases": [
+      "poraďte Iloně",
+      "příběh o nespravedlnosti",
+      "řešení ve skupině",
+      "jak pomoci hrdinovi"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Ve spolupráci se spolužáky identifikuje v příběhu situace, kdy se dětský hrdina potýká s nějakou nespravedlností a nedokáže si poradit sám, a navrhne způsob, jak by mohla být tato situace řešena.",
+        "quote": "Ve spolupráci se spolužáky identifikuje v příběhu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "porovná řešení své skupiny s řešením dalších skupin a s návrhem správného řešení odborníky.",
+        "quote": "porovná řešení své skupiny"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Poraďte Iloně",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Řešení domlouváte se spolužáky mezi sebou, chatbot za vás domluvu neudělá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rady odborníků a poraden si přečtete a porovnáte s vlastním řešením."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Skupinovou diskusi žádná aplikace nevede."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Domlouvat se se skupinou umíte jen vy, nástroj tu nic nedělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6b2bc23e-67e1-4587-9dfb-a09af24aeafa",
+      "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

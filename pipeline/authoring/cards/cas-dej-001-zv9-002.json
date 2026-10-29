@@ -1,0 +1,316 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "druhy-pramenu-dejepis",
+      "title": "Druhy historických pramenů",
+      "aliases": [
+        "prameny",
+        "historický pramen",
+        "hmotné a písemné prameny",
+        "kronika",
+        "artefakt"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Učí se využívat různé druhy didaktizovaných pramenů (hmotné, písemné, obrazové, audiovizuální i ústně dochované)"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Využije didaktizovaný upravený pramen (hmotný, písemný, obrazový)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi hmotným a písemným pramenem a dá ti další příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Muzea a archivy mají online sbírky fotografií, listin a předmětů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti pramen neukáže a nepomůže ti poznat jeho druh."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pramen si prohlížíš a třídíš ty, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Hmotné a nehmotné prameny",
+        "Práce s didaktizovaným historickým pramenem (Kosmova kronika)"
+      ]
+    },
+    {
+      "slug": "kdo-kdy-proc-pramen-vytvoril",
+      "title": "Kdo, kdy a proč pramen vytvořil",
+      "aliases": [
+        "autor pramene",
+        "záměr autora",
+        "důvěryhodnost pramene",
+        "spolehlivý zdroj",
+        "kdo to napsal"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Odpoví na otázky, kdo a kdy pramen vytvořil, s jakým záměrem, jaké hodnoty do něho vložil a čím doloží své tvrzení."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Prostřednictvím cílených otázek posoudí důvěryhodnost pramenů"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Posoudí základní důvěryhodnost a informační hodnotu pramene na základě otázek zformulovaných vyučujícím"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě na autora, dobu a záměr a ukáže, co jsi přehlédl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky muzeí ti o autorovi a době vzniku řeknou víc."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace za tebe důvěryhodnost pramene nezhodnotí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Úsudek o autorovi a jeho záměru uděláš ty, ne nástroj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3"
+      ],
+      "inspiration": [
+        "Alois Eliáš – kolaborant, nebo hrdina?"
+      ]
+    },
+    {
+      "slug": "tvrzeni-v-pramenu-dejepis",
+      "title": "Hledání tvrzení v pramenu",
+      "aliases": [
+        "důležité informace v textu",
+        "motivy pramene",
+        "co pramen říká",
+        "výpověď pramene"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pracuje s různými zdroji, vyhledá v nich důležité prvky a tvrzení a objasní jejich význam."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozliší konkrétní motivy a tvrzení zdroje; objasní jejich význam."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti rozebrat těžší větu z kroniky a vysvětlí staré slovo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník a encyklopedie vysvětlí pojmy a události, které pramen zmiňuje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvrzení v pramenu nenajde, najít ho musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tužka a zvýrazňovač ti pomůžou označit tvrzení přímo v textu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Práce s didaktizovaným historickým pramenem (Kosmova kronika)"
+      ]
+    },
+    {
+      "slug": "forma-pramene-a-uzitecnost",
+      "title": "Povaha a forma pramenu",
+      "aliases": [
+        "fotografie a rekonstrukce",
+        "dopis a úřední dokument",
+        "vzpomínka",
+        "kronika",
+        "rozdíl mezi prameny"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Posoudí předložené zdroje z hlediska jejich povahy, formy a užitečnosti"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Ukáže rozdíly v obsahu i formě zdrojů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se vzpomínka liší od úředního dokumentu, a dá příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam fotografii i obraz téže události a porovnáš je."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace formu pramenu neposoudí, rozdíly vidíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozdíl mezi dopisem a úředním dokumentem nepoznáš žádným nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Hmotné a nehmotné prameny"
+      ]
+    },
+    {
+      "slug": "propaganda-dezinformace-dejepis",
+      "title": "Propaganda a dezinformace v historii",
+      "aliases": [
+        "propaganda",
+        "dezinformace",
+        "reklama",
+        "falešné zprávy",
+        "manipulace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Pracuje s jednoduchými a postupně i méně nápadnými příklady propagandy, reklamy a dezinformací s historickým obsahem"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak propaganda funguje, a dá ti příklady na rozbor."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Plakáty a noviny z různých dob najdeš v online archivech."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace dezinformaci v historickém textu spolehlivě nepozná."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dezinformaci poznáš úsudkem, ne nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ]
+    },
+    {
+      "slug": "porovnani-zdroju-dejepis",
+      "title": "Porovnání zdrojů a různé výklady událostí",
+      "aliases": [
+        "porovnat zdroje",
+        "dva zdroje",
+        "různé interpretace",
+        "ověřit informaci",
+        "proč se výklady liší"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovná dva i více zdrojů včetně propagandy a dezinformací."
+        },
+        {
+          "level": "Splněno",
+          "quote": "jak obsah nebo forma zdrojů ovlivňují naše vnímání minulosti a proč se mohou interpretace lišit"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Učí se porovnávat různé zdroje; informace z jednoho zdroje ověří, doplní dalšími zdroji"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne, co o události tvrdí různé strany, ty pak srovnáš a ověříš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Víc zdrojů o jedné události najdeš a porovnáš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe zdroje neporovná ani neřekne, proč se liší."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Porovnání dvou zdrojů uděláš ty, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Proč začaly křížové výpravy?",
+        "Alois Eliáš – kolaborant, nebo hrdina?"
+      ]
+    }
+  ],
+  "aside": []
+}

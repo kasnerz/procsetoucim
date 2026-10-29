@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Jízdní řád nebo rozvrh hodin jsou plné odpovědí, jen je musíš umět najít. Když umíš v tabulce najít správný řádek a porovnat dvě čísla, zjistíš, kdy jede autobus nebo který den byl nejteplejší, a nemusíš se ptát dospělých. Hodí se to v kanceláři i na telefonu se zákazníky, kde lidé čtou údaje z tabulek, a v informatice na to navazuje práce s většími daty. Chatbot ti odpověď z tabulky vyčte taky, ale jestli odpověděl dobře, poznáš jen tehdy, když to umíš i ty.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k tabulce teplot",
+      "text": "Zkuste s rodičem nechat chatbota vymyslet malou tabulku, třeba teploty za týden, a otázky k ní. Odpovídejte a nechte si odpovědi zkontrolovat."
+    },
+    {
+      "title": "Skutečný jízdní řád",
+      "text": "Vezměte s rodičem skutečný jízdní řád nebo rozvrh a vymyslete k němu otázky pro chatbota. Jeho odpovědi porovnejte s tabulkou, protože se může splést."
+    },
+    {
+      "title": "Schovaná chyba ve výsledcích",
+      "text": "Poproste chatbota o tabulku s výsledky soutěže, ve které je schovaná chyba. Zkuste ji spolu s rodičem najít dřív, než vám ji prozradí."
+    }
+  ]
+}

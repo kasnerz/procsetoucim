@@ -1,0 +1,336 @@
+[
+  {
+    "slug": "dcj-slovo-k-obrazku",
+    "title": "Přiřazení slova k obrázku",
+    "aliases": [
+      "slovíčka k obrázku",
+      "obrázkový slovník",
+      "přiřaď slovo",
+      "nadpis k obrázku"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Přiřadí k napsanému slovu obrázek nebo nadpis.",
+        "quote": "Přiřadí k napsanému slovu obrázek nebo nadpis."
+      },
+      {
+        "level": "Na začátku",
+        "point": "- čte jednotlivá slova, které si ústně osvojil a jimž rozumí - rozumí krátkým, jasně strukturovaným větám, které popisují jednoduché a konkrétní situace z okruhu osvojovaných témat",
+        "quote": "čte jednotlivá slova, které si ústně osvojil a jimž rozumí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s textem, Nj, Fj",
+        "url": "https://uloziste.rvp.cz/material/2240e7"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí cvičení na slovíčka a opraví ti, co jsi k obrázku přiřadil."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázkový slovník ukáže, jak slovo vypadá a co znamená."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovíčkové aplikace ti dávají slova k obrázkům a hned řeknou, jestli sedí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník s obrázky nebo kartičky ti slovo ukážou vedle obrázku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-kratke-vety-situace",
+    "title": "Porozumění krátkým větám o běžných situacích",
+    "aliases": [
+      "jednoduché věty",
+      "čtení vět",
+      "věty v cizím jazyce",
+      "rozumím větě"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- čte jednotlivá slova, které si ústně osvojil a jimž rozumí - rozumí krátkým, jasně strukturovaným větám, které popisují jednoduché a konkrétní situace z okruhu osvojovaných témat",
+        "quote": "rozumí krátkým, jasně strukturovaným větám, které popisují jednoduché a konkrétní situace z okruhu osvojovaných témat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s krátkými texty, Nj, Fj",
+        "url": "https://uloziste.rvp.cz/material/5ac7f8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Napíše krátké věty na tvé téma a vysvětlí slova, kterým nerozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník a jazyková příručka ti rychle dají význam neznámého slova."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti ověří, jestli jsi větu pochopil správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník pomůže s významem slov, větu ale skládáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-hlavni-myslenka-textu",
+    "title": "Hlavní myšlenka krátkého textu",
+    "aliases": [
+      "rozhovor v cizím jazyce",
+      "jednoduchý příběh",
+      "dopis",
+      "o čem text je"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- čte krátké texty, jako jsou rozhovory, popisy, jednoduché příběhy nebo korespondence a pochopí z nich hlavní myšlenku",
+        "quote": "čte krátké texty, jako jsou rozhovory, popisy, jednoduché příběhy nebo korespondence a pochopí z nich hlavní myšlenku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s krátkými texty, Nj, Fj",
+        "url": "https://uloziste.rvp.cz/material/5ac7f8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Napíše ti krátký text na úrovni třídy a zeptá se, o čem byl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Čtenářské texty pro začátečníky najdeš na internetu a můžeš si je číst."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač pomůže s jednotlivými slovy, hlavní myšlenku ale hledáš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti dá význam slov, o čem text je, poznáš až četbou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-hledani-informace-v-textu",
+    "title": "Hledání informace v krátkém textu",
+    "aliases": [
+      "najdi v textu",
+      "konkrétní údaj",
+      "čtení rozhovoru",
+      "kdo co kdy"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- vyhledá požadovanou informaci v psaném textu, například při čtení krátkého rozhovoru nebo příběhu, identifikuje základní konkrétní údaje",
+        "quote": "vyhledá požadovanou informaci v psaném textu, například při čtení krátkého rozhovoru nebo příběhu, identifikuje základní konkrétní údaje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s textem",
+        "url": "https://uloziste.rvp.cz/material/6c99f9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadá otázky k textu a řekne ti, jestli jsi údaj našel správně."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové texty tu jsou, údaj v nich ale musíš najít očima ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti objasní slovo, které brání najít údaj."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Údaj v textu hledáš ty, slovník nebo pravítko k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-pravda-nepravda-text",
+    "title": "Pravda nebo nepravda podle textu",
+    "aliases": [
+      "vrai ou faux",
+      "pravda nepravda",
+      "souhlasí to s textem",
+      "fakt nebo názor"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Posuzuje pravdivost informací v textu a odpovídá na otázky související s textem.",
+        "quote": "Posuzuje pravdivost informací v textu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vrai ou faux?",
+        "url": "https://uloziste.rvp.cz/material/fbd0d3"
+      },
+      {
+        "title": "Fait ou opinion",
+        "url": "https://uloziste.rvp.cz/material/d368ae"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí tvrzení k textu a vysvětlí, proč sedí, nebo nesedí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnutí podle textu děláš ty, ve zdrojích na internetu odpověď není."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nepoví, jestli tvrzení odpovídá textu, který čteš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ti dá slova, pravdivost tvrzení musíš posoudit ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-odpovedi-k-textu",
+    "title": "Odpovědi na otázky k přečtenému textu",
+    "aliases": [
+      "otázky k textu",
+      "čtení dopisu",
+      "porozumění textu",
+      "odpověz na otázky"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Odpoví na otázky související s psaným textem, například při čtení krátkého popisu nebo dopisu a následném zodpovídání otázek, které se k textu vztahují.",
+        "quote": "Odpoví na otázky související s psaným textem, například při čtení krátkého popisu nebo dopisu a následném zodpovídání otázek, které se k textu vztahují."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s krátkými texty, Nj, Fj",
+        "url": "https://uloziste.rvp.cz/material/5ac7f8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí k textu otázky a opraví tvé odpovědi s vysvětlením."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Cvičení s otázkami k textu najdeš na stránkách pro výuku jazyka."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace odpoví za tebe, ty se z toho text číst nenaučíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník pomůže s neznámými slovy při čtení textu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,298 @@
+---
+// One ESCO occupation (user 2026-10-29): first the two boxes about the occupation itself, how much AI changes it
+// (ILO, by ISCO 4-digit group) and the badges from ESCO collections (the AI box alone and centred when there are no
+// badges); then the Cedefop figures for its whole ISCO 2-digit group (GroupBox); then the cards it uses.
+import Base from "../../layouts/Base.astro";
+import Crumbs from "../../components/Crumbs.astro";
+import Icon from "../../components/Icon.astro";
+import Paper from "../../components/Paper.astro";
+import SectionHead from "../../components/SectionHead.astro";
+import ToolMarks from "../../components/ToolMarks.astro";
+import GroupBox from "../../components/GroupBox.astro";
+import {
+  occupations,
+  activities,
+  activityOccupations,
+  jobNotes,
+  groups,
+  outcomes,
+  iloWords,
+  iloLevel,
+  escoBadges,
+  type Occupation,
+  type CollectionHits,
+} from "../../lib/data";
+
+export function getStaticPaths() {
+  return Object.values(occupations).map((o) => ({
+    params: { id: o.id },
+    props: { occ: o },
+  }));
+}
+const { occ } = Astro.props as { occ: Occupation };
+const base = import.meta.env.BASE_URL;
+const leads = activities.filter((a) =>
+  (activityOccupations[a.slug] ?? []).includes(occ.id),
+);
+const groupLabel = groups[occ.isco2] ?? occ.isco2;
+const exposure = iloWords(occ);
+const exposureHeading = exposure
+  ? exposure.replace("AI ji", "AI tuhle práci")
+  : null;
+const level = iloLevel(occ);
+const SCALE = ["skoro nemění", "málo", "středně", "hodně"];
+// Same colours as the AI circle on occupation rows (AiLevel): none, grey, blue, raspberry.
+const SCALE_FILL = ["", "f-light", "f-blue", "f-red"];
+const badges = escoBadges(occ);
+// One example per badge, the shortest of the three stored (user 2026-10-29: keep the badge texts short).
+const example = (h: CollectionHits) =>
+  h.examples.reduce((a, b) => (b.length < a.length ? b : a));
+const BADGE = {
+  research: {
+    icon: "flask",
+    title: "Výzkum",
+    text: "ESCO ho řadí mezi výzkumná povolání.",
+  },
+  green: {
+    icon: "leaf",
+    title: "Zelené dovednosti",
+    hits: occ.collections.green,
+    text: "S životním prostředím souvisí",
+  },
+  digital: {
+    icon: "laptop",
+    title: "Digitální dovednosti",
+    hits: occ.collections.digital,
+    text: "Digitálních je",
+  },
+};
+---
+
+<Base title={occ.label} description={occ.description}>
+  <div class="wrap page">
+    <Crumbs
+      items={[
+        { label: "Povolání", href: `${base}povolani/` },
+        { label: groupLabel, href: `${base}povolani/skupina/${occ.isco2}/` },
+        { label: occ.label },
+      ]}
+    />
+    <section class="lead col">
+      <Icon name="briefcase" size="46" class="big" />
+      <h1>{occ.label.split("/").map((p, i) => <>{i > 0 && <>/<wbr /></>}{p}</>)}</h1>
+      {occ.description && <p class="desc">{occ.description}</p>}
+      <p class="tiny soft">
+        Popis z evropské databáze povolání ESCO. Skupina povolání: <a
+          href={`${base}povolani/skupina/${occ.isco2}/`}>{groupLabel}</a
+        >.
+      </p>
+    </section>
+
+    <div class:list={["facts", { single: badges.length === 0 }]}>
+      <Paper kind="grid" seed={`ilo/${occ.id}`} class="fact">
+        <Icon name="chat-dots" size="30" />
+        {
+          exposureHeading ? (
+            <>
+              <h2>{exposureHeading}</h2>
+              <ol
+                class="scale"
+                aria-label={`Vliv generativní AI podle ILO: ${SCALE[level]}`}
+              >
+                {SCALE.map((s, i) => (
+                  <li
+                    class:list={[
+                      "sketch-box",
+                      i === level ? `on ${SCALE_FILL[i]}` : "",
+                    ]}
+                  >
+                    <span>{s}</span>
+                  </li>
+                ))}
+              </ol>
+              <p class="small soft">
+                Odhad Mezinárodní organizace práce (ILO, 2025) podle toho, jakou
+                část úkolů v tomhle druhu práce zvládne generativní AI.
+                Neznamená to, že povolání zmizí. Většinou se mění, co v něm lidé
+                dělají.
+              </p>
+            </>
+          ) : (
+            <p class="small soft">
+              Pro tuhle skupinu povolání nemá Mezinárodní organizace práce
+              odhad, jak ji mění AI.
+            </p>
+          )
+        }
+      </Paper>
+      {
+        badges.length > 0 && (
+          <Paper kind="grid" seed={`badges/${occ.id}`} class="fact">
+            <Icon name="bookmark" size="30" />
+            <h2>Štítky povolání</h2>
+            <ul class="badges">
+              {badges.map((k) => {
+                const b = BADGE[k];
+                return (
+                  <li>
+                    <h3>
+                      <Icon name={b.icon} size="24" />
+                      {b.title}
+                    </h3>
+                    <p class="small">
+                      {"hits" in b ? (
+                        <>
+                          {b.text} {b.hits.count} z {b.hits.of} dovedností,
+                          třeba „{example(b.hits)}“.
+                        </>
+                      ) : (
+                        b.text
+                      )}
+                    </p>
+                  </li>
+                );
+              })}
+            </ul>
+            <p class="tiny soft">
+              Zdroj: ESCO v1.2.1. Štítek dáváme od pětiny dovedností.
+            </p>
+          </Paper>
+        )
+      }
+    </div>
+
+    <GroupBox
+      code={occ.isco2}
+      title={groupLabel}
+      lead="Do téhle skupiny povolání patří i tahle práce. Čísla platí pro celou skupinu v Česku."
+      link
+    />
+
+    <section class="section col" aria-labelledby="h-from">
+      <SectionHead id="h-from" icon="book"
+        >Co ze školy se tu hodí<Fragment slot="lead"
+          >Jen karty, které už máme. Spojení vychází z dovedností, které ESCO u
+          povolání uvádí jako nezbytné. Popisy napsala AI.</Fragment
+        ></SectionHead
+      >
+      {
+        leads.length > 0 ? (
+          <Paper
+            as="ul"
+            kind="lined"
+            seed={`leads/${occ.id}`}
+            tilt={0.25}
+            class="rows"
+          >
+            {leads.map((a) => {
+              const note = jobNotes(a.slug).notes[occ.id];
+              return (
+                <li>
+                  <a href={`${base}aktivita/${a.slug}/`}>
+                    <span class="rname">{a.title}</span>
+                    <span class="meta">
+                      {note ??
+                        `${outcomes[a.outcome]?.subject.name} · ${outcomes[a.outcome]?.stageLabel}`}
+                    </span>
+                    <span class="right">
+                      <ToolMarks a={a} />
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </Paper>
+        ) : (
+          <p class="soft center">Zatím žádná z karet.</p>
+        )
+      }
+    </section>
+  </div>
+</Base>
+<style>
+  .page {
+    display: grid;
+    gap: var(--s7);
+  }
+  .lead {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: var(--s3);
+  }
+  .lead :global(.big) {
+    color: var(--purple);
+  }
+  .desc {
+    max-width: 60ch;
+    font-size: 1.0625rem;
+  }
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: var(--s5);
+    max-width: 940px;
+    margin-inline: auto;
+    width: 100%;
+  }
+  .fact {
+    display: grid;
+    gap: var(--s3);
+    align-content: start;
+  }
+  .fact > :global(.icon) {
+    color: var(--purple);
+  }
+  .fact h2 {
+    font-size: calc(1.6rem * var(--title-scale));
+    line-height: 1.1;
+  }
+  .facts.single {
+    grid-template-columns: minmax(0, 460px);
+    justify-content: center;
+  }
+  .badges {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--s3);
+  }
+  .badges li {
+    display: grid;
+    gap: var(--s1);
+  }
+  .badges h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--s2);
+    font-size: calc(1.35rem * var(--title-scale));
+    line-height: 1.15;
+  }
+  .badges h3 > :global(.icon) {
+    color: var(--purple);
+    flex: none;
+  }
+  .scale {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+  }
+  .scale li {
+    padding: 6px 4px;
+    text-align: center;
+    font-size: 0.8125rem;
+    color: var(--ink-soft);
+  }
+  .scale li.on {
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .scale li.on span {
+    background: var(--sheet);
+    padding: 0 3px;
+  }
+</style>

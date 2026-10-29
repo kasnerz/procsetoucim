@@ -1,0 +1,14 @@
+---
+// A piece of paper with torn or cut edges, a faint offset shadow and a tiny tilt. Plain pieces pick one of
+// three flat cool paper tones (seeded), so a page looks like a pile of different scraps.
+// kind: plain sheet, grid (squared, for facts and numbers), lined (red margin line, for lists), ruled (horizontal
+// lines only, like a notebook page without the margin).
+import { tear, rng } from "../lib/sketch";
+interface Props { as?: string; seed: string; kind?: "plain" | "grid" | "lined" | "ruled"; tilt?: number; depth?: number; tone?: string; class?: string; [key: string]: any }
+const { as: Tag = "div", seed, kind = "plain", tilt = 0.5, depth = 5, tone: toneProp, class: cls, ...rest } = Astro.props;
+const r = rng(seed + "/tilt");
+const deg = ((r() - 0.5) * 2 * tilt).toFixed(2);
+const TONES = ["var(--paper-grey)", "var(--paper-recycled)", "var(--paper-blue)"];
+const tone = toneProp ?? (kind === "plain" ? TONES[Math.floor(r() * TONES.length)] : "var(--paper-blue)");
+---
+<Tag class:list={["paper", kind !== "plain" && kind, cls]} style={`--tear:${tear(seed, depth)};--tilt:${deg}deg;--tone:${tone}`} {...rest}><slot /></Tag>

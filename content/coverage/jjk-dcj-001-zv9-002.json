@@ -1,0 +1,55 @@
+{
+  "outcome": "JJK-DCJ-001-ZV9-002",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "- čte jednotlivá slova, které si ústně osvojil a jimž rozumí - rozumí krátkým, jasně strukturovaným větám, které popisují jednoduché a konkrétní situace z okruhu osvojovaných témat",
+      "cards": [
+        "dcj-slovo-k-obrazku",
+        "dcj-kratke-vety-situace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "- čte krátké texty, jako jsou rozhovory, popisy, jednoduché příběhy nebo korespondence a pochopí z nich hlavní myšlenku",
+      "cards": [
+        "dcj-hlavni-myslenka-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "- vyhledá požadovanou informaci v psaném textu, například při čtení krátkého rozhovoru nebo příběhu, identifikuje základní konkrétní údaje",
+      "cards": [
+        "dcj-hledani-informace-v-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Posuzuje pravdivost informací v textu a odpovídá na otázky související s textem.",
+      "cards": [
+        "dcj-pravda-nepravda-text"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Odpoví na otázky související s psaným textem, například při čtení krátkého popisu nebo dopisu a následném zodpovídání otázek, které se k textu vztahují.",
+      "cards": [
+        "dcj-odpovedi-k-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Přiřadí k napsanému slovu obrázek nebo nadpis.",
+      "cards": [
+        "dcj-slovo-k-obrazku"
+      ],
+      "aside": null
+    }
+  ]
+}

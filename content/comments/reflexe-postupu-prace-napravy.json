@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když se výrobek nepovede, je užitečnější zjistit, ve kterém kroku se to pokazilo, než se jen zlobit: jestli bylo něco špatně změřené, nepřesně uříznuté, nebo lepidlo nestihlo zaschnout. Kdo umí svou práci takhle rozebrat, příště stejnou chybu neudělá a ví, co mu jde a co si má procvičit. Podobně postupují lidé, kteří ve výrobě hledají příčiny vadných kusů, nebo ti, kdo zjišťují, proč se porouchal stroj. Chatbot ti umí klást dobré otázky, ale co se při práci dělo, víš jen ty.",
+  "learnWithAi": [
+    {
+      "title": "Otázky po skončení práce",
+      "text": "Popiš chatbotovi, jak dnes v dílně probíhala tvoje práce, a požádej ho o pět otázek, které ti pomůžou ji rozebrat. Odpovídej poctivě, i když se něco nepovedlo."
+    },
+    {
+      "title": "Hledání příčiny chyby",
+      "text": "Napiš chatbotovi, co je na výrobku špatně, třeba že se viklá. Nech ho vyjmenovat možné příčiny a u každé rozhodni podle fotek nebo deníku, jestli se stala i tobě."
+    },
+    {
+      "title": "Plán na příští hodinu",
+      "text": "Vyber dvě věci, které ti při práci nešly, a nech chatbota navrhnout, jak je procvičit. Plán zkrať na to, co v dílně opravdu stihneš, a po hodině si zapiš, jestli zabral."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-002",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Vhodně použije slova opačného významu.",
+      "cards": [
+        "slovni-zasoba-protiklady-slov"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Použije ve vlastním sdělení slova významem nadřazená, podřazená a souřadná.",
+      "cards": [
+        "slovni-zasoba-nadrazena-podrazena-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Nahradí slova v daném kontextu slovy se stejným nebo podobným významem.",
+      "cards": [
+        "slovni-zasoba-slova-stejneho-vyznamu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozlišuje ve slově kořen, část předponovou, příponovou a koncovku.",
+      "cards": [
+        "slovni-zasoba-stavba-slova-pribuzna-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozumí pojmu příbuzné slovo.",
+      "cards": [
+        "slovni-zasoba-stavba-slova-pribuzna-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Přečte přiměřeně dlouhý text a rozumí mu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "cteni-textu"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá vhodná a významově správná slova v daném kontextu.",
+      "cards": [
+        "slovni-zasoba-vyber-vhodneho-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Odhaduje význam slov, svoji odpověď ověří ve slovníku.",
+      "cards": [
+        "slovni-zasoba-odhad-vyznamu-a-slovnik"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Využívá svoji slovní zásobu při práci s textem a domluví se v běžných situacích.",
+      "cards": [
+        "slovni-zasoba-vyber-vhodneho-slova"
+      ],
+      "aside": null
+    }
+  ]
+}

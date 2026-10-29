@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Ohřát vodu na čaj, napustit teplou vanu nebo vytopit byt stojí energii a fyzika ti řekne kolik podle toho, kolik vody ohříváš a o kolik stupňů. V běžné řeči je teplo spíš pocit, ve fyzice je to energie, která přechází z teplejšího tělesa na chladnější. Voda se ohřívá pomalu a teplo dlouho drží, proto se jí topí v radiátorech. Lidé, kteří navrhují a opravují topení, klimatizace nebo kotle, takový výpočet dělají běžně, ostatním stačí rozumět, proč je ohřev vody tak drahý. Kalkulačka čísla vynásobí, ale dosadit správně hmotnost a rozdíl teplot je na tobě.",
+  "learnWithAi": [
+    {
+      "title": "Úlohy s hrnkem a vanou",
+      "text": "Nech si od chatbota zadat tři úlohy na teplo potřebné k ohřátí vody, od hrnku po vanu. Vyřeš je na papír a teprve potom si nech ukázat postup."
+    },
+    {
+      "title": "Teplo v běžné řeči",
+      "text": "Napiš pět vět, ve kterých používáš slovo teplo, a chatbot ať u každé řekne, jestli sedí i na fyzikální význam."
+    },
+    {
+      "title": "Odhad před výpočtem",
+      "text": "Než spočítáš, kolik tepla potřebuje vana vody, odhadni výsledek. Chatbotovi pošli odhad i výpočet, ať vysvětlí rozdíl, a výsledek ověř kalkulačkou."
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+[
+  {
+    "slug": "desetinna-cisla-v-situacich",
+    "title": "Desetinná čísla na účtence a v délkách",
+    "aliases": [
+      "desetinná čísla",
+      "čtení desetinného čísla",
+      "cena na účtence",
+      "výška a délka",
+      "koruny a haléře"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Modeluje a čte desetinné číslo se dvěma desetinnými místy reálnou situací (účtenka v obchodě, délka, popř. výška…).",
+        "quote": "Modeluje a čte desetinné číslo se dvěma desetinnými místy reálnou situací (účtenka v obchodě, délka, popř. výška…)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Nakupujeme",
+        "url": "https://uloziste.rvp.cz/material/3dcf7f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí účtenky a délky ke čtení a zkontroluje tvé odpovědi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení a příklady s cenami a délkami."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Číslo na účtence nebo na metru přečteš ty, aplikace to nezastoupí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Metr a pravítko ukážou desetinná čísla na skutečné délce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "desetinna-cisla-na-ose",
+    "title": "Desetinná čísla na číselné ose",
+    "aliases": [
+      "číselná osa",
+      "vyznačit číslo na ose",
+      "osa s desetinami",
+      "kde na ose leží číslo"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vyznačí desetinné číslo na číselné ose.",
+        "quote": "Vyznačí desetinné číslo na číselné ose."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Převádí některé jednoduché zlomky (polovina, čtvrtina, tři čtvrtiny, pětina, desetina, setina…) na desetinná čísla a obráceně a vyznačí je na číselné ose.",
+        "quote": "a vyznačí je na číselné ose"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Desetinná čísla na číselné ose",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Řekne, kam číslo na osu patří, a opraví tvůj odhad."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš hotové osy, se kterými porovnáš svou."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí nebo geometrická aplikace dá osu s dílky, číslo vyznačíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko ti pomůže rozdělit osu na stejné dílky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zlomky-a-desetinna-cisla",
+    "title": "Zlomky a desetinná čísla",
+    "aliases": [
+      "polovina a čtvrtina",
+      "převod zlomku na desetinné číslo",
+      "tři čtvrtiny",
+      "desetina a setina"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Převádí některé jednoduché zlomky (polovina, čtvrtina, tři čtvrtiny, pětina, desetina, setina…) na desetinná čísla a obráceně a vyznačí je na číselné ose.",
+        "quote": "Převádí některé jednoduché zlomky (polovina, čtvrtina, tři čtvrtiny, pětina, desetina, setina…) na desetinná čísla a obráceně"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje tvé převody a vysvětlí, proč je čtvrtina 0,25."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tabulky převodů a vysvětlení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Převodník ověří, jestli ti převod vyšel správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka zlomek vydělí a ověří tvůj výsledek."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnavani-desetinnych-cisel",
+    "title": "Porovnávání desetinných čísel",
+    "aliases": [
+      "které číslo je větší",
+      "větší a menší",
+      "porovnat 0,5 a 0,25",
+      "seřadit desetinná čísla"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Porovná dvě desetinná čísla se dvěma desetinnými místy.",
+        "quote": "Porovná dvě desetinná čísla se dvěma desetinnými místy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Porovnávání desetinných čísel v reálných situacích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Řekne, které číslo je větší, a vysvětlí proč, ale až po tvém tipu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení a příklady na porovnávání."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací aplikace zadává dvojice čísel a hned opraví."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka čísla ukáže, porovnat je musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zaokrouhlovani-desetinnych-cisel",
+    "title": "Zaokrouhlování desetinných čísel",
+    "aliases": [
+      "zaokrouhlit na celé číslo",
+      "zaokrouhlování",
+      "zaokrouhlit cenu",
+      "na koruny"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zaokrouhlí desetinné číslo na přirozené číslo (případně nulu).",
+        "quote": "Zaokrouhlí desetinné číslo na přirozené číslo (případně nulu)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Zaokrouhlujeme desetinná čísla",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pravidlo zaokrouhlování a zadá další čísla na procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš pravidla zaokrouhlování s příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací aplikace zadá čísla a ukáže správné zaokrouhlení."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ukáže přesný výsledek, s nímž porovnáš svůj odhad."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prevadeni-jednotek-s-desetinnymi-cisly",
+    "title": "Převádění jednotek míry",
+    "aliases": [
+      "jednotky délky",
+      "metry a centimetry",
+      "kilogramy a gramy",
+      "převod jednotek",
+      "litry a decilitry"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Používá desetinná čísla při převádění jednotek míry.",
+        "quote": "Používá desetinná čísla při převádění jednotek míry."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Peču, pečeš, pečeme",
+        "url": "https://uloziste.rvp.cz/material/fb510e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se posouvá desetinná čárka, a zadá úlohy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Převodníky jednotek ověří, jestli ti převod vyšel."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s převodníkem ověří tvůj výsledek jedním klepnutím."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Metr, váha a odměrka ukážou, jak velká jednotka doopravdy je."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "scitani-a-odcitani-desetinnych-cisel",
+    "title": "Sčítání a odčítání desetinných čísel",
+    "aliases": [
+      "sčítání desetinných čísel",
+      "odčítání desetinných čísel",
+      "písemné sčítání s čárkou",
+      "kolik zbyde"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Sčítá a odčítá desetinná čísla.",
+        "quote": "Sčítá a odčítá desetinná čísla."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje postup, ukáže, kde ti ujela desetinná čárka."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš postup a příklady k procvičení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací aplikace zadává příklady a hned je opraví."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ověří tvůj písemný výpočet."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "slovni-ulohy-s-desetinnymi-cisly",
+    "title": "Slovní úlohy s desetinnými čísly",
+    "aliases": [
+      "slovní úlohy",
+      "příklady s nákupem",
+      "kolik zaplatím",
+      "úlohy s cenami"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší jednoduché slovní úlohy s desetinnými čísly.",
+        "quote": "Řeší jednoduché slovní úlohy s desetinnými čísly."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Nakupujeme",
+        "url": "https://uloziste.rvp.cz/material/3dcf7f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadá další úlohy a vysvětlí krok, který ti nejde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš podobné vzorové úlohy, podle nichž postupuješ."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace úlohu vyřeší z fotky, ale učení z toho nemáš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ověří výpočet, když víš, co zadat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "outcome": "CZB-TEV-001-ZV5-004",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Stanoví si ve spolupráci s vyučujícím konkrétní cíl pro úpravu svého pohybového režimu.",
+      "cards": [
+        "cil-pohyboveho-rezimu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vede si záznam o absolvovaných pohybových aktivitách.",
+      "cards": [
+        "zaznam-pohybovych-aktivit"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhodnotí, zda se mu podařilo splnit stanovený cíl svého pohybového režimu.",
+      "cards": [
+        "vyhodnoceni-cile"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zaznamenanou pohybovou aktivitu zhodnotí z hlediska pravidelnosti, délky trvání a intenzity.",
+      "cards": [
+        "pravidelnost-delka-intenzita"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Plánuje a zapojuje se do pohybových činností spolu s ostatními žáky.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

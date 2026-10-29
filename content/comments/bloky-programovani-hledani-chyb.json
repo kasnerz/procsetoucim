@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Program skoro nikdy nefunguje napoprvé, a proto k programování patří hledání chyb stejně jako psaní. Učíš se při tom postupovat s rozmyslem: spustit, sledovat, kde se program chová jinak, než má, a zkoušet jednu opravu po druhé. Tak pracují vývojáři softwaru a aplikací každý den a lidí v takové práci by mělo do budoucna přibývat. Chatbot sice program napíše rychle, ale jeho chyby najde jen ten, kdo ví, co má program dělat. Stejný postup se hodí, i když se porouchá kolo nebo nejde zapnout tablet.",
+  "learnWithAi": [
+    {
+      "title": "Nápověda, kde hledat chybu",
+      "text": "Když tvůj program nefunguje, zkuste s rodičem chatbotovi popsat, co má dělat a co dělá místo toho. Ať ti jen poradí, kde hledat, a opravu udělej ty."
+    },
+    {
+      "title": "Program s nastraženou chybou",
+      "text": "Poproste chatbota, ať vám popíše krátký program s jednou schovanou chybou, třeba blokem na špatném místě. Postav ho, spusť a chybu najdi bez nápovědy."
+    },
+    {
+      "title": "Seznam věcí k vyzkoušení",
+      "text": "Napište s rodičem a chatbotem seznam, co všechno u programu vyzkoušet, třeba co se stane na kraji obrazovky. Projdi body jeden po druhém a zapiš si, co fungovalo."
+    }
+  ]
+}

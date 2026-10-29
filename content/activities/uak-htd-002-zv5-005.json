@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "zazitek-z-predstaveni-slovem",
+    "title": "Povídání o zážitku z představení nebo koncertu",
+    "aliases": [
+      "jaké to bylo v divadle",
+      "dojem z koncertu",
+      "vyprávění o představení",
+      "popis zážitku",
+      "jak se mi to líbilo"
+    ],
+    "outcome": "UAK-HTD-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyjádří svůj zážitek z divadelního, tanečního či hudebního díla nebo programu.",
+        "quote": "Vyjádří svůj zážitek z divadelního, tanečního či hudebního díla nebo programu."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vyjadřuje pod vedením učitele svůj zážitek slovem (jednoduchou slovní formulací, vyprávěním).",
+        "quote": "Vyjadřuje pod vedením učitele svůj zážitek slovem (jednoduchou slovní formulací, vyprávěním)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše v rozhovoru s učitelem a spolužáky svůj dojem ze zhlédnutého díla.",
+        "quote": "Popíše v rozhovoru s učitelem a spolužáky svůj dojem ze zhlédnutého díla."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Byli jsme v divadle",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se tě, co se ti honilo hlavou a v těle, a pomůže ti najít slova pro pocity."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníky pocitů a ukázky popisů představení ti dají slova, která hledáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe zážitek nepopíše a tvůj dojem nezná."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pocity z představení si vybavuješ a říkáš ty, žádný nástroj v tom nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+      "http://data.europa.eu/esco/skill/9f43c56e-3ec5-490b-ab02-2e42fb700ca9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zazitek-z-umeni-pohybem-a-kresbou",
+    "title": "Zážitek z umění pohybem, kresbou a zvuky",
+    "aliases": [
+      "tanec o představení",
+      "kreslení zážitku",
+      "výtvarné vyjádření",
+      "vyjádření bez slov",
+      "pět okének"
+    ],
+    "outcome": "UAK-HTD-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyjádří svůj zážitek ze setkání s hudebním, tanečním nebo divadelním dílem, z navštíveného koncertu, představení nebo programu prostřednictvím slova nebo pohybu, výtvarné tvorby nebo jiných výrazových prostředků.",
+        "quote": "Vyjádří svůj zážitek ze setkání s hudebním, tanečním nebo divadelním dílem, z navštíveného koncertu, představení nebo programu prostřednictvím slova nebo pohybu, výtvarné tvorby nebo jiných výrazových prostředků."
+      },
+      {
+        "level": "Na cestě",
+        "point": "S pomocí učitele vybírá k vyjádření svých zážitků ze setkání s uměleckým dílem různé výrazové prostředky (slovo, pohyb, výtvarné prostředky apod.).",
+        "quote": "S pomocí učitele vybírá k vyjádření svých zážitků ze setkání s uměleckým dílem různé výrazové prostředky (slovo, pohyb, výtvarné prostředky apod.)."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Po setkání s uměleckým dílem ve škole nebo v autentickém prostředí zpracovává svůj zážitek pomocí hry a tvořivých činností vedených učitelem.",
+        "quote": "Po setkání s uměleckým dílem ve škole nebo v autentickém prostředí zpracovává svůj zážitek pomocí hry a tvořivých činností vedených učitelem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Příklady činností, jimž žák vyjadřuje svůj zážitek z uměleckého díla",
+        "url": "https://uloziste.rvp.cz/material/87f8bb"
+      },
+      {
+        "title": "Pět okének",
+        "url": ""
+      },
+      {
+        "title": "Postava na zdi",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne ti nápady, jak zážitek ztvárnit, třeba pohybem nebo komiksem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky z divadel a výtvarných dílen ti ukážou, jak ostatní zážitek vyjádřili."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Kreslicí aplikace zážitek nevyjádří, pohyb a hru děláš tělem ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pastelky, papír a bubínek ti dají čím zážitek ztvárnit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "diskuse-o-zazitku-z-umeleckeho-dila",
+    "title": "Diskuse o zážitku z uměleckého díla",
+    "aliases": [
+      "povídání ve třídě o představení",
+      "debata o koncertu",
+      "co si myslíš o představení",
+      "sdílení dojmů",
+      "rozhovor o divadle"
+    ],
+    "outcome": "UAK-HTD-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zapojí se do diskuse, která se vztahuje k zážitku ze setkání s uměleckým dílem.",
+        "quote": "Zapojí se do diskuse, která se vztahuje k zážitku ze setkání s uměleckým dílem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ se spolužáky naživo, chatbot tvoji řeč ve třídě nenahradí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Vyhledané články o díle za tebe do diskuse nepromluví."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s tebou o společném zážitku ve třídě nemluví."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Do diskuse se zapojuješ hlasem a posloucháním, nástroj tu nic nedělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9f43c56e-3ec5-490b-ab02-2e42fb700ca9",
+      "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zazitek-doporucit-nebo-ne-argumenty",
+    "title": "Doporučení představení s důvody",
+    "aliases": [
+      "proč se mi to líbilo",
+      "doporučení představení",
+      "argumenty o koncertu",
+      "hodnocení představení",
+      "zažít to znovu"
+    ],
+    "outcome": "UAK-HTD-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Svůj postoj podpoří jednoduchými argumenty, proč by (ne)chtěl tento zážitek opakovat, proč by ho (ne)doporučil jiným.",
+        "quote": "Svůj postoj podpoří jednoduchými argumenty, proč by (ne)chtěl tento zážitek opakovat, proč by ho (ne)doporučil jiným."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Ne-živé?",
+        "url": "https://uloziste.rvp.cz/material/587e03"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co se ti líbilo a proč, a ukáže, jak vypadá dobrý argument."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Recenze a hodnocení představení ukazují, jak dospělí svůj názor zdůvodňují."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s hvězdičkami názor nezdůvodní, to uděláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svůj postoj k zážitku si určuješ ty, žádný nástroj ti ho nedá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9f43c56e-3ec5-490b-ab02-2e42fb700ca9",
+      "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zazitek-z-umeni-ve-vlastni-tvorbe",
+    "title": "Zážitek z umění ve vlastní tvorbě",
+    "aliases": [
+      "vlastní tvoření podle představení",
+      "inspirace představením",
+      "tvořivá aktivita",
+      "vlastní scénka po divadle",
+      "vlastní písnička"
+    ],
+    "outcome": "UAK-HTD-002-ZV5-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využije na podnět učitele svůj zážitek ve vlastních tvůrčích aktivitách.",
+        "quote": "Využije na podnět učitele svůj zážitek ve vlastních tvůrčích aktivitách."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti nápady, jak ze zážitku udělat scénku, básničku nebo obrázek."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky děl inspirovaných zážitky ti ukážou, jak může tvorba začít."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvoří za tebe a tvůj zážitek v ní nezůstane."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, barvy nebo hudební nástroj ti dají materiál, ze kterého tvoříš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

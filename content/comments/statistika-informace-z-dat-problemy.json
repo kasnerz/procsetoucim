@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kdy jede poslední autobus nebo který tým vyhrál nejvíc zápasů, to najdeš v tabulce, jen musíš vědět, kde hledat. Učíš se nejdřív pochopit otázku, pak najít správný řádek a sloupec a někdy dva údaje porovnat nebo sečíst. Tabulkový program ti data seřadí a vyfiltruje, ale otázku do něj musíš umět položit ty. Hledat odpovědi v datech je denní práce lidí, kteří analyzují data, kontrolují účetnictví nebo dohledávají náhradní díly k autům.",
+  "learnWithAi": [
+    {
+      "title": "Jízdní řád s otázkami",
+      "text": "Ať chatbot napíše jednoduchý jízdní řád autobusu a k němu pět otázek. Odpovídej podle tabulky a ukazuj prstem, kde odpověď je."
+    },
+    {
+      "title": "Tabulka malého turnaje",
+      "text": "Vymyslete spolu výsledky turnaje a poproste chatbota, ať z nich udělá tabulku. Ptejte se navzájem, kdo vyhrál nejvíc a kolik bodů chybělo druhému, a počítej na papíře."
+    },
+    {
+      "title": "Otázky, na které tabulka neodpoví",
+      "text": "Nechte chatbota k tabulce vymyslet i otázky, na které z ní odpověď zjistit nejde. U každé rozhodni, jestli se dá odpovědět, a vysvětli rodiči proč."
+    }
+  ]
+}

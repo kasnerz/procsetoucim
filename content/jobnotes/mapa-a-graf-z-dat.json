@@ -1,0 +1,18 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "b5f6bb2c-0602-484d-a87f-9cac33f83010": "Při rozvozu jídla a zásilek používá mapovou aplikaci a z ní vybírá trasu. Mapy sám nekreslí, ale musí rozumět tomu, co mapa ukazuje.",
+  "0c408028-c48f-4df8-ba5d-c3d3be15f5a2": "Při rozvozu balíků pracuje s mapou a navigací, které řadí zastávky do trasy. Čte je jako hotový výstup, vlastní mapy nevytváří.",
+  "7ed2e153-8da8-4c0d-b4c5-3402c623f34b": "Pro obchůzku používá mapu rajonu a adresy. Mapu čte a podle ní si skládá trasu, graf ani vlastní mapy při práci nekreslí.",
+  "f470b785-643c-46f9-8b31-6085427ab7b8": "Pracuje s digitálními daty o letovém provozu a mapami, které z nich vznikají. Musí poznat, jestli údaje na mapě sedí, a umět je správně předat dál.",
+  "b176e5d7-1f94-495c-907f-80a7f61aed59": "Z leteckých dat a bodů na zemi skládá mapy a podklady pro ochranu půdy nebo plánování území. Čte data z přístrojů a převádí je do mapy.",
+  "2561879a-dd0a-454e-ae6e-9be6c488eb56": "Měří pozemky a podle měření kreslí mapy a plány pro katastr. Hranice a plochy se musí na mapě shodovat se skutečností.",
+  "ad8ab454-b506-46a5-afd3-66bbffd54115": "Z různých dat skládá mapu pro určitý účel, třeba turistickou nebo městskou. Rozhoduje, co do mapy dát a co vynechat, aby se dala dobře číst.",
+  "bac64fa2-dcd6-47bb-8e5c-04e04a86a199": "Zkoumá, jak lidé a příroda na Zemi souvisí, a vychází z map, tabulek a čísel. Z nich vyčte závěry a taky mapy a grafy sám připravuje.",
+  "668943cc-c454-4a1b-a296-2fcb524a6222": "Při mapování dna a vodních ploch se z měření stává topografie. Čísla z přístrojů se čtou v tabulkách a profilech.",
+  "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": "Sebraná čísla se tu mění v diagramy, grafy a přehledy. Čtení grafů a tabulek tvoří většinu pracovního dne.",
+  "258e46f9-0075-4a2e-adae-1ff0477e0f30": "Data se zde vizualizují, aby jim lépe rozuměl tým i publikum bez odborných znalostí. Graf nebo mapa je způsob, jak sdělit zjištění.",
+  "86c892cf-09a3-44c8-b9d1-814d93dbcbb4": "Při taktických rozhodnutích se čtou mapy a údaje o terénu. Tvorba vlastních grafů do popisu práce nepatří, jde o čtení a hodnocení dat."
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "V horkém dni poznáš rozdíl mezi rozpáleným parkovištěm a stinným parkem po pár krocích, stejně jako rozdíl v hluku mezi rušnou ulicí a lesem. Tady ho zkusíš změřit teploměrem a aplikací na hluk a popsat tak, aby ho pochopil i někdo, kdo tam nebyl. Takové srovnání se hodí, když se v obci rozhoduje, jestli místo dalšího betonu vysázet stromy, a dobře se ti bude hodit i při výběru, kde bydlet. Kdo navrhuje parky a zahrady, dělá podobná srovnání pořád. Pocit z místa ti žádný chatbot nezprostředkuje, na to tam musíš stát.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka pro park a ulici",
+      "text": "Popros chatbota, ať ti navrhne tabulku pro srovnání parku a ulice: teplota, hluk, prach a jak se tam cítíš. Vyplníš ji ty, přímo na místě."
+    },
+    {
+      "title": "Otázky k naměřeným hodnotám",
+      "text": "Pošli chatbotovi hodnoty z obou míst a nech si položit otázky, které rozdíl pomůžou vysvětlit. Odpovědi hledej ve svých poznámkách z místa."
+    },
+    {
+      "title": "Návrh pro rozpálenou ulici",
+      "text": "Popiš chatbotovi nejteplejší ulici, kterou znáš, a navrhni, jak ji změnit, aby se v ní dalo v létě vydržet. Chatbot ať návrh posoudí a řekne, na co by mohl narazit."
+    }
+  ]
+}

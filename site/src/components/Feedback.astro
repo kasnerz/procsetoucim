@@ -1,0 +1,184 @@
+---
+// "Připomínka ke kartě": an error report, a suggestion, or a proposed revision of one part of the card,
+// posted to the small feedback service (feedback/server.py, proxied at /api/ by nginx).
+// For a revision, the form starts from the text the card shows now, so the reader edits instead of retyping.
+import Icon from "./Icon.astro";
+import { TOOLS, VERDICT, type Activity } from "../lib/data";
+import { FEEDBACK_ENDPOINT, ROLES } from "../lib/feedback";
+interface Props { a: Activity }
+const { a } = Astro.props;
+
+const KINDS = [
+  { id: "error", label: "Chyba", hint: "Něco tu nesedí nebo není pravda." },
+  { id: "suggestion", label: "Návrh", hint: "Co by kartu zlepšilo." },
+  { id: "revision", label: "Vlastní znění", hint: "Přepiš část karty tak, jak by podle tebe měla znít." },
+];
+const PARTS = [
+  { id: "card", label: "Celá karta" },
+  { id: "title", label: "Název karty" },
+  { id: "rvp", label: "Oficiální znění v RVP" },
+  { id: "comment", label: "Proč se to učíš", show: !!a.comment },
+  { id: "tools", label: "Nástroje" },
+  { id: "jobs", label: "Kam to vede" },
+  { id: "numbers", label: "Čísla" },
+  { id: "learn", label: "Jak se to učit s AI", show: a.learnWithAi.length > 0 },
+  { id: "other", label: "Něco jiného" },
+].filter((p) => p.show !== false);
+// What each part says now: the starting point of a revision.
+const current: Record<string, string> = {
+  title: a.title,
+  comment: a.comment,
+  learn: a.learnWithAi.map((t) => (t.title ? `${t.title}\n${t.text}` : t.text)).join("\n\n"),
+  tools: TOOLS.map((t) => `${t.name}: ${VERDICT[a.tools[t.id].verdict]}. ${a.tools[t.id].why}`).join("\n\n"),
+};
+---
+<div class="fb" data-feedback data-endpoint={FEEDBACK_ENDPOINT} data-card={a.slug}>
+  <button type="button" class="fb-open" data-fb-open><Icon name="square-pen" size="20" /><span>Připomínka ke kartě</span></button>
+  <script type="application/json" data-fb-current set:html={JSON.stringify(current)} />
+
+  <dialog class="fb-dialog" aria-labelledby="fb-h">
+    <form class="fb-form" data-fb-form novalidate>
+      <div class="fb-top">
+        <h2 id="fb-h">Připomínka ke kartě</h2>
+        <button type="button" class="fb-x" data-fb-close aria-label="Zavřít"><Icon name="x" size="22" /></button>
+      </div>
+      <p class="small soft fb-card">{a.title}</p>
+
+      <fieldset class="fb-kinds">
+        <legend class="fb-label">Druh připomínky</legend>
+        {KINDS.map((k, i) => (
+          <label class="fb-kind">
+            <input type="radio" name="kind" value={k.id} checked={i === 0} />
+            <span class="k-name">{k.label}</span>
+            <span class="k-hint tiny">{k.hint}</span>
+          </label>
+        ))}
+      </fieldset>
+
+      <label class="fb-field">
+        <span class="fb-label">Část karty</span>
+        <select name="part">
+          {PARTS.map((p) => <option value={p.id}>{p.label}</option>)}
+        </select>
+      </label>
+
+      <label class="fb-field" data-show="revision" hidden>
+        <span class="fb-label">Nové znění</span>
+        <textarea name="revision" rows="7" maxlength="8000"></textarea>
+      </label>
+
+      <label class="fb-field">
+        <span class="fb-label" data-text-label>Popis chyby</span>
+        <textarea name="text" rows="4" maxlength="4000"></textarea>
+      </label>
+
+      <fieldset class="fb-roles">
+        <legend class="fb-label">Kdo píše <span class="soft">(nepovinné)</span></legend>
+        {ROLES.map((r) => (
+          <label class="fb-role"><input type="radio" name="role" value={r.id} /><span>{r.label}</span></label>
+        ))}
+      </fieldset>
+
+      <label class="fb-field">
+        <span class="fb-label">E-mail <span class="soft">(nepovinné)</span></span>
+        <input type="email" name="contact" maxlength="200" autocomplete="email" />
+        <span class="tiny soft">Jen kdybychom se potřebovali doptat.</span>
+      </label>
+
+      <label class="fb-hp" aria-hidden="true">Web <input type="text" name="web" tabindex="-1" autocomplete="off" /></label>
+
+      <p class="fb-msg small" data-fb-msg role="status"></p>
+
+      <div class="fb-actions">
+        <button type="submit" class="fb-send"><Icon name="send" size="18" /><span>Odeslat</span></button>
+      </div>
+      <p class="tiny soft">Uložíme jen to, co vyplníš, a kartu, ke které to patří.</p>
+    </form>
+  </dialog>
+</div>
+
+<script>
+  import { sendFeedback } from "../lib/feedback";
+  const TEXT_LABEL: Record<string, string> = { error: "Popis chyby", suggestion: "Tvůj návrh", revision: "Proč to měnit (nepovinné)" };
+
+  for (const root of document.querySelectorAll<HTMLElement>("[data-feedback]")) {
+    const dialog = root.querySelector("dialog")!;
+    const form = root.querySelector<HTMLFormElement>("[data-fb-form]")!;
+    const msg = root.querySelector<HTMLElement>("[data-fb-msg]")!;
+    const send = form.querySelector<HTMLButtonElement>(".fb-send")!;
+    const current: Record<string, string> = JSON.parse(root.querySelector("[data-fb-current]")!.textContent || "{}");
+    const revision = form.elements.namedItem("revision") as HTMLTextAreaElement;
+    const part = form.elements.namedItem("part") as HTMLSelectElement;
+    // The text a revision started from, sent along so we can see what changed.
+    let original = "";
+
+    const kind = () => (form.elements.namedItem("kind") as RadioNodeList).value;
+    const sync = () => {
+      const k = kind();
+      for (const el of form.querySelectorAll<HTMLElement>("[data-show]")) el.hidden = el.dataset.show !== k;
+      form.querySelector("[data-text-label]")!.textContent = TEXT_LABEL[k];
+      if (k === "revision" && revision.value === original) {
+        original = current[part.value] ?? "";
+        revision.value = original;
+      }
+    };
+    form.addEventListener("change", (e) => {
+      if ((e.target as HTMLElement).getAttribute("name") === "part" && revision.value !== original) return;
+      sync();
+    });
+
+    const open = () => { msg.textContent = ""; sync(); dialog.showModal(); };
+    root.querySelector("[data-fb-open]")!.addEventListener("click", open);
+    // Other triggers for the same card elsewhere on the page (the small icon in the sheet's corner).
+    for (const b of document.querySelectorAll(`[data-fb-open-for="${root.dataset.card}"]`)) b.addEventListener("click", open);
+    root.querySelector("[data-fb-close]")!.addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); });
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = new FormData(form);
+      const k = kind();
+      const body = {
+        card: root.dataset.card, page: location.pathname, kind: k, part: f.get("part"),
+        text: f.get("text"), revision: k === "revision" ? f.get("revision") : "", original: k === "revision" ? original : "",
+        role: f.get("role") ?? "", contact: f.get("contact"), web: f.get("web"),
+      };
+      const empty = k === "revision" ? !String(body.revision).trim() || body.revision === original : !String(body.text).trim();
+      if (empty) {
+        msg.textContent = k === "revision" ? "Uprav text v poli Nové znění." : "Napiš nám pár slov do popisu.";
+        return;
+      }
+      send.disabled = true;
+      msg.textContent = "Odesílám…";
+      try {
+        await sendFeedback(root.dataset.endpoint!, body);
+        form.reset();
+        original = "";
+        msg.textContent = "Díky, máme to. Projdeme to a kartu případně opravíme.";
+      } catch (err) {
+        msg.textContent = (err as Error).message;
+      } finally {
+        send.disabled = false;
+        sync();
+      }
+    });
+  }
+</script>
+
+<style>
+  /* The fields, the kind and role choices and the buttons are shared with the Kontakt form (.fb-form in global.css). */
+  .fb { display: grid; justify-items: center; }
+  .fb-open :global(.icon) { color: var(--blue); }
+
+  .fb-dialog {
+    width: min(560px, calc(100% - 32px)); max-height: calc(100% - 32px); padding: 0; border: 0;
+    background: var(--paper-top); color: var(--ink); box-shadow: 5px 6px 0 var(--shadow);
+  }
+  .fb-dialog::backdrop { background: rgb(31 36 48 / 0.35); }
+  .fb-form { padding: var(--s5); }
+  .fb-top { display: flex; align-items: start; justify-content: space-between; gap: var(--s3); }
+  .fb-top h2 { font-size: calc(1.7rem * var(--title-scale)); line-height: 1.1; padding-bottom: 9px; background: var(--pen-stroke) left bottom / 74px 9px no-repeat; }
+  .fb-x { border: 0; background: none; padding: 4px; cursor: pointer; color: var(--ink-soft); }
+  .fb-x:hover { color: var(--blue); }
+  .fb-card { margin-top: calc(-1 * var(--s3)); }
+</style>

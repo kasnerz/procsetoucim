@@ -1,0 +1,398 @@
+[
+  {
+    "slug": "tvoreni-z-materialu",
+    "title": "Tvoření z rozmanitých materiálů",
+    "aliases": [
+      "tvoření z papíru",
+      "stavění z krabic",
+      "modelování",
+      "výtvarka z odpadu",
+      "skládání tvarů"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Tvoří z rozmanitých materiálů.",
+        "quote": "Tvoří z rozmanitých materiálů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Objevuje různé možnosti plošné a prostorové tvorby, za použití rozmanitých materiálů.",
+        "quote": "Objevuje různé možnosti plošné a prostorové tvorby, za použití rozmanitých materiálů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Objevování materiálů – skládání tvarů",
+        "url": "https://uloziste.rvp.cz/material/9bbc8e"
+      },
+      {
+        "title": "Stavebnice",
+        "url": "https://uloziste.rvp.cz/material/679d90"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí nápady, co z krabic nebo papíru vyrobit, ruce ale nenahradí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš návody a fotky hotových výrobků, vyrobit je musíš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti materiál neslepí ani nesestaví."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nůžky, lepidlo a modelína jsou přesně to, čím tvoříš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436",
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-nastroju-a-materialu",
+    "title": "Výběr nástrojů a materiálů pro tvorbu",
+    "aliases": [
+      "čím kreslit",
+      "čím malovat",
+      "štětec nebo tužka",
+      "hra a pokusy s materiálem",
+      "výtvarné pomůcky"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Užívá různé prostředky, nástroje a materiály, užívá je při kresbě, malbě, prostorové tvorbě, tvůrčí hře a experimentech.",
+        "quote": "Užívá různé prostředky, nástroje a materiály, užívá je při kresbě, malbě, prostorové tvorbě, tvůrčí hře a experimentech."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vybírá si prostředky a materiály, se kterými chce pracovat, kombinuje je na základě hry a experimentuje s nimi.",
+        "quote": "Vybírá si prostředky a materiály, se kterými chce pracovat, kombinuje je na základě hry a experimentuje s nimi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Výtvarná tvorba s hračkami a bublifukem",
+        "url": "https://uloziste.rvp.cz/material/8a2e3f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu se hodí pastelky, temperové barvy nebo uhel."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukáže příklady, jak vypadá kresba tuší nebo malba vodovkami."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Vyzkoušet materiál v ruce aplikace nedokáže."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Štětec, pastelka nebo hlína ti dají zkoušení do ruky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/432ab648-aece-4237-969f-8bca94fe181c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "linie-tvary-barvy",
+    "title": "Linie, tvary a barvy v obrázku i v prostoru",
+    "aliases": [
+      "kreslení čar",
+      "malování barvami",
+      "tvary a barvy",
+      "kresba a malba",
+      "prostorová tvorba"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Užívá linie, barvy, tvary při tvorbě v ploše i prostoru.",
+        "quote": "Užívá linie, barvy, tvary při tvorbě v ploše i prostoru."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpoznává, pojmenovává, vytváří a uplatňuje jednotlivé prvky (linie, tvary, barvy a objekty) a jejich vztahy (velikost a vzájemnou polohu tvarů, světlostní a barevný kontrast v kresbě, malbě, fotografii, v prostorových objektech).",
+        "quote": "vytváří a uplatňuje jednotlivé prvky (linie, tvary, barvy a objekty)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Objevování materiálů – skládání tvarů",
+        "url": "https://uloziste.rvp.cz/material/9bbc8e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jak spojit čáry a barvy, nakreslit to ale musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukáže hotová díla, ze kterých se můžeš učit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace nabídne barvy a čáry a zkoušení můžeš vrátit zpět."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pastelky, štětce a hlína jsou nástroje téhle práce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436",
+      "http://data.europa.eu/esco/skill/432ab648-aece-4237-969f-8bca94fe181c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pojmenovani-prvku",
+    "title": "Pojmenování a porovnání linií, tvarů a barev",
+    "aliases": [
+      "jak se liší čáry",
+      "porovnání obrázků",
+      "pojmenování barev",
+      "podobné a rozdílné tvary",
+      "dívání se kolem sebe"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpoznává, pojmenovává, vytváří a uplatňuje jednotlivé prvky (linie, tvary, barvy a objekty) a jejich vztahy (velikost a vzájemnou polohu tvarů, světlostní a barevný kontrast v kresbě, malbě, fotografii, v prostorových objektech).",
+        "quote": "Rozpoznává, pojmenovává"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Porovnává a pojmenovává odlišnosti linií, tvarů, barev, objemů, které vytvořil sám, nebo jeho spolužáci, nebo je objevil kdekoliv kolem sebe (v interiéru i exteriéru).",
+        "quote": "Porovnává a pojmenovává odlišnosti linií, tvarů, barev, objemů, které vytvořil sám, nebo jeho spolužáci, nebo je objevil kdekoliv kolem sebe (v interiéru i exteriéru)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se čemu říká, a můžeš si nechat zkontrolovat popis svého obrázku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník pojmů ti poví, jak se čemu říká."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na rozpoznání barev z fotky barvy pojmenuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dívat se a porovnávat musíš ty, nástroj tu nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436",
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kontrast-a-poloha-tvaru",
+    "title": "Velikost, poloha a kontrast tvarů",
+    "aliases": [
+      "světlé a tmavé",
+      "velký a malý tvar",
+      "kontrast barev",
+      "rozmístění tvarů v obrázku"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpoznává, pojmenovává, vytváří a uplatňuje jednotlivé prvky (linie, tvary, barvy a objekty) a jejich vztahy (velikost a vzájemnou polohu tvarů, světlostní a barevný kontrast v kresbě, malbě, fotografii, v prostorových objektech).",
+        "quote": "velikost a vzájemnou polohu tvarů, světlostní a barevný kontrast v kresbě, malbě, fotografii, v prostorových objektech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč světlá na tmavé vynikne, vyzkoušet to musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš ukázky obrázků s ostrým kontrastem i s popisem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí nebo fotoaplikace ukáže kontrast na hotovém snímku, třeba v černobílé verzi."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pastelky a papír ti ukážou, jak kontrast opravdu vypadá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "overene-postupy-a-pokusy",
+    "title": "Ověřené postupy a pokusy při tvorbě",
+    "aliases": [
+      "jak se to dělá",
+      "zkoušení nových postupů",
+      "výtvarný pokus",
+      "výtvarné techniky"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Při vytváření a kombinování prvků uplatňuje jak ověřené postupy, tak experimenty.",
+        "quote": "Při vytváření a kombinování prvků uplatňuje jak ověřené postupy, tak experimenty."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše běžné postupy, třeba stínování, nový nápad ti ale nevymyslí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videonávody ukážou ověřené techniky krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Zkoušení nového postupu aplikace nenahradí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Při zkoušení pracuješ rukama s tím, co máš po ruce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "spolecna-vytvarna-prace",
+    "title": "Společná výtvarná práce",
+    "aliases": [
+      "skupinový obrázek",
+      "tvoření ve skupině",
+      "společná výzdoba",
+      "práce ve dvojici"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zapojí se do společné práce a přispěje podle svých schopností a nápadů k jejímu výsledku.",
+        "quote": "Zapojí se do společné práce a přispěje podle svých schopností a nápadů k jejímu výsledku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet, kdo co ve skupině udělá."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tady nic hledat nepotřebuješ."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe do společné práce nepřispěje."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Velký papír a barvy pro všechny spojí práci celé skupiny."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

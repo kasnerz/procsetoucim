@@ -1,0 +1,39 @@
+{
+  "outcome": "MAT-MAT-001-ZV5-004",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Popíše slovy situaci, která modeluje celá záporná čísla.",
+      "cards": [
+        "zaporna-cisla-v-situacich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyznačí celé záporné číslo na číselné ose.",
+      "cards": [
+        "zaporna-cisla-na-ose"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zapíše matematicky modelovou situaci pomocí znaku „–“.",
+      "cards": [
+        "pocitani-se-zapornymi-cisly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší jednoduché úlohy s reprezentací celého záporného čísla (teploměr, dluh, pohyb na číselné ose).",
+      "cards": [
+        "zaporna-cisla-v-situacich",
+        "pocitani-se-zapornymi-cisly"
+      ],
+      "aside": null
+    }
+  ]
+}

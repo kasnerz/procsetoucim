@@ -1,0 +1,170 @@
+{
+  "outcome": "CZB-TEV-001-ZV5-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-varianty-pohybu-podle-zadani",
+      "title": "Vlastní varianty pohybu podle zadání",
+      "aliases": [
+        "varianty cvičení",
+        "vymyslet cvik",
+        "vlastní pohyb",
+        "tvořivý pohyb",
+        "skok jinak"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Na základě ukázek má představu o variantách pohybových dovedností."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vymýšlí vlastní varianty pohybových dovedností podle sebe nebo zadání."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Tvoří varianty jednoduchých pohybových dovedností na různé motivy podle zadání."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne nápady, jak skok nebo házení změnit, vyzkoušíš je ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa a popisy ukážou, jak se dá skákání přes švihadlo obměnit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pohyb vymýšlíš a děláš tělem ty, aplikace ti ho nezacvičí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Švihadlo, míč nebo obruč dají pohybu nové možnosti, třeba přeskok jinak."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4",
+        "http://data.europa.eu/esco/skill/de6bdb77-e160-4d19-bdf4-121e4fdada33"
+      ],
+      "inspiration": [
+        "Přeskoky přes švihadlo - varianty",
+        "Přeskoky přes švihadlo - ukázky"
+      ]
+    },
+    {
+      "slug": "tv-pohyb-na-hudbu-a-rytmus",
+      "title": "Pohyb na hudbu a rytmus",
+      "aliases": [
+        "tanec",
+        "cvičení s hudbou",
+        "rytmické cvičení",
+        "pohyb podle hudby",
+        "sestava na hudbu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Nacvičuje vlastní varianty pohybových dovedností na hudební či rytmický doprovod."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Předvede vlastní varianty pohybových dovedností na hudební či rytmický doprovod samostatně i ve skupině."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Pohyb načasuješ na hudbu ty, chatbot ho s tebou nenacvičí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa s ukázkami sestav ti ukážou, jak pohyb sladit s rytmem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Hudební aplikace pustí hudbu v pomalejším tempu a odpočítá rytmus."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Hudební nástroj nebo bubínek ti udá rytmus, podle kterého se pohybuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4",
+        "http://data.europa.eu/esco/skill/69554db4-90aa-4b97-bd4d-3cba4b658bed"
+      ],
+      "inspiration": [
+        "Choreografie",
+        "Rytmická gymnastika – sestava"
+      ]
+    },
+    {
+      "slug": "tv-plan-vlastni-sestavy",
+      "title": "Plán vlastní pohybové sestavy",
+      "aliases": [
+        "naplánovat sestavu",
+        "choreografie",
+        "sestava",
+        "vymyslet sestavu",
+        "plán cvičení"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Naplánuje vlastní variantu pohybové dovednosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti rozložit sestavu na kroky a vymyslet pořadí, rozhodneš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky sestav, podle kterých si svoji naplánuješ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na kreslení nebo poznámky ti pomůže sestavu načrtnout krok za krokem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka stačí na nákres pořadí cviků."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/de6bdb77-e160-4d19-bdf4-121e4fdada33"
+      ],
+      "inspiration": [
+        "Přeskoky přes švihadlo - sestava"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Rozumí zadání",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

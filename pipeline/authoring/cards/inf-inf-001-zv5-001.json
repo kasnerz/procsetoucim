@@ -1,0 +1,348 @@
+{
+  "outcome": "INF-INF-001-ZV5-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "druhy-dat",
+      "title": "Druhy dat",
+      "aliases": [
+        "číslo, text, obrázek",
+        "druhy informací",
+        "co jsou data",
+        "zvuk a video"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná různé druhy dat – číslo, text, obrázek a pojmenuje je."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozpoznává a pojmenovává jednoduchá data (např. teploty, datumy) ve svém okolí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá ti příklady a ptá se, jestli jde o číslo, text nebo obrázek."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš čísla, texty i obrázky, na kterých rozdíl poznáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka v aplikaci ukáže čísla, text i obrázky vedle sebe."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Teploměr data vyrábí, ale druhy dat se jím neučíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+        "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+      ]
+    },
+    {
+      "slug": "trideni-podle-kriteria",
+      "title": "Třídění podle kritéria",
+      "aliases": [
+        "třídění",
+        "roztřídit věci",
+        "podle čeho třídit",
+        "vlastnosti předmětů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rozpozná a pojmenuje charakteristické rysy předmětů či jevů a třídí je."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Organizuje soubor dat podle určitého kritéria."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí věci k třídění a řekne, jestli tvé pravidlo drží."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hledání na internetu třídění nahradí, ale nenaučí tě ho."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka v aplikaci ukáže, jak se řádky seřadí podle sloupce."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Krabice, štítky a karty ti třídění usnadní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be"
+      ]
+    },
+    {
+      "slug": "sber-dat-do-tabulky",
+      "title": "Sběr dat do tabulky",
+      "aliases": [
+        "zapisování do tabulky",
+        "sbírání dat",
+        "tabulka",
+        "záznam měření"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Provede sběr dat k určitému tématu a zaznamená je do přehledné tabulky."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zaznamenává jednoduchá data (např. teploty po dobu jednoho týdne) podle pokynů učitele."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jaké sloupce do tabulky dát, a zkontroluje tvůj zápis."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzory tabulek a místa, odkud data brát."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka v aplikaci data sečte a seřadí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr, metr nebo pravítko ti data dodají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61",
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be"
+      ]
+    },
+    {
+      "slug": "odpovedi-z-tabulky",
+      "title": "Odpovědi z tabulky s daty",
+      "aliases": [
+        "čtení z tabulky",
+        "porovnání dat",
+        "nejvyšší a nejnižší hodnota",
+        "odpovídání na otázky podle dat"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Analyzuje základní data a odpoví na otázky, které vyžadují srovnání dat."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Odpovídá na otázky, které přímo vyplývají z jednoduché tabulky s daty"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Vyslovuje na základě dat odpovědi na otázky, které se týkají okruhu jeho zájmů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá otázky k tabulce a ukáže, kde je chyba."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Internet má tabulky, ale číst je tě nenaučí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka v aplikaci umí seřadit a zvýraznit největší hodnotu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani teploměr tabulku nečtou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+      ],
+      "inspiration": [
+        "Jak zlepšit školní den – rozhodujeme se na základě dat"
+      ]
+    },
+    {
+      "slug": "zavery-z-dat",
+      "title": "Závěry z dat",
+      "aliases": [
+        "co z dat vyplývá",
+        "vyvodit závěr",
+        "porovnání a závěr",
+        "proč se to stalo"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Formuluje závěry na základě porovnání dat."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vyvozuje jednoduché závěry na základě dat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá data a řekne, jestli tvůj závěr z čísel opravdu plyne."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Internet dá spoustu dat, závěr z nich ale vyvozuješ ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Graf v aplikaci ukáže rozdíly a trendy na první pohled."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Teploměr ani pravítko závěry nedělají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+      ]
+    },
+    {
+      "slug": "rozhodnuti-podle-dat",
+      "title": "Rozhodnutí podle dat",
+      "aliases": [
+        "jak se rozhodnout",
+        "výběr podle předpovědi",
+        "více zdrojů dat",
+        "vybrat nejlepší možnost"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozhodne se na základě více zdrojů dat."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Provádí jednoduchá rozhodnutí na základě poskytnutých dat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá situaci s daty a probere, co by rozhodlo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš předpověď, ceny nebo hodnocení, ze kterých vybíráš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace porovná možnosti vedle sebe, třeba počasí na týden."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani teploměr nerozhodují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+      ],
+      "inspiration": [
+        "Jak zlepšit školní den – rozhodujeme se na základě dat"
+      ]
+    },
+    {
+      "slug": "zduvodneni-rozhodnuti",
+      "title": "Zdůvodnění rozhodnutí",
+      "aliases": [
+        "proč jsem se rozhodl",
+        "obhájit výběr",
+        "jiné možnosti",
+        "diskuse ve třídě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zdůvodní své rozhodnutí a diskutuje o možných alternativách."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vysvětluje svá rozhodnutí na základě dat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se, proč volíš právě tohle, a hledá slabá místa."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Internet zdůvodnění tvými slovy nenapíše."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti zdůvodnění nevysloví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj tu nemá co nabídnout."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+      ],
+      "inspiration": [
+        "Jak zlepšit školní den – rozhodujeme se na základě dat"
+      ]
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

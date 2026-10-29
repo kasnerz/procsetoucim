@@ -1,0 +1,371 @@
+[
+  {
+    "slug": "hodnoceni-vyrobku-kriteria-skala",
+    "title": "Kritéria hodnocení výrobku",
+    "aliases": [
+      "podle čeho hodnotit výrobek",
+      "hodnoticí škála",
+      "kritéria hodnocení",
+      "jak se hodnotí práce",
+      "body a známky za výrobek"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "osvojuje si specifika hodnoticích kritérií uplatňovaných při realizaci praktických činností, užívá hodnoticí škály, symboly, zohledňuje kvalitativní kritéria, variabilitu činností a uplatnění technické tvořivosti",
+        "quote": "osvojuje si specifika hodnoticích kritérií uplatňovaných při realizaci praktických činností, užívá hodnoticí škály, symboly, zohledňuje kvalitativní kritéria, variabilitu činností a uplatnění technické tvořivosti"
+      },
+      {
+        "level": "Na cestě",
+        "point": "pro konkrétní modelovou situaci vybírá relevantní hodnoticí kritéria z nabídky",
+        "quote": "pro konkrétní modelovou situaci vybírá relevantní hodnoticí kritéria z nabídky"
+      },
+      {
+        "level": "Splněno",
+        "point": "Navrhuje hodnoticí kritéria výsledku činnosti relevantní pro danou modelovou situaci.",
+        "quote": "Navrhuje hodnoticí kritéria výsledku činnosti relevantní pro danou modelovou situaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne možná kritéria pro tvůj výrobek a vysvětlí, k čemu se hodí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hodnoticí tabulky a rubriky ukážou, jaká kritéria se běžně používají."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Kritéria vybíráš a nastavuješ podle svého výrobku ty, aplikace je nenavrhne."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová hodnoticí škála s hvězdičkami nebo body ti pomůže hodnotit podle stejného měřítka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1a3660c2-011c-4e96-9b1d-529afc305428"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "posouzeni-vyrobku-funkcnost-uspora",
+    "title": "Posouzení výrobku: funkčnost, vzhled a úspora materiálu",
+    "aliases": [
+      "jak posoudit výrobek",
+      "funkčnost výrobku",
+      "estetika výrobku",
+      "úspora materiálu",
+      "hodnocení hotového výrobku"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Zhodnotí výsledný produkt s ohledem na funkčnost, estetiku a úsporu materiálu.",
+        "quote": "Zhodnotí výsledný produkt s ohledem na funkčnost, estetiku a úsporu materiálu."
+      },
+      {
+        "level": "Na začátku",
+        "point": "řízeně aplikuje kritéria do hodnocení průběhu a výsledků praktických činností",
+        "quote": "řízeně aplikuje kritéria do hodnocení průběhu a výsledků praktických činností"
+      },
+      {
+        "level": "Na cestě",
+        "point": "řízenou reflexí posuzuje samostatně nebo ve spolupráci se spolužáky proces výroby i výsledný produkt",
+        "quote": "řízenou reflexí posuzuje samostatně nebo ve spolupráci se spolužáky proces výroby i výsledný produkt"
+      },
+      {
+        "level": "Splněno",
+        "point": "Posoudí vlastnosti výsledného produktu na základě vhodných kritérií, zhodnotí možné inovace při volbě materiálu nebo postupu práce.",
+        "quote": "Posoudí vlastnosti výsledného produktu na základě vhodných kritérií, zhodnotí možné inovace při volbě materiálu nebo postupu práce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Plechový brouk",
+        "url": "https://uloziste.rvp.cz/material/bcc08e"
+      },
+      {
+        "title": "Řehtačka",
+        "url": "https://uloziste.rvp.cz/material/d6dace"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou kritéria a ptá se, co na výrobku funguje a co ne."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové hodnocení tvého výrobku na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Výrobek posuzuješ očima a rukama ty, aplikace ho neuvidí ani nevyzkouší."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítkem, váhou a zkouškou zátěže ověříš, jestli výrobek drží a kolik materiálu spotřeboval."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1a3660c2-011c-4e96-9b1d-529afc305428"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tradicni-a-nove-postupy-prace-hodnoceni",
+    "title": "Tradiční a nové postupy práce",
+    "aliases": [
+      "tradiční postupy",
+      "nové postupy",
+      "inovace ve výrobě",
+      "stará a nová technika",
+      "porovnání postupů"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě praktické zkušenosti uvede konkrétní příklady tradičních a inovativních postupů práce a zhodnotí je z různých hledisek.",
+        "quote": "Na základě praktické zkušenosti uvede konkrétní příklady tradičních a inovativních postupů práce a zhodnotí je z různých hledisek."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Řehtačka",
+        "url": "https://uloziste.rvp.cz/material/d6dace"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se věc dělala dřív a jak dnes, a pomůže srovnat výhody."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a muzejní stránky ukážou tradiční řemeslné postupy i novinky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Postupy srovnáváš podle vlastní zkušenosti z práce ty, aplikace k tomu nemá nic."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zkoušíš oba postupy vlastníma rukama, nástroj za tebe srovnání neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/41daf4d3-33b8-4199-b814-e54964d277b6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reflexe-postupu-prace-napravy",
+    "title": "Rozbor vlastní práce: klady, chyby a opravy",
+    "aliases": [
+      "sebehodnocení",
+      "co se mi povedlo",
+      "silné a slabé stránky",
+      "jak to napravit",
+      "chyby ve výrobku"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "v návaznosti na vlastní praktickou činnost rozvíjí sebehodnocení, poznává své silné a slabé stránky",
+        "quote": "v návaznosti na vlastní praktickou činnost rozvíjí sebehodnocení, poznává své silné a slabé stránky"
+      },
+      {
+        "level": "Na cestě",
+        "point": "na základě polořízené reflexe posuzuje a zdůvodňuje přípravu, průběh a výsledky praktických činností",
+        "quote": "na základě polořízené reflexe posuzuje a zdůvodňuje přípravu, průběh a výsledky praktických činností"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reflektuje a prezentuje průběh a výsledky činnosti, identifikuje klady a nedostatky a navrhuje kroky k jejich nápravě.",
+        "quote": "Reflektuje a prezentuje průběh a výsledky činnosti, identifikuje klady a nedostatky a navrhuje kroky k jejich nápravě."
+      },
+      {
+        "level": "Na cestě",
+        "point": "řízeně reflektuje vlastní praktickou činnost za účelem identifikace silných a slabých stránek",
+        "quote": "řízeně reflektuje vlastní praktickou činnost za účelem identifikace silných a slabých stránek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co šlo dobře a co ne, a navrhne, jak chybu příště opravit."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvůj postup práce na internetu popsaný není."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rozebrat vlastní práci musíš ty, aplikace u ní nebyla."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Deník nebo fotky z práce ti připomenou, co přesně se stalo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1a3660c2-011c-4e96-9b1d-529afc305428"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hodnotici-vyroky-nezranujici-tvar",
+    "title": "Hodnoticí věty bez zraňování",
+    "aliases": [
+      "jak říct kritiku",
+      "slušná zpětná vazba",
+      "hodnocení spolužáka",
+      "popisný jazyk",
+      "jak pochválit"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "řízeně nebo samostatně formuluje hodnoticí výroky popisným jazykem a užívá nezraňující komunikaci",
+        "quote": "řízeně nebo samostatně formuluje hodnoticí výroky popisným jazykem a užívá nezraňující komunikaci"
+      },
+      {
+        "level": "Splněno",
+        "point": "Formuluje hodnoticí výroky popisným jazykem a užívá odbornou terminologii a nezraňující komunikaci.",
+        "quote": "Formuluje hodnoticí výroky popisným jazykem a užívá odbornou terminologii a nezraňující komunikaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Přepíše ostrou větu na popisnou a vysvětlí, proč to zní líp."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky o zpětné vazbě ukážou vzorové věty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Říct to spolužákovi musíš ty, aplikace za tebe nemluví."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "U mluvení se spolužákem nemá žádný nástroj co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prezentace-prace-digitalne-vyrobek",
+    "title": "Prezentace výrobku a postupu digitálně",
+    "aliases": [
+      "prezentace projektu",
+      "fotky z výroby",
+      "představit svůj výrobek",
+      "powerpoint",
+      "video z práce"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "řízeně reflektuje a prezentuje průběh a výsledky své práce i s využitím digitálních technologií",
+        "quote": "řízeně reflektuje a prezentuje průběh a výsledky své práce i s využitím digitálních technologií"
+      },
+      {
+        "level": "Splněno",
+        "point": "Řízeně reflektuje a prezentuje průběh a výsledky své práce i s využitím digitálních technologií.",
+        "quote": "Řízeně reflektuje a prezentuje průběh a výsledky své práce i s využitím digitálních technologií."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže poskládat osnovu prezentace a procvičit, co řekneš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukážou, jak vložit fotky a text do snímků."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prezentační program a foťák složí fotky z práce do snímků."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tě při digitální prezentaci nevyzastoupí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

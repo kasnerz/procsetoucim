@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "doplneni-slov-druhy-cizi-jazyk",
+    "title": "Doplnění slov a frází do vět",
+    "aliases": [
+      "doplň slova",
+      "chybějící slova",
+      "doplňovačka",
+      "cvičení s mezerami",
+      "doplň písmena"
+    ],
+    "outcome": "JJK-DCJ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Doplní obrázkem informaci ve větě.",
+        "quote": "Doplní obrázkem informaci ve větě."
+      },
+      {
+        "level": "Na začátku",
+        "point": "- doplní chybějící písmena nebo slova do jednotlivých vět",
+        "quote": "doplní chybějící písmena nebo slova do jednotlivých vět"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- doplní chybějící výrazy a fráze do jednotlivých vět",
+        "quote": "doplní chybějící výrazy a fráze do jednotlivých vět"
+      },
+      {
+        "level": "Splněno",
+        "point": "Doplní do textu nebo dialogu chybějící slova nebo slovní spojení nebo dokončí větu podle smyslu.",
+        "quote": "Doplní do textu nebo dialogu chybějící slova"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce se slovní zásobou Nj, Fj",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí cvičné věty s mezerami a po tvém pokusu vysvětlí, kde je chyba."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníky a jazykové příručky ukážou správný tvar slova."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovíčkové a jazykové aplikace nabízejí cvičení s mezerami a hned řeknou výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník v papíře ti pomůže ověřit pravopis a význam slova."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vzkaz-seznam-druhy-cizi-jazyk",
+    "title": "Vzkaz, seznam a krátké sdělení",
+    "aliases": [
+      "nákupní seznam",
+      "vzkaz",
+      "krátká zpráva",
+      "sms",
+      "napsat zprávu kamarádovi"
+    ],
+    "outcome": "JJK-DCJ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- napíše velmi krátký text, například nákupní seznam nebo jednoduchý vzkaz",
+        "quote": "napíše velmi krátký text, například nákupní seznam nebo jednoduchý vzkaz"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- napíše krátké sdělení",
+        "quote": "napíše krátké sdělení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s krátkými texty Nj, Fj",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Řekne ti, jak se dané slovo píše, a opraví chyby v tvém vzkazu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníky ukážou slovo, které ti chybí, třeba na nákupní seznam."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a kontrola pravopisu najdou slovo a upozorní na chybu v tvém vzkazu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník v papíře ti pomůže najít slovo, které potřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kratky-text-osvojena-temata-druhy-jazyk",
+    "title": "Krátký text na osvojené téma",
+    "aliases": [
+      "napsat text",
+      "krátký text",
+      "slohová práce v cizím jazyce",
+      "popis",
+      "psaní"
+    ],
+    "outcome": "JJK-DCJ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Napíše krátký text na základě osvojených témat, kde použije jednoduché věty a slovní spojení.",
+        "quote": "Napíše krátký text na základě osvojených témat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Slavná rodina – digitální album",
+        "url": "https://uloziste.rvp.cz/material/e12f3d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Přečte tvůj text, najde chyby a vysvětlí je, napsat ho musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky a ukázkové texty ukážou, jak se podobné věty tvoří."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu a překladač ti pomůžou ověřit slova a tvary ve tvém textu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník v papíře ti pomůže vybrat vhodné slovo do věty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/c2f70431-2cc5-4552-bcb7-6564512c15bd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

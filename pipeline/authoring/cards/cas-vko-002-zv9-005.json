@@ -1,0 +1,309 @@
+{
+  "outcome": "CAS-VKO-002-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vlada-typy-zrizeni-demokracie-monarchie",
+      "title": "Demokracie, autokracie, monarchie a republika",
+      "aliases": [
+        "typy státního zřízení",
+        "demokracie a autokracie",
+        "co je monarchie",
+        "republika"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje typy státních zřízení, jako jsou demokracie, autokracie, monarchie a republika"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi typy zřízení na příkladech a zeptá se tě, jestli ho chápeš."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Rozdíly mezi zřízeními se musíš pochopit z textu a příkladů, ne z aplikace."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie mají přehledy zřízení s mapami a příklady."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zřízení si neověříš tužkou ani pravítkem, jde o pojmy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+        "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vlada-staty-sousedi-kdo-rozhoduje",
+      "title": "Země kolem nás a kdo v nich vládne",
+      "aliases": [
+        "kdo vládne v zemích",
+        "sousední státy",
+        "prezident a král",
+        "jak se vládne v sousedních zemích"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvede příklady zemí a kdo v nich vládne/rozhoduje"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "přiřadí k nejvýznamnějším a sousedním státům typ vládnutí a vysvětlí, v čem se vládnutí v těchto zemích liší"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje, kdo vládne v dané zemi, a nachystá ti otázky na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapové a kvízové aplikace procvičují státy a jejich vlády."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a encyklopedie ukážou hlavu státu a způsob vlády každé země."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Politická mapa nebo atlas ukáže sousední státy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+        "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+      ],
+      "inspiration": [
+        "Kdo tu vládne?",
+        "Čtyři státy – čtyři příběhy"
+      ]
+    },
+    {
+      "slug": "vlada-principy-demokracie-autokracie",
+      "title": "Principy demokracie a autokracie",
+      "aliases": [
+        "jak funguje demokracie",
+        "autokracie a diktatura",
+        "znaky demokracie",
+        "porovnání demokracie a autokracie"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí hlavní principy demokratické a autokratické formy vlády a na konkrétních příkladech porovná jejich znaky"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na konkrétních případech vysvětlí, co je to demokratická a autokratická forma vlády a jak se projevuje."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše základní prvky demokratické a autokratické formy vlády."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná znaky obou vlád na příkladech a zkontroluje, jak je vysvětlíš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace nezná tvoje srovnání, to si skládáš ty z příkladů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a články popisují volby, soudy a svobodu tisku v různých zemích."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Srovnání vlád se nedá změřit ani vyzkoušet nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+        "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+      ],
+      "inspiration": [
+        "Autokracie a demokracie v ukázkách",
+        "Demokracie v Číně"
+      ]
+    },
+    {
+      "slug": "vlada-zakladni-prava-svobody-listina",
+      "title": "Základní práva a svobody a kde jsou zapsané",
+      "aliases": [
+        "lidská práva",
+        "listina základních práv",
+        "svoboda slova",
+        "příklady lidských práv"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vysvětlí pojmy lidská práva a svobody"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí, co to jsou základní práva a svobody, uvede jejich příklady a to, v jakých dokumentech jsou ukotvené"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí práva na příkladech ze života a zkusí tě z nich vyzkoušet."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Práva musíš umět vysvětlit vlastními slovy, aplikace to neumí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Text Listiny základních práv a svobod si přečteš na stránkách státu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Práva nejde změřit ani vyzkoušet, tištěná Listina je jen text."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vlada-dopady-na-zivot-obcanu",
+      "title": "Dopady vlády na práva a život lidí",
+      "aliases": [
+        "jak vláda ovlivňuje život",
+        "lidská práva v diktatuře",
+        "život v demokracii a v autokracii",
+        "debata o vládě"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na konkrétních příkladech vysvětlí, jaké jsou dopady na lidská práva v různých typech vlády."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje o dopadech demokratické a autokratické formy vlády na život občanů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovná vliv demokratické a autokratické vlády na život občana."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše život lidí v různých zemích a zeptá se tě, co by ti vadilo nebo se ti líbilo."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Diskutuješ s lidmi kolem sebe, aplikace nemá co nabídnout."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Zpravodajství a zprávy organizací pro lidská práva ukážou, jak se žije v různých zemích."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Diskusi vedeš hlasem ty, nástroj ti nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/646d871b-4503-4dc8-a076-06d7085e4cde",
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37"
+      ],
+      "inspiration": [
+        "Čtyři státy – čtyři příběhy",
+        "Vytvoř lapbook!"
+      ]
+    },
+    {
+      "slug": "vlada-prednosti-uskali-pribehy",
+      "title": "Přednosti a úskalí vlády na příbězích lidí",
+      "aliases": [
+        "výhody a nevýhody demokracie",
+        "lidské příběhy",
+        "hodnocení státních zřízení",
+        "co je na demokracii špatné"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na příkladech lidských příběhů identifikuje přednosti a úskalí demokracie"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na příkladech vybraných států kriticky zhodnotí výhody a nevýhody jednotlivých státních zřízení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vypráví příběhy lidí z různých zemí a ptá se tě na výhody a nevýhody."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Úsudek o výhodách a nevýhodách si děláš ty, aplikace ho neudělá."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Články, dokumenty a svědectví ukazují skutečné příběhy z různých států."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Hodnocení států se nedá změřit žádným nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+        "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+      ],
+      "inspiration": [
+        "Čtyři státy – čtyři příběhy"
+      ]
+    }
+  ],
+  "aside": []
+}

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Násobit a dělit desetinnými čísly potřebuješ, kdykoli počítáš cenu za kilo nebo plochu pokoje v metrech. Kalkulačka to spočítá rychleji, písemný výpočet ti ale ukáže, kam patří desetinná čárka a proč násobení desetinou výsledek zmenší. S tímhle pochopením odhalíš, když se v kalkulačce nebo tabulce čárka posune o místo a z deseti korun je sto. Lidé, kteří odhadují výrobní náklady nebo analyzují data, nechávají počítat software, ale řádový odhad musí mít v hlavě. S desetinnými čísly počítá v práci zhruba 24 % lidí, kteří v Česku pracují.",
+  "learnWithAi": [
+    {
+      "title": "Násobení a dělení s čárkou",
+      "text": "Požádej chatbota o pět příkladů na násobení a dělení desetinných čísel. Spočítej je písemně, ověř kalkulačkou a u chyb si nech ukázat, kde ujela čárka."
+    },
+    {
+      "title": "Hledání chybného kroku",
+      "text": "Popiš chatbotovi krok po kroku svůj postup u příkladu, který ti nevyšel. Ať ti řekne, ve kterém kroku je chyba, opravu ale udělej ty."
+    },
+    {
+      "title": "Přepočet receptu pro jiný počet lidí",
+      "text": "Nech chatbota vymyslet úlohu z kuchyně, třeba přepočet receptu pro jiný počet lidí. Vyřeš ji a výsledek si přepočítej kalkulačkou, protože chatbot se v delším počítání může splést."
+    }
+  ]
+}

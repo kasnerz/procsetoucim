@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Podle polohy na mapě, nadmořské výšky a blízkosti moře se dá odhadnout, kde bude v daném měsíci tepleji, ještě než otevřeš předpověď. Hodí se to při plánování dovolené a lidé v cestovních kancelářích to dělají denně, když klientům radí, kam jet v listopadu za sluncem a kdy bývá na horách sníh. Předpověď a klimatické tabulky ti dají přesná čísla rychleji. Vlastní odhad ti ale řekne, jestli číslo v tabulce dává smysl, a pomůže pochopit, proč se do některých míst jezdí jen v určité části roku.",
+  "learnWithAi": [
+    {
+      "title": "Souboj dvou měst",
+      "text": "Požádej chatbota o dvě města a jeden měsíc. Odhadni, kde bude tepleji, zdůvodni to a správnou odpověď si ověř v klimatické tabulce."
+    },
+    {
+      "title": "Rada pro turistu v únoru",
+      "text": "Nech chatbota hrát turistu, který chce v únoru k teplému moři v Evropě. Poraď mu, kam jet a proč, a nech ho tvé zdůvodnění zpochybňovat."
+    },
+    {
+      "title": "Sezóna v horském středisku",
+      "text": "Zeptej se chatbota, proč se do některých horských středisek jezdí v zimě i v létě a do jiných hlavně v zimě. Nejdřív napiš vlastní vysvětlení, pak ho porovnej s jeho odpovědí."
+    }
+  ]
+}

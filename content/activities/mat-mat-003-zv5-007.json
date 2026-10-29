@@ -1,0 +1,237 @@
+[
+  {
+    "slug": "ctvercova-sit-radek-sloupec",
+    "title": "Řádek, sloupec a čtvercová síť",
+    "aliases": [
+      "čtvercová síť",
+      "řádek a sloupec",
+      "souřadnice ve čtverečkách",
+      "hra lodě",
+      "vpravo vlevo na papíře"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Orientuje se v rovině, například s využitím čtvercové sítě (řádek, sloupec, vpravo, vlevo).",
+        "quote": "Orientuje se v rovině, například s využitím čtvercové sítě (řádek, sloupec, vpravo, vlevo)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Orientuje se ve čtvercové síti.",
+        "quote": "Orientuje se ve čtvercové síti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Určujeme polohu v prostoru i ve čtvercové síti",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak najít políčko podle řádku a sloupce, a zadá ti hádanky k tipování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení a ukázky čtvercové sítě s řádky a sloupci."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Hry a cvičení na čtvercové síti ti hned řeknou, jestli jsi trefil správné políčko."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Čtverečkovaný papír a tužka: políčka si ukážeš prstem a označíš je."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/68b6ef08-d823-489d-a95c-752ae6f6e6a7",
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "poloha-v-prostoru-modely-teles",
+    "title": "Vpravo, vlevo, nahoře a dole v prostoru",
+    "aliases": [
+      "vpředu a vzadu",
+      "nahoře dole",
+      "krychle a tělesa",
+      "stavby z krychlí",
+      "kde co leží"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Orientuje se v prostoru (vpravo, vlevo, nahoře, dole, vpředu, vzadu), například při práci s modely krychlí a dalších těles.",
+        "quote": "Orientuje se v prostoru (vpravo, vlevo, nahoře, dole, vpředu, vzadu), například při práci s modely krychlí a dalších těles."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Model držíš v ruce a otáčíš ty, chatbot ho před sebou nevidí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Poloha věcí před tebou se ve vyhledávači nenajde."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s krychlemi ti stavbu otočí na obrazovce a ukáže ji z několika stran."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Dřevěné krychle a tělesa si postavíš, otočíš a ukážeš, co je nahoře a vzadu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/68b6ef08-d823-489d-a95c-752ae6f6e6a7",
+      "http://data.europa.eu/esco/skill/b07daddc-8625-4360-946e-ad2b0e56ebf6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rovnobezky-ruznobezky-kolmice-polohy",
+    "title": "Rovnoběžky, různoběžky a kolmice",
+    "aliases": [
+      "rovnoběžné přímky",
+      "různoběžné přímky",
+      "kolmé přímky",
+      "poloha přímek",
+      "poloha bodů a úseček"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozliší přímky a úsečky rovnoběžné, různoběžné, kolmé.",
+        "quote": "Rozliší přímky a úsečky rovnoběžné, různoběžné, kolmé."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše vzájemnou polohu dvou či více objektů v rovině (bodů, úseček, přímek).",
+        "quote": "Popíše vzájemnou polohu dvou či více objektů v rovině (bodů, úseček, přímek)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Určujeme polohu přímek",
+        "url": ""
+      },
+      {
+        "title": "Vzájemná poloha objektů v rovině",
+        "url": "https://uloziste.rvp.cz/material/d5ee51"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi rovnoběžkami, různoběžkami a kolmicemi a zeptá se tě na příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš obrázky a definice, podle kterých poznáš, jak přímky leží."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Rýsovací aplikace ti nechá přímky posouvat a ukáže, kdy jsou kolmé nebo rovnoběžné."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Trojúhelník s ryskou a pravítko ti ověří, jestli přímky jsou kolmé nebo rovnoběžné."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vrcholy-hrany-steny-mnohostenu-sit",
+    "title": "Vrcholy, hrany a stěny mnohostěnu ve čtvercové síti",
+    "aliases": [
+      "vrcholy hrany stěny",
+      "krychle a kvádr",
+      "mnohostěn",
+      "poloha vrcholů",
+      "těleso ve čtverečkách"
+    ],
+    "outcome": "MAT-MAT-003-ZV5-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím čtvercové sítě popíše vzájemnou polohu dvou či více objektů v prostoru (vrcholů, hran, stěn mnohostěnu).",
+        "quote": "S využitím čtvercové sítě popíše vzájemnou polohu dvou či více objektů v prostoru (vrcholů, hran, stěn mnohostěnu)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Určujeme polohu v prostoru i ve čtvercové síti",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je vrchol, hrana a stěna, a zeptá se tě, jak spolu na tělese sousedí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš obrázky těles s popsanými vrcholy, hranami a stěnami."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s 3D tělesy ti je otočí a zvýrazní vrcholy, hrany a stěny."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Model tělesa a čtverečkovaný papír: vrcholy a hrany si ukážeš a zakreslíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532",
+      "http://data.europa.eu/esco/skill/68b6ef08-d823-489d-a95c-752ae6f6e6a7"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

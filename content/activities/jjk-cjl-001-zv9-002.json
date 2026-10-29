@@ -1,0 +1,367 @@
+[
+  {
+    "slug": "vyslovnost-samohlasek-souhlaskovych-skupin",
+    "title": "Výslovnost samohlásek a souhláskových skupin",
+    "aliases": [
+      "správná výslovnost",
+      "krátké a dlouhé samohlásky",
+      "souhláskové skupiny",
+      "artikulace",
+      "mluvit zřetelně"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "správně artikuluje a vyslovuje podle svých schopností slova, která si již osvojil",
+        "quote": "správně artikuluje a vyslovuje podle svých schopností slova, která si již osvojil"
+      },
+      {
+        "level": "Na začátku",
+        "point": "dbá na správnou výslovnost krátkých a dlouhých samohlásek a souhlásek",
+        "quote": "dbá na správnou výslovnost krátkých a dlouhých samohlásek a souhlásek"
+      },
+      {
+        "level": "Na cestě",
+        "point": "rozvíjí správnou výslovnost souhláskových skupin",
+        "quote": "rozvíjí správnou výslovnost souhláskových skupin"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Spisovná výslovnost",
+        "url": "https://uloziste.rvp.cz/material/48b3b9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Slova vyslovuješ ty, chatbot ti výslovnost neslyší ani neopraví."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zvukové slovníky a videa ti předvedou, jak se slovo správně řekne."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nahrávání hlasu ti dovolí poslechnout svůj hlas a porovnat to se vzorem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zrcadlo ukáže pohyb úst a nahrávka z diktafonu prozradí, co zní špatně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8e16511d-3540-47e1-8620-8f111b7ae280",
+      "http://data.europa.eu/esco/skill/946034bf-be2b-4568-b3d5-5988735e26e8"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jazykolamy-vyslovnost-cviceni",
+    "title": "Jazykolamy",
+    "aliases": [
+      "jazykolam",
+      "říkanky na výslovnost",
+      "řeknu rychle",
+      "cvičení výslovnosti"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozvíjí svoji výslovnost tzv. jazykolamů",
+        "quote": "rozvíjí svoji výslovnost tzv. jazykolamů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Spisovná výslovnost",
+        "url": "https://uloziste.rvp.cz/material/48b3b9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vymyslí nové jazykolamy na hlásky, které ti dělají potíže."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Sbírky jazykolamů najdeš hned a často i s ukázkou nahlas."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nahraješ se a slyšíš, kde se zadrháváš nebo kde slova splývají."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Jazykolam procvičíš jen tím, že ho řekneš nahlas, žádný nástroj to za tebe nezvládne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/946034bf-be2b-4568-b3d5-5988735e26e8",
+      "http://data.europa.eu/esco/skill/8e16511d-3540-47e1-8620-8f111b7ae280"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyslovnost-ve-slovniku-zjisteni",
+    "title": "Zjištění výslovnosti ve slovníku",
+    "aliases": [
+      "jak se slovo vyslovuje",
+      "výslovnostní slovník",
+      "slovník výslovnosti",
+      "kontrola výslovnosti"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zjišťuje správnou výslovnost slov ve slovníku",
+        "quote": "zjišťuje správnou výslovnost slov ve slovníku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot slovo rozepíše podle výslovnosti, ověř si to ale ve slovníku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internetová jazyková příručka a online slovníky výslovnost uvádějí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovníková aplikace slovo přehraje nahlas a ukáže přepis výslovnosti."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tištěný slovník má u slov přepis výslovnosti, a nemusíš mít internet."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c",
+      "http://data.europa.eu/esco/skill/8e16511d-3540-47e1-8620-8f111b7ae280"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nova-slova-vyznam-vyslovnost",
+    "title": "Význam a výslovnost nových slov",
+    "aliases": [
+      "nová slova",
+      "slovní zásoba",
+      "co to slovo znamená",
+      "učení nových slov"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "obohacuje svoji slovní zásobu, dbá na správnou výslovnost nově osvojených slov",
+        "quote": "obohacuje svoji slovní zásobu, dbá na správnou výslovnost nově osvojených slov"
+      },
+      {
+        "level": "Na cestě",
+        "point": "porozumí významu nově osvojených slov a ve spolupráci s vyučujícím rozvíjí svoji výslovnost (např. čtením, poslechem, vyprávěním, zpíváním)",
+        "quote": "porozumí významu nově osvojených slov"
+      },
+      {
+        "level": "Splněno",
+        "point": "U nově osvojených slov dbá na porozumění jejich významu.",
+        "quote": "U nově osvojených slov dbá na porozumění jejich významu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot slovo vysvětlí jednoduše a vymyslí věty, v nichž ho použiješ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníky a encyklopedie ukážou význam slova i příklady z textů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kartičky ve slovníčkové aplikaci ti nová slova opakují, dokud je neznáš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Výkladový slovník a vlastní sešit se slovíčky ti slova vysvětlí a udrží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyslovnost-cizich-a-mene-beznych-slov",
+    "title": "Výslovnost cizích a méně běžných slov",
+    "aliases": [
+      "cizí slova",
+      "přejatá slova",
+      "výslovnost v češtině a v angličtině",
+      "těžká slova"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozvíjí správnou artikulaci a výslovnost méně frekventovaných slov domácího i cizího původu.",
+        "quote": "Rozvíjí správnou artikulaci a výslovnost méně frekventovaných slov domácího i cizího původu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Posoudí zvukovou podobu přejatých slov (porovná výslovnost v původním jazyce a výslovnost v češtině).",
+        "quote": "Posoudí zvukovou podobu přejatých slov"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyslovuje podle svých možností česká a běžně užívaná cizí slova v souladu s jazykovou normou.",
+        "quote": "Vyslovuje podle svých možností česká a běžně užívaná cizí slova v souladu s jazykovou normou."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Spisovná výslovnost",
+        "url": "https://uloziste.rvp.cz/material/48b3b9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot rozepíše, jak se slovo čte česky a jak v původním jazyce."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Online slovníky přehrají slovo v původním jazyce i v české podobě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač slovo přečte nahlas a můžeš porovnat dvě výslovnosti."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník cizích slov uvádí původ a výslovnost, bez dalšího hledání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8e16511d-3540-47e1-8620-8f111b7ae280",
+      "http://data.europa.eu/esco/skill/960c4aae-82d5-4820-a583-c3bf2908a357"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tempo-melodie-reci-podle-situace",
+    "title": "Tempo, melodie a přízvuk řeči podle situace",
+    "aliases": [
+      "tempo řeči",
+      "větná melodie",
+      "dikce",
+      "mluvení před třídou",
+      "přízvuk"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Dbá na svoji artikulaci, dikci, tempo řeči a větnou melodii s ohledem na komunikační situaci (běžná mluva, mluvní cvičení, prezentace ve třídě, debata ad.).",
+        "quote": "Dbá na svoji artikulaci, dikci, tempo řeči a větnou melodii s ohledem na komunikační situaci"
+      },
+      {
+        "level": "Splněno",
+        "point": "Dbá na svoji artikulaci, dikci, tempo řeči a větnou melodii s ohledem na partnera v komunikaci (kamarádi, spolužáci, výchovný poradce, rodiče, prarodiče ad.).",
+        "quote": "Dbá na svoji artikulaci, dikci, tempo řeči a větnou melodii s ohledem na partnera v komunikaci"
+      },
+      {
+        "level": "Na cestě",
+        "point": "dbá na dodržování správného přízvuku",
+        "quote": "dbá na dodržování správného přízvuku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Spisovná výslovnost",
+        "url": "https://uloziste.rvp.cz/material/48b3b9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Tempo a melodii řídí tvůj hlas v rozhovoru, chatbot ti je nenastaví."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky projevů a rad pro mluvení před lidmi si můžeš poslechnout."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nahrávka ukáže, jestli mluvíš moc rychle a jestli se hlas zvedá a klesá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mluvíš ty a posluchači, stopky ani zrcadlo za tebe neladí hlas k lidem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/946034bf-be2b-4568-b3d5-5988735e26e8",
+      "http://data.europa.eu/esco/skill/04e6474d-f6fd-4e60-9191-24faae8ba0bb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

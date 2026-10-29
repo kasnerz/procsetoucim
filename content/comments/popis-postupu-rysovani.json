@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Popsat postup rýsování znamená říct po krocích, co děláš a v jakém pořadí, aby podle tebe narýsoval stejný útvar i někdo jiný. Při tom zjistíš, jestli konstrukci rozumíš, protože vynechaný krok nebo prohozené pořadí se hned ukáže. Jasný popis krok za krokem se ti hodí u dalších konstrukcí v matematice i kdykoli někomu vysvětluješ návod. Ve strojírenství a v elektronice se vyrábí podle psaných postupů, a kdo výrobky navrhuje, musí je umět sepsat. Chatbot ti postup napíše taky, ale jestli je správný, poznáš jen tehdy, když ho umíš popsat i ty.",
+  "learnWithAi": [
+    {
+      "title": "Postup s chybějícím krokem",
+      "text": "Požádejte spolu chatbota o postup konstrukce, ve kterém schválně chybí jeden krok. Najdi ho a s rodičem si to ověřte rýsováním."
+    },
+    {
+      "title": "Kontrola vlastního popisu",
+      "text": "Napiš postup, jak narýsuješ čtverec, a s rodičem ho dejte chatbotovi přečíst. Ať ti řekne, kde by se podle tvého popisu dalo splést, a opravu napiš ty."
+    },
+    {
+      "title": "Robot, který rýsuje doslova",
+      "text": "Hrajte spolu hru, ve které chatbot dělá jako robot přesně jen to, co mu řekneš. Diktuj mu postup rýsování a sleduj, kde se doptává, protože tam popis nebyl přesný."
+    }
+  ]
+}

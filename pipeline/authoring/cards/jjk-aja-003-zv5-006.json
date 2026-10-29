@@ -1,0 +1,194 @@
+{
+  "outcome": "JJK-AJA-003-ZV5-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicky-vzkaz-prani-psana-zprava",
+      "title": "Vzkaz a přání v angličtině",
+      "aliases": [
+        "vzkaz anglicky",
+        "přání anglicky",
+        "krátká zpráva",
+        "blahopřání",
+        "message"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Napíše velmi krátký vzkaz nebo přání."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Sestaví jednoduchý vzkaz s využitím známých frází."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže fráze pro přání a vzkazy a opraví chyby v tvé krátké zprávě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky a stránky s ukázkami přání ukážou hotové fráze, které si zkopíruješ do svého."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač a kontrola pravopisu ti ukážou, jak se slovo píše a kde je chyba."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový slovník ti dá slovíčka, vzkaz pak píšeš ty do sešitu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+      ],
+      "inspiration": [
+        "Přáni"
+      ]
+    },
+    {
+      "slug": "anglicky-pozvanka-psana-zprava",
+      "title": "Pozvánka v angličtině",
+      "aliases": [
+        "pozvánka anglicky",
+        "invitation",
+        "pozvání na oslavu",
+        "party invitation"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Napíše jednoduchou pozvánku."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, co do pozvánky patří (kdy, kde, kdo), a opraví tvůj text."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzorové pozvánky ti ukážou fráze, které můžeš použít."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač a kontrola pravopisu odhalí chybně napsaná slova."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník ti dá slovíčka na čas a místo, větu skládáš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+      ],
+      "inspiration": [
+        "Pozvánka"
+      ]
+    },
+    {
+      "slug": "anglicky-cteni-dopisu-odpoved-zprava",
+      "title": "Porozumění dopisu nebo e-mailu v angličtině",
+      "aliases": [
+        "číst e-mail anglicky",
+        "porozumět dopisu",
+        "odpověď na email",
+        "reading a letter"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porozumí textu písemné korespondence."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí slova a věty, kterým nerozumíš, a ověří, jestli dopisu rozumíš správně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky a příklady e-mailů ukážou, co jednotlivá slova znamenají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač ukáže význam neznámých slov, čtení dopisu zůstává na tobě."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník ti pomůže najít význam neznámých slov v dopisu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a"
+      ],
+      "inspiration": [
+        "Odpověď na email"
+      ]
+    },
+    {
+      "slug": "anglicky-kratky-dopis-pohlednice-zprava",
+      "title": "Krátký dopis a pohlednice v angličtině",
+      "aliases": [
+        "dopis anglicky",
+        "pohlednice",
+        "postcard",
+        "odpověď na e-mail",
+        "psaní více vět"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vytvoří krátký text, který obsahuje více než jednu větu, například vzkaz nebo jednoduchý dopis s odpovídající strukturou."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže stavbu dopisu (oslovení, text, pozdrav) a opraví tvé věty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzorové dopisy a pohlednice ukážou, jak se začíná a končí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu a překladač ukážou chyby ve tvém textu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník dá slovíčka, věty a stavbu dopisu skládáš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+      ],
+      "inspiration": [
+        "Holiday postcard exchange",
+        "Class blog comments"
+      ]
+    }
+  ],
+  "aside": []
+}

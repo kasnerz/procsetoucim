@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Smlouvu na brigádu, nájemní smlouvu nebo podmínky aplikace podepisuješ ty a odpovídáš za to, co v nich stojí. Právní texty mají vlastní jazyk s dlouhými větami a odkazy na jiné paragrafy, a kdo se s ním poprvé potká až v dospělosti, snadno přehlédne podstatnou podmínku. Chatbot ti těžkou větu převede do jednodušších slov, ale jestli to udělal přesně, poznáš jen tehdy, když umíš přečíst originál. Každý den s takovými texty pracuje, kdo radí v právních věcech nebo rozhoduje spory u soudu, a také lidé na personálních odděleních a v inspekcích bezpečnosti práce.",
+  "learnWithAi": [
+    {
+      "title": "Neznámá slova z Ústavy",
+      "text": "Vypiš si z ukázky Ústavy slova, kterým nerozumíš, a zkus nejdřív odhadnout jejich význam z věty. Chatbot ti potom tvé odhady potvrdí nebo opraví."
+    },
+    {
+      "title": "Článek Listiny vlastními slovy",
+      "text": "Přečti si jeden článek Listiny a přepiš ho jednoduchými slovy. Chatbotovi dej originál i svou verzi, ať ti řekne, kde se význam posunul."
+    },
+    {
+      "title": "Podmínky oblíbené aplikace",
+      "text": "Zkopíruj chatbotovi kus podmínek aplikace, kterou používáš, a nech si od něj dát otázky k textu. Odpovědi hledej přímo v podmínkách, ne v jeho shrnutí."
+    }
+  ]
+}

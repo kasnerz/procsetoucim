@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dvě mapy stejného místa z různých let ukážou, co se změnilo, třeba kde zmizel rybník nebo kam se rozrostlo město. Těžší je druhá část: každou mapu někdo kreslil k nějakému účelu, třeba pro vojsko nebo pro výběr daní, a podle toho na ní něco chybí a něco je zdůrazněné. Hodí se to, když chceš vědět, co stálo na místě vašeho domu dřív, a v archeologii nebo ochraně přírody je to běžná práce. Aplikace s posuvníkem ti rozdíly ukáže, ale k čemu která mapa sloužila, musíš posoudit ty.",
+  "learnWithAi": [
+    {
+      "title": "Seznam možných rozdílů",
+      "text": "Řekni chatbotovi, které místo a které roky porovnáváš, a nech si napsat, v čem se mapy mohou lišit. Na mapách zjisti, co z toho opravdu platí a co chatbot jen odhadl."
+    },
+    {
+      "title": "Tabulka změn krajiny",
+      "text": "Sestav si tabulku, kde řádky jsou lesy, cesty a vesnice a sloupce obě mapy. Vyplň ji a nech chatbota posoudit, jestli z tvých zápisů plynou rozumné závěry o změnách."
+    },
+    {
+      "title": "Kdo mapu kreslil a proč",
+      "text": "Popiš chatbotovi, co na staré mapě je a co na ní chybí. Ať ti klade otázky, které tě dovedou k tomu, komu mapa sloužila, závěr ale vyslov ty."
+    }
+  ]
+}

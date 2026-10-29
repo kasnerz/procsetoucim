@@ -1,0 +1,381 @@
+{
+  "outcome": "CSP-OSV-001-ZV5-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vsimani-si-pocitu",
+      "title": "Všímání si svých pocitů a jejich síly",
+      "aliases": [
+        "pocity",
+        "emoce",
+        "jak se cítím",
+        "vztek a radost",
+        "deník pocitů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rozvíjí všímavost k projevům svého prožívání"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Všímá si svého prožívání a jeho změn."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Poznává projevy emocí dle jejich intenzity."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše různé projevy svého prožívání a jeho změn"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na příkladech ze školního i mimoškolního prostředí ilustruje různé projevy a intenzitu základních emocí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pojmenuje a popíše emoce, co cítíš, ale poznat musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popisy emocí a jejich stupňů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Deník nálad ti pomůže zapsat pocity a sledovat změny."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pocity si nikdo nezměří, všímáš si jich ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "projevy-stresu",
+      "title": "Projevy stresu v těle, myšlenkách a emocích",
+      "aliases": [
+        "stres",
+        "jak poznám stres",
+        "bolí mě břicho z nervů",
+        "trému",
+        "napětí"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Zkouší si poznat projevy stresu u sebe sama"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše nejčastější projevy stresu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše projevy stresu u sebe a u druhých osob."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje typické projevy stresu, poznat je u sebe musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o zdraví popisují nejčastější projevy stresu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Tep změří, ale stres z něj nepozná."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Projevy stresu zjistíš všímáním si sebe a druhých."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d15f8745-28f8-4abf-a7b6-6cb8a304efd2",
+        "http://data.europa.eu/esco/skill/fbdfc3bf-56a0-4454-a17d-2f513fe57b53"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "stresujici-situace",
+      "title": "Situace, které stresují ve škole i doma",
+      "aliases": [
+        "co mě stresuje",
+        "test a známky",
+        "hádka doma",
+        "nervozita před vystoupením",
+        "náročné situace"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "V modelových situacích poznává různost náročných situací"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Na příkladech poznává činnosti a situace, které mu působí stres"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše nejčastější situace, které u něj mohou vyvolávat stres"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Diskutuje o pro něj potenciálně stresujících situacích ve škole i mimo školu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne příklady stresujících situací, svoje si vybereš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příběhy a rady, co děti nejčastěji stresuje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nepozná, co tě stresuje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozhovor o stresu vedeš s lidmi, ne s nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d15f8745-28f8-4abf-a7b6-6cb8a304efd2",
+        "http://data.europa.eu/esco/skill/fbdfc3bf-56a0-4454-a17d-2f513fe57b53"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "techniky-uklidneni",
+      "title": "Pohyb, dech a uvolnění při stresu",
+      "aliases": [
+        "dechové cvičení",
+        "jak se uklidnit",
+        "svalové uvolnění",
+        "protažení",
+        "antistresová pomůcka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "senzomotorické - využívající pohyb a smysly"
+        },
+        {
+          "level": "Splněno",
+          "quote": "například pohybové aktivity, dechová cvičení, svalové uvolnění, využívání seberegulačních pomůcek"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše cvičení krok za krokem, uvolnit se musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody a videa na dechová cvičení najdeš online."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace odpočítává nádech a výdech a vede cvičení."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Antistresový míček nebo přesýpací hodiny cvičení usnadní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d15f8745-28f8-4abf-a7b6-6cb8a304efd2",
+        "http://data.europa.eu/esco/skill/fbdfc3bf-56a0-4454-a17d-2f513fe57b53"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "sdileni-a-vnitrni-dialog",
+      "title": "Sdílení a vnitřní dialog při stresu",
+      "aliases": [
+        "říct to kamarádovi",
+        "povzbudit se",
+        "pozitivní myšlení",
+        "mluvení se sebou",
+        "podpora od druhých"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vztahové - sdílení, získání emocionální podpory druhého, kognitivní - pozitivní vnitřní dialog a regulace myšlením"
+        },
+        {
+          "level": "Splněno",
+          "quote": "sdílení, vnitřní dialog"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak si větu v hlavě přeformulovat."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Podporu dostaneš od člověka, ne z webu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti s důvěrným rozhovorem nepomůže."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Podporu dostaneš od člověka, ne od nástroje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d15f8745-28f8-4abf-a7b6-6cb8a304efd2",
+        "http://data.europa.eu/esco/skill/fbdfc3bf-56a0-4454-a17d-2f513fe57b53"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "strategie-proti-stresu",
+      "title": "Plán, jak stresu předejít a zvládnout ho",
+      "aliases": [
+        "jak předejít stresu",
+        "plán na těžký den",
+        "řešení náročné situace",
+        "strategie"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "postupy, které mu mohou pomoci"
+        },
+        {
+          "level": "Splněno",
+          "quote": "V modelové situaci navrhne vhodné strategie pro předcházení stresu, řešení náročných situací."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Na zadanou situaci navrhne několik postupů, vybereš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš rady, které postupy lidem pomáhají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti plán na míru nesestaví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Plán vymýšlíš v hlavě, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8460be3-f4ba-44a0-a961-0389069a3614",
+        "http://data.europa.eu/esco/skill/49e1eb78-e6b1-4116-8e9f-f23316ee503e"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pozadani-o-pomoc",
+      "title": "Komu říct o pomoc",
+      "aliases": [
+        "kdy požádat o pomoc",
+        "linka bezpečí",
+        "komu se svěřit",
+        "pomoc od dospělého",
+        "pomoc od kamaráda"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Poznává zdroje pomoci v různých náročných situacích"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Navrhne vhodné zdroje pomoci ve vybraných životních situacích"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje, kam se obrátit, a nacvičí s tebou, jak to říct."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš kontakty linek a organizací, kam se obrátit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace a chaty pro děti ti pomoc zprostředkují."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Říct si o pomoc musíš ty, nástroj to nezvládne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e",
+        "http://data.europa.eu/esco/skill/49e1eb78-e6b1-4116-8e9f-f23316ee503e"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Všímá si svého prožívání",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

@@ -1,0 +1,18 @@
+---
+// How much an occupation uses a card's skill: four pencil marks and a word. The score (0-4) is a model estimate
+// (pipeline/relevance.py), shown only as its rounded level; the precise value is used for sorting.
+import { USE_LEVELS, useLevel } from "../lib/data";
+interface Props { value: number; class?: string }
+const { value, class: cls } = Astro.props;
+const level = useLevel(value);
+---
+<span class:list={["use", cls]}>
+  <span class="marks" aria-hidden="true">{[1, 2, 3, 4].map((i) => <i class:list={["sketch-box", { on: i <= level }]}></i>)}</span>
+  <span class="word">{USE_LEVELS[level]}</span>
+</span>
+<style>
+  .use { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--ink-soft); }
+  .marks { display: inline-flex; gap: 2px; }
+  .marks i { width: 10px; height: 10px; display: block; }
+  .marks i.on { background: repeating-linear-gradient(-50deg, var(--purple) 0 1.6px, transparent 1.6px 4.6px); }
+</style>

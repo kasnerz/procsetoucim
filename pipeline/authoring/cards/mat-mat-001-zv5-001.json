@@ -1,0 +1,519 @@
+{
+  "outcome": "MAT-MAT-001-ZV5-001",
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pocitani-predmetu",
+      "title": "Kolik jich je: počítání předmětů a zápis počtu",
+      "aliases": [
+        "počítání předmětů",
+        "kolik jich je",
+        "zápis počtu",
+        "čárky a tečky"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Určí počet objektů a reprezentuje ho různými (ekvivalentními) způsoby (objekty, obrázky, znaky, čísly)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Předměty počítáš prstem a očima, chatbot je za tebe nespočítá."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Počet předmětů před sebou ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Počítací hry s obrázky procvičují počítání i zápis počtu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Počítadlo, kostky nebo kamínky ti ukážou počet, který můžeš vzít do ruky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "ciselne-rady",
+      "title": "Číselná řada a číselná osa",
+      "aliases": [
+        "počítání dopředu a dozadu",
+        "číselná řada",
+        "po dvou",
+        "po deseti",
+        "stovková tabulka",
+        "číselná osa"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyjmenuje vzestupnou i sestupnou číselnou řadu (po jedné, po dvou…, po deseti…)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Orientuje se ve struktuře čísel (např. na číselné ose, ve stovkové tabulce)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí řady k doplnění a zkontroluje tvoje odpovědi."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Číselnou řadu si musíš umět vytvořit, ne vyhledat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Počítací hry a aplikace s tím pomáhají menším dětem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko nebo metr ukazuje číselnou osu, po které můžeš jít prstem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Číselné řady"
+      ]
+    },
+    {
+      "slug": "cteni-a-zapis-cisel",
+      "title": "Čtení a zápis čísel",
+      "aliases": [
+        "zápis čísel",
+        "jednotky desítky stovky tisíce",
+        "desítková soustava",
+        "číslice"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Čte a zapisuje přirozená čísla v desítkové soustavě."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Používá s porozuměním pozice číslic v zápisu čísla v desítkové soustavě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymýšlí čísla slovy i číslicemi na procvičení, ty je převádíš."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Čtení čísel se nehledá, čteš je ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Hlasový asistent číslo přečte nahlas, takže si ověříš své čtení."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka číslo nepřečte, jen ho zobrazí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "mala-nasobilka",
+      "title": "Malá násobilka",
+      "aliases": [
+        "násobilka",
+        "násobení do sta",
+        "7 krát 8",
+        "dělení v oboru násobilky"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "násobí a dělí v oboru malé násobilky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymýšlí příklady na procvičení a kontroluje tvé výsledky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulka násobilky a procvičovací hry na webu ti pomůžou se ji naučit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Procvičovací aplikace dávají příklady a hned ukážou, jestli sedí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačkou zkontroluješ výsledek, který ti vyšel v hlavě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": [
+        "Pamětné počítání"
+      ]
+    },
+    {
+      "slug": "pocitani-zpameti",
+      "title": "Sčítání a odčítání zpaměti",
+      "aliases": [
+        "počítání z hlavy",
+        "pamětné počítání",
+        "sčítání do tisíce",
+        "odčítání"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "sčítá a odčítá do tisíce"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Sčítá, odčítá, násobí a dělí v oboru přirozených čísel do 10 000 pamětně i písemně."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dává příklady na procvičení a poradí triky, jak počítat rychleji."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Počítání zpaměti se nehledá, děláš ho v hlavě."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Procvičovací aplikace dávají příklady a měří, jak rychle odpovíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačkou zkontroluješ výsledek, který ti vyšel v hlavě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Pamětné počítání"
+      ]
+    },
+    {
+      "slug": "pisemne-scitani-a-odcitani",
+      "title": "Písemné sčítání a odčítání",
+      "aliases": [
+        "sčítání pod sebou",
+        "odčítání pod sebou",
+        "písemné počítání"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sčítá, odčítá, násobí a dělí v oboru přirozených čísel do 10 000 pamětně i písemně."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí postup pod sebou po krocích a zkontroluje tvůj výpočet."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Postup pod sebou nehledáš, píšeš ho na papír."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s fotkou příkladu ukáže postup, takže najdeš krok, kde se liší."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačkou zkontroluješ výsledek, který vyšel na papíře."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pisemne-nasobeni",
+      "title": "Písemné násobení",
+      "aliases": [
+        "násobení pod sebou",
+        "násobení víceciferných čísel"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sčítá, odčítá, násobí a dělí v oboru přirozených čísel do 10 000 pamětně i písemně."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí postup krok za krokem a zkontroluje tvůj výpočet."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Postup násobení pod sebou nehledáš, píšeš ho na papír."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s fotkou příkladu ukáže postup, takže najdeš krok, kde se liší."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačkou zkontroluješ výsledek, který vyšel na papíře."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Slovní úlohy z reálného světa"
+      ]
+    },
+    {
+      "slug": "pisemne-deleni",
+      "title": "Písemné dělení",
+      "aliases": [
+        "dělení pod sebou",
+        "dělení se zbytkem",
+        "dlouhé dělení"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sčítá, odčítá, násobí a dělí v oboru přirozených čísel do 10 000 pamětně i písemně."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí postup dělení po krocích a zkontroluje tvůj výpočet."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Postup dělení nehledáš, píšeš ho na papír."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s fotkou příkladu ukáže postup, takže najdeš krok, kde se liší."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ukáže zbytek nebo desetinné číslo, takže zkontroluješ výsledek."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "odhad-a-zaokrouhlovani",
+      "title": "Odhad výsledku a zaokrouhlování",
+      "aliases": [
+        "zaokrouhlování",
+        "odhad",
+        "přibližně",
+        "zhruba kolik"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Odhaduje počet objektů i výsledek početních operací."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zaokrouhluje přirozená čísla."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí úlohy na odhad a zkontroluje, jak blízko je tvůj odhad."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Odhad se nehledá, ten děláš v hlavě."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Bankovní a nákupní aplikace sčítají, odhad si porovnáš s přesným součtem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačkou zkontroluješ, jak blízko je tvůj odhad."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+      ],
+      "inspiration": [
+        "Milion?",
+        "Stromy"
+      ]
+    },
+    {
+      "slug": "slovni-ulohy-volba-operace",
+      "title": "Slovní úlohy: kdy sčítat a kdy násobit",
+      "aliases": [
+        "slovní úlohy",
+        "slovní úloha",
+        "antisignál",
+        "zbytečné údaje v úloze",
+        "číslo jako počet"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozpozná reálné situace (i s antisignálem), ve kterých se sčítá, odčítá, násobí a dělí."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozlišuje číslo jako počet a číslo jako veličinu (např. v oblasti peněz)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Řeší slovní úlohy, kde čísla jsou v různých rolích"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší různé typy slovních úloh (např. s antisignálem, s nadbytečnými číselnými údaji)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se ve slovní úloze sčítá nebo násobí, u složitých ale chybuje."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoji konkrétní situaci na internetu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s fotkou úlohy ukáže postup, ověř si ho."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka neví, jestli má sčítat, nebo násobit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": [
+        "Slovní úlohy z reálného světa"
+      ]
+    },
+    {
+      "slug": "prednost-operaci",
+      "title": "Příklady se závorkami a přednost operací",
+      "aliases": [
+        "přednost operací",
+        "závorky",
+        "násobení má přednost"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Provádí výpočty s více operacemi, závorkami, respektuje přednost operací a využívá jejich vlastnosti (např. komutativita, asociativita)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Spočítá příklad s vysvětlením a zkontroluje, kde se pořadí liší od správného."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Pravidlo pořadí operací je jednoduché, hledat ho nemusíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s fotkou příkladu ukáže pořadí kroků, ty si ho ověříš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vědecká kalkulačka přednost dodržuje, obyčejná počítá popořadě, což si můžeš ověřit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

@@ -1,0 +1,170 @@
+{
+  "outcome": "CAP-FYZ-001-ZV9-002",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Přečte čas na digitálních i analogových hodinách.",
+      "cards": [
+        "fyz-hodiny-a-kalendar"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Orientuje se v kalendáři a s jeho pomocí řeší reálné problémy s časovými údaji.",
+      "cards": [
+        "fyz-hodiny-a-kalendar"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Odhadne a změří hmotnost, objem a délku předmětu nebo vzdálenost mezi dvěma předměty vhodnými typy měřidel.",
+      "cards": [
+        "fyz-odhad-a-mereni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Měření porovná se svým odhadem.",
+      "cards": [
+        "fyz-odhad-a-mereni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Měří teplotu v několika následujících dnech nebo hodinách během jednoho dne, zjištěné hodnoty zaznamenává.",
+      "cards": [
+        "fyz-mereni-teploty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vytvoří z naměřených dat graf závislosti teploty na čase.",
+      "cards": [
+        "fyz-graf-teploty-v-case"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Slovně vyjádří průběh teploty ve sledovaném období s využitím vlastního záznamu.",
+      "cards": [
+        "fyz-cteni-z-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s různými měřidly délky, hmotnosti, objemu a jejich vlastnostmi.",
+      "cards": [
+        "fyz-volba-meridla"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se se značkami fyzikálních veličin délka, hmotnost, objem; seznámí se s jejich jednotkami vhodnými pro různé situace a jejich vzájemnými převody.",
+      "cards": [
+        "fyz-znacky-jednotky-prevody"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyzkouší různé způsoby přiložení délkového měřidla a různý způsob odečítání na odměrném válci nebo kuchyňské odměrce a uvědomí si, jak předcházet chybnému odečtu.",
+      "cards": [
+        "fyz-nejistota-a-chyba-odecteni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Změří různými měřidly daný časový interval a diskutuje různost výsledků ve skupině.",
+      "cards": [
+        "fyz-mereni-casoveho-intervalu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vybere vhodný typ grafu pro záznam a zobrazení výsledků fyzikální ho měření.",
+      "cards": [
+        "fyz-graf-teploty-v-case"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Z připraveného grafu přečte základní informace (minimum, maximum, hodnotu v daném čase, popíše průběh grafu).",
+      "cards": [
+        "fyz-cteni-z-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Převede čas na desetinné vyjádření (např. 30 minut převede na 0,5 h).",
+      "cards": [
+        "fyz-cas-na-desetinne-cislo"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Odhadne a následně změří vhodným měřidlem délku a hmotnost vybraného předmětu, objem nádoby.",
+      "cards": [
+        "fyz-mereni-delky-hmotnosti-objemu",
+        "fyz-odhad-a-mereni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zdůvodní volbu měřidla vhodného pro dané měření. Výsledek měření zapíše se správnou jednotkou.",
+      "cards": [
+        "fyz-volba-meridla",
+        "fyz-znacky-jednotky-prevody"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede, že různé způsoby přiložení délkového měřidla a různý způsob odečítání na odměrném válci nebo kuchyňské odměrce mohou vést k odlišnému výsledku, a zdůvodní, co je nevyhnutelná nejistota měření a co je zjevná chyba při odečítání.",
+      "cards": [
+        "fyz-nejistota-a-chyba-odecteni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Změří průběh teploty v závislosti na čase, závislost znázorní graficky, pomocí svého grafu odpovídá na otázky týkající se dosažení konkrétních hodnot či průběhu.",
+      "cards": [
+        "fyz-graf-teploty-v-case",
+        "fyz-cteni-z-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhne, jakým způsobem je možné zmenšit nejistotu měření (např. opakované měření a výpočet aritmetického průměru, přesnější měřidlo, měření více předmětů a vydělení počtem – listy v knize, šroubky apod.), a svůj návrh provede.",
+      "cards": [
+        "fyz-zmenseni-nejistoty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Změří vhodnými měřidly délku, objem a hmotnost tělesa, teplotu a časový interval.",
+      "cards": [
+        "fyz-mereni-delky-hmotnosti-objemu",
+        "fyz-mereni-teploty"
+      ],
+      "aside": null
+    }
+  ]
+}

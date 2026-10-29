@@ -1,0 +1,380 @@
+{
+  "outcome": "CAP-FYZ-002-ZV9-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "sila-druhy-sil-kolem-nas",
+      "title": "Síla a její druhy v běžném životě",
+      "aliases": [
+        "síla",
+        "druhy sil",
+        "co je síla",
+        "tah a tlak",
+        "gravitace"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Uvede příklady použití slova síla v běžném životě."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Jmenuje některé druhy"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Uvede příklady působení sil a jejich účinků."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí rozdíl mezi silou ve fyzice a v řeči a dá ti další příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové stránky ukazují druhy sil a jejich účinky na obrázcích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Simulace sil ti ukáže, co se stane, když táhneš nebo tlačíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Příklady sil si hledáš ve svém okolí ty, nástroj je za tebe nenajde."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669"
+      ],
+      "inspiration": [
+        "Síly a změny pohybu"
+      ]
+    },
+    {
+      "slug": "sila-merene-silomerem-newton",
+      "title": "Měření síly siloměrem",
+      "aliases": [
+        "siloměr",
+        "newton",
+        "jednotka síly",
+        "značka síly",
+        "měření síly"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se se silou jako fyzikální veličinou"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pomocí analogového nebo digitálního siloměru změří"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co znamená newton a jak se čte stupnice siloměru."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výukové stránky ukazují značku F, jednotku N a postup měření."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace sílu nezměří, siloměr držíš a čteš z něj ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Siloměr ukáže velikost tvé tažné síly i tíhy zavěšeného tělesa."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303"
+      ],
+      "inspiration": [
+        "Výroba siloměru"
+      ]
+    },
+    {
+      "slug": "teziste-zavesena-telesa-olovnice",
+      "title": "Těžiště těles",
+      "aliases": [
+        "těžiště",
+        "olovnice",
+        "kde je těžiště",
+        "těžiště trojúhelníku",
+        "batoh a postoj"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Uvede, co ví o těžišti trojúhelníka z matematiky."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Pozoruje různá zavěšená nebo podepřená tělesa"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Nalezne polohu těžiště vybraných plochých těles"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč těleso visí v rovnováze, a pomůže ti vysvětlit změnu postoje s batohem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výukové stránky ukazují, jak těžiště hledat zavěšením."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace těžiště hrnku nebo tašky nenajde, zavěšuješ je ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Olovnice a provázek ti na zavěšeném tělese ukážou svislici a těžiště."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2daed3cc-2246-421f-beef-b7ed8eb8b4d5",
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669"
+      ]
+    },
+    {
+      "slug": "sily-zmeny-pohybu-newtonovy-zakony",
+      "title": "Síly a změny pohybu",
+      "aliases": [
+        "Newtonovy zákony",
+        "setrvačnost",
+        "proč se těleso pohybuje",
+        "kop do míče",
+        "brzdění"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše souvislost charakteru pohybu s působícími silami."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zformuluje své představy o souvislostech síly a pohybu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Na základě svých zkušeností a pokusů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Předpoví a vysvětlí, jak se změní pohyb"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot porovná tvou formulaci s Newtonovými zákony a ukáže, kde se liší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové stránky popisují Newtonovy zákony s příklady z praxe."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Simulace pohybu ti ukáže, jak se těleso rozjíždí a brzdí při různých silách."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vozíček, míček a nakloněná rovina ti ukážou účinek sil na vlastní oči."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669"
+      ],
+      "inspiration": [
+        "Síly a změny pohybu"
+      ]
+    },
+    {
+      "slug": "narazove-zkousky-doba-deformace",
+      "title": "Bezpečnost v dopravě a doba deformace",
+      "aliases": [
+        "nárazové zkoušky",
+        "crash test",
+        "airbag",
+        "bezpečnostní pás",
+        "zóna deformace"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Jmenuje, jaké zná bezpečnostní prvky"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Najde a podívá se na videa z nárazových zkoušek aut."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí souvislost doby deformace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč delší deformace snižuje sílu nárazu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa z nárazových zkoušek najdeš na internetu a uvidíš, jak se auto mačká."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace vysvětlení za tebe nevymyslí, pomáhá jen s přehráním videa."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj tu nepomůže, nárazy aut se u stolu nezkoušejí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/7566f0b4-7f6e-455c-abb5-ec58e57f7e17"
+      ],
+      "inspiration": [
+        "Bezpečnostní prvky - brainstorming"
+      ]
+    },
+    {
+      "slug": "zachrana-krehkeho-telesa-vajicko",
+      "title": "Záchrana křehkého tělesa při pádu",
+      "aliases": [
+        "pád vajíčka",
+        "jak zachránit vajíčko",
+        "experiment s pádem",
+        "obal na vajíčko",
+        "pokus"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vymýšlí experimenty, jak omezit zničení křehkého tělesa"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot s tebou probere, proč pomáhá měkký obal, a poradí, jak pokus férově porovnat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na internetu najdeš nápady na obaly a popisy podobných pokusů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace pokus za tebe neprovede, obal vyrábíš a pouštíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, molitan a váha ti umožní obaly vyrobit a vyzkoušet pád doopravdy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+      ],
+      "inspiration": [
+        "Jak zachránit vajíčko?"
+      ]
+    },
+    {
+      "slug": "treni-uzitecne-a-nezadouci",
+      "title": "Tření v běžném životě",
+      "aliases": [
+        "tření",
+        "třecí síla",
+        "kluzké a drsné",
+        "proč smykem",
+        "brzdění a tření"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zamýšlí se nad pozitivy a negativy tření v běžném životě."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady z běžného života, kdy je tření užitečné"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, kdy tření brzdí a kdy drží, a dá ti další příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výukové stránky ukazují tření na příkladech z dopravy a sportu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tebou o tření nic nezkusí, třecí sílu cítíš rukama."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Siloměr a různé podložky ti ukážou, jak se mění třecí síla."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669"
+      ],
+      "inspiration": [
+        "Tření je všude kolem nás"
+      ]
+    }
+  ],
+  "aside": []
+}

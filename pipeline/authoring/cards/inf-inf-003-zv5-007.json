@@ -1,0 +1,294 @@
+{
+  "outcome": "INF-INF-003-ZV5-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tabulka-sloupce-radky-zapis-dat",
+      "title": "Sloupce a řádky tabulky",
+      "aliases": [
+        "tabulka",
+        "sloupec a řádek",
+        "řádky a sloupce",
+        "jak číst tabulku"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše v tabulce sloupce a řádky."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Orientuje se v základní struktuře tabulky (sloupce a řádky) nebo seznamu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co je sloupec a řádek, a vymyslí tabulky na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš obrázky tabulek s popisem sloupců a řádků."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor ti ukáže sloupce a řádky s písmeny a čísly."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tabulku z papíru si prstem projdeš po sloupcích a řádcích."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61"
+      ],
+      "inspiration": [
+        "Tabulka s ovocem"
+      ]
+    },
+    {
+      "slug": "zapis-dat-do-tabulky-seznamu-sbirka",
+      "title": "Zápis dat do tabulky nebo seznamu",
+      "aliases": [
+        "vyplnit tabulku",
+        "zapsat do seznamu",
+        "číselná a nečíselná data",
+        "zápis údajů"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Zaznamenává do existující tabulky číselná i nečíselná data problému, který opakovaně řešil."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zapisuje číselná i nečíselná data do předpřipravených jednoduchých struktur (např. tabulka, seznam)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zaznamená a uspořádá různé typy dat v tabulce nebo seznamu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Údaje o tvé sbírce znáš ty, chatbot je do tvé tabulky nezapíše."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoje měření a tvoje údaje ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor ti hlídá, do které buňky co patří, a čísla spočítá."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Na vytištěnou tabulku zapíšeš údaje tužkou a hned vidíš, kam patří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c"
+      ],
+      "inspiration": [
+        "Moje malá sbírka",
+        "Tabulka s ovocem"
+      ]
+    },
+    {
+      "slug": "urceni-potrebnych-dat-zadani-ulohy",
+      "title": "Jaká data jsou potřeba",
+      "aliases": [
+        "co mám zapsat",
+        "rozbor zadání",
+        "důležitá data",
+        "které údaje potřebuju"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Analyzuje zadání, určí potřebná data a rozpozná, jaká data jsou důležitá."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznamuje se zadáním úlohy, určí, jaká data jsou potřeba zaznamenat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě na zadání a ukáže, jaké údaje z něj půjdou zapsat."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Které údaje potřebuje právě tvá úloha, ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace neví, co zadání po tobě chce, to čteš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Zadání si podtrhneš tužkou a vypíšeš, co v něm je potřeba zjistit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61",
+        "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "trideni-dat-kategorie-sloupce",
+      "title": "Třídění dat podle kategorií",
+      "aliases": [
+        "třídění",
+        "seřadit data",
+        "kategorie",
+        "shodné a odlišné vlastnosti"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Třídí data v tabulce nebo seznamu podle zadaných kategorií."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Třídí data podle různých kategorií (shodných a odlišných vlastností)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí sadu věcí k roztřídění a zkontroluje, jak jsi je rozdělil(a)."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvé věci a kategorie ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor seřadí řádky podle zvoleného sloupce, ty si zkontroluješ svůj postup."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky nebo předměty si rozložíš do kategorií rukama a vidíš, co k sobě patří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "proc-trideni-usnadnuje-praci-s-daty",
+      "title": "Proč třídění usnadňuje práci s daty",
+      "aliases": [
+        "k čemu je třídění",
+        "výhoda třídění",
+        "najít údaj v tabulce",
+        "seřazená data"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, jak třídění usnadňuje práci s daty."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá ti příklady, kdy seřazená data šetří čas, a ty je vlastními slovy vysvětlíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady seřazených seznamů, třeba slovník nebo jízdní řád."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "V tabulce si vyzkoušíš, jak rychle najdeš údaj před a po seřazení."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Abecedně seřazený papírový slovník ti ukáže, jak rychle se v něm hledá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "seznam-nebo-tabulka-kdy-ktera-struktura",
+      "title": "Kdy použít seznam a kdy tabulku",
+      "aliases": [
+        "seznam nebo tabulka",
+        "druhy seznamů",
+        "příklady tabulek",
+        "nákupní seznam"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady, kde je vhodné použít různé typy struktur, seznam, tabulka."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne situace pro seznam a pro tabulku a ty vybereš, co kam patří."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš běžné seznamy a tabulky, třeba rozvrh, žebříček nebo ceník."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nerozhodne, jakou strukturu potřebuje tvá úloha."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír ani tužka nevybírají, rozhoduješ ty podle dat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61",
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be"
+      ],
+      "inspiration": [
+        "Hudební nástroje"
+      ]
+    }
+  ],
+  "aside": []
+}

@@ -1,0 +1,28 @@
+# raw data (large or restricted)
+data/
+*.zip
+# Cedefop terms: never commit the dataset or anything copied from it raw
+**/cedefop*.xlsx
+# build
+node_modules/
+site/dist/
+site/.astro/
+.venv/
+__pycache__/
+*.pyc
+# impeccable local state
+.impeccable/config.local.json
+.impeccable/live/
+.impeccable/review/
+pipeline/y/
+# local Claude Code settings and third-party skills
+.claude/
+# API keys
+pipeline/.openrouter-key
+.env
+# Cedefop forecast figures per ISCO group (built by pipeline/build_labour.py; the terms forbid redistributing the dataset)
+content/labour/
+# third-party report, local reference only
+docs/barometr-obav-z-ai-2026.txt
+# project notes for Claude Code, local only
+CLAUDE.md

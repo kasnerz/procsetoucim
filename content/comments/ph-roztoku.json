@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Jestli je roztok kyselý, nebo zásaditý, ukáže barva indikátorového papírku během pár vteřin. Hodnota pH ti řekne, jestli čistič zvládne vodní kámen nebo jestli půda na zahradě sedí borůvkám. V práci se pH měří hlavně v laboratořích: kdo hlídá kvalitu pitné vody, potravin nebo nápojů, měří ho denně a přesným přístrojem. Číslo ti ukáže papírek nebo pH metr, co z něj plyne pro použití látky, ale musíš vyhodnotit ty.",
+  "learnWithAi": [
+    {
+      "title": "Stupnice pH z domácích věcí",
+      "text": "Požádej chatbota, ať ti vysvětlí stupnici pH na věcech, které máš doma. Potom ji nakresli a látky na ni rozmísti zpaměti."
+    },
+    {
+      "title": "Odhad pH před měřením",
+      "text": "Před pokusem si napiš, jaké pH čekáš u octa, mýdlové vody a minerálky. Po měření se zeptej chatbota, proč se tvůj odhad od výsledku lišil."
+    },
+    {
+      "title": "Vlastní závěr z naměřených hodnot",
+      "text": "Nejdřív napiš vlastní závěr, k čemu se která změřená látka hodí, a teprve potom pošli chatbotovi své hodnoty. Porovnej jeho úvahu se svou."
+    }
+  ]
+}

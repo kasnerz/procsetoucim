@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Model z molekul ukazuje, proč voda vůbec koluje: v ledu drží molekuly těsně u sebe, v kapalině jsou blízko, ale kloužou kolem sebe, a v páře létají daleko od sebe. Když pochopíš, co se při výparu a kondenzaci děje s jednotlivými molekulami, přestane být koloběh jen šipkami na obrázku. Stejná představa vysvětlí i sušení prádla nebo zamlžené zrcadlo v koupelně. Hotovou animaci najdeš snadno, ale teprve když děj popíšeš vlastními slovy nebo postavíš model z kuliček, poznáš, jestli mu rozumíš. Mimo školu ho do hloubky potřebuje jen málo lidí, třeba ti, kdo sledují vodu v řekách a v krajině.",
+  "learnWithAi": [
+    {
+      "title": "Molekuly v hrnci s vodou",
+      "text": "Požádej chatbota o krátký popis, co se děje s molekulami, když vodu v hrnci vaříš a pak zvedneš pokličku. Najdi v jeho textu místo, které ti nedává smysl, a doptej se."
+    },
+    {
+      "title": "Hádanka se skupenstvím",
+      "text": "Popiš chatbotovi, jak jsou molekuly uspořádané a jak se hýbou, a nech ho hádat, které skupenství myslíš. Když netrefí, uprav popis tak, aby byl přesnější."
+    },
+    {
+      "title": "Otázky k modelu z kuliček",
+      "text": "Postav model z kuliček nebo plastelíny a popiš chatbotovi, co ukazuje. Ať se tě zeptá, co model neukazuje dobře, a zkus ho podle toho vylepšit."
+    }
+  ]
+}

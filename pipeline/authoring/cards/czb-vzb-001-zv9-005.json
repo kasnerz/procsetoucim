@@ -1,0 +1,520 @@
+{
+  "outcome": "CZB-VZB-001-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "drobne-nebo-vazne-zraneni",
+      "title": "Drobné a závažné zranění",
+      "aliases": [
+        "jak poznat vážné zranění",
+        "kdy volat pomoc",
+        "drobné zranění",
+        "úraz"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozliší drobné poranění či poranění menšího rozsahu od závažnějšího poranění život ohrožujícího stavu vyžadujícího okamžitou pomoc dospělého nebo záchranné služby"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozpozná zjevný rozsah poranění (na obrázku, modelu)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná v modelových situacích zjevný rozsah poranění osob, rozliší drobná poranění od závažných akutních stavů vyžadujících okamžitou pomoc."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Na vymyšlených případech ti vysvětlí, co je vážné a co ne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zásady od zdravotníků si přečteš a prohlédneš obrázky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace první pomoci ukáže příklady a řekne, kdy volat záchranku."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zranění posuzuješ očima ty, žádný nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+        "http://data.europa.eu/esco/skill/b6d7afec-bee3-46e8-8651-c6b1f38d435d"
+      ],
+      "inspiration": [
+        "Úraz není náhoda",
+        "První pomoc"
+      ]
+    },
+    {
+      "slug": "priznaky-nahlych-stavu",
+      "title": "Příznaky náhlých zdravotních potíží",
+      "aliases": [
+        "mrtvice",
+        "infarkt",
+        "alergický šok",
+        "astmatický záchvat",
+        "epilepsie",
+        "cukrovka hypo"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje typické příznaky závažných akutních poruch zdraví, které vyžadují okamžitou pomoc (CMP, IM, masivní krvácení, náhlá příhoda břišní, epilepsie, alergická reakce a anafylaktický šok, astmatický záchvat, diabetické hypo či heper stavy, psychické ataky)"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyhledává informace a diskutuje akutních poruch zdraví"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Příznaky vysvětlí jednoduše a ptá se tě, co z nich poznáš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příznaky mrtvice nebo záchvatu najdeš u zdravotníků."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace první pomoci ukazuje příznaky a může tě z nich zkoušet."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tištěný plakát nebo příručka ukazuje příznaky přehledně."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f7464f30-662b-4177-85a0-3df9693e9e58",
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "volani-zachranne-sluzby",
+      "title": "Volání záchranné služby",
+      "aliases": [
+        "tísňová linka",
+        "155",
+        "112",
+        "volání záchranky",
+        "telefonát operátorovi"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "předvede správný způsob volání na záchrannou službu a komunikaci s operátorem"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "předvádí správný způsob volání na záchrannou službu a komunikaci s operátorem"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Předvede správný způsob volání na záchrannou službu a komunikaci s operátorem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nanečisto si s ním zahraješ hovor, kde on je operátor."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Čísla linek a pokyny pro volající ověříš online."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace záchranky pošle operátorovi tvou polohu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Telefon tě spojí s operátorem, odpovídat musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e",
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6"
+      ],
+      "inspiration": [
+        "Jsme připraveni a pomůžeme"
+      ]
+    },
+    {
+      "slug": "bezpecnost-na-miste-urazu",
+      "title": "Bezpečnost na místě úrazu",
+      "aliases": [
+        "rukavice a vesta",
+        "než pomůžeš",
+        "uklidnit zraněného",
+        "riziko pro záchranáře"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zhodnotí situaci z hlediska bezpečnosti, zraněné uklidní a eliminuje možná rizika vlastního ohrožení (gumové rukavice, výstražná vesta atd.)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou situace a zeptá se, co je kolem nebezpečné."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zásady bezpečného zásahu si přečteš předem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace místo nezhodnotí a zraněného neuklidní."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Rukavice a výstražná vesta tě ochrání před krví a provozem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+        "http://data.europa.eu/esco/skill/b6d7afec-bee3-46e8-8651-c6b1f38d435d"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "osetreni-drobneho-poraneni",
+      "title": "Ošetření drobného poranění",
+      "aliases": [
+        "obvaz",
+        "krvácení z rány",
+        "náplast",
+        "ošetření rány",
+        "ochrana před krví"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "předvede v modelové situaci správný postup ošetření drobného poranění, při ošetření krvácejícího poranění se chrání před možnou nákazou přenášenou krví"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "demonstruje ošetření méně závažného poranění a náhle vzniklých poruch zdraví"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "využívá ochranné pomůcky při ošetřování krvácejícího poranění před možnou nákazou krví"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše postup po krocích a ptá se, co uděláš dál."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Postup s obrázky najdeš u zdravotníků."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace první pomoci tě provede ošetřením krok za krokem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Obvaz, náplast a rukavice potřebuješ, přiložíš je rukama ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+        "http://data.europa.eu/esco/skill/f7464f30-662b-4177-85a0-3df9693e9e58"
+      ],
+      "inspiration": [
+        "Ochrana před úrazy a první pomoc (popáleniny)"
+      ]
+    },
+    {
+      "slug": "osetreni-zavaznejsich-uraz",
+      "title": "Ošetření závažnějších úrazů",
+      "aliases": [
+        "zlomenina",
+        "tepenné krvácení",
+        "bezvědomí",
+        "bezdeší",
+        "dlaha"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "používá základní způsoby ošetření závažnějších úrazů (zlomeniny, tepenné krvácení, bezdeší, bezvědomí atd.)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Předvede v modelové situaci bezpečné ošetření poranění a základní způsoby ošetření závažnějších úrazů a náhle vzniklých poruch zdraví."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí postup u zlomeniny nebo krvácení a zkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Postupy a obrázky najdeš online, nacvičit je musíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace první pomoci tě vede krok za krokem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Obvazy a improvizovaná dlaha pomáhají, pracuješ s nimi ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+        "http://data.europa.eu/esco/skill/f7464f30-662b-4177-85a0-3df9693e9e58"
+      ],
+      "inspiration": [
+        "Poskytování první pomoci v modelových situacích"
+      ]
+    },
+    {
+      "slug": "resuscitace",
+      "title": "Resuscitace",
+      "aliases": [
+        "oživování",
+        "masáž srdce",
+        "umělé dýchání",
+        "AED",
+        "defibrilátor"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popisuje zásady resuscitace v život ohrožujících situacích a na modelu předvede základní postupy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše zásady resuscitace v situacích ohrožujících život a na modelu předvede základní úkony."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zásady vysvětlí a otestuje tě, masáž srdce nezastoupí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Postup resuscitace si prohlédneš ve videu od záchranářů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace udává rytmus stlačování hrudníku."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Cvičná figurína je pro nácvik nutná."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bd49d04-ab2f-4333-b5d9-12d716e4e2f6",
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "postup-prvni-pomoci",
+      "title": "Výběr postupu a pomůcek při první pomoci",
+      "aliases": [
+        "co dělat při úrazu",
+        "lékárnička",
+        "pomůcky první pomoci",
+        "rozhodnutí o postupu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozhodne o postupu při poskytování první pomoci"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vybere vhodné pomůcky, které je třeba použít při ošetření zraněných a správně s nimi manipuluje"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozhodne v modelových situacích o postupu při poskytování první pomoci a vybere vhodné pomůcky, které je třeba použít při ošetření zraněných."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá ti modelové situace a ptá se, co uděláš a čím."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam pomůcek a postupy si přečteš předem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace první pomoci radí s postupem, rozhodnout musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Správné pomůcky musíš mít po ruce a umět s nimi zacházet."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+        "http://data.europa.eu/esco/skill/f7464f30-662b-4177-85a0-3df9693e9e58"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "misto-pomucek-a-aed",
+      "title": "Kde jsou lékárnička a AED",
+      "aliases": [
+        "umístění lékárničky",
+        "defibrilátor na mapě",
+        "kde je AED"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "identifikuje místo uložení pomůcek pro ošetření zranění, či náhlé poruchy zdraví (ve škole, doma, ve veřejných institucích a prostorech, vč. umístění AED)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Lékárničku ve vaší škole nezná, najdeš ji při procházce."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapy veřejných defibrilátorů ukážou nejbližší AED."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace záchranky ukáže nejbližší defibrilátor na mapě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Lékárničku ve škole najdeš jen ty při procházce."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "psychicka-prvni-pomoc",
+      "title": "Psychická první pomoc",
+      "aliases": [
+        "panická ataka",
+        "jak pomoci kamarádovi",
+        "kdy zavolat dospělého",
+        "krizová linka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozpozná potřebu akutní psychické první pomoci (např. panická ataka), popíše, jak kontaktovat odpovědnou osobu či přivolat odbornou pomoc"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná potřebu akutní psychické první pomoci, kontaktuje odpovědnou osobu či přivolá odbornou pomoc."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí příznaky panické ataky a koho kontaktovat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Kontakty na krizové linky a příznaky najdeš online."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepozná, že kamarád potřebuje pomoc."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný obyčejný nástroj kamaráda nepozná ani neuklidní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/748780fa-b879-4a5b-80ca-7d018e6e1e6f",
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na cestě",
+      "start": "s využitím nácviku v modelových situacích získává",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Uplatňuje základní dovednosti v modelových situacích",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

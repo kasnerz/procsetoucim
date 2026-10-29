@@ -1,0 +1,507 @@
+{
+  "outcome": "UAK-VFV-001-ZV9-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "filmvyp-namet-pribehu",
+      "title": "Námět krátkého filmu",
+      "aliases": [
+        "nápad na film",
+        "námět",
+        "o čem bude film",
+        "hraný nebo dokumentární film"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Navrhne námět krátkého filmového či audiovizuálního útvaru (dokumentárního filmu, animované situace, hrané scénky, experimentální audiovizuální práce se světelnými či barevnými efekty apod.)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti k nápadu položí otázky a navrhne varianty, vybereš si ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky krátkých filmů a gagů ti ukážou, jak se dá příběh postavit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Námět tvoříš ty, aplikace ti nápad nevymyslí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka na sepsání a třídění nápadů."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef",
+        "http://data.europa.eu/esco/skill/97db841c-31bf-4aa0-85b9-0ddd0a77b7a5"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-scenar-a-casovy-plan",
+      "title": "Scénář, nákresy a časový plán natáčení",
+      "aliases": [
+        "scénář",
+        "storyboard",
+        "fotoscénář",
+        "plán natáčení",
+        "nákres scén"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Připraví podklady k realizaci krátkého audiovizuálního útvaru (nákresy, stručný scénář, fotoscénář, předmět, který bude animován apod.) a promyslí časový plán projektu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak scénář vypadá, a prohlédne ti rozpis scén."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky scénářů a storyboardů ti ukážou, jak se zapisují scény."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na storyboard nebo kalendář pomůže scény seřadit a rozplánovat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, tužka a lepicí lístky ti pomohou scény nakreslit a přeskládat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/97db841c-31bf-4aa0-85b9-0ddd0a77b7a5",
+        "http://data.europa.eu/esco/skill/e07a0fbf-7ffe-47d0-9636-e25cbb5fd475"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-role-v-tymu",
+      "title": "Role v natáčecím týmu",
+      "aliases": [
+        "role ve štábu",
+        "kameraman, střihač, herec",
+        "kdo co dělá při natáčení",
+        "práce v týmu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Uvědomí si nebo přijme svou roli v realizačním týmu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co dělá režie, kamera nebo střih, a pomůže role rozdělit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Popisy filmových profesí ti ukážou, co která role obnáší."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Roli v týmu ti žádná aplikace nepřidělí, domluvíte se spolu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Role ve štábu se domlouvají mezi lidmi, papír je jen zapíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b1719a15-5aa0-4e9a-90b8-c036b192b6f0",
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-prezentace-zameru",
+      "title": "Představení filmového záměru a zpětná vazba",
+      "aliases": [
+        "představení nápadu",
+        "zpětná vazba",
+        "prezentace filmu",
+        "pitch"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Prezentuje tvůrčí záměr, konkrétní tvůrčí postupy, kroky a použité základní vyjadřovací prostředky pedagogovi a spolužákům."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zapracuje zpětnou vazbu k prezentaci záměru."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se zeptá na nejasná místa a ukáže, co v záměru nedává smysl."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Záměr svého filmu ve vyhledávači nenajdeš, představuješ ho ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na prezentace ti pomůže záměr přehledně ukázat."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Záměr představuješ ty, nástroj za tebe nemluví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/617a9d25-d30f-40fe-b172-2ce1fbf2d8b1",
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-natoceni-strih-ozvuceni",
+      "title": "Natáčení, střih a ozvučení",
+      "aliases": [
+        "natáčení filmu",
+        "střih videa",
+        "ozvučení",
+        "dokončení filmu",
+        "kamera"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sám nebo ve skupině realizuje audiovizuální útvar (natáčení, střih, ozvučení)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Dokončí audiovizuální dílo do výsledné podoby krátkého filmu nebo jiného audiovizuálního díla."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot poradí s nastavením záběru a s tím, jak spojit scény."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody a ukázky ti ukážou záběry, střih i práci se zvukem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na střih videa a zvuk ti složí záběry do hotového filmu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Telefon nebo kamera a stativ ti pomohou natočit stabilní záběr."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef",
+        "http://data.europa.eu/esco/skill/bc8b2c74-cce5-497e-85c2-51d3ede632ad"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-jednoducha-animace-ve-skupine",
+      "title": "Jednoduchá animace nebo výtvarný příběh ve skupině",
+      "aliases": [
+        "animace",
+        "krátký příběh obrázky",
+        "skupinová tvorba",
+        "stop motion"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Podílí se na skupinové práci a tvorbě jednoduché animace či krátkého výtvarného příběh."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot poradí, jak příběh rozdělit na obrázky a co kdo ve skupině udělá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky animací ti ukážou, jak pohyb vzniká z po sobě jdoucích obrázků."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na animaci z fotek a kresby ti složí obrázky do pohybu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, tužky nebo plastelína dají animaci postavy a pozadí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/eee58e6d-4587-42f0-b9a0-fe055cfe2044",
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-plan-a-vysledek",
+      "title": "Rozdíl mezi plánem a hotovým filmem, omezení při natáčení",
+      "aliases": [
+        "omezení natáčení",
+        "plán a výsledek",
+        "srozumitelnost filmu",
+        "co se nepovedlo"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vnímá a chápe rozdíl mezi plánem a realizovaným výsledkem z hlediska srozumitelnosti."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše omezení a limity, které provázejí realizaci audiovizuálního záměru."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se zeptá na to, co v hotovém filmu nesedí s plánem, a pomůže to pojmenovat."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Rozdíl mezi svým plánem a svým filmem nikde nevyhledáš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace neposoudí, zda film vystihuje tvůj záměr."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Plán a film porovnáš ty, žádný nástroj to za tebe nezhodnotí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef",
+        "http://data.europa.eu/esco/skill/bc8b2c74-cce5-497e-85c2-51d3ede632ad"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-ulozeni-hotoveho-filmu",
+      "title": "Uložení filmu pro ostatní",
+      "aliases": [
+        "uložení videa",
+        "sdílené úložiště",
+        "cloud",
+        "odevzdání filmu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uloží dílo na dostupném úložišti pro sdílení ostatním."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jaké formáty a úložiště se pro video hodí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody k úložištím ukážou, jak film nahrát a nastavit přístup."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace úložiště film nahraje a pošle odkaz."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Film nikam neuložíš ani s papírem, tužkou nebo pravítkem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/40001d93-8937-4859-89d5-2dca53290ff4",
+        "http://data.europa.eu/esco/skill/bc8b2c74-cce5-497e-85c2-51d3ede632ad"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-sdileni-filmu-a-rizika",
+      "title": "Způsoby sdílení filmu a jejich rizika",
+      "aliases": [
+        "sdílení videa",
+        "rizika sdílení",
+        "autorská práva",
+        "soukromí na internetu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše možné způsoby sdílení audiovizuálního díla, včetně rizik, která toto sdílení obnáší."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, kdo uvidí veřejné a soukromé video a co se může stát."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky o bezpečném internetu popisují rizika sdílení videí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Rizika sdílení aplikace za tebe nepopíše, posuzuješ je ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rizika sdílení papír ani tužka nepopíší, přemýšlíš o nich ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/40001d93-8937-4859-89d5-2dca53290ff4",
+        "http://data.europa.eu/esco/skill/bc8b2c74-cce5-497e-85c2-51d3ede632ad"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "filmvyp-zasadni-mista-v-dile",
+      "title": "Zásadní místa v obrazu a filmu",
+      "aliases": [
+        "co je v obraze hlavní",
+        "obsah díla",
+        "analýza obrazu",
+        "co autor myslel"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Označí ve svém díle i díle jiných ta místa, která jsou pro určení obsahu díla zásadní."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se zeptá, co v díle nese sdělení, a porovná tvůj výběr s jiným čtením."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Rozbory děl ti ukážou, na co se u obrazů a filmů dívat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na kreslení nebo úpravu fotek ti pomůže místa označit."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tužka a pauzovací papír ti pomohou důležitá místa obtáhnout."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+      ],
+      "inspiration": [
+        "Obsah sdělení"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Objevil možnosti kresby, malby",
+      "code": "O1",
+      "refs": [
+        "vlastni-tvorba-kresba-malba-techniky"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vybere si cíleně prostředky, s",
+      "code": "O1",
+      "refs": [
+        "vyber-nastroju-a-materialu"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Dílo pojmenuje podle svého uvá",
+      "code": "O1",
+      "refs": [
+        "vlastni-tvorba-nazev-dila"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Na své dílo reaguje (dotváří j",
+      "code": "O1",
+      "refs": [
+        "vytvarne-obraz-se-zvukem"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vytvoří a následně kombinuje j",
+      "code": "O1",
+      "refs": [
+        "kontrast-a-poloha-tvaru"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zapojí se do společné práce a ",
+      "code": "O1",
+      "refs": [
+        "spolecna-vytvarna-prace"
+      ]
+    }
+  ]
+}

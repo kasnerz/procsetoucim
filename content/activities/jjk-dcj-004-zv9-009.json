@@ -1,0 +1,187 @@
+[
+  {
+    "slug": "hlavni-pokyny-cas-misto-mediace",
+    "title": "Hlavní pokyny z textu nebo poslechu",
+    "aliases": [
+      "kdy a kde",
+      "najít v textu čas a místo",
+      "pochopit pokyny",
+      "poslech s porozuměním",
+      "důležité informace"
+    ],
+    "outcome": "JJK-DCJ-004-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- identifikuje klíčové pokyny ve čteném nebo mluveném textu, například při poslechu nebo čtení textu zjistí hlavní pokyny týkající se časů a míst a sdělí je okolí",
+        "quote": "identifikuje klíčové pokyny ve čteném nebo mluveném textu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- představí získaná data a údaje z přečteného nebo vyslechnutého textu, například přetlumočí pokyn o čase a místě v rámci jednoduchého sdělení",
+        "quote": "představí získaná data a údaje z přečteného nebo vyslechnutého textu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Le train est en retard – que dire à mes parents?",
+        "url": "https://uloziste.rvp.cz/material/87e90b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Můžeš si s ním procvičit: dá ti krátké texty s pokyny a ty hledáš čas a místo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš nahrávky a texty s jednoduchými pokyny v cizím jazyce k procvičení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Jazyková aplikace ti pustí nahrávku a ověří, jestli rozumíš času a místu správně."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ti vysvětlí slovo, ale pokyny v textu musíš najít a vybrat ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255",
+      "http://data.europa.eu/esco/skill/54d68400-9da3-4077-a7ee-52e68b390ef6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "predani-pokynu-cas-misto-mediace",
+    "title": "Sdělení pokynů o čase a místě",
+    "aliases": [
+      "říct ostatním co a kdy",
+      "předat informaci",
+      "vzkaz",
+      "domluvit sraz",
+      "jednoduchý plán"
+    ],
+    "outcome": "JJK-DCJ-004-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- zprostředkuje jednoduché instrukce ostatním",
+        "quote": "zprostředkuje jednoduché instrukce ostatním"
+      },
+      {
+        "level": "Splněno",
+        "point": "Sdělí základní informace a pokyny s ohledem na čas a místo, vytvoří jednoduchý plán nebo přehled na základě informací z několika zdrojů.",
+        "quote": "Sdělí základní informace a pokyny s ohledem na čas a místo, vytvoří jednoduchý plán nebo přehled na základě informací z několika zdrojů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zprostředkování informace, Nj, Fj.",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Pokyny říkáš nahlas ty a podle otázek ostatních je upřesňuješ, chatbot to za tebe nezvládne."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové věty si najdeš, ale sdělit je a odpovědět na dotazy musíš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Do tabulky nebo kalendáře si z více zdrojů poskládáš přehled časů a míst."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka ti pomůžou sepsat si plán, než ho řekneš ostatním."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/81dc035c-921b-4fea-a453-94538e86097c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prevod-pokynu-mezi-jazyky-mediace",
+    "title": "Pokyny přeložené do jiného jazyka",
+    "aliases": [
+      "přeložit pokyn",
+      "tlumočení",
+      "říct česky co řekli cizinci",
+      "přeložit zadání",
+      "mediace"
+    ],
+    "outcome": "JJK-DCJ-004-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zprostředkuje pokyny a instrukce včetně případného překladu vybraných slov a frází mezi jazyky, kde pokyny musí být přizpůsobené konkrétním potřebám a kontextu.",
+        "quote": "Zprostředkuje pokyny a instrukce včetně případného překladu vybraných slov a frází mezi jazyky"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- zjednodušeně sdělí pokyny mezi dvěma různými jazyky, například přeloží a sdělí základní instrukce ze zadání ostatním",
+        "quote": "zjednodušeně sdělí pokyny mezi dvěma různými jazyky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Předání informací, Nj, Fj.",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí ti neznámé fráze a procvičí s tebou překlad krátkých pokynů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ve slovníku a jazykové příručce ověříš slova a fráze, které neznáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti ukáže, jak se slovo nebo fráze řekne, a ty zkontroluješ svůj překlad."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník ti pomůže najít slova, která v pokynu neznáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/449f0945-4943-49f9-bd98-edfdfd7c00ba"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

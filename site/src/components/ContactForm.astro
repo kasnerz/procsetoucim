@@ -1,0 +1,91 @@
+---
+// The Kontakt form: a question, an error report, a suggestion or anything else about the site, posted to the same
+// feedback service as "Připomínka ke kartě" (Feedback.astro), without a card. Fields and styles are shared (.fb-form).
+import Icon from "./Icon.astro";
+import { FEEDBACK_ENDPOINT, ROLES } from "../lib/feedback";
+
+const KINDS = [
+  { id: "question", label: "Dotaz", hint: "Chceš se na něco zeptat." },
+  { id: "error", label: "Chyba", hint: "Něco na webu nesedí nebo nefunguje." },
+  { id: "suggestion", label: "Návrh", hint: "Co by web zlepšilo." },
+  { id: "other", label: "Něco jiného", hint: "Pochvala nebo cokoli dalšího." },
+];
+---
+<noscript><p class="small soft center">Formulář potřebuje zapnutý JavaScript.</p><style>[data-contact] { display: none !important; }</style></noscript>
+<form class="fb-form contact" data-contact data-endpoint={FEEDBACK_ENDPOINT} novalidate>
+  <fieldset class="fb-kinds">
+    <legend class="fb-label">Druh zprávy</legend>
+    {KINDS.map((k, i) => (
+      <label class="fb-kind">
+        <input type="radio" name="kind" value={k.id} checked={i === 0} />
+        <span class="k-name">{k.label}</span>
+        <span class="k-hint tiny">{k.hint}</span>
+      </label>
+    ))}
+  </fieldset>
+
+  <label class="fb-field">
+    <span class="fb-label" data-text-label>Tvůj dotaz</span>
+    <textarea name="text" rows="7" maxlength="4000"></textarea>
+  </label>
+
+  <fieldset class="fb-roles">
+    <legend class="fb-label">Kdo píše <span class="soft">(nepovinné)</span></legend>
+    {ROLES.map((r) => (
+      <label class="fb-role"><input type="radio" name="role" value={r.id} /><span>{r.label}</span></label>
+    ))}
+  </fieldset>
+
+  <label class="fb-field">
+    <span class="fb-label">E-mail <span class="soft">(nepovinné)</span></span>
+    <input type="email" name="contact" maxlength="200" autocomplete="email" />
+    <span class="tiny soft">Bez něj ti nemůžeme odpovědět.</span>
+  </label>
+
+  <label class="fb-hp" aria-hidden="true">Web <input type="text" name="web" tabindex="-1" autocomplete="off" /></label>
+
+  <p class="fb-msg small" data-fb-msg role="status"></p>
+
+  <div class="fb-actions">
+    <button type="submit" class="fb-send"><Icon name="send" size="18" /><span>Odeslat</span></button>
+  </div>
+  <p class="tiny soft">Uložíme jen to, co vyplníš.</p>
+</form>
+
+<script>
+  import { sendFeedback } from "../lib/feedback";
+  const TEXT_LABEL: Record<string, string> = { question: "Tvůj dotaz", error: "Popis chyby", suggestion: "Tvůj návrh", other: "Zpráva" };
+
+  for (const form of document.querySelectorAll<HTMLFormElement>("[data-contact]")) {
+    const msg = form.querySelector<HTMLElement>("[data-fb-msg]")!;
+    const send = form.querySelector<HTMLButtonElement>(".fb-send")!;
+    const kind = () => (form.elements.namedItem("kind") as RadioNodeList).value;
+    const sync = () => { form.querySelector("[data-text-label]")!.textContent = TEXT_LABEL[kind()]; };
+    form.addEventListener("change", sync);
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = new FormData(form);
+      const body = {
+        card: "", part: "", page: location.pathname, kind: kind(),
+        text: f.get("text"), role: f.get("role") ?? "", contact: f.get("contact"), web: f.get("web"),
+      };
+      if (!String(body.text).trim()) {
+        msg.textContent = "Napiš nám pár slov.";
+        return;
+      }
+      send.disabled = true;
+      msg.textContent = "Odesílám…";
+      try {
+        await sendFeedback(form.dataset.endpoint!, body);
+        form.reset();
+        msg.textContent = "Díky, zpráva dorazila.";
+      } catch (err) {
+        msg.textContent = (err as Error).message;
+      } finally {
+        send.disabled = false;
+        sync();
+      }
+    });
+  }
+</script>

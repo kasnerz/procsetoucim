@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "V obchodě s pětistovkou v kapse zaokrouhlíš ceny na desítky, sečteš je zpaměti a víš, jestli ti peníze vystačí. Odhad hlídá i kalkulačku: když vyjde 3 000 a ty čekáš kolem 300, víš, že někde přibyla nula. Na odhadu stojí práce ve skladu, u stroje nebo s daty, a takovou práci dělá zhruba 25 % lidí, kteří v Česku pracují. Program spočítá i špatně zadaný vzorec a nikoho nevaruje, takže rychlý odhad v hlavě se hodí i tam, kde všechno počítá počítač.",
+  "learnWithAi": [
+    {
+      "title": "Zaokrouhlování na desítky a stovky",
+      "text": "Poproste s rodičem chatbota o deset čísel k zaokrouhlení na desítky a stovky. Zaokrouhli je a nechte si zkontrolovat hlavně čísla, která končí pětkou."
+    },
+    {
+      "title": "Odhad za pět vteřin",
+      "text": "Zkuste hru: chatbot zadá příklad jako 48 krát 21 a ty máš pět vteřin na odhad. Přesný výsledek pak spočítejte kalkulačkou a podívejte se, jak blízko se tvůj odhad dostal."
+    },
+    {
+      "title": "Součet na účtence",
+      "text": "Vezměte účtenku z nákupu, zakryjte celkovou částku a odhadni součet zaokrouhlením. Pak se chatbota zeptejte, jak se dá odhadovat rychleji, a porovnejte s účtenkou."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Vyhledávač najde jen to, na co se zeptáš, a když napíšeš dlouhou větu nebo nepřesné slovo, dostaneš spoustu zbytečných výsledků. Umět vybrat pár přesných slov, třeba „Karlštejn otevírací doba“, ušetří čas a často rozhodne, jestli vůbec najdeš, co hledáš. Chatbotu můžeš položit otázku celou větou, ale jeho odpověď je potřeba ověřit, a na to zase potřebuješ vyhledávač. Kdo pracuje ve výzkumu nebo v knihovně, hledá v databázích každý den a dobře zvolená slova tam rozhodují, kolik užitečných článků najde.",
+  "learnWithAi": [
+    {
+      "title": "Zadání na vyhledávání",
+      "text": "Poproste chatbota, ať vám zadá pět věcí k vyhledání, třeba kdy má otevřeno zoo. Vymyslete spolu slova do vyhledávače a zkuste, co najdou."
+    },
+    {
+      "title": "Celá věta, nebo dvě slova",
+      "text": "Napište do vyhledávače otázku celou větou a potom jen dvě tři slova. Porovnejte s rodičem výsledky a nechte si od chatbota vysvětlit, proč se můžou lišit."
+    },
+    {
+      "title": "Písnička podle kousku textu",
+      "text": "Zkuste s rodičem hledat něco těžšího, třeba písničku, ze které znáte jen kousek textu. Když se nedaří, poproste chatbota o tipy na jiná slova, hledání ale nechte na sobě."
+    }
+  ]
+}

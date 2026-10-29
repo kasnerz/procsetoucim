@@ -1,0 +1,403 @@
+[
+  {
+    "slug": "volby-obcan-prubeh-druhy",
+    "title": "Jak probíhají volby v ČR",
+    "aliases": [
+      "druhy voleb",
+      "volby do sněmovny",
+      "kdo volí koho",
+      "jak se volí",
+      "komunální a krajské volby"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "na příkladu vysvětlí, jak volby probíhají",
+        "quote": "na příkladu vysvětlí, jak volby probíhají"
+      },
+      {
+        "level": "Splněno",
+        "point": "Jednoduše popíše, jak probíhají různé volby v ČR.",
+        "quote": "Jednoduše popíše, jak probíhají různé volby v ČR."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Volební (f)akt",
+        "url": "https://uloziste.rvp.cz/material/5a4644"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí postup voleb a rozdíl mezi obecními, krajskými a prezidentskými volbami."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na webech obcí a Českého statistického úřadu najdeš pravidla a výsledky voleb."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Volební kalkulačky a aplikace s výsledky ti ukážou, jak se hlasy mění v mandáty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Postup voleb se nedá změřit ani vyzkoušet nástrojem, musíš mu rozumět ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+      "http://data.europa.eu/esco/skill/cb885129-ec40-4b9c-8064-5900dbceeb4f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volby-obcan-principy-ferovost",
+    "title": "Principy svobodných a férových voleb",
+    "aliases": [
+      "tajné hlasování",
+      "rovné volby",
+      "proč jsou volby férové",
+      "všeobecné volební právo"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí, na jakých principech jsou volby založené",
+        "quote": "vysvětlí, na jakých principech jsou volby založené"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč je hlasování tajné a rovné, a zeptá se tě na příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ústava a stránky o volbách uvádějí zásady voleb v přesném znění."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tu nic užitečného nenabízí, principy si musíš promyslet."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Principy voleb se nedají měřit ani vyzkoušet nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37",
+      "http://data.europa.eu/esco/skill/cb885129-ec40-4b9c-8064-5900dbceeb4f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volby-obcan-aktivni-pasivni-pravo",
+    "title": "Aktivní a pasivní volební právo",
+    "aliases": [
+      "právo volit",
+      "právo být zvolen",
+      "kdo smí volit",
+      "věk pro volby"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na příkladu vysvětlí rozdíl mezi aktivním a pasivním volebním právem",
+        "quote": "na příkladu vysvětlí rozdíl mezi aktivním a pasivním volebním právem"
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl na příkladech a vymyslí ti otázky na ověření."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zákony a stránky o volbách ukazují, od kolika let smíš volit a kandidovat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti v tomhle rozlišení nepomůže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozdíl mezi volit a kandidovat žádný nástroj neměří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cb885129-ec40-4b9c-8064-5900dbceeb4f",
+      "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volby-obcan-dopad-pro-lidi",
+    "title": "Dopad voleb na lidi a společnost",
+    "aliases": [
+      "k čemu jsou volby",
+      "co volby změní",
+      "výhody a nevýhody voleb",
+      "proč chodit volit"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvádí příklady dopadu voleb",
+        "quote": "uvádí příklady dopadu voleb"
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje o tom, jaké přínosy a nevýhody mají volby pro občana a pro společnost jako celek",
+        "quote": "diskutuje o tom, jaké přínosy a nevýhody mají volby pro občana a pro společnost jako celek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kdo má hlas, má moc: Učíme se rozhodovat a měnit věci kolem sebe",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Podá příklady dopadů voleb a argumenty pro obě strany, názor si tvoříš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a výsledky voleb ukazují, co se po nich změnilo."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti k diskusi o přínosech voleb nic nedají."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ s lidmi kolem sebe, žádný nástroj to nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4d39b27a-b34f-4c89-8d46-df844d42f728",
+      "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volby-obcan-analyza-kampani",
+    "title": "Volební kampaně a rozhodování voličů",
+    "aliases": [
+      "volební kampaň",
+      "volební hesla",
+      "plakáty stran",
+      "jak přesvědčují politici",
+      "rozhodování voličů"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvede příklady, jak probíhá volební kampaně a jaké nástroje jsou pro oslovení voličů využívány",
+        "quote": "uvede příklady, jak probíhá volební kampaně a jaké nástroje jsou pro oslovení voličů využívány"
+      },
+      {
+        "level": "Na cestě",
+        "point": "analyzuje alespoň dvě volební kampaně a porovná je mezi sebou",
+        "quote": "analyzuje alespoň dvě volební kampaně a porovná je mezi sebou"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zvažuje, podle čeho se ve volbách voliči rozhodují, a dokládá to na příkladech konkrétních volebních kampaní.",
+        "quote": "Zvažuje, podle čeho se ve volbách voliči rozhodují, a dokládá to na příkladech konkrétních volebních kampaní."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Volební hesla",
+        "url": "https://uloziste.rvp.cz/material/a85cc8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti rozebrat hesla a sliby kampaně, závěr si děláš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Archivy plakátů, webů stran a zpráv ti dají kampaně k porovnání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace kampaň neposoudí, porovnání děláš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a fixy se hodí na tabulku, do které kampaně vedle sebe porovnáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4bc7fcff-54a5-4ff0-8f5e-a7c2479b522c",
+      "http://data.europa.eu/esco/skill/4d39b27a-b34f-4c89-8d46-df844d42f728"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volby-obcan-formy-participace",
+    "title": "Jak se občan zapojuje do veřejného dění",
+    "aliases": [
+      "občanská participace",
+      "petice a demonstrace",
+      "jak se zapojit",
+      "veřejné dění"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvede příklady různých forem občanské participace a vysvětlí jejich význam",
+        "quote": "uvede příklady různých forem občanské participace a vysvětlí jejich význam"
+      },
+      {
+        "level": "Splněno",
+        "point": "S oporou o příklady zpracuje přehled toho, jak se občan může přímo nebo nepřímo zapojovat do veřejného politického dění.",
+        "quote": "S oporou o příklady zpracuje přehled toho, jak se občan může přímo nebo nepřímo zapojovat do veřejného politického dění."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak se zapojit do veřejného dění",
+        "url": "https://uloziste.rvp.cz/material/e442a9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vyjmenuje formy zapojení a pomůže ti sestavit přehled, příklady vybíráš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby obcí a neziskovek ukazují petice, veřejná projednání a participativní rozpočty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Obecní aplikace umožňují hlásit podněty nebo hlasovat o nápadech."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a fixy se hodí na přehled, do kterého zapíšeš formy zapojení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7d9bace0-63d0-4848-ac87-350a98082c12",
+      "http://data.europa.eu/esco/skill/896a5e0c-7ac9-4e59-a9bf-17fdca6b1c37"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volby-obcan-prace-politiku-uradniku",
+    "title": "Co dělají politici a úředníci pro lidi v okolí",
+    "aliases": [
+      "práce starosty",
+      "co dělá obec",
+      "kraj a stát",
+      "úředníci",
+      "radnice"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vyhledá regionální příklady toho, co politici nebo úředníci na úrovni obce, kraje nebo státu dělají pro občany",
+        "quote": "vyhledá regionální příklady toho, co politici nebo úředníci na úrovni obce, kraje nebo státu dělají pro občany"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co obec, kraj a stát zajišťují, a poradí, kde příklady hledat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby obce a kraje ukazují, co udělaly pro lidi, třeba opravy, školy nebo dopravu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapy ti ukážou, co obec postavila nebo opravila u vás."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírový nástroj tu nic nenabídne, příklady hledáš ve zprávách a na webu obce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2be699a7-416a-4f32-967c-4edc65027b71",
+      "http://data.europa.eu/esco/skill/4d39b27a-b34f-4c89-8d46-df844d42f728"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

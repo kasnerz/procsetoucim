@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Na trávníku u domu i na louce za vsí roste tráva, ale když si na obou vyměříš čtverec a spočítáš, co tam žije, vyjde ti úplně jiný obrázek. Učíš se tím, jak se dělá terénní výzkum: stejně velké plochy, stejný postup, zápis do tabulky a fotky, ze kterých jde srovnání doložit. Takhle pracují lidé, kteří mapují přírodu pro úřady nebo radí, jak pečovat o zeleň, a stejný postup se hodí všude, kde něco porovnáváš. Aplikace ti rostlinu z fotky často určí dobře, někdy ale vedle, a měřit, počítat a vybrat plochy musíš na místě ty.",
+  "learnWithAi": [
+    {
+      "title": "Plán srovnání dvou ploch",
+      "text": "Navrhni, jak velké plochy budeš na trávníku a louce sledovat a co budeš zapisovat. Chatbot ti řekne, kde by srovnání nebylo férové."
+    },
+    {
+      "title": "Druhy určené z fotky",
+      "text": "Rostliny, které ti aplikace určila z fotky, projdi s chatbotem a ptej se, podle čeho je poznáš. Sporné druhy porovnej s atlasem, protože určení z fotky bývá chybné."
+    },
+    {
+      "title": "Tabulka z terénu",
+      "text": "Výsledky z obou ploch zapiš do tabulky a dej ji chatbotovi. Nech si klást otázky, dokud rozdíl mezi trávníkem a loukou nevysvětlíš vlastními slovy."
+    }
+  ]
+}

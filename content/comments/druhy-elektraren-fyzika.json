@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Elektřina v zásuvce vypadá pořád stejně, ale vzniká v elektrárnách, které pálí uhlí, štěpí uran nebo využívají vodu, vítr a slunce. Když víš, jak která funguje, rozumíš zprávám o cenách energie a o tom, čím ji vyrábět dál, a nemusíš jen opakovat, co se říká kolem tebe. Podrobně to potřebují lidé, kteří obsluhují velíny elektráren nebo prodávají energii z obnovitelných zdrojů. Odkud k vám domů jde elektřina a teplo, ti chatbot neřekne, to zjistíš z vyúčtování nebo od dodavatele.",
+  "learnWithAi": [
+    {
+      "title": "Hádání elektrárny podle popisu",
+      "text": "Nech chatbota popisovat elektrárny bez názvu, jen podle toho, co se v nich děje, a hádej, o kterou jde. Svou odpověď vždy zdůvodni."
+    },
+    {
+      "title": "Cesta elektřiny do zásuvky",
+      "text": "Nakresli, jak se elektřina dostane z elektrárny až k vám domů, a popiš to chatbotovi. Požádej ho, ať se zeptá na místa, kde ti chybí krok."
+    },
+    {
+      "title": "Původ elektřiny u vás doma",
+      "text": "Zjisti z vyúčtování nebo od rodičů, kdo vám dodává elektřinu a teplo, a probírej s chatbotem, z jakých zdrojů taková společnost vyrábí. Co tvrdí, si ověř na stránkách dodavatele."
+    }
+  ]
+}

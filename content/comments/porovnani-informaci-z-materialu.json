@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Dva letáky stejného hotelu nebo dvě cizojazyčné stránky o stejném filmu se mohou lišit v ceně nebo v datu. Učíš se je číst vedle sebe a všimnout si rozdílu, i když je stejná věc napsaná jinými slovy. Tuhle práci dělá každý, kdo vybírá zájezd nebo porovnává nabídky obchodů, a v náročnější podobě i lidé ve výzkumu, kteří srovnávají výsledky studií. Chatbot ti z materiálů rychle sestaví tabulku rozdílů, jenže občas spojí údaje, které k sobě nepatří, a tu chybu najdeš jen tehdy, když materiálům rozumíš.",
+  "learnWithAi": [
+    {
+      "title": "Dva inzeráty na půjčení kola",
+      "text": "Požádej chatbota o dva krátké inzeráty na půjčení kola v cizím jazyce, které se liší ve třech věcech. Najdi rozdíly a pak si je nech potvrdit."
+    },
+    {
+      "title": "Tabulka rozdílů dvou textů",
+      "text": "Vlož chatbotovi dva skutečné texty o stejné věci, třeba dvě stránky o jednom zámku, a nech ho sestavit tabulku rozdílů. Každý řádek ověř v původních textech, chatbot se může splést."
+    },
+    {
+      "title": "Kamarád, který si nemůže vybrat",
+      "text": "Nech chatbota hrát kamaráda, který si nemůže vybrat ze dvou nabídek, a v cizím jazyce mu vysvětli, čím se liší a kterou doporučuješ."
+    }
+  ]
+}

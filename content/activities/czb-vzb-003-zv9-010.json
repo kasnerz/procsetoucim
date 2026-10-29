@@ -1,0 +1,550 @@
+[
+  {
+    "slug": "digibezpeci-rizikove-situace-online",
+    "title": "Rizikové situace v digitálním prostředí",
+    "aliases": [
+      "nebezpečí na internetu",
+      "rizika online",
+      "co hrozí na netu",
+      "bezpečný internet"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná nebezpečné aktivity a situace vyskytující se v digitálním prostředí a uvede, proč je důležité chránit zde bezpečí své i ostatních, včetně ochrany osobních údajů.",
+        "quote": "Rozpozná nebezpečné aktivity a situace vyskytující se v digitálním prostředí a uvede, proč je důležité chránit zde bezpečí své i ostatních, včetně ochrany osobních údajů."
+      },
+      {
+        "level": "Na začátku",
+        "point": "uvede příklady rizikových situací, do kterých se může v digitálním prostředí dostat",
+        "quote": "uvede příklady rizikových situací, do kterých se může v digitálním prostředí dostat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečně v digitálním prostředí",
+        "url": ""
+      },
+      {
+        "title": "Jak se vyznat v digitální džungli?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč je situace riskantní, a pomůže vymyslet příklady k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby o bezpečném internetu ukazují skutečné případy a varovné znaky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti nerozpozná, že se právě ty ocitáš v riziku."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka ani pravítko ti v digitálním prostředí nepomůžou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5acf6408-e084-4202-9442-ffcf0119811c",
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "digibezpeci-phishing-hoax-kybergrooming",
+    "title": "Phishing, hoax, kybergrooming a sexting",
+    "aliases": [
+      "podvodné zprávy",
+      "falešné zprávy",
+      "hoax",
+      "phishing",
+      "kybergrooming"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje o rizicích, která ho v digitálním prostředí mohou ohrozit (např. phishing, hoax, kybergrooming, sexting, nevhodný digitální obsah aj.)",
+        "quote": "diskutuje o rizicích, která ho v digitálním prostředí mohou ohrozit (např. phishing, hoax, kybergrooming, sexting, nevhodný digitální obsah aj.)"
+      },
+      {
+        "level": "Splněno",
+        "point": "Identifikuje rizika, která ho mohou v digitálním prostředí ohrozit.",
+        "quote": "Identifikuje rizika, která ho mohou v digitálním prostředí ohrozit."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečně v digitálním prostředí",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak podvod funguje, a zkusí s tebou rozebrat podezřelou zprávu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Policie a organizace pro bezpečný internet popisují typické podvody a hoaxy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Ověřovací nástroje pomůžou zjistit, jestli odkaz nebo obrázek není podvrh."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Podvodnou zprávu mimo obrazovku nepoznáš ani tužkou, ani pravítkem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44",
+      "http://data.europa.eu/esco/skill/5acf6408-e084-4202-9442-ffcf0119811c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "digibezpeci-osobni-udaje-ochrana",
+    "title": "Ochrana osobních údajů",
+    "aliases": [
+      "osobní údaje",
+      "soukromí na netu",
+      "citlivé údaje",
+      "co nesdílet"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje o pravidlech bezpečného chování v kyberprostoru (na sociálních sítích, při hraní her, sdělování a sdílení osobních dat)",
+        "quote": "diskutuje o pravidlech bezpečného chování v kyberprostoru (na sociálních sítích, při hraní her, sdělování a sdílení osobních dat)"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná nebezpečné aktivity a situace vyskytující se v digitálním prostředí a uvede, proč je důležité chránit zde bezpečí své i ostatních, včetně ochrany osobních údajů.",
+        "quote": "Rozpozná nebezpečné aktivity a situace vyskytující se v digitálním prostředí a uvede, proč je důležité chránit zde bezpečí své i ostatních, včetně ochrany osobních údajů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečně v digitálním prostředí",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, které údaje jsou citlivé, a vymyslí s tebou situace k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Informace o ochraně soukromí ti řeknou, co se s tvými údaji může stát."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nastavení soukromí v aplikaci ti omezí, kdo uvidí tvoje údaje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnout, co o sobě řekneš, musíš ty, nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb",
+      "http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "digibezpeci-pravidla-sit-hry-sdileni",
+    "title": "Pravidla bezpečného chování na sítích a ve hrách",
+    "aliases": [
+      "bezpečné chování online",
+      "sociální sítě pravidla",
+      "hry online bezpečně",
+      "sdílení fotek"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje o pravidlech bezpečného chování v kyberprostoru (na sociálních sítích, při hraní her, sdělování a sdílení osobních dat)",
+        "quote": "diskutuje o pravidlech bezpečného chování v kyberprostoru (na sociálních sítích, při hraní her, sdělování a sdílení osobních dat)"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zdůvodní a dodržuje pravidla bezpečného a zdraví neohrožujícího chování při práci s digitálními technologiemi.",
+        "quote": "Zdůvodní a dodržuje pravidla bezpečného a zdraví neohrožujícího chování při práci s digitálními technologiemi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečně v digitálním prostředí",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vysvětlit, proč pravidlo platí, a nacvičit, jak ho obhájit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody pro děti a rodiče shrnují pravidla pro sítě a hry."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nastavení účtu a blokování ti pomůžou pravidla dodržet."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidla dodržuješ svým chováním ty, žádný nástroj to za tebe neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb",
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "digibezpeci-digitalni-identita-stopa",
+    "title": "Digitální identita a digitální stopa",
+    "aliases": [
+      "digitální stopa",
+      "digitální identita",
+      "co o mně najdou na netu",
+      "moje profily"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí, co znamená digitální identita a digitální stopa",
+        "quote": "vysvětlí, co znamená digitální identita a digitální stopa"
+      },
+      {
+        "level": "Na cestě",
+        "point": "popisuje na konkrétních příkladech momenty spojené s budováním digitální identity, které považuje za vhodné a které za nevhodné",
+        "quote": "popisuje na konkrétních příkladech momenty spojené s budováním digitální identity, které považuje za vhodné a které za nevhodné"
+      },
+      {
+        "level": "Splněno",
+        "point": "Analyzuje své chování v digitálním prostředí ve vztahu k budování své digitální identity a zanechávání digitální stopy.",
+        "quote": "Analyzuje své chování v digitálním prostředí ve vztahu k budování své digitální identity a zanechávání digitální stopy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Digitální technologie ovlivňují naše zdraví",
+        "url": "https://uloziste.rvp.cz/material/996e31"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy a pomůže rozebrat, co by o tobě šlo z příspěvků vyčíst."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač ti ukáže, co se o tobě dá najít, když zadáš své jméno."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Správa účtů ukazuje, co je kde zveřejněno, a umí příspěvky skrýt nebo smazat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svou stopu tvoříš tím, co děláš online, nástroj ji za tebe nezměří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb",
+      "http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "digibezpeci-dopady-chovani-modelove-situace",
+    "title": "Dopady chování ve vymyšlených situacích s mobilem a počítačem",
+    "aliases": [
+      "co se stane když",
+      "modelové situace",
+      "důsledky chování online",
+      "příběhy ze sítí"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhodnotí možné dopady chování v konkrétních modelových situacích používání digitálních zařízení ve vztahu ke zdraví a bezpečí.",
+        "quote": "Vyhodnotí možné dopady chování v konkrétních modelových situacích používání digitálních zařízení ve vztahu ke zdraví a bezpečí."
+      },
+      {
+        "level": "Na cestě",
+        "point": "analyzuje konkrétní modelové situace, v nichž jsou používána digitálních zařízení (i umělá inteligence) ve vztahu k bio-psycho-sociálnímu zdraví",
+        "quote": "analyzuje konkrétní modelové situace, v nichž jsou používána digitálních zařízení (i umělá inteligence) ve vztahu k bio-psycho-sociálnímu zdraví"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Digitální technologie ovlivňují naše zdraví",
+        "url": "https://uloziste.rvp.cz/material/996e31"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere s tebou vymyšlenou situaci a ukáže dopady, které by ti mohly uniknout."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příběhy a případové studie ukazují, jak podobné situace dopadly."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe situaci neposoudí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Posoudit dopady musíš ty, klasický nástroj k tomu nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5acf6408-e084-4202-9442-ffcf0119811c",
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "digibezpeci-cas-u-obrazovky-denni-rezim",
+    "title": "Čas na zařízeních a vyvážený denní režim",
+    "aliases": [
+      "čas u mobilu",
+      "spánek a mobil",
+      "denní režim",
+      "kolik času u obrazovky"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "posuzuje čas strávený na digitálních zařízeních v návaznosti na dodržování zásad vyváženého denního režimu (s ohledem na pohybovou aktivitu, spánkový režim, stravovací a pitný režim)",
+        "quote": "posuzuje čas strávený na digitálních zařízeních v návaznosti na dodržování zásad vyváženého denního režimu (s ohledem na pohybovou aktivitu, spánkový režim, stravovací a pitný režim)"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reguluje čas strávený na digitálních zařízeních v souladu s dodržováním zásad vyváženého denního režimu.",
+        "quote": "Reguluje čas strávený na digitálních zařízeních v souladu s dodržováním zásad vyváženého denního režimu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Rovnováha mezi online a realitou",
+        "url": "https://uloziste.rvp.cz/material/e8d0f7"
+      },
+      {
+        "title": "Máš všech pět pohromadě?",
+        "url": "https://uloziste.rvp.cz/material/82095a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže sestavit plán dne se spánkem, pohybem i jídlem a vysvětlí, proč na nich záleží."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Doporučení lékařů ke spánku a pohybu ti dají měřítko, s čím svůj den srovnat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Měření času na obrazovce ukáže, kolik ho doopravdy strávíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový rozvrh dne nebo budík ti pomůžou čas hlídat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+      "http://data.europa.eu/esco/skill/c634630b-210b-4da5-b0f3-894cc292d6e3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "digibezpeci-aplikace-pro-zdravi",
+    "title": "Aplikace pro sledování a podporu zdraví",
+    "aliases": [
+      "zdravotní aplikace",
+      "krokoměr",
+      "sledování spánku",
+      "fitness aplikace"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "využívá aplikace, které umožní monitorovat či podporovat zdraví, účelně, posoudí i jejich možná rizika ve vztahu k biopsychosociálnímu zdraví",
+        "quote": "využívá aplikace, které umožní monitorovat či podporovat zdraví, účelně, posoudí i jejich možná rizika ve vztahu k biopsychosociálnímu zdraví"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Digitální technologie ovlivňují naše zdraví",
+        "url": "https://uloziste.rvp.cz/material/996e31"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co aplikace měří a jaká rizika má, třeba sdílení údajů o zdraví."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hodnocení a testy aplikací ti pomůžou vybrat tu, která není jen sběračem dat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace měří kroky nebo spánek a ukáže ti, jak se tvůj den mění."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírový záznam nic neměří, zdraví musíš sledovat ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "digibezpeci-zdroje-o-zdravi-a-umela-inteligence",
+    "title": "Ověřené zdroje o zdraví a práce s umělou inteligencí",
+    "aliases": [
+      "jak poznat pravdu o zdraví",
+      "důvěryhodný zdroj",
+      "zdraví a AI",
+      "falešné rady o zdraví"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Kriticky přistupuje k informacím a zdrojům s tematikou zdraví a životního stylu, vybírá relevantní a ověřené zdroje, účelně pracuje s nástroji umělé inteligence ve vztahu ke zdraví a životnímu stylu.",
+        "quote": "Kriticky přistupuje k informacím a zdrojům s tematikou zdraví a životního stylu, vybírá relevantní a ověřené zdroje, účelně pracuje s nástroji umělé inteligence ve vztahu ke zdraví a životnímu stylu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Digitální technologie ovlivňují naše zdraví",
+        "url": "https://uloziste.rvp.cz/material/996e31"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Odpoví na dotazy o zdraví, ale může se mýlit, proto ho musíš ověřit jinde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky zdravotnických institucí a lékařů jsou ověřený zdroj, se kterým odpověď porovnáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ověřený zdroj nevybere, poznat ho musíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Odborná příručka nebo lékařská encyklopedie jsou ověřený zdroj, který nic nevymýšlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

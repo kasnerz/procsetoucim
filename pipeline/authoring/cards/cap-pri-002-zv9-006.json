@@ -1,0 +1,358 @@
+{
+  "outcome": "CAP-PRI-002-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pece-o-prirodu-spolky-a-obec",
+      "title": "Místní spolky a obec v péči o přírodu",
+      "aliases": [
+        "místní spolky",
+        "ekocentrum",
+        "kdo pečuje o přírodu",
+        "dobrovolníci"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyhledá místní spolky, aktivity obce v oblasti péče o přírodu nebo její obnovu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "s pomocí dospělého osloví aktéra z místní komunity"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Orientuje se v možnostech spolupráce s místními spolky a obcí v oblasti péče o přírodu nebo její obnovu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti sepsat zdvořilý dopis nebo otázky pro spolek, který si vybereš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Web obce a vyhledávač ukážou spolky a akce ve tvém okolí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa a kalendář akcí najdou ekocentra a spolky nablízku."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Spolek osloví ty, s pomocí dospělého, a papír s adresou to neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6825a7dd-c2da-40fa-b745-508ff20ee293",
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda"
+      ],
+      "inspiration": [
+        "Patronáty - spolupráce se Skautským institutem",
+        "Příklady péče o přírodu"
+      ]
+    },
+    {
+      "slug": "pece-o-prirodu-plan-zasahu",
+      "title": "Plán péče o přírodu: cíl, bezpečnost a role",
+      "aliases": [
+        "plán práce",
+        "harmonogram",
+        "rozdělení rolí",
+        "bezpečnost při práci",
+        "hmyzí domek"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "v souladu s poskytnutými informacemi naplánuje účel a cíl svého zásahu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "podílí se na plánu práce s ohledem na bezpečnost"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vybere si roli, přijme odpovědnost za danou činnost"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti rozepsat kroky práce, časový plán a role, rozhodnout se ale musíte vy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody na hmyzí domek nebo výsadbu a pravidla bezpečné práce najdeš na webu a probereš s dospělým."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka nebo kalendář udrží harmonogram a rozdělení úkolů pro celou třídu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka stačí na nákres místa a seznam rolí, bezpečné nářadí ti ukáže dospělý."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6825a7dd-c2da-40fa-b745-508ff20ee293",
+        "http://data.europa.eu/esco/skill/dcb01a4f-720a-480f-b61a-11a1286d56f3",
+        "http://data.europa.eu/esco/skill/d96e25fe-18f2-47bc-9939-bad113934204"
+      ],
+      "inspiration": [
+        "Zelená mise"
+      ]
+    },
+    {
+      "slug": "pece-o-prirodu-prace-v-terenu",
+      "title": "Práce v terénu: péče o přírodu a její obnova",
+      "aliases": [
+        "sázení",
+        "sekání",
+        "úklid zahrady",
+        "péče o mokřad",
+        "luční porost",
+        "školní zahrada"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "se svolením správce pozemku se spolu se spolužáky zapojí do péče o přírodu nebo do aktivit na její obnovu podle pokynů dospělého"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zapojí se spolu se spolužáky do péče o přírodu nebo do aktivit na její obnovu podle pokynů zodpovědné osoby."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Zapojí se do péče o přírodu ve svém okolí nebo do aktivit pro její obnovu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Hrabat, sázet a sekat budeš ty rukama, chatbot za tebe nic neudělá."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Najdeš tu návod, ale hrabání a sázení v zahradě si z webu nepřečteš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace na poznávání rostlin ti pomůže poznat, co v záhonu roste a co je plevel."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Rýč, hrábě, zahradnické nůžky a rukavice jsou nářadí, se kterým se péče o místo opravdu dělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6825a7dd-c2da-40fa-b745-508ff20ee293",
+        "http://data.europa.eu/esco/skill/dcb01a4f-720a-480f-b61a-11a1286d56f3"
+      ],
+      "inspiration": [
+        "Péče o přírodu (louky)"
+      ]
+    },
+    {
+      "slug": "pece-o-prirodu-dopad-zasahu",
+      "title": "Dopad péče o přírodu na druhy a společenstva",
+      "aliases": [
+        "účinnost zásahu",
+        "co to přineslo",
+        "biodiverzita u školy",
+        "dopad na organismy",
+        "změna podmínek"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "klade otázky k efektivitě jednotlivých kroků a zjišťuje dopad péče z minulých let na cílové druhy nebo společenstvo"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Reflektuje a hodnotí dopady jím realizovaného opatření podporujícího biodiverzitu v blízkém okolí školy či regionu."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zhodnotí možné pozitivní i negativní dopady změny podmínek na život organismů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se dá měřit dopad péče, a vymyslí otázky, které se zeptáš lidí z místa."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy spolků a odborné weby ukážou, jak dopadla péče o podobná místa."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na určování rostlin a ptáků pomůže spočítat druhy před zásahem a po něm."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Co se na místě změnilo, zjistíš pozorováním a otázkami, ne nástrojem v ruce."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda",
+        "http://data.europa.eu/esco/skill/6825a7dd-c2da-40fa-b745-508ff20ee293"
+      ],
+      "inspiration": [
+        "Reflexe péče o přírodu"
+      ]
+    },
+    {
+      "slug": "pece-o-prirodu-navrh-zlepseni",
+      "title": "Návrhy zlepšení péče o přírodu",
+      "aliases": [
+        "jak to udělat lépe",
+        "zlepšení organizace",
+        "ohleduplnost k přírodě",
+        "bezpečnost práce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "navrhuje zlepšení (např. pro organizaci práce, její bezpečnost a ohleduplnost k lidem i živým organismům)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Navrhuje zlepšení z hlediska cíle aktivit, organizace a bezpečnosti práce a ohleduplnosti k lidem, organismům a prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě, co se nepovedlo, a pomůže ti návrh srozumitelně sepsat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady z jiných škol a spolků ti dají nápady, co by šlo udělat jinak."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pro návrh, co zlepšit na tvém místě, žádná aplikace neexistuje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Co se při práci zadrhlo, víš ty a spolužáci, nářadí ti to nepoví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6825a7dd-c2da-40fa-b745-508ff20ee293",
+        "http://data.europa.eu/esco/skill/d96e25fe-18f2-47bc-9939-bad113934204"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pece-o-prirodu-reflexe-zkusenosti",
+      "title": "Reflexe vlastní práce při péči o přírodu",
+      "aliases": [
+        "zhodnocení zkušenosti",
+        "co jsem se naučil",
+        "jak se nám spolupracovalo",
+        "deník z akce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "reflektuje tuto zkušenost (např. vlastní práci, spolupráci a výsledek)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vybere si roli, přijme odpovědnost za danou činnost a reflektuje tuto zkušenost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Klade ti otázky o tom, co se dařilo a co ne, a ty odpovídáš po svém."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové odpovědi o tvé vlastní práci na webu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Fotky z telefonu ti připomenou, co se na místě dělo, a pomůžou ti sestavit krátký záznam."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Svou práci a spolupráci hodnotíš ty, zápisník ti jen pomůže si ji zapsat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6825a7dd-c2da-40fa-b745-508ff20ee293"
+      ],
+      "inspiration": [
+        "Reflexe péče o přírodu"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Reflektuje své pocity z poznávání",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Určí, jak v daném místě",
+      "code": "O1",
+      "refs": [
+        "zmeny-krajiny"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vyhledá, co k tomu vedlo",
+      "code": "O1",
+      "refs": [
+        "priciny-a-nasledky-zasahu"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vytvoří vlastní seznam",
+      "code": "O1",
+      "refs": [
+        "seznam-setrnych-cinnosti"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "outcome": "INF-INF-004-ZV5-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozliší, co zdraví prospívá a co mu škodí.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Sděluje informace s ohledem na soukromí a bezpečí svoje i blízkých osob v osobním kontaktu.",
+      "cards": [
+        "citliva-data-zneuziti-udaju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozpoznává základní typy připojení (např. Wi-Fi, pevné připojení) a bezpečně se připojí k Wi-Fi síti.",
+      "cards": [
+        "bezpecne-pripojeni-wifi-pevne"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Dodržuje bezpečnostní pravidla při používání hesel pro přístup k digitálním zařízením (seznamuje se s pravidly tvorby bezpečných hesel).",
+      "cards": [
+        "bezpecna-hesla-rizika-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Používá bezpečná hesla pro přístup do svého pracovního prostředí na digitálních zařízeních.",
+      "cards": [
+        "bezpecna-hesla-rizika-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozlišuje mezi veřejnými a citlivými informacemi (např. jméno, adresa) a seznamuje se s tím, že citlivá data mohou být zneužita.",
+      "cards": [
+        "citliva-data-zneuziti-udaju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Používá aplikace a webové stránky, které jsou ověřené a bezpečné, podle pokynů učitele nebo rodičů.",
+      "cards": [
+        "overene-aplikace-varovne-signaly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zjišťuje, že obsah internetu může být ovlivněn jeho předchozími akcemi.",
+      "cards": [
+        "obsah-internetu-podle-chovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše výhody a nevýhody wifi a pevného připojení.",
+      "cards": [
+        "bezpecne-pripojeni-wifi-pevne"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede možná opatření pro bezpečné připojení k digitálním zařízením.",
+      "cards": [
+        "bezpecne-pripojeni-wifi-pevne"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá silná hesla, vysvětlí význam biometrických údajů pro zabezpečení.",
+      "cards": [
+        "bezpecna-hesla-rizika-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozliší různé typy dat a informací, popíše rizika jejich sdílení a uvede příklady možných důsledků.",
+      "cards": [
+        "citliva-data-zneuziti-udaju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vybírá bezpečné aplikace a webové stránky, rozpozná varovné signály.",
+      "cards": [
+        "overene-aplikace-varovne-signaly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zjišťuje, jak se mění nabídka obsahu na internetu podle toho, co dělá uživatel, a diskutuje o tom, jak to může ovlivnit jeho vlastní rozhodování.",
+      "cards": [
+        "obsah-internetu-podle-chovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Dodržuje bezpečnostní pravidla stanovená pro práci s digitálními technologiemi.",
+      "cards": [
+        "overene-aplikace-varovne-signaly"
+      ],
+      "aside": null
+    }
+  ]
+}

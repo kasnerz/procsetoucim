@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Lžička ve sklenici čaje vypadá zlomená a dno bazénu se zdá blíž, než doopravdy je. Obojí způsobuje lom: světlo na rozhraní vzduchu a vody nebo skla změní směr. Kdo tomu rozumí, nenechá se při koupání oklamat hloubkou vody a chápe, proč vůbec fungují brýle, lupa nebo objektiv fotoaparátu. Na lomu světla stojí práce lidí, kteří vybírají a brousí čočky do brýlí nebo vyvíjejí optické přístroje. Simulace ti paprsek pěkně nakreslí, ale přesvědčivější je prohlédnout si tužku ve sklenici vody z několika stran.",
+  "learnWithAi": [
+    {
+      "title": "Lom, nebo odraz",
+      "text": "Požádej chatbota o šest situací z domova nebo z bazénu a u každé urči, jestli jde o lom, nebo o odraz světla. Pak mu odpovědi pošli ke kontrole."
+    },
+    {
+      "title": "Nákres paprsku z vody do vzduchu",
+      "text": "Nakresli, kudy jde paprsek z vody do vzduchu, a popiš chatbotovi, kam se ohnul. Ať ti řekne, jestli nákres sedí, a když ne, nakresli ho znovu."
+    },
+    {
+      "title": "Mince na dně hrnku",
+      "text": "Nech si od chatbota popsat pokus s mincí v hrnku, která se po nalití vody objeví. Udělej ho a vysvětli chatbotovi vlastními slovy, proč se to stalo."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "outcome": "GEO-GEO-001-ZV9-002",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Orientuje se s pomocí elektronické mapy v prostoru.",
+      "cards": [
+        "elektronicka-mapa-orientace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vlastními slovy charakterizuje geoinformační technologie, rozlišuje jejich základní typy (tj. geografické informační systémy, globální navigační satelitní systémy, dálkový průzkum Země) a zvolí vhodné technologie pro řešení reálných problémů",
+      "cards": [
+        "druhy-geotechnologii",
+        "vyber-technologie-k-problemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "uvede příklady využití geoinformačních technologií pro vlastní učení a řešení problémů",
+      "cards": [
+        "vyber-technologie-k-problemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "navrhuje postupy využití vybraných geoinformačních technologií k získávání, zpracování, vizualizaci a sdílení geografických dat při řešení různých problémů",
+      "cards": [
+        "postup-prace-s-geodaty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "používá vybrané geoinformační technologie pro získávání geografických dat pro popis míst a regionů, jejich porovnání a změn",
+      "cards": [
+        "data-o-mistech-z-mapy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Využívá jím zvolené webové interaktivní mapy nebo jednoduchý GIS k získávání a vytváření geografických dat a informací.",
+      "cards": [
+        "vlastni-mapa-v-gis"
+      ],
+      "aside": null
+    }
+  ]
+}

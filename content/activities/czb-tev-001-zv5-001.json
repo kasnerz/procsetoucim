@@ -1,0 +1,193 @@
+[
+  {
+    "slug": "skok-do-dalky-nacvik-telocvik",
+    "title": "Skok do dálky: nácvik a předvedení",
+    "aliases": [
+      "skok daleký",
+      "skok do písku",
+      "atletika",
+      "skákání",
+      "tělocvik skok"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Na základě ukázky má představu o pohybové dovednosti.",
+        "quote": "Na základě ukázky má představu o pohybové dovednosti."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Aktivně nacvičuje pohybovou dovednost a snaží se ji uplatňovat v pohybových činnostech.",
+        "quote": "Aktivně nacvičuje pohybovou dovednost"
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede pohybovou dovednost podle stanovených kritérií.",
+        "quote": "Předvede pohybovou dovednost podle stanovených kritérií."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Skok do dálky - nácvik",
+        "url": ""
+      },
+      {
+        "title": "Skok do dálky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Odraz a doskok cvičíš nohama ty, chatbot ti je nenacvičí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa ukážou správný odraz a doskok dřív, než ho zkusíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Natočený skok si pustíš zpomaleně a porovnáš s ukázkou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pásmo změří délku skoku a vidíš, jestli se zlepšuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229",
+      "http://data.europa.eu/esco/skill/7935deb6-0bed-4e38-985e-1f83b8e16940"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hazeni-chytani-nacvik-telocvik",
+    "title": "Házení a chytání míčku",
+    "aliases": [
+      "házená",
+      "házení míčem",
+      "chytání",
+      "hod",
+      "přihrávka"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Na základě ukázky má představu o pohybové dovednosti.",
+        "quote": "Na základě ukázky má představu o pohybové dovednosti."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Aktivně nacvičuje pohybovou dovednost a snaží se ji uplatňovat v pohybových činnostech.",
+        "quote": "Aktivně nacvičuje pohybovou dovednost"
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede pohybovou dovednost podle stanovených kritérií.",
+        "quote": "Předvede pohybovou dovednost podle stanovených kritérií."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Nácvik házení a chytání",
+        "url": "https://uloziste.rvp.cz/material/d833f8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Hodit a chytit musíš ty rukama, chatbot to za tebe nenacvičí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa ukážou správný postoj, hod i chycení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti míč nehodí ani nechytí, trénink je na tobě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Míč a zeď nebo kamarád ti umožní házení a chytání opakovat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229",
+      "http://data.europa.eu/esco/skill/7935deb6-0bed-4e38-985e-1f83b8e16940"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cilove-hry-hazeci-sacky-telocvik",
+    "title": "Týmová hra s házecími sáčky",
+    "aliases": [
+      "házecí sáčky",
+      "hra v družstvu",
+      "týmová hra",
+      "cílová hra",
+      "hra na cíl"
+    ],
+    "outcome": "CZB-TEV-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uplatňuje pohybovou dovednost v dané individuální či týmové pohybové činnosti.",
+        "quote": "Uplatňuje pohybovou dovednost v dané individuální či týmové pohybové činnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "Psychomotorické aktivity – Drobné cílové hry s házecími sáčky",
+        "url": "https://uloziste.rvp.cz/material/5ec300"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí pravidla a varianty cílové hry pro tvoje družstvo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popisy her a pravidla, které si můžete zkusit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Hru hrajete vy s kamarády, aplikace za vás nehází."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Sáčky, obruče a čáry vytvoří cíl, na který se hází."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

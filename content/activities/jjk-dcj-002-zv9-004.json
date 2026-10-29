@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "dcj-predstaveni-se-a-pozdravy",
+    "title": "Představení se a pozdravy v dalším jazyce",
+    "aliases": [
+      "představit se",
+      "pozdrav",
+      "jak se jmenuješ",
+      "druhý cizí jazyk",
+      "němčina francouzština"
+    ],
+    "outcome": "JJK-DCJ-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Představí se jednoduchým způsobem.",
+        "quote": "Představí se jednoduchým způsobem."
+      },
+      {
+        "level": "Na začátku",
+        "point": "- používá jednotlivá slova a jednoduchá slovní spojení, například pozdravy, základní otázky nebo jednoduché odpovědi",
+        "quote": "používá jednotlivá slova a jednoduchá slovní spojení, například pozdravy, základní otázky nebo jednoduché odpovědi"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Návštěva žáků z partnerské školy Nj, Fj",
+        "url": ""
+      },
+      {
+        "title": "Moi, c’est moi!",
+        "url": "https://uloziste.rvp.cz/material/592c60"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje roli kamaráda z partnerské školy a odpovídá na tvé pozdravy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníček a nahrávky ukážou, jak se pozdravy správně řeknou."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a jazyková aplikace předříkají výslovnost a nechají tě opakovat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mluvit musíš ty nahlas, papírový slovník za tebe nepozdraví."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/960c4aae-82d5-4820-a583-c3bf2908a357"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-kratke-vety-o-sobe",
+    "title": "Krátké věty o sobě",
+    "aliases": [
+      "povídání o sobě",
+      "řekni něco o sobě",
+      "věty o sobě",
+      "osobní údaje",
+      "kolik je ti let"
+    ],
+    "outcome": "JJK-DCJ-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- vyjadřuje se pomocí krátkých vět o sobě",
+        "quote": "vyjadřuje se pomocí krátkých vět o sobě"
+      },
+      {
+        "level": "Splněno",
+        "point": "Sdělí základní osobní informace a popíše známé jevy nebo situace, informuje o své rodině, školních aktivitách nebo oblíbených místech s využitím jednoduchých vět a přiměřených detailů.",
+        "quote": "Sdělí základní osobní informace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Moi, c’est moi!",
+        "url": "https://uloziste.rvp.cz/material/592c60"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Opraví tvé věty o sobě a vysvětlí, kde je chyba."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Jazyková příručka ukáže, jak se řekne věk, jméno nebo bydliště."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovníková aplikace najde chybějící slovo a přehraje výslovnost."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Věty o sobě skládáš v hlavě ty, slovník je za tebe nevymyslí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/960c4aae-82d5-4820-a583-c3bf2908a357"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-popis-sebe-a-blizkych",
+    "title": "Popis sebe a svých blízkých",
+    "aliases": [
+      "moje rodina",
+      "popiš kamaráda",
+      "jak vypadám",
+      "rodina",
+      "kamarád"
+    ],
+    "outcome": "JJK-DCJ-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše sebe a své blízké nebo prezentuje blízká témata, popíše svůj den nebo oblíbenou činnost.",
+        "quote": "Popíše sebe a své blízké nebo prezentuje blízká témata"
+      },
+      {
+        "level": "Splněno",
+        "point": "Sdělí základní osobní informace a popíše známé jevy nebo situace, informuje o své rodině, školních aktivitách nebo oblíbených místech s využitím jednoduchých vět a přiměřených detailů.",
+        "quote": "informuje o své rodině, školních aktivitách nebo oblíbených místech s využitím jednoduchých vět a přiměřených detailů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Návštěva žáků z partnerské školy Nj, Fj",
+        "url": ""
+      },
+      {
+        "title": "Hraní rolí Nj, Fj",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí otázky o rodině, na které odpovídáš, a opraví tvé věty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Seznam slovíček o rodině a vzhledu najdeš hned při ruce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovníková aplikace ti dohledá slova pro vlastnosti a členy rodiny."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Popis říkáš ty vlastními slovy, slovník ti ho nesestaví."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/960c4aae-82d5-4820-a583-c3bf2908a357"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-popis-dne-a-oblibene-cinnosti",
+    "title": "Popis svého dne a oblíbené činnosti",
+    "aliases": [
+      "můj den",
+      "co děláš rád",
+      "koníčky",
+      "oblíbená činnost",
+      "denní program"
+    ],
+    "outcome": "JJK-DCJ-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše sebe a své blízké nebo prezentuje blízká témata, popíše svůj den nebo oblíbenou činnost.",
+        "quote": "popíše svůj den nebo oblíbenou činnost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Un mail pour mon ami(e)",
+        "url": "https://uloziste.rvp.cz/material/33e7b8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se, co děláš ráno a odpoledne, a opraví tvé odpovědi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručka ukáže, jak se řeknou časy a slovesa denního programu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na slovíčka tě vyzkouší ze sloves a činností."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svůj den popisuješ ty, slovník ho za tebe nevypráví."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/960c4aae-82d5-4820-a583-c3bf2908a357"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dcj-popis-obrazku-a-zname-situace",
+    "title": "Ústní popis obrázku nebo známé situace",
+    "aliases": [
+      "popis obrázku",
+      "co vidíš na obrázku",
+      "známá situace",
+      "mluvení k obrázku",
+      "hraní rolí"
+    ],
+    "outcome": "JJK-DCJ-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- ústně jednoduše popíše známý jev z okruhu osvojených témat nebo jednoduchý obrázek - vyjadřuje se pomocí jednoduchých vět o sobě a o blízkých tématech",
+        "quote": "ústně jednoduše popíše známý jev z okruhu osvojených témat nebo jednoduchý obrázek"
+      },
+      {
+        "level": "Splněno",
+        "point": "Sdělí základní osobní informace a popíše známé jevy nebo situace, informuje o své rodině, školních aktivitách nebo oblíbených místech s využitím jednoduchých vět a přiměřených detailů.",
+        "quote": "popíše známé jevy nebo situace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hraní rolí Nj, Fj",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Můžeš mu popsat obrázek a on ti řekne, co ti ve větách chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky s popisky ukážou, jak se věci a děje pojmenují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti pomůže najít slovo, které ti při popisu chybí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Popisuješ nahlas ty, žádný nástroj nemluví místo tebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/960c4aae-82d5-4820-a583-c3bf2908a357"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

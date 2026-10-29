@@ -1,0 +1,410 @@
+{
+  "outcome": "CAP-PRI-002-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "priroda-zdroje-a-sluzby-pro-cloveka",
+      "title": "Co všechno nám dává příroda",
+      "aliases": [
+        "zdroje z přírody",
+        "k čemu je příroda",
+        "příroda a člověk",
+        "jídlo a oblečení z přírody",
+        "význam přírody"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Ukáže na konkrétním příkladu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Shrne na základě informačních zdrojů"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "shrne na základě informačních zdrojů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vyjmenuje další zdroje a služby přírody a ty je zkusíš zařadit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a články ukážou, co všechno z přírody bereme."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti zdroje přírody neshrnou, vlastní zkušenost sbíráš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na shrnutí vlastní zkušenosti s přírodou nepotřebuješ nástroj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+      ],
+      "inspiration": [
+        "Co se teď nosí"
+      ]
+    },
+    {
+      "slug": "priroda-ekosystemove-sluzby-stromu-v-okoli",
+      "title": "Ekosystémové služby místa v okolí",
+      "aliases": [
+        "co dělá strom pro lidi",
+        "ochlazování stromem",
+        "služby ekosystému",
+        "kolik vody odpaří strom",
+        "park v okolí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na příkladu prostředí ve svém okolí"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na konkrétním příkladu přírodního prostředí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co je ekosystémová služba, a pomůže ti vymyslet, co sledovat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu najdeš, kolik uhlíku a vody strom zadrží."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace spočítá odpařenou vodu a ochlazení u stromu, který změříš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Metr a pásmo ti dají rozměry stromu pro výpočet."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0",
+        "http://data.europa.eu/esco/skill/270c4de9-97f9-4a7a-95d1-63670f1ec3bc"
+      ],
+      "inspiration": [
+        "Kolik uhlíku zadrží strom?",
+        "Srovnání chladící funkce veřejné zeleně v okolí školy pomocí mobilní aplikace",
+        "Strom – náš tichý spojenec"
+      ]
+    },
+    {
+      "slug": "priroda-kdyz-sluzby-prevezmou-lide",
+      "title": "Když přírodní služby musí nahradit lidé",
+      "aliases": [
+        "zhroucení opylovačů",
+        "vykácení lesa dopady",
+        "čištění vody bez přírody",
+        "klimatizace místo stromů",
+        "co když zmizí příroda"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady reálných situací"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvede příklady reálných situací"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "porovná tyto ekosystémové služby"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti připomene další příklady a pomůže ti spočítat, co by nahrazení stálo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy a články popisují skutečné případy, třeba ruční opylování."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace skutečné případy nevyčerpané přírody nenajde."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný jednoduchý nástroj tu nepomůže, uvažuješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0",
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+      ],
+      "inspiration": [
+        "Kdo tu opyluje"
+      ]
+    },
+    {
+      "slug": "priroda-simulacni-hra-vyuzivani-zdroju",
+      "title": "Simulační hra o využívání přírody",
+      "aliases": [
+        "Fish Banks",
+        "obecní pastvina",
+        "hra o rybolov",
+        "tragédie obecní pastviny",
+        "přelovení"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "reflektuje na základě simulační hry"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí pravidla hry a pomůže ti shrnout, co se v ní stalo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu najdeš popis hry i rozbor, proč se zdroje vyčerpají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Hrajete spolu a rozhodnutí děláte vy, aplikace za vás nehraje."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Hrací plán, žetony a tabulka s kolem zápisů drží průběh hry."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda",
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+      ]
+    },
+    {
+      "slug": "priroda-porovnani-prostredi-prirodni-a-nepirodni",
+      "title": "Porovnání přírodního a městského prostředí",
+      "aliases": [
+        "pocitová teplota",
+        "hlučnost",
+        "prašnost",
+        "park nebo parkoviště",
+        "srovnání prostředí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na základě vlastní zkušenosti porovná"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na základě vlastní zkušenosti porovná"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Chatbot na místě nestojí, teplo a hluk zažiješ jen ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na webu najdeš obecné údaje, ne to, co cítíš na svých místech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace změří hluk a pomůže zapsat srovnání obou míst."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr ukáže rozdíl teploty mezi parkem a ulicí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+      ]
+    },
+    {
+      "slug": "priroda-inspirace-a-odpocinek-v-regionu",
+      "title": "Příroda jako inspirace a odpočinek",
+      "aliases": [
+        "příroda a psychika",
+        "relaxace v přírodě",
+        "příroda a umění",
+        "wellbeing",
+        "les a stres"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady významu přírodního území"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvede příklady významu přírodního území"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti připomene umělce a místa inspirovaná přírodou a shrne studie."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články shrnují, jak příroda působí na stres a soustředění."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe inspiraci ani odpočinek v přírodě nezažije."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klidné místo a nápad hledáš ty, nástroj k tomu není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda"
+      ],
+      "inspiration": [
+        "Strom – náš tichý spojenec"
+      ]
+    },
+    {
+      "slug": "priroda-pokus-podminky-zivota-organismu",
+      "title": "Pokus s vlivem podmínek na organismy",
+      "aliases": [
+        "pokus s rostlinou",
+        "vliv světla na klíčení",
+        "experiment v biologii",
+        "záznam pokusu",
+        "pozorování organismů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Identifikuje fenomény"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zkoumá experimentálně"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Popíše svá zjištění"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Pokus děláš a pozoruješ ty, chatbot ti nic nenaroste ani nezměří."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu najdeš popisy podobných pokusů pro inspiraci."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka nebo aplikace s grafem pomůže zapsat měření a vidět rozdíly."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr, lupa a pravítko dají měření, ze kterých vyvodíš závěry."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ]
+    },
+    {
+      "slug": "priroda-porovnani-zaveru-pokusu-se-zdroji",
+      "title": "Porovnání závěrů pokusu s knihami a webem",
+      "aliases": [
+        "ověření výsledků pokusu",
+        "porovnat závěry",
+        "zdroje k pokusu",
+        "souhlasí můj pokus",
+        "atlas a encyklopedie"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Porovná své závěry"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti shrne, co o jevu říká věda, a ty to ověříš ve zdroji."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a odborné weby ukážou, jestli tvůj výsledek sedí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvůj výsledek s odborným zdrojem neporovná."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas a učebnice jsou ověřený zdroj, se kterým závěry srovnáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ]
+    }
+  ],
+  "aside": []
+}

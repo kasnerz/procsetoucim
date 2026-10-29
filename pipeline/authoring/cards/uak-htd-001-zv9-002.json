@@ -1,0 +1,489 @@
+{
+  "outcome": "UAK-HTD-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "htd9-cista-intonace",
+      "title": "Čisté a falešné tóny ve zpěvu",
+      "aliases": [
+        "falešný zpěv",
+        "zpívat čistě",
+        "intonace",
+        "ladění hlasu",
+        "sluch"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vnímá sluchem falešné a čisté tóny při interpretaci své či spolužáků."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Učí se korigovat svoji intonaci dle sluchové zkušenosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Tón posloucháš a trefuješ ty, chatbot tvůj zpěv neslyší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Nahrávky ukážou správný tón, ke kterému svůj hlas přirovnáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Ladička v aplikaci ukáže, jestli jsi výš, nebo níž."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Klavír nebo kytara dají tón, podle kterého se naladíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e78ac0fc-7a1d-4462-960a-a560c2e152ce",
+        "http://data.europa.eu/esco/skill/e50a68c5-2a5d-4815-8bd1-e4334aed7683"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "htd9-postoj-a-dech-zpev",
+      "title": "Postoj, dech a hlas při zpěvu i mluvení",
+      "aliases": [
+        "dýchání při zpěvu",
+        "správný postoj",
+        "dechová opora",
+        "hlas",
+        "mluvení před třídou"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Hledá správný postoj a dechovou oporu při zpěvu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uplatňuje získané pěvecké dovednosti a návyky při zpěvu i při mluvním projevu v běžném životě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Dýchat a stát správně musíš ty, chatbot ti postoj nenarovná."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa a popisy ukážou, jak stát a kam dýchat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvůj dech a postoj nepoznají ani nezlepší."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj dech za tebe neudělá, procvičuješ ho tělem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e78ac0fc-7a1d-4462-960a-a560c2e152ce",
+        "http://data.europa.eu/esco/skill/e50a68c5-2a5d-4815-8bd1-e4334aed7683"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "htd9-souhra-tempo-dynamika",
+      "title": "Souhra, tempo a dynamika ve skupině",
+      "aliases": [
+        "hrát společně",
+        "držet tempo",
+        "tiše a hlasitě",
+        "souhra",
+        "orchestr"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Následuje souhru a dokáže se přizpůsobit danému tempu či dynamice."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Souhru ve skupině posloucháš a držíš ty, chatbot s vámi nehraje."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotová informace tempo ve společné hře za tebe nedrží."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Metronom v aplikaci tiká tempo, do kterého se trefuješ."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Metronom a dirigent dávají tempo, které sleduješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8f8a8803-dc72-4488-9991-7c7d373e01fa",
+        "http://data.europa.eu/esco/skill/d11e4683-d2fe-45fd-bb1a-e995f7877851"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "htd9-rytmicke-melodicke-varianty",
+      "title": "Opakování a vlastní varianty rytmu a melodie",
+      "aliases": [
+        "zopakovat rytmus",
+        "vymyslet melodii",
+        "improvizace",
+        "vlastní nápad v hudbě",
+        "hra v kruhu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Dokáže zopakovat různé jednoduché rytmické či melodické úseky a po jejich osvojení si zkouší své vlastní kreativní varianty."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Zopakovat a vymyslet variantu musíš ty, chatbot hudbu nezahraje."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové nahrávky ti vlastní variantu nevymyslí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Looper nebo klávesy v aplikaci přehrají tvůj úsek a můžeš na něj navazovat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Na bubínek nebo klávesy si úsek zahraješ a zkoušíš ho měnit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/4327690a-e639-4b58-98b5-d078d6b90b07",
+        "http://data.europa.eu/esco/skill/1e3e7f8b-6416-43ed-af07-a1fb71c5e292"
+      ],
+      "inspiration": [
+        "Improvizace v kruhu",
+        "Hra na looper"
+      ]
+    },
+    {
+      "slug": "htd9-doprovod-pisne-aplikace",
+      "title": "Doprovod písně na nástroj nebo v aplikaci",
+      "aliases": [
+        "doprovodit písničku",
+        "hra na kytaru k písni",
+        "akordy",
+        "doprovod",
+        "aplikace na hudbu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Doprovodí vhodně zvolené písně či jednoduché hudební skladby různých žánrů pomocí hry na hudební nástroje, prostřednictvím využití dostupných digitálních aplikací, případně jejich kombinací."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne akordy k písni a vysvětlí, jak se hrají."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš akordy a noty k písním a videa, jak se hrají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s podkladem nebo klávesami doprovodí píseň a ty hraješ s ní."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kytara, klávesy nebo zobcová flétna jsou nástroj, na který doprovod hraješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8f8a8803-dc72-4488-9991-7c7d373e01fa",
+        "http://data.europa.eu/esco/skill/6339a2d3-0c34-4156-b202-5929764fb720"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "htd9-hudebni-experiment",
+      "title": "Hudební experimenty",
+      "aliases": [
+        "zkoušet zvuky",
+        "experiment se zvukem",
+        "nové zvuky",
+        "hudební pokus"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Provádí hudební experimenty."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Zvuky vymýšlíš a zkoušíš ty, chatbot ti nic nezahraje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš nápady na pokusy se zvukem a ukázky, jak znějí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s efekty ukáže, jak se zvuk změní, když ho upravíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Nástroje a předměty kolem tebe zkoušíš přímo a posloucháš výsledek."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c2218533-3e2a-4f50-b4fd-afde71dcf442",
+        "http://data.europa.eu/esco/skill/cae4c053-05d1-413d-8499-f37793aad56e"
+      ],
+      "inspiration": [
+        "Na počátku byl zvuk"
+      ]
+    },
+    {
+      "slug": "htd9-tvorba-doprovodu-zvukove-objekty",
+      "title": "Tvorba doprovodů, zvukových objektů a instalací",
+      "aliases": [
+        "vlastní doprovod",
+        "zvuková instalace",
+        "skládat hudbu",
+        "nahrávání zvuků",
+        "hudba v počítači"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využívá svůj hlas nebo hudební nástroje či dostupné digitální technologie ke tvorbě hudebních doprovodů, zvukových objektů či instalací."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí s postupem a nápady, ale zvuky vyrábíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš návody k nahrávání a úpravě zvuku."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Program na hudbu nebo looper zvuky nahraje, spojí a upraví."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Hlas, nástroje a předměty jsou zdroj zvuků, které skládáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c2218533-3e2a-4f50-b4fd-afde71dcf442",
+        "http://data.europa.eu/esco/skill/cae4c053-05d1-413d-8499-f37793aad56e",
+        "http://data.europa.eu/esco/skill/1e3e7f8b-6416-43ed-af07-a1fb71c5e292"
+      ],
+      "inspiration": [
+        "Hra na looper",
+        "Na počátku byl zvuk"
+      ]
+    },
+    {
+      "slug": "htd9-rytmizace-a-melodizace-textu",
+      "title": "Rytmizace a melodizace textu",
+      "aliases": [
+        "rapovat",
+        "rap vlastní text",
+        "udělat písničku z textu",
+        "rytmus slov",
+        "vymyslet melodii"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rytmizuje a melodizuje jednoduché texty."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne rytmus a melodii k textu, ty je pak zazpíváš a upravíš."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové texty a písně tvou vlastní melodii nevymyslí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s podkladem ti přehraje rytmus, na který text zazpíváš nebo odrapuješ."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Bubínek nebo klávesy ti pomůžou vyťukat rytmus a najít melodii."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1e3e7f8b-6416-43ed-af07-a1fb71c5e292",
+        "http://data.europa.eu/esco/skill/d11e4683-d2fe-45fd-bb1a-e995f7877851"
+      ],
+      "inspiration": [
+        "Rapujeme vlastní songy",
+        "Házíme slova"
+      ]
+    },
+    {
+      "slug": "htd9-zpev-a-hra-podle-not",
+      "title": "Zpěv a hra podle not nebo jednoduchého zápisu",
+      "aliases": [
+        "noty",
+        "číst noty",
+        "zahrát podle not",
+        "zpívat z not",
+        "zápis písně"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Realizuje (zpěvem, hrou, tancem, doprovodnou hrou) jednoduchou melodii či píseň zapsanou pomocí not nebo jiného jednoduchého zápisu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co značí noty a rytmické hodnoty, a vymyslí cvičné příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš noty písní i návody, jak noty číst."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace přehraje zapsanou melodii, a můžeš ji slyšet a porovnat se svým zpěvem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Nástroj ti dá tón, který z not zahraješ a ověříš sluchem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6339a2d3-0c34-4156-b202-5929764fb720",
+        "http://data.europa.eu/esco/skill/d60f6482-39b0-4a8d-acdc-ac26fbe5fca7"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Zapojuje se do činností na základě",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Cíleně se zapojuje do hudebních her",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Pod vedením učitele a na základě zkušenosti",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zpívá písně v rozsahu",
+      "code": "O1",
+      "refs": [
+        "htd-zpev-a-hlas"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Využívá jednoduché hudební nástroje k doprovodné hře.",
+      "code": "O1",
+      "refs": [
+        "htd-doprovod-na-predmety"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vyjadřuje pohybem znějící hudbu",
+      "code": "O1",
+      "refs": [
+        "htd-tanecni-pohyb-k-hudbe"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Oceňuje svou originalitu",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Účastní se vybraných hudebně-pohybových",
+      "code": "O1",
+      "refs": [
+        "htd-tanecni-pohyb-k-hudbe"
+      ]
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Rozvíjí a využívá získané dovednosti",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

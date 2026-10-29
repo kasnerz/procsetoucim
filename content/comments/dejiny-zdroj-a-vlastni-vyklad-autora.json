@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kdo píše o minulosti, vždycky vybírá, co z pramene použije, a přidává k tomu vlastní vysvětlení. V jedné větě se tak často míchá, co stojí v dobovém dopise, s tím, co si o tom myslí autor. Když tyhle dvě vrstvy umíš oddělit, nenecháš si cizí výklad prodat jako fakt, a to platí i u zpráv, reklam nebo videí na sítích. Přímo v práci to potřebují hlavně lidé, kteří zkoumají a učí dějiny nebo připravují texty pro divadlo, takových míst je málo. Chatbot ti text rozebere, jenže fakta a domněnky míchá taky, takže jeho odpovědi musíš prověřovat stejně jako kteréhokoli jiného autora.",
+  "learnWithAi": [
+    {
+      "title": "Odstavec ve dvou barvách",
+      "text": "Požádej chatbota o odstavec o historické události, ve kterém se střídají údaje z pramene a názor autora. Podtrhni obojí jinou barvou a nech si ukázat, kde se tvoje rozdělení liší."
+    },
+    {
+      "title": "Od názoru zpátky k prameni",
+      "text": "Napiš chatbotovi větu s názorem autora, třeba že nějaký panovník vládl špatně, a ať ti ukáže, jaký údaj z pramene by za ní mohl stát. Rozhodni, jestli z údaje ten závěr opravdu plyne."
+    },
+    {
+      "title": "Odpověď chatbota pod lupou",
+      "text": "Zeptej se chatbota na příčiny nějaké války a v jeho odpovědi označ, co je ověřitelný údaj a co jeho výklad. Údaje dohledej v učebnici nebo v encyklopedii."
+    }
+  ]
+}

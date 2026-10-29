@@ -1,0 +1,67 @@
+{
+  "outcome": "JJK-AJA-001-ZV9-004",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozumí základním instrukcím, pokud jsou jasně formulovány a doplněny vizuálními nebo jinými podpůrnými materiály.",
+      "cards": [
+        "anglicky-navod-a-recept-aja-pokyny"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Písemně nebo ústně prokáže porozumění.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozumí instrukcím na známá témata.",
+      "cards": [
+        "mluvene-pokyny-lekarna-aja-pokyny"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Písemně nebo ústně prokáže porozumění.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozumí daným instrukcím.",
+      "cards": [
+        "anglicky-navod-a-recept-aja-pokyny"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Písemně nebo ústně prokáže porozumění návodům a postupům podle zadání (např. seřadí instrukce podle správné posloupnosti, postupuje podle pokynů).",
+      "cards": [
+        "razeni-kroku-postupu-aja-pokyny"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozpozná téma krátkého psaného textu, který se týká osvojovaných témat.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "porozumeni-kratkemu-textu"
+        ]
+      }
+    }
+  ]
+}

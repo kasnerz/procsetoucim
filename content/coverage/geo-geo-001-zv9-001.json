@@ -1,0 +1,94 @@
+{
+  "outcome": "GEO-GEO-001-ZV9-001",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Čte mapu, a to jak vlastní mapové pole, tak legendu a měřítko, vyhledá mapu vhodnou vzhledem k účelu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "legenda-a-meritko"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Zorientuje mapu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "orientace-podle-mapy"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Orientuje se s pomocí papírové či elektronické mapy v prostoru.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "orientace-podle-mapy"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vyhledá a popíše s pomocí turistické mapy průběh určené trasy, popř. vybere konkrétní trasu na základě předem daných parametrů (nejkratší, nejrychlejší, nejmenší stoupání apod.).",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "planovani-trasy"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "popíše vlastnosti vybraných druhů map, mapám příbuzných znázornění (glóby, plány, letecké a satelitní snímky) a dalších zdrojů geografických dat a vysvětlí základní principy vizualizace prostorových dat v nich",
+      "cards": [
+        "druhy-map"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "kriticky vybírá tištěné i digitální mapy a další zdroje geografických dat vhodné pro daný účel a situaci",
+      "cards": [
+        "vyber-mapy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "čte, analyzuje a interpretuje obsah vybraných druhů map a dalších základních zdrojů geografických dat (leteckých a družicových snímků, glóbů, tabulek, grafů, souvislých textů, statistických ukazatelů) za účelem řešení různých geografických úloh",
+      "cards": [
+        "letecke-snimky",
+        "mapa-a-graf-z-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytváří jednoduché mapy a další vizualizace geografických dat (grafy, tabulky) a dokáže je číst, analyzovat a interpretovat.",
+      "cards": [
+        "mapa-a-graf-z-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Používá mapy k orientaci ve svém okolí.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "orientace-podle-mapy"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Doplnit číslo do řady jde i odhadem, ale říct, proč tam patří, znamená pravidlu opravdu rozumět. Když vysvětlíš „pokaždé přičítám tři“ nebo „dvě čísla se opakují pořád dokola“, umíš řadu prodloužit, jak daleko chceš, a poznáš, když někdo jiný udělá chybu. Na tomhle vysvětlování stavíš na druhém stupni a pak u rovnic. Hodí se i mimo matematiku, kdykoli máš druhým ukázat, proč něco platí, třeba spolužákovi u úkolu. Chatbot ti řekne, jestli tvé zdůvodnění drží, ale vymyslet ho svými slovy musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Pravidlo jednou větou",
+      "text": "Řekni rodiči nahlas, jaké pravidlo v řadě vidíš, a zapište ho spolu jednou větou. Chatbot ať posoudí, jestli by podle té věty řadu prodloužil i někdo jiný."
+    },
+    {
+      "title": "Špatné zdůvodnění k opravě",
+      "text": "Chatbot ať u jedné řady schválně napíše špatné zdůvodnění. Zkuste spolu najít, kde nesedí, a napište správné."
+    },
+    {
+      "title": "Dvě pravidla pro jednu řadu",
+      "text": "Zkuste s rodičem najít řadu, ke které sedí dvě různá pravidla, třeba 1, 2, 4. Obě pravidla vysvětlete chatbotovi a nechte ho ukázat, kde se řady rozejdou."
+    }
+  ]
+}

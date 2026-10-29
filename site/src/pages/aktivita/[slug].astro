@@ -1,0 +1,278 @@
+---
+// One activity = one A4 sheet: the RVP source, the simplified name, AI comment, tools, jobs and the numbers.
+import Base from "../../layouts/Base.astro";
+import Crumbs from "../../components/Crumbs.astro";
+import Icon from "../../components/Icon.astro";
+import Paper from "../../components/Paper.astro";
+import RvpSource from "../../components/RvpSource.astro";
+import Feedback from "../../components/Feedback.astro";
+import UseLevel from "../../components/UseLevel.astro";
+import AiLevel from "../../components/AiLevel.astro";
+import ToolMarks from "../../components/ToolMarks.astro";
+import Pie from "../../components/charts/Pie.astro";
+import Bars from "../../components/charts/Bars.astro";
+import Stack from "../../components/charts/Stack.astro";
+import {
+  activities, outcomes, occupations, measures, activityOccupations, jobNotes, relevance, TOOLS, VERDICT, VERDICT_ICON, ISCO1, EXPOSURE, activitiesFor,
+  subjectSlug, subjectIcon, outcomeSlug, pct, peopleAbout, CEDEFOP_CITE, AI_LEVEL_LEGEND, type Activity,
+} from "../../lib/data";
+const CEDEFOP_URL = CEDEFOP_CITE.split("Downloaded from: ")[1];
+
+export function getStaticPaths() {
+  return activities.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props as { a: Activity };
+const base = import.meta.env.BASE_URL;
+const o = outcomes[a.outcome];
+const m = measures[a.slug];
+const jobs = (m?.topOccupations ?? []).map((id) => occupations[id]).filter(Boolean).slice(0, 4);
+const notes = jobNotes(a.slug);
+const rel = relevance(a.slug);
+const allJobs = (activityOccupations[a.slug] ?? []).length;
+const share = (x: number) => pct(x, x < 0.1 ? 1 : 0);
+
+// Where the people who need it work: ISCO major groups as parts of that employment.
+const groups = m
+  ? Object.entries(m.byMajor ?? {})
+      .map(([k, v]) => ({ k, v: v / (m.employmentShare || 1) }))
+      .sort((x, y) => y.v - x.v)
+  : [];
+const shownGroups = groups.slice(0, 4);
+const restGroups = groups.slice(4).reduce((s, g) => s + g.v, 0);
+const groupRows = [
+  ...shownGroups.map((g) => ({ label: ISCO1[g.k] ?? g.k, value: g.v, display: pct(g.v) })),
+  ...(restGroups > 0.005 ? [{ label: "Ostatní", value: restGroups, display: pct(restGroups) }] : []),
+];
+const trendWords = m?.trendPct == null ? null : m.trendPct > 1.5 ? "spíš přibude" : m.trendPct < -1.5 ? "spíš ubude" : "zůstane zhruba stejně";
+
+// Later school topics: activities of outcomes that build on this one, else the outcome itself.
+const later = (o?.next ?? [])
+  .map((code) => outcomes[code])
+  .filter(Boolean)
+  .slice(0, 3)
+  .map((n) => {
+    const acts = activitiesFor(n.code);
+    return acts.length
+      ? { href: `${base}aktivita/${acts[0].slug}/`, label: acts[0].title, dist: n.stageLabel }
+      : { href: `${base}vystup/${outcomeSlug(n.code)}/`, label: n.text.replace(/\.\s*$/, ""), dist: n.stageLabel };
+  });
+
+const siblings = activitiesFor(a.outcome).filter((x) => x.slug !== a.slug);
+const crumbs = o
+  ? [
+      { label: o.subject.name, href: `${base}predmet/${subjectSlug(o.subject.code)}/` },
+      { label: `${o.stageLabel}${o.okruh ? ` · ${o.okruh.name}` : ""}` },
+    ]
+  : [];
+---
+<Base title={a.title} description={a.comment}>
+  <div class="wrap page">
+    <Crumbs items={crumbs} />
+
+    <Paper as="article" seed={`sheet/${a.slug}`} tilt={0.12} depth={4} class="sheet" tone="var(--paper-sheet)" aria-labelledby="h">
+      <button type="button" class="fb-corner" data-fb-open-for={a.slug} aria-label="Připomínka ke kartě" title="Připomínka ke kartě"><Icon name="square-pen" size="22" /></button>
+      <header class="sh-head">
+        <h1 id="h">{a.title}</h1>
+        <RvpSource a={a} />
+        {a.comment && (
+          <Paper seed={`comment/${a.slug}`} tilt={0.6} depth={3} class="comment">
+            <p class="c-head"><Icon name="lightbulb" size="20" /><span class="hl purple">Proč se to učíš</span></p>
+            <p class="c-text">{a.comment}</p>
+          </Paper>
+        )}
+      </header>
+
+      <div class="duo">
+        {m && (
+          <Paper as="section" kind="grid" seed={`num/${a.slug}`} tilt={0.3} class="nums" aria-labelledby="h-nums">
+            <h2 id="h-nums" class="sh-h"><Icon name="chart-bar" size="24" />Čísla</h2>
+            <div class="work-in">
+              <Pie value={m.employmentShare} seed={`pie/${a.slug}`} size={84} label={`${share(m.employmentShare)} pracujících v Česku`} />
+              <div>
+                <p class="big-num">{share(m.employmentShare)}</p>
+                <p class="small">pracujících v Česku má povolání, kde to podle ESCO patří k nezbytným dovednostem. {peopleAbout(m.employment).replace(/^asi/, "Asi").replace(/^méně/, "Méně")} lidí v {m.occupationCount.toLocaleString("cs-CZ")} povoláních.</p>
+              </div>
+            </div>
+            {groupRows.length > 0 && (
+              <div class="fig">
+                <h3>Kde ti lidé pracují</h3>
+                <Bars rows={groupRows} max={1} seed={`bars/${a.slug}`} label="Skupiny povolání podle CZ-ISCO" />
+              </div>
+            )}
+            {m.exposureMix && (
+              <div class="fig">
+                <h3>Jak jejich práci mění AI</h3>
+                <Stack segs={EXPOSURE.map((e) => ({ value: m.exposureMix![e.id], label: e.label, fill: e.fill }))} label="Podíl podle indexu ILO" />
+              </div>
+            )}
+            {trendWords && (
+              <div class="fig row">
+                <Icon name={m.trendPct > 1.5 ? "trending-up" : m.trendPct < -1.5 ? "trending-down" : "arrow-right"} size="28" />
+                <p class="small">Míst v těchto povoláních do roku 2035 {trendWords}. Náš orientační odhad z prognózy Cedefop pro celé skupiny povolání.</p>
+              </div>
+            )}
+            <div class="fig school">
+              <p><span class="big-num sm">{o?.graph.foundationCount ?? "–"}</span><span class="small">dalších cílů RVP na tom staví</span></p>
+              <p><span class="big-num sm">{o?.graph.transferCount ?? "–"}</span><span class="small">vazeb na klíčové kompetence a gramotnosti</span></p>
+            </div>
+          </Paper>
+        )}
+
+        <section class="box" aria-labelledby="h-jobs">
+          <h2 id="h-jobs" class="sh-h"><Icon name="users" size="24" />Kdo to využívá</h2>
+          {jobs.length > 0 ? (
+            <>
+              <ul class="jobs">
+                {jobs.map((j) => (
+                  <li>
+                    <Paper as="a" seed={`job/${a.slug}/${j.id}`} tilt={0.7} depth={3} href={`${base}povolani/${j.id}/`} class="job">
+                      <AiLevel occ={j} class="corner" />
+                      <span class="t">{j.label}</span>
+                      {rel[j.id] != null && <UseLevel value={rel[j.id]} />}
+                      {notes.notes[j.id] && <span class="note small">{notes.notes[j.id]}</span>}
+                    </Paper>
+                  </li>
+                ))}
+              </ul>
+              <p class="tiny soft jobs-foot">{(Object.keys(notes.notes).length > 0 || Object.keys(rel).length > 0) && <><Icon name="sparkles" size="14" class="ai-mark" /> {Object.keys(notes.notes).length > 0 && "Popisy napsala AI podle databáze ESCO. "}{Object.keys(rel).length > 0 && "Jak moc povolání dovednost využívá, odhadl AI model Jev. "}</>}{AI_LEVEL_LEGEND} <a href={`${base}aktivita/${a.slug}/povolani/`}>Všech {allJobs.toLocaleString("cs-CZ")} povolání</a></p>
+            </>
+          ) : <p class="small soft">Propojení s povoláními zatím počítáme.</p>}
+        </section>
+      </div>
+
+      <section class="box" aria-labelledby="h-tools">
+        <h2 id="h-tools" class="sh-h"><Icon name="ruler" size="24" />Nástroje</h2>
+        <ul class="tools">
+          {TOOLS.map((t) => {
+            const v = a.tools[t.id];
+            return (
+              <li>
+                <Icon name={t.icon} size="26" class="tool-icon" />
+                <span class="tool-name">{t.name}</span>
+                <span class={`verdict v-${v.verdict}`}><Icon name={VERDICT_ICON[v.verdict]} size="20" /><span>{VERDICT[v.verdict]}</span></span>
+                <span class="tool-why small soft">{v.why}</span>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      {a.learnWithAi.length > 0 && (
+        <section class="box" aria-labelledby="h-learn">
+          <h2 id="h-learn" class="sh-h"><Icon name="sparkles" size="24" />Jak se to učit s AI</h2>
+          <ul class="tips">
+            {a.learnWithAi.map((t, i) => (
+              <li>
+                <Paper seed={`tip/${a.slug}/${i}`} tilt={1.2} depth={3} tone="#fff" class="tip">
+                  {t.title && <h3 class="tip-t">{t.title}</h3>}
+                  <p>{t.text}</p>
+                </Paper>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {later.length > 0 && (
+        <section class="box" aria-labelledby="h-later">
+          <h2 id="h-later" class="sh-h"><Icon name="trending-up" size="24" />Co na tom stavíš dál</h2>
+          <ul class="later">
+            {later.map((l) => <li><a href={l.href}><Icon name="arrow-right" size="18" /><span>{l.label}</span></a> <span class="tiny soft">{l.dist}</span></li>)}
+          </ul>
+        </section>
+      )}
+
+      <Feedback a={a} />
+
+      <footer class="sh-foot tiny soft">
+        {/* Two lines only (user 2026-10-25): what AI wrote, and the sources. The Cedefop citation is in its short form
+            with the full text in the tooltip (docs/data-terms.md); the card's figures say they are our estimate. */}
+        <p id="pozn-ai" class="ai"><Icon name="sparkles" size="16" class="ai-mark" />Název, texty, hodnocení nástrojů a popisy povolání napsala AI ({(a.commentBy?.draftedBy ?? a.review.draftedBy).startsWith("claude") ? "Claude" : a.commentBy?.draftedBy}){a.review.reviewed ? " a zkontroloval je člověk" : ", člověk je zatím nezkontroloval"}. Čísla počítá program z dat.</p>
+        <p>Zdroje: RVP{o && <> (cíl <a href={`${base}vystup/${outcomeSlug(o.code)}/`} title={o.text}>{o.code}</a>)</>}, ESCO, ILO a <a href={CEDEFOP_URL} title={CEDEFOP_CITE}>Cedefop Skills Forecast 2026, Thessaloniki: Greece</a>. <a href={`${base}o-projektu/`}>O projektu</a></p>
+      </footer>
+    </Paper>
+
+    {siblings.length > 0 && (
+      <section class="col sib" aria-labelledby="h-sib">
+        <h2 id="h-sib" class="sib-h">Ke stejnému cíli patří</h2>
+        <Paper as="ul" kind="lined" seed={`sib/${a.slug}`} tilt={0.25} class="rows">
+          {siblings.map((s) => (
+            <li><a href={`${base}aktivita/${s.slug}/`}><span class="rname">{s.title}</span><span class="right"><ToolMarks a={s} /></span></a></li>
+          ))}
+        </Paper>
+      </section>
+    )}
+  </div>
+</Base>
+
+<style>
+  .page { display: grid; gap: var(--s5); }
+  .sheet { max-width: 920px; width: 100%; margin-inline: auto; padding: clamp(20px, 4vw, 44px) clamp(18px, 4.5vw, 52px) clamp(20px, 3vw, 32px); display: grid; gap: var(--s5); }
+  .fb-corner { position: absolute; top: clamp(12px, 2.4vw, 22px); right: clamp(12px, 2.6vw, 24px); z-index: 1; padding: 6px; border: 0; background: none; cursor: pointer; color: var(--ink-soft); }
+  .fb-corner:hover { color: var(--blue); }
+  .sh-head { display: grid; justify-items: center; text-align: center; gap: var(--s3); }
+  .sh-head h1 { font-size: calc(clamp(2.2rem, 5.4vw, 3.4rem) * var(--title-scale)); }
+  .comment { width: 100%; display: grid; gap: var(--s2); text-align: left; padding: var(--s4) var(--s5); margin-top: var(--s2); }
+  .c-head { display: flex; align-items: center; gap: 6px; font-family: var(--font-title); font-weight: var(--title-weight-small); font-size: calc(1.3rem * var(--title-scale)); }
+  .c-head :global(.icon) { color: var(--purple); }
+  .comment .c-head { font-size: calc(1.65rem * var(--title-scale)); }
+  .c-text { font-size: clamp(1.125rem, 2vw, 1.3125rem); line-height: 1.55; color: var(--ink); }
+  .tips { list-style: none; margin: var(--s2) 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: var(--s5) var(--s4); align-items: start; }
+  .tip { position: relative; padding: var(--s4) var(--s4) var(--s3); }
+  .tip p { line-height: 1.5; }
+  .tip-t { font-family: var(--font-title); font-weight: var(--title-weight-small); font-size: calc(1.3rem * var(--title-scale)); line-height: 1.1; margin-bottom: var(--s2); }
+
+  .duo { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)); gap: var(--s5) var(--s6); align-items: start; }
+  .box { display: grid; gap: var(--s2); align-content: start; min-width: 0; }
+  .sh-h {
+    display: flex; align-items: center; gap: var(--s2);
+    font-size: calc(1.4rem * var(--title-scale)); line-height: 1.1;
+    padding-bottom: 9px; background: var(--pen-stroke) left bottom / 74px 9px no-repeat;
+  }
+  .sh-h :global(.icon) { color: var(--purple); }
+  .work-in { display: flex; align-items: center; gap: var(--s4); }
+  .work-in > div { display: grid; gap: 2px; }
+
+  .jobs { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s3); }
+  .job { display: grid; gap: 2px; padding: 10px 14px 12px; }
+  .job :global(.ai-level.corner) { position: absolute; top: 12px; right: 14px; }
+  .job .t { padding-right: 4.6em; }
+  .job .t { font-family: var(--font-title); font-weight: var(--title-weight-small); font-size: calc(1.2rem * var(--title-scale)); line-height: 1.15; overflow-wrap: anywhere; }
+  .job .note { color: var(--ink); line-height: 1.45; }
+  .job .d { color: var(--ink-soft); font-weight: 600; }
+  .jobs-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+
+  .tools { list-style: none; margin: 0; padding: 0; display: grid; }
+  .tools li {
+    display: grid; grid-template-columns: 30px minmax(130px, 0.9fr) minmax(150px, 0.9fr) minmax(0, 2fr); gap: 2px var(--s3); align-items: center;
+    padding: 7px 0; border-bottom: 1.5px solid var(--rule);
+  }
+  .tools li:last-child { border-bottom: 0; }
+  .tools :global(.tool-icon) { color: var(--ink-soft); }
+  .tool-name { font-weight: 700; }
+  @media (max-width: 720px) {
+    .tools li { grid-template-columns: 30px minmax(0, 1fr); }
+    .tools li > .verdict, .tools li > .tool-why { grid-column: 2; }
+  }
+
+  .nums { padding: var(--s4) var(--s5) var(--s5); display: grid; gap: var(--s4); align-content: start; }
+  .fig { display: grid; gap: var(--s2); }
+  .fig h3 { font-family: var(--font-body); font-size: 0.875rem; font-weight: 700; }
+  .fig.row { grid-template-columns: auto 1fr; align-items: center; gap: var(--s3); }
+  .fig.row :global(.icon) { color: var(--blue); }
+  .school { grid-template-columns: 1fr 1fr; gap: var(--s3); }
+  .school p { display: grid; gap: 2px; }
+  .big-num.sm { font-size: calc(2rem * var(--title-scale)); color: var(--blue); }
+
+  .later { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s1); }
+  .later a { display: inline-flex; align-items: baseline; gap: 6px; font-weight: 600; text-decoration: none; }
+  .later a :global(.icon) { color: var(--red); align-self: center; }
+  .later a:hover span { text-decoration: underline; text-decoration-color: var(--blue); }
+
+  .sh-foot { display: grid; gap: var(--s1); padding-top: var(--s3); border-top: 1.5px dashed var(--line); }
+  .quote { overflow-wrap: anywhere; }
+  .ai :global(.icon) { margin-right: 4px; }
+
+  .sib { display: grid; gap: var(--s3); margin-top: var(--s5); }
+  .sib-h { font-size: calc(1.6rem * var(--title-scale)); text-align: center; }
+</style>

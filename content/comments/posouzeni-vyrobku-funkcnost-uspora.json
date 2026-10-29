@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Hotový výrobek posoudíš nejlíp, když ho vezmeš do ruky a vyzkoušíš: jestli police unese knihy, jestli nestojí nakřivo a kolik desky skončilo v odpadu. Z takového rozboru poznáš, co příště udělat jinak, třeba rozkreslit díly na desku těsněji vedle sebe. Stejně se na výrobky dívají lidé, kteří kontrolují kvalitu v továrnách, i ti, kdo dělají keramiku a zkoušejí, jestli hrnek dobře leží v ruce a neteče. Fotku výrobku chatbotovi ukázat můžeš, ale jestli spoj drží, zjistíš jen zkouškou.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k hotovému výrobku",
+      "text": "Požádej chatbota o seznam otázek, podle kterých se posuzuje funkčnost, vzhled a spotřeba materiálu. Na každou odpověz u svého výrobku a odpověď zdůvodni."
+    },
+    {
+      "title": "Úspornější rozvržení dílů",
+      "text": "Popiš chatbotovi rozměry desky a dílů, které z ní potřebuješ, a nech si navrhnout, jak je rozmístit s menším odpadem. Návrh překresli na papír a přeměř, v číslech se chatbot může splést."
+    },
+    {
+      "title": "Nápad na vylepšení",
+      "text": "Napiš chatbotovi, co se ti na výrobku nepovedlo, a nech ho navrhnout jiný materiál nebo postup. Vyber jeden návrh a vysvětli spolužákovi, proč by fungoval."
+    }
+  ]
+}

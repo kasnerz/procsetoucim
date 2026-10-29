@@ -1,0 +1,373 @@
+{
+  "outcome": "INF-INF-001-ZV5-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vzory-rytmus-symetrie-situace",
+      "title": "Vzory, rytmus a symetrie kolem nás",
+      "aliases": [
+        "vzory",
+        "rytmus",
+        "symetrie",
+        "co se opakuje",
+        "pravidelnost"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše pravidelnost, rytmus a symetrii při běžných činnostech."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Rozpozná vzory v běžných situacích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co je symetrie, a vymyslí ti vzory k hádání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázky symetrie a vzorů ti ukážou, co hledat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Hry na vzory a kreslicí aplikace zrcadlí tvar a ukážou osu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Zrcátko nebo papír přeložený napůl ti symetrii ukáže na vlastní oči."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109"
+      ],
+      "inspiration": [
+        "Rozkrojená jablka"
+      ]
+    },
+    {
+      "slug": "trideni-objektu-podle-kriteria",
+      "title": "Třídění věcí podle zadaného pravidla",
+      "aliases": [
+        "třídění",
+        "roztřiď podle",
+        "kritérium",
+        "skupiny věcí"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Roztřídí objekty podle daného kritéria."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Věci třídíš rukama a očima, chatbot je za tebe nepřeskládá."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Třídit předměty před sebou ti vyhledávač nepomůže."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Třídicí hry ti hned ukážou, jestli věc patří do skupiny."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky, kostky nebo krabičky si můžeš fyzicky přeskládat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109"
+      ],
+      "inspiration": [
+        "Safari"
+      ]
+    },
+    {
+      "slug": "podstatne-prvky-situace-pozorovani",
+      "title": "Podstatné a nepodstatné prvky situace",
+      "aliases": [
+        "co je důležité",
+        "prvky situace",
+        "podstatné věci",
+        "analýza situace",
+        "co si všimnout"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Pozoruje jednoduchou situaci a pojmenovává základní prvky, které v ní nalezne."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vybírá základní prvky, které jsou důležité pro řešení problému, s jednoduchým odůvodněním své volby."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná více prvků situace, popíše je, rozliší podstatné a nepodstatné prvky."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Určí klíčové prvky pro řešení problému a vysvětlí, proč jsou tyto prvky důležité."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti k příkladu situace položí otázky a řekne, co by ses mohl ptát dál."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam ukázky podobných situací a jejich rozboru."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti podstatné prvky určit nepomůže, rozhoduješ podle toho, co řešíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Všímat si a vybírat, na čem záleží, musíš ty, nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109",
+        "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c"
+      ],
+      "inspiration": [
+        "Rozkrojená jablka",
+        "Safari"
+      ]
+    },
+    {
+      "slug": "vztahy-mezi-prvky-situace",
+      "title": "Vztahy mezi prvky situace",
+      "aliases": [
+        "vztahy",
+        "větší a menší",
+        "blízko a daleko",
+        "co s čím souvisí",
+        "typy vztahů"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Popisuje základní vztahy mezi prvky (např. větší, menší, blízký, daleký) a uvede je v jednoduchém znázornění."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Určí a popíše různé typy vztahů mezi prvky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti na příkladu vysvětlí, jaké vztahy mezi věcmi mohou být."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky schémat a map vztahů ti pomůžou pochopit typy vztahů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na myšlenkové mapy ti vztahy spojí čarami a ukáže přehled."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vztahy mezi prvky zjišťuješ ve své situaci, pravítko ani kalkulačka je za tebe nenajde."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109",
+        "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8"
+      ],
+      "inspiration": [
+        "Safari"
+      ]
+    },
+    {
+      "slug": "volba-zpusobu-znazorneni",
+      "title": "Volba způsobu znázornění",
+      "aliases": [
+        "seznam nebo nákres",
+        "schéma",
+        "myšlenková mapa",
+        "jak to znázornit"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Volí jednoduchý způsob znázornění (např. nákres, seznam)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zvolí vhodný způsob znázornění situace – schéma, myšlenková mapa, a odůvodní svou volbu vzhledem k řešení problému."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot porovná seznam, schéma a mapu a poradí, co se kdy hodí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky schémat, tabulek a map ti ukážou, jak který způsob vypadá."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na schémata a mapy ti nechají zkusit víc způsobů."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Způsob volíš podle problému a odůvodňuješ ho ty, pravítko ti v tom nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513",
+        "http://data.europa.eu/esco/skill/50373f03-3e81-4d2e-99c6-d0f2ff42b138"
+      ],
+      "inspiration": [
+        "Můj školní den – vytvoř si svůj digitální rozvrh"
+      ]
+    },
+    {
+      "slug": "nakres-situace-oprava",
+      "title": "Nákres situace a jeho oprava",
+      "aliases": [
+        "nakresli situaci",
+        "nákres",
+        "schéma situace",
+        "oprava nákresu",
+        "zpřesnění"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Znázorňuje situace se všemi důležitými prvky a vztahy."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zpřesní znázornění situace a opraví chyby nebo nedostatky v původním znázornění."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot může zkontrolovat tvůj popis nákresu a říct, co chybí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Nákres své situace na internetu nenajdeš, kreslíš ho ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí aplikace nechá nákres snadno opravit a přesunout prvky."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, tužka a pravítko jsou na nákres i jeho opravu nejpřirozenější."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/50373f03-3e81-4d2e-99c6-d0f2ff42b138",
+        "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513"
+      ],
+      "inspiration": [
+        "Moje ráno",
+        "Můj školní den – vytvoř si svůj digitální rozvrh"
+      ]
+    },
+    {
+      "slug": "hodnoceni-znazorneni-problemu",
+      "title": "Co mi znázornění o problému řeklo",
+      "aliases": [
+        "vyhodnocení nákresu",
+        "co z nákresu vidím",
+        "porovnání schémat",
+        "zlepšení nákresu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vyhodnocuje porozumění problému na základě znázornění"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zhodnotí, jak různé způsoby znázornění přispívají k řešení problému a co by se dalo zlepšit."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti položí otázky k nákresu a pomůže najít, co zlepšit."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co vidíš ve svém nákresu, ti vyhledávač neřekne."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace ti dovolí vedle sebe porovnat dvě verze znázornění."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Závěr z vlastního nákresu vyvozuješ ty, klasický nástroj k tomu nic nepřidá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513"
+      ],
+      "inspiration": [
+        "Safari"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Popíše konkrétní situaci",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

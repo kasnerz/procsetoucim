@@ -1,0 +1,229 @@
+[
+  {
+    "slug": "tv-principy-fair-play-seznameni",
+    "title": "Principy fair play",
+    "aliases": [
+      "fair play",
+      "čestná hra",
+      "férové chování ve sportu",
+      "pravidla slušné hry"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Seznamuje se s principy fair play.",
+        "quote": "Seznamuje se s principy fair play."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Principy fair play - seznámení",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co fair play znamená, a navrhne příklady ze hry."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis zásad fair play a příběhy sportovců, kteří je dodrželi."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro seznámení se zásadami fair play žádná aplikace nic nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Míč ani píšťalka ti fair play nevysvětlí, zásady se řeší ve hře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/733db58b-f62e-4548-8078-b0f4e5182383"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-oprava-vlastniho-jednani-fairplaycz",
+    "title": "Oprava vlastního jednání při hře",
+    "aliases": [
+      "omluva při hře",
+      "chovat se fér",
+      "napravit chybu ve hře",
+      "slušné chování při sportu"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Koriguje své jednání v duchu fair play.",
+        "quote": "Koriguje své jednání v duchu fair play."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Barevná vybíjená",
+        "url": "https://uloziste.rvp.cz/material/89fc91"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Své jednání ve hře opravuješ ty na hřišti, chatbot u toho není."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové informace ti nepomohou změnit, jak se zrovna chováš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvé chování ve hře nevidí a neopraví."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj za tebe nezastaví nefér jednání, to děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/733db58b-f62e-4548-8078-b0f4e5182383"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-ohled-na-ruzne-dovednosti-fairplaycz",
+    "title": "Ohled na dovednosti a zájmy spolužáků",
+    "aliases": [
+      "pomoc slabšímu spoluhráči",
+      "povzbuzení ve hře",
+      "různá výkonnost ve sportu",
+      "respekt ke spolužákům při tělocviku"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Jedná v duchu fair play, včetně respektu k ostatním žákům.",
+        "quote": "Jedná v duchu fair play, včetně respektu k ostatním žákům."
+      },
+      {
+        "level": "Splněno",
+        "point": "Respektuje pohybové dovednosti, předpoklady a zájmy ostatních.",
+        "quote": "Respektuje pohybové dovednosti, předpoklady a zájmy ostatních."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Uvědomuje si rozdílnost pohybových dovedností, předpokladů a zájmů ostatních.",
+        "quote": "Uvědomuje si rozdílnost pohybových dovedností, předpokladů a zájmů ostatních."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Přehazovaná – fair play",
+        "url": "https://uloziste.rvp.cz/material/4adee8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Spolužáky vnímáš a povzbuzuješ ty přímo ve hře, chatbot to nezvládne."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co který spolužák ve sportu zvládá, zjistíš jen společným hraním."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe spolužáka nepovzbudí ani mu neporadí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Respekt ke spolužákům se nedá změřit ani zahrát, projevuješ ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ece81686-331c-4381-bf3f-5ea610d47a7f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tv-hodnoceni-jednani-v-utkani-fairplaycz",
+    "title": "Hodnocení svého jednání i jednání ostatních při utkání",
+    "aliases": [
+      "rozbor hry",
+      "zhodnotit utkání",
+      "kdo hrál fér",
+      "reflexe po sportu"
+    ],
+    "outcome": "CZB-TEV-002-ZV5-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí své jednání i jednání dalších účastníků při utkání, soutěži, společné činnosti.",
+        "quote": "Zhodnotí své jednání i jednání dalších účastníků při utkání, soutěži, společné činnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Principy fair play - reflexe",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Utkání zažili jen vy se spolužáky, chatbot ho neviděl."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Na webu o vaší hře nic není, hodnotíš ji ze svého zážitku."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nevidí, kdo se choval fér, to posoudíš ty se třídou."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Píšťalka ani stopky nehodnotí chování, hodnotíš ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/de1d76d0-6fa2-488f-a65a-007c22384ba2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

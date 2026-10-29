@@ -1,0 +1,362 @@
+{
+  "outcome": "INF-INF-004-ZV5-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pripojena-zarizeni-sit-internetove-zarizeni",
+      "title": "Zařízení připojená k internetu",
+      "aliases": [
+        "co je připojené k internetu",
+        "mobil tablet počítač",
+        "wifi",
+        "počítač v síti",
+        "chytrá zařízení"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozpoznává základní digitální zařízení, která jsou připojena k internetu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše zařízení, která obsahují počítač"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí, která zařízení se připojují k internetu, a vymyslí ti kvíz."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popis a obrázky zařízení, která jsou v síti, třeba chytrých hodinek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace v domácí síti ti ukáže seznam připojených zařízení."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani kalkulačka ti o připojení k síti nic neřeknou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/debef2fc-7af4-4bff-ac92-4d0317915a84",
+        "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0"
+      ],
+      "inspiration": [
+        "Jeden cloud nebo mraky počítačů"
+      ]
+    },
+    {
+      "slug": "online-offline-prostredi-vyhody-nevyhody",
+      "title": "Online a offline prostředí",
+      "aliases": [
+        "online a offline",
+        "bez internetu",
+        "s internetem",
+        "práce bez připojení",
+        "výhody a nevýhody internetu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozpoznává základní rozdíl mezi online a offline prostředím"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí výhody a nevýhody práce v online a offline prostředí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot probere s tebou, co se při práci bez internetu dá a co ne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vysvětlení rozdílu a příklady, kdy se hodí které prostředí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Textový editor v počítači a sdílený dokument ti rozdíl ukážou na vlastní práci."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír ti rozdíl mezi online a offline neukážou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/debef2fc-7af4-4bff-ac92-4d0317915a84",
+        "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0"
+      ]
+    },
+    {
+      "slug": "hledani-a-ukladani-dat-ze-site-zdroje",
+      "title": "Hledání a ukládání dat z internetu",
+      "aliases": [
+        "hledání obrázků",
+        "stažení z internetu",
+        "uložit obrázek",
+        "uvádění zdrojů",
+        "najít informace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vyhledává data na internetu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Využívá data získaná z internetu k další práci a uvádí zdroje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot poradí, jak hledat a jak zapsat, odkud data jsou, ale ověřit zdroj musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač a encyklopedie ti dají data a zdroj, který zapíšeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prohlížeč a správce souborů ti pomůžou data stáhnout a uložit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani tužka z internetu nic nevyhledají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/611ed16b-99bf-4840-9cab-f55d1d286e0a",
+        "http://data.europa.eu/esco/skill/debef2fc-7af4-4bff-ac92-4d0317915a84"
+      ],
+      "inspiration": [
+        "Počasí v Česku – plánujeme výlet"
+      ]
+    },
+    {
+      "slug": "uprava-ulozenych-dat-vlozeni-obrazku",
+      "title": "Úprava uložených dat",
+      "aliases": [
+        "vložit obrázek do dokumentu",
+        "upravit obrázek",
+        "úprava souboru",
+        "práce s dokumentem",
+        "kopírovat a vložit"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Upravuje získaná a uložená data"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Upravuje data prostřednictvím digitálních nástrojů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí postup, třeba jak vložit obrázek do textu, a řekne, kde klikat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš návod s obrázky ke konkrétnímu programu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Textový editor a kreslicí program data upravíš a hned vidíš výsledek."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a nůžky data v počítači neupraví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/611ed16b-99bf-4840-9cab-f55d1d286e0a"
+      ]
+    },
+    {
+      "slug": "sdileni-dat-email-sdilene-dokumenty",
+      "title": "Sdílení dat e-mailem a ve sdílených dokumentech",
+      "aliases": [
+        "poslat e-mail",
+        "sdílený dokument",
+        "poslat soubor",
+        "odeslat přílohu",
+        "sdílení přes cloud"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sdílí jednoduché informace pomocí základních digitálních nástrojů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Sdílí data prostřednictvím digitálních nástrojů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí, jak e-mail poslat a jak nastavit sdílení, odeslat ho musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš návod a pravidla slušného e-mailu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "E-mailový program a sdílený dokument ti umožní data skutečně poslat."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka data po síti neposlou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/debef2fc-7af4-4bff-ac92-4d0317915a84",
+        "http://data.europa.eu/esco/skill/81dc035c-921b-4fea-a453-94538e86097c"
+      ],
+      "inspiration": [
+        "Informační lístek"
+      ]
+    },
+    {
+      "slug": "misto-ulozeni-dat-disk-cloud-zaloha",
+      "title": "Kam ukládat data",
+      "aliases": [
+        "cloudové úložiště",
+        "disk počítače",
+        "záloha dat",
+        "flash disk",
+        "uložení souborů"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Popisuje základní možnosti uložení dat"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovná na základě kritérií možnosti uložení dat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot s tebou porovná disk, flash disk a cloud podle kritérií a zeptá se na tvůj případ."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš srovnání úložišť a rady, jak data zálohovat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Cloudové úložiště a zálohovací program si můžeš rovnou vyzkoušet."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka ti na srovnání úložišť nepomůžou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/611ed16b-99bf-4840-9cab-f55d1d286e0a",
+        "http://data.europa.eu/esco/skill/cf3e976d-2c3e-495c-a874-f9e8a66d3b48",
+        "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0"
+      ],
+      "inspiration": [
+        "Jeden cloud nebo mraky počítačů"
+      ]
+    },
+    {
+      "slug": "prinosy-rizika-digitalnich-technologii-stopa",
+      "title": "Přínosy a rizika digitálních technologií",
+      "aliases": [
+        "je internet bezpečný",
+        "digitální stopa",
+        "rizika internetu",
+        "k čemu je technologie",
+        "výhody a nevýhody"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rozlišuje přínosy a rizika používání digitálních technologií"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot s tebou probere příklady přínosů a rizik a zeptá se na tvůj názor."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš články a rady o bezpečnosti na internetu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti rizika neukážou, o přínosech a rizicích přemýšlíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k tomu nic užitečného nenabídne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/debef2fc-7af4-4bff-ac92-4d0317915a84"
+      ],
+      "inspiration": [
+        "Digitální stopa"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Používá digitální technologie připojené k síti",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

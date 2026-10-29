@@ -1,0 +1,54 @@
+{
+  "outcome": "JJK-DCJ-004-ZV9-009",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "- identifikuje klíčové pokyny ve čteném nebo mluveném textu, například při poslechu nebo čtení textu zjistí hlavní pokyny týkající se časů a míst a sdělí je okolí",
+      "cards": [
+        "hlavni-pokyny-cas-misto-mediace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "- zprostředkuje jednoduché instrukce ostatním",
+      "cards": [
+        "predani-pokynu-cas-misto-mediace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "- představí získaná data a údaje z přečteného nebo vyslechnutého textu, například přetlumočí pokyn o čase a místě v rámci jednoduchého sdělení",
+      "cards": [
+        "hlavni-pokyny-cas-misto-mediace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "- zjednodušeně sdělí pokyny mezi dvěma různými jazyky, například přeloží a sdělí základní instrukce ze zadání ostatním",
+      "cards": [
+        "prevod-pokynu-mezi-jazyky-mediace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Sdělí základní informace a pokyny s ohledem na čas a místo, vytvoří jednoduchý plán nebo přehled na základě informací z několika zdrojů.",
+      "cards": [
+        "predani-pokynu-cas-misto-mediace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zprostředkuje pokyny a instrukce včetně případného překladu vybraných slov a frází mezi jazyky, kde pokyny musí být přizpůsobené konkrétním potřebám a kontextu.",
+      "cards": [
+        "prevod-pokynu-mezi-jazyky-mediace"
+      ],
+      "aside": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "V každém skutečném textu narazíš na slova, která neznáš, a slovník nemáš vždycky po ruce. Kdo umí odhadnout význam z okolních slov nebo z podobnosti s češtinou, čte dál a nezasekne se u každého slova. Odhad pak stačí rychle ověřit ve slovníku nebo překladači, a právě tohle pořadí se tu učíš: nejdřív hádat, potom ověřit. Překladač by ti dal odpověď hned, ale bez odhadování se plynule číst nenaučíš. Stejně odhaduješ i neznámá slova v češtině, třeba v článku o vesmíru.",
+  "learnWithAi": [
+    {
+      "title": "Těžká slova velkými písmeny",
+      "text": "Poproste chatbota o pět anglických vět, ve kterých je jedno těžší slovo napsané velkými písmeny. Zkus význam uhodnout podle věty a pak si nechte říct, jestli sedí."
+    },
+    {
+      "title": "Odhady slov z komiksu nebo písničky",
+      "text": "Vyberte spolu anglický komiks nebo písničku a vypište tři neznámá slova i s vlastním odhadem. Chatbot pak řekne, které odhady sedí."
+    },
+    {
+      "title": "Vlastní odhady u textu z učebnice",
+      "text": "Vložte do chatbota krátký text z učebnice a ptejte se jen na slova, u kterých už máte vlastní odhad. Chatbot ho potvrdí nebo opraví a vysvětlí, z čeho se to dalo poznat."
+    }
+  ]
+}

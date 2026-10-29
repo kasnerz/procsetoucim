@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "V dlouhém příkladu se zlomky, desetinnými čísly a mocninami rozhoduje pořadí operací: stejná čísla dají jiný výsledek, když začneš sčítat místo násobit. Stejná pravidla platí všude, kde se píše vzorec, ve fyzice stejně jako v tabulkovém procesoru. Vědecká kalkulačka nebo aplikace s řešením po krocích příklad spočítá, jenže stačí vynechat závorku a vyjde něco jiného. Ručně tak dlouhé příklady mimo školu počítá málokdo, lidé, kteří zadávají vzorce do počítače, třeba při výpočtu pevnosti materiálu, ale musí poznat, jestli výsledek dává smysl.",
+  "learnWithAi": [
+    {
+      "title": "Řešení po krocích se závorkami",
+      "text": "Požádej chatbota o tři příklady se závorkami a mocninami. Vyřeš je na papíře a každý svůj krok porovnej s jeho řešením po krocích."
+    },
+    {
+      "title": "Chyba v pořadí operací",
+      "text": "Pošli chatbotovi svůj postup u příkladu, který nevyšel, a ať najde krok, kde se pokazilo pořadí operací. Opravu udělej ty a výsledek ověř kalkulačkou, chatbot v delších výpočtech chybuje."
+    },
+    {
+      "title": "Příklad se závorkou a bez ní",
+      "text": "Vymysli příklad, který dá jiný výsledek se závorkou a bez ní, a dej ho chatbotovi vyřešit. Zkontroluj, jestli pořadí operací dodržel."
+    }
+  ]
+}

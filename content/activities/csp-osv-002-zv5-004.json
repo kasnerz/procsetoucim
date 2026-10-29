@@ -1,0 +1,483 @@
+[
+  {
+    "slug": "emoce-sve-i-cizi-a-jejich-pricina",
+    "title": "Emoce své i druhých a jejich příčiny",
+    "aliases": [
+      "pocity",
+      "jak se cítím",
+      "emoce",
+      "nálada",
+      "proč se tak cítím"
+    ],
+    "outcome": "CSP-OSV-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná základní emoce a potřeby své i druhých lidí.",
+        "quote": "Rozpozná základní emoce a potřeby své i druhých lidí."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Poznává základní emoce a jejich projevy u sebe a druhých.",
+        "quote": "Poznává základní emoce a jejich projevy u sebe a druhých."
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelových situacích rozpozná a pojmenuje své emoce a vysvětlí možné příčiny toho, proč se tak může cítit.",
+        "quote": "V modelových situacích rozpozná a pojmenuje své emoce a vysvětlí možné příčiny toho, proč se tak může cítit."
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelových situacích pojmenuje možné emoce druhých lidí a pravděpodobné příčiny toho, proč se tak mohou cítit.",
+        "quote": "V modelových situacích pojmenuje možné emoce druhých lidí a pravděpodobné příčiny toho, proč se tak mohou cítit."
+      },
+      {
+        "level": "Na cestě",
+        "point": "V modelových situacích rozpozná a pojmenuje své emoce a vysvětlí možné příčiny toho, proč se tak může cítit.",
+        "quote": "V modelových situacích rozpozná a pojmenuje své emoce a vysvětlí možné příčiny toho, proč se tak může cítit."
+      },
+      {
+        "level": "Na cestě",
+        "point": "V modelových situacích popíše, jaké emoce mohou jejich aktéři pociťovat.",
+        "quote": "V modelových situacích popíše, jaké emoce mohou jejich aktéři pociťovat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Odečet nálady",
+        "url": ""
+      },
+      {
+        "title": "Emoce na obrázku",
+        "url": ""
+      },
+      {
+        "title": "Kufřík emocí a potřeb",
+        "url": "https://uloziste.rvp.cz/material/195870"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí příběhy ke zkoumání a vysvětlí, co emoce znamená."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu seznamy emocí a popis, jak se projevují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Deníček nálad ti pomůže pojmenovat, jak se cítíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kartičky s obličeji emocí ti pomohou pocity pojmenovat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "emoce-co-je-vyvolava",
+    "title": "Co v nás vyvolává emoce",
+    "aliases": [
+      "proč se zlobím",
+      "co mě rozčílí",
+      "vzpomínky a pocity",
+      "spouštěče emocí"
+    ],
+    "outcome": "CSP-OSV-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Poznává, jaké vnitřní podněty (myšlenky, vzpomínky aj.) a vnější podněty (situace, předměty, místa aj.) mohou vyvolávat emoce.",
+        "quote": "Poznává, jaké vnitřní podněty (myšlenky, vzpomínky aj.) a vnější podněty (situace, předměty, místa aj.) mohou vyvolávat emoce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Obraz mého dne",
+        "url": "https://uloziste.rvp.cz/material/ebb291"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak myšlenky a situace mění pocity, a dá příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis, co emoce spouští."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace nepozná, co v tobě vyvolává emoce."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Co tě rozčílí nebo potěší, zjistíš jen sledováním sebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "emoce-potreby-ve-skole-i-doma",
+    "title": "Moje potřeby ve škole i mimo ni",
+    "aliases": [
+      "co potřebuju",
+      "potřeby",
+      "základní potřeby",
+      "co mi chybí"
+    ],
+    "outcome": "CSP-OSV-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Poznává základní lidské potřeby.",
+        "quote": "Poznává základní lidské potřeby."
+      },
+      {
+        "level": "Splněno",
+        "point": "Na příkladech konkrétních situací spojených se školním i mimoškolním prostředím pojmenuje své potřeby.",
+        "quote": "Na příkladech konkrétních situací spojených se školním i mimoškolním prostředím pojmenuje své potřeby."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kufřík emocí a potřeb",
+        "url": "https://uloziste.rvp.cz/material/195870"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jaké potřeby lidé mají, a dá příklady situací."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu přehled základních lidských potřeb."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti neřekne, co potřebuješ ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kartičky s potřebami ti pomohou vybrat tu, která platí pro tebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "emoce-zvladani-hnevu-a-napeti",
+    "title": "Techniky zvládání emocí",
+    "aliases": [
+      "jak se uklidnit",
+      "hněv",
+      "zlost",
+      "nadechnout se",
+      "stop technika"
+    ],
+    "outcome": "CSP-OSV-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím naučených technik reguluje projevy svých emocí v běžných situacích ve školním prostředí.",
+        "quote": "S využitím naučených technik reguluje projevy svých emocí v běžných situacích ve školním prostředí."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Poznává různé techniky regulace projevů emocí.",
+        "quote": "Poznává různé techniky regulace projevů emocí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak na hněv",
+        "url": ""
+      },
+      {
+        "title": "STOP v nepříjemných situacích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí techniky uklidnění a navrhne, kterou zkusit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popisy technik, třeba dýchání do klidu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s dechovým cvičením ti dává rytmus nádechu a výdechu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Uklidnit se musíš ty, žádný předmět to za tebe neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7a147904-22b3-498a-b4d9-7bceeb86b45d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "emoce-vhodne-nacasovani-potreb",
+    "title": "Vhodný a nevhodný způsob, jak naplnit potřebu",
+    "aliases": [
+      "kdy o něco říct",
+      "jak požádat",
+      "scénka",
+      "slušně si říct"
+    ],
+    "outcome": "CSP-OSV-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "V modelových situacích předvede vhodný a nevhodný způsob a načasování naplňování vlastních potřeb ve školním prostředí.",
+        "quote": "V modelových situacích předvede vhodný a nevhodný způsob a načasování naplňování vlastních potřeb ve školním prostředí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Dárek",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Scénku předvádíš před lidmi ty, chatbot za tebe nezahraje."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Vhodné načasování v dané třídě ve vyhledávači nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvoji scénku nezahraje ani neposoudí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Scénku zahraješ jen ty a spolužáci."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "emoce-jak-naplnit-potreby-svoje-i-cizi",
+    "title": "Jak naplnit potřeby své i druhých",
+    "aliases": [
+      "co můžu udělat já",
+      "pomoc druhým",
+      "diskuse o potřebách",
+      "co udělají druzí"
+    ],
+    "outcome": "CSP-OSV-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Diskutuje o tom, jak lze naplňovat vlastní potřeby a potřeby druhých lidí ve školním i mimoškolním prostředí (co pro to může udělat žák sám a co pro to mohou udělat druzí).",
+        "quote": "Diskutuje o tom, jak lze naplňovat vlastní potřeby a potřeby druhých lidí ve školním i mimoškolním prostředí"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Navrhuje příklady toho, co přispívá k naplňování jeho základních potřeb ve školním a mimoškolním prostředí (co může udělat žáka a co mohou udělat druzí).",
+        "quote": "Navrhuje příklady toho, co přispívá k naplňování jeho základních potřeb ve školním a mimoškolním prostředí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne nápady, co zkusit a co čekat od druhých, vybíráš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu příklady, jak lidé řeší různé potřeby."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s tebou o potřebách nepohovoří a nic nenavrhne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ s lidmi a žádný nástroj to nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "emoce-empaticke-naslouchani",
+    "title": "Empatické naslouchání",
+    "aliases": [
+      "umět naslouchat",
+      "poslouchat kamaráda",
+      "empatie",
+      "vcítit se"
+    ],
+    "outcome": "CSP-OSV-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zkouší si v modelových situacích empatické naslouchání.",
+        "quote": "Zkouší si v modelových situacích empatické naslouchání."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Empatie a naslouchání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak naslouchat, a dá věty, kterými ukážeš zájem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis, jak vypadá dobré naslouchání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Naslouchat druhému člověku musíš ty, aplikace to nezvládne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Naslouchání zkoušíš s lidmi a nástroj ti nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "emoce-bezpecne-prostredi-ve-tride",
+    "title": "Bezpečné prostředí ve škole",
+    "aliases": [
+      "bezpečná třída",
+      "jak být ohleduplný",
+      "dobrá třída",
+      "klima třídy"
+    ],
+    "outcome": "CSP-OSV-002-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše, jak konkrétně může přispívat k vytváření bezpečného školního prostředí.",
+        "quote": "Popíše, jak konkrétně může přispívat k vytváření bezpečného školního prostředí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá příklady, čím může žák přispět, a ty je porovnáš se svými."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis, co dělá třídu bezpečnou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nenavrhne, co můžeš udělat ve své třídě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ve třídě se chováš ty, žádný předmět ti nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

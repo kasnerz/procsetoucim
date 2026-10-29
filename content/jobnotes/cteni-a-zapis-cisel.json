@@ -1,0 +1,21 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "6353b3e8-e8f2-4ecb-b230-186927139892": "Hlavní práce je opisovat a zadávat údaje, kde spočítat nic nemusí. Číslo ale musí přečíst správně a nezaměnit řády, protože nula navíc změní celý údaj.",
+  "699057b7-7aeb-4b5c-bb90-01d935ff32c1": "Obsluhuje stroj v lese a počítá hlavně délky kmenů a množství dřeva. Čísla na displeji a v zakázce musí číst a zapsat přesně, aby sedělo, co se vytěžilo.",
+  "5f68c4c3-9d25-48e2-8efc-5471a80fb155": "Při stavbě silnice zná tloušťky vrstev, množství materiálu a rozměry. Čísla v plánu musí správně přečíst, ať se nepoloží vrstva o řád tenčí.",
+  "2edd910a-e53e-44ee-b8c2-09e9f9d0395b": "Většinou obsluhuje lis a čísla potřebuje málo, třeba teplotu nebo čas. Číst a zapsat je ale musí správně, jinak může oblečení zničit.",
+  "73d77554-2016-46fa-ac3d-44a02e8d1a89": "Čte z plánu hloubky výkopu, průměry a délky potrubí a zapisuje měření. Zaměnit řády tady znamená vykopat jinou rýhu, než jaká má být.",
+  "ef53663e-c295-43a4-a48e-84254270b138": "Počítá s délkami potrubí, rozestupy a množstvím vody. Údaje z plánu musí číst přesně, protože chyba v řádu se projeví na celé soustavě.",
+  "41beead9-98ad-4c89-b6e0-a14149f4eeab": "Čte údaje na stojanu a na pokladně, kolik se natankovalo a za kolik. Čísla musí přečíst a zapsat přesně, aby zákazník zaplatil správnou částku.",
+  "2b871272-bd61-4206-bd1a-0b96d7023098": "U pokladny čte ceny a částky a vrací peníze. Rozpozná, že 1 250 a 12 500 se liší, a hlídá, aby zákazník zaplatil to, co má.",
+  "2bdf0696-776c-47e6-9259-6460af224dac": "Na měřidle se čte číslo po číslici a zapisuje se do záznamu. Jedna prohozená číslice změní spotřebu o stovky jednotek, proto záleží na pozici každé z nich.",
+  "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81": "Částky v různých měnách se čtou a zapisují do záznamů o transakcích. Číslice na špatném místě změní hodnotu o desítky nebo stovky, takže pozice tu hraje hlavní roli.",
+  "961cbd1f-2a9b-4756-b227-67a1c23c94b6": "Při směně žetonů a vyplácení výher se částky čtou a zapisují přesně. Zápis 1 050 místo 10 500 by znamenal velkou ztrátu.",
+  "0cca32c2-9308-4927-adb2-14771ab787f0": "Rozpočet stavby je soupis částek od drobných po miliony. Kdo ho sestavuje, musí hned vidět, kolik nul číslo má, a správně je zapsat.",
+  "9a99a5fe-875d-49b2-9b53-cc1b73be1659": "U přepážky se čtou a zapisují ceny jízdenek, tržby i čísla vozů a sedadel. Denní výkaz tržeb musí souhlasit s číslem na pokladně.",
+  "bafbc672-0ad9-41af-9de8-db0c91a24f9b": "Na fakturách a dobropisech jsou částky a čísla dokladů, které se musí přepsat bez chyby. Přehozená číslice znamená špatnou platbu.",
+  "04f39bfa-bc03-4480-98bc-b18ce4fe4b4b": "Účetní závěrka se skládá z mnoha velkých čísel. Čtení a zápis čísel je tu základ, řízení účetních činností to ale z velké části přesahuje."
+ }
+}

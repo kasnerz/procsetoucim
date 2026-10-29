@@ -1,0 +1,262 @@
+{
+  "outcome": "MAT-MAT-001-ZV5-002",
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "spravedlive-deleni",
+      "title": "Spravedlivé dělení na stejné části",
+      "aliases": [
+        "dělení na stejné díly",
+        "rozdělit čokoládu",
+        "rozdělit pizzu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rozděluje spravedlivě různé celky na stejné části (např. rozděluje koláč, tyč, čokoládu, lentilky, mince)."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Pojmenuje části spravedlivého dělení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí úlohy na dělení a zkontroluje, jak vychází tvoje řešení."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tady nic hledat nepotřebuješ."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Koláč nebo tyč rozdělíš rukama, aplikace to za tebe nepřekreslí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítkem rozdělíš tyč a váhou ověříš, že jsou díly stejné."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+      ],
+      "inspiration": [
+        "Spravedlivé dělení"
+      ]
+    },
+    {
+      "slug": "kmenove-zlomky",
+      "title": "Polovina, třetina, čtvrtina",
+      "aliases": [
+        "kmenové zlomky",
+        "polovina",
+        "třetina",
+        "čtvrtina",
+        "zlomek"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Modeluje slovně vyjádřený kmenový zlomek (polovina, třetina, čtvrtina…)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Porovná kmenové zlomky vyjádřené slovně nebo modelem."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zapíše kmenový zlomek pomocí čísel."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Modeluje zlomky, které lze snadno vyjádřit jako části celku, a používá je v běžných situacích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí polovinu, třetinu a čtvrtinu na příkladech a zadá další."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš obrázky dílů a vysvětlení, jak se zlomek čte."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s obrázky zlomků ukáže, jak vypadá třetina."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Přeložený papír a pravítko ukážou polovinu i čtvrtinu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Vaříme se zlomky"
+      ]
+    },
+    {
+      "slug": "nekmenove-zlomky",
+      "title": "Zlomky z více dílů: model a zápis",
+      "aliases": [
+        "nekmenové zlomky",
+        "tři čtvrtiny",
+        "dvě pětiny",
+        "zápis zlomku",
+        "čitatel jmenovatel"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Modeluje a pojmenuje části celku nekmenovými zlomky."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zapíše nekmenový zlomek pomocí čísel."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí čitatele a jmenovatele a zadá další zlomky k zapsání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázky zlomků a vysvětlení najdeš snadno."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace zlomek ukáže na obrázku a hned řekne, jestli sedí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj zlomek nezapíše ani nepojmenuje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+      ],
+      "inspiration": [
+        "Porovnáváme zlomky pomocí obrázku"
+      ]
+    },
+    {
+      "slug": "porovnavani-zlomku",
+      "title": "Porovnávání zlomků",
+      "aliases": [
+        "který zlomek je větší",
+        "porovnání zlomků",
+        "nekmenové zlomky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Porovná nekmenové zlomky vyjádřené modelem, slovně nebo číselně."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovnává nekmenové zlomky zapsané číselně a sčítá je pomocí modelů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč je pětina menší než čtvrtina, a zkontroluje tvé pořadí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tady nic hledat nepotřebuješ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s obrázky zlomků ukáže, který díl je větší."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka zlomky převede na desetinná čísla, takže ověříš své pořadí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Porovnávání zlomků vyjádřených modelem",
+        "Porovnáváme zlomky pomocí obrázku"
+      ]
+    },
+    {
+      "slug": "slovni-ulohy-se-zlomky",
+      "title": "Slovní úlohy se zlomky",
+      "aliases": [
+        "zlomky ve slovních úlohách",
+        "kolik zbyde čokolády"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Řeší jednoduché slovní úlohy s kmenovými zlomky vyjádřenými slovně a využívá k tomu vhodné modely."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší jednoduché slovní úlohy se zlomky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá podobné úlohy a vysvětlí krok, který ti nejde."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoje konkrétní situace na internetu není."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace zadání nepřevede, zlomek z něj musíš vyčíst ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ověří výpočet, když víš, co zadat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": [
+        "Dělíme se o čokoládu nebo o pizzu"
+      ]
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

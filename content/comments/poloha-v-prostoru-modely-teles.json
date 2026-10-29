@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Vpravo, vlevo, vpředu a vzadu potřebuješ, kdykoli někomu vysvětluješ cestu nebo skládáš stavebnici podle návodu. Stavění z krychlí tě učí představit si věc i z té strany, kterou zrovna nevidíš, a na tom staví další učivo geometrie. Nejvíc tu pomůžou kostky v ruce a aplikace, ve které stavbu otočíš, protože chatbot tvůj model nevidí. S prostorovou představou pracuje každý den, kdo montuje karoserie aut a letadla nebo řídí dron a musí odhadnout, co je za překážkou.",
+  "learnWithAi": [
+    {
+      "title": "Stavba podle slovního popisu",
+      "text": "Poproste s rodičem chatbota o popis jednoduché stavby, třeba tři kostky v řadě a na prostřední jedna navrchu. Postav ji z kostek a zkontrolujte, jestli sedí."
+    },
+    {
+      "title": "Pohled z druhé strany",
+      "text": "Požádejte chatbota o otázky typu: Co uvidíš, když stavbu obejdeš dozadu? Odpovídej nejdřív z hlavy a pak stavbu otoč a ověř to."
+    },
+    {
+      "title": "Popis vlastní stavby",
+      "text": "Zkuste s rodičem tohle: postav stavbu ze čtyř kostek, popiš ji chatbotu slovy vpravo, vlevo, nahoře a vzadu a nech ho, ať ji popíše po svém. Porovnejte, jestli myslí stejnou stavbu."
+    }
+  ]
+}

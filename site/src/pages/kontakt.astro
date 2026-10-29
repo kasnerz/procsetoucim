@@ -1,0 +1,22 @@
+---
+import Base from "../layouts/Base.astro";
+import Paper from "../components/Paper.astro";
+import ContactForm from "../components/ContactForm.astro";
+---
+<Base title="Kontakt" description="Dotaz, chyba, nápad nebo pochvala k webu Proč se to učím?">
+  <div class="wrap page">
+    <section class="lead col">
+      <h1>Kontakt</h1>
+      <p>Sem nám můžeš k webu napsat cokoli: dotaz, chybu, nápad nebo pochvalu. Připomínku k jedné kartě pošli radši přímo z ní tlačítkem „Připomínka ke kartě“. Uvidíme pak, ke které kartě patří, a text na ní můžeš rovnou přepsat.</p>
+    </section>
+    <Paper seed="kontakt/form" tilt={0.3} class="sheet">
+      <ContactForm />
+    </Paper>
+  </div>
+</Base>
+<style>
+  .page { display: grid; gap: var(--s6); }
+  .lead { display: grid; justify-items: center; text-align: center; gap: var(--s3); }
+  .lead p { max-width: 58ch; }
+  .page :global(.sheet) { width: 100%; max-width: 600px; margin-inline: auto; padding: var(--s5); }
+</style>

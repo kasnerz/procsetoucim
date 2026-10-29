@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Najít cestu z jedné zastávky na druhou zvládne plánovač v telefonu během vteřiny. Přesto se vyplatí umět ji vyčíst z plánku, protože telefon se vybije a na zastávce často visí jen papírový plán linek. Kdo si trasu umí najít bez telefonu, pozná taky, když mu aplikace navrhne zbytečnou objížďku. Kdo řídí taxi nebo dispečink, hledá trasy v plánu města celý den, i když dnes většinou s navigací. Stejný postup, najít cestu v síti teček a čar, se ve vyšších ročnících vrací u grafů.",
+  "learnWithAi": [
+    {
+      "title": "Síť linek se šesti zastávkami",
+      "text": "Poproste chatbota, ať popíše malou síť linek se šesti zastávkami. Nakreslete si ji spolu na papír a najděte cestu z první zastávky na poslední."
+    },
+    {
+      "title": "Cesta po plánku vašeho města",
+      "text": "Vyfoťte s rodičem plánek linek ve vašem městě a najděte cestu mezi dvěma zastávkami. Teprve pak se zeptejte chatbota a jeho cestu ověřte v plánku, u plánků se umí splést."
+    },
+    {
+      "title": "Trasa se dvěma přestupy",
+      "text": "Zkuste spolu najít cestu se dvěma přestupy a nechte chatbota, ať se ptá, kde přesně přestupujete a proč. Hledejte potom i kratší cestu."
+    }
+  ]
+}

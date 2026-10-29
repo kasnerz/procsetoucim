@@ -1,0 +1,19 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "35efc04c-429a-407e-a00a-f07fd03c2743": "Při testování rádiových zařízení pracuje s velmi velkými i malými hodnotami, třeba s frekvencemi. K tomu se hodí zápis pomocí mocnin deseti.",
+  "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": "Statistik pracuje s velkými soubory dat a vzorci. Čísla v milionech čte a porovnává běžně, mocniny deseti se hodí u velmi velkých souborů.",
+  "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2": "Analytik prochází velké soubory dat, takže čísla v milionech a miliardách jsou jeho každodenní práce. Počítat je nechává software.",
+  "258e46f9-0075-4a2e-adae-1ff0477e0f30": "Pracuje s velkým množstvím dat a vytváří matematické modely. Velká čísla čte a porovnává často, výpočet obstará počítač.",
+  "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": "Vyučuje matematiku na vysoké škole, takže mocniny a zápis velkých čísel zná a vysvětluje je. Je to pro něj základní nástroj, ne něco nového.",
+  "f0e1cc13-48e0-4995-8699-ee43467bce0d": "Učí matematiku na střední škole a mocniny deseti vysvětluje žákům. Sám je používá denně, protože patří do jeho učiva.",
+  "219d1c30-3849-4de3-b0d6-07da187b6521": "Počítá náklady na materiál, práci a čas pro výrobu. Velké částky srovnává a odhaduje, kalkulačku k tomu využívá.",
+  "b9296f1a-a68b-4ac7-9904-f2cf1374fbaf": "Při výpočtech pnutí v materiálech se objevují velmi velké síly i velmi malé rozměry. Zápis pomocí mocnin deseti je pro něj běžný, počítá software.",
+  "bc659adc-f42c-4ef6-89fe-fd030033f446": "Vzdálenosti mezi galaxiemi a počty hvězd mají mnoho nul, a proto se zapisují jako mocniny deseti. Bez takového zápisu by kosmologie byla nečitelná.",
+  "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": "Hmotnost částice nebo rychlost světla se zapisují mocninami deseti, třeba 3 x 10^8. Fyzik s takovými čísly počítá a porovnává je podle řádu.",
+  "047108c3-f987-40a4-bef0-f2b3407ec16a": "Dávky záření a energie přístrojů se uvádějí v jednotkách s předponami a mocninami deseti. Kdo tu pracuje, musí poznat, jestli je dávka tisíckrát větší, nebo menší.",
+  "35bc3847-58ad-46f5-8921-e58acc2762a6": "V chemii se počítá s velmi malými i velmi velkými čísly, třeba s počtem částic v látce. Zápis mocninou deseti zjednodušuje násobení a dělení v laboratoři.",
+  "99492920-e5a5-4dba-9e5a-93193147198c": "Státní dluh nebo hrubý domácí produkt jsou čísla v miliardách a bilionech. Ekonom je musí číst, porovnávat a poznat, o jaký řád se liší, zápis mocninami používá spíš zřídka."
+ }
+}

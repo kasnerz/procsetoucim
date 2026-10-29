@@ -1,0 +1,201 @@
+{
+  "outcome": "JJK-AJA-002-ZV5-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicke-pozdravy-a-ustalene-fraze",
+      "title": "Pozdravy a krátké odpovědi v angličtině",
+      "aliases": [
+        "pozdravy",
+        "hello",
+        "základní fráze",
+        "anglicky ahoj",
+        "ano a ne"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Používá jednotlivá slova, slovní spojení a ustálené fráze, jako jsou pozdravy, základní otázky nebo jednoduché odpovědi."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot s hlasem si s tebou vyzkouší pozdravy a krátké odpovědi."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Nahrávky rodilých mluvčích ti předvedou výslovnost frází."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s nahrávkou porovná tvou výslovnost se vzorem."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mluvíš ty, slovník ti nahlas nepoví, jak fráze zní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Porozumění situačním frázím"
+      ]
+    },
+    {
+      "slug": "anglicky-osobni-udaje-o-sobe",
+      "title": "Osobní údaje o sobě v angličtině",
+      "aliases": [
+        "jak se jmenuji",
+        "my name is",
+        "kolik je mi let",
+        "představit se",
+        "o sobě anglicky"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Sdělí své základní osobní údaje."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot hraje nového kamaráda a ty mu říkáš, kdo jsi."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázkové věty o sobě si najdeš a přečteš nahlas."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace ti zopakuje číslovky a větu o věku s výslovností."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Svoje údaje řekneš nahlas ty, slovník to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Mluvím o sobě a kamarádech"
+      ]
+    },
+    {
+      "slug": "anglicke-vety-o-sobe-a-kamaradech",
+      "title": "Jednoduché věty o sobě a o jiných lidech",
+      "aliases": [
+        "věty o kamarádovi",
+        "he is she is",
+        "I like",
+        "popis kamaráda",
+        "tvoření vět"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Začíná tvořit jednoduché věty pomocí známých slov a osvojených gramatických struktur."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Formuluje jednoduché věty o sobě a jiných lidech."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot opraví tvou větu a vysvětlí, proč má být is a ne am."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka a příklady ukážou, jak se věta staví."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace ti dá cvičení na slovosled a hlídá chyby."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník najde slovo, ale větu skládáš ty. Slovník pomůže jen s jedním slovem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Tvoření jednoduchých vět",
+        "Mluvím o sobě a kamarádech"
+      ]
+    },
+    {
+      "slug": "anglicka-konverzace-otazky-a-odpovedi",
+      "title": "Rozhovor s otázkami a odpověďmi",
+      "aliases": [
+        "konverzace",
+        "ptát se anglicky",
+        "odpovídat na otázky",
+        "what is your",
+        "rozhovor ve dvojici"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Používá širší škálu slov a frází a dokáže odpovědět na širší spektrum otázek."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zapojí se do jednoduché konverzace, odpovídá na otázky a pokládá vlastní otázky týkající se známých témat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot si s tebou povídá o známém tématu a ptá se dál."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy otázek a odpovědí ti dají slova na rozhovor."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s hlasem tě nechá odpovídat nahlas a opraví tě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozhovor vedeš s člověkem v reálném čase, slovník v něm neposlouží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "My place (city, town, or village)"
+      ]
+    }
+  ],
+  "aside": []
+}

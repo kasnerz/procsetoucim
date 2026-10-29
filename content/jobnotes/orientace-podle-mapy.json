@@ -1,0 +1,18 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "e75305db-9011-4ee0-ab62-8d41a98f807e": "Navigace vede řidiče po trase, ale mapu musí umět číst, aby poznal, kudy a proč jede. Když navigace vypadne nebo pošle nesmysl, pozná to podle mapy.",
+  "6f7c1e84-8162-4c20-a575-b57ff624eef5": "Při hledání zákazníka a cesty do neznámé ulice se řidič orientuje podle mapy. Navigace pomáhá, ale zkratky a slepé ulice pozná ten, kdo mapě rozumí.",
+  "6f74ebc4-ab7e-42a8-ad94-921f3d0ef0c6": "Podle mapy sítě najde potrubí, šachty a čerpací stanice, i když jsou pod zemí. Mapu musí přiřadit ke skutečné ulici nad nimi, jinak závadu nenajde.",
+  "61ed67cd-67d7-44d8-bc2d-47fc79110a59": "Dispečer sleduje, kde jsou auta, a vybírá to nejbližší k zákazníkovi. Na mapě musí rychle vidět polohu a trasu, v terénu se ale nepohybuje.",
+  "bd1cd902-1fb1-40b1-abce-bb9ef60805b4": "Při pátrání a záchraně na moři a na pobřeží se hlídka řídí mapou. Musí rychle určit, kde přesně je a kam má dojet nebo doplout.",
+  "26105840-8abb-4f91-a888-1211cb798b0b": "V parku ukazuje návštěvníkům cestu a vysvětluje, co kde uvidí. Na plánku parku se musí vyznat a poznat, kde právě stojí, i když je plánek jednoduchý.",
+  "807a1ac3-4f56-41f3-a68c-d653d558eb0a": "Pomáhá kapitánovi sledovat polohu letadla a trasu podle map a přístrojů. Čtení map patří k práci, ale většinu polohy ukazují letové přístroje.",
+  "523ab5a0-5e72-418d-9d61-a6126a446123": "Při plánování letu čte mapy a podle nich kontroluje trasu. Za letu mu hodně pomáhají přístroje, mapa mu ale umožní poznat, kde je a kam míří.",
+  "45037d43-a8f5-4f46-b332-b2935bc305f4": "Cestu k nakládce nebo vykládce je třeba najít i na místě, které se nezná. Mapa se otočí podle okolí a trasa se porovná s tím, co je vidět.",
+  "52a769ab-c899-4e8c-b31d-e5c2a01f32e3": "Tady se orientace podle mapy používá pořád: skupina je daleko od cest a mapa se srovnává s kopci, potoky a okolní krajinou.",
+  "e011f10f-e172-43ce-bfd9-fb56e426c0c9": "V rozsáhlé krajině se pracuje s mapou a pozná se podle ní, kde přesně se nachází stezka, jak se dostat k místu a kam dovést návštěvníky.",
+  "476420bb-2577-4f79-ad32-186f19c4fd02": "Při letu se mapa porovnává s krajinou pod strojem. Letecký snímek se tu čte stejně jako ve škole, jen z výšky a rychleji."
+ }
+}

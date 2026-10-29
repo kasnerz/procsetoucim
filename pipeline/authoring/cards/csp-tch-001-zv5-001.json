@@ -1,0 +1,431 @@
+{
+  "outcome": "CSP-TCH-001-ZV5-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "technicke-materialy",
+      "title": "Technické materiály a jejich vlastnosti",
+      "aliases": [
+        "papír",
+        "dřevo",
+        "plast",
+        "kov",
+        "modelovací hmota",
+        "textil",
+        "přírodniny"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "se seznamuje s technickými materiály, jejich vlastnostmi a využitím"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Pozná a charakterizuje technické materiály (jejich vlastnosti a využití)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pozná a charakterizuje základní technické materiály"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se dřevo láme jinak než plast, a vymyslí ti otázky na zkoušení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie shrnou vlastnosti a použití materiálů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na vlastnosti materiálů žádná aplikace nestačí, musíš na ně sáhnout."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Ohneš, řízneš a ohmatáš dřevo, karton nebo drát a vlastnosti poznáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/41daf4d3-33b8-4199-b814-e54964d277b6"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "naradi-a-nastroje",
+      "title": "Pomůcky, nástroje a nářadí na ruční práci",
+      "aliases": [
+        "nůžky",
+        "kladivo",
+        "pilník",
+        "kleště",
+        "nářadí",
+        "dílna"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "se seznamuje s pomůckami, nástroji a nářadím pro ruční zpracování materiálu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "pomůcky, nástroje a nářadí určené k ručnímu zpracování těchto materiálů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše nástroj a vysvětlí, k čemu slouží, a můžeš se nechat zkoušet."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázkové příručky a encyklopedie ukážou název i použití nářadí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Z fotky nástroje aplikace odhadne název, někdy se splete."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Nástroj poznáš nejlíp, když ho držíš v ruce."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vyroba-vyrobku",
+      "title": "Výroba výrobku z materiálu",
+      "aliases": [
+        "vyrábění",
+        "tvoření",
+        "výrobek",
+        "pracovní činnosti",
+        "zručnost",
+        "3D tisk"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozvíjí své manuální dovednosti prostřednictvím vlastní praktické činnosti."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Realizuje instruktivní i tvůrčí učební úlohy podle zadání učitele."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Realizuje základní tradiční i inovativní postupy práce s technickým materiálem samostatně nebo ve skupině"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí s postupem a řekne, co dělat, když se něco nepovede."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Nápady, postupy a videa k výrobkům najdeš online."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Výrobek vzniká v tvých rukou, aplikace ho neslepí ani nesestaví."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "S nůžkami, pilkou nebo lepidlem práci zvládneš, bez nich ne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38",
+        "http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "obrazove-navody",
+      "title": "Práce podle obrazového návodu",
+      "aliases": [
+        "návod krok za krokem",
+        "skládání podle obrázku",
+        "postup práce",
+        "origami návod"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Poznává jednoduché obrazové návody a postupy práce."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozvíjí samostatnost prostřednictvím práce s jednoduchými obrazovými návody a postupy práce."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Prostřednictvím práce s jednoduchými obrazovými návody a postupy práce rozvíjí samostatnost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Krok z návodu popíše slovy, i když mu pošleš fotku."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videonávody a obrázkové postupy k mnoha výrobkům najdeš online."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace ukazuje postup po jednotlivých krocích."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírový návod prostě čteš a podle něj pracuješ, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14",
+        "http://data.europa.eu/esco/skill/6561c8e7-3851-4878-bcf4-d2ffd63d835e"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "remesla-a-tradice",
+      "title": "Tradiční řemesla a postupy práce",
+      "aliases": [
+        "řemeslo",
+        "lidové tradice",
+        "staré postupy",
+        "tradiční a moderní",
+        "výroba dříve a dnes"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "poznává historická i současná řemesla, lidové tradice a zvyky"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede konkrétní příklady tradičních a inovativních postupů práce a zhodnotí je z hlediska uplatnitelnosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje řemesla, srovná tradiční a novější postup a ptá se tě, který by se hodil."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a webové stránky muzeí ukážou řemesla a jejich dílny."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Řemeslo ti aplikace nepřiblíží, nemá co nabídnout."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj řemeslo nepředstaví ani nezhodnotí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1a160710-2143-496f-9dae-99814e69e65c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zvykoslovne-predmety",
+      "title": "Zvykoslovné předměty z tradic",
+      "aliases": [
+        "velikonoční kraslice",
+        "pomlázka",
+        "vánoční ozdoby",
+        "tradiční výrobky",
+        "zvyky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vytváří zvykoslovné předměty jako součást kulturních tradic."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co předmět v tradici znamená, a poradí s postupem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzory a návody na velikonoční nebo vánoční ozdoby najdeš online."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti tady nepomůže, předmět vyrobíš rukama."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "S nůžkami, lepidlem a barvami předmět vyrobíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zmeny-a-znovuvyuziti",
+      "title": "Vlastní úpravy a znovuvyužití materiálu",
+      "aliases": [
+        "upcyklace",
+        "recyklace",
+        "nápad na úpravu",
+        "druhý život věci",
+        "odpadový materiál"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Navrhuje dílčí změny ve využití technického materiálu nebo realizaci postupu práce, včetně znovuvyužití materiálu, a tím rozvíjí tvořivost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne nápady, co z odpadu vyrobit, vybrat a vyzkoušet musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Inspiraci na nové využití materiálu najdeš online."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nic nevymyslí ani neupraví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj ti nápad nedá, ten musí vzejít od tebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "bezpecnost-a-hygiena",
+      "title": "Bezpečnost a hygiena při práci",
+      "aliases": [
+        "bezpečnost v dílně",
+        "ochranné pomůcky",
+        "pravidla v dílně",
+        "úraz",
+        "mytí rukou"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Seznamuje se se zásadami bezpečnosti a hygieny práce."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele a uvědomuje si jejich význam"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou pravidla a ptá se na situace, dodržovat je musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Bezpečnostní zásady najdeš v návodech a příručkách."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe pravidla nedodrží a při práci tě nehlídá."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Ochranné brýle a rukavice tě při práci chrání."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14",
+        "http://data.europa.eu/esco/skill/198b614d-a9af-46f5-b3fd-2672b401dd8e"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Realizuje přiměřené pracovní operace",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Seznamuje se s různými typy učebních úloh",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Uvědomuje si na základě zkušeností",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Prostřednictvím konkrétních aktivit praktického charakteru",
+      "code": "O3",
+      "refs": []
+    }
+  ],
+  "toolsVersion": "tools-v2"
+}

@@ -1,0 +1,44 @@
+{
+ "buildDate": "2026-10-29",
+ "counts": {
+  "activities": 1203,
+  "skills": 493,
+  "occupations": 2716,
+  "escoOccupationsTotal": 3039,
+  "escoOccupationsWithIlo": 2956
+ },
+ "sources": {
+  "rvp": {
+   "name": "RVP ZV (NPI ČR, otevřená data, 16. 12. 2025)",
+   "url": "https://prohlednout.rvp.cz/"
+  },
+  "esco": {
+   "name": "ESCO – European Skills, Competences, Qualifications and Occupations, v1.2.1",
+   "version": "1.2.1",
+   "language": "cs",
+   "url": "https://esco.ec.europa.eu/"
+  },
+  "ilo": {
+   "name": "ILO GenAI exposure index 2025 (ISCO-08, 4-digit), Gmyrek et al. 2025, ILO Working Paper 140",
+   "url": "https://github.com/pgmyrek/2025_GenAI_scores_ISCO08",
+   "licence": "CC BY 4.0"
+  },
+  "cedefop": {
+   "name": "Cedefop Skills Forecast 2026 (Employment by detailed occupation, ISCO-08 2-digit)",
+   "url": "https://www.cedefop.europa.eu/en/projects/skills-forecast",
+   "note": "Indicative only. Cells under 10 000 people are flagged unreliable. Employment 2025 and 2035 are forecasts (last historical year 2023)."
+  }
+ },
+ "citations": {
+  "cedefop": "European Centre for the Development of Vocational Training (Cedefop). Cedefop Skills Forecast 2026, Thessaloniki: Greece, Downloaded from: https://www.cedefop.europa.eu/en/projects/skills-forecast",
+  "ilo": "Gmyrek, P., Berg, J., Kamiński, K., Konopczyński, F., Ładna, A., Nafradi, B., Rosłaniec, K., Troszyński, M. (2025). Generative AI and Jobs: A 2025 Update. ILO Working Paper 140. Data: https://github.com/pgmyrek/2025_GenAI_scores_ISCO08 (CC BY 4.0).",
+  "esco": "ESCO – European Skills, Competences, Qualifications and Occupations, v1.2.1. © European Union, https://esco.ec.europa.eu/",
+  "rvp": "Rámcový vzdělávací program pro základní vzdělávání (nový RVP ZV), NPI ČR / MŠMT, otevřená data k 16. 12. 2025. Výstupy: https://prohlednout.rvp.cz/ovu/<kód výsledku>"
+ },
+ "labour": {
+  "employmentTotal2025": 5419000,
+  "employmentTotal2035": 5558780,
+  "iscoLevel": 2,
+  "country": "Czechia"
+ }
+}

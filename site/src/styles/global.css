@@ -1,0 +1,267 @@
+/* Sešit: a sketchbook on a white-grey desk. Torn pieces of paper hold the content (plain, squared for
+   numbers, ruled for lists), everything is drawn by hand: pencil icons and outlines, hatched charts.
+   Accents: one teal blue for links, charts and AI-written text, and raspberry for marks and the
+   marker swipe. Neutral greys only (no blue tint, user 2026-10-19), no warm browns. Light only. */
+:root {
+  --desk: #f8f8f8;
+  /* Paper scraps: flat, almost white, a shade lighter than the near-white dotted page (user 2026-10-19). */
+  --paper-grey: #fefefe;
+  --paper-recycled: #fcfcfb;
+  --paper-blue: #fdfdfd;    /* squared and ruled paper (name kept; no longer blue) */
+  --paper-sheet: #fefefe;   /* the big A4 sheet */
+  --paper-top: #ffffff;     /* a piece lying on another piece */
+  --sheet: var(--paper-grey);
+  --ink: #3a3a3a;
+  --ink-soft: #555c66;
+  --line: #dcdcdc;
+  --shadow: rgb(30 36 48 / 0.13);
+  --shadow-hover: rgb(30 36 48 / 0.2);
+
+  /* Accents (user 2026-10-25; before: blue #1d3f8f, red #a51f2d, purple #5b2a86). The token names are historical:
+     --blue is accent 1 (links, pen strokes, charts) and --purple accent 3 (AI-written text, section icons), both one
+     teal blue; --red is accent 2 (marker swipe, badges, marks, "učím?"), raspberry. */
+  --blue: #1d7b9a;
+  --blue-dark: #155b72;
+  --red: #c2255c;
+  --purple: #1d7b9a;
+  --pen: var(--blue);
+
+  --grid: #dadada;
+  --rule: #d2d2d2;
+  --margin: #efa9c2;
+
+  /* Hand-drawn assets: red marker swipe, blue marker swipe, pencil box outline, pen stroke. */
+  --hl-red: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20' preserveAspectRatio='none'%3E%3Cpath d='M2 7L5 4.4L20 5.6L38 3.6L57 5.3L76 3.1L97 4.7L99 9.2L97.4 14L99.3 17.6L80 16.2L60 18.5L41 16.4L22 18.7L4 16.9L.8 12.6Z' fill='%23c2255c' fill-opacity='.2'/%3E%3Cpath d='M4 12.4C30 10.2 65 13.4 96 10.6' stroke='%23c2255c' stroke-opacity='.1' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  --hl-blue: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20' preserveAspectRatio='none'%3E%3Cpath d='M1.5 6.2L6 4L24 5.4L43 3.3L61 5L80 3.4L98 4.2L99.2 9L97.8 13.6L99 17.8L79 16.6L58 18.2L39 16.8L19 18.4L3 17.2L1 12Z' fill='%231d7b9a' fill-opacity='.16'/%3E%3C/svg%3E");
+  --hl-purple: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20' preserveAspectRatio='none'%3E%3Cpath d='M1 6.8L4.6 4.2L22 5.2L41 3.4L60 5.4L79 3.2L98.4 4.9L99.4 10L97.6 14.6L99 17.4L78 16.8L57 18.6L37 16.5L18 18.8L3.4 17L1.4 12.2Z' fill='%231d7b9a' fill-opacity='.18'/%3E%3C/svg%3E");
+  --box-line: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M.8 2.6C30 1.1 70 3.1 99.2 1.6M98.2.4C99.1 30 98 70 98.9 99.4M99.6 97.6C70 99 30 97.6.6 98.9M2.1 99.6C.9 70 2.6 30 1.3.5' fill='none' stroke='%231f2430' stroke-width='1.5' vector-effect='non-scaling-stroke' stroke-linecap='round'/%3E%3C/svg%3E");
+  --pen-stroke: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12'%3E%3Cpath d='M3 7.5c14-4 27 2.5 41-1.2s25-3 38 .6s22 1.6 35-2.4' fill='none' stroke='%231d7b9a' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E");
+
+  /* Grandstander for all titles, the home title and subtitle and the brand link (user 2026-10-25; before that
+     Sofia Sans Extra Condensed 800). It runs about 1.5x as wide, hence the smaller title scale. */
+  --font-title: "Grandstander Variable", "Trebuchet MS", sans-serif;
+  --font-body: "Outfit Variable", system-ui, -apple-system, "Segoe UI", sans-serif; /* user 2026-10-25; Commissioner before */
+  --title-weight: 800;
+  --title-weight-small: 600; /* small titles: h3/h4, names in lists and on cards (user 2026-10-25) */
+  --title-scale: 0.8;
+
+  --r-sm: 10px; --r: 18px; --r-lg: 28px; --r-pill: 999px;
+  --measure: 64ch;
+  --col: 780px;
+  --page: 1120px;
+  --gutter: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 72px;
+
+  color-scheme: light;
+  accent-color: var(--blue);
+  caret-color: var(--blue);
+  scrollbar-color: #c6c6c6 var(--desk);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+/* A subtle grey pattern on the page (user 2026-10-19): dotted notebook paper. */
+:root { --desk-pattern: radial-gradient(circle, #e0e0e0 1.15px, transparent 1.5px) 0 0 / 22px 22px; }
+body {
+  margin: 0;
+  background: var(--desk-pattern) var(--desk);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: calc(1.0625rem * var(--body-scale, 1));
+  line-height: 1.6;
+}
+::selection { background: #d3e8ef; color: var(--ink); }
+input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; display: none; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-title);
+  font-weight: var(--title-weight);
+  line-height: 1.08;
+  text-wrap: balance;
+  /* Long words such as "Velkoobchodník/velkoobchodnice" would push a phone page sideways. */
+  overflow-wrap: break-word;
+  margin: 0;
+}
+h1 { font-size: calc(clamp(2.6rem, 7vw, 4.25rem) * var(--title-scale)); }
+h2 { font-size: calc(clamp(1.8rem, 3.8vw, 2.4rem) * var(--title-scale)); }
+h3 { font-size: calc(1.45rem * var(--title-scale)); }
+h3, h4 { font-weight: var(--title-weight-small); }
+p { margin: 0; }
+
+a { color: inherit; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; text-decoration-color: var(--blue); }
+a:hover { text-decoration-thickness: 2.5px; }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 6px; }
+
+.wrap { max-width: var(--page); margin-inline: auto; padding-left: var(--gutter); padding-right: var(--gutter-r); }
+.col { max-width: var(--col); margin-inline: auto; width: 100%; min-width: 0; }
+.center { text-align: center; }
+.prose { max-width: var(--measure); }
+.prose > * + * { margin-top: var(--s4); }
+.soft { color: var(--ink-soft); }
+.small { font-size: 0.9375rem; }
+.tiny { font-size: 0.8125rem; }
+.num { font-variant-numeric: tabular-nums; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Big numbers. */
+.big-num { font-family: var(--font-title); font-weight: var(--title-weight); font-size: calc(clamp(2.4rem, 5vw, 3.2rem) * var(--title-scale)); line-height: 0.95; font-variant-numeric: tabular-nums; }
+
+/* Section rhythm: more space above a heading than below it. */
+.section { display: grid; gap: var(--s5); align-content: start; min-width: 0; }
+.section + .section { margin-top: var(--s8); }
+.section-head { display: grid; justify-items: center; gap: var(--s3); text-align: center; }
+.section-head p { max-width: 56ch; }
+
+/* Section heading: pencil icon, title, and a blue pen stroke underneath. */
+.head-title {
+  display: inline-flex; align-items: center; gap: var(--s2);
+  padding-bottom: 14px;
+  background: var(--pen-stroke) center bottom / 92px 11px no-repeat;
+}
+.head-title .icon { color: var(--purple); }
+
+/* Marker, swiped by hand across the lower part of the text. Red by default, blue as a second voice. */
+.hl {
+  background: var(--hl-red) 0 90% / 100% 0.66em no-repeat;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  padding-inline: 0.14em;
+}
+.hl.blue { background-image: var(--hl-blue); }
+.hl.purple { background-image: var(--hl-purple); }
+/* AI-written text is marked in purple. */
+.ai-mark { color: var(--purple); }
+
+/* Pencil outline around any box (drawn over it, does not take space). */
+.sketch-box { position: relative; }
+.sketch-box::after { content: ""; position: absolute; inset: 0; background: var(--box-line) 0 0 / 100% 100% no-repeat; pointer-events: none; }
+
+/* Chart fills: pencil hatching and solid ink. */
+.f-blue { background: repeating-linear-gradient(-50deg, var(--blue) 0 1.6px, transparent 1.6px 4.6px); }
+.f-red { background: repeating-linear-gradient(-50deg, var(--red) 0 1.6px, transparent 1.6px 4.6px); }
+.f-blue-solid { background: var(--blue); }
+.f-red-solid { background: var(--red); }
+.f-purple { background: repeating-linear-gradient(-50deg, var(--purple) 0 1.6px, transparent 1.6px 4.6px); }
+.f-light { background: repeating-linear-gradient(-50deg, #9aa1ab 0 1.2px, transparent 1.2px 6px); }
+.f-empty { background: none; }
+
+/* Pills: a pencil-outlined tag. */
+.pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 2px 10px; font-size: 0.8125rem; font-weight: 600; line-height: 1.5; white-space: nowrap;
+  background: var(--box-line) 0 0 / 100% 100% no-repeat; color: var(--ink-soft);
+}
+
+/* Tool verdicts as teacher's marks in red pen: tick, plus, minus. The strongest one is highlighted. */
+.verdict { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+.verdict .icon { color: var(--red); }
+.verdict.v-nepomuze { color: var(--ink-soft); font-weight: 500; }
+
+/* ---------- Paper pieces ---------- */
+.paper {
+  --tear: polygon(0 2px, 18% 0, 47% 1px, 76% 0, 100% 2px, calc(100% - 1px) 40%, 100% 100%, 70% calc(100% - 3px), 66% 100%, 61% calc(100% - 4px), 55% 100%, 48% calc(100% - 2px), 40% 100%, 0 calc(100% - 1px));
+  position: relative; isolation: isolate;
+  padding: var(--s5); min-width: 0;
+}
+.paper::before, .paper::after {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  clip-path: var(--tear); transform: rotate(var(--tilt, 0deg));
+  /* Tall pieces turn around a point near their top, not their middle: otherwise the top edge of a long list moves
+     sideways by a few pixels whenever the height changes, e.g. when the web fonts arrive and lines rewrap. */
+  transform-origin: 50% min(50%, 160px);
+}
+/* Lists can run to thousands of pixels, where even a quarter of a degree moves the far end visibly off the rows. */
+.paper.rows::before, .paper.rows::after { transform: none; }
+.paper::before { background: var(--shadow); translate: 1.5px 2.5px; }
+.paper { --tone: var(--paper-grey); }
+.paper::after { background: var(--tone); }
+.paper.grid::after {
+  background:
+    linear-gradient(var(--grid) 1px, transparent 1px) -1px -1px / 20px 20px,
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px) -1px -1px / 20px 20px,
+    var(--tone);
+}
+.paper.ruled::after {
+  background: repeating-linear-gradient(transparent 0 25px, var(--grid) 25px 26px) 0 14px / 100% 100% no-repeat, var(--tone);
+}
+.paper.lined::after {
+  background: linear-gradient(90deg, transparent 22px, var(--margin) 22px 23.5px, transparent 23.5px), var(--tone);
+}
+/* A piece lying on another piece is white, so it reads as a separate scrap. */
+.paper .paper::after { --tone: var(--paper-top); }
+a.paper { display: block; text-decoration: none; }
+a.paper:hover::before { translate: 2.5px 4px; background: var(--shadow-hover); }
+a.paper:hover .t { text-decoration: underline; text-decoration-color: var(--blue); text-decoration-thickness: 2px; }
+
+/* ---------- Ruled lists (with a red margin line) ---------- */
+.rows { list-style: none; margin: 0; padding: var(--s2) var(--s4) var(--s3); display: grid; }
+.rows > li { border-bottom: 1.5px solid var(--rule); }
+.rows > li:last-child { border-bottom: 0; }
+/* How much AI changes an occupation (components/AiLevel.astro): one slightly uneven pencil circle, empty, grey, blue
+   or raspberry (skoro nemění, málo, středně, hodně), the same colours as the scale on the occupation page. */
+.ai-level { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8125rem; font-weight: 600; color: var(--ink-soft); white-space: nowrap; line-height: 1; }
+.ai-level .dot { width: 12px; height: 12px; flex: none; border: 1.5px solid var(--ink-soft); border-radius: 52% 48% 55% 45% / 47% 55% 45% 53%; }
+/* Hatched like the charts (user 2026-10-29), the outline in the same colour. */
+.ai-level .dot.l1 { background: repeating-linear-gradient(-50deg, #9aa1ab 0 1.4px, transparent 1.4px 3.6px); border-color: #9aa1ab; }
+.ai-level .dot.l2 { background: repeating-linear-gradient(-50deg, var(--blue) 0 1.4px, transparent 1.4px 3.6px); border-color: var(--blue); }
+.ai-level .dot.l3 { background: repeating-linear-gradient(-50deg, var(--red) 0 1.4px, transparent 1.4px 3.6px); border-color: var(--red); }
+.ai-level.big { font-size: 1rem; gap: 8px; }
+.ai-level.big .dot { width: 17px; height: 17px; border-width: 2px; }
+/* Long lists show their first rows only; a button under the list shows the rest (script in Base.astro). */
+.rows > li.rows-extra { display: none; }
+.rows > li.rows-last { border-bottom: 0; }
+.rows-more {
+  display: block; margin: var(--s3) auto 0; padding: 4px 14px; font: inherit; font-weight: 600; color: var(--ink-soft); cursor: pointer;
+  background: var(--box-line) 0 0 / 100% 100% no-repeat; border: 0;
+}
+.rows-more:hover { color: var(--blue); }
+.rows a, .rows .row {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 2px var(--s4);
+  padding: var(--s2) var(--s1) var(--s2) 18px; text-decoration: none;
+}
+.rows .rname { font-family: var(--font-title); font-weight: var(--title-weight-small); font-size: calc(1.25rem * var(--title-scale)); line-height: 1.15; min-width: 0; }
+.rows a:hover .rname { text-decoration: underline; text-decoration-color: var(--blue); text-decoration-thickness: 2px; }
+.rows .meta { grid-column: 1; font-size: 0.8125rem; color: var(--ink-soft); }
+.rows .right { grid-row: 1 / span 2; grid-column: 2; display: flex; align-items: center; gap: var(--s2); }
+
+details > summary { cursor: pointer; }
+details > summary:hover { text-decoration: underline; text-decoration-color: var(--blue); }
+button, input, select { font: inherit; color: inherit; }
+
+/* ---------- Feedback forms (card dialog in Feedback.astro, Kontakt page in ContactForm.astro) ---------- */
+.fb-open, .fb-send {
+  display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px; border: 0; cursor: pointer;
+  font-weight: 600; color: var(--ink); background: var(--box-line) 0 0 / 100% 100% no-repeat;
+}
+.fb-open:hover, .fb-send:hover { color: var(--blue); }
+.fb-send { background-color: #fff; }
+.fb-send:disabled { opacity: 0.6; cursor: progress; }
+.fb-form { display: grid; gap: var(--s4); }
+.fb-form fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.fb-label { display: block; font-weight: 700; font-size: 0.9375rem; margin-bottom: 4px; }
+.fb-label .soft { font-weight: 400; }
+.fb-kinds { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--s2); }
+.fb-kinds legend { grid-column: 1 / -1; }
+.fb-kind { display: grid; grid-template-columns: auto 1fr; gap: 0 6px; align-items: baseline; padding: 8px 10px; cursor: pointer; background: var(--box-line) 0 0 / 100% 100% no-repeat; }
+.fb-kind:has(input:checked) { background-color: var(--paper-blue); }
+.fb-kind .k-name { font-weight: 700; }
+.fb-kind .k-hint { grid-column: 2; color: var(--ink-soft); line-height: 1.35; }
+.fb-roles { display: flex; flex-wrap: wrap; gap: 4px var(--s4); }
+.fb-roles legend { width: 100%; }
+.fb-role { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.fb-field { display: grid; gap: 2px; }
+.fb-form :is(textarea, select, input[type="email"]) {
+  width: 100%; font: inherit; font-size: 1rem; color: var(--ink); padding: 8px 10px; border: 0; border-radius: 0;
+  background: #fff var(--box-line) 0 0 / 100% 100% no-repeat;
+}
+.fb-form textarea { resize: vertical; line-height: 1.5; }
+.fb-form select { appearance: none; padding-right: 30px; background-image: var(--box-line), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5c1.7 1.6 3.3 3.3 5 5c1.6-1.8 3.2-3.4 5-5' fill='none' stroke='%231f2430' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E"); background-size: 100% 100%, 12px 8px; background-position: 0 0, right 10px center; background-repeat: no-repeat; }
+.fb-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.fb-msg:empty { display: none; }
+.fb-msg { font-weight: 600; color: var(--blue); }
+.fb-actions { display: flex; justify-content: center; }
+
+/* Page grids never grow wider than the viewport. */
+.page, .home, .section { grid-template-columns: minmax(0, 1fr); }
+

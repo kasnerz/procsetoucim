@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když nasbíráš data, třeba kolik knížek kdo ze třídy přečetl, ukážeš je nejlíp obrázkem: tabulkou, sloupcovým grafem nebo Vennovým diagramem, když se skupiny překrývají. Při kreslení rozhoduješ, co dát na osy, jak velké dílky zvolit a jak graf popsat, a právě tak pochopíš, proč grafy vypadají, jak vypadají. Tabulkový program nakreslí graf jedním kliknutím, ale špatně zvolený typ grafu nebo chybějící popis os za tebe nepozná. Grafy pro ostatní připravují lidé, kteří zpracovávají statistiky, zkoumají obyvatelstvo nebo radí firmám s trhem.",
+  "learnWithAi": [
+    {
+      "title": "Sloupcový graf z ovoce",
+      "text": "Vymyslete s chatbotem malou tabulku, kolik kterého ovoce snědla rodina za týden. Nakresli z ní sloupcový graf na čtverečkovaný papír a s rodičem zkontrolujte popisky."
+    },
+    {
+      "title": "Popis grafu bez obrázku",
+      "text": "Popište chatbotovi svůj hotový graf, co je na osách a jak vysoké jsou sloupce. Zeptejte se, jestli z popisu pozná, co graf ukazuje, a chybějící popisky doplň."
+    },
+    {
+      "title": "Vennův diagram psů a koček",
+      "text": "Zjistěte spolu, kdo z rodiny a kamarádů má rád psy, kočky nebo obojí. Nakresli Vennův diagram a nechte chatbota položit otázky, na které z něj odpovíš."
+    }
+  ]
+}

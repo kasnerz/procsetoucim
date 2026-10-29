@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Graf o počasí ve zprávách, tabulka výsledků turnaje nebo Vennův diagram v učebnici ukazují spoustu čísel najednou, a kdo je umí číst, pochopí je za pár vteřin. Učíš se najít hodnotu na ose, porovnat sloupce a poznat, co obrázek vlastně říká. Chatbot ti graf popíše, ale u obrázků se občas splete, a když čteš graf ty, poznáš, kdy se mýlí. Grafy čtou každý den lidé, kteří zkoumají klima, trh nebo ekonomiku, a takové práce by v příštích letech mělo přibývat.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka domácích zvířat",
+      "text": "Ať chatbot napíše malou tabulku, kolik dětí ve vymyšlené třídě má jaké zvíře, a položí k ní pár otázek. Odpovídej podle tabulky a rodič kontroluje."
+    },
+    {
+      "title": "Graf z novin nebo učebnice",
+      "text": "Najděte spolu skutečný graf v novinách nebo v učebnici a vyfoťte ho chatbotovi. Nejdřív řekni ty, co graf ukazuje, a když se jeho popis od tvého liší, podívejte se na graf znovu."
+    },
+    {
+      "title": "Hádanky ze sloupcového grafu",
+      "text": "Popište chatbotovi graf z učebnice a nechte ho vymyslet hádanky, třeba který sloupec je dvakrát vyšší než jiný. Odpovídej podle obrázku a ukazuj prstem."
+    }
+  ]
+}

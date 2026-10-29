@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Hnojivo, které rostliny nespotřebují, déšť spláchne do potoků a do podzemní vody, a pak se v rybnících přemnoží řasy a ve studnách stoupne obsah dusičnanů. Statistická data ukážou, jestli tahle souvislost platí i v číslech, a naučíš se z grafu poznat, kdy spolu dvě věci opravdu souvisí a kdy se jen náhodou mění zároveň. Takové čtení dat se hodí i u zpráv o zdraví nebo o počasí. Kdo hospodaří na polích nebo zkoumá půdu, podle toho rozhoduje, kolik hnojiva a kdy použít.",
+  "learnWithAi": [
+    {
+      "title": "Cesta dusíku z pole",
+      "text": "Požádej chatbota, ať ti po krocích vysvětlí, jak se dusík z hnojiva dostane až do studny. Na konci mu celou cestu převyprávěj bez nápovědy."
+    },
+    {
+      "title": "Souvislost, nebo náhoda",
+      "text": "Nech chatbota vymyslet dvě řady čísel, které spolu souvisí, a dvě, které se mění jen náhodou zároveň. Zkus poznat, které jsou které, a zdůvodni to."
+    },
+    {
+      "title": "Dva grafy vedle sebe",
+      "text": "Najdi graf spotřeby hnojiv a graf kvality vody v Česku a zeptej se chatbota, jak je číst. Závěr pak napiš vlastními slovy a nech si říct, jestli z dat opravdu plyne."
+    }
+  ]
+}

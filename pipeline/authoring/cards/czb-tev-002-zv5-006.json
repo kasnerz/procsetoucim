@@ -1,0 +1,63 @@
+{
+  "outcome": "CZB-TEV-002-ZV5-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-pokyny-povely-signaly-rozcvicka",
+      "title": "Pokyny, povely a signály v tělocviku",
+      "aliases": ["povely v tělocviku", "pokyny při cvičení", "tělocvičné názvosloví", "signály píšťalka", "nástup a rozcvička"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Seznamuje se s pokyny, povely a signály spojenými s různými pohybovými činnostmi."},
+        {"level": "Na cestě", "quote": "Rozumí pokynům, povelům a signálům spojených s různými pohybovými činnostmi."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, co které tělocvičné slovo nebo gesto znamená."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš seznam tělocvičných povelů a obrázky gest."},
+        "aplikace": {"verdict": "nepomuze", "why": "Povely a signály poznáváš v hale, aplikace je za tebe neslyší."},
+        "klasicky": {"verdict": "nepomuze", "why": "Píšťalka jen houkne, co znamená, se naučíš od učitele a z cvičení."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255"],
+      "inspiration": ["Pokyny při rozcvičování - seznámení", "Pokyny při rozcvičování - porozumění"]
+    },
+    {
+      "slug": "tv-cviceni-podle-povelu-jednotlive-i-v-tymu",
+      "title": "Cvičení podle povelů a signálů",
+      "aliases": ["cvičení podle pokynů", "týmové cvičení", "předcvičování", "rozcvička", "poslouchat povely"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Reaguje správně na základní pokyny, povely, signály a vykonává podle nich individuální i týmovou pohybovou činnost."},
+        {"level": "Splněno", "quote": "Podle pokynů, povelů a signálů vykonává různé pohybové činnosti."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Cvičíš tělem ty, chatbot tvoje pohyby nevidí ani neopraví."},
+        "internet": {"verdict": "pomuze", "why": "Videa předcvičování ukážou, jak má pohyb vypadat."},
+        "aplikace": {"verdict": "pomuze", "why": "Cvičební aplikace dává povely a signály a ty podle nich cvičíš."},
+        "klasicky": {"verdict": "pomuze", "why": "Píšťalka nebo bubínek dávají signály, na které reaguješ."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255"],
+      "inspiration": ["Pokyny při rozcvičování", "Předcvičování"]
+    },
+    {
+      "slug": "tv-soulad-cviceni-a-slovnich-instrukci",
+      "title": "Posouzení, zda cvičení odpovídá pokynům",
+      "aliases": ["kontrola cvičení", "hodnocení spolužáků", "správné provedení cviku", "podle pokynů", "společné posouzení"],
+      "sources": [
+        {"level": "Splněno", "quote": "Se spolužáky společně posoudí soulad cvičení a slovních instrukcí."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Cvičení vidíš se spolužáky vy, chatbot vaše pohyby neposoudí."},
+        "internet": {"verdict": "pomuze", "why": "Popis a video správného provedení cviku porovnáš s tím, co jste předvedli."},
+        "aplikace": {"verdict": "pomuze", "why": "Natočené cvičení si pustíš zpomaleně a porovnáš s pokynem."},
+        "klasicky": {"verdict": "nepomuze", "why": "Soulad pohybu s pokynem posuzujete očima a domluvou mezi sebou."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229"],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

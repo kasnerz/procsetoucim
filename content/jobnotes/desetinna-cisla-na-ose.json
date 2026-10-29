@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "63042e8f-dd59-47fe-87f3-3b2ce21f196a": "Nastavení hloubky řezu se čte ve zlomcích milimetru a stupnice na stroji funguje podobně jako číselná osa. Hodnoty se ale zadávají do řídicího počítače.",
+  "2a22ff9e-de3b-408d-b312-5034896cc4f4": "Na metru se délky odečítají jako desetinná čísla mezi dvěma ryskami, takže stupnice se tu používá jako číselná osa. Převod zlomku na desetinné číslo se občas hodí.",
+  "3df28a39-9bfe-4e36-b394-a189ef967a74": "Při měření koupelny se na metru hledá přesná poloha mezi ryskami, třeba 87,5 cm. Je to stejná dovednost jako vyznačení čísla na ose, jen s fyzickým pásmem.",
+  "1d8545df-e3d8-4ece-9449-0f2940e97e7c": "Při seřizování brousicího stroje se odečítají velmi malé hodnoty na stupnicích a číselníku. Stejně se čte číselná osa, jenže tady jde o setiny milimetru.",
+  "87580fa5-39d2-4b7e-9274-b744e684f17c": "Při kontrole prací na stavbě se čtou délky na metru, ve zlomcích i desetinách. Hlavní náplní ale zůstává řízení lidí, počítání je jen doplněk.",
+  "d8e502b4-1be6-4d10-a224-151688f8f0c8": "Měření vzdáleností a poloh bodů vede k desetinným číslům na displeji přístroje. Kdo měří, musí odhadnout, kde na stupnici hodnota leží a jestli výsledek dává smysl.",
+  "18fbb1f8-eceb-4bf4-8fc7-932b8f6130cd": "Při tapetování se délky pásů čtou na metru v centimetrech a jejich desetinách. Mistr vede práci a výpočty tvoří jen malou část dne, ale chybná délka stojí tapetu.",
+  "35cf772d-bbc9-4eb4-9ca6-5f982649d436": "Rozměry dřevěných součástí a tolerance se udávají v desetinných číslech. Při vývoji materiálů se hodnoty čtou na stupnicích přístrojů, jinak je práce spíš technická než početní."
+ }
+}

@@ -1,0 +1,78 @@
+{
+  "outcome": "CAP-CHE-002-ZV9-007",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Uvede hlavní zdroje znečištění ovzduší včetně konkrétních produkovaných znečišťujících látek.",
+      "cards": [
+        "ovzdusi-zdroje-latky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Nakreslí schéma ukazující vliv lidských aktivit na složení ovzduší a navrhne opatření pro snížení znečištění.",
+      "cards": [
+        "ovzdusi-schema-cesta-opatreni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Orientuje se v možnostech poskytovaných dat na portálu ČHMÚ z hlediska ochrany ovzduší a jejich hodnocení v rámci celé ČR a daném regionu.",
+      "cards": [
+        "ovzdusi-portal-chmu-data"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhledá informace o vybraných polutantech ve vybraném regionu (oxidy síry, oxidy dusíku a prachové částice) na portálu ČHMÚ v aplikaci automatizovaného imisního monitoringu (AIM).",
+      "cards": [
+        "ovzdusi-portal-chmu-data"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhne možnosti omezení lidské činnosti způsobující produkci polutantů a popíše procesy, kterými se znečišťující látky dostávají do ovzduší.",
+      "cards": [
+        "ovzdusi-schema-cesta-opatreni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S využitím jednoduchého schématu simuluje a diskutuje o podstatě a důsledcích skleníkového efektu.",
+      "cards": [
+        "ovzdusi-skleniky-efekt-schema"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě vědeckých zjištění navrhuje konkrétní možnosti zmírnění dopadů skleníkového efektu v místě svého bydliště, ve své škole, ve své rodině.",
+      "cards": [
+        "ovzdusi-skleniky-opatreni-doma"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Objasní změny v tloušťce ozonové vrstvy a zhodnotí dopady na život na Zemi v případě jejího zeslabování i obnovy.",
+      "cards": [
+        "ovzdusi-ozonova-vrstva"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí rozdíl a objasní příčiny vzniku oxidačního a redukčního typu smogu, uvede konkrétní kroky, kterými by bylo možné předcházet jejich vzniku.",
+      "cards": [
+        "ovzdusi-smog-oxidacni-redukcni"
+      ],
+      "aside": null
+    }
+  ]
+}

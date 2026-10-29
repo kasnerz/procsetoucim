@@ -1,0 +1,367 @@
+[
+  {
+    "slug": "volba-materialu-podle-funkce",
+    "title": "Volba materiálu podle vlastností a funkce",
+    "aliases": [
+      "jaký materiál zvolit",
+      "vlastnosti materiálu",
+      "dřevo nebo plast",
+      "z čeho to udělat",
+      "funkčnost výrobku"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše vlastnosti zamýšleného výrobku z hlediska funkčnosti, zvolí materiál nebo postup práce",
+        "quote": "popíše vlastnosti zamýšleného výrobku z hlediska funkčnosti, zvolí materiál nebo postup práce"
+      },
+      {
+        "level": "Splněno",
+        "point": "Posoudí vlastnosti technických materiálů z různých hledisek, zdůvodní vlastní volbu a navrhne změnu materiálu nebo způsobu zpracování, uplatňuje technickou tvořivost.",
+        "quote": "Posoudí vlastnosti technických materiálů z různých hledisek, zdůvodní vlastní volbu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kuličková dráha z kartonu",
+        "url": "https://uloziste.rvp.cz/material/cef7d8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Porovná, co dřevo, plast nebo karton snesou, a ptá se na tvoje důvody."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky vlastností materiálů dají údaje k porovnání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Materiál volíš a zdůvodňuješ ty, aplikace k tomu nemá co nabídnout."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Ohnutím, řezáním a vážením vyzkoušíš, co materiál vydrží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/41daf4d3-33b8-4199-b814-e54964d277b6",
+      "http://data.europa.eu/esco/skill/bacbfc27-4b5d-47de-8bfd-af5fa27562a2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-napad-a-uprava-postupu",
+    "title": "Vlastní nápad a úprava postupu práce",
+    "aliases": [
+      "vymyslet vlastní výrobek",
+      "technická tvořivost",
+      "vylepšení postupu",
+      "inovace",
+      "nápad na výrobek"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "podílí se na procesu volby činnosti prostřednictvím vlastních návrhů činností nebo dílčích inovací při tvůrčím procesu, rozvíjí technickou tvořivost",
+        "quote": "podílí se na procesu volby činnosti prostřednictvím vlastních návrhů činností nebo dílčích inovací při tvůrčím procesu, rozvíjí technickou tvořivost"
+      },
+      {
+        "level": "Splněno",
+        "point": "Posoudí vlastnosti technických materiálů z různých hledisek, zdůvodní vlastní volbu a navrhne změnu materiálu nebo způsobu zpracování, uplatňuje technickou tvořivost.",
+        "quote": "navrhne změnu materiálu nebo způsobu zpracování, uplatňuje technickou tvořivost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Cestovní piškvorky",
+        "url": "https://uloziste.rvp.cz/material/055641"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se a přidává podněty, ze kterých si nápad vylepšíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové výrobky a návody ti dají inspiraci."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí a modelovací aplikace ti nápad rychle načrtnou a upraví."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Vyzkoušíš návrh z papíru nebo kartonu, než sáhneš po materiálu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bacbfc27-4b5d-47de-8bfd-af5fa27562a2",
+      "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tradicni-a-nove-postupy-prace",
+    "title": "Tradiční a nové postupy práce s materiálem",
+    "aliases": [
+      "tradiční postupy",
+      "nové technologie v dílně",
+      "ruční a strojní práce",
+      "jak se to dělá",
+      "postup práce"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vytváří objekty s využitím tradičních a inovativních postupů práce, včetně znovuvyužití technických materiálů",
+        "quote": "vytváří objekty s využitím tradičních a inovativních postupů práce, včetně znovuvyužití technických materiálů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede konkrétní příklady tradičních a inovativních postupů práce, bezpečně je realizuje a zhodnotí je z hlediska uplatnitelnosti.",
+        "quote": "Uvede konkrétní příklady tradičních a inovativních postupů práce, bezpečně je realizuje a zhodnotí je z hlediska uplatnitelnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s textiliemi – výroba textilní brože",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi ručním a novým postupem a pomůže ti je porovnat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a popisy ukážou postupy, které ve škole nevidíš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Postup si nacvičuješ rukama, aplikace ho za tebe neprovede."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nástroje a materiál ti dají zkušenost, kterou jinak nezískáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38",
+      "http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "navod-s-digitalni-technikou-a-potize",
+    "title": "Práce podle návodu a řešení technických potíží",
+    "aliases": [
+      "návod krok za krokem",
+      "video návod",
+      "když se to nepovede",
+      "oprava chyby při výrobě",
+      "skupinová práce v dílně"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zpracovává technický materiál samostatně nebo ve skupině, podle jednoduchých obrazových návodů s využitím digitálních technologií",
+        "quote": "zpracovává technický materiál samostatně nebo ve skupině, podle jednoduchých obrazových návodů s využitím digitálních technologií"
+      },
+      {
+        "level": "Splněno",
+        "point": "Samostatně nebo ve spolupráci se spolužáky realizuje postupy práce, pracuje s jednoduchými návody i s využitím digitálních technologií, překonává překážky a řeší problémy technického charakteru v modelových situacích.",
+        "quote": "překonává překážky a řeší problémy technického charakteru v modelových situacích"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s textiliemi – výroba textilní brože",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, co zkusit, když se výrobek nedaří, a vysvětlí jednotlivé kroky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videonávody a fóra ukážou, jak se podobný problém řeší."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s návodem ti ukáže postup krok za krokem."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Překážku překonáš vlastníma rukama, nářadí samo nic nevyřeší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14",
+      "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stem-steam-v-technicke-tvorbe",
+    "title": "Přírodní vědy a technika v praktické činnosti",
+    "aliases": [
+      "STEM",
+      "STEAM",
+      "fyzika při výrobě",
+      "matematika v dílně",
+      "propojení předmětů"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "na základě podnětu učitele propojuje poznatky z různých vědních oborů (STEM, STEAM) a aplikuje do konkrétních aktivit praktického charakteru",
+        "quote": "na základě podnětu učitele propojuje poznatky z různých vědních oborů (STEM, STEAM) a aplikuje do konkrétních aktivit praktického charakteru"
+      },
+      {
+        "level": "Na cestě",
+        "point": "propojuje poznatky z různých vědních oborů (STEM, STEAM) a aplikuje do konkrétních aktivit praktického charakteru",
+        "quote": "propojuje poznatky z různých vědních oborů (STEM, STEAM) a aplikuje do konkrétních aktivit praktického charakteru"
+      },
+      {
+        "level": "Splněno",
+        "point": "Poznatky z různých vědních oborů (STEM, STEAM) vědomě aplikuje do konkrétních aktivit praktického charakteru.",
+        "quote": "vědomě aplikuje do konkrétních aktivit praktického charakteru"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kuličková dráha z kartonu",
+        "url": "https://uloziste.rvp.cz/material/cef7d8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kde se do výroby zapojí fyzika, matematika nebo výtvarno."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové weby vysvětlí princip, který využiješ."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace a výpočty ukážou, jak se konstrukce chová."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Metr, váha a pokusy ukážou zákonitosti na tvém výrobku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bacbfc27-4b5d-47de-8bfd-af5fa27562a2",
+      "http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "predstaveni-technicke-prace-digitalne",
+    "title": "Představení průběhu a výsledku práce",
+    "aliases": [
+      "prezentace výrobku",
+      "ukázat co jsem vyrobil",
+      "fotky z výroby",
+      "prezentace práce",
+      "popsat postup"
+    ],
+    "outcome": "CSP-TCH-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "prezentuje průběh a výsledky své práce i s využitím digitálních technologií",
+        "quote": "prezentuje průběh a výsledky své práce i s využitím digitálních technologií"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti sestavit osnovu a vybrat slova pro popis postupu."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Svůj postup a výsledek na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Fotoaparát a prezentační aplikace zachytí a uspořádají tvůj postup."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a pastelky tvoje představení nezlepší, mluvíš a ukazuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "V úloze „Petr má o tři kuličky víc než Jana“ to vypadá na sčítání, ale když znáš Petrův počet a ptáš se na Janu, odčítáš. Takové pasti a čísla, která do výpočtu vůbec nepatří, tě učí číst pozorně a rozhodnout, co se vlastně počítá, a to kalkulačka neudělá. Přesně tohle rozhodnutí dělají lidé, kteří analyzují data nebo počítají náklady výroby: z obyčejné věty poznají, jaký výpočet použít, a teprve pak ho nechají na počítači. Takových míst do budoucna spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Úlohy se zrádným víc a méně",
+      "text": "Poproste s rodičem chatbota o pět krátkých slovních úloh, kde slova „víc“ nebo „méně“ svádějí ke špatné operaci. U každé nejdřív řekni, jestli se sčítá, nebo odčítá, a teprve pak počítej."
+    },
+    {
+      "title": "Číslo navíc v úloze",
+      "text": "Zkuste chatbota požádat o úlohu s jedním číslem navíc, které do výpočtu nepatří. Najdi ho a vysvětli rodiči, proč tam nepatří."
+    },
+    {
+      "title": "Slovní úloha z vašeho dne",
+      "text": "Vymyslete spolu slovní úlohu z vašeho dne, třeba o cestě autobusem, a dejte ji chatbotovi vyřešit. Zkontrolujte, jestli zvolil správnou operaci, u delších úloh se chatbot plete."
+    }
+  ]
+}

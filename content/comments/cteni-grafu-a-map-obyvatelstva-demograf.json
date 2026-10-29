@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Grafy o obyvatelích potkáš ve zprávách, v hádkách o důchody nebo ve sporu, proč v obci zavírají školu. Kdo umí přečíst věkovou pyramidu nebo mapu stěhování, pozná, jestli titulek článku sedí s čísly pod ním. S takovými grafy každý den pracují lidé, kteří odhadují, kolik bude dětí a důchodců v příštích letech, a kdo plánuje, kde postavit školku nebo dům pro seniory. Chatbot ti graf popíše, jeho popis ale zkontroluješ jen tehdy, když ho umíš přečíst taky.",
+  "learnWithAi": [
+    {
+      "title": "Slovníček demografických pojmů",
+      "text": "Požádej chatbota, ať ti vysvětlí porodnost, migrační saldo a přirozený přírůstek na vymyšlené obci. Každý pojem pak řekni vlastními slovy a nech si říct, co v tvém vysvětlení chybí."
+    },
+    {
+      "title": "Věková pyramida s otázkami",
+      "text": "Najdi na webu statistického úřadu věkovou pyramidu Česka a nech chatbota, ať se tě na ni ptá. Odpovídej podle grafu, ne zpaměti."
+    },
+    {
+      "title": "Komentář ke kartogramu",
+      "text": "Napiš krátký komentář ke kartogramu, třeba k podílu seniorů v krajích, a dej ho chatbotu k posouzení. Ať označí místa, kde tvrdíš víc, než mapa ukazuje, opravu udělej ty."
+    }
+  ]
+}

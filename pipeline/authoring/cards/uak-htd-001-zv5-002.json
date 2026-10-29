@@ -1,0 +1,441 @@
+{
+  "outcome": "UAK-HTD-001-ZV5-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "zpev-pisne-dychani-hv5",
+      "title": "Zpěv a správné dýchání",
+      "aliases": [
+        "zpívání",
+        "hlas",
+        "dýchání při zpěvu",
+        "pěvecký sbor",
+        "hudebka zpěv"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozeznívá svůj hlas v různé dynamice"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Interpretuje samostatně i ve skupině jednoduché hudební celky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Zpívat musíš ty svým hlasem, chatbot za tebe nezazpívá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš text a nahrávku písničky, kterou se učíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s laděním a karaoke ti ukáže, jestli trefuješ tóny."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Klavír nebo kytara ti dají tón, podle kterého si naladíš hlas."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e50a68c5-2a5d-4815-8bd1-e4334aed7683"
+      ],
+      "inspiration": [
+        "Písnička dokola"
+      ]
+    },
+    {
+      "slug": "rytmus-doby-hra-na-telo-hv5",
+      "title": "Rytmus a těžké a lehké doby",
+      "aliases": [
+        "rytmus",
+        "tempo",
+        "hra na tělo",
+        "tleskání",
+        "těžká a lehká doba"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozpoznává těžké a lehké doby"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na základě zkušeností zkouší kreativní rytmický projev"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co jsou těžké a lehké doby, a vymyslí rytmy k opakování."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš nahrávky s jasným tempem, ke kterým si zatleskáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Metronom v aplikaci drží tempo a ty se v něm učíš orientovat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Bubínek nebo dřívka jsou hudební nástroje, na které rytmus zahraješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8f8a8803-dc72-4488-9991-7c7d373e01fa"
+      ],
+      "inspiration": [
+        "Rychlé a pomalé království"
+      ]
+    },
+    {
+      "slug": "hudba-pohybem-nalada-hv5",
+      "title": "Nálada, dynamika a forma hudby",
+      "aliases": [
+        "nálada hudby",
+        "hlasitě a potichu",
+        "forma písně",
+        "pohyb podle hudby",
+        "poslech hudby"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na základě vedení učitelem se postupně učí zorientovat ve formě, dynamice, náladě hudby"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy jako forte a piano a řekne, co v hudbě slyšet."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky s popisem nálady a stavby skladby."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s hudbou ti dovolí poslouchat a zobrazí hlasitost a stavbu skladby."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Na hudební nástroj zahraješ tichý a hlasitý tón a slyšíš rozdíl."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0"
+      ],
+      "inspiration": [
+        "Pan Sova"
+      ]
+    },
+    {
+      "slug": "pohybove-hry-improvizace-hv5",
+      "title": "Pohybové hry a taneční improvizace",
+      "aliases": [
+        "tanec",
+        "pohybová hra",
+        "improvizace",
+        "tančení",
+        "výrazový pohyb"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Spontánně se vyjadřuje pohybem, hlasem, zpěvem"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "objevuje základní pohybové a výrazové možnosti svého těla"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Pohybovat se a tančit musíš ty, chatbot ti tělo nerozhýbe."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš videa jednoduchých pohybových her, které si zkusíš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvůj pohyb za tebe nevymyslí ani nezatančí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj tvoje tělo nenahradí, tanec děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2aeadb90-7ddc-4329-9268-8d5a6bf76b99"
+      ],
+      "inspiration": [
+        "Čtyři živly v taneční a hudební improvizaci",
+        "Chyť míč - zatanči pocit"
+      ]
+    },
+    {
+      "slug": "pohyb-prostor-cas-vlastni-tanec-hv5",
+      "title": "Pohyb v prostoru a čase a vlastní tanec",
+      "aliases": [
+        "vlastní tanec",
+        "taneční sestava",
+        "choreografie",
+        "pohyb k hudbě",
+        "dynamika pohybu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "osvojuje si pohybové a taneční dovednosti týkající se základních aspektů pohybu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "propojuje svůj pohyb s představou a s hudebním doprovodem"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy jako prostor a dynamika pohybu a poradí nápady na sestavu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa ukážou kroky a pohyby, které můžeš zkusit po svém."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s hudbou a natáčením ti ukáže, jak tanec vypadá zvenčí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj nezatančí tvoje pohyby, tanec tvoříš tělem ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ddcee55-4da6-425f-a582-6710b0182a2d"
+      ],
+      "inspiration": [
+        "Tvořivá taneční hra - sluneční soustava a stav beztíže"
+      ]
+    },
+    {
+      "slug": "etuda-zivy-obraz-hv5",
+      "title": "Etuda, živý obraz a improvizace",
+      "aliases": [
+        "divadlo",
+        "etuda",
+        "živý obraz",
+        "dramatická výchova",
+        "hraní scénky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "pod vedením učitele si v tvůrčích činnostech zkouší elementární divadelní formy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí situace pro etudu a vysvětlí, jak vypadá živý obraz."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky divadelních forem a nápady na scénky."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Postavu zahraješ svým tělem a hlasem, aplikace to nezastoupí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Etudu hraješ s lidmi ve třídě, klasický nástroj nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74be20a7-fcfe-4715-bb62-8937a547a982"
+      ],
+      "inspiration": [
+        "Hra na divadlo (muzikanti, tanečníci, diváci a dirigent)"
+      ]
+    },
+    {
+      "slug": "role-jevistni-tvar-hv5",
+      "title": "Role ve skupině a malý jevištní tvar",
+      "aliases": [
+        "divadelní hra",
+        "role v divadle",
+        "skupinová práce",
+        "scénka ve třídě",
+        "vystoupení"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "s pomocí učitele a v různých rolích se zapojuje do skupinové práce při tvorbě drobného jevištního tvaru"
+        },
+        {
+          "level": "Splněno",
+          "quote": "pojmenuje svou roli ve společném tvůrčím procesu"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "účastní se společné jevištní a taneční tvorby"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne dialogy a rozdělení rolí, které si pak upravíš po svém."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš texty scének a ukázky, jak se dělá malé představení."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Ve skupině hraješ a domlouváš se ty, aplikace to nezařídí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Společné hraní nahradit nejde, potřebuješ spolužáky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f34ee429-b36d-49f9-a927-80b67a467cc8"
+      ],
+      "inspiration": [
+        "Hra na divadlo (muzikanti, tanečníci, diváci a dirigent)"
+      ]
+    },
+    {
+      "slug": "digitalni-nastroje-tvorba-hv5",
+      "title": "Tablet a mobil při tvorbě",
+      "aliases": [
+        "natáčení",
+        "nahrávání",
+        "tablet",
+        "mobil ve škole",
+        "digitální tvorba"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyjadřuje své představy různými způsoby, prostředky, technikami i s využitím digitálních technologií"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Využívá ve svých činnostech jemu dostupné technologie a digitální nástroje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak natočit a upravit nahrávku, a vysvětlí pravidla používání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš návody k natáčení, nahrávání a úpravám zvuku."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na nahrávání a úpravu zvuku a videa dělají práci s tablety a mobily."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj digitální záznam neudělá, na ten potřebuješ zařízení."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9"
+      ],
+      "inspiration": [
+        "Oživlé album"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Využívá osvojené základní",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "V činnostech se seznamuje",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Používá základní reprodukční",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Hudební výchova:",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Taneční a pohybová výchova:",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Dramatická výchova:",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

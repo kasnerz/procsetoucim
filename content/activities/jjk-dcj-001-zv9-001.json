@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "odpovedi-na-otazky-v-cizim-jazyce",
+    "title": "Odpovědi na jednoduché otázky",
+    "aliases": [
+      "odpovídání v cizím jazyce",
+      "otázky a odpovědi",
+      "druhý cizí jazyk mluvení",
+      "rozhovor ve dvojici"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- odpoví na jednoduché otázky týkající se známých témat",
+        "quote": "odpoví na jednoduché otázky týkající se známých témat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "V hlasovém režimu si otázky a odpovědi vyzkoušíš nanečisto."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové odpovědi na otázky ve třídě nikde nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a slovníková aplikace ti dají slovíčka, odpovídáš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Na odpověď nahlas obyčejný nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pokyny-a-pantomima",
+    "title": "Pokyny a pantomima",
+    "aliases": [
+      "udělat podle pokynů",
+      "předvést významu beze slov",
+      "pokyny učitele",
+      "hra na pantomimu"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- vykoná činnost podle pokynů, pantomimicky předvede význam sdělení",
+        "quote": "vykoná činnost podle pokynů, pantomimicky předvede význam sdělení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pokyny učitele, Nj, FJ",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí pokyny na procvičení a vysvětlí slova, která neznáš."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Pokyn provedeš a pantomimu předvedeš ty, vyhledávat nemáš co."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pokyn ti překladač přeloží, ale udělat ho musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pantomimu nic nenahradí, předvádíš ji ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zapis-klicovych-slov-z-poslechu",
+    "title": "Zápis klíčových slov z poslechu",
+    "aliases": [
+      "poznámky z poslechu",
+      "poslech a zápis",
+      "klíčová slova",
+      "tabulka k poslechu",
+      "myšlenková mapa"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- zachytí základní informace, zaznamená klíčová slova, přiřadí prostředí",
+        "quote": "zachytí základní informace, zaznamená klíčová slova, přiřadí prostředí"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zaznamená základní údaje, informace a klíčová slova z poslechu do dokumentu, tabulky, myšlenkové mapy, grafu nebo časové osy nebo tabulky.",
+        "quote": "Zaznamená základní údaje, informace a klíčová slova z poslechu do dokumentu, tabulky, myšlenkové mapy, grafu nebo časové osy nebo tabulky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Poslech s přiřazením informací, Nj, Fj",
+        "url": "https://uloziste.rvp.cz/material/5085b4"
+      },
+      {
+        "title": "Porozumění poslechu Nj, Fj",
+        "url": "https://uloziste.rvp.cz/material/bcd487"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Z přepisu nahrávky vybere hlavní slova, se kterými porovnáš své poznámky."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvoje nahrávka z hodiny na internetu není."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Z nahrávky udělá přepis, podle kterého zkontroluješ své poznámky."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír zapisují, poslouchat a vybírat musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/120b9b87-3aad-4a42-b5e7-1b146a672038"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

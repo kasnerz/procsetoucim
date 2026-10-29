@@ -1,0 +1,336 @@
+{
+  "outcome": "INF-INF-004-ZV5-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vyber-aplikace-pro-ukol-digitalni-zarizeni",
+      "title": "Výběr vhodné aplikace pro úkol",
+      "aliases": [
+        "jakou aplikaci použít",
+        "textový editor",
+        "prohlížeč obrázků",
+        "obchod s aplikacemi",
+        "stáhnout aplikaci"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vybírá jednoduchou aplikaci pro základní úkol"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vybírá a kombinuje různé aplikace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot poradí, jaký druh aplikace se na tvůj úkol hodí, a vysvětlí rozdíly."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Recenze a srovnání aplikací najdeš na webu nebo v obchodě s aplikacemi."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Zkoušíš aplikace přímo a hned vidíš, která úkol zvládne."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka ani pravítko ti nevyberou aplikaci v počítači."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/04fe962b-4017-4eb7-9139-7d69b6922bc9"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "spusteni-zname-aplikace-digitalni-zarizeni",
+      "title": "Najít a spustit aplikaci",
+      "aliases": [
+        "otevřít program",
+        "spustit aplikaci",
+        "ikona na ploše",
+        "plocha počítače",
+        "spuštění programu"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Najde a spustí známou aplikaci nebo program."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot krok za krokem popíše, kde aplikaci na svém zařízení najdeš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody a videa ukážou, jak se aplikace na tabletu nebo počítači spouští."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikaci spouštíš prstem nebo myší ty, jiná aplikace to za tebe neudělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj aplikaci nespustí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/04fe962b-4017-4eb7-9139-7d69b6922bc9"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "spolecne-ovladani-aplikaci-kopirovani-scrollovani",
+      "title": "Společné ovládání aplikací",
+      "aliases": [
+        "kopírovat a vložit",
+        "scrollování",
+        "tablet a počítač",
+        "ovládání tabletu",
+        "klávesové zkratky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Poznává základní prvky ovládání aplikací"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Používá společné prvky ovládání"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak se kopíruje nebo posouvá stránka na tvém zařízení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš návod k ovládání konkrétního zařízení i s obrázky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nápověda v aplikaci a cvičné úlohy ti ukážou ovládání při práci."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Prst a myš na obrazovce žádný klasický nástroj nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/04fe962b-4017-4eb7-9139-7d69b6922bc9"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "navrat-k-rozdelane-praci-ulozeny-dokument",
+      "title": "Návrat k rozdělané práci",
+      "aliases": [
+        "otevřít uložený dokument",
+        "pokračovat v práci",
+        "naposledy otevřené",
+        "najít svůj soubor",
+        "otevřít soubor"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vrací se k rozdělané práci"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, kde hledat uložený soubor a jak ho otevřít."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvůj soubor leží na tvém zařízení nebo v tvém cloudu, na webu ho nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace nabízí seznam naposledy otevřených souborů, takže navážeš tam, kde jsi skončil(a)."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír ani pravítko ti digitální dokument neotevřou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+        "http://data.europa.eu/esco/skill/81633a44-f1db-4a01-a940-804c6905e330"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pojmenovani-a-ukladani-souboru-lokalne-cloud",
+      "title": "Pojmenování a ukládání souborů",
+      "aliases": [
+        "uložit soubor",
+        "přejmenovat soubor",
+        "název souboru",
+        "složky",
+        "cloud a počítač"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Spravuje soubory"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí rozdíl mezi uložením v zařízení a v cloudu a poradí s názvy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš návod, jak soubory ukládat a třídit do složek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Správce souborů ti ukazuje složky a po uložení hned vidíš, kde soubor leží."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Soubor pojmenuješ a uložíš ty v počítači, klasický nástroj k tomu nemáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+        "http://data.europa.eu/esco/skill/d3286405-49f8-4e8a-8046-a4376b4e7963"
+      ],
+      "inspiration": [
+        "Byl jednou jeden soubor…"
+      ]
+    },
+    {
+      "slug": "mazani-dat-dokument-ze-slozky-plochy",
+      "title": "Mazání souborů",
+      "aliases": [
+        "smazat soubor",
+        "koš v počítači",
+        "odstranit dokument",
+        "vymazat",
+        "smazání ze složky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Odstraňuje základní typy dat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co se stane po smazání a že se dá hledat v koši."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návod ukáže, kde je koš a jak smazaný soubor vrátit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Koš v zařízení ti dá druhou šanci vrátit soubor smazaný omylem."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Soubor na ploše smažeš ty, klasický nástroj ho nesmaže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e"
+      ],
+      "inspiration": [
+        "Byl jednou jeden soubor…"
+      ]
+    },
+    {
+      "slug": "sprava-uloziste-pocitac-tablet-cloud",
+      "title": "Správa úložiště a čištění dat",
+      "aliases": [
+        "plné úložiště",
+        "volné místo",
+        "co smazat",
+        "záloha dat",
+        "místo v telefonu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Spravuje úložiště na různých zařízeních"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot poradí, podle čeho rozhodnout, které soubory smazat a které zálohovat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš návody, jak zjistit volné místo a co zabírá nejvíc."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Zařízení ukáže, co zabírá místo, a pomůže velké soubory najít."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Úložiště zařízení nespravuje žádný klasický nástroj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+        "http://data.europa.eu/esco/skill/d3286405-49f8-4e8a-8046-a4376b4e7963",
+        "http://data.europa.eu/esco/skill/cf3e976d-2c3e-495c-a874-f9e8a66d3b48"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Využívá digitální technologie k badatelským",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "slug": "reakce-na-dilo-slovo-gesto",
+    "title": "Reakce na dílo slovem a gestem",
+    "aliases": [
+      "co mě na obraze zaujalo",
+      "povídání o obrázku",
+      "hodnocení práce spolužáků",
+      "jak se mi to líbí",
+      "reakce na výtvarné dílo"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Reaguje na svou tvorbu i tvorbu ostatních slovem, pohybem, zvukem či jinými nonverbálními prostředky.",
+        "quote": "Reaguje na svou tvorbu i tvorbu ostatních slovem, pohybem, zvukem či jinými nonverbálními prostředky."
+      },
+      {
+        "level": "Na začátku",
+        "point": "reaguje na své dílo i dílo ostatních bezprostředně i s odstupem",
+        "quote": "reaguje na své dílo i dílo ostatních bezprostředně i s odstupem"
+      },
+      {
+        "level": "Na začátku",
+        "point": "označí, co jej na díle zaujalo, vyjádří se gestem, pohybem, slovem",
+        "quote": "označí, co jej na díle zaujalo, vyjádří se gestem, pohybem, slovem"
+      },
+      {
+        "level": "Splněno",
+        "point": "Určí, co je pro něj na díle významné a co chce jinak než slovy sdělit ostatním.",
+        "quote": "Určí, co je pro něj na díle významné a co chce jinak než slovy sdělit ostatním."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hodnocení gestem",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Co tebe na obrázku zaujalo, ti chatbot neřekne, to poznáš jen ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rozbory obrazů a slovník pocitů ti dají slova, když ti nějaké chybí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nic necítí, dojem z díla vyjadřuješ ty slovem nebo gestem."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dojem z díla vyjadřuješ hlasem a tělem, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663",
+      "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-na-dilo-barvy-a-tvary",
+    "title": "Dojem z díla v barvách a tvarech",
+    "aliases": [
+      "nakreslit pocit",
+      "barvy a nálada",
+      "emoce v obraze",
+      "z malby kresba",
+      "přepsat obraz do kresby"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "svůj dojem z díla vyjádří volbou barev, tvarů, linií a jejich kombinací",
+        "quote": "svůj dojem z díla vyjádří volbou barev, tvarů, linií a jejich kombinací"
+      },
+      {
+        "level": "Na cestě",
+        "point": "převedením malby do kresby a naopak,",
+        "quote": "převedením malby do kresby a naopak"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Emoce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Barvy a čáry pro svůj dojem vybíráš ty, chatbot tvůj dojem nezná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky obrazů ti ukážou, jak barvy a tvary vyjadřují radost nebo strach."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V kreslicí aplikaci zkoušíš barvy a tvary a snadno je měníš, než se ti zdají správné."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pastelky a štětec ti dají čáru a barvu, kterou svůj dojem skutečně nakreslíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0",
+      "http://data.europa.eu/esco/skill/1faf62ee-28fd-432b-972b-fab2cbe81773"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-na-dilo-zvuk-pohyb-improvizace",
+    "title": "Dílo ve zvuku a pohybu",
+    "aliases": [
+      "zahrát obraz",
+      "tanec podle obrázku",
+      "živý obraz",
+      "ozvučit obraz",
+      "pohybová improvizace"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "převedením do zvukové podoby,",
+        "quote": "převedením do zvukové podoby,"
+      },
+      {
+        "level": "Na cestě",
+        "point": "pohybovou improvizací, využitím prvků performance,",
+        "quote": "pohybovou improvizací, využitím prvků performance,"
+      },
+      {
+        "level": "Na cestě",
+        "point": "ozvučení projekce díla,",
+        "quote": "ozvučení projekce díla,"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Živý obraz",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Zahrát zvuk nebo se pohnout musíš ty, chatbot ti může jen poradit nápad."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky zvuků a tance ti dají nápad, jak by obraz mohl znít nebo se hýbat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nahrávací aplikace zachytí tvoje zvuky a dovolí je podložit pod promítaný obraz."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Chrastítko, flétna nebo bubínek dají obrazu zvuk, který vyzkoušíš a upravíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4327690a-e639-4b58-98b5-d078d6b90b07",
+      "http://data.europa.eu/esco/skill/fba972bf-7c08-4deb-a2dc-b157886097fe"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-na-dilo-kratky-vzkaz-basen",
+    "title": "Krátký text k dílu: vzkaz nebo báseň",
+    "aliases": [
+      "báseň k obrázku",
+      "vzkaz autorovi",
+      "slovní asociace",
+      "napsat k obrazu",
+      "řetězení slov"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "krátkým textem (může jít o vzkaz, báseň, výběr určitých slov a jejich řetězení, slovní asociaci),",
+        "quote": "krátkým textem (může jít o vzkaz, báseň, výběr určitých slov a jejich řetězení, slovní asociaci)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti může nabídnout rýmy a slova na téma obrazu, vybíráš a píšeš pak ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky básní a slovníky synonym ti dají materiál pro vlastní slova."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nepoví, co ti dílo připomíná, a to je to hlavní, co píšeš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a papír ti nechají vypsat slova volně a škrtat, dokud sedí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd",
+      "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-na-dilo-fotografie-serie",
+    "title": "Fotografie k dílu a příběh z fotek",
+    "aliases": [
+      "vyfotit obraz",
+      "fotka jako obraz",
+      "upravit fotku",
+      "série fotek",
+      "fotopříběh"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "fotografií, která vzbuzuje asociace s dílem,",
+        "quote": "fotografií, která vzbuzuje asociace s dílem,"
+      },
+      {
+        "level": "Na cestě",
+        "point": "přenesení díla do jiného prostředí (i na fotografii) nebo kontextu,",
+        "quote": "přenesení díla do jiného prostředí (i na fotografii) nebo kontextu,"
+      },
+      {
+        "level": "Na cestě",
+        "point": "úpravou fotografie díla jednoduchými digitálními nástroji,",
+        "quote": "úpravou fotografie díla jednoduchými digitálními nástroji,"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vytvářením série fotografií, vyjadřující jednoduchý příběh či vyprávění.",
+        "quote": "vytvářením série fotografií, vyjadřující jednoduchý příběh či vyprávění."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Fotku s tvým nápadem vyfotíš ty, chatbot nestojí před dílem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky fotografií a návody na kompozici ti ukážou, jak udělat dobrý záběr."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Fotoaparát a editor v telefonu ti fotku pořídí, ořízne a upraví barvy a světlo."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Fotografovat a upravovat snímky se dá jen digitálně, tužka ani pravítko nepomůžou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38509fa4-7c06-4a4b-9622-f521f03c37b8",
+      "http://data.europa.eu/esco/skill/d90bad2f-7fcc-4e85-a02f-ba4837732892"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-na-dilo-video-animace",
+    "title": "Krátké video a animace díla",
+    "aliases": [
+      "natočit obraz",
+      "animovaný film",
+      "stop motion",
+      "záběr na detail",
+      "video o obrazu"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "krátkým videem, které přiblíží dílo z různých úhlů pohledu nebo přiblížení na detail,",
+        "quote": "krátkým videem, které přiblíží dílo z různých úhlů pohledu nebo přiblížení na detail,"
+      },
+      {
+        "level": "Na cestě",
+        "point": "animací díla,",
+        "quote": "animací díla,"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Natáčíš a rozhýbáváš ty, chatbot může nanejvýš poradit, jak na to."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody na natáčení a ukázky animací ti ukážou, jak vypadá záběr z blízka a stop motion."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na video a animaci spojí tvoje záběry a obrázky a dovolí je sestříhat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Video a animace vznikají na zařízení s kamerou, klasický nástroj k tomu nestačí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/eee58e6d-4587-42f0-b9a0-fe055cfe2044",
+      "http://data.europa.eu/esco/skill/5ce80f97-b385-4a41-9339-a6593d0709c1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-na-dilo-sdileni-s-ostatnimi",
+    "title": "Sdílení vlastní tvorby s ostatními",
+    "aliases": [
+      "ukázat třídě svou práci",
+      "vernisáž",
+      "představit obrázek",
+      "výběr způsobu reakce",
+      "prezentace tvorby"
+    ],
+    "outcome": "UAK-VFV-001-ZV5-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vybere si konkrétní způsob reakce na svou tvorbu i tvorbu ostatních.",
+        "quote": "Vybere si konkrétní způsob reakce na svou tvorbu i tvorbu ostatních."
+      },
+      {
+        "level": "Splněno",
+        "point": "Sdílí obsah díla verbálními i nonverbálními prostředky.",
+        "quote": "Sdílí obsah díla verbálními i nonverbálními prostředky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Před třídou stojíš ty, chatbot za tebe svou práci nepředstaví."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové informace ti neřeknou, jak chceš svou práci ukázat ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prezentační aplikace nebo fotoalbum ti poskládají obrázky a zvuk do ukázky pro ostatní."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nástěnka, rám a lavice s výstavkou ti dají místo, kde dílo ukážeš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

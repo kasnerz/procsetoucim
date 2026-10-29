@@ -1,0 +1,491 @@
+[
+  {
+    "slug": "rozmnozovani-zivotni-cyklus-motyl-rozmnozovaci",
+    "title": "Životní cyklus a rozmnožování",
+    "aliases": [
+      "životní cyklus",
+      "motýl housenka kukla",
+      "řízkování",
+      "opylování",
+      "jak se rozmnožují rostliny"
+    ],
+    "outcome": "CAP-PRI-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše proces rozmnožování a porovná shody a rozdíly mezi potomky a rodiči.",
+        "quote": "Popíše proces rozmnožování"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše proces rozmnožování a životní cyklus na příkladech nepohlavního (řízkování a odnože rostlin) a pohlavního rozmnožování (stádia vývoje stromů, obojživelníků, hmyzu, např. vajíčko - housenka - kukla - motýl), včetně souvisejících procesů (opylování, šíření semen)",
+        "quote": "Popíše proces rozmnožování a životní cyklus na příkladech nepohlavního"
+      },
+      {
+        "level": "Na cestě",
+        "point": "popíše proces rozmnožování a životní cyklus na příkladech nepohlavního (řízkování a odnože rostlin; mšice - líhnutí samic z neoplozených vajíček) a pohlavního rozmnožování (stádia vývoje stromů, obojživelníků, hmyzu, např. vajíčko - housenka - kukla - motýl), včetně souvisejících procesů (opylování, šíření semen)",
+        "quote": "popíše proces rozmnožování a životní cyklus na příkladech nepohlavního"
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovná životní cykly organismů z různých taxonomických skupin (rostlina, bezobratlý s larválním stadiem, obratlovec).",
+        "quote": "Porovná životní cykly organismů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Životní cykly",
+        "url": "https://uloziste.rvp.cz/material/548200"
+      },
+      {
+        "title": "Motýli a housenky",
+        "url": "https://uloziste.rvp.cz/material/51375f"
+      },
+      {
+        "title": "Pohlavní a nepohlavní rozmnožování rostlin",
+        "url": "https://uloziste.rvp.cz/material/313148"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí jednotlivá stádia a vymyslí otázky na procvičení životního cyklu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a obrázky ukážou stádia od vajíčka po motýla."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na rozpoznávání rostlin a hmyzu pomůže určit, co vidíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa pomůže pozorovat vajíčka, housenky a semenáčky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f36dff27-a70e-4c23-b2de-e2dffe84adbf",
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-rodicu-a-potomku-znaky-rozmnozovaci",
+    "title": "Shody a rozdíly rodičů a potomků",
+    "aliases": [
+      "podobnost rodičů a dětí",
+      "znaky potomků",
+      "mladí a staří jedinci",
+      "jak poznat rodiče"
+    ],
+    "outcome": "CAP-PRI-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše proces rozmnožování a porovná shody a rozdíly mezi potomky a rodiči.",
+        "quote": "porovná shody a rozdíly mezi potomky a rodiči"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Pozoruje a popisuje rozdíly ve vzhledu mezi různě starými jedinci daného druhu.",
+        "quote": "Pozoruje a popisuje rozdíly ve vzhledu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví a vnitrodruhové variabilitě.",
+        "quote": "Porovná shody a rozdíly v rozmanitosti"
+      },
+      {
+        "level": "Na cestě",
+        "point": "na vhodných příkladech na základě pozorování porovná znaky potomků a rodičů, určí společné a rozdílné znaky mezi potomky navzájem a porovná znaky potomků s rodiči u pohlavního a nepohlavního rozmnožování",
+        "quote": "na vhodných příkladech na základě pozorování porovná znaky"
+      },
+      {
+        "level": "Na cestě",
+        "point": "podle projevu znaků určí, které organismy jsou potomci a kteří rodiče, a rozhodne, zda šlo o pohlavní nebo nepohlavní rozmnožování",
+        "quote": "podle projevu znaků určí, které organismy jsou potomci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí příklady rodičů a potomků, ze kterých určuješ shody a rozdíly."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotografie jedinců stejného druhu si můžeš porovnat vedle sebe."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nevidí rozdíly za tebe, pozoruješ a porovnáváš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a pravítko pomůžou změřit a porovnat rostliny nebo zvířata."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "role-pohlavnich-bunek-rozmnozovaci",
+    "title": "Role pohlavních buněk",
+    "aliases": [
+      "pohlavní buňky",
+      "vajíčko a spermie",
+      "pylové zrno",
+      "přenos genetické informace"
+    ],
+    "outcome": "CAP-PRI-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí roli pohlavních buněk rostlin a živočichů v přenosu genetické informace při pohlavním rozmnožování",
+        "quote": "vysvětlí roli pohlavních buněk rostlin a živočichů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí výhody a nevýhody nepohlavního a pohlavního rozmnožování s ohledem na typ prostředí a způsob šíření potomků a objasní roli pohlavních buněk.",
+        "quote": "objasní roli pohlavních buněk"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co pohlavní buňky přenášejí, a ptá se tě na vlastní slova."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a schémata ukážou, jak se buňky spojují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Animace v aplikaci ukáže oplození, které pod mikroskopem neuvidíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mikroskop ve škole oplození pohlavních buněk neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691",
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyhody-nevyhody-pohlavniho-nepohlavniho-rozmnozovaci",
+    "title": "Výhody a nevýhody způsobů rozmnožování",
+    "aliases": [
+      "pohlavní nebo nepohlavní",
+      "co je lepší",
+      "rozmnožování a prostředí",
+      "šíření potomků"
+    ],
+    "outcome": "CAP-PRI-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zhodnotí možné pozitivní i negativní dopady změny podmínek na život organismů.",
+        "quote": "Zhodnotí možné pozitivní i negativní dopady změny podmínek"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zhodnotí výhody a nevýhody pohlavního a nepohlavního rozmnožování vzhledem k typu prostředí (stabilita, množství zdrojů) a šíření potomků (vzdálenost, různorodost prostředí)",
+        "quote": "zhodnotí výhody a nevýhody pohlavního a nepohlavního rozmnožování"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí výhody a nevýhody nepohlavního a pohlavního rozmnožování s ohledem na typ prostředí a způsob šíření potomků a objasní roli pohlavních buněk.",
+        "quote": "Zhodnotí výhody a nevýhody nepohlavního a pohlavního rozmnožování"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pohlavní a nepohlavní rozmnožování (výklad s prezentací a úkoly)",
+        "url": "https://uloziste.rvp.cz/material/b61494"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje oponenta, který ti vyvrací, proč se hodí ten či onen způsob rozmnožování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie dá příklady druhů a prostředí, ze kterých porovnáváš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Hodnotit výhody a nevýhody musíš ty, aplikace na to nemá funkci."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pozorovací pomůcky dají jen data, o výhodách rozhoduješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "gen-bilkovina-znak-barva-kvetu",
+    "title": "Vztah mezi genem, bílkovinou a znakem",
+    "aliases": [
+      "gen a znak",
+      "barva květu",
+      "enzym",
+      "jak gen ovlivní vzhled"
+    ],
+    "outcome": "CAP-PRI-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na konkrétním příkladu a s pomocí vhodných analogií vysvětlí vztah mezi genem (např. gen pro barvu květu), bílkovinou (např. enzym pro tvorbu barviva) a znakem (např. barva květu)",
+        "quote": "na konkrétním příkladu a s pomocí vhodných analogií vysvětlí vztah mezi genem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí analogii, třeba recept a koláč, a ověří, jestli ji chápeš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Schémata ukážou cestu od genu přes enzym k barvě květu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní animace ukáže tvorbu bílkoviny podle genu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pomůcky ve třídě gen ani bílkovinu neukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prenos-genu-prostredi-dvojcata-rozmnozovaci",
+    "title": "Přenos genů a vliv prostředí",
+    "aliases": [
+      "jednovaječná dvojčata",
+      "dědičnost",
+      "geny rodičů",
+      "schéma křížení"
+    ],
+    "outcome": "CAP-PRI-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "s využitím schématu nebo příkladu vysvětlí přenos genů v generacích při pohlavním a nepohlavním rozmnožování a vliv prostředí na projev znaků (např. rozdíly u jednovaječných dvojčat vlivem stravy nebo kouření).",
+        "quote": "s využitím schématu nebo příkladu vysvětlí přenos genů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí zákonitosti přenosu genů a projevu znaků v jednotlivých generacích při pohlavním a nepohlavním rozmnožování a roli prostředí při projevu znaků.",
+        "quote": "Vysvětlí zákonitosti přenosu genů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí přenos genů na příkladech a opraví tvé vysvětlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Schémata a ukázky dědičnosti ukážou, jak se geny dostanou k potomkům."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na křížení vypočítá, jaké znaky potomci mají, a ty to porovnáš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír na kreslení schémat pomůžou, ale přenos genů nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691",
+      "http://data.europa.eu/esco/skill/d6ed2572-96be-483f-863b-d8a3c19255ea"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rodokmen-jeden-znak-dedicnost",
+    "title": "Rodokmen jednoho znaku",
+    "aliases": [
+      "čtení rodokmenu",
+      "rodokmen dědičnost",
+      "vliv variant genů",
+      "dvojčata"
+    ],
+    "outcome": "CAP-PRI-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na příkladu rodokmenu znázorňujícího přenos jednoho znaku popíše přenos genů z rodičů na potomky, rozdíl v dědičnosti při pohlavním a nepohlavním rozmnožování, vliv konkrétních variant genů na projev znaku a vliv prostředí na projev znaků (na příkladu jednovaječných dvojčat)",
+        "quote": "na příkladu rodokmenu znázorňujícího přenos jednoho znaku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí rodokmen a ptá se tě, kdo znak zdědil."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky rodokmenů s řešením ti ukážou, jak se čtou."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na kreslení rodokmenu ti pomůže znázornit rodinu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka stačí na nakreslení rodokmenu a sledování znaku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff258a7e-b2ba-414a-9878-2380ecf89de0",
+      "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nahodne-mutace-vyznam-rozmnozovaci",
+    "title": "Mutace a jejich důsledky",
+    "aliases": [
+      "mutace",
+      "chyba v DNA",
+      "UV záření a mutace",
+      "evoluce",
+      "rakovina"
+    ],
+    "outcome": "CAP-PRI-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě příkladů zhodnotí význam náhodných změn dědičné informace (mutací) pro vývoj jedince a druhu (evoluci).",
+        "quote": "Na základě příkladů zhodnotí význam náhodných změn"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zhodnotí význam náhodných mutací pro jedince a vývoj druhu, popíše vznik mutací (např. chyby při kopírování DNA, vliv UV záření), vysvětlí náhodnost mutací a jejich možné důsledky (výhodné, nevýhodné, neutrální), uvede příklady důsledků mutací (např. rakovina u jedince, evoluce u druhu) a vysvětlí vliv prostředí na přežití a rozmnožování jedinců s různými znaky",
+        "quote": "zhodnotí význam náhodných mutací"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hodné a zlé mutace",
+        "url": "https://uloziste.rvp.cz/material/2cc5f5"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak mutace vznikají, a vymyslí příklady výhodných i nevýhodných."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie dává příklady mutací a jejich následků."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace evoluce v aplikaci ukáže, jak mutace přežívají v prostředí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasické pomůcky mutace neukážou, hodnotit je musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+      "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

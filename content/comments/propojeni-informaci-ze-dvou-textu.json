@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "V jednom textu se dočteš, že vlak jede v osm, ve druhém, že cesta na nádraží trvá půl hodiny, a teprve dohromady víš, kdy vyrazit. Propojit dva zdroje a vyvodit z nich závěr je o krok víc než jen najít informaci. Chatbot umí dva texty porovnat, jenže jeho závěr je dobré umět zkontrolovat, a to jde jen tehdy, když to zvládneš i ty. V nemocnici se spojuje záznam pacienta s tím, co řekl lékař, a na úřadech se porovnávají nabídky s podmínkami zakázky.",
+  "learnWithAi": [
+    {
+      "title": "Dva texty o jednom zvířeti",
+      "text": "Poproste chatbota o dva krátké texty o stejném zvířeti, každý s jinými údaji. Napište spolu jednu větu, která spojí informace z obou."
+    },
+    {
+      "title": "Jízdní řád a program akce",
+      "text": "Najděte s rodičem jízdní řád a program nějaké akce a zkuste vymyslet, kdy vyrazit z domu. Pak se zeptejte chatbota a ověřte, jestli v časech nechybuje."
+    },
+    {
+      "title": "Zprávy, které si odporují",
+      "text": "Nechte chatbota napsat dvě krátké zprávy o jedné události, které si v něčem odporují. Najdi rozpor a vymyslete spolu, jak zjistit, která zpráva má pravdu."
+    }
+  ]
+}

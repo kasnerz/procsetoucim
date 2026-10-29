@@ -1,0 +1,605 @@
+[
+  {
+    "slug": "prava-povinnosti-skola-obcan",
+    "title": "Práva a povinnosti ve škole",
+    "aliases": [
+      "školní řád",
+      "práva žáka",
+      "povinnosti žáka",
+      "co smím a musím"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "na úrovni školy se orientuje ve svých právech a povinnostech, je si vědom, co z jejich ne/dodržování vyplývá",
+        "quote": "na úrovni školy se orientuje ve svých právech a povinnostech, je si vědom, co z jejich ne/dodržování vyplývá"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Znám svá práva a povinnosti ve škole",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy z řádu a vymyslí modelové situace, na kterých si práva a povinnosti vyzkoušíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Školní řád a zákony o právech dětí si přečteš ve zdrojích školy a státu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro znalost školních práv a povinností žádná aplikace neexistuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svá práva ve škole nezměříš ani nespočítáš, potřebuješ školní řád."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64",
+      "http://data.europa.eu/esco/skill/5ff0df56-48a7-4f84-937f-ba9a88182f3f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pravo-a-moralka-legalni",
+    "title": "Právo a morálka",
+    "aliases": [
+      "legální a morální",
+      "co je správné",
+      "zákon a svědomí",
+      "spravedlnost"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "na příkladech diskutuje rozdíly mezi právem a morálkou, mezi tím, co je legální a co je morální",
+        "quote": "na příkladech diskutuje rozdíly mezi právem a morálkou, mezi tím, co je legální a co je morální"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "„Zveřejním tvoje video, když mi nepůjčíš peníze!\"",
+        "url": "https://uloziste.rvp.cz/material/2a1742"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne příklady jednání, které je legální, ale nefér, a na tvé námitky odpoví."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš zde popsané případy, o kterých se dá se spolužáky hádat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nerozhodne, co je správné, a diskuse se tím nenahradí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nad tím, co je správné, přemýšlíš a diskutuješ ty, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozpoznat-protipravni-jednani",
+    "title": "Rozpoznání protiprávního jednání",
+    "aliases": [
+      "porušení zákona",
+      "co je protiprávní",
+      "trestné nebo ne",
+      "porušení práv"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Poukáže na porušování práv na příkladech z různých životních situací a v modelových situacích předvede jejich vhodná řešení.",
+        "quote": "Poukáže na porušování práv na příkladech z různých životních situací a v modelových situacích předvede jejich vhodná řešení."
+      },
+      {
+        "level": "Splněno",
+        "point": "V reálných nebo modelových situacích rozpozná různá protiprávní jednání.",
+        "quote": "V reálných nebo modelových situacích rozpozná různá protiprávní jednání."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Když už to není jen malér",
+        "url": "https://uloziste.rvp.cz/material/94911e"
+      },
+      {
+        "title": "Případ z Břeclavi",
+        "url": "https://uloziste.rvp.cz/material/5bd028"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí příběhy a po tvém tipu řekne, jestli jde o porušení zákona."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zákony a výklady pro děti najdeš online a ověříš si, co je zakázáno."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace situaci nevyhodnotí, posoudit ji musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pro posouzení situace žádný nástroj v ruce nedrží, rozhoduješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64",
+      "http://data.europa.eu/esco/skill/8836a5a5-e2ff-4baf-aae3-bfb78a4cca7f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prestupek-trestny-cin-rozdil",
+    "title": "Přestupek a trestný čin",
+    "aliases": [
+      "rozdíl přestupek trestný čin",
+      "co je přestupek",
+      "co je trestný čin",
+      "kyberšikana a zákon"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje na příkladech ve fyzickém či digitálním prostředí rozdíl mezi přestupkem a trestným činem",
+        "quote": "rozlišuje na příkladech ve fyzickém či digitálním prostředí rozdíl mezi přestupkem a trestným činem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Když už to není jen malér",
+        "url": "https://uloziste.rvp.cz/material/94911e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl na příkladech a otestuje tě na nových případech."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zákony a stránky o právu pro děti uvádějí, co je přestupek a co trestný čin."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace rozdíl nerozhodne, případ posuzuješ ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozdíl rozpoznáváš v hlavě, žádný nástroj ho neměří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8836a5a5-e2ff-4baf-aae3-bfb78a4cca7f",
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porusovani-vlastnickeho-prava-kradez",
+    "title": "Porušování vlastnického práva",
+    "aliases": [
+      "krádež",
+      "poškození cizí věci",
+      "pirátství",
+      "cizí věc"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvede příklady nejčastějšího porušování vlastnického práva ve fyzickém a digitálním prostředí",
+        "quote": "uvede příklady nejčastějšího porušování vlastnického práva ve fyzickém a digitálním prostředí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti sepsat příklady od krádeže kola po stahování cizí hudby."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš zde případy krádeží i porušování autorských práv."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Příklady vymýšlíš ty, aplikace k tomu nic nedodá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příklady ze šatny či internetu sepisuješ ty, nástroj nepomáhá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8836a5a5-e2ff-4baf-aae3-bfb78a4cca7f",
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dusledky-poruseni-pravidel-smluv",
+    "title": "Důsledky porušení pravidel, zákonů a smluv",
+    "aliases": [
+      "co se stane když porušíš pravidla",
+      "smlouva",
+      "pokuta a trest",
+      "dodržování smluv"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "posoudí důsledky dodržování a nedodržování pravidel, zákonů a smluv",
+        "quote": "posoudí důsledky dodržování a nedodržování pravidel, zákonů a smluv"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou, co plyne z podepsané smlouvy nebo ze zákona, a ukáže možné následky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzory smluv a popisy sankcí si přečteš na stránkách státu a úřadů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace následky nespočte, posuzuješ je ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Následky posuzuješ ty v hlavě, žádný nástroj to neumí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6c3f7679-af52-4806-ab0d-2a692640703b",
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64",
+      "http://data.europa.eu/esco/skill/8836a5a5-e2ff-4baf-aae3-bfb78a4cca7f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "navod-porusena-prava-postup",
+    "title": "Návod, co dělat při porušení práv",
+    "aliases": [
+      "jak řešit porušení práv",
+      "co dělat když mi ubližují",
+      "postup při porušení práv",
+      "práva dítěte"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zpracuje návod, co dělat, když jsou porušena jeho nebo cizí práva nebo svobody.",
+        "quote": "Zpracuje návod, co dělat, když jsou porušena jeho nebo cizí práva nebo svobody."
+      },
+      {
+        "level": "Na cestě",
+        "point": "navrhne, jak řešit situaci konkrétního porušení základních práv a svobod, včetně porušení práv dítěte",
+        "quote": "navrhne, jak řešit situaci konkrétního porušení základních práv a svobod, včetně porušení práv dítěte"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "„Zveřejním tvoje video, když mi nepůjčíš peníze!\"",
+        "url": "https://uloziste.rvp.cz/material/2a1742"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Prohlédne tvůj návod a ukáže, co v něm chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na stránkách pro děti najdeš postupy, jak se bránit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace návod nesepíše, zvažuješ a píšeš ho ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a pero ti pomohou sepsat postup, ať je přehledný."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5ff0df56-48a7-4f84-937f-ba9a88182f3f",
+      "http://data.europa.eu/esco/skill/16ac1a06-ce37-405d-8c9f-d8b218039917"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zakladni-prava-svobody-demokracie",
+    "title": "Základní práva, svobody a demokracie",
+    "aliases": [
+      "lidská práva",
+      "svoboda projevu",
+      "demokracie",
+      "listina práv"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí, jak a proč základní práva a svobody souvisejí s demokracií",
+        "quote": "vysvětlí, jak a proč základní práva a svobody souvisejí s demokracií"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí souvislost na příkladech a ptá se tě, čím se země bez práv liší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Listinu základních práv a svobod si přečteš ve znění online."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace souvislost nevysvětlí, vysvětluješ ji ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Souvislost vysvětluješ ty, nástroj k tomu nepomáhá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5ff0df56-48a7-4f84-937f-ba9a88182f3f",
+      "http://data.europa.eu/esco/skill/5b71cb01-0f37-47e0-a617-abcf08c8aa64"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pravo-spotrebitele-reklamace",
+    "title": "Práva spotřebitele a reklamace",
+    "aliases": [
+      "reklamace",
+      "vrácení zboží",
+      "záruka",
+      "spotřebitel",
+      "koupě"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "v modelových situacích uplatňuje práva spotřebitele ve vztahu ke koupi a reklamaci zboží a služeb",
+        "quote": "v modelových situacích uplatňuje práva spotřebitele ve vztahu ke koupi a reklamaci zboží a služeb"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Hraje prodavače a ty si vyzkoušíš reklamovat vadné zboží."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Lhůty a postup reklamace najdeš na stránkách pro spotřebitele."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace reklamaci nevyřídí, mluvíš s prodejcem ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Účtenka a zboží ukážou, co se dá reklamovat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7ae62140-fe02-4ee3-a0c5-fb5668a2870d",
+      "http://data.europa.eu/esco/skill/947e6a15-5539-43e2-b62f-6a52fd57e0a0",
+      "http://data.europa.eu/esco/skill/28d715e3-3e5b-4fb6-8dd2-4be4919c8587"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "diskriminace-nesnasenlivost-reseni",
+    "title": "Diskriminace a nesnášenlivost",
+    "aliases": [
+      "rasismus",
+      "xenofobie",
+      "šikana kvůli původu",
+      "nesnášenlivost"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvádí příklady zkušenosti s diskriminací, xenofobií, rasismem a dalšími projevy nesnášenlivého chování a analyzuje, jak bylo dané jednání řešeno",
+        "quote": "uvádí příklady zkušenosti s diskriminací, xenofobií, rasismem a dalšími projevy nesnášenlivého chování a analyzuje, jak bylo dané jednání řešeno"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Případ z Břeclavi",
+        "url": "https://uloziste.rvp.cz/material/5bd028"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou popsaný případ a ukáže, co se dalo udělat jinak."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zpravodajství i pomocné organizace uvádějí případy a jejich řešení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace zkušenost nenahradí, případ rozebíráš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Případ rozebíráš ty v hlavě, žádný nástroj nedrží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5ff0df56-48a7-4f84-937f-ba9a88182f3f",
+      "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "na-koho-se-obratit-porusena-prava",
+    "title": "Na koho se obrátit při porušení práv",
+    "aliases": [
+      "linka bezpečí",
+      "policie",
+      "kam se obrátit",
+      "pomoc"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "doporučí osoby, instituce a organizace, na které se obrátit, pokud někdo porušuje základní práva, zákony či jiné právní předpisy",
+        "quote": "doporučí osoby, instituce a organizace, na které se obrátit, pokud někdo porušuje základní práva, zákony či jiné právní předpisy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Na koho se obrátit?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vypíše úřady a organizace a poradí, kam se hodí jít s jakým problémem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Kontakty linek pomoci, policie a úřadů najdeš na jejich stránkách."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Telefon ti zavolá za tebe nikdo, volat musíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Telefon ti spojí s linkou pomoci, když zavoláš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/16ac1a06-ce37-405d-8c9f-d8b218039917",
+      "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

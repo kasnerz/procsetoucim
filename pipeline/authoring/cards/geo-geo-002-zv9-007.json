@@ -1,0 +1,203 @@
+{
+  "outcome": "GEO-GEO-002-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "biomy-a-pudni-typy-geo9",
+      "title": "Hlavní biomy a půdní typy",
+      "aliases": [
+        "biomy",
+        "půdní typy",
+        "tundra a tajga",
+        "step a poušť",
+        "černozem",
+        "podzol"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozlišuje a charakterizuje hlavní biomy a vybrané půdní typy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi tajgou a stepí a vymyslí ti otázky na zkoušení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a atlas ukážou fotky biomů a popis půd."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kvízy a karty s biomy a půdami ti pomůžou je rozlišit."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas s mapou biomů a půd je základ, ze kterého se učíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566",
+        "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+      ],
+      "inspiration": [
+        "Přiřaď biom"
+      ]
+    },
+    {
+      "slug": "zonalni-a-azonalni-faktory-biomu",
+      "title": "Proč jsou biomy a půdy právě tam",
+      "aliases": [
+        "zonalita",
+        "zeměpisná šířka a biom",
+        "nadmořská výška",
+        "proč tam roste les",
+        "azonální"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zdůvodní rozmístění biomů a půdních typů jako důsledek vlivu zonálních a azonálních faktorů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se s šířkou i výškou mění biom, a opraví tvé zdůvodnění."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice online a Wikipedie popisují zonalitu s obrázky."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Zdůvodnění rozmístění biomů musíš vymyslet ty, aplikace ho nenapíše."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas s mapami klimatu, biomů a půd ti ukáže souvislosti."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+        "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+      ],
+      "inspiration": [
+        "Kde biom můj?"
+      ]
+    },
+    {
+      "slug": "odvozeni-biomu-a-pudy-pro-misto",
+      "title": "Půda a biom pro dané místo z klimagramu a polohy",
+      "aliases": [
+        "klimagram",
+        "určení biomu",
+        "jaká tam bude půda",
+        "poloha a podnebí",
+        "hornina a půda"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "pro konkrétní místo odvodí na základě přírodních podmínek"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pro konkrétní místo odvodí na základě geografické polohy odpovídající biom, půdní typ"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkontroluje tvůj postup od polohy a klimagramu k biomu a půdě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Klimatická data a mapy půd najdeš online a ověříš s nimi závěr."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapové aplikace ukážou polohu, výšku a typ krajiny místa."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Klimagram v atlase čteš ty, atlas ti dá jen podklady."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566",
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": [
+        "Kde a proč co roste? – Biomy, půdy a hospodaření (čtení klimagramu)"
+      ]
+    },
+    {
+      "slug": "pudy-a-zivot-v-krajine-hospodareni",
+      "title": "Jak půdy a organismy ovlivňují hospodaření lidí",
+      "aliases": [
+        "úrodná půda",
+        "zemědělství a půda",
+        "lesy a pole",
+        "využití krajiny",
+        "co se kde pěstuje"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na konkrétních příkladech vysvětlí, jak přirozené rozšíření půd a živých organismů podmiňuje a ovlivňuje lidské aktivity"
+        },
+        {
+          "level": "Splněno",
+          "quote": "hospodářské využití krajiny"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá příklady, proč se na černozemi pěstuje obilí, a ptá se tě na další."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zemědělské a lesnické stránky ukazují, co se kde daří."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Souvislosti mezi půdou a hospodařením vysvětluješ ty, aplikace je nevymyslí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas s mapou využití země ukáže pole, louky a lesy podle půd."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e693138a-842f-4d9f-9aa5-bf515605c359",
+        "http://data.europa.eu/esco/skill/270c4de9-97f9-4a7a-95d1-63670f1ec3bc"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

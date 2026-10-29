@@ -1,0 +1,21 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "35efc04c-429a-407e-a00a-f07fd03c2743": "Musí z popisu závady poznat, jaký výpočet použít, třeba pro napětí nebo odpor. Zadat do kalkulačky je až druhý krok, nejdřív přijde správná úvaha.",
+  "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": "Z otázky typu „kolik lidí z kolika“ se musí rozhodnout, jaký výpočet použít. Až pak to spočítá program a vytvoří z toho graf nebo přehled.",
+  "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2": "Zadání od firmy zní jako běžná věta a analytik z ní vybírá, co spočítat. Bez té úvahy nepomůže ani nejlepší program.",
+  "258e46f9-0075-4a2e-adae-1ff0477e0f30": "Z obchodní otázky musí poznat, co se má počítat a z čeho. Samotné výpočty dělají programy, vybrat správný výpočet však musí on.",
+  "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": "Studentům vysvětluje, jak převést popis situace na matematický zápis. To je přesně rozhodnutí, kdy sčítat a kdy násobit, jen na těžších příkladech.",
+  "f0e1cc13-48e0-4995-8699-ee43467bce0d": "Učí žáky převést slovní úlohu na výpočet. Vidí tak, kde se při volbě operace nejčastěji spletou, a vysvětlí jim to.",
+  "219d1c30-3849-4de3-b0d6-07da187b6521": "Z popisu výroby musí zjistit, co sčítat a co násobit, aby vyšla cena materiálu, práce a času. Pak počítá v tabulce.",
+  "b9296f1a-a68b-4ac7-9904-f2cf1374fbaf": "Reálnou situaci, třeba nosník nebo stroj, převádí na vzorce. Správně vybrat vzorec musí on, spočítá to software.",
+  "d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee": "Ve skladu se pořád rozhoduje, jestli zásoby přibyly, ubyly, nebo jsou v baleních po několika kusech. Správná operace určí, kolik zboží opravdu je.",
+  "ade351da-7bda-424e-8682-bbdcab2a25be": "Při výpočtu mzdy se hodiny násobí sazbou a přesčasy se přičítají. Každé číslo má v práci jinou roli, jednou jde o hodiny, jindy o koruny, a nejde je zaměnit.",
+  "5b3ef95b-7d99-4af9-b2d0-41c6bc33f58c": "Receptura šarže říká, kolik čeho se do nádrže přidá. Při jiné velikosti dávky se množství násobí nebo dělí, a kdo operaci zvolí špatně, zkazí celou šarži.",
+  "0dae04a4-fa4c-40d3-8518-122cc0f7bfcf": "Z velikosti šarže a složení se počítá, kolik každé přísady se odváží. Je potřeba rozlišit, co je celkové množství a co podíl jedné složky, a podle toho násobit nebo dělit.",
+  "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230": "Při hodnocení dodavatelského řetězce se čísla v různých rolích mísí, třeba počet kusů, cena za kus a doba dopravy. Je nutné vědět, co se s čím sčítá a co se násobí.",
+  "6fefa90d-9a71-49c6-be92-52397e9795e6": "Při stanovení sázkových kurzů se násobí sázky a kurzy a odečítají se výplaty. Číslo je tu jednou částka, jindy násobek, a z toho se pozná, kolik vyjde zisk nebo ztráta.",
+  "00ab29a3-6d4a-4df9-b46d-de31069e36e8": "Do záznamů o těžbě se zapisuje, kolik rudy ubylo a kolik přibylo. K tomu se čtou plány a čísla z měření, takže je potřeba poznat, co které číslo vyjadřuje."
+ }
+}

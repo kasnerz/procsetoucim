@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Z klimagramu, polohy na mapě a hornin pod povrchem se dá odvodit, co na daném místě roste, jaká je tam půda a co se tam dá pěstovat. Ve škole to skládáš krok za krokem, protože každý závěr musí mít oporu v datech, která máš před sebou. Chatbot ti postup zkontroluje, číst klimagram a dát stopy dohromady ale musíš umět ty, jinak nepoznáš, když se splete. Tohle uvažování potřebují lidé, kteří zkoumají půdy, řídí pěstování plodin nebo posuzují podloží pro stavby, a takové práce by podle odhadů do roku 2035 mělo přibýt.",
+  "learnWithAi": [
+    {
+      "title": "Klimagram neznámého místa",
+      "text": "Požádej chatbota o klimagram vymyšleného místa jako tabulku teplot a srážek po měsících. Urči biom a půdu a teprve potom si nech říct, jestli to sedí."
+    },
+    {
+      "title": "Rada pro novou farmu",
+      "text": "Nech chatbota hrát někoho, kdo chce na neznámém místě založit farmu a ptá se tě, co tam půjde pěstovat. Odpovídej podle klimagramu a mapy, ne podle toho, co tušíš."
+    },
+    {
+      "title": "Postup od polohy k půdě",
+      "text": "Vyber skutečné místo z atlasu, napiš celý postup od polohy přes klima k biomu a půdě a dej ho chatbotovi ke kontrole. Kde s tebou nesouhlasí, rozhodni podle atlasu, kdo má pravdu."
+    }
+  ]
+}

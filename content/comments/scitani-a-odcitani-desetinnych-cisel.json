@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Sečíst nákup nebo spočítat, kolik zbude z kapesného, znamená sčítat a odčítat desetinná čísla. Nejčastější chyba vzniká, když čísla pod sebou nemají čárky nad sebou. Písemný postup ukáže, proč se desetiny sčítají s desetinami, a s tímhle pochopením pak hlídáš i kalkulačku. Ta je rychlejší, jenže když se v ní překlepneš o jedno místo, chybu odhalí jen tvůj odhad. S desetinnými čísly počítá v práci zhruba 24 % lidí, kteří v Česku pracují.",
+  "learnWithAi": [
+    {
+      "title": "Písemné sčítání a odčítání",
+      "text": "Poproste s rodičem chatbota o pět příkladů na sčítání a odčítání desetinných čísel. Spočítejte je na papíře a u těch, které nesouhlasí s kalkulačkou, si nechte ukázat chybu."
+    },
+    {
+      "title": "Hledání chyby ve vlastním postupu",
+      "text": "Zkuste s rodičem napsat chatbotu svůj postup u příkladu, který nevyšel. Ať najde krok s chybou, opravu ale udělejte vy."
+    },
+    {
+      "title": "Nákupní seznam s rozpočtem",
+      "text": "S učitelem nebo rodičem nechte chatbota vymyslet nákupní seznam s cenami a rozpočtem. Spočítejte, kolik zbude, a výsledek ověřte kalkulačkou, protože chatbot se v delších součtech může splést."
+    }
+  ]
+}

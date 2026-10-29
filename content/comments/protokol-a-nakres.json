@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Při kreslení tužkou se musíš dívat pozorněji než při focení, protože každou stěnu buňky musíš opravdu uvidět. Do protokolu pak zapíšeš i postup a zvětšení, aby podle něj mohl pozorování zopakovat kdokoli jiný. Stejně zapisují svou práci laboranti a lidé ve výzkumu, u nich je záznam podkladem pro další rozhodnutí. Fotka z mobilu je rychlejší, ale nákres prozradí, čemu z obrazu opravdu rozumíš.",
+  "learnWithAi": [
+    {
+      "title": "Vzor protokolu",
+      "text": "Požádej chatbota o vzor protokolu z mikroskopování a porovnej ho se svým zápisem. Doplň, co ti chybí."
+    },
+    {
+      "title": "Srozumitelný postup pro ostatní",
+      "text": "Pošli chatbotovi svůj heslovitý postup a zeptej se, jestli by podle něj někdo jiný dokázal pozorování zopakovat. Opravy dopiš vlastními slovy."
+    },
+    {
+      "title": "Doplňující otázky k nákresu",
+      "text": "Popiš chatbotovi svůj nákres slovy a nech ho ptát se na podrobnosti, které v popisu chybí. Odpovědi hledej znovu v mikroskopu, ne u chatbota."
+    }
+  ]
+}

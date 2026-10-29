@@ -1,0 +1,90 @@
+---
+import Base from "../../layouts/Base.astro";
+import Icon from "../../components/Icon.astro";
+import Paper from "../../components/Paper.astro";
+import Stack from "../../components/charts/Stack.astro";
+import { TOOLS, activities, verdictSegs } from "../../lib/data";
+const base = import.meta.env.BASE_URL;
+---
+
+<Base title="Nástroje">
+  <div class="wrap page">
+    <section class="lead col">
+      <h1>Nástroje</h1>
+      <p class="soft">
+        Čtyři druhy nástrojů, které již dneska řadu úloh zvládají – nikdy ale ne
+        úplně. U kterých úloh mohou pomoci?
+      </p>
+    </section>
+    <ul class="tools">
+      {
+        TOOLS.map((t) => (
+          <li>
+            <Paper
+              as="a"
+              seed={`tool/${t.id}`}
+              tilt={0.8}
+              class="tool"
+              href={`${base}nastroje/${t.id}/`}
+            >
+              <Icon name={t.icon} size="52" class="tool-icon" />
+              <h2 class="t">{t.name}</h2>
+              <p>{t.desc}</p>
+              <div class="chart">
+                <Stack
+                  segs={verdictSegs(t.id)}
+                  label={`${t.name} u ${activities.length} karet`}
+                />
+              </div>
+            </Paper>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="tiny soft center">Počty karet, celkem {activities.length}.</p>
+  </div>
+</Base>
+<style>
+  .page {
+    display: grid;
+    gap: var(--s6);
+  }
+  .lead {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: var(--s3);
+  }
+  .lead p {
+    max-width: 62ch;
+  }
+  .tools {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+    gap: var(--s5);
+    max-width: 940px;
+    width: 100%;
+  }
+  .tool {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: var(--s3);
+    padding: var(--s6) var(--s5);
+    height: 100%;
+  }
+  .tool :global(.tool-icon) {
+    color: var(--purple);
+  }
+  .tool h2 {
+    font-size: calc(1.9rem * var(--title-scale));
+  }
+  .chart {
+    width: 100%;
+    text-align: left;
+    margin-top: auto;
+  }
+</style>

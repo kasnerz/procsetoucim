@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "U pozvánky na výlet nestačí znát jednotlivá slova, musíš z nich poskládat, kdy prohlídka začíná a co stojí vstupenka. Na otázky k textu proto odpovídáš vlastní větou a tak si ověříš, že smyslu opravdu rozumíš. Kdo jezdí do ciziny nebo bude pracovat se zahraničními zákazníky, používá to pořád, třeba průvodčí ve vlaku, když cestujícímu vysvětluje změnu spoje. Překladač text převede do češtiny, ale u dvojznačné věty nevíš, jestli se trefil, dokud aspoň trochu nerozumíš originálu.",
+  "learnWithAi": [
+    {
+      "title": "Pozvánka na koncert",
+      "text": "Požádej chatbota o krátkou pozvánku v cizím jazyce, třeba na koncert, a ať se tě na ni zeptá. Odpovídej v cizím jazyce a nech si říct, co nesedí."
+    },
+    {
+      "title": "Vysvětlení v cizím jazyce",
+      "text": "Když ti v textu není jasná celá věta, popros chatbota, ať ji vysvětlí jednodušeji v tom jazyce, ne česky. Teprve když ani tak nerozumíš, nech si ji přeložit."
+    },
+    {
+      "title": "Text ze skutečného webu",
+      "text": "Zkopíruj chatbotovi text ze skutečného cizojazyčného webu, třeba muzea nebo zoo, a nech ho připravit otázky. Odpovědi hledej v originálu a ověř, že se otázky ptají na to, co tam opravdu stojí."
+    }
+  ]
+}

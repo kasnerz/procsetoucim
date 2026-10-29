@@ -1,0 +1,399 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "priklady-konfliktu-a-spoluprace",
+      "title": "Příklady konfliktů a spolupráce",
+      "aliases": [
+        "válka a mír",
+        "revoluce",
+        "spolupráce v dějinách",
+        "kdo se zúčastnil"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Prozkoumá jeden příklad konfliktu a spolupráce."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Rozliší, jakou měl daný příklad povahu, kdo se ho účastnil."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Charakterizuje několik příkladů konfliktů a spolupráce."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Prozkoumá několik příkladů významných válek, revolucí a spolupráce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne příklad jednodušeji a zeptá se tě, kdo se ho účastnil."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie dají data, jména i souvislosti."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dějepisný atlas ukáže, kde konflikt probíhal a kdo s kým sousedil."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Španělská houpačka",
+        "Svržení atomové bomby na Hirošimu a Nagasaki"
+      ]
+    },
+    {
+      "slug": "priciny-konfliktu-a-spoluprace",
+      "title": "Příčiny konfliktů a spolupráce",
+      "aliases": [
+        "proč začala válka",
+        "příčiny války",
+        "dlouhodobé a bezprostřední příčiny",
+        "proč lidé spolupracují"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vysvětlí, co bylo jeho příčinou a důsledkem."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, co bylo dlouhodobými a bezprostředními příčinami konfliktů a spolupráce."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Vysvětlí na příkladech příčiny lidských konfliktů v dějinách"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi příčinou a záminkou a zadá ti vlastní příklad."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "V encyklopedii najdeš, co konfliktu předcházelo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "skutecne-a-zastupne-duvody",
+      "title": "Skutečné a zástupné důvody konfliktů",
+      "aliases": [
+        "ideologie",
+        "záminka války",
+        "náboženské spory",
+        "skutečný důvod války"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozliší mezi reálnými a ideologickými (zástupnými) důvody (např. náboženské spory u třicetileté války, konflikty 20. století)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere s tebou, co bylo ve sporu skutečný zájem a co jen záminka."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš zdroje o třicetileté válce i o konfliktech 20. století."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dusledky-konfliktu-a-spoluprace",
+      "title": "Důsledky konfliktů a spolupráce",
+      "aliases": [
+        "následky války",
+        "krátkodobé a dlouhodobé důsledky",
+        "co válka způsobila",
+        "záměrné a nezáměrné následky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Posoudí krátkodobé a dlouhodobé i záměrné a nezáměrné důsledky konfliktů a spolupráce."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popíše jejich krátkodobé důsledky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, co z události plyne hned a co až za desítky let."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie popisuje následky válek a mírových smluv."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Svržení atomové bomby na Hirošimu a Nagasaki"
+      ]
+    },
+    {
+      "slug": "ukonceni-konfliktu-a-smir",
+      "title": "Ukončení konfliktu a smír",
+      "aliases": [
+        "mírová smlouva",
+        "jak skončila válka",
+        "usmíření",
+        "konec revoluce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Na příkladech revolucí a válek sleduje předpoklady jejich ukončení a co je součástí procesu smíru."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak skončily konkrétní války a revoluce, a vyzkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš mírové smlouvy i popis toho, jak se válka uzavřela."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/96de2e86-e287-41f2-88ab-15a2343afc6f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "chovani-skupin-v-konfliktu",
+      "title": "Chování skupin v konfliktu",
+      "aliases": [
+        "jak se lidé chovali ve válce",
+        "odpor",
+        "pasivita",
+        "odvaha a solidarita"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše různé způsoby chování jednotlivých sociálních skupin v konfliktech."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozeznává různé způsoby chování v době konfliktu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, jak se lidé v jedné době chovali různě, a zeptá se proč."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příběhy pamětníků, zachránců i odpůrců bezpráví."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/8881a9c2-bd07-4954-bf27-c1f8acca9af0"
+      ],
+      "inspiration": [
+        "Byli četníci v terezínském ghettu spoluviníci utrpení?"
+      ]
+    },
+    {
+      "slug": "pronasledovani-a-pomoc",
+      "title": "Pronásledování a pomoc pronásledovaným",
+      "aliases": [
+        "nacistická genocida",
+        "Romové a Židé",
+        "záchrana pronásledovaných",
+        "pronásledování skupin"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše povahu, příčiny a důsledky pronásledování různých skupin obyvatel včetně příkladů pomoci pronásledovaným."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "včetně příkladů aktivní pomoci a solidarity s pronásledovanými a aktivními odpůrci bezpráví (příběhy Romů, Židů, jejich podporovatelů či zachránců v době nacistické genocidy apod.)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč byly některé skupiny pronásledovány, a odpoví na dotazy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Archivy, muzea a encyklopedie popisují pronásledování i záchranu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vyhody-lidske-spoluprace",
+      "title": "Výhody lidské spolupráce",
+      "aliases": [
+        "proč spolupracovat",
+        "k čemu je spolupráce",
+        "diskuse o spolupráci"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "diskutuje o výhodách lidské spolupráce"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá příklady spolupráce z dějin a zeptá se, co z ní kdo měl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady spojenectví, obchodu i společných staveb."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Na dějiny a jejich příčiny žádná aplikace nestačí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dějiny se nedají změřit ani spočítat pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

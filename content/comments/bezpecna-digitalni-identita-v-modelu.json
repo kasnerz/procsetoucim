@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Bezpečné chování online se zkouší nanečisto ze stejného důvodu jako požární cvičení: až přijde opravdová situace, nebude čas dlouho přemýšlet. Cizí člověk, který v chatu chce tvou fotku, nebo zpráva, že ti zablokují účet, když hned neklikneš na odkaz, tě mají zaskočit. V modelové situaci si vyzkoušíš, co odpovědět a komu se svěřit, a nic neriskuješ. Nastavení soukromí a správce hesel ti hodně pomůžou, ale jestli někomu věřit, rozhoduješ pořád ty. Útoky nanečisto zkoušejí i lidé, kteří se s povolením firmy pokoušejí proniknout do jejích systémů, aby našli slabá místa dřív než skuteční útočníci.",
+  "learnWithAi": [
+    {
+      "title": "Podezřelé zprávy na zkoušku",
+      "text": "Požádej chatbota o pět zpráv, z nichž některé jsou podvodné. U každé rozhodni, jestli na ni odpovíš, a nech si vysvětlit, podle čeho se podvod pozná."
+    },
+    {
+      "title": "Neznámý člověk v chatu",
+      "text": "Ať chatbot zahraje neznámého člověka, který se z tebe snaží vytáhnout adresu nebo fotku. Zkoušej odpovědi, které nic neprozradí, a nakonec si nech rozebrat, kde to bylo těsné."
+    },
+    {
+      "title": "Postup při ukradeném účtu",
+      "text": "Popiš chatbotovi vymyšlenou situaci, kdy někdo ovládne tvůj herní účet, a sestav vlastní postup, co uděláš jako první. Chatbot ať tvůj plán prověří otázkami."
+    }
+  ]
+}

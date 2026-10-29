@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "V dlouhém právním textu nese hlavní význam často jen pár slov a vět: kdo něco musí, do kdy a co se stane, když to nesplní. Kdo je umí najít, nepřehlédne lhůtu v dopise z úřadu ani poplatek schovaný ve smlouvě. Vyhledávání v textu ti ukáže každé místo s daným slovem, ale které slovo hledat a která věta je hlavní, musíš poznat ty. Stejnou dovednost využiješ u každého delšího odborného textu ve škole a v práci ji potřebují hlavně lidé, kteří řeší právo ve firmách nebo odhalují finanční podvody.",
+  "learnWithAi": [
+    {
+      "title": "Lhůty a povinnosti v úryvku",
+      "text": "Požádej chatbota o krátký vymyšlený úryvek ze smlouvy a podtrhni v něm, kdo co musí a do kdy. Pak si nech ukázat, co ti uniklo."
+    },
+    {
+      "title": "Hlavní myšlenka jednou větou",
+      "text": "Napiš hlavní myšlenku paragrafu do jedné věty a ukaž ji chatbotovi i s textem. Zeptej se, jestli věta sedí, a když ne, hledej znovu v textu ty."
+    },
+    {
+      "title": "Klíčová slova naslepo",
+      "text": "Vyber pět slov, která podle tebe nesou smysl odstavce, a pošli je chatbotovi bez textu. Ať z nich odhadne, o čem odstavec je, a podle toho poznáš, jestli tvůj výběr sedí."
+    }
+  ]
+}

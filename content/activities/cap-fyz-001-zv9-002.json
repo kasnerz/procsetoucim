@@ -1,0 +1,709 @@
+[
+  {
+    "slug": "fyz-mereni-delky-hmotnosti-objemu",
+    "title": "Měření délky, hmotnosti a objemu",
+    "aliases": [
+      "jak změřit délku",
+      "vážení",
+      "odměrka",
+      "pravítko a váha",
+      "měření předmětu"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Změří vhodnými měřidly délku, objem a hmotnost tělesa, teplotu a časový interval.",
+        "quote": "Změří vhodnými měřidly délku, objem a hmotnost tělesa"
+      },
+      {
+        "level": "Splněno",
+        "point": "Odhadne a následně změří vhodným měřidlem délku a hmotnost vybraného předmětu, objem nádoby.",
+        "quote": "změří vhodným měřidlem délku a hmotnost vybraného předmětu, objem nádoby"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hmotnost cukru v potravinách",
+        "url": "https://uloziste.rvp.cz/material/a501c5"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Předmět změříš a zvážíš ty, chatbot ho nemá v ruce."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a obrázky ukážou, jak se s pravítkem, váhou a odměrkou zachází."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvůj předmět nezváží ani neodměří."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko, váha a odměrka ti dají naměřenou hodnotu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+      "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-odhad-a-mereni",
+    "title": "Odhad a porovnání s měřením",
+    "aliases": [
+      "odhad délky",
+      "odhad hmotnosti",
+      "odhadni a změř",
+      "kolik to asi je"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Měření porovná se svým odhadem.",
+        "quote": "Měření porovná se svým odhadem."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Odhadne a změří hmotnost, objem a délku předmětu nebo vzdálenost mezi dvěma předměty vhodnými typy měřidel.",
+        "quote": "Odhadne a změří hmotnost, objem a délku předmětu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Odhadne a následně změří vhodným měřidlem délku a hmotnost vybraného předmětu, objem nádoby.",
+        "quote": "Odhadne a následně změří"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Odhad děláš z toho, co vidíš a cítíš v ruce, chatbot předmět nemá."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Odhad předmětu před sebou ve vyhledávači nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvůj odhad nezlepší, ten se učíš oči a rukama."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Měřidlo ti ukáže, jak moc se tvůj odhad lišil."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+      "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-volba-meridla",
+    "title": "Volba vhodného měřidla",
+    "aliases": [
+      "jaké měřidlo",
+      "čím měřit",
+      "metr nebo pravítko",
+      "odměrný válec",
+      "váha"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zdůvodní volbu měřidla vhodného pro dané měření. Výsledek měření zapíše se správnou jednotkou.",
+        "quote": "Zdůvodní volbu měřidla vhodného pro dané měření."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s různými měřidly délky, hmotnosti, objemu a jejich vlastnostmi.",
+        "quote": "Seznámí se s různými měřidly délky, hmotnosti, objemu a jejich vlastnostmi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jednotky ve fyzice a v běžném životě",
+        "url": "https://uloziste.rvp.cz/material/c0374a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu se které měřidlo hodí, a zeptá se, proč ho volíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam popis měřidel a jejich rozsah."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Měřidlo vybíráš podle předmětu před sebou, aplikace ho nevybere."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Když vyzkoušíš víc měřidel, poznáš, které se hodí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+      "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-znacky-jednotky-prevody",
+    "title": "Značky veličin, jednotky a převody",
+    "aliases": [
+      "jednotky",
+      "převod jednotek",
+      "gramy a kilogramy",
+      "litry a mililitry",
+      "značky veličin"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se se značkami fyzikálních veličin délka, hmotnost, objem; seznámí se s jejich jednotkami vhodnými pro různé situace a jejich vzájemnými převody.",
+        "quote": "Seznámí se se značkami fyzikálních veličin délka, hmotnost, objem; seznámí se s jejich jednotkami vhodnými pro různé situace a jejich vzájemnými převody."
+      },
+      {
+        "level": "Splněno",
+        "point": "Zdůvodní volbu měřidla vhodného pro dané měření. Výsledek měření zapíše se správnou jednotkou.",
+        "quote": "Výsledek měření zapíše se správnou jednotkou."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jednotky ve fyzice a v běžném životě",
+        "url": "https://uloziste.rvp.cz/material/c0374a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí převod a dá ti příklady k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky jednotek a značek si rychle ověříš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Převodník jednotek zkontroluje tvůj výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti pomůže zkontrolovat převod, který počítáš na papíře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-hodiny-a-kalendar",
+    "title": "Čtení hodin a práce s kalendářem",
+    "aliases": [
+      "hodiny",
+      "kolik je hodin",
+      "analogové hodiny",
+      "kalendář",
+      "datum"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Přečte čas na digitálních i analogových hodinách.",
+        "quote": "Přečte čas na digitálních i analogových hodinách."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Orientuje se v kalendáři a s jeho pomocí řeší reálné problémy s časovými údaji.",
+        "quote": "Orientuje se v kalendáři a s jeho pomocí řeší reálné problémy s časovými údaji."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí čtení ciferníku a vymyslí ti úlohy s daty."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Čas číst a v kalendáři počítat dny musíš ty, vyhledávač to za tebe nepřečte."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Hodinová hra a kalendář v telefonu ti dají cvičení a ověří odpověď."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Hodiny s ručičkami a papírový kalendář máš před očima a zkoušíš na nich."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-mereni-casoveho-intervalu",
+    "title": "Měření časového intervalu",
+    "aliases": [
+      "stopky",
+      "měření času",
+      "jak dlouho to trvá",
+      "porovnání výsledků"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Změří různými měřidly daný časový interval a diskutuje různost výsledků ve skupině.",
+        "quote": "Změří různými měřidly daný časový interval a diskutuje různost výsledků ve skupině."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Čas měříš rukama a očima při pokusu, chatbot u toho není."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Délku svého pokusu ve vyhledávači nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Stopky v telefonu změří interval a ukážou setiny sekundy."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stopky nebo hodinky s ručičkou změří tvůj pokus."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+      "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-cas-na-desetinne-cislo",
+    "title": "Čas jako desetinné číslo",
+    "aliases": [
+      "30 minut jako 0,5 h",
+      "minuty na hodiny",
+      "převod času",
+      "desetinné hodiny"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Převede čas na desetinné vyjádření (např. 30 minut převede na 0,5 h).",
+        "quote": "Převede čas na desetinné vyjádření (např. 30 minut převede na 0,5 h)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč 30 minut je 0,5 h, a zadá ti další příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulka převodů minut na hodiny ti ukáže správný výsledek."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Převodník času ti zkontroluje, jestli ti vyšlo správné číslo."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří dělení šedesáti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-mereni-teploty",
+    "title": "Měření teploty a zápis hodnot",
+    "aliases": [
+      "teploměr",
+      "jaká je teplota",
+      "měření teploty",
+      "záznam teploty"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Změří vhodnými měřidly délku, objem a hmotnost tělesa, teplotu a časový interval.",
+        "quote": "teplotu a časový interval"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Měří teplotu v několika následujících dnech nebo hodinách během jednoho dne, zjištěné hodnoty zaznamenává.",
+        "quote": "Měří teplotu v několika následujících dnech nebo hodinách během jednoho dne, zjištěné hodnoty zaznamenává."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chladnutí vody",
+        "url": "https://uloziste.rvp.cz/material/7201da"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Teplotu u vás změří jedině teploměr, ne chatbot."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Předpověď počasí není teplota, kterou naměříš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka v telefonu nebo v počítači udrží tvoje naměřené hodnoty pohromadě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr ti ukáže teplotu a sešit uchová tvůj záznam."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+      "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-nejistota-a-chyba-odecteni",
+    "title": "Nejistota měření a chyba při odečítání",
+    "aliases": [
+      "přesnost měření",
+      "chyba měření",
+      "jak správně odečíst",
+      "odměrný válec",
+      "nejistota"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Předvede, že různé způsoby přiložení délkového měřidla a různý způsob odečítání na odměrném válci nebo kuchyňské odměrce mohou vést k odlišnému výsledku, a zdůvodní, co je nevyhnutelná nejistota měření a co je zjevná chyba při odečítání.",
+        "quote": "Předvede, že různé způsoby přiložení délkového měřidla a různý způsob odečítání na odměrném válci nebo kuchyňské odměrce mohou vést k odlišnému výsledku"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyzkouší různé způsoby přiložení délkového měřidla a různý způsob odečítání na odměrném válci nebo kuchyňské odměrce a uvědomí si, jak předcházet chybnému odečtu.",
+        "quote": "Vyzkouší různé způsoby přiložení délkového měřidla a různý způsob odečítání na odměrném válci nebo kuchyňské odměrce"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se výsledky liší, a co je chyba oka a co nejistota."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky ukážou, jak se správně dívat na hladinu v odměrce."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe měřidlo nepřiloží ani hladinu neodečte."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a odměrka ti při zkoušení ukážou, jak se výsledek mění."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+      "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-zmenseni-nejistoty",
+    "title": "Zmenšení nejistoty měření",
+    "aliases": [
+      "opakované měření",
+      "průměr měření",
+      "přesnější měření",
+      "listy v knize"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne, jakým způsobem je možné zmenšit nejistotu měření (např. opakované měření a výpočet aritmetického průměru, přesnější měřidlo, měření více předmětů a vydělení počtem – listy v knize, šroubky apod.), a svůj návrh provede.",
+        "quote": "Navrhne, jakým způsobem je možné zmenšit nejistotu měření"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne postupy a vysvětlí, proč průměr z více měření nejistotu zmenší."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Svoje měření musíš provést ty, na webu hotové nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka spočítá průměr z tvých opakovaných měření."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Přesnější měřidlo a kalkulačka ti pomohou, když měření opakuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-graf-teploty-v-case",
+    "title": "Graf závislosti teploty na čase",
+    "aliases": [
+      "graf teploty",
+      "sloupcový graf",
+      "spojnicový graf",
+      "jak nakreslit graf",
+      "vybrat typ grafu"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vytvoří z naměřených dat graf závislosti teploty na čase.",
+        "quote": "Vytvoří z naměřených dat graf závislosti teploty na čase."
+      },
+      {
+        "level": "Splněno",
+        "point": "Změří průběh teploty v závislosti na čase, závislost znázorní graficky, pomocí svého grafu odpovídá na otázky týkající se dosažení konkrétních hodnot či průběhu.",
+        "quote": "Změří průběh teploty v závislosti na čase, závislost znázorní graficky"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vybere vhodný typ grafu pro záznam a zobrazení výsledků fyzikální ho měření.",
+        "quote": "Vybere vhodný typ grafu pro záznam a zobrazení výsledků"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak má vypadat graf",
+        "url": "https://uloziste.rvp.cz/material/83e2f1"
+      },
+      {
+        "title": "Chladnutí vody",
+        "url": "https://uloziste.rvp.cz/material/7201da"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí s typem grafu a zkontroluje, jestli má osy a popisky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky grafů ti ukážou, jak graf vypadá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program z tvých hodnot nakreslí graf, který pak zkontroluješ."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Čtverečkovaný papír a pravítko ti pomohou nakreslit graf ručně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fyz-cteni-z-grafu",
+    "title": "Čtení z grafu a popis průběhu",
+    "aliases": [
+      "číst z grafu",
+      "minimum a maximum",
+      "kdy bylo nejtepleji",
+      "průběh grafu"
+    ],
+    "outcome": "CAP-FYZ-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Z připraveného grafu přečte základní informace (minimum, maximum, hodnotu v daném čase, popíše průběh grafu).",
+        "quote": "Z připraveného grafu přečte základní informace"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Slovně vyjádří průběh teploty ve sledovaném období s využitím vlastního záznamu.",
+        "quote": "Slovně vyjádří průběh teploty ve sledovaném období s využitím vlastního záznamu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Změří průběh teploty v závislosti na čase, závislost znázorní graficky, pomocí svého grafu odpovídá na otázky týkající se dosažení konkrétních hodnot či průběhu.",
+        "quote": "pomocí svého grafu odpovídá na otázky týkající se dosažení konkrétních hodnot či průběhu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chladnutí vody",
+        "url": "https://uloziste.rvp.cz/material/7201da"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti otázky ke grafu a ukáže, jak průběh popsat slovy."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Svůj graf nenajdeš na webu, čteš ho ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V tabulkovém programu najedeš na bod a vidíš jeho hodnotu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko ti pomůže sjet od osy k bodu a přečíst hodnotu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1f403e44-7a79-4b91-b86a-e406208be161",
+      "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

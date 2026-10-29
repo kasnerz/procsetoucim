@@ -1,0 +1,382 @@
+[
+  {
+    "slug": "paka-kleste-nuzky-klic",
+    "title": "Páka v kleštích, nůžkách a klíči",
+    "aliases": [
+      "páka",
+      "kleště a nůžky",
+      "klíč na matice",
+      "otvírák",
+      "jednoduché stroje"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvědomuje si, že existují pomůcky, které dokáží znásobit sílu člověka (kleště, nůžky, otvírák, klíč na matice, …).",
+        "quote": "Uvědomuje si, že existují pomůcky, které dokáží znásobit sílu člověka (kleště, nůžky, otvírák, klíč na matice, …)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "U konkrétních pomůcek identifikuje páku.",
+        "quote": "U konkrétních pomůcek identifikuje páku."
+      },
+      {
+        "level": "Splněno",
+        "point": "Na konkrétním zařízení ukáže princip páky.",
+        "quote": "Na konkrétním zařízení ukáže princip páky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rameno páky na příkladech a vymyslí ti úlohy na procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky a schémata ukážou, kde je u kleští nebo nůžek osa a kde působí síla."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace páky ti nechá posouvat závaží a hned vidíš, kdy se páka vyrovná."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko na gumě nebo kleště v ruce ti ukážou, jak páka znásobí sílu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ostri-spicka-dotykova-plocha",
+    "title": "Ostří, špička a dotyková plocha",
+    "aliases": [
+      "ostrý nůž",
+      "špička",
+      "proč se boří sníh",
+      "dotyková plocha",
+      "tlak a plocha"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvede konkrétní nástroje, které mají špičku nebo ostří.",
+        "quote": "Uvede konkrétní nástroje, které mají špičku nebo ostří."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše konkrétní situace, kdy se zvíře, člověk nebo dopravní prostředek boří do sněhu nebo bláta, a uvědomí si, jak se tomu dá zabránit.",
+        "quote": "Popíše konkrétní situace, kdy se zvíře, člověk nebo dopravní prostředek boří do sněhu nebo bláta"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyzkouší, jak souvisí deformace nebo proniknutí nástroje do materiálu s dotykovou plochou.",
+        "quote": "Vyzkouší, jak souvisí deformace nebo proniknutí nástroje do materiálu s dotykovou plochou."
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede a zdůvodní, proč mají některé nástroje ostrou špičku nebo ostří, tedy co nejmenší dotykovou plochu, a proč je v jiných situacích žádoucí dotykovou plochu zvětšit.",
+        "quote": "Předvede a zdůvodní, proč mají některé nástroje ostrou špičku nebo ostří"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Tlak",
+        "url": "https://uloziste.rvp.cz/material/d556a4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se boty se širokou podrážkou nebořily, a ptá se tě na další příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky sněžnic, hřebíků a nožů ti ukážou, kde je plocha malá a kde velká."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Do materiálu zatlačíš rukou ty, aplikace to za tebe nevyzkouší."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Špendlík, nůž a dlaň v modelíně nebo písku ukážou, jak plocha mění vtlačení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hustota-hmotnost-objem",
+    "title": "Hustota: značka, jednotka a výpočet",
+    "aliases": [
+      "hustota",
+      "hmotnost a objem",
+      "jednotka hustoty",
+      "kg na metr krychlový"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s hustotou jako fyzikální veličinou, její značkou, jednotkou a způsobem určení.",
+        "quote": "Seznámí se s hustotou jako fyzikální veličinou, její značkou, jednotkou a způsobem určení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí vzorec a zadá ti úlohy na hustotu, tvoje výpočty zkontroluje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky hustot látek ti dají hodnoty, které do výpočtu potřebuješ."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Převodník jednotek a tabulkový procesor ti ohlídají jednotky a výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Váha a odměrný válec dají hmotnost a objem, z nich hustotu určíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0a017a46-23aa-4b9e-83b5-0ef1817fbad9",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "plave-nebo-se-potopi-hustota",
+    "title": "Plavání a potápění těles",
+    "aliases": [
+      "co plave a co se potopí",
+      "lodička z modelíny",
+      "Archimédův zákon",
+      "vztlak",
+      "plovoucí těleso"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Ze zkušenosti uvede příklady těles, která plavou nebo se potápí.",
+        "quote": "Ze zkušenosti uvede příklady těles, která plavou nebo se potápí."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyzkouší, která tělesa ve vodě plavou a která se potopí.",
+        "quote": "Vyzkouší, která tělesa ve vodě plavou a která se potopí."
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady těles, která se ve vodě potopí a která budou plavat, a vysvětlí souvislost s hustotou tělesa a vody.",
+        "quote": "Uvede příklady těles, která se ve vodě potopí a která budou plavat, a vysvětlí souvislost s hustotou tělesa a vody."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Plavání a potápění",
+        "url": "https://uloziste.rvp.cz/material/646127"
+      },
+      {
+        "title": "Lodička z modelíny",
+        "url": "https://uloziste.rvp.cz/material/c029e9"
+      },
+      {
+        "title": "Koupání těles",
+        "url": "https://uloziste.rvp.cz/material/4b543b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí vztah hustoty a plavání a zeptá se tě, co se stane s dalšími věcmi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky hustot ti ukážou, co je lehčí a co těžší než voda."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace ti nechá vhazovat různé předměty do vody a porovnat s hustotou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mísa s vodou a pár předmětů ti ukážou, co plave, a lodička z modelíny, jak to změnit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/0a017a46-23aa-4b9e-83b5-0ef1817fbad9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tlak-velicina-pascal-tlakomer",
+    "title": "Tlak: značka, jednotka a měřidlo",
+    "aliases": [
+      "tlak",
+      "pascal",
+      "tlakoměr",
+      "značka p",
+      "jednotka tlaku"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s tlakem jako fyzikální veličinou, jeho značkou, jednotkou a měřidlem.",
+        "quote": "Seznámí se s tlakem jako fyzikální veličinou, jeho značkou, jednotkou a měřidlem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Tlak",
+        "url": "https://uloziste.rvp.cz/material/d556a4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí vztah síly, plochy a tlaku a zadá ti úlohy k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš definici pascalu i obrázky tlakoměrů a vidíš, jak vypadají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Převodník jednotek ti ukáže, kolik je pascalů v barech nebo hektopascalech."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tlakoměr na pneumatiky nebo barometr ti tlak změří a ukáže jednotku na stupnici."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/20e16be3-80b0-46bd-8b5e-ad9aa1ddf608",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tlak-pneumatiky-pretlak-podtlak",
+    "title": "Tlak kolem nás: pneumatiky, počasí, krev",
+    "aliases": [
+      "nafukování pneumatik",
+      "tlaková výše a níže",
+      "krevní tlak",
+      "přetlak a podtlak",
+      "vysavač"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Ví, že se pro správnou funkci musí nafukovat pneumatiky, míč, lehátko, … atd.",
+        "quote": "Ví, že se pro správnou funkci musí nafukovat pneumatiky, míč, lehátko, … atd."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Uvede příklady, kde s tlakem člověk setkává v běžném životě (tlaková níže a výše, tlakování pneumatik, tlak krve, …).",
+        "quote": "Uvede příklady, kde s tlakem člověk setkává v běžném životě (tlaková níže a výše, tlakování pneumatik, tlak krve, …)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady praktického použití sníženého nebo zvýšeného tlaku.",
+        "quote": "Uvede příklady praktického použití sníženého nebo zvýšeného tlaku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Přetlak, podtlak",
+        "url": "https://uloziste.rvp.cz/material/c21d03"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí další příklady přetlaku a podtlaku a ptá se tě, kde se používají."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Předpověď počasí a návody k pneumatikám ukazují tlak v praxi."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s barometrem ukazuje tlak vzduchu u tebe a jeho změny během dne."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pumpa s tlakoměrem ti ukáže, jak se tlak v pneumatice nebo míči mění."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bf419e00-8548-491a-a06f-d72ab439df2f",
+      "http://data.europa.eu/esco/skill/68e66ed6-a171-4350-8ec1-2cfc4cae50e4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

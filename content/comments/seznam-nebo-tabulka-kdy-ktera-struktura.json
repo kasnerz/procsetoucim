@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Nákupní lístek stačí napsat jako seznam pod sebe, ale rozvrh hodin by se bez tabulky nedal číst. Rozdíl je v tom, kolik údajů máš o každé věci: seznamu stačí jeden, tabulka se hodí, když jich je víc a chceš je porovnávat. Ve vyšších ročnících budeš navrhovat vlastní evidence dat a tahle volba bude první krok. Lidé v kanceláři, ve skladu nebo v marketingu se pořád rozhodují, jestli přehled stačí jako výčet, nebo potřebuje sloupce. Aplikace ti vytvoří obojí, ale kterou podobu úloha potřebuje, poznáš jen ty.",
+  "learnWithAi": [
+    {
+      "title": "Situace pro seznam a tabulku",
+      "text": "Ať vám chatbot vypíše deset situací, třeba nákup, výsledky závodu nebo adresář. U každé rozhodni, jestli patří do seznamu, nebo do tabulky, a teprve potom se ho zeptejte na jeho názor."
+    },
+    {
+      "title": "Nákupní lístek s cenami",
+      "text": "Napište spolu nákupní seznam a přidejte ke každé věci cenu a obchod. Přepiš ho na papír do tabulky a porovnej ji s tou, kterou navrhne chatbot."
+    },
+    {
+      "title": "Příklady z tvého dne",
+      "text": "Projděte s rodičem, co všechno během dne čteš, třeba rozvrh nebo jídelníček. Vyber jeden seznam a jednu tabulku a nech chatbota, ať se tě zeptá, proč mají právě tuhle podobu."
+    }
+  ]
+}

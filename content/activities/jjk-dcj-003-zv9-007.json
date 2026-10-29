@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "formular-osobni-udaje-cizi-jazyk-druhy",
+    "title": "Formulář s osobními údaji",
+    "aliases": [
+      "vyplnit formulář",
+      "dotazník",
+      "jméno a adresa",
+      "datum narození",
+      "přihláška"
+    ],
+    "outcome": "JJK-DCJ-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Doplní jméno a adresu v jednoduchém formuláři.",
+        "quote": "Doplní jméno a adresu v jednoduchém formuláři."
+      },
+      {
+        "level": "Na začátku",
+        "point": "- vyplní základní osobní informace do formuláře nebo dotazníku, například jméno, datum narození, adresu, zemi, věk",
+        "quote": "- vyplní základní osobní informace do formuláře nebo dotazníku, například jméno, datum narození, adresu, zemi, věk"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Formulář Nj, Fj",
+        "url": ""
+      },
+      {
+        "title": "Dotazník",
+        "url": ""
+      },
+      {
+        "title": "Formulaire d’inscription au club de golf",
+        "url": "https://uloziste.rvp.cz/material/73abe2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co které políčko formuláře znamená, a zkontroluje vyplněné údaje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník ukáže, jak se v cizím jazyce řekne datum narození nebo země."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti přeloží popisky políček, které neznáš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tištěný slovník a ukázkový formulář ti pomůžou najít správná slova."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8d49f760-3765-4612-8d40-a2bdd50738fe",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "doplneni-slov-do-textu-druhy-jazyk-dcj",
+    "title": "Doplnění vhodných slov do textu",
+    "aliases": [
+      "doplň slova",
+      "doplňovačka",
+      "mezery v textu",
+      "chybějící slova"
+    ],
+    "outcome": "JJK-DCJ-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- doplní do textu vhodná slova",
+        "quote": "- doplní do textu vhodná slova"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- doplní do textu vhodná slova, slovní spojení nebo požadované informace",
+        "quote": "- doplní do textu vhodná slova, slovní spojení nebo požadované informace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč do mezery patří právě to slovo, a vymyslí další cvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníky a jazykové příručky ukážou tvary a významy slov."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a slovníková aplikace ti pomůžou ověřit, jestli slovo sedí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník v knize ukáže význam slova, které do textu zkoušíš dát."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kratky-text-o-sobe-dcj-druhy-jazyk",
+    "title": "Krátký text o sobě",
+    "aliases": [
+      "napsat o sobě",
+      "představení",
+      "pár vět o mně",
+      "osobní informace"
+    ],
+    "outcome": "JJK-DCJ-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Napíše krátký text, ve kterém poskytne základní osobní informace a použije vhodné fráze pro danou situaci, vyplní dotazník nebo písemně odpoví na žádost nebo pozvání.",
+        "quote": "Napíše krátký text, ve kterém poskytne základní osobní informace a použije vhodné fráze pro danou situaci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Opraví ti chyby v textu a vysvětlí, proč jsou chyby."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky textů a seznamy frází ti dají vzor, jak se představit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu a překladač ukážou chyby a neznámá slova."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti pomůže najít slova, která potřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odpoved-na-zpravu-pozvanku-dcj-druhy-jazyk",
+    "title": "Odpověď na pozvánku nebo zprávu",
+    "aliases": [
+      "odepsat",
+      "odpověď na pozvánku",
+      "vzkaz",
+      "přání",
+      "e-mail"
+    ],
+    "outcome": "JJK-DCJ-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- krátce odepíše na jednoduchou zprávu, například na pozvánku, vzkaz, přání k narozeninám nebo k Vánocům",
+        "quote": "- krátce odepíše na jednoduchou zprávu, například na pozvánku, vzkaz, přání k narozeninám nebo k Vánocům"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vytvoří odpověď na zprávu nebo dotaz, kde použije vhodné jazykové prostředky a vyjádří se ve správném kontextu.",
+        "quote": "Vytvoří odpověď na zprávu nebo dotaz, kde použije vhodné jazykové prostředky a vyjádří se ve správném kontextu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Napíše krátký text, ve kterém poskytne základní osobní informace a použije vhodné fráze pro danou situaci, vyplní dotazník nebo písemně odpoví na žádost nebo pozvání.",
+        "quote": "písemně odpoví na žádost nebo pozvání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Email a dopis, Nj, Fj",
+        "url": ""
+      },
+      {
+        "title": "Mon anniversaire – Ma carte d’invitation",
+        "url": "https://uloziste.rvp.cz/material/a13221"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak slušně přijmout nebo odmítnout pozvání, a opraví tvoji odpověď."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové e-maily a fráze ti ukážou, jak se píše odpověď."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a kontrola pravopisu pomůžou s neznámými slovy a chybami."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti pomůže najít slova do odpovědi."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ec0bbf39-0edd-4015-a2c3-82ad563ce3a8",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

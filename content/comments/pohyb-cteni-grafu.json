@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Graf vzdálenosti na čase vypráví příběh: kde těleso stálo, kde zrychlilo a kde se potkalo s jiným. Číst grafy se ti hodí daleko za fyzikou, podobné křivky najdeš ve zprávách i v aplikaci, která ti měří běh. Chatbot ti graf popíše, když mu ho ukážeš, ale jestli se nespletl, poznáš, jen když graf umíš číst. Grafy čte každý den, kdo analyzuje data nebo zkouší letecké motory, a takových pracovních míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Otázky ke grafu z učebnice",
+      "text": "Vyfoť graf z učebnice a požádej chatbota, ať ti k němu položí pět otázek, třeba kde těleso stálo. Odpovídej podle grafu a nech si odpovědi zkontrolovat."
+    },
+    {
+      "title": "Příběh podle grafu",
+      "text": "Požádej chatbota o tabulku bodů pohybu, nakresli z ní graf a vymysli k němu příběh, kdo a jak se pohyboval. Příběh mu pošli a nech si říct, jestli sedí s čísly."
+    },
+    {
+      "title": "Hledání chyby v cizím popisu",
+      "text": "Nech chatbota napsat ke grafu popis pohybu se dvěma schválně zamíchanými chybami. Najdi je a vysvětli, která část grafu je prozrazuje."
+    }
+  ]
+}

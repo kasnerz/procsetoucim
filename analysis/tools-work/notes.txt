@@ -1,0 +1,363 @@
+# kod;tags(fine=verdict L/S/N; '-' = none);unc;note
+JJK-CJL-001-ZV5-005;llm=L;0;AI finds explicit info and links two texts; comprehension itself is the kid's
+JJK-CJL-001-ZV5-008;-;0;personal reading experience; a chatbot can fake a reading log but not the experience
+JJK-CJL-001-ZV5-009;llm=L,img=S;0;writes a story to given criteria more fluently than a 5th grader; own voice/choice not replaceable
+JJK-CJL-001-ZV5-002;llm=L,search=L;0;online dictionaries and chatbots give word meanings and synonyms reliably
+JJK-CJL-001-ZV5-001;llm=N;1;voice chatbots speak fluently but cannot take part in the kid's real conversation
+JJK-CJL-001-ZV5-004;llm=L;1;on a written model situation AI names intent and proposes reactions well; live reaction is the kid's
+JJK-CJL-001-ZV5-006;llm=S,img=L;1;AI can flag manipulative ad language but is itself a possible source of persuasion/errors; making the ad poster is easy for tools
+JJK-CJL-001-ZV5-003;spell=L,llm=L;0;spell-checkers and chatbots write and correct short texts better than a 5th grader
+JJK-CJL-001-ZV5-007;trans=S,llm=S;0;translator lets you compare languages (illustration uses it); attitude to languages is personal
+JJK-CJL-001-ZV9-003;spell=L,llm=L;0;morphology and standard/non-standard forms: checkers and chatbots reliable
+JJK-CJL-001-ZV9-007;-;0;self-assessment of own language level
+JJK-CJL-001-ZV9-010;llm=L;0;analysis of communicative function of a non-literary text
+JJK-CJL-001-ZV9-014;-;0;personal experience of a work
+JJK-CJL-001-ZV9-001;llm=S,spell=L;1;written register choice yes; leading a live discussion no
+JJK-CJL-001-ZV9-012;search=L,llm=L;0;search and summarisers skim faster than any reader; the outcome is the reading strategy
+JJK-CJL-001-ZV9-008;llm=L,img=L,stt=L,sheet=S;0;notes from podcast, infographic, AI image: all tool-doable
+JJK-CJL-001-ZV9-016;llm=S;1;AI writes/reworks literary text; reflecting on own creative process is personal
+JJK-CJL-001-ZV9-002;tts=L;1;speech synthesis pronounces by the norm; it models, the kid must still speak
+JJK-CJL-001-ZV9-009;search=L,llm=S,fact=S;1;finding sources and citation generators reliable; judging credibility is where tools are weakest
+JJK-CJL-001-ZV9-005;spell=L,llm=L;0;syntax and punctuation checks reliable
+JJK-CJL-001-ZV9-011;llm=L,spell=L;0;text cohesion and style adaptation
+JJK-CJL-001-ZV9-013;llm=S,fact=S;1;AI can label manipulation techniques but cannot judge intent reliably and can manipulate itself
+JJK-CJL-001-ZV9-015;llm=L;1;AI produces competent but generic interpretations; personal reading choices not replaceable
+JJK-CJL-001-ZV9-004;llm=L,search=L;0;etymology and loanword replacement via dictionary/chatbot
+JJK-CJL-001-ZV9-006;llm=L,spell=L;0;complete functional written text
+JJK-AJA-001-ZV5-001;trans=L;0;live speech translation and auto-subtitles beat A1–A2 listening
+JJK-AJA-001-ZV5-002;trans=L;0;
+JJK-AJA-001-ZV9-006;trans=L,llm=L;0;
+JJK-AJA-001-ZV9-005;trans=L,llm=L;0;menus, timetables: camera translation reliable
+JJK-AJA-001-ZV9-003;trans=L,llm=L;0;auto-subtitles plus translation
+JJK-AJA-001-ZV9-002;trans=L;0;
+JJK-AJA-001-ZV9-001;trans=L;0;live speech translation and auto-subtitles beat A1–A2 listening
+JJK-AJA-001-ZV9-004;trans=L;0;
+JJK-AJA-001-ZV9-007;trans=L,llm=L;0;simple literary texts; nuance at A2 level is not a problem for tools
+JJK-AJA-002-ZV5-003;trans=L;0;voice translator speaks for you; content about yourself must come from you
+JJK-AJA-002-ZV5-004;trans=L,llm=L;0;
+JJK-AJA-002-ZV9-012;llm=L,trans=L;1;slides and script are tool-doable; presenting live is the kid's
+JJK-AJA-002-ZV9-011;trans=L;0;the experience must be yours, the English sentences need not be
+JJK-AJA-002-ZV9-009;trans=L,llm=L;0;
+JJK-AJA-002-ZV9-013;llm=L,trans=L;0;
+JJK-AJA-002-ZV9-010;trans=L;0;
+JJK-AJA-002-ZV9-008;llm=L,trans=L;0;multimodal chatbot describes a photo in fluent English
+JJK-AJA-003-ZV5-005;trans=S;1;conversation mode works but adds delay and awkwardness to face-to-face talk
+JJK-AJA-003-ZV5-006;trans=L,llm=L;0;
+JJK-AJA-003-ZV9-017;trans=S;1;interaction about feelings in real time
+JJK-AJA-003-ZV9-018;trans=S;1;live discussion via interpreter app is possible but clumsy
+JJK-AJA-003-ZV9-014;trans=S;1;interpreter earbuds exist; spontaneous turn-taking suffers
+JJK-AJA-003-ZV9-016;trans=L,llm=L;0;
+JJK-AJA-003-ZV9-015;trans=S,llm=S;1;voice agents can make a hotel call; reliability in unscripted situations varies
+JJK-AJA-004-ZV9-019;stt=L,llm=L;0;transcription plus summary beats handwritten notes
+JJK-AJA-004-ZV9-021;llm=L;0;
+JJK-AJA-004-ZV9-020;llm=L,trans=L;0;
+JJK-AJA-004-ZV9-022;-;0;moderating a group is a social role
+JJK-DCJ-001-ZV9-003;trans=L;0;
+JJK-DCJ-001-ZV9-001;trans=L;0;live speech translation and auto-subtitles beat A1–A2 listening
+JJK-DCJ-001-ZV9-002;trans=L;0;
+JJK-DCJ-002-ZV9-004;trans=L;0;
+JJK-DCJ-002-ZV9-005;trans=L;0;
+JJK-DCJ-003-ZV9-006;trans=S;1;face-to-face exchange
+JJK-DCJ-003-ZV9-007;trans=L;0;forms and short replies
+JJK-DCJ-004-ZV9-008;trans=L,llm=L;0;camera translation of signs and summaries across sources
+JJK-DCJ-004-ZV9-009;trans=L,llm=L;0;
+MAT-MAT-001-ZV5-004;solver=L,calc=L;0;tools compute with negatives trivially; the outcome is linking numbers to real situations
+MAT-MAT-001-ZV5-001;solver=L,calc=L;0;photo solvers handle multi-step word problems incl. distractors
+MAT-MAT-001-ZV5-002;solver=L,calc=L;0;the point of models (pizza, chocolate) is understanding, which no tool provides
+MAT-MAT-001-ZV5-003;calc=L,solver=L;0;
+MAT-MAT-001-ZV9-001;solver=L,calc=L;0;solvers also show step-by-step justification
+MAT-MAT-001-ZV9-002;calc=L,solver=L;0;
+MAT-MAT-001-ZV9-003;calc=L,solver=L;0;
+MAT-MAT-002-ZV5-005;solver=L,sens=S;0;area by decomposition is solver-doable; estimating and measuring by hand is physical (AR ruler apps comparable)
+MAT-MAT-002-ZV9-006;calc=L,solver=L,search=L;0;world clock and date calculators
+MAT-MAT-002-ZV9-004;calc=L,sens=S;0;unit converters exact; digital instruments replace scale reading
+MAT-MAT-002-ZV9-005;solver=L,calc=L;0;
+MAT-MAT-003-ZV5-006;geo=S,solver=S;1;nets and spatial relations: multimodal AI still makes spatial errors; 3D apps show nets
+MAT-MAT-003-ZV5-008;geo=L;0;dynamic geometry constructs exactly; hand drawing with ruler and compass is a motor skill
+MAT-MAT-003-ZV5-007;geo=S,solver=S;1;spatial reasoning is a known weak spot of chatbots
+MAT-MAT-003-ZV9-008;geo=S,solver=N;1;3D geometry apps show nets and sections; chatbots unreliable on spatial tasks
+MAT-MAT-003-ZV9-007;solver=L,geo=L;0;angle problems and transformations
+MAT-MAT-003-ZV9-009;geo=L,solver=S;0;constructions in GeoGebra exact; chatbots describe but draw unreliably
+MAT-MAT-003-ZV9-010;geo=L;0;
+MAT-MAT-004-ZV5-010;solver=L,sheet=L;0;simulated coin/dice trials in thousands; deciding under uncertainty is the kid's
+MAT-MAT-004-ZV5-009;sheet=L;0;collecting the data is physical; charting and averaging is tool work
+MAT-MAT-004-ZV5-011;solver=L,code=L;0;enumeration under conditions
+MAT-MAT-004-ZV9-013;solver=L;0;
+MAT-MAT-004-ZV9-011;sheet=L;0;
+MAT-MAT-004-ZV9-014;solver=L,code=L;0;
+MAT-MAT-004-ZV9-012;sheet=L,solver=L;0;
+MAT-MAT-005-ZV5-013;solver=L;0;
+MAT-MAT-005-ZV5-012;solver=L;0;
+MAT-MAT-005-ZV9-016;calc=L,solver=L;0;
+MAT-MAT-005-ZV9-015;solver=L;0;
+MAT-MAT-005-ZV9-018;solver=L,geo=L;0;
+MAT-MAT-005-ZV9-017;solver=L;0;CAS simplifies expressions flawlessly; setting up the expression from a situation is the modelling part
+MAT-MAT-005-ZV9-019;solver=L,geo=L;0;
+INF-INF-001-ZV5-001;sheet=S,llm=S;0;tool can compare data but cannot collect data about your school day or decide for you
+INF-INF-001-ZV5-003;llm=S;1;multimodal AI reads diagrams but misreads less obvious symbols
+INF-INF-001-ZV5-002;llm=L;1;given a description, AI picks key elements and drafts a mind map; analysing a real situation needs being in it
+INF-INF-001-ZV9-001;sheet=L,llm=L;0;data analysis features in chatbots and spreadsheets
+INF-INF-001-ZV9-003;llm=S,code=S;1;AI builds models once the problem is framed; framing the problem is the weak spot
+INF-INF-001-ZV9-002;llm=L,code=L;0;
+INF-INF-001-ZV9-004;code=L;1;the outcome is operating a tool (Teachable Machine); AI agents can train and evaluate a simple model end-to-end
+INF-INF-002-ZV5-004;llm=L;0;
+INF-INF-002-ZV5-005;code=L;1;AI writes code reliably; block languages (Scratch) less directly supported
+INF-INF-002-ZV9-008;code=L;0;AI debugging is strong; testing with real users is not
+INF-INF-002-ZV9-005;code=L,llm=L;0;
+INF-INF-002-ZV9-007;code=L;0;
+INF-INF-002-ZV9-006;code=L,llm=L;0;
+INF-INF-003-ZV5-007;sheet=L;0;
+INF-INF-003-ZV5-006;llm=L;0;
+INF-INF-003-ZV9-011;sheet=L;0;AI in spreadsheets writes formulas and charts on request
+INF-INF-003-ZV9-010;sheet=L,llm=S;0;designing rules for real users and testing with classmates is human
+INF-INF-003-ZV9-009;llm=S;0;generic analysis yes; the specific school system's internals not
+INF-INF-004-ZV5-009;-;0;the outcome is using networked devices; tools are the subject, not a substitute
+INF-INF-004-ZV5-008;-;0;choosing and combining apps is tool use itself
+INF-INF-004-ZV5-010;llm=S,sec=L;0;password managers generate and keep strong passwords; recognising warning signs stays with the kid
+INF-INF-004-ZV9-013;sec=S,llm=S;0;OS security tools automate much; risk judgement is personal
+INF-INF-004-ZV9-012;llm=S,search=S;0;chatbots recommend hardware but need your needs
+INF-INF-004-ZV9-014;llm=S;1;AI can list trends and risks; reflecting impact on own life is personal
+CJS-CJS-001-ZV5-003;map=S,search=S;0;historical aerial photos show landscape change; own sustainability list is personal
+CJS-CJS-001-ZV5-007;search=L;0;finding office hours and agendas; proposing an improvement to the mayor is civic action
+CJS-CJS-001-ZV5-004;search=L,map=L,llm=L;0;
+CJS-CJS-001-ZV5-005;-;0;voting is understood by doing; poll apps only count votes
+CJS-CJS-001-ZV5-006;llm=L;0;explains roles of state officials in a model story
+CJS-CJS-001-ZV5-001;id=L;0;multimodal AI classifies landscape type from a photo and guesses location well; observing the real landscape is the kid's
+CJS-CJS-001-ZV5-002;map=L;0;navigation apps pick routes by distance/climb better than paper-map reading; works only with signal and battery
+CJS-CJS-002-ZV5-010;-;0;own role model and own influences
+CJS-CJS-002-ZV5-008;llm=S;0;AI can flag bullying signs in a written scenario; reacting and following rules is behaviour
+CJS-CJS-002-ZV5-011;llm=L,img=L;0;comparison and poster/comic are tool-doable; discussion is the kid's
+CJS-CJS-002-ZV5-009;llm=L;0;
+CJS-CJS-003-ZV5-014;llm=S,search=L;0;tools explain holidays; 'own words' and reflecting the theme day are the kid's
+CJS-CJS-003-ZV5-013;search=L,map=L;0;historical maps and digitised archives; credibility judgement weaker
+CJS-CJS-003-ZV5-012;search=S,stt=S;0;digitised archives and interview transcription help; talking to a witness is the kid's
+CJS-CJS-004-ZV5-021;sky=L,sim=S;0;planetarium apps and simulations show rotation and orbits better than a ball and a lamp
+CJS-CJS-004-ZV5-020;sim=S,sens=S;0;virtual labs exist; the outcome asks for own experiments
+CJS-CJS-004-ZV5-017;id=S;0;species/breed ID apps; observing individual variation is the kid's
+CJS-CJS-004-ZV5-016;sens=S;0;sensors log light/temperature; designing and running the experiment is the kid's
+CJS-CJS-004-ZV5-018;-;0;reflection on a shared experience
+CJS-CJS-004-ZV5-015;id=L;0;plant/animal ID apps identify species better than a 5th grader with a key; acting for biodiversity is physical
+CJS-CJS-004-ZV5-019;sens=L;0;digital instruments measure more precisely; estimating is the kid's
+CJS-CJS-005-ZV5-026;-;0;behaviour in emergencies; warning apps alert but do not act
+CJS-CJS-005-ZV5-031;track=S;0;habit trackers remind; the regime is the kid's own
+CJS-CJS-005-ZV5-030;-;0;
+CJS-CJS-005-ZV5-023;-;0;traffic behaviour; route planners only help plan a ride
+CJS-CJS-005-ZV5-024;llm=S,search=S;0;body knowledge is tool-explainable; applying it to own life is the kid's
+CJS-CJS-005-ZV5-029;-;0;first aid is hands-on; the Záchranka app sends location and guides but does not treat
+CJS-CJS-005-ZV5-022;-;0;
+CJS-CJS-005-ZV5-025;-;0;
+CJS-CJS-005-ZV5-027;-;0;
+CJS-CJS-005-ZV5-032;track=L,llm=L;0;nutrition apps evaluate a menu against recommendations; cooking and table manners are physical
+CJS-CJS-005-ZV5-028;search=L,llm=L;0;
+CJS-CJS-006-ZV5-034;sheet=S,calc=S;0;arithmetic is trivial; weighing own wishes is personal
+CJS-CJS-006-ZV5-035;sheet=L;0;budget apps and templates
+CJS-CJS-006-ZV5-033;calc=L;0;card and phone payments remove counting change; the outcome is handling cash in model situations
+CAS-DEJ-001-ZV9-011;llm=L;0;AI writes competent analyses; may flatten nuance
+CAS-DEJ-001-ZV9-009;llm=L;0;
+CAS-DEJ-001-ZV9-008;llm=L;0;
+CAS-DEJ-001-ZV9-001;llm=L,id=L;0;multimodal AI dates artefacts and art styles from photos
+CAS-DEJ-001-ZV9-010;llm=L;0;
+CAS-DEJ-001-ZV9-012;llm=S,search=L;0;facts are searchable; discussion and judgement are the kid's
+CAS-DEJ-001-ZV9-004;map=S,llm=S;1;historical map portals plus AI description; linking map changes to events is error-prone for AI
+CAS-DEJ-001-ZV9-002;llm=S,fact=S;1;source criticism: AI summarises authorship and intent but cannot reliably detect propaganda in unfamiliar sources
+CAS-DEJ-001-ZV9-003;llm=S,fact=S;1;the outcome treats AI products as the object of criticism
+CAS-DEJ-001-ZV9-006;llm=L;0;
+CAS-DEJ-001-ZV9-005;-;0;personal identity; facts about holidays are searchable
+CAS-DEJ-002-ZV9-013;search=L,llm=S;1;AI can assemble a passable output; weighing sources and own perspective are the core
+CAS-DEJ-002-ZV9-018;-;0;applying history in own community and discussion
+CAS-DEJ-002-ZV9-014;-;0;visit and active work in a museum program
+CAS-DEJ-002-ZV9-015;id=L,search=L;0;image search identifies a monument and its history; own hypothesis and defence are the kid's
+CAS-DEJ-002-ZV9-017;llm=L;0;
+CAS-DEJ-002-ZV9-016;search=S;0;active care for heritage is civic action
+CAS-VKO-001-ZV9-002;-;0;own value ladder
+CAS-VKO-001-ZV9-004;-;0;own influences
+CAS-VKO-001-ZV9-001;-;0;own roles and belonging
+CAS-VKO-001-ZV9-003;llm=S;1;AI flags stereotypes in text but carries its own biases; reflecting own behaviour is personal
+CAS-VKO-002-ZV9-005;llm=L;0;
+CAS-VKO-002-ZV9-009;search=L,llm=L;0;gov portals and chatbots explain life situations step by step
+CAS-VKO-002-ZV9-008;llm=L;0;legal analysis of model situations; real advice needs verification
+CAS-VKO-002-ZV9-006;llm=L,search=L;0;
+CAS-VKO-002-ZV9-011;llm=L,search=L;0;argument with data is tool-doable; examples from own life are the kid's
+CAS-VKO-002-ZV9-012;llm=S;0;AI drafts a proposal; taking part in the action is human
+CAS-VKO-002-ZV9-010;llm=S,search=S,fact=S;1;news aggregation easy; judging what is true in breaking news is hard for tools
+CAS-VKO-002-ZV9-007;llm=L;0;AI reads a contract and flags missing items reliably
+CAS-VKO-003-ZV9-015;llm=L;0;
+CAS-VKO-003-ZV9-014;sheet=L,llm=L,search=L;0;comparison sites and chatbots rank offers; deciding for own family is personal
+CAS-VKO-003-ZV9-013;llm=L;0;explaining terms; using them in live discussion is the kid's
+GEO-GEO-001-ZV9-002;map=S;0;the outcome is operating map/GIS tools; the tool is the medium
+GEO-GEO-001-ZV9-003;map=S,llm=S;0;local problem needs local knowledge; tools supply data and structure
+GEO-GEO-001-ZV9-001;map=L,sheet=L;0;web GIS and chart tools make maps and visualisations
+GEO-GEO-002-ZV9-007;llm=L,map=L;0;soil and biome map layers plus explanation
+GEO-GEO-002-ZV9-011;llm=L;0;supply-chain explanations; own local measures are personal
+GEO-GEO-002-ZV9-012;map=L,llm=L;0;thematic conflict map from news; current events need search-enabled tools
+GEO-GEO-002-ZV9-010;llm=L;0;
+GEO-GEO-002-ZV9-005;llm=L,search=L;0;
+GEO-GEO-002-ZV9-006;llm=L,id=S;0;relief from photos: AI interprets landforms reasonably
+GEO-GEO-002-ZV9-008;llm=L,sheet=L;0;
+GEO-GEO-002-ZV9-009;map=L,llm=S;1;orthophoto interpretation and land-use proposals: AI plausible but shallow
+GEO-GEO-002-ZV9-004;llm=L,search=L;0;
+GEO-GEO-003-ZV9-016;-;0;own identification with a place
+GEO-GEO-003-ZV9-015;llm=S,fact=S;1;AI can contrast two portrayals; judging reliability of sources about unknown regions is hard
+GEO-GEO-003-ZV9-013;map=L;1;map apps know every place, but the outcome is the map in your head
+GEO-GEO-003-ZV9-014;llm=L,map=L;0;
+GEO-GEO-004-ZV9-018;llm=S;0;AI summarises viewpoints; own responsible action and defended opinion are the kid's
+GEO-GEO-004-ZV9-017;llm=L;0;product impacts and greener alternatives
+CAP-FYZ-001-ZV9-001;llm=S;0;AI knows properties and proposes experiments; doing them is hands-on
+CAP-FYZ-001-ZV9-002;sens=S,sheet=L;0;digital instruments remove reading errors; understanding uncertainty is the point
+CAP-FYZ-002-ZV9-003;sens=L,sheet=L;0;phone accelerometer/GPS apps measure motion and plot it (illustration uses this)
+CAP-FYZ-002-ZV9-007;calc=L,llm=L,sens=S;0;energy cost calculators and plug meters
+CAP-FYZ-002-ZV9-005;llm=S;0;explaining yes; demonstrating on a real device is hands-on
+CAP-FYZ-002-ZV9-006;solver=L,llm=L;0;
+CAP-FYZ-002-ZV9-004;sens=S,llm=S;0;digital force meters; experiments hands-on
+CAP-FYZ-003-ZV9-008;sens=L;0;sound apps measure noise and frequency better than ears (illustration uses an app)
+CAP-FYZ-003-ZV9-009;sim=S,llm=S;0;optics simulations; real demonstrations hands-on
+CAP-FYZ-004-ZV9-010;sim=S;0;virtual electrostatics labs; real experiments hands-on
+CAP-FYZ-004-ZV9-011;sim=S,sens=S,solver=L;0;circuit simulators and multimeters; wiring a real circuit is hands-on
+CAP-FYZ-004-ZV9-012;sens=S,sim=S;0;phone magnetometer maps a field
+CAP-FYZ-005-ZV9-014;sky=L,search=L;0;star-map apps identify constellations better than a 9th grader
+CAP-FYZ-005-ZV9-013;llm=L;0;
+CAP-CHE-001-ZV9-004;sens=S,llm=S;0;pH meters measure; designing solutions to model situations is mixed
+CAP-CHE-001-ZV9-005;id=S,llm=S;0;scanning a label gives hazard info; safe lab behaviour is hands-on
+CAP-CHE-001-ZV9-002;llm=L,img=S;0;
+CAP-CHE-001-ZV9-001;track=L,llm=L;0;food-scanning apps rate composition and additives
+CAP-CHE-001-ZV9-003;llm=S;0;explanation yes; verifying by experiment hands-on
+CAP-CHE-002-ZV9-007;search=L,llm=L;0;ČHMÚ portal data plus explanation
+CAP-CHE-002-ZV9-008;llm=L,img=L;0;
+CAP-CHE-002-ZV9-009;llm=L;0;
+CAP-CHE-002-ZV9-006;sheet=L,llm=L;0;
+CAP-CHE-003-ZV9-012;llm=L;0;
+CAP-CHE-003-ZV9-011;sheet=L,llm=S,sens=S;0;data processing yes; safe hands-on experiment no
+CAP-CHE-003-ZV9-010;llm=L;0;
+CAP-CHE-003-ZV9-013;search=L,fact=S;1;finding news easy; judging chemistry fake news needs expertise tools lack
+CAP-CHE-003-ZV9-014;search=L,map=S;0;registries and maps of facilities; contacting the municipality is the kid's
+CAP-PRI-001-ZV9-003;llm=L,img=S;0;
+CAP-PRI-001-ZV9-001;llm=S,id=S;0;AI recognises cell types in micrographs; making a slide is hands-on
+CAP-PRI-001-ZV9-002;llm=S,sens=S;0;AI proposes experiment designs; running them is hands-on
+CAP-PRI-002-ZV9-005;llm=S,map=S;0;needs local knowledge of the site
+CAP-PRI-002-ZV9-004;id=L,llm=S;0;species ID apps; model from own observation
+CAP-PRI-002-ZV9-008;llm=S,sens=S;0;illustration measures greenery cooling with a phone app
+CAP-PRI-002-ZV9-006;-;0;hands-on care for nature
+CAP-PRI-002-ZV9-007;llm=L;0;
+CAP-PRI-003-ZV9-009;llm=L;0;
+CAP-PRI-003-ZV9-010;llm=L;0;facts yes; ethical stance is the kid's
+CAP-PRI-004-ZV9-013;llm=S;0;observation and own argued opinion
+CAP-PRI-004-ZV9-012;id=L;0;ID apps determine species, often beyond the outcome's group level
+CAP-PRI-004-ZV9-011;llm=L;0;
+CAP-PRI-004-ZV9-014;-;0;relationship to nature; ID apps can support exploring
+CAP-PRI-005-ZV9-015;id=S;1;rock/mineral ID apps are far less reliable than plant ID; testing properties is hands-on
+CAP-PRI-005-ZV9-018;llm=L;0;
+CAP-PRI-005-ZV9-017;llm=L;0;
+CAP-PRI-005-ZV9-016;llm=L,sim=S;0;plate tectonics animations replace paper models
+UAK-VFV-001-ZV5-001;img=S;1;image generators produce polished pictures, but the outcome is own experimenting with materials in plane and space
+UAK-VFV-001-ZV5-004;media=S;0;stop-motion apps help; the experiment is the kid's
+UAK-VFV-001-ZV5-003;-;0;personal reaction to artworks
+UAK-VFV-001-ZV5-002;-;0;expressing own feelings and ideas
+UAK-VFV-001-ZV9-001;img=S;1;generators combine visual elements fluently; naming own creative choices is the kid's
+UAK-VFV-001-ZV9-003;media=S,img=S;1;AI video tools can assemble a short film; the outcome is own visual storytelling
+UAK-VFV-001-ZV9-005;-;0;reflection on own creative work
+UAK-VFV-001-ZV9-002;img=S,media=S;1;tools realise a stated intent; setting the intent is the kid's
+UAK-VFV-001-ZV9-004;media=S;0;photo/portfolio tools document; choosing and presenting is the kid's
+UAK-VFV-002-ZV5-006;llm=L;0;multimodal AI describes an artwork with correct terms; joining the conversation is the kid's
+UAK-VFV-002-ZV5-005;-;0;own experience of art
+UAK-VFV-002-ZV9-006;-;0;own experience and personal value of a work
+UAK-VFV-002-ZV9-007;llm=L;0;formal analysis of a picture or film
+UAK-VFV-003-ZV5-007;search=S;0;finding events is easy; sharing own experience is personal
+UAK-VFV-003-ZV9-009;llm=S;0;AI drafts a presentation; own attitude is the kid's
+UAK-VFV-003-ZV9-008;llm=S;0;examples are searchable; own approach to art is personal
+UAK-HTD-001-ZV5-003;-;0;reflection
+UAK-HTD-001-ZV5-002;-;0;music, dance and drama performance
+UAK-HTD-001-ZV5-001;-;0;
+UAK-HTD-001-ZV9-005;-;0;
+UAK-HTD-001-ZV9-003;-;0;creative dance is embodied
+UAK-HTD-001-ZV9-001;-;0;
+UAK-HTD-001-ZV9-004;-;0;
+UAK-HTD-001-ZV9-002;music=S;1;song generators produce full tracks; singing and playing are embodied
+UAK-HTD-002-ZV5-006;id=S,llm=S;1;audio AI can name instruments and genres; orientation in a live performance is the kid's
+UAK-HTD-002-ZV5-005;-;0;own experience
+UAK-HTD-002-ZV5-004;id=S;1;apps detect tempo and instruments; emotional response is personal
+UAK-HTD-002-ZV9-007;llm=S;1;AI analyses means of expression; own interpretation is personal
+UAK-HTD-002-ZV9-006;id=S,llm=S;1;audio analysis of form and dynamics is emerging; appreciating quality is personal
+UAK-HTD-003-ZV5-007;search=L;0;
+UAK-HTD-003-ZV9-009;search=L,llm=L;0;
+UAK-HTD-003-ZV9-008;-;0;own involvement
+CZB-VZB-001-ZV9-002;llm=S;0;knowledge yes; applying prevention is behaviour
+CZB-VZB-001-ZV9-005;-;0;first aid is hands-on
+CZB-VZB-001-ZV9-001;llm=S;0;
+CZB-VZB-001-ZV9-003;-;0;
+CZB-VZB-001-ZV9-004;-;0;
+CZB-VZB-002-ZV9-008;track=L,llm=L;0;nutrition apps compute nutrients and plan menus
+CZB-VZB-002-ZV9-006;track=S,llm=S;0;planners help; own regime is personal
+CZB-VZB-002-ZV9-007;track=S;0;wearables track sleep and stress; relaxation is done by you
+CZB-VZB-003-ZV9-011;-;0;
+CZB-VZB-003-ZV9-009;-;0;
+CZB-VZB-003-ZV9-010;sec=S;0;privacy check-ups and breach checkers; own behaviour online is the kid's
+CZB-VZB-003-ZV9-013;llm=L;0;explaining risks; resisting is behaviour
+CZB-VZB-003-ZV9-012;-;0;
+CZB-VZB-004-ZV9-014;-;0;
+CZB-VZB-004-ZV9-017;llm=L;0;
+CZB-VZB-004-ZV9-016;-;0;
+CZB-VZB-004-ZV9-015;-;0;
+CZB-TEV-001-ZV5-004;track=L;0;fitness trackers record regularity, duration and intensity better than a diary; moving is yours
+CZB-TEV-001-ZV5-003;-;0;
+CZB-TEV-001-ZV5-001;-;0;
+CZB-TEV-001-ZV5-002;-;0;
+CZB-TEV-001-ZV5-005;-;0;
+CZB-TEV-001-ZV9-005;-;0;
+CZB-TEV-001-ZV9-003;track=S;0;apps time tests and log training; effort is yours
+CZB-TEV-001-ZV9-004;track=L;0;training apps plan and log (illustrations use them)
+CZB-TEV-001-ZV9-002;-;0;
+CZB-TEV-001-ZV9-001;-;0;video coaching gives feedback; the movement is yours
+CZB-TEV-002-ZV5-008;track=L;0;apps measure and log performance (outcome asks for one)
+CZB-TEV-002-ZV5-006;-;0;
+CZB-TEV-002-ZV5-007;-;0;
+CZB-TEV-002-ZV5-009;-;0;
+CZB-TEV-002-ZV5-010;-;0;
+CZB-TEV-002-ZV9-011;search=L;0;
+CZB-TEV-002-ZV9-010;-;0;
+CZB-TEV-002-ZV9-006;-;0;
+CZB-TEV-002-ZV9-008;track=L;0;timing and video-analysis apps
+CZB-TEV-002-ZV9-007;-;0;video replay exists in pro sport, not relevant at school level
+CZB-TEV-002-ZV9-009;-;0;
+CZB-TEV-003-ZV5-012;-;0;
+CZB-TEV-003-ZV5-011;-;0;
+CZB-TEV-003-ZV5-015;-;0;
+CZB-TEV-003-ZV5-016;-;0;
+CZB-TEV-003-ZV5-013;-;0;
+CZB-TEV-003-ZV5-014;-;0;
+CZB-TEV-003-ZV9-016;-;0;
+CZB-TEV-003-ZV9-015;-;0;
+CZB-TEV-003-ZV9-018;-;0;
+CZB-TEV-003-ZV9-013;-;0;
+CZB-TEV-003-ZV9-014;-;0;
+CZB-TEV-003-ZV9-017;-;0;
+CZB-TEV-003-ZV9-012;-;0;
+CSP-OSV-001-ZV5-002;-;0;
+CSP-OSV-001-ZV5-001;-;0;
+CSP-OSV-001-ZV9-003;-;0;planning apps and chatbots can format SMART goals; the goals are personal
+CSP-OSV-001-ZV9-004;llm=S;1;chatbots write CVs and simulate interviews; presenting yourself in person is yours
+CSP-OSV-001-ZV9-002;track=S;0;wearables/apps map stress (descriptor mentions it); coping is personal
+CSP-OSV-001-ZV9-005;llm=S;0;AI tutors and flashcard apps support learning; reflecting own needs is personal
+CSP-OSV-001-ZV9-001;-;0;
+CSP-OSV-002-ZV5-003;-;0;
+CSP-OSV-002-ZV5-004;-;0;
+CSP-OSV-002-ZV9-009;-;0;
+CSP-OSV-002-ZV9-008;-;0;
+CSP-OSV-002-ZV9-010;-;0;
+CSP-OSV-002-ZV9-006;-;0;
+CSP-OSV-002-ZV9-007;-;0;
+CSP-OSV-003-ZV5-006;-;0;
+CSP-OSV-003-ZV5-005;-;0;
+CSP-OSV-003-ZV9-015;llm=S;0;portfolio tools organise; the reflection is personal
+CSP-OSV-003-ZV9-012;search=S;0;job/school portals; networks are human
+CSP-OSV-003-ZV9-013;search=L,llm=S;0;finding schools and programmes is easy; matching to own values is personal
+CSP-OSV-003-ZV9-011;-;0;
+CSP-OSV-003-ZV9-014;-;0;
+CSP-TCH-001-ZV5-001;cad=S;0;3D printing makes precise parts; hand-working materials is physical
+CSP-TCH-001-ZV9-002;-;0;assessing own product and process
+CSP-TCH-001-ZV9-001;cad=S;0;
+CSP-TCH-002-ZV5-002;-;0;using hand tools
+CSP-TCH-002-ZV9-004;code=S;0;automatic watering/smart pot automate care (illustrations build them)
+CSP-TCH-002-ZV9-003;cad=S,llm=S;0;chatbots diagnose faults from a photo; 3D-printed spare parts; the repair is hands-on
+CSP-TCH-003-ZV5-003;cad=S;0;digital technical drawings; building is hands-on
+CSP-TCH-003-ZV9-005;code=S,cad=S;0;robot kits are programmed; building and debugging the device is hands-on
+CAS-DEJ-001-ZV9-007;llm=L;0;

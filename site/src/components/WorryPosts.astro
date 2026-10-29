@@ -1,0 +1,83 @@
+---
+// Home hero decoration (user 2026-10-20): short social-network posts with the usual worries about school and AI,
+// in a tight, partly overlapping pile of five paper scraps below the search (user 2026-10-20), each with a generic pencil-drawn
+// avatar (hair and shoulders, no face). Purely illustrative people, no real accounts. The order is the pile's order: scrap n sits in slot n.
+import Paper from "./Paper.astro";
+
+const INK = "#1f2430";
+const POSTS = [
+  { name: "Kuba", handle: "kuba_7b", text: "A k čemu mi to bude?", bg: "#f2e2e4", av: "kid" },
+  { name: "Jaroslav", handle: "jarda58", text: "Každá generace je hloupější a hloupější.", bg: "#e9e9e9", av: "old" },
+  { name: "Ivana", handle: "ivana_m", text: "Co je to tam dneska učí?", bg: "#e4e9f3", av: "mum" },
+  { name: "Ema", handle: "ema.xd", text: "Vždyť to za mě zvládne AI.", bg: "#e4e9f3", av: "teen" },
+  { name: "anonym", handle: "user_48213", text: "Stejně to nebudu v práci potřebovat.", bg: "#e6e7e9", av: "anon" },
+];
+---
+<ul class="posts" aria-hidden="true">
+  {POSTS.map((p, i) => (
+    <Paper as="li" seed={`post/${p.handle}`} tilt={3} depth={4} tone={i % 2 ? "#f9f9f8" : "#fefefe"} class="post">
+      <span class="av" style={`background:${p.bg}`}>
+        <svg viewBox="0 0 40 40" fill="none" stroke={INK} stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+          <g transform="translate(20 23) scale(1.22) translate(-20 -23)">
+          {p.av === "teen" && <path d="M12.4 31c-1.9-6.2-2-12.6.6-16.6 1.6-2.5 4.1-3.9 7-3.9s5.4 1.4 7 3.9c2.6 4 2.5 10.4.6 16.6Z" fill="#3b3f47" />}
+          {p.av === "mum" && <path d="M12.6 25.6c-1.3-5.2-.9-10.6 1.9-13.4 1.5-1.6 3.5-2.5 5.6-2.5s4.1.9 5.6 2.5c2.8 2.8 3.2 8.2 1.9 13.4Z" fill="#8a8f96" />}
+          <path d="M6.5 41c.8-7.4 6.2-11.2 13.5-11.2s12.7 3.8 13.5 11.2Z" fill={p.av === "anon" ? "#b9bdc3" : p.av === "kid" || p.av === "teen" ? "#fff" : "#d3d6da"} />
+          <path d="M17.6 27.4l.2 2.8M22.4 27.4l-.2 2.8" />
+          <ellipse cx="20" cy="19.5" rx="7" ry="8" fill={p.av === "anon" ? "#b9bdc3" : "#fff"} />
+          {p.av === "kid" && <path d="M13 18.4c-.6-5.6 2.8-9.4 7-9.4s7.6 3.6 7 9.4c-.8-1.9-1.8-3.1-3-3.6l-.7 2-1.5-2.7-1.4 2.4-1.4-2.5-1.5 2.3-1-2c-1.6.7-2.7 2.1-3.5 4.1Z" fill={INK} />}
+          {p.av === "old" && <path d="M13.3 20.2c-.6-2.1-.3-4 .7-5.2M26.7 20.2c.6-2.1.3-4-.7-5.2" stroke="#8a8f96" stroke-width="2" />}
+          {p.av === "gran" && <><circle cx="20" cy="9.6" r="3" fill="#c9cbcf" /><path d="M12.9 20.3c-.6-6.4 2.9-9.9 7.1-9.9s7.7 3.5 7.1 9.9c-1.3-3.3-3.9-5-7.1-5s-5.8 1.7-7.1 5Z" fill="#c9cbcf" /></>}
+          {p.av === "teen" && <path d="M13.2 18c.9-4.6 3.6-6.8 6.8-6.8s5.9 2.2 6.8 6.8c-2.9-.3-5.6-1.7-7.2-3.8-1.3 2.1-3.6 3.5-6.4 3.8Z" fill="#3b3f47" />}
+          {p.av === "mum" && <path d="M13.3 17.4c1-4.3 3.7-6 6.7-6s5.7 1.7 6.7 6c-2.5-.6-5-2-6.4-3.8-1.4 1.9-4 3.2-7 3.8Z" fill="#8a8f96" />}
+          {p.av === "dad" && <><path d="M13 18c0-5.2 3-8 7-8s7 2.8 7 8c-1.3-2.2-3.9-3.4-7-3.4s-5.7 1.2-7 3.4Z" fill="#555c66" /><path d="M13.2 20.6c.4 4.9 3.1 7.6 6.8 7.6s6.4-2.7 6.8-7.6c-1 1.6-2.2 2.3-3.6 2.3-1-.7-2-1-3.2-1s-2.2.3-3.2 1c-1.4 0-2.6-.7-3.6-2.3Z" fill="#555c66" /></>}
+          </g>
+          <circle cx="20" cy="20" r="19.2" stroke-width="1.5" />
+        </svg>
+      </span>
+      <span class="who"><strong>{p.name}</strong> <span class="soft">@{p.handle}</span></span>
+      <span class="text">{p.text}</span>
+    </Paper>
+  ))}
+</ul>
+<style>
+  /* The scraps are Paper pieces (another component), so their own rules go through :global. */
+  .posts { list-style: none; margin: 0; padding: 0; position: relative; width: min(100%, 940px); height: 156px; margin-top: var(--s6); }
+  .posts :global(.post) { position: absolute; display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 11px; row-gap: 2px;
+          align-items: center; align-content: start; width: fit-content; max-width: 235px; padding: 10px 14px 11px 11px;
+          text-align: left; }
+  .av { grid-row: span 2; width: 38px; height: 38px; border-radius: 50%; overflow: hidden; align-self: start; }
+  .av svg { display: block; width: 100%; height: 100%; }
+  .who { font-size: 0.75rem; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink-soft); }
+  .who strong { color: var(--ink); }
+  .text { grid-column: 2; font-size: 0.9375rem; line-height: 1.3; text-wrap: balance; }
+
+  /* Two loose rows that overlap a little: the second row is tucked in between and over the first, each lower scrap
+     under a gap of the top row; the whole pile spans about 10–90 %, so it stays centred. */
+  .posts :global(.post:nth-child(1)) { left: 10%; top: 8px; }
+  .posts :global(.post:nth-child(2)) { left: 37%; top: 0; }
+  .posts :global(.post:nth-child(3)) { left: 65%; top: 22px; }
+  .posts :global(.post:nth-child(4)) { left: 25%; top: 64px; }
+  .posts :global(.post:nth-child(5)) { left: 52%; top: 70px; }
+  /* Narrower: two columns, each scrap a little over the one before. */
+  @media (max-width: 899.98px) {
+    .posts { height: auto; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 0; }
+    .posts :global(.post) { position: relative; inset: auto !important; max-width: calc(100% + 12px); margin-bottom: 0; }
+    .posts :global(.post:nth-child(odd)) { justify-self: end; translate: 8px 0; }
+    .posts :global(.post:nth-child(even)) { justify-self: start; translate: -8px 26px; }
+  }
+  /* Phones: one column, scraps alternating left and right, each tucked a little under the next. */
+  @media (max-width: 599.98px) {
+    .posts { grid-template-columns: minmax(0, 1fr); }
+    .posts :global(.post) { max-width: 84%; margin-bottom: -8px; }
+    .posts :global(.post:nth-child(odd)) { justify-self: start; translate: 0 0; }
+    .posts :global(.post:nth-child(even)) { justify-self: end; translate: 0 0; }
+  }
+  @media (max-width: 480px) {
+    .posts :global(.post) { padding: 9px 11px 10px 10px; column-gap: 8px; }
+    .posts :global(.post:nth-child(n+5)) { display: none; }
+    .av { width: 30px; height: 30px; }
+    .who .soft { display: none; }
+    .text { font-size: 0.8125rem; }
+    .posts { margin-top: var(--s4); }
+  }
+</style>

@@ -1,0 +1,95 @@
+{
+  "outcome": "CAP-CHE-002-ZV9-008",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Popíše jednotlivé fáze koloběhu vody.",
+      "cards": [
+        "kolobeh-vody-faze-vypar-srazky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Sestaví model koloběhu vody s využitím modelů zobrazujících vzdálenost a uspořádání molekul vody v daných skupenstvích.",
+      "cards": [
+        "kolobeh-vody-model-molekuly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Znázorní základní fáze koloběhu vody (výpar, kondenzace, srážky, vsakování, odtok) včetně popisu těchto procesů a zahrne do něj vliv lidské činnosti (např. vliv urbanizace, zemědělství, znečišťování vodních zdrojů, stavba přehrad… na změny v distribuci srážek, sucho, záplavy).",
+      "cards": [
+        "kolobeh-vody-faze-vypar-srazky",
+        "vliv-cloveka-na-kolobeh-vody"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S pomocí mapy popíše nerovnoměrné rozložení zdrojů pitné vody na Zemi.",
+      "cards": [
+        "pitna-voda-na-mape-sveta"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S pomocí údajů o množství iontů vápníku a hořčíku ve vodě vysvětlí spojitost tvrdosti vody a vzniku vodního kamene.",
+      "cards": [
+        "tvrdost-vody-vodni-kamen-chemie"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S pomocí mapy tvrdosti vody v ČR a s výsledky chemického rozboru vody rozhodne, kde je větší/menší šance vzniku vodního kamene.",
+      "cards": [
+        "tvrdost-vody-vodni-kamen-chemie"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Spočítá svou vodní stopu (např. pomocí https://www.voda.limited/vodni-zuctovani), porovná ji s průměrnou stopou v ČR i ve světě a navrhne 3 konkrétní způsoby, jak by ji mohl snížit.",
+      "cards": [
+        "vodni-stopa-moje-snizeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S využitím dat porovná množství vody potřebné k přípravě vybraných zemědělských a průmyslových produktů (water footprint).",
+      "cards": [
+        "vodni-stopa-vyrobku-zemedelstvi-prumysl"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí princip úpravny pitné vody a čističky odpadních vod a uvede příklady těchto zařízení ve svém okolí.",
+      "cards": [
+        "upravna-vody-a-cistirna-okoli"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede tři nejčastější druhy zpracování odpadní vody z domácnosti a analyzuje ten, který mají v domácnosti.",
+      "cards": [
+        "odpadni-voda-z-domacnosti-zpusoby"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Na modelu vysvětlí koloběh vody v přírodě včetně příkladů vlivu činnosti člověka.",
+      "cards": [
+        "vliv-cloveka-na-kolobeh-vody"
+      ],
+      "aside": null
+    }
+  ]
+}

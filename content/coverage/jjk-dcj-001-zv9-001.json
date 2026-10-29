@@ -1,0 +1,71 @@
+{
+  "outcome": "JJK-DCJ-001-ZV9-001",
+  "promptVersion": "cards-v1",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "- odpoví na jednoduché otázky týkající se známých témat",
+      "cards": [
+        "odpovedi-na-otazky-v-cizim-jazyce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "- vykoná činnost podle pokynů, pantomimicky předvede význam sdělení",
+      "cards": [
+        "pokyny-a-pantomima"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "-- porozumění prokáže tím, že podle vyslechnutých instrukcí vybere, seřadí nebo označí obrázek nebo uspořádá události ve správném pořadí",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "poslech-obrazek-poradi-doplneni"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "- zachytí základní informace, zaznamená klíčová slova, přiřadí prostředí",
+      "cards": [
+        "zapis-klicovych-slov-z-poslechu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zaznamená základní údaje, informace a klíčová slova z poslechu do dokumentu, tabulky, myšlenkové mapy, grafu nebo časové osy nebo tabulky.",
+      "cards": [
+        "zapis-klicovych-slov-z-poslechu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Porozumí krátkým a jednoduchým promluvám, které jsou pronášeny opakovaně, pomalu a se zřetelnou výslovností.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "porozumeni-kratkym-promluvam"
+        ]
+      }
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Přiřadí k vyslechnutému slovu obrázek nebo nadpis.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "poslech-obrazek-poradi-doplneni"
+        ]
+      }
+    }
+  ]
+}

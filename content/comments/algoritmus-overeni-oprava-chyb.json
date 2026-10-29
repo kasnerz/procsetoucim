@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Postup, který funguje na jednom příkladu, může na jiném selhat, a najít to místo je velká část práce každého, kdo programuje. Zkoušet vlastní řešení na různých případech se hodí i mimo počítač, třeba když kontroluješ příklad z matematiky nebo zjišťuješ, proč se stavebnice rozpadá. Chatbot ti umí ukázat krok, kde se postup rozbije, jenže i jeho vlastní návrhy obsahují chyby. Testovat a opravovat se proto vyplatí umět bez ohledu na to, kdo postup napsal.",
+  "learnWithAi": [
+    {
+      "title": "Postup se schovanou chybou",
+      "text": "Poproste s rodičem chatbota o jednoduché bludiště a postup pro postavičku, ve kterém je schválně jedna chyba. Bludiště si nakreslete, projděte postup prstem a najděte, kde postavička narazí."
+    },
+    {
+      "title": "Kontrola podle očekávaného konce",
+      "text": "Řekněte s rodičem chatbotovi, kde má váš postup skončit, a nechte ho postup přehrát krok po kroku. Když výsledek nesedí, opravu vymyslete vy a zkuste to znovu."
+    },
+    {
+      "title": "Stejný postup z nových míst",
+      "text": "Napište s rodičem postup, jak dojít z tvého pokoje ke dveřím bytu, a poproste chatbota o dvě jiná výchozí místa. Vyzkoušej, jestli postup funguje i z nich, a oprav ho."
+    }
+  ]
+}

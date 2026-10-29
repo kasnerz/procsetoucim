@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Blok opakování ti ušetří práci: místo pěti stejných bloků dáš jeden, který se pětkrát zopakuje. Program je pak kratší, snáz se čte a když chceš deset kroků místo pěti, změníš jedno číslo. Opakující se vzory najdeš i mimo počítač, třeba v písničce s refrénem nebo ve vzoru na svetru. Cykly jsou skoro v každém programu, který vývojáři her a softwaru píšou, a neobejdeš se bez nich ani v dalších ročnících, kde přijdou proměnné a větvení. Chatbot ti cyklus ukáže, vzor v úloze ale musíš uvidět ty.",
+  "learnWithAi": [
+    {
+      "title": "Vzory kolem nás",
+      "text": "Hledejte s rodičem doma opakující se vzory, třeba na dlaždicích nebo v písničce. Popište jeden chatbotovi a nechte si ukázat, jak by vypadal jako program s opakováním."
+    },
+    {
+      "title": "Řada kroků s ukrytým vzorem",
+      "text": "Poproste chatbota o řadu kroků, třeba vpřed, vpřed, otoč se, vpřed, vpřed, otoč se. Najdi, co se opakuje, a zapiš to v blokovém prostředí s jedním blokem opakování."
+    },
+    {
+      "title": "Dlouhý program na zkrácení",
+      "text": "Zkuste s rodičem nechat chatbota popsat dlouhý program se stejnými kroky za sebou. Zkrať ho cyklem a obě verze spusť v blokovém prostředí, ať vidíš, že dělají totéž."
+    }
+  ]
+}

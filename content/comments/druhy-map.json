@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Turistická mapa, plán města, glóbus a satelitní snímek ukazují stejný kus světa, každý ale jinak a každý se hodí na něco jiného. Když víš, co který zobrazuje a co vynechává, pochopíš, proč jsou země u pólů na některých mapách nafouknuté a proč na snímku nenajdeš název ulice. Mapy denně čtou lidé, kteří rozvážejí zásilky, a kdo mapy kreslí nebo měří krajinu, s nimi pracuje do hloubky. Mapová aplikace přepne mezi mapou a snímkem jedním klepnutím, rozumět tomu, co vidíš, ale musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Mapa, plán, glóbus a snímek",
+      "text": "Nech chatbota, ať tě zkouší z rozdílů mezi mapou, plánem, glóbem a leteckým snímkem. Odpovídej vlastními slovy a nech si říct, co v odpovědi chybí."
+    },
+    {
+      "title": "Zeměkoule na pomerančové slupce",
+      "text": "Zeptej se chatbota, proč se zeměkoule nedá nakreslit na plochou mapu bez zkreslení, a nech si to vysvětlit na pomerančové slupce. Zkus to pak na skutečném pomeranči."
+    },
+    {
+      "title": "Stejné místo na mapě a snímku",
+      "text": "Otevři stejné místo v mapové aplikaci jako mapu i jako satelitní snímek a popiš chatbotovi, co vidíš jen na jednom z nich. Požádej ho, ať vysvětlí, proč to tak je."
+    }
+  ]
+}

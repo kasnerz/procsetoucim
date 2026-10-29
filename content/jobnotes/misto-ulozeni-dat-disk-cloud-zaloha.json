@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "32ac76f6-20a0-469e-8cac-e68634087dd3": "Rentgenové snímky se musí ukládat tak, aby k nim lékaři měli rychlý přístup. Volba úložiště a systému tu rozhoduje celou práci.",
+  "2079755f-d809-49e6-8037-4de6180e54c0": "Při návrhu datových skladů se porovnává, kde data uložit a jak je spravovat, včetně cloudu. Tohle je jádro práce.",
+  "3765a20d-5160-4e8f-82f1-ad7872b9db24": "Systémy pro záznamy musí umět informace uložit i znovu najít. Volba úložiště se tu zvažuje podle toho, kdo k nim má přístup.",
+  "e3b08984-19fe-4d51-a1b0-990676fc7234": "Záznamy v analogové i digitální podobě se uchovávají a zpřístupňují. Rozhoduje se, v jakém formátu a kde jsou nejlépe v bezpečí.",
+  "349ee6f6-c295-4c38-9b98-48765b55280e": "Při přesunu aplikací a dat do cloudu se zvažuje, co zůstane na místních discích a co půjde ven.",
+  "ef5b17a5-3ca8-4965-bd3d-61c4aca490d1": "Dokumenty se zařazují, archivují a na vyžádání zpřístupňují. K tomu patří rozhodnutí, kde a v jaké podobě se budou uchovávat.",
+  "14eb2c85-fce5-40b6-bcd0-46ac99994b0d": "Záznamy o pacientech se uchovávají v elektronické podobě a zálohují se. Záloha ukazuje, proč jedno místo uložení nestačí.",
+  "810e5e67-acd5-499a-b307-cf5bea330859": "Při tvorbě pravidel pro uložení informací se určuje, kde a jak se budou ukládat. Konkrétní volbu disku tu dělají spíš jiní."
+ }
+}

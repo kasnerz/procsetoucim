@@ -1,0 +1,259 @@
+[
+  {
+    "slug": "aja-poslech-konkretni-informace",
+    "title": "Konkrétní informace v pomalém poslechu",
+    "aliases": [
+      "poslech angličtiny",
+      "angličtina poslech",
+      "pomalá řeč",
+      "rozumět anglicky",
+      "údaje z poslechu"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozumí jednoduchým konkrétním informacím v pomalém a zřetelném projevu, který se týká základních osvojovaných témat.",
+        "quote": "Rozumí jednoduchým konkrétním informacím v pomalém a zřetelném projevu, který se týká základních osvojovaných témat."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Rozumí jednotlivým informacím v jednoduchých monolozích a konverzacích na známá témata.",
+        "quote": "Rozumí jednotlivým informacím v jednoduchých monolozích a konverzacích na známá témata."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Poslech dialogu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí krátké pomalé dialogy a vysvětlí slova, kterým nerozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Nahrávky k učebnicím a výukové weby ti pustí pomalou angličtinu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s poslechem zpomalí nahrávku a pustí ji znovu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ti poslech nenahradí, ucho si cvičíš poslechem ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "aja-poslech-hlavni-myslenka",
+    "title": "Hlavní myšlenka mluveného projevu",
+    "aliases": [
+      "hlavní myšlenka",
+      "o čem se mluví",
+      "poslech s porozuměním",
+      "monolog",
+      "anglický rozhovor"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozumí hlavním myšlenkám monologů a konverzací na známá témata, částečně rozlišuje sdělení jednotlivých mluvčích.",
+        "quote": "Rozumí hlavním myšlenkám monologů a konverzací na známá témata"
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozumí hlavním myšlenkám monologů i konverzací.",
+        "quote": "Rozumí hlavním myšlenkám monologů i konverzací."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Porozumění hlavní myšlence",
+        "url": ""
+      },
+      {
+        "title": "Why do cats act so weird?",
+        "url": "https://uloziste.rvp.cz/material/61a4d1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vytvoří různě dlouhé texty k poslechu a zeptá se tě, o čem byly."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a podcasty pro děti v angličtině ti dají poslech na známá témata."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s poslechem nabídne nahrávky a zkontroluje tvoji odpověď."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Poslouchat musíš ty, žádný klasický nástroj hlavní myšlenku nevyslechne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "aja-poslech-kdo-rika-co",
+    "title": "Rozlišení mluvčích v konverzaci",
+    "aliases": [
+      "kdo co říká",
+      "dva mluvčí",
+      "dialog",
+      "rozhovor v angličtině",
+      "kdo mluví"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozumí hlavním myšlenkám monologů a konverzací na známá témata, částečně rozlišuje sdělení jednotlivých mluvčích.",
+        "quote": "částečně rozlišuje sdělení jednotlivých mluvčích"
+      },
+      {
+        "level": "Splněno",
+        "point": "V konverzaci rozlišuje sdělení jednotlivých mluvčích.",
+        "quote": "V konverzaci rozlišuje sdělení jednotlivých mluvčích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Porozumění dialogu jednotlivých mluvčích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Napíše dialog pro dva mluvčí a zeptá se, kdo co chtěl nebo řekl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Nahrané dialogy s přepisem ti ukážou, kdo kterou větu řekl."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s dialogy pustí repliky po jedné a zeptá se, kdo mluví."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mluvčí rozlišuješ uchem ty, slovník ani pravítko v tom nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "aja-poslech-odpovedi-na-ulohy",
+    "title": "Odpovědi na poslechové úlohy",
+    "aliases": [
+      "poslechové úlohy",
+      "vybrat správnou odpověď",
+      "odpovědi na otázky",
+      "test z poslechu",
+      "ověření porozumění"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Písemně nebo ústně prokáže porozumění.",
+        "quote": "Písemně nebo ústně prokáže porozumění."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prokáže porozumění v písemné nebo ústní formě.",
+        "quote": "Prokáže porozumění v písemné nebo ústní formě."
+      },
+      {
+        "level": "Splněno",
+        "point": "Písemně nebo ústně prokáže porozumění různým typům mluvených textů v poslechových úlohách (např. formuluje odpověď na otázky, vybere správnou odpověď z nabízených možností).",
+        "quote": "Písemně nebo ústně prokáže porozumění různým typům mluvených textů v poslechových úlohách (např. formuluje odpověď na otázky, vybere správnou odpověď z nabízených možností)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Poslech dialogu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadá poslechové otázky, opraví tvoje odpovědi a vysvětlí chyby."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Cvičné poslechy s klíčem řešení ti ukážou správné odpovědi."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s poslechovými testy hned vyhodnotí tvůj výběr."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odpovídáš ty a nic z klasických nástrojů poslech nevyhodnotí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

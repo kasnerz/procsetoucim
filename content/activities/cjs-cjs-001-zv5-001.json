@@ -1,0 +1,343 @@
+[
+  {
+    "slug": "typy-krajiny-kolem-obce",
+    "title": "Les, pole, louka a další typy krajiny",
+    "aliases": [
+      "typy krajiny",
+      "les pole louka",
+      "krajina kolem nás",
+      "druhy krajiny",
+      "co je krajina"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Odlišuje typy krajiny v okolí své obce (např. les, pole, louka).",
+        "quote": "Odlišuje typy krajiny v okolí své obce (např. les, pole, louka)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Odlišuje typy krajiny v rámci České republiky.",
+        "quote": "Odlišuje typy krajiny v rámci České republiky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Základní typy krajiny",
+        "url": ""
+      },
+      {
+        "title": "Krajina v okolí školy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, podle čeho se les, pole a louka liší, a zeptá se tě na tvé okolí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky a popisy typů krajiny ukážou, jak který typ vypadá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ve snímku z letadla ukáže lesy, pole a louky kolem tvé obce."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Krajinu rozeznáváš očima ty, žádný klasický nástroj to za tebe nepozná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fdeabe51-1d92-4770-acfe-eff9769b3d4f",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "moje-obec-na-mape-a-v-kraji-krajina",
+    "title": "Moje bydliště na mapě a v kraji",
+    "aliases": [
+      "kde bydlím",
+      "můj kraj",
+      "obec na mapě",
+      "poloha bydliště",
+      "kraje Česka"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše hlavní typy krajiny a rozezná jejich rozdíly, polohu svého bydliště na mapě, začlenění své obce (města) do příslušného kraje.",
+        "quote": "polohu svého bydliště na mapě, začlenění své obce (města) do příslušného kraje."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kde na mapě bydlíš, ukážeš ty, chatbot tvou obec na mapě nenajde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapa krajů Česka ukáže, do kterého kraje tvoje obec patří."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace najde tvou obec a ukáže hranice kraje."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa ti ukáže, kde bydlíš a kam patříš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "krajiny-podle-polohy-na-zemi",
+    "title": "Typy krajin podle polohy na Zemi",
+    "aliases": [
+      "krajiny světa",
+      "tropy",
+      "poušť a tundra",
+      "krajina podle polohy",
+      "příklady krajin"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Popíše základní typy krajin podle zeměpisné polohy a uvádí konkrétní příklady na lokální, regionální a globální úrovni.",
+        "quote": "Popíše základní typy krajin podle zeměpisné polohy a uvádí konkrétní příklady na lokální, regionální a globální úrovni."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Od tropů k lesu za školou: Co ovlivňuje život v krajině?",
+        "url": "https://uloziste.rvp.cz/material/25f797"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč jsou v tropech jiné krajiny než u nás, a dá příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a atlas ukážou typy krajin světa s fotkami."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže satelitní snímky pouště, tropického lesa i tvého okolí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Školní atlas ukazuje, kde na Zemi který typ krajiny leží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dusledky-vyuziti-krajiny-pro-zivot",
+    "title": "Jak využití krajiny ovlivňuje život lidí",
+    "aliases": [
+      "využití krajiny",
+      "krajina a lidé",
+      "pole a města",
+      "co lidé v krajině dělají",
+      "důsledky"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Diskutuje, jaké důsledky má využití vybraných typů krajiny na život člověka.",
+        "quote": "Diskutuje, jaké důsledky má využití vybraných typů krajiny na život člověka."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Krajiny a jejich využití",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá příklady, co se stane s lidmi i přírodou, když se louka změní na pole."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a encyklopedie popisují, jak lidé různé krajiny využívají."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná jednoúčelová aplikace ti důsledky využití krajiny nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ s ostatními ty, žádný klasický nástroj k tomu nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fdeabe51-1d92-4770-acfe-eff9769b3d4f",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "urcovani-krajiny-z-fotografie",
+    "title": "Poznání typu krajiny z fotografie nebo videa",
+    "aliases": [
+      "krajina na fotce",
+      "poznej krajinu",
+      "kde to je",
+      "krajina z videa",
+      "zařazení krajiny"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zařadí krajinu na základě pozorování reálné krajiny, fotografie, filmu/videa do systému typu krajin a diskutuje možnou zeměpisnou polohu.",
+        "quote": "Zařadí krajinu na základě pozorování reálné krajiny, fotografie, filmu/videa do systému typu krajin a diskutuje možnou zeměpisnou polohu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Příběh krajiny",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se, co na fotce vidíš, a porovná tvůj odhad s typy krajin."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky s popisem typů krajin ti pomůžou porovnat, co vidíš na fotce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na vyhledávání podle obrázku ukáže podobná místa a jejich polohu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Fotku zkoumáš ty, klasický nástroj ti typ krajiny neurčí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fdeabe51-1d92-4770-acfe-eff9769b3d4f",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zakonitosti-v-krajine-pozorovani",
+    "title": "Zákonitosti, které vidíš v krajině",
+    "aliases": [
+      "proč je krajina taková",
+      "souvislosti v krajině",
+      "příroda a lidé",
+      "pozorování krajiny",
+      "vztahy v krajině"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Odvozuje a dokládá jednoduché zákonitosti a principy, které v libovolné krajině pozoruje.",
+        "quote": "Odvozuje a dokládá jednoduché zákonitosti a principy, které v libovolné krajině pozoruje."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Proč v Česku vypadá krajina zrovna takto?",
+        "url": "https://uloziste.rvp.cz/material/4bd8d0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti vymyslet, proč jsou třeba pole v rovině a lesy na svazích."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články o krajině nabídnou vysvětlení, která můžeš porovnat s tím, co vidíš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pozorovat krajinu a dělat z ní závěry musíš ty, aplikace ti to nenahradí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zákonitosti objevuješ pozorováním ty, nástroj ti je neřekne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fdeabe51-1d92-4770-acfe-eff9769b3d4f",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

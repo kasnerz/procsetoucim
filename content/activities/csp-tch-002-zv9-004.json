@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "zahrada-technika-vybaveni",
+    "title": "Vybavení pro péči o zahradu a zeleň",
+    "aliases": [
+      "zahradní nářadí",
+      "nářadí na zahradu",
+      "pokojové rostliny",
+      "konev a rýč",
+      "zahradnické pomůcky"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Používá pracovní pomůcky, nářadí a základní technické vybavení při péči o zahradu nebo zeleň v interiéru za dodržení základních zásad hygieny a bezpečnosti práce.",
+        "quote": "Používá pracovní pomůcky, nářadí a základní technické vybavení při péči o zahradu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "prohlubuje své znalosti běžných nástrojů, nářadí a pomůcek využívaných při péči o zahradu a zeleň v interiéru",
+        "quote": "prohlubuje své znalosti běžných nástrojů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "identifikuje základní technické vybavení využívané při péči o zahradu a zeleň v interiéru",
+        "quote": "identifikuje základní technické vybavení"
+      },
+      {
+        "level": "Na cestě",
+        "point": "rozumí funkcím základního technického vybavení využívaného při péči o zahradu a zeleň v interiéru",
+        "quote": "rozumí funkcím základního technického vybavení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Údržba zahradního nářadí",
+        "url": "https://uloziste.rvp.cz/material/45bf7d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu slouží hrábě, rýč nebo zavlažovací konev, a zeptá se tě na názvy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Katalog nebo encyklopedie ukážou nářadí na obrázku s názvem a využitím."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na poznávání věcí z fotky pomůže pojmenovat nářadí, které nevíš, jak se jmenuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nářadí poznáš nejlíp tak, že ho držíš v ruce, a to za tebe žádná pomůcka neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8a1942a8-bebd-4cc5-bdff-fe215aaa3de5",
+      "http://data.europa.eu/esco/skill/c5f255ef-02d3-4ab0-a652-2bf055d1d493"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zahrada-technika-postupy",
+    "title": "Základní úkony při péči o zeleň",
+    "aliases": [
+      "zalévání",
+      "přesazování",
+      "sázení",
+      "péče o květiny",
+      "práce na zahradě"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "na pokyn učitele účelně a bezpečně využívá běžných nástrojů, nářadí a pomůcek užívaných při péči o zahradu a zeleň v interiéru",
+        "quote": "na pokyn učitele účelně a bezpečně využívá"
+      },
+      {
+        "level": "Na cestě",
+        "point": "samostatně nebo ve spolupráci se spolužáky provádí základní úkony a správné technologické postupy při péči o zahradu a zeleň v modelových situacích",
+        "quote": "samostatně nebo ve spolupráci se spolužáky provádí základní úkony"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše postup přesazení nebo zálivky krok za krokem a poradí, když se rostlině nedaří."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a pěstitelské stránky ukážou, kdy a jak rostlinu zalévat nebo přesadit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na rozpoznání rostlin řekne, co rostlina potřebuje, a připomene zálivku."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Sázíš, zaléváš a přesazuješ rukama ty, nástroj za tebe zeminu nepřesype."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c5f255ef-02d3-4ab0-a652-2bf055d1d493",
+      "http://data.europa.eu/esco/skill/8a1942a8-bebd-4cc5-bdff-fe215aaa3de5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zahrada-technika-chytre-zavlazovani",
+    "title": "Chytrý květináč a automatické zavlažování",
+    "aliases": [
+      "chytrý květináč",
+      "automatické zalévání",
+      "zavlažování",
+      "hydrogel",
+      "senzor vlhkosti"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Cíleně využívá moderní technologie při péči o zahradu nebo zeleň v interiéru v modelových situacích.",
+        "quote": "Cíleně využívá moderní technologie při péči o zahradu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Výroba tzv. chytrého květináče",
+        "url": ""
+      },
+      {
+        "title": "Automatické zavlažování květin",
+        "url": "https://uloziste.rvp.cz/material/5adafc"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak čidlo vlhkosti spíná čerpadlo, a pomůže ti vymyslet zapojení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukážou, jak se chytrý květináč staví a z čeho se skládá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace u zavlažovacího čidla ukáže vlhkost půdy a hlídá, kdy zalít."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Květináč s čidlem a hadičkami musíš sestavit a vyzkoušet vlastníma rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/700ea222-8139-4c48-95cf-014855565530",
+      "http://data.europa.eu/esco/skill/c5f255ef-02d3-4ab0-a652-2bf055d1d493"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zahrada-technika-bezpecnost-hygiena",
+    "title": "Bezpečnost a hygiena při práci se zelení",
+    "aliases": [
+      "bezpečnost práce",
+      "rukavice",
+      "hygiena",
+      "rizika při práci",
+      "první pomoc na zahradě"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zná a dodržuje zásady bezpečnosti a hygieny práce podle pokynů učitele",
+        "quote": "zná a dodržuje zásady bezpečnosti a hygieny práce"
+      },
+      {
+        "level": "Na cestě",
+        "point": "při využívání základního technického vybavení využívaného při péči o zahradu a zeleň v interiéru dodržuje zásady bezpečnosti a hygieny práce",
+        "quote": "při využívání základního technického vybavení"
+      },
+      {
+        "level": "Na cestě",
+        "point": "řízeně reflektuje možná rizika a dbá na bezpečnost a hygienu při práci",
+        "quote": "řízeně reflektuje možná rizika"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvědomuje si rizika práce s technickým vybavením pro údržbu zeleně a dbá na bezpečnost a hygienu při manipulaci.",
+        "quote": "Uvědomuje si rizika práce s technickým vybavením"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vyjmenuje rizika sekačky, nůžek nebo hnojiva a poradí, co si vzít na ochranu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Bezpečnostní pokyny a návody k nářadí řeknou, jak s ním zacházet a co nedělat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe rukavice neobleče ani nehlídá, jak držíš nůžky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Rukavice, brýle a čisté ruce chrání přímo tebe při práci."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7cd6de25-f691-4aac-81a2-a9d09b004b38",
+      "http://data.europa.eu/esco/skill/8a1942a8-bebd-4cc5-bdff-fe215aaa3de5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zahrada-technika-hodnoceni-reseni",
+    "title": "Hodnocení vybavení a vylepšení řešení",
+    "aliases": [
+      "vylepšení",
+      "hodnocení výsledku",
+      "co se povedlo",
+      "inovace",
+      "efektivita"
+    ],
+    "outcome": "CSP-TCH-002-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Účelně hodnotí základní technické vybavení při péči o zahradu nebo zeleň v interiéru.",
+        "quote": "Účelně hodnotí základní technické vybavení"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí efektivitu a možné inovace realizovaného řešení.",
+        "quote": "Zhodnotí efektivitu a možné inovace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se, co se povedlo, a navrhne, jak řešení vylepšit, třeba hustější zálivku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Recenze a srovnání nářadí ukážou, čím se dobrá pomůcka liší od slabé."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezjistí, jestli se ti s nářadím dobře pracovalo a rostlina roste."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Metr nebo konev s ryskou změří, kolik vody rostlina dostala a jak rychle roste."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c5f255ef-02d3-4ab0-a652-2bf055d1d493",
+      "http://data.europa.eu/esco/skill/8a1942a8-bebd-4cc5-bdff-fe215aaa3de5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

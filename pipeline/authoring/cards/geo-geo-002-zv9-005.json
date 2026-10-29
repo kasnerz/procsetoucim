@@ -1,0 +1,364 @@
+{
+  "outcome": "GEO-GEO-002-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "voda-oceany-slana-sladka",
+      "title": "Slaná a sladká voda na Zemi",
+      "aliases": [
+        "kolik vody je v oceánu",
+        "slaná a sladká voda",
+        "oceán",
+        "voda na Zemi"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "odhadne podíl světového oceánu na množství vody na Zemi a vysvětlí jeho vliv na přírodní podmínky a socioekonomické aktivity v různých místech"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč oceán ovlivňuje počasí a lidskou práci, a zadá ti příklady k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulky a grafy ukážou, kolik vody je v oceánech."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace pro odhad podílu oceánu nemá co nabídnout."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Glóbus nebo mapa světa ti ukáže, kolik povrchu zabírá oceán."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a",
+        "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+      ],
+      "inspiration": [
+        "Slaná nebo sladká?"
+      ]
+    },
+    {
+      "slug": "voda-zasobniky-sladke-vody",
+      "title": "Zásobníky sladké vody",
+      "aliases": [
+        "ledovce a podzemní voda",
+        "kde je sladká voda",
+        "jezera a řeky",
+        "zásoby vody"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyjmenuje a seřadí podle velikosti zásobníky sladké vody na Zemi a vysvětlí její význam pro přírodu a lidskou společnost"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kde sladká voda je a k čemu ji lidé a příroda potřebují, a vyzkouší tě z pořadí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a tabulky dají pořadí ledovců, podzemní vody a jezer."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace neřadí zásobníky vody za tebe tak, aby ti to pomohlo."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas s mapou ledovců, řek a jezer ti ukáže, kde sladká voda leží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a",
+        "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "voda-maly-velky-obeh",
+      "title": "Malý a velký oběh vody",
+      "aliases": [
+        "koloběh vody",
+        "hydrologický cyklus",
+        "výpar a srážky",
+        "velký a malý oběh"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popíše malý i velký hydrologický cyklus a vysvětlí jeho jednotlivé složky jako důsledek slunečního záření a zemské gravitace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí výpar, kondenzaci i srážky po krocích a ptá se tě, co dál."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Schémata oběhu vody ti ukážou, jak jednotlivé kroky navazují."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace oběhu vody ti ukáže pohyb vody, který venku neuvidíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Oběh vody nezměříš běžným nástrojem, dá se jen pozorovat v přírodě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a",
+        "http://data.europa.eu/esco/skill/840ea882-439c-4fa9-b219-edbe0607fe60"
+      ],
+      "inspiration": [
+        "Velký a malý oběh"
+      ]
+    },
+    {
+      "slug": "voda-rozlozeni-srazek-vzduch",
+      "title": "Proč prší víc na jedněch místech",
+      "aliases": [
+        "kde a kdy prší",
+        "rozložení srážek",
+        "stoupavé proudy vzduchu",
+        "deštné pralesy a pouště"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zdůvodní prostorové a časové rozložení srážek na Zemi jako důsledek prostorového a časového rozložení výstupných pohybů vzduchu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč stoupající vzduch vytváří déšť, a vezme s tebou příklady míst."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapy srážek ukazují, kde a kdy prší nejvíc a nejméně."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Meteorologická mapa v aplikaci ukazuje, jak se déšť během roku přesouvá."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Srážkoměr změří, kolik deště spadlo u tebe, a můžeš to porovnat s mapou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/840ea882-439c-4fa9-b219-edbe0607fe60",
+        "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "voda-reka-bez-desti",
+      "title": "Voda v řece bez deště",
+      "aliases": [
+        "proč teče řeka když neprší",
+        "podzemní voda",
+        "prameny",
+        "povodí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí, proč je v některých vodních tocích voda, přestože v jejich povodí delší dobu nepršelo"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak podzemní voda, prameny a tání doplňují řeku, i když neprší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Hydrologické texty a schémata ukážou, odkud se bere voda v řece."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti k tomuto vysvětlení nic navíc nedá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj tuto souvislost neukáže, musíš ji odvodit z mapy a poznatků."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a"
+      ],
+      "inspiration": [
+        "Odtokové režimy řek"
+      ]
+    },
+    {
+      "slug": "voda-sucho-priciny-druhy",
+      "title": "Sucho: příčiny a druhy",
+      "aliases": [
+        "co je sucho",
+        "aridita",
+        "období sucha",
+        "nahodilé sucho"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "uvede příčiny sucha (nedostatek srážek a velký výpar) a důsledky sucha a rozliší sucho trvalé (ariditu), sezónní (období sucha oproti období dešťů) a nahodilé"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč sucho vzniká, a zadá ti příklady na rozlišení trvalého, sezónního a nahodilého."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy a mapy sucha ukazují, kde a jak dlouho trvalo."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mapou sucha ukazuje stav půdy a srážek, takže si můžeš porovnat místa."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj druh sucha nerozliší, to musíš z dat vyvodit ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/840ea882-439c-4fa9-b219-edbe0607fe60",
+        "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24",
+        "http://data.europa.eu/esco/skill/b7729524-6d0e-45b6-87c8-79af1e955a5b"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "voda-reka-nejvic-nejmin",
+      "title": "Kdy je v řece nejvíc a nejméně vody",
+      "aliases": [
+        "průtok řeky během roku",
+        "povodí",
+        "kdy je vysoká voda",
+        "nízký stav vody"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pro dané povodí určí roční období, ve kterém je v daném vodním toku nejvíce vody a ve kterém nejméně"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se průtok mění podle ročního období, a zkontroluje tvůj závěr."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Grafy průtoků řeky z internetu ti ukážou, kdy bylo vody nejvíc a nejméně."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s hladinami řek zobrazí aktuální a dřívější průtoky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejným nástrojem průtok za celý rok nezjistíš, potřebuješ naměřená data."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a",
+        "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+      ],
+      "inspiration": [
+        "Odtokové režimy řek"
+      ]
+    },
+    {
+      "slug": "voda-vodni-elektrarny-obdobi",
+      "title": "Voda v řece a vodní elektrárny",
+      "aliases": [
+        "vodní elektrárna",
+        "hydroenergetika",
+        "energie z vody",
+        "přehrada"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "diskutuje o vlivu na hydroenergetiku v dané oblasti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, jak málo či moc vody mění výrobu elektřiny, a ptá se tě na argumenty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty o vodních elektrárnách dají fakta a příklady k diskusi."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace diskusi o vlivu nevede, ten promyslíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj do diskuse o dopadech nic nepřidá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/67bdd7f8-761e-4cb5-a561-be8e268a4f0a",
+        "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

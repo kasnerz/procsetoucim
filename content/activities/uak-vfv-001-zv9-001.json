@@ -1,0 +1,457 @@
+[
+  {
+    "slug": "vytvarny-zamer-kombinace-prvku-devatka",
+    "title": "Kombinování prvků podle záměru nebo zadání",
+    "aliases": [
+      "kombinace prvků",
+      "výtvarné zadání",
+      "vlastní záměr",
+      "kompozice",
+      "výtvarná práce"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Užívá a kombinuje prvky a prostředky výtvarného umění.",
+        "quote": "Užívá a kombinuje prvky a prostředky výtvarného umění."
+      },
+      {
+        "level": "Splněno",
+        "point": "Užívá a kombinuje prvky a jejich vztahy podle svého tvůrčího záměru nebo podle zadání.",
+        "quote": "Užívá a kombinuje prvky a jejich vztahy podle svého tvůrčího záměru nebo podle zadání."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí zadání a navrhne, jak prvky spojit, ty pak tvoříš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky děl ukážou, jak jiní prvky spojují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V kreslicí aplikaci zkoušíš kombinace a vracíš kroky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužky, barvy a papír ti dají vyzkoušet vlastní spojení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vytvarny-rozbor-vlastniho-dila-devatka",
+    "title": "Prvky a vztahy ve vlastním díle",
+    "aliases": [
+      "rozbor obrazu",
+      "z čeho se dílo skládá",
+      "dominanta",
+      "analýza vlastní práce",
+      "popis díla"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Označí na vlastní tvorbě prvky, ze kterých se dílo skládá, a pojmenuje dominantní vztahy mezi nimi.",
+        "quote": "Označí na vlastní tvorbě prvky, ze kterých se dílo skládá, a pojmenuje dominantní vztahy mezi nimi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy jako kontrast nebo rytmus a zeptá se tě na tvůj obraz."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Přehledy výtvarných pojmů a rozbory děl ti dají vzor."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Do fotky díla v aplikaci si prvky zakreslíš a označíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Průsvitný papír a tužka ti dovolí prvky přímo obtáhnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vytvarny-nazev-vlastniho-dila-devatka",
+    "title": "Název podle prvků a vztahů v díle",
+    "aliases": [
+      "pojmenování díla",
+      "název obrazu",
+      "jak pojmenovat obraz",
+      "název práce"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zvolí pro své dílo název, který je z jeho pohledu nejvýstižnější a který vychází z použitých prvků a jejich vztahů.",
+        "quote": "Zvolí pro své dílo název, který je z jeho pohledu nejvýstižnější a který vychází z použitých prvků a jejich vztahů."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Dílo pojmenuje podle svého uvážení tak, aby jeho název byl výstižný pro něj samotného.",
+        "quote": "Dílo pojmenuje podle svého uvážení tak, aby jeho název byl výstižný pro něj samotného."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Název vychází z tvého pohledu na dílo, chatbot ho nezná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Názvy známých děl ti ukážou, jak se dá dílo pojmenovat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace nevybere název, který sedí na tvé dílo."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Název vymýšlíš ty, tužka ani štětec s tím nepomůžou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vytvarny-experiment-s-prvky-devatka",
+    "title": "Experimenty s body, liniemi, plochami a objemy",
+    "aliases": [
+      "bod linie plocha",
+      "pokusy ve výtvarce",
+      "zkoušení technik",
+      "experimentální monotyp",
+      "objem a prostor"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Experimentuje s výtvarnými prvky, jako jsou např. bod, linie, plocha, tvar, světlo, hmota, objem, prostor.",
+        "quote": "Experimentuje s výtvarnými prvky, jako jsou např. bod, linie, plocha, tvar, světlo, hmota, objem, prostor."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Variuje výtvarné prvky a jejich vztahy.",
+        "quote": "Variuje výtvarné prvky a jejich vztahy."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Při vytváření a kombinování prvků uplatňuje jak ověřené postupy, tak experimenty.",
+        "quote": "Při vytváření a kombinování prvků uplatňuje jak ověřené postupy, tak experimenty."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Experimentální monotyp",
+        "url": "https://uloziste.rvp.cz/material/71d34c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne pokusy s prvky, které tě samotné nenapadly."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky technik a děl ti dají nápady na pokusy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace ti nechá zkoušet varianty a vrátit je zpět."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Hmotu, světlo a objem poznáš jen s materiálem v ruce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vytvarny-vztahy-mezi-prvky-devatka",
+    "title": "Vztahy mezi prvky: rytmus, kontrast, symetrie",
+    "aliases": [
+      "rytmus",
+      "kontrast",
+      "symetrie a asymetrie",
+      "harmonie",
+      "proporce",
+      "František Kupka"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zaměřuje se na vztahy mezi výtvarnými prvky, jakými jsou např. podobnost a odlišnost, symetrie a asymetrie, rytmus, kontrast, harmonie, proporcionalita, dynamičnost a statičnost, stabilita a labilnost.",
+        "quote": "Zaměřuje se na vztahy mezi výtvarnými prvky, jakými jsou např. podobnost a odlišnost, symetrie a asymetrie, rytmus, kontrast, harmonie, proporcionalita, dynamičnost a statičnost, stabilita a labilnost."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Rozpoznává, pojmenovává, vytváří a uplatňuje jednotlivé prvky (linie, tvary, barvy a objekty) a jejich vztahy (velikost a vzájemnou polohu tvarů, světlostní a barevný kontrast v kresbě, malbě, fotografii, v prostorových objektech, v architektuře).",
+        "quote": "Rozpoznává, pojmenovává, vytváří a uplatňuje jednotlivé prvky (linie, tvary, barvy a objekty) a jejich vztahy (velikost a vzájemnou polohu tvarů, světlostní a barevný kontrast v kresbě, malbě, fotografii, v prostorových objektech, v architektuře)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "František Kupka",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy na příkladech a ověří, jak jim rozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrazy, fotky i stavby z internetu ukážou vztahy v praxi."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na úpravu fotek ti ukáže kontrast, např. po převodu do šedi."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Skutečné tvary a barvy skládáš a porovnáváš rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vytvarny-postup-vlastni-prace-devatka",
+    "title": "Plánování postupu vlastní tvůrčí práce",
+    "aliases": [
+      "plán tvorby",
+      "jak na výtvarnou práci",
+      "skica před prací",
+      "postup práce",
+      "organizace práce"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Samostatně si stanovuje a organizuje postup vlastní tvůrčí práce.",
+        "quote": "Samostatně si stanovuje a organizuje postup vlastní tvůrčí práce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozdělí tvůj nápad na kroky a ty je upravíš podle sebe."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukážou, jak výtvarníci postupují."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s úkoly ti postup nevymyslí, plánuješ ho ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Skicák ti dovolí postup nakreslit a měnit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a",
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vytvarny-autenticke-sebevyjadreni-devatka",
+    "title": "Vyjádření vjemů a myšlenek obrazem nebo objektem",
+    "aliases": [
+      "sebevyjádření",
+      "vlastní myšlenka v obraze",
+      "výtvarné vyjádření",
+      "plošná a prostorová tvorba"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vědomě tyto prvky kombinuje a uplatňuje v rovině autentického sebevyjádření.",
+        "quote": "Vědomě tyto prvky kombinuje a uplatňuje v rovině autentického sebevyjádření."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vyjadřuje své vjemy, představy a myšlenky v plošné a prostorové tvorbě.",
+        "quote": "Vyjadřuje své vjemy, představy a myšlenky v plošné a prostorové tvorbě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Co chceš vyjádřit, víš jen ty, chatbot to za tebe neprožije."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Díla jiných ukážou, jak se dají pocity zobrazit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nemá tvoje vjemy a představy, které chceš vyjádřit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Barvy, papír a hlína tvou představu převedou do tvaru."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/17996b4f-1302-4bd7-a4c7-912b74feccf0",
+      "http://data.europa.eu/esco/skill/a6624cfc-a134-4d47-b425-b40f4747016a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vytvarny-bezpecny-vyber-materialu-devatka",
+    "title": "Bezpečný výběr materiálů, nástrojů a digitálních technologií",
+    "aliases": [
+      "bezpečnost při výtvarce",
+      "výběr materiálu",
+      "nástroje pro tvorbu",
+      "digitální technologie ve výtvarce"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Využívá bezpečně a ohleduplně výtvarné materiály, nástroje a další pomůcky, včetně dostupných digitálních technologií.",
+        "quote": "Využívá bezpečně a ohleduplně výtvarné materiály, nástroje a další pomůcky, včetně dostupných digitálních technologií."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vybere si cíleně prostředky, se kterými chce pracovat a má odvahu s nimi experimentovat, a to s ohledem na bezpečnost svojí i ostatních.",
+        "quote": "Vybere si cíleně prostředky, se kterými chce pracovat a má odvahu s nimi experimentovat, a to s ohledem na bezpečnost svojí i ostatních."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu je který materiál a jak s ním bezpečně pracovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Bezpečnostní listy a návody popíšou rizika materiálů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace tě naučí zacházet s digitálním nástrojem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nůž, lepidlo či barvu bezpečně držíš a používáš jen ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4fbe3e87-6f12-4764-b6ea-dce1adf4547f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Shrnout text vlastními slovy dokážeš jen tehdy, když mu rozumíš, a proto je to dobrá zkouška porozumění. Chatbot shrnutí napíše za vteřinu, jenže u právního textu stačí vynechat jedno „pokud“ nebo „nejpozději“ a smysl je jiný. Když to umíš, poznáš, jestli strojové shrnutí nevynechalo něco důležitého, a dokážeš doma vysvětlit, co stojí ve smlouvě nebo v dopise z úřadu. Každý den to dělají lidé, kteří radí firmám v právních věcech nebo rozhodují u soudu.",
+  "learnWithAi": [
+    {
+      "title": "Paragraf v pěti větách",
+      "text": "Přečti si krátký paragraf a napiš jeho obsah do pěti vět. Chatbot ať porovná tvé shrnutí s originálem a ukáže, co chybí nebo je zkreslené."
+    },
+    {
+      "title": "Dvě shrnutí vedle sebe",
+      "text": "Napiš vlastní shrnutí a pak si nech jedno napsat od chatbota. Obě porovnej s originálem a rozhodni, které je přesnější a proč."
+    },
+    {
+      "title": "Vysvětlování úředního dopisu",
+      "text": "Požádej chatbota, ať hraje někoho ze sousedství, kdo nerozumí dopisu z úřadu, a vysvětli mu obsah vlastními slovy. Ať se doptává tam, kde mluvíš nejasně."
+    }
+  ]
+}

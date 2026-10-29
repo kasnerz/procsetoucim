@@ -1,0 +1,63 @@
+{
+  "outcome": "MAT-MAT-003-ZV5-007",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Orientuje se v rovině, například s využitím čtvercové sítě (řádek, sloupec, vpravo, vlevo).",
+      "cards": [
+        "ctvercova-sit-radek-sloupec"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Orientuje se v prostoru (vpravo, vlevo, nahoře, dole, vpředu, vzadu), například při práci s modely krychlí a dalších těles.",
+      "cards": [
+        "poloha-v-prostoru-modely-teles"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozliší přímky a úsečky rovnoběžné, různoběžné, kolmé.",
+      "cards": [
+        "rovnobezky-ruznobezky-kolmice-polohy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Orientuje se ve čtvercové síti.",
+      "cards": [
+        "ctvercova-sit-radek-sloupec"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše vzájemnou polohu dvou či více objektů v rovině (bodů, úseček, přímek).",
+      "cards": [
+        "rovnobezky-ruznobezky-kolmice-polohy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S využitím čtvercové sítě popíše vzájemnou polohu dvou či více objektů v prostoru (vrcholů, hran, stěn mnohostěnu).",
+      "cards": [
+        "vrcholy-hrany-steny-mnohostenu-sit"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Orientuje se v rovině a v prostoru.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

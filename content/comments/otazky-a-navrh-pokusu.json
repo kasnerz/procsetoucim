@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Položit otázku a vymyslet, jak na ni pokusem odpovědět, je těžší než pokus podle návodu, protože nikdo za tebe neurčí, co měřit a co nechat stejné. Hodí se to i doma, když zjišťuješ, jestli kytka roste líp na okně, nebo v kuchyni. Stejně postupuje každý, kdo něco zkoumá, v laboratoři i v datech, třeba datový vědec, který ověřuje svou domněnku na číslech. Chatbot ti návrh pokusu napíše hned, užitečnější je nechat ho kritizovat ten tvůj.",
+  "learnWithAi": [
+    {
+      "title": "Otázky ověřitelné pokusem",
+      "text": "Napiš pět otázek o látkách, které tě zajímají, třeba jestli se cukr rozpouští rychleji v teplé vodě. Chatbota se zeptej, které z nich jdou ověřit pokusem."
+    },
+    {
+      "title": "Slabá místa vlastního pokusu",
+      "text": "Navrhni pokus na jednu svou otázku a požádej chatbota, ať v něm hledá slabá místa. Opravený návrh pak sestav bez jeho pomoci."
+    },
+    {
+      "title": "Přísný oponent návrhu",
+      "text": "Nech chatbota hrát přísného oponenta, který tvému návrhu pokusu nevěří. Obhaj ho tak, aby ho přesvědčil."
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "slug": "tanec-zdrave-zachazeni-s-telem",
+    "title": "Zdravé zacházení s tělem při tanci",
+    "aliases": [
+      "držení těla",
+      "uvolnění",
+      "správné držení těla",
+      "moje tělo při tanci"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zachází se svým tělem s respektem a citem na základě znalostí vlastních pohybových dispozic.",
+        "quote": "Zachází se svým tělem s respektem a citem na základě znalostí vlastních pohybových dispozic."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Objevuje vlastní fyzické a pohybové dispozice a pod vedením učitele zachází se svým tělem zdravě, s citem a s respektem ((např. měkký kontakt těla s podlahou, respektování funkčních zákonitostí pohybu, zdravé a správné držení těla, uvolnění nadbytečného napětí).",
+        "quote": "Objevuje vlastní fyzické a pohybové dispozice"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Opory v těle",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se uvolnit nebo správně stát, a poradí s protažením."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a videa ukážou správné držení těla a uvolňovací cviky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvoje tělo necítí, citlivost k němu si nacvičuješ ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zrcadlo ukáže, jak stojíš a kde se zbytečně napínáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tanec-cas-prostor-dynamika-pohybu",
+    "title": "Čas, prostor a dynamika pohybu",
+    "aliases": [
+      "rychlý a pomalý pohyb",
+      "lehký pohyb",
+      "tempo pohybu",
+      "dynamika tance"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Využívá své tělo a jeho pohybové možnosti jako výrazový prostředek ve svém pohybovém / tanečním projevu, ve společných kreativních pohybových hrách a jednoduchých tanečních improvizacích, s vědomím základních aspektů pohybu: prostorového, časového a dynamického.",
+        "quote": "s vědomím základních aspektů pohybu: prostorového, časového a dynamického."
+      },
+      {
+        "level": "Splněno",
+        "point": "Využívá své znalosti časových a prostorových aspektů pohybu.",
+        "quote": "Využívá své znalosti časových a prostorových aspektů pohybu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Obohacuje svůj taneční projev některými dynamickými kvalitami pohybu.",
+        "quote": "Obohacuje svůj taneční projev některými dynamickými kvalitami pohybu."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zaměřuje pozornost na pohybové vyjádření konkrétního aspektu pohybu nebo určené kvality pohybu (např. pohyb v určeném tempu, jasný začátek pohybu, rovný pohyb, lehký pohyb, skok, uvolnění).",
+        "quote": "Zaměřuje pozornost na pohybové vyjádření konkrétního aspektu pohybu nebo určené kvality pohybu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Obrazy v pohybu - pohyb v obrazech",
+        "url": "https://uloziste.rvp.cz/material/680ff6"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy a vymyslí pohybové úkoly, třeba jak zrychlit nebo zlehčit pohyb."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky tance ukážou, jak vypadá rychlý, těžký nebo lehký pohyb."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pohyb prostorem a časem prožíváš tělem ty, aplikace ho za tebe neudělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pohyb nacvičuješ vlastním tělem, nástroj k němu nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tanec-pohybovy-slovnik-etuda",
+    "title": "Taneční tvarosloví a krátká etuda",
+    "aliases": [
+      "pohybový slovník",
+      "taneční etuda",
+      "taneční hra",
+      "kompozice"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Užívá a kombinuje objevené taneční tvarosloví (pohybový slovník) v jednoduché taneční hře / etudě / kompozici.",
+        "quote": "Užívá a kombinuje objevené taneční tvarosloví (pohybový slovník) v jednoduché taneční hře / etudě / kompozici."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí pravidla taneční hry a nápady, jak pohyby poskládat za sebou."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a popisy tanečních prvků dají inspiraci pro tvůj pohybový slovník."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pohyby skládáš a tančíš ty, aplikace etudu nevytvoří za tebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Etudu tvoříš tělem, žádný nástroj ti v tom nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4",
+      "http://data.europa.eu/esco/skill/de6bdb77-e160-4d19-bdf4-121e4fdada33"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tanec-ztvarneni-namet-basen-obraz",
+    "title": "Tanec podle básně, obrazu nebo nálady",
+    "aliases": [
+      "tanec na báseň",
+      "pohyb podle obrazu",
+      "vlastní taneční tvorba",
+      "námět pro tanec"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pohybově/tanečně ztvární námět podle vlastního výběru, například hudební skladbu, báseň, obraz, náladu, objekt, myšlenku.",
+        "quote": "Pohybově/tanečně ztvární námět podle vlastního výběru, například hudební skladbu, báseň, obraz, náladu, objekt, myšlenku."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Využívá různé náměty pro pohybové/taneční ztvárnění, např. hudební skladba, báseň, obraz, náladu, objekt, myšlenku",
+        "quote": "Využívá různé náměty pro pohybové/taneční ztvárnění, např. hudební skladba, báseň, obraz, náladu, objekt, myšlenku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Obrazy v pohybu - pohyb v obrazech",
+        "url": "https://uloziste.rvp.cz/material/680ff6"
+      },
+      {
+        "title": "Tanec a Snídaně v trávě",
+        "url": "https://uloziste.rvp.cz/material/587e06"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne náměty a nápady, jak báseň nebo obraz převést do pohybu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš básně, obrazy a ukázky, které tě k pohybu inspirují."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Námět do pohybu převádíš tělem ty, aplikace ho za tebe nezatančí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tanečně ztvárnit námět můžeš jen vlastním tělem, nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/de6bdb77-e160-4d19-bdf4-121e4fdada33",
+      "http://data.europa.eu/esco/skill/5ddcee55-4da6-425f-a582-6710b0182a2d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tanec-digitalni-zaznam-pravidla",
+    "title": "Digitální technologie a videozáznam při tanci",
+    "aliases": [
+      "natáčení tance",
+      "video z tance",
+      "záznam pohybu",
+      "sdílení videa"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá digitální technologie v procesu tvorby – při zkoumání námětu, pro pořizování záznamu nebo k tvůrčímu zachycení výstupu, zároveň respektuje etická pravidla související s používáním digitálních technologií, s pořizováním videozáznamů a jejich využíváním a šířením.",
+        "quote": "Využívá digitální technologie v procesu tvorby – při zkoumání námětu, pro pořizování záznamu nebo k tvůrčímu zachycení výstupu, zároveň respektuje etická pravidla související s používáním digitálních technologií, s pořizováním videozáznamů a jejich využíváním a šířením."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Objevuje možnosti jak zapojit digitální technologie do procesu tvorby, např. při zkoumání námětu, a seznamuje se s etickými pravidly souvisejícími s používáním digitálních technologií, pořizováním videozáznamů a jejich využívání a šíření",
+        "quote": "Objevuje možnosti jak zapojit digitální technologie do procesu tvorby"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "60 sekund",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jak natočit záznam, a vysvětlí pravidla pro natáčení a sdílení videa."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu pravidla o ochraně soukromí a návody k natáčení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Telefon nebo tablet tanec natočí a střih videa ti ho pomůže zpracovat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj záznam nepořídí a pravidla sdílení nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5ce80f97-b385-4a41-9339-a6593d0709c1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

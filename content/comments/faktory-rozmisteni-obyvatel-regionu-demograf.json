@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Lidé nebydlí všude stejně hustě: hodně jich žije v nížinách a kolem měst s prací, málo na horách a daleko od silnic. Když tyhle příčiny umíš najít, lépe chápeš, proč se někde zavírají obchody a jinde chybí byty, a dokážeš odhadnout, kam se může jednou vyplatit přestěhovat za prací. Pracují s tím lidé, kteří plánují rozvoj měst a krajů, i ti, kdo pomáhají přistěhovalcům z jiných zemí. Obecné příčiny ti chatbot vyjmenuje rychle, u konkrétního kraje je ale musíš porovnat se skutečnou mapou a čísly.",
+  "learnWithAi": [
+    {
+      "title": "Hádanka podle mapy",
+      "text": "Otevři mapu kraje, který neznáš, a napiš chatbotu, kde podle tebe žije nejvíc lidí a proč. Ať tvůj odhad porovná s tím, co ví, a skutečná čísla si dohledej."
+    },
+    {
+      "title": "Srovnání dvou regionů",
+      "text": "Požádej chatbota, ať ti zadá dva regiony s odlišným osídlením, třeba hory a nížinu u velké řeky. Rozdíly vysvětli ty a nech si říct, která příčina ve vysvětlení chybí."
+    },
+    {
+      "title": "Výhled pro vybraný kraj",
+      "text": "Vyber kraj a sepiš, co bude podle tebe v příštích letech ovlivňovat stěhování lidí. Chatbot ať hraje oponenta a ptá se, o co svůj odhad opíráš."
+    }
+  ]
+}

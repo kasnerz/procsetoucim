@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "9a99a5fe-875d-49b2-9b53-cc1b73be1659": "Zákazník chce několik jízdenek a platí větší bankovkou. Spočítat cenu a vrácené peníze je malá slovní úloha, která se tu řeší několikrát denně.",
+  "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81": "Kolik cizí měny klient dostane za danou částku, je slovní úloha s kurzem, který má desetinná místa. Počítá se zpravidla s kalkulačkou, ale zadání je třeba správně pochopit.",
+  "062d666b-8b5f-4ff2-9047-113831eb3e9f": "Zákazník chce 0,6 kg ryby a ptá se na cenu. Z ceny za kilogram a hmotnosti se spočítá, kolik zaplatí.",
+  "41beead9-98ad-4c89-b6e0-a14149f4eeab": "Z počtu natankovaných litrů a ceny za litr se vypočítá částka k zaplacení. Při každém prodeji tak vzniká malá slovní úloha s desetinnými čísly.",
+  "0cca32c2-9308-4927-adb2-14771ab787f0": "Zadání typu kolik stojí práce a materiál na jednu místnost se řeší násobením a sčítáním cen s desetinnými místy. Úlohy jsou větší než ve škole, princip je stejný.",
+  "bafbc672-0ad9-41af-9de8-db0c91a24f9b": "Z počtu položek a jejich cen se spočítá částka na faktuře. Je to slovní úloha, jen z reálných dat místo vymyšlených.",
+  "6fefa90d-9a71-49c6-be92-52397e9795e6": "Z kurzu a vsazené částky se počítá možná výhra, kurzy jsou desetinná čísla. Každá nabídka sázky je malá slovní úloha.",
+  "79874366-6ec2-4601-aceb-9dbb8e68d015": "Tržbu, nákup a cenu zboží je třeba dávat do vztahu, například kolik zboží se musí prodat, aby se pokryl nákup. Počítá se s korunami a kily, tedy s desetinnými čísly."
+ }
+}

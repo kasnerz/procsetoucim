@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tabulka z měřicích stanic je dobré místo, kde se naučit číst data: najít v nich rozdíly mezi místy, všimnout si divného čísla a ptát se, čím je rozdíl způsobený. U silnice naměříš jiné hodnoty než na kraji lesa a z toho se dá vyčíst, odkud znečištění přichází. Stejně pracují lidé, kteří hlídají životní prostředí, laboratoře nebo statistické úřady. U víc než poloviny lidí, kteří v práci podobná data čtou, se čeká, že jim generativní AI změní velkou část úkolů. Graf a průměr udělá program, ale poznat, že stanice u dálnice měří něco jiného než ta v parku, musí člověk.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka ze dvou stanic",
+      "text": "Stáhni si data ze dvou měřicích stanic a vlož je chatbotovi. Nejdřív sepiš rozdíly, které vidíš, a teprve potom je porovnej s jeho seznamem."
+    },
+    {
+      "title": "Graf podle tvého zadání",
+      "text": "Popiš chatbotovi, jaký graf chceš z dat o oxidu uhličitém udělat, a nech si poradit, jak ho postavit v tabulkovém programu. Graf pak sestav ty."
+    },
+    {
+      "title": "Vysvětlení rozdílu mezi místy",
+      "text": "Napiš vlastní vysvětlení, proč je na jednom místě vzduch horší než na druhém, a nech chatbota hledat slabá místa úvahy. Čísla, o která se opírá, si ověř přímo v datech."
+    }
+  ]
+}

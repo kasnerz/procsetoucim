@@ -1,0 +1,299 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dejinne-epochy-a-mezniky",
+      "title": "Dějinné epochy a jejich mezníky",
+      "aliases": [
+        "epochy",
+        "starověk středověk novověk",
+        "periodizace",
+        "mezníky dějin",
+        "kdy která doba začala"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rozliší dějinné epochy na základě periodizace historického vývoje."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Uvede základní periodizační mezníky."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozliší různé dějinné epochy podle stanovených ukazatelů a k odlišení využívá periodizační mezníky, jejichž výběr dokáže zdůvodnit."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, podle čeho se epochy dělí, a zkouší tě z mezníků."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a učebnice dají přehled epoch a jejich mezníků."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s časovou osou nebo kvízem ti pomůže epochy zařadit za sebou."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Epochy a mezníky si musíš zapamatovat ty, žádný nástroj to nezvládne za tebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "kulturni-projevy-do-epoch",
+      "title": "Kulturní projevy a jejich epochy",
+      "aliases": [
+        "pyramidy",
+        "katedrály",
+        "kam patří stavba",
+        "umělecké dílo a doba",
+        "památky"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Přiřadí základní kulturní projevy k jednotlivým dějinným epochám."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Přiřadí k dějinným epochám různé kulturní projevy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše a přiřadí různé kulturní projevy v odlišné době a v odlišných regionech světa"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, podle čeho poznáš dobu stavby nebo obrazu, a zkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a muzejní stránky ukážou fotky a popisy děl s dobou vzniku."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na poznávání památek nebo obrazů řekne, odkud dílo je."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dobu vzniku díla určuješ svým pozorováním, mapa ani papír to nepřiřadí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7",
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": [
+        "Kultura raného středověku v Evropě"
+      ]
+    },
+    {
+      "slug": "kulturni-projevy-ruzne-zdroje-dejepis",
+      "title": "Prozkoumání kulturních projevů z různých zdrojů",
+      "aliases": [
+        "fotografie budov",
+        "mapa a plán města",
+        "historický zdroj",
+        "jak žili lidé dřív",
+        "Keltové",
+        "Ötzi"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Seznámí se s vybranými významnými kulturními projevy zvoleného regionu Evropy v minulosti; využívá shrnující text a ilustrace."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Prozkoumá různorodé kulturní projevy vybraného regionu Evropy i světa v minulosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne text o dané době a vysvětlí, co z díla vyčteš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a webové stránky muzeí nabídnou texty, fotky a plány."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná jednoúčelová aplikace za tebe zdroje neprozkoumá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zdroje čteš a prohlížíš ty, k tomu stačí oči a nic jiného."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": [
+        "Co víme o Ötzim",
+        "Keltové na našem území"
+      ]
+    },
+    {
+      "slug": "rozdily-mezi-epochami-ukazatele",
+      "title": "Rozdíly mezi epochami podle ukazatelů",
+      "aliases": [
+        "čím se liší středověk od novověku",
+        "životní styl v minulosti",
+        "náboženství a hodnoty",
+        "společnost v dějinách"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Identifikuje rozdíly mezi různými epochami na základě daných ukazatelů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se v různých dobách lišil životní styl, a zkontroluje tvůj výčet."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice a encyklopedie popisují společnost a hodnoty jednotlivých dob."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jednoúčelová aplikace rozdíly mezi epochami nehledá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozdíly určuješ porovnáním ty, klasický nástroj k tomu nemá co říct."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": [
+        "Způsob života a kulturní projevy lidí na našem území ve středověku"
+      ]
+    },
+    {
+      "slug": "srovnavaci-tabulka-t-graf-dejepis",
+      "title": "Srovnávací tabulka, T-graf a Vennův diagram",
+      "aliases": [
+        "T-graf",
+        "Vennův diagram",
+        "srovnávací tabulka",
+        "co se změnilo a co zůstalo"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "K odlišení změn a toho, co zůstává stejné v různých historických epochách, využívá pomůcky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne sloupce tabulky a zkontroluje, jestli jsi nic nevynechal."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Vyhledávač hotovou tabulku pro tvoje srovnání nemá."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový nebo kreslicí program ti dá kostru tabulky nebo diagramu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, pravítko a tužka stačí na T-graf i Vennův diagram."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "proc-se-vyvoj-lisil-po-svete",
+      "title": "Proč se vývoj lišil v různých částech světa",
+      "aliases": [
+        "každodenní život v různých regionech",
+        "domněnky v dějepise",
+        "odůvodni svůj názor",
+        "důkazy z textu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyslovuje domněnky, jak a proč se lišil historický vývoj a každodenní život v různých částech světa; svůj názor odůvodní a podloží důkazy z textu či jiných zdrojů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě na důvody a ukáže protiargumenty k tvé domněnce."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty a zdroje ti dají důkazy, o které svůj názor opřeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jednoúčelová aplikace domněnky o dějinách neřeší."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Domněnku formuluješ a obhajuješ ty, klasický nástroj do ní nemluví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

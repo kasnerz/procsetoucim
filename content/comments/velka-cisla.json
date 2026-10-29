@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Vzdálenost ke Slunci nebo velikost bakterie se běžnými čísly zapisuje těžko, a proto se používají mocniny deseti. Zápis s mocninou deseti ti řekne, jak velké číslo je, bez počítání nul. Hodí se ve fyzice a chemii, kde jsou čísla obří nebo nepatrná, a ve zprávách, kde se miliony a miliardy snadno spletou. Vědecká kalkulačka takové zápisy vypisuje sama a kdo jim nerozumí, výsledek přečte špatně. Lidé, kteří analyzují data, čtou milionová čísla každý den, počítá je ale software, a takových míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Zápis pomocí mocnin deseti",
+      "text": "Požádej chatbota o deset velkých nebo velmi malých čísel. Zapiš je pomocí mocnin deseti a nech si zkontrolovat, jestli sedí počet míst."
+    },
+    {
+      "title": "Obyvatelé Česka a celé Země",
+      "text": "Nech chatbota ptát se tě, kolikrát je jedno číslo větší než druhé, třeba počet obyvatel Česka a celé Země. Odpovídej odhadem a skutečná čísla si ověř ve spolehlivém zdroji."
+    },
+    {
+      "title": "Výsledek z vědecké kalkulačky",
+      "text": "Vezmi výsledek z vědecké kalkulačky, kterému nerozumíš, a popiš ho chatbotovi. Nech si vysvětlit část s mocninou a další podobný výsledek přečti bez pomoci."
+    }
+  ]
+}

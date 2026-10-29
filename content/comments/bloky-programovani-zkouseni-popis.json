@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když program doběhne, ještě to neznamená, že dělá, co měl. Proto se učíš ho vyzkoušet a popsat slovy, co přesně dělá: kdo to umí říct nahlas, všimne si, že postavička skáče o krok dál nebo že hra nikdy neskončí. Pro vývojáře je to běžná práce, zvlášť když část programu napíše AI a někdo musí ověřit, že je správně. Stejně se to hodí, když kontroluješ výsledek příkladu z matematiky nebo zkoušíš, jestli návod opravdu funguje.",
+  "learnWithAi": [
+    {
+      "title": "Hádání, co program udělá",
+      "text": "Poproste chatbota, ať vám popíše krátký program po blocích. Než ho postavíš a spustíš, odhadni, co udělá, a potom porovnej odhad se skutečností."
+    },
+    {
+      "title": "Popis programu vlastními slovy",
+      "text": "Popište společně chatbotovi, co tvůj program dělá, krok za krokem. Nechte ho klást otázky, na které neznáš odpověď, a odpovědi najdi spuštěním programu."
+    },
+    {
+      "title": "Drobné vylepšení programu",
+      "text": "Zkuste s rodičem nechat chatbota navrhnout jednu drobnou úpravu tvého programu, třeba rychlejší pohyb. Úpravu udělej, vyzkoušej a rozhodni, jestli je program opravdu lepší."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Převádět jednotky musíš všude, kde se potkají různé údaje: recept v mililitrech a odměrka v decilitrech, plán kuchyně v milimetrech a místnost změřená v metrech. Značky jako m pro hmotnost nebo V pro objem jsou zkratky, bez kterých ve fyzice nepřečteš žádný vzorec. Převodník v telefonu počítá rychleji než ty, jenže když nemáš představu, kolik je 1 000 mm, nevšimneš si, že ti kvůli překlepu vyšlo číslo o tři nuly vedle. V laboratořích se gramy a miligramy převádějí každý den a jedna nula navíc tam zkazí celý rozbor. V povoláních, kde se to vyžaduje, pracuje zhruba 6,5 % lidí v Česku a takových míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Závod v převodech jednotek",
+      "text": "Požádej chatbota o dvacet převodů typu 2,5 kg na gramy a odpovídej co nejrychleji. Na konci si nech ukázat, ve kterých převodech chybuješ nejčastěji."
+    },
+    {
+      "title": "Značky a jednotky v kvízu",
+      "text": "Nech se vyzkoušet ze značek a jednotek: chatbot napíše veličinu a ty doplníš její značku a jednotku vhodnou pro malý i velký předmět."
+    },
+    {
+      "title": "Kuchařský recept v gramech",
+      "text": "Vyber recept a převeď všechny údaje na gramy a mililitry. Postup pošli chatbotovi, ať ti chybné kroky jen označí, a opravy proveď vlastní hlavou."
+    }
+  ]
+}

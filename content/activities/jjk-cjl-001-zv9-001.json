@@ -1,0 +1,591 @@
+[
+  {
+    "slug": "spisovne-a-nespisovne-vyrazy-vyber",
+    "title": "Spisovné a nespisovné výrazy",
+    "aliases": [
+      "spisovná čeština",
+      "nespisovná čeština",
+      "hovorová čeština",
+      "kdy psát spisovně",
+      "slang"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje a funkčně užívá spisovné a nespisovné jazykové prostředky",
+        "quote": "rozlišuje a funkčně užívá spisovné a nespisovné jazykové prostředky"
+      },
+      {
+        "level": "Splněno",
+        "point": "rozlišuje spisovné a nespisovné prostředky fonetické, morfologické a lexikální roviny jazyka a využívá je v komunikaci",
+        "quote": "rozlišuje spisovné a nespisovné prostředky fonetické, morfologické a lexikální roviny jazyka a využívá je v komunikaci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Spisovné a nespisovné jazykové prostředky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl a vymyslí věty, které přepíšeš ze spisovných do běžných."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internetová jazyková příručka ukáže, co je spisovné."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace jen opraví pravopis, spisovnost za tebe nerozhodnou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník označuje slova jako hovorová nebo nespisovná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+      "http://data.europa.eu/esco/skill/dc892a23-091b-486e-85b9-fe2989414796"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "obecna-cestina-a-nareci-vyber",
+    "title": "Obecná čeština a nářečí",
+    "aliases": [
+      "nářečí",
+      "dialekt",
+      "moravština",
+      "obecná čeština",
+      "jak se mluví jinde"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "rozlišuje a charakterizuje jazykové prostředky obecné češtiny a jednotlivých nářečí",
+        "quote": "rozlišuje a charakterizuje jazykové prostředky obecné češtiny a jednotlivých nářečí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Spisovné a nespisovné jazykové prostředky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot popíše typické rysy nářečí a obecné češtiny a dá ti ukázky k rozpoznání."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a mapy nářečí ukážou, kde se co říká."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti nářečí nenaučí rozlišit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník označí nářeční a obecná slova."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+      "http://data.europa.eu/esco/skill/dc892a23-091b-486e-85b9-fe2989414796"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volba-vyrazu-podle-situace-vyber",
+    "title": "Výběr slov podle situace a adresáta",
+    "aliases": [
+      "komunikační situace",
+      "komu to říkám",
+      "jak se vyjádřit",
+      "záměr sdělení",
+      "vhodná slova"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Dorozumí se kultivovaně, výstižně, reaguje na sdělení druhého mluvčího v komunikační situaci.",
+        "quote": "Dorozumí se kultivovaně, výstižně, reaguje na sdělení druhého mluvčího v komunikační situaci."
+      },
+      {
+        "level": "Na cestě",
+        "point": "v komunikaci používá osvojené jazykové prostředky vzhledem s ohledem na komunikační situaci, záměr a adresáta",
+        "quote": "v komunikaci používá osvojené jazykové prostředky vzhledem s ohledem na komunikační situaci, záměr a adresáta"
+      },
+      {
+        "level": "Splněno",
+        "point": "rozpozná komunikační situace a volí vhodné jazykové prostředky, které v nich může uplatnit",
+        "quote": "rozpozná komunikační situace a volí vhodné jazykové prostředky, které v nich může uplatnit"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Výstižné dorozumívání I",
+        "url": ""
+      },
+      {
+        "title": "Výstižné dorozumívání II",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti dá situace, ve kterých zkoušíš, co a jak říct, a ohodnotí tvou volbu slov."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Vyhledávač ti neřekne, jak mluvit s tím, kdo před tebou stojí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepozná, kdo je adresát a co chceš říct."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Se slovníkem nezjistíš, jak oslovit konkrétního člověka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+      "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyjadreni-myslenek-vecne-vyber",
+    "title": "Věcné a srozumitelné vyjadřování",
+    "aliases": [
+      "srozumitelně říct názor",
+      "vyjádřit myšlenku",
+      "jak se výstižně vyjádřit",
+      "mluvní cvičení",
+      "říct svůj názor"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vyjadřuje věcně a srozumitelně svoje myšlenky, pocity, postřehy, názory, úsudky ad. (forma vyjádření nemusí být vždy výstižná)",
+        "quote": "vyjadřuje věcně a srozumitelně svoje myšlenky, pocity, postřehy, názory, úsudky ad. (forma vyjádření nemusí být vždy výstižná)"
+      },
+      {
+        "level": "Na začátku",
+        "point": "vyjadřuje se věcně a srozumitelně",
+        "quote": "vyjadřuje se věcně a srozumitelně"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Výstižné dorozumívání I",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot se zeptá, co chceš říct, a ukáže, kde je tvoje vyjádření nejasné."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Vyhledávač mluví za někoho jiného, tvou myšlenku nevyjádří."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace myšlenku za tebe nevymyslí ani nepřednese."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovo si můžeš najít, ale říct myšlenku musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nasloucha-navazani-kontaktu-vyber",
+    "title": "Naslouchání a oslovení druhého",
+    "aliases": [
+      "naslouchání",
+      "oslovení",
+      "tykání a vykání",
+      "navázat kontakt",
+      "poslouchat kamaráda"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "pozorně naslouchá partnerovi, navazuje kontakt (oslovení, tykání, vykání ad.)",
+        "quote": "pozorně naslouchá partnerovi, navazuje kontakt (oslovení, tykání, vykání ad.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Výstižné dorozumívání I",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Chatbot nikdy nestojí naproti tobě, pozorně posloucháš člověka před sebou."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručka s pravidly oslovování ukáže, kdy tykat a kdy vykat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe neposlouchá a kontakt nenaváže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj nenahradí tvůj pohled a pozornost k druhému."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "slovni-a-mimoslovni-prostredky-vyber",
+    "title": "Slova, mimika a gesta při mluvení",
+    "aliases": [
+      "řeč těla",
+      "gesta",
+      "mimika",
+      "scénka",
+      "dramatická výchova"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "užívá vědomě verbální i neverbální prostředky (např. v improvizovaných výstupech, ve scénkách, s využitím prvků dramatické výchovy apod.)",
+        "quote": "užívá vědomě verbální i neverbální prostředky (např. v improvizovaných výstupech, ve scénkách, s využitím prvků dramatické výchovy apod.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Výstižné dorozumívání II",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vymyslí scénky a popíše, co který pohyb a tón hlasu říká."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa ukážou, jak gesta a mimika mění význam slov."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvůj pohyb a hlas na scéně nenacvičí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Scénku zahraješ tělem a hlasem ty, nástroj k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1a59af95-f36a-4d99-a5ca-6a7a46e2ecb0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dialog-slusna-komunikace-netiketa-vyber",
+    "title": "Zásady dialogu a netiketa",
+    "aliases": [
+      "slušná komunikace",
+      "netiketa",
+      "pravidla dialogu",
+      "chování v chatu",
+      "slušné psaní zpráv"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uplatňuje zásady dialogu v mluvené, psané i elektronické komunikaci",
+        "quote": "uplatňuje zásady dialogu v mluvené, psané i elektronické komunikaci"
+      },
+      {
+        "level": "Na cestě",
+        "point": "dodržuje pravidla slušné komunikace a také pravidla netikety v elektronické komunikaci",
+        "quote": "dodržuje pravidla slušné komunikace a také pravidla netikety v elektronické komunikaci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Výstižné dorozumívání II",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí pravidla a zahraje s tebou rozhovor, ve kterém hledáš slušnou odpověď."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby o netiketě shrnují, co se v chatu a v mailu nedělá."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s chatem ti slušné chování nenacvičí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slušný rozhovor vedeš s lidmi kolem sebe, nástroj ho nevede za tebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c9b6aa32-6c42-4903-8e5a-23e43edf03fc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zahajeni-a-moderovani-diskuse-vyber",
+    "title": "Zahájení a moderování diskuse",
+    "aliases": [
+      "moderátor diskuse",
+      "vést debatu",
+      "zahájit debatu",
+      "soutěžní debata",
+      "předsedající"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "zahájí a moderuje diskusi",
+        "quote": "zahájí a moderuje diskusi"
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot navrhne otázky k zahájení a zkusí s tebou nacvičit roli moderátora."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internet ukáže vzorové debaty a postup moderátora."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace diskusi za tebe nezahájí ani nezvládne vést."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskusi vedeš před lidmi ty, žádný nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5b46f572-7ced-4efd-b270-a81a164d521c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "diskuse-na-socialnich-sitich-vyber",
+    "title": "Diskuse na sociálních sítích a v digitálním prostředí",
+    "aliases": [
+      "sociální sítě",
+      "komentáře",
+      "tiktok",
+      "instagram",
+      "chatování",
+      "komunikace online"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "zapojuje se do diskusí na sociálních sítích a uvědomuje si role účastníků v těchto typech dialogické komunikace",
+        "quote": "zapojuje se do diskusí na sociálních sítích a uvědomuje si role účastníků v těchto typech dialogické komunikace"
+      },
+      {
+        "level": "Splněno",
+        "point": "využívá digitální prostředí jako možnost rozšířit svoje komunikační dovednosti, strategie a techniky (např. vyhledávání podle klíčových slov, rozvíjení audiovizuální gramotnosti, role v různých typech internetové komunikace, např. facebook, twitter, tik-tok, instagram ad.)",
+        "quote": "využívá digitální prostředí jako možnost rozšířit svoje komunikační dovednosti, strategie a techniky (např. vyhledávání podle klíčových slov, rozvíjení audiovizuální gramotnosti, role v různých typech internetové komunikace, např. facebook, twitter, tik-tok, instagram ad.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot rozebere ukázkovou diskusi a vysvětlí, kdo v ní jakou roli hraje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač a návody na hledání podle klíčových slov ti rozšíří možnosti hledání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace sociální sítě nabízí, ale do diskuse se zapojuješ ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka k online diskusi nic nepřidají."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/64e09849-a7db-4d6b-a932-66264420eb97",
+      "http://data.europa.eu/esco/skill/c9b6aa32-6c42-4903-8e5a-23e43edf03fc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prezentace-komunikacnich-dovednosti-vyber",
+    "title": "Prezentace a mluvní výstupy",
+    "aliases": [
+      "prezentace",
+      "referát",
+      "vystoupení před třídou",
+      "práce ve dvojicích",
+      "prezentace projektu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "prezentuje své komunikační dovednosti (např. mluvní cvičení, výstupy ve dvojicích i ve skupině, jednoduchá prezentace s využitím prostředků audiovizuální techniky a digitálních zdrojů apod.)",
+        "quote": "prezentuje své komunikační dovednosti (např. mluvní cvičení, výstupy ve dvojicích i ve skupině, jednoduchá prezentace s využitím prostředků audiovizuální techniky a digitálních zdrojů apod.)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "prezentuje své komunikační dovednosti (např. prezentace s využitím prostředků audiovizuální techniky a digitálních zdrojů, mluvní cvičení, výstupy ve dvojicích i ve skupině, nácvik praktických komunikačních situací ad.)",
+        "quote": "prezentuje své komunikační dovednosti (např. prezentace s využitím prostředků audiovizuální techniky a digitálních zdrojů, mluvní cvičení, výstupy ve dvojicích i ve skupině, nácvik praktických komunikačních situací ad.)"
+      },
+      {
+        "level": "Splněno",
+        "point": "prezentuje své komunikační dovednosti (např. prezentace s využitím prostředků audiovizuální techniky a digitálních zdrojů, nácvik praktických komunikačních situací, soutěžní debaty s využitím argumentace, prezentace projektů ad.)",
+        "quote": "prezentuje své komunikační dovednosti (např. prezentace s využitím prostředků audiovizuální techniky a digitálních zdrojů, nácvik praktických komunikačních situací, soutěžní debaty s využitím argumentace, prezentace projektů ad.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže s osnovou a zeptá se, na co by se mohli ptát posluchači."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na internetu najdeš zdroje a vzory dobrých prezentací."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prezentační program z podkladů udělá snímky a nahrávka ukáže tvůj projev."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Před třídou stojíš ty, tužka s papírem tvůj výstup nenacvičí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b",
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

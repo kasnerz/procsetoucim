@@ -1,0 +1,303 @@
+[
+  {
+    "slug": "pravidelnosti-tvary-barvy-zvuky",
+    "title": "Pravidelnosti v tvarech, barvách a pohybu",
+    "aliases": [
+      "co se opakuje",
+      "vzor",
+      "střídání barev",
+      "rytmus",
+      "řada obrázků"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozpozná pravidelnosti (vizuální tvarové nebo barevné, akustické, kinestetické…).",
+        "quote": "Rozpozná pravidelnosti (vizuální tvarové nebo barevné, akustické, kinestetické…)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Řady znaků a řady pohybu",
+        "url": ""
+      },
+      {
+        "title": "Co se opakuje a co chybí",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Střídání korálků nebo rytmus tleskání poznáváš očima a ušima ty, chatbot je nevidí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Vzor před sebou ve vyhledávači nenajdeš, hledáš ho v řadě předmětů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Hry s řadami obrázků a rytmů ti ukážou, co se opakuje, a hned řeknou, jestli máš pravdu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Korálky, kostky nebo stavebnice si můžeš vzít do ruky a řadu pokračovat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "doplneni-ciselne-rady-pravidlo",
+    "title": "Doplnění číselné řady podle pravidla",
+    "aliases": [
+      "číselná řada",
+      "doplň číslo",
+      "pokračuj v řadě",
+      "chybějící číslo",
+      "posloupnost"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Zapíše nebo doplní pravidelnosti a číselné řady podle návodu.",
+        "quote": "Zapíše nebo doplní pravidelnosti a číselné řady podle návodu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpozná pravidlo pravidelnosti lineární i s opakováním a aplikuje ho na doplnění chybějícího prvku.",
+        "quote": "aplikuje ho na doplnění chybějícího prvku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Číselné řady",
+        "url": ""
+      },
+      {
+        "title": "Radkovy číselné hrátky",
+        "url": "https://uloziste.rvp.cz/material/46a2f5"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti zadá řady na doplnění a ukáže, kde je chyba v tvém výsledku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové weby mají hotové číselné řady na procvičení i s výsledky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Cvičné aplikace zadávají řady a hned opraví tvou odpověď."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačkou si ověříš, že přičítání nebo násobení vychází v celé řadě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/fce09eac-0b2d-4a50-bdcd-9dff4edfd9d0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zduvodneni-pravidla-ciselne-rady",
+    "title": "Zdůvodnění pravidla řady",
+    "aliases": [
+      "jaké je pravidlo",
+      "proč to tak je",
+      "pravidlo řady",
+      "přičítáme stále stejné číslo",
+      "opakující se řada"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zdůvodní nalezené pravidelnosti a pokračuje v nich.",
+        "quote": "Zdůvodní nalezené pravidelnosti a pokračuje v nich."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpozná pravidlo pravidelnosti lineární i s opakováním a aplikuje ho na doplnění chybějícího prvku.",
+        "quote": "Rozpozná pravidlo pravidelnosti lineární i s opakováním"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co se opakuje a co chybí",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí, proč řada platí, a řekne, jestli tvé zdůvodnění drží."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výklad o číselných řadách s příklady najdeš na výukových webech."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti řadu doplní nebo opraví, pravidlo musíš vysvětlit ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidlo vysvětluješ svými slovy, žádný klasický nástroj to za tebe nepovede."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-ciselne-rady-pravidelnosti",
+    "title": "Vymýšlení vlastních řad a pravidelností",
+    "aliases": [
+      "vymysli řadu",
+      "vlastní řada",
+      "vlastní vzor",
+      "tvorba řady",
+      "hádanka s čísly"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Tvoří pravidelnosti a řady čísel.",
+        "quote": "Tvoří pravidelnosti a řady čísel."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Karty",
+        "url": "https://uloziste.rvp.cz/material/ee89f7"
+      },
+      {
+        "title": "Radkovy číselné hrátky",
+        "url": "https://uloziste.rvp.cz/material/46a2f5"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti řadu, kterou vymyslíš, zkusí rozluštit a ukáže, jestli je pravidlo jasné."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Vlastní řadu vymýšlíš ty, ve vyhledávači žádná taková není."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka nebo kreslicí aplikace ti pomůže řadu rychle zapsat nebo nakreslit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, pravítko nebo kostky ti pomůžou řadu zapsat či poskládat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pravidelnosti-pri-reseni-uloh",
+    "title": "Využití pravidelností při řešení úloh",
+    "aliases": [
+      "úlohy s řadou",
+      "najdi vzor",
+      "pravidelnost v úloze",
+      "trik na počítání",
+      "slovní úloha s řadou"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá pravidelnosti k řešení úloh.",
+        "quote": "Využívá pravidelnosti k řešení úloh."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Číselné řady",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti ukáže, kde se v úloze skrývá vzor, a zkontroluje tvůj postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a vzorové úlohy s pravidelnostmi najdeš na výukových webech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka v počítači ti rozepíše řadu hodnot, ve které vzor uvidíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačkou si ověříš výsledek, který ti ze vzoru vyšel."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

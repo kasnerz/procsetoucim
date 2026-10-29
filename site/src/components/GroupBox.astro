@@ -1,0 +1,79 @@
+---
+// The Cedefop figures for one ISCO-08 2-digit group (user 2026-10-29), on the occupation page under the two boxes for
+// the occupation itself and on the group page: a squared sheet with three white pieces, people at work 2025 and 2035,
+// job openings 2026-2035 and education in 2035. Headcounts only as coarse words (peopleAbout, docs/data-terms.md);
+// groups under 10,000 people and the armed forces (not in the forecast) get a note instead.
+import Paper from "./Paper.astro";
+import Icon from "./Icon.astro";
+import Bars from "./charts/Bars.astro";
+import Stack from "./charts/Stack.astro";
+import CedefopSource from "./CedefopSource.astro";
+import { isco2, groups, occupations, peopleAbout, QUALIFICATIONS } from "../lib/data";
+interface Props { code: string; title: string; lead: string; link?: boolean }
+const { code, title, lead, link = false } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const g = isco2[code];
+const label = groups[code] ?? g?.label ?? code;
+const count = Object.values(occupations).filter((o) => o.isco2 === code).length;
+const trend = g?.reliable ? (g.changePct > 1.5 ? "up" : g.changePct < -1.5 ? "down" : "flat") : null;
+const trendHeading = trend === "up" ? "Do roku 2035 míst spíš přibude"
+  : trend === "down" ? "Do roku 2035 míst spíš ubude" : "Do roku 2035 zůstane míst zhruba stejně";
+const trendIcon = trend === "up" ? "trending-up" : trend === "down" ? "trending-down" : "arrow-left-right";
+const growth = g ? g.employment2035 - g.employment2025 : 0;
+const qual = g ? QUALIFICATIONS.map((q) => ({ ...q, value: g.qualification2035[q.id] })) : [];
+const cap = (t: string) => t[0].toUpperCase() + t.slice(1);
+const most = qual.reduce((a, b) => (b.value > a.value ? b : a), qual[0]);
+---
+<Paper kind="grid" seed={`group/${code}`} tilt={0.2} class="group-box">
+  <h2>{title}</h2>
+  {trend && <p class="lead-note">{lead}</p>}
+  {g && trend ? (
+    <div class="pieces">
+      <Paper seed={`group/${code}/people`} tone="#fff" tilt={0.8} depth={3} class="piece">
+        <Icon name={trendIcon} size="28" />
+        <h3>{trendHeading}</h3>
+        <Bars rows={[
+          { label: "2025", value: g.employment2025, display: peopleAbout(g.employment2025) },
+          { label: "2035", value: g.employment2035, display: peopleAbout(g.employment2035) },
+        ]} seed={`group-bars/${code}`} label={`Pracující ve skupině ${label}`} />
+        <p class="small soft">Tolik lidí v Česku v téhle skupině povolání pracuje.</p>
+      </Paper>
+      <Paper seed={`group/${code}/openings`} tone="#fff" tilt={0.8} depth={3} class="piece">
+        <Icon name="user-plus" size="28" />
+        <h3>Místa k obsazení do roku 2035</h3>
+        {g.openings2026to2035 > 0 ? (
+          <>
+            <p class="big-num">{peopleAbout(g.openings2026to2035)}</p>
+            <p class="small">{growth >= 0
+              ? `Z toho ${peopleAbout(g.replacement2026to2035)} za lidi, kteří odejdou, třeba do důchodu, a ${peopleAbout(growth)} na nová místa.`
+              : `Lidé, kteří odejdou, třeba do důchodu, uvolní ${peopleAbout(g.replacement2026to2035)} míst. ${cap(peopleAbout(-growth))} z nich ale zanikne.`}</p>
+          </>
+        ) : <p class="small">Míst zanikne víc, než kolik jich uvolní lidé, kteří odejdou, třeba do důchodu.</p>}
+      </Paper>
+      <Paper seed={`group/${code}/school`} tone="#fff" tilt={0.8} depth={3} class="piece">
+        <Icon name="book" size="28" />
+        <h3>Vzdělání lidí v práci</h3>
+        <p class="small">V roce 2035 tu bude mít nejvíc lidí {most.acc}.</p>
+        <Stack segs={qual.map((q) => ({ value: q.value, label: q.label, fill: q.fill }))} display={peopleAbout} label={`Pracující ve skupině ${label} v roce 2035 podle vzdělání`} />
+      </Paper>
+    </div>
+  ) : g ? (
+    <p class="small soft center">Skupina je v Česku malá (pod 10 000 lidí), takže prognóza je pro ni příliš nejistá. Neuvádíme ji.</p>
+  ) : (
+    <p class="small soft center">Pro armádu prognózu Cedefop nedělá.</p>
+  )}
+  <div class="foot">
+    {g && <CedefopSource short />}
+    {link && <a href={`${base}povolani/skupina/${code}/`} class="small">Všechna povolání ve skupině ({count.toLocaleString("cs-CZ")})</a>}
+  </div>
+</Paper>
+<style>
+  .group-box { display: grid; gap: var(--s4); max-width: 1040px; margin-inline: auto; width: 100%; }
+  .group-box > h2 { font-size: calc(1.9rem * var(--title-scale)); line-height: 1.1; text-align: center; max-width: 36ch; margin-inline: auto; }
+  .lead-note { text-align: center; max-width: 60ch; margin-inline: auto; }
+  .pieces { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: var(--s5); align-items: start; }
+  .piece { display: grid; gap: var(--s3); align-content: start; }
+  .piece > :global(.icon) { color: var(--purple); }
+  .piece h3 { font-size: calc(1.35rem * var(--title-scale)); line-height: 1.15; }
+  .foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--s2) var(--s4); }
+</style>

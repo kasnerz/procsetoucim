@@ -1,0 +1,190 @@
+[
+  {
+    "slug": "pokyny-v-anglictine-ve-tride",
+    "title": "Pokyny v angličtině ve třídě",
+    "aliases": [
+      "pokyny učitele",
+      "open your book",
+      "anglické příkazy",
+      "instrukce v hodině angličtiny",
+      "třídní angličtina"
+    ],
+    "outcome": "JJK-AJA-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozumí jednoduchým krátkým pokynům používaným ve vyučování.",
+        "quote": "Rozumí jednoduchým krátkým pokynům používaným ve vyučování."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Rozumí jednoduchým krátkým pokynům, které se běžně používají ve vyučování.",
+        "quote": "Rozumí jednoduchým krátkým pokynům, které se běžně používají ve vyučování."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozumí pokynům a instrukcím běžně používaným ve vyučování.",
+        "quote": "Rozumí pokynům a instrukcím běžně používaným ve vyučování."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pokyny ve třídě",
+        "url": ""
+      },
+      {
+        "title": "Pokyny ve vyučování",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Řekne pokyn anglicky a zkontroluje, jestli ho děláš správně."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš seznamy pokynů s přehrávkou výslovnosti."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na slovíčka procvičí běžné pokyny s nahrávkou."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník pokyn neřekne, ukáže jen význam slova."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porozumeni-kratkym-promluvam",
+    "title": "Porozumění krátkým promluvám",
+    "aliases": [
+      "poslech v angličtině",
+      "rozumět angličtině",
+      "pomalá mluvená angličtina",
+      "listening",
+      "poslech s porozuměním"
+    ],
+    "outcome": "JJK-AJA-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porozumí krátkým a jednoduchým promluvám souvisejícím s osvojovanými tématy, jsou-li pronášeny pomalu a s pečlivou výslovností.",
+        "quote": "Porozumí krátkým a jednoduchým promluvám souvisejícím s osvojovanými tématy, jsou-li pronášeny pomalu a s pečlivou výslovností."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Porozumí některým informacím v krátkých a jednoduchých promluvách souvisejících s osvojovanými tématy.",
+        "quote": "Porozumí některým informacím v krátkých a jednoduchých promluvách souvisejících s osvojovanými tématy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Listen to the dialogues and choose the correct picture",
+        "url": "https://uloziste.rvp.cz/material/d95e8a?nahled=1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Čte krátké promluvy a ptá se, čemu rozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš nahrávky s přepisem a můžeš poslouchat opakovaně."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Jazyková aplikace přehraje promluvu pomalu a ukáže přepis."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník promluvu nepřehraje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "poslech-obrazek-poradi-doplneni",
+    "title": "Přiřazení obrázku, pořadí a doplnění podle poslechu",
+    "aliases": [
+      "přiřaď obrázek",
+      "poslech a obrázky",
+      "seřaď podle poslechu",
+      "doplň chybějící informaci",
+      "listening cvičení"
+    ],
+    "outcome": "JJK-AJA-001-ZV5-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě poslechového textu přiřazuje obrázek na správné místo, určuje pořadí nebo doplňuje chybějící informaci.",
+        "quote": "Na základě poslechového textu přiřazuje obrázek na správné místo, určuje pořadí nebo doplňuje chybějící informaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Listen to the dialogues and choose the correct picture",
+        "url": "https://uloziste.rvp.cz/material/d95e8a?nahled=1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí krátký poslech s úkolem a zkontroluje tvé odpovědi."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Internet úkol k poslechu nevymyslí, nahrávky jen pustí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Jazyková aplikace přehraje nahrávku a vyhodnotí úkol."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj poslech neprocvičí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,474 @@
+{
+  "outcome": "CZB-VZB-003-ZV9-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vzb-pravidla-souziti-ve-tride",
+      "title": "Pravidla soužití ve třídě",
+      "aliases": [
+        "třídní pravidla",
+        "pravidla chování",
+        "kodex třídy",
+        "jak se chovat ve třídě"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "podílí se na tvorbě pravidel pro podporu pozitivních vztahů ve třídě"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "respektuje přijatá pravidla soužití mezi spolužáky a jinými vrstevníky"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zpřesňuje a upravuje společně přijatá pravidla chování"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu pravidla jsou, a navrhne příklady, nad kterými se ve třídě můžete domluvit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky třídních pravidel z jiných škol, ze kterých můžeš brát nápady."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pravidla se domlouvají se spolužáky, aplikace za vás nic nerozhodne."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravidla vznikají domluvou ve třídě, ruler ani papír je nevymyslí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a65fb963-6faf-47b2-a3d9-c4e5e4d833c5",
+        "http://data.europa.eu/esco/skill/07090471-265a-48ec-b744-72b357e801ed"
+      ],
+      "inspiration": [
+        "Bezpečí a pohoda ve škole",
+        "RESPEKT- všichni jsme lidé"
+      ]
+    },
+    {
+      "slug": "vzb-dobre-a-spatne-klima-tridy",
+      "title": "Chování, které klima třídy zlepšuje nebo ničí",
+      "aliases": [
+        "dobré vztahy ve třídě",
+        "přátelství",
+        "vstřícnost a důvěra",
+        "atmosféra ve třídě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady chování, které podporují utváření dobrého sociálního klimatu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje příklady chování, které přispívají k utváření dobrého sociálního klimatu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí příklady z různých situací a ukáže, co je v nich dobré a co škodí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a materiály o prevenci šikany ukazují, jak vypadá dobré a špatné klima."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepozná, jak se ve třídě chováte, a nemá co nabídnout."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "K diskusi o chování ve třídě žádný nástroj nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a65fb963-6faf-47b2-a3d9-c4e5e4d833c5",
+        "http://data.europa.eu/esco/skill/07090471-265a-48ec-b744-72b357e801ed"
+      ],
+      "inspiration": [
+        "Příběh Jakuba"
+      ]
+    },
+    {
+      "slug": "vzb-dopad-meho-chovani-na-tridu",
+      "title": "Dopad vlastního chování na třídu",
+      "aliases": [
+        "jak moje chování působí",
+        "vliv na spolužáky",
+        "moje jednání",
+        "důsledky chování"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Určí možný dopad vlastního jednání a chování na utváření klimatu ve třídě"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou modelový příběh a zeptá se, co by tvoje reakce způsobila ostatním."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Dopad svého chování na třídu ve vyhledávači nenajdeš, musíš ho posoudit ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nezná tvou třídu ani spolužáky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na úvahu o vlastním chování žádný nástroj nestačí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a65fb963-6faf-47b2-a3d9-c4e5e4d833c5",
+        "http://data.europa.eu/esco/skill/07090471-265a-48ec-b744-72b357e801ed"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vzb-role-ve-skupine-a-hierarchie",
+      "title": "Role v rodině, třídě a skupině vrstevníků",
+      "aliases": [
+        "role ve třídě",
+        "kdo vede skupinu",
+        "vztahy ve skupině",
+        "rodina a kamarádi"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje a na příkladech vysvětlí různé role v rodině, třídě, vrstevnické skupině"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jaké role ve skupinách bývají, a dá příklady k rozboru."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice a výukové weby popisují role ve skupině s příklady."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Role ve své třídě poznáš jen pozorováním, aplikace ji neviděla."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Role ve skupině se nedají změřit ani nakreslit nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a65fb963-6faf-47b2-a3d9-c4e5e4d833c5",
+        "http://data.europa.eu/esco/skill/07090471-265a-48ec-b744-72b357e801ed"
+      ],
+      "inspiration": [
+        "Jak si lépe porozumět"
+      ]
+    },
+    {
+      "slug": "vzb-nevhodny-medialni-tlak-desinformace",
+      "title": "Nevhodný mediální tlak a dezinformace",
+      "aliases": [
+        "falešné zprávy",
+        "tlak z internetu",
+        "mediální manipulace",
+        "jak poznat dezinformaci"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozpozná nevhodné chování i nevhodný mediální tlak zahrnující vliv desinformací"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere ukázkovou zprávu a ukáže znaky tlaku nebo klamavé informace, ale může sama chybovat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ověřovací weby a encyklopedie umožní zjistit, jestli zpráva sedí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nástroje na kontrolu zpráv a vyhledávání obrázků ukážou původ zprávy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka ani lupa mediální tlak nepoznají, úsudek je na tobě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5acf6408-e084-4202-9442-ffcf0119811c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vzb-obrana-proti-manipulaci",
+      "title": "Rizika manipulace a obrana proti ní",
+      "aliases": [
+        "manipulace",
+        "nátlak kamarádů",
+        "jak se bránit",
+        "jak poznat manipulátora"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využívá asertivní a další komunikační dovednosti v modelových situacích na obranu proti manipulativním vlivům."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje o rizicích manipulace a agresivního chování"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí modelové situace a zahraje protistranu, abys si mohla nacvičit nacvičit odpověď."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty o manipulaci vysvětlují její triky a ukazují příklady."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Obranu před nátlakem nacvičuješ hlasem a s lidmi, ne v aplikaci."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Asertivně mluvit se nedá nástrojem, jen vlastním hlasem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f8e5f1fd-82ee-45c0-b179-399d8e9a22aa",
+        "http://data.europa.eu/esco/skill/f6c12779-bd4c-4908-a766-dd0db556c63b",
+        "http://data.europa.eu/esco/skill/a0cad388-3c4c-4786-b238-fc39f8c495af"
+      ],
+      "inspiration": [
+        "Minipříběhy pocitů"
+      ]
+    },
+    {
+      "slug": "vzb-asertivni-reakce-v-modelovych-situacich",
+      "title": "Asertivní odmítnutí v modelové situaci",
+      "aliases": [
+        "umět říct ne",
+        "jak se vymezit",
+        "slušné odmítnutí",
+        "nacvičit reakci",
+        "scénka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "předvádí v modelových situacích vhodné způsoby komunikace, jak se vůči agresivnímu, nekonsenzuálnímu chování vymezit"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Používá v modelových situacích vhodné způsoby, jak takovému chování předcházet a jak na ně reagovat."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "v modelových situacích předvádí, jak by se zachoval v situacích ohrožení a způsob chování zdůvodňuje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne věty pro odmítnutí a zahraje protistranu, ale říct je musíš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotová odpověď z webu nenahradí nácvik s vlastním hlasem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tebou scénku nezahraje a tělo ani hlas nevidí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Asertivní reakci předvádíš před lidmi, žádný nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f6c12779-bd4c-4908-a766-dd0db556c63b",
+        "http://data.europa.eu/esco/skill/f8e5f1fd-82ee-45c0-b179-399d8e9a22aa",
+        "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+      ],
+      "inspiration": [
+        "Příběh Jakuba"
+      ]
+    },
+    {
+      "slug": "vzb-sebeposkozovani-vrstevniku-pomoc",
+      "title": "Sebepoškozování vrstevníků a zprostředkování pomoci",
+      "aliases": [
+        "sebepoškozování",
+        "kamarád se zraňuje",
+        "jak pomoct kamarádovi",
+        "kam zavolat",
+        "krizová linka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozpozná projevy možného sebepoškozování vrstevníků a rizika s tímto spojená, uvede, jak zprostředkovat pomoc"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí varovné znaky a řekne, na koho se obrátit, ale rozhovor s dospělým ho nenahradí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby poraden a krizových linek vysvětlují, co dělat a komu zavolat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepozná, jak se kamarádovi daří, a nemluví s ním."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pomoc kamarádovi zprostředkuješ ty rozhovorem s dospělým."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/867ad40d-bd25-46d1-88b5-27381f673ad5",
+        "http://data.europa.eu/esco/skill/16ac1a06-ce37-405d-8c9f-d8b218039917",
+        "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vzb-reseni-situace-pro-obet",
+      "title": "Možnosti řešení pro oběť manipulace nebo agrese",
+      "aliases": [
+        "co dělat při šikaně",
+        "jak pomoct oběti",
+        "komu se svěřit",
+        "řešení šikany"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady možného řešení situace pro oběť manipulace či agrese."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou případ a nabídne možné kroky, které pak můžeš probrat s dospělým."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové stránky o prevenci šikany radí oběti krok za krokem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace oběť nepodpoří a situaci za ni nevyřeší."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Řešení se hledá s lidmi, ne nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/867ad40d-bd25-46d1-88b5-27381f673ad5",
+        "http://data.europa.eu/esco/skill/16ac1a06-ce37-405d-8c9f-d8b218039917",
+        "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Rozpozná projevy násilného",
+      "code": "O1",
+      "refs": [
+        "sikana-natlak-agrese-pojmy-chovani"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "v modelové situaci identifikuje znaky šikany",
+      "code": "O1",
+      "refs": [
+        "sikana-rozbor-modelove-situace"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "vysvětlí, proč identifikované nevhodné chování",
+      "code": "O1",
+      "refs": [
+        "sikana-rozbor-modelove-situace"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "rozlišuje, na koho se",
+      "code": "O1",
+      "refs": [
+        "sikana-oznameni-duveryhodne-osobe"
+      ]
+    }
+  ]
+}

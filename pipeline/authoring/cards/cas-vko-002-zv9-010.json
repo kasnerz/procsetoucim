@@ -1,0 +1,463 @@
+{
+  "outcome": "CAS-VKO-002-ZV9-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "zpravy-zdroje-informaci-o-deni",
+      "title": "Zdroje informací o aktuálním dění",
+      "aliases": [
+        "zdroje zpráv",
+        "noviny a web",
+        "kde hledat zprávy",
+        "zpravodajství",
+        "média"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "pracuje s různými zdroji informací, včetně tištěných médií, online zpravodajství, publikací, odborných článků, blogů atd."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "vyjmenuje alespoň tři zdroje informací o aktuálním dění a zamýšlí se nad jejich silnými a slabými stránkami"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se liší noviny, web a blog, a ukáže silné i slabé stránky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zpravodajské weby a archivy ti dají zprávy z více zdrojů k porovnání."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace zpravodajských serverů ukážou, co se právě děje a kdo to píše."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tištěné noviny si prolistuješ a porovnáš s webem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ],
+      "inspiration": [
+        "Objevte sílu informací: Jak hodnotit zdroje kolem nás"
+      ]
+    },
+    {
+      "slug": "zpravy-priklady-aktualniho-deni",
+      "title": "Příklady aktuálního dění z regionu, Česka i světa",
+      "aliases": [
+        "aktuality",
+        "co se děje",
+        "zprávy z regionu",
+        "zprávy ze světa",
+        "aktuální události"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše na příkladech aktuální dění v regionu, České republice nebo ve světě."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Prezentuje příklady aktuálního dění z regionu, státu i světa."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne, co se v týdnu stalo, ty si ale zprávu ověříš jinde."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Regionální i světové zpravodajství ti dá aktuální příklady."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Zpravodajská aplikace ti ukáže zprávy podle místa a tématu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Noviny a rádio ti dají zprávy bez obrazovky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698",
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3"
+      ],
+      "inspiration": [
+        "Aktuality ve fotografiích"
+      ]
+    },
+    {
+      "slug": "zpravy-informovani-spoluzaku-o-udalosti",
+      "title": "Informování spolužáků o události",
+      "aliases": [
+        "referát o události",
+        "aktualita do třídy",
+        "vyprávění o zprávě",
+        "proč jsem vybral zprávu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "informuje své spolužáky o události v Česku / ve světě a uvádí, proč ji vybral"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Spolužákům to říkáš ty, chatbot za tebe nemluví a nevybere, co tě zaujalo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávu a její pozadí si najdeš a ověříš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Mluvíš před třídou ty, aplikace za tebe zprávu nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mluvit ke třídě nemůžeš s ničím jiným než hlasem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ]
+    },
+    {
+      "slug": "zpravy-muj-nazor-na-zpravu",
+      "title": "Můj názor na zprávu a jeho zdůvodnění",
+      "aliases": [
+        "co si myslím o zprávě",
+        "vyjádřit názor",
+        "zdůvodnit názor",
+        "stanovisko"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vyjádří svůj názor na jednoduchou zprávu k aktuálnímu dění a pokusí se ho zdůvodnit"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyjadřuje své názory a stanoviska k aktuálnímu dění"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Názor si tvoříš ty, chatbot ti ho nedá a může ti ho jen podsunout."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Cizí názory najdeš, ten tvůj tam není."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nezjistí, co si o zprávě myslíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zdůvodnění říkáš a píšeš ty, nástroj k tomu nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ]
+    },
+    {
+      "slug": "zpravy-fakt-a-nazor-ve-zprave",
+      "title": "Fakt a názor ve zprávě",
+      "aliases": [
+        "rozlišení faktu a názoru",
+        "fakta a názory",
+        "co je fakt",
+        "co je názor"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvede jeden fakt a jeden názor k jednoduchému příkladu aktuální události"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje fakta a názory ve sdělení o aktuálním dění"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá ti texty k třídění na fakta a názory a ukáže, kde je chyba."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ověřovací weby ukážou, které tvrzení v textu se dá doložit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace faktu od názoru neodliší, to posuzuješ ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Zvýrazňovač v novinách ti označí fakta jinou barvou než názory."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ],
+      "inspiration": [
+        "Hledání pravdy: První krok k ověřování informací"
+      ]
+    },
+    {
+      "slug": "zpravy-ruzne-pohledy-na-udalost",
+      "title": "Různé pohledy na jednu událost",
+      "aliases": [
+        "dva pohledy",
+        "argumenty",
+        "jiný názor na událost",
+        "porovnání zpráv"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na konkrétním příkladu aktuálního dění ukáže s oporou o informační zdroje různé pohledy a představí různou argumentaci"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na konkrétním příkladu aktuálního dění ukáže alespoň dva různé pohledy na danou událost a doloží to důkazy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vypíše, jak se na událost dívají různé strany, a ty to ověříš ve zdrojích."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš o jedné události články z více zdrojů a porovnáš je."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pohledy a důkazy porovnáváš ty, aplikace je za tebe nesrovná."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vystřižené články z různých novin si položíš vedle sebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698",
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3"
+      ]
+    },
+    {
+      "slug": "zpravy-zamer-autora-sdeleni",
+      "title": "Záměr autora a otázky ke sdělení",
+      "aliases": [
+        "kdo co komu jak a proč",
+        "autorský záměr",
+        "mediální sdělení",
+        "komu zpráva slouží"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "ve vybraných příkladech mediálních sdělení hledá autorský záměr a odpovídá na klíčové otázky spojené s mediálními sděleními (kdo, co, komu, jak a proč)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se tě na kdo, co, komu, jak a proč a opraví tvoje odpovědi."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "O autorovi a vydavateli zjistíš, kdo za sdělením stojí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Záměr autora vyčteš ze sdělení ty, aplikace ho nenajde."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na zprávu se tu nemá co použít, záměr hledáš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ],
+      "inspiration": [
+        "Lovci pravdy: Odhalte příběh událostí!"
+      ]
+    },
+    {
+      "slug": "zpravy-lzive-a-manipulativni-informace",
+      "title": "Lživé a manipulativní informace",
+      "aliases": [
+        "fake news",
+        "dezinformace",
+        "hoax",
+        "manipulace ve zprávách",
+        "falešné zprávy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozpozná příklady lživých, zkreslených nebo manipulativních informací o aktuálním dění"
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí triky manipulace, jenže se plete, tak jeho odpovědi ověř."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ověřovací weby a zpětné hledání obrázku odhalí padělky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s vyhledáváním podle obrázku ukáže, odkud fotka pochází."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Lež ve zprávě rozpoznáváš ty, klasický nástroj k tomu nemáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ],
+      "inspiration": [
+        "Hledání pravdy: První krok k ověřování informací"
+      ]
+    },
+    {
+      "slug": "zpravy-svobodna-nezavisla-media",
+      "title": "Svobodná a nezávislá média",
+      "aliases": [
+        "nezávislá média",
+        "svoboda tisku",
+        "pluralitní média",
+        "proč jsou média důležitá"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na příkladech ilustruje, jakou roli mají svobodná, nezávislá a pluralitní média"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se nezávislost médií hodí, a dá příklady k probrání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš, kdo média vlastní a jak vypadá tisk v různých zemích."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace roli médií nevysvětlí, to si musíš uvědomit ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pro tuhle otázku žádný klasický nástroj není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+      ]
+    },
+    {
+      "slug": "zpravy-pricina-prubeh-dusledky-udalosti",
+      "title": "Příčiny, průběh a důsledky události",
+      "aliases": [
+        "analýza události",
+        "proč se to stalo",
+        "co z toho vyplyne",
+        "důsledky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Analyzuje vybranou aktuální událost z hlediska jejích příčin, průběhu a možných důsledků."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti seřadit, co událost způsobilo a co z ní plyne, ty to ověříš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zpravodajství a encyklopedie dají fakta k příčinám i důsledkům."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Úvahu o příčinách a následcích dělá ty, aplikace ji nenahradí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka pomůžou nakreslit osu a schéma příčin."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698",
+        "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3"
+      ]
+    }
+  ],
+  "aside": []
+}

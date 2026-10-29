@@ -1,0 +1,37 @@
+Content licence
+
+Copyright (c) 2026 Zdeněk Kasner
+
+The content of this repository is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Content means:
+- content/ (cards, AI-drafted texts, occupation notes, relevance estimates,
+  derived data)
+- docs/, analysis/ and PRODUCT.md, except the files listed below
+- the drawings: site/src/icons/sketch.json, the SVG scenes in the site pages
+  and docs/scene.svg
+
+Attribution: "Proč se to učím? (Zdeněk Kasner), https://procsetoucim.cz,
+CC BY-SA 4.0".
+
+Not covered by this licence:
+- Logo and favicons (site/public/logo.*, favicon*, apple-touch-icon.png,
+  icon-192.png, og.png): all rights reserved.
+- Quotations of the RVP ZV (NPI ČR / MŠMT): an official document, not
+  protected by copyright under § 3 of Czech Act No. 121/2000 Coll.
+- Estimates in content/measures.json are built on the Cedefop Skills
+  Forecast 2026. Copyright in the forecast stays with Cedefop and its own
+  terms apply: European Centre for the Development of Vocational Training
+  (Cedefop). Cedefop Skills Forecast 2026, Thessaloniki: Greece, Downloaded
+  from: https://www.cedefop.europa.eu/en/projects/skills-forecast
+- docs/anti-ai-slop-cz.md and docs/anti-ai-slop-cz-kratka.md: (c) 2026 Filip
+  Dřímalka, MIT licence, https://github.com/nowork-ai/anti-ai-slop-cz
+- Data from ESCO (European Commission, free reuse with attribution) and the
+  ILO GenAI exposure index (Gmyrek et al. 2025, CC BY 4.0) keep their own
+  terms; see docs/data-terms.md.
+
+Texts drafted by AI models may not be protected by copyright. Where they are
+not, this licence states how the author asks them to be reused.

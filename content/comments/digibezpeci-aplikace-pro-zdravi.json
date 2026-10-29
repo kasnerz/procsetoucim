@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Aplikace počítají kroky, hlídají spánek, připomínají pití nebo vedou trénink, a když je používáš s rozumem, ukážou ti, jak tvůj den doopravdy vypadá. Mají ale i druhou stranu: údaje o tvém zdraví a pohybu odcházejí k firmě, která aplikaci provozuje, a honba za počtem kroků může z pohybu udělat povinnost, která tě přestane bavit. Učíš se proto vybrat aplikaci, která ti k něčemu je, zjistit, co dělá s daty, a čísla brát jako vodítko. S daty z aplikací často pracují lidé, kteří vedou osobní tréninky, spolu se svými klienty.",
+  "learnWithAi": [
+    {
+      "title": "Vysvětlení údajů z aplikace",
+      "text": "Napiš chatbotu, co ti aplikace ukázala za týden, třeba průměrný počet kroků nebo délku spánku, a zeptej se, jak to číst. Jestli a co změníš, rozhodni ty."
+    },
+    {
+      "title": "Otázky před instalací",
+      "text": "Požádej chatbota o pět otázek, které si položit, než si stáhneš novou aplikaci na zdraví. Projdi s nimi aplikaci, kterou už používáš, a rozhodni, jestli ji necháš."
+    },
+    {
+      "title": "Srovnání dvou aplikací",
+      "text": "Najdi dvě aplikace na sledování spánku nebo kroků a nech chatbota vysvětlit, čím se liší. Pravidla sdílení dat si ale přečti přímo u aplikací, chatbot může mít starší informace."
+    }
+  ]
+}

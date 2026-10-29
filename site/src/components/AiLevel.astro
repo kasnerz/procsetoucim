@@ -1,0 +1,17 @@
+---
+// How much generative AI changes an occupation (ILO 2025, by ISCO 4-digit group), for occupation rows and cards
+// (user 2026-10-29, replaced the Cedefop trend arrow): one hatched pencil circle, empty for skoro nemění, grey for málo, blue
+// (accent 1) for středně, raspberry (accent 2) for hodně. The words are in the tooltip and for screen readers; `words`
+// shows them too.
+import { AI_LEVEL_TITLE, iloLevel, iloWords, type Occupation } from "../lib/data";
+interface Props { occ: Occupation | undefined; words?: boolean; class?: string }
+const { occ, words = false, class: cls } = Astro.props;
+const level = iloLevel(occ);
+const text = iloWords(occ);
+---
+{text && (
+  <span class:list={["ai-level", cls]} title={`${text}. ${AI_LEVEL_TITLE}`} data-level={level}>
+    <i class={`dot l${level}`} aria-hidden="true"></i>
+    {words ? <span class="word">{text}</span> : <span class="visually-hidden">{text}</span>}
+  </span>
+)}

@@ -1,0 +1,70 @@
+{
+  "outcome": "JJK-CJL-001-ZV5-004",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Pozorně a soustředěně naslouchá.",
+      "cards": [
+        "vyp-aktivni-nasloucham"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Doptá se, pokud si není jistý obsahem sdělení.",
+      "cards": [
+        "vyp-doptat-se-na-nejasne"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozezná komunikační záměr mluvčího (chce informovat, pobavit, varovat, požádat, zeptat se).",
+      "cards": [
+        "vyp-zamer-mluvciho"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Reaguje v modelové situaci na konkrétní vyjádření.",
+      "cards": [
+        "vyp-reakce-na-vyjadreni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zhodnotí, zda byla reakce vhodná.",
+      "cards": [
+        "vyp-vhodnost-reakce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhne jinou reakci a svůj návrh zdůvodní.",
+      "cards": [
+        "vyp-vhodnost-reakce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Pojmenuje komunikační záměr mluvčího.",
+      "cards": [
+        "vyp-zamer-mluvciho"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Posoudí podle projevů mluvčího, zda je jeho postoj v konkrétní situaci provázen pozitivní, negativní nebo neutrální emocí.",
+      "cards": [
+        "vyp-emoce-mluvciho"
+      ],
+      "aside": null
+    }
+  ]
+}

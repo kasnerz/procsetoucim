@@ -1,0 +1,74 @@
+{
+  "outcome": "JJK-DCJ-004-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "shrnuti-navodu-pro-mediaci-druheho-jazyka",
+      "title": "Shrnutí hlavních bodů pro ostatní",
+      "aliases": ["shrnutí textu", "zjednodušit návod", "říct to jednoduše", "hlavní myšlenky", "stručný report"],
+      "sources": [
+        {"level": "Na začátku", "quote": "předá hlavní informaci za pomoci zjednodušení"},
+        {"level": "Na cestě", "quote": "shrne hlavní body z návodu nebo článku za účelem vytvoření jiného zjednodušeného textu"},
+        {"level": "Splněno", "quote": "Předá ostatním základní informace z různých zdrojů"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ukáže ti, jak se text zkracuje, a zkontroluje, jestli ti nechybí hlavní bod."},
+        "internet": {"verdict": "nepomuze", "why": "Hotové informace najdeš, ale shrnout je pro ostatní musíš ty."},
+        "aplikace": {"verdict": "nepomuze", "why": "Automatické shrnutí udělá práci za tebe a nic se při něm nenaučíš."},
+        "klasicky": {"verdict": "pomuze", "why": "Zvýrazňovač a poznámky na papíře ti pomůžou vybrat to nejdůležitější."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+      ],
+      "inspiration": ["Recept, Nj, Fj"]
+    },
+    {
+      "slug": "preklad-napisu-a-letaku-mezi-jazyky-mediace",
+      "title": "Předání informace z nápisu nebo letáku do jiného jazyka",
+      "aliases": ["překlad nápisu", "jídelní lístek", "přeložit leták", "pozvánka", "plakát v cizím jazyce", "ceny a časy"],
+      "sources": [
+        {"level": "Na začátku", "quote": "zprostředkuje z dílčích izolovaných informací, grafů, diagramů či psaných textů (informační letáky, jídelní lístek) informace z cizího jazyka do mateřštiny popř. z mateřštiny do cizího jazyka"},
+        {"level": "Na cestě", "quote": "zprostředkuje klíčové informace z psaných a mluvených textů (rozhovorů) z cizího jazyka do mateřštiny popř. z mateřštiny do cizího jazyka"},
+        {"level": "Splněno", "quote": "Ústně nebo písemně zprostředkuje základní informace mezi dvěma jazyky"}
+      ],
+      "rules": ["P1", "P2", "P3", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí slova, která neznáš, a porovná tvůj překlad se svým."},
+        "internet": {"verdict": "pomuze", "why": "Slovník a jazyková příručka ukážou význam slov a správný tvar."},
+        "aplikace": {"verdict": "pomuze", "why": "Překladač nebo čtečka z fotky přeloží nápis, výsledek si pak ověříš."},
+        "klasicky": {"verdict": "pomuze", "why": "Papírový slovník ti pomůže najít význam slova bez telefonu."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fd8c0029-9dc7-4b54-845b-ed30c61ba0f8",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": ["Informace na výletě Nj, Fj", "Zprostředkování informace, Nj, Fj"]
+    },
+    {
+      "slug": "tlumoceni-rozhovoru-mezi-dvema-jazyky-mediace",
+      "title": "Předání informace z rozhovoru mezi dvěma jazyky",
+      "aliases": ["tlumočení", "překládat ústně", "pomoct cizinci", "zprostředkovat rozhovor", "mluvit za někoho"],
+      "sources": [
+        {"level": "Na cestě", "quote": "zprostředkuje klíčové informace z psaných a mluvených textů (rozhovorů) z cizího jazyka do mateřštiny popř. z mateřštiny do cizího jazyka"},
+        {"level": "Splněno", "quote": "Ústně nebo písemně zprostředkuje základní informace mezi dvěma jazyky"}
+      ],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Můžeš si s ním nacvičit podobný rozhovor a nechat si opravit chyby."},
+        "internet": {"verdict": "pomuze", "why": "Nahrávky rodilých mluvčích ti dají cvičit poslech, než to zkusíš naživo."},
+        "aplikace": {"verdict": "nepomuze", "why": "Překladač mluví místo tebe, takže si ústní předávání nevyzkoušíš."},
+        "klasicky": {"verdict": "nepomuze", "why": "V živém rozhovoru není čas listovat, slova musíš mít v hlavě."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f1ec7f2b-8b4f-4fbf-86e2-5ba5928fd030",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": ["En vacances en France"]
+    }
+  ],
+  "aside": []
+}

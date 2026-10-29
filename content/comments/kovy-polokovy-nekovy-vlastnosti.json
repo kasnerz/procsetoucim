@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Měď vede proud a dá se z ní vytáhnout drát, síra se drolí a křemík stojí někde mezi, proto se z něj dělají čipy do počítačů. Rozdělení prvků na kovy, polokovy a nekovy pomáhá vyznat se v periodické tabulce a z polohy prvku odhadnout, jak se bude chovat. Hodí se i doma, třeba když vybíráš materiál na kutění nebo chápeš, proč do mikrovlnky nepatří kovová lžička. S vlastnostmi kovů pracují lidé v hutích nebo ti, kdo zkoušejí ryzost zlata a stříbra. Tabulka prvků ti řekne, kam prvek patří, proč se tak chová, si ale musíš umět vysvětlit ty.",
+  "learnWithAi": [
+    {
+      "title": "Třídění prvků do skupin",
+      "text": "Požádej chatbota o patnáct prvků napřeskáčku a roztřiď je na kovy, polokovy a nekovy. U každé chyby se doptej, podle které vlastnosti se to pozná."
+    },
+    {
+      "title": "Hádanka podle vlastností",
+      "text": "Popiš chatbotovi nějaký prvek jen jeho vlastnostmi, třeba leskem, vodivostí a křehkostí, a nech ho hádat. Pak si role otočte a hádej ty podle jeho popisu."
+    },
+    {
+      "title": "Domácí pokus s vodivostí",
+      "text": "Vymysli s chatbotem jednoduchý pokus s plochou baterií a žárovičkou, jak doma rozlišit kov od nekovu. Pokus udělej, popiš mu výsledky a nech si pomoct s jejich vysvětlením."
+    }
+  ]
+}

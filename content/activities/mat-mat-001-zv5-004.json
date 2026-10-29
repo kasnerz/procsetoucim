@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "zaporna-cisla-v-situacich",
+    "title": "Záporná čísla kolem nás: teploměr a dluh",
+    "aliases": [
+      "záporná čísla",
+      "teplota pod nulou",
+      "mínus",
+      "dluh"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše slovy situaci, která modeluje celá záporná čísla.",
+        "quote": "Popíše slovy situaci, která modeluje celá záporná čísla."
+      },
+      {
+        "level": "Splněno",
+        "point": "Řeší jednoduché úlohy s reprezentací celého záporného čísla (teploměr, dluh, pohyb na číselné ose).",
+        "quote": "Řeší jednoduché úlohy s reprezentací celého záporného čísla (teploměr, dluh, pohyb na číselné ose)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "Záporná čísla v reálném světě",
+        "url": ""
+      },
+      {
+        "title": "Teplotní rekordy",
+        "url": "https://uloziste.rvp.cz/material/813220"
+      },
+      {
+        "title": "Záporná čísla v reálných situacích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí situace s teploměrem a dluhem a ptá se, co číslo znamená."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvoje situace na internetu není."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti situaci nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr ukáže záporná čísla doopravdy: mínus tři stupně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pocitani-se-zapornymi-cisly",
+    "title": "Sčítání a odčítání se zápornými čísly",
+    "aliases": [
+      "minus a minus",
+      "počítání se zápornými čísly",
+      "–3 + 5"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zapíše matematicky modelovou situaci pomocí znaku „–“.",
+        "quote": "Zapíše matematicky modelovou situaci pomocí znaku „–“."
+      },
+      {
+        "level": "Splněno",
+        "point": "Řeší jednoduché úlohy s reprezentací celého záporného čísla (teploměr, dluh, pohyb na číselné ose).",
+        "quote": "Řeší jednoduché úlohy s reprezentací celého záporného čísla (teploměr, dluh, pohyb na číselné ose)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadá úlohy a vysvětlí, proč mínus a mínus dá plus."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tady nic hledat nepotřebuješ."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací aplikace zadává příklady a hned je opraví."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ověří, jestli ti vyšlo správné znaménko."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zaporna-cisla-na-ose",
+    "title": "Záporná čísla na číselné ose",
+    "aliases": [
+      "číselná osa",
+      "osa se zápornými čísly"
+    ],
+    "outcome": "MAT-MAT-001-ZV5-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vyznačí celé záporné číslo na číselné ose.",
+        "quote": "Vyznačí celé záporné číslo na číselné ose."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [
+      {
+        "title": "Záporná čísla na číselné ose",
+        "url": "https://uloziste.rvp.cz/material/9648a4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kam záporné číslo patří, a opraví tvůj odhad."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky číselné osy najdeš snadno."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrická aplikace osu nakreslí a můžeš porovnat svou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítkem si osu s nulou uprostřed nakreslíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

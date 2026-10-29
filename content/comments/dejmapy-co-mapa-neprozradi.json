@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Z mapy poznáš, kde ležela města a kudy vedly hranice, ale nevyčteš z ní, jak se lidem žilo nebo proč se rozhodli válčit. Kdo umí rozlišit, na co pramen odpoví a na co ne, nenaletí tak snadno ani grafu nebo fotce, ze kterých někdo vyvozuje víc, než v nich je. V práci to potřebují hlavně lidé, kteří se podle mapy rozhodují v terénu, třeba při létání nebo řízení kamionu: musí počítat s tím, co mapa neukazuje, například s uzavírkou nebo počasím. Aplikace tohle rozlišení za tebe neudělá a chatbot ochotně odpoví i na otázku, na kterou mapa odpověď nemá.",
+  "learnWithAi": [
+    {
+      "title": "Třídění otázek k mapě",
+      "text": "Požádej chatbota o deset otázek k mapě, kterou zrovna probíráte. Roztřiď je na ty, které mapa zodpoví, a ty, na které potřebuješ jiný pramen, a nech si třídění zkontrolovat."
+    },
+    {
+      "title": "Přehnané závěry z mapy",
+      "text": "Nech chatbota napsat pár sebevědomých tvrzení o tom, co z mapy plyne, a přimíchat mezi ně přehnaná. Najdi ta, která mapa nedokládá, a vysvětli proč."
+    },
+    {
+      "title": "Mezery v mapě války",
+      "text": "Vyber si mapu války nebo říše a napiš tři věci, které se z ní dozvědět nedají. Zeptej se chatbota, ve kterých pramenech by se daly najít, a jeden z nich si opravdu dohledej."
+    }
+  ]
+}

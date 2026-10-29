@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Každý model něco vynechává a otázka je, jestli to podstatné: dioráma lesa bez rozkladačů vypadá hezky, ale koloběh látek v něm nefunguje. Posoudit, jestli model sedí i na jiné místo nebo jiné roční období, je stejná úvaha, jakou dělají lidé, kteří podle modelů plánují krajinu nebo péči o rybníky. Hodí se ti, kdykoli někdo ukazuje zjednodušený obrázek světa, třeba graf v novinách, a ty chceš vědět, co z něj nevyčteš. Chatbot v modelu najde mezery rychle, rozhodnout, které vadí a které jsou rozumné zjednodušení, je ale úsudek, který zůstává na tobě.",
+  "learnWithAi": [
+    {
+      "title": "Model se schválnou chybou",
+      "text": "Požádej chatbota o popis modelu rybníka, ve kterém chybí jedna důležitá skupina organismů. Najdi ji a vysvětli, co by bez ní v ekosystému nefungovalo."
+    },
+    {
+      "title": "Jiné místo a roční období",
+      "text": "Popiš chatbotovi svůj model a zeptej se, co by se v něm změnilo v zimě nebo na jiném místě. Odpověď porovnej s vlastním odhadem a rozhodni, jestli model upravíš."
+    },
+    {
+      "title": "Posudek na vlastní model",
+      "text": "Nech chatbota sepsat výtky k tvému modelu. U každé rozhodni, jestli jde o skutečnou chybu, nebo o rozumné zjednodušení, a své rozhodnutí zdůvodni."
+    }
+  ]
+}

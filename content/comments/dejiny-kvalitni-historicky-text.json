@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "O minulosti najdeš spoustu textů v časopisech, na webu i v knihách a jen část z nich stojí na něčem pevném. Kvalitní text říká, odkud své údaje bere, a tvrzení dokládá prameny nebo tím, co už zjistili jiní. Když umíš odkazy a důkazy v textu najít, rychle poznáš, čemu můžeš věřit, a stejně to využiješ u článků o zdraví nebo o politice. Denně s tím pracují lidé, kteří dějiny zkoumají, píšou o nich nebo vydávají knihy. Chatbot ti text shrne, ale jestli se jeho tvrzení opírá o doložený pramen, musíš posoudit ty, protože i chatbot si zdroje občas vymyslí.",
+  "learnWithAi": [
+    {
+      "title": "Článek se slabými místy",
+      "text": "Požádej chatbota o krátký populárně naučný článek o nějaké události, kde budou některá tvrzení doložená a jiná ne. Označ, co je podložené, a nech si říct, jestli to sedí."
+    },
+    {
+      "title": "Tvrzení a jeho důkazy",
+      "text": "Napiš chatbotovi jedno tvrzení z učebnice a nech si vysvětlit, jaký důkaz by ho podpořil a jaký zpochybnil. Takové důkazy pak hledej v textu, se kterým pracujete ve škole."
+    },
+    {
+      "title": "Rozbor seznamu zdrojů",
+      "text": "Vlož do chatbota seznam literatury z populárního článku a ptej se, který zdroj je primární a který sekundární. Jestli zdroje opravdu existují, ověř v knihovním katalogu, chatbot se tu umí splést."
+    }
+  ]
+}

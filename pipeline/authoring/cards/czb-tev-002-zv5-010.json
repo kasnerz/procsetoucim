@@ -1,0 +1,238 @@
+{
+  "outcome": "CZB-TEV-002-ZV5-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-priprava-telocvicny-prostor-organizace",
+      "title": "Příprava prostoru na cvičení",
+      "aliases": [
+        "příprava tělocvičny",
+        "rozestavění nářadí",
+        "příprava hřiště",
+        "pomoc učiteli v tělocvičně",
+        "známý prostor"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Podílí se na organizaci pohybových činností ve známých prostorách"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Seznamuje se s konkrétním prostorem pro realizaci pohybových dovedností."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zvažuje vhodnost přípravy konkrétního prostoru pro realizaci pohybových dovedností."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Spolupracuje při organizaci pohybových činností s ohledem na konkrétní prostor"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Tělocvičnu, hřiště a nářadí si prohlédneš a připravíš ty, chatbot je nevidí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Jak vypadá a co skrývá tvoje tělocvična, na internetu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Rozestavět lavičky a vyznačit hřiště musíš ty, aplikace to neudělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Metr nebo kužely použiješ jen při samotné práci, vhodný prostor posoudíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/65baf502-04a6-41c9-962f-9629de5c5a0a",
+        "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229"
+      ],
+      "inspiration": [
+        "Příprava na pohybovou činnost - seznámení",
+        "Hra na vlajky"
+      ]
+    },
+    {
+      "slug": "tv-priprava-materialni-pomucky-nacini",
+      "title": "Materiální příprava: pomůcky a náčiní",
+      "aliases": [
+        "příprava pomůcek",
+        "náčiní na tělocvik",
+        "nosit nářadí",
+        "úklid po tělocviku",
+        "co si vzít na tělocvik"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Podílí se na materiální, fyziologické a mentální přípravě na pohybovou činnost."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "v oblasti materiální"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Sleduje přípravu na pohybovou činnost v oblasti materiální, fyziologické a mentální."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti sestaví seznam, co k dané hře nebo štafetě potřebuješ připravit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pravidla hry nebo štafety najdeš na internetu i s tím, co k nim patří za náčiní."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Míče, kužely a vlajky vynosíš ty, aplikace je na místo nedonese."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Náčiní vezmeš do ruky a rozmístíš ty, samo se nepřipraví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/65baf502-04a6-41c9-962f-9629de5c5a0a"
+      ],
+      "inspiration": [
+        "Štafety",
+        "Hra na vlajky"
+      ]
+    },
+    {
+      "slug": "tv-priprava-fyziologicka-rozcvicka-telo",
+      "title": "Fyziologická příprava: zahřátí těla",
+      "aliases": [
+        "rozcvička",
+        "zahřátí",
+        "protažení před sportem",
+        "příprava těla",
+        "rozehřátí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Podílí se na materiální, fyziologické a mentální přípravě na pohybovou činnost."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "fyziologické"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Sleduje přípravu na pohybovou činnost v oblasti materiální, fyziologické a mentální."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč se zahřát, a navrhne cviky, které si pak zacvičíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Popisy a videa rozcviček si najdeš a zacvičíš podle nich."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s cvičebním plánem ti ukáže cviky a odpočítává čas."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tělo zahřeješ pohybem ty, žádné náčiní to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/65baf502-04a6-41c9-962f-9629de5c5a0a",
+        "http://data.europa.eu/esco/skill/14db3283-8b66-4649-9192-41defda9c33e"
+      ],
+      "inspiration": [
+        "Příprava na pohybovou činnost - aplikace"
+      ]
+    },
+    {
+      "slug": "tv-priprava-mentalni-soustredeni-pred-pohybem",
+      "title": "Mentální příprava: soustředění a plán",
+      "aliases": [
+        "soustředění před sportem",
+        "dívat se na pokyny",
+        "příprava hlavy",
+        "plán cvičení",
+        "nálada před tělocvikem"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Podílí se na materiální, fyziologické a mentální přípravě na pohybovou činnost."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Uvažuje a plánuje přípravu na pohybovou činnost"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Sleduje přípravu na pohybovou činnost v oblasti materiální, fyziologické a mentální."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí, jak se před výkonem soustředit, a pomůže vymyslet, co si před hrou projdeš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody na soustředění před sportem a pravidla hry si přečteš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s dechovými cviky a časovačem ti pomůže se před cvičením uklidnit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Soustředit se musíš ty, žádné náčiní to za tebe nezvládne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/65baf502-04a6-41c9-962f-9629de5c5a0a",
+        "http://data.europa.eu/esco/skill/14db3283-8b66-4649-9192-41defda9c33e"
+      ],
+      "inspiration": [
+        "Příprava na pohybovou činnost"
+      ]
+    }
+  ],
+  "aside": []
+}

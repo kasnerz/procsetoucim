@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Některé věci o místě si nikde nepřečteš, třeba kolik aut projede ráno kolem školy nebo co si sousedé myslí o novém hřišti. Zjistíš je jen měřením nebo dotazníkem, a právě tyhle metody se tu učíš. Statistiky o obcích jsou na internetu hotové, vlastním sběrem ale získáš data, která ještě nikdo nemá, a uvidíš, jak snadno se do čísel dostane chyba. V terénu sbírají data každý den lidé, kteří měří pozemky, a ti, kdo hledají ložiska nerostů. Takové práce v Česku spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Dotazník pro sousedy",
+      "text": "Napiš pět otázek do dotazníku o tom, jak se lidem u vás bydlí, a nech chatbota najít ty, které jsou návodné nebo nejasné. Přeformuluj je ty."
+    },
+    {
+      "title": "Plán sčítání aut",
+      "text": "Poraď se s chatbotem, jak naplánovat sčítání aut u školy, tedy kdy a jak dlouho počítat a kam zapisovat. Počítat pak budeš venku ty s tužkou v ruce."
+    },
+    {
+      "title": "Kontrola naměřených hodnot",
+      "text": "Zapiš naměřené hodnoty do tabulky a ukaž ji chatbotovi. Ať ti řekne, která čísla vypadají podezřele, a ty zjisti, jestli šlo o chybu při měření."
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "outcome": "MAT-MAT-001-ZV9-003",
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "desetinna-cisla-zapis",
+      "title": "Desetinná čísla: zápis, porovnání a zaokrouhlení",
+      "aliases": [
+        "desetinná čísla",
+        "desetinná čárka",
+        "porovnání desetinných čísel",
+        "zaokrouhlení",
+        "desetinný zlomek"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "zapisuje množství, veličinu pomocí desetinných čísel"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "porovnává desetinná čísla"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "zaokrouhluje desetinná čísla"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "zapíše desetinné číslo jako desetinný zlomek"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá čísla k porovnání a zaokrouhlení a vysvětlí tvé chyby."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tady nic hledat nepotřebuješ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka v telefonu zaokrouhlí, takže ověříš svůj výsledek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ověří tvé zaokrouhlení, porovnat musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "desetinna-cisla",
+      "title": "Počítání s desetinnými čísly",
+      "aliases": [
+        "desetinná čárka",
+        "desetinná čísla",
+        "násobení desetinných čísel"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "sčítá a odčítá desetinná čísla"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "násobí desetinné číslo přirozeným číslem"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "násobí a dělí desetinná čísla celými čísly a desetinnými čísly"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy z reálného světa, které obsahují sčítání a odčítání desetinných čísel na více než jedno desetinné místo."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy z reálného světa, které obsahují násobení či dělení dvou desetinných čísel."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkontroluje tvůj postup a ukáže, kde ujela desetinná čárka."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tady nic hledat nepotřebuješ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka v telefonu ověří tvůj výsledek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ověří tvůj písemný výpočet."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "procenta",
+      "title": "Procenta: část z celku",
+      "aliases": [
+        "procenta",
+        "sleva",
+        "úrok",
+        "kolik je 20 %",
+        "procento"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vysvětlí význam procent na příkladu"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "vyjádří vztah části a celku pomocí procent"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Řeší jednoduché problémy s desetinnými čísly a procenty v kontextu běžných situací."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí procenta na příkladech a zadá ti úlohy k vlastnímu řešení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Procentní kalkulačky ověří tvůj výsledek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nákupní aplikace ukazují slevy, které si můžeš přepočítat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ověří tvůj výsledek s procenty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Energetická domácnost"
+      ]
+    },
+    {
+      "slug": "mocniny-a-odmocniny",
+      "title": "Druhá mocnina a odmocnina",
+      "aliases": [
+        "mocniny",
+        "odmocnina",
+        "na druhou",
+        "na třetí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "interpretuje druhou a třetí mocninu pomocí geometrických modelů"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "odhadne druhou a třetí mocninu a druhou odmocninu čísla"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí druhou mocninu jako obsah čtverce a ověří tvůj odhad."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tady nic hledat nepotřebuješ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Geometrická aplikace ukáže čtverec o dané straně."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ověří tvůj odhad odmocniny."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "velka-cisla",
+      "title": "Velká čísla a mocniny deseti",
+      "aliases": [
+        "miliony",
+        "miliardy",
+        "10 na",
+        "vědecký zápis",
+        "počítání s mocninami"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "čte a zapisuje velká čísla (např. řádu miliony, miliardy,...); porovnává je a provádí s nimi početní operace"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "užívá zápis mocnin (včetně zápisu čísel pomocí mocnin deseti"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovná a uspořádá velká a malá čísla včetně zápisu čísel pomocí mocnin deseti."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Sčítá a odčítá čísla vyjádřené jako mocniny, včetně zápisu čísel pomocí mocnin deseti."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Násobí a dělí čísla vyjádřené jako mocniny, včetně zápisu čísel pomocí mocnin deseti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Převede velká čísla do mocnin deseti a zadá ti úlohy k vlastnímu řešení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pomůže představit si, kolik co doopravdy je."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tím nepomůže."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vědecká kalkulačka ukáže zápis s mocninou deseti."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "slozite-priklady",
+      "title": "Dlouhé příklady se zlomky, desetinnými čísly a mocninami",
+      "aliases": [
+        "složené příklady",
+        "příklady s více operacemi",
+        "zlomky a mocniny dohromady"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Provádí výpočty se dvěma nebo více operacemi s celými čísly, desetinnými čísly, zlomky a mocninami"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou pořadí operací a najde krok, kde se ti postup rozešel."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tady nic hledat nepotřebuješ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace ukáže řešení po krocích, které porovnáš se svým."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vědecká kalkulačka ověří výsledek celého příkladu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

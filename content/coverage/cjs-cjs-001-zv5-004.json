@@ -1,0 +1,60 @@
+{
+  "outcome": "CJS-CJS-001-ZV5-004",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Popíše specifika regionu, v němž žije.",
+      "cards": [
+        "specifika-meho-regionu-misto"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Orientuje se na mapě ČR, Evropy, světa, pojmenovává a lokalizuje regiony/státy/kontinenty.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "poloha-regionu",
+          "mapa-ceska",
+          "orientace-podle-mapy"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Porovná dvě území z hlediska vybraných charakteristik.",
+      "cards": [
+        "porovnani-dvou-uzemi-vlastnosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše a porovná dvě území z hlediska vybraných charakteristik a možných důsledků na přírodu a život lidí v nich.",
+      "cards": [
+        "porovnani-dvou-uzemi-vlastnosti",
+        "dusledky-vlastnosti-uzemi-zivot"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše, v čem je místo jeho bydliště oproti ostatním místům na Zemi / v Evropě / v ČR odlišné a v čem je stejné či podobné.",
+      "cards": [
+        "stejne-a-jine-moje-misto"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Uvede základní informace o České republice.",
+      "cards": [
+        "zakladni-udaje-o-cr-misto"
+      ],
+      "aside": null
+    }
+  ]
+}

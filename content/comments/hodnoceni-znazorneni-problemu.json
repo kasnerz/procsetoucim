@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Nákres nebo tabulka mají smysl, až když z nich něco vyčteš, třeba „vidím, kde je nejvíc stromů“. Učíš se tu podívat na vlastní znázornění a říct, co ti o problému prozradilo a co z něj vidět není. Když se z něj nic nového nedozvíš, stojí za to zkusit jiný způsob. Takhle se čtou grafy a mapy třeba při plánování dopravy, kde je z obrázku poznat, kde se tvoří kolony, a v informatice na to navážeš u schémat a grafů. Chatbot ti k nákresu může položit otázky, ale co v něm vidíš, řekneš jen ty.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k vlastnímu nákresu",
+      "text": "Popište s rodičem chatbotovi svůj nákres, třeba mapku zahrady, a poproste ho o tři otázky, na které z něj půjde odpovědět. Odpovídejte jen podle nákresu."
+    },
+    {
+      "title": "Sloupečky z ptačího pozorování",
+      "text": "Poproste chatbota o čísla, třeba kolik ptáků přiletělo každý den v týdnu ke krmítku. S rodičem je nakreslete jako sloupečky a řekněte, co je z obrázku vidět lépe než z čísel."
+    },
+    {
+      "title": "Porovnání dvou verzí",
+      "text": "S učitelem nebo rodičem nechte chatbota navrhnout, co by váš nákres ukázal jasněji. Vyzkoušejte jeden návrh a porovnejte, z které verze problém pochopíte rychleji."
+    }
+  ]
+}

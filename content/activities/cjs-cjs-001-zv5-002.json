@@ -1,0 +1,411 @@
+[
+  {
+    "slug": "mapa-ceska",
+    "title": "Co je mapa a mapa Česka",
+    "aliases": [
+      "mapa",
+      "mapa České republiky",
+      "co je mapa",
+      "obrys Česka"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vysvětlí pojem mapa, pozná mapu České republiky.",
+        "quote": "Vysvětlí pojem mapa, pozná mapu České republiky."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je mapa, a může tě zkoušet z tvaru Česka."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš mapy Česka a můžeš je porovnat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže Česko a jde přibližovat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa nebo atlas ukáže celé Česko najednou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vpravo-vlevo",
+    "title": "Vpravo, vlevo, před, za: orientace v prostoru",
+    "aliases": [
+      "vpravo vlevo",
+      "pravá levá",
+      "nahoře dole",
+      "před za"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Orientuje se vpravo, vlevo, před, za, nahoře, dole.",
+        "quote": "Orientuje se vpravo, vlevo, před, za, nahoře, dole."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P5"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Vpravo a vlevo poznáváš svým tělem, chatbot to neukáže."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Nahoře a dole si nevyhledáš, učíš se ho v prostoru."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nenaučí cítit, kde je tvoje pravá ruka."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tady ti obyčejný nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c526c52-4f0a-4647-8c51-c91568acebb1"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "plan-tridy",
+    "title": "Plán třídy, pokoje a smyšlená mapa",
+    "aliases": [
+      "plán",
+      "pohled shora",
+      "nákres pokoje",
+      "plán třídy",
+      "dětská mapa"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Pozná, zda je objekt zachycen z boku či shora.",
+        "quote": "Pozná, zda je objekt zachycen z boku či shora."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Orientuje se ve smyšlené (dětské) mapě.",
+        "quote": "Orientuje se ve smyšlené (dětské) mapě."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Orientuje se v plánu (mapě velkého měřítka).",
+        "quote": "Orientuje se v plánu (mapě velkého měřítka)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Orientuje se v plánu třídy, nakreslí/vymodeluje plán dětského pokoje.",
+        "quote": "Orientuje se v plánu třídy, nakreslí/vymodeluje plán dětského pokoje."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "Plán třídy, parku, zahrady",
+        "url": ""
+      },
+      {
+        "title": "Krysácká mapa smetiště",
+        "url": "https://uloziste.rvp.cz/material/b6b666"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pohled shora a poradí, co do plánu nakreslit."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Plán své třídy na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Satelitní pohled ukáže budovu shora."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko pomůže změřit a nakreslit plán podle míry."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c526c52-4f0a-4647-8c51-c91568acebb1",
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "legenda-a-meritko",
+    "title": "Legenda, měřítko a směrová růžice",
+    "aliases": [
+      "měřítko mapy",
+      "legenda mapy",
+      "mapové značky",
+      "směrová růžice",
+      "světové strany"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Pracuje s legendou a směrovou růžicí.",
+        "quote": "Pracuje s legendou a směrovou růžicí."
+      },
+      {
+        "level": "Splněno",
+        "point": "Čte mapu, a to jak vlastní mapové pole, tak legendu a měřítko, vyhledá mapu vhodnou vzhledem k účelu.",
+        "quote": "Čte mapu, a to jak vlastní mapové pole, tak legendu a měřítko"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Mapa ostrova",
+        "url": ""
+      },
+      {
+        "title": "V zoo",
+        "url": "https://uloziste.rvp.cz/material/92cdda"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí značky v legendě a vymyslí příklady měřítka."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady map a vysvětlení značek."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V mapové aplikaci se měřítko mění podle přiblížení."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítkem změříš vzdálenost na mapě a přepočítáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "orientace-podle-mapy",
+    "title": "Orientace podle mapy v okolí školy",
+    "aliases": [
+      "orientace mapy",
+      "zorientovat mapu",
+      "buzola",
+      "kde jsem",
+      "ortofotomapa"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zorientuje mapu.",
+        "quote": "Zorientuje mapu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Orientuje se s pomocí papírové či elektronické mapy v prostoru.",
+        "quote": "Orientuje se s pomocí papírové či elektronické mapy v prostoru."
+      },
+      {
+        "level": "Na cestě",
+        "point": "V okolí školy vyhledá podle mapy vybrané objekty a popíše je.",
+        "quote": "V okolí školy vyhledá podle mapy vybrané objekty a popíše je."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyhledá téže objekty v realitě, turistické mapě a na ortofotomapě / leteckém snímku.",
+        "quote": "Vyhledá téže objekty v realitě, turistické mapě a na ortofotomapě"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "Tajemné detaily z naší obce",
+        "url": "https://uloziste.rvp.cz/material/79251e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Mapu otáčíš a hledáš objekty venku ty, chatbot tam není."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Online turistická mapa a letecký snímek ukážou stejné místo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa v telefonu ukáže, kde stojíš a kam se díváš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kompas ukáže sever, podle kterého mapu zorientuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/5c526c52-4f0a-4647-8c51-c91568acebb1"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "planovani-trasy",
+    "title": "Plánování trasy na výlet",
+    "aliases": [
+      "trasa",
+      "turistická mapa",
+      "výlet",
+      "převýšení",
+      "nejkratší cesta"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhledá a popíše s pomocí turistické mapy průběh určené trasy, popř. vybere konkrétní trasu na základě předem daných parametrů (nejkratší, nejrychlejší, nejmenší stoupání apod.).",
+        "quote": "Vyhledá a popíše s pomocí turistické mapy průběh určené trasy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí značky na mapě a nabídne, co zvážit při volbě trasy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tipy na výlety a popisy tras."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Plánovač tras ukáže délku, čas a stoupání."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová turistická mapa ukáže trasy, značky i vrstevnice."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/7bf0c60a-9303-414b-a43c-21c28a98d4ff"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-dvou-mist",
+    "title": "Porovnání dvou míst podle mapy",
+    "aliases": [
+      "porovnání míst",
+      "rozdíly mezi místy",
+      "co je na mapě"
+    ],
+    "outcome": "CJS-CJS-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "S pomocí mapy popíše odlišnosti dvou míst.",
+        "quote": "S pomocí mapy popíše odlišnosti dvou míst."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne otázky k porovnání a pomůže popsat rozdíly."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popisy a fotky obou míst."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa v telefonu ukáže vrstvy, třeba reliéf a letecký snímek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa nebo atlas ukáže hory, řeky a města obou míst."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/5c526c52-4f0a-4647-8c51-c91568acebb1"
+    ],
+    "review": {
+      "draftedBy": "claude-opus-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

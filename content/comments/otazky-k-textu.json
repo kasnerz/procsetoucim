@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Dobrá otázka k textu ti pomůže pochopit, co v něm stojí a co z něj plyne. Kdo si při čtení klade otázky jako „proč to postava udělala“ nebo „co se stane potom“, pozná, kde mu něco uniká, a vrátí se k tomu. Ve vyšších ročnících budeš takové postupy používat záměrně, i u náročných textů. Chatbot otázky vymyslí za tebe, ale nejvíc pochopíš, když je vymyslíš ty a chatbot je jen doplní. V nemocnici nebo u těžkých strojů se lidé ptají, když nerozumí pokynu, protože špatně pochopený pokyn tam může někomu ublížit.",
+  "learnWithAi": [
+    {
+      "title": "Otázky na jednání postav",
+      "text": "Vložte do chatbota krátký příběh a nechte ho, ať se tě ptá, proč postavy jednaly tak, jak jednaly. Odpovídej podle textu a hledej v něm důkaz."
+    },
+    {
+      "title": "Vlastní otázky ke kapitole",
+      "text": "Po přečtení kapitoly vymysli tři otázky, na které text odpovídá, a dvě, na které ne. Poproste pak spolu chatbota, ať vaše otázky okomentuje."
+    },
+    {
+      "title": "Hra na detektiva",
+      "text": "Zkuste s rodičem hru na detektiva: chatbot vymyslí krátký příběh s tajemstvím a vy smíte klást jen otázky. Kdo první pochopí, co se stalo, vyhrává."
+    }
+  ]
+}

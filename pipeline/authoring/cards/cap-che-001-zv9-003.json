@@ -1,0 +1,327 @@
+{
+  "outcome": "CAP-CHE-001-ZV9-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "funkce-zivin-tuky-sacharidy-bilkoviny",
+      "title": "Funkce tuků, sacharidů a bílkovin",
+      "aliases": [
+        "k čemu jsou živiny",
+        "tuky sacharidy bílkoviny",
+        "energie a stavba těla",
+        "živiny v těle"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Přiřadí základní živiny k jejich hlavním funkcím v organizmech"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovná funkce různých typů sacharidů, tuků a bílkovin v organismech."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu tělo živiny používá, a zkouší tě z přiřazování."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice a encyklopedie mají přehled funkcí živin k přečtení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kvízy ti dají k funkcím přiřazovat živiny a hned opraví chyby."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Funkce živin se nedají zjistit ruční pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1"
+      ],
+      "inspiration": [
+        "Hlavní funkce živin",
+        "Běhací kvíz - tuky, bílkoviny, sacharidy"
+      ]
+    },
+    {
+      "slug": "slozeni-a-vlastnosti-zivin-biomolekuly",
+      "title": "Složení a vlastnosti živin a jejich funkce",
+      "aliases": [
+        "z čeho jsou bílkoviny",
+        "stavba tuků",
+        "modely molekul",
+        "vlastnosti a funkce živin"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Na konkrétních příkladech s využitím modelů vysvětlí chemické složení a vlastnosti tuků, sacharidů a bílkovin"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na vybraných příkladech ilustruje, jak chemické složení a vlastnosti tuků, sacharidů a bílkovin ovlivňují jejich funkci v organismech."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí stavbu molekul po krocích a ptá se, jestli ti dává smysl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové stránky mají schémata složení živin."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prohlížeč molekul ukáže model, který si můžeš otáčet."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Stavebnice molekul ti dají model do ruky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3"
+      ],
+      "inspiration": [
+        "Vliv chemického složení a vlastností biomolekul na jejich funkci v organismu"
+      ]
+    },
+    {
+      "slug": "pokus-vlastnosti-zivin-denaturace",
+      "title": "Pokus s vlastnostmi sacharidů, tuků a bílkovin",
+      "aliases": [
+        "denaturace bílkovin",
+        "rozpustnost ve vodě",
+        "pokus s cukrem a olejem",
+        "vaření vajíčka"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pokusem ověří vlastnosti sacharidů, tuků a bílkovin"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže naplánovat pokus a vysvětlit, proč se výsledek liší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody k pokusům a vysvětlení denaturace si přečteš předem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pokus děláš rukama v laboratoři, aplikace ho za tebe neprovede."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Zkumavky, kahan a teploměr potřebuješ k vlastnímu pokusu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+        "http://data.europa.eu/esco/skill/8259c2c0-2749-41e2-a4a8-4a64a76eab37"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "misto-zivin-v-tele-model",
+      "title": "Kde se v těle nacházejí živiny",
+      "aliases": [
+        "model lidského těla",
+        "kde jsou tuky v těle",
+        "kde jsou bílkoviny",
+        "svaly a tukové zásoby"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na modelu lidského těla uvede typická místa výskytu bílkovin, tuků a sacharidů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkouší tě, kde se která živina v těle vyskytuje, a vysvětlí proč."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Atlasy a encyklopedie ukazují řezy tělem s popisem látek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Anatomické aplikace ukážou orgány v 3D."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Model lidského těla ti ukáže místa, kde živiny hledat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/1d4b74b0-1a48-48ec-a3cd-26cca0c212a3"
+      ],
+      "inspiration": [
+        "Tuky, sacharidy a bílkoviny v lidském těle"
+      ]
+    },
+    {
+      "slug": "druhy-tuku-puvod-skupenstvi",
+      "title": "Druhy tuků podle původu a skupenství",
+      "aliases": [
+        "rostlinné a živočišné tuky",
+        "olej nebo máslo",
+        "zdravé tuky",
+        "tuky v jídle"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozliší druhy tuků podle jejich původu a skupenství a diskutuje vhodnost jejich zastoupení v potravě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkouší tě v třídění tuků a nabídne argumenty do diskuse o jídle."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výživová doporučení a encyklopedie ukazují druhy tuků a jejich původ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na jídelníček ukáže, kolik a jakých tuků jíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tuk rozlišíš čichem a pohledem, k tomu ti nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3efd2b02-f6f8-4911-a154-8bfcaeadeb5d",
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "jednoduche-slozite-sacharidy-zastupci",
+      "title": "Jednodušší a složitější sacharidy",
+      "aliases": [
+        "cukr a škrob",
+        "monosacharidy a polysacharidy",
+        "glukóza",
+        "sacharidy v jídle"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozliší jednodušší a složitější sacharidy a uvede jejich významné zástupce"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi glukózou a škrobem a zkouší tě na příkladech."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie má přehled sacharidů a jejich zástupců."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s výživovými hodnotami ukáže cukry a škroby v potravinách."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Sacharidy od sebe nerozlišíš ruční pomůckou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+        "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pojmy-zivin-sacharid-tuk-bilkovina",
+      "title": "Pojmy sacharid, tuk, bílkovina a aminokyselina",
+      "aliases": [
+        "sacharid nebo cukr",
+        "tuk a olej",
+        "bílkovina a protein",
+        "mastná kyselina"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Ve správných kontextech používá pojmy sacharid, cukr, monosacharid"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi pojmy a opraví, kdy je použiješ špatně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky a encyklopedie pojmy přesně definují."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kartičky a kvízy ti pojmy procvičí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Ruční pomůcka ti pojmy nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

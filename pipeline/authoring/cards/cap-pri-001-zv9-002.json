@@ -1,0 +1,444 @@
+{
+  "outcome": "CAP-PRI-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "faktory-zivotnich-procesu-organismu",
+      "title": "Co ovlivňuje život organismů",
+      "aliases": [
+        "faktory života",
+        "co ovlivňuje růst rostlin",
+        "světlo voda teplo",
+        "dýchání a tep",
+        "životní procesy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "přiřadí z předložených možností k různým organismům základní životní procesy a k nim faktory, které je mohou ovlivňovat"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "identifikuje fenomény spojené s životními projevy vybrané skupiny organismů"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "zhodnotí možné pozitivní i negativní dopady změny podmínek na život organismů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak světlo, voda nebo teplo působí na růst či dýchání, a zeptá se tě na příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a učebnice popíšou, co organismy potřebují a co jim škodí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe neurčí, které faktory ovlivňují který proces."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj ti nevysvětlí, co organismus ovlivňuje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7"
+      ],
+      "inspiration": [
+        "Znaky života",
+        "Faktory ovlivňující růst rostlin"
+      ]
+    },
+    {
+      "slug": "plan-pokusu-otazka-domnenka",
+      "title": "Plán pokusu: otázka, domněnka a co měníš",
+      "aliases": [
+        "jak naplánovat pokus",
+        "domněnka",
+        "hypotéza",
+        "otázka pro pokus",
+        "co budu měnit"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "tvoří otázky, na které bude v rámci pokusu hledat odpovědi"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "naplánuje jednoduchý pokus, který zkoumá, jak určitý faktor (např. množství světla, vody nebo tepla) ovlivňuje život rostliny nebo živočicha"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "přitom si zapíše, co si myslí, že se stane (domněnka), a co bude během pokusu měnit"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Navrhne jednoduchý pokus, který zkoumá, jak určitý faktor ovlivňuje život rostlin nebo živočichů (včetně člověka)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě, co chceš zjistit, a upozorní, když měníš víc věcí najednou."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Nápady na pokusy a jejich postup najdeš třeba u klíčení řeřichy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace otázku ani domněnku nevymyslí, ty víš, co chceš zjistit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pokus si naplánuješ v hlavě a na papíře, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7",
+        "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc"
+      ],
+      "inspiration": [
+        "Klíčení řeřichy",
+        "Vliv světla na růst rostlin"
+      ]
+    },
+    {
+      "slug": "pomucky-a-pece-o-zive-organismy-pokus",
+      "title": "Pomůcky a péče o živé organismy při pokusu",
+      "aliases": [
+        "pomůcky k pokusu",
+        "péče o rostliny a zvířata",
+        "podmínky pro pokus",
+        "zacházení se zvířaty",
+        "vhodný objekt"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "po diskuzi s se spolužáky a vyučujícím zvolí vhodný objekt k pozorování a zajistí podmínky optimální pro průběh pokusu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "při práci s živočichy pro ně zajistí potřebné životní podmínky a naplánuje postup, který bere ohledy na jejich potřeby"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vybere správné pomůcky pro pokus"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "opatrně zachází se živými organismy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vybere správné pomůcky pro pokus, opatrně zachází se živými organismy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, co rostlina nebo zvíře potřebuje, a navrhne seznam pomůcek."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Atlas a návody ukážou, jak o daný druh pečovat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "S živým organismem zacházíš rukama ty, aplikace to za tebe neudělá."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr, lupa nebo váhy změří podmínky pokusu a pomůžou ti je udržet."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "protokol-a-zaznam-pokusu-zivych",
+      "title": "Protokol o pokusu, náčrty a fotky",
+      "aliases": [
+        "protokol o pokusu",
+        "badatelský záznam",
+        "zápis pokusu",
+        "náčrty a fotky",
+        "tabulka výsledků"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vede si protokol o průběhu pokusu, kde zaznamenává jednotlivé fáze, čas, podmínky"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "provádí obrazovou dokumentaci (náčrty, fotografie, videa), která poslouží k vyhodnocení výsledků pokusu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "k záznamu používá i digitální nástroje, jako je fotoaparát nebo tabulky v počítači, případně měřící čidla"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "experimentálně zkoumá a zaznamená vliv dané podmínky na zvolený fenomén"
+        },
+        {
+          "level": "Splněno",
+          "quote": "pečlivě zapisuje, co během pokusu pozoruje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Pozorování zapisuješ ty, chatbot pokus neviděl a nemá co zaznamenat."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co se stalo ve tvém pokusu, na internetu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Fotoaparát, tabulka a měřicí čidlo zachytí průběh a čísla na jednom místě."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tužka a papír na zápis a náčrt, teploměr nebo pravítko na měření."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281",
+        "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7"
+      ],
+      "inspiration": [
+        "Vliv stresu na reakční dobu (člověk)"
+      ]
+    },
+    {
+      "slug": "vyhodnoceni-pokusu-data-a-zaver",
+      "title": "Vyhodnocení pokusu: data a závěr",
+      "aliases": [
+        "vyhodnocení pokusu",
+        "výsledek a domněnka",
+        "data a závěr",
+        "co z pokusu vyšlo",
+        "porovnání s domněnkou"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "výsledky pokusu porovná se svými domněnkami"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "odlišuje přitom výsledek doložený daty od jím vyvozeného závěru"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na základě získaných výsledků vysvětlí, jak to, co měnil, ovlivnilo výsledek"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Porovná, jestli se stalo to, co na začátku očekával."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se, co v datech opravdu vidíš a co sis dodal, a ukáže, kde závěr nestačí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Výsledky tvého pokusu na internetu nejsou, hodnotíš je ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka nebo graf ukážou, jak se čísla měnila, a ty z nich čteš závěr."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj výsledky nevyhodnotí, srovnání s domněnkou děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7",
+        "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc"
+      ],
+      "inspiration": [
+        "Vliv teploty na aktivitu enzymů (kvasinky)"
+      ]
+    },
+    {
+      "slug": "prezentace-vysledku-pokusu-zivych",
+      "title": "Prezentace pokusu před třídou",
+      "aliases": [
+        "prezentace pokusu",
+        "představit pokus",
+        "odborné výrazy",
+        "odpovídání na otázky",
+        "referát o pokusu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "představí, jak pokus probíhal a co zjistil, používá při tom správné odborné výrazy, odpovídá na otázky ostatních a ptá se na jejich názory"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyzkoušíš si na něm, jak pokus vysvětlit, a procvičíš odborné výrazy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Odborné výrazy si ověříš v encyklopedii nebo ve slovníku pojmů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Před třídou mluvíš a odpovídáš ty, aplikace to nezastoupí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mluvit před spolužáky a reagovat na otázky ti žádný nástroj neusnadní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b1e2927-3542-48da-9063-02925e7562c1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pokus-a-pece-o-zdravi-rostliny-zvirata",
+      "title": "Co pokus znamená pro péči o zdraví, rostliny a zvířata",
+      "aliases": [
+        "využití pokusu v životě",
+        "péče o zdraví",
+        "péče o rostliny",
+        "příklady z běžného života",
+        "doporučení z pokusu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "propojí to, co se dozvěděl z pokusu, s tím, co už ví o tom, jak fungují procesy v živých organismech/rostliny a zvířata, uvede příklady z běžného života, kde se děje něco podobného jako v jeho pokusu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na základě toho, co se z pokusu naučil, navrhne, jak by mohl lépe pečovat o své zdraví, rostliny nebo živočichy, své návrhy vysvětlí a zdůvodní"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Propojí výsledek pokusu s dostupnými informacemi o procesech v živých organismech a s doporučeními pro péči o zdraví člověka, rostliny nebo živočicha."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže najít příklady z běžného života a zeptá se, proč tvůj návrh platí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Doporučení pro zdraví a péči o rostliny ověříš ve spolehlivých zdrojích."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe návrh nesepíše ani nezdůvodní."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj tvoje propojení pokusu s praxí nevytvoří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7"
+      ],
+      "inspiration": [
+        "Faktory ovlivňující růst rostlin"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Využívá metody poznávání přírody",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "plán pokusu",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "vedení badatelského záznamu",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "vyhodnocení pokusu a prezentace výsledků",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "doporučení pro praxi a další výzkum",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "postup opakuje pro rostliny",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

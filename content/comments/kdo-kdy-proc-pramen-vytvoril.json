@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "U každé zprávy, dopisu nebo videa se vyplatí vědět, kdo ho vytvořil, kdy a s jakým záměrem. Generálův zápis o vítězné bitvě vypadá jinak než dopis vojáka domů, i když oba popisují stejný den. Stejnými otázkami prověřují zprávy lidé ve zpravodajských redakcích a v archivech a stejné otázky se hodí, když ti přijde řetězová zpráva nebo video, které sdílí celá třída. Chatbot ti k pramenu ledacos řekne, jenže i jeho odpověď odněkud pochází, a otázku „odkud to víš“ mu musíš položit ty.",
+  "learnWithAi": [
+    {
+      "title": "Dva texty o stejném dni",
+      "text": "Požádej chatbota o dva krátké vymyšlené texty o téže události, jeden od úředníka a jeden od obyčejného člověka. Odhadni, kdo který psal a s jakým záměrem, a teprve potom si nech prozradit zadání."
+    },
+    {
+      "title": "Rozhovor s dvorním kronikářem",
+      "text": "Nech chatbota hrát kronikáře, který píše pro svého knížete. Vyptávej se ho, proč některé události vynechal a jiné přikrášlil, a sleduj, jak se z odpovědí ukazuje jeho záměr."
+    },
+    {
+      "title": "Rozbor skutečného pramenu",
+      "text": "Vyber pramen z učebnice nebo z online archivu a odpověz písemně, kdo ho vytvořil, kdy, proč a čím své tvrzení dokládá. Chatbot ti ukáže, co ti uniklo, údaje o autorovi a datu si ale ověř v encyklopedii."
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+[
+  {
+    "slug": "hospodareni-epoch-casova-osa",
+    "title": "Způsoby hospodaření v dějinných epochách",
+    "aliases": [
+      "hospodářství v dějinách",
+      "pravěk a středověk",
+      "časová osa",
+      "feudalismus",
+      "jak se dříve hospodařilo"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Na časové ose ukáže dějinné epochy od pravěku a přiřadí k nim hlavní způsoby hospodaření.",
+        "quote": "Na časové ose ukáže dějinné epochy od pravěku a přiřadí k nim hlavní způsoby hospodaření."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše různé druhy hospodářství a směny (např. pravěké, antické, feudální, tržní, centrálně státem řízené).",
+        "quote": "Popíše různé druhy hospodářství a směny"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se v každé době hospodařilo, a zeptá se tě na pořadí epoch."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a učebnice online mají popisy epoch i hotové časové osy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na časové osy ti pomůže epochy seřadit a doplnit popisky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, pravítko a pastelky stačí na vlastní časovou osu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "smena-trh-banka-inflace",
+    "title": "Směna, trh, banka, platidla a inflace",
+    "aliases": [
+      "co je inflace",
+      "k čemu je banka",
+      "trh a směna",
+      "platidlo",
+      "ekonomické pojmy"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vysvětlí pojmy směna, trh, banka, platidla, inflace.",
+        "quote": "Vysvětlí pojmy směna, trh, banka, platidla, inflace."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Nakupování v 18. století",
+        "url": "https://uloziste.rvp.cz/material/5639a4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojem na příkladu z obchodu a ověří, jestli mu rozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové weby mají definice s obrázky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro výklad těchto pojmů žádná jednoúčelová aplikace neexistuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovníček na papíru si napíšeš ty, nástroj z něj pojmy nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa",
+      "http://data.europa.eu/esco/skill/81db5616-3c98-4317-a728-5dae08d44bd4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cechy-kapitalismus-socialni-stat",
+    "title": "Cech, kapitalismus, socialismus a sociální stát",
+    "aliases": [
+      "co je cech",
+      "kapitalismus",
+      "státní socialismus",
+      "liberální ekonomika",
+      "sociální stát"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí pojmy cech, kapitalismus, státní socialismus, sociální stát, (neo)liberální ekonomika.",
+        "quote": "Vysvětlí pojmy cech, kapitalismus, státní socialismus, sociální stát, (neo)liberální ekonomika."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíly mezi systémy a na příkladech tě vyzkouší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a dějepisné weby mají výklad každého pojmu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tyto pojmy žádná jednoúčelová aplikace neexistuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír pojmy nevysvětlí, srovnávací tabulku sestavuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa",
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyvoj-platidel-od-minci-po-elektronicke-penize",
+    "title": "Vývoj platidel od mincí po elektronické peníze",
+    "aliases": [
+      "historie peněz",
+      "mince",
+      "bankovky",
+      "elektronické peníze",
+      "zlatý standard"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Na konkrétních příkladech vysvětlí zvyšování nároků na obchod, a tím i na rozvoj platidel (např. mince z drahých kovů, papírové bankovky kryté zlatem, elektronické peníze).",
+        "quote": "Na konkrétních příkladech vysvětlí zvyšování nároků na obchod, a tím i na rozvoj platidel"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč obchod potřeboval mince a bankovky, a dá ti příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Muzea a encyklopedie ukazují staré mince a bankovky s popisem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Platební aplikace jen platí, vývoj platidel ti nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ani lupa u mincí nevysvětlí, proč se platidla měnila."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priciny-a-dusledky-hospodarskych-krizi",
+    "title": "Příčiny a důsledky hospodářských změn a krizí",
+    "aliases": [
+      "hospodářská krize",
+      "krize 30. let",
+      "neúroda a války",
+      "stávky",
+      "stroje nahradily řemesla"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí příčiny a důsledky významných hospodářských změn v různých dějinných epochách.",
+        "quote": "Vysvětlí příčiny a důsledky významných hospodářských změn v různých dějinných epochách."
+      },
+      {
+        "level": "Splněno",
+        "point": "Spojí změny v ekonomice se změnami politickými a sociálními.",
+        "quote": "Spojí změny v ekonomice se změnami politickými a sociálními."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí příčiny a důsledky rozvoje a krizí hospodářství v konkrétní dějinné epoše (např. dopad válek, neúrody či nadvýroby, stávky, hospodářská krize 30. let 20. století, rozvoj evropské integrace po 2. světové válce, nahrazení řemesel a profesí prací strojů a umělé inteligence).",
+        "quote": "Vysvětlí příčiny a důsledky rozvoje a krizí hospodářství v konkrétní dějinné epoše"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Průmyslová revoluce a život lidí odlišných sociálních vrstev",
+        "url": "https://uloziste.rvp.cz/material/4d9f69"
+      },
+      {
+        "title": "Migrant mother",
+        "url": "https://uloziste.rvp.cz/material/fa8385"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere s tebou řetěz příčin a důsledků a ukáže jiný pohled."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a dějepisné weby mají data, příčiny i dopady krizí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Příčiny a důsledky spojuješ ty, aplikace na to nemá nic."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Učebnice a atlas dají fakta, souvislosti hledáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hospodareni-meni-krajinu-lipensko",
+    "title": "Jak hospodaření proměňovalo krajinu",
+    "aliases": [
+      "krajina a hospodaření",
+      "Lipensko",
+      "změny krajiny",
+      "těžba a pole",
+      "zemědělství v krajině"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Doloží příkladem, jak způsob hospodaření a obchodu proměňoval krajinu v jeho okolí.",
+        "quote": "Doloží příkladem, jak způsob hospodaření a obchodu proměňoval krajinu v jeho okolí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak se využívala a měnila krajina Lipenska?",
+        "url": "https://uloziste.rvp.cz/material/721797"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne příklady proměn krajiny a pomůže ti vybrat ten z tvého okolí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Staré mapy a letecké snímky ukážou, jak se místo změnilo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace s historickými snímky ukáže tvé okolí dřív a dnes."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa a procházka krajinou ti ukážou stopy hospodaření."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "etika-hospodareni-bohatstvi-chudoba-vylouceni",
+    "title": "Etické souvislosti hospodaření a obchodu",
+    "aliases": [
+      "bohatství a chudoba",
+      "těžba přírodních zdrojů",
+      "vyloučení skupin",
+      "spravedlnost v obchodu",
+      "ekologie v minulosti"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Hodnotí etické souvislosti hospodaření a obchodu - např. bohatství a chudoba, těžba přírodních zdrojů, vylučování některých skupin obyvatel z ekonomických systémů v minulosti (např. Židé, Romové).",
+        "quote": "Hodnotí etické souvislosti hospodaření a obchodu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí, jaké etické a ekologické souvislosti měly v minulosti hospodaření a obchod.",
+        "quote": "Vysvětlí, jaké etické a ekologické souvislosti měly v minulosti hospodaření a obchod."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Podnikání šlechty v 16. stol.",
+        "url": "https://uloziste.rvp.cz/material/51f83e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Podá argumenty pro obě strany, ale úsudek si děláš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Prameny a články ukážou, co se opravdu dělo s chudými a vyloučenými."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Hodnotit spravedlnost za tebe žádná aplikace neumí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ani tužka ani papír k etickému úsudku nic nepřidají."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když znáš jednu stranu čtvercového záhonu, víš i ostatní tři, a tak spočítáš, kolik plotu kolem něj potřebuješ. Takhle se vlastnosti útvarů používají při řešení úloh: místo měření všeho si spoustu věcí odvodíš. Chatbot ti úlohu vyřeší, z hotového výsledku ale nepoznáš, jestli na ten trik příště přijdeš bez něj. Odvozovat z vlastností tvaru potřebují lidé, kteří navrhují auta, elektrické rozvody nebo nástroje pro továrny.",
+  "learnWithAi": [
+    {
+      "title": "Úlohy o zahradě a pokoji",
+      "text": "Poproste s rodičem chatbota o tři úlohy o zahradě nebo pokoji, ve kterých pomůže vědět, že čtverec má stejné strany. Vyřešte je a výsledky mu pošlete ke kontrole."
+    },
+    {
+      "title": "Rada, jakou vlastnost použít",
+      "text": "Když s rodičem narazíte na úlohu z učebnice a nevíte, jak začít, požádejte chatbota jen o radu, jakou vlastnost útvaru použít. Počítat pak zkuste bez další pomoci."
+    },
+    {
+      "title": "Kontrola celého postupu",
+      "text": "Vyřeš úlohu na papír a s rodičem chatbotovi popište celý postup krok po kroku, ne jen výsledek. Ať vám řekne, jestli sedí, a výpočty si stejně přepočítejte, chatbot se může splést."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kolik vody se vejde do bazénu, určuje objem, kolik barvy padne na jeho stěny, určuje povrch. Tyhle dvě míry se snadno pletou a v praxi z toho vzniká drahá chyba, proto musí každý, kdo maluje pokoje nebo staví zdi, vědět, kdy se počítá plocha a kdy objem zdiva. Povrch kvádru pochopíš, když krabici rozstřihneš a rozložíš do roviny, a objem jako počet kostek, které se dovnitř vejdou. Výpočet zvládne kalkulačka, ale rozhodnout, co se v úloze hledá, a poznat, jestli výsledek dává smysl, zůstává na tobě.",
+  "learnWithAi": [
+    {
+      "title": "Povrch a objem v běžných situacích",
+      "text": "Poproste s rodičem chatbota o situace, jako je balení dárku nebo napouštění akvária, a u každé rozhodni, jestli jde o povrch, nebo objem. Chatbot ti pak řekne, jestli souhlasí."
+    },
+    {
+      "title": "Rozstřižená papírová krabice",
+      "text": "Rozstřihněte s rodičem papírovou krabici, změřte její stěny a spočítej povrch. Pak se zeptejte chatbota, jak by postupoval on, a porovnejte to se svým postupem."
+    },
+    {
+      "title": "Úloha o zahradním bazénu",
+      "text": "Požádejte chatbota o úlohu o bazénu, kde se počítá povrch dna a stěn i objem vody. Řešení piš na papír a výsledek ověř kalkulačkou, chatbot se v delším výpočtu může splést."
+    }
+  ]
+}

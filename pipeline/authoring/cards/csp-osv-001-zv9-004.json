@@ -1,0 +1,125 @@
+{
+  "outcome": "CSP-OSV-001-ZV9-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "sebeprezentace-vlastnosti-dovednosti-uspechy",
+      "title": "Představení sebe: vlastnosti, dovednosti a úspěchy",
+      "aliases": ["představit se", "mluvit o sobě", "sebeprezentace", "moje silné stránky", "prezentace o sobě"],
+      "sources": [
+        {"level": "Na začátku", "quote": "zkouší si prezentovat vybraný úspěch"},
+        {"level": "Na začátku", "quote": "rozvíjí různé formy vyjádření o sobě"},
+        {"level": "Na cestě", "quote": "zkouší si připravit různé formy prezentace sama sebe"},
+        {"level": "Splněno", "quote": "Prezentuje sám sebe (vlastnosti, dovednosti, silné stránky, úspěchy, zájmy, hodnoty, plány)."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vyptá se tě na úspěchy a pomůže najít slova, které řekneš ty."},
+        "internet": {"verdict": "pomuze", "why": "Ukázky představení sebe ti ukážou, jak se to dá říct."},
+        "aplikace": {"verdict": "pomuze", "why": "Nahrávání videa ti ukáže, jak působíš, když o sobě mluvíš."},
+        "klasicky": {"verdict": "nepomuze", "why": "Před lidmi mluvíš ty, papír ani zrcadlo to za tebe nezvládnou."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c", "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f"],
+      "inspiration": ["Kreativní aktivity pro podporu sebeprezentace"]
+    },
+    {
+      "slug": "sebehodnoceni-dukazy-dovednosti",
+      "title": "Sebehodnocení a doložení dovedností",
+      "aliases": ["sebehodnocení", "jak poznám, co umím", "důkazy mých dovedností", "portfolio", "moje úspěchy"],
+      "sources": [
+        {"level": "Splněno", "quote": "Využívá různé způsoby sebehodnocení a prokazování svých dovedností."},
+        {"level": "Na cestě", "quote": "zkouší si různé formy vyjádření svých dovedností"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Navrhne způsoby, jak své dovednosti doložit, a ptá se, co už umíš."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš vzory sebehodnoticích tabulek a ukázky portfolií."},
+        "aplikace": {"verdict": "pomuze", "why": "Do aplikace nebo tabulky si ukládáš práce a sleduješ svůj pokrok."},
+        "klasicky": {"verdict": "pomuze", "why": "Deník, sešit nebo složka s pracemi je důkaz, který si vedeš ty."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69"],
+      "inspiration": []
+    },
+    {
+      "slug": "sebeprezentace-prijimaci-rozhovor-skupiny",
+      "title": "Sebeprezentace v různých situacích: přijímací rozhovor, skupiny a týmy",
+      "aliases": ["přijímací pohovor", "pohovor na školu", "představení ve skupině", "pracovní pohovor", "mluvit před komisí"],
+      "sources": [
+        {"level": "Na začátku", "quote": "v modelových situacích zkouší jednoduchou sebeprezentaci a diskutuje svoje zkušenosti"},
+        {"level": "Na cestě", "quote": "v modelových situacích zkouší různé způsoby prezentace sama sebe"},
+        {"level": "Splněno", "quote": "V modelových situacích využívá způsoby prezentace sama sebe v různých situacích"}
+      ],
+      "rules": ["P1", "P2", "P4", "P5"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Zahraje komisi, pokládá otázky a dá ti zkoušku před pravým rozhovorem."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš časté otázky z přijímacích rozhovorů a rady, jak odpovídat."},
+        "aplikace": {"verdict": "pomuze", "why": "Nahrávka tvé odpovědi ti ukáže tempo řeči, pauzy a držení těla."},
+        "klasicky": {"verdict": "nepomuze", "why": "Rozhovor vedeš ty, s lidmi naživo, žádný nástroj ho za tebe neodmluví."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/929e89f9-ac69-4bcb-9eea-37257aa5aff9", "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f"],
+      "inspiration": ["Různé situace sebeprezentace", "Prezentace před hodnotící komisí", "Prezentace na školní akci"]
+    },
+    {
+      "slug": "zpetna-vazba-k-sebeprezentaci-uprava",
+      "title": "Zpětná vazba k sebeprezentaci a její úprava",
+      "aliases": ["zpětná vazba", "hodnocení prezentace", "jak se zlepšit v prezentování", "pochvala a kritika", "vylepšit své vystoupení"],
+      "sources": [
+        {"level": "Na cestě", "quote": "zkouší si měnit sebeprezentaci na základě sebereflexe a zpětné vazby"},
+        {"level": "Splněno", "quote": "Poskytuje a přijímá zpětnou vazbu k sebeprezentaci."},
+        {"level": "Splněno", "quote": "Upravuje sebeprezentaci na základě sebereflexe a zpětné vazby od druhých."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Přečte tvůj text o sobě a řekne, co je nejasné nebo co chybí."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš rady, jak dát zpětnou vazbu hezky a jak ji přijmout."},
+        "aplikace": {"verdict": "pomuze", "why": "Nahrávka ti ukáže, co si o vystoupení řeknou spolužáci, i bez nich."},
+        "klasicky": {"verdict": "nepomuze", "why": "Zpětnou vazbu dáváš a přijímáš ty od spolužáků, nástroj k tomu nepotřebuješ."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69"],
+      "inspiration": []
+    },
+    {
+      "slug": "rizika-nevhodne-sebeprezentace",
+      "title": "Důsledky nevhodné sebeprezentace",
+      "aliases": ["špatný první dojem", "co když se špatně představím", "rizika sebeprezentace", "nevhodné vystupování", "první dojem"],
+      "sources": [
+        {"level": "Na cestě", "quote": "v modelové situaci získává zkušenosti s důsledky neodpovídající sebeprezentace"},
+        {"level": "Splněno", "quote": "V modelové situaci vyhodnotí možná rizika a důsledky neodpovídající sebeprezentace."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vymyslí situace, kde se sebeprezentace nepovedla, a ptá se, co se stane."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš příběhy a rady, jak působí nepřipravené nebo přehnané představení."},
+        "aplikace": {"verdict": "nepomuze", "why": "Důsledky vyhodnocuješ ty podle situace, aplikace je za tebe neposoudí."},
+        "klasicky": {"verdict": "nepomuze", "why": "Situaci si zahrajete ve třídě, žádný nástroj k tomu nepomůže."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/929e89f9-ac69-4bcb-9eea-37257aa5aff9"],
+      "inspiration": []
+    },
+    {
+      "slug": "sebeprezentace-digitalni-prostredi-profil",
+      "title": "Sebeprezentace v digitálním prostředí",
+      "aliases": ["profil na sociálních sítích", "jak se ukázat online", "digitální stopa", "online profil", "představit se na internetu"],
+      "sources": [
+        {"level": "Na začátku", "quote": "zkouší si využití digitálních technologií pro prezentaci vybraných informací o sobě"},
+        {"level": "Na cestě", "quote": "navrhuje možnou sebeprezentaci v digitálním prostředí"},
+        {"level": "Splněno", "quote": "Reflektuje strategie sebeprezentace v digitálním prostředí."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Pomůže vymyslet, co o sobě online ukázat, a ptá se, co by si přečetl cizí člověk."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš příklady profilů a rady, co sdílet a co si nechat pro sebe."},
+        "aplikace": {"verdict": "pomuze", "why": "V aplikaci na tvorbu prezentací nebo webu si profil navrhneš a vyzkoušíš."},
+        "klasicky": {"verdict": "nepomuze", "why": "Digitální profil se dělá na počítači, papír a tužka ti ukážou jen náčrt."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c", "http://data.europa.eu/esco/skill/64e09849-a7db-4d6b-a932-66264420eb97"],
+      "inspiration": ["Co by o mě řekla věc"]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Prezentuje sám sebe v modelových situacích", "code": "O3", "refs": []}
+  ]
+}

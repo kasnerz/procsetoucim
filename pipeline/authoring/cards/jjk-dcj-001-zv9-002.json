@@ -1,0 +1,280 @@
+{
+  "outcome": "JJK-DCJ-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dcj-slovo-k-obrazku",
+      "title": "Přiřazení slova k obrázku",
+      "aliases": [
+        "slovíčka k obrázku",
+        "obrázkový slovník",
+        "přiřaď slovo",
+        "nadpis k obrázku"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Přiřadí k napsanému slovu obrázek nebo nadpis."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "čte jednotlivá slova, které si ústně osvojil a jimž rozumí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí cvičení na slovíčka a opraví ti, co jsi k obrázku přiřadil."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázkový slovník ukáže, jak slovo vypadá a co znamená."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Slovíčkové aplikace ti dávají slova k obrázkům a hned řeknou, jestli sedí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník s obrázky nebo kartičky ti slovo ukážou vedle obrázku."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Práce s textem, Nj, Fj"
+      ]
+    },
+    {
+      "slug": "dcj-kratke-vety-situace",
+      "title": "Porozumění krátkým větám o běžných situacích",
+      "aliases": [
+        "jednoduché věty",
+        "čtení vět",
+        "věty v cizím jazyce",
+        "rozumím větě"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozumí krátkým, jasně strukturovaným větám, které popisují jednoduché a konkrétní situace z okruhu osvojovaných témat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Napíše krátké věty na tvé téma a vysvětlí slova, kterým nerozumíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník a jazyková příručka ti rychle dají význam neznámého slova."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač ti ověří, jestli jsi větu pochopil správně."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový slovník pomůže s významem slov, větu ale skládáš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Práce s krátkými texty, Nj, Fj"
+      ]
+    },
+    {
+      "slug": "dcj-hlavni-myslenka-textu",
+      "title": "Hlavní myšlenka krátkého textu",
+      "aliases": [
+        "rozhovor v cizím jazyce",
+        "jednoduchý příběh",
+        "dopis",
+        "o čem text je"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "čte krátké texty, jako jsou rozhovory, popisy, jednoduché příběhy nebo korespondence a pochopí z nich hlavní myšlenku"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Napíše ti krátký text na úrovni třídy a zeptá se, o čem byl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Čtenářské texty pro začátečníky najdeš na internetu a můžeš si je číst."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač pomůže s jednotlivými slovy, hlavní myšlenku ale hledáš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník ti dá význam slov, o čem text je, poznáš až četbou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Práce s krátkými texty, Nj, Fj"
+      ]
+    },
+    {
+      "slug": "dcj-hledani-informace-v-textu",
+      "title": "Hledání informace v krátkém textu",
+      "aliases": [
+        "najdi v textu",
+        "konkrétní údaj",
+        "čtení rozhovoru",
+        "kdo co kdy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyhledá požadovanou informaci v psaném textu, například při čtení krátkého rozhovoru nebo příběhu, identifikuje základní konkrétní údaje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá otázky k textu a řekne ti, jestli jsi údaj našel správně."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové texty tu jsou, údaj v nich ale musíš najít očima ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač ti objasní slovo, které brání najít údaj."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Údaj v textu hledáš ty, slovník nebo pravítko k tomu nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Práce s textem"
+      ]
+    },
+    {
+      "slug": "dcj-pravda-nepravda-text",
+      "title": "Pravda nebo nepravda podle textu",
+      "aliases": [
+        "vrai ou faux",
+        "pravda nepravda",
+        "souhlasí to s textem",
+        "fakt nebo názor"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Posuzuje pravdivost informací v textu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí tvrzení k textu a vysvětlí, proč sedí, nebo nesedí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Rozhodnutí podle textu děláš ty, ve zdrojích na internetu odpověď není."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti nepoví, jestli tvrzení odpovídá textu, který čteš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník ti dá slova, pravdivost tvrzení musíš posoudit ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Vrai ou faux?",
+        "Fait ou opinion"
+      ]
+    },
+    {
+      "slug": "dcj-odpovedi-k-textu",
+      "title": "Odpovědi na otázky k přečtenému textu",
+      "aliases": [
+        "otázky k textu",
+        "čtení dopisu",
+        "porozumění textu",
+        "odpověz na otázky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Odpoví na otázky související s psaným textem, například při čtení krátkého popisu nebo dopisu a následném zodpovídání otázek, které se k textu vztahují."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí k textu otázky a opraví tvé odpovědi s vysvětlením."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Cvičení s otázkami k textu najdeš na stránkách pro výuku jazyka."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace odpoví za tebe, ty se z toho text číst nenaučíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník pomůže s neznámými slovy při čtení textu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Práce s krátkými texty, Nj, Fj"
+      ]
+    }
+  ],
+  "aside": []
+}

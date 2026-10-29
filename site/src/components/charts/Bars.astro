@@ -1,0 +1,26 @@
+---
+// Horizontal bars: a pencil-outlined track with a hatched fill. Values are shares of `max`.
+import { rng } from "../../lib/sketch";
+interface Row { label: string; value: number; display: string; href?: string }
+interface Props { rows: Row[]; max?: number; tone?: "blue" | "red"; seed: string; label: string }
+const { rows, max = Math.max(...rows.map((r) => r.value), 1e-9), tone = "blue", seed, label } = Astro.props;
+const r = rng(seed);
+const end = () => `polygon(0 0, calc(100% - ${(r() * 3).toFixed(1)}px) ${(r() * 2).toFixed(1)}px, 100% ${(40 + r() * 20).toFixed(0)}%, calc(100% - ${(r() * 3).toFixed(1)}px) 100%, 0 100%)`;
+---
+<ul class="bars" aria-label={label}>
+  {rows.map((row) => (
+    <li>
+      <span class="bl">{row.href ? <a href={row.href}>{row.label}</a> : row.label}</span>
+      <span class="track sketch-box"><i class={`fill f-${tone}`} style={`width:calc(${(row.value / max) * 100}% - 4px);clip-path:${end()}`}></i></span>
+      <span class="bv num">{row.display}</span>
+    </li>
+  ))}
+</ul>
+<style>
+  .bars { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: auto minmax(60px, 1fr) auto; gap: 6px var(--s3); align-items: center; }
+  .bars li { display: contents; }
+  .bl { font-size: 0.875rem; line-height: 1.25; }
+  .track { position: relative; height: 16px; }
+  .fill { position: absolute; left: 2px; top: 3px; bottom: 3px; min-width: 2px; }
+  .bv { font-size: 0.875rem; font-weight: 700; text-align: right; }
+</style>

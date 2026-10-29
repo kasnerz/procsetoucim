@@ -1,0 +1,480 @@
+[
+  {
+    "slug": "lide-rodina-a-rodina-spoluzaka",
+    "title": "Porovnání mojí rodiny a rodiny spolužáka",
+    "aliases": [
+      "volný čas v rodině",
+      "denní režim",
+      "slavení svátků",
+      "rodina spolužáka",
+      "čím se liší rodiny"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Porovná způsob trávení volného času, denní režim, slavení svátků ve své rodině a v rodině spolužáka.",
+        "quote": "Porovná způsob trávení volného času, denní režim, slavení svátků ve své rodině a v rodině spolužáka."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Svoji rodinu a spolužákovu znáš ty, chatbot o nich nic neví."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "O vaší rodině a rodině spolužáka na internetu nic nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace neví, jak se u vás doma tráví volný čas a slaví svátky."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Porovnání uděláš z vlastních zkušeností a rozhovoru, nástroj k němu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c10d5d87-36cf-42f5-8a12-e560fb5f4af8",
+      "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "lide-zpusob-zivota-z-pribehu",
+    "title": "Shody a rozdíly v životě lidí z příběhu",
+    "aliases": [
+      "způsob života z příběhu",
+      "dvě děti v příběhu",
+      "podobnosti a rozdíly",
+      "modelová situace",
+      "porovnání se mnou"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše na modelové situaci, v čem se shoduje a čím se liší život různých lidí.",
+        "quote": "Popíše na modelové situaci, v čem se shoduje a čím se liší život různých lidí."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše způsob života osoby z modelové situace nebo z příběhu.",
+        "quote": "Popíše způsob života osoby z modelové situace nebo z příběhu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Identifikuje na základě příběhů (dvou dětí) podobnosti a rozdíly ve způsobu jejich života.",
+        "quote": "Identifikuje na základě příběhů (dvou dětí) podobnosti a rozdíly ve způsobu jejich života."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše způsob života osoby z modelové situace nebo z příběhu a porovná jej se svým způsobem života.",
+        "quote": "Popíše způsob života osoby z modelové situace nebo z příběhu a porovná jej se svým způsobem života."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "V čem jsme stejní a v čem jiní?",
+        "url": ""
+      },
+      {
+        "title": "Shody a rozdíly mezi lidmi",
+        "url": "https://uloziste.rvp.cz/material/00c254"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Z příběhu najde, co mají postavy společné a v čem se liší, a ty to můžeš zkontrolovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příběhy a popisy života dětí z různých míst."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace příběh nerozebere, shody a rozdíly hledáš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příběh rozebíráš v hlavě nebo v sešitě, nástroj ti k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c10d5d87-36cf-42f5-8a12-e560fb5f4af8",
+      "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "lide-propojeni-zivota-s-druhymi",
+    "title": "Propojení mého života s životem druhých lidí",
+    "aliases": [
+      "co mám společné s lidmi jinde",
+      "věci z jiných zemí",
+      "souvislosti",
+      "kdo vyrobil moje věci",
+      "lidé po světě"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Uvádí příklady situací, činností nebo věcí, které ukazují propojení jeho života s životem někoho jiného (v bezprostředním okolí i žijícího na jiném místě).",
+        "quote": "Uvádí příklady situací, činností nebo věcí, které ukazují propojení jeho života s životem někoho jiného (v bezprostředním okolí i žijícího na jiném místě)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet příklady věcí a činností, které nás s někým jiným spojují."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš, odkud se k nám berou potraviny a oblečení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace propojení tvého života s cizími lidmi neukáže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příklady z okolí hledáš ty, nástroj je nenajde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c10d5d87-36cf-42f5-8a12-e560fb5f4af8",
+      "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "lide-dobre-souziti-v-obci",
+    "title": "Co pomáhá k dobrému soužití v obci",
+    "aliases": [
+      "soužití v obci",
+      "dobří sousedé",
+      "pravidla v obci",
+      "spolupráce lidí v obci",
+      "vztahy mezi lidmi"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Jmenuje příklady toho, co pomáhá k dobrému soužití mezi lidmi v obci.",
+        "quote": "Jmenuje příklady toho, co pomáhá k dobrému soužití mezi lidmi v obci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vzájemné soužití",
+        "url": "https://uloziste.rvp.cz/material/3acbed"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí a nabídne příklady, co soužití v obci pomáhá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na stránkách obce najdeš akce a pravidla, která lidi spojují."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace dobré soužití v obci nenaučí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příklady dobrého soužití najdeš ve svém okolí ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c10d5d87-36cf-42f5-8a12-e560fb5f4af8",
+      "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "lide-souziti-v-modelovem-spolecenstvi",
+    "title": "Soužití v modelovém společenství",
+    "aliases": [
+      "soužití lidí",
+      "rozbor společenství",
+      "vliv způsobu života",
+      "jak spolu lidé žijí",
+      "modelová situace"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí, jak může mít způsob života vliv na soužití s ostatními lidmi.",
+        "quote": "Vysvětlí, jak může mít způsob života vliv na soužití s ostatními lidmi."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Analyzuje soužití v modelovém společenství.",
+        "quote": "Analyzuje soužití v modelovém společenství."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Soužití lidí",
+        "url": "https://uloziste.rvp.cz/material/4d8885"
+      },
+      {
+        "title": "Vzájemné soužití",
+        "url": "https://uloziste.rvp.cz/material/3acbed"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere modelové společenství a ukáže, kde se lidé třou kvůli rozdílnému způsobu života."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příběhy a popisy soužití lidí, které si rozebereš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace soužití nerozebere, úvahu děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Soužití rozebíráš ty při rozhovoru, nástroj nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c10d5d87-36cf-42f5-8a12-e560fb5f4af8",
+      "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "lide-porozumeni-a-respekt-mezi-lidmi",
+    "title": "Kroky k porozumění a respektu mezi lidmi",
+    "aliases": [
+      "porozumění",
+      "respekt",
+      "neshody mezi lidmi",
+      "jak se domluvit",
+      "rozdíly"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí, které kroky vedou k vzájemnému porozumění a respektu a které naopak rozdíly a neporozumění prohlubují.",
+        "quote": "Vysvětlí, které kroky vedou k vzájemnému porozumění a respektu a které naopak rozdíly a neporozumění prohlubují."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vzájemné soužití",
+        "url": "https://uloziste.rvp.cz/material/3acbed"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co porozumění pomáhá a co ho kazí, na příkladech z příběhů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš články a příběhy o neporozumění a o tom, jak se řeší."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace respekt k druhým nenaučí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "K respektu a porozumění nepotřebuješ nástroj, ale rozhovor s lidmi."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c10d5d87-36cf-42f5-8a12-e560fb5f4af8",
+      "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "lide-plakat-o-podobnostech-lidi",
+    "title": "Plakát o podobnostech a rozdílech života lidí",
+    "aliases": [
+      "plakát",
+      "komiks",
+      "obrázek o lidech",
+      "život lidí ve světě",
+      "mapa"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zpracuje vizuální materiál (např. plakát, obrázek, komiks, mapu), který bude obsahovat příklady podobností a rozdílů života lidí na různých místech světa a/nebo ukázky obohacování kultur.",
+        "quote": "Zpracuje vizuální materiál (např. plakát, obrázek, komiks, mapu), který bude obsahovat příklady podobností a rozdílů života lidí na různých místech světa a/nebo ukázky obohacování kultur."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Obohacování kultur",
+        "url": "https://uloziste.rvp.cz/material/5cfa4b"
+      },
+      {
+        "title": "Shody a rozdíly mezi lidmi",
+        "url": "https://uloziste.rvp.cz/material/00c254"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet příklady a rozvrhnout plakát, nakreslit ho musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš fotografie, příklady a mapy života lidí v různých zemích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace pomůže plakát nebo komiks nakreslit a upravit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, pastelky a fixy potřebuješ na plakát nebo obrázek."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+      "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "lide-obohacovani-kultur-jidlo-zvyky",
+    "title": "Obohacování kultur: jídlo, zvyky, oblečení, sporty",
+    "aliases": [
+      "kultury",
+      "jídlo z jiných zemí",
+      "zvyky z jiných zemí",
+      "sporty z jiných zemí",
+      "oblékání"
+    ],
+    "outcome": "CJS-CJS-002-ZV5-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Diskutuje o tom, jak se lidé z různých kultur obohacují (např. jídlo, zvyky, oblékání, sportování).",
+        "quote": "Diskutuje o tom, jak se lidé z různých kultur obohacují (např. jídlo, zvyky, oblékání, sportování)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyjmenuje několik příkladů ilustrujících, jak se lidé z různých kultur obohacují (např. jídlo, zvyky, oblékání, sportování).",
+        "quote": "Vyjmenuje několik příkladů ilustrujících, jak se lidé z různých kultur obohacují (např. jídlo, zvyky, oblékání, sportování)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Obohacování kultur",
+        "url": "https://uloziste.rvp.cz/material/5cfa4b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí a nabídne příklady, co jsme si od jiných kultur přijali."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš původ jídel, zvyků a sportů v encyklopedii."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace o obohacování kultur nepoučí a diskusi nevede."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ ty se spolužáky, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c10d5d87-36cf-42f5-8a12-e560fb5f4af8",
+      "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

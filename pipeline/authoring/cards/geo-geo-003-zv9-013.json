@@ -1,0 +1,201 @@
+{
+  "outcome": "GEO-GEO-003-ZV9-013",
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "cards-v1",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "poloha-regionu",
+      "title": "Kde leží kraje Česka a světadíly",
+      "aliases": [
+        "kraje",
+        "světadíly",
+        "kontinenty",
+        "kde leží",
+        "poloha"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "pojmenuje místa ve svém okolí, regiony Česka a Evropy i makroregiony světa (světadíly, kontinenty)"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Lokalizuje na mapě místa ve svém okolí a regiony Česka."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkouší tě z polohy krajů a opraví tvé odpovědi."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš mapu i popis polohy každého kraje."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapová aplikace ukáže polohu a nabídne slepou mapu na zkoušení."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas a glóbus ukážou polohu i sousedy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+        "http://data.europa.eu/esco/skill/b4b28d82-0a26-4b1c-a932-38d4378c189e"
+      ],
+      "inspiration": [
+        "Moje mapa ......"
+      ]
+    },
+    {
+      "slug": "mista-zpameti",
+      "title": "Místopisné pojmy zpaměti: města, řeky, pohoří",
+      "aliases": [
+        "slepá mapa",
+        "hlavní města",
+        "pohoří",
+        "řeky",
+        "zeměpis zpaměti"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pracuje s místopisnými pojmy, zpaměti či s použitím mapy je dovede zařadit do konkrétního území/regionu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkouší tě z měst, řek a pohoří a vrací se k tomu, co ti nejde."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš seznamy a mapy, podle kterých se učíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Slepá mapa v aplikaci ukáže, které názvy ti nejdou."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas s rejstříkem ukáže, kam místo patří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b4b28d82-0a26-4b1c-a932-38d4378c189e",
+        "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "mentalni-mapa",
+      "title": "Mentální mapa: nakreslit území zpaměti",
+      "aliases": [
+        "mentální mapa",
+        "mapa zpaměti",
+        "nakreslit mapu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "využívá rozmanité zdroje geografických informací pro tvorbu a obohacování vlastní mentální mapy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Dokáže vytvořit a komentovat mentální mapu určitého území."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Přečte tvůj popis území a ptá se na místa, která chybí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Mapu z paměti kreslíš ty, internet ti ukáže jen hotovou."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Skutečná mapa v aplikaci ukáže, v čem se tvoje liší."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas ukáže, kde se tvoje mapa mýlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5c526c52-4f0a-4647-8c51-c91568acebb1",
+        "http://data.europa.eu/esco/skill/b4b28d82-0a26-4b1c-a932-38d4378c189e"
+      ],
+      "inspiration": [
+        "Moje mentální mapa - co v ní vše může být?",
+        "Jak vnímám svůj domov/kraj/kontinent/svět"
+      ]
+    },
+    {
+      "slug": "poloha-a-popis-mista",
+      "title": "Co prozradí poloha místa: výška, podnebí, počet lidí",
+      "aliases": [
+        "nadmořská výška",
+        "podnebí",
+        "klima",
+        "hustota zalidnění",
+        "popis místa"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na základě znalosti polohy určitého místa odvozuje jeho popis podle stanovených kritérií"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč je v horách chladněji, a zadá ti místa k odvození."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš údaje o výšce, podnebí i zalidnění a ověříš svůj odhad."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapová aplikace ukáže výšku terénu i hustotu osídlení."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas má mapy výšek, podnebí a zalidnění vedle sebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+        "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [],
+  "toolsVersion": "tools-v2"
+}

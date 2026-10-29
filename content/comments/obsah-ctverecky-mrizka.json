@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Počítání čtverečků je nejjednodušší cesta k tomu, co obsah znamená: kolik místa útvar zabírá. Až budeš později počítat obsah obdélníku vzorcem, budeš vědět, proč se strany násobí, protože je to jen rychlejší počítání čtverečků v řadách. Stejně se uvažuje o dlaždicích v koupelně nebo o koberci do pokoje, kde čtverečky na plánku dají první rychlý odhad. Aplikace ti čtverečky v síti spočítá, ty ale potřebuješ rozumět tomu, co to číslo znamená, jinak ho nezkontroluješ.",
+  "learnWithAi": [
+    {
+      "title": "Útvar ze čtverečků podle popisu",
+      "text": "Poproste s rodičem chatbota, ať vám popíše jednoduchý útvar ze čtverečků, třeba písmeno L. Nakresli ho do čtverečkovaného sešitu a spočítej, kolik čtverečků zabírá."
+    },
+    {
+      "title": "Kontrola obsahu vlastních útvarů",
+      "text": "Nakresli tři útvary, spočítej jejich obsah a s rodičem je popište chatbotu. Když se vaše výsledky liší, hledejte chybu spolu, chatbot se u obrázků taky může splést."
+    },
+    {
+      "title": "Půlené čtverečky u šikmých hran",
+      "text": "Když útvar protíná čtverečky šikmo, požádejte chatbota, ať jednoduše vysvětlí, jak počítat poloviny. Vyzkoušej to pak na vlastním obrázku."
+    }
+  ]
+}

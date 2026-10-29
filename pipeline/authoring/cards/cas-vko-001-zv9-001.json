@@ -1,0 +1,456 @@
+{
+  "outcome": "CAS-VKO-001-ZV9-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pojmy-rodina-kultura-narod-prislusnost",
+      "title": "Rodina, kultura, náboženství, národ a příslušnost",
+      "aliases": [
+        "co je kultura",
+        "co je národ",
+        "příslušnost ke skupině",
+        "gender",
+        "náboženství",
+        "společenství"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vysvětlí pojmy rodina, kultura, náboženství, gender, národ, příslušnost"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Identifikuje a pojmenovává různé typy společenství, ve kterých žije."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem jinými slovy a pomůže ti vymyslet příklady z tvého okolí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky a encyklopedie dají přesnou definici každého pojmu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace tyhle pojmy nevysvětluje, pomoc nemá z čeho vzít."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani kalkulačka s pojmy nepomůžou, výklad dostaneš jinde."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6",
+        "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4"
+      ],
+      "inspiration": [
+        "Můj svět v kruhu: Objev svůj směr!"
+      ]
+    },
+    {
+      "slug": "spolecenske-role-v-zivote",
+      "title": "Společenské role a jejich proměny",
+      "aliases": [
+        "role",
+        "moje role",
+        "syn dcera žák",
+        "kamarád",
+        "role s věkem",
+        "společenská role"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "seznámí se s pojmem společenská role a uvede příklady"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zamýšlí se nad tím, jak se společenské role mohou proměňovat v závislosti na věku a životních situacích"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Charakterizuje společenské role, do kterých se v průběhu svého života dostává."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje typické role a ptá se tě, jak se tvoje mění, když vyrosteš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vysvětlení pojmu role a příklady z různých věků."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvoje role nepopíše, znáš je jen ty ze svého života."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj za tebe nepromyslí, kým jsi doma, ve škole a mezi kamarády."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4",
+        "http://data.europa.eu/esco/skill/8881a9c2-bd07-4954-bf27-c1f8acca9af0"
+      ],
+      "inspiration": [
+        "Kdo jsme a jakou roli hrajeme?"
+      ]
+    },
+    {
+      "slug": "oslavy-a-tradice-spojuji-lidi",
+      "title": "Oslavy, svátky a tradice jako příslušnost",
+      "aliases": [
+        "rodinné svátky",
+        "státní svátky",
+        "tradice",
+        "oslavy",
+        "proč slavíme"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "na příkladech vysvětlí, jak a proč oslavy rodinných svátků, významných dnů, státních svátku nebo udržování tradic posilují příslušnost k některému společenství"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu slouží různé tradice, a ptá se tě na zvyky vaší rodiny."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš původ svátků a zvyků a jejich popis v encyklopedii."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s kalendářem svátků řekne datum, ale ne co ti dávají."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zážitek ze svátku nebo tradice žádný nástroj nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+      ],
+      "inspiration": [
+        "Kulturní artefakt"
+      ]
+    },
+    {
+      "slug": "prehled-lidi-kolem-mne",
+      "title": "Vizuální přehled lidí kolem mě",
+      "aliases": [
+        "mapa vztahů",
+        "s kým se bavím",
+        "schéma kamarádů",
+        "kruhy kolem mě",
+        "sociogram"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zpracuje vizuální přehled, s kým je v sociální interakci"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak přehled uspořádat do kruhů nebo schématu, ale lidi doplníš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na internetu nenajdeš, s kým se ty doopravdy stýkáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí aplikace nebo myšlenková mapa ti pomůže přehled uspořádat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a pastelky stačí na nakreslení kruhů, do kterých lidi zakreslíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4"
+      ],
+      "inspiration": [
+        "Můj svět v kruhu: Objev svůj směr!"
+      ]
+    },
+    {
+      "slug": "moje-identita-hodnoty-a-pocity",
+      "title": "Moje identita, hodnoty a pocity v rolích",
+      "aliases": [
+        "kdo jsem",
+        "moje hodnoty",
+        "identita",
+        "karta identity",
+        "jak se cítím",
+        "moje přesvědčení"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zmapuje svou identitu (kdo je, co ho formuje, jak se cítí v různých rolích, jaké jsou jeho hodnoty, přesvědčení)"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyjádří své myšlenky, pocity a zkušenosti ohledně identity a vztahu k různým sociálním rolím"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Klade ti otázky o hodnotách a pomůže ti pocity pojmenovat, odpovědi si dáváš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Kdo jsi, na internetu nenajdeš, odpovídáš jen ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s kvízem o osobnosti dá obecný výsledek, o tobě nic nezjistí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Sešit a tužka ti dají místo, kam své myšlenky a pocity zapíšeš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6",
+        "http://data.europa.eu/esco/skill/8881a9c2-bd07-4954-bf27-c1f8acca9af0"
+      ],
+      "inspiration": [
+        "Identita",
+        "Karta identity"
+      ]
+    },
+    {
+      "slug": "chovani-v-ruznych-skupinach",
+      "title": "Jak se mění chování v různých skupinách",
+      "aliases": [
+        "chování ve třídě a doma",
+        "jiný mezi kamarády",
+        "skupina",
+        "jak se chovám",
+        "zapojení do skupiny"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "uvede příklady toho, jak se jeho chování, komunikace, nebo zapojení mění v souvislosti s tím, ve které sociální skupině právě je"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvádí příklady toho, jak se projevuje příslušnost k některé sociální skupině v chování, komunikaci, při rozhodování se, v zapojování se."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne příklady, jak se lidé chovají ve skupinách, tvoje příklady si najdeš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na internetu najdeš obecné popisy, ne to, jak se chováš ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvoje chování ve skupinách neposoudí, pozoruješ ho ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj za tebe nezaznamená, jak se v různých skupinách chováš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4",
+        "http://data.europa.eu/esco/skill/8881a9c2-bd07-4954-bf27-c1f8acca9af0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vyhody-a-nevyhody-clenstvi-ve-skupine",
+      "title": "Výhody a nevýhody příslušnosti ke skupině",
+      "aliases": [
+        "klady a zápory",
+        "proč patřit do skupiny",
+        "členství",
+        "nevýhody skupiny",
+        "tlak skupiny"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zhodnotí výhody a nevýhody příslušnosti k určité sociální skupině a/nebo určitému společenství."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti sepsat klady a zápory a ptá se, co z nich platí pro tebe."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš články a příklady o tom, co členství ve skupinách přináší."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tabulkou klady a zápory zapíše, ale posoudit je musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Váhu výhod a nevýhod žádný nástroj nezměří, rozhoduješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "digitalni-identita-a-jeji-stopa",
+      "title": "Digitální identita a její stopa",
+      "aliases": [
+        "digitální stopa",
+        "profil na internetu",
+        "účet",
+        "přezdívka online",
+        "sociální sítě",
+        "digitální identita"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "seznamuje se s pojmem digitální identita a uvede, jak se jej týká"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na příkladech popíše, co tvoří digitální identitu a které postupy budování digitální identity považuje za vhodné/nevhodné a za bezpečné/rizikové"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co všechno o tobě online zůstává, a rozebere příklady vhodných i rizikových kroků."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš doporučení k bezpečnému chování online pro děti a rodiče."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Vyhledávání tvého jména ukáže, co o tobě veřejně najde každý."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Digitální identita žádný klasický nástroj nemá, pomoc nemá z čeho vzít."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97"
+      ],
+      "inspiration": [
+        "Po stopách digitální identity"
+      ]
+    },
+    {
+      "slug": "bezpecna-digitalni-identita-v-modelu",
+      "title": "Bezpečná práce s digitální identitou na zkoušku",
+      "aliases": [
+        "bezpečné heslo",
+        "nastavení soukromí",
+        "falešný profil",
+        "zkouška online",
+        "soukromí na internetu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "v simulovaném digitální prostředí nebo v modelové situaci zkouší, jak bezpečně pracovat s digitální identitou"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje roli cizího člověka v chatu, ty zkoušíš, jak odpovíš a co neřekneš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš cvičné scénáře a hry o bezpečném chování online."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nastavení soukromí a správce hesel si můžeš vyzkoušet v ukázkovém účtu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír ani pravítko ti bezpečnou práci online nenacvičí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97"
+      ],
+      "inspiration": [
+        "Po stopách digitální identity"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Popíše, co pro něj znamená rodina",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

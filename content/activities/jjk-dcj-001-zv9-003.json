@@ -1,0 +1,299 @@
+[
+  {
+    "slug": "hledani-informace-v-cizim-materialu",
+    "title": "Hledání informace v cizojazyčném materiálu",
+    "aliases": [
+      "jídelní lístek v cizím jazyce",
+      "jízdní řád v cizině",
+      "najít informaci v letáku",
+      "cizojazyčný plakát",
+      "prospekt"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyhledá v krátkém slovním spojení jednoduchou informaci.",
+        "quote": "Vyhledá v krátkém slovním spojení jednoduchou informaci."
+      },
+      {
+        "level": "Na začátku",
+        "point": "- vyhledá důležitou informaci v autentickém materiálu",
+        "quote": "vyhledá důležitou informaci v autentickém materiálu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- najde a zopakuje znění jednoduché krátké informace, kterou vyhledal v autentickém materiálu - porovná vyhledané informace v různých autentických materiálech",
+        "quote": "najde a zopakuje znění jednoduché krátké informace, kterou vyhledal v autentickém materiálu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce s autentickými texty Nj, Fj",
+        "url": ""
+      },
+      {
+        "title": "Plánování cesty",
+        "url": "https://uloziste.rvp.cz/material/6f6447"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí neznámá slova a ukáže, kde v textu informace stojí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník nebo překladač ti pomůže s neznámými slovy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač přeloží text z fotky a ty si ověříš svůj překlad."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník pomůže s jednotlivými slovy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porozumeni-informacim-v-materialu",
+    "title": "Porozumění informacím v materiálu a odpovědi na otázky",
+    "aliases": [
+      "porozumění textu v cizím jazyce",
+      "odpovědi na otázky k textu",
+      "čtení letáku",
+      "reklama v cizím jazyce",
+      "krátké video"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- porozumí základním informacím, které jsou obsaženy v autentickém materiálu",
+        "quote": "porozumí základním informacím, které jsou obsaženy v autentickém materiálu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Prokáže porozumění konkrétním informacím, které vyhledal v autentickém materiálu, správně odpoví na otázky týkající se textu nebo ústně shrne důležité body z materiálu.",
+        "quote": "správně odpoví na otázky týkající se textu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Porozumění konkrétní informace v autentických materiálech Nj, Fj",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Text vysvětlí jednoduše a ptá se tě na něj, odpovídáš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Online slovník vysvětlí slova, smysl textu ti nedá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti text z fotky převede do češtiny, porozumění si ověříš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník pomůže jen se slovy, ne s celým textem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-informaci-z-materialu",
+    "title": "Porovnání informací z různých materiálů",
+    "aliases": [
+      "porovnat dva jídelní lístky",
+      "porovnat dva letáky",
+      "který je levnější",
+      "rozdíly mezi materiály"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "- najde a zopakuje znění jednoduché krátké informace, kterou vyhledal v autentickém materiálu - porovná vyhledané informace v různých autentických materiálech",
+        "quote": "porovná vyhledané informace v různých autentických materiálech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Porovnávání vyhledané informace v textech Nj, Fj",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Z nahraných materiálů sestaví tabulku rozdílů, kterou zkontroluješ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš další materiály k porovnání, srovnat je musíš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti materiály převede, srovnání je na tobě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírový slovník při porovnávání nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ustni-shrnuti-z-materialu",
+    "title": "Ústní shrnutí důležitých bodů materiálu",
+    "aliases": [
+      "říct, co jsem se dočetl",
+      "ústní shrnutí v cizím jazyce",
+      "vyprávění o textu",
+      "mluvené shrnutí"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prokáže porozumění konkrétním informacím, které vyhledal v autentickém materiálu, správně odpoví na otázky týkající se textu nebo ústně shrne důležité body z materiálu.",
+        "quote": "ústně shrne důležité body z materiálu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Porozumění konkrétní informace v autentických materiálech Nj, Fj",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "V hlasovém režimu si shrnutí vyzkoušíš a dostaneš zpětnou vazbu."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hledat tu není co, shrnout to musíš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti pomůže s větami, mluvit ale musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mluvit za tebe žádný nástroj nebude."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kratky-text-nebo-prezentace-z-materialu",
+    "title": "Krátký text nebo prezentace z materiálů",
+    "aliases": [
+      "napsat shrnutí v cizím jazyce",
+      "prezentace o informacích",
+      "krátký text podle materiálů",
+      "výstup z několika materiálů"
+    ],
+    "outcome": "JJK-DCJ-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří jednoduché shrnutí nebo výstup na základě autentických materiálů, napíše krátký text nebo sestaví prezentaci o informacích, které získal z různých materiálů.",
+        "quote": "Vytvoří jednoduché shrnutí nebo výstup na základě autentických materiálů, napíše krátký text nebo sestaví prezentaci o informacích, které získal z různých materiálů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Devine qui je suis?",
+        "url": "https://uloziste.rvp.cz/material/e84ab5"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí s osnovou a opraví chyby v tvém textu, píšeš ho ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové texty a fráze ti dají oporu při psaní."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a prezentační program pomůžou s větami a vzhledem slidů."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník pomůže se slovy, text napsat musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849",
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

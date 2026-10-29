@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "V učebnici i v návodu narazíš na slova, která neznáš, a jedno nepochopené slovo může změnit význam celé věty. Proto se učíš si porozumění ověřit: zeptat se nebo slovo dohledat ve slovníku. Chatbot ti slovo vysvětlí jednodušeji, ale poznat, že něčemu nerozumíš, musíš ty, a to je na celé věci nejtěžší. V nemocnici nebo v lomu se lidé raději doptají, než by udělali chybu podle špatně pochopeného pokynu. Ve vyšších ročnících na to navážou postupy, jak číst i náročnější texty.",
+  "learnWithAi": [
+    {
+      "title": "Neznámá slova z učebnice",
+      "text": "Vyberte spolu odstavec z učebnice a podtrhněte slova, kterým nerozumíš. Poproste chatbota, ať je vysvětlí jednoduše, a řekni rodiči větu vlastními slovy."
+    },
+    {
+      "title": "Odhad významu z věty",
+      "text": "Požádejte chatbota o krátký text s pěti neobvyklými slovy a zkus význam odhadnout z věty. Chatbot vám pak řekne, jak blízko byl tvůj odhad."
+    },
+    {
+      "title": "Věta se dvěma významy",
+      "text": "Zkuste s rodičem obrácenou hru: chatbot napíše větu, která jde pochopit dvojím způsobem, a vy hledáte, ve kterém slově je ta dvojznačnost."
+    }
+  ]
+}

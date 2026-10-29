@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Na každém obalu potraviny najdeš energetickou hodnotu a tady se ji naučíš přečíst a porovnat s tím, kolik energie spotřebuješ při běhu nebo jízdě na kole. Pochopíš tak, proč se malá svačina sní rychle, ale vyběhat se dá mnohem pomaleji, a líp se rozhoduješ, co a kolik jíst. Denně s tím pracují lidé, kteří sestavují jídelníčky nebo vaří dietní jídla. Sportovní aplikace ti spočítá kalorie sama, jenže údaje o spotřebě při pohybu jsou jen orientační, a když jim rozumíš, nenecháš se čísly v aplikaci zbytečně stresovat.",
+  "learnWithAi": [
+    {
+      "title": "Převody kilojoulů na kalorie",
+      "text": "Požádej chatbota o deset příkladů na převod kilojoulů na kilokalorie a počítej je na papíře. Výsledky mu pošli ke kontrole."
+    },
+    {
+      "title": "Svačina proti pohybu",
+      "text": "Opiš ze své svačiny energetickou hodnotu a nejdřív odhadni, kolik minut běhu ji vyrovná. Potom si nech od chatbota ukázat výpočet a porovnej ho se svým odhadem."
+    },
+    {
+      "title": "Rozbor údaje ze sportovní aplikace",
+      "text": "Pokud máš sportovní aplikaci nebo hodinky, vezmi jejich údaj o spálené energii a nech chatbota vysvětlit, z čeho se počítá. Rozhodni, nakolik je to číslo přesné."
+    }
+  ]
+}

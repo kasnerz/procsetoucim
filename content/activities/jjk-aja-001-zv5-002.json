@@ -1,0 +1,235 @@
+[
+  {
+    "slug": "cteni-znamych-slov-a-vet",
+    "title": "Čtení známých slov a krátkých vět",
+    "aliases": [
+      "anglická slova",
+      "čtení anglicky",
+      "známá slova",
+      "krátké věty",
+      "anglické texty"
+    ],
+    "outcome": "JJK-AJA-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozumí psané podobě slov vztahujících se k jeho preferencím a zájmům.",
+        "quote": "Rozumí psané podobě slov vztahujících se k jeho preferencím a zájmům."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Čte jednotlivá slova a krátké věty, které si již ústně osvojil a jimž rozumí.",
+        "quote": "Čte jednotlivá slova a krátké věty, které si již ústně osvojil a jimž rozumí."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Rozpoznává známé výrazy v krátkých textech.",
+        "quote": "Rozpoznává známé výrazy v krátkých textech."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Čtení jednoduchých slov",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí krátké věty ze slov, která už znáš, a ty si je přečteš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Online slovník ukáže slovo, jeho význam i nahrávku výslovnosti."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač slovo nahlas přečte, takže si ověříš, jak ho čteš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Obrázkový slovník ukáže slovo hned vedle obrázku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porozumeni-kratkemu-textu",
+    "title": "Porozumění krátkému textu: rozhovor, popis, příběh",
+    "aliases": [
+      "anglický text",
+      "rozhovor v angličtině",
+      "příběh anglicky",
+      "Mandy's Birthday",
+      "čtení s porozuměním"
+    ],
+    "outcome": "JJK-AJA-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Čte krátké texty jako rozhovory, jednoduché popisy nebo příběhy a rozumí jejich základnímu obsahu.",
+        "quote": "Čte krátké texty jako rozhovory, jednoduché popisy nebo příběhy a rozumí jejich základnímu obsahu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Čtení krátkých textů",
+        "url": ""
+      },
+      {
+        "title": "Mandy's Birthday",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí slovo nebo větu, které nechápeš, a vymyslí další krátké texty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na webech pro děti najdeš krátké rozhovory a příběhy v jednoduché angličtině."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti dá slovo, které v textu chybí, text ale přečteš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník dá význam slova, které ti v textu chybí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255",
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odhad-vyznamu-neznameho-slova",
+    "title": "Odhad významu neznámého slova podle kontextu",
+    "aliases": [
+      "neznámé slovo",
+      "hádání významu",
+      "slovo z okolí věty",
+      "nerozumím slovu"
+    ],
+    "outcome": "JJK-AJA-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "U neznámých slov se snaží odhadnout jejich význam podle kontextu.",
+        "quote": "U neznámých slov se snaží odhadnout jejich význam podle kontextu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ověří, jestli tvůj odhad sedí, a vysvětlí, podle čeho se dal poznat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Online slovník ukáže, jestli tvůj odhad sedí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač tvůj odhad potvrdí, odhadnout ale musíš první."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník tvůj odhad ověří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fc511e12-fe90-40a0-bec8-227abb5e4255",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "overeni-porozumeni-textu",
+    "title": "Ověření porozumění: informace, otázky, pravda či nepravda",
+    "aliases": [
+      "otázky k textu",
+      "true or false",
+      "najdi informaci v textu",
+      "pravda nebo nepravda",
+      "anglické otázky"
+    ],
+    "outcome": "JJK-AJA-001-ZV5-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porozumění textu prokáže například vyhledáním požadované informace, odpovědí na související otázky, posouzením, zda jsou věty týkající se obsahu textu pravdivé, nebo ne.",
+        "quote": "Porozumění textu prokáže například vyhledáním požadované informace, odpovědí na související otázky, posouzením, zda jsou věty týkající se obsahu textu pravdivé, nebo ne."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Čtení krátkých textů",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí k textu otázky a věty pravda či nepravda a opraví tvé odpovědi."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Odpovědi k tvému textu na webu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Odpověď v textu hledáš ty, překladač ji za tebe nenajde."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravdivost vět posuzuješ čtením, žádný nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2",
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v1",
+      "reviewed": false
+    }
+  }
+]

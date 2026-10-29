@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Příklad 2 + 3 · 4 dá 14, ne 20, protože násobení má přednost, a závorka v (2 + 3) · 4 pořadí změní. Pravidlo je domluva, aby z jednoho zápisu každý spočítal totéž, a stejnou domluvu dodržují tabulky v počítači i programovací jazyky. Kdo zadává vzorec do tabulky, třeba při rozpočtu, a závorku vynechá, dostane chybné číslo a program ho nevaruje. Některé jednoduché kalkulačky navíc počítají popořadě, takže pořadí musíš hlídat ty.",
+  "learnWithAi": [
+    {
+      "title": "Příklady se závorkami",
+      "text": "Poproste s rodičem chatbota o deset příkladů se závorkami i bez nich. Spočítej je a u chyb si nechte ukázat, ve kterém kroku se pořadí pokazilo."
+    },
+    {
+      "title": "Porovnání dvou kalkulaček",
+      "text": "Zkuste příklad 2 + 3 · 4 zadat do kalkulačky v telefonu i do jednoduché kalkulačky a porovnejte výsledky. Pak se chatbota zeptejte, proč se mohou lišit."
+    },
+    {
+      "title": "Chytré přeházení pořadí",
+      "text": "Nechte chatbota napsat příklad, kde se dá chytře přeházet pořadí, třeba 4 · 17 · 25. Najdi rychlejší cestu a vysvětli ji rodiči dřív, než se podíváte na řešení."
+    }
+  ]
+}

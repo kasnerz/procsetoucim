@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "98164d70-93a8-409c-aa9f-7d56314f4d7f": "Čte plány a podle nich určuje, kde se bude materiál řezat. Souřadnice a poloha na ploše se tu používají často, čtvercová síť je jejich nejjednodušší podoba.",
+  "bc6649ff-05f8-4c98-9db6-9be0d13883a9": "Čte plány a nastavuje laser, který řeže kov po vedené dráze. Orientace v ploše se hodí, čtvercová síť ale přijde na řadu jen občas.",
+  "27a88c48-1d09-4a8c-a82a-a61ea16476d9": "Při řízení dronu se podle mapy a plánu orientuje, kde je vlevo, vpravo, vpředu a vzadu. Čtvercová síť je jednoduchý model stejné myšlenky.",
+  "2555a1bc-9f30-4371-9499-64793e48cd55": "Při testování desek s plošnými spoji čte výkresy a hledá místo na desce. Řádek a sloupec je dětská verze tohoto hledání, v praxi to jsou přesnější souřadnice.",
+  "6f7c1e84-8162-4c20-a575-b57ff624eef5": "Při jízdě se čte mapa a určuje, kudy jet. Vpravo a vlevo se tu používá denně, čtvercová síť se ale spíš skrývá za navigací.",
+  "6f74ebc4-ab7e-42a8-ad94-921f3d0ef0c6": "Podle mapy sítě hledá potrubí a místa, kde je závada. Číst mapu s mřížkou je tu běžné, ale hlavní je zacházet s potrubím a stroji.",
+  "3a75b477-e151-40fb-9909-b3641401bfed": "Při kontrole osazených desek čte plány a hledá, kde na desce je která součástka. Podle souřadnic ale většinou hledá stroj, člověk jen kontroluje výsledek.",
+  "31308b0c-a298-4802-a052-4020d22bad57": "Při nastavování pájecího stroje čte rozvržení desky a ví, kde jsou které součástky. Orientace v ploše pomáhá, ale většinu hlídá stroj."
+ }
+}

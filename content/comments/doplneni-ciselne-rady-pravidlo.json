@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Řada 2, 4, 6, 8 pokračuje desítkou, protože se pokaždé přičítá dvojka, a stejně se dá najít i pravidlo, které se opakuje, třeba 1, 3, 1, 3. Doplňování řad trénuje sčítání a násobilku a zároveň učí hledat, co platí pro všechna čísla v řadě. Na tohle navážeš na druhém stupni a ještě později u rovnic. V práci se pravidelnosti v číslech hledají třeba při plánování nákupů, kde se něco opakuje každý týden. Aplikace ti řadu opraví hned, ale chybějící číslo musíš najít ty, jinak si pravidla nevšimneš.",
+  "learnWithAi": [
+    {
+      "title": "Řady s chybějícím číslem",
+      "text": "Požádejte chatbota o deset řad, ve kterých jedno číslo chybí. Doplňte je spolu na papír a teprve pak si nechte výsledky zkontrolovat."
+    },
+    {
+      "title": "Nápověda místo výsledku",
+      "text": "Když řada nejde, zeptejte se chatbota jen na malou nápovědu, výsledek si nenechte prozradit. Pak to s rodičem zkuste znovu."
+    },
+    {
+      "title": "Řada se schovanou chybou",
+      "text": "Ať chatbot vymyslí řadu s jedním špatným číslem uprostřed. Najděte ho spolu a řekněte, jaké pravidlo porušuje."
+    }
+  ]
+}

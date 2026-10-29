@@ -1,0 +1,63 @@
+---
+// The official RVP point(s) a card simplifies, as a clipping stuck onto the sheet below the card name,
+// followed by the simplification rules used. Both are collapsed by default (user).
+import Icon from "./Icon.astro";
+import { outcomes, RULES, type Activity } from "../lib/data";
+interface Props { a: Activity }
+const { a } = Astro.props;
+const o = outcomes[a.outcome];
+const base = import.meta.env.BASE_URL;
+// Split a point into [before, quote, after] when only part of it is used.
+const parts = (s: { point: string; quote: string }) => {
+  const i = s.point.indexOf(s.quote);
+  return i < 0 || s.quote === s.point ? [s.point, "", ""] : [s.point.slice(0, i), s.quote, s.point.slice(i + s.quote.length)];
+};
+---
+<div class="rvp">
+  <details class="src">
+    <summary class="tiny"><Icon name="file-text" size="16" /><span>Oficiální znění v RVP</span><Icon name="chevron-down" size="14" class="chev" /></summary>
+    <div class="clip">
+    <p class="clip-head tiny">
+      <Icon name="file-text" size="16" />
+      <span>Oficiální znění v RVP{o && <>, {o.stageLabel}</>}</span>
+      {o && <a href={o.url} rel="external">prohlednout.rvp.cz</a>}
+    </p>
+    <ul>
+      {a.levelSource.map((s) => {
+        const [b, q, e] = parts(s);
+        return <li><span class="q">„{b}{q && <mark>{q}</mark>}{e}“</span> <span class="lv tiny">{s.level}</span></li>;
+      })}
+    </ul>
+    </div>
+    <p class="how tiny">
+      <span>Zjednodušeno z oficiálního znění podle pravidel</span>
+      {a.rules.map((r) => <a class="rule" href={`${base}o-projektu/#pravidla`} title={RULES[r].text}>{RULES[r].name}</a>)}
+    </p>
+  </details>
+</div>
+<style>
+  .rvp { display: grid; justify-items: center; }
+  .src { display: grid; justify-items: center; gap: var(--s2); }
+  .src summary {
+    display: inline-flex; align-items: center; gap: 6px; cursor: pointer; list-style: none;
+    padding: 2px 10px; font-weight: 600; color: var(--ink-soft); background: var(--box-line) 0 0 / 100% 100% no-repeat;
+  }
+  .src summary::-webkit-details-marker { display: none; }
+  .src summary:hover { color: var(--blue); }
+  .src[open] summary :global(.chev) { transform: rotate(180deg); }
+  /* A strip cut out of the official document and taped on. */
+  .clip {
+    position: relative; max-width: 62ch; padding: 12px 18px 12px; text-align: left;
+    background: #fff; box-shadow: 0 0 0 1px #e3e6ea; transform: rotate(-0.6deg);
+    clip-path: polygon(0 3px, 22% 0, 51% 2px, 80% 0, 100% 2px, calc(100% - 2px) 50%, 100% calc(100% - 2px), 72% 100%, 40% calc(100% - 3px), 12% 100%, 1px calc(100% - 1px), 2px 45%);
+  }
+  .clip-head { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; color: var(--ink-soft); font-weight: 600; margin-bottom: 4px; }
+  .clip-head a { font-weight: 500; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+  .q { font-size: 0.9375rem; line-height: 1.45; }
+  mark { background: var(--hl-blue) 0 90% / 100% 0.7em no-repeat; color: inherit; padding-inline: 1px; }
+  .lv { color: var(--ink-soft); white-space: nowrap; }
+  .how { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4px 8px; color: var(--ink-soft); }
+  .rule { font-weight: 600; text-decoration: none; padding: 0 8px; background: var(--box-line) 0 0 / 100% 100% no-repeat; color: var(--ink); }
+  .rule:hover { color: var(--blue); }
+</style>

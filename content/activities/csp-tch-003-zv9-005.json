@@ -1,0 +1,452 @@
+[
+  {
+    "slug": "technicka-dokumentace-vlastni-konstrukce",
+    "title": "Technická dokumentace vlastní konstrukce",
+    "aliases": [
+      "technický výkres",
+      "nákres konstrukce",
+      "schéma zapojení",
+      "plánek modelu",
+      "dokumentace ke stavebnici"
+    ],
+    "outcome": "CSP-TCH-003-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "prohlubuje své znalosti a dovednosti týkající se tvorby technické dokumentace",
+        "quote": "prohlubuje své znalosti a dovednosti týkající se tvorby technické dokumentace"
+      },
+      {
+        "level": "Na začátku",
+        "point": "dle pokynu učitele vytváří jednoduchou technickou dokumentaci i s využitím digitálních technologií",
+        "quote": "dle pokynu učitele vytváří jednoduchou technickou dokumentaci i s využitím digitálních technologií"
+      },
+      {
+        "level": "Na cestě",
+        "point": "samostatně nebo ve spolupráci se spolužáky vytváří technickou dokumentaci i s využitím digitálních technologií",
+        "quote": "samostatně nebo ve spolupráci se spolužáky vytváří technickou dokumentaci i s využitím digitálních technologií"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Elektro stavebnice Boffin",
+        "url": "https://uloziste.rvp.cz/material/330082"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co do výkresu patří, a poradí s popisky a značkami."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu značky a ukázkové výkresy, podle kterých svůj nakreslíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí a CAD aplikace ti pomůžou udělat čistý výkres a schéma."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko, tužka a čtverečkovaný papír stačí na výkres, který nakreslíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2",
+      "http://data.europa.eu/esco/skill/3c333552-8d89-43f5-90bd-856e15bec433"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stavba-podle-dokumentace-boffin-konstrukce",
+    "title": "Stavba podle technické dokumentace",
+    "aliases": [
+      "stavba podle návodu",
+      "čtení schématu",
+      "stavebnice Boffin",
+      "sestavení modelu",
+      "zapojení obvodu podle plánku"
+    ],
+    "outcome": "CSP-TCH-003-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vytváří dle návodu přiměřeně složitou konstrukci, model za dodržení základních zásad hygieny a bezpečnosti práce.",
+        "quote": "Vytváří dle návodu přiměřeně složitou konstrukci, model za dodržení základních zásad hygieny a bezpečnosti práce."
+      },
+      {
+        "level": "Na začátku",
+        "point": "postupuje podle jednoduché technické dokumentace a dodržuje platný postup",
+        "quote": "postupuje podle jednoduché technické dokumentace a dodržuje platný postup"
+      },
+      {
+        "level": "Na cestě",
+        "point": "na základě pokynu učitele konstruuje podle různých typů technické dokumentace",
+        "quote": "na základě pokynu učitele konstruuje podle různých typů technické dokumentace"
+      },
+      {
+        "level": "Splněno",
+        "point": "Postupuje podle technické dokumentace a dodržuje platný postup v modelových situacích.",
+        "quote": "Postupuje podle technické dokumentace a dodržuje platný postup v modelových situacích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Stavebnice Merkur",
+        "url": "https://uloziste.rvp.cz/material/c4566e"
+      },
+      {
+        "title": "Konstrukční činnosti s využitím elektronické stavebnice Boffin",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co znamená značka nebo krok ve schématu, když ho nechápeš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu návody a schémata ke stavebnicím a vysvětlení značek."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace ke stavebnici nebo simulátor obvodů ukáže, jak má zapojení vypadat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Šroubovák, kleště a díly stavebnice potřebuješ k tomu, abys model opravdu postavit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2feeef46-05cf-445c-9ca1-c96a30e10106",
+      "http://data.europa.eu/esco/skill/b07daddc-8625-4360-946e-ad2b0e56ebf6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "funkcni-a-staticke-modely-konstrukce",
+    "title": "Funkční a statické modely",
+    "aliases": [
+      "pohyblivý model",
+      "model mostu",
+      "stavba modelu",
+      "dynamický model",
+      "Merkur"
+    ],
+    "outcome": "CSP-TCH-003-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě pokynu učitele vytváří funkční i statické technické modely a konstrukce",
+        "quote": "na základě pokynu učitele vytváří funkční i statické technické modely a konstrukce"
+      },
+      {
+        "level": "Splněno",
+        "point": "Systematicky a účelně vytváří funkční i statické technické modely a konstrukce.",
+        "quote": "Systematicky a účelně vytváří funkční i statické technické modely a konstrukce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Stavebnice Merkur",
+        "url": "https://uloziste.rvp.cz/material/c4566e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Model sestavuješ rukama ty, chatbot ti ho nepostaví."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotový návod najdeš, ale model postavíš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace model za tebe nesestaví, spojuješ díly rukama."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stavebnice, šroubovák a kleště jsou to, z čeho model vzniká."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+      "http://data.europa.eu/esco/skill/26071360-b2b1-4089-9c73-b51792b29ed5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-navrh-konstrukce-experiment",
+    "title": "Vlastní návrh a zkoušení konstrukce",
+    "aliases": [
+      "vymyslet vlastní model",
+      "experimenty se stavebnicí",
+      "tvůrčí řešení",
+      "vlastní konstrukce",
+      "vynálezy"
+    ],
+    "outcome": "CSP-TCH-003-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Postupuje vlastním tvůrčím procesem k funkční konstrukci.",
+        "quote": "Postupuje vlastním tvůrčím procesem k funkční konstrukci."
+      },
+      {
+        "level": "Na cestě",
+        "point": "experimentuje při konstrukčních činnostech",
+        "quote": "experimentuje při konstrukčních činnostech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Elektro stavebnice Boffin",
+        "url": "https://uloziste.rvp.cz/material/330082"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne nápady, co postavit a jak spojit díly, vybíráš a zkoušíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky podobných konstrukcí ti dají inspiraci pro vlastní návrh."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "3D modelování a simulátory ukážou návrh dřív, než ho postavíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Díly stavebnice ti dovolí nápad hned vyzkoušet rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d41cca-3bc9-4d2a-ae09-436dabe86e21",
+      "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hodnoceni-funkcnosti-nosnost-konstrukce",
+    "title": "Hodnocení funkčnosti a správnosti konstrukce",
+    "aliases": [
+      "nosnost a stabilita",
+      "funguje model",
+      "zkouška konstrukce",
+      "test modelu",
+      "kontrola zapojení"
+    ],
+    "outcome": "CSP-TCH-003-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "řízeně hodnotí funkčnost a správnost konstrukce nebo modelu",
+        "quote": "řízeně hodnotí funkčnost a správnost konstrukce nebo modelu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě poznatků z různých vědních oborů vyhodnotí funkčnost a správnost konstrukce nebo modelu podle vybraných hledisek.",
+        "quote": "Na základě poznatků z různých vědních oborů vyhodnotí funkčnost a správnost konstrukce nebo modelu podle vybraných hledisek."
+      },
+      {
+        "level": "Na začátku",
+        "point": "hodnotí funkčnost a správnost konstrukce nebo modelu a navrhuje úpravy nebo vlastní tvůrčí řešení",
+        "quote": "hodnotí funkčnost a správnost konstrukce nebo modelu a navrhuje úpravy nebo vlastní tvůrčí řešení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Konstrukční činnosti s využitím elektrotechnické Stavebnice Boffin",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, co a podle čeho u modelu zkoušet, třeba nosnost nebo stabilitu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu princip, podle kterého se nosnost a stabilita posuzují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace obvodu nebo konstrukce předem ukáže slabé místo."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Závaží, měřák nebo žárovka při zkoušce ukážou, jestli model drží a svítí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+      "http://data.europa.eu/esco/skill/42b23922-1c40-4dbe-9e0c-7a568dfdf06b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "oprava-chyby-v-konstrukci-postup",
+    "title": "Hledání a oprava chyby v konstrukci",
+    "aliases": [
+      "proč to nefunguje",
+      "oprava modelu",
+      "odladění zapojení",
+      "chyba ve stavbě",
+      "úprava postupu"
+    ],
+    "outcome": "CSP-TCH-003-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "pracuje s chybou jako součástí konstrukčního procesu, hledá a navrhuje řešení v podobě úpravy technologického postupu",
+        "quote": "pracuje s chybou jako součástí konstrukčního procesu, hledá a navrhuje řešení v podobě úpravy technologického postupu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Identifikuje chybu nebo problém a navrhuje a realizuje možné úpravy technologického postupu.",
+        "quote": "Identifikuje chybu nebo problém a navrhuje a realizuje možné úpravy technologického postupu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Z popisu závady navrhne, kde chybu hledat, ověřit ji musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu typické závady a jejich opravy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace obvodu pomůže odhalit, kde je zapojení špatně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Měřák a vlastní oči ukážou, kde se obvod nebo spoj přerušil."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919",
+      "http://data.europa.eu/esco/skill/42b23922-1c40-4dbe-9e0c-7a568dfdf06b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bezpecnost-pri-konstrukci-boffin-merkur",
+    "title": "Bezpečnost a hygiena při konstrukčních činnostech",
+    "aliases": [
+      "bezpečnost při práci",
+      "BOZP",
+      "ochrana při stavění",
+      "úraz v dílně",
+      "bezpečná práce s elektřinou"
+    ],
+    "outcome": "CSP-TCH-003-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "dodržuje bezpečnost a hygienu při konstrukčních činnostech",
+        "quote": "dodržuje bezpečnost a hygienu při konstrukčních činnostech"
+      },
+      {
+        "level": "Splněno",
+        "point": "Dodržuje bezpečnost a hygienu při konstrukčních činnostech, uvědomuje si význam i důsledky při jejich nedodržení.",
+        "quote": "Dodržuje bezpečnost a hygienu při konstrukčních činnostech, uvědomuje si význam i důsledky při jejich nedodržení."
+      },
+      {
+        "level": "Na začátku",
+        "point": "dodržuje bezpečnost a hygienu při konstrukčních činnostech podle pokynů učitele",
+        "quote": "dodržuje bezpečnost a hygienu při konstrukčních činnostech podle pokynů učitele"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se pravidla dodržují a co hrozí, když ne."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu pravidla bezpečné práce s nářadím a elektřinou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe pravidla nedodrží, ruce i nářadí hlídáš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Brýle, rukavice a správně držené nářadí tě chrání při práci."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dcc96a49-0bac-4a9c-8f8e-a32b4e47e6eb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

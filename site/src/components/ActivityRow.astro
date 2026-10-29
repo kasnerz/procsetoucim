@@ -1,0 +1,10 @@
+---
+// One card in a ruled list: name, a meta line and the compact tool verdicts.
+import ToolMarks from "./ToolMarks.astro";
+import { outcomes, type Activity } from "../lib/data";
+interface Props { a: Activity; meta?: string }
+const { a, meta } = Astro.props;
+const o = outcomes[a.outcome];
+const base = import.meta.env.BASE_URL;
+---
+<li><a href={`${base}aktivita/${a.slug}/`}><span class="rname">{a.title}</span><span class="meta">{meta ?? (o ? `${o.subject.name} · ${o.stageLabel}` : "")}</span><span class="right"><ToolMarks a={a} /></span></a></li>

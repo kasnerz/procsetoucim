@@ -1,0 +1,347 @@
+{
+  "outcome": "MAT-MAT-002-ZV5-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "mereni-krokem-provazkem",
+      "title": "Měření krokem, provázkem a dřívkem",
+      "aliases": [
+        "měření kroky",
+        "měření palci",
+        "nestandardní jednotky",
+        "změř provázkem",
+        "odhad délky krokem"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Změří a porovná délky, obsahy, objemy pomocí nestandardních jednotek"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Odhadne délku, obsah a objem použitím nestandardní jednotky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Kroky a provázek přikládáš ty, chatbot ti nic neodměří."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Kolik kroků má tvoje třída, na internetu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nezná tvůj krok ani tvůj provázek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko ti ukáže, kolik centimetrů má tvůj krok nebo dřívko."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"
+      ],
+      "inspiration": [
+        "Měření ve třídě",
+        "Metr, metr, knihometr?"
+      ]
+    },
+    {
+      "slug": "delky-metr-centimetr",
+      "title": "Měření a odhad délek v centimetrech a metrech",
+      "aliases": [
+        "pravítko",
+        "metr",
+        "centimetry",
+        "odhad délky",
+        "porovnání délek",
+        "jak změřit délku"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Využívá standardní jednotky délky k měření a porovnávání."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Změří, porovná a odhadne délky použitím standardní jednotky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak převádět milimetry, centimetry a metry, a zadá ti úlohy na odhad."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tabulku jednotek a běžné délky, třeba výšku dveří, se kterými si odhad porovnáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na převod jednotek zkontroluje tvoje přepočty mezi centimetry a metry."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko a svinovací metr změří délku přesně a ukážou, jak blízko byl tvůj odhad."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Měření ve třídě",
+        "Metr, metr, knihometr?"
+      ]
+    },
+    {
+      "slug": "obsah-ctverecky-mrizka",
+      "title": "Obsah útvaru ve čtvercové síti",
+      "aliases": [
+        "počítání čtverečků",
+        "obsah ve čtvercové síti",
+        "mřížový útvar",
+        "obsah čtverečky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Určí obsah mřížového útvaru ve čtvercové síti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak čtverečky počítat, a vymyslí ti další útvary na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vysvětlení obsahu a obrázky útvarů, podle kterých si zkontroluješ výsledek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s kreslením do sítě ti útvar spočítá a ověří tvůj výsledek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Čtverečkovaný papír a tužka: útvar obkreslíš a čtverečky přeškrtáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Mřížový útvar ve čtvercové síti"
+      ]
+    },
+    {
+      "slug": "objem-jednotkove-krychle",
+      "title": "Objem tělesa z jednotkových krychlí",
+      "aliases": [
+        "objem krychlemi",
+        "stavba z kostek",
+        "kolik kostek",
+        "objem tělesa",
+        "jednotkové krychle"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vyjádří objem krychlového tělesa pomocí jednotkových krychlí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak kostky počítat po vrstvách, a zadá ti stavby k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš obrázky staveb z kostek, podle kterých si ověříš počet."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se stavěním z krychlí ti ukáže těleso z různých stran a spočítá kostky."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Skutečné kostky si vezmeš do ruky, postavíš těleso a spočítáš je po vrstvách."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Objem tělesa vyplňováním krychlemi"
+      ]
+    },
+    {
+      "slug": "obsah-mnohouhelnik-rozdeleni",
+      "title": "Obsah mnohoúhelníku rozdělením na části",
+      "aliases": [
+        "obsah obrazce",
+        "rozdělit na obdélníky",
+        "doplnit na obdélník",
+        "obsah mnohoúhelníku",
+        "obsah složitého tvaru"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Určí obsah mnohoúhelníku pomocí jeho rozdělení nebo doplnění na útvar tak, aby obsah snadno zjistil."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kam útvar rozdělit, a zkontroluje ti postup krok za krokem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzorce obsahu a vyřešené příklady, se kterými svůj postup porovnáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s geometrií útvar rozdělí na části a ukáže, jak vychází součet obsahů."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, nůžky a pravítko: útvar rozstřihneš a části poskládáš jinak."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Mřížový útvar ve čtvercové síti"
+      ]
+    },
+    {
+      "slug": "obvod-obsah-ulohy-pokoj",
+      "title": "Obvod a obsah v úlohách ze života",
+      "aliases": [
+        "obvod a obsah",
+        "slovní úlohy obvod",
+        "kolik plotu",
+        "kolik podlahy",
+        "obvod 12 cm",
+        "obsah pokoje"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy s reálným kontextem týkající se míry mnohoúhelníku (obvodu, obsahu)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere zadání slovní úlohy a ukáže, kterou míru máš použít."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzorce a vyřešené slovní úlohy k porovnání."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulková aplikace nebo kalkulačka ti přepočítá obvod i obsah."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka zkontroluje výpočet, metr změří skutečné rozměry pokoje nebo zahrady."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Obvod 12 cm"
+      ]
+    },
+    {
+      "slug": "povrch-objem-ulohy-bazen",
+      "title": "Povrch a objem krychlového tělesa v úlohách",
+      "aliases": [
+        "povrch kvádru",
+        "objem kvádru",
+        "slovní úlohy objem",
+        "kolik vody se vejde",
+        "povrch krychle",
+        "obklad krychle"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "míry krychlového tělesa (povrchu a objemu)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere zadání úlohy a ukáže, kdy se hledá povrch a kdy objem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzorce a vyřešené úlohy, se kterými svůj výsledek porovnáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace nebo tabulka dopočítá povrch a objem podle rozměrů."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka zkontroluje výpočet, krabici si můžeš změřit a rozstřihnout."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Objem tělesa vyplňováním krychlemi"
+      ]
+    }
+  ],
+  "aside": []
+}

@@ -1,0 +1,307 @@
+<title>Směrovka písma</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shantell+Sans:wght@400;600;700&family=Playpen+Sans:wght@400;600;700&family=Sofia+Sans+Extra+Condensed:wght@500;700;800&family=Big+Shoulders:wght@500;700;800&family=Anybody:wdth,wght@50..150,400..800&family=Atkinson+Hyperlegible+Next:wght@400;700&family=Andika:wght@400;700&family=Lexend:wght@400;600&family=Commissioner:wght@400;600&display=swap">
+<style>
+/* Layout: control strip on top, then one activity-page mock in the Směrovka world (white plates on a pale trail-grey ground), then side-by-side specimens. Light only, by product decision. */
+:root {
+  --ground: #eef0ec;      /* pale grey-green, like weathered signpost backing */
+  --plate: #ffffff;
+  --ink: #16191a;
+  --ink-soft: #4b5150;
+  --line: #c9cdc8;
+  --kct-red: #d52b1e;
+  --kct-blue: #0057a8;
+  --kct-green: #00924a;
+  --kct-yellow: #f6c800;
+  --focus: #0057a8;
+  --title-font: "Patrick Hand", "Comic Sans MS", system-ui, sans-serif;
+  --title-scale: 1.15;
+  --title-weight: 400;
+  --title-stretch: normal;
+  --body-font: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+  --ui-font: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--ui-font);
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 64px;
+}
+.wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 40px; }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+/* intro + controls */
+.intro { display: grid; gap: 8px; max-width: 68ch; }
+.intro h1 { font-size: 1.6rem; font-weight: 700; }
+.intro p { margin: 0; color: var(--ink-soft); }
+.controls { display: grid; gap: 16px; background: var(--plate); border: 1px solid var(--line); padding: 16px; }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 8px; min-width: 0; }
+legend { font-weight: 700; padding: 0; margin-bottom: 8px; }
+.opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.opts label { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); padding: 6px 12px; cursor: pointer; background: var(--plate); }
+.opts label:hover { border-color: var(--ink); }
+.opts input { accent-color: var(--ink); margin: 0; }
+.opts label:has(input:checked) { border-color: var(--ink); background: var(--ground); }
+.note { font-size: .875rem; color: var(--ink-soft); margin: 0; }
+
+/* the mock */
+.mock { background: var(--plate); border: 1px solid var(--line); min-width: 0; }
+.mock-flag { margin: 0; padding: 8px 16px; font-size: .8125rem; color: var(--ink-soft); border-bottom: 1px solid var(--line); }
+.site { font-family: var(--body-font); padding: 20px clamp(16px, 4vw, 40px) 40px; display: grid; gap: 28px; }
+.t { font-family: var(--title-font); font-weight: var(--title-weight); font-stretch: var(--title-stretch); }
+
+.masthead { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding-bottom: 16px; border-bottom: 2px solid var(--ink); }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand .t { font-size: calc(1.5rem * var(--title-scale)); line-height: 1; }
+.search { flex: 1 1 240px; max-width: 360px; display: flex; }
+.search input { width: 100%; font: inherit; font-size: 1rem; padding: 8px 12px; border: 2px solid var(--ink); background: var(--plate); color: var(--ink); }
+
+.mark { display: inline-block; width: 26px; height: 18px; flex: none; border: 1px solid var(--line); background: linear-gradient(var(--plate) 0 33%, var(--c, var(--ink)) 33% 67%, var(--plate) 67%); }
+
+.crumbs { font-size: .9375rem; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.crumbs span[aria-hidden] { color: var(--line); }
+
+.lead { display: grid; gap: 14px; max-width: 64ch; }
+.lead h2 { font-size: calc(2.4rem * var(--title-scale)); line-height: 1.05; }
+.lead p { margin: 0; font-size: 1.1875rem; line-height: 1.55; }
+
+.need { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.need-q { font-size: 1rem; color: var(--ink-soft); }
+.steps { display: inline-flex; gap: 3px; }
+.steps i { width: 22px; height: 12px; border: 2px solid var(--ink); }
+.steps i.on { background: var(--ink); }
+.need-label { font-size: calc(1.25rem * var(--title-scale)); }
+.est { font-size: .875rem; color: var(--ink-soft); }
+
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 28px 40px; }
+.block { display: grid; gap: 12px; align-content: start; min-width: 0; }
+.block h3 { font-size: calc(1.375rem * var(--title-scale)); line-height: 1.1; }
+
+.tools { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.tools li { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; align-items: center; }
+.tools .name { font-weight: 700; }
+.tools .verdict { grid-column: 2; font-size: .9375rem; color: var(--ink-soft); }
+
+.post { display: grid; gap: 6px; }
+.plate { background: var(--ink); padding: 2px; clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 0 100%); }
+.plate > span { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; background: var(--plate); padding: 8px 34px 8px 12px; clip-path: polygon(0 0, calc(100% - 19px) 0, 100% 50%, calc(100% - 19px) 100%, 0 100%); }
+.plate .dest { font-family: var(--title-font); font-weight: var(--title-weight); font-stretch: var(--title-stretch); font-size: calc(1.125rem * var(--title-scale)); line-height: 1.15; }
+.plate .dist { font-size: .875rem; color: var(--ink-soft); white-space: nowrap; font-variant-numeric: tabular-nums; }
+a.plate { text-decoration: none; display: block; }
+a.plate:hover > span { background: var(--ground); }
+
+.route { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.route li { display: grid; grid-template-columns: 1fr auto; gap: 2px 16px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.route .rname { font-family: var(--title-font); font-weight: var(--title-weight); font-stretch: var(--title-stretch); font-size: calc(1.125rem * var(--title-scale)); }
+.route .meta { grid-column: 1; font-size: .875rem; color: var(--ink-soft); }
+.route .steps { grid-row: 1 / span 2; grid-column: 2; align-self: center; }
+.route .steps i { width: 14px; height: 9px; }
+.q { font-size: .9375rem; color: var(--ink-soft); }
+
+/* specimens */
+.spec h2 { font-size: 1.25rem; margin-bottom: 12px; }
+.spec-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 12px; }
+.card { background: var(--plate); border: 1px solid var(--line); padding: 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.card button { justify-self: start; font: inherit; font-size: .875rem; padding: 4px 10px; border: 1px solid var(--ink); background: var(--plate); color: var(--ink); cursor: pointer; }
+.card button:hover { background: var(--ground); }
+.card .fname { font-weight: 700; font-family: var(--ui-font); }
+.card .about { font-size: .8125rem; color: var(--ink-soft); margin: 0; }
+.card .big { font-size: 2.2rem; line-height: 1.05; margin: 4px 0 0; overflow-wrap: anywhere; }
+.card .mid { font-size: 1.25rem; line-height: 1.2; margin: 0; }
+.card .para { font-size: 1.0625rem; line-height: 1.55; margin: 0; }
+</style>
+
+<div class="wrap">
+  <header class="intro">
+    <h1>Font preview for Proč se to učím?</h1>
+    <p>Pick one title face and one body face. The mock below switches live. All candidates are Google Fonts with full Czech diacritics. Everything in the mock is placeholder layout: no verdicts, jobs or numbers are real yet.</p>
+  </header>
+
+  <section class="controls" aria-label="Font choice">
+    <fieldset>
+      <legend>Title face</legend>
+      <div class="opts" id="title-opts"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Body face</legend>
+      <div class="opts" id="body-opts"></div>
+    </fieldset>
+    <p class="note">Trail colours mark the four tool categories. The 1–4 scale answers "Potřebuješ to umět sám/sama?" in a single colour.</p>
+  </section>
+
+  <article class="mock" aria-label="Activity page mock">
+    <p class="mock-flag">Ukázka rozvržení. Text, hodnocení ani povolání nejsou hotový obsah.</p>
+    <div class="site">
+      <div class="masthead">
+        <a class="brand" href="#top"><span class="mark" aria-hidden="true"></span><span class="t">Proč se to učím?</span></a>
+        <form class="search" role="search" onsubmit="event.preventDefault()">
+          <input id="q" type="search" aria-label="Hledat" placeholder="Co se zrovna učíš? Třeba násobilka">
+        </form>
+      </div>
+
+      <nav class="crumbs" aria-label="Kde jsi">
+        <a href="#top">Matematika</a><span aria-hidden="true">›</span>
+        <a href="#top">4. třída</a><span aria-hidden="true">›</span>
+        <span>Čísla a počítání</span>
+      </nav>
+
+      <div class="lead">
+        <h2 class="t">Písemné násobení</h2>
+        <p>Kalkulačka to spočítá za tebe, rychleji a bez chyb. Postup na papíře se ti hodí hlavně proto, že z něj vidíš, jak násobení funguje. Stejný postup pak použiješ u písemného dělení.</p>
+        <div class="need">
+          <span class="need-q">Potřebuješ to umět sám nebo sama?</span>
+          <span class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i></span>
+          <span class="need-label t">Občas se hodí</span>
+          <span class="est">odhad, 2 ze 4</span>
+        </div>
+      </div>
+
+      <div class="cols">
+        <section class="block">
+          <h3 class="t">Nástroje</h3>
+          <ul class="tools">
+            <li><span class="mark" style="--c: var(--kct-red)" aria-hidden="true"></span><span class="name">AI chatbot</span><span class="verdict">Udělá to za tebe</span></li>
+            <li><span class="mark" style="--c: var(--kct-blue)" aria-hidden="true"></span><span class="name">Internet a další zdroje</span><span class="verdict">Pomůže ti</span></li>
+            <li><span class="mark" style="--c: var(--kct-green)" aria-hidden="true"></span><span class="name">Aplikace</span><span class="verdict">Udělá to za tebe</span></li>
+            <li><span class="mark" style="--c: var(--kct-yellow)" aria-hidden="true"></span><span class="name">Klasický nástroj</span><span class="verdict">Udělá to za tebe (kalkulačka)</span></li>
+          </ul>
+        </section>
+
+        <section class="block">
+          <h3 class="t">Kam to vede</h3>
+          <div class="post">
+            <a class="plate" href="#top"><span><span class="dest">Účetní</span><span class="dist">… % lidí v ČR</span></span></a>
+            <a class="plate" href="#top"><span><span class="dest">Stavební technik</span><span class="dist">… % lidí v ČR</span></span></a>
+            <a class="plate" href="#top"><span><span class="dest">Prodavač, prodavačka</span><span class="dist">… % lidí v ČR</span></span></a>
+          </div>
+        </section>
+
+        <section class="block">
+          <h3 class="t">Co na tom stavíš dál</h3>
+          <div class="post">
+            <a class="plate" href="#top"><span><span class="dest">Písemné dělení</span><span class="dist">5. třída</span></span></a>
+            <a class="plate" href="#top"><span><span class="dest">Desetinná čísla</span><span class="dist">6.–7. třída</span></span></a>
+          </div>
+        </section>
+
+        <section class="block">
+          <h3 class="t">Hledání</h3>
+          <span class="q">Hledáš: „násob“</span>
+          <ul class="route">
+            <li><span class="rname">Malá násobilka</span><span class="meta">Matematika · 2.–3. třída</span><span class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></li>
+            <li><span class="rname">Písemné násobení</span><span class="meta">Matematika · 4. třída</span><span class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i></i></span></li>
+            <li><span class="rname">Násobení zlomků</span><span class="meta">Matematika · 7. třída</span><span class="steps" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <section class="spec" aria-labelledby="spec-t">
+    <h2 id="spec-t">Title faces side by side</h2>
+    <div class="spec-grid" id="title-cards"></div>
+  </section>
+
+  <section class="spec" aria-labelledby="spec-b">
+    <h2 id="spec-b">Body faces side by side</h2>
+    <div class="spec-grid" id="body-cards"></div>
+  </section>
+</div>
+
+<script>
+const TITLES = [
+  { id: "patrick", name: "Patrick Hand", stack: '"Patrick Hand", "Comic Sans MS", system-ui, sans-serif', scale: 1.15, weight: 400, stretch: "normal", about: "Handwriting, one weight. Your suggestion." },
+  { id: "shantell", name: "Shantell Sans", stack: '"Shantell Sans", system-ui, sans-serif', scale: 1, weight: 600, stretch: "normal", about: "Marker handwriting with real weights. Looser and livelier than Patrick Hand." },
+  { id: "playpen", name: "Playpen Sans", stack: '"Playpen Sans", system-ui, sans-serif', scale: 0.95, weight: 600, stretch: "normal", about: "Casual handwriting, rounder and steadier. Several weights." },
+  { id: "sofia", name: "Sofia Sans Extra Condensed", stack: '"Sofia Sans Extra Condensed", "Arial Narrow", sans-serif', scale: 1.25, weight: 800, stretch: "normal", about: "Condensed grotesk, closest to real signpost lettering. No handwriting." },
+  { id: "shoulders", name: "Big Shoulders", stack: '"Big Shoulders", "Arial Narrow", sans-serif', scale: 1.2, weight: 800, stretch: "normal", about: "Condensed, drawn from city signage. Tall and firm." },
+  { id: "anybody", name: "Anybody", stack: '"Anybody", system-ui, sans-serif', scale: 1.05, weight: 750, stretch: "70%", about: "Variable width display, here narrowed. Quirky without being childish." }
+];
+const BODIES = [
+  { id: "atkinson", name: "Atkinson Hyperlegible Next", stack: '"Atkinson Hyperlegible Next", system-ui, sans-serif', about: "Made by the Braille Institute for legibility: letters that are easy to tell apart." },
+  { id: "andika", name: "Andika", stack: '"Andika", system-ui, sans-serif', about: "SIL typeface designed for beginning readers. Simple, open letterforms." },
+  { id: "lexend", name: "Lexend", stack: '"Lexend", system-ui, sans-serif', about: "Wide, even spacing, made to ease reading. Feels modern." },
+  { id: "commissioner", name: "Commissioner", stack: '"Commissioner", system-ui, sans-serif', about: "Calm grotesk with a little character. The most neutral option." }
+];
+const SAMPLE_TITLE = "Vyjmenovaná slova po B";
+const SAMPLE_MID = "Kam to vede · Co na tom stavíš dál";
+const PANGRAM = "Příliš žluťoučký kůň úpěl ďábelské ódy.";
+const PARA = "Kontrola pravopisu ti většinu chyb v i a y opraví sama. Když ale píšeš rukou, třeba v testu nebo do přáníčka, nikdo ti nepomůže. Proto se vyjmenovaná slova pořád učí, i když je počítač zvládne bez tebe.";
+
+const root = document.documentElement;
+function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+
+function applyTitle(f) {
+  root.style.setProperty("--title-font", f.stack);
+  root.style.setProperty("--title-scale", f.scale);
+  root.style.setProperty("--title-weight", f.weight);
+  root.style.setProperty("--title-stretch", f.stretch);
+  document.getElementById("t-" + f.id).checked = true;
+  store("pstu-title", f.id);
+}
+function applyBody(f) {
+  root.style.setProperty("--body-font", f.stack);
+  document.getElementById("b-" + f.id).checked = true;
+  store("pstu-body", f.id);
+}
+
+function option(group, prefix, f, onPick) {
+  const label = document.createElement("label");
+  const input = document.createElement("input");
+  input.type = "radio"; input.name = group; input.id = prefix + f.id; input.value = f.id;
+  input.addEventListener("change", () => onPick(f));
+  label.append(input, document.createTextNode(f.name));
+  return label;
+}
+
+const titleOpts = document.getElementById("title-opts");
+const bodyOpts = document.getElementById("body-opts");
+TITLES.forEach(f => titleOpts.append(option("title", "t-", f, applyTitle)));
+BODIES.forEach(f => bodyOpts.append(option("body", "b-", f, applyBody)));
+
+const titleCards = document.getElementById("title-cards");
+TITLES.forEach(f => {
+  const c = document.createElement("div"); c.className = "card";
+  const style = `font-family:${f.stack};font-weight:${f.weight};font-stretch:${f.stretch}`;
+  c.innerHTML = `<span class="fname"></span><p class="about"></p>
+    <p class="big" style="${style};font-size:${2.2 * f.scale}rem"></p>
+    <p class="mid" style="${style};font-size:${1.25 * f.scale}rem"></p>
+    <p class="mid" style="${style};font-size:${1.25 * f.scale}rem"></p>
+    <button type="button">Use in mock</button>`;
+  c.querySelector(".fname").textContent = f.name;
+  c.querySelector(".about").textContent = f.about;
+  const mids = c.querySelectorAll(".mid");
+  c.querySelector(".big").textContent = SAMPLE_TITLE;
+  mids[0].textContent = SAMPLE_MID;
+  mids[1].textContent = PANGRAM;
+  c.querySelector("button").addEventListener("click", () => { applyTitle(f); document.querySelector(".mock").scrollIntoView({ block: "start" }); });
+  titleCards.append(c);
+});
+
+const bodyCards = document.getElementById("body-cards");
+BODIES.forEach(f => {
+  const c = document.createElement("div"); c.className = "card";
+  c.innerHTML = `<span class="fname"></span><p class="about"></p><p class="para" style="font-family:${f.stack}"></p><p class="para" style="font-family:${f.stack};font-weight:700"></p><button type="button">Use in mock</button>`;
+  c.querySelector(".fname").textContent = f.name;
+  c.querySelector(".about").textContent = f.about;
+  const p = c.querySelectorAll(".para");
+  p[0].textContent = PARA;
+  p[1].textContent = PANGRAM;
+  c.querySelector("button").addEventListener("click", () => { applyBody(f); document.querySelector(".mock").scrollIntoView({ block: "start" }); });
+  bodyCards.append(c);
+});
+
+applyTitle(TITLES.find(f => f.id === load("pstu-title")) || TITLES[0]);
+applyBody(BODIES.find(f => f.id === load("pstu-body")) || BODIES[0]);
+</script>

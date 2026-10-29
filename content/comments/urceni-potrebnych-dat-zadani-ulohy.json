@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Než začneš cokoli zapisovat, musíš ze zadání poznat, které údaje opravdu potřebuješ a které tam jsou navíc. Stejnou dovednost využiješ ve slovních úlohách z matematiky i při plánování výletu a ve vyšších ročnících na ní postavíš vlastní evidence dat. Chatbot ti umí vypsat údaje ze zadání, jenže když zadání nerozumíš, nepoznáš, jestli vybral ty správné. Takhle uvažuje třeba každý, kdo při sčítání lidu sbírá údaje od domácností, nebo kdo řídí nákladní dopravu a musí ze zakázky vyčíst, co, kam a do kdy.",
+  "learnWithAi": [
+    {
+      "title": "Úloha s údajem navíc",
+      "text": "Poproste chatbota o krátkou slovní úlohu, ve které je jeden údaj zbytečný. Najdi ho a řekni rodiči, proč k řešení nepatří."
+    },
+    {
+      "title": "Seznam údajů pro oslavu",
+      "text": "Než s rodičem napíšete chatbotovi, že chcete naplánovat oslavu, vypiš, co bude potřebovat vědět, třeba počet hostů a čas. Pak porovnejte seznam s otázkami, které chatbot položí."
+    },
+    {
+      "title": "Zadání, kterému něco chybí",
+      "text": "Nechte chatbota vymyslet zadání, ve kterém chybí důležitý údaj. Přijď na to, co bez něj nejde spočítat nebo zapsat, a teprve pak se zeptejte na řešení."
+    }
+  ]
+}

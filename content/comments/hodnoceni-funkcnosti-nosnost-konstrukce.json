@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Model, který vypadá hotově, ještě nemusí fungovat: most se pod závažím prohne a autíčko jede do strany. Hodnotit konstrukci znamená vybrat, co přesně zkoušíš, třeba nosnost nebo stabilitu, a pak to opravdu změřit místo odhadu od oka. Přijdou ti k tomu vhod fyzika a matematika, které vysvětlí, proč se trám ohnul a kolik asi unese. Kontrolovat, jestli letadlo nebo loď odpovídá požadavkům, je hlavní práce těch, kdo hlídají kvalitu ve výrobě, a takových míst spíš přibude. Simulace ukáže slabé místo předem, jestli ale model opravdu drží, rozhodne až závaží.",
+  "learnWithAi": [
+    {
+      "title": "Hlediska pro zkoušku modelu",
+      "text": "Popiš chatbotovi svůj model a nech si navrhnout, podle čeho ho hodnotit a jak to změřit obyčejnými pomůckami. Zkoušku proveď a výsledky zapiš ty."
+    },
+    {
+      "title": "Odhad nosnosti nanečisto",
+      "text": "Požádej chatbota o jednoduchý příklad, jak se odhaduje, kolik unese prkno. Spočítej odhad pro svůj model, porovnej ho se zkouškou a čísla od chatbota si přepočítej, může se splést."
+    },
+    {
+      "title": "Posudek spolužákova modelu",
+      "text": "Nech chatbota sestavit hodnoticí tabulku pro modely ve třídě. Ohodnoť podle ní model spolužáka a navrhni mu jednu úpravu, kterou spolu vyzkoušíte."
+    }
+  ]
+}

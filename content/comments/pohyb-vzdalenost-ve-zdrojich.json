@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Turistický rozcestník udává kilometry k cíli, jízdní řád vzdálenosti mezi zastávkami a každý zdroj to zapisuje trochu po svém. Kdo se v těch údajích vyzná, naplánuje si výlet i bez mobilu a nezabloudí, když se vybije baterie. Mapová aplikace ti vzdálenost spočítá sama, rozcestník v lese ale přečíst musíš ty. Naučit se to dá rychle, je to spíš praktická dovednost než velká teorie. Každý den s takovými údaji pracuje, kdo řídí autobus nebo kamion, a také lidé, kteří dopravní značení na silnice instalují.",
+  "learnWithAi": [
+    {
+      "title": "Fotka z rozcestníku",
+      "text": "Vyfoť rozcestník na výletě nebo směrovku u silnice a nech si od chatbota vysvětlit, co znamenají čísla a značky. Nejdřív ale napiš, jak je čteš ty."
+    },
+    {
+      "title": "Vzdálenost z jízdního řádu",
+      "text": "Opiš z jízdního řádu dvě zastávky s kilometry a časy a spočítej, jak daleko od sebe jsou a jak dlouho jízda trvá. Výsledek nech chatbota zkontrolovat."
+    },
+    {
+      "title": "Výlet naplánovaný z papírové mapy",
+      "text": "Naplánuj si podle papírové mapy výlet po značkách a odhadni čas chůze. Zeptej se chatbota, s jakou rychlostí chůze turistické značení počítá, a údaj si ověř na stránkách o turistickém značení."
+    }
+  ]
+}

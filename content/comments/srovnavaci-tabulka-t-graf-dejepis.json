@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tabulka, T-graf nebo Vennův diagram ti pomůžou rozdělit, co se mezi dvěma dobami změnilo a co zůstalo stejné. Když to máš na papíře vedle sebe, uvidíš souvislosti, které by se ti v souvislém textu ztratily. Stejné pomůcky se hodí v přírodopise nebo ve chvíli, kdy se rozhoduješ mezi dvěma věcmi. Chatbot ti tabulku vyplní hned, ale naučí tě něco jen tehdy, když o každém políčku rozhoduješ ty. Kdo učí nebo zkoumá minulost, kreslí takové přehledy běžně.",
+  "learnWithAi": [
+    {
+      "title": "Vennův diagram s chybami",
+      "text": "Požádej chatbota o Vennův diagram popsaný slovy, ve kterém jsou schválně dvě chyby. Najdi je a vysvětli, proč tam daná věc nepatří."
+    },
+    {
+      "title": "Prázdná kostra T-grafu",
+      "text": "Řekni chatbotovi, které dvě doby porovnáváš, a nech si dát jen nadpisy sloupců. Políčka vyplň vlastními slovy a teprve potom si nech ukázat, co chybí."
+    },
+    {
+      "title": "Volba vhodné pomůcky",
+      "text": "Popiš chatbotovi, co chceš porovnat, a ještě než odpoví, rozhodni, jestli se hodí tabulka, T-graf, nebo Vennův diagram. Pak porovnej své zdůvodnění s jeho."
+    }
+  ]
+}

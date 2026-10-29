@@ -1,0 +1,309 @@
+{
+  "outcome": "UAK-HTD-001-ZV9-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "htd-role-tvorba-zkouska-roli",
+      "title": "Role v tvůrčím procesu",
+      "aliases": [
+        "role ve skupině",
+        "interpret a tvůrce",
+        "scéna a hudební doprovod",
+        "kdo co dělá při tvorbě",
+        "zkoušení rolí"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Zapojuje se do tvůrčího procesu v rolích, které odpovídají jeho dovednostem a potřebám."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Využívá různé příležitosti a zkouší různé role v interpretačním a tvůrčím procesu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Nabízí svůj podíl na tvůrčí práci nebo přijímá jemu odpovídající zadání od jiných"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zkouší si pod vedením a s podporou učitele různé role"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zkouší nové role ve společné činnosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Role si zkoušíš s ostatními na místě, chatbot za tebe nezahraje ani nezazpívá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš, co dělá scénograf, korepetitor nebo režisér, a vybereš si, co zkusit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace roli za tebe nezahraje a nenahradí zkoušku se spolužáky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na jevišti, v tanci nebo u nástroje se roli učíš tělem, žádný nástroj to nezastoupí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2747a004-2b3c-4879-92ec-d2665bfee36a",
+        "http://data.europa.eu/esco/skill/e9ea388a-5e61-451b-aac9-f9080def9374"
+      ],
+      "inspiration": [
+        "Týmová práce při přípravě jevištní prezentace"
+      ]
+    },
+    {
+      "slug": "htd-vlastni-napady-spolecna-tvorba",
+      "title": "Vlastní nápady pro společnou tvorbu",
+      "aliases": [
+        "nápady do skupiny",
+        "vymýšlení choreografie",
+        "vymýšlení scénky",
+        "diskuse o tvorbě",
+        "tvůrčí nápady"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zapojuje se do tvůrčího procesu, spolupracuje s ostatními, přináší vlastní nápady."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Přináší s podporou učitele nápady pro společnou práci."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Přináší více vlastních nápadů a podílí se na diskusích o procesu tvorby."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nahodí náměty a otázky k tématu, kterými se můžeš nechat inspirovat před nápadem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky jiných inscenací a choreografií ti ukážou, co se dá vymyslet."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Nápady do skupiny vymýšlíš s kamarády a nápad nahraje jen tvoje hlava."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, tužka a hudební nástroj ti pomůžou nápad rychle vyzkoušet."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8c4c49d4-9708-433f-8ca7-bf2c5211ee49",
+        "http://data.europa.eu/esco/skill/e9ea388a-5e61-451b-aac9-f9080def9374"
+      ],
+      "inspiration": [
+        "Pověst jako východisko pro skupinovou tvorbu",
+        "Taneční tvorba na téma Ekosystém lesa"
+      ]
+    },
+    {
+      "slug": "htd-vyjadreni-deju-a-emoci-umenim",
+      "title": "Vyjádření děje a emoce hudbou, tancem a pohybem",
+      "aliases": [
+        "vyjádřit emoci pohybem",
+        "pantomima",
+        "hudba a nálada",
+        "tanec o příběhu",
+        "vyjádření pocitů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Využívá osvojené základní interpretační a tvůrčí dovednosti (hudební, taneční, pohybové) k vyjádření dějů, stavů, emocí, představ, situací a vztahů."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Hledá s větší jistotou různé způsoby, prostředky a možností, jak se vyjadřovat prostřednictvím umění."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Vyjádřit emoci musíš ty, chatbot ti jen vyjmenuje nápady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky tanečních a hudebních děl ti ukážou, jak jiní vyjadřují radost nebo strach."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti emoci nezahraje ani nezatančí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Emoci vyjádříš vlastním tělem, hlasem nebo nástrojem, nástroj ti dělá jen zvuk."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4",
+        "http://data.europa.eu/esco/skill/4327690a-e639-4b58-98b5-d078d6b90b07"
+      ],
+      "inspiration": [
+        "Krychle jako choreografický princip",
+        "Vymezení prostoru (taneční video)"
+      ]
+    },
+    {
+      "slug": "htd-propojeni-hudby-tance-divadla",
+      "title": "Propojení hudby, tance a divadla",
+      "aliases": [
+        "hudba tanec a divadlo dohromady",
+        "jevištní tvar",
+        "scénka s hudbou",
+        "taneční video",
+        "koncert"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Ve svých činnostech v jednoduché podobě propojuje prostředky a postupy vycházející z hudby, tance a divadla"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, jak spojit písničku, pohyb a scénku do jednoho čísla."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky vystoupení, která spojují hudbu, tanec a divadlo."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Střihová aplikace pomůže složit hudbu a záběry tance do videa."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dohromady to zahrajete a zatančíte vy, žádný nástroj to nespojí za vás."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436",
+        "http://data.europa.eu/esco/skill/62af17c1-cc70-44ce-a563-bf406443bf57"
+      ],
+      "inspiration": [
+        "Koncert filmových melodií",
+        "Loučíme se se školou"
+      ]
+    },
+    {
+      "slug": "htd-pojmenovani-vlastniho-prinosu",
+      "title": "Pojmenování své role a přínosu",
+      "aliases": [
+        "co je mi blízké",
+        "můj přínos skupině",
+        "sebehodnocení tvorby",
+        "moje role při tvorbě",
+        "zdůvodnění výběru"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Z rozmanitých způsobů vyjádření uměleckými prostředky a různých rolí ve tvůrčím procesu pojmenuje a zdůvodní ty, které jsou mu blízké."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vybírá si způsob sebevyjádření podle svých preferencí."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Pojmenuje svůj přínos pro společnou práci."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se tě, co ti šlo a co bavilo, a pomůže ti odpověď srozumitelně napsat."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Ukázky jiných lidí ti neřeknou, co je blízké tobě."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nevědí, co tě baví."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Svůj přínos poznáš po zkoušce a ze zpětné vazby spolužáků, ne z nástroje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e9ea388a-5e61-451b-aac9-f9080def9374"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Objevuje možnosti seberealizace",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Přijímá zodpovědnost",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Přijímá svou odpovědnost",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Reflektuje možnosti individuální",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zapojuje se do společných činností",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

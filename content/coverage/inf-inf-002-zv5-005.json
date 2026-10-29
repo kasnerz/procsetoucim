@@ -1,0 +1,110 @@
+{
+  "outcome": "INF-INF-002-ZV5-005",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Ověří správnost postupu řešení.",
+      "cards": [
+        "bloky-programovani-zkouseni-popis"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Skládá základní bloky do jednoduché posloupnosti, která splňuje zadání (např. pohyb objektu).",
+      "cards": [
+        "bloky-programovani-sestaveni-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Identifikuje opakující se bloky (např. krok vpřed 5x).",
+      "cards": [
+        "bloky-programovani-opakovani-cyklus"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vytvoří jednoduchý program (např. pohyb vpřed) s opakujícími se bloky.",
+      "cards": [
+        "bloky-programovani-opakovani-cyklus"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Kontroluje základní chyby v posloupnosti bloků (např. blok je na nesprávném místě) a opravuje je.",
+      "cards": [
+        "bloky-programovani-hledani-chyb"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Ověřuje, že program funguje a popíše, co program dělá.",
+      "cards": [
+        "bloky-programovani-zkouseni-popis"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Sestaví program s více kroky, kombinuje různé typy bloků a zvažuje správné pořadí kroků pro splnění zadání.",
+      "cards": [
+        "bloky-programovani-sestaveni-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá opakování v programu ke zjednodušení kódu.",
+      "cards": [
+        "bloky-programovani-opakovani-cyklus"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytvoří podprogramy pro opakující se části programu, vysvětlí jejich výhody pro přehlednost a efektivitu.",
+      "cards": [
+        "bloky-programovani-podprogramy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Testuje různé části programu, provádí drobné úpravy pro zlepšení funkčnosti a efektivnosti.",
+      "cards": [
+        "bloky-programovani-zkouseni-popis"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Otestuje celý program, najde případné chyby, chybné podmínky nebo opakování a opraví je.",
+      "cards": [
+        "bloky-programovani-hledani-chyb"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhne jiná řešení s využitím podprogramů.",
+      "cards": [
+        "bloky-programovani-podprogramy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozpozná opakující se vzory.",
+      "cards": [
+        "bloky-programovani-opakovani-cyklus"
+      ],
+      "aside": null
+    }
+  ]
+}

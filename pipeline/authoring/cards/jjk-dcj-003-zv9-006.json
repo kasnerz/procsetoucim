@@ -1,0 +1,195 @@
+{
+  "outcome": "JJK-DCJ-003-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "nemecke-otazky-a-pokyny-intonace",
+      "title": "Otázky a pokyny v cizím jazyce s intonací",
+      "aliases": [
+        "otázky v němčině",
+        "pokyny ve francouzštině",
+        "intonace otázky",
+        "výslovnost",
+        "další cizí jazyk"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "seznámí se s otázkami a pokyny v cílovém jazyce a nacvičuje intonaci s ohledem na typ otázky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co otázka nebo pokyn znamená, a dá ti další příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Aplikace s nahrávkami ti dá otázku poslechnout a opakovat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Slovník s nahrávkami ti předvede, jak otázka zní."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Intonaci nacvičuješ hlasem ty, slovník ji nezazpívá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Interakce - otázky a odpovědi, Nj, Fj"
+      ]
+    },
+    {
+      "slug": "odpovedi-podle-vzoru-nemcina",
+      "title": "Odpovědi na jednoduché otázky podle vzoru",
+      "aliases": [
+        "odpovídání",
+        "odpovědi v němčině",
+        "vzorové věty",
+        "pokyny",
+        "dialog"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "odpovídá podle vzoru na jednoduché otázky, pokyny a instrukce v cílovém jazyce"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Používá základní vzorové výrazy pro každodenní situace a odpovídá na jednoduché otázky a pokyny."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje s tebou rozhovor a opraví chyby v tvých odpovědích."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Aplikace s dialogy ti nechá odpovídat nahlas a hned ukáže správnou větu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzorové věty pro běžné situace, třeba ve škole nebo v obchodě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Odpovídat musíš vlastním hlasem, slovník to za tebe nezvládne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Odpovědi na otázky Nj, Fj"
+      ]
+    },
+    {
+      "slug": "tvoreni-otazek-cizi-jazyk-dotazovani",
+      "title": "Tvoření jednoduchých otázek",
+      "aliases": [
+        "ptát se",
+        "otázky v cizím jazyce",
+        "tázací slova",
+        "dotazování",
+        "kdo co kde"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zapojuje se do úkolů, které vyžadují interakci a dotazování, například tvoří otázky ke známým informacím z okruhu osvojovaných témat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Opraví tvé otázky a vysvětlí, kde se v nich pokazil slovosled."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Aplikace s cvičeními ti dá otázky poskládat a hned zkontroluje slovosled."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Jazyková příručka ukáže stavbu otázek a tázací slova."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Otázky vymýšlíš v hlavě ty, slovník stavbu věty nenacvičí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Interakce - otázky a odpovědi, Nj, Fj"
+      ]
+    },
+    {
+      "slug": "kratky-rozhovor-zaliby-skola-rodina",
+      "title": "Krátký rozhovor o zálibách, škole a rodině",
+      "aliases": [
+        "rozhovor",
+        "povídání o sobě",
+        "koníčky",
+        "moje rodina",
+        "konverzace v němčině"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zapojí se do krátkého rozhovoru o probíraných tématech, používá základní vzorové výrazy a klade jednoduché otázky, hovoří o svých zálibách, škole nebo rodině v jednoduchých větách."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje roli kamarádku nebo kamaráda z cizí země a vede s tebou rozhovor krok za krokem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mluvením ti dá rozhovor vést nahlas a ohodnotí výslovnost."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Najdeš slovíčka k zálibám, škole a rodině i ukázkové rozhovory."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozhovor vedeš hlasem ty s lidmi ve třídě, slovník ho nevede."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Bienvenue à notre école!"
+      ]
+    }
+  ],
+  "aside": []
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Málokterý plán vyjde přesně tak, jak byl napsaný. Když se po pár týdnech podíváš zpátky, co ti pomáhalo a co ne, můžeš cíl nebo kroky upravit, místo aby celý plán skončil v koši. Zjistíš třeba, že ráno se ti učit nedaří, ale večer to jde, a příště to víš od začátku. Vyhodnocovat, co se osvědčilo, a podle toho měnit postup je běžná práce lidí, kteří vedou výrobu nebo domov pro seniory. Chatbot se tě může vyptat na průběh, co se ale opravdu osvědčilo, víš jen ty, protože to máš za sebou.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k ohlédnutí",
+      "text": "Požádej chatbota o několik otázek, podle kterých zhodnotíš uplynulý měsíc s plánem. Odpovědi napiš ručně do deníku, ať je máš i příště."
+    },
+    {
+      "title": "Nová verze nepovedeného kroku",
+      "text": "Popiš chatbotovi krok, který se ti nedařil, a proč si myslíš, že to tak bylo. Nech si navrhnout dvě jiné verze toho kroku a vyber, co vyzkoušíš."
+    },
+    {
+      "title": "Rozhovor s přísným trenérem",
+      "text": "Nech chatbota hrát trenéra, kterému nestačí odpověď „nějak to nešlo“. Snaž se mu přesně vysvětlit, co fungovalo a co ne, a z rozhovoru si odnes jednu změnu."
+    }
+  ]
+}

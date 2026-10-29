@@ -1,0 +1,20 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "textsFrom": "comment-v4",
+  "comment": "Když je v obchodě cena 39,90 Kč, řekneš spíš čtyřicet korun a nic tím nepokazíš. Zaokrouhlení ti dovolí rychle odhadnout, kolik zaplatíš za celý nákup, bez přesného počítání. Pravidlo je jednoduché, ale bez cviku se snadno zapomene, podle které číslice se rozhoduje. Odhad zaokrouhlením se hodí právě tehdy, když počítáš na kalkulačce: hned poznáš, že výsledek je úplně mimo. Ve vyšších třídách na to navazuje zaokrouhlování na desetiny a setiny.",
+  "learnWithAi": [
+    {
+      "title": "Zaokrouhlení na celá čísla",
+      "text": "Poproste s rodičem chatbota o deset desetinných čísel k zaokrouhlení na celá. Zaokrouhlete je a nechte si vysvětlit každou chybu."
+    },
+    {
+      "title": "Čísla končící pěti desetinami",
+      "text": "S učitelem nebo rodičem si nechte od chatbota zadat čísla, která končí přesně na pět desetin. Zkuste odhadnout, co s nimi, a teprve potom si nechte pravidlo vysvětlit."
+    },
+    {
+      "title": "Účtenka zaokrouhlená na koruny",
+      "text": "Vezměte s rodičem účtenku z nákupu a zaokrouhlete každou cenu na celé koruny. Sečtěte je, porovnejte s přesnou částkou a nechte chatbota vysvětlit, proč se odhad liší."
+    }
+  ]
+}

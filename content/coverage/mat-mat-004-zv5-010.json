@@ -1,0 +1,38 @@
+{
+  "outcome": "MAT-MAT-004-ZV5-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozpozná náhodné, jisté a nemožné jevy.",
+      "cards": [
+        "jiste-nahodne-nemozne-jevy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Experimentuje a náhodné jevy eviduje pro určení pravděpodobnosti daného jevu.",
+      "cards": [
+        "pokus-s-nahodou-a-zapis-vysledku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Odhaduje pravděpodobnost jevu pro rozhodování v dané situaci.",
+      "cards": [
+        "odhad-pravdepodobnosti-jevu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozlišuje situace, které nastanou vždy, nastanou někdy, nebo nenastanou nikdy.",
+      "cards": [
+        "jiste-nahodne-nemozne-jevy"
+      ],
+      "aside": null
+    }
+  ]
+}

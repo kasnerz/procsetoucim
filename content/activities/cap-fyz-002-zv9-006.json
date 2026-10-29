@@ -1,0 +1,516 @@
+[
+  {
+    "slug": "energie-prace-vykon-slova-fyzenergie",
+    "title": "Energie, práce a výkon v běžném životě",
+    "aliases": [
+      "co je energie",
+      "práce a výkon",
+      "energie v životě",
+      "fyzika slova"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvede příklady použití slova energie, práce a výkon v běžném životě.",
+        "quote": "Uvede příklady použití slova energie, práce a výkon v běžném životě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce a výkon v běžném životě - brainstorming",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co slova znamenají ve fyzice a v řeči, a vymyslí příklady k rozlišení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výklad ve slovníku nebo na vzdělávacím webu ukáže význam slov i příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tuhle úvahu o slovech aplikace nic užitečného nenabídne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slova z běžné řeči hledáš ve své hlavě, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prece-vykon-vypocet-fyzenergie",
+    "title": "Práce a výkon v jednoduchých situacích",
+    "aliases": [
+      "práce a výkon",
+      "výpočet práce",
+      "výkon fyzika",
+      "vzorec pro práci"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí práci a výkon v jednoduchých modelových situacích.",
+        "quote": "Určí práci a výkon v jednoduchých modelových situacích."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s prací, výkonem a energií jako fyzikálními veličinami, jejich značkami, jednotkami a způsobem jejich určení.",
+        "quote": "Seznámí se s prací, výkonem a energií jako fyzikálními veličinami"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Měření vlastního výkonu",
+        "url": "https://uloziste.rvp.cz/material/570675"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí vzorce, rozebere ti úlohu po krocích a zkontroluje tvůj postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové weby mají vzorce, jednotky a řešené příklady k práci a výkonu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor nebo kalkulačka v telefonu ti spočítají a ověří výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří výpočet, stopky a metr změří dobu a dráhu při měření výkonu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zmeny-mechanicke-energie-fyzenergie",
+    "title": "Přeměny mechanické energie",
+    "aliases": [
+      "potenciální a kinetická energie",
+      "zákon zachování energie",
+      "polohová energie",
+      "pohybová energie"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše přeměny mechanické energie v jednoduchých situacích s ohledem na zákon zachování energie.",
+        "quote": "Popíše přeměny mechanické energie v jednoduchých situacích s ohledem na zákon zachování energie."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s univerzální platností zákona zachování energie.",
+        "quote": "Seznámí se s univerzální platností zákona zachování energie."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí zákon zachování energie na příkladech a zeptá se tě, kam energie přešla."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové weby a videa ukazují přeměny energie na kyvadle nebo skluzavce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Fyzikální simulace ukážou, jak se mění polohová a pohybová energie, když měníš parametry."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kyvadlo nebo kulička na dráze ti předvedou přeměnu energie, kterou pak popisuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "formy-a-premeny-energie-fyzenergie",
+    "title": "Formy energie a jejich přeměny",
+    "aliases": [
+      "formy energie",
+      "přeměna energie",
+      "sluneční záření",
+      "solární panel"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uvede konkrétní příklady přeměn energie.",
+        "quote": "Uvede konkrétní příklady přeměn energie."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s různými formami energie.",
+        "quote": "Seznámí se s různými formami energie."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí formy energie, dá ti příklady přeměn a prověří tvoje vlastní příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové weby ukazují přeměny na solárním panelu, v žárovce i v rostlině."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace ukazují, jak se energie mění z jedné formy na druhou."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pro uvádění příkladů přeměn energie žádný klasický nástroj nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdroje-energie-zarizeni-fyzenergie",
+    "title": "Odkud mají energii zařízení a živočichové",
+    "aliases": [
+      "čím se pohání",
+      "zdroj energie",
+      "fosilní paliva",
+      "energie z potravy"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí, jaká energie obvykle pohání různá zařízení i živočichy a odkud se tato energie vzala.",
+        "quote": "Vysvětlí, jaká energie obvykle pohání různá zařízení i živočichy a odkud se tato energie vzala."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot rozebere řetězec od Slunce přes rostliny a paliva až k zařízení a živočichovi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové weby popisují, jak vznikají paliva a odkud získávají energii zvířata."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti tuhle souvislost za tebe nevysvětlí, jen ji ukáže jako obrázek."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Řetězec zdrojů energie si skládáš v hlavě, žádný klasický nástroj k tomu nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prikon-spotreba-spotrebice-fyzenergie",
+    "title": "Příkon a spotřeba energie spotřebiče",
+    "aliases": [
+      "štítek spotřebiče",
+      "příkon",
+      "spotřebovaná energie",
+      "kilowatthodiny",
+      "kolik stojí svícení"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Z údajů na konkrétním spotřebiči přečte příkon a spočte spotřebovanou energii během změřeného času (např. při vaření vody, svícení, nabíjení mobilu, vysávání vysavačem, …) a popíše, na jaké formy energie se dodaná energie ve spotřebiči přeměnila.",
+        "quote": "Z údajů na konkrétním spotřebiči přečte příkon a spočte spotřebovanou energii"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Najde štítek s údaji o příkonu apod. na elektrických spotřebičích a na krabičkách různých typů žárovek.",
+        "quote": "Najde štítek s údaji o příkonu apod. na elektrických spotřebičích"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Za jak dlouho se uvaří voda",
+        "url": "https://uloziste.rvp.cz/material/13bb8a"
+      },
+      {
+        "title": "Štítky spotřebičů",
+        "url": "https://uloziste.rvp.cz/material/7621a0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co znamená příkon, a zkontroluje ti výpočet energie z příkonu a času."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové weby vysvětlí jednotky wattu a kilowatthodiny a ukážou příklady štítků."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor nebo kalkulačka spočítají energii z příkonu a času a ověří tvůj výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stopky změří čas, kalkulačka ověří výpočet a štítek spotřebiče si přečteš přímo na spotřebiči."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/29bfe2cd-f011-4f94-a3aa-f77768e60460",
+      "http://data.europa.eu/esco/skill/a031363f-f190-4449-96ee-4b347b077324",
+      "http://data.europa.eu/esco/skill/ddce2912-bc0f-4a47-aa2b-c1de48bc4b44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "teplo-ohrev-vody-fyzenergie",
+    "title": "Teplo potřebné k ohřátí",
+    "aliases": [
+      "ohřátí vody",
+      "teplo",
+      "měrná tepelná kapacita",
+      "svíčka a voda"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "V jednoduchých modelových situacích určí teplo potřebné k ohřívání.",
+        "quote": "V jednoduchých modelových situacích určí teplo potřebné k ohřívání."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vnímá teplo jako formu energie a seznámí se se způsobem jeho určení v konkrétních dějích.",
+        "quote": "Vnímá teplo jako formu energie"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Uvede příklady použití slova teplo v běžném životě.",
+        "quote": "Uvede příklady použití slova teplo v běžném životě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Ohříváme vodu svíčkou",
+        "url": "https://uloziste.rvp.cz/material/c58222"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí vzorec pro teplo a zkontroluje ti postup úlohy krok za krokem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky vlastností látek a výukové weby dají hodnoty a řešené příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka nebo tabulkový procesor ti ověří výpočet tepla."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr změří teplotu vody při pokusu a kalkulačka ověří tvůj výpočet."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/857e8624-4db0-4725-a758-5914bd8cc350",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "teplo-tani-ledu-fyzenergie",
+    "title": "Teplo na roztavení ledu",
+    "aliases": [
+      "tání ledu",
+      "skupenské teplo",
+      "led a voda",
+      "roztavení sněhu"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí teplo potřebné na roztavení ledu (sněhu) a porovná ho s teplem potřebným na ohřátí vody z teploty tání na teplotu varu.",
+        "quote": "Určí teplo potřebné na roztavení ledu (sněhu)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč tání spotřebuje teplo, a porovná s ohřevem vody krok za krokem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky hodnot a výukové weby dají potřebná čísla k tání ledu a ohřevu vody."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka nebo tabulkový procesor ověří výpočet a porovnání obou hodnot."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ověří výpočet, teploměr ti ukáže, že teplota tajícího ledu stojí na místě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/857e8624-4db0-4725-a758-5914bd8cc350",
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ucinnost-led-zarovky-fyzenergie",
+    "title": "Účinnost LED a klasické žárovky",
+    "aliases": [
+      "LED žárovka",
+      "účinnost žárovky",
+      "úsporná žárovka",
+      "krabička žárovky"
+    ],
+    "outcome": "CAP-FYZ-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Z údajů na krabičce „LED žárovky“ porovná její účinnost s klasickou žárovkou.",
+        "quote": "Z údajů na krabičce „LED žárovky“ porovná její účinnost s klasickou žárovkou."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Štítky spotřebičů",
+        "url": "https://uloziste.rvp.cz/material/7621a0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl mezi příkonem a světelným výkonem a zkontroluje ti porovnání."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové weby a údaje výrobců ukazují, kolik energie žárovka přemění na světlo a teplo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor nebo kalkulačka spočítají a porovnají účinnost obou žárovek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka porovná čísla a údaje najdeš na krabičce, kterou držíš v ruce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/83fc0b2b-6cd2-46af-b1ff-d3fc83604c26",
+      "http://data.europa.eu/esco/skill/ddce2912-bc0f-4a47-aa2b-c1de48bc4b44"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

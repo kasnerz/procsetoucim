@@ -1,0 +1,436 @@
+[
+  {
+    "slug": "pedosfera-litosfera-vyznam-obziva",
+    "title": "Význam půdy a hornin pro život",
+    "aliases": [
+      "k čemu je půda",
+      "k čemu jsou horniny",
+      "pedosféra",
+      "litosféra",
+      "využití půdy a hornin"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vysvětlí význam pedosféry a litosféry jako zdroje obživy, surovin a životního prostředí organismů včetně člověka.",
+        "quote": "Vysvětlí význam pedosféry a litosféry"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Uvede příklady využití půdy a hornin člověkem.",
+        "quote": "Uvede příklady využití půdy a hornin člověkem."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše význam pedosféry a litosféry pro organizmy a zdlrazní i aspekt udržitelnosti.",
+        "quote": "Popíše význam pedosféry a litosféry pro organizmy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Půda a horniny",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu půda a horniny slouží, a zeptá se tě na příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie mají přehled využití půdy a hornin."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti půdu a horniny nevysvětlí, nic zvláštního tu nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "K tomuhle potřebuješ vlastní představu, nástroj ti ji nedá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "suroviny-z-litosfery-nerosty-rudy",
+    "title": "Suroviny z litosféry a jejich využití",
+    "aliases": [
+      "nerosty",
+      "rudy",
+      "stavební materiály",
+      "z čeho se těží",
+      "suroviny ze země"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Identifikuje hlavní suroviny získávané z litosféry (např. minerály, rudy, stavební materiály) a jejich využití v průmyslu a každodenním životě a u vybraných minerálů, rud a stavebních materiálů uvede prvky nebo sloučeniny, které tyto suroviny obsahují.",
+        "quote": "Identifikuje hlavní suroviny získávané z litosféry"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi rudou a minerálem a vymyslí ti procvičovací otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a encyklopedie ukážou, z jaké rudy se co vyrábí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe suroviny nespojí s prvky, které obsahují."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tabulky prvků a suroviny si musíš projít ty, nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/db9f6f5d-2177-4c49-bf97-8eb462536665"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zastoupeni-prvku-litosfera-tabulka",
+    "title": "Zastoupení prvků v litosféře v periodické tabulce",
+    "aliases": [
+      "periodická tabulka",
+      "kterých prvků je nejvíc",
+      "prvky na Zemi",
+      "průmyslová spotřeba prvků"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím alternativní podoby periodické tabulky prvků znázorňující zastoupení prvků na Zemi a jejich aktuální průmyslovou spotřebu porovná zastoupení jednotlivých prvků v litosféře a uvede příklady průmyslově významných chemických prvků a sloučenin.",
+        "quote": "S využitím alternativní podoby periodické tabulky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti číst tabulku a vysvětlí, proč se zastoupení a spotřeba liší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Webové tabulky prvků ukazují zastoupení a spotřebu u každého prvku."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní periodická tabulka zobrazí údaje o prvku po kliknutí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová periodická tabulka ti ukáže prvky a jejich značky při porovnávání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/db9f6f5d-2177-4c49-bf97-8eb462536665"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "loziska-surovin-mapa-cr-svet",
+    "title": "Ložiska surovin na mapě",
+    "aliases": [
+      "kde se těží",
+      "naleziště surovin",
+      "ložiska v Česku",
+      "mapa surovin"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím mapy uvede příklady ložisek významných surovin v ČR a v zahraničí.",
+        "quote": "S využitím mapy uvede příklady ložisek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vypíše příklady ložisek a zeptá se tě, kde leží."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Geologické mapy a encyklopedie ukazují ložiska v Česku i ve světě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže polohu dolů a lomů, abys je našla na mapě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový atlas ti ložiska ukáže a pomůže je najít na mapě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/db9f6f5d-2177-4c49-bf97-8eb462536665"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prvotni-druhotne-suroviny-riziko-tezba",
+    "title": "Prvotní a druhotné suroviny",
+    "aliases": [
+      "recyklace surovin",
+      "těžba surovin",
+      "přínosy a rizika těžby",
+      "druhotné suroviny"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozlišuje pojmy prvotní a druhotné suroviny, uvádí jejich příklady a využití a zhodnotí přínosy a rizika spojená se získáváním prvotních surovin.",
+        "quote": "Rozlišuje pojmy prvotní a druhotné suroviny"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí oba pojmy, dá příklady a pomůže ti sepsat přínosy a rizika těžby."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a encyklopedie popisují těžbu i recyklaci s konkrétními příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti úvahu o přínosech a rizicích těžby neudělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "O přínosech a rizicích těžby rozhoduješ ty, nástroj k tomu nic nemá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/8df86db8-dfcd-414b-854f-ad1cdb18d733"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cesta-vyrobku-od-suroviny-vyroba",
+    "title": "Cesta výrobku od suroviny k produktu",
+    "aliases": [
+      "jak se vyrábí",
+      "výroba z rudy",
+      "od suroviny k výrobku",
+      "výrobní řetězec"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladu konkrétního výrobku zmapuje cestu jeho výroby od prvotních surovin až po samotný produkt.",
+        "quote": "Na příkladu konkrétního výrobku zmapuje cestu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Od suroviny k výrobku – a co dál?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozdělí výrobu na kroky a ptá se, co v každém z nich vzniká."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a články ukazují výrobu konkrétních věcí krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace ti pomůže nakreslit schéma cesty výrobku."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Cestu výrobku sestavuješ ty, tužka a papír ji za tebe nevymyslí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/db9f6f5d-2177-4c49-bf97-8eb462536665"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kovy-polokovy-nekovy-vlastnosti",
+    "title": "Kovy, polokovy a nekovy",
+    "aliases": [
+      "rozdělení prvků",
+      "vlastnosti kovů",
+      "hliník železo zinek olovo",
+      "uhlík síra fosfor",
+      "křemík"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozlišuje prvky na nekovy, polokovy a kovy a uvádí charakteristické vlastnosti konkrétních zástupců těchto látek.",
+        "quote": "Rozlišuje prvky na nekovy, polokovy a kovy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíly mezi skupinami a otestuje tě na příkladech."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Periodická tabulka a encyklopedie ukazují, kam prvek patří."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní tabulka prvků zobrazí vlastnosti prvku a jeho skupinu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Magnet nebo jednoduchý obvod ověří, zda látka vede proud nebo je magnetická."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/db9f6f5d-2177-4c49-bf97-8eb462536665"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hnojiva-kvalita-vody-data-pedosfera",
+    "title": "Hnojiva a kvalita vody ve statistických datech",
+    "aliases": [
+      "přehnojení",
+      "dusičnany ve vodě",
+      "hnojení půdy",
+      "pesticidy",
+      "znečištění vody hnojivy"
+    ],
+    "outcome": "CAP-CHE-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím statistických dat objasní spojitost mezi nadměrným užíváním hnojiv a zhoršováním kvality vody.",
+        "quote": "S využitím statistických dat objasní spojitost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Používání pesticidů",
+        "url": ""
+      },
+      {
+        "title": "Jaká půda je pro rostliny nejvhodnější",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti číst graf a vysvětlí, jak se hnojiva dostanou do vody."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistické úřady a ministerstva zveřejňují data o hnojení a vodě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program z dat nakreslí graf, ve kterém porovnáš vývoj hnojení a kvality vody."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Spojitost z dat vyvozuješ ty, klasický nástroj ti ji neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e693138a-842f-4d9f-9aa5-bf515605c359",
+      "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]
