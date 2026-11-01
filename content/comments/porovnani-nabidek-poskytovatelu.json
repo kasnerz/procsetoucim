@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dvě banky nabízejí podobný účet, ale jedna chce poplatek za vedení a druhá za výběr z bankomatu. Porovnat nabídky znamená nejdřív si určit, na čem ti záleží, a pak všechny projít podle stejných kritérií. Srovnávač ti nabídky seřadí, jenže podle svých pravidel, a nemusí znát všechny poskytovatele ani tvou situaci. Pojišťovací a hypoteční makléři to dělají pro klienty jako hlavní náplň práce, ty to využiješ u telefonního tarifu nebo pojištění.",
+  "learnWithAi": [
+    {
+      "title": "Kritéria pro telefonní tarif",
+      "text": "Popiš chatbotovi, jak používáš telefon, a nech si navrhnout, podle čeho tarify porovnávat. Kritéria pak seřaď podle toho, na čem záleží tobě."
+    },
+    {
+      "title": "Srovnávací tabulka nabídek",
+      "text": "Najdi skutečné nabídky dvou nebo tří bank a zapiš je do tabulky. Chatbota se ptej jen na pojmy, kterým nerozumíš, ceny ber z webů bank, ne od něj."
+    },
+    {
+      "title": "Skrytý poplatek v nabídce",
+      "text": "Popros chatbota o několik vymyšlených nabídek pojištění, z nichž jedna má nevýhodnou podmínku schovanou v textu. Najdi ji dřív, než ti ji prozradí."
+    }
+  ]
+}

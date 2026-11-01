@@ -1,0 +1,403 @@
+{
+  "outcome": "CAP-CHE-003-ZV9-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dopad-cloveka-na-zivotni-prostredi",
+      "title": "Dopad člověka na životní prostředí",
+      "aliases": [
+        "vliv člověka na přírodu",
+        "znečištění přírody",
+        "ekologie",
+        "životní prostředí"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Uvede a vysvětlí příklady dopadu činnosti člověka na životní prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak doprava, skládky nebo hnojiva mění přírodu, a zkouší tě z příkladů."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky o ekologii mají konkrétní příklady s fotkami."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti příklady dopadu nevymyslí ani nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Učebnice a atlas ukážou příklady dopadu na obrázcích a mapách."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "chemicke-provozy-v-okoli",
+      "title": "Chemické a jiné provozy v okolí",
+      "aliases": [
+        "továrny v okolí",
+        "chemický průmysl u nás",
+        "co se vyrábí v mém městě",
+        "průmyslové a zemědělské podniky"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyhledá chemické provozy ve svém okolí a vysvětlí jejich význam."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vyhledává, třídí a kriticky hodnotí informace o průmyslových a zemědělských závodech v okolí svého bydliště / ve svém regionu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co se v provozu vyrábí a k čemu se výrobky používají, a pomůže s tříděním informací."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webech firem, v registrech a na mapách najdeš, kde provozy stojí a co vyrábějí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa ukáže polohu provozů ve tvém okolí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírová mapa ti ukáže polohu, o výrobě ti nic neřekne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1",
+        "http://data.europa.eu/esco/skill/2aff15fb-1c24-42b5-89ca-17696df25370"
+      ],
+      "inspiration": [
+        "Které chemické provozy máme v okolí?"
+      ]
+    },
+    {
+      "slug": "povinnosti-pri-ochrane-prirody",
+      "title": "Povinnosti domácností a firem při ochraně přírody",
+      "aliases": [
+        "zákon o odpadech",
+        "kdo odpovídá za znečištění",
+        "pravidla pro odpad",
+        "likvidace nebezpečného odpadu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyhledává informace o tom, jaké povinnosti mají domácnosti a firmy v kontextu ochrany přírody před znečišťováním a bezpečné likvidace odpadu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne pravidla jednoduše, ale ověř je, protože může znít jistě i při chybě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby ministerstva a obce uvádějí platná pravidla pro domácnosti i firmy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s pravidly pro domácnosti a firmy nenabízí nic, co by ti pomohlo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný běžný nástroj povinnosti neřeší, najdeš je v textech a předpisech."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/27273605-2400-4392-a6d6-cc8161a2d445",
+        "http://data.europa.eu/esco/skill/40f65a56-ccbe-4601-9f32-1cc6cdd24f28"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "trideni-odpadu-v-obci",
+      "title": "Třídění odpadu v obci a nejbližší sběrné místo",
+      "aliases": [
+        "kam s odpadem",
+        "sběrný dvůr",
+        "kontejnery na tříděný odpad",
+        "jak se třídí odpad u nás"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zjišťuje informace o možnostech třídění odpadu ve své obci/městě – informace zjišťuje skrze internetové stránky obce nebo přímo kontaktováním zástupce samosprávy, zjišťuje polohu nejbližšího sběrného místa."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Nezná pravidla tvé obce a sběrné místo ti nenajde, zeptat se musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Web obce uvádí, co kam patří a kdy se odpad sváží."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa ukáže nejbližší sběrný dvůr a kontejnery."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírová mapa obce kontejnery a sběrná místa obvykle nezachytí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "mereni-odpadu-z-domacnosti",
+      "title": "Vážení odpadu z domácnosti a návrh úspor",
+      "aliases": [
+        "kolik odpadu doma vyhodíme",
+        "recyklovatelný odpad",
+        "snížení odpadu",
+        "týdenní odpad"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Změří množství odpadu, který vyprodukuje jeho domácnost za týden, vyhodnotí zastoupení recyklovatelné a nerecyklovatelné složky a navrhne možnosti snížení objemu produkovaného odpadu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak z naměřených hodnot spočítat podíly, a navrhne, kde ubrat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky o třídění ukážou, co se recykluje a co ne."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový program spočítá podíly a nakreslí graf."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Váha ukáže, kolik odpad opravdu váží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f",
+        "http://data.europa.eu/esco/skill/1ead478f-4e9d-4aa7-a728-823fc1e894f5"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "recyklace-papiru-plastu-skla",
+      "title": "Recyklace papíru, plastů a skla",
+      "aliases": [
+        "jak se recykluje papír",
+        "recyklace plastů",
+        "recyklace skla",
+        "co se vyrobí z recyklátu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše postup recyklace papíru, plastů a skla, seznámí se s jednotlivými kroky recyklace a s možnostmi využití recyklovaných materiálů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí kroky recyklace od sběru po nový výrobek a zkouší tě z nich."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky svozových firem a encyklopedie popisují postup i využití recyklátu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace postup recyklace nevysvětlí, jen ukáže kontejnery."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Učebnice má schémata jednotlivých kroků."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/862920c8-f2d0-4058-8fb8-9f06fbfc2446",
+        "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "odpad-ve-skole",
+      "title": "Odpad ve škole a návrhy na zlepšení",
+      "aliases": [
+        "třídění odpadu ve třídě",
+        "jak se ve škole nakládá s odpadem",
+        "ekologická škola",
+        "koše ve třídě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zmapuje, jak je ve škole (ve třídě) nakládáno s odpadem, a hledá řešení pro zlepšení stávající situace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vymyslet, jak zlepšit třídění ve třídě, a napsat návrh pro učitele."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady ekologických škol ukážou, co jinde funguje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace odpad ve vaší škole neprojde, vidíš ho jen ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zjistit, co končí v koších, můžeš jen očima a rukama ve škole."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "znecistovani-v-okoli",
+      "title": "Znečištění vody, vzduchu a půdy v okolí",
+      "aliases": [
+        "kde je znečištěný vzduch",
+        "znečištěná řeka",
+        "znečištěná půda",
+        "jak napravit znečištění"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Mapuje a následně diskutuje, kde v místě jeho bydliště dochází ke znečišťování vody, vzduchu a půdy, a navrhuje možnosti nápravy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou možné příčiny znečištění a nápady na nápravu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapy kvality ovzduší a vody ukážou data o místním znečištění."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapová aplikace a měření kvality ovzduší ukážou místa se zhoršenou kvalitou."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr a papírky na pH zjistí stav vody v potoce."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3727f0d3-da1b-4ce3-a9cb-efe6130fe41f",
+        "http://data.europa.eu/esco/skill/75f312e1-622b-4751-8d93-815b32feaf8d"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dopady-chemickych-provozu",
+      "title": "Dopady chemických provozů na životní prostředí",
+      "aliases": [
+        "jak továrna škodí přírodě",
+        "ochrana před znečištěním",
+        "ekologie chemické výroby",
+        "prevence havárií"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zhodnotí dopady činnosti chemických provozů na životní prostředí a popíše, jakým způsobem tyto provozy předcházejí negativním dopadům na životní prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí filtry, čištění odpadních vod a další opatření a pomůže ti vážit pro a proti."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy firem a úřadů uvádějí emise a opatření konkrétních provozů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace dopady provozu nezhodnotí, úsudek je na tobě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný běžný nástroj dopad provozu nezhodnotí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+        "http://data.europa.eu/esco/skill/75f312e1-622b-4751-8d93-815b32feaf8d"
+      ],
+      "inspiration": [
+        "Jak chemické provozy ovlivňují životní prostředí?"
+      ]
+    }
+  ],
+  "aside": []
+}

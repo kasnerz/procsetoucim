@@ -1,0 +1,557 @@
+[
+  {
+    "slug": "magnety-pritahuji-a-odpuzuji",
+    "title": "Přitahování a odpuzování magnetů",
+    "aliases": [
+      "magnety",
+      "póly magnetu",
+      "severní a jižní pól",
+      "přitahování a odpuzování"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Prozkoumá chování trvalých magnetů vzájemně mezi sebou a vůči jiným materiálům pomocí jednoduchých pokusů.",
+        "quote": "Prozkoumá chování trvalých magnetů vzájemně mezi sebou"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prozkoumá vzájemné přitahování a odpuzování magnetů a působení magnetů na kompas.",
+        "quote": "Prozkoumá vzájemné přitahování a odpuzování magnetů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede, jak se mohou magnety navzájem přitahovat a odpuzovat, a předvede, které látky se k magnetům přitahují a které na magnety nereagují.",
+        "quote": "Předvede, jak se mohou magnety navzájem přitahovat a odpuzovat"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Ví, kde má ve svém okolí magnety a popíše, co o nich ví.",
+        "quote": "Ví, kde má ve svém okolí magnety"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Magnety v domácnosti",
+        "url": "https://uloziste.rvp.cz/material/00d7ba"
+      },
+      {
+        "title": "Zkoumání magnetů",
+        "url": "https://uloziste.rvp.cz/material/a60e93"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč se stejné póly odpuzují, a navrhne pokusy s magnety."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové texty ukážou, jak se póly chovají a kde máš doma magnety."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace magnetů na obrazovce ti dovolí zkoušet póly, i když magnet nemáš po ruce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Dva tyčové magnety a tvoje ruce ukážou, kdy se táhnou a kdy se odtlačují."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/3edd4853-a8d2-4791-a5f0-af3a92f18245"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "latky-pritahovane-magnetem",
+    "title": "Které látky magnet přitahuje",
+    "aliases": [
+      "magnetické materiály",
+      "co přitahuje magnet",
+      "železo a magnet",
+      "magnet skrz papír"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Prozkoumá chování trvalých magnetů vzájemně mezi sebou a vůči jiným materiálům pomocí jednoduchých pokusů.",
+        "quote": "a vůči jiným materiálům pomocí jednoduchých pokusů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkoumá, které materiály magnety přitahují a zda magnety působí také skrz různé materiály.",
+        "quote": "Zkoumá, které materiály magnety přitahují"
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede, jak se mohou magnety navzájem přitahovat a odpuzovat, a předvede, které látky se k magnetům přitahují a které na magnety nereagují.",
+        "quote": "předvede, které látky se k magnetům přitahují a které na magnety nereagují"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zkoumání magnetů",
+        "url": "https://uloziste.rvp.cz/material/a60e93"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, které kovy jsou magnetické, a poradí, co vyzkoušet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "V tabulkách a článcích najdeš, které látky magnet přitahuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti magnetismus látky nezjistí, předmět musíš k magnetu přiložit ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Magnet a sada předmětů ukážou, co se přichytí, a skrz papír nebo plast zkoušíš sílu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/3edd4853-a8d2-4791-a5f0-af3a92f18245"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kompas-a-buzola",
+    "title": "Kompas a buzola",
+    "aliases": [
+      "kompas",
+      "buzola",
+      "jak funguje kompas",
+      "magnetka",
+      "světové strany"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zná kompas nebo buzolu.",
+        "quote": "Zná kompas nebo buzolu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prozkoumá vzájemné přitahování a odpuzování magnetů a působení magnetů na kompas.",
+        "quote": "působení magnetů na kompas"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč střelka míří na sever, a vymyslí, co s kompasem zkoušet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a obrázky ukážou, jak je kompas postavený a čte se."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s kompasem v mobilu ukáže sever a pomůže ti srovnat ho s buzolou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kompas nebo buzola ti sama ukáže sever a zareaguje na magnet, který k ní přiložíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/3edd4853-a8d2-4791-a5f0-af3a92f18245"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "magneticke-pole-magnetu",
+    "title": "Magnetické pole magnetu",
+    "aliases": [
+      "magnetické pole",
+      "siločáry",
+      "železné piliny",
+      "pole dvou magnetů"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Prozkoumá magnetické pole magnetu pomocí železných pilin nebo kompasu.",
+        "quote": "Prozkoumá magnetické pole magnetu pomocí železných pilin nebo kompasu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zmapuje magnetické pole jednoho magnetu, dvou magnetů, které se přitahují a které se odpuzují.",
+        "quote": "Zmapuje magnetické pole jednoho magnetu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Magnetické pole magnetů",
+        "url": "https://uloziste.rvp.cz/material/a60e93"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí siločáry a pomůže ti popsat, co vidíš na pilinách."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky a animace siločar ukážou pole, které očima nevidíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace pole dvou magnetů ti ukáže, jak se čáry liší, když se magnety táhnou a když se odpuzují."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Piliny na papíře nebo kompas v ruce pole opravdu zviditelní a můžeš je obkreslit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/3edd4853-a8d2-4791-a5f0-af3a92f18245"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "magneticke-pole-vodice-s-proudem",
+    "title": "Magnetické pole kolem vodiče s proudem",
+    "aliases": [
+      "Oerstedův pokus",
+      "kompas u drátu",
+      "cívka s proudem",
+      "elektřina a magnet"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Prozkoumá chování kompasu v okolí vodiče nebo cívky s proudem.",
+        "quote": "Prozkoumá chování kompasu v okolí vodiče nebo cívky s proudem"
+      },
+      {
+        "level": "Splněno",
+        "point": "Experimentálně ukáže existenci magnetického pole okolo vodiče s proudem.",
+        "quote": "Experimentálně ukáže existenci magnetického pole okolo vodiče s proudem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Oerstedův pokus",
+        "url": "https://uloziste.rvp.cz/material/bcd1f8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí Oerstedův pokus a poradí, jak ho bezpečně zapojit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popis pokusu a schémata ukážou, co čekat a jak zapojit baterii a drát."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s virtuálními obvody ti dovolí pokus zkoušet na obrazovce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Baterie, drát a kompas ukážou, že střelka se při proudu vychýlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/3edd4853-a8d2-4791-a5f0-af3a92f18245",
+      "http://data.europa.eu/esco/skill/57869946-cec2-4121-981c-84c9846c58d0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "elektromagneticka-indukce",
+    "title": "Napětí vzniká pohybem magnetu v cívce",
+    "aliases": [
+      "elektromagnetická indukce",
+      "indukce",
+      "magnet v cívce",
+      "vznik napětí"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zkoumá vznik elektrického napětí v cívce, kolem které se pohybuje magnet.",
+        "quote": "Zkoumá vznik elektrického napětí v cívce"
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede, že změnou magnetického pole v cívce na ní vzniká elektrické napětí.",
+        "quote": "Předvede, že změnou magnetického pole v cívce na ní vzniká elektrické napětí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí indukci jednoduše a pomůže ti vysvětlit, proč měřidlo ukazuje napětí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky s obrázky a videi ukážou, co se v cívce děje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Simulace indukce ukáže, jak rychlost magnetu mění napětí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Cívka, magnet a voltmetr ti ukážou napětí, když magnetem hýbeš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/3edd4853-a8d2-4791-a5f0-af3a92f18245"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "generator-a-motor",
+    "title": "Generátor a elektromotor",
+    "aliases": [
+      "generátor",
+      "elektromotor",
+      "jak se vyrábí elektřina",
+      "dynamo",
+      "elektrárna"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s konstrukcí generátoru a motoru.",
+        "quote": "Seznámí se s konstrukcí generátoru a motoru"
+      },
+      {
+        "level": "Splněno",
+        "point": "Jmenuje zařízení ze svého okolí, která pracují na principu elektromagnetické indukce.",
+        "quote": "Jmenuje zařízení ze svého okolí, která pracují na principu elektromagnetické indukce"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Elektrická zařízení v domácnosti",
+        "url": "https://uloziste.rvp.cz/material/4e6f8d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí stavbu generátoru a motoru a pomůže vymyslet příklady zařízení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Schémata a popisy ukážou součásti a kde se generátor nebo motor používá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace se simulací rozloží motor nebo generátor na části."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stavebnice nebo rozebraný stolní motor ti ukážou cívky a magnety, které chceš pochopit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/c8c18b8d-a813-49f8-a702-689564dcf8b2",
+      "http://data.europa.eu/esco/skill/2e55bf22-45f2-43f6-8aa0-28894263313d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "elektromagneticke-vlny-radio-a-mobil",
+    "title": "Rádio, vysílačka a mobil: elektromagnetické vlny",
+    "aliases": [
+      "rádio",
+      "mobilní telefon",
+      "signál",
+      "vysílačka",
+      "wifi",
+      "elektromagnetické vlny"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Ví, že mobilní telefony komunikují na dálku.",
+        "quote": "Ví, že mobilní telefony komunikují na dálku"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Seznámí se s tím, že rádia, vysílačky a mobilní telefony využívají elektromagnetické vlny k přenosu signálu.",
+        "quote": "Seznámí se s tím, že rádia, vysílačky a mobilní telefony využívají elektromagnetické vlny"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady zařízení, která využívají elektromagnetické vlny, a popíše, k jakému účelu je využívají.",
+        "quote": "Uvede příklady zařízení, která využívají elektromagnetické vlny"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jak se signál šíří, a pomůže ti sestavit seznam zařízení s vlnami."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové texty popíšou druhy vln a kde se využívají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s měřením signálu ti ukáže sílu wifi nebo mobilní sítě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Staré rádio nebo vysílačky ti předvedou příjem a vysílání, které se dá poslechnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/0256f6b0-f4a9-4c5e-9cfd-96d58a2a70fe"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jev-elektriny-a-magnetismu-v-domacnosti",
+    "title": "Jak funguje spotřebič doma",
+    "aliases": [
+      "domácí spotřebič",
+      "elektrospotřebiče",
+      "elektromotor v pračce",
+      "jak funguje vysavač",
+      "indukční vařič"
+    ],
+    "outcome": "CAP-FYZ-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vybere si zařízení v domácnosti a popíše, jaký jev z oblasti elektřiny a magnetismu využívají.",
+        "quote": "Vybere si zařízení v domácnosti a popíše, jaký jev z oblasti elektřiny a magnetismu využívají"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Elektrická zařízení v domácnosti",
+        "url": "https://uloziste.rvp.cz/material/4e6f8d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot s tebou projde stavbu spotřebiče a opraví chyby v tvém vysvětlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody, schémata a popisy spotřebičů ukážou, co je uvnitř."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace spotřebič nerozebere, vybereš a popíšeš ho ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Rozebraný starý spotřebič nebo mobilní lupa ti ukážou cívky, magnety a motorky uvnitř."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+      "http://data.europa.eu/esco/skill/3edd4853-a8d2-4791-a5f0-af3a92f18245",
+      "http://data.europa.eu/esco/skill/2e55bf22-45f2-43f6-8aa0-28894263313d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

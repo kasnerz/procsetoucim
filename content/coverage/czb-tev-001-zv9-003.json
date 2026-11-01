@@ -1,0 +1,95 @@
+{
+  "outcome": "CZB-TEV-001-ZV9-003",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se s dalšími způsoby rozvoje tělesné zdatnosti.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "cviky-na-rozvoj-zdatnosti"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozvíjí tělesnou zdatnost podle pokynů učitele a svých individuálních možností.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "cviky-na-rozvoj-zdatnosti"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Uplatňuje vůli při překonávání námahy spojenou s tělesnou zátěží.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "prekonavani-namahy"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Provede vybraný test tělesné zdatnosti na úrovni svých individuálních možností.",
+      "cards": [
+        "test-telesne-zdatnosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Překonává námahu a obtíže spojené s tělesnou zátěží.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "prekonavani-namahy"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Po určité tréninkové části provede sebereflexi – vyhodnotí aspekty své pohybové činnosti a upraví ji tak, aby v si v následující části vedl lépe.",
+      "cards": [
+        "hodnoceni-treninku-a-uprava"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhuje, jak dále rozvíjet tělesnou zdatnost.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "plan-dalsiho-rozvoje-zdatnosti"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Uplatňuje osvojené postupy ke zlepšení či udržení své tělesné zdatnosti, duševní a sociální pohody.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Zlepšuje svou fyzickou zdatnost, vnímá duševní a sociální pohodu, překonává obtíže spojené s fyzickou zátěží.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+[
+  {
+    "slug": "vetne-cleny-a-jejich-vztahy",
+    "title": "Větné členy a vztahy mezi nimi",
+    "aliases": [
+      "větné členy",
+      "podmět a přísudek",
+      "rozvíjející větné členy",
+      "větný rozbor",
+      "skladba"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "určuje základní větné členy",
+        "quote": "určuje základní větné členy"
+      },
+      {
+        "level": "Na začátku",
+        "point": "rozliší rozvíjející větné členy",
+        "quote": "rozliší rozvíjející větné členy"
+      },
+      {
+        "level": "Na začátku",
+        "point": "rozpozná vztahy mezi větnými členy",
+        "quote": "rozpozná vztahy mezi větnými členy"
+      },
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje vztahy mezi větnými členy ve větě jednoduché (s výjimkou doplňku)",
+        "quote": "rozlišuje vztahy mezi větnými členy ve větě jednoduché (s výjimkou doplňku)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Základní větné členy, věta jednoduchá a souvětí",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, který člen je podmět nebo předmět, a zadá ti věty na rozbor."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výklad skladby a příklady vět najdeš v jazykové příručce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Cvičební program ti rozbor vět zkontroluje a ukáže chyby."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ani pravítko ti větné členy nerozeberou, rozbor děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vetna-jednoducha-a-souveti",
+    "title": "Věta jednoduchá a souvětí",
+    "aliases": [
+      "souvětí",
+      "věta jednoduchá",
+      "vedlejší věta",
+      "hlavní věta",
+      "souřadné a podřadné souvětí"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozpozná větu jednoduchou a souvětí",
+        "quote": "rozpozná větu jednoduchou a souvětí"
+      },
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje vztahy v souvětí podřadném",
+        "quote": "rozlišuje vztahy v souvětí podřadném"
+      },
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje významové vztahy v souvětí souřadném",
+        "quote": "rozlišuje významové vztahy v souvětí souřadném"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Základní větné členy, věta jednoduchá a souvětí",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi souřadným a podřadným souvětím a zadá ti věty k určení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "V příručce najdeš přehled vztahů v souvětí s příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Cvičební program ti ukáže, kde je souvětí určené špatně."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ani jiný klasický nástroj souvětí neurčí, rozebíráš ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uprava-souveti-a-slovosledu",
+    "title": "Úprava souvětí a slovosledu",
+    "aliases": [
+      "rozdělit souvětí",
+      "spojování vět",
+      "slovosled",
+      "složité souvětí",
+      "jednodušší věty"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "vhodně spojuje věty do souvětí a rozděluje složitá souvětí do jednodušších větných celků, obměňuje slovosled v souladu s vlastním komunikačním záměrem",
+        "quote": "vhodně spojuje věty do souvětí a rozděluje složitá souvětí do jednodušších větných celků, obměňuje slovosled v souladu s vlastním komunikačním záměrem"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zvolí vyjádření myšlenky pomocí souvětí s vedlejší větou, nebo pomocí větného členu v souladu s komunikační situací",
+        "quote": "zvolí vyjádření myšlenky pomocí souvětí s vedlejší větou, nebo pomocí větného členu v souladu s komunikační situací"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Spojování vět do souvětí při zachování významových vztahů",
+        "url": "https://uloziste.rvp.cz/material/ae196c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne víc podob téže myšlenky a ty vybereš, která se hodí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky dobře napsaných textů ti ukážou, jak se věty spojují."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pravopisný kontrolor ti slovosled ani délku souvětí nepřepíše."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ti větu nepřestaví, vybíráš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "shoda-podmetu-s-prisudkem-v-textu",
+    "title": "Shoda přísudku s podmětem",
+    "aliases": [
+      "i/y v koncovce",
+      "shoda podmětu s přísudkem",
+      "psaní i a y ve slovesech",
+      "koncovky sloves",
+      "syntaktický pravopis"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "využívá znalosti skladby v pravopise (psaní i/y ve shodě přísudku s podmětem)",
+        "quote": "využívá znalosti skladby v pravopise (psaní i/y ve shodě přísudku s podmětem)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "správně aplikuje pravidla syntaktického pravopisu (shoda přísudku s podmětem a interpunkce)",
+        "quote": "správně aplikuje pravidla syntaktického pravopisu (shoda přísudku s podmětem a interpunkce)"
+      },
+      {
+        "level": "Splněno",
+        "point": "při tvorbě textu správně aplikuje pravidla syntaktického pravopisu ve vztahu k větným členům, větám jednoduchým, souvětím i celému textu",
+        "quote": "při tvorbě textu správně aplikuje pravidla syntaktického pravopisu ve vztahu k větným členům, větám jednoduchým, souvětím i celému textu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak najít podmět, a dá ti věty na doplnění i/y."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Pravidla shody najdeš v příručce spolu s příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Pravopisný kontrolor v textu podtrhne chybné i/y."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník shodu přísudku s podmětem neřeší, hledáš podmět ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+      "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "oprava-nejasne-vety",
+    "title": "Oprava nejasné nebo nešikovné věty",
+    "aliases": [
+      "nejasná věta",
+      "stylistická chyba",
+      "lepší formulace",
+      "hodnocení textu",
+      "přepsat větu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "zhodnotí psaný nebo mluvený projev z hlediska skladby",
+        "quote": "zhodnotí psaný nebo mluvený projev z hlediska skladby"
+      },
+      {
+        "level": "Splněno",
+        "point": "rozpozná odchylku a zvláštnost ve větné stavbě (nikoli terminologicky, ale rozpozná problematické místo) a navrhne vhodnější formulaci",
+        "quote": "rozpozná odchylku a zvláštnost ve větné stavbě (nikoli terminologicky, ale rozpozná problematické místo) a navrhne vhodnější formulaci"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vytváří komunikačně sdělné a syntakticky jednoznačné věty",
+        "quote": "vytváří komunikačně sdělné a syntakticky jednoznačné věty"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, kde je věta dvojsmyslná, a nabídne jiné znění ke srovnání."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručka a rady ke slohu ukazují, jak se vyhnout nejasným větám."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola gramatiky označí podezřelá místa, přepsat je musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník nepozná, že je věta nejasná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/637ca2e2-0624-48b1-be6e-9ff4580344ac",
+      "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-text-se-spravnou-skladbou",
+    "title": "Psaní vlastního sdělení se správnou stavbou vět",
+    "aliases": [
+      "psaní textu",
+      "vlastní sdělení",
+      "stavba vět",
+      "sloh",
+      "větná skladba"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Tvoří a zapisuje vlastní sdělení s využitím znalosti větné sklady.",
+        "quote": "Tvoří a zapisuje vlastní sdělení s využitím znalosti větné sklady."
+      },
+      {
+        "level": "Splněno",
+        "point": "aplikuje znalosti o větných členech (s výjimkou doplňku) při výstavbě textu",
+        "quote": "aplikuje znalosti o větných členech (s výjimkou doplňku) při výstavbě textu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "využívá základní pravidla skladby v mluvených i psaných projevech",
+        "quote": "využívá základní pravidla skladby v mluvených i psaných projevech"
+      },
+      {
+        "level": "Na cestě",
+        "point": "využívá poznatky o větných členech a syntaktických vztazích v mluvených i psaných projevech",
+        "quote": "využívá poznatky o větných členech a syntaktických vztazích v mluvených i psaných projevech"
+      },
+      {
+        "level": "Splněno",
+        "point": "využívá poznatky z učiva o skladbě v mluvených písemných i projevech",
+        "quote": "využívá poznatky z učiva o skladbě v mluvených písemných i projevech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Přečte tvůj text a řekne, kde jsou věty zbytečně složité."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové texty a rady ke psaní ti ukážou, jak věty stavět."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Textový editor podtrhne chyby ve větách, které napíšeš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Text píšeš ty, slovník ho nesestaví."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

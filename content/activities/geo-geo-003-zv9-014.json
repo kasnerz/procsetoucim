@@ -1,0 +1,339 @@
+[
+  {
+    "slug": "vymezeni-mist-a-regionu-slovy-i-mapou",
+    "title": "Vymezení místa nebo regionu slovy i v mapě",
+    "aliases": [
+      "kde region leží",
+      "vymezení regionu",
+      "kreslení hranic na mapě",
+      "obec, kraj, stát, kontinent"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "slovně i graficky prostorově vymezí vybraná místa či regiony různé měřítkové úrovně",
+        "quote": "slovně i graficky prostorově vymezí vybraná místa či regiony různé měřítkové úrovně"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Od obce po kontinent",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je region, a zeptá se tě, kde podle tebe končí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlas a mapy online ukážou, kudy region vede."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ti nechá hranice zakreslit a porovnat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa a tužka ti pomůžou hranici nakreslit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "popis-regionu-poloha-a-zvlastnosti",
+    "title": "Popis regionu: poloha a čím se liší",
+    "aliases": [
+      "popis regionu",
+      "poloha regionu",
+      "čím je region zvláštní",
+      "vlastní kritéria"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě vlastních charakteristik a kritérií vymezí region, popíše a komentuje ho z pohledu měřítkové úrovně, geografické polohy a specifičnosti (odlišnosti) od ostatních regionů.",
+        "quote": "Na základě vlastních charakteristik a kritérií vymezí region, popíše a komentuje ho z pohledu měřítkové úrovně, geografické polohy a specifičnosti (odlišnosti) od ostatních regionů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "geograficky popíše vybraná místa a regiony; při popisu propojuje přírodní, společenské, ekonomické, politické i kulturní charakteristiky míst a regionů a posuzuje jejich proměnlivost v čase",
+        "quote": "geograficky popíše vybraná místa a regiony; při popisu propojuje přírodní, společenské, ekonomické, politické i kulturní charakteristiky míst a regionů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Můj domov - můj kraj",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet kritéria a ptá se, co v popisu chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a statistiky dají údaje o přírodě, lidech i hospodářství."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapové aplikace ukážou polohu a okolí regionu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Popis a výběr kritérií děláš ty, klasický nástroj k tomu nic nemá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "promeny-regionu-v-case",
+    "title": "Proměny regionu v čase",
+    "aliases": [
+      "jak se region měnil",
+      "osídlení a hospodářství",
+      "dřív a teď",
+      "změny krajiny"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Charakterizuje proměny konkrétního regionu v čase na základě vybraných parametrů (osídlení, hospodářství, krajinná složka apod.).",
+        "quote": "Charakterizuje proměny konkrétního regionu v čase na základě vybraných parametrů (osídlení, hospodářství, krajinná složka apod.)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "na základě geografických dat posuzuje proměnlivost vlivu jednotlivých jevů a procesů na charakter míst či regionů v minulosti i budoucnosti",
+        "quote": "na základě geografických dat posuzuje proměnlivost vlivu jednotlivých jevů a procesů na charakter míst či regionů v minulosti i budoucnosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak geografická poloha a historie ovlivňují život lidí",
+        "url": "https://uloziste.rvp.cz/material/94c267"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co se v regionu mohlo měnit, a pomůže se čísly číst."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky a staré mapy ukážou, jak region vypadal dřív."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace se starými a novými mapami nebo snímky ukážou změny vedle sebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Změny v čase papírová mapa ani pravítko samy neukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-dvou-regionu",
+    "title": "Porovnání dvou regionů",
+    "aliases": [
+      "srovnání regionů",
+      "v čem jsou regiony stejné",
+      "rozdíly mezi regiony",
+      "porovnání dvou míst"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porovná dva regiony stejného měřítka podle vybraných kritérií, charakterizuje shodné a rozdílné jevy a procesy.",
+        "quote": "Porovná dva regiony stejného měřítka podle vybraných kritérií, charakterizuje shodné a rozdílné jevy a procesy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Místo, kde žiji, aneb jak se žije v mém místě a v jiném místě mého vrstevníka",
+        "url": "https://uloziste.rvp.cz/material/b9dbbf"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže sestavit tabulku kritérií a ověří, že srovnáváš stejné věci."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky a encyklopedie dají čísla pro oba regiony."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program srovná čísla a nakreslí graf."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka spočítá rozdíly mezi čísly obou regionů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kvalita-mista-a-cinnost-cloveka",
+    "title": "Kvalita místa a vliv lidské činnosti",
+    "aliases": [
+      "kvalita života v regionu",
+      "jak lidé mění místo",
+      "dobré a špatné místo pro život",
+      "hodnocení místa"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zhodnotí kvalitu místa a regionu podle různých hledisek a na příkladech doloží vzájemný vztah kvality místa a aktivit člověka",
+        "quote": "zhodnotí kvalitu místa a regionu podle různých hledisek a na příkladech doloží vzájemný vztah kvality místa a aktivit člověka"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "U nás doma a jinde doma",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne hlediska hodnocení a protiargumenty k tvému názoru."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hledáš v nich data o ovzduší, zeleni nebo dopravě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapové aplikace ukážou zeleň, dopravu a služby kolem."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kvalitu místa posuzuješ ty, klasický nástroj ji neměří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/377861af-f966-4c87-a2db-7e99904312b9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prirodni-podminky-cr-a-povrch",
+    "title": "Přírodní podmínky ČR a členitost povrchu",
+    "aliases": [
+      "příroda v Česku",
+      "nížiny a hory",
+      "povrch České republiky",
+      "členitost reliéfu"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozlišuje přírodní podmínky ČR včetně povrchu a jeho členitosti.",
+        "quote": "Rozlišuje přírodní podmínky ČR včetně povrchu a jeho členitosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi nížinou, pahorkatinou a horami."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlas a encyklopedie ukážou povrch a podnebí Česka."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapové aplikace zobrazí výškopis a terén."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Fyzická mapa ti ukáže výšky podle barev."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85",
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

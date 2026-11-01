@@ -1,0 +1,102 @@
+{
+  "outcome": "CZB-TEV-001-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-bezpecnost-na-konkretnim-sportovisti",
+      "title": "Bezpečnost na sportovišti a při nové činnosti",
+      "aliases": [
+        "bezpečnost v tělocvičně",
+        "pravidla na lyžích",
+        "bezpečnost v házené",
+        "poučení o bezpečnosti",
+        "bezpečnost v přírodě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "v prostředí daného sportoviště"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "osvojování nových pohybových činností"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pravidla bezpečnosti pro sport a prostředí, které ještě neznáš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš pravidla pro lyžaře a řády sportovišť od odborných zdrojů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepozná, co je na tvém hřišti nebo svahu nebezpečné."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obuv a oblečení vybereš ty, nástroj za tebe pravidla nedodrží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0c944316-12f6-4949-a156-a03dbaae790f",
+        "http://data.europa.eu/esco/skill/dcc96a49-0bac-4a9c-8f8e-a32b4e47e6eb"
+      ],
+      "inspiration": [
+        "Zásady bezpečnosti při lyžování",
+        "Bezpečnost v házené – jednání"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Uplatňuje zásady bezpečnosti a hygieny",
+      "code": "O1",
+      "refs": [
+        "tv-zasady-hygieny-a-bezpecnosti-pri-cviceni"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Upozorní na jakýkoli problém",
+      "code": "O1",
+      "refs": [
+        "tv-vsimnout-si-nebezpeci-a-predchazet-urazu"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Svým jednáním předchází",
+      "code": "O1",
+      "refs": [
+        "tv-vsimnout-si-nebezpeci-a-predchazet-urazu"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Zná zásady hygieny",
+      "code": "O1",
+      "refs": [
+        "tv-zasady-hygieny-a-bezpecnosti-pri-cviceni"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Uvědomuje si problém",
+      "code": "O1",
+      "refs": [
+        "tv-vsimnout-si-nebezpeci-a-predchazet-urazu"
+      ]
+    }
+  ]
+}

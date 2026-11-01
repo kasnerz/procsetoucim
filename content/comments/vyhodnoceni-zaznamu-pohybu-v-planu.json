@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Záznamy z hodinek nebo ze sešitu samy nic neřeknou, dokud je neporovnáš s plánem. Teprve pak uvidíš, že třeba ve čtvrtek pravidelně vynecháváš nebo že ti při běhu pomalu roste tempo. Aplikace sečte minuty a nakreslí graf, ale vysvětlit, proč se týden nepovedl a co s tím dělat, musíš ty. Takhle pracují osobní trenéři ve fitness nebo trenéři plavání, kteří podle záznamů upravují trénink. Pro tebe je to hlavně způsob, jak vidět skutečný pokrok místo pouhého dojmu.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k uplynulému týdnu",
+      "text": "Požádej chatbota, ať ti položí pět otázek k tvému týdnu pohybu. Odpovídej podle záznamů, ne zpaměti, a na konci napiš jednu větu, co příště změníš."
+    },
+    {
+      "title": "Tabulka plán proti skutečnosti",
+      "text": "Nech si od chatbota navrhnout tabulku, kam zapíšeš plán a skutečnost vedle sebe. Týden ji vyplňuj ručně a rozdíly spočítej bez pomoci."
+    },
+    {
+      "title": "Rozbor nesplněných dnů",
+      "text": "Vlož chatbotovi záznamy za dva týdny spolu se svým vlastním závěrem. Ať ho porovná s čísly a upozorní tě, co ti v závěru uniklo."
+    }
+  ]
+}

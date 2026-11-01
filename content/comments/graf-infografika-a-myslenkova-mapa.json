@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dlouhou tabulku čísel nebo stránku poznámek pochopí na první pohled málokdo, kdežto dobrý graf nebo myšlenková mapa ukáže souvislosti hned. Učíš se vybrat zobrazení, které se k obsahu hodí, třeba sloupce pro porovnání a čáru pro vývoj v čase, a umět vysvětlit, proč pomáhá. Kdo analyzuje data ve firmě nebo v bance, takhle denně ukazuje ostatním, co se v číslech skrývá, a takových míst spíš přibude. Program graf vykreslí a AI obrázek vygeneruje, jenže jestli zobrazení něco vysvětluje, nebo jen hezky vypadá, posoudíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Výběr správného grafu",
+      "text": "Vymysli, jaký graf se hodí k tvým datům, třeba k času strávenému venku během týdne, a pak se zeptej chatbota na jeho návrh. Pokud se lišíte, nech si vysvětlit proč."
+    },
+    {
+      "title": "Myšlenková mapa ke kapitole",
+      "text": "Nakresli myšlenkovou mapu ke kapitole z učebnice a popiš ji chatbotovi. Ať ti řekne, které vztahy mezi pojmy chybí nebo jsou zavádějící."
+    },
+    {
+      "title": "Graf, který schválně klame",
+      "text": "Požádej chatbota o popis grafu, který klame, třeba osou, která nezačíná nulou. Nakresli ho podle popisu a vysvětli, co si z něj čtenář špatně odvodí."
+    }
+  ]
+}

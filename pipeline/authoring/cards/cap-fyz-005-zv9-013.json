@@ -1,0 +1,366 @@
+{
+  "outcome": "CAP-FYZ-005-ZV9-013",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "stavba-atomu",
+      "title": "Stavba atomu: jádro a elektronový obal",
+      "aliases": [
+        "atom",
+        "z čeho je atom",
+        "jádro atomu",
+        "elektrony",
+        "protony a neutrony",
+        "velikost atomu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše strukturu atomu, porovná velikost atomu a jádra."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Má představu, že atomy jsou velmi malé"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí stavbu atomu jinými slovy a vymyslí k ní procvičovací otázky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a schémata ukazují jádro, obal a poměr jejich velikostí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Interaktivní model atomu ukazuje, jak se mění částice v jádru a obalu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Atom neuvidíš ani pod školním mikroskopem, model z kuliček jen poměr velikostí zkresluje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/f3baae75-145e-40dd-b5ff-b8fe40c5fcbd"
+      ],
+      "inspiration": [
+        "Cesta do mikrosvěta"
+      ]
+    },
+    {
+      "slug": "meritka-mikrosveta",
+      "title": "Velikosti od buňky po jádro atomu",
+      "aliases": [
+        "velikost buňky",
+        "předpony mikro nano",
+        "čísla s mnoha nulami",
+        "kolikrát je atom menší",
+        "měřítka mikrosvěta"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s rozměrovými měřítky buněk, molekul, atomů, jader"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Převádí velikosti mezi předponami a vysvětlí, kolikrát je jedno menší než druhé."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulky velikostí a přehledy předpon ti dají čísla k porovnání."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s postupným přibližováním ukazuje, jak se velikosti mění po řádech."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti pohlídá nuly a exponenty při porovnávání velikostí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+      ],
+      "inspiration": [
+        "Cesta do mikrosvěta"
+      ]
+    },
+    {
+      "slug": "deje-v-mikrosvete",
+      "title": "Děje na úrovni molekul, atomů a jader",
+      "aliases": [
+        "chemická reakce",
+        "štěpení a slučování jader",
+        "co se děje v atomech",
+        "procesy v mikrosvětě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady procesů, které probíhají na dané úrovni mikrosvěta."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozliší, co se děje v obalu (chemie) a co v jádře (štěpení), a dá příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a učební texty uvádějí příklady dějů na každé úrovni."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace reakcí a jaderných dějů ukazují, co si nelze představit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mikrosvět se nedá vyzkoušet v ruce, školní pomůcky tyto děje nepředvedou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/f3baae75-145e-40dd-b5ff-b8fe40c5fcbd"
+      ],
+      "inspiration": [
+        "Cesta do mikrosvěta"
+      ]
+    },
+    {
+      "slug": "rentgenove-zareni",
+      "title": "Rentgen a ochrana před zářením",
+      "aliases": [
+        "rentgen",
+        "proč odcházejí z místnosti",
+        "rentgenové vyšetření",
+        "záření v nemocnici",
+        "snímek kosti"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše, k čemu se využívá rentgenové záření, a vysvětlí, proč personál při rentgenovém vyšetření odchází z místnosti."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Ví, že se k lékařské diagnostice používá rentgen."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak rentgen prosvítí tělo a proč se záření nahromadí u personálu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Lékařské webové stránky popisují vyšetření a bezpečnostní pravidla."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s ukázkami snímků ti pomůže poznat, co na nich vidět je."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rentgen nemáš v ruce, školní pomůcky jeho záření nevyrobí ani nezměří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/eb65ce8e-61bf-49d1-99bb-cb699ba1005b",
+        "http://data.europa.eu/esco/skill/4d392ce8-9b29-498d-9744-e64b882d51bf"
+      ],
+      "inspiration": [
+        "Rentgen"
+      ]
+    },
+    {
+      "slug": "radioaktivni-zareni",
+      "title": "Radioaktivní záření: druhy, využití a rizika",
+      "aliases": [
+        "radioaktivita",
+        "druhy záření",
+        "alfa beta gama",
+        "Geigerův počítač",
+        "riziko záření",
+        "fámy o radioaktivitě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede alespoň jeden příklad využití nebo naopak konkrétního rizika radioaktivního záření."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s původem radioaktivního záření, jeho druhy, vlastnostmi, riziky a využitím."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zaslechl slova radioaktivita"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozliší druhy záření a vysvětlí, co z fám o radioaktivitě platí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Informace o záření a jeho využití najdeš u úřadů a v encyklopediích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Simulace rozpadu a měření záření ukazují, jak se látka v čase mění."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dozimetr nebo Geigerův počítač naměří záření v okolí a ukáže, kolik ho je."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/eb65ce8e-61bf-49d1-99bb-cb699ba1005b",
+        "http://data.europa.eu/esco/skill/f3baae75-145e-40dd-b5ff-b8fe40c5fcbd"
+      ],
+      "inspiration": [
+        "Fámy o radioaktivitě"
+      ]
+    },
+    {
+      "slug": "jaderna-elektrarna",
+      "title": "Jaderná elektrárna: jak vyrábí elektřinu",
+      "aliases": [
+        "jaderná elektrárna",
+        "Temelín a Dukovany",
+        "štěpení uranu",
+        "výhody a rizika elektrárny",
+        "jaderný reaktor"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše funkci jaderných elektráren a ilustruje jak výhody, tak nevýhody a rizika a způsoby jejich omezení."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s principem výroby elektřiny v jaderné elektrárně."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí výrobu elektřiny krok za krokem a pomůže zvážit výhody a rizika."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Provozovatelé a encyklopedie popisují schéma elektrárny, odpad i bezpečnost."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Interaktivní schéma elektrárny ukazuje cestu od štěpení po elektřinu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný jednoduchý přístroj štěpení jader nepředvede, schéma elektrárny stačí jen k popisu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/81d274bc-6dbf-4003-bcba-f76478d5d930",
+        "http://data.europa.eu/esco/skill/f3baae75-145e-40dd-b5ff-b8fe40c5fcbd"
+      ],
+      "inspiration": [
+        "Jak funguje jaderná elektrárna",
+        "Energie z jader"
+      ]
+    },
+    {
+      "slug": "energie-hvezd",
+      "title": "Odkud berou hvězdy energii",
+      "aliases": [
+        "proč svítí Slunce",
+        "jaderná fúze",
+        "slučování jader",
+        "energie ve hvězdách",
+        "Slunce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, kde se bere energie ve hvězdách."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se se způsobem vzniku energie ve hvězdách."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Ví, že Slunce a další hvězdy září."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí slučování jader vodíku na helium a odpovídá na další otázky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Astronomické stránky a encyklopedie popisují, co se ve hvězdě děje."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Planetária a mapy oblohy ukazují hvězdy a jejich vývoj."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Fúzi hvězd nelze vyzkoušet, dalekohled ukáže světlo, ne jeho původ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078",
+        "http://data.europa.eu/esco/skill/f3baae75-145e-40dd-b5ff-b8fe40c5fcbd"
+      ],
+      "inspiration": [
+        "Energie z jader"
+      ]
+    }
+  ],
+  "aside": []
+}

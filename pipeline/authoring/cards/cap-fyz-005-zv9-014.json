@@ -1,0 +1,442 @@
+{
+  "outcome": "CAP-FYZ-005-ZV9-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "rotace-zeme-den-a-noc",
+      "title": "Otáčení Země a střídání dne a noci",
+      "aliases": [
+        "proč je den a noc",
+        "rotace Země",
+        "otáčení Země",
+        "glóbus a svítilna"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Demonstruje na modelu otáčení Země, uvede souvislost mezi rotací Země a střídáním dne a noci."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se Země otáčí a jak z toho vzniká den a noc, a zeptá se tě na tvůj model."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázky a videa ukážou Zemi z vesmíru, osvětlenou z jedné strany."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace Země a Slunce ukáže, kde je právě den a kde noc."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Glóbus a svítilna ukážou, jak se střídá světlo a tma; glóbus otáčíš vlastní rukou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pohyby-zeme-a-mesice-rok",
+      "title": "Pohyby Země a Měsíce kolem Slunce, rok",
+      "aliases": [
+        "oběh Země kolem Slunce",
+        "jak dlouho trvá rok",
+        "Měsíc kolem Země",
+        "pohyby Země a Měsíce"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Demonstruje a popíše pohyby Země a Měsíce kolem Slunce."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Ví, že rok je určen jedním oběhem Země kolem Slunce."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Demonstruje základní pohyby Země okolo Slunce a Měsíce okolo Země a popíše jejich důsledky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, co se čím točí a jak z toho vychází rok, a ověří tvé vysvětlení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu délku roku, oběžné doby a schémata drah."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace sluneční soustavy ukáže oběhy Země a Měsíce v čase."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kuličky nebo míče a lampa ti ukážou pohyby, které předvádíš vlastníma rukama."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": [
+        "Model Sluneční soustavy"
+      ]
+    },
+    {
+      "slug": "faze-mesice",
+      "title": "Fáze Měsíce",
+      "aliases": [
+        "měsíc dorůstá a couvá",
+        "nov a úplněk",
+        "jak vznikají fáze měsíce",
+        "kalendář měsíce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Demonstruje fáze Měsíce."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zkoumá fáze Měsíce a jejich souvislost s polohou Měsíce vzhledem ke Slunci a Zemi."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč vidíš Měsíc jednou jako srpek a jindy celý, a zeptá se tě na polohy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulky a obrázky ukážou fáze podle dnů a polohu Měsíce vůči Slunci."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s Měsícem ukáže, jakou fázi má dnes a za týden."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Míč, lampa a tvá hlava ukážou fáze; pozorování na obloze děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zatmeni-slunce-a-mesice",
+      "title": "Zatmění Slunce a Měsíce",
+      "aliases": [
+        "jak vzniká zatmění",
+        "zatmění Slunce",
+        "zatmění Měsíce",
+        "úplné zatmění"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, jak vzniká zatmění Slunce a Měsíce."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kdy se Měsíc, Země a Slunce srovnají a které zatmění z toho je."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu schémata, fotky a data příštích zatmění."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Simulace zatmění ukáže stín Měsíce a Země z různých míst."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tři míče a lampa ukážou, jak stín padá; tvůj model ověří, zda sedí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "model-slunecni-soustavy",
+      "title": "Model Sluneční soustavy z velikostí a vzdáleností planet",
+      "aliases": [
+        "velikosti planet",
+        "vzdálenosti planet od Slunce",
+        "model planet",
+        "planety v měřítku",
+        "práce s daty planet"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyhledá informace o velikosti Slunce, velikostech planet a jejich vzdálenostech od Slunce, na jejich základě vytvoří model Sluneční soustavy."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Získává představu o velikostech těles Sluneční soustavy a jejich vzdálenostech od Slunce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak údaje zmenšit na stejné měřítko, a zkontroluje tvé přepočty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Velikosti a vzdálenosti planet najdeš v tabulkách a encyklopediích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka ti přepočítá skutečné údaje na rozměry modelu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pásmo, pravítko a kalkulačka ti pomohou odměřit a spočítat model; sestavíš ho vlastníma rukama."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": [
+        "Model Sluneční soustavy",
+        "Práce s daty planet"
+      ]
+    },
+    {
+      "slug": "souhvezdi-a-hvezdy",
+      "title": "Souhvězdí a významné hvězdy na obloze",
+      "aliases": [
+        "jak najít Polárku",
+        "Velký vůz",
+        "souhvězdí",
+        "Sirius",
+        "hvězdná obloha"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozezná vybraná souhvězdí na noční obloze."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s vybranými souhvězdími a významnými hvězdami (Polárka, Sirius, …)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vypráví o souhvězdích a hvězdách, ale tvar na obloze poznáváš očima ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Hvězdné mapy a popisy ukážou, kde a kdy souhvězdí hledat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mapou oblohy ti po namíření telefonu řekne, na co se díváš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Otočná mapa oblohy a dalekohled ti pomohou; oblohu pozoruješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": [
+        "Souhvězdí"
+      ]
+    },
+    {
+      "slug": "druzice-zeme-a-jejich-vyuziti",
+      "title": "Družice Země a k čemu slouží",
+      "aliases": [
+        "GPS družice",
+        "meteorologické družice",
+        "Mezinárodní vesmírná stanice",
+        "k čemu jsou družice"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s některými typy družic Země a jejich využitím (GPS, meteorologické družice, ISS, …)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co jednotlivé družice dělají a proč je GPS a počasí potřebují."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu popisy družic, jejich dráhy a snímky z nich."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace ukáže družice nad tebou a snímky počasí z družic."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Družice tu nemáš v ruce; obyčejný nástroj ti o nich nic neřekne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b3f971b2-6c11-43d3-b5ce-8ba7f5a223c7",
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zajimave-objekty-ve-vesmiru",
+      "title": "Zajímavé objekty ve vesmíru a jejich představení",
+      "aliases": [
+        "černá díra",
+        "trpasličí planeta",
+        "mlhovina",
+        "vesmírné objekty",
+        "referát o vesmíru"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Prezentuje vybrané poznatky o zajímavých objektech ve vesmíru."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznámí se s některými zajímavými objekty ve vesmíru (černá díra, trpasličí planeta, mlhovina, …)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co je černá díra nebo mlhovina, a poradí s osnovou tvého představení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Snímky a články z vesmírných agentur ti dají fakta i obrázky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mapou vesmíru ukáže objekty zblízka a jejich polohu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj ti o vzdálených objektech nic neřekne; představení si připravuješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": [
+        "Vesmírná seznamka"
+      ]
+    },
+    {
+      "slug": "vznik-zivota-na-zemi",
+      "title": "Co umožnilo vznik života na Zemi",
+      "aliases": [
+        "jak vznikl život",
+        "proč je na Zemi život",
+        "voda a Slunce pro život",
+        "podmínky pro život"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Odhadne, co umožnilo vznik a vývoj života na Zemi."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje podmínky jako voda, teplo a vzduch a vyzkouší tvůj odhad otázkami."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a články popíšou podmínky, které Zemi mezi planetami dávají život."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tímto tématem nepomáhá; odhad vzniká tvým uvažováním."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný nástroj podmínky pro život neukáže; úvahu děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Popíše, jaké důsledky mají pohyby těles ve Sluneční soustavě na Zemi.",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Seznámí se s tím, že osa Země je nakloněná a jaké to má důsledky pro život na Zemi (střídání ročních období, polární den a noc, …).",
+      "code": "O1",
+      "refs": [
+        "rocni-chod-teploty-sklon-osy"
+      ]
+    }
+  ]
+}

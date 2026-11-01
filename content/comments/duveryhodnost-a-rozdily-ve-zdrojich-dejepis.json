@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dva zdroje o stejné události se často liší: jeden psal vítěz, druhý poražený, jeden svědek byl u toho, druhý to slyšel od jiných. Kdo umí zjistit, proč se liší a komu věřit víc, nenaletí tak snadno na podvrh ani na jednostranný článek. Zahraniční zpravodajové a lidé, kteří vedou redakce, to dělají denně, když ověřují zprávy dřív, než je pustí ven. Chatbot sám mezi zdroji chybuje a občas si vymyslí i takový, který neexistuje, takže jeho odpovědi potřebuješ posuzovat stejně jako kterýkoli jiný zdroj.",
+  "learnWithAi": [
+    {
+      "title": "Kontrolní otázky k článku",
+      "text": "Vlož chatbotovi článek, ze kterého chceš čerpat, a nech si dát otázky na autora, dobu vzniku a účel. Odpovědi hledej v článku a podle nich rozhodni, jestli mu budeš věřit."
+    },
+    {
+      "title": "Jedna bitva, dvě verze",
+      "text": "Požádej chatbota, ať popíše jednu bitvu očima vojáka z každé strany. Najdi, v čem se verze liší, a vysvětli, proč by každý z nich mohl vidět totéž jinak."
+    },
+    {
+      "title": "Ověření odpovědi chatbota",
+      "text": "Zeptej se chatbota na událost z dějin vaší obce a nech si uvést, odkud to ví. Zdroje dohledej a zjisti, jestli vůbec existují a jestli říkají totéž."
+    }
+  ]
+}

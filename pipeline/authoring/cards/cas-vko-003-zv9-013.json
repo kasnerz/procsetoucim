@@ -1,0 +1,291 @@
+{
+  "outcome": "CAS-VKO-003-ZV9-013",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vyhledani-zprav-o-ekonomice",
+      "title": "Hledání zpráv o ekonomice",
+      "aliases": [
+        "zprávy o penězích",
+        "ekonomika v médiích",
+        "články o cenách",
+        "noviny ekonomika",
+        "hledání informací"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vyhledává jednodušší mediální sdělení, která se vyjadřují k ekonomickým tématům"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne klíčová slova a řekne, kde zprávy hledat, vybrat je musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač a zpravodajské weby ti ukážou aktuální články."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace za tebe nepozná, které sdělení je jednoduché a k věci."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírové noviny a časopisy ti zprávy jen nabídnou, vybrat je musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d2f95b34-44ca-4902-8252-09c202f46a3d",
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ],
+      "inspiration": [
+        "Ekonomická témata v médiích"
+      ]
+    },
+    {
+      "slug": "vysvetleni-ekonomickych-pojmu-na-prikladech",
+      "title": "Vysvětlení ekonomických pojmů na příkladech",
+      "aliases": [
+        "inflace",
+        "DPH",
+        "HDP",
+        "státní rozpočet",
+        "ekonomické pojmy",
+        "co je inflace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na příkladech správně vysvětlí vybrané aktuální ekonomické pojmy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Správně vysvětlí vybrané ekonomické pojmy v mediálních sděleních."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem na příkladech a zeptá se tě, jestli mu rozumíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky úřadů pojmy popisují a dávají příklady."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Výukové aplikace nabízejí pojmy s příklady a kvízy na procvičení."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka pojem nevysvětlí, jen spočítá, o kolik zboží zdražilo."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa",
+        "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+      ],
+      "inspiration": [
+        "Ekonomické pojmy ve zprávách",
+        "Ekonomie kolem nás"
+      ]
+    },
+    {
+      "slug": "ekonomicke-pojmy-v-psanem-textu",
+      "title": "Ekonomické pojmy ve vlastním textu",
+      "aliases": [
+        "psaní o ekonomice",
+        "slohová práce ekonomika",
+        "pojmy v textu",
+        "referát o penězích"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V textu správně používá vhodné ekonomické pojmy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkontroluje, jestli pojmy v tvém textu používáš ve správném významu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a slovníky pojmů ukážou přesný význam před psaním."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Kontrola pravopisu pohlídá chyby, o významu pojmů ale nic neřekne."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír text napsat pomůžou, správnost pojmů ale neověří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "ekonomicke-pojmy-v-diskusi",
+      "title": "Ekonomické pojmy v diskusi",
+      "aliases": [
+        "debata o ekonomice",
+        "diskuse ve třídě",
+        "mluvení o penězích",
+        "argumentace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "v diskusi o aktuálních ekonomicko-politických tématech používá správně vhodné ekonomické pojmy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "V diskusi správně používá vhodné ekonomické pojmy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje protistranu v debatě a opraví tě, když pojem použiješ špatně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdroje s vysvětlením pojmů si projdeš před diskusí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "V diskusi mluvíš ty, aplikace za tebe žádný pojem nepoužije."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "V živé diskusi s ostatními ti žádný klasický nástroj nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bad0f996-a299-4631-a7d8-104185b2ef22",
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ],
+      "inspiration": [
+        "Ekonomie kolem nás"
+      ]
+    },
+    {
+      "slug": "nazor-na-ekonomicka-rozhodnuti",
+      "title": "Vlastní názor na ekonomická rozhodnutí",
+      "aliases": [
+        "názor na rozhodnutí vlády",
+        "politika a peníze",
+        "aktuální dění",
+        "kdo co získá a ztratí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "průběžně se vyjadřuje k aktuálním ekonomicko-politickým diskusím a rozhodnutím v Česku i ve světě"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne argumenty pro a proti, názor si z nich skládáš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zpravodajské weby a stránky úřadů dají fakta o rozhodnutí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace za tebe názor nevytvoří a k tomu nic užitečného nenabízí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Názor si tvoříš ve vlastní hlavě, klasický nástroj k tomu nic nenabídne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b",
+        "http://data.europa.eu/esco/skill/bad0f996-a299-4631-a7d8-104185b2ef22"
+      ],
+      "inspiration": [
+        "Aktuální ekonomicko-politické rozhodnutí"
+      ]
+    },
+    {
+      "slug": "dopad-ekonomickeho-rozhodnuti-na-muj-zivot",
+      "title": "Dopad rozhodnutí na tvůj život",
+      "aliases": [
+        "jak rozhodnutí ovlivní mě",
+        "dopady na rodinu",
+        "kdo co získá",
+        "budoucnost a ekonomika"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "navrhne a zdůvodní, jak mohou konkrétní ekonomicko-politická rozhodnutí ovlivnit jejich současný a budoucí život"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se, koho se rozhodnutí týká, a pomůže ti dopady promyslet."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš si čísla a fakta o rozhodnutí, třeba ceny nebo daně."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový program spočítá, kolik by tě rozhodnutí stálo, když zadáš čísla."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ověří tvůj výpočet, třeba kolik zaplatíš na dani."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b",
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ],
+      "inspiration": [
+        "Kdo co získá – a kdo co ztratí?"
+      ]
+    }
+  ],
+  "aside": []
+}

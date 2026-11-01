@@ -1,0 +1,301 @@
+[
+  {
+    "slug": "hudebni-znaky-kontrast-gradace-harmonie",
+    "title": "Hudební znaky: kontrast, gradace, harmonie",
+    "aliases": [
+      "gradace",
+      "kontrast v hudbě",
+      "dynamika a tempo",
+      "harmonie",
+      "instrumentace",
+      "výrazové prostředky hudby"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Je schopný rozlišit výrazné hudební znaky ve znějící hudbě (tempo, dynamiku, kontrasty, gradace, výrazové prostředky).",
+        "quote": "Je schopný rozlišit výrazné hudební znaky ve znějící hudbě (tempo, dynamiku, kontrasty, gradace, výrazové prostředky)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Dále si rozvíjí vnímání hudebních znaků - jejich využití ve znějící hudbě (rytmus, harmonie, dynamika, kontrast, gradace, instrumentace, zvukomalba, styl).",
+        "quote": "Dále si rozvíjí vnímání hudebních znaků - jejich využití ve znějící hudbě (rytmus, harmonie, dynamika, kontrast, gradace, instrumentace, zvukomalba, styl)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hudba jako klíč k filmové atmosféře",
+        "url": "https://uloziste.rvp.cz/material/a076b0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je gradace nebo harmonie, a vymyslí příklady, kde je v písni hledat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam vysvětlení pojmů a nahrávky, na kterých je kontrast dobře slyšet."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace zobrazí průběh hlasitosti nebo noty a ty poznáš, kde hudba graduje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Znaky ve znějící hudbě rozlišuješ uchem ty, žádný nástroj to za tebe neposlouchá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+      "http://data.europa.eu/esco/skill/d11e4683-d2fe-45fd-bb1a-e995f7877851"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stavba-skladby-a-hudebni-myslenky",
+    "title": "Stavba skladby a hudební myšlenky",
+    "aliases": [
+      "forma skladby",
+      "sloka a refrén",
+      "hudební téma",
+      "části písně",
+      "struktura skladby"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Orientuje se ve formální struktuře poslouchané skladby či písně a dokáže pod vedením učitele rozpoznat hudební myšlenky.",
+        "quote": "Orientuje se ve formální struktuře poslouchané skladby či písně a dokáže pod vedením učitele rozpoznat hudební myšlenky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Dívčí válka - poslech: B. Smetana: Šárka",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše, jak se skladba skládá z částí, a vysvětlí pojmy jako téma nebo refrén."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rozbor stavby známých skladeb najdeš v encyklopediích a výukových textech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Zobrazí zvukovou vlnu nebo noty a ukáže, kde se část opakuje."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Notový zápis před sebou ti pomůže najít opakující se úseky při poslechu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+      "http://data.europa.eu/esco/skill/d11e4683-d2fe-45fd-bb1a-e995f7877851",
+      "http://data.europa.eu/esco/skill/6339a2d3-0c34-4156-b202-5929764fb720"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "interpretace-a-porovnani-provedeni",
+    "title": "Interpretace a porovnání dvou provedení skladby",
+    "aliases": [
+      "interpretace",
+      "provedení skladby",
+      "porovnání nahrávek",
+      "kvalita hudby",
+      "hodnocení výkonu"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Při poslechu oceňuje interpretační vklad, hledá jeho kvality a přínos.",
+        "quote": "Při poslechu oceňuje interpretační vklad, hledá jeho kvality a přínos."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Je schopen diskutovat s využitím získávaných vědomostí a jemu dostupné terminologie o kvalitě hudební i interpretační a porovnávat mezi sebou vybraná díla z hlediska kvality reprodukce, způsobu interpretace apod.",
+        "quote": "Je schopen diskutovat s využitím získávaných vědomostí a jemu dostupné terminologie o kvalitě hudební i interpretační a porovnávat mezi sebou vybraná díla z hlediska kvality reprodukce, způsobu interpretace apod."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Rap na barokní hudbu",
+        "url": "https://uloziste.rvp.cz/material/cd4dbf"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti najít slova pro rozdíly v tempu a výrazu dvou provedení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Můžeš si pustit víc nahrávek téže skladby a srovnat je."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Přehrávač nabízí různé nahrávky a můžeš je přepínat a porovnávat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kvalitu provedení posuzuješ svým uchem ty, nástroj ti ji neurčí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba",
+      "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-nazor-na-skladbu",
+    "title": "Vlastní názor na poslouchanou skladbu",
+    "aliases": [
+      "jak se mi líbí skladba",
+      "kritika skladby",
+      "hudební vkus",
+      "vyjádřit názor na hudbu",
+      "recenze skladby"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Slovně vyjádří vlastní názor na poslouchanou skladbu na základě svých individuálních hudebních znalostí a zkušeností, zaujme kritický postoj k danému dílu.",
+        "quote": "Slovně vyjádří vlastní názor na poslouchanou skladbu na základě svých individuálních hudebních znalostí a zkušeností, zaujme kritický postoj k danému dílu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se tě, co se ti na skladbě líbí nebo ne, a pomůže najít přesnější slova."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hudební recenze ti ukážou, jak o skladbách píšou jiní."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti názor nevytvoří, vkus si skládáš z vlastních poslechů."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Názor na skladbu si tvoříš vlastním poslechem, nástroj ho nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+      "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "poselstvi-a-doba-vzniku-skladby",
+    "title": "Poselství skladby a doba jejího vzniku",
+    "aliases": [
+      "text písně",
+      "význam písně",
+      "doba vzniku skladby",
+      "nonartificiální hudba",
+      "o čem je píseň"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Dokáže vnímat umělecké hodnoty díla napříč všemi styly a žánry, přemýšlí o významu poslouchané hudby, o jejím textovém, dobovém poselství, uvědomuje si proměnu v roli posluchače (zvláště u nonartificiální hudby).",
+        "quote": "Dokáže vnímat umělecké hodnoty díla napříč všemi styly a žánry, přemýšlí o významu poslouchané hudby, o jejím textovém, dobovém poselství, uvědomuje si proměnu v roli posluchače (zvláště u nonartificiální hudby)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Hledá souvislosti mezi daným dílem a dobou jeho vzniku.",
+        "quote": "Hledá souvislosti mezi daným dílem a dobou jeho vzniku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Svěcení jara a hudební nástroje",
+        "url": ""
+      },
+      {
+        "title": "Neworleánský jazz",
+        "url": "https://uloziste.rvp.cz/material/1ef9c4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti přečíst text písně a probrat, co sděluje a v jaké době vznikla."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam životopis autora, dobu vzniku skladby a její text."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace skladbu přehraje, o jejím poselství ale přemýšlíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Poselství skladby si domýšlíš při poslechu, žádný nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+      "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

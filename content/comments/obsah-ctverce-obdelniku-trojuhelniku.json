@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kolik dlaždic do koupelny, kolik barvy na zeď nebo jak velký koberec se vejde do pokoje, to všechno je obsah. Vzorce pro čtverec, obdélník a trojúhelník jsou základ, ze kterého pak počítáš složitější tvary i povrchy těles. S plochami každý den pracují lidé, kteří pokládají podlahy a obklady, navrhují interiéry nebo měří pozemky, a v povoláních, kde se tohle počítá, pracuje zhruba 24 % lidí v Česku. Aplikace obsah spočítá, ale chybu v jednotkách nebo zapomenutou polovinu u trojúhelníku odhalíš, jen když vzorcům rozumíš.",
+  "learnWithAi": [
+    {
+      "title": "Rychlé zkoušení ze vzorců",
+      "text": "Ať tě chatbot zkouší ze vzorců pro obsah, jeden útvar po druhém. U každého vzorce zkus vlastními slovy říct, proč platí."
+    },
+    {
+      "title": "Řešení se schovanou chybou",
+      "text": "Požádej chatbota o řešení tří úloh, ve kterých je schválně jedna chyba, třeba zapomenutá polovina u trojúhelníku. Najdi ji a vysvětli, proč je to chyba."
+    },
+    {
+      "title": "Dlaždice do koupelny",
+      "text": "Popiš chatbotovi rozměry vymyšlené koupelny a jedné dlaždice a spočítej, kolik dlaždic je potřeba. Výsledek si ověř kalkulačkou, v delších výpočtech se chatbot může splést."
+    }
+  ]
+}

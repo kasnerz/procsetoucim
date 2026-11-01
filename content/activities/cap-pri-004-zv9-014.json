@@ -1,0 +1,297 @@
+[
+  {
+    "slug": "popis-rozmanitosti-druhu-a-tvaru",
+    "title": "Popis rozmanitosti druhů a tvarů",
+    "aliases": [
+      "rozmanitost přírody",
+      "různé druhy a tvary",
+      "popis organismů",
+      "mikroskop a příroda"
+    ],
+    "outcome": "CAP-PRI-004-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popisuje rozmanitost druhů i tvarů, vyjadřuje svůj postoj k ní a reflektuje, že rozmanitost má hodnotu sama o sobě.",
+        "quote": "Popisuje rozmanitost druhů i tvarů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "popisuje a vyjadřuje svůj postoj k rozmanitosti (druhů i tvarů – v terénu i pod mikroskopem)",
+        "quote": "popisuje a vyjadřuje svůj postoj k rozmanitosti (druhů i tvarů – v terénu i pod mikroskopem)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Ocenění rozmanitosti (louka)",
+        "url": "https://uloziste.rvp.cz/material/99197c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Tvary organismů musíš pozorovat a popsat ty, chatbot je před sebou nevidí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlas a encyklopedie ukážou druhy a tvary, které v okolí nepotkáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na rozpoznání druhů ti pomůže pojmenovat, co popisuješ."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a mikroskop odkryjí tvary, které očima nepoznáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/73997f48-cd9d-4724-872d-86ecbb2ed9a2",
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zkoumani-rozmanitosti-organismu-v-terenu",
+    "title": "Zkoumání rozmanitosti organismů v terénu",
+    "aliases": [
+      "průzkum louky",
+      "život v půdě",
+      "život ve vodě",
+      "druhy a skupiny organismů",
+      "biodiverzita na zahradě"
+    ],
+    "outcome": "CAP-PRI-004-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zkoumá v přírodě rozmanitost živých organismů na úrovni druhů i širších skupin.",
+        "quote": "Zkoumá v přírodě rozmanitost živých organismů na úrovni druhů i širších skupin."
+      },
+      {
+        "level": "Na cestě",
+        "point": "zkoumá v přírodě rozmanitost živých organismů, na úrovni druhů i širších skupin (v půdě, vodě, louce, lese),",
+        "quote": "zkoumá v přírodě rozmanitost živých organismů, na úrovni druhů i širších skupin (v půdě, vodě, louce, lese),"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Biodiverzita na zahradě",
+        "url": "https://uloziste.rvp.cz/material/68342a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Louku, půdu nebo rybník prozkoumáš vlastníma očima a rukama, chatbot u toho není."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlas a encyklopedie pomůžou zařadit nalezené organismy do skupin."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na rozpoznání druhů navrhne jména tomu, co je na tvé fotce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa, síťka a určovací klíč ti pomůžou organismy najít a rozlišit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/96835f47-da71-415b-8cbf-d37386dc98d4",
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "role-rozkladacu-a-opylovacu",
+    "title": "Role rozkladačů a opylovačů v přírodě",
+    "aliases": [
+      "rozkladači v půdě",
+      "opylovači",
+      "včely a květy",
+      "k čemu jsou organismy",
+      "závislost lidí na přírodě"
+    ],
+    "outcome": "CAP-PRI-004-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Objasní roli živých organismů (rozkladači v půdě, opylovači) v přírodě a závislost lidí na činnosti živých organismů.",
+        "quote": "Objasní roli živých organismů (rozkladači v půdě, opylovači) v přírodě a závislost lidí na činnosti živých organismů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "objasní roli živých organismů (rozkladači v půdě, opylovači) v přírodě na základě předchozího zkoumání",
+        "quote": "objasní roli živých organismů (rozkladači v půdě, opylovači) v přírodě na základě předchozího zkoumání"
+      },
+      {
+        "level": "Na cestě",
+        "point": "reflektuje závislost lidí na činnosti živých organismů a vzájemnou vývojovou spřízněnost těchto organismů s lidmi",
+        "quote": "reflektuje závislost lidí na činnosti živých organismů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí, jak rozkladači a opylovači fungují, a doptá se, jestli tomu rozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a články ukážou příklady, co by se bez opylovačů a rozkladačů stalo."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti roli organismů v přírodě nevysvětlí, jen je pomůže pojmenovat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a půdní vzorek ukážou rozkladače při práci, třeba v hnijícím listí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ubytek-biodiverzity-priklad-a-priciny",
+    "title": "Úbytek biodiverzity: příklad a příčina",
+    "aliases": [
+      "mizející druhy",
+      "ubývání motýlů",
+      "proč druhy mizí",
+      "ohrožené druhy",
+      "biodiverzita"
+    ],
+    "outcome": "CAP-PRI-004-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede příklad úbytku biodiverzity, zhodnotí příčinu a sdílí svoje postoje s ostatními.",
+        "quote": "Uvede příklad úbytku biodiverzity, zhodnotí příčinu a sdílí svoje postoje s ostatními."
+      },
+      {
+        "level": "Na cestě",
+        "point": "uvede příklad úbytku biodiverzity, zhodnotí příčinu a sdílí svoje emoce s ostatními",
+        "quote": "uvede příklad úbytku biodiverzity, zhodnotí příčinu a sdílí svoje emoce s ostatními"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Mizící motýli",
+        "url": "https://uloziste.rvp.cz/material/0c81a6"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti nabídne příklady úbytku druhů a probere s tebou možné příčiny."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a data ochranářů ukážou, které druhy ubývají a proč."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace příčinu úbytku neposoudí, a svůj postoj sdílíš s lidmi ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příčinu posuzuješ úvahou a o svém postoji mluvíš s lidmi, žádný nástroj to nezastane."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d168d98c-b7bb-4b9a-b1dc-eac008af4df3",
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zmena-podminek-pozitivni-a-negativni-dopady",
+    "title": "Dopady změny podmínek na organismy",
+    "aliases": [
+      "změna prostředí",
+      "co se stane s druhy",
+      "pozitivní a negativní dopady",
+      "změna klimatu a příroda"
+    ],
+    "outcome": "CAP-PRI-004-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "hodnotí možné pozitivní i negativní dopady změny podmínek na život organismů",
+        "quote": "hodnotí možné pozitivní i negativní dopady změny podmínek na život organismů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot s tebou probere, komu změna podmínek uškodí a komu naopak pomůže."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a encyklopedie ukážou, jak se organismy s novými podmínkami vyrovnaly."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace dopady na organismy neposoudí, hodnotit je musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný přístroj za tebe dopady na živé organismy nezhodnotí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

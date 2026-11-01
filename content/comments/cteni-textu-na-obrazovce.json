@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Učebnice, návody i podmínky aplikací čteš většinou na obrazovce, kde tě snadno vyruší upozornění a ztratíš nit. Přečíst delší text až do konce a pamatovat si, co v něm stálo, proto potřebuješ k učení v každém předmětu. Kdo opravuje texty, překládá nebo zapisuje u soudu, čte na monitoru dlouhé dokumenty celý den a nesmí přehlédnout jediné slovo. Chatbot ti text shrne, ale ze shrnutí nepoznáš, co vynechal, a podmínky, se kterými souhlasíš, si musíš přečíst ty.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k přečtenému článku",
+      "text": "Přečti na obrazovce delší článek a vlož ho chatbotovi s prosbou o pět otázek k obsahu. Odpověz zpaměti a odpovědi si pak zkontroluj v textu."
+    },
+    {
+      "title": "Vlastní shrnutí proti strojovému",
+      "text": "Po přečtení napiš vlastní shrnutí v pár větách. Teprve potom si nech text shrnout chatbotem a porovnej, v čem se obě shrnutí liší."
+    },
+    {
+      "title": "Těžká místa v podmínkách",
+      "text": "Vyber podmínky používání nějaké aplikace a zeptej se chatbota jen na věty, kterým nerozumíš. Celý text dočti a zapiš si, s čím vlastně souhlasíš."
+    }
+  ]
+}

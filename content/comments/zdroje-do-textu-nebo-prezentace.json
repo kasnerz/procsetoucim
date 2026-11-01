@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když spojuješ poznatky z několika zdrojů, musíš je porovnat, vybrat, co patří k věci, a poskládat je do vlastního textu s nadpisy a čitelnou úpravou. Referát z jednoho článku je jen jeho přepis, kdežto tady vzniká něco tvého. Přesně tohle dělají lidé, kteří píšou návody, připravují výukové kurzy nebo zpracovávají průzkumy trhu, a takových míst spíš přibude. Chatbot ti osnovu navrhne a text klidně napíše celý, ale nepozná, který zdroj je spolehlivý, a za to, co v referátu stojí, odpovídáš ty.",
+  "learnWithAi": [
+    {
+      "title": "Osnova z vlastních výpisků",
+      "text": "Vypiš si z několika zdrojů hlavní body k tématu a vlož je chatbotovi s prosbou o návrh osnovy. Osnovu uprav podle sebe a text napiš vlastními slovy."
+    },
+    {
+      "title": "Rozpor mezi dvěma zdroji",
+      "text": "Najdi dva zdroje, které o stejné věci píšou trochu jinak, a zeptej se chatbota, čím se liší. Který z nich použiješ, rozhodni ty a zdůvodni to."
+    },
+    {
+      "title": "Prezentace očima posluchače",
+      "text": "Ukaž chatbotovi texty svých snímků a popros ho, ať se ptá jako spolužák, který o tématu nic neví. Kde nevíš, co odpovědět, snímek doplň."
+    }
+  ]
+}

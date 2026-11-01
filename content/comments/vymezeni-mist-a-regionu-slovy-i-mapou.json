@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Region nemá vždycky jasnou čáru na mapě. Kde končí Krkonoše nebo tvoje čtvrť, záleží na tom, podle čeho hranici vedeš, a když to umíš říct slovy i zakreslit, líp rozumíš prostoru kolem sebe. Hodí se to při popisu cesty i při čtení zpráv, které mluví o nějaké oblasti. V práci se v tom musí vyznat hlavně ten, kdo pilotuje vrtulník, řídí taxi nebo rozváží zásilky a potřebuje přesně vědět, kde jeho oblast začíná a končí. Mapová aplikace ti hranici nakreslí, podle čeho ji vést, ale rozhoduješ ty.",
+  "learnWithAi": [
+    {
+      "title": "Hádanka podle polohy a sousedů",
+      "text": "Popros chatbota, ať ti popíše nějaký region bez jména, jen polohou a sousedy, a zkus ho najít v atlase. Když se netrefíš, nech si dát další nápovědu."
+    },
+    {
+      "title": "Hranice vlastní čtvrti",
+      "text": "Popiš chatbotovi slovy, kde podle tebe začíná a končí tvoje čtvrť nebo obec, a nech ho, ať se doptá na místa, kde to jasné není. Hranici potom zakresli do mapy."
+    },
+    {
+      "title": "Region podle vlastního kritéria",
+      "text": "Vymysli kritérium, třeba kam lidé dojíždějí do práce nebo kde se mluví určitým nářečím, a navrhni podle něj hranici regionu. Chatbot ti řekne, co tvé kritérium nepokryje, údaje ale ověř v atlase."
+    }
+  ]
+}

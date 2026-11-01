@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Najít rychle konkrétní údaj, třeba odjezd vlaku nebo otevírací dobu knihovny, potřebuješ skoro každý den. Rozhoduje, jaká slova do vyhledávače napíšeš a jestli na nalezené stránce nebo v rejstříku knihy poznáš místo, kde odpověď opravdu stojí. Kdo ověřuje fakta pro noviny nebo pracuje v knihovně, se tím živí, ale umět to potřebuje každý. Chatbot ti odpověď řekne rovnou, jenže se může splést, a zdroj, ve kterém si ji ověříš, musíš umět najít ty.",
+  "learnWithAi": [
+    {
+      "title": "Lov na konkrétní údaj",
+      "text": "Nech chatbota vymyslet pět otázek na konkrétní údaje, třeba na výšku Sněžky. Odpovědi najdi vyhledávačem a ke každé si zapiš, na které stránce byla."
+    },
+    {
+      "title": "Lepší slova do vyhledávače",
+      "text": "Když něco nemůžeš najít, napiš chatbotovi svůj dotaz do vyhledávače a zeptej se, jak ho upřesnit. Výsledky obou dotazů pak porovnej."
+    },
+    {
+      "title": "Odpověď chatbota pod kontrolou",
+      "text": "Polož chatbotovi faktickou otázku a jeho odpověď si ověř ve dvou různých zdrojích, třeba v encyklopedii a v tištěné knize. Zapiš si, jestli se shodují."
+    }
+  ]
+}

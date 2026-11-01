@@ -1,0 +1,363 @@
+{
+  "outcome": "CAS-DEJ-002-ZV9-015",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "historicky-objekt-a-motiv-v-okoli",
+      "title": "Historický objekt a motiv v okolí",
+      "aliases": [
+        "pomník v okolí",
+        "pamětní deska",
+        "památka v obci",
+        "historický motiv",
+        "co je historický motiv"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vysvětlí pojem historický motiv."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Vyhledá sám nebo s pomocí vyučujícího historický motiv nebo objekt v okolí školy, v obci či regionu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná ve svém okolí historický objekt nebo motiv."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co je historický motiv, a poradí, kde v obci hledat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapa památek a web obce ukážou, co stojí kolem školy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa v telefonu ukáže pomníky a památky v okolí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Hledáš očima ty, cestou po okolí ti nástroj nic nenajde."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/177983da-20a1-451c-98e6-21e6b4ed97ae",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Jaké památky jsou kolem nás?"
+      ]
+    },
+    {
+      "slug": "popis-a-vyznam-prvku-objektu",
+      "title": "Prvky objektu, jeho funkce a význam",
+      "aliases": [
+        "co znamená pomník",
+        "atributy světce",
+        "symboly na budově",
+        "funkce památníku",
+        "popis sochy"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše jeho charakteristické prvky a vyjádří vlastní představu o celku i jednotlivých částech (co to je, z jakého období pochází, jakou má funkci apod.)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vyjádří vlastní názor o jeho vzniku, funkci a významech jednotlivých prvků."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Prozkoumá funkci a význam historického motivu/ objektu z hlediska historické paměti (např. jakou měl funkci v minulosti a jakou roli případně plní dnes, jaký význam mají jeho jednotlivé prvky – např. atributy sochy světce, fiály a chrliče na katedrále, osoby na pomníku osvobození města v roce 1945, jména historických osobností na budově školy)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí symboly a atributy, ty pak ověříš a rozhodneš, co dává smysl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky o památkách ukážou, co prvky znamenají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Význam prvků z aplikace nepoznáš, uvažuješ o nich ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Prvky si prohlédneš a popíšeš ty, žádný nástroj to za tebe nezvládne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/177983da-20a1-451c-98e6-21e6b4ed97ae",
+        "http://data.europa.eu/esco/skill/f5eae448-0e52-4550-b982-9ff108c2ef55"
+      ],
+      "inspiration": [
+        "Klášter napříč historií"
+      ]
+    },
+    {
+      "slug": "domnenka-o-stari-a-smyslu-objektu",
+      "title": "Domněnka, proč a z které doby objekt je",
+      "aliases": [
+        "z jaké doby je pomník",
+        "proč tu stojí",
+        "odhad stáří památky",
+        "co připomíná",
+        "hádání významu"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Hledá odpovědi, proč se veřejnému prostoru nachází konkrétní historický objekt nebo motiv."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Stanoví domněnku, proč se v místě daný motiv nebo objekt nachází, z jaké je doby, co a koho připomíná, jaký měl význam dříve a jaký má nyní."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, podle čeho poznat sloh a dobu, a zkouší tvoje nápady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Přehledy slohů a dějin ti dají vodítka k určení doby."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Domněnku si musíš vymyslet ty, aplikace ti ji nedá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Domněnku vytváříš hlavou ty, nástroj k tomu nic nemá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/f5eae448-0e52-4550-b982-9ff108c2ef55"
+      ],
+      "inspiration": [
+        "Budování památníku v Letech u Písku"
+      ]
+    },
+    {
+      "slug": "overeni-domnenky-z-dalsich-zdroju",
+      "title": "Ověření domněnky v dalších zdrojích",
+      "aliases": [
+        "hledání informací o památce",
+        "noviny a archivy",
+        "vzpomínky pamětníků",
+        "kde zjistit historii pomníku",
+        "muzeum a archiv"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Ověří domněnky s pomocí dalších zdrojů, vyhledá další fakta o minulé i současné funkci a významu tohoto objektu nebo motivu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vyslovenou domněnku o významu historického motivu či objektu ověří pomocí dalších zdrojů připravených vyučujícím nebo získaných vlastním pátráním (noviny, publikace, internetové zdroje, digitalizované archivní fondy, vzpomínky pamětníků atd.); je vhodné navázat spolupráci s muzeem, archivem, knihovnou či jinou regionální institucí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, kde hledat, ale odpovědi musíš ověřit ve zdrojích."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Digitalizované noviny a archivy ukážou, co o objektu psali."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pro tohle pátrání žádná aplikace nemá užitečnou funkci."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kniha nebo regionální publikace dá ověřená fakta o místě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a"
+      ],
+      "inspiration": [
+        "Klášter napříč historií"
+      ]
+    },
+    {
+      "slug": "kontroverzni-historicky-motiv",
+      "title": "Kontroverzní historický objekt nebo motiv",
+      "aliases": [
+        "sporný pomník",
+        "proč se lidé o pomníku hádají",
+        "odstranění pomníku",
+        "různé názory na památník",
+        "maršál Koněv"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vysvětlí, případně podloží vyhledanými informacemi, zda daný motiv mohl být v minulosti nebo může být v současnosti kontroverzní a proč."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne, proč lidé o pomnících spolu nesouhlasí, ty to porovnáš se zdroji."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a archivy ukážou, jak se o objektu dříve i dnes psalo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace sporný význam objektu nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Úsudek o sporu děláš ty, žádný klasický nástroj ho nenabízí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f5eae448-0e52-4550-b982-9ff108c2ef55",
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a"
+      ],
+      "inspiration": [
+        "Měl by maršál Koněv mít pomník v Praze?",
+        "Památník T. G. Masaryka v Mostě, jeho umístění a osudy"
+      ]
+    },
+    {
+      "slug": "diskuse-a-uprava-domnenky",
+      "title": "Diskuse a úprava domněnky podle nových faktů",
+      "aliases": [
+        "změnit názor podle faktů",
+        "diskuse ve třídě",
+        "oprava domněnky",
+        "debata o památce",
+        "nová fakta"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Své závěry prodiskutuje a při úpravě předchozí domněnky zohlední nová fakta."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Můžeš si na něm vyzkoušet argumenty, než je řekneš ve třídě."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Diskusi se spolužáky web nenahradí, vedeš ji ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nediskutuje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Diskutuješ se spolužáky ty, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "predstaveni-a-obhajoba-vysledku-badani",
+      "title": "Představení a obhajoba výsledků bádání",
+      "aliases": [
+        "referát o památce",
+        "prezentace ve třídě",
+        "obhajoba závěrů",
+        "vystoupení před třídou",
+        "projekt o pomníku"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Výsledky svého bádání představí a obhájí před spolužáky a vyučujícím."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže s osnovou a nachystá otázky, které by mohl položit učitel."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Před třídou vystupuješ ty, hotové informace za tebe nic neobhájí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prezentační program uspořádá obrázky a text pro třídu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před třídou mluvíš ty, nástroj za tebe neobhájí závěry."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Zhodnotí proces své práce, co ",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

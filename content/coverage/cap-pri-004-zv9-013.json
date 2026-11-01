@@ -1,0 +1,106 @@
+{
+  "outcome": "CAP-PRI-004-ZV9-013",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Vyvozuje vlastnosti společné pro danou skupinu organismů.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "spolecne-vlastnosti-skupiny"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Pozoruje a popisuje rozdíly ve vzhledu mezi různě starými jedinci daného druhu.",
+      "cards": [
+        "rozdily-veku-a-pohlavi-u-druhu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví a vnitrodruhové variabilitě.",
+      "cards": [
+        "rozdily-veku-a-pohlavi-u-druhu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vyjmenuje společné a odlišné znaky (morfologické, etologické, ….) mezi člověkem a ostatními lidoopi (stačí jeden druh)",
+      "cards": [
+        "clovek-a-lidoop-znaky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na základě pozorování / filmů / textů o nějakém živočišném druhu (např. primáti, vlci, krkavcovití ptáci, sociální hmyz …) vyvodí v čem se jim náš život podobá a co máme naopak rozdílného (vhodné mohou být především různé etologické aspekty)",
+      "cards": [
+        "chovani-zvirat-a-lidi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "formuluje názor na vybranou otázku týkající se zacházení lidí s živočichy a svůj názor podepře konkrétními argumenty a příklady (např. velkochovy, pokusy na zvířatech, dostihy, …)",
+      "cards": [
+        "nazor-na-zachazeni-se-zviraty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "v diskuzi o etické stránce využívání živočichů lidmi aktivně naslouchá názorům ostatních a navrhuje možná řešení zohledňující postoje různých stran",
+      "cards": [
+        "diskuse-o-vyuzivani-zvirat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyjmenuje společné a odlišné znaky (morfologické, etologické) člověka a vybraného druhu lidoopa.",
+      "cards": [
+        "clovek-a-lidoop-znaky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě vlastního pozorování, filmu nebo textu o konkrétním živočišném druhu nebo taxonomické skupině popíše, v čem se mu naše chování podobá a čím se liší.",
+      "cards": [
+        "chovani-zvirat-a-lidi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Formuluje názor na vybranou otázku týkající se zacházení lidí s živočichy a svůj názor podepře konkrétními argumenty a příklady.",
+      "cards": [
+        "nazor-na-zachazeni-se-zviraty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "V diskusi o etické stránce využívání živočichů lidmi aktivně naslouchá názorům ostatních a navrhuje možná řešení zohledňující postoje různých stran.",
+      "cards": [
+        "diskuse-o-vyuzivani-zvirat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Pojmenovává shody a rozdíly ve vývoji a životních projevech mezi člověkem a ostatními živočichy.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

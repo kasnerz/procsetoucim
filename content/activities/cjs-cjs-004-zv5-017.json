@@ -1,0 +1,436 @@
+[
+  {
+    "slug": "organismy-na-miste-a-jejich-vztahy",
+    "title": "Organismy na jednom místě a jejich vztahy",
+    "aliases": [
+      "rozpoznání rostlin a zvířat",
+      "kdo tu žije",
+      "vztahy v přírodě",
+      "pozorování v přírodě",
+      "živočichové na louce"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-017",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná a pojmenuje vybrané základní organismy žijící na určitém místě a pozoruje jejich vzájemné vztahy.",
+        "quote": "Rozpozná a pojmenuje vybrané základní organismy žijící na určitém místě a pozoruje jejich vzájemné vztahy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kur domácí",
+        "url": "https://uloziste.rvp.cz/material/908460"
+      },
+      {
+        "title": "Příběh pampelišky",
+        "url": "https://uloziste.rvp.cz/material/a2e0f1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, kdo koho živí a kdo s kým žije, a poradí, na co se při pozorování zaměřit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlasy a encyklopedie ukážou, jak se organismy z tvého okolí jmenují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na určování rostlin a zvířat podle fotky ti pomůže s názvem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a dalekohled ti ukážou drobné živočichy a vztahy, které očima neuvidíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+      "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozdily-mezi-mladymi-a-dospelymi-jedinci",
+    "title": "Rozdíly ve vzhledu mladých a dospělých jedinců",
+    "aliases": [
+      "mládě a dospělý",
+      "jak se zvíře mění s věkem",
+      "kuře a slepice",
+      "housenka a motýl",
+      "pozorování růstu"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Pozoruje a popisuje rozdíly vzhledu mezi různě starými jedinci daného druhu.",
+        "quote": "Pozoruje a popisuje rozdíly vzhledu mezi různě starými jedinci daného druhu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Pozoruje a popisuje rozdíly ve vzhledu mezi různě starými jedinci daného druhu.",
+        "quote": "Pozoruje a popisuje rozdíly ve vzhledu mezi různě starými jedinci daného druhu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kur domácí",
+        "url": "https://uloziste.rvp.cz/material/908460"
+      },
+      {
+        "title": "Příběh pampelišky",
+        "url": "https://uloziste.rvp.cz/material/a2e0f1"
+      },
+      {
+        "title": "Rozmnožování obojživelníků",
+        "url": "https://uloziste.rvp.cz/material/e8fa5c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Rozdíly vidíš a popisuješ ty, chatbot na živé zvíře nevidí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky mláďat a dospělých ti ukážou, jak vypadá druh v různém věku."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nic nepozoruje, vzhled mláděte neukáže."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a pravítko ti pomůžou rozdíly ve velikosti a tvaru přesně popsat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozdily-mezi-pohlavimi-u-druhu",
+    "title": "Rozdíly ve vzhledu samců a samic",
+    "aliases": [
+      "samec a samice",
+      "kohout a slepice",
+      "pohlaví u zvířat",
+      "jak poznat samce",
+      "pohlavní rozdíly"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Pozoruje a popisuje rozdíly ve vzhledu mezi jedinci různých pohlaví daného druhu organismů.",
+        "quote": "Pozoruje a popisuje rozdíly ve vzhledu mezi jedinci různých pohlaví daného druhu organismů."
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví a vnitrodruhové variabilitě.",
+        "quote": "Porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Kur domácí",
+        "url": "https://uloziste.rvp.cz/material/908460"
+      },
+      {
+        "title": "Plemena psů",
+        "url": "https://uloziste.rvp.cz/material/3101ac"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Samce a samici porovnáváš ty, chatbot je před sebou nemá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotografie a popisy ukážou, čím se samec od samice liší."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace na určování pozná druh, rozdíl mezi pohlavími za tebe nepopíše."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a pravítko ti pomůžou zachytit rozdíly v barvě, velikosti a tvaru."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozdily-mezi-jedinci-jednoho-druhu",
+    "title": "Rozdíly mezi jedinci jednoho druhu",
+    "aliases": [
+      "každý pes je jiný",
+      "plemena psů",
+      "proč nejsou zvířata stejná",
+      "variabilita druhu",
+      "odrůdy zeleniny"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví a vnitrodruhové variabilitě.",
+        "quote": "Porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví a vnitrodruhové variabilitě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Plemena psů",
+        "url": "https://uloziste.rvp.cz/material/3101ac"
+      },
+      {
+        "title": "Není rajče jako rajče aneb proč šlechtíme různé druhy zeleniny",
+        "url": "https://uloziste.rvp.cz/material/0ed7bf"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč se jedinci stejného druhu liší, a vymyslí srovnávací otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky plemen a odrůd ti dají materiál, co s čím porovnat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace jedince nesrovnává, rozdíly musíš najít ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a váha ti umožní jedince změřit a rozdíly doložit čísly."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fakta-o-delce-zivota-organismu",
+    "title": "Vyhledání faktů o délce života organismu",
+    "aliases": [
+      "jak dlouho žije zvíře",
+      "věk zvířat",
+      "délka života",
+      "dožívá se",
+      "zajímavosti o zvířeti"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vyhledá fakta o délce a dalších aspektech života daného organismu.",
+        "quote": "Vyhledá fakta o délce a dalších aspektech života daného organismu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kur domácí",
+        "url": "https://uloziste.rvp.cz/material/908460"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot rychle shrne, jak dlouho organismus žije, ale údaje si ověř jinde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie uvádějí délku života a další údaje o druhu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s atlasem zvířat a rostlin ukazují základní údaje k druhu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Dětská encyklopedie a atlas v knihovně mají údaje o druhu pohromadě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "schema-zivotniho-cyklu-druhu",
+    "title": "Schéma životního cyklu druhu",
+    "aliases": [
+      "životní cyklus",
+      "vývoj motýla",
+      "vývoj žáby",
+      "nakreslit cyklus",
+      "od vajíčka k dospělci"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vytvoří schéma a popíše životní cyklus sledovaného druhu.",
+        "quote": "Vytvoří schéma a popíše životní cyklus sledovaného druhu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozmnožování obojživelníků",
+        "url": "https://uloziste.rvp.cz/material/e8fa5c"
+      },
+      {
+        "title": "Příběh pampelišky",
+        "url": "https://uloziste.rvp.cz/material/a2e0f1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí jednotlivé fáze cyklu a opraví tvůj popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky vývoje, třeba z rozmnožování obojživelníků, ti ukážou správné pořadí fází."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace usnadní nakreslit schéma a opravit ho."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužky ti stačí na nakreslení cyklu po fázích."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-zivotnich-cyklu-druhu",
+    "title": "Porovnání životních cyklů různých druhů",
+    "aliases": [
+      "cyklus žáby a ještěrky",
+      "příbuzné druhy",
+      "srovnání vývoje",
+      "shody a rozdíly druhů",
+      "příbuznost organismů"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Porovná životní cykly druhů s různou mírou příbuznosti.",
+        "quote": "Porovná životní cykly druhů s různou mírou příbuznosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozmnožování obojživelníků",
+        "url": "https://uloziste.rvp.cz/material/e8fa5c"
+      },
+      {
+        "title": "Kur domácí",
+        "url": "https://uloziste.rvp.cz/material/908460"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot pomůže vymyslet, podle čeho cykly porovnat, a vysvětlí příbuznost druhů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Schémata cyklů různých druhů najdeš v encyklopediích a můžeš je srovnat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace cykly nesrovnávají, srovnání vytváříš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tabulka na papíře ti pomůže shody a rozdíly přehledně zapsat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+      "http://data.europa.eu/esco/skill/14c9635f-1afe-41a1-997e-7b406751e033"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

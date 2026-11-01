@@ -1,0 +1,358 @@
+{
+  "outcome": "UAK-VFV-002-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vytvarne-dilo-obsah-a-forma",
+      "title": "Popis výtvarného díla",
+      "aliases": [
+        "jak popsat obraz",
+        "popis obrazu",
+        "médium a námět",
+        "kompozice",
+        "technika díla"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše výtvarné dílo z hlediska jeho obsahu a formálních znaků"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy jako kompozice nebo žánr a poví, co ve svém popisu přehlížíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a sbírky muzeí uvádějí techniku, námět a žánr děl."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Obraz prohlížíš a popisuješ ty, aplikace ti oči nenahradí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa a pozorné prohlížení originálu ukážou tah štětce a použitou techniku."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/86c8482c-776b-43b5-a01c-956601069cfe"
+      ],
+      "inspiration": [
+        "Co mají umělecká díla společné",
+        "Umělecké dílo - digitální obraz"
+      ]
+    },
+    {
+      "slug": "filmove-dilo-obraz-zvuk-strih",
+      "title": "Popis filmového díla",
+      "aliases": [
+        "jak popsat film",
+        "obraz zvuk střih",
+        "speciální efekty ve filmu",
+        "rozbor filmu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše filmové dílo z hlediska jeho obsahu a formálních znaků"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co je střih nebo zvuková stopa, a dá otázky, podle kterých film rozeberáš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Filmové databáze a recenze uvádějí děj, tvůrce a použité postupy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Film sleduješ a posloucháš ty, aplikace za tebe nepozná, jak působí střih."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pro popis filmu nemá klasický nástroj nic užitečného."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/493b20c2-c435-449a-896e-0af057c41fef"
+      ],
+      "inspiration": [
+        "Porovnání filmových titulků",
+        "Návštěva kina včetně následné diskuze"
+      ]
+    },
+    {
+      "slug": "umeni-versus-bezna-vizualni-produkce",
+      "title": "Umělecké dílo a běžná vizuální produkce",
+      "aliases": [
+        "umění a reklama",
+        "co je umění",
+        "umění nebo fotka z telefonu",
+        "běžné obrázky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, v čem spatřuje rozdíl mezi uměleckým dílem a běžnou vizuální produkcí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne kritéria pro srovnání a protiargumenty, které ti ukážou slabá místa tvého názoru."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a encyklopedie popisují, čím se umění a užitá tvorba liší."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Rozdíl si rozmyslíš ty, aplikace ti nedá vlastní názor."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj rozdíl mezi uměním a běžným obrázkem neurčí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f"
+      ],
+      "inspiration": [
+        "Co mají umělecká díla společné"
+      ]
+    },
+    {
+      "slug": "prvky-a-vztahy-mezi-dily",
+      "title": "Prvky děl a vztahy mezi nimi",
+      "aliases": [
+        "podobnosti děl",
+        "srovnání obrazů",
+        "linie barvy tvary rytmus",
+        "čím se díla liší",
+        "souvislosti mezi díly"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozpoznává na uměleckých dílech současnosti i minulosti důležité prvky"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Mezi díly nachází vztahy (formální podobnost"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pojmenuje prvky jako rytmus nebo kontrast a navrhne, čím se dvě díla podobají."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a sbírky ukážou díla téhož tvůrce, epochy nebo tématu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s kolekcemi muzeí zobrazí díla vedle sebe ve velkém rozlišení."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vztahy mezi díly hledáš očima ty, klasický nástroj žádné neukáže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+      ],
+      "inspiration": [
+        "Co mají umělecká díla společné"
+      ]
+    },
+    {
+      "slug": "dila-a-historicke-udalosti",
+      "title": "Umělecká díla a dějiny kolem nich",
+      "aliases": [
+        "umění a dějiny",
+        "obraz a historická událost",
+        "co se dělo v době vzniku",
+        "společenské změny v umění"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "K vybraným dílům hledá souvislosti s významnými společenskými změnami"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne, co se kolem vzniku díla dělo, a ty si to ověříš ve zdrojích."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky muzeí popisují dobu vzniku díla a události kolem něj."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s mapou nebo časovou osou k tvým vybraným dílům souvislosti nenajde."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj souvislosti mezi dílem a dobou neukáže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25",
+        "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "srovnani-dil-ruznych-epoch",
+      "title": "Díla dávná a dnešní vedle sebe",
+      "aliases": [
+        "stará a nová díla",
+        "porovnání epoch",
+        "architektura dříve a dnes",
+        "staré a moderní filmy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Porovnává výtvarná, architektonická, filmová a jiná audiovizuální díla"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne hlediska pro srovnání, třeba materiál nebo námět, a vysvětlí rozdíly mezi dobami."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Online sbírky a encyklopedie ti dají díla z různých epoch k porovnání."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s galeriemi ukážou díla různých dob vedle sebe."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Srovnání děl provádíš ty, klasický nástroj ho za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "hledani-del-v-galerii-a-online",
+      "title": "Objevování děl v galerii, muzeu a online",
+      "aliases": [
+        "návštěva galerie",
+        "online sbírky",
+        "inspirace pro tvorbu",
+        "jak najít umění"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Prostřednictvím návštěvy galerie, muzea, kina nebo online sbírek objevuje díla"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jaké sbírky a styly projít podle toho, co tě zajímá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové stránky galerií a online sbírky ukážou díla, která si můžeš prohlédnout."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace galerií a muzeí tě provedou sbírkou a ukážou díla v okolí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na výstavě procházíš sály ty, klasický nástroj žádné dílo nenajde."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/14f9a27c-d52e-4e3d-9819-e564d4ec3d71",
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+      ],
+      "inspiration": [
+        "Návštěva kina včetně následné diskuze",
+        "Portfolio"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Vyjádří se k výtvarnému",
+      "code": "O1",
+      "refs": [
+        "umeleckadila-pocity-z-dila",
+        "umeleckadila-nazor-a-rozhovor"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Rozlišuje mezi vybranými druhy děl",
+      "code": "O1",
+      "refs": [
+        "umeleckadila-druhy-del",
+        "umeleckadila-uzite-umeni-reklama"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "V komunikaci o díle využívá",
+      "code": "O1",
+      "refs": [
+        "umeleckadila-oborove-pojmy"
+      ]
+    }
+  ]
+}

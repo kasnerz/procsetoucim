@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "f2b15a0e-e65a-438a-affb-29b9d50b77d1": "Při psaní programu se předem odhaduje, co udělá s různými vstupy, a po spuštění se to ověřuje. Rozdíl mezi odhadem a výsledkem ukazuje, kde je chyba.",
+  "6e5ceba0-df96-465f-adb4-2e06ae715d43": "Program pro stroj se musí chovat správně pro každou objednávku, ne jen pro jednu. Zkušební provoz a simulace ukazují, co se stane při neobvyklých vstupech.",
+  "68d973df-bf10-4bf7-9a1b-fbd9f604b9db": "Analýza biologických dat musí fungovat na různých souborech, ne jen na jednom. Kdo ji programuje, zkouší, co postup udělá při neobvyklých datech.",
+  "4874fa37-0cd1-4a68-aed8-a838851f242d": "Algoritmus pro rozbor textu se zkouší na různých větách. Odhaduje se, co s nimi udělá, a hledají se případy, kdy zápis selže.",
+  "c3b82711-273d-4fa8-8de7-0ac3d99c16fc": "Při výuce programování se studentům ukazují příklady vstupů a výsledky. Tak se vysvětluje, co algoritmus dělá vždy a co jen někdy.",
+  "dc8ef7da-d2c0-4474-96a0-6d0385eeec1e": "Úprava skriptu na webu vyžaduje odhadnout, co udělá, než se nasadí. Hlavně se ale web provozuje a spravuje, programování tu není každodenní.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Při navrhování výukových materiálů se uvažuje, co kdo udělá při různých krocích a odpovědích. Programování a algoritmy tu zabírají jen malý díl práce.",
+  "62979364-6fac-41f2-87ca-202bca19a6ab": "Předvídání výsledku algoritmu se v CAD využívá jen málo, hlavní prací je kreslení a výpočet materiálu. Programování se objevuje spíš jako doplněk, třeba při úpravách."
+ }
+}

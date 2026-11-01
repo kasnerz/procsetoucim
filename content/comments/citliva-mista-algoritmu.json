@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Většina chyb v programech se schovává na pár typických místech: v podmínce, kde má být „menší nebo rovno“ a je jen „menší“, v závorce, která uzavírá něco jiného, než měla, nebo v cyklu, který skončí o krok dřív. Kdo tato místa zná, čte kód pozorněji a chybu najde dřív, než způsobí potíže. Lidé, kteří programují stroje ve výrobě nebo zpracovávají data v biologii, si na ně dávají pozor každý den, protože jedno chybné znaménko změní celý výsledek. Chatbot ti citlivá místa ukáže na příkladu, ale ve vlastním kódu je potřebuješ zahlédnout ty.",
+  "learnWithAi": [
+    {
+      "title": "Kód s jednou nastraženou chybou",
+      "text": "Nech chatbota napsat krátký cyklus s jednou chybou v podmínce nebo v závorce, ať ale neprozradí kde. Chybu najdi a oprav, pak si nech potvrdit, jestli sedí."
+    },
+    {
+      "title": "Hraniční hodnoty na zkoušku",
+      "text": "Vyber podmínku z vlastního programu a zeptej se chatbota, které hodnoty jsou pro ni hraniční. Každou z nich projdi ručně a zjisti, jestli se program zachová správně."
+    },
+    {
+      "title": "Seznam vlastních chyb",
+      "text": "Pošli chatbotovi několik svých starších programů a popros ho, ať popíše, na jakých místech chybuješ nejčastěji. Udělej si z toho krátký seznam, podle kterého příště kód zkontroluješ."
+    }
+  ]
+}

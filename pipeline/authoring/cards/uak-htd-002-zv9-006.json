@@ -1,0 +1,368 @@
+{
+  "outcome": "UAK-HTD-002-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "hudebni-znaky-kontrast-gradace-harmonie",
+      "title": "Hudební znaky: kontrast, gradace, harmonie",
+      "aliases": [
+        "gradace",
+        "kontrast v hudbě",
+        "dynamika a tempo",
+        "harmonie",
+        "instrumentace",
+        "výrazové prostředky hudby"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Je schopný rozlišit výrazné hudební znaky ve znějící hudbě (tempo, dynamiku, kontrasty, gradace, výrazové prostředky)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Dále si rozvíjí vnímání hudebních znaků - jejich využití ve znějící hudbě (rytmus, harmonie, dynamika, kontrast, gradace, instrumentace, zvukomalba, styl)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+        "http://data.europa.eu/esco/skill/d11e4683-d2fe-45fd-bb1a-e995f7877851"
+      ],
+      "inspiration": [
+        "Hudba jako klíč k filmové atmosféře"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co je gradace nebo harmonie, a vymyslí příklady, kde je v písni hledat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam vysvětlení pojmů a nahrávky, na kterých je kontrast dobře slyšet."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace zobrazí průběh hlasitosti nebo noty a ty poznáš, kde hudba graduje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Znaky ve znějící hudbě rozlišuješ uchem ty, žádný nástroj to za tebe neposlouchá."
+        }
+      }
+    },
+    {
+      "slug": "stavba-skladby-a-hudebni-myslenky",
+      "title": "Stavba skladby a hudební myšlenky",
+      "aliases": [
+        "forma skladby",
+        "sloka a refrén",
+        "hudební téma",
+        "části písně",
+        "struktura skladby"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Orientuje se ve formální struktuře poslouchané skladby či písně a dokáže pod vedením učitele rozpoznat hudební myšlenky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+        "http://data.europa.eu/esco/skill/d11e4683-d2fe-45fd-bb1a-e995f7877851",
+        "http://data.europa.eu/esco/skill/6339a2d3-0c34-4156-b202-5929764fb720"
+      ],
+      "inspiration": [
+        "Dívčí válka - poslech: B. Smetana: Šárka"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, jak se skladba skládá z částí, a vysvětlí pojmy jako téma nebo refrén."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Rozbor stavby známých skladeb najdeš v encyklopediích a výukových textech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Zobrazí zvukovou vlnu nebo noty a ukáže, kde se část opakuje."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Notový zápis před sebou ti pomůže najít opakující se úseky při poslechu."
+        }
+      }
+    },
+    {
+      "slug": "interpretace-a-porovnani-provedeni",
+      "title": "Interpretace a porovnání dvou provedení skladby",
+      "aliases": [
+        "interpretace",
+        "provedení skladby",
+        "porovnání nahrávek",
+        "kvalita hudby",
+        "hodnocení výkonu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Při poslechu oceňuje interpretační vklad, hledá jeho kvality a přínos."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Je schopen diskutovat s využitím získávaných vědomostí a jemu dostupné terminologie o kvalitě hudební i interpretační a porovnávat mezi sebou vybraná díla z hlediska kvality reprodukce, způsobu interpretace apod."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba",
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+      ],
+      "inspiration": [
+        "Rap na barokní hudbu"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti najít slova pro rozdíly v tempu a výrazu dvou provedení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Můžeš si pustit víc nahrávek téže skladby a srovnat je."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Přehrávač nabízí různé nahrávky a můžeš je přepínat a porovnávat."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kvalitu provedení posuzuješ svým uchem ty, nástroj ti ji neurčí."
+        }
+      }
+    },
+    {
+      "slug": "vlastni-nazor-na-skladbu",
+      "title": "Vlastní názor na poslouchanou skladbu",
+      "aliases": [
+        "jak se mi líbí skladba",
+        "kritika skladby",
+        "hudební vkus",
+        "vyjádřit názor na hudbu",
+        "recenze skladby"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Slovně vyjádří vlastní názor na poslouchanou skladbu na základě svých individuálních hudebních znalostí a zkušeností, zaujme kritický postoj k danému dílu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se tě, co se ti na skladbě líbí nebo ne, a pomůže najít přesnější slova."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Hudební recenze ti ukážou, jak o skladbách píšou jiní."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti názor nevytvoří, vkus si skládáš z vlastních poslechů."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Názor na skladbu si tvoříš vlastním poslechem, nástroj ho nenahradí."
+        }
+      }
+    },
+    {
+      "slug": "poselstvi-a-doba-vzniku-skladby",
+      "title": "Poselství skladby a doba jejího vzniku",
+      "aliases": [
+        "text písně",
+        "význam písně",
+        "doba vzniku skladby",
+        "nonartificiální hudba",
+        "o čem je píseň"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Dokáže vnímat umělecké hodnoty díla napříč všemi styly a žánry, přemýšlí o významu poslouchané hudby, o jejím textovém, dobovém poselství, uvědomuje si proměnu v roli posluchače (zvláště u nonartificiální hudby)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Hledá souvislosti mezi daným dílem a dobou jeho vzniku."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+      ],
+      "inspiration": [
+        "Svěcení jara a hudební nástroje",
+        "Neworleánský jazz"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti přečíst text písně a probrat, co sděluje a v jaké době vznikla."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam životopis autora, dobu vzniku skladby a její text."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace skladbu přehraje, o jejím poselství ale přemýšlíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Poselství skladby si domýšlíš při poslechu, žádný nástroj to neudělá."
+        }
+      }
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Rozvíjí svůj vztah k hudbě pom",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Dokáže soustředěně a citlivě v",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Pojmenuje svůj vztah k hudbě a",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Zhodnotí vyzkoušené role v pos",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Prostřednictvím poslechových č",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Pozorně a citlivě vnímá vh",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Je schopen emocionálně reago",
+      "code": "O1",
+      "refs": [
+        "poslech-nalada-hudby"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Pojmenuje v proudu znějící hud",
+      "code": "O1",
+      "refs": [
+        "poslech-tempo-a-hlasitost",
+        "poslech-nastroje-podle-zvuku"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "V rámci tvořivého poslechu se ",
+      "code": "O1",
+      "refs": [
+        "poslech-pohyb-a-tleskani",
+        "poslech-jednoduche-nastroje-a-pomucky"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vyjádří se k znějící hudbě a v",
+      "code": "O1",
+      "refs": [
+        "poslech-vyjadreni-slovy-a-obrazkem"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Rozumí základním pojmům jednot",
+      "code": "O1",
+      "refs": [
+        "pojmy-orchestr-dirigent-jeviste"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Ve zhlédnutém nebo poslechnuté",
+      "code": "O1",
+      "refs": [
+        "vyrazove-prostredky-hudby-tance-divadla"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Prostřednictvím poslechových č",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Učí se propojovat činnosti v p",
+      "code": "O1",
+      "refs": [
+        "poslech-pohyb-a-tleskani"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Sleduje svůj vklad či roli při",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Učí se spolupráci se spolužáky",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

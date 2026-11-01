@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Odhadnout, co program vypíše, ještě než ho spustíš, šetří spoustu času. Kdo píše software, si tak ověřuje, že rozumí vlastnímu kódu: když výsledek s odhadem nesedí, je chyba buď v programu, nebo v úvaze. Zkoušení na různých vstupech pak učí rozlišit, co platí jen někdy a co vždycky, což je stejné uvažování jako v matematice, když hledáš pravidlo v řadě čísel. Počítač program spustí za tebe, ale neřekne ti, proč vyšlo právě tohle a jestli to vyjde i příště.",
+  "learnWithAi": [
+    {
+      "title": "Odhad před spuštěním",
+      "text": "Požádej chatbota o krátký program a tři různé vstupy. Ke každému napiš, co program podle tebe vrátí, a výsledky si pak ověř spuštěním."
+    },
+    {
+      "title": "Vstup, který všechno rozbije",
+      "text": "Zkus vymyslet vstup, na kterém se algoritmus zachová jinak, než čekáš, třeba nulu nebo záporné číslo. Chatbotovi napiš svůj tip a nech ho posoudit, jestli máš pravdu."
+    },
+    {
+      "title": "Pravidlo, které platí vždycky",
+      "text": "Napiš vlastní tvrzení o algoritmu, třeba že výsledek je vždy sudý. Chatbot ať zkusí najít vstup, který ho vyvrátí, a ty si jeho protipříklad přepočítej."
+    }
+  ]
+}

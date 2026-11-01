@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Zprávy o chemii často straší nebo slibují zázraky: škodlivá „chemie“ v jídle nebo přípravek, který prý vyléčí všechno. Kdo zná základy chemie a umí si tvrzení ověřit, nenaletí na zbytečný strach ani na drahý nesmysl, a to se hodí při nákupu i v hádce s kamarády. V redakcích se tím živí ti, kdo ověřují fakta nebo rozhodují, co se otiskne. Chatbot ti tvrzení pomůže rozebrat, jenže se taky plete a zní přitom přesvědčivě, takže poslední slovo má ověřený zdroj a tvůj vlastní úsudek.",
+  "learnWithAi": [
+    {
+      "title": "Rozbor jednoho titulku",
+      "text": "Vlož chatbotovi titulek o chemii, který najdeš na internetu, a nech ho vypsat tvrzení, která se dají ověřit. Ověř je pak v odborném zdroji."
+    },
+    {
+      "title": "Zpráva se schovanými nesmysly",
+      "text": "Požádej chatbota o krátkou zprávu o chemii, do které schová dva nesmysly. Najdi je a vysvětli, proč neplatí."
+    },
+    {
+      "title": "Odpověď na skutečný hoax",
+      "text": "Napiš krátkou odpověď na hoax o chemii z diskuse na internetu a přidej odkazy na zdroje. Chatbot ať ji přečte jako nedůvěřivý čtenář a řekne, čemu by nevěřil."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "outcome": "CAP-FYZ-005-ZV9-014",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Demonstruje na modelu otáčení Země, uvede souvislost mezi rotací Země a střídáním dne a noci.",
+      "cards": [
+        "rotace-zeme-den-a-noc"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Demonstruje a popíše pohyby Země a Měsíce kolem Slunce.",
+      "cards": [
+        "pohyby-zeme-a-mesice-rok"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Ví, že rok je určen jedním oběhem Země kolem Slunce.",
+      "cards": [
+        "pohyby-zeme-a-mesice-rok"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Odhadne, co umožnilo vznik a vývoj života na Zemi.",
+      "cards": [
+        "vznik-zivota-na-zemi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Získává představu o velikostech těles Sluneční soustavy a jejich vzdálenostech od Slunce.",
+      "cards": [
+        "model-slunecni-soustavy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s tím, že osa Země je nakloněná a jaké to má důsledky pro život na Zemi (střídání ročních období, polární den a noc, …).",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "rocni-chod-teploty-sklon-osy"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkoumá fáze Měsíce a jejich souvislost s polohou Měsíce vzhledem ke Slunci a Zemi.",
+      "cards": [
+        "faze-mesice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s vybranými souhvězdími a významnými hvězdami (Polárka, Sirius, …).",
+      "cards": [
+        "souhvezdi-a-hvezdy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s některými typy družic Země a jejich využitím (GPS, meteorologické družice, ISS, …).",
+      "cards": [
+        "druzice-zeme-a-jejich-vyuziti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s některými zajímavými objekty ve vesmíru (černá díra, trpasličí planeta, mlhovina, …).",
+      "cards": [
+        "zajimave-objekty-ve-vesmiru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhledá informace o velikosti Slunce, velikostech planet a jejich vzdálenostech od Slunce, na jejich základě vytvoří model Sluneční soustavy.",
+      "cards": [
+        "model-slunecni-soustavy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Demonstruje základní pohyby Země okolo Slunce a Měsíce okolo Země a popíše jejich důsledky.",
+      "cards": [
+        "pohyby-zeme-a-mesice-rok"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí, jak vzniká zatmění Slunce a Měsíce.",
+      "cards": [
+        "zatmeni-slunce-a-mesice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Demonstruje fáze Měsíce.",
+      "cards": [
+        "faze-mesice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Prezentuje vybrané poznatky o zajímavých objektech ve vesmíru.",
+      "cards": [
+        "zajimave-objekty-ve-vesmiru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozezná vybraná souhvězdí na noční obloze.",
+      "cards": [
+        "souhvezdi-a-hvezdy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše, jaké důsledky mají pohyby těles ve Sluneční soustavě na Zemi.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

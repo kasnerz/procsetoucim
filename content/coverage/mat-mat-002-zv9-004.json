@@ -1,0 +1,54 @@
+{
+  "outcome": "MAT-MAT-002-ZV9-004",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "přečte hodnoty ze stupnice na různých měřicích nástrojích (včetně úhloměru)",
+      "cards": [
+        "cteni-stupnice-mericich-nastroju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vyjádří délku, obsah a objem v různých jednotkách stejné soustavy",
+      "cards": [
+        "prevody-jednotek-delky-obsahu-objemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Přečte hodnoty ze stupnice na různých měřicích nástrojích i mezi vyznačenými dílky (interpolace).",
+      "cards": [
+        "cteni-stupnice-mericich-nastroju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Převádí jednotky délky, obsahu a objemu v rámci standardní soustavy měření.",
+      "cards": [
+        "prevody-jednotek-delky-obsahu-objemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyjádří délku, obsah a objem v jednotkách různých měrných soustav, pokud zná převodní vztahy.",
+      "cards": [
+        "prevody-mezi-ruznymi-soustavami"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Používá k měření a porovnávání standardní jednotky délky, obsahu a objemu.",
+      "cards": [
+        "mereni-a-porovnavani-standardni-jednotky"
+      ],
+      "aside": null
+    }
+  ]
+}

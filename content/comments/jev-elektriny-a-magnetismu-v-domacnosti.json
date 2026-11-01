@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Rychlovarná konvice ohřívá vodu proudem, který prochází topnou spirálou, vysavač pohání elektromotor a indukční deska zahřívá hrnec přes magnetické pole. Když si vybereš jeden spotřebič a vysvětlíš, na jakém jevu stojí, propojíš fyziku ze školy s věcmi, které doma denně zapínáš. Hodí se to i pro bezpečnost, protože kdo ví, co se děje uvnitř, chápe, proč se mokrou rukou nesahá na zapojený spotřebič. Elektromechanici a radiotechnici to dělají v práci pořád, když hledají, proč přístroj nefunguje. Návod najdeš na internetu, ale vlastními slovy popsat, co se uvnitř děje, je úkol pro tebe.",
+  "learnWithAi": [
+    {
+      "title": "Štítek ze spodku spotřebiče",
+      "text": "Vyfoť štítek na spotřebiči a nech chatbota vysvětlit, co znamenají údaje o napětí a příkonu. Čísla porovnej s návodem, z fotky je může přečíst špatně."
+    },
+    {
+      "title": "Zvídavý soused",
+      "text": "Ať chatbot hraje zvídavého souseda, který se ptá, proč fén zároveň hřeje a fouká. Odpovídej tak dlouho, dokud mu nedojdou otázky."
+    },
+    {
+      "title": "Vlastní popis jednoho přístroje",
+      "text": "Vyber si doma jeden spotřebič a napiš, na jakém jevu podle tebe funguje. Chatbot ať tvé vysvětlení projde a upozorní na věcné chyby, které pak opravíš vlastními slovy."
+    }
+  ]
+}

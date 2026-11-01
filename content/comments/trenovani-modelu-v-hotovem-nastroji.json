@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Natrénovat vlastní model, třeba takový, který pozná, jestli na fotce držíš palec nahoru, nebo dolů, je nejrychlejší cesta k tomu pochopit, jak umělá inteligence vzniká. Uvidíš, že model nic „neví“, jen hledá podobnosti v příkladech, které mu dáš. Ve škole na to stačí hotový výukový nástroj s výchozím nastavením, kdežto lidé, kteří vyvíjejí počítačové vidění nebo chytrá zařízení, dělají totéž s mnohem většími daty. Hodí se to i tomu, kdo programovat nikdy nebude: líp pak odhadne, čemu u aplikací s umělou inteligencí věřit.",
+  "learnWithAi": [
+    {
+      "title": "Slovníček k nastavení nástroje",
+      "text": "Zkopíruj chatbotovi popis nastavení z výukového nástroje, kterému nerozumíš, a nech si ho vysvětlit jednoduššími slovy. Jednu volbu pak změň a sleduj, co to s modelem udělá."
+    },
+    {
+      "title": "Nápady na vlastní model",
+      "text": "Nech si navrhnout pět nápadů, co by šlo natrénovat z fotek nebo zvuků, které nasbíráš doma. Jeden vyber a promysli, kolik příkladů budeš potřebovat."
+    },
+    {
+      "title": "Předpověď před trénováním",
+      "text": "Než model spustíš, napiš si, jak dobře podle tebe bude fungovat a na čem se splete. Po trénování to porovnej a s chatbotem rozeber, proč se tvůj odhad trefil nebo netrefil."
+    }
+  ]
+}

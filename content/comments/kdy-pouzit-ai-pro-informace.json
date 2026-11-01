@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Chatbot rychle vysvětlí pojem nebo shrne dlouhý text, a stejně klidně s jistotou napíše vymyšlený údaj nebo zdroj, který neexistuje. Proto se učíš rozlišit úkoly, kde ti pomůže, od těch, kde potřebuješ ověřený zdroj, třeba u zdravotní rady nebo údaje do referátu. Kdo ověřuje fakta nebo pracuje v knihovně, takhle rozlišuje denně, ale potřebuje to každý, kdo s chatbotem píše úkoly. Rozhodnutí, kdy AI použít, za tebe žádný nástroj neudělá a za to, co z odpovědi převezmeš, odpovídáš ty.",
+  "learnWithAi": [
+    {
+      "title": "Test na známém tématu",
+      "text": "Zeptej se chatbota na něco, co dobře znáš, třeba na svou obec nebo oblíbený sport. Zapiš si, co uvedl správně a v čem se spletl."
+    },
+    {
+      "title": "Roztřídění školních úkolů",
+      "text": "Sepiš deset úkolů ze školy i z běžného života a roztřiď je na ty, kde ti chatbot pomůže, a ty, kde potřebuješ ověřený zdroj. Roztřídění ukaž chatbotovi a proberte, kde se neshodnete."
+    },
+    {
+      "title": "Dohledání zdrojů od chatbota",
+      "text": "Popros chatbota o tři zdroje k tématu tvého referátu a každý zkus dohledat v knihovně nebo vyhledávačem. Zapiš si, které existují a které ne."
+    }
+  ]
+}

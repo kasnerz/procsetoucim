@@ -1,0 +1,293 @@
+[
+  {
+    "slug": "vyprava9-sila-a-novost-prozitku",
+    "title": "Síla a novost prožitku z díla",
+    "aliases": [
+      "jak moc mě dílo zasáhlo",
+      "pocity z filmu",
+      "co bylo na obrazu nové",
+      "můj zážitek z díla",
+      "intenzita zážitku"
+    ],
+    "outcome": "UAK-VFV-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Verbalizuje svůj prožitek z výtvarného a filmového díla, posoudí jeho intenzitu.",
+        "quote": "Verbalizuje svůj prožitek z výtvarného a filmového díla, posoudí jeho intenzitu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Verbalizuje svůj osobní prožitek z uměleckého díla (pocity a tušení, formativnost, míra nových zkušeností).",
+        "quote": "Verbalizuje svůj osobní prožitek z uměleckého díla (pocity a tušení, formativnost, míra nových zkušeností)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Prožitek z krátkého filmu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, co tě zaujalo, a nabídne slova, když si nevíš rady."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Kolik tě dílo zasáhlo, v žádném zdroji nenajdeš, víš to jen ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvůj prožitek neposoudí, říkáš ho ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Sílu zážitku neodměříš ani nezapíšeš do tabulky, posuzuješ ji ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/86c8482c-776b-43b5-a01c-956601069cfe"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyprava9-tvurci-zamer-a-prostredky",
+    "title": "Tvůrčí záměr a prostředky autora",
+    "aliases": [
+      "co tím chtěl autor říct",
+      "záměr tvůrce",
+      "rozbor obrazu",
+      "rozbor filmu",
+      "jak autor vyjádřil myšlenku"
+    ],
+    "outcome": "UAK-VFV-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Odhaduje tvůrčí záměr vybraného díla.",
+        "quote": "Odhaduje tvůrčí záměr vybraného díla."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše, v čem spatřuje tvůrčí záměr díla a jaké prostředky vyjádření si autor k tomuto záměru zvolil.",
+        "quote": "Popíše, v čem spatřuje tvůrčí záměr díla a jaké prostředky vyjádření si autor k tomuto záměru zvolil."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Analýza výtvarného díla",
+        "url": ""
+      },
+      {
+        "title": "Adaptace",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojmy jako barva, kompozice nebo střih a dá příklady, kde je autor použil."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a galerie popisují dílo i autorovu dobu, z čehož záměr lépe odhadneš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s ukázkami děl záměr nevysvětlí, odhad děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Lupa ani pravítko záměr autora neodhalí, hledáš ho ty při pozorování."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyprava9-prinos-dila",
+    "title": "Přínos díla pro mě a pro ostatní",
+    "aliases": [
+      "k čemu je dílo dobré",
+      "význam filmu",
+      "společenský přesah",
+      "co mi dílo dalo",
+      "proč je dílo důležité"
+    ],
+    "outcome": "UAK-VFV-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě svých znalostí a zkušeností zhodnotí, jaký má dílo přínos pro něj osobně a pro ostatní (společenský přesah, nová estetická zkušenost apod.).",
+        "quote": "Na základě svých znalostí a zkušeností zhodnotí, jaký má dílo přínos pro něj osobně a pro ostatní (společenský přesah, nová estetická zkušenost apod.)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Adaptace",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak se o významu díla dá uvažovat, a ověří se tvým názorem protiargumentem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Recenze a články ukážou, jak dílo přijali lidé v jeho době i dnes."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti přínos díla nespočítá, hodnotíš ho ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Přínos díla pro tebe žádný nástroj neodměří, posuzuješ ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyprava9-rozdily-prostredi-pro-vnimani-dila",
+    "title": "Galerie, kino, veřejný prostor a škola",
+    "aliases": [
+      "rozdíl mezi kinem a školou",
+      "galerie nebo kino",
+      "kde se dívat na film",
+      "umění ve veřejném prostoru",
+      "jak prostředí mění vnímání"
+    ],
+    "outcome": "UAK-VFV-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vysvětlí rozdíly mezi různými prostředími, ve kterých dílo vnímá nebo událost probíhá (galerie, kino, veřejný prostor, škola).",
+        "quote": "Vysvětlí rozdíly mezi různými prostředími, ve kterých dílo vnímá nebo událost probíhá (galerie, kino, veřejný prostor, škola)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vnímání uměleckého díla v různých prostředích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Srovná, jak vypadá film v kině a ve třídě, a doplní, co ti mohlo uniknout."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky galerií a kin ukážou, jak se tam dílo představuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nedá pocit z tmavého sálu ani z velkého plátna, to zažiješ jen na místě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozdíl prostředí poznáš tělem na místě, ne žádným nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/14f9a27c-d52e-4e3d-9819-e564d4ec3d71"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyprava9-co-preferuji-a-proc",
+    "title": "Co mi vyhovuje a proč",
+    "aliases": [
+      "film ve škole nebo v kině",
+      "obraz nebo fotografie",
+      "moje oblíbené",
+      "co radši",
+      "návštěva galerie"
+    ],
+    "outcome": "UAK-VFV-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Jednoduše sdělí, čemu dává přednost a proč (promítání filmu ve škole-v kině; pozorování fotografií obrazů ve škole-návštěva galerie).",
+        "quote": "Jednoduše sdělí, čemu dává přednost a proč (promítání filmu ve škole-v kině; pozorování fotografií obrazů ve škole-návštěva galerie)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vnímání uměleckého díla v různých prostředích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě na důvody a pomůže ti je srozumitelně říct."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co tobě vyhovuje, v žádném zdroji nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nerozhodne, čemu dáváš přednost."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj tvou volbu neudělá, rozhoduješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/14f9a27c-d52e-4e3d-9819-e564d4ec3d71"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

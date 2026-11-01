@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když voláš záchranku z výletu nebo popisuješ kamarádovi, kde bydlíš, musíš místo vymezit slovy: u které řeky, mezi kterými městy, na které straně kopce. Na mapě to znamená zakreslit hranici regionu nebo ukázat totéž místo zblízka i z dálky. Taxikáři, kurýři nebo piloti vrtulníků to dělají pořád, i když jim cestu ukazuje navigace, protože musí poznat, kdy se mýlí. Mapová aplikace přiblíží cokoli, ale popsat polohu tak, aby ji pochopil druhý člověk, musíš umět ty. V zeměpisu je to základ pro veškerou práci s regiony.",
+  "learnWithAi": [
+    {
+      "title": "Hádanka podle popisu polohy",
+      "text": "Popiš chatbotovi slovy polohu svého města, ale nejmenuj ho. Ať hádá, o které místo jde, a z jeho omylů zjistíš, co v popisu chybělo."
+    },
+    {
+      "title": "Obec v kraji, Česku a Evropě",
+      "text": "Zeptej se chatbota, jak se mění popis polohy tvé obce, když ji umístíš v kraji, v Česku a v Evropě. Ke každé úrovni napiš vlastní větu a nech ji opravit."
+    },
+    {
+      "title": "Hranice zakreslená od ruky",
+      "text": "Zakresli do slepé mapy hranice vybraného regionu, třeba Krkonoš, a slovy je popiš chatbotovi. Jeho připomínky si porovnej s online mapou."
+    }
+  ]
+}

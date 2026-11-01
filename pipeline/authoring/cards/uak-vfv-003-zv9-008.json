@@ -1,0 +1,106 @@
+{
+  "outcome": "UAK-VFV-003-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "klasicka-a-nova-media-stejny-namet",
+      "title": "Stejný námět v klasických a nových médiích",
+      "aliases": ["klasická média", "nová média", "porovnání děl", "malba a film", "stejné téma jinak"],
+      "sources": [
+        {"level": "Splněno", "quote": "Uvede dvojici uměleckých děl (nebo uměleckého díla a běžné vizuální produkce), která má stejný nebo podobný námět, ale je zpracovaná rozdílnými prostředky (tzv. klasická a nová média)."},
+        {"level": "Na cestě", "quote": "Uvede dvojici uměleckých děl (nebo uměleckého díla a běžné vizuální produkce), která má stejný nebo podobný námět, ale je zpracovaná rozdílnými prostředky (tzv. klasická a nová média)."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Navrhne dvojice děl se stejným námětem a vysvětlí, v čem se liší."},
+        "internet": {"verdict": "pomuze", "why": "Ve sbírkách galerií a na filmových stránkách najdeš obě díla k porovnání."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace galerií ti ukážou obrazy v detailu vedle sebe."},
+        "klasicky": {"verdict": "nepomuze", "why": "Dvojici vybíráš a porovnáváš ty, papír s tužkou ti ji nenajdou."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+      ],
+      "inspiration": ["Porovnání klasických a nových médií", "\"Tradice v novém\""]
+    },
+    {
+      "slug": "vliv-digitalnich-technologii-na-umeni",
+      "title": "Vliv digitálních technologií na umění a film",
+      "aliases": ["nové technologie v umění", "digitální umění", "počítačová grafika", "pohyblivý obraz", "video art"],
+      "sources": [
+        {"level": "Splněno", "quote": "Uvede příklad vlivu digitálních technologií v oblasti vizuálního a audiovizuálního umění a tvorby."},
+        {"level": "Na cestě", "quote": "Seznamuje se s různými možnostmi využití nových technologií v umění (pohyblivý obraz ve výtvarném umění, VOD portály pro výběr audiovizuálních děl, počítačové hry)."},
+        {"level": "Na začátku", "quote": "Vyhledává příklady použití nových technologií v umění a kultuře."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, co digitální technika změnila, a nabídne příklady k dohledání."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš výstavy, ukázky digitálního umění a články o tom, jak vzniká."},
+        "aplikace": {"verdict": "pomuze", "why": "Kreslicí a střihové aplikace ti ukážou, co dnes digitální tvorba umí."},
+        "klasicky": {"verdict": "nepomuze", "why": "Tužka a štětec jsou klasická média, o nových ti nic neřeknou."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b99c9b86-b16f-4592-8505-de3d9c99e25b",
+        "http://data.europa.eu/esco/skill/a59708e3-e654-4e37-8b8a-741c3b756eee"
+      ],
+      "inspiration": ["Objevování nových technologií v umění a kultuře"]
+    },
+    {
+      "slug": "moje-uziti-digitalni-kultury",
+      "title": "Jak využíváš digitální kulturu",
+      "aliases": ["online vysílání", "streamování", "VOD", "online videa", "digitální hry"],
+      "sources": [
+        {"level": "Splněno", "quote": "Vysvětlí, jak on sám přistupuje pomocí digitálních technologií k uměleckým dílům a kulturním projevům (online vysílání, VOD portály, promítání filmů z domácích nosičů, online videa, komunikace prostřednictvím audiovizuálních sdělení, digitální hry)."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Co ve skutečnosti sleduješ a hraješ, víš jen ty."},
+        "internet": {"verdict": "nepomuze", "why": "Web neví, jak vybíráš a co ti kultura dává, to popíšeš ty."},
+        "aplikace": {"verdict": "pomuze", "why": "Přehled sledování v aplikaci ti ukáže, co a jak dlouho vlastně pouštíš."},
+        "klasicky": {"verdict": "nepomuze", "why": "Papír s tužkou ti o sledování nic nezjistí, popis píšeš ty."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/dfb9cec6-3ae3-408a-9d57-c44361bf7aaf"
+      ]
+    },
+    {
+      "slug": "digitalni-hygiena-a-wellbeing",
+      "title": "Digitální hygiena a wellbeing",
+      "aliases": ["čas u obrazovky", "digitální detox", "závislost na telefonu", "pauza od mobilu", "digitální wellbeing"],
+      "sources": [
+        {"level": "Splněno", "quote": "Rozumí principům digitální hygieny a digitálního wellbeingu."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí zásady zdravého používání telefonu a probere s tebou tvoje zvyky."},
+        "internet": {"verdict": "pomuze", "why": "Poradny a články popisují, co dlouhé sezení u obrazovky dělá s tělem i hlavou."},
+        "aplikace": {"verdict": "pomuze", "why": "Měření času v telefonu ukáže, kolik hodin denně u obrazovky opravdu trávíš."},
+        "klasicky": {"verdict": "nepomuze", "why": "Budík a papír pomůžou jen s hlídáním času, zásady se nenaučíš."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c634630b-210b-4da5-b0f3-894cc292d6e3"
+      ]
+    },
+    {
+      "slug": "autorska-prava-u-umeleckych-del",
+      "title": "Autorská práva a cizí umělecká díla",
+      "aliases": ["autorské právo", "copyright", "licence", "použití cizích obrázků", "citace obrázků"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Získává základní informace o ochraně autorských práv a o možnostech využití cizích uměleckých děl."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, co autor smí zakázat a jak fungují licence, hlídej si ale přesnost."},
+        "internet": {"verdict": "pomuze", "why": "Znění licencí a zákona si přečteš a najdeš obrázky, které smíš použít."},
+        "aplikace": {"verdict": "pomuze", "why": "Vyhledávač obrázků umí filtrovat podle licence a ukáže, co smíš použít."},
+        "klasicky": {"verdict": "nepomuze", "why": "Klasické nástroje o autorských právech nic neříkají."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e2103a1d-4a84-47a9-b4f7-774787573449"
+      ]
+    }
+  ],
+  "aside": []
+}

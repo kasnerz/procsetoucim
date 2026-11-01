@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Skutečné místnosti, zahrady a střechy málokdy mají tvar čistého obdélníku. Podlaha pokoje ve tvaru písmene L nebo plocha štítu domu se počítá tak, že útvar rozdělíš na obdélníky a trojúhelníky, jejich obsahy sečteš a případně něco odečteš. Přesně tohle dělají lidé, kteří pokládají koberce a podlahy, kryjí střechy nebo navrhují interiéry, protože podle výsledku objednávají materiál. Aplikace ti útvar rozdělí, ale jak ho rozdělit nejsnáz a jestli výsledek dává smysl, se naučíš poznat jen vlastními výpočty.",
+  "learnWithAi": [
+    {
+      "title": "Různá rozdělení téhož útvaru",
+      "text": "Nech si od chatbota zadat útvar ve tvaru písmene L nebo T i s rozměry. Spočítej obsah dvěma různými rozděleními a zkontroluj, že ti vyšlo totéž."
+    },
+    {
+      "title": "Půdorys vlastního pokoje",
+      "text": "Překresli půdorys svého pokoje, zapiš rozměry a spočítej plochu podlahy. Ukaž chatbotovi své rozdělení a zeptej se, jestli by šlo udělat jednodušeji."
+    },
+    {
+      "title": "Koberec do členité místnosti",
+      "text": "Představ si místnost s výklenkem a zkosenou stěnou a spočítej, kolik metrů čtverečních koberce je potřeba. Postup nech chatbota zkontrolovat krok po kroku a čísla si ověř kalkulačkou."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Hovor s tísňovou linkou trvá chvíli, ale podle něj pomoc přijede rychleji a na správné místo. Operátor potřebuje vědět, co se stalo, kde přesně to je, kolik lidí je zraněných a kdo volá, a ve stresu se to snadno poplete. Proto se ohlášení zkouší nanečisto, včetně popisu místa, když neznáš adresu. Aplikace pošle polohu, ale co se děje, musíš říct ty. Na druhé straně linky sedí zdravotničtí dispečeři, kteří z vyděšených lidí potřebují dostat pár přesných informací, a tvoje jasná odpověď jim tu práci zkrátí.",
+  "learnWithAi": [
+    {
+      "title": "Otázky operátora tísňové linky",
+      "text": "Zeptej se chatbota, na co se operátor tísňové linky obvykle ptá. Udělej si z toho krátký tahák a nauč se ho zpaměti."
+    },
+    {
+      "title": "Hovor nanečisto",
+      "text": "Ať chatbot hraje operátora a ty mu hlásíš pád cyklisty v lese. Nech ho přerušovat a doptávat se, jako by to dělal skutečný dispečer."
+    },
+    {
+      "title": "Popis místa bez adresy",
+      "text": "Vymysli místo, kde neznáš adresu, a popiš ho chatbotovi. Ať ti řekne, jestli by tě podle popisu záchranka našla, a popis vylepši."
+    }
+  ]
+}

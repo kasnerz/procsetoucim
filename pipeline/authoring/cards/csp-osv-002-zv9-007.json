@@ -1,0 +1,349 @@
+{
+  "outcome": "CSP-OSV-002-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "skupina9-zpusoby-interakce",
+      "title": "Způsoby sociální interakce ve skupině",
+      "aliases": [
+        "jak se chovám ve skupině",
+        "skupinová práce",
+        "modelová situace",
+        "chování ve třídě"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Uplatňuje vybrané vhodné způsoby sociální interakce ve skupině v modelových situacích."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "zkouší charakterizovat různé způsoby sociální interakce"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "na základě jednání v aktivitách a modelových situacích zkouší pojmenovat"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vnímá a sdílí zkušenosti z různých způsobů sociální interakcí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Ve skupině se chováš ty, chatbot za tebe nic nevyzkouší."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Návod na chování najdeš, zkušenost ze skupiny ne."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvou skupinu nenahradí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pro chování mezi lidmi tu žádný nástroj není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01"
+      ],
+      "inspiration": [
+        "Kooperativní chůze",
+        "Most"
+      ]
+    },
+    {
+      "slug": "skupina9-reflexe-roli",
+      "title": "Zkušenosti z různých rolí při skupinové práci",
+      "aliases": [
+        "role ve skupině",
+        "vedoucí a člen týmu",
+        "jak jsem se zapojil",
+        "reflexe skupinové práce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje své zkušenosti z různých rolí při skupinové práci v modelových situacích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti položí otázky k tvé roli ve skupině, odpovídáš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotová zkušenost z rolí na webu není, tu máš jen ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvou roli ve skupině nezná."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tvoje zkušenost z rolí se nedá změřit ani spočítat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01"
+      ],
+      "inspiration": [
+        "Role při spolupráci ve skupině a já"
+      ]
+    },
+    {
+      "slug": "skupina9-nesouhlas-a-prosazeni",
+      "title": "Nesouhlas, prosazení a ustoupení ve skupině",
+      "aliases": [
+        "jak říct nesouhlas",
+        "prosadit nápad",
+        "ustoupit",
+        "podřídit se vedení",
+        "navázat na nápad druhého"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyhodnocuje své seberegulační a sociální dovednosti ve skupině v situaci nesouhlasu, navazování na druhé a rozvíjení jejich myšlenek, prosazení/odstoupení od vlastního nápadu, podřízení se vedení druhého."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak nesouhlas říct slušně, a dá příklady vět."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o asertivitě ukazují, jak nesouhlasit a nezranit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Nesouhlas ve skupině neřeší žádná aplikace."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nesouhlasit nebo ustoupit musíš ty, nástroj ti nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+        "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342"
+      ],
+      "inspiration": [
+        "“Buďte tak laskav …”"
+      ]
+    },
+    {
+      "slug": "skupina9-vecna-argumentace",
+      "title": "Věcná argumentace a zpětná vazba ve skupině",
+      "aliases": [
+        "jak argumentovat",
+        "vyjádřit názor",
+        "dávat zpětnou vazbu",
+        "naslouchání ve skupině",
+        "věcné argumenty"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Charakterizuje své zapojení v procesu skupinové práce, jak aktivně naslouchá, vyjadřuje názor, vede věcnou argumentaci a podává popisnou, formativní zpětnou vazbu členům skupiny."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti ukáže, jak vystavět argument, a zkusí ho s tebou nacvičit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zásady zpětné vazby a argumentace jsou popsané na webech."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Naslouchat a mluvit ve skupině neumí aplikace za tebe."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Aktivně nasloucháš uchem a pozorností, ne nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+        "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "skupina9-seberegulace-a-odolnost",
+      "title": "Seberegulace a odolnost v jednání s druhými",
+      "aliases": [
+        "jak se uklidnit",
+        "zvládání stresu mezi lidmi",
+        "odolnost",
+        "sebekontrola"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "v modelových situacích poznává různé formy seberegulace"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "navrhuje, jakou formu seberegulace lze použít pro různé sociální situace"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "reflektuje, jakým způsobem rozvíjí svou odolnost"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot popíše techniky uklidnění a pomůže vybrat, co zkusit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Dechová cvičení a techniky zvládání stresu najdeš popsané."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s dechovým cvičením vede, jak se zklidnit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Uklidnit se v hádce musíš ty, nástroj to neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fbdfc3bf-56a0-4454-a17d-2f513fe57b53"
+      ],
+      "inspiration": [
+        "Vadí – nevadí"
+      ]
+    },
+    {
+      "slug": "skupina9-uhly-pohledu",
+      "title": "Úhly pohledu různých lidí v situaci",
+      "aliases": [
+        "pohled druhého",
+        "vcítit se",
+        "rozdílné názory",
+        "jak to vidí druhý"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zkouší v modelových situacích a cvičných aktivitách reflektovat úhly pohledu různých aktérů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot popíše situaci očima různých lidí, přemýšlíš pak ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Cizí pohled na tvou situaci na webu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe druhého nepochopí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pohled druhého zjistíš tím, že se ho zeptáš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ],
+      "inspiration": [
+        "Vadí – nevadí"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Reflektuje svůj vztah ke kooperaci a soutěžení",
+      "code": "O1",
+      "refs": [
+        "skupina-soutez-nebo-spoluprace"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "porovnává své zkušenosti s rozdíly mezi dosahováním cíle",
+      "code": "O1",
+      "refs": [
+        "skupina-soutez-nebo-spoluprace",
+        "skupina-spolecny-cil"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "na základě společných činností a modelových situací dává zpětnou vazbu",
+      "code": "O1",
+      "refs": [
+        "skupina-zpetna-vazba"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "ze společných činností vyvozuje různé role",
+      "code": "O1",
+      "refs": [
+        "skupina-role-ve-tymu"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "v modelových situacích a skupinové činnosti poznává vhodné a nevhodné chování",
+      "code": "O1",
+      "refs": [
+        "skupina-role-ve-tymu",
+        "skupina-eticke-chovani"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "diskutuje zkušenosti ze skupinové činnosti",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "outcome": "CAS-DEJ-002-ZV9-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "prameny-a-pomucky-v-programu",
+      "title": "Práce s prameny a pomůckami v programu",
+      "aliases": [
+        "práce s prameny",
+        "edukační program",
+        "pracovní list v muzeu",
+        "historické prameny",
+        "práce ve skupině v muzeu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Aktivně pracuje během celého programu: využije historické prameny a využívá samostatně nebo ve spolupráci se skupinou připravené didaktické pomůcky."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Pracuje s pomocí vyučujícího či ve skupině např. s artefakty, modely, mapami, plány, fotografiemi, audiovizuálními zdroji, digitálními aplikacemi"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Pracuje individuálně či ve skupině s větším množstvím např. artefaktů, modelů, map, plánů, fotografií, audiovizuálních zdrojů, digitálních aplikací"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Předměty si prohlížíš a zkoumáš ty na místě, chatbot u nich není."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na stránkách muzeí najdeš fotografie, plány a popisy, které si projdeš dopředu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace programu ti ukážou model nebo plán a vedou tě úkoly."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa, mapa a pracovní list ti pomáhají zkoumat předmět přímo na místě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "K čemu je muzeum?"
+      ]
+    },
+    {
+      "slug": "nacrtky-fotky-a-popis-predmetu",
+      "title": "Náčrtky, fotografie a popis předmětu",
+      "aliases": [
+        "kreslení v muzeu",
+        "popis artefaktu",
+        "náčrtek",
+        "fotky z exkurze",
+        "zápis z návštěvy"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vytvoří vlastní výstup (zápis do sešitu, příběh návštěvy s fotografiemi, popis vybraného artefaktu)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "V paměťové instituci anebo ve veřejném prostoru se vzdělává aktivně a vytvoří vlastní výstup, např. dělá si náčrtky, fotografuje, kreslí; objekty svého bádání např. popíše, roztřídí, porovná, načrtne, zasadí do historického kontextu a vytvoří domněnky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Předmět před sebou si popisuješ a kreslíš ty, chatbot ho nevidí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Podle dobových fotografií a popisů zjistíš, do které doby předmět patří."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Foťák v telefonu zachytí předmět a místo, ke kterým se pak vrátíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tužka a papír stačí na náčrtek, popis i porovnání předmětů."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+        "http://data.europa.eu/esco/skill/38509fa4-7c06-4a4b-9622-f521f03c37b8"
+      ],
+      "inspiration": [
+        "Návštěva výstavy o Emilu Holubovi v Náprstkově muzeu"
+      ]
+    },
+    {
+      "slug": "vlastni-vypraveni-obraz-model-minulosti",
+      "title": "Vlastní vyprávění, obraz nebo model minulosti",
+      "aliases": [
+        "vlastní tvorba po exkurzi",
+        "příběh z muzea",
+        "model minulosti",
+        "obraz minulosti",
+        "projekt po návštěvě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využije potenciál setkání s předměty či veřejným prostorem pro tvorbu vlastního textu, obraz nebo model minulosti."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Znalosti a dovednosti z paměťové instituce nebo veřejného prostoru dále rozvíjí při vlastní tvorbě; výstupem není zápis faktografie do sešitu, ale zpracování vlastního vyprávění, obrazu či modelu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí dobu a zeptá se, jestli tvé vyprávění drží pohromadě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a archivy ti dají fakta, o která své vyprávění opřeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí nebo střihová aplikace ti usnadní obraz i ukázku modelu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, barvy a lepenka stačí na obraz nebo model, který vytvoříš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Proč tu máme tolik památek? Dějiny ve veřejném prostoru"
+      ]
+    },
+    {
+      "slug": "predstaveni-vystupu-z-navstevy",
+      "title": "Představení vlastního výstupu z návštěvy",
+      "aliases": [
+        "prezentace po exkurzi",
+        "představit projekt",
+        "referát z muzea",
+        "ukázat spolužákům"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Představí vlastní výstup po návštěvě historického místa či paměťové instituce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot s tebou projde, co říct, a ptá se jako posluchač."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotový text o historii ti před třídou nepředá, mluvit musíš ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prezentační aplikace ti pomůže poskládat obrázky a body k výstupu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Plakát nebo model v ruce ti dá oporu při vyprávění před třídou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f",
+        "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Absolvuje připravený edukační program",
+      "code": "O1",
+      "refs": [
+        "navsteva-pamatky-muzea-knihovny-lokalni"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Absolvuje připravený edukační program",
+      "code": "O1",
+      "refs": [
+        "navsteva-pamatky-muzea-knihovny-lokalni"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Absolvuje připravený edukační program",
+      "code": "O1",
+      "refs": [
+        "navsteva-pamatky-muzea-knihovny-lokalni",
+        "pamatihodnosti-regionu-kde-bydlim"
+      ]
+    }
+  ]
+}

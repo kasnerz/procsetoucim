@@ -1,0 +1,62 @@
+{
+  "outcome": "CAP-CHE-003-ZV9-013",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Vyhledá základní informace o aktuálních tématech, kterými se zabývá moderní chemie.",
+      "cards": [
+        "aktualni-temata-chemie"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Prezentuje aktuální problém v chemii, zahrne jeho představení a vysvětlení jeho významu pro společnost.",
+      "cards": [
+        "prezentace-chemickeho-problemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhledává a shromažďuje relevantní informace o současných objevech a trendech v chemii z různých odborných a populárně-vědeckých zdrojů.",
+      "cards": [
+        "aktualni-temata-chemie"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zhodnotí příspěvek českých chemických objevů celosvětové vědě.",
+      "cards": [
+        "cesti-chemici-ve-svete"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S pomocí různých zdrojů posoudí relevantnost informací předkládaných v mediálních sděleních a fake news vztahujících se k oboru chemie.",
+      "cards": [
+        "chemie-v-mediich-fake-news"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede příklady inovací v chemickém výzkumu s ohledem na cíle udržitelnosti a koncept zelené chemie.",
+      "cards": [
+        "zelena-chemie-a-inovace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše koloběh uhlíku v přírodě s využitím příkladů konkrétních látek.",
+      "cards": [
+        "kolobeh-uhliku"
+      ],
+      "aside": null
+    }
+  ]
+}

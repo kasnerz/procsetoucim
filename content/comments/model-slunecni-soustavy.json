@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Na obrázcích v učebnici jsou planety natlačené blízko sebe, takže skutečné vzdálenosti si představí málokdo. Když je zmenšíš do stejného měřítka a rozmístíš po hřišti, zjistíš, že Země je jen malá kulička a k Neptunu musíš dojít hodně daleko. Při tom procvičíš přepočty a měřítko, které potřebuješ na mapách i v technických výkresech. Tabulka ti přepočty udělá, ale bez vlastního odhadu nepoznáš, když v ní vyjde nesmysl. Astronomii samotnou dělá v práci jen málo lidí, měřítko ale použije skoro každý.",
+  "learnWithAi": [
+    {
+      "title": "Měřítko podle dostupného místa",
+      "text": "Popiš chatbotovi, kolik máš místa, třeba chodbu nebo cestu do školy, a nech si poradit vhodné měřítko. Vzdálenosti spočítej a odměř ty."
+    },
+    {
+      "title": "Kontrola přepočtu na měřítko",
+      "text": "Zvol měřítko, přepočítej vzdálenosti planet a pošli chatbotovi postup u dvou z nich. Ať najde chybu, opravíš ji ty."
+    },
+    {
+      "title": "Odhad Jupiteru na hřišti",
+      "text": "Odhadni, kde na hřišti bude v tvém modelu stát Jupiter, a teprve potom to spočítej. Rozdíl mezi odhadem a výpočtem prober s chatbotem a údaje ověř v tabulce planet."
+    }
+  ]
+}

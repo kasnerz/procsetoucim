@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Než začneš cokoli kreslit nebo počítat, musíš vědět, co přesně chceš zjistit a jaké údaje k tomu budeš potřebovat. Když je zadání mlhavé, vznikne model, který odpovídá na jinou otázku, než je ta tvoje. Hodí se to i mimo informatiku, třeba při plánování výletu nebo školního projektu. Meteorologové si před předpovědí ujasňují, které údaje o počasí potřebují, ekonomové zase, co přesně má jejich výpočet ukázat. Chatbot ti umí klást doplňující otázky, ale co je pro tebe důležité a k čemu model bude, víš jen ty.",
+  "learnWithAi": [
+    {
+      "title": "Doptávání na zadání",
+      "text": "Popiš chatbotovi problém z domova, třeba jak rozdělit kapesné na celý měsíc. Ať se tě vyptává tak dlouho, dokud nebude jasné, co přesně chceš zjistit."
+    },
+    {
+      "title": "Seznam potřebných údajů",
+      "text": "K jednoduchému problému si sepiš, jaké informace budeš k řešení potřebovat. Chatbot pak seznam projde a řekne, co podle něj chybí, a ty rozhodneš, jestli má pravdu."
+    },
+    {
+      "title": "Mlhavá zadání k přepsání",
+      "text": "Požádej o několik schválně nejasných zadání úloh. Každé přepiš tak, aby se dalo jednoznačně vyřešit, a nech si svou verzi ohodnotit."
+    }
+  ]
+}

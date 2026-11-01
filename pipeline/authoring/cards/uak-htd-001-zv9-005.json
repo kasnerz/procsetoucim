@@ -1,0 +1,472 @@
+{
+  "outcome": "UAK-HTD-001-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "reflexe-vlastni-tvorby-a-interpretace",
+      "title": "Co jsem si vyzkoušel a co se mi dařilo",
+      "aliases": [
+        "reflexe",
+        "zhodnocení vlastní práce",
+        "co se mi dařilo",
+        "co bylo těžké",
+        "sebereflexe"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Formuluje, co si díky reprodukční, interpretační a tvůrčí činnosti vyzkoušel, co se mu dařilo, co pro něj bylo těžké, co významného mu taková zkušenost dala, co se díky ní naučil apod."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Aktivněji se zapojuje do společné reflexe, častěji v ní formuluje své názory, podporuje je argumenty, s dopomocí učitele reflektuje svoji práci."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti najít slova a ptá se, co bylo těžké a co nového teď umíš."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové rady nevědí nic o tvém vlastním zážitku."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nezná tvůj zážitek, o něm vyprávíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Deník nebo reflektivní kartičky ti pomohou zapsat, co se dařilo."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69",
+        "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436"
+      ],
+      "inspiration": [
+        "Reflexe tvůrčího procesu s využitím oborových pojmů",
+        "Reflektivní kartičky"
+      ]
+    },
+    {
+      "slug": "hodnoceni-spolecne-tvorby-pred-divaky",
+      "title": "Hodnocení společné tvorby před diváky",
+      "aliases": [
+        "hodnocení představení",
+        "jak se nám to povedlo",
+        "pocit z vystoupení",
+        "společný záměr",
+        "reakce diváků"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše pocit z tvorby a realizace svého záměru směrem k divákům/posluchačům (nejčastěji jsou jimi spolužáci ve třídě), případně zhodnotí proces společné tvorby a realizaci společného záměru."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti vymyslet otázky, podle kterých společný záměr zhodnotíš."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Web ti neřekne, jak vystoupení působilo na vaše spolužáky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahrávka vystoupení ti ukáže, jak jste působili na diváky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pocit z vystoupení popisuješ ty, nástroj ho nemá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69",
+        "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436"
+      ],
+      "inspiration": [
+        "Koncert filmových melodií – následná reflexe",
+        "Pohledy na naši tvorbu a dílo"
+      ]
+    },
+    {
+      "slug": "zpetnovazebni-rozhovor-podle-kriterii",
+      "title": "Zpětnovazební rozhovor podle kritérií",
+      "aliases": [
+        "zpětná vazba",
+        "hodnocení spolužáků",
+        "kritéria zpětné vazby",
+        "rozhovor po vystoupení",
+        "jak dát zpětnou vazbu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zapojuje se do zpětnovazebního rozhovoru, respektuje kritéria zpětné vazby."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Při formulaci zpětné vazby využívá osvojená kritéria."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Sdílí s ostatními výsledky své tvorby, přijímá jednoduchou zpětnou vazbu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak zpětnou vazbu formulovat k věci a s respektem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam pravidla slušné a užitečné zpětné vazby."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Rozhovor se spolužáky vedeš ty, aplikace nenahradí poslech."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky s kritérii ti pomohou držet se tématu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b"
+      ],
+      "inspiration": [
+        "Zpětná vazba jako inspirace pro další práci",
+        "Výtvarná aktivita jako nástroj zpětné vazby"
+      ]
+    },
+    {
+      "slug": "zduvodnene-oceneni-sobe-i-jinym",
+      "title": "Zdůvodněné ocenění sobě i jiným",
+      "aliases": [
+        "pochvala",
+        "ocenění spolužáka",
+        "proč se mi to líbilo",
+        "argumentace",
+        "učení z chyb"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Formuluje a argumentuje důvodná ocenění sobě i jiným, chybu a neúspěch vnímá jako potřebnou zkušenost pro svůj rozvoj, hledání nových cest a zlepšování individuálních i týmových dovedností."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Věnuje pozornost tvorbě jiných, dává a zdůvodňuje ocenění pro ostatní, pojmenovává, co ho na tvorbě zaujalo a čím je pro něj inspirativní."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti najít přesná slova, proč se ti něco povedlo."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Web neví, co přesně se ti na výkonu spolužáka líbilo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ocenění nezdůvodní, sleduješ a posuzuješ ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky s oporami ti pomohou ocenění zdůvodnit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+        "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69"
+      ],
+      "inspiration": [
+        "Pohledy na naši tvorbu a dílo"
+      ]
+    },
+    {
+      "slug": "hudebni-pojmy-od-taktu-po-tempo",
+      "title": "Hudební pojmy od taktu po tempová označení",
+      "aliases": [
+        "takt",
+        "notové hodnoty",
+        "tempo",
+        "kvality tónu",
+        "hudební názvosloví"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Na vhodně vybraném hudebním materiálu (např. lidové písni, úryvku artificiální, nonartificiální hudby) se seznámí s hudebními pojmy a názvoslovím od nejzákladnějších (kvality tónu, takt, notové hodnoty) po náročnější (hudebně výrazové prostředky/kvality, tempová a interpretační označení)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem a vymyslí otázky na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník hudebních pojmů je po ruce, až si nevzpomeneš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace pojmy přehraje, takt a tempo uslyšíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Metronom a hudební nástroj ukážou tempo i notové hodnoty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d11e4683-d2fe-45fd-bb1a-e995f7877851",
+        "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0"
+      ],
+      "inspiration": [
+        "Reflexe tvůrčího procesu s využitím oborových pojmů"
+      ]
+    },
+    {
+      "slug": "tanecni-pojmy-od-osy-tela-po-choreografii",
+      "title": "Taneční pojmy od osy těla po choreografii",
+      "aliases": [
+        "choreografie",
+        "improvizace",
+        "prostorové dráhy",
+        "taneční pojmy",
+        "frázování"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "V činnostech si osvojuje taneční pojmy - hlavní vertikální osa těla, pohybový princip, prostorové úrovně, směry, půdorysné a vzdušné prostorové dráhy, vedený pohyb, kontrast, frázování, improvizace, kompozice, choreografie..."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem a navrhne, jak ho vyzkoušet pohybem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa a texty ukážou, jak pojem vypadá v tanci."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pohyb a prostor poznáš tělem, aplikace ti ho nenacvičí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj tu nepomůže, pojmy si osvojuješ pohybem ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ddcee55-4da6-425f-a582-6710b0182a2d",
+        "http://data.europa.eu/esco/skill/de6bdb77-e160-4d19-bdf4-121e4fdada33"
+      ]
+    },
+    {
+      "slug": "divadelni-pojmy-od-dialogu-po-scenografii",
+      "title": "Divadelní pojmy od dialogu po scénografii",
+      "aliases": [
+        "dialog",
+        "monolog",
+        "scénografie",
+        "dramatická situace",
+        "imaginární rekvizita"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "V činnostech si osvojuje divadelní pojmy - např. dialog, monolog, kompozice, imaginární rekvizita, dramatická situace, jednání, scénografie ..."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem na příkladu a zkusí s tebou dialog."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie divadelních pojmů ukáže příklady z inscenací."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jednání na scéně zahraješ ty, aplikace ti ho nenacvičí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj tu nepomůže, pojmy si osvojuješ hraním ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fed5b267-73fa-461d-9f69-827c78beb39d",
+        "http://data.europa.eu/esco/skill/22cbb90f-0bf1-4c30-98c0-7c9749b4e08d"
+      ],
+      "inspiration": [
+        "Komunikace pomocí různých jevištních prostředků"
+      ]
+    },
+    {
+      "slug": "hudebni-notace-a-graficky-zaznam",
+      "title": "Notový a grafický záznam hudby",
+      "aliases": [
+        "noty",
+        "notový zápis",
+        "partitura",
+        "grafický záznam",
+        "čtení not"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Pracuje se současnou hudební notaci jako mezinárodní způsob záznamu hudební skladby, při nácviku, interpretaci či tvorbě, případně využívá např. grafické záznamy, partitury, obrázky, barevné karty a další pomůcky, které při těchto činnostech spolu s nápodobou zastoupí znalost notového systému."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí značky v notách a vymyslí cvičení na čtení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam noty písní a výklad značek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace notový zápis přehraje a ověříš, zda čteš správně."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Nástroj ti ukáže, jak zápis zní, když ho zahraješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6339a2d3-0c34-4156-b202-5929764fb720",
+        "http://data.europa.eu/esco/skill/d11e4683-d2fe-45fd-bb1a-e995f7877851"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Sdělí, jak a čím se podílel na",
+      "code": "O1",
+      "refs": [
+        "muj-podil-na-spolecne-tvorbe"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Popíše svůj podíl na společné ",
+      "code": "O1",
+      "refs": [
+        "muj-podil-na-spolecne-tvorbe"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Popíše svůj podíl na společném",
+      "code": "O1",
+      "refs": [
+        "muj-podil-na-spolecne-tvorbe"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Rozeznává rozdíl mezi prožitke",
+      "code": "O1",
+      "refs": [
+        "muj-podil-na-spolecne-tvorbe"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zapojuje se do reflexe vedené ",
+      "code": "O1",
+      "refs": [
+        "kriteria-hodnoceni"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Přijímá zpětnou vazbu od učite",
+      "code": "O1",
+      "refs": [
+        "zpetna-vazba-ucitele"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Vnímá zpětnou vazbu jako inspi",
+      "code": "O1",
+      "refs": [
+        "zpetna-vazba-ucitele"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Inspiruje se prací ostatních a",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Splněno",
+      "start": "Poučeně a s respektem k sobě i",
+      "code": "O1",
+      "refs": [
+        "oborove-pojmy"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Rozumí základním oborovým pojm",
+      "code": "O1",
+      "refs": [
+        "oborove-pojmy"
+      ]
+    }
+  ]
+}

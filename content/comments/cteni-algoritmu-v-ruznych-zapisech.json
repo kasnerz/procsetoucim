@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stejný postup se dá zapsat větami, šipkami ve vývojovém diagramu, barevnými bloky nebo řádky kódu. Kdo umí mezi těmito zápisy přecházet, porozumí návodu v jakékoli podobě, ať je to plánek úniku z budovy, nebo program v blokovém prostředí. Lidé, kteří programují chytrá zařízení nebo připravují výukové materiály, to dělají pořád: čtou cizí kód, kreslí si, co má stroj udělat, a převádějí to do příkazů. Chatbot ti diagram přepíše do kódu za pár vteřin, ale jestli převod sedí, poznáš jen tehdy, když umíš přečíst oba zápisy.",
+  "learnWithAi": [
+    {
+      "title": "Neznámá značka v diagramu",
+      "text": "Když v diagramu nebo kódu narazíš na značku či příkaz, kterému nerozumíš, zeptej se chatbota, co znamená. Celý zápis pak zkus převyprávět vlastními slovy."
+    },
+    {
+      "title": "Stejný postup ve třech zápisech",
+      "text": "Napiš běžnou řečí krátký postup, třeba cestu do školy, a popros chatbota, ať ho převede do diagramu a do jednoduchého kódu. Porovnej, jestli všechny tři zápisy říkají totéž."
+    },
+    {
+      "title": "Hádanka z cizího kódu",
+      "text": "Nech si od chatbota dát krátký program bez komentářů a bez názvu. Napiš, co podle tebe dělá, a teprve potom si nech vysvětlit, jestli máš pravdu."
+    }
+  ]
+}

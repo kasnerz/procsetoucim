@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Nakreslit hvězdu podle kroků je snadné, protože každý krok vidíš na papíře. U Euklidova algoritmu, který hledá největšího společného dělitele, jen opakovaně odečítáš nebo dělíš čísla a z kroků vůbec není poznat, proč nakonec vyjde právě dělitel. Tady se učíš, že takovému postupu můžeš věřit, až když ho vyzkoušíš na příkladech a pochopíš, proč funguje. S podobnými algoritmy pracují hlavně lidé, kteří vyvíjejí umělou inteligenci nebo řídicí systémy. Ostatním to dá hlavně trpělivost při uvažování, která se hodí v matematice na střední škole.",
+  "learnWithAi": [
+    {
+      "title": "Euklidův algoritmus na papíře",
+      "text": "Vyber si dvě čísla, třeba 48 a 18, a projdi Euklidův algoritmus tužkou krok za krokem. Výsledek i s mezikroky si pak nech chatbotem zkontrolovat."
+    },
+    {
+      "title": "Proč to vůbec funguje",
+      "text": "Zeptej se chatbota, proč odečtení menšího čísla od většího nezmění jejich společné dělitele. Vysvětlení si přepiš vlastními slovy a ověř na jednom příkladu."
+    },
+    {
+      "title": "Postup s utajeným účelem",
+      "text": "Popros chatbota o krátký algoritmus, jehož účel ti neprozradí. Vyzkoušej ho na několika vstupech, odhadni, co počítá, a teprve pak se zeptej, jestli máš pravdu."
+    }
+  ]
+}

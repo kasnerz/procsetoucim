@@ -1,0 +1,135 @@
+{
+  "outcome": "CZB-VZB-004-ZV9-015",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "vyhledává informace o konkrétních mimořádných událostech přírodního charakteru (povodně, větrné smršti aj.) a diskutuje o dopadech na zdraví, životy lidí, majetek a životní prostředí",
+      "cards": [
+        "prirodni-mimoradne-udalosti-dopady"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "vyhledává informace o mimořádných událostech zaviněných lidmi (hromadné dopravní nehody, průmyslové havárie) a diskutuje o dopadech na zdraví, životy lidí, majetek a životní prostředí",
+      "cards": [
+        "udalosti-zpusobene-clovekem-dopady"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "popíše které zásady bezpečného chování je třeba při vzniku mimořádných událostí dodržovat",
+      "cards": [
+        "chovani-pri-prirodnich-udalostech"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na základě dostupných informací popisuje příčiny vzniku mimořádných událostí způsobených přírodními vlivy a diskutuje možnosti těmto událostem předcházet",
+      "cards": [
+        "priciny-prirodnich-udalosti-predchazeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "sdílí informace o jednotlivých mimořádných událostech přírodního charakteru (povodně, zemětřesení, sesuvy půdy, laviny, vichřice aj.), popisuje postupy Integrovaného záchranného systému při jejich likvidací s důrazem na ochranu zdraví a bezpečí lidí",
+      "cards": [
+        "izs-pri-prirodnich-udalostech"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na základě dostupných informací popisuje příčiny vzniku mimořádných událostí způsobených činností člověka a diskutuje možnosti těmto událostem předcházet",
+      "cards": [
+        "priciny-lidskych-udalosti-predchazeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "sdílí informace o jednotlivých mimořádných událostech způsobených lidskou činností, vlivem nehod (řetězové dopravní nehody, nehody na železnicích, pád letadla), průmyslových a jiných havárií (havárie chemičky, elektrárny, muničního skladu, výbuch v dole) a teroristických útoků, popisuje postupy Integrovaného záchranného systému při jejich likvidací s důrazem na ochranu zdraví a bezpečí lidí",
+      "cards": [
+        "izs-pri-nehodach-havariich-utocich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "diskutuje bezpečné způsoby chování v modelových případech vzniku mimořádných události (povodně, vichřice, bouřky, laviny, úniky nebezpečných látek, hromadné dopravní nehody, útoky agresora aj.)",
+      "cards": [
+        "chovani-pri-prirodnich-udalostech",
+        "chovani-pri-uniku-latek-a-utoku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozlišuje mezi přírodními mimořádnými událostmi a událostmi způsobenými lidskou činností.",
+      "cards": [
+        "prirodni-nebo-lidmi-zpusobena-udalost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí význam IZS a popíše jeho činnost při vzniku mimořádných událostí.",
+      "cards": [
+        "izs-pri-prirodnich-udalostech"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede a zdůvodní základní bezpečné způsoby chování v případech vzniku mimořádných událostí přírodního charakteru a mimořádných událostí způsobených člověkem.",
+      "cards": [
+        "chovani-pri-prirodnich-udalostech",
+        "chovani-pri-uniku-latek-a-utoku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede, jak lze předcházet vzniku mimořádných událostí způsobených lidskou činností na místech, kde se pohybuje.",
+      "cards": [
+        "priciny-lidskych-udalosti-predchazeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Objasní na modelových příkladech základní podmínky pro přežití v přírodě.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "pravidla-preziti-svepomoci"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede v modelových situacích postupy bezpečného chování při vzniku náhlé mimořádné události v prostorách školy.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "evakuace-skoly"
+        ]
+      }
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše funkci složek Integrovaného záchranného systému a zásady bezpečného chování při mimořádných událostech způsobených člověkem a mimořádných událostech způsobených přírodními vlivy na místech, kde se pohybuje.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

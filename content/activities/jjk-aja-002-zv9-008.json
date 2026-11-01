@@ -1,0 +1,240 @@
+[
+  {
+    "slug": "anglicky-popis-osoby-veci-a-mista",
+    "title": "Ústní popis osoby, věci a místa na fotografii",
+    "aliases": [
+      "popis obrázku anglicky",
+      "describe a picture",
+      "popis fotky",
+      "mluvení anglicky",
+      "what can you see"
+    ],
+    "outcome": "JJK-AJA-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Jednoduše popíše osobu, věc, místo a událost na fotografii nebo ze svého života s využitím poskytnuté slovní zásoby a podpůrných otázek.",
+        "quote": "Jednoduše popíše osobu, věc, místo a událost na fotografii nebo ze svého života"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše osobu, věc, místo a událost na fotografii nebo ze svého života s využitím podpůrných otázek.",
+        "quote": "Popíše osobu, věc, místo a událost na fotografii nebo ze svého života"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě podnětu nebo samostatně popíše osoby, věci a situace na fotografii.",
+        "quote": "Na základě podnětu nebo samostatně popíše osoby, věci a situace na fotografii."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Fotografie",
+        "url": ""
+      },
+      {
+        "title": "Fotografie - na základě textové osnovy",
+        "url": ""
+      },
+      {
+        "title": "Detailní popis fotografie",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí slovíčka k fotce a ptá se tě, co na ní vidíš, mluvit ale musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na stránkách s fotkami a slovníčky najdeš slovní zásobu pro vzhled lidí, věci a místa."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na slovíčka tě procvičí, kdežto popis nahlas řekneš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti ukáže, jak se řekne slovo, které ti chybí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-duvody-a-vztahy-v-popisu",
+    "title": "Důvody a vztahy v popisu situace",
+    "aliases": [
+      "proč se tak tváří",
+      "emoce anglicky",
+      "because",
+      "popis situace anglicky",
+      "důvod reakce"
+    ],
+    "outcome": "JJK-AJA-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Samostatně sděluje některé detaily a vztahy mezi popisovanými prvky.",
+        "quote": "Samostatně sděluje některé detaily a vztahy mezi popisovanými prvky."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše konkrétní osobu, věc, místo, událost nebo situaci na fotografii nebo ze svého života. Při popisu se zaměřuje na relevantní prvky a snaží se mezi nimi popsat vztah (např. uvede možné důvody určité emoce nebo reakce).",
+        "quote": "Při popisu se zaměřuje na relevantní prvky a snaží se mezi nimi popsat vztah (např. uvede možné důvody určité emoce nebo reakce)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Detailní popis fotografie",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže ti věty s because a so a opraví tvé pokusy, na důvod přijdeš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam příklady vět s because, so a slovíčka pro pocity."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na gramatiku tě procvičí ve spojkách, vymyslet důvod musíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti poradí slova pro pocity a spojky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-popis-oblibeneho-mista",
+    "title": "Popis oblíbeného místa",
+    "aliases": [
+      "my favourite place",
+      "oblíbené místo anglicky",
+      "popis místa",
+      "where I like to be",
+      "můj pokoj anglicky"
+    ],
+    "outcome": "JJK-AJA-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše své oblíbené místo.",
+        "quote": "Popíše své oblíbené místo."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti slovíčka i vzorové věty o místech, vyprávět o svém místě musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na stránkách o angličtině najdeš slovní zásobu k místům a vzorové popisy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti pomůže s jednotlivými slovy, popis místa řekneš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti ukáže slova, která ti chybí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-popis-udalosti",
+    "title": "Vyprávění o zážitku z akce",
+    "aliases": [
+      "a trip I took",
+      "povídání o oslavě",
+      "vyprávění anglicky",
+      "last weekend",
+      "minulý čas anglicky"
+    ],
+    "outcome": "JJK-AJA-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše událost, které se účastnil.",
+        "quote": "Popíše událost, které se účastnil."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zopakuje s tebou minulý čas a položí ti otázky, co se na akci dělo, odpovědět musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam tvary minulého času a slovíčka pro oslavy, výlety a cestování."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na gramatiku tě procvičí v minulém čase, vyprávět budeš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti ukáže tvary sloves a slova pro události."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

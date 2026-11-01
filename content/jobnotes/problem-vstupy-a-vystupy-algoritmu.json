@@ -1,0 +1,12 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "6ce5f7e3-a534-4aa2-ab23-255408ddb53a": "Zařízení se senzory dostává data na vstupu a vrací rozhodnutí na výstupu. Při návrhu je potřeba umět říct, jaký problém algoritmus řeší a co od něj čekat.",
+  "35553663-deab-4d9a-bf22-15c1625d28e8": "Před návrhem programu pro rozhodování je potřeba pojmenovat problém, jeho vstupy a výstupy. Tak se pozná, jestli zvolená metoda vůbec odpovídá úkolu.",
+  "4874fa37-0cd1-4a68-aed8-a838851f242d": "Překlad má jasný vstup (text) a výstup (jiný text). Kdo programuje jeho zlepšení, musí přesně popsat, co se mění a jak se pozná lepší výsledek.",
+  "e8fca903-6590-48a8-8902-094bb41ee90c": "Vozidlo bere vstup ze senzorů a výstupem je řízení. Při dohledu nad provozem se rozlišuje, jaký problém který algoritmus řeší a kde může selhat.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Algoritmizace se v této práci objevuje občas, třeba při popisu postupu pro kurz. Popsat, co se vstupem dělá a k čemu to vede, ale pomáhá při tvorbě cvičení.",
+  "555235ce-8c45-409b-a6c9-83e69c2d2bce": "Technické úkoly ve vojenské oblasti občas zahrnují algoritmy v zařízení. Rozpoznat, jaký problém řeší, se hodí, ale není to jádro každodenní práce."
+ }
+}

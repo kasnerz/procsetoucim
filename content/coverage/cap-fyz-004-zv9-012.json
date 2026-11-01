@@ -1,0 +1,153 @@
+{
+  "outcome": "CAP-FYZ-004-ZV9-012",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Ví, kde má ve svém okolí magnety a popíše, co o nich ví.",
+      "cards": [
+        "magnety-pritahuji-a-odpuzuji"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Zná kompas nebo buzolu.",
+      "cards": [
+        "kompas-a-buzola"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Ví, že mobilní telefony komunikují na dálku.",
+      "cards": [
+        "elektromagneticke-vlny-radio-a-mobil"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Prozkoumá vzájemné přitahování a odpuzování magnetů a působení magnetů na kompas.",
+      "cards": [
+        "magnety-pritahuji-a-odpuzuji",
+        "kompas-a-buzola"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkoumá, které materiály magnety přitahují a zda magnety působí také skrz různé materiály.",
+      "cards": [
+        "latky-pritahovane-magnetem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Prozkoumá magnetické pole magnetu pomocí železných pilin nebo kompasu.",
+      "cards": [
+        "magneticke-pole-magnetu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Prozkoumá chování kompasu v okolí vodiče nebo cívky s proudem.",
+      "cards": [
+        "magneticke-pole-vodice-s-proudem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkoumá vznik elektrického napětí v cívce, kolem které se pohybuje magnet.",
+      "cards": [
+        "elektromagneticka-indukce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s konstrukcí generátoru a motoru.",
+      "cards": [
+        "generator-a-motor"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s tím, že rádia, vysílačky a mobilní telefony využívají elektromagnetické vlny k přenosu signálu.",
+      "cards": [
+        "elektromagneticke-vlny-radio-a-mobil"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede, jak se mohou magnety navzájem přitahovat a odpuzovat, a předvede, které látky se k magnetům přitahují a které na magnety nereagují.",
+      "cards": [
+        "magnety-pritahuji-a-odpuzuji",
+        "latky-pritahovane-magnetem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zmapuje magnetické pole jednoho magnetu, dvou magnetů, které se přitahují a které se odpuzují.",
+      "cards": [
+        "magneticke-pole-magnetu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Experimentálně ukáže existenci magnetického pole okolo vodiče s proudem.",
+      "cards": [
+        "magneticke-pole-vodice-s-proudem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede, že změnou magnetického pole v cívce na ní vzniká elektrické napětí.",
+      "cards": [
+        "elektromagneticka-indukce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Jmenuje zařízení ze svého okolí, která pracují na principu elektromagnetické indukce.",
+      "cards": [
+        "generator-a-motor"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede příklady zařízení, která využívají elektromagnetické vlny, a popíše, k jakému účelu je využívají.",
+      "cards": [
+        "elektromagneticke-vlny-radio-a-mobil"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vybere si zařízení v domácnosti a popíše, jaký jev z oblasti elektřiny a magnetismu využívají.",
+      "cards": [
+        "jev-elektriny-a-magnetismu-v-domacnosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Prozkoumá chování trvalých magnetů vzájemně mezi sebou a vůči jiným materiálům pomocí jednoduchých pokusů.",
+      "cards": [
+        "magnety-pritahuji-a-odpuzuji",
+        "latky-pritahovane-magnetem"
+      ],
+      "aside": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když rozpouštíš hydroxid nebo sůl ve vodě, teplota roztoku se změní a teploměr ukáže, jestli děj teplo vydává, nebo bere. Měřením se učíš pečlivosti: odečíst hodnotu ve správnou chvíli a z řady čísel vyčíst, co se v kádince dělo. Přesně tak pracují laboranti a technici, kteří hlídají teplotu v chemických provozech nebo zkoušejí kvalitu léků. Skutečnou teplotu ve tvé kádince ti nenapíše žádný chatbot ani web, tu zjistíš jen teploměrem, s grafem a vyhodnocením ti ale pomůžou.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka na naměřené hodnoty",
+      "text": "Popros chatbota o návrh tabulky, do které budeš při pokusu zapisovat teplotu každou půlminutu. Vyplníš ji ty, přímo u kádinky."
+    },
+    {
+      "title": "Odhad proti teploměru",
+      "text": "Zeptej se chatbota, jak se asi změní teplota při neutralizaci, a zapiš si vedle toho svůj odhad. Po měření porovnej obojí s teploměrem, u konkrétních čísel se chatbot může splést."
+    },
+    {
+      "title": "Vysvětlení vlastních čísel",
+      "text": "Napiš nejdřív vlastní vysvětlení, proč teplota stoupala nebo klesala, a teprve potom ho pošli chatbotovi i s naměřenými čísly. Ať najde slabá místa, opravíš je ty."
+    }
+  ]
+}

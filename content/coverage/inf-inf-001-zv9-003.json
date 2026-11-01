@@ -1,0 +1,157 @@
+{
+  "outcome": "INF-INF-001-ZV9-003",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozpozná více prvků situace, popíše je, rozliší podstatné a nepodstatné prvky.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "podstatne-prvky-situace-pozorovani"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Určí a popíše různé typy vztahů mezi prvky. Rozezná všechny relevantní prvky modelu, včetně složitějších komponent.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "vztahy-mezi-prvky-situace",
+          "inf-vztahy-mezi-prvky"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Zvolí vhodný způsob znázornění situace - schéma, myšlenková mapa, a odůvodní svou volbu vzhledem k řešení problému.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "volba-zpusobu-znazorneni"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Popíše účel modelu a význam různých symbolů a značek, včetně méně zjevných prvků.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "inf-prvky-a-znacky-modelu"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Zpřesní znázornění situace a opraví chyby nebo nedostatky v původním znázornění.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "nakres-situace-oprava"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Zhodnotí, jak různé způsoby znázornění přispívají k řešení problému a co by se dalo zlepšit.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "hodnoceni-znazorneni-problemu"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vymezí problém: určí jaké informace bude potřebovat k řešení problému, vysvětlí zamýšlený účel modelu.",
+      "cards": [
+        "inf-vymezeni-problemu-pro-model"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Navrhne model: určí důležité a nedůležité prvky, souvislosti a vztahy, vybere z možností, jak situaci modelovat (např. typ grafu), vysvětlí korespondenci situace a modelu (např. čára je silnice, bod je křižovatka).",
+      "cards": [
+        "inf-volba-typu-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vytvoří model: vybere technologii (např. papír, aplikaci), vloží objekty, vyznačí vztahy, uspořádá přehledně.",
+      "cards": [
+        "inf-tvorba-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkontroluje, že v modelu nic nechybí a nepřebývá a že model odpovídá zamýšlenému účelu.",
+      "cards": [
+        "inf-kontrola-modelu-vuci-problemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Nachází a opravuje chyby, doplňuje informace.",
+      "cards": [
+        "inf-oprava-a-doplneni-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zorientuje se v dané situaci a z různých možností zvolí takové (dostatečně přesné, podrobné, jednoznačné) vymezení problému, aby bylo možné ho účinně řešit.",
+      "cards": [
+        "inf-vymezeni-problemu-pro-model"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytvoří model: vloží objekty, vyznačí vztahy, uspořádá přehledně.",
+      "cards": [
+        "inf-tvorba-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Ověří, zda model dobře řeší problém: zhodnotí, zda jsou v modelu všechna data potřebná k řešení problému, posoudí, zda výsledný model odpovídá formulovaným potřebám.",
+      "cards": [
+        "inf-kontrola-modelu-vuci-problemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Porovná svůj navržený model s jinými modely k řešení stejného problému, vybere vhodnější, svou volbu zdůvodní, nachází a opravuje chyby, doplňuje informace.",
+      "cards": [
+        "inf-porovnani-modelu-stejneho-problemu",
+        "inf-oprava-a-doplneni-modelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Používá grafické znázornění k popisu situace nebo problému.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "inf-nakres-situace-jako-model"
+        ]
+      }
+    }
+  ]
+}

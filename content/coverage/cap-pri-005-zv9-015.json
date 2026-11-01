@@ -1,0 +1,176 @@
+{
+  "outcome": "CAP-PRI-005-ZV9-015",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "vyvozuje vlastnosti společné pro danou skupinu neživých přírodnin",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "spolecne-vlastnosti-skupiny"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "na základě klíčových znaků třídí organismy a neživé přírodniny do základních skupin",
+      "cards": [
+        "urceni-mineralu-atlasem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "zkoumá vlastnosti a pozorování nebo výsledky jednoduchých pokusů zaznamenává",
+      "cards": [
+        "vzhled-mineralu-a-hornin"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "ověří experimentálně vybrané vlastnosti látek",
+      "cards": [
+        "tvrdost-vryp-rozpustnost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "zdůvodní výběr látky (materiálu) pro výrobu konkrétních předmětů",
+      "cards": [
+        "vyber-latky-pro-predmet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Poznávání vlastností minerálů a hornin",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "popíše viditelné vlastnosti předložených minerálů a hornin, používán přitom vhodnou odbornou terminologii (barva, lesk, krystalová forma) a posuzuje jejich podobnost",
+      "cards": [
+        "vzhled-mineralu-a-hornin"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "používá vhodné určovací pomůcky (např. lupy, stupnice tvrdosti) k určení dalších vlastností k určení dalších vlastností minerálů a hornin (minerály – tvrdost, hustota, vryp, rozpustnost; horniny - tvrdost, pevnost, rozpustnost).",
+      "cards": [
+        "tvrdost-vryp-rozpustnost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Odvození určovacích znaků minerálů a hornin",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "porovná a iinterpretuje shody a rozdíly mezi pozorovanými přírodninami pomocí tabulek a diagramů (například Vennových diagramů).",
+      "cards": [
+        "vennuv-diagram-mineraly"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na základě vlastního pozorování a porovnání odvodí typické určovací znaky pro daný minerál a horninu a s pomocí vhodné literatury (atlasy a klíče minerálů a hornin - knižní, interaktivní) je na základě těchto znaků určuje.",
+      "cards": [
+        "urceni-mineralu-atlasem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Poznávání vlastností půdy",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "na základě obrazové dokumentace popíše základní viditelné znaky předložených půdních profilů (organický, humusový, minerální horizont, matečná hornina) a jejich vzájemný poměr v profilu",
+      "cards": [
+        "pudni-profil-z-obrazku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "porovná vzorky půdy z hlediska vybraných vlastností důležitých jako je propustnost vody a struktura půdy (písčitá, jílovitá, hlinitá).",
+      "cards": [
+        "srovnani-vzorku-pudy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Odvozování významu minerálů, hornin a půdy",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "na základě pozorovaných vlastností a informací vyhledaných v různých informačních zdrojích (atlasy, mapy - též interaktivní) odvodí hlavní význam vybraných minerálů (např. rudní minerály, minerály využívané ve šperkařství), hornin (např. stavební a dekorační materiály) a půdy (vhodnost pro zemědělství, charakteristické pro různé ekosystémy, např. mokřady).",
+      "cards": [
+        "vyznam-mineralu-a-hornin",
+        "vyznam-pudy-pro-zemedelstvi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určuje základní minerály a horniny s využitím určovacích pomůcek a na základě zkoumání jejich fyzikálních a chemických vlastností.",
+      "cards": [
+        "tvrdost-vryp-rozpustnost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě zkoumání odvodí vlastnosti vybraných minerálů a hornin významné pro jejich poznávání a způsoby využití.",
+      "cards": [
+        "urceni-mineralu-atlasem",
+        "vyznam-mineralu-a-hornin"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Porovná vlastnosti půdy z hlediska její úrodnosti a ekologického významu.",
+      "cards": [
+        "srovnani-vzorku-pudy",
+        "vyznam-pudy-pro-zemedelstvi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Zkoumá vlastnosti a praktické využití vybraných minerálů, hornin a půdy.",
+      "cards": [
+        "vyznam-mineralu-a-hornin"
+      ],
+      "aside": null
+    }
+  ]
+}

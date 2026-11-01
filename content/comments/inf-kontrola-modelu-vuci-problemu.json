@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Hotový model může vypadat přesvědčivě, i když v něm chybí údaj, bez kterého úlohu nevyřešíš. Proto se ho učíš porovnat se zadáním a zjistit, jestli je v něm všechno potřebné, nic nepřebývá a slouží tomu, k čemu vznikl. Statistici a lidé, kteří pracují s daty, takhle kontrolují každý svůj výpočet, a v těchto oborech míst spíš přibude. Chatbot ti umí ukázat na údaj, který chybí, ale jestli model opravdu řeší tvůj problém, posoudíš ty, protože víš, k čemu ho potřebuješ.",
+  "learnWithAi": [
+    {
+      "title": "Model s chybějícím údajem",
+      "text": "Požádej chatbota o zadání a k němu model, ve kterém schválně jeden údaj chybí. Najdi ho a teprve potom si nech říct, jestli máš pravdu."
+    },
+    {
+      "title": "Kontrolní seznam k zadání",
+      "text": "Sepiš si k vlastnímu modelu, co všechno musí obsahovat, aby úlohu vyřešil. Seznam i zadání dej chatbotovi a nech si ukázat, co v seznamu chybí."
+    },
+    {
+      "title": "Hledání toho, co přebývá",
+      "text": "Popiš svůj model a zadání, ke kterému patří, a zeptej se, co je v modelu navíc. U každé výtky rozhodni, jestli ji přijmeš, a napiš proč."
+    }
+  ]
+}

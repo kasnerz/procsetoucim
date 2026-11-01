@@ -1,0 +1,77 @@
+{
+  "outcome": "CZB-TEV-001-ZV9-005",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se se zásadami hygieny a bezpečnosti osvojování nových pohybových činností.",
+      "cards": [
+        "tv-bezpecnost-na-konkretnim-sportovisti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zná zásady hygieny a bezpečnosti při pohybových činnostech.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-zasady-hygieny-a-bezpecnosti-pri-cviceni"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Uvědomuje si problém, který by mohl vést k ohrožení jeho bezpečí nebo bezpečí jiné osoby.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-vsimnout-si-nebezpeci-a-predchazet-urazu"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Uplatňuje základní zásady hygieny a bezpečnosti při pohybových činnostech v prostředí daného sportoviště.",
+      "cards": [
+        "tv-bezpecnost-na-konkretnim-sportovisti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Upozorní na jakýkoli problém, který by mohl vést k ohrožení jeho bezpečí nebo bezpečí jiné osoby.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-vsimnout-si-nebezpeci-a-predchazet-urazu"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Svým jednáním předchází nebezpečným situacím.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-vsimnout-si-nebezpeci-a-predchazet-urazu"
+        ]
+      }
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Uplatňuje zásady bezpečnosti a hygieny při a po pohybových aktivitách, předchází nebezpečným situacím.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-zasady-hygieny-a-bezpecnosti-pri-cviceni"
+        ]
+      }
+    }
+  ]
+}

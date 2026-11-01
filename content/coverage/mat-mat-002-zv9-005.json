@@ -1,0 +1,122 @@
+{
+  "outcome": "MAT-MAT-002-ZV9-005",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "určí obsah a obvod mřížového útvaru ve čtvercové síti",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "obsah-ctverecky-mrizka"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "vypočítá obvod mnohoúhelníku",
+      "cards": [
+        "obvod-mnohouhelniku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vypočítá obsah čtverce, obdélníku a trojúhelníku",
+      "cards": [
+        "obsah-ctverce-obdelniku-trojuhelniku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vypočítá obvod a obsah kruhu",
+      "cards": [
+        "obvod-a-obsah-kruhu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vypočítá povrch mnohostěnu",
+      "cards": [
+        "povrch-mnohostenu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vypočítá objem pravoúhlého hranolu",
+      "cards": [
+        "objem-hranolu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "využívá Pythagorovu větu",
+      "cards": [
+        "pythagorova-veta"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet obsahu útvarů složených z obdélníků a trojúhelníků.",
+      "cards": [
+        "obsah-slozeneho-utvaru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet objemu pravoúhlého hranolu.",
+      "cards": [
+        "objem-hranolu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet obvodu kruhu (délku kružnice) a obsah kruhu, je-li dán průměr či poloměr a naopak.",
+      "cards": [
+        "obvod-a-obsah-kruhu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet povrchu běžného mnohostěnu (tzn. pravoúhlého hranolu, pravidelného čtyřbokého jehlanu, trojbokého hranolu).",
+      "cards": [
+        "povrch-mnohostenu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet objemu nepravoúhlého hranolu, jsou-li dány jeho rozměry.",
+      "cards": [
+        "objem-hranolu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují použití Pythagorovy věty.",
+      "cards": [
+        "pythagorova-veta"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Využívá délku, obsah a objem základních útvarů při výpočtech.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

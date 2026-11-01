@@ -1,4 +1,34 @@
 {
+ "00030d09-2b3a-4efd-87cc-c4ea39d27c34": {
+  "id": "00030d09-2b3a-4efd-87cc-c4ea39d27c34",
+  "uri": "http://data.europa.eu/esco/occupation/00030d09-2b3a-4efd-87cc-c4ea39d27c34",
+  "label": "Vedoucí techniky",
+  "labelAlt": [
+   "technický ředitel",
+   "technická ředitelka",
+   "vedoucí technického oddělení"
+  ],
+  "description": "Vedoucí techniky realizují umělecké vize tvůrců v rámci technických omezení. Koordinují činnost různých částí produkce, jako je scéna, garderoba, osvětlení, zvuk a líčení. Upravují prototyp a zkoumají proveditelnost, realizaci, provoz a technický dohled uměleckého projektu. Jsou také zodpovědní za jevištní zařízení a technické vybavení.",
+  "isco4": "2654",
+  "isco2": "26",
+  "ilo": {
+   "score": 0.37,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 10,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 10,
+    "examples": []
+   }
+  }
+ },
  "0019b951-c699-4191-8208-9822882d150c": {
   "id": "0019b951-c699-4191-8208-9822882d150c",
   "uri": "http://data.europa.eu/esco/occupation/0019b951-c699-4191-8208-9822882d150c",
@@ -610,6 +640,32 @@
     "examples": [
      "systémy pro sledování plýtvání potravinami"
     ]
+   }
+  }
+ },
+ "0152b59d-5005-470c-9273-ef321477d8dc": {
+  "id": "0152b59d-5005-470c-9273-ef321477d8dc",
+  "uri": "http://data.europa.eu/esco/occupation/0152b59d-5005-470c-9273-ef321477d8dc",
+  "label": "Obsluha strojů na zpracování netkaných vláken",
+  "labelAlt": [],
+  "description": "Obsluha strojů na zpracování netkaných vláken provádí chemické zpracování netkaných vláken.",
+  "isco4": "8131",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 18,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 18,
+    "examples": []
    }
   }
  },
@@ -2601,6 +2657,40 @@
    }
   }
  },
+ "066a9d8f-3948-409c-a3cf-ed8ed37cfe22": {
+  "id": "066a9d8f-3948-409c-a3cf-ed8ed37cfe22",
+  "uri": "http://data.europa.eu/esco/occupation/066a9d8f-3948-409c-a3cf-ed8ed37cfe22",
+  "label": "Pracovník/pracovnice zpracování tabáku",
+  "labelAlt": [
+   "pracovnice konzervace tabáku",
+   "pracovníci konzervace tabáku",
+   "pracovník sušírny tabáku",
+   "pracovnice sušírny tabáku",
+   "pracovník konzervace tabáku"
+  ],
+  "description": "Pracovníci zpracování tabáku pomáhají při míchání, zrání a fermentování tabákových pruhů a stonků pro výrobu doutníků, žvýkacího tabáku a šňupacího tabáku.",
+  "isco4": "7516",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.14,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 43,
+    "examples": [
+     "provádět environmentální audity"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 43,
+    "examples": []
+   }
+  }
+ },
  "066fe11d-10e4-4fec-bd27-3e78797500b9": {
   "id": "066fe11d-10e4-4fec-bd27-3e78797500b9",
   "uri": "http://data.europa.eu/esco/occupation/066fe11d-10e4-4fec-bd27-3e78797500b9",
@@ -2925,6 +3015,32 @@
    }
   }
  },
+ "075e4d25-74b3-46fb-9b6e-6b53cdb196e7": {
+  "id": "075e4d25-74b3-46fb-9b6e-6b53cdb196e7",
+  "uri": "http://data.europa.eu/esco/occupation/075e4d25-74b3-46fb-9b6e-6b53cdb196e7",
+  "label": "Úvěrový analytik/úvěrová analytička",
+  "labelAlt": [],
+  "description": "Úvěroví analytici vyšetřují úvěrové žádosti ze strany zákazníků a vyhodnocují, zda jsou žádosti v souladu s předpisy a pokyny instituce poskytující finanční úvěr. Na základě úvěrových analýz poskytují poradenství finančním institucím, zda jsou zákazníci vhodní pro poskytnutí úvěru. Plní úkoly, jako je shromažďování údajů o žadateli o půjčku, získávají informace od jiných oddělení nebo institucí a podávají informace o druhu dohod, které by finanční instituce měla uzavřít s žadatelem o úvěr. Úvěroví analytici se rovněž zabývají vývojem úvěrového portfolia klientů.",
+  "isco4": "3312",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.6,
+   "gradient": "Gradient 4"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 31,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 31,
+    "examples": []
+   }
+  }
+ },
  "0763c810-8ac6-4e39-867d-780a11af26e0": {
   "id": "0763c810-8ac6-4e39-867d-780a11af26e0",
   "uri": "http://data.europa.eu/esco/occupation/0763c810-8ac6-4e39-867d-780a11af26e0",
@@ -3102,6 +3218,39 @@
     "examples": [
      "využívat komunikační zařízení",
      "používat specializovaný software pro design"
+    ]
+   }
+  }
+ },
+ "07d4a2fa-e278-4f32-8cf9-9c01fc660369": {
+  "id": "07d4a2fa-e278-4f32-8cf9-9c01fc660369",
+  "uri": "http://data.europa.eu/esco/occupation/07d4a2fa-e278-4f32-8cf9-9c01fc660369",
+  "label": "Tiskař – specialista na flexotisk, tiskařka – specialistka na flexotisk",
+  "labelAlt": [
+   "tiskař - specialista na flexotisk",
+   "tiskařka - specialistka na flexotisk"
+  ],
+  "description": "Tiskaři – specialisté na flexotisk používají reliéfní desku na flexotisk, aby mohli tisknout na téměř jakýkoli materiál. Reliéfní deska je napuštěna tiskařskou barvou a lisována na materiál, který má být potištěn.",
+  "isco4": "7322",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 38,
+    "examples": []
+   },
+   "digital": {
+    "count": 4,
+    "of": 38,
+    "examples": [
+     "tisk na velkoformátových strojích",
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
     ]
    }
   }
@@ -8559,6 +8708,34 @@
    }
   }
  },
+ "16ec2281-b0b3-4cde-9888-2cb6cc492c25": {
+  "id": "16ec2281-b0b3-4cde-9888-2cb6cc492c25",
+  "uri": "http://data.europa.eu/esco/occupation/16ec2281-b0b3-4cde-9888-2cb6cc492c25",
+  "label": "Pracovník/pracovnice výroby omáček",
+  "labelAlt": [],
+  "description": "Pracovníci výroby omáček zpracovávají, produkují a vyrábějí omáčky z ovoce, zeleniny, olejů a octů. Používají stroje a zařízení pro činnosti, jako je míchání, pasterizace a balení omáček.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 39,
+    "examples": [
+     "odstranit odpad z potravin"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 39,
+    "examples": []
+   }
+  }
+ },
  "1738173e-ef9c-4222-88c8-b6aa9bad3cf7": {
   "id": "1738173e-ef9c-4222-88c8-b6aa9bad3cf7",
   "uri": "http://data.europa.eu/esco/occupation/1738173e-ef9c-4222-88c8-b6aa9bad3cf7",
@@ -10101,6 +10278,41 @@
    }
   }
  },
+ "1b123879-8f0d-4793-8069-3dc21a08921a": {
+  "id": "1b123879-8f0d-4793-8069-3dc21a08921a",
+  "uri": "http://data.europa.eu/esco/occupation/1b123879-8f0d-4793-8069-3dc21a08921a",
+  "label": "Specialista/specialistka pro chemické látky",
+  "labelAlt": [
+   "vývojový chemik",
+   "vývojový pracovník chemik",
+   "vývojová chemička",
+   "vývojová pracovnice chemička"
+  ],
+  "description": "Specialisté pro chemické látky vyvíjejí chemické výrobky podle potřeb a očekávání zákazníků. Vypracovávají receptury a postupy přípravy, jakož i hodnocení účinnosti a výkonnost získaných přípravků.",
+  "isco4": "2113",
+  "isco2": "21",
+  "ilo": {
+   "score": 0.39,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 24,
+    "examples": [
+     "zelená chemie"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 24,
+    "examples": [
+     "přenést laboratorní postup do výrobních procesů"
+    ]
+   }
+  }
+ },
  "1b38a27d-ef98-4d9f-b1b2-8c109bf47e79": {
   "id": "1b38a27d-ef98-4d9f-b1b2-8c109bf47e79",
   "uri": "http://data.europa.eu/esco/occupation/1b38a27d-ef98-4d9f-b1b2-8c109bf47e79",
@@ -10288,6 +10500,40 @@
      "používat zemědělské informační systémy a databáze",
      "elektronické zemědělství"
     ]
+   }
+  }
+ },
+ "1b8c2a8e-204e-4035-bf88-921564e6df2e": {
+  "id": "1b8c2a8e-204e-4035-bf88-921564e6df2e",
+  "uri": "http://data.europa.eu/esco/occupation/1b8c2a8e-204e-4035-bf88-921564e6df2e",
+  "label": "Technik/technička konečné úpravy textilií",
+  "labelAlt": [
+   "strojník bělení textilu",
+   "strojník konečné úpravy textilií",
+   "strojnice konečné úpravy textilií",
+   "strojnice bělení textilu",
+   "obsluha dokončovacích strojů v textilní výrobě"
+  ],
+  "description": "Technici konečné úpravy textilií provádějí úkony související s přípravou konečné úpravy textilií. Procesy konečné úpravy textilií jsou závěrečné řady úkonů, které vylepšují vzhled a/nebo užitnou hodnotu textilií.",
+  "isco4": "8154",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.21,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 23,
+    "examples": [
+     "problémové oblasti v textilním průmyslu"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 23,
+    "examples": []
    }
   }
  },
@@ -11117,6 +11363,37 @@
    }
   }
  },
+ "1da55a33-09b3-4ac7-818e-2a0fea68cecc": {
+  "id": "1da55a33-09b3-4ac7-818e-2a0fea68cecc",
+  "uri": "http://data.europa.eu/esco/occupation/1da55a33-09b3-4ac7-818e-2a0fea68cecc",
+  "label": "Vedoucí pro vydavatelská práva",
+  "labelAlt": [
+   "koordinátorka práv",
+   "koordinátor práv"
+  ],
+  "description": "Vedoucí pro vydavatelská práva jsou odpovědní za autorská práva knih. Organizují prodej těchto práv, takže knihy mohou být přeloženy, zfilmovány atd.",
+  "isco4": "3339",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.44,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 18,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 18,
+    "examples": [
+     "řídit digitální dokumenty"
+    ]
+   }
+  }
+ },
  "1dd7c3cb-2d58-4dad-ae15-c9081174ab7e": {
   "id": "1dd7c3cb-2d58-4dad-ae15-c9081174ab7e",
   "uri": "http://data.europa.eu/esco/occupation/1dd7c3cb-2d58-4dad-ae15-c9081174ab7e",
@@ -11245,6 +11522,35 @@
      "software pro počítačem podporované projektování (CAD)",
      "používat software na technické kreslení"
     ]
+   }
+  }
+ },
+ "1e331638-3f66-4641-9c49-56a94235f94c": {
+  "id": "1e331638-3f66-4641-9c49-56a94235f94c",
+  "uri": "http://data.europa.eu/esco/occupation/1e331638-3f66-4641-9c49-56a94235f94c",
+  "label": "Analytik/analytička pojistného rizika",
+  "labelAlt": [
+   "pojistný analytik",
+   "pojistná analytička"
+  ],
+  "description": "Analytici pojistného rizika analyzují informace týkající se pojistných trhů a jejich úvěrového ratingu, vypracovávají ratingové zprávy a faktury, sestavují finanční údaje a předkládají a vysvětlují ratingové hodnocení zúčastněným stranám, klientům a externím stranám. Pracují pro pojišťovny a vypočítávají pojistné a sazby pojistného pro klienty společnosti, a to jak pomocí manuálních, tak automatizovaných metod.",
+  "isco4": "2413",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.62,
+   "gradient": "Gradient 4"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 31,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 31,
+    "examples": []
    }
   }
  },
@@ -13049,6 +13355,37 @@
      "psát firemní e-mailové zprávy",
      "používat aplikaci Microsoft Office"
     ]
+   }
+  }
+ },
+ "2339733d-5a37-4031-b587-db28848e4958": {
+  "id": "2339733d-5a37-4031-b587-db28848e4958",
+  "uri": "http://data.europa.eu/esco/occupation/2339733d-5a37-4031-b587-db28848e4958",
+  "label": "Specialista/specialistka v oblasti zabavení majetku z hypotečního úvěru",
+  "labelAlt": [
+   "specialistka v oblasti zabavení majektu z hypotečního úvěru",
+   "insolvenční specialista",
+   "specialista v oblasti zabavení majektu z hypotečního úvěru",
+   "insolvenční specialistka"
+  ],
+  "description": "Specialisté v oblasti zabavení majetku z hypotečního úvěru revidují dokumentaci týkající se nemovitostí, na něž se vztahuje zabavení majetku při nesplácení hypotečního úvěru. Pomáhají klientům, jejichž majetek byl zabaven bankami z důvodu neplacení hypotéky, tím, že posoudí možnosti vlastníka ohledně záchrany majetku.",
+  "isco4": "3315",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.45,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 29,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 29,
+    "examples": []
    }
   }
  },
@@ -17483,6 +17820,34 @@
    }
   }
  },
+ "2f5e38a0-6578-4665-bdbd-e2ab505be140": {
+  "id": "2f5e38a0-6578-4665-bdbd-e2ab505be140",
+  "uri": "http://data.europa.eu/esco/occupation/2f5e38a0-6578-4665-bdbd-e2ab505be140",
+  "label": "Barman/barmanka",
+  "labelAlt": [
+   "výčepní"
+  ],
+  "description": "Barmani podávají alkoholické nebo nealkoholické nápoje v souladu s požadavky klientů v pohostinství.",
+  "isco4": "5132",
+  "isco2": "51",
+  "ilo": {
+   "score": 0.26,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 38,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 38,
+    "examples": []
+   }
+  }
+ },
  "2f7f5c84-b9b3-41ea-aa5f-5997d0873141": {
   "id": "2f7f5c84-b9b3-41ea-aa5f-5997d0873141",
   "uri": "http://data.europa.eu/esco/occupation/2f7f5c84-b9b3-41ea-aa5f-5997d0873141",
@@ -17506,6 +17871,38 @@
     "count": 0,
     "of": 19,
     "examples": []
+   }
+  }
+ },
+ "2f8acdc5-76f5-498b-9818-df075e324eaa": {
+  "id": "2f8acdc5-76f5-498b-9818-df075e324eaa",
+  "uri": "http://data.europa.eu/esco/occupation/2f8acdc5-76f5-498b-9818-df075e324eaa",
+  "label": "Vedoucí koordinátor komunikací a frekvencí letového provozu",
+  "labelAlt": [
+   "vedoucí střediska letecké telekomunikační služby"
+  ],
+  "description": "Vedoucí koordinátoři komunikací a frekvencí letového provozu mají na starosti činnosti a projekty zaměřené na umožnění vhodné komunikační infrastruktury, která podporuje výměnu informací mezi uživateli vzdušného prostoru.",
+  "isco4": "1349",
+  "isco2": "13",
+  "ilo": {
+   "score": 0.38,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 16,
+    "examples": []
+   },
+   "digital": {
+    "count": 6,
+    "of": 16,
+    "examples": [
+     "obsluhovat rádiové zařízení",
+     "rozvíjet služby datovým spojem pro navigační účely",
+     "spravovat komunikační program pro sdílení letových údajů"
+    ]
    }
   }
  },
@@ -18792,6 +19189,32 @@
    "digital": {
     "count": 0,
     "of": 49,
+    "examples": []
+   }
+  }
+ },
+ "32fcdc6f-1c8a-44e9-99b8-5519e4db4414": {
+  "id": "32fcdc6f-1c8a-44e9-99b8-5519e4db4414",
+  "uri": "http://data.europa.eu/esco/occupation/32fcdc6f-1c8a-44e9-99b8-5519e4db4414",
+  "label": "Technik/technička potiskovaného textilu",
+  "labelAlt": [],
+  "description": "Technici potiskovaného textilu provádějí činnosti související s nastavováním tiskových procesů.",
+  "isco4": "7322",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 16,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 16,
     "examples": []
    }
   }
@@ -21810,6 +22233,51 @@
    }
   }
  },
+ "3b1ea27c-781c-41eb-821f-214285260dd2": {
+  "id": "3b1ea27c-781c-41eb-821f-214285260dd2",
+  "uri": "http://data.europa.eu/esco/occupation/3b1ea27c-781c-41eb-821f-214285260dd2",
+  "label": "Manažer/manažerka změn a konfigurace ICT",
+  "labelAlt": [
+   "správkyně konfigurace",
+   "správkyně změn a konfigurace softwaru",
+   "DevOps inženýrka",
+   "specialistka DevOps",
+   "DevOps inženýr",
+   "specialista DevOps",
+   "správce životního cyklu aplikace",
+   "devops inženýrka",
+   "devops inženýr",
+   "správkyně životního cyklu aplikace",
+   "specialistka devops",
+   "správce konfigurace",
+   "správce změn a konfigurace softwaru",
+   "specialista devops"
+  ],
+  "description": "Manažeři změn a konfigurace ICT organizují a provádějí proces řízení změn v průběhu celého životního cyklu prostředků ICT, jako např. software, aplikace, systémy ICT atd. Manažeři změn a konfigurace ICT mají dobré znalosti hlavních technologií a procesů používaných v systémovém inženýrství a pro řízení životního cyklu systémů a subsystémů ICT.",
+  "isco4": "2519",
+  "isco2": "25",
+  "ilo": {
+   "score": 0.55,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 36,
+    "examples": []
+   },
+   "digital": {
+    "count": 32,
+    "of": 36,
+    "examples": [
+     "digitální systémy",
+     "nástroje pro správu konfigurace softwaru",
+     "metodiky řízení projektů v oblasti ICT"
+    ]
+   }
+  }
+ },
  "3b2229b4-807c-482a-89ca-2d0a542be196": {
   "id": "3b2229b4-807c-482a-89ca-2d0a542be196",
   "uri": "http://data.europa.eu/esco/occupation/3b2229b4-807c-482a-89ca-2d0a542be196",
@@ -24647,6 +25115,37 @@
    }
   }
  },
+ "43ee9c1a-59c2-48ee-afcd-c384dca92162": {
+  "id": "43ee9c1a-59c2-48ee-afcd-c384dca92162",
+  "uri": "http://data.europa.eu/esco/occupation/43ee9c1a-59c2-48ee-afcd-c384dca92162",
+  "label": "Vrátný/vrátná",
+  "labelAlt": [
+   "portýr",
+   "portýrka",
+   "hlídač dveří",
+   "hlídačka dveří"
+  ],
+  "description": "Vrátní vítají hosty v pohostinském zařízení a poskytují další služby související s pomocí se zavazadly, bezpečím hostů a zajištěním bezpečnosti.",
+  "isco4": "9621",
+  "isco2": "96",
+  "ilo": {
+   "score": 0.37,
+   "gradient": "Gradient 1"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 14,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 14,
+    "examples": []
+   }
+  }
+ },
  "441a5b76-2f51-4704-9df7-3b8e715dd3ad": {
   "id": "441a5b76-2f51-4704-9df7-3b8e715dd3ad",
   "uri": "http://data.europa.eu/esco/occupation/441a5b76-2f51-4704-9df7-3b8e715dd3ad",
@@ -24993,6 +25492,34 @@
    "digital": {
     "count": 0,
     "of": 16,
+    "examples": []
+   }
+  }
+ },
+ "4542ff68-f809-4ba1-857c-fd26d0914eaa": {
+  "id": "4542ff68-f809-4ba1-857c-fd26d0914eaa",
+  "uri": "http://data.europa.eu/esco/occupation/4542ff68-f809-4ba1-857c-fd26d0914eaa",
+  "label": "Technik/technička v oblasti odvodňování",
+  "labelAlt": [],
+  "description": "Technici v oblasti odvodňování instalují a obsluhují čerpadla, náhradní díly, soustavy trubek a vakuové odvodňovací systémy pro zachycování a odstraňování kapalin a chemických látek.",
+  "isco4": "8111",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 17,
+    "examples": [
+     "upravovat kontaminovanou vodu"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 17,
     "examples": []
    }
   }
@@ -26448,6 +26975,42 @@
     "examples": [
      "uplatňovat statistické metody procesu kontroly",
      "být počítačově gramotný"
+    ]
+   }
+  }
+ },
+ "49b21ca8-04be-4912-a2f7-0170550e18fa": {
+  "id": "49b21ca8-04be-4912-a2f7-0170550e18fa",
+  "uri": "http://data.europa.eu/esco/occupation/49b21ca8-04be-4912-a2f7-0170550e18fa",
+  "label": "Vazač/vazačka knih",
+  "labelAlt": [
+   "knihařka",
+   "knihvazačka",
+   "knihvazač",
+   "knihař"
+  ],
+  "description": "Vazači knih obsluhují stroje, které vážou potištěný nebo nepotištěný papír do svazku pomocí spojek, motouzů, lepidla nebo jiných vázacích technologií.",
+  "isco4": "7323",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 62,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 62,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "obsluhovat snášecí stroj"
     ]
    }
   }
@@ -28598,6 +29161,35 @@
    }
   }
  },
+ "4ed22a87-8478-4731-be11-5942eacb2e16": {
+  "id": "4ed22a87-8478-4731-be11-5942eacb2e16",
+  "uri": "http://data.europa.eu/esco/occupation/4ed22a87-8478-4731-be11-5942eacb2e16",
+  "label": "Poradce/poradkyně pro veřejné financování",
+  "labelAlt": [
+   "koordinátor veřejného financování",
+   "koordinátorka veřejného financování"
+  ],
+  "description": "Poradci pro veřejné financování radí jednotlivcům a podnikům o možnostech financování, které poskytuje vláda. Analyzují potřeby klientů, poskytují jim konzultace o finančních prostředcích, grantech a dotacích, které se na ně vztahují, a pomáhají jim s podáváním žádostí. Poradci pro veřejné financování rovněž zřizují správu veřejných grantů v organizacích.",
+  "isco4": "2412",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.57,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   }
+  }
+ },
  "4ed36f4c-9d5b-4a01-bf59-7f3c7844ce95": {
   "id": "4ed36f4c-9d5b-4a01-bf59-7f3c7844ce95",
   "uri": "http://data.europa.eu/esco/occupation/4ed36f4c-9d5b-4a01-bf59-7f3c7844ce95",
@@ -28970,6 +29562,38 @@
      "monitorovat automatizované stroje",
      "nastavit regulátor stroje",
      "technologie řezání"
+    ]
+   }
+  }
+ },
+ "4f7e7482-39e7-4f3a-bf11-763620f4b8e0": {
+  "id": "4f7e7482-39e7-4f3a-bf11-763620f4b8e0",
+  "uri": "http://data.europa.eu/esco/occupation/4f7e7482-39e7-4f3a-bf11-763620f4b8e0",
+  "label": "Tiskař – specialista na reliéfní ražbu, tiskařka – specialistka na reliéfní ražbu",
+  "labelAlt": [
+   "tiskař - specialista na reliéfní ražbu",
+   "tiskařka - specialistka na reliéfní ražbu"
+  ],
+  "description": "Tiskaři – specialisté na reliéfní ražbu používají tlak na vyvýšení nebo stlačení některých částí média tak, aby se na tisku vytvořil reliéf. Kolem papíru se umístí dvě odpovídající vyryté matrice a pomocí vyvinutého tlaku se povrch materiálu změní.",
+  "isco4": "7322",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 32,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 32,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
     ]
    }
   }
@@ -33704,6 +34328,37 @@
    }
   }
  },
+ "5c14982e-375d-47c5-9ea1-e9bcf3884643": {
+  "id": "5c14982e-375d-47c5-9ea1-e9bcf3884643",
+  "uri": "http://data.europa.eu/esco/occupation/5c14982e-375d-47c5-9ea1-e9bcf3884643",
+  "label": "Důlní dozorce/dozorkyně",
+  "labelAlt": [],
+  "description": "Důlní dozorci koordinují činnosti související s dolováním a těžbou v podzemních a povrchových dolech a lomech a dohlížejí na ně. Dohlížejí na pracovníky, rozvrhy a termíny, procesy a organizaci v dolech a lomech.",
+  "isco4": "3121",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.29,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 26,
+    "examples": [
+     "geologie",
+     "podávat hlášení o otázkách životního prostředí"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 26,
+    "examples": [
+     "používat software na důlní plánování"
+    ]
+   }
+  }
+ },
  "5c4ba833-da16-4bd0-a4b2-c08a2eaf5884": {
   "id": "5c4ba833-da16-4bd0-a4b2-c08a2eaf5884",
   "uri": "http://data.europa.eu/esco/occupation/5c4ba833-da16-4bd0-a4b2-c08a2eaf5884",
@@ -35003,6 +35658,42 @@
    }
   }
  },
+ "60082a99-d8ef-4e84-9290-78902681b6ed": {
+  "id": "60082a99-d8ef-4e84-9290-78902681b6ed",
+  "uri": "http://data.europa.eu/esco/occupation/60082a99-d8ef-4e84-9290-78902681b6ed",
+  "label": "Obchodní analytik/analytička",
+  "labelAlt": [
+   "obchodní konzultantka",
+   "obchodní konzultant"
+  ],
+  "description": "Obchodní analytici zkoumají a snaží se porozumět strategickému postavení podniků a společností ve vztahu k jejich trhům a zúčastněným stranám. Analyzují a prezentují své názory na to, jak může společnost z mnoha hledisek zlepšit svou strategickou pozici a vnitřní organizační strukturu. Posuzují potřebu změn, způsoby komunikace, technologie, nástroje IT, nové normy a certifikace.",
+  "isco4": "2421",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.46,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 53,
+    "examples": [
+     "udržitelná výroba",
+     "usilovat o inovace v současných postupech"
+    ]
+   },
+   "digital": {
+    "count": 6,
+    "of": 53,
+    "examples": [
+     "software pro vizualizaci dat",
+     "obchodní analýza",
+     "používání nástrojů pro obchodní simulaci"
+    ]
+   }
+  }
+ },
  "601db24d-cc02-48f3-9939-8c8b41b34ef7": {
   "id": "601db24d-cc02-48f3-9939-8c8b41b34ef7",
   "uri": "http://data.europa.eu/esco/occupation/601db24d-cc02-48f3-9939-8c8b41b34ef7",
@@ -35454,6 +36145,39 @@
    }
   }
  },
+ "6175b828-026d-4fb4-8be7-418394e1add0": {
+  "id": "6175b828-026d-4fb4-8be7-418394e1add0",
+  "uri": "http://data.europa.eu/esco/occupation/6175b828-026d-4fb4-8be7-418394e1add0",
+  "label": "Tiskař – specialista na digitální tisk, tiskařka – specialistka na digitální tisk",
+  "labelAlt": [
+   "tiskařka - specialistka na digitální tisk",
+   "tiskař - specialista na digitální tisk"
+  ],
+  "description": "Tiskaři – specialisté na digitální tisk pracují se stroji, které tisknou přímo na nosič, bez tiskové desky. Tiskaři – specialisté na digitální tisk obvykle využívají laserovou nebo inkoustovou technologii k tisku na jednotlivé strany bez zdlouhavých nebo pracovně intenzivních technických kroků mezi hotovým digitálním výrobkem a tiskem.",
+  "isco4": "7322",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 39,
+    "examples": []
+   },
+   "digital": {
+    "count": 11,
+    "of": 39,
+    "examples": [
+     "digitální tisk",
+     "tisk na velkoformátových strojích",
+     "nastavit barevné profily"
+    ]
+   }
+  }
+ },
  "6188bf20-5cdb-4702-af72-2cb67ec39810": {
   "id": "6188bf20-5cdb-4702-af72-2cb67ec39810",
   "uri": "http://data.europa.eu/esco/occupation/6188bf20-5cdb-4702-af72-2cb67ec39810",
@@ -35540,6 +36264,34 @@
      "být počítačově gramotný",
      "softwarové specifikace IKT",
      "multimediální systémy"
+    ]
+   }
+  }
+ },
+ "61d9270c-491d-438d-8d41-77ba2e0ef023": {
+  "id": "61d9270c-491d-438d-8d41-77ba2e0ef023",
+  "uri": "http://data.europa.eu/esco/occupation/61d9270c-491d-438d-8d41-77ba2e0ef023",
+  "label": "Kontrolor/kontrolorka jakosti výrobků",
+  "labelAlt": [],
+  "description": "Kontroloři jakosti výrobků kontrolují výrobky za účelem posouzení jejich souladu s normou nebo referenčními pokyny. Pozorují, měří, testují a tvoří otázky za účelem vyplnění formulářů a po provedení inspekce uvádějí míru plnění požadavků s komentáři. Kontroloři kvality výrobků jsou zaměstnanci společností nebo pro ně pracují externě.",
+  "isco4": "7543",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.31,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 46,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 46,
+    "examples": [
+     "systémy řízení kvality"
     ]
    }
   }
@@ -36842,6 +37594,35 @@
    }
   }
  },
+ "659b0ffd-337c-4a1f-82e3-2730812279de": {
+  "id": "659b0ffd-337c-4a1f-82e3-2730812279de",
+  "uri": "http://data.europa.eu/esco/occupation/659b0ffd-337c-4a1f-82e3-2730812279de",
+  "label": "Investor/investorka rizikového kapitálu",
+  "labelAlt": [
+   "investorka počátečního kapitálu",
+   "investor počátečního kapitálu"
+  ],
+  "description": "Investoři rizikového kapitálu investují do mladých nebo malých začínajících podniků a poskytují jim soukromé financování. Zkoumají potenciální trhy a konkrétní možnosti produktů, které mají vlastníkům podniků pomoci rozvíjet nebo rozšiřovat jejich podniky. Na základě svých zkušeností a činností poskytují poradenství podnikům, technické odborné znalosti a zprostředkovávají síť kontaktů. V podniku nezastávají výkonné manažerské pozice, ale mají vliv na jeho strategické směřování.",
+  "isco4": "2412",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.57,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 38,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 38,
+    "examples": []
+   }
+  }
+ },
  "65a9366c-d4d3-484d-a577-c63d335987da": {
   "id": "65a9366c-d4d3-484d-a577-c63d335987da",
   "uri": "http://data.europa.eu/esco/occupation/65a9366c-d4d3-484d-a577-c63d335987da",
@@ -37561,6 +38342,37 @@
     "count": 0,
     "of": 33,
     "examples": []
+   }
+  }
+ },
+ "6729aa5a-285f-4baf-a466-c2ccd2f2d96f": {
+  "id": "6729aa5a-285f-4baf-a466-c2ccd2f2d96f",
+  "uri": "http://data.europa.eu/esco/occupation/6729aa5a-285f-4baf-a466-c2ccd2f2d96f",
+  "label": "Zasazovač/zasazovačka drahých kamenů",
+  "labelAlt": [
+   "zasazovačka drahokamů",
+   "zasazovač drahokamů"
+  ],
+  "description": "Zasazovači drahých kamenů používají nástroje ke vkládání diamantů a jiných drahých kamenů do šperků podle specifikací. Zasazení drahého kamene závisí na jeho velikosti a tvaru.",
+  "isco4": "7313",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 30,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 30,
+    "examples": [
+     "používat specializované vybavení"
+    ]
    }
   }
  },
@@ -38479,6 +39291,43 @@
     "count": 0,
     "of": 45,
     "examples": []
+   }
+  }
+ },
+ "6a29d804-f775-446c-bec7-35fc4e28ac97": {
+  "id": "6a29d804-f775-446c-bec7-35fc4e28ac97",
+  "uri": "http://data.europa.eu/esco/occupation/6a29d804-f775-446c-bec7-35fc4e28ac97",
+  "label": "Obchodní konzultant/konzultantka",
+  "labelAlt": [
+   "business konzultantka",
+   "business konzultant"
+  ],
+  "description": "Obchodní konzultanti analyzují pozici, strukturu a procesy podniků a společností a nabízejí služby nebo poradenství za účelem jejich zlepšení. Provádějí výzkum a určují obchodní postupy, jako je finanční neefektivnost nebo řízení zaměstnanců, a navrhují strategické plány k překonání těchto obtíží. Pracují v externích konzultačních firmách, kde poskytují objektivní přehled o obchodní činnosti nebo struktuře podniku a metodických postupech.",
+  "isco4": "2421",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.46,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 54,
+    "examples": [
+     "poskytovat poradenství v oblasti udržitelných řešení",
+     "poskytovat poradenství o systémech řízení rizik pro životní prostředí",
+     "usilovat o inovace v současných postupech"
+    ]
+   },
+   "digital": {
+    "count": 3,
+    "of": 54,
+    "examples": [
+     "business intelligence",
+     "obchodní software",
+     "obchodní analýza"
+    ]
    }
   }
  },
@@ -39747,6 +40596,36 @@
      "Haskell",
      "Erlang",
      "SAS language"
+    ]
+   }
+  }
+ },
+ "6e6839b6-099c-4802-906e-7f2c8203ee69": {
+  "id": "6e6839b6-099c-4802-906e-7f2c8203ee69",
+  "uri": "http://data.europa.eu/esco/occupation/6e6839b6-099c-4802-906e-7f2c8203ee69",
+  "label": "Vedoucí kanceláře",
+  "labelAlt": [],
+  "description": "Vedoucí kanceláře vykonávají dohled nad administrativními pracemi, které vykonávají administrativní pracovníci v různých organizacích nebo sdruženích. Provádějí detailní správu a úzce dohlížejí na správní postupy, jako je například kontrola korespondence, vytváření registračních systémů, přezkum a schvalování rekvizice dodávek, přidělování a monitorování administrativních funkcí. Podávají zprávy řídicím pracovníkům v rámci téhož útvaru nebo generálním manažerům, v závislosti na velikosti podniku.",
+  "isco4": "3341",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.43,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 37,
+    "examples": []
+   },
+   "digital": {
+    "count": 4,
+    "of": 37,
+    "examples": [
+     "kancelářský software",
+     "nástroj pro videokonference",
+     "řídit kancelářské systémy"
     ]
    }
   }
@@ -41785,6 +42664,38 @@
      "crowdfundingové financování",
      "připravovat vizuální údaje",
      "ochrana dat"
+    ]
+   }
+  }
+ },
+ "73bcde7c-bc34-485d-a7af-7b94fc43f61b": {
+  "id": "73bcde7c-bc34-485d-a7af-7b94fc43f61b",
+  "uri": "http://data.europa.eu/esco/occupation/73bcde7c-bc34-485d-a7af-7b94fc43f61b",
+  "label": "Řezač drahých kamenů",
+  "labelAlt": [
+   "pracovník pro řezání drahých kamenů",
+   "pracovnice pro řezání drahých kamenů",
+   "řezač drahokamů"
+  ],
+  "description": "Řezači drahých kamenů používají řezačky a nástroje pro řezání nebo opracování diamantů a jiných drahých kamenů podle nákresů a schémat při zohlednění různých specifikací. Jedná se o odborníky na výrobu klenotů, např. prstenů, broží, řetězů a náramků z drahých kamenů.",
+  "isco4": "7313",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 45,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 45,
+    "examples": [
+     "používat specializované vybavení"
     ]
    }
   }
@@ -46224,6 +47135,39 @@
    }
   }
  },
+ "7fbe45c6-1914-43ba-9cfb-e0a4e051da92": {
+  "id": "7fbe45c6-1914-43ba-9cfb-e0a4e051da92",
+  "uri": "http://data.europa.eu/esco/occupation/7fbe45c6-1914-43ba-9cfb-e0a4e051da92",
+  "label": "Tiskař – specialista na hlubotisk, tiskařka – specialistka na hlubotisk",
+  "labelAlt": [
+   "tiskařka - specialistka na hlubotisk",
+   "tiskař - specialista na hlubotisk"
+  ],
+  "description": "Tiskaři – specialisté na hlubotisk pracují s hlubotiskovými stroji, kde je obraz vyryt přímo na válec. Nastavují tisk a sledují jej v průběhu operace, dbají na bezpečnost a řeší problémy.",
+  "isco4": "7322",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 38,
+    "examples": []
+   },
+   "digital": {
+    "count": 4,
+    "of": 38,
+    "examples": [
+     "tisk na velkoformátových strojích",
+     "monitorovat automatizované stroje",
+     "používat programy pro barevný tisk"
+    ]
+   }
+  }
+ },
  "7fddf2b5-1ba7-4327-86f9-e5da8ddb28a6": {
   "id": "7fddf2b5-1ba7-4327-86f9-e5da8ddb28a6",
   "uri": "http://data.europa.eu/esco/occupation/7fddf2b5-1ba7-4327-86f9-e5da8ddb28a6",
@@ -49664,6 +50608,39 @@
    }
   }
  },
+ "88760821-9df4-47a6-a1c2-ac08b9759396": {
+  "id": "88760821-9df4-47a6-a1c2-ac08b9759396",
+  "uri": "http://data.europa.eu/esco/occupation/88760821-9df4-47a6-a1c2-ac08b9759396",
+  "label": "Návrhář/návrhářka zmenšených modelů",
+  "labelAlt": [
+   "stavěč modelů",
+   "stavěčka modelů",
+   "návrhář modelů a maket",
+   "návrhářka modelů a maket"
+  ],
+  "description": "Návrháři zmenšených modelů navrhují a stavějí miniaturní rekvizity a scény filmových snímků. Vytvářejí modely používané pro vizuální efekty, které odpovídají vzhledu a požadavkům produkce. Návrháři zmenšených modelů řežou a stříhají pomocí nářadí materiál k výstavbě trojrozměrných rekvizit a scén.",
+  "isco4": "3432",
+  "isco2": "34",
+  "ilo": {
+   "score": 0.37,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 38,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 38,
+    "examples": [
+     "grafický design"
+    ]
+   }
+  }
+ },
  "88990bdf-4f6b-4411-82c9-9eecad1db8fb": {
   "id": "88990bdf-4f6b-4411-82c9-9eecad1db8fb",
   "uri": "http://data.europa.eu/esco/occupation/88990bdf-4f6b-4411-82c9-9eecad1db8fb",
@@ -49854,6 +50831,34 @@
     "examples": [
      "být počítačově gramotný"
     ]
+   }
+  }
+ },
+ "89330b57-6a30-40e1-b623-50f47a4b0c34": {
+  "id": "89330b57-6a30-40e1-b623-50f47a4b0c34",
+  "uri": "http://data.europa.eu/esco/occupation/89330b57-6a30-40e1-b623-50f47a4b0c34",
+  "label": "Referent/referentka řízení grantů",
+  "labelAlt": [],
+  "description": "Referenti řízení grantů pracují profesionálně v rámci správy a řízení grantových prostředků. Zkoumají žádosti o udělení grantu od jednotlivců, charitativních organizací, komunitních skupin nebo univerzitních výzkumných oddělení a rozhodují o tom, zda udělit finanční prostředky, které poskytují charitativní fondy, vládní nebo veřejnoprávní subjekty. Někdy však mohou žádost o grant postoupit vyššímu úředníkovi nebo výboru.",
+  "isco4": "2411",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.51,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 28,
+    "examples": [
+     "kontrolovat žádosti o grant"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 28,
+    "examples": []
    }
   }
  },
@@ -51053,6 +52058,34 @@
    }
   }
  },
+ "8c8b5cba-14b2-4728-b22c-eb90f1786e00": {
+  "id": "8c8b5cba-14b2-4728-b22c-eb90f1786e00",
+  "uri": "http://data.europa.eu/esco/occupation/8c8b5cba-14b2-4728-b22c-eb90f1786e00",
+  "label": "Vedoucí ordinace",
+  "labelAlt": [],
+  "description": "Vedoucí ordinace řídí každodenní provoz lékařské praxe. Dohlížejí na zaměstnance a obchodní stránku.",
+  "isco4": "3344",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.53,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 38,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 38,
+    "examples": [
+     "řídit kancelářské systémy"
+    ]
+   }
+  }
+ },
  "8c8ec7a2-adbb-4d1a-9a56-a7048d66c00b": {
   "id": "8c8ec7a2-adbb-4d1a-9a56-a7048d66c00b",
   "uri": "http://data.europa.eu/esco/occupation/8c8ec7a2-adbb-4d1a-9a56-a7048d66c00b",
@@ -51678,6 +52711,37 @@
     "of": 27,
     "examples": [
      "používat software CAD"
+    ]
+   }
+  }
+ },
+ "8e185c49-704e-49c0-8584-a7e0b618f628": {
+  "id": "8e185c49-704e-49c0-8584-a7e0b618f628",
+  "uri": "http://data.europa.eu/esco/occupation/8e185c49-704e-49c0-8584-a7e0b618f628",
+  "label": "Úvěrový pracovník/úvěrová pracovnice",
+  "labelAlt": [
+   "úvěrový poradce",
+   "úvěrová poradkyně"
+  ],
+  "description": "Úvěroví pracovníci posuzují a autorizují schvalování žádostí o úvěr pro jednotlivce a podniky. Zajišťují úplné transakce mezi úvěrovými organizacemi, vypůjčovateli a prodejci. Úvěroví pracovníci jsou specialisté v oblasti spotřebitelských, hypotečních a komerčních úvěrů.",
+  "isco4": "3312",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.6,
+   "gradient": "Gradient 4"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 39,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 39,
+    "examples": [
+     "základní bankovní software"
     ]
    }
   }
@@ -55459,6 +56523,38 @@
    }
   }
  },
+ "9980a417-f990-495a-ae11-66a112737f3b": {
+  "id": "9980a417-f990-495a-ae11-66a112737f3b",
+  "uri": "http://data.europa.eu/esco/occupation/9980a417-f990-495a-ae11-66a112737f3b",
+  "label": "Obsluha sklářské chladící pece",
+  "labelAlt": [],
+  "description": "Obsluha sklářské chladící pece obsluhuje elektrické nebo plynové pece používané k zpevnění skleněných výrobků pomocí procesu zahřívání a chlazení, přičemž dbá na to, aby teplota byla nastavena podle specifikací. Obsluha kontroluje skleněné výrobky v průběhu celého procesu, aby zjistila případné vady.",
+  "isco4": "8181",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 36,
+    "examples": [
+     "nakládat s odpady",
+     "řídit ventilaci pecí"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 36,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "998a0bf4-b1be-42ab-aee5-0096c9be3319": {
   "id": "998a0bf4-b1be-42ab-aee5-0096c9be3319",
   "uri": "http://data.europa.eu/esco/occupation/998a0bf4-b1be-42ab-aee5-0096c9be3319",
@@ -57702,6 +58798,37 @@
    }
   }
  },
+ "a1acd539-c359-4af3-8a4a-07f1b611e368": {
+  "id": "a1acd539-c359-4af3-8a4a-07f1b611e368",
+  "uri": "http://data.europa.eu/esco/occupation/a1acd539-c359-4af3-8a4a-07f1b611e368",
+  "label": "Chytač/chytačka",
+  "labelAlt": [
+   "chytačka drůbeže",
+   "pracovník provádějící odchyt drůbeže",
+   "chytač drůbeže",
+   "pracovnice provádějící odchyt drůbeže"
+  ],
+  "description": "Chytači jsou odborníci, kteří pracují v drůbežárnách a odchytávají drůbež.",
+  "isco4": "9212",
+  "isco2": "92",
+  "ilo": {
+   "score": 0.12,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 11,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 11,
+    "examples": []
+   }
+  }
+ },
  "a1b32703-a2e5-4e0a-910f-7cdd0293b52d": {
   "id": "a1b32703-a2e5-4e0a-910f-7cdd0293b52d",
   "uri": "http://data.europa.eu/esco/occupation/a1b32703-a2e5-4e0a-910f-7cdd0293b52d",
@@ -57798,6 +58925,32 @@
    "digital": {
     "count": 0,
     "of": 20,
+    "examples": []
+   }
+  }
+ },
+ "a1ba7574-cc28-446c-9741-12d7fbb325cb": {
+  "id": "a1ba7574-cc28-446c-9741-12d7fbb325cb",
+  "uri": "http://data.europa.eu/esco/occupation/a1ba7574-cc28-446c-9741-12d7fbb325cb",
+  "label": "Referent/referentka trhu práce",
+  "labelAlt": [],
+  "description": "Referenti trhu práce provádějí výzkum, analyzují a rozvíjejí politiky na trhu práce. Implementují široké spektrum politik od finanční až po praktickou oblast, jako je zlepšení mechanismů hledání pracovních míst, podpora odborné přípravy, poskytování pobídek pro začínající podniky a podporu příjmů. Referenti trhu práce úzce spolupracují s partnery, externími organizacemi či jinými zúčastněnými stranami a pravidelně jim poskytují aktuální informace.",
+  "isco4": "2422",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.42,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 25,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 25,
     "examples": []
    }
   }
@@ -58214,6 +59367,35 @@
    "digital": {
     "count": 0,
     "of": 15,
+    "examples": []
+   }
+  }
+ },
+ "a2b81132-2147-4c8e-b250-e6290ed906ea": {
+  "id": "a2b81132-2147-4c8e-b250-e6290ed906ea",
+  "uri": "http://data.europa.eu/esco/occupation/a2b81132-2147-4c8e-b250-e6290ed906ea",
+  "label": "Vyšetřovatel/vyšetřovatelka v pojišťovnictví",
+  "labelAlt": [
+   "vyšetřovatel pojistných podvodů",
+   "vyšetřovatelka pojistných podvodů"
+  ],
+  "description": "Vyšetřovatelé v pojišťovnictví bojují proti podvodným činnostem zkoumáním okolností určitých podezřelých nároků, činností týkajících se nových zákazníků, nákupu pojistných produktů a výpočtů pojistného. Vyšetřovatelé v pojišťovnictví referují případy možného podvodu vyšetřovatelům, kteří se poté účastní vyšetřování na podporu nebo zamítnutí případu žadatele.",
+  "isco4": "3315",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.45,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 26,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 26,
     "examples": []
    }
   }
@@ -60516,6 +61698,39 @@
    }
   }
  },
+ "a98f93a6-b1df-4759-88a9-3234f334afad": {
+  "id": "a98f93a6-b1df-4759-88a9-3234f334afad",
+  "uri": "http://data.europa.eu/esco/occupation/a98f93a6-b1df-4759-88a9-3234f334afad",
+  "label": "Tiskař – specialista na sítotisk, tiskařka – specialistka na sítotisk",
+  "labelAlt": [
+   "tiskař - specialista na sítotisk",
+   "tiskařka - specialistka na sítotisk"
+  ],
+  "description": "Tiskaři – specialisté na sítotisk obsluhují tiskový stroj, který tiskne přes tiskovou desku. Sítotisk se často používá k tisku materiálů, které lze sotva použít v jiných procesech, jako jsou tuhé plastové povrchy.",
+  "isco4": "7322",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 41,
+    "examples": []
+   },
+   "digital": {
+    "count": 5,
+    "of": 41,
+    "examples": [
+     "tisk na velkoformátových strojích",
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "a99b38bc-6e71-4bef-b127-0f2b5e357815": {
   "id": "a99b38bc-6e71-4bef-b127-0f2b5e357815",
   "uri": "http://data.europa.eu/esco/occupation/a99b38bc-6e71-4bef-b127-0f2b5e357815",
@@ -61255,6 +62470,41 @@
    }
   }
  },
+ "ab4086a0-0e2f-436e-80f8-a3291e594bd1": {
+  "id": "ab4086a0-0e2f-436e-80f8-a3291e594bd1",
+  "uri": "http://data.europa.eu/esco/occupation/ab4086a0-0e2f-436e-80f8-a3291e594bd1",
+  "label": "Tiskař – specialista na litografii, tiskařka – specialistka na litografii",
+  "labelAlt": [
+   "litograf",
+   "tiskařka - specialistka na litografii",
+   "tiskař - specialista na litografii",
+   "litografka"
+  ],
+  "description": "Tiskaři – specialisté na litografii vyrábějí a připravují kovové desky, které mají být použity jako originál v různých tiskových procesech a médiích. Desky jsou obvykle leptané laserovým paprskem z digitálních zdrojů za použití technologie CTP, ale lze je rovněž zpracovávat použitím typů emulzí na tiskovou desku.",
+  "isco4": "7321",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.38,
+   "gradient": "Gradient 1"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 43,
+    "examples": []
+   },
+   "digital": {
+    "count": 9,
+    "of": 43,
+    "examples": [
+     "míchat inkoust",
+     "nastavovat ovládání skeneru",
+     "provádět úpravu obrázků"
+    ]
+   }
+  }
+ },
  "ab4dd4f9-ee6c-41cc-8b72-42ad0b13d1e2": {
   "id": "ab4dd4f9-ee6c-41cc-8b72-42ad0b13d1e2",
   "uri": "http://data.europa.eu/esco/occupation/ab4dd4f9-ee6c-41cc-8b72-42ad0b13d1e2",
@@ -61285,6 +62535,32 @@
      "technické výkresy",
      "používat software na technické kreslení"
     ]
+   }
+  }
+ },
+ "ab5a5073-453c-4a93-aff7-345a19f8b954": {
+  "id": "ab5a5073-453c-4a93-aff7-345a19f8b954",
+  "uri": "http://data.europa.eu/esco/occupation/ab5a5073-453c-4a93-aff7-345a19f8b954",
+  "label": "Hypoteční upisovatel/upisovatelka",
+  "labelAlt": [],
+  "description": "Hypoteční upisovatelé zajišťují dodržování pokynů pro poskytovatele hypotečních úvěrů. Podílí se na uplatňování nových pokynů pro poskytování hypotečních úvěrů. Rovněž přezkoumávají uzavřené a neuznané půjčky.",
+  "isco4": "3312",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.6,
+   "gradient": "Gradient 4"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 26,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 26,
+    "examples": []
    }
   }
  },
@@ -61985,6 +63261,39 @@
     "examples": [
      "informační modelování budov",
      "být počítačově gramotný"
+    ]
+   }
+  }
+ },
+ "ad6589cb-ef1e-482d-863d-d80b2eb6b070": {
+  "id": "ad6589cb-ef1e-482d-863d-d80b2eb6b070",
+  "uri": "http://data.europa.eu/esco/occupation/ad6589cb-ef1e-482d-863d-d80b2eb6b070",
+  "label": "Obsluha stroje pro ražbu přes fólii za tepla",
+  "labelAlt": [
+   "pracovnice obsluhující stroj pro ražbu přes fólii za tepla",
+   "pracovník obsluhující stroj pro ražbu přes fólii za tepla"
+  ],
+  "description": "Obsluha stroje pro ražbu přes fólii za tepla obsluhuje stroje, které aplikují kovové fólie na jiné materiály za použití tlakových láhví a zahřívání. Rovněž míchají barvy, nastavují vhodné strojní zařízení a monitorují tisk.",
+  "isco4": "7322",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 28,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 28,
+    "examples": [
+     "tisk na velkoformátových strojích",
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
     ]
    }
   }
@@ -63762,6 +65071,38 @@
     "of": 44,
     "examples": [
      "pořídit infračervené záběry"
+    ]
+   }
+  }
+ },
+ "b2e81332-0972-4e0f-9a4d-1d15c9c9513b": {
+  "id": "b2e81332-0972-4e0f-9a4d-1d15c9c9513b",
+  "uri": "http://data.europa.eu/esco/occupation/b2e81332-0972-4e0f-9a4d-1d15c9c9513b",
+  "label": "Specialista/specialistka back office",
+  "labelAlt": [
+   "samostatná pracovnice back office",
+   "samostatný pracovník back office"
+  ],
+  "description": "Specialisté back office vykonávají administrativní a organizační úkony ve finanční společnosti a podporují front office. Vykonávají administrativní práce, starají se o finanční transakce, spravují data a dokumentaci společnosti a provádějí další podpůrné úkoly v koordinaci s ostatními odděleními společnosti.",
+  "isco4": "4312",
+  "isco2": "43",
+  "ilo": {
+   "score": 0.64,
+   "gradient": "Gradient 4"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 35,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 35,
+    "examples": [
+     "kancelářský software",
+     "používat tabulkový procesor"
     ]
    }
   }
@@ -66435,6 +67776,37 @@
    "digital": {
     "count": 0,
     "of": 24,
+    "examples": []
+   }
+  }
+ },
+ "b9b47087-6045-405d-b769-6a0c94e2eb84": {
+  "id": "b9b47087-6045-405d-b769-6a0c94e2eb84",
+  "uri": "http://data.europa.eu/esco/occupation/b9b47087-6045-405d-b769-6a0c94e2eb84",
+  "label": "Manažer/manažerka kulturních služeb pro návštěvníky",
+  "labelAlt": [
+   "programový vedoucí",
+   "programová ředitelka",
+   "programový ředitel",
+   "programová vedoucí"
+  ],
+  "description": "Manažeři kulturních služeb pro návštěvníky mají na starosti všechny programy, činnosti, studie a výzkum týkající se prezentace artefaktů nebo programu kulturního zařízení pro současné i potenciální návštěvníky.",
+  "isco4": "2621",
+  "isco2": "26",
+  "ilo": {
+   "score": 0.47,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 18,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 18,
     "examples": []
    }
   }
@@ -69177,6 +70549,38 @@
    }
   }
  },
+ "c11e2b53-06f7-465f-9b5c-708016bc96f4": {
+  "id": "c11e2b53-06f7-465f-9b5c-708016bc96f4",
+  "uri": "http://data.europa.eu/esco/occupation/c11e2b53-06f7-465f-9b5c-708016bc96f4",
+  "label": "Falcíř/falcířka",
+  "labelAlt": [
+   "řezář",
+   "řezářka"
+  ],
+  "description": "Falcíři obsluhují stroj, který skládá papír a svazky papíru.",
+  "isco4": "7323",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 33,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "c143d51a-5267-41a8-a73b-9022cf74c495": {
   "id": "c143d51a-5267-41a8-a73b-9022cf74c495",
   "uri": "http://data.europa.eu/esco/occupation/c143d51a-5267-41a8-a73b-9022cf74c495",
@@ -69290,6 +70694,37 @@
     "of": 26,
     "examples": [
      "být počítačově gramotný"
+    ]
+   }
+  }
+ },
+ "c227dcff-dd84-487e-a171-da3d919129bb": {
+  "id": "c227dcff-dd84-487e-a171-da3d919129bb",
+  "uri": "http://data.europa.eu/esco/occupation/c227dcff-dd84-487e-a171-da3d919129bb",
+  "label": "Koordinátor/koordinátorka finanční podpory pro studenty",
+  "labelAlt": [
+   "koordinátorka finanční pomoci",
+   "koordinátor finanční pomoci"
+  ],
+  "description": "Koordinátoři finanční podpory pro studenty pomáhají studentům a školní administrativě při řízení školného a studentských půjček. Poskytují poradenství a určují výši a způsobilost studentských půjček, poskytují studentům poradenství o dostupných a vhodných úvěrech a udržují kontakt s externími zdroji půjček, jako jsou banky, s cílem usnadnit proces studentských půjček. Vypracovávají profesionální posouzení týkající se způsobilosti studentů k finanční pomoci a mohou zřizovat schůzky poradců a rodičů studenta, aby jednali o otázkách finanční podpory a řešeních.",
+  "isco4": "3312",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.6,
+   "gradient": "Gradient 4"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 27,
+    "examples": [
+     "elektronická komunikace"
     ]
    }
   }
@@ -69552,6 +70987,34 @@
    }
   }
  },
+ "c2efadc4-6f47-4f34-997b-dd80aba609dd": {
+  "id": "c2efadc4-6f47-4f34-997b-dd80aba609dd",
+  "uri": "http://data.europa.eu/esco/occupation/c2efadc4-6f47-4f34-997b-dd80aba609dd",
+  "label": "Pedagogický pracovník/pedagogická pracovnice v muzeu",
+  "labelAlt": [
+   "přednášející v muzeu"
+  ],
+  "description": "Pracovníci v oblasti vzdělávání a služeb pro návštěvníky se zabývají veškerými aktivitami v souvislosti s návštěvníky kulturních míst a uměleckých zařízení, a to jak současnými, tak i budoucími. Jejich cílem je poskytovat vysoce kvalitní a dynamické programy vzdělávání a účasti. Zajišťují, aby kulturní místa a sbírky uměleckých objektů nebo živá představení i nadále sloužily jako cenné vzdělávací zdroje pro všechny věkové skupiny. Pracovníci v oblasti vzdělávání a služeb vyvíjí, poskytují a hodnotí programy a akce pro školní exkurze, skupiny nebo jednotlivce.",
+  "isco4": "2355",
+  "isco2": "23",
+  "ilo": {
+   "score": 0.35,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 10,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 10,
+    "examples": []
+   }
+  }
+ },
  "c302791c-6864-4ec5-9a6c-2fca38764f0e": {
   "id": "c302791c-6864-4ec5-9a6c-2fca38764f0e",
   "uri": "http://data.europa.eu/esco/occupation/c302791c-6864-4ec5-9a6c-2fca38764f0e",
@@ -69679,6 +71142,36 @@
      "používat software na technické kreslení",
      "elektronika",
      "používat CAM software"
+    ]
+   }
+  }
+ },
+ "c3760388-d070-491a-9c1f-be305a576815": {
+  "id": "c3760388-d070-491a-9c1f-be305a576815",
+  "uri": "http://data.europa.eu/esco/occupation/c3760388-d070-491a-9c1f-be305a576815",
+  "label": "Dispečer/dispečerka pro lodivody",
+  "labelAlt": [],
+  "description": "Dispečeři pro lodivody koordinují plavidla, která vplouvají do přístavu nebo jej opouštějí. Zadávají pokyny, v nichž jsou uvedeny názvy lodí, kotvišť, společností vlečných lodí a čas vplutí či vyplutí, a oznamují námořním lodivodům přidělené dispozice. Po návratu z lodě obdrží od lodivoda dokumentaci lodivodských činností. Dispečeři pro lodivody rovněž vedou záznamy o obdržených poplatcích a používají při tom knihu sazeb jako průvodce, sestavují zprávy o činnosti, například o počtu řízených lodí a o účtovaných poplatcích, a vedou záznamy o lodích připlouvajících do přístavu, které evidují majitele, jméno lodi, výtlak, obchodního zástupce a zemi registrace.",
+  "isco4": "4323",
+  "isco2": "43",
+  "ilo": {
+   "score": 0.5,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 21,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 21,
+    "examples": [
+     "obsluhovat rádiové zařízení",
+     "být počítačově gramotný",
+     "námořní telekomunikace"
     ]
    }
   }
@@ -74176,6 +75669,41 @@
    }
   }
  },
+ "d07e6a57-a339-4cfd-bf22-a951713148a3": {
+  "id": "d07e6a57-a339-4cfd-bf22-a951713148a3",
+  "uri": "http://data.europa.eu/esco/occupation/d07e6a57-a339-4cfd-bf22-a951713148a3",
+  "label": "Pracovník/pracovnice údržby telekomunikačních zařízení",
+  "labelAlt": [
+   "údržbář telekomunikačních zařízení",
+   "údržbářka telekomunikačních zařízení",
+   "pracovník údržby telekomunikačních systémů",
+   "pracovnice údržby telekomunikačních systémů"
+  ],
+  "description": "Pracovníci údržby telekomunikačních zařízení provádějí opravy, instalaci nebo údržbu mobilních nebo stacionárních radiových přenosových, vysílacích a přijímacích zařízení a dvoucestných radiokomunikačních systémů (mobilní telekomunikace, mobilní vysokorychlostní připojení, komunikace mezi pobřežím a plavidlem, komunikace mezi letadlem a pevninou, rádiová zařízení v provozu a pohotovostní vozidla). Zaměřují se rovněž na komunikační věže, antény, zesilovače a konektory. Mohou testovat a analyzovat pokrytí sítí.",
+  "isco4": "7422",
+  "isco2": "74",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 20,
+    "examples": []
+   },
+   "digital": {
+    "count": 13,
+    "of": 20,
+    "examples": [
+     "omezení síťových kabelů ICT",
+     "provozovat dvoucestné rádiové systémy",
+     "provozovat dálkové vysílací zařízení"
+    ]
+   }
+  }
+ },
  "d08b4700-758c-467d-ab77-d5a8029c4070": {
   "id": "d08b4700-758c-467d-ab77-d5a8029c4070",
   "uri": "http://data.europa.eu/esco/occupation/d08b4700-758c-467d-ab77-d5a8029c4070",
@@ -74304,6 +75832,32 @@
     "examples": [
      "monitorovat automatizované stroje"
     ]
+   }
+  }
+ },
+ "d0e85fe6-78e3-4218-b21a-99b75438b775": {
+  "id": "d0e85fe6-78e3-4218-b21a-99b75438b775",
+  "uri": "http://data.europa.eu/esco/occupation/d0e85fe6-78e3-4218-b21a-99b75438b775",
+  "label": "Ředitel/ředitelka firmy obchodující s cennými papíry",
+  "labelAlt": [],
+  "description": "Ředitelé firem obchodujících s cennými papíry organizují činnosti a osoby zapojené do obchodování s cennými papíry. Vyvíjejí strategie zaměřené na zvýšení účinnosti obchodování s aktivy, zvláště na jejich ziskovost. Mohou rovněž poskytovat poradenství klientům o vhodných obchodech.",
+  "isco4": "1346",
+  "isco2": "13",
+  "ilo": {
+   "score": 0.47,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 27,
+    "examples": []
    }
   }
  },
@@ -80271,6 +81825,64 @@
    }
   }
  },
+ "e44b2459-af5e-492d-9c57-d9c2e62944e7": {
+  "id": "e44b2459-af5e-492d-9c57-d9c2e62944e7",
+  "uri": "http://data.europa.eu/esco/occupation/e44b2459-af5e-492d-9c57-d9c2e62944e7",
+  "label": "Velitel/velitelka střední jednotky",
+  "labelAlt": [],
+  "description": "Velitelé střední jednotky velí středním jednotkám specializovaným na různé operace, jako jsou letecké střední jednotky, střední jednotky pozemních operací nebo střední jednotky obrněných bojových vozidel.",
+  "isco4": "0110",
+  "isco2": "01",
+  "ilo": null,
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 27,
+    "examples": [
+     "obsluhovat rádiové zařízení",
+     "geografické informační systémy",
+     "používat geografické informační systémy"
+    ]
+   }
+  }
+ },
+ "e44d2570-10cc-4984-9692-63ece1b6dce8": {
+  "id": "e44d2570-10cc-4984-9692-63ece1b6dce8",
+  "uri": "http://data.europa.eu/esco/occupation/e44d2570-10cc-4984-9692-63ece1b6dce8",
+  "label": "Leštič/leštička šperků",
+  "labelAlt": [
+   "pracovnice obsluhující zařízení pro leštění šperků",
+   "pracovník obsluhující zařízení pro leštění šperků"
+  ],
+  "description": "Leštiči šperků zajišťují, aby dokončené kusy klenotů byly vyčištěny podle přání zákazníka nebo aby byly připraveny k prodeji. Mohou rovněž provádět drobné opravy. Používají ruční nástroje, jako jsou pilníky a brusné tyčinky a /nebo ruční lešticí stroje. Používají též mechanické lešticí stroje jako například lešticí bubny.",
+  "isco4": "7313",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 25,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 25,
+    "examples": [
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "e4ad2547-9188-4fbd-897a-c91b3c097779": {
   "id": "e4ad2547-9188-4fbd-897a-c91b3c097779",
   "uri": "http://data.europa.eu/esco/occupation/e4ad2547-9188-4fbd-897a-c91b3c097779",
@@ -81538,6 +83150,74 @@
    }
   }
  },
+ "e91bc34c-0c4f-4ac9-8e2f-8f337d75f9ca": {
+  "id": "e91bc34c-0c4f-4ac9-8e2f-8f337d75f9ca",
+  "uri": "http://data.europa.eu/esco/occupation/e91bc34c-0c4f-4ac9-8e2f-8f337d75f9ca",
+  "label": "Likvidátor/likvidátorka škod",
+  "labelAlt": [
+   "znalkyně škod",
+   "znalec škod",
+   "odhadkyně škod",
+   "odhadce škod"
+  ],
+  "description": "Likvidátoři škod zpracovávají a hodnotí žádosti o pojištění tím, že prošetřují případy a určují odpovědnost a škody v souladu s politikami pojišťovny. Hovoří s nárokující osobou a svědky a píší zprávy pro pojistitele, ve kterých jsou učiněna příslušná doporučení. Úkoly likvidátorů škod zahrnují poskytování plateb pojištěncům v návaznosti na jeho nárok, konzultace s odborníky na škodu a poskytování informací prostřednictvím telefonu klientům.",
+  "isco4": "3315",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.45,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 39,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 39,
+    "examples": []
+   }
+  }
+ },
+ "e937449a-d9e0-4ab7-9ea5-4d3ac673be6d": {
+  "id": "e937449a-d9e0-4ab7-9ea5-4d3ac673be6d",
+  "uri": "http://data.europa.eu/esco/occupation/e937449a-d9e0-4ab7-9ea5-4d3ac673be6d",
+  "label": "Upisovatel/upisovatelka pojištění",
+  "labelAlt": [
+   "upisovatel pojištění odpovědnosti za škodu",
+   "upisovatelka rizik pro neživotní pojištění",
+   "upisovatel sdružených pojištění",
+   "upisovatelka pojištění odpovědnosti za škodu",
+   "upisovatel rizik pro neživotní pojištění",
+   "upisovatel životního pojištění",
+   "upisovatelka požárního rizika",
+   "upisovatelka životního pojištění",
+   "upisovatel požárního rizika",
+   "upisovatelka sdružených pojištění"
+  ],
+  "description": "Upisovatelé pojištění posuzují obchodní rizika a politiky týkající se odpovědnosti a rozhodují o komerčních nemovitostech. Kontrolují podmínky podnikání, analyzují inspekční politiky, pomáhají s otázkami spojenými s nemovitostmi a nájemným, připravují smlouvy o úvěru a řeší obchodní rizika s cílem uvést je do souladu s obchodními postupy. Pojišťovací upisovatelé analyzují různé informace od potenciálních zákazníků, aby posoudili pravděpodobnost, že podají žádost o vyplacení pojistného. Pracují na minimalizaci rizika pro pojišťovnu a dbají na to, aby pojistná prémie odpovídala souvisejícím rizikům. Může se jednat o odborníky na životní pojištění, zdravotní pojištění, zajištění, obchodní pojištění, hypoteční pojištění.",
+  "isco4": "3321",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.53,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 52,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 52,
+    "examples": []
+   }
+  }
+ },
  "e93b3b49-12e1-4b47-991c-dd4b0aec17d8": {
   "id": "e93b3b49-12e1-4b47-991c-dd4b0aec17d8",
   "uri": "http://data.europa.eu/esco/occupation/e93b3b49-12e1-4b47-991c-dd4b0aec17d8",
@@ -82029,6 +83709,39 @@
     "of": 43,
     "examples": [
      "počítačem řízené systémy krmení"
+    ]
+   }
+  }
+ },
+ "ea4aff10-4d20-4a2b-886b-299c2bd349f1": {
+  "id": "ea4aff10-4d20-4a2b-886b-299c2bd349f1",
+  "uri": "http://data.europa.eu/esco/occupation/ea4aff10-4d20-4a2b-886b-299c2bd349f1",
+  "label": "Tiskař – specialista na ofsetový tisk, tiskařka – specialistka na ofsetový tisk",
+  "labelAlt": [
+   "tiskař - specialista na ofsetový tisk",
+   "tiskařka - specialistka na ofsetový tisk"
+  ],
+  "description": "Tiskaři – specialisté na ofsetový tisk zacházejí s ofsetovým tiskovým strojem s cílem vytisknout obrázek. Ofsetový tisk přenáší tiskařskou barvu z desky na pogumovaný válec a pak se vytiskne na povrch.",
+  "isco4": "7322",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 40,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 40,
+    "examples": [
+     "tisk na velkoformátových strojích",
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
     ]
    }
   }
@@ -86061,6 +87774,41 @@
     "examples": [
      "být počítačově gramotný"
     ]
+   }
+  }
+ },
+ "f73e11e7-0eb8-4a46-b2e1-9e544c2f3652": {
+  "id": "f73e11e7-0eb8-4a46-b2e1-9e544c2f3652",
+  "uri": "http://data.europa.eu/esco/occupation/f73e11e7-0eb8-4a46-b2e1-9e544c2f3652",
+  "label": "Obsluha strojů na konečnou úpravu textilu",
+  "labelAlt": [
+   "strojnice sušení textilu",
+   "úpravář textilií",
+   "strojnice čištění textilu",
+   "strojník čištění textilu",
+   "úpravářka textilií",
+   "strojník sušení textilu"
+  ],
+  "description": "Obsluha strojů na konečnou úpravu textilu řídí výrobu textilií, dohlíží na ni a provádí údržbu strojů na konečnou úpravu textilu.",
+  "isco4": "8154",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.21,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 12,
+    "examples": [
+     "problémové oblasti v textilním průmyslu"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 12,
+    "examples": []
    }
   }
  },

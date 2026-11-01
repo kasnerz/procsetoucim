@@ -1,0 +1,231 @@
+[
+  {
+    "slug": "anglicky-porozumeni-jednoduchemu-pribehu",
+    "title": "Porozumění jednoduchému anglickému příběhu",
+    "aliases": [
+      "anglický příběh",
+      "čtení povídky anglicky",
+      "četba v angličtině",
+      "zjednodušená četba",
+      "pochopit příběh"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozumí jednoduchému příběhu s vizuálními prvky, předvídatelným dějem a známou slovní zásobou.",
+        "quote": "Rozumí jednoduchému příběhu s vizuálními prvky, předvídatelným dějem a známou slovní zásobou."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Rozumí obsahu jednoduchých příběhů.",
+        "quote": "Rozumí obsahu jednoduchých příběhů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozumí obsahu zjednodušené četby.",
+        "quote": "Rozumí obsahu zjednodušené četby."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozumí obsahu jednoduchých uměleckých textů. Písemně nebo ústně prokáže porozumění.",
+        "quote": "Rozumí obsahu jednoduchých uměleckých textů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Příběh",
+        "url": "https://uloziste.rvp.cz/material/9329dc"
+      },
+      {
+        "title": "Příběh o přátelství",
+        "url": "https://uloziste.rvp.cz/material/389ef9"
+      },
+      {
+        "title": "Fiktivní povídka",
+        "url": "https://uloziste.rvp.cz/material/241ca3"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí neznámá slova a děj ti převypráví jednodušeji."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník a čtenářské ukázky ti dají slova i příběhy na procvičení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a slovníková aplikace rychle ukážou význam slova."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Obrázkový slovník a papírová kniha ti pomůžou s novými slovy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-razeni-casti-pribehu",
+    "title": "Řazení částí anglického příběhu podle děje",
+    "aliases": [
+      "pořadí událostí v příběhu",
+      "seřadit části textu",
+      "chronologie příběhu",
+      "co se stalo první"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prokáže porozumění obsahu jednoduchého uměleckého textu podle zadání (např. řadí jednotlivé části textu chronologicky, odhaduje další vývoj příběhu, nahlíží příběh perspektivou různých postav).",
+        "quote": "řadí jednotlivé části textu chronologicky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti dá zamíchané věty z příběhu a zkontroluje tvé pořadí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na webu najdeš cvičení na řazení vět a krátké příběhy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Výukové aplikace mají řazení vět a hned ukážou chybu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Vystříhané věty na papíře si můžeš skládat do pořadí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-odhad-vyvoje-pribehu",
+    "title": "Odhad dalšího vývoje anglického příběhu",
+    "aliases": [
+      "jak příběh skončí",
+      "předvídání děje",
+      "co se stane dál",
+      "tipování konce"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prokáže porozumění obsahu jednoduchého uměleckého textu podle zadání (např. řadí jednotlivé části textu chronologicky, odhaduje další vývoj příběhu, nahlíží příběh perspektivou různých postav).",
+        "quote": "odhaduje další vývoj příběhu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot se zeptá, co podle tebe přijde, a pak ti ukáže jinou možnost."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové konce nic neříkají o tom, co si myslíš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti odhad nenapíše, hádat musíš z textu ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odhad děje je tvůj nápad, pomůckou je jen text před tebou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-pribeh-ocima-postav",
+    "title": "Příběh očima různých postav",
+    "aliases": [
+      "pohled postavy",
+      "jak to vidí hrdina",
+      "perspektiva v příběhu",
+      "co si myslí postava"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prokáže porozumění obsahu jednoduchého uměleckého textu podle zadání (např. řadí jednotlivé části textu chronologicky, odhaduje další vývoj příběhu, nahlíží příběh perspektivou různých postav).",
+        "quote": "nahlíží příběh perspektivou různých postav"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti klade otázky za různé postavy a odpovídá v jejich roli."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rozbory knih a shrnutí postav ti ukážou, jak se postavy chovají."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe postavu nepochopí, úvahu musíš udělat ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Jak se cítí postava, ti nezměří žádná pomůcka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

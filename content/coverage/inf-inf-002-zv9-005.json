@@ -1,0 +1,102 @@
+{
+  "outcome": "INF-INF-002-ZV9-005",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se s různými možnostmi zápisu algoritmu (popis běžnou řečí, posloupnost symbolů, rozličné diagramy, blokové nebo jednoduché textové zdrojové kódy programů).",
+      "cards": [
+        "cteni-algoritmu-v-ruznych-zapisech"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Sleduje provedení algoritmů a kontroluje, jak jednotlivé kroky odpovídají zápisu.",
+      "cards": [
+        "provedeni-algoritmu-krok-za-krokem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznamuje se s různými možnostmi zápisu algoritmu (popis běžnou řečí, posloupnost symbolů, rozličné diagramy, blokové nebo jednoduché textové zdrojové kódy programů).",
+      "cards": [
+        "cteni-algoritmu-v-ruznych-zapisech"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Sleduje provedení algoritmů a kontroluje, jak jednotlivé kroky odpovídají zápisu, učí se odhadovat výsledky jednotlivých kroků nebo delších sekvencí, zobecňuje svá pozorování (co daný krok nebo příkaz dělá někdy, co za jakých podmínek, co dělá nutně vždycky).",
+      "cards": [
+        "predvidani-vysledku-algoritmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozpoznává typická citlivá místa algoritmu (ne/ostré nerovnosti, odkazy na jiné části algoritmu, poprvé použité hodnoty, logické operátory, závorky, ukončovací podmínky cyklů...).",
+      "cards": [
+        "citliva-mista-algoritmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Učí se číst komentáře a rozumět jim, všímá si míst, kterým porozuměl špatně, hledá příčinu nepochopení.",
+      "cards": [
+        "komentare-a-nepochopeni-v-algoritmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Pracuje s algoritmy, které zřetelně a přímočaře vedou k cíli (např. nakreslení ornamentu hvězdy), učí se pracovat s takovými, kde vztah vstupu a výstupu není z kroků algoritmu vidět přímo (např. hledání největšího společného dělitele).",
+      "cards": [
+        "algoritmy-se-skrytym-vztahem-vstupu-a-vystupu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvídá výsledky částí i celého algoritmu, provádí algoritmus na různých příkladech vstupů a zobecňuje svá pozorování, co o algoritmu platí za určitých podmínek, co vždy.",
+      "cards": [
+        "predvidani-vysledku-algoritmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Pozorně interpretuje typická citlivá místa algoritmu.",
+      "cards": [
+        "citliva-mista-algoritmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Identifikuje části algoritmu, kterým nerozumí, zjišťuje zamýšlený význam a hledá příčiny nepochopení, využívá komentáře k algoritmu.",
+      "cards": [
+        "komentare-a-nepochopeni-v-algoritmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popisuje vstupy, výstupy a jejich vztahy, určuje, jaký typ problému řeší algoritmus jako celek.",
+      "cards": [
+        "problem-vstupy-a-vystupy-algoritmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Po přečtení jednotlivých kroků algoritmu z činnosti, se kterou se již opakovaně setkal, určí problém, který je algoritmem řešen.",
+      "cards": [
+        "problem-vstupy-a-vystupy-algoritmu"
+      ],
+      "aside": null
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+[
+  {
+    "slug": "prevody-jednotek-casu",
+    "title": "Převody mezi roky, dny, hodinami a minutami",
+    "aliases": [
+      "převody času",
+      "kolik minut má den",
+      "hodiny na minuty",
+      "týdny a dny",
+      "sekundy"
+    ],
+    "outcome": "MAT-MAT-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují převody mezi roky, měsíci, týdny, dny, hodinami, částmi hodin, minutami a sekundami.",
+        "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují převody mezi roky, měsíci, týdny, dny, hodinami, částmi hodin, minutami a sekundami."
+      },
+      {
+        "level": "Na cestě",
+        "point": "převádí mezi sousedními jednotkami času",
+        "quote": "převádí mezi sousedními jednotkami času"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Ilustrativní úlohy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí postup převodu a zadá ti úlohy na procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky jednotek času a vzorové příklady si najdeš po ruce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Převodníky jednotek a procvičovací hry ti zkontrolují výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří výpočet, hodiny a kalendář ukážou, jak dlouho něco trvá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "casova-pasma",
+    "title": "Časová pásma a rozdíl hodin ve světě",
+    "aliases": [
+      "časová pásma",
+      "kolik je hodin v Americe",
+      "časový posun",
+      "čas v zahraničí",
+      "opačné časové pásmo"
+    ],
+    "outcome": "MAT-MAT-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují časová pásma.",
+        "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují časová pásma."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Porovnání denního režimu v opačných časových pásmech",
+        "url": "https://uloziste.rvp.cz/material/7fe259"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se čas posouvá mezi pásmy, a zadá ti další úlohy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Světové hodiny ukážou, kolik je jinde, a ty si výsledek ověříš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace se světovými hodinami zkontroluje rozdíl, který jsi spočítáš podle mapy."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejné hodiny a kalendář časové pásmo neukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f6c7b7a5-6194-45a2-8791-9609c897b1a0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozvrhy-a-jizdni-rady",
+    "title": "Rozvrhy, jízdní řády a itineráře",
+    "aliases": [
+      "jízdní řád",
+      "rozvrh hodin",
+      "plán cesty",
+      "kdy mi jede vlak",
+      "itinerář"
+    ],
+    "outcome": "MAT-MAT-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "řeší reálné problémy s časovými plány (např. rozvrhy, jízdní řády, itineráře)",
+        "quote": "řeší reálné problémy s časovými plány (např. rozvrhy, jízdní řády, itineráře)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Ilustrativní úloha",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak číst plán, a zadá ti úlohy s časy odjezdů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam skutečné jízdní řády, se kterými si úlohu vyzkoušíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač spojení ukáže odjezdy a ty si ověříš, jestli stíháš přestup."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový jízdní řád nebo rozvrh tě naučí číst časy z tabulky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c73ea1b8-e121-4f91-b8f0-dee4ee28d6ec",
+      "http://data.europa.eu/esco/skill/194c05ed-253c-485a-8bf0-0c8de1aaafda"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

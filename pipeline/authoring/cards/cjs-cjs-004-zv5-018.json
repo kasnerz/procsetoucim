@@ -1,0 +1,302 @@
+{
+  "outcome": "CJS-CJS-004-ZV5-018",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "navsteva-prirodni-lokality",
+      "title": "Návštěva přírodní lokality",
+      "aliases": [
+        "výlet do přírody",
+        "exkurze do lesa",
+        "poznávání přírody venku",
+        "les, louka, rybník",
+        "vycházka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Poznává rozmanitost přírody prostřednictvím návštěv přírodních lokalit."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Na místo jdeš a všechno pozoruješ ty, chatbot tam s tebou není."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Před výpravou si najdeš, jaké rostliny a zvířata na místě žijí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na poznávání rostlin a mapa ti na místě pomůžou rozpoznat druhy a najít cestu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa, dalekohled a atlas ukážou detaily, které by ti jinak unikly."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+      ],
+      "inspiration": [
+        "Co skrývá příroda okolo nás"
+      ]
+    },
+    {
+      "slug": "zoo-a-botanicka-zahrada",
+      "title": "Exotická příroda v zoo a botanické zahradě",
+      "aliases": [
+        "zoo",
+        "botanická zahrada",
+        "exotická zvířata",
+        "cizokrajné rostliny",
+        "výlet do zoo"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Poznává exotickou přírodu například v prostředí zoologických a botanických zahrad."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, odkud zvíře nebo rostlina pochází a čím se liší od našich."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky zoo a zahrad popisují druhy, které tam uvidíš, i jejich domov."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Zvířata a rostliny poznáváš očima na místě, aplikace ti je neukáže naživo."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dalekohled a atlas zvířat ti pomůžou prohlédnout druhy zblízka a pojmenovat je."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a07a5d41-add0-4d0f-ad01-718d39554be8",
+        "http://data.europa.eu/esco/skill/2a58e994-74b9-4211-85ac-cfb409a9b667"
+      ],
+      "inspiration": [
+        "Po návštěvě zoo"
+      ]
+    },
+    {
+      "slug": "prirodovedne-instituce-program",
+      "title": "Program v přírodovědné instituci",
+      "aliases": [
+        "muzeum přírody",
+        "ekocentrum",
+        "výukový program",
+        "přírodovědné muzeum",
+        "planetárium, hvězdárna"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Poznává přírodniny a přírodní jevy zprostředkované přírodovědnými vzdělávacími institucemi."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Před návštěvou ti vysvětlí, co se v takovém programu dozvíš, a po ní ti vyzkouší, co ti zbylo v hlavě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky muzeí a ekocenter ukazují programy a sbírky, které si můžeš prohlédnout předem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Program prožíváš na místě s lektorem, aplikace za tebe nic nezažije."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Mikroskop nebo lupa v programu ukážou přírodniny zblízka."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/3a5b7435-c262-4a9d-893d-ee6c19bd9d92"
+      ],
+      "inspiration": [
+        "Výukový program bylinky"
+      ]
+    },
+    {
+      "slug": "popis-rozmanitosti-prirody",
+      "title": "Popis rozmanitosti přírody po společné výpravě",
+      "aliases": [
+        "co jsme viděli v přírodě",
+        "vyprávění o výletu",
+        "zápis z exkurze",
+        "různé druhy přírody",
+        "referát o výletu"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše rozmanitost přírody na základě reflexe společně prožité výukové zkušenosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě, co se na výpravě dělo, a pomůže ti popis uspořádat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a atlasy pomůžou pojmenovat druhy, které jste viděli."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Zážitek máš jen ty, aplikace za tebe nepopíše, co jste na výpravě viděli."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj popis nesepíše, potřebuješ jen vlastní paměť a poznámky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+      ],
+      "inspiration": [
+        "Příroda a já"
+      ]
+    },
+    {
+      "slug": "porovnani-pristupu-prirodovednych-instituci",
+      "title": "Porovnání přírodovědných institucí",
+      "aliases": [
+        "zoo nebo muzeum",
+        "čím se liší zoo a botanická zahrada",
+        "srovnání výletů",
+        "ekocentrum a muzeum",
+        "jak nás učí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovná rozdílné přístupy ve sdílení poznávání v rámci různých přírodovědných vzdělávacích institucí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti vypsat, v čem se zoo, muzeum a ekocentrum liší, a pak se ptá na tvůj názor."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové stránky institucí ukazují, co nabízejí a komu je určeno."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace srovnávat nebudou, rozdíly zjistíš z vlastních návštěv."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj ti rozdíly neukáže, srovnáš je ty podle vlastních zkušeností."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/3a5b7435-c262-4a9d-893d-ee6c19bd9d92"
+      ],
+      "inspiration": [
+        "Po návštěvě zoo",
+        "Výukový program bylinky"
+      ]
+    },
+    {
+      "slug": "vyznam-prirodovednych-instituci",
+      "title": "K čemu jsou přírodovědné instituce",
+      "aliases": [
+        "proč je zoo",
+        "k čemu je muzeum přírody",
+        "ochrana ohrožených druhů",
+        "význam zoo",
+        "botanická zahrada a společnost"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Hodnotí svými slovy význam přírodovědných vzdělávacích institucí v kontextu sdílení poznávání pro sebe i pro společnost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vyjmenuje, co instituce dělají pro školy a ochranu druhů, a ty to ohodnotíš po svém."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výroční zprávy a stránky institucí uvádějí, co dělají pro lidi i přírodu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti názor nevytvoří, hodnotíš podle vlastní zkušenosti."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj tu nic nenabízí, názor si tvoříš vlastní hlavou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+        "http://data.europa.eu/esco/skill/3a5b7435-c262-4a9d-893d-ee6c19bd9d92"
+      ],
+      "inspiration": [
+        "Po návštěvě zoo"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Poznává přírodniny v prostředí školní třídy",
+      "code": "O1",
+      "refs": [
+        "zkoumani-prirodnin-smysly"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Reflektuje své pocity",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

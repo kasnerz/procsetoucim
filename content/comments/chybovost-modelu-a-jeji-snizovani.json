@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Model, který se v polovině případů plete, je k ničemu, i když na první pohled působí chytře. Testuješ ho proto na datech, která při trénování neviděl, počítáš, jak často chybuje, a podle toho upravuješ data nebo nastavení. Stejně uvažují lidé, kteří předpovídají poruchy strojů, odhadují riziko u úvěrů nebo počítají pojištění: vždycky potřebují vědět, nakolik se na výpočet dá spolehnout. Kalkulačka nebo tabulka podíl chyb spočítá, ale rozhodnout, co s modelem dál, musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Výpočet chybovosti na příkladu",
+      "text": "Nech chatbota vymyslet výsledky testu, třeba sto fotek a odpovědi modelu. Spočítej podíl chyb a výsledek si nech zkontrolovat, delší výpočty si ověř i kalkulačkou."
+    },
+    {
+      "title": "Nejčastější chyby modelu",
+      "text": "Vypiš chatbotovi příklady, na kterých se tvůj model spletl, a zeptej se, co mají společného. Než jeho vysvětlení přijmeš, ověř si ho na vlastních datech."
+    },
+    {
+      "title": "Plán úprav trénovacích dat",
+      "text": "Navrhni dvě změny, které by podle tebe chybovost snížily, a požádej chatbota o protiargumenty. Obě změny vyzkoušej a porovnej, co skutečně pomohlo."
+    }
+  ]
+}

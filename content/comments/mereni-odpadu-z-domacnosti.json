@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kolik odpadu doma vyhodíte, se těžko odhaduje, dokud ho týden opravdu nevážíš. Čísla na váze ukážou, jestli převažují obaly, nebo zbytky jídla, a podle toho se dá rozhodnout, kde ubrat. Zároveň si vyzkoušíš malé měření od začátku do konce: zapisovat průběžně a z čísel spočítat podíly. Tabulkový program ti nakreslí graf, vážit a třídit ale musíš doma ty a návrh úspor má smysl, jen když sedí na vaši rodinu. Podobně sledují odpad lidé v odpadovém hospodářství nebo v kuchyních, kde se hlídá, kolik jídla skončí v koši.",
+  "learnWithAi": [
+    {
+      "title": "Kontrola výpočtu podílů",
+      "text": "Spočítej z naměřených hodnot podíl recyklovatelného odpadu a pošli chatbotovi celý postup. Ať ti ukáže, kde je chyba, opravu ale udělej ty."
+    },
+    {
+      "title": "Plán úspor na míru",
+      "text": "Popiš chatbotovi, co u vás v koši převažuje, a nech si navrhnout pět změn. Vyber dvě, které rodina opravdu zvládne, a za týden zvaž odpad znovu."
+    },
+    {
+      "title": "Slabá místa měření",
+      "text": "Ukaž chatbotovi svůj závěr z měření a požádej ho, ať najde slabá místa, třeba že jeden týden nemusí být typický. Rozhodni, které výtky platí."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "35bc3847-58ad-46f5-8921-e58acc2762a6": "Při vývoji a testech se údaje často přepočítávají mezi jednotkami, například mezi litry a krychlovými metry nebo mezi různými jednotkami tlaku. Převodní vztahy se tu hledají v tabulkách.",
+  "574f3232-1d07-4034-8cac-c57ddbfff192": "Výsledky měření mohou být zapsané v různých jednotkách a před porovnáním se musí převést na stejné. Převodní vztahy se používají často a chyba se hned projeví ve výsledku rozboru.",
+  "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": "Ve fyzice se počítá v jednotkách soustavy SI, ale údaje z měření nebo z knih bývají v jiných. Před dosazením do vzorce se proto převádějí, jinak výsledek nedává smysl.",
+  "624986f9-21ef-4cdf-8cf6-8407a337ec2f": "Při mapování a měření se přepočítávají vzdálenosti, úhly a plochy, například metry na hektary. Starší plány mohou mít jiné jednotky než současné měřicí přístroje.",
+  "21a42cfb-68c7-4f84-bdd7-81de07a6fff3": "Objem ropy se uvádí v barelech, litrech nebo metrech krychlových podle toho, kam se posílá. Při kontrole čerpání se proto převádí mezi soustavami.",
+  "9deee896-be9b-4aac-b55e-ceff1a7a843a": "Průměry potrubí, spády a průtoky se mohou v dokumentaci lišit v jednotkách, takže se při plánování a kontrole převádějí. Základní vztahy se ale hledají v tabulkách a tabulkovém programu.",
+  "90f75f67-495d-49fa-ab57-2f320e251d7e": "Recepty ze zahraničí uvádějí šálky, unce nebo stupně Fahrenheita. Pro české váhy a trouby se musí přepočítat, což se dělá podle tabulky nebo kalkulačky.",
+  "1009be17-7efd-45f1-a033-566bf179c588": "Při práci s recepty z cizích kuchyní se přepočítávají unce na gramy, libry na kilogramy a šálky na decilitry. Zkušenost pomáhá, ale často se sahá po převodní tabulce."
+ }
+}

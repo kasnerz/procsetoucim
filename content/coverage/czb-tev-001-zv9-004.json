@@ -1,0 +1,58 @@
+{
+  "outcome": "CZB-TEV-001-ZV9-004",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Samostatně sestaví týdenní plán pohybových aktivit pro rozvoj kondice a zdraví.",
+      "cards": [
+        "tydenni-plan-pohybovych-aktivit"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vede si záznam o absolvovaných pohybových aktivitách a pohybovém režimu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zaznam-pohybovych-aktivit"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhodnotí záznamy absolvovaných pohybových činností a jejich parametrů v týdenním plánu.",
+      "cards": [
+        "vyhodnoceni-zaznamu-pohybu-v-planu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na vyzvání učitele předvede některou z uváděných pohybových činností.",
+      "cards": [
+        "predvedeni-pohybove-cinnosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zhodnotí vlastní režim, posoudí jeho vhodnost vzhledem k rozvoji tělesné zdatnosti a zdraví, případně (ve spolupráci s učitelem) optimalizuje svůj plán.",
+      "cards": [
+        "zhodnoceni-a-uprava-pohyboveho-rezimu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Plánuje a zapojuje se do pohybových činností spolu s ostatními žáky a chápe význam pohybových aktivit pro zdraví.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+[
+  {
+    "slug": "prirodni-mimoradne-udalosti-dopady",
+    "title": "Přírodní mimořádné události a jejich dopady",
+    "aliases": [
+      "povodně",
+      "vichřice",
+      "živelní pohromy",
+      "přírodní katastrofy",
+      "co způsobí povodeň"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vyhledává informace o konkrétních mimořádných událostech přírodního charakteru (povodně, větrné smršti aj.) a diskutuje o dopadech na zdraví, životy lidí, majetek a životní prostředí",
+        "quote": "vyhledává informace o konkrétních mimořádných událostech přírodního charakteru (povodně, větrné smršti aj.) a diskutuje o dopadech na zdraví, životy lidí, majetek a životní prostředí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Velká voda",
+        "url": "https://uloziste.rvp.cz/material/732571"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co povodeň nebo smršť způsobí, a odpoví na doplňující otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy, mapy záplav a Wikipedie ukážou skutečné povodně a jejich škody."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s upozorněním ukáže varování, dopady na lidi a přírodu v ní nenajdeš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Přírodní živel tužkou ani pravítkem nezkoumáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+      "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "udalosti-zpusobene-clovekem-dopady",
+    "title": "Havárie a nehody způsobené člověkem a jejich dopady",
+    "aliases": [
+      "průmyslové havárie",
+      "dopravní nehody",
+      "hromadná nehoda",
+      "únik chemikálií",
+      "teroristický útok"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vyhledává informace o mimořádných událostech zaviněných lidmi (hromadné dopravní nehody, průmyslové havárie) a diskutuje o dopadech na zdraví, životy lidí, majetek a životní prostředí",
+        "quote": "vyhledává informace o mimořádných událostech zaviněných lidmi (hromadné dopravní nehody, průmyslové havárie) a diskutuje o dopadech na zdraví, životy lidí, majetek a životní prostředí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Mimořádné události způsobené činností člověka",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Shrne průběh havárie nebo nehody a pomůže ti probrat její dopady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zpravodajské články a archivy popisují skutečné havárie včetně škod."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Mapy ani jiné aplikace o dopadech havárie na lidi a přírodu nic neřeknou."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Havárii si tužkou ani pravítkem nezkoumáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+      "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prirodni-nebo-lidmi-zpusobena-udalost",
+    "title": "Rozlišení přírodních a lidmi způsobených událostí",
+    "aliases": [
+      "přírodní nebo lidská příčina",
+      "živel nebo havárie",
+      "druhy mimořádných událostí",
+      "pojmová mapa událostí"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozlišuje mezi přírodními mimořádnými událostmi a událostmi způsobenými lidskou činností.",
+        "quote": "Rozlišuje mezi přírodními mimořádnými událostmi a událostmi způsobenými lidskou činností."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Mimořádné události v pojmové mapě",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadáš příklady událostí a chatbot ti zkontroluje zařazení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie ukáže, jak se události dělí podle příčiny."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe zařazení událostí neprověří."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zařazuješ ty, obyčejný papír s pojmovou mapou ti nic neřekne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priciny-prirodnich-udalosti-predchazeni",
+    "title": "Příčiny přírodních událostí a jak jim předcházet",
+    "aliases": [
+      "proč vznikají povodně",
+      "sesuvy půdy",
+      "laviny",
+      "vichřice",
+      "zemětřesení",
+      "předcházení povodním"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě dostupných informací popisuje příčiny vzniku mimořádných událostí způsobených přírodními vlivy a diskutuje možnosti těmto událostem předcházet",
+        "quote": "na základě dostupných informací popisuje příčiny vzniku mimořádných událostí způsobených přírodními vlivy a diskutuje možnosti těmto událostem předcházet"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Velká voda",
+        "url": "https://uloziste.rvp.cz/material/732571"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč vzniká povodeň nebo lavina, a nabídne nápady na předcházení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Odborné weby a encyklopedie popisují příčiny a ochranná opatření."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace předpověď ukáže, příčiny událostí ti nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mapa nebo glóbus samy příčiny pohrom nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+      "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priciny-lidskych-udalosti-predchazeni",
+    "title": "Příčiny havárií způsobených člověkem a jak jim předcházet",
+    "aliases": [
+      "proč se stávají nehody",
+      "chyba člověka",
+      "předcházení haváriím",
+      "prevence požárů",
+      "bezpečnost v dopravě"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě dostupných informací popisuje příčiny vzniku mimořádných událostí způsobených činností člověka a diskutuje možnosti těmto událostem předcházet",
+        "quote": "na základě dostupných informací popisuje příčiny vzniku mimořádných událostí způsobených činností člověka a diskutuje možnosti těmto událostem předcházet"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede, jak lze předcházet vzniku mimořádných událostí způsobených lidskou činností na místech, kde se pohybuje.",
+        "quote": "Uvede, jak lze předcházet vzniku mimořádných událostí způsobených lidskou činností na místech, kde se pohybuje."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hloupý „vtip“",
+        "url": "https://uloziste.rvp.cz/material/33c9fa"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere příčiny známé havárie a probere s tebou, co by ji zabránilo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a odborné weby popisují příčiny skutečných nehod."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti neukáže, kde se pohybuješ nebezpečně ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Prevence je o tvém chování, nástroj ho nezmění."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+      "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "izs-pri-prirodnich-udalostech",
+    "title": "Zásah záchranářů při povodních, vichřicích a lavinách",
+    "aliases": [
+      "hasiči a povodně",
+      "záchranáři",
+      "práce IZS",
+      "zemětřesení",
+      "sesuvy půdy",
+      "jak pomáhají záchranáři"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "sdílí informace o jednotlivých mimořádných událostech přírodního charakteru (povodně, zemětřesení, sesuvy půdy, laviny, vichřice aj.), popisuje postupy Integrovaného záchranného systému při jejich likvidací s důrazem na ochranu zdraví a bezpečí lidí",
+        "quote": "sdílí informace o jednotlivých mimořádných událostech přírodního charakteru (povodně, zemětřesení, sesuvy půdy, laviny, vichřice aj.), popisuje postupy Integrovaného záchranného systému při jejich likvidací s důrazem na ochranu zdraví a bezpečí lidí"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí význam IZS a popíše jeho činnost při vzniku mimořádných událostí.",
+        "quote": "Vysvětlí význam IZS a popíše jeho činnost při vzniku mimořádných událostí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Velká voda",
+        "url": "https://uloziste.rvp.cz/material/732571"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše, co dělají hasiči, záchranka a policie při povodni."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby hasičů a IZS popisují postupy zásahů s fotografiemi."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace jen varuje, zásah složek ti nepředvede."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zásah složek tužkou ani pravítkem nezkoumáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a7774bdc-de0f-423e-b527-ef1409fbee6a",
+      "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "izs-pri-nehodach-havariich-utocich",
+    "title": "Zásah záchranářů při nehodách, haváriích a útocích",
+    "aliases": [
+      "řetězová nehoda",
+      "pád letadla",
+      "havárie chemičky",
+      "výbuch v dole",
+      "teroristický útok",
+      "hasiči a záchranka"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "sdílí informace o jednotlivých mimořádných událostech způsobených lidskou činností, vlivem nehod (řetězové dopravní nehody, nehody na železnicích, pád letadla), průmyslových a jiných havárií (havárie chemičky, elektrárny, muničního skladu, výbuch v dole) a teroristických útoků, popisuje postupy Integrovaného záchranného systému při jejich likvidací s důrazem na ochranu zdraví a bezpečí lidí",
+        "quote": "sdílí informace o jednotlivých mimořádných událostech způsobených lidskou činností, vlivem nehod (řetězové dopravní nehody, nehody na železnicích, pád letadla), průmyslových a jiných havárií (havárie chemičky, elektrárny, muničního skladu, výbuch v dole) a teroristických útoků, popisuje postupy Integrovaného záchranného systému při jejich likvidací s důrazem na ochranu zdraví a bezpečí lidí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Mimořádné události způsobené činností člověka",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše, jak se složky IZS dělí o práci při hromadné nehodě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby hasičů a IZS popisují zásahy u skutečných nehod."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s mapou zásah složek nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zásah složek tužkou ani pravítkem nezkoumáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a7774bdc-de0f-423e-b527-ef1409fbee6a",
+      "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "chovani-pri-prirodnich-udalostech",
+    "title": "Bezpečné chování při povodni, vichřici, bouřce a lavině",
+    "aliases": [
+      "co dělat při povodni",
+      "bouřka venku",
+      "vichřice",
+      "laviny",
+      "chování při pohromě"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "popíše které zásady bezpečného chování je třeba při vzniku mimořádných událostí dodržovat",
+        "quote": "popíše které zásady bezpečného chování je třeba při vzniku mimořádných událostí dodržovat"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede a zdůvodní základní bezpečné způsoby chování v případech vzniku mimořádných událostí přírodního charakteru a mimořádných událostí způsobených člověkem.",
+        "quote": "Uvede a zdůvodní základní bezpečné způsoby chování v případech vzniku mimořádných událostí přírodního charakteru a mimořádných událostí způsobených člověkem."
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje bezpečné způsoby chování v modelových případech vzniku mimořádných události (povodně, vichřice, bouřky, laviny, úniky nebezpečných látek, hromadné dopravní nehody, útoky agresora aj.)",
+        "quote": "diskutuje bezpečné způsoby chování v modelových případech vzniku mimořádných události (povodně, vichřice, bouřky, laviny, úniky nebezpečných látek, hromadné dopravní nehody, útoky agresora aj.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečné chování při mimořádných událostech",
+        "url": "https://uloziste.rvp.cz/material/2d9d33"
+      },
+      {
+        "title": "Velká voda",
+        "url": "https://uloziste.rvp.cz/material/732571"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou modelovou situaci a zeptá se, proč se zachováš právě tak."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky hasičů a krizových orgánů uvádějí postupy krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s varováním řekne, kdy se schovat, ne jak se zachovat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Jednat musíš ty a v pravý čas, tužka s papírem ti nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/445b65c5-5b16-4f66-94ce-f2a7f49f9ee7",
+      "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "chovani-pri-uniku-latek-a-utoku",
+    "title": "Bezpečné chování při úniku látek, nehodě a útoku",
+    "aliases": [
+      "únik nebezpečné látky",
+      "hromadná nehoda",
+      "útok agresora",
+      "co dělat při výbuchu",
+      "chemická havárie"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede a zdůvodní základní bezpečné způsoby chování v případech vzniku mimořádných událostí přírodního charakteru a mimořádných událostí způsobených člověkem.",
+        "quote": "Uvede a zdůvodní základní bezpečné způsoby chování v případech vzniku mimořádných událostí přírodního charakteru a mimořádných událostí způsobených člověkem."
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje bezpečné způsoby chování v modelových případech vzniku mimořádných události (povodně, vichřice, bouřky, laviny, úniky nebezpečných látek, hromadné dopravní nehody, útoky agresora aj.)",
+        "quote": "diskutuje bezpečné způsoby chování v modelových případech vzniku mimořádných události (povodně, vichřice, bouřky, laviny, úniky nebezpečných látek, hromadné dopravní nehody, útoky agresora aj.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečné chování při mimořádných událostech",
+        "url": "https://uloziste.rvp.cz/material/2d9d33"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Procvičí s tebou modelovou situaci a ptá se, proč se zachováš tak."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky hasičů a krizových orgánů uvádějí postupy krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace neřekne, co dělat u konkrétního úniku, ty musíš jednat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Jednat musíš ty a v pravý čas, tužka s papírem ti nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/445b65c5-5b16-4f66-94ce-f2a7f49f9ee7",
+      "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

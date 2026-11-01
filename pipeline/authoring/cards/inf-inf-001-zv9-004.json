@@ -1,0 +1,113 @@
+{
+  "outcome": "INF-INF-001-ZV9-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "kdy-se-hodi-strojove-uceni",
+      "title": "Kdy se hodí strojové učení",
+      "aliases": ["kdy použít umělou inteligenci", "učení počítače", "ML", "pro jaké úlohy je strojové učení", "klasický program nebo model"],
+      "sources": [
+        {"level": "Splněno", "quote": "Vyhodnotí, zda je pro danou úlohu slibné využít strojové učení, a svoji volbu zdůvodní."},
+        {"level": "Na cestě", "quote": "Má přehled o tom, pro jaké typy úloh je vhodné využívat strojové učení"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot vysvětlí, na jaké úlohy se strojové učení hodí, a dá ti příklady k rozhodování."},
+        "internet": {"verdict": "pomuze", "why": "Články a encyklopedie ukážou, kde se strojové učení v praxi používá a kde ne."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace za tebe neřekne, jestli se úloha pro strojové učení hodí."},
+        "klasicky": {"verdict": "nepomuze", "why": "Papír a tužka nepomůžou, rozhodnutí vychází z tvé úvahy o úloze."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43"],
+      "inspiration": ["Model strojového učení"]
+    },
+    {
+      "slug": "priprava-trenovacich-dat",
+      "title": "Příprava trénovacích dat",
+      "aliases": ["čištění dat", "anotace dat", "třídění vzorků", "data pro model", "reprezentativní data"],
+      "sources": [
+        {"level": "Splněno", "quote": "Třídí a čistí data, provádí základní anotaci dat, zvažuje reprezentativnost trénovacích dat."},
+        {"level": "Na cestě", "quote": "Vybírá data vhodná pro trénování modelu strojového učení pro zadaný účel"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot vysvětlí, co je anotace a reprezentativní data, a pomůže odhalit slabá místa."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš hotové sady dat a popisy toho, jak se data čistí a označují."},
+        "aplikace": {"verdict": "pomuze", "why": "Tabulka ti usnadní třídění, filtrování a hledání chybných nebo opakujících se řádků."},
+        "klasicky": {"verdict": "nepomuze", "why": "Posuzovat, co do dat patří a co ne, musíš ty, papír a tužka na to nestačí."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc",
+        "http://data.europa.eu/esco/skill/54c9c155-9293-4329-8ed2-2e76e8b519d4"
+      ],
+      "inspiration": ["Trénování modelu strojového učení"]
+    },
+    {
+      "slug": "trenovani-modelu-v-hotovem-nastroji",
+      "title": "Trénování modelu v hotovém nástroji",
+      "aliases": ["natrénovat model", "trénink modelu", "učení modelu na datech", "Robote, poznej obrázek", "CODE.org"],
+      "sources": [
+        {"level": "Splněno", "quote": "Na připravených datech natrénuje model, opírá se o výchozí nastavení a dokumentaci ke zvolenému nástroji."},
+        {"level": "Na začátku", "quote": "Seznamuje se s jednoduchými nástroji ukazujícími postup trénování modelu"},
+        {"level": "Na cestě", "quote": "Pod vedením učitele natrénuje model."},
+        {"level": "Minimální doporučená úroveň", "quote": "Vyzkouší si práci se modelem strojového učení."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot vysvětlí nastavení nástroje a co která volba v dokumentaci znamená."},
+        "internet": {"verdict": "pomuze", "why": "Dokumentace a návody k nástroji ukážou postup krok za krokem."},
+        "aplikace": {"verdict": "pomuze", "why": "Hotový výukový nástroj ti dovolí model na vlastních datech opravdu natrénovat a vyzkoušet."},
+        "klasicky": {"verdict": "nepomuze", "why": "Model se trénuje v počítači, klasický nástroj k tomu nic nenabídne."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43",
+        "http://data.europa.eu/esco/skill/8369c2d6-c100-4cf6-bd83-9668d8678433"
+      ],
+      "inspiration": ["Trénování strojového modelu pro projekt Chytrý domácí asistent", "Robote, poznej obrázek"]
+    },
+    {
+      "slug": "chybovost-modelu-a-jeji-snizovani",
+      "title": "Chybovost modelu a její snižování",
+      "aliases": ["jak dobrý je model", "testování modelu", "chyby modelu", "úprava trénovacích dat", "vyhodnocení modelu"],
+      "sources": [
+        {"level": "Splněno", "quote": "Model testuje, kvantifikuje chybovost modelu a rozhodne se, jak upravit trénovací data a nastavení modelu."},
+        {"level": "Na cestě", "quote": "Vyhodnocuje, jak dobře model funguje"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot vysvětlí, jak chybovost počítat, a navrhne, co v datech nebo nastavení zkusit změnit."},
+        "internet": {"verdict": "nepomuze", "why": "Chyby svého modelu v návodech nenajdeš, změříš je na vlastních testovacích datech."},
+        "aplikace": {"verdict": "pomuze", "why": "Tabulka spočítá podíl chyb a ukáže, v čem se model plete nejčastěji."},
+        "klasicky": {"verdict": "pomuze", "why": "Kalkulačka ti pomůže zkontrolovat spočítaný podíl chybných odpovědí."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+        "http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43"
+      ],
+      "inspiration": ["Trénování modelu strojového učení"]
+    },
+    {
+      "slug": "srovnani-modelu-s-jinymi-postupy",
+      "title": "Srovnání modelu s jinými řešeními",
+      "aliases": ["je model užitečný", "model nebo klasický program", "výhody a nevýhody modelu", "zhodnocení modelu"],
+      "sources": [
+        {"level": "Splněno", "quote": "Zhodnotí využitelnost výsledného modelu ve srovnání s jinými přístupy k řešení problému."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot ti pomůže vypsat výhody a nevýhody obou řešení, rozhodnutí ale zůstává na tobě."},
+        "internet": {"verdict": "nepomuze", "why": "Vhodnost modelu pro tvůj problém ti vyhledávač nezjistí."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace řešení nesrovná, porovnání vychází z tvých výsledků a úvahy."},
+        "klasicky": {"verdict": "nepomuze", "why": "Papír a tužka pomůžou až se zápisem, úsudek děláš ty."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43"],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {"level": "Na začátku", "start": "Provede rozsáhlejší sběr dat", "code": "O1", "refs": ["sber-dat-do-tabulky"]},
+    {"level": "Na začátku", "start": "Formuluje závěry na základě porovnání dat", "code": "O1", "refs": ["zavery-z-dat"]}
+  ]
+}

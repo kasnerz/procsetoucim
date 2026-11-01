@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Drát, kterým teče proud, kolem sebe vytvoří magnetické pole a střelka kompasu se u něj vychýlí. Z tohohle jednoduchého pokusu vychází elektromagnet, zvonek, relé, elektromotor i reproduktor, tedy velká část techniky kolem tebe. Kdo chápe, že proud a magnetismus spolu souvisejí, má lehčí cestu k elektrotechnice a fyzice na střední škole. Prakticky s tím pracují elektrotechnici, mechatronici, radiotechnici a lidé v robotice, celkem zhruba 1,8 % lidí, kteří v Česku pracují. Simulace ukáže, co čekat, ale pokus s baterií, drátem a kompasem zvládneš na stole za pár minut.",
+  "learnWithAi": [
+    {
+      "title": "Kam se otočí střelka",
+      "text": "Popiš chatbotovi, kde leží kompas a kudy vede drát, a předpověz, kam se střelka otočí. Ať tvou úvahu posoudí a vysvětlí ti, podle čeho se směr pozná."
+    },
+    {
+      "title": "Bezpečné zapojení pokusu",
+      "text": "Zeptej se chatbota, jak zapojit baterii, drát a kompas, aby se drát nepřehřál. Postup před zapojením ukaž učiteli fyziky, chatbot může na něco zapomenout."
+    },
+    {
+      "title": "Elektromagnet z hřebíku",
+      "text": "Nech si od chatbota popsat, jak navinout drát na železný hřebík a udělat z něj elektromagnet. Postav ho a zjišťuj, co se změní, když přidáš závity."
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+[
+  {
+    "slug": "osz-druhy-komunikace",
+    "title": "Verbální, neverbální komunikace a jednání",
+    "aliases": [
+      "slova a řeč těla",
+      "druhy komunikace",
+      "gesta a mimika",
+      "komunikace činem",
+      "komunikace na internetu"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zkouší pojmenovat různé typy a prvky komunikace (verbální, neverbální, činem)",
+        "quote": "zkouší pojmenovat různé typy a prvky komunikace (verbální, neverbální, činem)"
+      },
+      {
+        "level": "Splněno",
+        "point": "Charakterizuje své běžné způsoby verbální a neverbální komunikace.",
+        "quote": "Charakterizuje své běžné způsoby verbální a neverbální komunikace."
+      },
+      {
+        "level": "Na cestě",
+        "point": "všímá si v komunikaci komplexně verbální, neverbální komunikace, i jednání (ve školním, mimoškolním a digitálním prostředí)",
+        "quote": "všímá si v komunikaci komplexně verbální, neverbální komunikace, i jednání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Setkání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi slovy, gesty a činy a dá příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a videa ukazují řeč těla a mimiku na příkladech."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvoje způsoby komunikace nepozná ani nepopíše."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svou komunikaci si všímáš ty, žádná pomůcka to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1a59af95-f36a-4d99-a5ca-6a7a46e2ecb0",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osz-efektivni-komunikace",
+    "title": "Postupy efektivní komunikace",
+    "aliases": [
+      "jak se domluvit",
+      "aktivní naslouchání",
+      "srozumitelnost",
+      "respekt v rozhovoru",
+      "dobrá komunikace"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "na základě zkušenosti zkouší popsat průběh efektivní komunikace",
+        "quote": "na základě zkušenosti zkouší popsat průběh efektivní komunikace"
+      },
+      {
+        "level": "Splněno",
+        "point": "Používá postupy podporující efektivní komunikaci (např. respekt, vzájemnou domluvu, aktivní naslouchání, srozumitelnost).",
+        "quote": "Používá postupy podporující efektivní komunikaci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Naslouchání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí zásady jako aktivní naslouchání a dá k nim příklady rozhovorů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky komunikace popisují, co dobrý rozhovor obsahuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s tebou nevede rozhovor, ve kterém si postupy zkusíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Naslouchat a domlouvat se musíš ty s lidmi okolo sebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osz-typy-komunikace-asertivita",
+    "title": "Pasivní, agresivní a asertivní komunikace",
+    "aliases": [
+      "asertivita",
+      "manipulace v komunikaci",
+      "jak říct ne",
+      "obrana proti manipulaci",
+      "asertivní chování"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "V modelových běžných i náročných situacích uplatňuje vhodné komunikační strategie.",
+        "quote": "V modelových běžných i náročných situacích uplatňuje vhodné komunikační strategie."
+      },
+      {
+        "level": "Na cestě",
+        "point": "zkouší adekvátní strategie – empatické porozumění, obrany proti manipulaci, zpětnovazební komunikace – nezraňující zpětné vazby, techniky asertivity (vč. dosahování kompromisu atd.), zajímavé a věcné prezentování (veřejné vystupování), dodržování pravidel dialogu apod.",
+        "quote": "obrany proti manipulaci"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zkouší adekvátní strategie – empatické porozumění, obrany proti manipulaci, zpětnovazební komunikace – nezraňující zpětné vazby, techniky asertivity (vč. dosahování kompromisu atd.), zajímavé a věcné prezentování (veřejné vystupování), dodržování pravidel dialogu apod.",
+        "quote": "techniky asertivity"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Podstata manipulace v komunikaci",
+        "url": "https://uloziste.rvp.cz/material/be252f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi pasivním, agresivním a asertivním chováním na příkladech."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Texty a ukázky popisují techniky asertivity a manipulace."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepoznají, jak mluvíš, a asertivitu ti nenacvičí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Asertivitu zkoušíš v reálném rozhovoru ty, ne pomůcka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osz-reflexe-vlastni-komunikace",
+    "title": "Rozbor vlastní komunikace v náročné situaci",
+    "aliases": [
+      "jak jsem mluvil",
+      "sebereflexe",
+      "moje chování v hádce",
+      "zamyšlení nad rozhovorem",
+      "jak se chovám"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zkouší sledovat a reflektovat své chování ve složitých (modelových i jiných) komunikačních situacích",
+        "quote": "zkouší sledovat a reflektovat své chování ve složitých"
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelové situaci reflektuje, jakým způsobem komunikoval s ohledem na sociální situaci.",
+        "quote": "V modelové situaci reflektuje, jakým způsobem komunikoval"
+      },
+      {
+        "level": "Na cestě",
+        "point": "reflektuje a charakterizuje vlastní způsoby jednání ve složitých komunikačních situacích, zejm. v konfliktech a jejich efektivitu",
+        "quote": "reflektuje a charakterizuje vlastní způsoby jednání ve složitých komunikačních situacích"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Podle tvého popisu situace se ptá a nabídne jiný pohled."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové texty o tvém chování nevypoví nic."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvoje chování nesleduje, zamyšlení musíš udělat ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zpětně se na sebe díváš ty, ne pomůcka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osz-vnimani-druhych-a-zpetna-vazba",
+    "title": "Vnímání druhých a zpětná vazba",
+    "aliases": [
+      "jak vnímám ostatní",
+      "dávat zpětnou vazbu",
+      "nezraňující zpětná vazba",
+      "všímat si chování druhých",
+      "pochvala a kritika"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Reflektuje, jak pozorně vnímá způsoby komunikace druhých, aby mohl adekvátně reagovat, poskytovat zpětnou vazbu.",
+        "quote": "Reflektuje, jak pozorně vnímá způsoby komunikace druhých"
+      },
+      {
+        "level": "Na cestě",
+        "point": "ve cvičných aktivitách se soustřeďuje na chování a jednání druhých, tak aby byl schopen dávat zpětné vazby",
+        "quote": "ve cvičných aktivitách se soustřeďuje na chování a jednání druhých"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zkouší adekvátní strategie – empatické porozumění, obrany proti manipulaci, zpětnovazební komunikace – nezraňující zpětné vazby, techniky asertivity (vč. dosahování kompromisu atd.), zajímavé a věcné prezentování (veřejné vystupování), dodržování pravidel dialogu apod.",
+        "quote": "zpětnovazební komunikace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Naslouchání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak formulovat zpětnou vazbu bez zranění, a dá příklady vět."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody popisují pravidla zpětné vazby."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepozorují lidi kolem tebe, vnímat je musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Druhé pozoruješ očima a ušima ty, pomůcka nic nepozná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osz-prubeh-konfliktu",
+    "title": "Průběh konfliktní situace",
+    "aliases": [
+      "jak vzniká hádka",
+      "konflikt",
+      "spor",
+      "jak se konflikt vyhrocuje",
+      "modelový konflikt"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zkouší popsat průběh modelové konfliktní situace",
+        "quote": "zkouší popsat průběh modelové konfliktní situace"
+      },
+      {
+        "level": "Na cestě",
+        "point": "na základě různých učebních situací reflektuje, jak je možné jednat v konfliktech",
+        "quote": "na základě různých učebních situací reflektuje, jak je možné jednat v konfliktech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Konflikty",
+        "url": ""
+      },
+      {
+        "title": "Celníci a pašeráci",
+        "url": "https://uloziste.rvp.cz/material/627426"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí fáze sporu a vymyslí modelovou situaci k rozboru."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Texty o konfliktech ukazují, jak spor vzniká a roste."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace konflikt nerozebere, popisuješ ho ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Konflikt popisuješ ty podle toho, co jste zažili."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osz-vyjednavani-a-kompromis",
+    "title": "Vyjednávání a hledání řešení pro obě strany",
+    "aliases": [
+      "domluva",
+      "kompromis",
+      "vyjednávání",
+      "jak se dohodnout",
+      "potřeby obou stran"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "navrhuje různé postupy vyjednávání, řešení konfliktu",
+        "quote": "navrhuje různé postupy vyjednávání, řešení konfliktu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Aplikuje dovednosti vyjednávání a řešení konfliktů, formulace vlastních potřeb a zjištění potřeb druhé strany, hledání řešení přijatelného pro obě strany.",
+        "quote": "Aplikuje dovednosti vyjednávání a řešení konfliktů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "rozvíjí dovednost vyjednávání",
+        "quote": "rozvíjí dovednost vyjednávání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Konflikty",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje druhou stranu sporu a navrhne varianty dohody k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody k vyjednávání popisují kroky i příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nevyjednávají za tebe, domlouváš se s lidmi ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Vyjednávání je rozhovor mezi lidmi, pomůcka k němu nepatří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/87de6e49-ca1c-42a4-8751-5ff0b991966b",
+      "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osz-ruzne-pohledy-a-porozumeni",
+    "title": "Pohled druhé strany a porozumění",
+    "aliases": [
+      "empatie",
+      "vžít se do druhého",
+      "různé názory",
+      "konsenzus",
+      "empatické porozumění"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Reflektuje různé úhly pohledu různých aktérů v komunikaci a možné postupy ke vzájemnému porozumění, nalezení kompromisu/konsenzu.",
+        "quote": "Reflektuje různé úhly pohledu různých aktérů v komunikaci"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zkouší adekvátní strategie – empatické porozumění, obrany proti manipulaci, zpětnovazební komunikace – nezraňující zpětné vazby, techniky asertivity (vč. dosahování kompromisu atd.), zajímavé a věcné prezentování (veřejné vystupování), dodržování pravidel dialogu apod.",
+        "quote": "empatické porozumění"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Setkání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše situaci očima každé strany a pomůže ti vymyslet možný kompromis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Texty a příběhy ukazují, jak o věci smýšlejí různí lidé."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezná tvoje spolužáky, jejich pohled zjistíš jen ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Co druhý prožívá, zjistíš jen rozhovorem s ním."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/87de6e49-ca1c-42a4-8751-5ff0b991966b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osz-vhodne-chovani-ve-skupine",
+    "title": "Vhodné chování při diskusi o složité situaci",
+    "aliases": [
+      "jak se chovat v diskusi",
+      "respektující chování",
+      "spolupráce ve skupině",
+      "pravidla dialogu",
+      "společná diskuse"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "při diskusi o složitých společných situací (přirozených i modelových) zkouší pojmenovávat chování, které považuje za vhodné (respektující, podporující vzájemnou komunikaci a spolupráci)",
+        "quote": "při diskusi o složitých společných situací"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zkouší adekvátní strategie – empatické porozumění, obrany proti manipulaci, zpětnovazební komunikace – nezraňující zpětné vazby, techniky asertivity (vč. dosahování kompromisu atd.), zajímavé a věcné prezentování (veřejné vystupování), dodržování pravidel dialogu apod.",
+        "quote": "dodržování pravidel dialogu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Naslouchání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pravidla dialogu a pomůže vymyslet příklady vhodného chování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Pravidla diskuse jsou dostupná k přečtení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nesedí s tebou v kruhu, chovat se musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "V diskusi se chováš ty, žádná pomůcka to nezařídí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

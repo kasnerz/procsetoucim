@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stejnou situaci můžeš zachytit mapou, tabulkou nebo grafem z bodů a čar a každá z těch podob ukáže něco jiného. Velký kus práce je rozhodnout, co do modelu dáš a co vynecháš: na plánku cesty do školy jsou podstatné ulice a přechody, barva domů ne. Když víš, že čára znamená silnici a bod křižovatku, přečteš i model, který nakreslil někdo jiný. Takhle pracují lidé, kteří plánují dopravu, projektují stavby nebo elektrické rozvody. Chatbot ti typy schémat vysvětlí a nabídne, ale jestli sedí na tvou situaci, posoudíš, jen když jí rozumíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Co znamenají body a čáry",
+      "text": "Nech chatbota popsat hotové schéma, třeba plánek metra nebo rodokmen, a napiš k němu, co v něm znamenají body, čáry a barvy. Zeptej se, jestli tvoje čtení sedí."
+    },
+    {
+      "title": "Škrtání nepodstatného",
+      "text": "Řekni si o popis situace plný zbytečných podrobností, třeba cesty na hřiště. Vypiš, co do modelu patří a co vynecháš, a svoje rozhodnutí obhaj, když se chatbot zeptá proč."
+    },
+    {
+      "title": "Tabulka i graf pro jednu situaci",
+      "text": "Zakresli třeba to, kdo se s kým ve třídě kamarádí, jako tabulku i jako body s čarami. Popiš chatbotovi obě podoby a zeptej se, co je na které vidět líp."
+    }
+  ]
+}

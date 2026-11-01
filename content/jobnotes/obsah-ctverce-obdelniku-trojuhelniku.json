@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "02447817-ea01-4d8b-b09c-8bc128e447e6": "Obsah stěny nebo podlahy rozhoduje o počtu dlaždic a o množství lepidla. Chybný výpočet znamená dokupování nebo zbytečný odpad.",
+  "e43d0f86-7abf-4c6e-b2b3-10970ddf6518": "Plocha místnosti určuje, kolik koberce se z role odstřihne. Výklenky a šikmé kouty se počítají jako obdélníky a trojúhelníky.",
+  "18cff178-4ef0-46c9-a6e5-f6f38179cdcb": "Při dohledu nad obkládáním se z plochy stěn vypočte potřebný materiál. Obdélníkové stěny jsou běžné, trojúhelníky se objeví u šikmých ploch.",
+  "8249697a-3dc8-417d-9acf-3a7e0864069a": "Z rozměrů místnosti se spočítá plocha podlahy a podle ní se objednává krytina. Správně vyjde i zakázka s odřezky navíc.",
+  "73e776fb-4d99-4031-bad4-7716f121155d": "Při plánování místnosti se počítá plocha podlahy, stěn i nábytku, aby se vše vešlo. Obdélníky a trojúhelníky pokryjí většinu půdorysů.",
+  "2561879a-dd0a-454e-ae6e-9be6c488eb56": "Plocha pozemku se skládá z obdélníků a trojúhelníků, podle kterých se rozděluje na dílčí části. Software to dnes počítá z naměřených bodů.",
+  "572c9810-e1ee-4f7a-a71f-820f17c0c25b": "Z plánů se určuje, kolik plechu je třeba na střechu nebo kryt. Plocha dílů vyjde z obdélníků a trojúhelníků.",
+  "d9fb82d0-9b07-4c38-b8e2-d146ff8850b9": "Zákazník říká rozměry místnosti a z nich se spočítá, kolik metrů čtverečních krytiny nebo obkladu koupit. Chybný odhad se projeví na účtu."
+ }
+}

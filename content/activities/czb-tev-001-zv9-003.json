@@ -1,0 +1,108 @@
+[
+  {
+    "slug": "test-telesne-zdatnosti",
+    "title": "Test tělesné zdatnosti",
+    "aliases": [
+      "test zdatnosti",
+      "fyzické testy",
+      "měření kondice",
+      "tělocvik test",
+      "výkon v testu"
+    ],
+    "outcome": "CZB-TEV-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Provede vybraný test tělesné zdatnosti na úrovni svých individuálních možností.",
+        "quote": "Provede vybraný test tělesné zdatnosti na úrovni svých individuálních možností."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Test uběhneš a odcvičíš ty, chatbot za tebe nic nezměří."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis testů a tabulky, s čím svůj výsledek porovnat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Stopky a krokoměr změří čas a vzdálenost a uloží výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stopky a metr změří tvůj výkon přesně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/578ea133-eaf3-4542-a727-fe4fc8a6b5a9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hodnoceni-treninku-a-uprava",
+    "title": "Hodnocení tréninku a jeho úprava",
+    "aliases": [
+      "sebereflexe po tréninku",
+      "jak jsem cvičil",
+      "zlepšení výkonu",
+      "úprava cvičení",
+      "hodnocení výkonu"
+    ],
+    "outcome": "CZB-TEV-001-ZV9-003",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Po určité tréninkové části provede sebereflexi – vyhodnotí aspekty své pohybové činnosti a upraví ji tak, aby v si v následující části vedl lépe.",
+        "quote": "Po určité tréninkové části provede sebereflexi – vyhodnotí aspekty své pohybové činnosti a upraví ji tak, aby v si v následující části vedl lépe."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozvoj vytrvalosti - reflexe",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě na trénink a poradí, co v další části změnit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tréninkové postupy a tipy, jak zlepšit techniku."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Záznam v aplikaci ukáže tepovou frekvenci a výkony za čas."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Stopky jen měří, hodnotit trénink a měnit ho musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/578ea133-eaf3-4542-a727-fe4fc8a6b5a9",
+      "http://data.europa.eu/esco/skill/409a0245-0e6c-4aac-ba16-0920ecb76a8d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

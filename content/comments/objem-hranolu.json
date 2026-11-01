@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kolik vody se vejde do akvária, kolik betonu je potřeba na základ garáže nebo kolik krabic se vejde do dodávky, to všechno je objem. U pravoúhlého hranolu stačí vynásobit tři rozměry, u ostatních hranolů obsah podstavy a výšku, takže objem stojí na tom, co už umíš o obsahu. Počítají ho lidé, kteří betonují, obchodují se dřevem, vedou sklady nebo plánují rozvoz zboží. Kalkulačka vynásobí cokoli, ale jestli máš všechny rozměry ve stejných jednotkách a jestli výsledek v litrech dává smysl, musíš poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Litry v krabici od džusu",
+      "text": "Vezmi krabici od džusu, změř ji a spočítej její objem v litrech. Výsledek porovnej s údajem na obalu a případný rozdíl si nech od chatbota vysvětlit."
+    },
+    {
+      "title": "Úlohy s převody jednotek",
+      "text": "Nech chatbota zadat úlohy na objem, kde jsou rozměry v různých jednotkách, třeba v metrech a centimetrech. Vyřeš je a nech si zkontrolovat hlavně převody."
+    },
+    {
+      "title": "Beton na základ garáže",
+      "text": "Navrhni základovou desku garáže s vlastními rozměry a spočítej, kolik kubíků betonu je potřeba. Postup ukaž chatbotovi a kalkulačkou si ověř, že sedí i čísla."
+    }
+  ]
+}

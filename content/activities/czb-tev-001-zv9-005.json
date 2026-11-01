@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "tv-bezpecnost-na-konkretnim-sportovisti",
+    "title": "Bezpečnost na sportovišti a při nové činnosti",
+    "aliases": [
+      "bezpečnost v tělocvičně",
+      "pravidla na lyžích",
+      "bezpečnost v házené",
+      "poučení o bezpečnosti",
+      "bezpečnost v přírodě"
+    ],
+    "outcome": "CZB-TEV-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uplatňuje základní zásady hygieny a bezpečnosti při pohybových činnostech v prostředí daného sportoviště.",
+        "quote": "v prostředí daného sportoviště"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Seznamuje se se zásadami hygieny a bezpečnosti osvojování nových pohybových činností.",
+        "quote": "osvojování nových pohybových činností"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Zásady bezpečnosti při lyžování",
+        "url": ""
+      },
+      {
+        "title": "Bezpečnost v házené – jednání",
+        "url": "https://uloziste.rvp.cz/material/aa848a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pravidla bezpečnosti pro sport a prostředí, které ještě neznáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš pravidla pro lyžaře a řády sportovišť od odborných zdrojů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepozná, co je na tvém hřišti nebo svahu nebezpečné."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obuv a oblečení vybereš ty, nástroj za tebe pravidla nedodrží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0c944316-12f6-4949-a156-a03dbaae790f",
+      "http://data.europa.eu/esco/skill/dcc96a49-0bac-4a9c-8f8e-a32b4e47e6eb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

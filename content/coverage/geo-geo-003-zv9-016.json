@@ -1,0 +1,47 @@
+{
+  "outcome": "GEO-GEO-003-ZV9-016",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "vymezí místo či region, s nímž se identifikuje",
+      "cards": [
+        "vymezeni-mista-kde-jsem-doma"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vymezí místo či region, s nímž se identifikuje, a uvede, na základě kterých charakteristik ho vymezuje a které symboly se k němu pojí",
+      "cards": [
+        "vymezeni-mista-kde-jsem-doma",
+        "charakteristiky-a-symboly-meho-mista"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "odůvodní, proč se identifikuje s určitou komunitou, místem a regionem",
+      "cards": [
+        "proc-jsem-doma-v-komunite-a-regionu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytvoří prezentaci o regionu, se kterým se identifikuje, charakterizuje, čím je pro něj jeho region významný a na co je v souvislosti s ním hrdý.",
+      "cards": [
+        "prezentace-o-regionu-a-hrdosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Připraví program pro zahraniční návštěvu ve svém regionu.",
+      "cards": [
+        "program-pro-zahranicni-navstevu"
+      ],
+      "aside": null
+    }
+  ]
+}

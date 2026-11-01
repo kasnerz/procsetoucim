@@ -1,0 +1,431 @@
+[
+  {
+    "slug": "vyber-tematu-a-hledani-zdroju-dejepis",
+    "title": "Výběr tématu a hledání zdrojů",
+    "aliases": [
+      "jak najít zdroje",
+      "téma referátu",
+      "dějepisný projekt",
+      "hledání pramenů",
+      "rodinné fotoalbum"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Sám nebo s pomocí si vybere vhodné dějepisné téma, kterému by se chtěl věnovat.",
+        "quote": "vybere vhodné dějepisné téma"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Sám nebo s pomocí vyhledá dva zdroje ke zvolenému tématu (např. v podobě vzpomínky, rodinného předmětu či fotoalba, objektu ve veřejném prostoru, videa apod.).",
+        "quote": "vyhledá dva zdroje ke zvolenému tématu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Sám nebo s pomocí vyučujícího vyhledá zdroje potřebné pro vytvoření dějepisného výstupu.",
+        "quote": "vyhledá zdroje potřebné pro vytvoření dějepisného výstupu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Při vytváření vlastního výstupu se učí využívat více zdrojů informací (např. také populárně-naučný text, novinový a internetový článek, databáze, archivní nebo muzejní fond a sbírka či digitalizovaný zdroj).",
+        "quote": "učí využívat více zdrojů informací"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co bych viděl z okna školy před 200 lety?",
+        "url": "https://uloziste.rvp.cz/material/af050d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti vymyslet témata a poradí, kde zdroje hledat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ve vyhledávači, digitálních archivech a muzejních sbírkách najdeš dobové zdroje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Samostatná aplikace zdroj k tvému tématu nenajde, to dělá vyhledávání na internetu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Fotoalbum, předmět nebo pamětníka najdeš ty, žádný nástroj za tebe nezačne hledat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "otazky-ke-zdroji-dejepis",
+    "title": "Otázky, na které hledáš ve zdroji odpověď",
+    "aliases": [
+      "otázky ke zdroji",
+      "kdo zdroj vytvořil",
+      "k čemu sloužil",
+      "rozbor pramene",
+      "práce s pramenem"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Sestaví otázky, na které potřebuje nalézt odpověď ve zdrojích (např. kdo ho vytvořil a proč, k čemu byl používaný, jaké vzpomínky se k němu nebo zachycené události dochovaly v jeho okolí).",
+        "quote": "Sestaví otázky, na které potřebuje nalézt odpověď ve zdrojích"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Co se stalo panu Beerovi u Čachrova?",
+        "url": "https://uloziste.rvp.cz/material/983293"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, na co se u pramene ptát, a ty si vybereš otázky k svému zdroji."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzory otázek k historickým pramenům i informace o autorovi zdroje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Otázky ke svému zdroji si musíš položit ty, žádná aplikace je neumí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka jen zapíšou otázky, které si vymyslíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "duveryhodnost-a-rozdily-ve-zdrojich-dejepis",
+    "title": "Důvěryhodnost a rozdíly ve zdrojích",
+    "aliases": [
+      "zdroje si odporují",
+      "komu věřit",
+      "důvěryhodný zdroj",
+      "porovnání pramenů",
+      "historický kontext"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Sám nebo s pomocí vyhledá ve zdrojích základní informace a posoudí, jak a proč se informace ve zdrojích liší.",
+        "quote": "posoudí, jak a proč se informace ve zdrojích liší"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhodnotí, jaké informace ze zdrojů využije a jak bude reagovat na odlišné informace ve zdrojích; využije znalost historického kontextu.",
+        "quote": "Vyhodnotí, jaké informace ze zdrojů využije a jak bude reagovat na odlišné informace ve zdrojích"
+      },
+      {
+        "level": "Splněno",
+        "point": "Posoudí důvěryhodnost a důležitost informací ve zdrojích.",
+        "quote": "Posoudí důvěryhodnost a důležitost informací ve zdrojích."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Při vytváření výstupu zohlední odlišnost informací ve zdrojích.",
+        "quote": "Při vytváření výstupu zohlední odlišnost informací ve zdrojích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Procesy 50. let – Milada Horáková",
+        "url": "https://uloziste.rvp.cz/material/176044"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, podle čeho poznáš spolehlivý zdroj, ale rozhodnout musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ověříš si autora, dobu vzniku a další prameny, které zdroj potvrzují nebo vyvracejí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti důvěryhodnost zdroje neposoudí, srovnávání zdrojů děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Posoudit, komu věřit, žádný nástroj neumí, musíš to udělat ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-dejepisny-vystup-vice-pohledu",
+    "title": "Vlastní dějepisný výstup z více pohledů",
+    "aliases": [
+      "dějepisný projekt",
+      "komiks o historii",
+      "třídní fotoalbum",
+      "článek o historii",
+      "dva pohledy na událost"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vytvoří a prezentuje výstup; ze zdrojů přebírá jen základní informace, historickým nejasnostem nevěnuje dostatečnou pozornost.",
+        "quote": "Vytvoří a prezentuje výstup"
+      },
+      {
+        "level": "Splněno",
+        "point": "Podle zadání nebo vlastního výběru vytvoří výstup svého bádání a zohlední v něm minimálně dva různé pohledy (perspektivy).",
+        "quote": "vytvoří výstup svého bádání a zohlední v něm minimálně dva různé pohledy (perspektivy)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zvolí formu výstupu a podřídí mu práci se zdroji (např. vybere přímé citace nebo ilustrace, poznamená si odkaz na zdroj).",
+        "quote": "Zvolí formu výstupu a podřídí mu práci se zdroji"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Karel IV. a stavba Karlova mostu",
+        "url": "https://uloziste.rvp.cz/material/2d9351"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí s osnovou a formou, napsat a vybrat zdroje musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzory komiksů, článků a prezentací a obrázky s uvedeným autorem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Textový editor, prezentace nebo kreslicí aplikace ti pomůžou výstup sestavit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, pastelky a lepidlo stačí na komiks nebo nástěnku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3",
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "citace-a-odkazy-na-zdroje-dejepis",
+    "title": "Citáty, ilustrace a odkazy na zdroj",
+    "aliases": [
+      "jak citovat",
+      "odkaz na zdroj",
+      "citace",
+      "zdroj obrázku",
+      "přímé citáty"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zvolí formu výstupu a podřídí mu práci se zdroji (např. vybere přímé citace nebo ilustrace, poznamená si odkaz na zdroj).",
+        "quote": "vybere přímé citace nebo ilustrace, poznamená si odkaz na zdroj"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak se odkaz na zdroj zapisuje, a zkontroluje ti zápis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš pravidla citování a u obrázků autora i adresu zdroje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Generátor citací sestaví zápis zdroje, údaje ale musíš zadat ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Do sešitu si zdroj zapíšeš hned při čtení, aby se neztratil."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sdileni-dejepisneho-vystupu",
+    "title": "Sdílení výstupu se spolužáky",
+    "aliases": [
+      "prezentace pro třídu",
+      "představení projektu",
+      "web školy",
+      "výstava ve třídě",
+      "mluvit před třídou"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Najde způsob, jak výstup sdílet s ostatními, a nakonec se podle předem domluvených kritérií ohlédne zpátky a posoudí, jak se mu práce podařila.",
+        "quote": "Najde způsob, jak výstup sdílet s ostatními"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Před třídou mluvíš ty, chatbot za tebe nepředstaví ani jeden slajd."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Sdílet výstup musíš ty, internet jen nabídne příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prezentace nebo web školy výstup ukážou víc lidem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nástěnka a vytištěné listy ukážou práci i ve třídě bez techniky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hodnoceni-vlastni-badatelske-prace",
+    "title": "Ohlédnutí za vlastní prací",
+    "aliases": [
+      "sebehodnocení",
+      "co se mi povedlo",
+      "co příště jinak",
+      "reflexe projektu",
+      "kritéria hodnocení"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Najde způsob, jak výstup sdílet s ostatními, a nakonec se podle předem domluvených kritérií ohlédne zpátky a posoudí, jak se mu práce podařila.",
+        "quote": "podle předem domluvených kritérií ohlédne zpátky a posoudí, jak se mu práce podařila"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Reflektuje svou práci (zejména jaký zvolil postup, co se naučil, co pro něho bylo obtížné, co by příště udělal jinak).",
+        "quote": "Reflektuje svou práci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co vzkázat budoucím generacím?",
+        "url": "https://uloziste.rvp.cz/material/b93ce4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Položí ti otázky, nad kterými si práci zhodnotíš, odpovědi jsou na tobě."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Internet nezná tvůj postup, takže ti práci nezhodnotí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Co bylo těžké a co bys příště udělal jinak, ví jen ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zápisník s kritérii a poznámkami ti drží přehled, co se povedlo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39f67488-cfd3-4370-8d7e-da98163102d9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

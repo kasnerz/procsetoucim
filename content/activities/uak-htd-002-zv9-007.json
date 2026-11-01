@@ -1,0 +1,327 @@
+[
+  {
+    "slug": "umelecke-prostredky-a-dojem-z-dila",
+    "title": "Umělecké prostředky a dojem z díla",
+    "aliases": [
+      "umělecké prostředky",
+      "čím dílo působí",
+      "výrazové prostředky díla",
+      "rozbor představení",
+      "sdělení díla"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše, jaké zřetelné umělecké prostředky byly použity v daném díle, a zapojuje se do diskuse o tom, jakým způsobem přispívají použité umělecké prostředky k celkovému dojmu a sdělení díla.",
+        "quote": "Popíše, jaké zřetelné umělecké prostředky byly použity v daném díle, a zapojuje se do diskuse o tom, jakým způsobem přispívají použité umělecké prostředky k celkovému dojmu a sdělení díla."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Pojmenuje, jaké umělecké prostředky byly použity, a čím přispívají k celkovému dojmu z díla.",
+        "quote": "Pojmenuje, jaké umělecké prostředky byly použity, a čím přispívají k celkovému dojmu z díla."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Metody reflexe divadelního představení",
+        "url": "https://uloziste.rvp.cz/material/f8e915"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co jsou umělecké prostředky, a ptá se, čím na tebe dílo zapůsobilo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš rozbory a ukázky, jak světlo, tempo nebo kostým mění dojem z díla."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace dojem z vystoupení nevnímá, prostředky a jejich účinek posuzuješ ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Poznámky si zapíšeš tužkou, ale co dílo dělá, vnímáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663",
+      "http://data.europa.eu/esco/skill/3204e6a3-676d-4824-806d-b34c6b798f31"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zanr-opera-balet-muzikal-cinohra",
+    "title": "Žánr díla: opera, balet, muzikál, činohra",
+    "aliases": [
+      "žánr",
+      "opera",
+      "balet",
+      "muzikál",
+      "činohra",
+      "loutkové divadlo",
+      "folklorní tanec"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "U zhlédnutého díla určí a charakterizuje umělecký druh (hudba, tanec, divadlo), případně žánr (např. koncert, opera, muzikál, balet, folklorní tanec, současný tanec, činohra, loutkové divadlo), analyzuje dílo na základě jeho druhu.",
+        "quote": "U zhlédnutého díla určí a charakterizuje umělecký druh (hudba, tanec, divadlo), případně žánr (např. koncert, opera, muzikál, balet, folklorní tanec, současný tanec, činohra, loutkové divadlo)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Maryša",
+        "url": "https://uloziste.rvp.cz/material/a93d18"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, čím se opera liší od muzikálu, a vymyslí ti otázky na poznávání žánru."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popisy žánrů a ukázky z baletu, opery nebo loutkového divadla."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žánr zhlédnutého představení určuješ ty podle toho, co se ve hledišti odehrálo."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Program z divadla ti napoví název, ale žánr poznáš z představení ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663",
+      "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozbor-hudebniho-vystoupeni-styl-interpreti",
+    "title": "Rozbor hudebního vystoupení: styl a interpreti",
+    "aliases": [
+      "hudební styl",
+      "interpreti",
+      "rozbor koncertu",
+      "co se mi líbilo na koncertě",
+      "hudební žánr"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- popíše, jaké hudební nástroje slyšel, a kdo zpíval nebo hrál,",
+        "quote": "popíše, jaké hudební nástroje slyšel, a kdo zpíval nebo hrál"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- s pomocí učitele popisuje, jaký hudební styl a žánr byl v představení, a kdo byli interpreti,",
+        "quote": "s pomocí učitele popisuje, jaký hudební styl a žánr byl v představení, a kdo byli interpreti"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- zhodnotí, jak se mu líbily různé části hudebního programu a co na nich ocenil.",
+        "quote": "zhodnotí, jak se mu líbily různé části hudebního programu a co na nich ocenil"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, podle čeho poznáš styl a žánr, a pomůže ti uspořádat, co se ti líbilo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš informace o interpretech, nástrojích a stylu, které poslouchás."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na rozpoznávání hudby ukáže název skladby a autora, takže víš, co poslouchat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroje a styl rozeznáváš uchem ty, hodnotit program za tebe nikdo nebude."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b3c0fdc1-14e3-4ccd-aeab-6816e409c3a0",
+      "http://data.europa.eu/esco/skill/2fa41ec9-5a43-4976-b34d-8639596f67ba"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozbor-tanecniho-predstaveni-sceny-a-temata",
+    "title": "Rozbor tanečního představení: scény a témata",
+    "aliases": [
+      "rozbor tance",
+      "taneční představení",
+      "scény a postavy v tanci",
+      "o čem byl tanec",
+      "téma tance"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- popíše, co viděl v tanečním představení, a jak se tanečníci pohybovali,",
+        "quote": "popíše, co viděl v tanečním představení, a jak se tanečníci pohybovali"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- analyzuje taneční představení a popisuje jednotlivé scény a postavy,",
+        "quote": "analyzuje taneční představení a popisuje jednotlivé scény a postavy"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- pojmenuje, jaká témata a myšlenky se v tanci objevují a co pro něj znamenají.",
+        "quote": "pojmenuje, jaká témata a myšlenky se v tanci objevují a co pro něj znamenají"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kámen, tělo, krajina",
+        "url": "https://uloziste.rvp.cz/material/e7b619"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co se v tanci dělo, a pomůže ti pojmenovat téma i scény."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš záznamy a popisy tanečních představení, ke kterým se můžeš vracet."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Co tanec znamená, rozhoduješ ty, aplikace tvoje vidění nenahradí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pohyb tanečníků sleduješ očima ty, žádná pomůcka za tebe nic nevidí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3204e6a3-676d-4824-806d-b34c6b798f31",
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozbor-divadelniho-predstaveni-dej-a-poselstvi",
+    "title": "Rozbor divadelního představení: děj a poselství",
+    "aliases": [
+      "rozbor divadla",
+      "děj inscenace",
+      "vztahy mezi postavami",
+      "poselství představení",
+      "reflexe divadelního představení"
+    ],
+    "outcome": "UAK-HTD-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "- popíše děj inscenace,",
+        "quote": "popíše děj inscenace"
+      },
+      {
+        "level": "Na začátku",
+        "point": "- sdělí vlastními slovy, o čem bylo divadelní představení a které postavy a co ho na představení zaujalo a proč.",
+        "quote": "sdělí vlastními slovy, o čem bylo divadelní představení a které postavy a co ho na představení zaujalo a proč"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- popisuje klíčové momenty divadelního představení a vztahy mezi postavami,",
+        "quote": "popisuje klíčové momenty divadelního představení a vztahy mezi postavami"
+      },
+      {
+        "level": "Na cestě",
+        "point": "- s pomocí učitele formuluje poselství a téma představení, které osobně vnímal.",
+        "quote": "s pomocí učitele formuluje poselství a téma představení, které osobně vnímal"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hamlet - reflexe divadelního představení",
+        "url": "https://uloziste.rvp.cz/material/d019e3"
+      },
+      {
+        "title": "Maryša",
+        "url": "https://uloziste.rvp.cz/material/a93d18"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se na děj a postavy a pomůže ti vlastními slovy říct, o čem hra byla."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš obsah hry, rozbory a recenze, se kterými svůj výklad porovnáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Poselství představení si z toho, co se na jevišti odehrálo, skládáš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Děj a vztahy postav sleduješ v hledišti ty, pomůcka za tebe nic neuvidí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/22cbb90f-0bf1-4c30-98c0-7c9749b4e08d",
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

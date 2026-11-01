@@ -1,0 +1,301 @@
+[
+  {
+    "slug": "svetadily-a-oceany-na-mape",
+    "title": "Světadíly a oceány na mapě",
+    "aliases": [
+      "světadíly",
+      "oceány",
+      "kde leží světadíl",
+      "mapa světa",
+      "slepá mapa"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Lokalizuje na mapách jednotlivé světadíly a oceány.",
+        "quote": "Lokalizuje na mapách jednotlivé světadíly a oceány."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí ti otázky na světadíly a oceány a vysvětlí, kde co leží."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapa světa a encyklopedie ti ukážou, kde světadíly a oceány leží."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Zeměpisné kvízy se slepou mapou procvičují polohu světadílů a oceánů."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa nebo glóbus ti ukážou celý svět najednou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vymezeni-mista-nebo-regionu",
+    "title": "Vymezení místa nebo regionu slovy i na mapě",
+    "aliases": [
+      "kde to leží",
+      "popis polohy",
+      "region na mapě",
+      "nakreslit region",
+      "měřítko mapy"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "slovně i graficky prostorově vymezí vybraná místa či regiony různé měřítkové úrovně",
+        "quote": "slovně i graficky prostorově vymezí vybraná místa či regiony různé měřítkové úrovně"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Čím je to významné?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jak polohu popsat slovy, a opraví tvůj popis, co leží kde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Online mapy a encyklopedie ukážou hranice a polohu místa v různém měřítku."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže místo zblízka i z dálky a umožní si označit oblast."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papírové mapě si hranice regionu obkreslíš vlastníma rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stereotypy-a-predsudky-o-mistech",
+    "title": "Stereotypy a předsudky o místech a regionech",
+    "aliases": [
+      "předsudky o místech",
+      "stereotypy",
+      "špatná pověst místa",
+      "image regionu",
+      "mýty o regionech"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na vhodných příkladech dokládá stereotypizaci regionů, s pomocí spolehlivých zdrojů informací vyvrací předsudky spojené s těmito místy.",
+        "quote": "Na vhodných příkladech dokládá stereotypizaci regionů, s pomocí spolehlivých zdrojů informací vyvrací předsudky spojené s těmito místy."
+      },
+      {
+        "level": "Na cestě",
+        "point": "odhaluje stereotypy a předsudky o místech a regionech a hodnotí jejich dopady na image daných míst a regionů",
+        "quote": "odhaluje stereotypy a předsudky o místech a regionech a hodnotí jejich dopady na image daných míst a regionů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak vnímám místo kde jsem nebyl?",
+        "url": ""
+      },
+      {
+        "title": "Co ovlivňuje naše vnímaní místa?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak stereotyp vzniká, a nabídne příklady k ověření."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky a encyklopedie ukážou, jestli předsudek o místě platí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s jedním účelem předsudek nerozpozná ani nevyvrátí, to děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Atlas ani slovník stereotyp neodhalí, úsudek i srovnání zdrojů děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7d594881-a9b4-4d4c-8a8b-75082c136b78"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dva-pohledy-na-stejne-misto",
+    "title": "Dvě podání téhož místa v médiích",
+    "aliases": [
+      "dva pohledy na region",
+      "reklama a zpráva",
+      "jak média ukazují místo",
+      "realitní kancelář",
+      "dovolená v katalogu"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladu konkrétního regionu demonstruje dva odlišné pohledy a prezentace stejného místa, porovnává a diskutuje o spolehlivosti obou zdrojů informací.",
+        "quote": "Na příkladu konkrétního regionu demonstruje dva odlišné pohledy a prezentace stejného místa, porovnává a diskutuje o spolehlivosti obou zdrojů informací."
+      },
+      {
+        "level": "Na cestě",
+        "point": "na konkrétním příkladu dokumentuje, jak mediální prezentace míst a regionů ovlivňuje jejich výslednou image",
+        "quote": "na konkrétním příkladu dokumentuje, jak mediální prezentace míst a regionů ovlivňuje jejich výslednou image"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Realitní kancelář",
+        "url": "https://uloziste.rvp.cz/material/d6928d"
+      },
+      {
+        "title": "Kam pojedu na dovolenou?",
+        "url": "https://uloziste.rvp.cz/material/7a589d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže rozebrat, v čem se dvě podání liší a komu které slouží."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam různé zprávy, reklamy i fotky téhož místa k porovnání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s jedním účelem dvě podání neporovná, srovnání děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Atlas ani papírová mapa různé mediální podání místa neukážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "spolehlivost-informaci-o-mistech",
+    "title": "Kritéria spolehlivosti zdrojů o neznámých místech",
+    "aliases": [
+      "spolehlivý zdroj",
+      "jak poznat pravdu",
+      "ověřování informací",
+      "důvěryhodnost webu",
+      "kritické čtení"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří kritéria pro hodnocení kvality a spolehlivosti zdrojů informací pro poznávání jemu neznámých regionů.",
+        "quote": "Vytvoří kritéria pro hodnocení kvality a spolehlivosti zdrojů informací pro poznávání jemu neznámých regionů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "kriticky hodnotí informace o místech a regionech",
+        "quote": "kriticky hodnotí informace o místech a regionech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak vnímám místo kde jsem nebyl?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, na co se u zdroje ptát, a projde s tebou tvůj seznam kritérií."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ověřovací weby a encyklopedie umožní zdroje o místě porovnat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s jedním účelem spolehlivost zdroje za tebe nezhodnotí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Atlas ani tužka kritéria nevymyslí, úsudek o zdroji děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,358 @@
+{
+  "outcome": "MAT-MAT-002-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "obvod-mnohouhelniku",
+      "title": "Obvod mnohoúhelníku",
+      "aliases": [
+        "obvod",
+        "obvod trojúhelníku",
+        "obvod čtyřúhelníku",
+        "sčítání stran"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vypočítá obvod mnohoúhelníku"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co je obvod, a zadá ti další útvary k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vysvětlení obvodu s obrázky a ukázkové příklady."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Procvičovací aplikace zadávají útvary a hned ukážou, jestli máš součet správně."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítkem změříš strany a kalkulačkou zkontroluješ součet."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "obsah-ctverce-obdelniku-trojuhelniku",
+      "title": "Obsah čtverce, obdélníku a trojúhelníku",
+      "aliases": [
+        "obsah",
+        "obsah obdélníku",
+        "obsah trojúhelníku",
+        "vzorec pro obsah"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vypočítá obsah čtverce, obdélníku a trojúhelníku"
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí vzorce na příkladu a zadá ti úlohy k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzorce a řešené příklady s obrázky najdeš v učebních materiálech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace zadává rozměry, ověří tvůj výsledek a ukáže, kde je chyba."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka zkontroluje výpočet a pravítkem změříš výšku trojúhelníku."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "obsah-slozeneho-utvaru",
+      "title": "Obsah útvaru složeného z obdélníků a trojúhelníků",
+      "aliases": [
+        "složený útvar",
+        "obsah půdorysu",
+        "rozdělení na obdélníky",
+        "obsah z reálných úloh"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet obsahu útvarů složených z obdélníků a trojúhelníků."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti poradí, jak útvar rozdělit na části, a zkontroluje tvůj postup."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Řešené úlohy s rozdělením útvarů najdeš v učebních materiálech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí aplikace útvar rozdělí na části a ukáže rozměry každé z nich."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Rozměry v terénu změříš metrem, výpočet zkontroluješ kalkulačkou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Ilustrativní úlohy"
+      ]
+    },
+    {
+      "slug": "obvod-a-obsah-kruhu",
+      "title": "Obvod a obsah kruhu",
+      "aliases": [
+        "kružnice",
+        "délka kružnice",
+        "číslo pí",
+        "průměr a poloměr",
+        "obsah kruhu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vypočítá obvod a obsah kruhu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet obvodu kruhu (délku kružnice) a obsah kruhu, je-li dán průměr či poloměr a naopak."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, kde se bere číslo pí, a zadá ti úlohy i s opačným zadáním."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzorce pro kruh a řešené příklady najdeš v učebních materiálech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace vykreslí kruh podle poloměru a ověří tvůj výsledek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kružítkem narýsuješ kruh, provázkem změříš kružnici a kalkulačkou zkontroluješ výpočet."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "povrch-mnohostenu",
+      "title": "Povrch hranolu a jehlanu",
+      "aliases": [
+        "povrch tělesa",
+        "povrch kvádru",
+        "povrch jehlanu",
+        "síť tělesa",
+        "obsah stěn"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vypočítá povrch mnohostěnu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet povrchu běžného mnohostěnu (tzn. pravoúhlého hranolu, pravidelného čtyřbokého jehlanu, trojbokého hranolu)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak těleso rozložit na stěny, a prověří tvůj postup."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš obrázky sítí těles a řešené příklady na povrch."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Trojrozměrná aplikace těleso rozloží na síť a ukáže všechny stěny."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Z papíru slepíš těleso a kalkulačkou zkontroluješ součet obsahů stěn."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Ilustrativní úloha"
+      ]
+    },
+    {
+      "slug": "objem-hranolu",
+      "title": "Objem pravoúhlého hranolu a hranolu",
+      "aliases": [
+        "objem kvádru",
+        "objem hranolu",
+        "objem krychle",
+        "základna krát výška"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vypočítá objem pravoúhlého hranolu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet objemu pravoúhlého hranolu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují výpočet objemu nepravoúhlého hranolu, jsou-li dány jeho rozměry."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí vzorec a zadá úlohy, třeba kolik vody se vejde do nádrže."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzorce a řešené příklady na objem s obrázky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace zobrazí hranol z různých stran a ověří tvůj výsledek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Odměrkou a vodou ověříš objem nádoby, kalkulačkou zkontroluješ výpočet."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Ilustrativní úloha"
+      ]
+    },
+    {
+      "slug": "pythagorova-veta",
+      "title": "Pythagorova věta",
+      "aliases": [
+        "pravoúhlý trojúhelník",
+        "přepona a odvěsny",
+        "Pythagoras",
+        "výpočet třetí strany"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "využívá Pythagorovu větu"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují použití Pythagorovy věty."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí větu na příkladu a zadá úlohy, třeba délku žebříku u zdi."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš důkazy věty, obrázky a řešené příklady."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s obrázkem trojúhelníku ověří tvou délku strany i pravý úhel."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka s odmocninou zkontroluje výpočet, pravítkem změříš strany."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+      ],
+      "inspiration": [
+        "Koncert na hřišti – Matematika v akci"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "určí obsah a obvod mřížového útvaru",
+      "code": "O1",
+      "refs": [
+        "obsah-ctverecky-mrizka"
+      ]
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Využívá délku, obsah a objem",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

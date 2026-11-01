@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Určovací klíč je řada otázek, kde každá odpověď vyloučí část možností, až zbude jediný kámen. Stejně se určují rostliny i houby, takže se ti tenhle postup hodí i mimo nerosty. Aplikace na určování kamenů nabídne shody, jenže se může splést a bez vlastního pozorování nepoznáš, která sedí. Pro lidi, kteří v dolech a laboratořích určují horniny, je to každodenní práce a míst v jejich oborech spíš přibude; pro ostatní je to trénink pečlivosti a logického vylučování.",
+  "learnWithAi": [
+    {
+      "title": "Rozdíl mezi dvěma kandidáty",
+      "text": "Když váháš mezi dvěma minerály, zeptej se chatbota na znak, kterým se nejlépe liší. Ten pak vyzkoušej na vzorku."
+    },
+    {
+      "title": "Druhý názor k určení",
+      "text": "Napiš chatbotovi barvu, lesk, tvrdost a vryp svého vzorku a zeptej se, co by to mohlo být. Návrh porovnej s atlasem a rozhodni podle vzorku."
+    },
+    {
+      "title": "Klíč pro vlastní sbírku",
+      "text": "Sestav jednoduchý určovací klíč pro pět kamenů, které máš doma nebo ve škole, a nech chatbota najít otázky, na které nejde jasně odpovědět. Klíč vyzkoušej na vzorcích."
+    }
+  ]
+}

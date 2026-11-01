@@ -1,0 +1,159 @@
+{
+  "outcome": "MAT-MAT-002-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "prevody-jednotek-casu",
+      "title": "Převody mezi roky, dny, hodinami a minutami",
+      "aliases": [
+        "převody času",
+        "kolik minut má den",
+        "hodiny na minuty",
+        "týdny a dny",
+        "sekundy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují převody mezi roky, měsíci, týdny, dny, hodinami, částmi hodin, minutami a sekundami."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "převádí mezi sousedními jednotkami času"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí postup převodu a zadá ti úlohy na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulky jednotek času a vzorové příklady si najdeš po ruce."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Převodníky jednotek a procvičovací hry ti zkontrolují výsledek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti ověří výpočet, hodiny a kalendář ukážou, jak dlouho něco trvá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": [
+        "Ilustrativní úlohy"
+      ]
+    },
+    {
+      "slug": "casova-pasma",
+      "title": "Časová pásma a rozdíl hodin ve světě",
+      "aliases": [
+        "časová pásma",
+        "kolik je hodin v Americe",
+        "časový posun",
+        "čas v zahraničí",
+        "opačné časové pásmo"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Řeší úlohy včetně úloh z reálného světa, které zahrnují časová pásma."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se čas posouvá mezi pásmy, a zadá ti další úlohy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Světové hodiny ukážou, kolik je jinde, a ty si výsledek ověříš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace se světovými hodinami zkontroluje rozdíl, který jsi spočítáš podle mapy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejné hodiny a kalendář časové pásmo neukážou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f6c7b7a5-6194-45a2-8791-9609c897b1a0"
+      ],
+      "inspiration": [
+        "Porovnání denního režimu v opačných časových pásmech"
+      ]
+    },
+    {
+      "slug": "rozvrhy-a-jizdni-rady",
+      "title": "Rozvrhy, jízdní řády a itineráře",
+      "aliases": [
+        "jízdní řád",
+        "rozvrh hodin",
+        "plán cesty",
+        "kdy mi jede vlak",
+        "itinerář"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "řeší reálné problémy s časovými plány (např. rozvrhy, jízdní řády, itineráře)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak číst plán, a zadá ti úlohy s časy odjezdů."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam skutečné jízdní řády, se kterými si úlohu vyzkoušíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač spojení ukáže odjezdy a ty si ověříš, jestli stíháš přestup."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový jízdní řád nebo rozvrh tě naučí číst časy z tabulky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c73ea1b8-e121-4f91-b8f0-dee4ee28d6ec",
+        "http://data.europa.eu/esco/skill/194c05ed-253c-485a-8bf0-0c8de1aaafda"
+      ],
+      "inspiration": [
+        "Ilustrativní úloha"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Pracuje s časovými údaji",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

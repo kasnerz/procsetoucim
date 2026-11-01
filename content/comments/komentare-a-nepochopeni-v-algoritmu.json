@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Cizí kód nebo návod skoro nikdy nepochopíš celý napoprvé, a proto se hodí umět přesně říct, které místo ti nedává smysl a proč. Komentáře v kódu jsou poznámky, kterými autor vysvětluje svůj záměr, a kdo programuje v týmu, čte je i píše každý den. Stejně užitečné je všimnout si, že tvoje první pochopení bylo špatně, a najít, kde se úvaha stočila jinam. Chatbot ti nejasný řádek vysvětlí jinými slovy, jenže nejdřív musíš poznat, o který řádek jde. Hodí se to i mimo informatiku, při čtení zadání úlohy, smlouvy nebo příbalového letáku.",
+  "learnWithAi": [
+    {
+      "title": "Nejasný řádek jinými slovy",
+      "text": "Označ v programu jeden řádek, kterému nerozumíš, a popros chatbota, ať ho vysvětlí dvěma různými způsoby. Pak k němu napiš vlastní komentář, kterému by rozuměl spolužák."
+    },
+    {
+      "title": "Komentáře k cizímu kódu",
+      "text": "Vezmi krátký program bez komentářů a dopiš k němu vlastní. Chatbot ať je porovná s tím, co kód opravdu dělá, a ukáže, kde tvůj komentář slibuje něco jiného."
+    },
+    {
+      "title": "Zavádějící komentář",
+      "text": "Řekni si chatbotovi o program, ve kterém jeden komentář tvrdí něco jiného, než dělá kód. Najdi ho a rozhodni, jestli je chyba v kódu, nebo v komentáři."
+    }
+  ]
+}

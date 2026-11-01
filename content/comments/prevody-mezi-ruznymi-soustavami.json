@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Úhlopříčka televize se udává v palcích a americký recept počítá v hrncích a uncích. Na rozdíl od převodů v metrické soustavě tu nestačí posunout desetinnou čárku: potřebuješ převodní vztah a s ním násobit nebo dělit. Technici v chemických provozech nebo zeměměřiči narážejí na cizí jednotky v zahraničních podkladech. Převodník to spočítá rychle, ty ale musíš vědět, co převádíš, a umět odhadnout, jestli výsledek dává smysl, třeba že míle je víc než kilometr.",
+  "learnWithAi": [
+    {
+      "title": "Míle a palce z filmů",
+      "text": "Zeptej se chatbota na pět situací z cest nebo z filmů, kde se objeví míle, palce nebo galony. Převeď je podle převodního vztahu na metrické jednotky a nech si výsledek ověřit."
+    },
+    {
+      "title": "Odhad z hlavy",
+      "text": "Nech se zkoušet rychlými otázkami typu kolik kilometrů je zhruba 10 mil. Odpovídej odhadem bez kalkulačky a sleduj, jak blízko se trefuješ."
+    },
+    {
+      "title": "Americký recept v mililitrech",
+      "text": "Najdi s chatbotem jednoduchý americký recept a převeď hrnky a unce na mililitry a gramy. Převodní vztahy si ověř v tabulce, chatbot se v nich může splést."
+    }
+  ]
+}

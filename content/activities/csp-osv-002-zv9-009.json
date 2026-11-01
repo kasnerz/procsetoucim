@@ -1,0 +1,420 @@
+[
+  {
+    "slug": "osv9-spolecna-pravidla-tridy",
+    "title": "Společná pravidla třídy a můj podíl na nich",
+    "aliases": [
+      "třídní pravidla",
+      "pravidla ve třídě",
+      "domluva pravidel",
+      "třídnická hodina",
+      "školní řád"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvědomuje si jak přispívá ke společnému vytváření pravidel ve skupině/třídě",
+        "quote": "uvědomuje si jak přispívá ke společnému vytváření pravidel ve skupině/třídě"
+      },
+      {
+        "level": "Na cestě",
+        "point": "popisuje jak přispívá ke společnému vytváření, dodržování a reflektování pravidel ve skupině/třídě",
+        "quote": "popisuje jak přispívá ke společnému vytváření, dodržování a reflektování pravidel ve skupině/třídě"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reflektuje své dovednosti stanovovat a dodržovat pravidla etického chování (ve třídě, rodině a komunitě).",
+        "quote": "Reflektuje své dovednosti stanovovat a dodržovat pravidla etického chování (ve třídě, rodině a komunitě)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti promyslet, jak by pravidla mohla znít a čeho si všímat; rozhodnout musí třída."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady pravidel z jiných tříd a škol, ze kterých se můžeš inspirovat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pravidla se dohodují s lidmi ve třídě, aplikace za vás nic nedomluví."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidla domlouváte v kruhu spolužáků, papír a tužka jen zapíšou výsledek."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv9-dodrzovani-pravidel-a-dopad",
+    "title": "Dodržování pravidel a dopad chování na vztahy",
+    "aliases": [
+      "dodržovat pravidla",
+      "třídní pravidla v praxi",
+      "jak chování ovlivňuje třídu",
+      "klima třídy",
+      "vztahy ve třídě"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "V praktických situacích respektuje přijatá třídní pravidla.",
+        "quote": "V praktických situacích respektuje přijatá třídní pravidla."
+      },
+      {
+        "level": "Na začátku",
+        "point": "v praktických situacích dodržuje dohodnutá pravidla chování",
+        "quote": "v praktických situacích dodržuje dohodnutá pravidla chování"
+      },
+      {
+        "level": "Splněno",
+        "point": "V praktických situacích dodržuje dohodnutá pravidla chování a vyhodnocuje dopad chování (u sebe i druhých) na utváření mezilidských vztahů v komunitě.",
+        "quote": "V praktických situacích dodržuje dohodnutá pravidla chování a vyhodnocuje dopad chování (u sebe i druhých) na utváření mezilidských vztahů v komunitě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Pravidla dodržuješ ve skutečné situaci ty, chatbot u toho není."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Dopad svého chování na spolužáky ti žádný web neukáže, vidíš ho ve třídě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nesleduje, jak se ve třídě chováte a co to dělá s ostatními."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pomůže jen nástěnka s pravidly, jednat musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv9-pratelske-a-pomahajici-chovani",
+    "title": "Přátelské a pomáhající chování",
+    "aliases": [
+      "pomáhat druhým",
+      "prosociální chování",
+      "jak být dobrý kamarád",
+      "podpora spolužáků",
+      "vzájemná pomoc"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "na základě učebních situací a zkušenosti se skupinou reflektuje, jaké chování je možno považovat za přátelské, pomáhající, podporující",
+        "quote": "na základě učebních situací a zkušenosti se skupinou reflektuje, jaké chování je možno považovat za přátelské, pomáhající, podporující"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše, jakými projevy prosociálního chování přispívá ke vzájemně podporujícím vztahům v jemu blízkém sociálním prostředí (např. školní třída).",
+        "quote": "Popíše, jakými projevy prosociálního chování přispívá ke vzájemně podporujícím vztahům v jemu blízkém sociálním prostředí (např. školní třída)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti najít slova pro to, co je pomáhající chování, a dá příklady k popsání."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš články a příklady toho, jak lidé v komunitě pomáhají."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s tvou třídou nic nezmění, pomáhat druhým můžeš jen ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pomáháš slovem a činem, ne nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv9-eticky-rozmer-situaci",
+    "title": "Etický rozměr různých situací",
+    "aliases": [
+      "co je správné",
+      "etika",
+      "dobré a špatné jednání",
+      "morální situace",
+      "etické otázky"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vnímá a reflektuje etický rozměr různých (učebních, modelových i jiných) situací",
+        "quote": "vnímá a reflektuje etický rozměr různých (učebních, modelových i jiných) situací"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Složitá policistova situace",
+        "url": "https://uloziste.rvp.cz/material/3c9c58"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, kdo by v situaci mohl být dotčen, a pomůže ti vidět, co ti uniká."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popsané případy a etické zásady, podle kterých se dá situace posoudit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace situaci neposoudí, všimnout si etické stránky musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pro posouzení situace žádný klasický nástroj neexistuje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv9-resit-eticka-dilemata",
+    "title": "Řešení etických dilemat",
+    "aliases": [
+      "dilema",
+      "těžké rozhodnutí",
+      "navrhnout řešení",
+      "modelová situace",
+      "co bys udělal"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "v eticky dilematických modelových situacích zvažuje a reflektuje vhodné způsoby chování a aplikuje je v těchto situacích",
+        "quote": "v eticky dilematických modelových situacích zvažuje a reflektuje vhodné způsoby chování a aplikuje je v těchto situacích"
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelových situacích navrhne, vyzkouší a vyhodnotí řešení eticky dilematických situací.",
+        "quote": "V modelových situacích navrhne, vyzkouší a vyhodnotí řešení eticky dilematických situací."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Dilema",
+        "url": ""
+      },
+      {
+        "title": "Vyjednávání s etickým rozměrem – zvířata",
+        "url": "https://uloziste.rvp.cz/material/47d6f3"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne jiné pohledy a dopady každé možnosti, vybrat a obhájit řešení musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš známá dilemata a rozbor toho, jak se řešila."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe řešení nevyzkouší, hraje se to se spolužáky."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dilema si vyzkoušíš v rolích se třídou, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv9-informace-a-eticka-pravidla",
+    "title": "Posouzení informací podle etických pravidel",
+    "aliases": [
+      "etické hodnocení informací",
+      "je to fér",
+      "pravdivost informací",
+      "etika zpráv",
+      "kritické hodnocení"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "V modelových situacích kriticky vyhodnotí informace z hlediska pravidel etického chování.",
+        "quote": "V modelových situacích kriticky vyhodnotí informace z hlediska pravidel etického chování."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti položit k informaci otázky, ale jestli je v pořádku, posuzuješ ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš etické zásady a ověříš, jestli informace sedí s jinými zdroji."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepozná, jestli je informace eticky v pořádku."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj eticky informace neposoudí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osv9-moje-hodnoty",
+    "title": "Moje hodnoty v etice a vztazích",
+    "aliases": [
+      "co je pro mě důležité",
+      "hodnoty",
+      "životní hodnoty",
+      "moje názory",
+      "alter ego"
+    ],
+    "outcome": "CSP-OSV-002-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "v reflexi různých učebních situací týkajících se hodnot si zkouší pojmenovávat vlastní hodnoty",
+        "quote": "v reflexi různých učebních situací týkajících se hodnot si zkouší pojmenovávat vlastní hodnoty"
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje, jaké hodnoty v souvislosti s etikou, vztahy s druhými jsou pro něho v životě důležité, a zdůvodní proč",
+        "quote": "diskutuje, jaké hodnoty v souvislosti s etikou, vztahy s druhými jsou pro něho v životě důležité, a zdůvodní proč"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reflektuje své hodnoty spojené s etickým a prosociálním chováním.",
+        "quote": "Reflektuje své hodnoty spojené s etickým a prosociálním chováním."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co (nakonec) mohu (i) postrádat?",
+        "url": ""
+      },
+      {
+        "title": "Alter ego",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se tě na důvody a pomůže ti vlastní hodnoty pojmenovat, odpovědi vymýšlíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš seznamy hodnot a příklady, které ti pomůžou najít slova."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezjistí, co je důležité tobě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Deník nebo papír zapíše myšlenky, hodnoty si ale určuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a762f4cd-b6bb-419b-834a-71f3ed367e5c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

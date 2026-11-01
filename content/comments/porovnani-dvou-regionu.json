@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Porovnávat má smysl jen to, co je srovnatelné, tedy dva kraje nebo dvě země, ne obec s celým státem. Když pro oba regiony použiješ stejná kritéria, třeba hustotu osídlení nebo nadmořskou výšku, uvidíš opravdové shody a rozdíly místo náhodných dojmů. Takové srovnání se hodí, když se rozhoduješ, kam na školu nebo za prací, a podobně uvažuje každý, kdo plánuje rozvoj území nebo vybírá místa pro zájezdy. Tabulkový program spočítá rozdíly a nakreslí graf, vybrat kritéria a vysvětlit, co z rozdílů plyne, ale musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka kritérií pro dva kraje",
+      "text": "Vyber dva kraje a nech chatbota navrhnout prázdnou tabulku kritérií. Čísla do ní doplň ze statistik, ne z chatu, a chatbotem si jen zkontroluj, jestli srovnáváš stejné věci."
+    },
+    {
+      "title": "Odhad regionu podle čísel",
+      "text": "Ať ti chatbot dá několik údajů o dvou regionech bez jmen a ty zkus odhadnout, který je horský a který průmyslový. Svůj odhad zdůvodni dřív, než se dozvíš odpověď."
+    },
+    {
+      "title": "Kontrola závěrů ze srovnání",
+      "text": "Napiš, co podle tebe ze srovnání dvou regionů vyplývá, a požádej chatbota, ať hledá závěry, které z čísel neplynou. Každý takový závěr obhaj, nebo škrtni."
+    }
+  ]
+}

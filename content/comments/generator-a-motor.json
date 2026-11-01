@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Elektromotor otáčí bubnem pračky, vrtačkou, ventilátorem i koly elektrické koloběžky a generátor v elektrárně dělá opak, z otáčení vyrábí proud. Oba stroje mají uvnitř cívky a magnety, a kdo tuhle souvislost vidí, chápe, odkud se bere elektřina v zásuvce a na co se v motoru mění. Na tom staví elektrotechnika i strojírenství. Prakticky s tím pracují elektroinženýři, technici v elektrárnách a lidé, kteří na velínu řídí výrobu proudu a tepla, dohromady zhruba 1,5 % lidí, kteří v Česku pracují. Schéma motoru najdeš snadno, ale cívku a magnet v rozebraném starém motorku musíš najít ty.",
+  "learnWithAi": [
+    {
+      "title": "Dvacet zařízení k roztřídění",
+      "text": "Požádej chatbota o seznam dvaceti zařízení a u každého rozhodni, jestli má motor, generátor, nebo nic z toho. Sporné případy si nech zkontrolovat."
+    },
+    {
+      "title": "Rozdíl v jedné větě",
+      "text": "Napiš jednou větou, čím se liší motor od generátoru, a pošli ji chatbotovi. Ať ti řekne, co v ní chybí, a větu pak oprav ty."
+    },
+    {
+      "title": "Průvodce rozebraným motorkem",
+      "text": "Když doma rozebíráš starý motorek z hračky, popisuj chatbotovi, co vidíš, a nech si vysvětlit, k čemu jednotlivé díly slouží. Nikdy nerozebírej nic, co je zapojené v zásuvce."
+    }
+  ]
+}

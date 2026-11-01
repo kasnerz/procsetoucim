@@ -1,0 +1,435 @@
+[
+  {
+    "slug": "reakce-vychozi-latky-a-produkty",
+    "title": "Výchozí látky a produkty reakce",
+    "aliases": [
+      "chemická reakce",
+      "výchozí látky",
+      "produkty reakce",
+      "co vznikne při reakci",
+      "hoření jako reakce"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvede typické příklady chemických reakcí a určí výchozí látky a produkty.",
+        "quote": "Uvede typické příklady chemických reakcí a určí výchozí látky a produkty."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Chemické reakce",
+        "url": ""
+      },
+      {
+        "title": "Co se děje při chemické reakci?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co jsou výchozí látky a produkty, a zadá ti další reakce k určování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš rovnice a popisy běžných reakcí, třeba hoření nebo rezivění."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Chemické procvičovací aplikace ti hned ukážou, jestli máš látky přiřazené správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Při pokusu v laboratoři vidíš, z čeho reakce vychází a co z ní vznikne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1",
+      "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-prerovnani-atomu-a-vazeb",
+    "title": "Průběh reakce: přeskupení atomů a vazeb",
+    "aliases": [
+      "jak probíhá chemická reakce",
+      "přeskupení atomů",
+      "zánik a vznik vazeb",
+      "co se děje při reakci",
+      "energetické změny reakce"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí průběh vybraných chemických reakcí a popíše jejich energetické změny.",
+        "quote": "Vysvětlí průběh vybraných chemických reakcí a popíše jejich energetické změny."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Co se děje při chemické reakci?",
+        "url": ""
+      },
+      {
+        "title": "Energetické změny chemických dějů",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí reakci krok za krokem a odpoví na tvoje doplňující otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Schémata a animace ukazují, jak se atomy při reakci přeskupují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Modelovací aplikace ti ukážou atomy a vazby před reakcí a po ní."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stavebnice molekul ti pomůže vytvořit z jedněch látek druhé vlastníma rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-uvolneni-nebo-spotreba-energie",
+    "title": "Reakce, které energii uvolňují nebo spotřebovávají",
+    "aliases": [
+      "exotermická reakce",
+      "endotermická reakce",
+      "teplo při reakci",
+      "hoření a fotosyntéza",
+      "kdy se energie uvolní"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladech chemických reakcí (zejména hoření, fotosyntéza, buněčné dýchání) objasní, zda se při reakci energie uvolňuje nebo spotřebovává.",
+        "quote": "Na příkladech chemických reakcí (zejména hoření, fotosyntéza, buněčné dýchání) objasní, zda se při reakci energie uvolňuje nebo spotřebovává."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Energie v chemických reakcích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi uvolněním a spotřebou energie a zkouší tě na dalších příkladech."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popisy hoření, fotosyntézy a dýchání i s tím, kam energie jde."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Jednoúčelová aplikace za tebe úvahu o energii reakce neudělá."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr při pokusu ukáže, jestli se okolí zahřívá, nebo ochlazuje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reakce-mereni-zmeny-teploty",
+    "title": "Měření změny teploty při chemickém ději",
+    "aliases": [
+      "měření teploty při pokusu",
+      "rozpouštění soli",
+      "neutralizace teplota",
+      "teploměr v chemii",
+      "zahřívá se nebo ochlazuje"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Změří změny teploty v průběhu vybraných chemických dějů (např. rozpouštění soli, rozpouštění hydroxidu, neutralizace, výparné teplo alkoholů apod.)",
+        "quote": "Změří změny teploty v průběhu vybraných chemických dějů (např. rozpouštění soli, rozpouštění hydroxidu, neutralizace, výparné teplo alkoholů apod.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Co se děje při rozpouštění soli?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jak pokus uspořádat, a pomůže ti vyložit naměřené hodnoty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš postupy pokusů a očekávané hodnoty pro porovnání."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka nebo graf v aplikaci ukáže, jak teplota v čase stoupala nebo klesala."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr měří skutečnou teplotu v kádince, což nic jiného nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8259c2c0-2749-41e2-a4a8-4a64a76eab37",
+      "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "typy-chemickych-vazeb-na-prikladech",
+    "title": "Typy chemických vazeb na příkladech",
+    "aliases": [
+      "chemická vazba",
+      "iontová vazba",
+      "kovalentní vazba",
+      "vazba v molekule",
+      "jak drží atomy pohromadě"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladech konkrétních sloučenin vysvětlí různé typy chemických vazeb.",
+        "quote": "Na příkladech konkrétních sloučenin vysvětlí různé typy chemických vazeb."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, čím se vazby liší, a vymyslí ti další sloučeniny na rozlišování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš obrázky a popisy vazeb v kuchyňské soli, vodě nebo kovech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Molekulové modely v aplikaci ukážou, jak jsou atomy navzájem spojené."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kuličkový model molekuly si prohlédneš a sestavíš vlastníma rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kolobeh-uhliku-diagram",
+    "title": "Diagram koloběhu uhlíku",
+    "aliases": [
+      "koloběh uhlíku",
+      "fotosyntéza a dýchání",
+      "oxid uhličitý v přírodě",
+      "schéma uhlíku",
+      "spalování a sedimenty"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří diagram koloběhu uhlíku s využitím pojmů: fotosyntéza, spalování, respirace (buněčné dýchání), vznik sedimentů s obsahem uhlíku, oxid uhličitý.",
+        "quote": "Vytvoří diagram koloběhu uhlíku s využitím pojmů: fotosyntéza, spalování, respirace (buněčné dýchání), vznik sedimentů s obsahem uhlíku, oxid uhličitý."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kudy uhlík putuje, a zkontroluje, jestli ti ve schématu něco nechybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové diagramy koloběhu uhlíku ti ukážou, jak se schéma dá nakreslit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace umožní schéma sestavit, přesouvat šipky a opravovat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a pastelky stačí, diagram si nakreslíš a zapamatuješ vlastní rukou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1",
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "lidske-aktivity-zvysujici-co2",
+    "title": "Lidské činnosti, které zvyšují oxid uhličitý",
+    "aliases": [
+      "co zvyšuje CO2",
+      "skleníkové plyny",
+      "spalování paliv",
+      "odlesňování",
+      "lidé a oxid uhličitý"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyjmenuje tři konkrétní lidské aktivity, které zvyšují množství oxidu uhličitého v atmosféře.",
+        "quote": "Vyjmenuje tři konkrétní lidské aktivity, které zvyšují množství oxidu uhličitého v atmosféře."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč která činnost přidává CO2, a ptá se tě na vlastní příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš údaje o zdrojích CO2, třeba doprava, výroba energie nebo zemědělství."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka uhlíkové stopy ukáže, kolik CO2 přidávají tvoje denní činnosti."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Přímo v učebnici nebo na tabuli žádný nástroj CO2 z činností nespočítá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8b4b02c-d9ce-4e24-ab43-5dd52c6dff48",
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "popis-pozorovani-pokusu-s-latkami",
+    "title": "Popis pozorování z pokusu",
+    "aliases": [
+      "popis pokusu",
+      "co jsem pozoroval",
+      "záznam z laboratoře",
+      "pozorování při reakci",
+      "protokol z pokusu"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše výsledky praktických pozorování a provedených pokusů na úrovni reagujících látek.",
+        "quote": "Popíše výsledky praktických pozorování a provedených pokusů na úrovni reagujících látek."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje tvůj popis a poradí, co k pozorování ještě doplnit."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co se stalo v tvé zkumavce, ve vyhledávači nenajdeš, to vidíš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Textový editor nebo aplikace s fotkou ti pomůže pozorování uspořádat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pozorovat barvu, bublinky nebo teplo můžeš jen očima a rukama, teploměr změnu změří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2",
+      "http://data.europa.eu/esco/skill/8259c2c0-2749-41e2-a4a8-4a64a76eab37"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

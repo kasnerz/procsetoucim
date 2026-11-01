@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "98ad0008-13d9-4e9b-94bf-4f4a5faae764": "Při dohledu nad přepravou se počítá, kolik minut a hodin cesta trvá a kdy na sebe spoje navazují. Převody mezi hodinami a minutami jsou běžná součást těchto výpočtů.",
+  "623958d6-775c-4586-b928-86582d9d1b69": "Plán produkce se skládá z časů jednotlivých kroků výroby. Hodiny, minuty a směny se při tom stále přepočítávají.",
+  "6426ada1-4d8c-4612-99e3-91bc569805ee": "Výroba se plánuje do stanoveného časového rámce, takže se přepočítává, kolik hodin a dní zabere každá část. Podle toho se pozná, jestli se termín stihne.",
+  "7f0d69cf-8b02-4a84-865a-37585dea9b43": "Při skládání programu se sčítají minuty pořadů, aby vše vyšlo do hodiny nebo večerního bloku. Vysílací čas je tu přímo to, s čím se pracuje.",
+  "91d0f74b-8612-49cc-a7da-83ee3c4b94d9": "Doby operací se měří a počítají, takže se převádí mezi sekundami, minutami a hodinami. Z toho vychází, kolik kusů se za směnu stihne vyrobit.",
+  "6e785f05-969e-4940-aedb-d0f896bb0230": "Při zpoždění nebo změně letového řádu se přepočítává, o kolik minut se let posune. Chyba v hodinách a minutách by se projevila v celém provozu.",
+  "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443": "Údržba vozidel se plánuje do harmonogramu, takže se počítá, kolik hodin a dní oprava zabere a kdy bude vůz zpět na lince.",
+  "f874980a-e08f-4a58-bc21-2ff3cf472ec5": "Pronájem se účtuje podle doby, na kterou se vůz bere, takže se přepočítávají dny a hodiny. Při vrácení o několik hodin později se musí spočítat doplatek."
+ }
+}

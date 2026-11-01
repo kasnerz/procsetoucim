@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když u postupu poznáš, co do něj vstupuje, co z něj vychází a jakou úlohu tím řeší, umíš ho použít i jinde. Hledání největšího čísla v seznamu nebo řazení podle abecedy jsou známé typy úloh a stejné postupy běží v aplikacích, které denně používáš. Lidé, kteří vyvíjejí chytrá zařízení nebo umělou inteligenci, takhle zjišťují, jestli na podobný problém už neexistuje hotové řešení. Pro většinu ostatních je to spíš trénink jasného uvažování než dovednost do práce. Chatbot ti úlohu pojmenuje, ale bez vlastního rozboru nepoznáš, jestli se trefil.",
+  "learnWithAi": [
+    {
+      "title": "Vstupy a výstupy známé aplikace",
+      "text": "Vyber si aplikaci, kterou znáš, třeba mapy nebo kalkulačku. Zapiš si, co do ní vstupuje a co z ní vychází, a nech chatbota doplnit, co ti uniklo."
+    },
+    {
+      "title": "Algoritmus bez názvu",
+      "text": "Popros chatbota o postup bez názvu a bez vysvětlení, třeba v blokovém kódu. Urči, co bere na vstupu, co vrací a jakou úlohu řeší, a teprve pak se zeptej na správnou odpověď."
+    },
+    {
+      "title": "Stejná úloha v jiném přestrojení",
+      "text": "Dej chatbotovi za úkol napsat dva postupy, které vypadají jinak, ale řeší stejný typ problému. Zkus přijít na to, co mají společného."
+    }
+  ]
+}

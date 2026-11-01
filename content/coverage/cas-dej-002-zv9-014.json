@@ -1,0 +1,104 @@
+{
+  "outcome": "CAS-DEJ-002-ZV9-014",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Absolvuje připravený edukační program v paměťové instituci nebo ve veřejném prostoru.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "navsteva-pamatky-muzea-knihovny-lokalni"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Pracuje s pomocí vyučujícího či ve skupině např. s artefakty, modely, mapami, plány, fotografiemi, audiovizuálními zdroji, digitálními aplikacemi; může hovořit s místními obyvateli.",
+      "cards": [
+        "prameny-a-pomucky-v-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vytvoří vlastní výstup (zápis do sešitu, příběh návštěvy s fotografiemi, popis vybraného artefaktu).",
+      "cards": [
+        "nacrtky-fotky-a-popis-predmetu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Absolvuje připravený edukační program v paměťové instituci nebo ve veřejném prostoru a získává informace o tom, jaké paměťové instituce existují, jaké se nacházejí v nejbližším okolí či regionu a jaké druhy pramenů uchovávají.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "navsteva-pamatky-muzea-knihovny-lokalni",
+          "pamatihodnosti-regionu-kde-bydlim"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Pracuje individuálně či ve skupině s větším množstvím např. artefaktů, modelů, map, plánů, fotografií, audiovizuálních zdrojů, digitálních aplikací; může hovořit s místními obyvateli.",
+      "cards": [
+        "prameny-a-pomucky-v-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "V paměťové instituci anebo ve veřejném prostoru se vzdělává aktivně a vytvoří vlastní výstup, např. dělá si náčrtky, fotografuje, kreslí; objekty svého bádání např. popíše, roztřídí, porovná, načrtne, zasadí do historického kontextu a vytvoří domněnky.",
+      "cards": [
+        "nacrtky-fotky-a-popis-predmetu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Znalosti a dovednosti z paměťové instituce nebo veřejného prostoru dále rozvíjí při vlastní tvorbě; výstupem není zápis faktografie do sešitu, ale zpracování vlastního vyprávění, obrazu či modelu (je přitom využit potenciál setkání s předměty či veřejným prostorem).",
+      "cards": [
+        "vlastni-vypraveni-obraz-model-minulosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Absolvuje připravený edukační program v paměťové instituci anebo ve veřejném prostoru.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "navsteva-pamatky-muzea-knihovny-lokalni"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Aktivně pracuje během celého programu: využije historické prameny a využívá samostatně nebo ve spolupráci se skupinou připravené didaktické pomůcky.",
+      "cards": [
+        "prameny-a-pomucky-v-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Využije potenciál setkání s předměty či veřejným prostorem pro tvorbu vlastního textu, obraz nebo model minulosti.",
+      "cards": [
+        "vlastni-vypraveni-obraz-model-minulosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Představí vlastní výstup po návštěvě historického místa či paměťové instituce.",
+      "cards": [
+        "predstaveni-vystupu-z-navstevy"
+      ],
+      "aside": null
+    }
+  ]
+}

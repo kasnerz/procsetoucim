@@ -1,0 +1,287 @@
+[
+  {
+    "slug": "vymezeni-mista-kde-jsem-doma",
+    "title": "Vymezení místa, kde jsem doma",
+    "aliases": [
+      "kde jsem doma",
+      "moje místo",
+      "hranice mého regionu",
+      "domov na mapě",
+      "s čím se identifikuji"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vymezí místo či region, s nímž se identifikuje",
+        "quote": "vymezí místo či region, s nímž se identifikuje"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vymezí místo či region, s nímž se identifikuje, a uvede, na základě kterých charakteristik ho vymezuje a které symboly se k němu pojí",
+        "quote": "vymezí místo či region, s nímž se identifikuje, a uvede"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Tady jsem doma",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kde se cítíš doma, víš jen ty, chatbot to za tebe neurčí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Správní hranice obce a kraje si dohledáš ve vyhledávači."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V mapách si hranice svého místa zakreslíš a porovnáš s ostatními."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa a tužka ti pomůžou obtáhnout, co je pro tebe tvůj domov."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/221a3714-9a9e-43a4-869e-184bbea5e32d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "charakteristiky-a-symboly-meho-mista",
+    "title": "Charakteristiky a symboly mého místa",
+    "aliases": [
+      "znak obce",
+      "symboly kraje",
+      "čím je místo typické",
+      "vlajka a znak",
+      "typické rysy regionu"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vymezí místo či region, s nímž se identifikuje, a uvede, na základě kterých charakteristik ho vymezuje a které symboly se k němu pojí",
+        "quote": "na základě kterých charakteristik ho vymezuje a které symboly se k němu pojí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Proč jsem tady doma",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co znamená znak nebo tradice, a co z toho je pro tebe typické, vybíráš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na stránkách obce a v encyklopedii najdeš znak, vlajku a historii."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti neřekne, které rysy místa jsou pro tebe určující."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Znak najdeš v knize, ale co ti na místě připadá typické, zjistíš jen procházkou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/221a3714-9a9e-43a4-869e-184bbea5e32d",
+      "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "proc-jsem-doma-v-komunite-a-regionu",
+    "title": "Proč patřím k místu a k lidem, kteří tam žijí",
+    "aliases": [
+      "sounáležitost",
+      "proč jsem tady doma",
+      "komunita kolem mě",
+      "patřit někam",
+      "můj region a lidé v něm"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "odůvodní, proč se identifikuje s určitou komunitou, místem a regionem",
+        "quote": "odůvodní, proč se identifikuje s určitou komunitou, místem a regionem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Proč jsem tady doma",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Své důvody znáš jen ty, chatbot ti je nevymyslí a vlastní by nebyly."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Ve vyhledávači najdeš informace o místě, ne důvody, proč k němu patříš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s pocitem sounáležitosti nepomůže, ten vzniká mezi lidmi."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Důvody si zapíšeš do sešitu, ale vymyslet je musíš ty a s ostatními je probrat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/28f98c7e-b89c-4b4d-ae0a-0c5a6328992e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prezentace-o-regionu-a-hrdosti",
+    "title": "Prezentace o mém regionu a o tom, čím je výjimečný",
+    "aliases": [
+      "prezentace o regionu",
+      "referát o kraji",
+      "vítejte v mém domově",
+      "představení mého kraje",
+      "čím se region chlubí"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří prezentaci o regionu, se kterým se identifikuje, charakterizuje, čím je pro něj jeho region významný a na co je v souvislosti s ním hrdý.",
+        "quote": "Vytvoří prezentaci o regionu, se kterým se identifikuje, charakterizuje, čím je pro něj jeho region významný a na co je v souvislosti s ním hrdý."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vítejte v mém domově",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí s osnovou prezentace a řekne, co ještě chybí, obsah vybíráš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fakta, fotky a mapy regionu najdeš na stránkách kraje a v encyklopedii."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V prezentačním programu poskládáš snímky, mapu a fotky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Plakát, fixy a vlastní fotky ti dají prezentaci bez počítače."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+      "http://data.europa.eu/esco/skill/221a3714-9a9e-43a4-869e-184bbea5e32d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "program-pro-zahranicni-navstevu",
+    "title": "Program pro zahraniční návštěvu v mém regionu",
+    "aliases": [
+      "plán výletu pro hosty",
+      "co ukázat návštěvě",
+      "prohlídka regionu",
+      "program pro hosty ze zahraničí",
+      "výlet po okolí"
+    ],
+    "outcome": "GEO-GEO-003-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Připraví program pro zahraniční návštěvu ve svém regionu.",
+        "quote": "Připraví program pro zahraniční návštěvu ve svém regionu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vítejte v mém domově",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, jak program rozvrhnout, a co do něj dáš, rozhoduješ ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Otevírací doby, ceny a spoje k místům najdeš na webu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa a plánovač spojení ukážou, kam se za hodinu dostaneš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa a turistický průvodce ti pomůžou trasu naplánovat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fa64c52c-08cf-4074-bc9b-a93075802166",
+      "http://data.europa.eu/esco/skill/761e1acc-d38b-4524-9890-6a119fb7e98c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

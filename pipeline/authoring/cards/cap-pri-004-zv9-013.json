@@ -1,0 +1,103 @@
+{
+  "outcome": "CAP-PRI-004-ZV9-013",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "clovek-a-lidoop-znaky",
+      "title": "Člověk a lidoop: společné a odlišné znaky",
+      "aliases": ["člověk a opice", "gorila a člověk", "šimpanz", "lidoopi", "čím se liším od gorily"],
+      "sources": [
+        {"level": "Splněno", "quote": "Vyjmenuje společné a odlišné znaky (morfologické, etologické) člověka a vybraného druhu lidoopa."},
+        {"level": "Na cestě", "quote": "vyjmenuje společné a odlišné znaky (morfologické, etologické, ….) mezi člověkem a ostatními lidoopi (stačí jeden druh)"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, v čem se člověk podobá lidoopovi, a ověří tvůj seznam znaků."},
+        "internet": {"verdict": "pomuze", "why": "Encyklopedie a fotky ukážou stavbu těla i chování gorily nebo šimpanze."},
+        "aplikace": {"verdict": "nepomuze", "why": "Jednoúčelová aplikace znaky člověka a lidoopa nesrovnává."},
+        "klasicky": {"verdict": "pomuze", "why": "Atlas zvířat a model kostry ukážou rozdíly ve stavbě těla."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/e286eddc-75e5-4ae3-966b-ec89c1c046ba", "http://data.europa.eu/esco/skill/f022949a-39bf-4f54-978e-3d5fa8dd19d9"],
+      "inspiration": ["O gorilách a lidech"]
+    },
+    {
+      "slug": "chovani-zvirat-a-lidi",
+      "title": "V čem se zvířata chováním podobají lidem",
+      "aliases": ["chování zvířat", "zvířata a lidé", "vlci ve smečce", "sociální hmyz", "péče o mláďata"],
+      "sources": [
+        {"level": "Splněno", "quote": "Na základě vlastního pozorování, filmu nebo textu o konkrétním živočišném druhu nebo taxonomické skupině popíše, v čem se mu naše chování podobá a čím se liší."},
+        {"level": "Na cestě", "quote": "na základě pozorování / filmů / textů o nějakém živočišném druhu (např. primáti, vlci, krkavcovití ptáci, sociální hmyz …) vyvodí v čem se jim náš život podobá a co máme naopak rozdílného (vhodné mohou být především různé etologické aspekty)"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí chování vlků nebo včel a pomůže ti porovnat ho s lidským."},
+        "internet": {"verdict": "pomuze", "why": "Dokumenty a články ukážou chování zvířat, které venku neuvidíš."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace zvíře nepozorují za tebe ani nesrovnávají s lidmi."},
+        "klasicky": {"verdict": "pomuze", "why": "Dalekohled a zápisník ti pomůžou zvíře sledovat a zapsat, co dělá."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/d33b9bd2-6dcb-4abc-b3c2-96b8983d5c97", "http://data.europa.eu/esco/skill/f022949a-39bf-4f54-978e-3d5fa8dd19d9"],
+      "inspiration": ["Hnízdění a péče o mláďata", "Partnerské vztahy ve světě zvířat", "Zvíře v nás"]
+    },
+    {
+      "slug": "rozdily-veku-a-pohlavi-u-druhu",
+      "title": "Rozdíly mezi jedinci druhu: věk a pohlaví",
+      "aliases": ["mládě a dospělý", "samec a samice", "variabilita druhu", "jak se zvíře mění s věkem"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Pozoruje a popisuje rozdíly ve vzhledu mezi různě starými jedinci daného druhu."},
+        {"level": "Na začátku", "quote": "Porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví a vnitrodruhové variabilitě."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, proč se samec liší od samice, a zkontroluje tvůj popis."},
+        "internet": {"verdict": "pomuze", "why": "Fotografie mláďat, dospělých, samců a samic najdeš v atlasech online."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace na určování druhů ukazují rozdíly podle věku a pohlaví."},
+        "klasicky": {"verdict": "pomuze", "why": "Atlas a lupa pomůžou porovnat vzhled mladých a dospělých zvířat."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/e286eddc-75e5-4ae3-966b-ec89c1c046ba", "http://data.europa.eu/esco/skill/a07a5d41-add0-4d0f-ad01-718d39554be8"],
+      "inspiration": []
+    },
+    {
+      "slug": "nazor-na-zachazeni-se-zviraty",
+      "title": "Názor na zacházení lidí se zvířaty",
+      "aliases": ["velkochovy", "pokusy na zvířatech", "dostihy", "práva zvířat", "jak se zachází se zvířaty"],
+      "sources": [
+        {"level": "Splněno", "quote": "Formuluje názor na vybranou otázku týkající se zacházení lidí s živočichy a svůj názor podepře konkrétními argumenty a příklady."},
+        {"level": "Na cestě", "quote": "formuluje názor na vybranou otázku týkající se zacházení lidí s živočichy a svůj názor podepře konkrétními argumenty a příklady (např. velkochovy, pokusy na zvířatech, dostihy, …)"}
+      ],
+      "rules": ["P1", "P2", "P4", "P5"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ukáže argumenty pro i proti a najde slabá místa v tom, co říkáš."},
+        "internet": {"verdict": "pomuze", "why": "Články, zprávy a čísla ti dají fakta, o která svůj názor opřeš."},
+        "aplikace": {"verdict": "nepomuze", "why": "Názor si vytváříš ty, žádná aplikace ti ho neposkládá."},
+        "klasicky": {"verdict": "nepomuze", "why": "svůj názor si utvoříš v hlavě, žádný nástroj ti ho nedá."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/4e6cfb60-9579-4822-8a5e-424bc0c8835c", "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22"],
+      "inspiration": ["Chování vs. chov slepic a králíků"]
+    },
+    {
+      "slug": "diskuse-o-vyuzivani-zvirat",
+      "title": "Diskuse o využívání zvířat lidmi",
+      "aliases": ["etická diskuse", "naslouchat v debatě", "kompromis", "debata o zvířatech"],
+      "sources": [
+        {"level": "Splněno", "quote": "V diskusi o etické stránce využívání živočichů lidmi aktivně naslouchá názorům ostatních a navrhuje možná řešení zohledňující postoje různých stran."},
+        {"level": "Na cestě", "quote": "v diskuzi o etické stránce využívání živočichů lidmi aktivně naslouchá názorům ostatních a navrhuje možná řešení zohledňující postoje různých stran"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Můžeš si s ním nacvičit debatu a vyzkoušet, jaké řešení by napadlo druhou stranu."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš v něm postoje chovatelů, vědců i ochránců zvířat."},
+        "aplikace": {"verdict": "nepomuze", "why": "Poslouchat spolužáky a hledat s nimi dohodu aplikace nezvládnou."},
+        "klasicky": {"verdict": "nepomuze", "why": "Poslouchat druhé a hledat dohodu se žádným nástrojem nenaučíš."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/4e6cfb60-9579-4822-8a5e-424bc0c8835c", "http://data.europa.eu/esco/skill/f806d624-7700-4e47-9f7b-253d4d6ab9e5"],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Pojmenovává shody a rozdíly", "code": "O3", "refs": []},
+    {"level": "Na začátku", "start": "Vyvozuje vlastnosti společné", "code": "O1", "refs": ["spolecne-vlastnosti-skupiny"]}
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "outcome": "INF-INF-001-ZV9-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "inf-vymezeni-problemu-pro-model",
+      "title": "Vymezení problému před modelováním",
+      "aliases": [
+        "co vlastně řeším",
+        "zadání problému",
+        "jaké informace potřebuji",
+        "k čemu model slouží",
+        "formulace problému"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zorientuje se v dané situaci a z různých možností zvolí takové (dostatečně přesné, podrobné, jednoznačné) vymezení problému, aby bylo možné ho účinně řešit."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vymezí problém: určí jaké informace bude potřebovat k řešení problému, vysvětlí zamýšlený účel modelu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se ptá, co přesně řešíš a co k tomu potřebuješ vědět, a pomůže ti zadání zpřesnit."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co potřebuješ vědět, zjistíš z úlohy a ze situace, ne z vyhledávače."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti zadání nevymezí, o problému rozhoduješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka zadání nevymezí, pomůžou až při zápisu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109",
+        "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+      ],
+      "inspiration": [
+        "Letenky a nejlevnější výlet"
+      ]
+    },
+    {
+      "slug": "inf-volba-typu-modelu",
+      "title": "Volba typu modelu a co v něm co znamená",
+      "aliases": [
+        "jaký graf zvolit",
+        "schéma nebo tabulka",
+        "čára je silnice",
+        "bod je křižovatka",
+        "důležité a nedůležité prvky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Navrhne model: určí důležité a nedůležité prvky, souvislosti a vztahy, vybere z možností, jak situaci modelovat (např. typ grafu), vysvětlí korespondenci situace a modelu (např. čára je silnice, bod je křižovatka)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí, k čemu je který typ grafu nebo schématu, a zeptá se, proč volíš právě ten."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu příklady grafů a schémat a uvidíš, na jaké situace se hodí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti jen nabídnou hotové šablony, který typ sedí na tvůj problém, určuješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír typ modelu nevyberou, pomůžou až s kreslením."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bf59255e-782a-4e83-a93c-6055cfdd8e7f",
+        "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513"
+      ],
+      "inspiration": [
+        "Navrhni tramvajovou trasu"
+      ]
+    },
+    {
+      "slug": "inf-tvorba-modelu",
+      "title": "Tvorba modelu: objekty, vztahy, přehlednost",
+      "aliases": [
+        "nakreslit model",
+        "myšlenková mapa",
+        "schéma v aplikaci",
+        "uspořádat přehledně",
+        "graf na papír"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vytvoří model: vloží objekty, vyznačí vztahy, uspořádá přehledně."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vytvoří model: vybere technologii (např. papír, aplikaci), vloží objekty, vyznačí vztahy, uspořádá přehledně."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Objekty skládáš a spojuješ ty, chatbot ti model nepostaví, ani kdyby ho popsal."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Vyhledávač tvůj vlastní model nevytvoří."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí a schématické aplikace ti dají objekty, šipky a přesouvání, takže model snadno upravíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, pravítko a tužka stačí na schéma nebo graf a model držíš před sebou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bf59255e-782a-4e83-a93c-6055cfdd8e7f",
+        "http://data.europa.eu/esco/skill/50373f03-3e81-4d2e-99c6-d0f2ff42b138"
+      ],
+      "inspiration": [
+        "Spolužáci"
+      ]
+    },
+    {
+      "slug": "inf-kontrola-modelu-vuci-problemu",
+      "title": "Kontrola, jestli model řeší problém",
+      "aliases": [
+        "nic nechybí a nepřebývá",
+        "sedí model k zadání",
+        "chybí data",
+        "ověření modelu",
+        "zkouška modelu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Ověří, zda model dobře řeší problém: zhodnotí, zda jsou v modelu všechna data potřebná k řešení problému, posoudí, zda výsledný model odpovídá formulovaným potřebám."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zkontroluje, že v modelu nic nechybí a nepřebývá a že model odpovídá zamýšlenému účelu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot projde tvůj popis modelu proti zadání a upozorní na data, která chybí nebo jsou navíc."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Vyhledávač tvůj model s tvým zadáním nesrovná."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace zkontrolují pravopis nebo vzorec, ne to, jestli model sedí k problému."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani papír nepoznají, že v modelu něco chybí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8",
+        "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "inf-porovnani-modelu-stejneho-problemu",
+      "title": "Porovnání modelů téhož problému",
+      "aliases": [
+        "který model je lepší",
+        "dva různé modely",
+        "zdůvodnit volbu",
+        "srovnání schémat",
+        "výběr lepšího modelu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovná svůj navržený model s jinými modely k řešení stejného problému, vybere vhodnější, svou volbu zdůvodní"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti k oběma modelům řekne, v čem je který přehlednější, a ty si z toho vybereš a zdůvodníš to."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové modely tvého problému ve vyhledávači nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace modely nesrovnají, o výběru rozhoduješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka srovnání neudělají, jen ho umožní, když modely nakreslíš vedle sebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cb304338-3a44-4b6f-802b-dfc6c64de109",
+        "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "inf-oprava-a-doplneni-modelu",
+      "title": "Oprava chyb a doplnění modelu",
+      "aliases": [
+        "najít chybu v modelu",
+        "opravit schéma",
+        "doplnit informace",
+        "vylepšit model",
+        "přepracovat graf"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Nachází a opravuje chyby, doplňuje informace."
+        },
+        {
+          "level": "Splněno",
+          "quote": "nachází a opravuje chyby, doplňuje informace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí, co v popisu modelu nesedí, a poradí, co doplnit, opravuješ ale ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Vyhledávač chyby v tvém modelu nenajde."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "V kreslicí nebo schématické aplikaci šipku nebo objekt snadno přesuneš, smažeš a doplníš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Gumou a tužkou model opravíš a doplníš přímo na papíře."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bf59255e-782a-4e83-a93c-6055cfdd8e7f",
+        "http://data.europa.eu/esco/skill/c0326e27-5fa8-4dca-aecb-ed89ab491513"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Používá grafické znázornění",
+      "code": "O1",
+      "refs": [
+        "inf-nakres-situace-jako-model"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Rozpozná více prvků situace",
+      "code": "O1",
+      "refs": [
+        "podstatne-prvky-situace-pozorovani"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Určí a popíše různé typy vztahů",
+      "code": "O1",
+      "refs": [
+        "vztahy-mezi-prvky-situace",
+        "inf-vztahy-mezi-prvky"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zvolí vhodný způsob znázornění",
+      "code": "O1",
+      "refs": [
+        "volba-zpusobu-znazorneni"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Popíše účel modelu",
+      "code": "O1",
+      "refs": [
+        "inf-prvky-a-znacky-modelu"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zpřesní znázornění situace",
+      "code": "O1",
+      "refs": [
+        "nakres-situace-oprava"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zhodnotí, jak různé způsoby",
+      "code": "O1",
+      "refs": [
+        "hodnoceni-znazorneni-problemu"
+      ]
+    }
+  ]
+}

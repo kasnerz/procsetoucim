@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Na teploměru nebo odměrném válci je hodnota málokdy přesně na očíslované čárce. Proto se učíš zjistit, kolik znamená jeden dílek, a odhadnout hodnotu i mezi dílky. Doma se to hodí u kuchyňské váhy nebo u ručičkového tlakoměru na pumpě, v práci u lidí, kteří odečítají měřidla, seřizují stroje nebo kontrolují přesné přístroje. Takových lidí je zhruba 7 % ze všech, kdo v Česku pracují. Chatbot ani vyhledávač tvůj přístroj nevidí, takže stupnici musíš umět přečíst ty, i u přístroje, který držíš poprvé.",
+  "learnWithAi": [
+    {
+      "title": "Hodnota jednoho dílku",
+      "text": "Když nevíš, jak se počítá hodnota jednoho dílku, nech si ji od chatbota vysvětlit na příkladu pravítka. Vyzkoušej to hned na úhloměru nebo kuchyňské váze."
+    },
+    {
+      "title": "Stupnice popsaná slovy",
+      "text": "Řekni si o slovní popis stupnice, třeba od 0 do 50 s pěti dílky mezi čísly, a o místo, kde stojí ručička. Spočítej hodnotu a nech si ji zkontrolovat."
+    },
+    {
+      "title": "Fotka teploměru",
+      "text": "Vyfoť teploměr nebo odměrku, přečti hodnotu a zeptej se chatbota, co z fotky vyčte on. Když se lišíte, podívej se znovu na přístroj, z fotky se chatbot může splést."
+    }
+  ]
+}

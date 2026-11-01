@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Vennův diagram ukáže na jednom obrázku, co mají dva nebo tři vzorky společného a čím se liší, a je přehlednější než dlouhý odstavec. Naučíš se ho na minerálech, stejně dobře ale poslouží při srovnání zvířat nebo dvou knih v češtině. Tabulky a diagramy se používají všude, kde se porovnávají vzorky, třeba z geologických vrtů, a kde je potřeba udělat pořádek v hromadě údajů. Diagram nakreslíš klidně tužkou, program ho udělá hezčí, ale rozhodnout, který znak kam patří, musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Trénink na jiných tématech",
+      "text": "Požádej o vlastnosti dvou zvířat nebo dvou planet a sestav z nich Vennův diagram. Chatbotovi ho popiš slovy a nech si ho zkontrolovat."
+    },
+    {
+      "title": "Kontrola zařazení znaků",
+      "text": "Napiš chatbotovi, jak máš znaky minerálů rozdělené v diagramu, a ať ti řekne, který je podle něj na špatném místě. Rozhodni, jestli má pravdu."
+    },
+    {
+      "title": "Závěr z hotového diagramu",
+      "text": "Shrň svůj diagram do dvou vět o tom, co z něj plyne, a nech chatbota posoudit, jestli to z diagramu opravdu vyplývá."
+    }
+  ]
+}

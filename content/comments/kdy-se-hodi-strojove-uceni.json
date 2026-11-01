@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Strojové učení se hodí tam, kde máš spoustu příkladů a pravidlo neumíš jednoduše sepsat, třeba poznat kočku na fotce nebo odhalit podvodný e-mail. Kde stačí jasný postup, například spočítat cenu nákupu, je obyčejný program spolehlivější i levnější. Kdo tohle umí rozlišit, nenaletí reklamám na „chytré“ výrobky a líp chápe, proč se umělá inteligence občas plete. Na takovém rozhodnutí stojí práce lidí, kteří vyvíjejí počítačové vidění nebo chytrá zařízení pro domácnosti a továrny, a takových míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Hádanka model, nebo pravidlo",
+      "text": "Požádej chatbota o deset úloh z běžného života a u každé rozhodni, jestli by ji líp zvládlo strojové učení, nebo pevný postup. Své zdůvodnění pak porovnej s jeho."
+    },
+    {
+      "title": "Reklamy na chytré výrobky",
+      "text": "Najdi tři výrobky, které se chlubí umělou inteligencí, a zeptej se chatbota, co by v nich strojové učení mohlo dělat. Rozhodni, kde to dává smysl a kde jde jen o reklamu."
+    },
+    {
+      "title": "Obhajoba vlastní volby",
+      "text": "Vyber si úlohu, třeba třídění fotek ze školního výletu, a napiš, proč by se na ni strojové učení hodilo, nebo nehodilo. Chatbot ať ve tvém zdůvodnění hledá slabá místa."
+    }
+  ]
+}

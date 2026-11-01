@@ -1,0 +1,595 @@
+{
+  "outcome": "CZB-VZB-004-ZV9-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "varovne-signaly-sirena",
+      "title": "Varovné signály: Všeobecná výstraha, Požární poplach, Zkouška sirén",
+      "aliases": [
+        "siréna",
+        "varovný signál",
+        "všeobecná výstraha",
+        "požární poplach",
+        "zkouška sirén"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozliší varovný signál Všeobecná výstraha a další signály Požární poplach a Zkouška sirén"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozezná varovný signál „Všeobecná výstraha“, další signály Požární poplach a Zkouška sirén a vysvětlí, k čemu slouží."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu který signál slouží, a vymyslí ti otázky na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Oficiální stránky mají ukázky zvuku, takže signály poznáš sluchem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tě upozorní, ale signály rozeznáváš sluchem ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Sirénu v tichu třídy nenahradí žádný nástroj, poznat ji musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+        "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+      ]
+    },
+    {
+      "slug": "postup-pri-vseobecne-vystraze-a-ukryti",
+      "title": "Postup při Všeobecné výstraze a ukrytí",
+      "aliases": [
+        "ukrytí",
+        "co dělat při siréně",
+        "všeobecná výstraha",
+        "ukrýt se",
+        "varování obyvatel"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "předvede v modelové situaci základní postupy jednání v případě zaznění varovného signálu Všeobecná výstraha"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uplatňuje v modelové situaci zásady správného ukrytí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí zásady ukrytí a prověří tě na modelových situacích."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pokyny pro obyvatele jsou na stránkách složek záchranného systému."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Ukrýt se musíš ty, aplikace ti v tu chvíli místo nenajde."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Rádio na baterie předá pokyny, i když nejede proud."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+        "http://data.europa.eu/esco/skill/e43cb15d-b48c-43f9-a995-0dfd87b903b9"
+      ],
+      "inspiration": [
+        "Bezpečně při mimořádných událostech"
+      ]
+    },
+    {
+      "slug": "cisla-tisnoveho-volani",
+      "title": "Čísla tísňového volání",
+      "aliases": [
+        "158",
+        "150",
+        "155",
+        "112",
+        "tísňová linka",
+        "záchranka",
+        "hasiči"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvede čísla linek tísňového volání (158, 150, 155, 112)"
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti vymyslet si vlastní pomůcku a zkouší tě z čísel."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam čísel i toho, komu se které dovolá, najdeš na stránkách složek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace pro tísňové volání zná čísla a při volání pošle polohu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Čísla musíš mít v hlavě ty, i když nebude po ruce nic jiného."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e"
+      ],
+      "inspiration": [
+        "Ohlášení mimořádné události"
+      ]
+    },
+    {
+      "slug": "slozky-integrovaneho-zachranneho-systemu",
+      "title": "Složky Integrovaného záchranného systému",
+      "aliases": [
+        "IZS",
+        "policie",
+        "hasiči",
+        "záchranná služba",
+        "HZS",
+        "spolupráce záchranářů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "charakterizuje základní úkoly složek Integrovaného záchranného systému"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "charakterizuje základní úkoly složek Integrovaného záchranného systému"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyhledává informace o účasti jednotlivých složek IZS při mimořádných událostech, popisuje okolnosti a rizika konkrétních zásahů, diskutuje formy spolupráce složek IZS"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše činnost a vzájemnou spolupráci složek Integrovaného záchranného systému."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí úkoly policie, hasičů a záchranky a dá příklady jejich spolupráce."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Popisy složek a zprávy o zásazích dohledáš na jejich stránkách."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace úkoly složek nevysvětlí, ty si je musíš zapamatovat."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k úkolům složek nic nenabízí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e",
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453"
+      ],
+      "inspiration": [
+        "Integrovaný záchranný systém"
+      ]
+    },
+    {
+      "slug": "priklady-mimoradnych-udalosti",
+      "title": "Příklady mimořádných událostí, jejich příčiny a následky",
+      "aliases": [
+        "povodeň",
+        "požár",
+        "havárie",
+        "bouřka",
+        "dopravní nehoda",
+        "mimořádná událost"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvádí příklady mimořádných událostí, diskutuje o jejich příčinách a následcích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne ti další příklady a vysvětlí, co se stalo a proč."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy o skutečných událostech a jejich následcích najdeš na internetu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti příčiny a následky nerozebere, o nich diskutuješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k diskusi o příčinách nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+        "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+      ],
+      "inspiration": [
+        "Dopravní nehoda",
+        "Bouřka"
+      ]
+    },
+    {
+      "slug": "ohlaseni-mimoradne-udalosti-operatorovi",
+      "title": "Ohlášení mimořádné události operátorovi",
+      "aliases": [
+        "zavolat 112",
+        "tísňové volání",
+        "operátor linky",
+        "ohlásit nehodu",
+        "kde se to stalo"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Předvede komunikaci s operátorem tísňové linky při ohlášení mimořádné události."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozpoznává v modelových situacích vznik mimořádné události, srozumitelně ji ohlásí, včetně lokalizace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje operátora a ty si s ním nanečisto procvičíš, co říct."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Návod si přečteš, ale hlásit musíš ty vlastním hlasem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace pro tísňové volání při hovoru pošle záchranářům tvou polohu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Hovor s operátorem vedeš ty, žádný nástroj ho za tebe nevede."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3b6834bd-b781-4dc6-b8c3-3fa74b865120",
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e"
+      ],
+      "inspiration": [
+        "Ohlášení mimořádné události"
+      ]
+    },
+    {
+      "slug": "zneuziti-tisnove-linky",
+      "title": "Právní důsledky zneužití tísňové linky",
+      "aliases": [
+        "falešný poplach",
+        "zbytečné volání",
+        "trest za volání na 112",
+        "kam volat"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí právní důsledky zneužití volání na tísňovou linku."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč a jak je zneužití linky postižitelné."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Co za zneužití hrozí, si ověříš v zákonech a na stránkách složek."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti důsledky nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k právním důsledkům nic nenabízí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e"
+      ]
+    },
+    {
+      "slug": "improvizovana-ochrana",
+      "title": "Rozhodnutí o použití improvizované ochrany",
+      "aliases": [
+        "ochrana dýchacích cest",
+        "mokrý šátek",
+        "improvizovaná ochrana",
+        "rouška",
+        "ochrana před zplodinami"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozhoduje, kdy použít prostředky individuální/improvizované ochrany"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, kdy se který způsob ochrany hodí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Rady, jak se improvizovaně chránit, najdeš na stránkách složek."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Rozhodnout se v nebezpečí musíš ty, aplikace to neudělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vybrat a použít improvizovanou ochranu musíš ty rukama."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+        "http://data.europa.eu/esco/skill/e43cb15d-b48c-43f9-a995-0dfd87b903b9"
+      ]
+    },
+    {
+      "slug": "evakuace-z-domova",
+      "title": "Evakuace z domova a rizika odmítnutí",
+      "aliases": [
+        "nařízená evakuace",
+        "opustit byt",
+        "opuštění domu",
+        "co dělat při evakuaci"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "popíše bezpečný odchod z domova při nařízené evakuaci"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "prezentuje v modelových situacích bezpečný postup při evakuaci (aplikuje zásady nařízené evakuace, opuštění domu/bytu)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Shrne rizika nerespektování výzvy k evakuaci."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí postup odchodu z domova a rizika, když evakuaci nedodržíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zásady evakuace jsou popsané na stránkách záchranných složek."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Z bytu odcházíš ty, aplikace tě nevyvede."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Odchod z domova se nedá nacvičit žádným nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511",
+        "http://data.europa.eu/esco/skill/17894c11-a75e-4356-898f-feca10395d65"
+      ],
+      "inspiration": [
+        "Bezpečně při mimořádných událostech"
+      ]
+    },
+    {
+      "slug": "evakuace-skoly",
+      "title": "Evakuace školy",
+      "aliases": [
+        "požární poplach ve škole",
+        "cvičná evakuace",
+        "evakuační plán školy",
+        "opustit školu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "při modelové evakuaci školy postupuje podle naučených postupů"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "postupuje při modelové evakuaci školy dle naučených postupů a zdůvodňuje význam dodržování těchto postupů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Chatbot školu neevakuuje, postup nacvičuješ ve škole ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Znát cestu ven se naučíš na místě, ne z textu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace při evakuaci školy nic nedělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na evakuaci ve třídě pomůže jen nacvičený postup."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511",
+        "http://data.europa.eu/esco/skill/a7b9e3cd-cd39-4ea1-b617-3f5b651fd535"
+      ]
+    },
+    {
+      "slug": "evakuacni-zavazadlo",
+      "title": "Evakuační zavazadlo",
+      "aliases": [
+        "evakuační batoh",
+        "zavazadlo",
+        "co sbalit",
+        "krizový kufr",
+        "nouzový batoh"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vybere, co patří do evakuačního zavazadla"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "určuje, co patří do evakuačního zavazadla, a svůj výběr zdůvodňuje"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Určí a zdůvodní obsah evakuačního zavazadla."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, co do zavazadla patří, a proč."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Doporučené seznamy věcí najdeš na stránkách složek."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Zavazadlo sbalíš ty, aplikace ti věci nepřipraví."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový seznam odškrtáváš při balení."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511",
+        "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+      ]
+    },
+    {
+      "slug": "pravidla-preziti-svepomoci",
+      "title": "Pravidla přežití svépomocí",
+      "aliases": [
+        "přežití",
+        "nouze",
+        "co dělat bez pomoci",
+        "pomoc v nouzi",
+        "svépomoc"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí, jak podle okolností aplikuje pravidla přežití svépomocí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí zásady svépomoci a procvičí je na modelových situacích."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zásady přežití do příjezdu pomoci jsou popsané na stránkách složek."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe svépomoc nezvládne, ve chvíli nouze rozhoduješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozhodnout a jednat musíš ty, nástroj ti nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e43cb15d-b48c-43f9-a995-0dfd87b903b9",
+        "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Uplatňuje v modelových situacích vhodné ",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

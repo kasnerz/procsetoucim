@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "f2b15a0e-e65a-438a-affb-29b9d50b77d1": "Chyby v programech často vznikají na hranici podmínek, třeba když se zamění menší a menší nebo rovno. Při psaní a čtení kódu se na taková místa dává pozor.",
+  "6e5ceba0-df96-465f-adb4-2e06ae715d43": "Chyba v podmínce nebo v ukončení cyklu může stroj zastavit nebo poškodit výrobek. Proto se takové body v programu kontrolují zvlášť, hlavně při zkušebním provozu.",
+  "4874fa37-0cd1-4a68-aed8-a838851f242d": "Při programování rozboru textů se často řeší výjimky, závorky a podmínky. Kdo to dělá, všímá si míst, kde se postup může chovat jinak, než se čeká.",
+  "68d973df-bf10-4bf7-9a1b-fbd9f604b9db": "V programech na biologická data stačí jedna špatná nerovnost, aby se výsledky posunuly. Při kontrole se proto zvlášť čtou podmínky a hranice.",
+  "c3b82711-273d-4fa8-8de7-0ac3d99c16fc": "Studenti programování dělají chyby hlavně u podmínek a cyklů. Kdo učí, na tyhle místa upozorňuje a ukazuje, jak je poznat v cizím kódu.",
+  "dc8ef7da-d2c0-4474-96a0-6d0385eeec1e": "Při úpravě skriptů na webu je potřeba hlídat podmínky a odkazy na jiné části kódu. Programování tu ale tvoří jen část práce vedle správy serveru.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Citlivá místa algoritmu se v instruktážních materiálech řeší jen občas, třeba u interaktivních cvičení s podmínkami. Většinu práce tvoří psaní a návrh obsahu.",
+  "62979364-6fac-41f2-87ca-202bca19a6ab": "Zřídka se tu pracuje s kódem, takže citlivá místa algoritmu nejsou důležitá. Při práci v CAD se hlídají spíš rozměry a materiál, ne podmínky v programu."
+ }
+}

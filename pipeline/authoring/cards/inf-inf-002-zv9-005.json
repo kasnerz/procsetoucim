@@ -1,0 +1,341 @@
+{
+  "outcome": "INF-INF-002-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "cteni-algoritmu-v-ruznych-zapisech",
+      "title": "Čtení algoritmu v různých zápisech",
+      "aliases": [
+        "zápis algoritmu",
+        "vývojový diagram",
+        "zdrojový kód",
+        "blokový kód",
+        "postup slovy"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Seznamuje se s různými možnostmi zápisu algoritmu (popis běžnou řečí, posloupnost symbolů, rozličné diagramy, blokové nebo jednoduché textové zdrojové kódy programů)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Seznamuje se s různými možnostmi zápisu algoritmu (popis běžnou řečí, posloupnost symbolů, rozličné diagramy, blokové nebo jednoduché textové zdrojové kódy programů)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co znamená příkaz nebo značka v diagramu, a ukáže stejný postup v jiném zápisu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky vývojových diagramů a jednoduchého kódu najdeš v učebnicích a na výukových webech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Blokové programovací prostředí ukáže postup jako skládačku a hned ho spustí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka zápis jen nesou, číst a porovnávat ho musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+        "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+      ],
+      "inspiration": [
+        "Základy práce s algoritmy"
+      ]
+    },
+    {
+      "slug": "provedeni-algoritmu-krok-za-krokem",
+      "title": "Provedení algoritmu krok za krokem",
+      "aliases": [
+        "sledování algoritmu",
+        "projít algoritmus",
+        "stopování",
+        "kontrola kroků"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Sleduje provedení algoritmů a kontroluje, jak jednotlivé kroky odpovídají zápisu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou postup po krocích a upozorní, kde krok neodpovídá zápisu."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotový výpis kroků ti nepomůže, krok po kroku musíš postup provést ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Ladicí nástroj programu ukazuje, který krok se právě provádí a jaké jsou hodnoty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tužka a tabulka hodnot ti dovolí každý krok zapsat a zkontrolovat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+        "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "predvidani-vysledku-algoritmu",
+      "title": "Předvídání výsledku na různých vstupech",
+      "aliases": [
+        "odhad výsledku algoritmu",
+        "zkoušení vstupů",
+        "co platí vždy",
+        "zobecnění"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Předvídá výsledky částí i celého algoritmu, provádí algoritmus na různých příkladech vstupů a zobecňuje svá pozorování, co o algoritmu platí za určitých podmínek, co vždy."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Sleduje provedení algoritmů a kontroluje, jak jednotlivé kroky odpovídají zápisu, učí se odhadovat výsledky jednotlivých kroků nebo delších sekvencí, zobecňuje svá pozorování (co daný krok nebo příkaz dělá někdy, co za jakých podmínek, co dělá nutně vždycky)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zadá ti vstupy k vyzkoušení a zkontroluje, jestli tvůj odhad výsledku sedí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Odhad a zobecnění vznikají v tvé hlavě, ve vyhledávači je nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Spuštěním programu na různých vstupech ověříš, jestli odhad vyšel."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tužka a papír ti pomůžou vyzkoušet několik vstupů a zapsat, co mají společného."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+        "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "citliva-mista-algoritmu",
+      "title": "Citlivá místa algoritmu",
+      "aliases": [
+        "ostrá a neostrá nerovnost",
+        "podmínka cyklu",
+        "závorky v kódu",
+        "chyby v algoritmu",
+        "logické operátory"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pozorně interpretuje typická citlivá místa algoritmu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozpoznává typická citlivá místa algoritmu (ne/ostré nerovnosti, odkazy na jiné části algoritmu, poprvé použité hodnoty, logické operátory, závorky, ukončovací podmínky cyklů...)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, kde se v kódu často chybuje, třeba u nerovnosti nebo ukončení cyklu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy typických chyb v cyklech a podmínkách najdeš v tutoriálech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Spuštění programu s hraničními hodnotami odhalí chybu o jedničku."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír chybné místo neoznačí, musíš ho najít ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+        "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "komentare-a-nepochopeni-v-algoritmu",
+      "title": "Komentáře a hledání nepochopeného místa",
+      "aliases": [
+        "komentář v kódu",
+        "čemu nerozumím",
+        "špatné pochopení",
+        "vysvětlení kódu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Identifikuje části algoritmu, kterým nerozumí, zjišťuje zamýšlený význam a hledá příčiny nepochopení, využívá komentáře k algoritmu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Učí se číst komentáře a rozumět jim, všímá si míst, kterým porozuměl špatně, hledá příčinu nepochopení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí nejasný řádek jinými slovy a ukáže, kde se dá vyložit špatně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Dokumentace a ukázkové programy vysvětlují, co příkazy znamenají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepozná, které místo ti nedává smysl."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír ani tužka nezjistí, kde je tvé nepochopení."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+        "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "problem-vstupy-a-vystupy-algoritmu",
+      "title": "Co algoritmus řeší: vstupy, výstupy a typ problému",
+      "aliases": [
+        "jaký problém řeší algoritmus",
+        "vstup a výstup",
+        "k čemu je postup",
+        "druh úlohy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popisuje vstupy, výstupy a jejich vztahy, určuje, jaký typ problému řeší algoritmus jako celek."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Po přečtení jednotlivých kroků algoritmu z činnosti, se kterou se již opakovaně setkal, určí problém, který je algoritmem řešen."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pojmenuje, jakou úlohu postup řeší, a ty můžeš svůj závěr porovnat s jeho."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Názvy známých algoritmů, třeba hledání největšího prvku, najdeš v encyklopedii."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Program kroky provede, ale co řeší, musíš určit ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka tuto otázku za tebe nezodpoví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+        "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+      ],
+      "inspiration": [
+        "Analýza algoritmu"
+      ]
+    },
+    {
+      "slug": "algoritmy-se-skrytym-vztahem-vstupu-a-vystupu",
+      "title": "Algoritmy, kde výsledek není z kroků vidět",
+      "aliases": [
+        "největší společný dělitel",
+        "euklidův algoritmus",
+        "skrytý smysl algoritmu",
+        "jak to funguje"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Pracuje s algoritmy, které zřetelně a přímočaře vedou k cíli (např. nakreslení ornamentu hvězdy), učí se pracovat s takovými, kde vztah vstupu a výstupu není z kroků algoritmu vidět přímo (např. hledání největšího společného dělitele)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde postup na číslech a vysvětlí, proč nakonec vyjde největší společný dělitel."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Popis Euklidova algoritmu s příklady najdeš v encyklopedii a v učebnicích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Program postup spustí na tvých číslech, takže můžeš výsledek porovnat s odhadem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tužkou a papírem postup vyzkoušíš na několika dvojicích čísel."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+        "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+      ],
+      "inspiration": [
+        "Dělitelnost"
+      ]
+    }
+  ],
+  "aside": []
+}

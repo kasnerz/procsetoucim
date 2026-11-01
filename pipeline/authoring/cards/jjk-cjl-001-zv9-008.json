@@ -1,0 +1,460 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "email-a-elektronicka-zprava",
+      "title": "E-mail a jiné elektronické zprávy",
+      "aliases": [
+        "psaní e-mailu",
+        "email",
+        "zpráva",
+        "oslovení a rozloučení",
+        "předmět e-mailu"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Napíše e-mail anebo jinou elektronickou zprávu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "napíše e-mail nebo jinou elektronickou zprávu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže vzor e-mailu a poradí, jak ho zdvořile začít a skončit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzory e-mailů a zásady slušného oslovení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "E-mailový program ukáže adresáta, předmět a kontrolu příloh."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejný papír a pravítko zprávu nenapíšou, tu píšeš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ec0bbf39-0edd-4015-a2c3-82ad563ce3a8",
+        "http://data.europa.eu/esco/skill/cf310cff-0d28-4dbc-9dbb-cc500a3196c2"
+      ]
+    },
+    {
+      "slug": "cteni-textu-na-obrazovce",
+      "title": "Čtení delšího textu na obrazovce",
+      "aliases": [
+        "čtení z mobilu",
+        "elektronická kniha",
+        "čtení na počítači",
+        "online text",
+        "e-kniha"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "přečte přiměřeně rozsáhlý text v elektronické podobě"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí slova a místa, kterým při čtení nerozumíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník a encyklopedie ti objasní neznámé pojmy v textu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Čtečka e-knih zvětší písmo a si pamatuje, kde čtení skončilo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Přečtení textu obyčejné nástroje neusnadní, čteš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+      ]
+    },
+    {
+      "slug": "hledani-informace-vyhledavacem",
+      "title": "Hledání informace vyhledávačem",
+      "aliases": [
+        "googlení",
+        "vyhledávání na internetu",
+        "klíčová slova",
+        "najít informaci",
+        "hledání v knihách"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "pomocí vyhledávače zjistí přímo vyjádřenou informaci v tištěných i elektronických zdrojích"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak položit dotaz a jaká klíčová slova zkusit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač a katalog knihovny ti ukážou, kde informaci hledat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace knihovny a prohlížeč umí hledat v textu podle slov."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Rejstřík a obsah v tištěné knize ti ukážou stránku s informací."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2",
+        "http://data.europa.eu/esco/skill/f8d30e1d-baa7-4d35-b9f4-df7e1650396e"
+      ],
+      "inspiration": [
+        "Informační zdroje k tvorbě textu"
+      ]
+    },
+    {
+      "slug": "poznamky-z-webu-videi-a-podcastu",
+      "title": "Poznámky z webu, videa a podcastu",
+      "aliases": [
+        "zápis z videa",
+        "poznámky z podcastu",
+        "výpisky",
+        "zpracování videa do textu",
+        "audiokniha"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "z webových stránek a videí zpracuje písemný záznam"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Získává informace z prvků typických pro online prostředí (multimediální obsah z e-knih, podcastů, audioknih, sociálních sítí…) a interpretuje je."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Z tvého zápisu pozná, co ti chybí, a ptá se na souvislosti."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš přepis videa nebo podcastu a můžeš si zkontrolovat poznámky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Přehrávač umí zpomalit, vracet a zastavit záznam, aby šlo stíhat psaní."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Sešit a tužka jsou rychlé na zápis klíčových slov při poslechu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f8d30e1d-baa7-4d35-b9f4-df7e1650396e"
+      ],
+      "inspiration": [
+        "Informační zdroje ke tvorbě textu - zapisování poznámek z podcastu"
+      ]
+    },
+    {
+      "slug": "zdroje-do-textu-nebo-prezentace",
+      "title": "Informace z více zdrojů do vlastního textu nebo prezentace",
+      "aliases": [
+        "referát",
+        "prezentace",
+        "slohová práce",
+        "zpracování informací",
+        "projekt do školy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zpracovává informace z různých zdrojů do textového editoru nebo prezentace"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Využívá je pro vlastní tvorbu, přičemž užívá zásady pro grafickou úpravu textů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže poskládat osnovu a navrhne, jak spojit poznatky ze zdrojů."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Nabídne zdroje a vzorové prezentace, ze kterých se můžeš učit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Textový editor a prezentační program ti drží strukturu a nadpisy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka nespojí zdroje do textu v editoru, to děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+      ],
+      "inspiration": [
+        "Informační zdroje k tvorbě textu"
+      ]
+    },
+    {
+      "slug": "graficka-uprava-textu",
+      "title": "Grafická úprava textu: písmo, odstavce, mezery",
+      "aliases": [
+        "formátování textu",
+        "velikost písma",
+        "řádkování",
+        "zarovnání do bloku",
+        "pevná mezera",
+        "odstavce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "užívá jednoduché zásady pro grafickou úpravu textů (mezery, velikost písma, fonty, řádkování, zarovnání do bloku, pevná mezera, odstavce)"
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kdy se hodí pevná mezera nebo zarovnání do bloku."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš typografická pravidla a ukázky čitelné úpravy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Textový editor zobrazí skryté znaky a hned ukáže změnu úpravy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka s úpravou písma v editoru nepomohou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/080a3bf6-c8e8-481e-b97e-8fbc964ebab7",
+        "http://data.europa.eu/esco/skill/cf310cff-0d28-4dbc-9dbb-cc500a3196c2"
+      ]
+    },
+    {
+      "slug": "kontrola-pravopisu-v-aplikaci",
+      "title": "Automatická kontrola pravopisu při psaní",
+      "aliases": [
+        "pravopisný korektor",
+        "podtržené slovo",
+        "kontrola chyb",
+        "korektura",
+        "jazykový korektor"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "při psaní vlastního textu využívá automatickou kontrolu pravopisu, popř. jiné aplikace, které zefektivňují jeho práci"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč je slovo podtržené, a ukáže správné pravidlo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka rozhodne, co je správně."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu v editoru podtrhne chyby a nabídne opravu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník a pravidla pravopisu v tištěné podobě ověří spornou chybu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+        "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+      ]
+    },
+    {
+      "slug": "graf-infografika-a-myslenkova-mapa",
+      "title": "Informace jako graf, infografika nebo myšlenková mapa",
+      "aliases": [
+        "infografika",
+        "myšlenková mapa",
+        "graf z dat",
+        "obrázek generovaný AI",
+        "schéma"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zpracuje informace do jiného zobrazení (graf, infografika, myšlenková mapa, obrázek generovaný AI…) a vysvětlí, jak toto zobrazení pomáhá porozumění obsahu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, který druh obrazu se hodí, a pomůže ti vysvětlit, v čem ti pomáhá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky infografik a pravidel pro čitelné grafy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový nebo kreslicí program vytvoří graf a mapu podle tvých dat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, pravítko a pastelky dovolí nakreslit schéma ručně."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389",
+        "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1"
+      ]
+    },
+    {
+      "slug": "hlas-tempo-intonace-pauzy",
+      "title": "Tempo řeči, intonace a pauzy při nahrávání hlasu",
+      "aliases": [
+        "nahrávání hlasu",
+        "vlastní podcast",
+        "čtení nahlas",
+        "intonace",
+        "pauzy v řeči"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Podpoří své sdělení jiným formátem, například při nahrávání svého hlasu pracuje s tempem řeči, intonací, pauzami."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Hlas neslyší, tempo ani pauzy tvého čtení posoudit nemůže."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky dobrých mluvených textů a rad pro hlasový projev."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Diktafon nebo nahrávací aplikace ti dovolí poslech vlastního hlasu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejné pomůcky tvůj hlas nezlepší, mluvit musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7d4a4dc4-9324-4975-905d-ff1140f95acc"
+      ]
+    },
+    {
+      "slug": "kdy-pouzit-ai-pro-informace",
+      "title": "Kdy se hodí umělá inteligence pro informace",
+      "aliases": [
+        "umělá inteligence",
+        "AI při učení",
+        "kdy použít chatbot",
+        "ověřování odpovědi AI",
+        "práce s AI"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, v jakém případě je vhodné využít umělou inteligenci pro získání nebo zpracování informací."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, co zvládá, a můžeš si vyzkoušet, kde odpověď neobstojí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdroje a články ti ukážou, kdy je AI spolehlivá a kdy ne."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jeden program ti nedá rozhodnutí, kdy AI použít, to je na tobě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejné pomůcky ti nepoví nic o využití AI."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2"
+      ]
+    }
+  ],
+  "aside": []
+}

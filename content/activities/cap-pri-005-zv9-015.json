@@ -1,0 +1,557 @@
+[
+  {
+    "slug": "vzhled-mineralu-a-hornin",
+    "title": "Barva, lesk a krystalová forma minerálů",
+    "aliases": [
+      "vlastnosti minerálů",
+      "jak vypadá nerost",
+      "barva a lesk",
+      "krystaly",
+      "popis horniny"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše viditelné vlastnosti předložených minerálů a hornin, používán přitom vhodnou odbornou terminologii (barva, lesk, krystalová forma) a posuzuje jejich podobnost",
+        "quote": "popíše viditelné vlastnosti předložených minerálů a hornin"
+      },
+      {
+        "level": "Na začátku",
+        "point": "zkoumá vlastnosti a pozorování nebo výsledky jednoduchých pokusů zaznamenává",
+        "quote": "zkoumá vlastnosti a pozorování nebo výsledky jednoduchých pokusů zaznamenává"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "ZKOUMÁME VLASTNOSTI MINERÁLŮ",
+        "url": ""
+      },
+      {
+        "title": "Minerály pod lupou: Od vlastností k určování",
+        "url": "https://uloziste.rvp.cz/material/55bcee"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kámen musíš prohlédnout ty, chatbot ho před sebou nevidí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky a popisy minerálů v encyklopedii ti ukážou, jak lesk a krystaly vypadají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s fotkami nerostů umožní porovnat tvůj vzorek s vyfotografovaným."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa ti ukáže krystaly a lesk, které očima nepoznáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/47e349cb-b0a8-4877-b368-c30a2ee4668b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tvrdost-vryp-rozpustnost",
+    "title": "Tvrdost, vryp a rozpustnost minerálů a hornin",
+    "aliases": [
+      "stupnice tvrdosti",
+      "vryp",
+      "Mohsova stupnice",
+      "rozpustnost",
+      "pokus s kamenem",
+      "zkoumání vlastností"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "používá vhodné určovací pomůcky (např. lupy, stupnice tvrdosti) k určení dalších vlastností k určení dalších vlastností minerálů a hornin (minerály – tvrdost, hustota, vryp, rozpustnost; horniny - tvrdost, pevnost, rozpustnost).",
+        "quote": "používá vhodné určovací pomůcky"
+      },
+      {
+        "level": "Splněno",
+        "point": "Určuje základní minerály a horniny s využitím určovacích pomůcek a na základě zkoumání jejich fyzikálních a chemických vlastností.",
+        "quote": "Určuje základní minerály a horniny s využitím určovacích pomůcek"
+      },
+      {
+        "level": "Na začátku",
+        "point": "ověří experimentálně vybrané vlastnosti látek",
+        "quote": "ověří experimentálně vybrané vlastnosti látek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "ZKOUMÁME VLASTNOSTI MINERÁLŮ",
+        "url": ""
+      },
+      {
+        "title": "Minerály pod lupou: Od vlastností k určování",
+        "url": "https://uloziste.rvp.cz/material/55bcee"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kámen škrábeš a kapáš na něj ty, chatbot za tebe pokus neudělá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulka tvrdosti ti řekne, čím který minerál poškrábeš a co z toho plyne."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Tvrdost a vryp zjistíš jen na skutečném kameni, aplikace ho nezkouší."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa, hřebík, sklo a stupnice tvrdosti ti dají naměřené hodnoty vlastností."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0562cd60-cd92-47c3-bc63-30a55c5ca4fe",
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "urceni-mineralu-atlasem",
+    "title": "Určení minerálu nebo horniny podle atlasu",
+    "aliases": [
+      "atlas minerálů",
+      "klíč k určování",
+      "poznej kámen",
+      "určování nerostů",
+      "profil minerálu"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě vlastního pozorování a porovnání odvodí typické určovací znaky pro daný minerál a horninu a s pomocí vhodné literatury (atlasy a klíče minerálů a hornin - knižní, interaktivní) je na základě těchto znaků určuje.",
+        "quote": "na základě vlastního pozorování a porovnání odvodí typické určovací znaky"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě zkoumání odvodí vlastnosti vybraných minerálů a hornin významné pro jejich poznávání a způsoby využití.",
+        "quote": "Na základě zkoumání odvodí vlastnosti vybraných minerálů a hornin významné pro jejich poznávání"
+      },
+      {
+        "level": "Na začátku",
+        "point": "na základě klíčových znaků třídí organismy a neživé přírodniny do základních skupin",
+        "quote": "na základě klíčových znaků třídí organismy a neživé přírodniny"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Profil minerálu do seznamky",
+        "url": "https://uloziste.rvp.cz/material/52423b"
+      },
+      {
+        "title": "Minerály pod lupou: Od vlastností k určování",
+        "url": "https://uloziste.rvp.cz/material/55bcee"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Podle tvých zápisků o barvě a tvrdosti navrhne, který minerál to může být."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlas minerálů a hornin na webu ti dá znaky, podle kterých kámen určíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na určování kamenů ti nabídne shody, které si ověříš na vzorku."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový atlas nebo klíč tě vede krok za krokem k určení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/16a3d876-e330-4648-b03f-5f8d7e18ee17"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vennuv-diagram-mineraly",
+    "title": "Srovnání minerálů v tabulce nebo Vennově diagramu",
+    "aliases": [
+      "Vennův diagram",
+      "tabulka minerálů",
+      "shody a rozdíly",
+      "porovnání hornin"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "porovná a iinterpretuje shody a rozdíly mezi pozorovanými přírodninami pomocí tabulek a diagramů (například Vennových diagramů).",
+        "quote": "porovná a iinterpretuje shody a rozdíly mezi pozorovanými přírodninami"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Profil minerálu do seznamky",
+        "url": "https://uloziste.rvp.cz/material/52423b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak diagram číst, a zkontroluje tvé zařazení znaků."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové tabulky vlastností minerálů ukazují, jak srovnání vypadá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový nebo kreslicí program ti pomůže diagram sestavit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka stačí na diagram, do kterého zapíšeš pozorované znaky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-latky-pro-predmet",
+    "title": "Výběr materiálu pro konkrétní předmět",
+    "aliases": [
+      "z čeho se to dělá",
+      "vlastnosti materiálů",
+      "proč sklo a ne dřevo",
+      "materiál na výrobu"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zdůvodní výběr látky (materiálu) pro výrobu konkrétních předmětů",
+        "quote": "zdůvodní výběr látky (materiálu) pro výrobu konkrétních předmětů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se pro předmět hodí tvrdý, lehký nebo nerozpustný materiál."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky o materiálech uvádějí vlastnosti a použití."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nezváží, proč je pro předmět vhodný zrovna ten materiál."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Vzorky materiálů si prohlédneš, ohneš a porovnáš v ruce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pudni-profil-z-obrazku",
+    "title": "Půdní profil: horizonty a matečná hornina",
+    "aliases": [
+      "půdní profil",
+      "humusový horizont",
+      "vrstvy půdy",
+      "matečná hornina"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě obrazové dokumentace popíše základní viditelné znaky předložených půdních profilů (organický, humusový, minerální horizont, matečná hornina) a jejich vzájemný poměr v profilu",
+        "quote": "na základě obrazové dokumentace popíše základní viditelné znaky předložených půdních profilů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Půda pod lupou",
+        "url": "https://uloziste.rvp.cz/material/f667da"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se vrstvy půdy jmenují a čím se liší, a opraví tvůj popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Schémata půdních profilů v encyklopedii ukazují vrstvy i jejich poměr."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti obrázek profilu nepopíše, vrstvy v něm hledáš očima ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Popis profilu z obrázku nevyžaduje nástroj, jen tvoje pozorování."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "srovnani-vzorku-pudy",
+    "title": "Srovnání vzorků půdy: propustnost a struktura",
+    "aliases": [
+      "písčitá a jílovitá půda",
+      "propustnost vody",
+      "pokus s půdou",
+      "hlinitá půda",
+      "zkoumání půdy"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "porovná vzorky půdy z hlediska vybraných vlastností důležitých jako je propustnost vody a struktura půdy (písčitá, jílovitá, hlinitá).",
+        "quote": "porovná vzorky půdy z hlediska vybraných vlastností"
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovná vlastnosti půdy z hlediska její úrodnosti a ekologického významu.",
+        "quote": "Porovná vlastnosti půdy z hlediska její úrodnosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zkoumání vlastností půdy",
+        "url": ""
+      },
+      {
+        "title": "Půda pod lupou",
+        "url": "https://uloziste.rvp.cz/material/f667da"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Vodu přes půdu přeléváš ty, chatbot ti vzorek neprozkoumá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popisy půdních druhů ti řeknou, jak se písčitá a jílovitá půda liší."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace propustnost tvého vzorku nezměří, vodu musíš nalít ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Sítko, kádinka a odměrka ti ukážou, jak rychle voda protéká."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a11c4c9c-ed68-4dcd-b7ef-841e7e347d70",
+      "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyznam-mineralu-a-hornin",
+    "title": "K čemu se minerály a horniny využívají",
+    "aliases": [
+      "rudy",
+      "šperky z nerostů",
+      "stavební kámen",
+      "využití hornin",
+      "dekorační kámen"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě pozorovaných vlastností a informací vyhledaných v různých informačních zdrojích (atlasy, mapy - též interaktivní) odvodí hlavní význam vybraných minerálů (např. rudní minerály, minerály využívané ve šperkařství), hornin (např. stavební a dekorační materiály) a půdy (vhodnost pro zemědělství, charakteristické pro různé ekosystémy, např. mokřady).",
+        "quote": "na základě pozorovaných vlastností a informací vyhledaných v různých informačních zdrojích"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě zkoumání odvodí vlastnosti vybraných minerálů a hornin významné pro jejich poznávání a způsoby využití.",
+        "quote": "způsoby využití"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Zkoumá vlastnosti a praktické využití vybraných minerálů, hornin a půdy.",
+        "quote": "praktické využití vybraných minerálů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se tvrdá hornina hodí na stavbu a krásný minerál do šperku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlasy a mapy ložisek ukazují, kde se co těží a k čemu se používá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní mapy a aplikace ukazují ložiska i využití surovin."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Využití kamene z lupy ani z kladívka nevyčteš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/47e349cb-b0a8-4877-b368-c30a2ee4668b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyznam-pudy-pro-zemedelstvi",
+    "title": "Význam půdy pro zemědělství a ekosystémy",
+    "aliases": [
+      "úrodnost půdy",
+      "půda a mokřady",
+      "zemědělská půda",
+      "k čemu je půda"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě pozorovaných vlastností a informací vyhledaných v různých informačních zdrojích (atlasy, mapy - též interaktivní) odvodí hlavní význam vybraných minerálů (např. rudní minerály, minerály využívané ve šperkařství), hornin (např. stavební a dekorační materiály) a půdy (vhodnost pro zemědělství, charakteristické pro různé ekosystémy, např. mokřady).",
+        "quote": "půdy (vhodnost pro zemědělství"
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovná vlastnosti půdy z hlediska její úrodnosti a ekologického významu.",
+        "quote": "Porovná vlastnosti půdy z hlediska její úrodnosti a ekologického významu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zkoumání vlastností půdy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč jsou některé půdy úrodné a jak souvisí s mokřadem nebo polem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapy půd a články o zemědělství ukazují, kde je půda úrodná."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapové aplikace s půdními typy ukazují úrodnost místa."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Úrodnost půdy z žádného běžného nástroje v ruce nevyčteš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e693138a-842f-4d9f-9aa5-bf515605c359",
+      "http://data.europa.eu/esco/skill/6c1143b7-1a4c-49ba-849a-ae328673e566"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

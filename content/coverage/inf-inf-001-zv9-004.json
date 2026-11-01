@@ -1,0 +1,116 @@
+{
+  "outcome": "INF-INF-001-ZV9-004",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se s jednoduchými nástroji ukazujícími postup trénování modelu (např. CODE.org).",
+      "cards": [
+        "trenovani-modelu-v-hotovem-nastroji"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Provede rozsáhlejší sběr dat k určitému tématu a data zaznamená.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "sber-dat-do-tabulky"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Formuluje závěry na základě porovnání dat z více zdrojů.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zavery-z-dat"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Má přehled o tom, pro jaké typy úloh je vhodné využívat strojové učení, využívá jednoduché nástroje ukazující postup trénování modelu strojového učení (např. na CODE.org).",
+      "cards": [
+        "kdy-se-hodi-strojove-uceni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vybírá data vhodná pro trénování modelu strojového učení pro zadaný účel: zprvu používá již připravená data, poté samostatně sbírá data, provádí základní anotace, třídění nevhodných vzorků.",
+      "cards": [
+        "priprava-trenovacich-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Pod vedením učitele natrénuje model.",
+      "cards": [
+        "trenovani-modelu-v-hotovem-nastroji"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyhodnocuje, jak dobře model funguje, pod vedením učitele rozhoduje jak upravit trénovací data či nastavení učení.",
+      "cards": [
+        "chybovost-modelu-a-jeji-snizovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhodnotí, zda je pro danou úlohu slibné využít strojové učení, a svoji volbu zdůvodní.",
+      "cards": [
+        "kdy-se-hodi-strojove-uceni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Třídí a čistí data, provádí základní anotaci dat, zvažuje reprezentativnost trénovacích dat.",
+      "cards": [
+        "priprava-trenovacich-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na připravených datech natrénuje model, opírá se o výchozí nastavení a dokumentaci ke zvolenému nástroji.",
+      "cards": [
+        "trenovani-modelu-v-hotovem-nastroji"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Model testuje, kvantifikuje chybovost modelu a rozhodne se, jak upravit trénovací data a nastavení modelu.",
+      "cards": [
+        "chybovost-modelu-a-jeji-snizovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zhodnotí využitelnost výsledného modelu ve srovnání s jinými přístupy k řešení problému.",
+      "cards": [
+        "srovnani-modelu-s-jinymi-postupy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vyzkouší si práci se modelem strojového učení.",
+      "cards": [
+        "trenovani-modelu-v-hotovem-nastroji"
+      ],
+      "aside": null
+    }
+  ]
+}

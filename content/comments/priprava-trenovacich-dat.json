@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Model se naučí jen to, co najde v datech. Když mu na trénink dáš skoro samé fotky zlatých retrívrů, jezevčíka pak nemusí poznat jako psa. Data se proto třídí, špatné vzorky se vyhazují a hlídá se, aby v nich bylo zastoupeno všechno, s čím se model později potká. Tohle za člověka žádný nástroj neudělá, protože musí vědět, k čemu model bude. Živí se tím lidé, kteří analyzují a spravují velké sady dat, a stejný úsudek se hodí každému, kdo čte výsledky průzkumu nebo nějakou statistiku.",
+  "learnWithAi": [
+    {
+      "title": "Hledání chybných vzorků",
+      "text": "Nech chatbota vypsat dvacet krátkých recenzí označených jako kladné nebo záporné a schválně mezi ně schovat pár chyb. Najdi je a zdůvodni, proč do dat nepatří."
+    },
+    {
+      "title": "Kontrola zastoupení v datech",
+      "text": "Popiš chatbotovi sadu dat, kterou chceš použít, třeba fotky ovoce z jednoho obchodu. Ať se tě vyptává, co v ní chybí, a odpovědi si zapiš."
+    },
+    {
+      "title": "Pravidla pro označování obrázků",
+      "text": "Sepiš pravidla, podle kterých budeš obrázky označovat, a požádej chatbota o sporné případy. Kde podle tvých pravidel nejde rozhodnout, pravidla doplň."
+    }
+  ]
+}

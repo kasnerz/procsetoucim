@@ -1,0 +1,134 @@
+{
+  "outcome": "CAS-VKO-003-ZV9-014",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "zpracuje informace o příjmech a výdajích jednotlivce do strukturovaného osobního rozpočtu",
+      "cards": [
+        "rozpocet-prijmy-a-vydaje"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "mezi několika různými jednoduchými rozpočty jednotlivce vybere ukázku rozpočtu vyrovnaného, schodkového a přebytkového",
+      "cards": [
+        "vyrovnany-schodkovy-prebytkovy-rozpocet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "analyzuje finanční možnosti, které má k dispozici",
+      "cards": [
+        "prani-a-moznosti-rozpoctu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "vyhodnotí finanční náklady na realizaci různých přání",
+      "cards": [
+        "prani-a-moznosti-rozpoctu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "na základě finančních možností vyhodnotí, zda může realizovat svoje konkrétní přání",
+      "cards": [
+        "prani-a-moznosti-rozpoctu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "zmapuje své osobní příjmy a výdaje, rozlišuje pravidelné a nepravidelné příjmy a výdaje",
+      "cards": [
+        "rozpocet-prijmy-a-vydaje"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozlišuje hrubý a čistý příjem, pravidelné a nepravidelné příjmy a výdaje",
+      "cards": [
+        "hruby-a-cisty-prijem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vytvoří fiktivní osobní rozpočet postavený na současných reálných cenách a reálných výdajích a příjmech",
+      "cards": [
+        "fiktivni-osobni-rozpocet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na modelových případech rozpočtů zhodnotí finanční situaci a navrhne, jak naložit s volnými prostředky a/nebo jak řešit jednorázový nebo trvalý schodek rozpočtu domácnosti",
+      "cards": [
+        "uprava-rozpoctu-schodek-prebytek"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozlišuje hlavní typy placení, finančních produktů a služeb jako jsou půjčka, spoření, investice, pojištění, popisuje jejich smysl a využití z pohledu poskytovatele a klienta",
+      "cards": [
+        "druhy-financnich-produktu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vysvětlí podstatu úrokových sazeb",
+      "cards": [
+        "urokove-sazby"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na příkladech vysvětlí příčiny a důsledky nesplácení dluhu",
+      "cards": [
+        "nesplaceni-dluhu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Analyzuje modelové rodinné a osobní rozpočty a navrhuje kroky k optimalizaci konkrétního rozpočtu.",
+      "cards": [
+        "uprava-rozpoctu-schodek-prebytek"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhne v modelové situaci vhodný finanční produkt/službu a svůj výběr zdůvodní.",
+      "cards": [
+        "vyber-financniho-produktu-pro-situaci"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zhodnotí modelové nabídky konkrétního produktu od různých poskytovatelů a s využitím vhodných kritérií vybere nejvhodnější pro danou situaci.",
+      "cards": [
+        "porovnani-nabidek-poskytovatelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozhodne v modelových situacích o svých možnostech v rámci konkrétně zadaného rozpočtu a proč není možné realizovat všechny chtěné výdaje.",
+      "cards": [
+        "prani-a-moznosti-rozpoctu"
+      ],
+      "aside": null
+    }
+  ]
+}

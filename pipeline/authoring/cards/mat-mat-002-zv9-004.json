@@ -1,0 +1,76 @@
+{
+  "outcome": "MAT-MAT-002-ZV9-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "mereni-a-porovnavani-standardni-jednotky",
+      "title": "Měření a porovnávání v metrech, litrech a dalších jednotkách",
+      "aliases": ["měření délky", "měření obsahu a objemu", "porovnávání veličin", "metr a litr", "jednotky"],
+      "sources": [{"level": "Minimální doporučená úroveň", "quote": "Používá k měření a porovnávání standardní jednotky délky, obsahu a objemu."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Délku desky ani objem láhve nezměří, měříš ty před sebou."},
+        "internet": {"verdict": "nepomuze", "why": "Rozměry věcí před tebou ve vyhledávači nenajdeš, změřit je musíš."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace s virtuálním metrem nebo laserovým měřením ti ukáže rozměr místnosti."},
+        "klasicky": {"verdict": "pomuze", "why": "Metr, pravítko a odměrka ti dají naměřenou hodnotu, kterou pak porovnáš."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9", "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"],
+      "inspiration": []
+    },
+    {
+      "slug": "cteni-stupnice-mericich-nastroju",
+      "title": "Čtení hodnot ze stupnice, i mezi dílky",
+      "aliases": ["čtení ze stupnice", "úhloměr", "odečítání mezi dílky", "interpolace", "měřicí přístroje"],
+      "sources": [
+        {"level": "Na začátku", "quote": "přečte hodnoty ze stupnice na různých měřicích nástrojích (včetně úhloměru)"},
+        {"level": "Splněno", "quote": "Přečte hodnoty ze stupnice na různých měřicích nástrojích i mezi vyznačenými dílky (interpolace)."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Stupnici na přístroji před sebou čteš očima ty, chatbot ji nevidí."},
+        "internet": {"verdict": "nepomuze", "why": "Hodnotu na tvém měřidle ve vyhledávači nenajdeš."},
+        "aplikace": {"verdict": "pomuze", "why": "Simulace měřidel ti dovolí číst stupnici na obrazovce a hned vidíš správnou hodnotu."},
+        "klasicky": {"verdict": "pomuze", "why": "Úhloměr, teploměr nebo odměrný válec ti dají stupnici, kterou se učíš číst."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9", "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"],
+      "inspiration": []
+    },
+    {
+      "slug": "prevody-jednotek-delky-obsahu-objemu",
+      "title": "Převody jednotek délky, obsahu a objemu",
+      "aliases": ["převody jednotek", "metry na centimetry", "litry a decilitry", "m2 na cm2", "převodní vztahy"],
+      "sources": [
+        {"level": "Na cestě", "quote": "vyjádří délku, obsah a objem v různých jednotkách stejné soustavy"},
+        {"level": "Splněno", "quote": "Převádí jednotky délky, obsahu a objemu v rámci standardní soustavy měření."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, proč má m2 100 × 100 cm2, a zadá ti další převody na procvičení."},
+        "internet": {"verdict": "pomuze", "why": "Tabulky předpon a převodní vztahy si dohledáš a zkontroluješ s nimi výsledek."},
+        "aplikace": {"verdict": "pomuze", "why": "Převodník jednotek ti hned zkontroluje, jestli ti vyšel správný výsledek."},
+        "klasicky": {"verdict": "pomuze", "why": "Kalkulačka ti zkontroluje násobení a dělení desítkami a tisíci při převodu."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186", "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"],
+      "inspiration": []
+    },
+    {
+      "slug": "prevody-mezi-ruznymi-soustavami",
+      "title": "Převody mezi různými soustavami jednotek",
+      "aliases": ["míle na kilometry", "palce a centimetry", "anglické jednotky", "převodní vztahy", "libry a kila"],
+      "sources": [{"level": "Splněno", "quote": "Vyjádří délku, obsah a objem v jednotkách různých měrných soustav, pokud zná převodní vztahy."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Řekne převodní vztah mezi palci a centimetry a ukáže postup výpočtu na příkladu."},
+        "internet": {"verdict": "pomuze", "why": "Převodní vztahy mezi mílí, palcem nebo galonem a našimi jednotkami si dohledáš."},
+        "aplikace": {"verdict": "pomuze", "why": "Převodník jednotek ti vyjádří míle, palce nebo galony v metrických jednotkách."},
+        "klasicky": {"verdict": "pomuze", "why": "Kalkulačka spočítá násobení převodním vztahem, který ti dá zadání nebo tabulka."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186", "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

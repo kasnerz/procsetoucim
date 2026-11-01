@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Mobil, wifi, rádio, vysílačka i dálkové ovládání posílají informace vzduchem pomocí elektromagnetických vln. Kdo ví, jak to funguje, rozumí, proč v tunelu vypadne signál a proč se wifi hůř dostává přes silné zdi. S vlnami a přenosem signálu pracují technici telekomunikací i lidé v letectví, kteří jsou s letadlem ve spojení vysílačkou, celkem zhruba 2,4 % lidí, kteří v Česku pracují. Pro většinu ostatních je to hlavně obecný přehled, aby mobil nebyl kouzelná krabička. Chatbot ti šíření vln vysvětlí, ale příklady zařízení kolem sebe vyhledáš a popíšeš ty.",
+  "learnWithAi": [
+    {
+      "title": "Zařízení s vlnami v pokoji",
+      "text": "Sepiš všechna zařízení v pokoji, která podle tebe přijímají nebo vysílají vlny. Chatbot ať seznam projde a řekne, co chybí nebo tam nepatří."
+    },
+    {
+      "title": "Cesta jedné zprávy",
+      "text": "Nech chatbota vysvětlit, jak se tvoje zpráva dostane z mobilu ke kamarádovi o dvě ulice dál. U každého kroku se ptej proč, dokud tomu nerozumíš."
+    },
+    {
+      "title": "Síla wifi po bytě",
+      "text": "Změř aplikací sílu wifi na různých místech bytu a výsledky pošli chatbotovi. Společně zjistěte, proč je někde signál slabší, ale vysvětlení si ověř přesunem routeru nebo mobilu."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Málokterý model vyjde napoprvé dobře. Chybí v něm spojení, šipka vede špatným směrem nebo se ukáže, že potřebuješ ještě jeden údaj. Najít takovou chybu a opravit ji bez začínání od nuly se hodí u každého plánu, na kterém pracuješ déle než jedno odpoledne. Projektanti a technici elektroniky upravují své výkresy a schémata pořád dokola, protože každá chyba by se později projevila na stavbě nebo v zařízení. Chatbot ti poradí, co v popisu modelu nesedí, opravuješ ale ty, gumou na papíře nebo přesunutím šipky v aplikaci.",
+  "learnWithAi": [
+    {
+      "title": "Schéma s nastraženými chybami",
+      "text": "Požádej o popis schématu, třeba plánku autobusových zastávek, do kterého chatbot schová dvě chyby. Najdi je, oprav a porovnej s jeho řešením."
+    },
+    {
+      "title": "Otázka bez nápovědy",
+      "text": "Popiš svůj model a zeptej se jen, jestli v něm něco chybí, ne co. Doplň to podle sebe a teprve potom si nech prozradit, na co myslel chatbot."
+    },
+    {
+      "title": "Oprava podle nového zadání",
+      "text": "Nech chatbota zadání tvé úlohy změnit, třeba přidat zastávku nebo nové pravidlo. Uprav podle toho svůj hotový model a zkontroluj, jestli pořád funguje."
+    }
+  ]
+}

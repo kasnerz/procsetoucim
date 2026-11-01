@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Jízdní řád, rozvrh hodin nebo program tábora jsou tabulky, ze kterých musíš rychle vyčíst, kdy a kde máš být. Vyhledávač spojení ti spoj najde na pár kliknutí, jenže když vlak nabere zpoždění nebo se změní nástupiště, musíš z tabule na nádraží rychle poznat, jestli přestup stihneš a co pojede dál. S časovými plány pracuje každý den ten, kdo řídí autobus nebo tramvaj, a také ten, kdo na dispečinku plánuje nákladní dopravu nebo chystá program festivalu, ve kterém musí jednotlivé části navazovat. Většině lidí se to hodí hlavně při dojíždění do školy a do práce nebo na výletě s přestupy.",
+  "learnWithAi": [
+    {
+      "title": "Smyšlený jízdní řád",
+      "text": "Popros chatbota o krátký jízdní řád dvou navazujících linek a k němu otázky typu: stihnu přestup, když první spoj nabere pět minut zpoždění? Odpovídej podle tabulky a nech si odpovědi zkontrolovat."
+    },
+    {
+      "title": "Týden plný kroužků",
+      "text": "Popiš chatbotovi svůj týden se školou a kroužky a nech ho přidat tři nové aktivity s časy. Rozhodni, které se ti do rozvrhu vejdou a kde by se překrývaly."
+    },
+    {
+      "title": "Itinerář školního výletu",
+      "text": "Naplánuj podle skutečného jízdního řádu cestu na výlet s jedním přestupem a pošli itinerář chatbotovi, ať v něm hledá slabá místa, třeba moc krátký přestup. Časy spojů si ale ověř ve vyhledávači spojení."
+    }
+  ]
+}

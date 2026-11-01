@@ -1,0 +1,212 @@
+{
+  "outcome": "JJK-AJA-001-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicky-porozumeni-jednoduchemu-pribehu",
+      "title": "Porozumění jednoduchému anglickému příběhu",
+      "aliases": [
+        "anglický příběh",
+        "čtení povídky anglicky",
+        "četba v angličtině",
+        "zjednodušená četba",
+        "pochopit příběh"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozumí jednoduchému příběhu s vizuálními prvky, předvídatelným dějem a známou slovní zásobou."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Rozumí obsahu jednoduchých příběhů."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozumí obsahu zjednodušené četby."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozumí obsahu jednoduchých uměleckých textů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí neznámá slova a děj ti převypráví jednodušeji."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník a čtenářské ukázky ti dají slova i příběhy na procvičení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač a slovníková aplikace rychle ukážou význam slova."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Obrázkový slovník a papírová kniha ti pomůžou s novými slovy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": [
+        "Příběh",
+        "Příběh o přátelství",
+        "Fiktivní povídka"
+      ]
+    },
+    {
+      "slug": "anglicky-razeni-casti-pribehu",
+      "title": "Řazení částí anglického příběhu podle děje",
+      "aliases": [
+        "pořadí událostí v příběhu",
+        "seřadit části textu",
+        "chronologie příběhu",
+        "co se stalo první"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "řadí jednotlivé části textu chronologicky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti dá zamíchané věty z příběhu a zkontroluje tvé pořadí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu najdeš cvičení na řazení vět a krátké příběhy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Výukové aplikace mají řazení vět a hned ukážou chybu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vystříhané věty na papíře si můžeš skládat do pořadí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "anglicky-odhad-vyvoje-pribehu",
+      "title": "Odhad dalšího vývoje anglického příběhu",
+      "aliases": [
+        "jak příběh skončí",
+        "předvídání děje",
+        "co se stane dál",
+        "tipování konce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "odhaduje další vývoj příběhu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se zeptá, co podle tebe přijde, a pak ti ukáže jinou možnost."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové konce nic neříkají o tom, co si myslíš ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti odhad nenapíše, hádat musíš z textu ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Odhad děje je tvůj nápad, pomůckou je jen text před tebou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "anglicky-pribeh-ocima-postav",
+      "title": "Příběh očima různých postav",
+      "aliases": [
+        "pohled postavy",
+        "jak to vidí hrdina",
+        "perspektiva v příběhu",
+        "co si myslí postava"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "nahlíží příběh perspektivou různých postav"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti klade otázky za různé postavy a odpovídá v jejich roli."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Rozbory knih a shrnutí postav ti ukážou, jak se postavy chovají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe postavu nepochopí, úvahu musíš udělat ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Jak se cítí postava, ti nezměří žádná pomůcka."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Písemně nebo ústně prokáže porozumění.",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Písemně nebo ústně prokáže porozumění.",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

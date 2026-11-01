@@ -1,0 +1,626 @@
+[
+  {
+    "slug": "rozpocet-prijmy-a-vydaje",
+    "title": "Příjmy a výdaje v osobním rozpočtu",
+    "aliases": [
+      "příjmy a výdaje",
+      "kapesné a výdaje",
+      "kam jdou peníze",
+      "rozpočet jednotlivce",
+      "pravidelné výdaje"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zpracuje informace o příjmech a výdajích jednotlivce do strukturovaného osobního rozpočtu",
+        "quote": "zpracuje informace o příjmech a výdajích jednotlivce do strukturovaného osobního rozpočtu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zmapuje své osobní příjmy a výdaje, rozlišuje pravidelné a nepravidelné příjmy a výdaje",
+        "quote": "zmapuje své osobní příjmy a výdaje, rozlišuje pravidelné a nepravidelné příjmy a výdaje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Můj rozpočet pod drobnohledem",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je pravidelný a nepravidelný výdaj, a navrhne členění tabulky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzory rozpočtových tabulek a příklady výdajů si najdeš na webu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulková aplikace sečte příjmy i výdaje a ukáže zůstatek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, tužka a kalkulačka stačí na přehlednou tabulku a součty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+      "http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hruby-a-cisty-prijem",
+    "title": "Hrubý a čistý příjem",
+    "aliases": [
+      "hrubá a čistá mzda",
+      "čistý plat",
+      "odvody ze mzdy",
+      "kolik dostanu na účet"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje hrubý a čistý příjem, pravidelné a nepravidelné příjmy a výdaje",
+        "quote": "rozlišuje hrubý a čistý příjem"
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co se ze mzdy strhává, a ověří tvůj výpočet na příkladu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu výpisy ze mzdy a vysvětlení odvodů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mzdová kalkulačka spočítá čistou mzdu z hrubé a ukáže rozdíl."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti pomůže odečíst odvody od hrubé částky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+      "http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyrovnany-schodkovy-prebytkovy-rozpocet",
+    "title": "Vyrovnaný, schodkový a přebytkový rozpočet",
+    "aliases": [
+      "schodek rozpočtu",
+      "přebytek",
+      "deficit",
+      "vyrovnaný rozpočet",
+      "kolik zbyde"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "mezi několika různými jednoduchými rozpočty jednotlivce vybere ukázku rozpočtu vyrovnaného, schodkového a přebytkového",
+        "quote": "mezi několika různými jednoduchými rozpočty jednotlivce vybere ukázku rozpočtu vyrovnaného, schodkového a přebytkového"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jaké mohou být rozpočty?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi schodkem a přebytkem na příkladech a zkontroluje tvůj výběr."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázkové rozpočty a výklad pojmů najdeš v učebních materiálech na webu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulková aplikace sečte příjmy a výdaje, výsledek ukáže, jestli rozpočet vychází."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Odečtením výdajů od příjmů na kalkulačce poznáš, jestli rozpočet vychází."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+      "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fiktivni-osobni-rozpocet",
+    "title": "Fiktivní osobní rozpočet podle reálných cen",
+    "aliases": [
+      "vlastní rozpočet",
+      "rozpočet na měsíc",
+      "kolik stojí život",
+      "ceny v obchodě",
+      "rozpočet domácnosti"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vytvoří fiktivní osobní rozpočet postavený na současných reálných cenách a reálných výdajích a příjmech",
+        "quote": "vytvoří fiktivní osobní rozpočet postavený na současných reálných cenách a reálných výdajích a příjmech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Můj rozpočet pod drobnohledem",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, na jaké výdaje nezapomenout, a projde s tebou, jak jsou čísla realistická."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aktuální ceny nájmu, jídla nebo jízdného najdeš na webech obchodů a dopravců."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulková aplikace spočítá součty a hlídá, jestli rozpočet vychází."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a kalkulačka stačí na rozpočet a jeho součty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+      "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480",
+      "http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prani-a-moznosti-rozpoctu",
+    "title": "Přání a rozpočet: na co mi peníze stačí",
+    "aliases": [
+      "na co mám peníze",
+      "můžu si to dovolit",
+      "kolik stojí moje přání",
+      "koupě na splátky",
+      "výdaje, které nejde zaplatit"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozhodne v modelových situacích o svých možnostech v rámci konkrétně zadaného rozpočtu a proč není možné realizovat všechny chtěné výdaje.",
+        "quote": "Rozhodne v modelových situacích o svých možnostech v rámci konkrétně zadaného rozpočtu a proč není možné realizovat všechny chtěné výdaje."
+      },
+      {
+        "level": "Na začátku",
+        "point": "analyzuje finanční možnosti, které má k dispozici",
+        "quote": "analyzuje finanční možnosti, které má k dispozici"
+      },
+      {
+        "level": "Na začátku",
+        "point": "vyhodnotí finanční náklady na realizaci různých přání",
+        "quote": "vyhodnotí finanční náklady na realizaci různých přání"
+      },
+      {
+        "level": "Na začátku",
+        "point": "na základě finančních možností vyhodnotí, zda může realizovat svoje konkrétní přání",
+        "quote": "na základě finančních možností vyhodnotí, zda může realizovat svoje konkrétní přání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Budoucí scénáře",
+        "url": "https://uloziste.rvp.cz/material/179ef8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou, co všechno přání stojí, a ptá se, čeho se vzdáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ceny věcí a služeb si najdeš a porovnáš v e-shopech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka sečte ceny přání a porovná je s tím, co máš k dispozici."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ukáže, kolik přání dohromady stojí a kolik ti zbyde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+      "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480",
+      "http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uprava-rozpoctu-schodek-prebytek",
+    "title": "Úprava rozpočtu: schodek a volné peníze",
+    "aliases": [
+      "jak ušetřit",
+      "co s přebytkem",
+      "dluh domácnosti",
+      "hospodaření rodiny",
+      "rodinný rozpočet"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na modelových případech rozpočtů zhodnotí finanční situaci a navrhne, jak naložit s volnými prostředky a/nebo jak řešit jednorázový nebo trvalý schodek rozpočtu domácnosti",
+        "quote": "na modelových případech rozpočtů zhodnotí finanční situaci a navrhne, jak naložit s volnými prostředky a/nebo jak řešit jednorázový nebo trvalý schodek rozpočtu domácnosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Analyzuje modelové rodinné a osobní rozpočty a navrhuje kroky k optimalizaci konkrétního rozpočtu.",
+        "quote": "Analyzuje modelové rodinné a osobní rozpočty a navrhuje kroky k optimalizaci konkrétního rozpočtu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Analýza rodinného rozpočtu",
+        "url": "https://uloziste.rvp.cz/material/d42e32"
+      },
+      {
+        "title": "SWOT analýza finanční situace",
+        "url": "https://uloziste.rvp.cz/material/acab45"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou možné kroky u schodku i přebytku a ptá se na důvody tvého výběru."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rady, jak snížit výdaje a naložit s přebytkem, najdeš na webech o rodinných financích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V tabulce vyzkoušíš, jak se rozpočet změní, když upravíš příjem nebo výdaj."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačkou si spočítáš, jestli tvůj návrh schodek opravdu vyrovná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12",
+      "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480",
+      "http://data.europa.eu/esco/skill/79c36c91-28a5-44b7-ab9b-7093b2d4b21e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "druhy-financnich-produktu",
+    "title": "Půjčka, spoření, investice a pojištění",
+    "aliases": [
+      "finanční produkty",
+      "k čemu je půjčka",
+      "k čemu je spoření",
+      "pojištění",
+      "banka a klient"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje hlavní typy placení, finančních produktů a služeb jako jsou půjčka, spoření, investice, pojištění, popisuje jejich smysl a využití z pohledu poskytovatele a klienta",
+        "quote": "rozlišuje hlavní typy placení, finančních produktů a služeb jako jsou půjčka, spoření, investice, pojištění, popisuje jejich smysl a využití z pohledu poskytovatele a klienta"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíly mezi produkty a pohled banky i klienta, a ověří, jak je chápeš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výklad produktů najdeš na webech bank a ve vzdělávacích materiálech."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace banky umí produkty nabídnout, ale jejich smysl ti nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nemá co nabídnout, jde o pojmy a pochopení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0bd4c62a-c309-467e-be76-8403b3f3a1a8",
+      "http://data.europa.eu/esco/skill/fce3268c-c944-4a5f-8b9c-034a72d5df13",
+      "http://data.europa.eu/esco/skill/79c36c91-28a5-44b7-ab9b-7093b2d4b21e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "urokove-sazby",
+    "title": "Úrokové sazby",
+    "aliases": [
+      "úrok",
+      "kolik stojí půjčka",
+      "úročení",
+      "RPSN",
+      "kolik vydělá spoření"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí podstatu úrokových sazeb",
+        "quote": "vysvětlí podstatu úrokových sazeb"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí úrok na příkladech a ověří, jak umíš vysvětlit rozdíl mezi půjčkou a spořením."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš výklad úroku a aktuální sazby bank."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka úroků ukáže, kolik zaplatíš za půjčku nebo vyděláš na spoření."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačkou si spočítáš úrok z jednoduchého příkladu a ověříš výsledek z aplikace."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d5ac6a93-7fba-49d4-93fd-b38d23b556e8",
+      "http://data.europa.eu/esco/skill/12d93356-78e7-4857-99a6-f00b4ae2ec77",
+      "http://data.europa.eu/esco/skill/0bd4c62a-c309-467e-be76-8403b3f3a1a8"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nesplaceni-dluhu",
+    "title": "Příčiny a důsledky nesplácení dluhu",
+    "aliases": [
+      "dluhy",
+      "exekuce",
+      "dlužník",
+      "když nesplatím půjčku",
+      "oddlužení"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na příkladech vysvětlí příčiny a důsledky nesplácení dluhu",
+        "quote": "na příkladech vysvětlí příčiny a důsledky nesplácení dluhu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere s tebou, jak se dluh nabaluje, a ověří, jestli rozumíš důsledkům."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na webech poraden najdeš popsané příklady a postup při dluzích."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace spočítají splátky, příčiny a důsledky dluhu ti ale nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nemá co nabídnout, jde o pochopení souvislostí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9da22795-4383-4bea-9ac5-e80fdf16ece5",
+      "http://data.europa.eu/esco/skill/12d93356-78e7-4857-99a6-f00b4ae2ec77",
+      "http://data.europa.eu/esco/skill/79c36c91-28a5-44b7-ab9b-7093b2d4b21e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-financniho-produktu-pro-situaci",
+    "title": "Výběr finančního produktu pro situaci",
+    "aliases": [
+      "jaký produkt zvolit",
+      "co si vybrat",
+      "půjčka nebo spoření",
+      "úvěr",
+      "pojistka"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne v modelové situaci vhodný finanční produkt/službu a svůj výběr zdůvodní.",
+        "quote": "Navrhne v modelové situaci vhodný finanční produkt/službu a svůj výběr zdůvodní."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se na důvody a vyzkouší tvůj výběr na protipříkladech."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Informace o produktech a jejich podmínkách najdeš na webech poskytovatelů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace banky nabízí vlastní produkty, výběr a jeho zdůvodnění je tvoje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nemá co nabídnout, rozhoduješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0bd4c62a-c309-467e-be76-8403b3f3a1a8",
+      "http://data.europa.eu/esco/skill/79c36c91-28a5-44b7-ab9b-7093b2d4b21e",
+      "http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-nabidek-poskytovatelu",
+    "title": "Porovnání nabídek od různých poskytovatelů",
+    "aliases": [
+      "srovnání nabídek",
+      "kritéria výběru",
+      "porovnání půjček",
+      "srovnávač",
+      "nejlepší nabídka"
+    ],
+    "outcome": "CAS-VKO-003-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí modelové nabídky konkrétního produktu od různých poskytovatelů a s využitím vhodných kritérií vybere nejvhodnější pro danou situaci.",
+        "quote": "Zhodnotí modelové nabídky konkrétního produktu od různých poskytovatelů a s využitím vhodných kritérií vybere nejvhodnější pro danou situaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vybrat kritéria porovnání a ptá se, proč jsou důležitá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Nabídky bank a pojišťoven najdeš na jejich webech a ve srovnávačích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Srovnávač nabídek vedle sebe ukáže ceny a podmínky, tabulka je přehledně seřadí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka spočítá, kolik nabídky celkem stojí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0bd4c62a-c309-467e-be76-8403b3f3a1a8",
+      "http://data.europa.eu/esco/skill/fce3268c-c944-4a5f-8b9c-034a72d5df13",
+      "http://data.europa.eu/esco/skill/12d93356-78e7-4857-99a6-f00b4ae2ec77"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

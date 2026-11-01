@@ -1,0 +1,282 @@
+{
+  "outcome": "CAP-CHE-003-ZV9-013",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "kolobeh-uhliku",
+      "title": "Koloběh uhlíku v přírodě",
+      "aliases": [
+        "koloběh uhlíku",
+        "uhlík v přírodě",
+        "oxid uhličitý a fotosyntéza",
+        "spalování a dýchání"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše koloběh uhlíku v přírodě s využitím příkladů konkrétních látek."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kudy uhlík putuje mezi vzduchem, rostlinami a půdou, a zkouší tě z toho."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové stránky mají schémata koloběhu s konkrétními látkami."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Interaktivní model koloběhu ukáže, jak se uhlík přelévá mezi zásobníky."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Učebnice a nástěnné schéma ti ukážou celý koloběh na jednom obrázku."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cde9911c-f92e-4de1-811f-336e177ac4ce"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "aktualni-temata-chemie",
+      "title": "Vyhledání aktuálních témat v chemii",
+      "aliases": [
+        "novinky v chemii",
+        "moderní chemie",
+        "objevy v chemii",
+        "čemu se věnují chemici",
+        "vědecké zprávy"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyhledá základní informace o aktuálních tématech, kterými se zabývá moderní chemie."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vyhledává a shromažďuje relevantní informace o současných objevech a trendech v chemii z různých odborných a populárně-vědeckých zdrojů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne témata k hledání a vysvětlí odborné pojmy, zdroje si ale ověřuješ ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Populárně-vědecké weby a odborné časopisy ti dají zprávy o nových objevech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač a čtečka zpráv sbírají články z oboru na jednom místě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírový slovník ani laboratorní pomůcky nové objevy nenajdou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cde9911c-f92e-4de1-811f-336e177ac4ce",
+        "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"
+      ],
+      "inspiration": [
+        "Čemu se věnují současní chemici?",
+        "Objevujeme moderní chemii"
+      ]
+    },
+    {
+      "slug": "cesti-chemici-ve-svete",
+      "title": "Přínos českých chemiků světové vědě",
+      "aliases": [
+        "čeští chemici",
+        "české objevy",
+        "Heyrovský",
+        "čeští vědci"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zhodnotí příspěvek českých chemických objevů celosvětové vědě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne, co čeští chemici objevili, a pomůže ti srovnat, co z toho je důležité."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky vědeckých ústavů uvádějí české objevy včetně souvislostí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace na tohle nemá nic, co by ti hodnocení usnadnilo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Posoudit význam objevu musíš ty, laboratorní nástroj ti k tomu nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/cde9911c-f92e-4de1-811f-336e177ac4ce",
+        "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "chemie-v-mediich-fake-news",
+      "title": "Chemie v médiích: fakta a dezinformace",
+      "aliases": [
+        "fake news",
+        "dezinformace",
+        "hoax",
+        "pravda nebo lež v médiích",
+        "ověřování zpráv"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "S pomocí různých zdrojů posoudí relevantnost informací předkládaných v mediálních sděleních a fake news vztahujících se k oboru chemie."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere tvrzení ze zprávy a navrhne, co ověřit, jeho odpovědi ale také zkontroluješ."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Odborné zdroje a ověřovací weby ukážou, co je ve zprávě podložené."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na ověřování zpráv a zpětné hledání obrázků odhalí upravený snímek."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírová příručka nezkontroluje čerstvé mediální sdělení."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"
+      ],
+      "inspiration": [
+        "Fakt, nebo fikce? Chemie v médiích pod lupou"
+      ]
+    },
+    {
+      "slug": "zelena-chemie-a-inovace",
+      "title": "Inovace v chemii a zelená chemie",
+      "aliases": [
+        "zelená chemie",
+        "udržitelnost",
+        "ekologická chemie",
+        "recyklace plastů",
+        "inovace"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady inovací v chemickém výzkumu s ohledem na cíle udržitelnosti a koncept zelené chemie."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí zásady zelené chemie a navrhne příklady, které si pak ověříš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a zprávy z výzkumu uvádějí skutečné příklady šetrnějších postupů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tímhle úkolem nepomůže, příklady musíš najít a vybrat ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj příklady inovací nenabídne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/103f7814-d262-4df6-a1b6-759bc51f76cb",
+        "http://data.europa.eu/esco/skill/cde9911c-f92e-4de1-811f-336e177ac4ce"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "prezentace-chemickeho-problemu",
+      "title": "Prezentace aktuálního problému v chemii",
+      "aliases": [
+        "referát z chemie",
+        "prezentace",
+        "vystoupení před třídou",
+        "TED talk"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Prezentuje aktuální problém v chemii, zahrne jeho představení a vysvětlení jeho významu pro společnost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže poskládat osnovu a vysvětlit těžký pojem, mluvit musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdroje ti dají fakta, ze kterých vystoupení postavíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prezentační program pomůže s obrázky a pořadím snímků."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před třídou stojíš ty, tabule ani křída to za tebe neřeknou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+        "http://data.europa.eu/esco/skill/cde9911c-f92e-4de1-811f-336e177ac4ce"
+      ],
+      "inspiration": [
+        "Prezentujeme chemii pro společnost",
+        "TED talk – chemie v akci"
+      ]
+    }
+  ],
+  "aside": []
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Měsíc sám nesvítí, odráží světlo Slunce, a podle toho, jak stojí vůči Slunci a Zemi, vidíš z jeho osvětlené půlky všechno, kousek, nebo nic. Pochopit to chce prostorovou představivost: musíš si představit pohled z místa, kde zrovna nestojíš, a to se hodí i v geometrii nebo při čtení map. Aplikace ti řekne, jakou fázi má Měsíc dnes, ale proč je srpek jednou vypouklý doprava a jindy doleva, uvidíš až s míčem a lampou. Mimo hvězdárny a školy to v práci skoro nikdo nepotřebuje, je to ale důvod podívat se večer z okna a rozumět tomu, co vidíš.",
+  "learnWithAi": [
+    {
+      "title": "Chyby ve vysvětlení fází",
+      "text": "Požádej chatbota o vysvětlení fází Měsíce se dvěma schválně vloženými chybami, třeba že fáze dělá stín Země. Najdi je a oprav."
+    },
+    {
+      "title": "Předpověď příští fáze",
+      "text": "Napiš chatbotovi, jak Měsíc vypadá dnes, a odhadni, jak bude vypadat za týden. Nech si úvahu zkontrolovat a za týden se podívej na oblohu."
+    },
+    {
+      "title": "Deník pozorování Měsíce",
+      "text": "Pozoruj Měsíc dva týdny každý večer a zapisuj, jak vypadá. Zápisky ukaž chatbotovi, ať ti k nim položí otázky, na které odpovíš pomocí modelu s lampou."
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "funkce-jazyka-v-komunikaci",
+      "title": "K čemu je jazyk",
+      "aliases": [
+        "funkce jazyka",
+        "jazyk jako nástroj",
+        "proč mluvíme",
+        "komunikace",
+        "mateřský jazyk"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvědomuje si význam jazyka a jeho funkce, které používá v praxi"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "chápe, že jazyk je nástroj pro komunikaci, vyjadřování myšlenek a pocitů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí funkce jazyka na příkladech a zeptá se, kde je poznáváš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové texty ukážou, k čemu jazyk slouží."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace ti nenahradí všímání si, jak jazyk používáš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník ti řekne význam slov, ne k čemu jazyk slouží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2"
+      ]
+    },
+    {
+      "slug": "cestina-mezi-jazyky-sveta",
+      "title": "Postavení češtiny mezi jazyky",
+      "aliases": [
+        "čeština ve světě",
+        "slovanské jazyky",
+        "kolik lidí mluví česky",
+        "jazykové rodiny",
+        "evropské jazyky"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "získává základní poznatky o postavení českého jazyka mezi ostatními jazyky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne, kam čeština patří, a vyzkouší tě z toho."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a jazykové atlasy ukážou rodinu jazyků a počet mluvčích."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jazykové aplikace učí slova, o postavení češtiny nic neřeknou."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mapa nebo slovník samy nic o postavení češtiny neukážou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2"
+      ]
+    },
+    {
+      "slug": "jazykove-naroky-prace-a-zkousky",
+      "title": "Jazykové nároky v práci a při zkouškách",
+      "aliases": [
+        "jazyk a práce",
+        "jazykové zkoušky",
+        "jazykové portfolio",
+        "co chce zaměstnavatel",
+        "jazyk a povolání"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zhodnotí nároky společnosti na jazykovou vybavenost jednotlivce"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvědomuje si, že jazykové a komunikační znalosti a dovednosti mohou ovlivnit jeho budoucí profesi"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zhodnotí nároky společnosti na jazykovou vybavenost jednotlivce"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvědomuje si, že jazykové a komunikační znalosti a dovednosti mohou ovlivnit jeho budoucí profesi"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou, co po uchazečích chtějí a jak vypadají jazykové zkoušky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Inzeráty a stránky zkoušek ukážou, jaký jazyk firmy opravdu chtějí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace na učení slov nerozhodnou, jaké nároky je třeba splnit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírový životopis ani slovník nároky na jazyk neposoudí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ee21af25-7dff-47eb-9863-b5b944105a06",
+        "http://data.europa.eu/esco/skill/d9a3cb06-d6e0-4a64-88a6-9a8e11a99c93"
+      ]
+    },
+    {
+      "slug": "jazyk-pri-prezentaci-sebe-a-vztazich",
+      "title": "Jazyk při představování sebe a navazování vztahů",
+      "aliases": [
+        "jak mluvit s lidmi",
+        "první dojem",
+        "psaný a mluvený projev",
+        "představit se",
+        "vztahy a řeč"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vnímá, že jazyk hraje důležitou roli při prezentaci sebe sama a při vytváření vztahů"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vnímá, že jazyk hraje důležitou roli při prezentaci sebe sama a při vytváření vztahů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě na tvůj projev a upozorní, jak může znít na druhé."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručky slušného vyjadřování ukážou, co v mluvě a psaní působí dobře."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Mluvit s lidmi musíš ty, aplikace vztah nevytvoří."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "S lidmi se domlouváš hlasem, žádný nástroj za tebe nemluví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+      ]
+    },
+    {
+      "slug": "elektronicka-komunikace-v-kazdodennim-zivote",
+      "title": "Elektronická komunikace",
+      "aliases": [
+        "psaní e-mailů",
+        "zprávy v mobilu",
+        "chat",
+        "slušná zpráva",
+        "e-mail"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využívá své jazykové a komunikační znalosti a dovednosti v každodenním životě (elektronická komunikace"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "využívá své jazykové a komunikační znalosti a dovednosti v každodenním životě (elektronická komunikace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Připomene pravidla psaní zpráv a e-mailů a dá ti cvičné situace."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručky a vzory e-mailů ukážou oslovení, zdvořilost i stavbu zprávy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu ve zprávě označí překlepy a chyby ve zprávě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka na psaní zpráv do telefonu nepomohou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/debef2fc-7af4-4bff-ac92-4d0317915a84"
+      ]
+    },
+    {
+      "slug": "diskuse-a-prezentace-v-kazdodennim-zivote",
+      "title": "Diskuse a prezentace",
+      "aliases": [
+        "vystoupení před třídou",
+        "jak diskutovat",
+        "referát",
+        "mluvený projev",
+        "debata"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využívá své jazykové a komunikační znalosti a dovednosti v každodenním životě (elektronická komunikace, diskuse, prezentace)"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "využívá své jazykové a komunikační znalosti a dovednosti v každodenním životě (elektronická komunikace, diskuze, prezentace)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí otázky pro nácvik diskuse a poradí, jak postavit vystoupení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody a ukázky vystoupení ukážou stavbu prezentace."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahrávka z telefonu ti ukáže, jak mluvíš a kde zadrhneš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před třídou mluvíš a diskutuješ ty, nástroj to neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bad0f996-a299-4631-a7d8-104185b2ef22",
+        "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+      ]
+    },
+    {
+      "slug": "sebehodnoceni-jazykovych-dovednosti",
+      "title": "Sebehodnocení jazykových dovedností",
+      "aliases": [
+        "dotazník o češtině",
+        "v čem jsem dobrý",
+        "co si zlepšit",
+        "hodnocení sebe",
+        "slabé stránky"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "prostřednictvím jednoduchého sebehodnoticího dotazníku identifikuje oblasti v českém jazyce, které chce zlepšit"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Sestaví krátký dotazník a pomůže ti z odpovědí vyčíst slabá místa."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Hotové dotazníky a jazykové portfolio ti dají otázky k zodpovězení."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Odpovědi o sobě vyplňuješ ty, aplikace je nezná."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový dotazník a tužka ti pomůžou odpovědi zapsat a porovnat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69"
+      ]
+    },
+    {
+      "slug": "kroky-ke-zlepseni-jazykovych-dovednosti",
+      "title": "Plán dalšího zlepšování v češtině",
+      "aliases": [
+        "jak se zlepšit",
+        "plán učení",
+        "zpětná vazba",
+        "pravidelné čtení a psaní",
+        "další kroky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "S využitím sebehodnocení a zpětné vazby navrhne následné kroky ke zlepšení dílčích výsledků učení"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pracuje s mateřským jazykem pravidelně a navrhuje, jakým způsobem lze dále rozvíjet nabyté jazykové schopnosti"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "s využitím sebehodnocení a zpětné vazby navrhne následné kroky ke zlepšení dílčích výsledků učení"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "pracuje s mateřským jazykem pravidelně a navrhuje, jakým způsobem lze dále rozvíjet nabyté jazykové schopnosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Z tvých slabých míst navrhne cvičení a rozvrhne je na týdny."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Jazykové příručky a cvičení nabídnou materiál na procvičování."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na procvičování pravopisu a slovní zásoby měří, co se ti daří."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Sešit a slovník ti pomůžou zapisovat chyby a pravidelně je opravovat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69",
+        "http://data.europa.eu/esco/skill/ee21af25-7dff-47eb-9863-b5b944105a06"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "uvědomuje si význam čtenářské gramotnosti",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Převody času potřebuješ, kdykoli něco plánuješ: jestli film na 140 minut skončí před desátou nebo kolik dní zbývá do odjezdu na tábor. Zrádné je, že čas se nepočítá po desítkách jako metry. Hodina má 60 minut a den 24 hodin, takže když ti kalkulačka ukáže 2,5 hodiny, musíš vědět, že jsou to dvě hodiny a třicet minut. S převody času pracuje ve svém povolání zhruba 24 % lidí, kteří v Česku pracují, třeba kdo řídí provoz na železnici nebo půjčuje auta na hodiny a dny. Převodník to spočítá za tebe, ale odhad, jestli něco stihneš, děláš v hlavě hned, dřív než vytáhneš telefon.",
+  "learnWithAi": [
+    {
+      "title": "Sada převodů na papír",
+      "text": "Požádej chatbota o deset převodů mezi sousedními jednotkami, třeba hodiny na minuty nebo týdny na dny. Spočítej je na papír a teprve potom mu pošli svoje výsledky ke kontrole."
+    },
+    {
+      "title": "Desetinná hodina na ciferníku",
+      "text": "Když nevíš, proč 1,75 hodiny není hodina a 75 minut, nech si to vysvětlit na ciferníku hodin. Ať ti dá ještě tři podobná čísla, která převedeš už bez pomoci."
+    },
+    {
+      "title": "Celodenní výlet s časy",
+      "text": "Vymysli si výlet s délkou jednotlivých úseků v minutách a hodinách a spočítej, kdy se vrátíš domů. Celý výpočet pošli chatbotovi, ať hledá chybu, a jeho součty si přepočítej, i on se v dlouhých výpočtech plete."
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "outcome": "CAS-VKO-002-ZV9-012",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "dobrovolnictvi-a-jeho-prinos",
+      "title": "Dobrovolnictví a jeho přínos pro komunitu",
+      "aliases": [
+        "dobrovolnictví",
+        "dobrovolník",
+        "pomoc ve městě",
+        "pomáhat druhým",
+        "společensky prospěšná akce"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "uvede příklady dobrovolnictví a popíše, jaké výhody mají pro komunitu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co dobrovolníci dělají, a dá ti další příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webech spolků najdeš příklady dobrovolnických akcí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace ti nepomůže vymyslet, co dobrovolnictví dává komunitě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír ani tužka k příkladům dobrovolnictví nic nepřidají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2d667669-e738-41d2-8b6d-ff53fa952564",
+        "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4"
+      ]
+    },
+    {
+      "slug": "potreby-a-problemy-v-okoli",
+      "title": "Potřeby a problémy ve svém okolí",
+      "aliases": [
+        "problémy v obci",
+        "co by se dalo zlepšit",
+        "moje čtvrť",
+        "místní problémy",
+        "potřeby obce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "identifikuje potřeby a problémy ve svém blízkém okolí (čtvrti, obci nebo regionu)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti poradí, jak problémy kolem sebe hledat a třídit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu obce najdeš, co místní řeší."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa ti ukáže, kde je v okolí zanedbané místo nebo chybí hřiště."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Okolí si musíš projít a prohlédnout ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fbe6232a-e2b2-4830-a5e6-ed6415f01e85"
+      ]
+    },
+    {
+      "slug": "mistni-problemy-a-globalni-priciny",
+      "title": "Místní problémy a jejich globální příčiny",
+      "aliases": [
+        "globální problémy",
+        "příčiny problémů",
+        "místní a světové",
+        "dopady na okolí",
+        "souvislosti"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "analyzuje souvislosti mezi vybranými lokálními problémy a jejich globálními příčinami a důsledky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak spolu souvisí místní problém a svět, a ptá se tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a data ukážou příčiny třeba sucha nebo odpadu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti souvislosti nevysvětlí, hledáš je ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír ani tužka souvislosti nenajdou, ty je jen zapíšou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fbe6232a-e2b2-4830-a5e6-ed6415f01e85"
+      ]
+    },
+    {
+      "slug": "navrh-akce-a-zduvodneni",
+      "title": "Návrh společensky prospěšné akce",
+      "aliases": [
+        "navrhnout akci",
+        "plán akce",
+        "nápad na akci",
+        "projekt pro obec",
+        "zdůvodnění akce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zpracuje návrh a zdůvodnění společensky prospěšné akce, který prezentuje."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Aplikuje znalosti o organizování akcí na přípravu konkrétního návrhu akce."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "navrhuje způsoby, jak je možné pomoci s řešením vybraného problému na lokální úrovni"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti pomůže projít kroky plánu a ptá se, co v něm ještě chybí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady podobných akcí najdeš na webech škol a obcí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka nebo plánovací aplikace ti pomůže rozepsat kroky a termíny."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nápad a zdůvodnění vymýšlíš ty, papír je jen zapíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2111dff8-f830-46ad-80ce-7885893b3134",
+        "http://data.europa.eu/esco/skill/cd5efa8c-e44d-4cbc-91c6-796018dbed68"
+      ],
+      "inspiration": [
+        "Návrh společensky prospěšné akce"
+      ]
+    },
+    {
+      "slug": "prezentace-navrhu-akce",
+      "title": "Prezentace návrhu akce",
+      "aliases": [
+        "představit návrh",
+        "prezentace pro třídu",
+        "vystoupení",
+        "přesvědčit ostatní",
+        "obhajoba nápadu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zpracuje návrh a zdůvodnění společensky prospěšné akce, který prezentuje."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Před lidmi mluvíš ty, chatbot to za tebe nezvládne."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové vzory ti vystoupení nenacvičí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prezentační program pomůže poskládat snímky a obrázky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír vystoupení nenahradí, mluvit musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b",
+        "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+      ]
+    },
+    {
+      "slug": "prekazky-a-realizovatelnost-akce",
+      "title": "Překážky a realizovatelnost akce",
+      "aliases": [
+        "co může selhat",
+        "překážky",
+        "kritéria",
+        "dá se to zvládnout",
+        "řešení problémů"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zhodnotí možné překážky při realizaci akce a navrhne řešení."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje o návrzích řešení a zhodnotí jejich realizovatelnost podle různých kritérií"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti ukáže překážky, na které se snadno zapomene, a ptá se na řešení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Podobné akce popisují, co se u nich nepovedlo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvůj konkrétní plán neposoudí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír se zvážením překážek nepomůže, přemýšlet musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2111dff8-f830-46ad-80ce-7885893b3134"
+      ]
+    },
+    {
+      "slug": "zapojeni-do-akce",
+      "title": "Zapojení do společensky prospěšné akce",
+      "aliases": [
+        "pomáhat",
+        "brigáda ve škole",
+        "úklid obce",
+        "sbírka",
+        "dobrovolnická akce"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Zapojuje se do společensky prospěšné akce."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zapojuje se do společensky prospěšné akce."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "identifikuje různé možnosti pro zapojení do aktivity na podporu udržitelnosti"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zapojuje se do iniciativ a akcí, které mohou přinést pozitivní změny, nebo navrhuje, plánuje a realizuje vlastní akce, a to včetně zdůvodnění neúčasti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Pracuješ a pomáháš ty osobně, chatbot za tebe nic neudělá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu obce nebo spolku najdeš, kam se zapojit."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe pomáhat nebude."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Práci rukama a spolupráci s lidmi nic neřeší za tebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4",
+        "http://data.europa.eu/esco/skill/2d667669-e738-41d2-8b6d-ff53fa952564"
+      ],
+      "inspiration": [
+        "Staň se superhrdinou svého okolí!"
+      ]
+    },
+    {
+      "slug": "vyhodnoceni-dopadu-akce",
+      "title": "Vyhodnocení dopadu akce a vylepšení",
+      "aliases": [
+        "zhodnotit akci",
+        "co se povedlo",
+        "zpětná vazba",
+        "reflexe",
+        "sdílet zkušenost"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyhodnotí dopad akce a navrhne vylepšení pro budoucí projekty."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Sdílí své zkušenosti ze zapojení do společensky prospěšné akce."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "reflektuje své zapojení do společensky prospěšné akce a hodnotí úspěšnost a dopady realizovaných akcí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti klade otázky k tomu, co se povedlo a co zlepšit."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové informace tvoji akci nehodnotí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Dotazník a tabulka ukážou, co si lidé o akci myslí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír nic nevyhodnotí, úsudek je na tobě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fbe6232a-e2b2-4830-a5e6-ed6415f01e85"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "popisuje svoji dosavadní zkušenost se sp",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

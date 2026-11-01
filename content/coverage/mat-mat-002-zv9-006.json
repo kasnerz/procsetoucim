@@ -1,0 +1,47 @@
+{
+  "outcome": "MAT-MAT-002-ZV9-006",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "řeší reálné problémy s časovými plány (např. rozvrhy, jízdní řády, itineráře)",
+      "cards": [
+        "rozvrhy-a-jizdni-rady"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "převádí mezi sousedními jednotkami času",
+      "cards": [
+        "prevody-jednotek-casu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují časová pásma.",
+      "cards": [
+        "casova-pasma"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa, které zahrnují převody mezi roky, měsíci, týdny, dny, hodinami, částmi hodin, minutami a sekundami.",
+      "cards": [
+        "prevody-jednotek-casu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Pracuje s časovými údaji.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+[
+  {
+    "slug": "zdravotni-rizika-navykovych-latek",
+    "title": "Zdravotní rizika návykových látek",
+    "aliases": [
+      "drogy a zdraví",
+      "co dělá alkohol s tělem",
+      "kouření a zdraví",
+      "škodlivost drog",
+      "dopady na orgány"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše zdravotní a psychosociální rizika zneužívání legálních i nelegálních návykových látek, vysvětlí vliv závislostního chování na zdraví člověka.",
+        "quote": "Popíše zdravotní a psychosociální rizika zneužívání legálních i nelegálních návykových látek, vysvětlí vliv závislostního chování na zdraví člověka."
+      },
+      {
+        "level": "Na začátku",
+        "point": "popíše vliv zneužívání nejčastějších návykových látek na zdraví člověka",
+        "quote": "popíše vliv zneužívání nejčastějších návykových látek na zdraví člověka"
+      },
+      {
+        "level": "Splněno",
+        "point": "Dává do souvislostí dopady závislostního chování na jednotlivé orgány a orgánové soustavy.",
+        "quote": "Dává do souvislostí dopady závislostního chování na jednotlivé orgány a orgánové soustavy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Návykové látky a zdraví",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co alkohol, cigarety nebo drogy dělají s plícemi, játry a mozkem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotní stránky a encyklopedie ukazují, jak látky škodí orgánům."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace rizika nevysvětlí lépe než text, který si přečteš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Učíš se informace, ruční nástroj tu nemá co měřit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ffc7b5ae-1bae-42eb-b9dd-c9044fea7105",
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "legalni-a-nelegalni-navykove-latky",
+    "title": "Legální a nelegální návykové látky",
+    "aliases": [
+      "alkohol a cigarety vs drogy",
+      "co je zakázané",
+      "legální drogy",
+      "nelegální drogy",
+      "proč jsou drogy zakázané"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozlišuje základní legální a nelegální návykové látky.",
+        "quote": "Rozlišuje základní legální a nelegální návykové látky."
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje důvody, proč jsou některé návykové látky společností tolerovány a jiné zákonem zakázány",
+        "quote": "diskutuje důvody, proč jsou některé návykové látky společností tolerovány a jiné zákonem zakázány"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Proč lidé berou drogy",
+        "url": "https://uloziste.rvp.cz/material/1e080e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere, které látky zákon povoluje, které zakazuje, a nabídne argumenty do diskuse."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o prevenci a zákonech ukazují, co je povolené a co zakázané."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti rozdělení látek nevysvětlí, nic užitečného nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tohle je znalost a diskuse, klasický nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ffc7b5ae-1bae-42eb-b9dd-c9044fea7105",
+      "http://data.europa.eu/esco/skill/e2c81781-19c8-4349-94a2-7ae3a541596a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zakaz-alkoholu-a-tabaku-do-18-let",
+    "title": "Zákaz alkoholu a tabáku do 18 let",
+    "aliases": [
+      "proč nesmím kouřit",
+      "alkohol do 18",
+      "prodej cigaret mladým",
+      "zákon o alkoholu",
+      "věková hranice"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zdůvodní, proč zákon zakazuje prodej alkoholu a tabákových výrobků osobám do 18 let věku.",
+        "quote": "Zdůvodní, proč zákon zakazuje prodej alkoholu a tabákových výrobků osobám do 18 let věku."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše zdravotní a psychosociální rizika zneužívání legálních i nelegálních návykových látek, vysvětlí vliv závislostního chování na zdraví člověka.",
+        "quote": "Popíše zdravotní a psychosociální rizika zneužívání legálních i nelegálních návykových látek, vysvětlí vliv závislostního chování na zdraví člověka."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kouřit nebo nekouřit?",
+        "url": "https://uloziste.rvp.cz/material/ecae9e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč zákon chrání mladé, a pomůže ti vymyslet vlastní zdůvodnění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Znění zákona a články o věkové hranici najdeš ve vyhledávači."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace zákon nevysvětlí, k zdůvodnění ti nepomůže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zdůvodnění si promýšlíš v hlavě, žádný nástroj to za tebe neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/92231a03-010b-45cc-83a0-aa6491a3c6f3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priciny-experimentovani-a-zavislosti",
+    "title": "Proč lidé zkoušejí návykové látky",
+    "aliases": [
+      "proč lidé berou drogy",
+      "jak vzniká závislost",
+      "zvědavost a drogy",
+      "vrstevníci a drogy",
+      "experimentování"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "dává do souvislostí příčiny a důsledky experimentování s návykovými látkami",
+        "quote": "dává do souvislostí příčiny a důsledky experimentování s návykovými látkami"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí možné příčiny vzniku a rozvoje závislostního chování u jednotlivých populačních skupin.",
+        "quote": "Vysvětlí možné příčiny vzniku a rozvoje závislostního chování u jednotlivých populačních skupin."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Proč lidé berou drogy",
+        "url": "https://uloziste.rvp.cz/material/1e080e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere důvody od zvědavosti po stres a zeptá se tě, co by z toho plynulo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a stránky prevence popisují, proč lidé začínají a jak se závislost rozvíjí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace příčiny nerozebere, nic užitečného nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příčiny se rozebírají v hlavě a ve třídě, nástroj tu nemá co dělat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ffc7b5ae-1bae-42eb-b9dd-c9044fea7105",
+      "http://data.europa.eu/esco/skill/bfe4f330-d595-48c7-ab3c-f309471d6953"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "znaky-zavislostniho-chovani",
+    "title": "Znaky závislostního chování",
+    "aliases": [
+      "jak poznat závislost",
+      "příznaky závislosti",
+      "fyzická a psychická závislost",
+      "sociální závislost",
+      "abstinenční příznaky"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "popíše základní projevy závislostního chování",
+        "quote": "popíše základní projevy závislostního chování"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí na konkrétních příkladech znaky závislostního chování",
+        "quote": "vysvětlí na konkrétních příkladech znaky závislostního chování"
+      },
+      {
+        "level": "Na cestě",
+        "point": "charakterizuje fyzickou, psychickou a sociální závislost",
+        "quote": "charakterizuje fyzickou, psychickou a sociální závislost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Závislosti v životě člověka",
+        "url": "https://uloziste.rvp.cz/material/cc9d5e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše znaky na příkladech a rozdíl mezi tělesnou, duševní a sociální závislostí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotnické stránky vypisují příznaky a vysvětlují druhy závislosti."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace závislost za tebe nepozná, dá se jen číst a ptát."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Znaky si osvojuješ čtením a diskusí, nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/60fbed03-0ce8-4bb0-9f01-af6467e954ec",
+      "http://data.europa.eu/esco/skill/ffc7b5ae-1bae-42eb-b9dd-c9044fea7105"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nelatkove-zavislosti",
+    "title": "Nelátkové závislosti",
+    "aliases": [
+      "závislost na hrách",
+      "závislost na sítích",
+      "závislost na jídle nebo práci",
+      "hraní her",
+      "závislost bez drog"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje nelátkové formy závislosti (závislost na vzhledu, na osobě, ideologii, práci, jídle, pohybové aktivitě, hraní her, sociálních sítích aj.)",
+        "quote": "rozlišuje nelátkové formy závislosti (závislost na vzhledu, na osobě, ideologii, práci, jídle, pohybové aktivitě, hraní her, sociálních sítích aj.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Závislosti v životě člověka",
+        "url": "https://uloziste.rvp.cz/material/cc9d5e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Na příkladech her, sítí a jídla vysvětlí, kdy záliba přechází v závislost."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Odborné stránky popisují, jak nelátkové závislosti vypadají a jak se projevují."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Měřič času u her a sítí ukáže, kolik času opravdu trávíš online."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj na zhodnocení závislosti nenabízí nic užitečného."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/60fbed03-0ce8-4bb0-9f01-af6467e954ec",
+      "http://data.europa.eu/esco/skill/ffc7b5ae-1bae-42eb-b9dd-c9044fea7105"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dopady-zavislosti-na-zivot-a-okoli",
+    "title": "Dopady závislosti na život, okolí a společnost",
+    "aliases": [
+      "co dělá závislost s rodinou",
+      "závislost a škola",
+      "důsledky závislosti",
+      "zdraví a peníze",
+      "závislost a společnost"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje o látkových i nelátkových závislostech v souvislosti s jejich vlivem na zdraví a život jedince, jeho okolí i společnosti",
+        "quote": "diskutuje o látkových i nelátkových závislostech v souvislosti s jejich vlivem na zdraví a život jedince, jeho okolí i společnosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše zdravotní a jiná rizika zneužívání návykových látek a nelátkových forem závislosti pro jedince a společnost.",
+        "quote": "Popíše zdravotní a jiná rizika zneužívání návykových látek a nelátkových forem závislosti pro jedince a společnost."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Závislosti v životě člověka",
+        "url": "https://uloziste.rvp.cz/material/cc9d5e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti sepsat, co závislost mění ve zdraví, ve vztazích a ve financích."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky a články ukazují dopady závislostí na rodiny a společnost."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace dopady za tebe nezhodnotí, nic užitečného tu není."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ s lidmi, nástroj v ruce k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/09d6ed43-95a1-4492-8bd7-d01039285afa",
+      "http://data.europa.eu/esco/skill/ffc7b5ae-1bae-42eb-b9dd-c9044fea7105"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyhody-zivota-bez-zavislosti",
+    "title": "Výhody života bez závislostí",
+    "aliases": [
+      "proč nebrat drogy",
+      "argumenty proti drogám",
+      "zdraví a peníze",
+      "život bez cigaret",
+      "jak obhájit ne"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "odůvodní výhody, které život bez závislostí přináší (zdravotní, ekonomické, společenské)",
+        "quote": "odůvodní výhody, které život bez závislostí přináší (zdravotní, ekonomické, společenské)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "argumentuje v modelových situacích ve prospěch života bez závislostí",
+        "quote": "argumentuje v modelových situacích ve prospěch života bez závislostí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Tomášovy volby",
+        "url": "https://uloziste.rvp.cz/material/6afe7f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti sestavit argumenty o zdraví, penězích a kamarádech a procvičit je."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotní stránky dávají fakta a čísla k tvým argumentům."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s argumenty nepomůže, argumentuješ ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Argumentuješ ústně a před lidmi, klasický nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odmitnuti-nabidky-a-socialni-tlak",
+    "title": "Odmítnutí nabídky a tlak vrstevníků",
+    "aliases": [
+      "jak říct ne",
+      "nátlak kamarádů",
+      "odmítnout cigaretu",
+      "asertivita",
+      "techniky odmítání"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "v konkrétních modelových situacích použije techniky odmítání (dokáže říci \"ne\")",
+        "quote": "v konkrétních modelových situacích použije techniky odmítání (dokáže říci \"ne\")"
+      },
+      {
+        "level": "Na cestě",
+        "point": "ověřuje si v modelových situacích schopnost asertivně komunikovat, čelit sociálnímu tlaku a uvážlivě se rozhodovat",
+        "quote": "ověřuje si v modelových situacích schopnost asertivně komunikovat, čelit sociálnímu tlaku a uvážlivě se rozhodovat"
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede v modelové situaci vhodné způsoby odmítnutí nabízené návykové látky.",
+        "quote": "Předvede v modelové situaci vhodné způsoby odmítnutí nabízené návykové látky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Tomášovy volby",
+        "url": "https://uloziste.rvp.cz/material/6afe7f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje kamaráda, který nutí, a nechá tě zkoušet odpovědi nanečisto."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Vyhledávač neodpoví a za tebe neřekne ne."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nic neřekne, odmítnout musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Říct ne před lidmi nejde bez tebe, nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a0cad388-3c4c-4786-b238-fc39f8c495af",
+      "http://data.europa.eu/esco/skill/bfe4f330-d595-48c7-ab3c-f309471d6953"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pomoc-pri-zavislosti-ve-tvem-okoli",
+    "title": "Pomoc, když se závislost objeví kolem tebe",
+    "aliases": [
+      "komu to říct",
+      "kamarád bere drogy",
+      "poradna pro závislosti",
+      "linka pomoci",
+      "specializovaná zařízení"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vybere, na koho se může obrátit v situacích, kdy se v jeho okolí vyskytne problém související se zneužíváním návykových látek či ohrožení závislostním chováním",
+        "quote": "vybere, na koho se může obrátit v situacích, kdy se v jeho okolí vyskytne problém související se zneužíváním návykových látek či ohrožení závislostním chováním"
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpozná projevy závislostního chování u vrstevníků a osob ve svém okolí a informuje o této skutečnosti odpovědné osoby za účelem poskytnutí pomoci.",
+        "quote": "Rozpozná projevy závislostního chování u vrstevníků a osob ve svém okolí a informuje o této skutečnosti odpovědné osoby za účelem poskytnutí pomoci."
+      },
+      {
+        "level": "Na cestě",
+        "point": "vyhledá kontakty na specializovaná zařízení pro prevenci a léčbu závislostí ve svém regionu a orientuje se v náplni jejich činnosti",
+        "quote": "vyhledá kontakty na specializovaná zařízení pro prevenci a léčbu závislostí ve svém regionu a orientuje se v náplni jejich činnosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Tomášovy volby",
+        "url": "https://uloziste.rvp.cz/material/6afe7f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet, jak o problému promluvit s dospělým a co říct."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu linky pomoci a poradny ve svém kraji včetně toho, co dělají."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ukáže nejbližší poradnu a cestu k ní."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroj v ruce nepotřebuješ, mluvíš s dospělým."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3757c242-0042-4940-aedb-2af63e080dba",
+      "http://data.europa.eu/esco/skill/09d6ed43-95a1-4492-8bd7-d01039285afa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když napíšeš, odkud citát nebo obrázek máš, může si to kdokoli ověřit a nikdo tě nemůže obvinit, že vydáváš cizí práci za svou. Na střední škole se bez odkazů neobejde žádná seminární práce a lidé, kteří zkoumají dějiny, podle nich dohledávají, z čeho kdo vycházel. Zápis zdroje ti sestaví generátor citací za pár vteřin, údaje do něj ale musíš mít poznamenané ty, nejlépe hned při čtení. Vybrat citát, který opravdu podpoří tvou myšlenku, za tebe žádný nástroj neudělá.",
+  "learnWithAi": [
+    {
+      "title": "Kontrola zápisu zdroje",
+      "text": "Napiš odkaz na knihu nebo web, ze kterého čerpáš, a nech chatbota zkontrolovat, jestli v něm nechybí autor, název nebo rok. Chybějící údaje doplň z knihy nebo webu."
+    },
+    {
+      "title": "Pravidla pro obrázky z internetu",
+      "text": "Zeptej se chatbota, jak se uvádí autor u fotky z internetu a kdy ji vůbec smíš použít. U obrázků ve svém výstupu autora a licenci dohledej na stránce, odkud pocházejí."
+    },
+    {
+      "title": "Citát, nebo převyprávění",
+      "text": "Pošli chatbotovi odstavec ze svého výstupu a zeptej se, kde by se hodil přímý citát a kde stačí převyprávění. Citát vyber ze skutečného zdroje, ne z odpovědi chatbota."
+    }
+  ]
+}

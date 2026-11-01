@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Projít program řádek po řádku a hlídat, co se v každém kroku stane, je základ veškerého hledání chyb. Kdo programuje hry, webové stránky nebo výrobní stroje, dělá to pořád: program se chová jinak, než měl, a příčinu najdeš jen tak, že kroky sleduješ jeden po druhém a porovnáváš je se zápisem. Ladicí nástroj ti ukáže hodnoty, ale musíš vědět, jaké tam měly být. Stejný návyk se hodí i mimo počítač, třeba při kontrole postupu v matematice nebo při skládání nábytku podle návodu.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka hodnot pro krátký cyklus",
+      "text": "Popros chatbota o krátký cyklus se dvěma proměnnými. Do tabulky si zapiš, jaké hodnoty mají po každém kroku, a teprve potom mu ji dej ke kontrole."
+    },
+    {
+      "title": "Schválně pokažený krok",
+      "text": "Vlož chatbotovi zápis algoritmu a požádej ho, ať popíše jeho provedení s jedním schválně chybným krokem. Najdi místo, kde se provedení odchýlilo od zápisu."
+    },
+    {
+      "title": "Vlastní program nahlas po řádcích",
+      "text": "Vezmi program, který dělá něco jiného, než čekáš, a chatbotovi napiš, co se podle tebe děje na každém řádku. Ať ti ukáže první místo, kde se tvoje úvaha liší od skutečnosti."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Natrénovaný model ještě neznamená dobré řešení. Někdy úlohu líp zvládne pár pravidel v programu, obyčejná tabulka nebo člověk, který se na věc podívá. Výsledky modelu proto porovnáváš s jinými cestami: jak často chybuje, kolik práce stál a co se stane, když se splete. Takhle denně uvažují lidé, kteří navrhují mikroelektroniku, chytrá zařízení nebo systémy pro počítačové vidění, a hodí se to při každém rozhodování, jestli na něco nasadit umělou inteligenci.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka výhod a nevýhod",
+      "text": "Popiš chatbotovi svůj model a jedno jiné řešení téže úlohy. Nech ho vypsat výhody a nevýhody obou a u každého bodu rozhodni, jestli s ním souhlasíš."
+    },
+    {
+      "title": "Spor o nejlepší řešení",
+      "text": "Nech chatbota hájit model, zatímco ty hájíš jednodušší řešení, třeba pevná pravidla. Po pár kolech napiš, které argumenty tě přesvědčily."
+    },
+    {
+      "title": "Doporučení pro školní jídelnu",
+      "text": "Vymysli situaci, třeba jídelnu, která chce model na odhad počtu obědů. Zeptej se chatbota, na co by se vedení mělo ptát, a napiš vlastní doporučení."
+    }
+  ]
+}

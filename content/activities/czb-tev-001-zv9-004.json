@@ -1,0 +1,229 @@
+[
+  {
+    "slug": "tydenni-plan-pohybovych-aktivit",
+    "title": "Týdenní plán pohybových aktivit",
+    "aliases": [
+      "plán cvičení na týden",
+      "rozvrh pohybu",
+      "pohybový režim",
+      "plán tréninku",
+      "kondice"
+    ],
+    "outcome": "CZB-TEV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Samostatně sestaví týdenní plán pohybových aktivit pro rozvoj kondice a zdraví.",
+        "quote": "Samostatně sestaví týdenní plán pohybových aktivit pro rozvoj kondice a zdraví."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Plán pohybových aktivit - sestavení",
+        "url": ""
+      },
+      {
+        "title": "Domácí trenér v mobilu",
+        "url": "https://uloziste.rvp.cz/material/4daa0b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne rozvržení týdne a vysvětlí, proč střídat druhy pohybu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš doporučení, kolik pohybu za týden je pro tvůj věk běžné."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalendář nebo trenérská aplikace uloží plán a připomene cvičení."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový týdenní rozvrh ti ukáže volná místa pro pohyb."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9bb41cd3-eb0e-4fb3-a345-c9c6ed5d43dd",
+      "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyhodnoceni-zaznamu-pohybu-v-planu",
+    "title": "Vyhodnocení záznamů pohybu podle plánu",
+    "aliases": [
+      "splnil jsem plán",
+      "porovnání plánu a skutečnosti",
+      "kolik jsem cvičil",
+      "záznam cvičení",
+      "tepová frekvence"
+    ],
+    "outcome": "CZB-TEV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhodnotí záznamy absolvovaných pohybových činností a jejich parametrů v týdenním plánu.",
+        "quote": "Vyhodnotí záznamy absolvovaných pohybových činností a jejich parametrů v týdenním plánu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Plán pohybových aktivit - záznam",
+        "url": ""
+      },
+      {
+        "title": "Běžecký trenér v mobilu",
+        "url": "https://uloziste.rvp.cz/material/72937e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou záznam a ptá se, co se v týdnu povedlo a co ne."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Obecné stránky neznají tvé záznamy, porovnáváš je ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Spočítá celkový čas a ukáže v grafu, kolik z plánu se splnilo."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tabulka v sešitě a stopky ti ukážou, jak se plán a skutečnost liší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/578ea133-eaf3-4542-a727-fe4fc8a6b5a9",
+      "http://data.europa.eu/esco/skill/9bb41cd3-eb0e-4fb3-a345-c9c6ed5d43dd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "predvedeni-pohybove-cinnosti",
+    "title": "Předvedení pohybové činnosti",
+    "aliases": [
+      "předvést cvičení",
+      "ukázat cvik",
+      "předvádění před třídou",
+      "cvičení na vyzvání",
+      "ukázka pohybu"
+    ],
+    "outcome": "CZB-TEV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na vyzvání učitele předvede některou z uváděných pohybových činností.",
+        "quote": "Na vyzvání učitele předvede některou z uváděných pohybových činností."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Cvik předvádíš tělem ty, popis od chatbotu ho neprovede."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a nákresy ukážou správné provedení cviku."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s videi a nahrávání telefonem ukážou, jak cvik vypadá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Cvik provádíš tělem ty, nářadí za tebe nic nepředvede."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9bb41cd3-eb0e-4fb3-a345-c9c6ed5d43dd",
+      "http://data.europa.eu/esco/skill/108ac398-6a84-454a-b56c-8bb0dee1bbf2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zhodnoceni-a-uprava-pohyboveho-rezimu",
+    "title": "Zhodnocení a úprava vlastního pohybového režimu",
+    "aliases": [
+      "je můj režim dobrý",
+      "upravit plán cvičení",
+      "změna plánu",
+      "tělesná zdatnost",
+      "zdravý pohyb"
+    ],
+    "outcome": "CZB-TEV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí vlastní režim, posoudí jeho vhodnost vzhledem k rozvoji tělesné zdatnosti a zdraví, případně (ve spolupráci s učitelem) optimalizuje svůj plán.",
+        "quote": "Zhodnotí vlastní režim, posoudí jeho vhodnost vzhledem k rozvoji tělesné zdatnosti a zdraví, případně (ve spolupráci s učitelem) optimalizuje svůj plán."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Plán pohybových aktivit - reflexe",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se na tvé záznamy a navrhuje, co v plánu změnit a proč."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš doporučení k pohybu a k tomu, jak poznat přetížení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Ukáže vývoj zatížení za několik týdnů, podle něj plán upravíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír zapíšou plán, posoudit ho musíš ty s učitelem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5d589320-2a07-4994-837d-334b57f283d5",
+      "http://data.europa.eu/esco/skill/578ea133-eaf3-4542-a727-fe4fc8a6b5a9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

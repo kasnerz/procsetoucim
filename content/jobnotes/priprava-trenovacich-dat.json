@@ -1,0 +1,9 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "1c5a45b9-440e-4726-b565-16a952abd341": "Obrázková data se musí před trénováním upravit do jednotné podoby, jinak se model učí špatně. Takové úpravy dat jsou běžná součást práce.",
+  "258e46f9-0075-4a2e-adae-1ff0477e0f30": "Při slučování zdrojů se hlídá, aby datové sady byly konzistentní a čisté. Bez upravených dat nemá smysl stavět matematické modely.",
+  "e297ec12-4712-40a4-ad98-ba004cacb205": "Data se tu ručně nečistí, ale určují se kritéria jejich kvality. Bez dobrých dat nemá firma z čeho vycházet."
+ }
+}

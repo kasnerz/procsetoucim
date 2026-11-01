@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kontrola pravopisu v editoru podtrhne překlep už při psaní a ušetří spoustu oprav, ale neumí všechno. Rozdíl mezi „mě“ a „mně“ nebo shodu přísudku s podmětem často nepozná, protože obě slova existují, a někdy nabídne opravu, která do věty nepatří. Kdo píše do novin, vymýšlí reklamy nebo vede zdravotnickou dokumentaci, používá kontrolu pravopisu denně, a přesto musí každé podtržení posoudit. Učíš se tedy nechat nástroj hlídat překlepy a zároveň vědět, kdy mu nevěřit a podívat se do pravidel.",
+  "learnWithAi": [
+    {
+      "title": "Podtržené slovo s vysvětlením",
+      "text": "Vezmi slovo, které ti editor podtrhl, a zeptej se chatbota, jaké pravidlo za tím stojí. Rozhodni, jestli nabízená oprava do tvé věty sedí."
+    },
+    {
+      "title": "Chyby, které kontrola nevidí",
+      "text": "Popros chatbota o odstavec s chybami typu mě a mně nebo bily a byly, které kontrola pravopisu nepodtrhne. Najdi je a ověř si, kolik jich editor opravdu přehlédl."
+    },
+    {
+      "title": "Psaní bez podtrhávání",
+      "text": "Napiš krátký text s vypnutou kontrolou pravopisu a oprav ho podle sebe. Potom kontrolu zapni a nech chatbota vysvětlit každou chybu, kterou editor ještě najde."
+    }
+  ]
+}
