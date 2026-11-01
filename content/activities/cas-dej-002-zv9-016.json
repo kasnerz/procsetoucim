@@ -1,0 +1,513 @@
+[
+  {
+    "slug": "kulturni-pamatka-a-kulturni-dedictvi",
+    "title": "Kulturní památka a kulturní dědictví",
+    "aliases": [
+      "co je kulturní památka",
+      "kulturní dědictví",
+      "chráněné památky",
+      "památka UNESCO",
+      "světové dědictví"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vysvětlí pojmy kulturní památka a kulturní dědictví.",
+        "quote": "Vysvětlí pojmy kulturní památka a kulturní dědictví."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prohloubí své porozumění pojmu kulturní památka a kulturní dědictví - zaměří se na prohlášené (národní) kulturní památky nebo památky ze seznamu světového kulturního dědictví, ale také na objekty, které dosud chráněné nejsou; v případě, že objekt není v blízkosti školy, využije ke zkoumání vyučujícím připravené nahrávky, 3D rekonstrukce, aplikaci Google Maps; Visit More apod.",
+        "quote": "zaměří se na prohlášené (národní) kulturní památky nebo památky ze seznamu světového kulturního dědictví, ale také na objekty, které dosud chráněné nejsou"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Technická památka",
+        "url": "https://uloziste.rvp.cz/material/029e9c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pojmy vysvětlí jednoduše a rozliší chráněnou a nechráněnou památku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na webu Národního památkového ústavu a UNESCO najdeš definice i příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pojmy se nedají naučit z jedné aplikace, jde o vysvětlení a příklady."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pojem sis nevyzkoušíš nástrojem, vysvětlí ho text nebo učitel."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3a519990-ae6c-4c8b-a827-2bf96d949940",
+      "http://data.europa.eu/esco/skill/bc70f963-c1c0-49a5-b940-3e28e163db45"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pamatky-v-okoli-a-ve-svete",
+    "title": "Památky z okolí a ze seznamu světového dědictví",
+    "aliases": [
+      "památky v mém okolí",
+      "památky v obci",
+      "seznam UNESCO",
+      "hodnotné stavby",
+      "co tu stojí"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede příklady kulturních památek a kulturního dědictví ze svého okolí či regionu, popřípadě ze seznamu světového kulturního dědictví.",
+        "quote": "Uvede příklady kulturních památek a kulturního dědictví ze svého okolí či regionu, popřípadě ze seznamu světového kulturního dědictví."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Sám nebo s pomocí zjistí, jaké hodnotné objekty se nacházejí v obci či regionu; v ideálním případě se seznámí s fyzickým stavem a historickým významem vybraného hodnotného objektu přímo na místě (např. určí architektonický styl, zjistí stupeň památkové ochrany apod.).",
+        "quote": "zjistí, jaké hodnotné objekty se nacházejí v obci či regionu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prohloubí své porozumění pojmu kulturní památka a kulturní dědictví - zaměří se na prohlášené (národní) kulturní památky nebo památky ze seznamu světového kulturního dědictví, ale také na objekty, které dosud chráněné nejsou; v případě, že objekt není v blízkosti školy, využije ke zkoumání vyučujícím připravené nahrávky, 3D rekonstrukce, aplikaci Google Maps; Visit More apod.",
+        "quote": "v případě, že objekt není v blízkosti školy, využije ke zkoumání vyučujícím připravené nahrávky, 3D rekonstrukce, aplikaci Google Maps; Visit More apod."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Pracuje individuálně či ve skupině a společně s vyučujícím vybere objekt.",
+        "quote": "Pracuje individuálně či ve skupině a společně s vyučujícím vybere objekt."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Na jeden den průvodcem po památkovém objektu",
+        "url": "https://uloziste.rvp.cz/material/e69ff0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Chatbot si o místních památkách často vymýšlí, spolehlivý seznam ti nedá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Památkový katalog a seznam UNESCO ukážou, co stojí u tebe i ve světě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ti ukáže památky v okolí a 3D pohled i vzdálenou stavbu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Turistická mapa a průvodce vyznačí zajímavé stavby u vás."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/177983da-20a1-451c-98e6-21e6b4ed97ae"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "popis-a-stav-pamatky-na-miste",
+    "title": "Vzhled, sloh a stav památky na místě",
+    "aliases": [
+      "popis památky",
+      "architektonický styl",
+      "stav budovy",
+      "stupeň ochrany",
+      "prohlídka památky"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Objekt popíše a stanoví, proč je považovaný za hodnotný; zaměřuje se nejdříve na objekty, které už mají obecně přijímanou hodnotu kulturního dědictví (např. státem prohlášená památka v obci nebo regionu).",
+        "quote": "Objekt popíše a stanoví, proč je považovaný za hodnotný"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Sám nebo s pomocí zjistí, jaké hodnotné objekty se nacházejí v obci či regionu; v ideálním případě se seznámí s fyzickým stavem a historickým významem vybraného hodnotného objektu přímo na místě (např. určí architektonický styl, zjistí stupeň památkové ochrany apod.).",
+        "quote": "se seznámí s fyzickým stavem a historickým významem vybraného hodnotného objektu přímo na místě (např. určí architektonický styl, zjistí stupeň památkové ochrany apod.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Na jeden den průvodcem po památkovém objektu",
+        "url": "https://uloziste.rvp.cz/material/e69ff0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Budovu si prohlédneš ty, chatbot ji nevidí a stav zdí neposoudí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Přehled slohů a rejstřík památek ti pomůže sloh pojmenovat a ochranu ověřit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Fotky z telefonu a mapa památek ti pomohou srovnat to, co vidíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Skicák, metr a fotoaparát dají podklady k popisu a stavu stavby."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6a429716-fa3d-453f-9b0c-658d25ed0085",
+      "http://data.europa.eu/esco/skill/177983da-20a1-451c-98e6-21e6b4ed97ae"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "historicky-vyznam-pamatky",
+    "title": "Historický význam a hodnota památky",
+    "aliases": [
+      "proč je památka důležitá",
+      "k čemu byla budova",
+      "změna významu budovy",
+      "hodnota památky",
+      "nechráněné stavby"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Dokáže vyjádřit, v čem spočívá historický význam a hodnota sledovaných památek, včetně těch, které nejsou památkově chráněny.",
+        "quote": "Dokáže vyjádřit, v čem spočívá historický význam a hodnota sledovaných památek, včetně těch, které nejsou památkově chráněny."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prohloubí své porozumění pojmu kulturní památka a kulturní dědictví - popíše nejen, proč jsou objekty považovány za hodnotné, ale také jak se jejich historický význam v minulosti mohl měnit (například hospodářské stavení, které se stalo součástí skanzenu; dům, v němž se narodila významná osobnost a byla zde zřízena pamětní síň; polní kříž, který už vesměs neslouží k náboženským obřadům; tovární budova - dnes výstavní prostor).",
+        "quote": "popíše nejen, proč jsou objekty považovány za hodnotné, ale také jak se jejich historický význam v minulosti mohl měnit"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Technická památka",
+        "url": "https://uloziste.rvp.cz/material/029e9c"
+      },
+      {
+        "title": "Maroldovo panorama bitvy u Lipan",
+        "url": "https://uloziste.rvp.cz/material/d9ca45"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti ukáže, z jakých stran se dá hodnota stavby posuzovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky obce nebo muzea vyprávějí dějiny konkrétní stavby."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Hodnotu a proměnu významu stavby zjistíš z příběhu, ne z aplikace."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kronika, kniha o regionu nebo staré fotky ukážou, k čemu stavba sloužila dřív."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4e8d34e2-b236-4d05-9607-85fb4bd9c0cb",
+      "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pristup-zachovani-pamatky-a-navrh-reseni",
+    "title": "Přínos zachování památky a návrh jejího využití",
+    "aliases": [
+      "proč zachovat památku",
+      "co s budovou dál",
+      "obnova památky",
+      "budoucnost památky",
+      "nové využití stavby"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí přínos zachování sledovaných památek pro budoucnost.",
+        "quote": "Zhodnotí přínos zachování sledovaných památek pro budoucnost."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Navrhne řešení, jak s vybraným objektem v budoucnosti nakládat; hodnotu vybraného objektu vyjádří vlastní aktivitou: prezentace či jiná podoba popularizace ve škole nebo na veřejnosti, průzkum veřejného mínění o objektu, úklid v okolí objektu, návrh na jeho prohlášení kulturní památkou apod.",
+        "quote": "Navrhne řešení, jak s vybraným objektem v budoucnosti nakládat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kde na ně vzpomínat?",
+        "url": "https://uloziste.rvp.cz/material/cf3951"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti k nápadu najde protiargumenty a pomůže ti je promyslet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příklady obnovených staveb ukážou, co se s podobným objektem dá dělat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Co by se mělo s budovou stát, rozhoduješ ty, aplikace k tomu nic nedodá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ruční nástroj k úvaze o budoucnosti stavby nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bc70f963-c1c0-49a5-b940-3e28e163db45",
+      "http://data.europa.eu/esco/skill/3a519990-ae6c-4c8b-a827-2bf96d949940"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "predstaveni-pamatky-ostatnim",
+    "title": "Představení památky spolužákům nebo veřejnosti",
+    "aliases": [
+      "prezentace o památce",
+      "plakát o památce",
+      "popularizace památky",
+      "průvodce po památce",
+      "referát o stavbě"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "O vybrané objekty projevuje aktivní zájem, například informuje druhé o jejich hodnotě nebo pomáhá o objekty pečovat vlastní aktivitou.",
+        "quote": "O vybrané objekty projevuje aktivní zájem, například informuje druhé o jejich hodnotě"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Své závěry sdílí se spolužáky nebo vyučujícím.",
+        "quote": "Své závěry sdílí se spolužáky nebo vyučujícím."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Navrhne řešení, jak s vybraným objektem v budoucnosti nakládat; hodnotu vybraného objektu vyjádří vlastní aktivitou: prezentace či jiná podoba popularizace ve škole nebo na veřejnosti, průzkum veřejného mínění o objektu, úklid v okolí objektu, návrh na jeho prohlášení kulturní památkou apod.",
+        "quote": "prezentace či jiná podoba popularizace ve škole nebo na veřejnosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Na jeden den průvodcem po památkovém objektu",
+        "url": "https://uloziste.rvp.cz/material/e69ff0"
+      },
+      {
+        "title": "Turistický průvodce starověkem",
+        "url": "https://uloziste.rvp.cz/material/795ccc"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže s osnovou a nácvikem otázek, které by publikum mohlo mít."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ověřená fakta a obrázky stavby dodají materiál pro tvoji prezentaci."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prezentační program nebo editor plakátů ti pomůže sestavit snímky a vzhled."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Plakát, fixy a ukazovátko se hodí, když památku představuješ před třídou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f",
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pruzkum-verejneho-mineni-a-petice-o-pamatce",
+    "title": "Průzkum mínění a petice za zachování památky",
+    "aliases": [
+      "anketa o památce",
+      "petice",
+      "sbírání podpisů",
+      "dotazník o budově",
+      "zachránit památku"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Navrhne řešení, jak s vybraným objektem v budoucnosti nakládat; hodnotu vybraného objektu vyjádří vlastní aktivitou: prezentace či jiná podoba popularizace ve škole nebo na veřejnosti, průzkum veřejného mínění o objektu, úklid v okolí objektu, návrh na jeho prohlášení kulturní památkou apod.",
+        "quote": "průzkum veřejného mínění o objektu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Navrhne řešení, jak s vybraným objektem v budoucnosti nakládat; hodnotu vybraného objektu vyjádří vlastní aktivitou: prezentace či jiná podoba popularizace ve škole nebo na veřejnosti, průzkum veřejného mínění o objektu, úklid v okolí objektu, návrh na jeho prohlášení kulturní památkou apod.",
+        "quote": "návrh na jeho prohlášení kulturní památkou"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže zformulovat srozumitelné otázky ankety a text petice."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzory dotazníků a petic ti ukážou, jak se tyto texty píšou."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Online formulář nebo tabulka spočítá odpovědi z ankety."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový arch a tužka stačí na sbírání odpovědí a podpisů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8770350e-746f-4adb-9556-18ca68104be6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uklid-a-pece-o-okoli-pamatky",
+    "title": "Úklid a péče o okolí památky",
+    "aliases": [
+      "uklidit okolí památky",
+      "brigáda u památky",
+      "péče o památku",
+      "sběr odpadků u kostela",
+      "pomoc památce"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Podílí se na péči o regionální památky, a připomíná si tak jejich význam.",
+        "quote": "Podílí se na péči o regionální památky, a připomíná si tak jejich význam."
+      },
+      {
+        "level": "Splněno",
+        "point": "O vybrané objekty projevuje aktivní zájem, například informuje druhé o jejich hodnotě nebo pomáhá o objekty pečovat vlastní aktivitou.",
+        "quote": "pomáhá o objekty pečovat vlastní aktivitou"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Navrhne řešení, jak s vybraným objektem v budoucnosti nakládat; hodnotu vybraného objektu vyjádří vlastní aktivitou: prezentace či jiná podoba popularizace ve škole nebo na veřejnosti, průzkum veřejného mínění o objektu, úklid v okolí objektu, návrh na jeho prohlášení kulturní památkou apod.",
+        "quote": "úklid v okolí objektu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Odpadky sbíráš rukama ty, chatbot okolí neuklidí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Web okolí neuklidí, úklid uděláš ty na místě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nic nenasbírá ani neodnese."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Rukavice, pytel a hrábě ti úklid usnadní a ochrání ruce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4f1b6304-f54a-42f0-9604-5427a28d240f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

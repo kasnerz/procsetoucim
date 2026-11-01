@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Postup, který dává smysl tobě, může mít díru, kterou uvidí až ten, kdo se podle něj řídí. Proto se učíš číst návod nebo algoritmus jako cizí člověk a ptát se, co se stane, když něco nevyjde, a jestli je jasné, kdy skončit. Takhle pracují lidé, kteří navrhují software, kontrolují informační systémy nebo hlídají kvalitu ve výrobě, a hodí se to i u obyčejného návodu pro mladšího sourozence. Chatbot nejasná místa často najde, opravu ale musíš navrhnout tak, aby seděla na tvůj případ.",
+  "learnWithAi": [
+    {
+      "title": "Návod s chybějícím krokem",
+      "text": "Požádej chatbota o krátký postup, třeba jak uvařit čaj, ve kterém jeden krok chybí nebo je nejasný. Najdi ho a napiš opravenou verzi."
+    },
+    {
+      "title": "Robot, který čte doslova",
+      "text": "Pošli chatbotovi svůj postup a požádej ho, ať ho plní úplně doslova jako robot a hlásí, kde se zasekne. Místa, kde se zasekl, oprav ty."
+    },
+    {
+      "title": "Dvojznačná slova v popisu",
+      "text": "Napiš popis svého algoritmu tak, aby ho pochopil spolužák, a nech chatbota označit slova, která jde vyložit dvojím způsobem. Ta pak přepiš přesněji."
+    }
+  ]
+}

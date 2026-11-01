@@ -1,0 +1,95 @@
+{
+  "outcome": "MAT-MAT-003-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "site-teles",
+      "title": "Sítě těles",
+      "aliases": ["síť krychle", "síť kvádru", "rozložené těleso", "síť hranolu", "síť válce", "síť jehlanu", "slepování z papíru"],
+      "sources": [
+        {"level": "Na začátku", "quote": "přiřadí k sobě těleso a jeho síť"},
+        {"level": "Na začátku", "quote": "vytvoří síť krychle a kvádru"},
+        {"level": "Splněno", "quote": "Určí síť běžného trojrozměrného tělesa (tzn. hranolu, válce, kuželu či jehlanu)."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Síť si musíš představit a nakreslit ty, textový popis ti ji nenahradí."},
+        "internet": {"verdict": "pomuze", "why": "Hotové sítě těles k vytištění ti ukážou, jak těleso rozložit."},
+        "aplikace": {"verdict": "pomuze", "why": "Program těleso na obrazovce rozloží a složí zpátky, vidíš, která síť sedí."},
+        "klasicky": {"verdict": "pomuze", "why": "Nůžky, papír a lepidlo: síť vystřihneš a složíš, hned poznáš, jestli je správně."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aafbb139-02c6-4f35-bc62-ff73faf97d6d",
+        "http://data.europa.eu/esco/skill/68b6ef08-d823-489d-a95c-752ae6f6e6a7"
+      ],
+      "inspiration": ["Skládání těles"]
+    },
+    {
+      "slug": "nacrt-pudorys-bokorys-tel",
+      "title": "Nárys, bokorys a půdorys tělesa",
+      "aliases": ["pohledy na těleso", "nárys", "bokorys", "půdorys", "pohled shora", "pohled zepředu"],
+      "sources": [
+        {"level": "Na začátku", "quote": "určí nárys, bokorys, půdorys základního tělesa (tzn. krychle, kvádru, koule, hranolu, válce, kuželu či jehlanu)"},
+        {"level": "Na cestě", "quote": "určí různé pohledy na mnohostěny (půdorys, bokorys, nárys)"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Pohled na těleso si musíš vybavit ty, chatbot ho nevidí a obrázek ti nenakreslí správně."},
+        "internet": {"verdict": "pomuze", "why": "Obrázky těles s jejich třemi pohledy ti ukážou, jak to má vypadat."},
+        "aplikace": {"verdict": "pomuze", "why": "Těleso v programu otočíš a vidíš ho shora, zepředu i z boku."},
+        "klasicky": {"verdict": "pomuze", "why": "Stavebnice nebo kostky vezmeš do ruky a podíváš se na ně ze všech stran."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b07daddc-8625-4360-946e-ad2b0e56ebf6",
+        "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "nacrt-teles-rovnobezne-promitani",
+      "title": "Náčrt těles ve volném rovnoběžném promítání",
+      "aliases": ["kreslení krychle", "kreslení kvádru", "těleso na papíře", "prostorový obrázek", "náčrt tělesa"],
+      "sources": [
+        {"level": "Na cestě", "quote": "načrtne základní tělesa ve volném rovnoběžném promítání"}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí ti postup, jak se kreslí krychle na čtverečkovaném papíře, a zkontroluje tvůj popis."},
+        "internet": {"verdict": "pomuze", "why": "Návody a ukázky krok za krokem ti ukážou, jak těleso načrtnout."},
+        "aplikace": {"verdict": "pomuze", "why": "Kreslicí program s mřížkou ti pomůže vést čáry a opravit chybu."},
+        "klasicky": {"verdict": "pomuze", "why": "Tužku, pravítko a čtverečkovaný papír potřebuješ, náčrt kreslíš vlastní rukou."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/432ab648-aece-4237-969f-8bca94fe181c",
+        "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "rez-telesem",
+      "title": "Řez tělesem",
+      "aliases": ["řez hranolem", "řez válcem", "řez kuželem", "řez jehlanem", "rozříznutí tělesa", "průřez"],
+      "sources": [
+        {"level": "Splněno", "quote": "Určí řez běžným trojrozměrným tělesem (tzn. hranolem, válcem, kuželem či jehlanem)."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Řez si musíš představit ty, chatbot tvar řezu spolehlivě neurčí."},
+        "internet": {"verdict": "pomuze", "why": "Obrázky řezů těles ti ukážou, jaký tvar při řezu vznikne."},
+        "aplikace": {"verdict": "pomuze", "why": "Program těleso rozřízne rovinou a hned vidíš tvar řezu."},
+        "klasicky": {"verdict": "pomuze", "why": "Mrkev, brambor nebo plastelínu rozkrojíš nožem a vidíš tvar řezu."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aafbb139-02c6-4f35-bc62-ff73faf97d6d",
+        "http://data.europa.eu/esco/skill/3c333552-8d89-43f5-90bd-856e15bec433"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Modeluje základní tělesa.", "code": "O3", "refs": []}
+  ]
+}

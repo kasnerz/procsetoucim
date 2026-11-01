@@ -1,0 +1,64 @@
+{
+  "outcome": "MAT-MAT-003-ZV9-009",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "řeší úlohy pomocí manipulačních činností (např. ve čtvercové síti, překládáním papíru, modelováním těles, se sítěmi těles)",
+      "cards": [
+        "geometrie-rukama-sit-teles"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "navrhne a zapíše postup konstrukce (slovně nebo symbolicky), diskutuje podmínky řešení a realizuje rýsováním",
+      "cards": [
+        "zapis-postupu-konstrukce",
+        "konstrukce-podle-zadanych-prvku-diskuse"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "používá geometrický software ke konstrukcím geometrických útvarů, k zobrazení těles a modelování polohových vztahů v rovině a prostoru",
+      "cards": [
+        "geometricky-software-konstrukce-a-telesa"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "provádí základní konstrukce (např. rovnoběžky, kolmice, osa úsečky, úhel 60°, osa úhlu, kružnice) pomocí pravítka a kružítka",
+      "cards": [
+        "osa-usecky-osa-uhlu-uhel-60"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "sestrojí útvary (včetně úhlů) podle zadaných prvků a provádí diskusi řešení",
+      "cards": [
+        "konstrukce-podle-zadanych-prvku-diskuse"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Aplikuje osvojené dovednosti při řešení konstrukčních úloh s reálným kontextem.",
+      "cards": [
+        "konstrukcni-ulohy-z-praxe"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Provádí jednoduché konstrukce geometrických útvarů.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

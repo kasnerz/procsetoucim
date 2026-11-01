@@ -1,0 +1,70 @@
+{
+  "outcome": "CJS-CJS-004-ZV5-019",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozliší části dne, popíše a uspořádá události v čase.",
+      "cards": [
+        "casti-dne-a-poradi-udalosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Orientuje se v kalendáři a s jeho pomocí řeší reálné problémy s časovými údaji.",
+      "cards": [
+        "kalendar-a-casove-udaje"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Odhadne a změří hmotnost, objem a délku předmětu nebo vzdálenost mezi dvěma předměty vhodnými typy měřidel.",
+      "cards": [
+        "mereni-delky-a-vzdalenosti",
+        "vazeni-hmotnosti",
+        "mereni-objemu",
+        "odhad-a-porovnani-s-merenim"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Měří teplotu v několika následujících dnech nebo hodinách během jednoho dne, zjištěné hodnoty zaznamenává.",
+      "cards": [
+        "mereni-teploty-a-zapis"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá k měření vhodné typy měřidel, včetně digitálních.",
+      "cards": [
+        "volba-vhodneho-meridla"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zaznamená a porovná svá měření se svým odhadem.",
+      "cards": [
+        "odhad-a-porovnani-s-merenim"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Používá vhodná měřidla k měření vzdálenosti, času, hmotnosti a teploty, vyjmenuje základní jednotky vzdálenosti, času, hmotnosti a teploty, změří je a využívá v praktických situacích.",
+      "cards": [
+        "mereni-casu",
+        "mereni-delky-a-vzdalenosti",
+        "vazeni-hmotnosti",
+        "mereni-teploty-a-zapis",
+        "jednotky-delky-casu-hmotnosti-teploty",
+        "volba-vhodneho-meridla"
+      ],
+      "aside": null
+    }
+  ]
+}

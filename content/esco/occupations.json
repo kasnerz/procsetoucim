@@ -1029,6 +1029,42 @@
    }
   }
  },
+ "026401a9-7d56-4d7b-8052-38985ddbeafa": {
+  "id": "026401a9-7d56-4d7b-8052-38985ddbeafa",
+  "uri": "http://data.europa.eu/esco/occupation/026401a9-7d56-4d7b-8052-38985ddbeafa",
+  "label": "Chovatel/chovatelka včel",
+  "labelAlt": [
+   "specialistka na chov včel",
+   "včelařka",
+   "včelař",
+   "specialista na chov včel"
+  ],
+  "description": "Chovatelé včel dohlížejí na produkci včel a každodenní péči o včely. Starají se o zdraví a dobré životní podmínky včel.",
+  "isco4": "6123",
+  "isco2": "61",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 39,
+    "examples": [
+     "monitorovat dobré životní podmínky zvířat",
+     "zpracovávat sklizený med"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 39,
+    "examples": [
+     "počítačem řízené systémy krmení"
+    ]
+   }
+  }
+ },
  "026a5233-cad9-4b1d-8852-22c2685ab34e": {
   "id": "026a5233-cad9-4b1d-8852-22c2685ab34e",
   "uri": "http://data.europa.eu/esco/occupation/026a5233-cad9-4b1d-8852-22c2685ab34e",
@@ -3293,6 +3329,45 @@
    }
   }
  },
+ "07e60525-1aad-4099-aaf3-2c7014c92212": {
+  "id": "07e60525-1aad-4099-aaf3-2c7014c92212",
+  "uri": "http://data.europa.eu/esco/occupation/07e60525-1aad-4099-aaf3-2c7014c92212",
+  "label": "Inženýr/inženýrka integrace",
+  "labelAlt": [
+   "inženýrka integrace informačních systémů",
+   "inženýrka integrace systémů",
+   "inženýr integrace softwaru",
+   "inženýrka integrace ICT",
+   "inženýr integrace ICT",
+   "inženýr integrace informačních systémů",
+   "inženýr integrace systémů",
+   "inženýrka integrace softwaru"
+  ],
+  "description": "Inženýři integrace vypracovávají a provádějí řešení, která koordinují aplikace napříč podnikem nebo jeho útvary a odděleními. Hodnotí stávající prvky nebo systémy s cílem stanovit požadavky na integraci a zajistit, aby konečná řešení odpovídala organizačním potřebám. Opakovaně využívají komponenty, je-li to možné, a napomáhají managementu při rozhodování. Provádějí řešení problémů v oblasti integrace systémů ICT.",
+  "isco4": "2511",
+  "isco2": "25",
+  "ilo": {
+   "score": 0.49,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 87,
+    "examples": []
+   },
+   "digital": {
+    "count": 80,
+    "of": 87,
+    "examples": [
+     "pořizování zařízení sítí ICT",
+     "meziorganizační middleware systém",
+     "komunikační protokoly ICT"
+    ]
+   }
+  }
+ },
  "0809ea8a-4f77-4351-a7f1-b9a7b99b6c0b": {
   "id": "0809ea8a-4f77-4351-a7f1-b9a7b99b6c0b",
   "uri": "http://data.europa.eu/esco/occupation/0809ea8a-4f77-4351-a7f1-b9a7b99b6c0b",
@@ -3723,6 +3798,37 @@
      "management sociálních médií",
      "spolupracovat prostřednictvím digitálních technologií",
      "spravovat údaje, informace a digitální obsah"
+    ]
+   }
+  }
+ },
+ "095169ac-feee-4fcf-bff7-222ab6d84bc4": {
+  "id": "095169ac-feee-4fcf-bff7-222ab6d84bc4",
+  "uri": "http://data.europa.eu/esco/occupation/095169ac-feee-4fcf-bff7-222ab6d84bc4",
+  "label": "Nákupčí zelené kávy",
+  "labelAlt": [
+   "pracovník nákupu zelené kávy",
+   "pracovnice nákupu zelené kávy"
+  ],
+  "description": "Nákupčí zelené kávy kupují zelenou kávu z pražíren doporučovaných výrobci z celého světa. Mají hluboké znalosti procesu výroby kávy od plodů až po výsledný šálek.",
+  "isco4": "3323",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.39,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 33,
+    "examples": [
+     "být počítačově gramotný"
     ]
    }
   }
@@ -9094,6 +9200,32 @@
    }
   }
  },
+ "183d60f2-277f-47c8-a8c6-f5c8eedba2b0": {
+  "id": "183d60f2-277f-47c8-a8c6-f5c8eedba2b0",
+  "uri": "http://data.europa.eu/esco/occupation/183d60f2-277f-47c8-a8c6-f5c8eedba2b0",
+  "label": "Dělník/dělnice ve výrobě střeliva",
+  "labelAlt": [],
+  "description": "Dělníci ve výrobě střeliva provádějí montáž výbušnin a dalšího střeliva. Tuto práci vykonávají v masové výrobě v továrnách na střelivo. Samotná výroba se zaměřuje na výrobu nábojů či projektilů.",
+  "isco4": "8219",
+  "isco2": "82",
+  "ilo": {
+   "score": 0.32,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 30,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 30,
+    "examples": []
+   }
+  }
+ },
  "18459eb0-5506-4692-9889-d1f9a2b989eb": {
   "id": "18459eb0-5506-4692-9889-d1f9a2b989eb",
   "uri": "http://data.europa.eu/esco/occupation/18459eb0-5506-4692-9889-d1f9a2b989eb",
@@ -9598,6 +9730,36 @@
    "digital": {
     "count": 0,
     "of": 48,
+    "examples": []
+   }
+  }
+ },
+ "1999bdfa-f9c4-4a0b-8565-0305108ca65e": {
+  "id": "1999bdfa-f9c4-4a0b-8565-0305108ca65e",
+  "uri": "http://data.europa.eu/esco/occupation/1999bdfa-f9c4-4a0b-8565-0305108ca65e",
+  "label": "Obsluha sušárny pyrotechniky",
+  "labelAlt": [
+   "obsluha sušárny pyrotechnických výrobků pro ohňostroje"
+  ],
+  "description": "Obsluha sušárny pyrotechniky sleduje a udržuje sušárnu a zajišťuje, aby se pyrotechnika sušila a skladovala v souladu se správnými parametry a specifikacemi.",
+  "isco4": "8131",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 18,
+    "examples": [
+     "skladování nebezpečných odpadů"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 18,
     "examples": []
    }
   }
@@ -18543,6 +18705,37 @@
    }
   }
  },
+ "30cdbb0a-4f62-4d0e-811c-72e3f95d017b": {
+  "id": "30cdbb0a-4f62-4d0e-811c-72e3f95d017b",
+  "uri": "http://data.europa.eu/esco/occupation/30cdbb0a-4f62-4d0e-811c-72e3f95d017b",
+  "label": "Obsluha zařízení na zpracování chemických látek pro výrobu výbušnin",
+  "labelAlt": [
+   "obsluha nitrátoru"
+  ],
+  "description": "Obsluha zařízení na zpracování chemických látek pro výrobu výbušnin sleduje a kontroluje zařízení, které zpracovává chemické látky k výrobě výbušnin. Odpovídá za skladování produktů v nádržích.",
+  "isco4": "8131",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 18,
+    "examples": [
+     "zajistit soulad s legislativou v oblasti životního prostředí",
+     "skladování nebezpečných odpadů"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 18,
+    "examples": []
+   }
+  }
+ },
  "30ed83ba-cc89-4d9f-a59d-5c783c1da56e": {
   "id": "30ed83ba-cc89-4d9f-a59d-5c783c1da56e",
   "uri": "http://data.europa.eu/esco/occupation/30ed83ba-cc89-4d9f-a59d-5c783c1da56e",
@@ -23902,6 +24095,39 @@
    }
   }
  },
+ "3fa9a480-ceb3-4c2a-8a91-0508e1bb6ba5": {
+  "id": "3fa9a480-ceb3-4c2a-8a91-0508e1bb6ba5",
+  "uri": "http://data.europa.eu/esco/occupation/3fa9a480-ceb3-4c2a-8a91-0508e1bb6ba5",
+  "label": "Počítačový konstruktér/počítačová konstruktérka obuvnických střihů",
+  "labelAlt": [],
+  "description": "Počítačoví konstruktéři obuvnických střihů navrhují a upravují střihy pro všechny druhy obuvi s použitím systémů CAD. Kontrolují varianty položení s použitím modulů pro vložení systému CAD a spotřebu materiálu. Jakmile je model vzorku schválen pro výrobu, vypracují tito odborníci řadu střihů (odstupňovaných) s cílem vytvořit řadu různých modelů obuvi v různých velikostech.",
+  "isco4": "7536",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 28,
+    "examples": [
+     "komponenty obuvi",
+     "snižovat dopady výroby obuvi na životní prostředí"
+    ]
+   },
+   "digital": {
+    "count": 7,
+    "of": 28,
+    "examples": [
+     "používat 2D CAD nástroj pro navrhování obuvi",
+     "používat IT nástroje",
+     "CAD nástroje pro navrhování obuvi"
+    ]
+   }
+  }
+ },
  "3ff2fdf4-af54-4517-873d-73e9353f112e": {
   "id": "3ff2fdf4-af54-4517-873d-73e9353f112e",
   "uri": "http://data.europa.eu/esco/occupation/3ff2fdf4-af54-4517-873d-73e9353f112e",
@@ -27391,6 +27617,32 @@
    }
   }
  },
+ "4a3f40a8-0587-494c-b8d3-7098b8c5992f": {
+  "id": "4a3f40a8-0587-494c-b8d3-7098b8c5992f",
+  "uri": "http://data.europa.eu/esco/occupation/4a3f40a8-0587-494c-b8d3-7098b8c5992f",
+  "label": "Desátník/desátnice",
+  "labelAlt": [],
+  "description": "Desátníci vykonávají dohled nad skupinami vojáků a plní úkoly v oblasti vydávání rozkazů. Rovněž velí v oblasti vybavení, jako jsou těžké stroje a zbraně.",
+  "isco4": "0210",
+  "isco2": "02",
+  "ilo": null,
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 29,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 29,
+    "examples": [
+     "geografické informační systémy",
+     "používat geografické informační systémy"
+    ]
+   }
+  }
+ },
  "4a5b3686-eea4-4ba0-b446-33f7b6a95aed": {
   "id": "4a5b3686-eea4-4ba0-b446-33f7b6a95aed",
   "uri": "http://data.europa.eu/esco/occupation/4a5b3686-eea4-4ba0-b446-33f7b6a95aed",
@@ -28264,6 +28516,36 @@
    "digital": {
     "count": 0,
     "of": 67,
+    "examples": []
+   }
+  }
+ },
+ "4c9ca706-3973-4926-854d-44011662ca83": {
+  "id": "4c9ca706-3973-4926-854d-44011662ca83",
+  "uri": "http://data.europa.eu/esco/occupation/4c9ca706-3973-4926-854d-44011662ca83",
+  "label": "Technik/technička požární ochrany",
+  "labelAlt": [],
+  "description": "Technici požární ochrany instalují a udržují protipožární zařízení, jako jsou hasicí přístroje, požární poplašná zařízení, systémy detekce požáru nebo postřikovací systémy v budovách, pro zajištění dodržování bezpečnostních norem a ochrany před nebezpečím požáru. Kontrolují zařízení, aby byla zajištěna jeho funkčnost, a provádějí opravy.",
+  "isco4": "3112",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.28,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 28,
+    "examples": [
+     "prevence znečištění",
+     "environmentální politika",
+     "obnova stanovišť"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 28,
     "examples": []
    }
   }
@@ -31783,6 +32065,38 @@
    }
   }
  },
+ "565987b2-b980-4881-891c-cc4d5ab61d07": {
+  "id": "565987b2-b980-4881-891c-cc4d5ab61d07",
+  "uri": "http://data.europa.eu/esco/occupation/565987b2-b980-4881-891c-cc4d5ab61d07",
+  "label": "Písmák/písmačka",
+  "labelAlt": [
+   "kamenorytečka",
+   "kamenorytec"
+  ],
+  "description": "Písmáci používají ruční nástroje, stroje a chemické výrobky k leptání a rytí vzorů a nápisů na kamenném povrchu.",
+  "isco4": "7113",
+  "isco2": "71",
+  "ilo": {
+   "score": 0.11,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 39,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 39,
+    "examples": [
+     "nastavit regulátor stroje",
+     "programovat řídicí jednotku CNC"
+    ]
+   }
+  }
+ },
  "5684182e-7b4c-4eea-97d9-4c2b88b9f906": {
   "id": "5684182e-7b4c-4eea-97d9-4c2b88b9f906",
   "uri": "http://data.europa.eu/esco/occupation/5684182e-7b4c-4eea-97d9-4c2b88b9f906",
@@ -34291,6 +34605,36 @@
    "digital": {
     "count": 0,
     "of": 23,
+    "examples": []
+   }
+  }
+ },
+ "5bf823c5-d3fd-46f6-9577-9331de10759f": {
+  "id": "5bf823c5-d3fd-46f6-9577-9331de10759f",
+  "uri": "http://data.europa.eu/esco/occupation/5bf823c5-d3fd-46f6-9577-9331de10759f",
+  "label": "Obsluha strojů na řezání pryže",
+  "labelAlt": [
+   "řezačka pryže",
+   "řezač pryže",
+   "obsluha strojů na řezání plátů pryže"
+  ],
+  "description": "Obsluha strojů na řezání pryže obsluhuje stroj, který řeže bloky pryže na pláty. Pláty pryže přemísťuje z pásu na palety a jednotlivé pláty nasprejuje chemickým roztokem, aby se neslepily.",
+  "isco4": "8141",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 17,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 17,
     "examples": []
    }
   }
@@ -41986,6 +42330,42 @@
     "count": 0,
     "of": 31,
     "examples": []
+   }
+  }
+ },
+ "725090a7-9943-4dae-8079-a6999d21ddba": {
+  "id": "725090a7-9943-4dae-8079-a6999d21ddba",
+  "uri": "http://data.europa.eu/esco/occupation/725090a7-9943-4dae-8079-a6999d21ddba",
+  "label": "Manažer/manažerka pro styk se zákazníky",
+  "labelAlt": [
+   "manažerka pro vztahy se zákazníky",
+   "manažer pro vztahy se zákazníky"
+  ],
+  "description": "Manažeři pro styk se zákazníky vystupují jako prostředníci mezi společností a jejími zákazníky. Zajišťují, aby byli zákazníci spokojeni, a poskytují jim pokyny a vysvětlení k jejich účtům a službám, které společnost obdržela. Rovněž mají možné další úkoly, například vypracování plánů nebo předložení návrhů.",
+  "isco4": "2431",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.55,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 60,
+    "examples": [
+     "společenská odpovědnost podniků",
+     "firemní udržitelnost"
+    ]
+   },
+   "digital": {
+    "count": 4,
+    "of": 60,
+    "examples": [
+     "znalostní báze",
+     "ochrana dat",
+     "plánovat marketingovou kampaň"
+    ]
    }
   }
  },
@@ -52846,6 +53226,36 @@
    }
   }
  },
+ "8edc768c-0bc6-4d65-b559-50f9fb2cc93f": {
+  "id": "8edc768c-0bc6-4d65-b559-50f9fb2cc93f",
+  "uri": "http://data.europa.eu/esco/occupation/8edc768c-0bc6-4d65-b559-50f9fb2cc93f",
+  "label": "Konfekcionér/konfekcionérka klínových řemenů",
+  "labelAlt": [
+   "pracovnice konfekce formování a řezání klínových řemenů",
+   "pracovník konfekce formování a řezání klínových řemenů",
+   "obsluha strojů na konfekci formování klínových řemenů"
+  ],
+  "description": "Konfekcionéři klínových řemenů tvarují řemeny z kalandrované pryže do tvaru písmene V. Měří množství potřebné pryže a odstříhávají ji pomocí nůžek. Konfekcionéři klínových řemenů nanáší gumový cement po stranách řemenů. Řemeny pokládají na buben, kde se materiály stlačí k sobě, a řežou nožem řemeny specifikované šířky.",
+  "isco4": "8141",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 17,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 17,
+    "examples": []
+   }
+  }
+ },
  "8edd8bff-cb59-4c9c-ab0f-59e77d18be48": {
   "id": "8edd8bff-cb59-4c9c-ab0f-59e77d18be48",
   "uri": "http://data.europa.eu/esco/occupation/8edd8bff-cb59-4c9c-ab0f-59e77d18be48",
@@ -53978,6 +54388,37 @@
     "examples": [
      "monitorovat automatizované stroje",
      "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
+ "93aa611c-a58c-43ff-bc34-6e201dfdd0dd": {
+  "id": "93aa611c-a58c-43ff-bc34-6e201dfdd0dd",
+  "uri": "http://data.europa.eu/esco/occupation/93aa611c-a58c-43ff-bc34-6e201dfdd0dd",
+  "label": "Konstruktér/konstruktérka obuvnických střihů",
+  "labelAlt": [],
+  "description": "Konstruktéři obuvnických střihů navrhují a vyřezávají střihy pro všechny druhy obuvi s využitím řady ručních nástrojů a jednoduchých obráběcích strojů. Kontrolují různé varianty vložení a provádějí odhad spotřeby materiálu. Jakmile je model vzorku schválen pro výrobu, vytvářejí řadu vzorců obuvi v různých velikostech.",
+  "isco4": "7536",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 22,
+    "examples": [
+     "komponenty obuvi",
+     "snižovat dopady výroby obuvi na životní prostředí"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 22,
+    "examples": [
+     "používat 2D CAD nástroj pro navrhování obuvi"
     ]
    }
   }
@@ -57778,6 +58219,36 @@
    }
   }
  },
+ "9dbbeb2c-0d51-4c03-8ef6-8dfa7360db22": {
+  "id": "9dbbeb2c-0d51-4c03-8ef6-8dfa7360db22",
+  "uri": "http://data.europa.eu/esco/occupation/9dbbeb2c-0d51-4c03-8ef6-8dfa7360db22",
+  "label": "Pomocný lodní strojník, pomocná lodní strojnice",
+  "labelAlt": [
+   "pomocný lodník"
+  ],
+  "description": "Pomocní lodní strojníci pomáhají hlavnímu lodnímu strojníkovi a lodním důstojníkům s provozem lodi. Starají se o provoz hlavních motorů, mechanismu řízení, výroby elektrické energie a dalších hlavních subsystémů. Komunikují s námořními inženýry o provádění technických operací. Zajišťují rovněž dodržování příslušných bezpečnostních a regulačních norem a v případě potřeby jsou schopni zaujmout vyšší pozici.",
+  "isco4": "3151",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.23,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 33,
+    "examples": [
+     "předpisy týkající se vypouštění surovin do moře"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   }
+  }
+ },
  "9deee896-be9b-4aac-b55e-ceff1a7a843a": {
   "id": "9deee896-be9b-4aac-b55e-ceff1a7a843a",
   "uri": "http://data.europa.eu/esco/occupation/9deee896-be9b-4aac-b55e-ceff1a7a843a",
@@ -59284,6 +59755,41 @@
    }
   }
  },
+ "a28dff76-74df-46ee-929f-d1fffbb63cd7": {
+  "id": "a28dff76-74df-46ee-929f-d1fffbb63cd7",
+  "uri": "http://data.europa.eu/esco/occupation/a28dff76-74df-46ee-929f-d1fffbb63cd7",
+  "label": "Manažer/manažerka zajištění kvality ICT",
+  "labelAlt": [
+   "manažer zajištění IT kvality",
+   "manažer zajištění kvality informačních systémů",
+   "manažerka zajištění kvality informačních systémů",
+   "manažerka zajištění IT kvality"
+  ],
+  "description": "Manažeři zajištění kvality ICT stanovují a spravují přístup ke kvalitě ICT prostřednictvím systémů řízení kvality, a to v souladu s vnitřními a vnějšími standardy a kulturou organizace. Zajišťují, aby byly kontroly řízení řádně prováděny s cílem zajistit aktiva, integritu údajů a operace. Zaměřují se na dosahování cílů v oblasti kvality, včetně udržování vnější certifikace v souladu s normami kvality, a sledují statistiky s cílem předpovídat výsledky kvality.",
+  "isco4": "2519",
+  "isco2": "25",
+  "ilo": {
+   "score": 0.55,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 39,
+    "examples": []
+   },
+   "digital": {
+    "count": 21,
+    "of": 39,
+    "examples": [
+     "interní politika řízení rizik",
+     "politika kvality ICT",
+     "softwarové anomálie"
+    ]
+   }
+  }
+ },
  "a2a126ac-d90d-4e9f-97d1-9b8dff2ff946": {
   "id": "a2a126ac-d90d-4e9f-97d1-9b8dff2ff946",
   "uri": "http://data.europa.eu/esco/occupation/a2a126ac-d90d-4e9f-97d1-9b8dff2ff946",
@@ -59428,6 +59934,34 @@
     "examples": [
      "používat IT nástroje"
     ]
+   }
+  }
+ },
+ "a2dee758-72f5-4f1c-b760-f2b8e9d81911": {
+  "id": "a2dee758-72f5-4f1c-b760-f2b8e9d81911",
+  "uri": "http://data.europa.eu/esco/occupation/a2dee758-72f5-4f1c-b760-f2b8e9d81911",
+  "label": "Kominík/kominice",
+  "labelAlt": [],
+  "description": "Kominíci provádějí činnosti v oblasti čištění komínů pro všechny typy budov. Odstraňují popel a saze a provádějí pravidelně údržbu na základě předpisů v oblasti bezpečnosti a ochrany zdraví. Kominíci mohou provádět bezpečnostní kontroly a drobné opravy.",
+  "isco4": "7133",
+  "isco2": "71",
+  "ilo": {
+   "score": 0.09,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 32,
+    "examples": [
+     "poskytovat poradenství v oblasti energetické účinnosti systémů vytápění"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 32,
+    "examples": []
    }
   }
  },
@@ -64341,6 +64875,41 @@
    }
   }
  },
+ "b0c6f284-f3ed-4820-a62e-4e87869f5a3e": {
+  "id": "b0c6f284-f3ed-4820-a62e-4e87869f5a3e",
+  "uri": "http://data.europa.eu/esco/occupation/b0c6f284-f3ed-4820-a62e-4e87869f5a3e",
+  "label": "Obsluha strojů na výrobu výrobků z pryže",
+  "labelAlt": [
+   "operátorka strojů na výrobu výrobků z pryže",
+   "operátor strojů na výrobu výrobků z pryže"
+  ],
+  "description": "Obsluha strojů na výrobu výrobků z pryže obsluhuje stroje, které hnětou, míchají, kalandrují, tvarují, vytlačují a vulkanizují pryžové výrobky z přírodního a syntetického kaučuku. Měří přísady pro míchání a dávají je do stroje. Obsluha strojů na výrobu výrobků z pryže sleduje a řídí teplotu, tlak a rychlost při výrobě.",
+  "isco4": "8141",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 39,
+    "examples": [
+     "zabránit kontaminaci",
+     "zajistit soulad s legislativou v oblasti životního prostředí"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 39,
+    "examples": [
+     "programovat řídicí jednotku CNC",
+     "monitorovat automatizované stroje"
+    ]
+   }
+  }
+ },
  "b0cb4f78-c361-48cf-97aa-25104ac2647c": {
   "id": "b0cb4f78-c361-48cf-97aa-25104ac2647c",
   "uri": "http://data.europa.eu/esco/occupation/b0cb4f78-c361-48cf-97aa-25104ac2647c",
@@ -64874,6 +65443,32 @@
     "of": 44,
     "examples": [
      "provozovat systém řízení obchodních zástupců"
+    ]
+   }
+  }
+ },
+ "b223f402-0318-4e27-8691-df6e7f7295d2": {
+  "id": "b223f402-0318-4e27-8691-df6e7f7295d2",
+  "uri": "http://data.europa.eu/esco/occupation/b223f402-0318-4e27-8691-df6e7f7295d2",
+  "label": "Poručík/poručice",
+  "labelAlt": [],
+  "description": "Poručíci velí jednotkám v rámci konvojů vojáků a vedou je v oblasti výcviku a kázně. Vykonávají rovněž administrativní úkoly a působí jako poradci.",
+  "isco4": "0110",
+  "isco2": "01",
+  "ilo": null,
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 26,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 26,
+    "examples": [
+     "geografické informační systémy",
+     "obsluhovat rádiové zařízení"
     ]
    }
   }
@@ -71836,6 +72431,34 @@
    }
   }
  },
+ "c4a81f47-6ed8-4a17-ab4a-21a2e67fa1d9": {
+  "id": "c4a81f47-6ed8-4a17-ab4a-21a2e67fa1d9",
+  "uri": "http://data.europa.eu/esco/occupation/c4a81f47-6ed8-4a17-ab4a-21a2e67fa1d9",
+  "label": "Domácí pečovatel/pečovatelka o děti",
+  "labelAlt": [
+   "guvernantka"
+  ],
+  "description": "V závislosti na potřebách zaměstnavatele poskytují domácí pečovatelé o děti služby péče o děti přímo u zaměstnavatele. Organizují herní aktivity a baví děti hrami a jinými kulturními a vzdělávacími aktivitami podle jejich věku, připravují pokrmy, připravují jim koupele, dopravují je ze školy a do školy a poskytují jim pomoc s domácími úkoly podle individuálních potřeb.",
+  "isco4": "5311",
+  "isco2": "53",
+  "ilo": {
+   "score": 0.19,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 29,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 29,
+    "examples": []
+   }
+  }
+ },
  "c4d6d07a-ae90-40ce-bc5a-c952805a9bf3": {
   "id": "c4d6d07a-ae90-40ce-bc5a-c952805a9bf3",
   "uri": "http://data.europa.eu/esco/occupation/c4d6d07a-ae90-40ce-bc5a-c952805a9bf3",
@@ -77313,6 +77936,36 @@
    }
   }
  },
+ "d4fdb8cb-8928-4047-8166-5feedc3c1a98": {
+  "id": "d4fdb8cb-8928-4047-8166-5feedc3c1a98",
+  "uri": "http://data.europa.eu/esco/occupation/d4fdb8cb-8928-4047-8166-5feedc3c1a98",
+  "label": "Obsluha lisu na výrobu cihel či tvarovek",
+  "labelAlt": [
+   "obsluha lisu na výrobu cihel"
+  ],
+  "description": "Obsluha lisu na výrobu cihel či tvarovek lisuje suchý temperovaný jíl nebo křemen do cihel a dalších tvarů. Vybírá a opravuje lisovací formy, pomocí pravítek a nástrčných klíčů. Obsluha lisu na výrobu cihel či tvarovek odebírá cihly z lisovacího stroje a skládá je do určeného vzoru na vozík určený do pece.",
+  "isco4": "8181",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 17,
+    "examples": [
+     "nakládat s odpady"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 17,
+    "examples": []
+   }
+  }
+ },
  "d515e82a-ca9f-4be4-9823-33694dff7304": {
   "id": "d515e82a-ca9f-4be4-9823-33694dff7304",
   "uri": "http://data.europa.eu/esco/occupation/d515e82a-ca9f-4be4-9823-33694dff7304",
@@ -79431,6 +80084,41 @@
    }
   }
  },
+ "dc3cc282-488d-4d8f-be80-191c6b521823": {
+  "id": "dc3cc282-488d-4d8f-be80-191c6b521823",
+  "uri": "http://data.europa.eu/esco/occupation/dc3cc282-488d-4d8f-be80-191c6b521823",
+  "label": "Mistr sladovník/mistrová sladovnice",
+  "labelAlt": [
+   "vrchní sladovník",
+   "vrchní sladovnice"
+  ],
+  "description": "Mistři sladovníci hodnotí a klasifikují různé slady pro pivovarnické účely na základě smyslového vjemu. Za účelem zachování konzistence výrobků posuzují vzhled, vůni a chuť surovin a nedokončených výrobků. Využívají své znalosti k přípravě směsí jako součásti vývoje produktů.",
+  "isco4": "7515",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.31,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 6,
+    "of": 47,
+    "examples": [
+     "omezovat plýtvání zdroji",
+     "zajistit soulad výroby potravin s legislativou v oblasti životního prostředí",
+     "spravovat systém environmentálního managementu"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 47,
+    "examples": [
+     "spravovat systém environmentálního managementu"
+    ]
+   }
+  }
+ },
  "dc52966e-72db-4ad0-b3a9-5e17f1311ab8": {
   "id": "dc52966e-72db-4ad0-b3a9-5e17f1311ab8",
   "uri": "http://data.europa.eu/esco/occupation/dc52966e-72db-4ad0-b3a9-5e17f1311ab8",
@@ -80247,6 +80935,37 @@
    "digital": {
     "count": 0,
     "of": 37,
+    "examples": []
+   }
+  }
+ },
+ "df433613-4856-4e50-9be5-7a0ec0f4260a": {
+  "id": "df433613-4856-4e50-9be5-7a0ec0f4260a",
+  "uri": "http://data.europa.eu/esco/occupation/df433613-4856-4e50-9be5-7a0ec0f4260a",
+  "label": "Obsluha zařízení pro máčení v latexové lázni",
+  "labelAlt": [
+   "obsluha máčecího stroje na výrobu výrobků z pryže"
+  ],
+  "description": "Obsluha zařízení pro máčení v latexové lázni vyrábí pryžové výrobky, jako jsou balóny, návleky na prsty nebo ochranné prostředky, tak, že formy ponoří do tekutého latexu. Míchá latex a nalévá jej do stroje. Obsluha zařízení pro máčení v latexové lázni odebírá vzorky latexového zboží po závěrečné lázni a váží je. Pokud výrobek nesplňuje požadavky, přidává čpavek nebo více latexu.",
+  "isco4": "8141",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 36,
+    "examples": [
+     "nakládat s odpady",
+     "sledování dopadu výroby"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 36,
     "examples": []
    }
   }
@@ -84791,6 +85510,34 @@
      "elektronika",
      "inženýrství v oblasti řízení"
     ]
+   }
+  }
+ },
+ "ee37a4a5-5360-4e94-a749-a2b8ead08500": {
+  "id": "ee37a4a5-5360-4e94-a749-a2b8ead08500",
+  "uri": "http://data.europa.eu/esco/occupation/ee37a4a5-5360-4e94-a749-a2b8ead08500",
+  "label": "Obsluha míchače zápalného prachu pro stopovky",
+  "labelAlt": [],
+  "description": "Obsluha míchače zápalného prachu pro stopovky obsluhuje stroje a zařízení pro vytváření palníků a zápalného prachu pomocí míchání tekutých a suchých chemických látek s cílem zajistit, aby byly stanoveny požadované parametry a aby hořlavé směsi odpovídaly specifikacím.",
+  "isco4": "8131",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 14,
+    "examples": [
+     "skladování nebezpečných odpadů"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 14,
+    "examples": []
    }
   }
  },

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kdo program napsal, ten ví, kam klikat, a proto ho ovládá bez potíží. Pro ostatní může být nesrozumitelný, a tak se dává vyzkoušet lidem, kteří ho neznají, a ty sleduješ, kde váhají nebo se ztratí. Stejně postupuje, kdo navrhuje aplikace nebo rozhoduje, kdy jsou hotové. Chatbot ti pomůže připravit otázky a roztřídit poznámky, ale skutečného uživatele nenahradí: co spolužák s programem udělá, uvidíš až u něj.",
+  "learnWithAi": [
+    {
+      "title": "Otázky po první zkoušce",
+      "text": "Popiš chatbotovi svůj program a nech si navrhnout otázky pro spolužáka, který ho vyzkouší. Vyber z nich jen ty, které se opravdu týkají tvého programu."
+    },
+    {
+      "title": "Nováček, který program nezná",
+      "text": "Požádej chatbota, ať hraje člověka, který tvůj program vidí poprvé, a popisuj mu jen to, co je na obrazovce. Jeho dotazy ti napoví, na co se zaměřit při zkoušce se skutečnými lidmi."
+    },
+    {
+      "title": "Třídění poznámek z testování",
+      "text": "Po zkoušce se spolužáky vlož chatbotovi své poznámky a nech si je seřadit podle toho, co se opakovalo. Které úpravy uděláš jako první, rozhodni ty."
+    }
+  ]
+}

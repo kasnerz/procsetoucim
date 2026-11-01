@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Než začneš něco řešit, je dobré vědět, co přesně má vzniknout, z čeho vycházíš a podle čeho poznáš, že je řešení dobré. Program na rozvrh kroužků může mít být hlavně rychlý, hlavně přehledný, nebo nesmí nikdy dát dva kroužky na stejnou hodinu, a podle toho vypadá pokaždé jinak. Takhle začíná práce každého, kdo vyvíjí umělou inteligenci, navrhuje hry nebo připravuje výukové kurzy. Jasná kritéria pomůžou i mimo informatiku, třeba když vybíráš kolo nebo plánuješ školní projekt. Chatbotovi taky musíš říct, co od výsledku chceš, jinak dostaneš obecnou odpověď, která tvůj problém neřeší.",
+  "learnWithAi": [
+    {
+      "title": "Kritéria pro výběr kola",
+      "text": "Sepiš kritéria pro výběr nového kola nebo telefonu a seřaď je podle důležitosti. Chatbota požádej, ať se zeptá na okolnosti, které tvůj seznam vynechává."
+    },
+    {
+      "title": "Rozbor úlohy před řešením",
+      "text": "Vezmi úlohu z informatiky a před řešením zapiš, co do ní vstupuje, co má vyjít a podle čeho poznáš správný výsledek. Rozbor dej chatbotovi ke kontrole, řešení ale napiš bez něj."
+    },
+    {
+      "title": "Zákazník s nejasným přáním",
+      "text": "Nech chatbota hrát spolužáka, který chce „nějakou aplikaci na domácí úkoly“. Vyptávej se ho tak dlouho, dokud nebudeš vědět, co přesně má aplikace umět a podle čeho pozná, že je dobrá."
+    }
+  ]
+}

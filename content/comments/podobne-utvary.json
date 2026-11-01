@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Podobné útvary mají stejný tvar a jinou velikost, jako fotka a její zvětšenina nebo model auta a skutečné auto. Když to poznáš, odhadneš z mapy nebo plánu bytu skutečné rozměry a víš, proč se obrázek roztažený jen do šířky zdeformuje. Architekti interiérů, kreslíři výkresů nebo restaurátoři, kteří podle malého náčrtu vyrábějí díl ve skutečné velikosti, s podobností pracují běžně. Program obrázek zvětší, ale ohlídat, že zůstaly stejné úhly a poměr stran, je na tobě.",
+  "learnWithAi": [
+    {
+      "title": "Fotka roztažená do šířky",
+      "text": "Roztáhni v editoru fotku jen do šířky a porovnej ji s fotkou zvětšenou ve stejném poměru. Rozdíl popiš chatbotovi vlastními slovy a nech si říct, jestli tvé vysvětlení podobnosti sedí."
+    },
+    {
+      "title": "Obdélníky a trojúhelníky k posouzení",
+      "text": "Zadej chatbotovi, ať ti popíše dvojice obdélníků a trojúhelníků jen délkami stran. U každé rozhodni, jestli jsou podobné, a zdůvodni to poměrem."
+    },
+    {
+      "title": "Měřítko modelu auta",
+      "text": "Vezmi model auta nebo jinou zmenšeninu se známým měřítkem, změř ji a dopočítej skutečné rozměry. Když nevíš, jak s měřítkem počítat, nech si od chatbota vysvětlit první krok a zbytek dopočítej ty."
+    }
+  ]
+}

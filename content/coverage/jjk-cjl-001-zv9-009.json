@@ -1,0 +1,141 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-009",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "vyhledá informace v několika tištěných i elektronických zdrojích,",
+      "cards": [
+        "hledani-informace-v-knihach-i-na-internetu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "uvede jejich název zdrojů.",
+      "cards": [
+        "uvadeni-zdroju-informaci"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vyhledá informaci v tištěných i elektronických zdrojích, ověří její pravdivost srovnáním s jinými zdroji, odliší fakt od názoru,",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zpravy-fakt-a-nazor-ve-zprave",
+          "overovani-dat-z-vice-zdroju"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "vysvětlí, jakým způsobem ovlivňují vyhledávací algoritmy, popř. způsob prezentování informací (např. citově zabarvená slova, titulky, výběr a pořadí zpráv) vnímání informací,",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zpravy-zamer-autora-sdeleni"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "ukládá si získané informace (písemně, do textového editoru, do připravované prezentace), vyhledá informaci v tištěných i elektronických zdrojích, ověří její pravdivost srovnáním s jinými zdroji, odliší fakt od názoru,",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "vysvětlí, jakým způsobem ovlivňují vyhledávací algoritmy, popř. způsob prezentování informací (např. citově zabarvená slova, titulky, výběr a pořadí zpráv) vnímání informací,",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zpravy-zamer-autora-sdeleni"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "ukládá si získané informace (písemně, do textového editoru, do připravované prezentace),",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "odkazuje na zdroje informací, např. názvem zdroje a odkazem,",
+      "cards": [
+        "uvadeni-zdroju-informaci"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "získané informace prezentuje.",
+      "cards": [
+        "predani-informaci-podle-posluchacu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyhledá informaci v tištěných i elektronických zdrojích, porovná ji s jinými zdroji, posoudí důvěryhodnost zdroje, odliší fakt od názoru, odhalí a vysvětlí manipulaci s informacemi.",
+      "cards": [
+        "hledani-informace-v-knihach-i-na-internetu",
+        "overeni-informace-srovnanim-zdroju",
+        "jak-vyhledavace-a-titulky-ovlivnuji-vnimani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Ukládá si získané informace (písemně, do textového editoru, do připravované prezentace, myšlenkové mapy podle svých preferencí).",
+      "cards": [
+        "ukladani-ziskanych-informaci"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Odkazuje na zdroje informací (např. s pomocí citačních generátorů) a zohledňuje autorská práva obrázků, videí a hudby.",
+      "cards": [
+        "uvadeni-zdroju-informaci",
+        "autorska-prava-obrazku-videi-a-hudby"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Sdílí nebo prezentuje informace s ohledem na situaci a na posluchače nebo čtenáře.",
+      "cards": [
+        "predani-informaci-podle-posluchacu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí, které informace jsou pro sdílení vhodné a které ne.",
+      "cards": [
+        "ktere-informace-se-hodi-sdilet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vyhledá a posoudí stanovenou informaci a další obsah v přiměřeně náročném textu, k tomu volí postupy, způsoby a prostředky odpovídající konkrétní situaci.",
+      "cards": [
+        "hledani-informace-v-knihach-i-na-internetu"
+      ],
+      "aside": null
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "outcome": "UAK-HTD-003-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "nabidka-krouzku-zus-ddm",
+      "title": "Kroužky, ZUŠ a DDM v okolí",
+      "aliases": [
+        "kroužky",
+        "zájmové kroužky",
+        "ZUŠ",
+        "DDM",
+        "co dělat ve volném čase",
+        "umělecké kroužky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zná nabídku školy i dalších institucí a organizací ve svém okolí pro aktivní trávení volného času"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Orientuje se v nabídce zájmových kroužků a aktivit ve škole i mimo ni"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zná různé možnosti, jak aktivně trávit volný čas"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vyjádří své preference, proč by se do určité aktivity zapojil, jakých aktivit by se zúčastnil."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Co se hraje a učí u vás v okolí, chatbot neví, a vybrat musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Weby ZUŠ, DDM a města ukazují kroužky, rozvrhy a ceny."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa ukáže, kde kroužek je a jak se tam dostaneš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástěnka ve škole vyjmenuje kroužky, ale nepomůže ti vybrat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d0f930bc-a67b-4096-9df1-d2745de72518"
+      ],
+      "inspiration": [
+        "Kroužky u nás v okolí"
+      ]
+    },
+    {
+      "slug": "zapojeni-do-skolniho-vystoupeni",
+      "title": "Role při přípravě školního vystoupení",
+      "aliases": [
+        "školní akademie",
+        "vystoupení",
+        "divadelní představení",
+        "koncert",
+        "třídní vystoupení",
+        "moje role"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Zapojí se do třídních, školních nebo místních uměleckých aktivit a projektů."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zapojuje se v jemu odpovídající roli do přípravy a prezentace různých uměleckých a kulturních projektů ve škole"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zapojuje se do školních aktivit, jako jsou třídní vystoupení, školní prezentace pro rodiče a spolužáky apod."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zapojuje se do přípravy a prezentace třídních nebo školních uměleckých a kulturních projektů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co dělá scénograf nebo osvětlovač, a pomůže ti vybrat roli."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky ze zákulisí ukážou, jak vypadá práce na vystoupení."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Hrát, tančit a stavět scénu musíš ty se spolužáky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj za tebe nezkouší ani nevystupuje, vystoupení děláte vy."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2c33fda8-389d-4871-948d-46fc1eb0c161"
+      ],
+      "inspiration": [
+        "Akce u nás ve škole"
+      ]
+    },
+    {
+      "slug": "napad-na-kulturni-akci-ve-skole",
+      "title": "Nápad na kulturní akci ve škole",
+      "aliases": [
+        "kulturní večer",
+        "workshop",
+        "rozloučení se školou",
+        "nápad na akci",
+        "navrhnout akci"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Navrhne způsoby, jak obohatit kulturní dění ve škole"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Navrhuje různé způsoby, jak obohatit kulturní dění ve škole"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne další nápady a zeptá se, co by šlo ve škole zrealizovat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady akcí jiných škol, třeba kulturní večery."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Nápad promýšlíš ty a ověřuješ ho s učiteli a spolužáky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír zapíše nápad, ale zpětnou vazbu od lidí nedá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f3b841c9-17d1-4cc3-9e6b-36c17b0d15d3"
+      ],
+      "inspiration": [
+        "Akce u nás ve škole"
+      ]
+    },
+    {
+      "slug": "kulturni-udalosti-v-miste-bydliste",
+      "title": "Festivaly a slavnosti v okolí",
+      "aliases": [
+        "místní festival",
+        "kulturní akce v okolí",
+        "slavnosti",
+        "komunitní akce",
+        "kam na kulturu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Sleduje kulturní události v místě, kde žije"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "vypráví ostatním o kulturních událostech, jako jsou místní festivaly nebo slavnosti, které se mu líbí"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "sleduje kulturní události ve svém regionu, jako jsou místní festivaly nebo komunitní akce"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Na podnět a s dopomocí učitele sleduje, co se v okolí děje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Aktuální programy ve vašem městě chatbot spolehlivě nezná."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Městský web a plakáty online ukážou, co se kdy koná."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa a kalendář akcí ukážou, kde a kdy se něco děje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na akci se musíš podívat a o dojmech mluvit ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f3b841c9-17d1-4cc3-9e6b-36c17b0d15d3"
+      ],
+      "inspiration": [
+        "Přijďte se podívat"
+      ]
+    },
+    {
+      "slug": "umelecke-projevy-ruznych-kultur",
+      "title": "Umění různých kultur ve společném projektu",
+      "aliases": [
+        "umění různých kultur",
+        "porovnání kultur",
+        "hudba světa",
+        "tance světa",
+        "společný projekt"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Spolupracuje na projektu, který se zaměřuje na porovnání uměleckých projevů rozdílných kultur."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se hudba, tance a divadlo kultur liší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš nahrávky a videa tanců a divadla z různých zemí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za vás projekt neudělá, porovnáváte a spolupracujete vy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Společný projekt s ostatními se nástrojem nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Ve svých činnostech v jednoduché podobě propojuje",
+      "code": "O1",
+      "refs": [
+        "role-jevistni-tvar-hv5"
+      ]
+    }
+  ]
+}

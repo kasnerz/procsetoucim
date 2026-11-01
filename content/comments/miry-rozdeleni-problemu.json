@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Problém se dá rozdělit hrubě i velmi jemně. Pokyn „ukliď pokoj“ je pro malého sourozence moc obecný, pro tebe tak akorát, a rozepsat každé zvednutí ponožky by bylo zbytečné. Odhadnout, kdy je krok dost jednoduchý na to, aby se dal rovnou udělat, šetří čas a brání nekonečnému plánování. V programování to znamená vědět, kdy rozdělit část programu na menší a kdy už stačí, a kdo navrhuje software nebo hry, se tak rozhoduje pořád. Chatbot ti rád rozepíše cokoli do drobných kroků, jestli je to pro tvůj úkol moc, nebo málo, ale poznáš jen ty.",
+  "learnWithAi": [
+    {
+      "title": "Hrubý a jemný plán výletu",
+      "text": "Požádej chatbota o dva rozklady stejného úkolu, třeba plánu výletu, jeden hrubý a jeden velmi podrobný. Vyber, který by ti stačil, a zdůvodni proč."
+    },
+    {
+      "title": "Svačina pro malé dítě",
+      "text": "Rozepiš přípravu svačiny jednou pro sebe a jednou pro šestileté dítě. Nech chatbota posoudit, jestli je druhá verze dost podrobná, a rozhodni, co do ní přidat."
+    },
+    {
+      "title": "Hranice dalšího dělení",
+      "text": "U svého rozkladu většího úkolu napiš ke každému kroku, jestli ho umíš rovnou udělat. Chatbot se pak může vyptávat jen na kroky, u kterých váháš."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "outcome": "CZB-TEV-002-ZV9-007",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Zná a dodržuje",
+      "code": "O1",
+      "refs": [
+        "tv-znat-pravidla-her-a-soutezi-vybijena",
+        "tv-dodrzovat-pravidla-a-fair-play-hra",
+        "tv-poznat-a-vysvetlit-prestupek-proti-pravidlum"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Seznamuje se",
+      "code": "O1",
+      "refs": [
+        "tv-znat-pravidla-her-a-soutezi-vybijena"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Zná základní pravidla",
+      "code": "O1",
+      "refs": [
+        "tv-znat-pravidla-her-a-soutezi-vybijena"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Rozlišuje základní",
+      "code": "O1",
+      "refs": [
+        "tv-poznat-a-vysvetlit-prestupek-proti-pravidlum"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Dodržuje pravidla",
+      "code": "O1",
+      "refs": [
+        "tv-dodrzovat-pravidla-a-fair-play-hra"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Uvede a vysvětlí",
+      "code": "O1",
+      "refs": [
+        "tv-poznat-a-vysvetlit-prestupek-proti-pravidlum"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Sleduje hru",
+      "code": "O1",
+      "refs": [
+        "tv-upozornit-na-poruseni-pravidel-pri-sledovani-hry"
+      ]
+    }
+  ]
+}

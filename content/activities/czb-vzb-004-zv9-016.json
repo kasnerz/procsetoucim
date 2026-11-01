@@ -1,0 +1,564 @@
+[
+  {
+    "slug": "zasady-pozarni-prevence",
+    "title": "Zásady požární prevence",
+    "aliases": [
+      "jak předcházet požáru",
+      "požární prevence",
+      "protipožární ochrana",
+      "požární řád",
+      "co dělat, aby nehořelo"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše zásady požární prevence, uplatňuje v modelových situacích vhodné způsoby chování v případě ohrožení požárem.",
+        "quote": "Popíše zásady požární prevence"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvede a zdůvodní zásady požární prevence.",
+        "quote": "Uvede a zdůvodní zásady požární prevence."
+      },
+      {
+        "level": "Na začátku",
+        "point": "předvede v modelové situaci, jak se chovat, aby nezpůsobil požár",
+        "quote": "předvede v modelové situaci, jak se chovat, aby nezpůsobil požár"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Požární ochrana ve škole",
+        "url": ""
+      },
+      {
+        "title": "Chvilka nepozornosti",
+        "url": "https://uloziste.rvp.cz/material/df9632"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč pravidla platí, a nechá tě je vlastními slovy zdůvodnit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Požární řády a stránky hasičů uvádějí pravidla včetně důvodů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pravidla znáš z hlavy, aplikace za tebe nic neuhlídá ani nezdůvodní."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Chovat se opatrně musíš ty, žádný nástroj to za tebe neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b",
+      "http://data.europa.eu/esco/skill/61268e22-9367-4c3b-91d9-b651e4c142e2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priciny-a-rizika-pozaru",
+    "title": "Jak vzniká požár: hořlavé látky a zdroje zapálení",
+    "aliases": [
+      "příčiny požárů",
+      "teorie hoření",
+      "jak vznikne oheň",
+      "podmínky hoření",
+      "sdílení tepla"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvádí rizika a příčiny požárů s využitím teorie hoření (hořlavé látky, podmínky hoření a výbuchu, iniciační zdroje, projevy požárů, sdílení tepla)",
+        "quote": "uvádí rizika a příčiny požárů s využitím teorie hoření (hořlavé látky, podmínky hoření a výbuchu, iniciační zdroje, projevy požárů, sdílení tepla)"
+      },
+      {
+        "level": "Na začátku",
+        "point": "uvede příklady, jak může vzniknout oheň doma i v přírodě",
+        "quote": "uvede příklady, jak může vzniknout oheň doma i v přírodě"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chvilka nepozornosti",
+        "url": "https://uloziste.rvp.cz/material/df9632"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co hoření potřebuje, a poradí příklady z domova i z přírody."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky hasičů popisují příčiny požárů a trojúhelník hoření."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle učivo žádná jednoúčelová aplikace není, zdroje najdeš jinde."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Učebnice je zdroj informací, jako nástroj k tomuhle učivu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b",
+      "http://data.europa.eu/esco/skill/e2ba5755-d934-486e-b6cb-a938c2857b79"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hlidani-horlavin-a-pyrotechniky",
+    "title": "Opatrnost s hořlavinami, ohněm a pyrotechnikou",
+    "aliases": [
+      "petardy",
+      "zábavní pyrotechnika",
+      "otevřený oheň",
+      "hořlavé látky",
+      "oheň a zápalky"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zdůvodňuje zásady obezřetného chování při kontaktu s hořlavými látkami a pyrotechnikou",
+        "quote": "zdůvodňuje zásady obezřetného chování při kontaktu s hořlavými látkami a pyrotechnikou"
+      },
+      {
+        "level": "Na začátku",
+        "point": "v modelové situaci odmítne použití zábavní pyrotechniky a manipulaci s otevřeným ohněm",
+        "quote": "v modelové situaci odmítne použití zábavní pyrotechniky a manipulaci s otevřeným ohněm"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chvilka nepozornosti",
+        "url": "https://uloziste.rvp.cz/material/df9632"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč jsou petardy a hořlaviny nebezpečné, a nechá tě nacvičit odmítnutí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hasiči a policie popisují úrazy a pravidla pro pyrotechniku."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Odmítnout kamaráda a držet se stranou ohně musíš ty, aplikace to nezvládne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odmítnout nebezpečnou hru je rozhodnutí, ne práce pro nástroj."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e8edc3cf-b12b-4ffc-8546-3657a00ca604",
+      "http://data.europa.eu/esco/skill/5ed83764-c32f-402d-b5b3-168cddfbe4c5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "piktogramy-horlavych-latek",
+    "title": "Piktogramy hořlavých a výbušných látek",
+    "aliases": [
+      "výstražné značky",
+      "symboly nebezpečí",
+      "plamínek na obalu",
+      "označení hořlavin",
+      "piktogramy"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "určuje význam piktogramů pro označování hořlavých a výbušných látek",
+        "quote": "určuje význam piktogramů pro označování hořlavých a výbušných látek"
+      },
+      {
+        "level": "Na začátku",
+        "point": "rozpozná piktogramy pro označování hořlavých a výbušných látek",
+        "quote": "rozpozná piktogramy pro označování hořlavých a výbušných látek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše, co jednotlivé značky znamenají, a může tě z nich vyzkoušet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Přehledy výstražných symbolů ukážou každou značku i s významem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kvízy a kartičky ti pomohou značky poznávat, i když na ně nepřijdeš napoprvé."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Značky čteš na skutečných obalech, nástroj na to nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e8edc3cf-b12b-4ffc-8546-3657a00ca604",
+      "http://data.europa.eu/esco/skill/1e3e0736-6d4a-4a65-8787-1fa16bff5660"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "umisteni-hasicich-pristroju",
+    "title": "Hasicí přístroje a hydranty ve škole",
+    "aliases": [
+      "kde je hasicí přístroj",
+      "hydrant",
+      "požární plánek",
+      "požární ochrana školy"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "lokalizuje umístění hasicích přístrojů (hydrantů) ve škole",
+        "quote": "lokalizuje umístění hasicích přístrojů (hydrantů) ve škole"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Požární ochrana ve škole",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "O vaší škole nic neví, přístroje najdeš chozením po budově."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Rozmístění přístrojů ve vaší škole na webu nenajdeš, hledáš ho v budově."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace vaši školu nezná, přístroje musíš najít očima."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Požární plánek na zdi ti ukáže, kde přístroje a hydranty jsou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ab27ebf6-3738-4785-b030-02d81e8808ee",
+      "http://data.europa.eu/esco/skill/ccde26f3-e822-4b6a-94a1-39af4ae41fed"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "typy-hasicich-pristroju",
+    "title": "Typy hasicích přístrojů a třídy požárů",
+    "aliases": [
+      "druhy hasicích přístrojů",
+      "práškový hasicí přístroj",
+      "čím hasit",
+      "třídy požárů",
+      "sněhový hasicí přístroj"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje hasicí přístroje vzhledem k třídám požáru (možnostem jejich použití)",
+        "quote": "rozlišuje hasicí přístroje vzhledem k třídám požáru (možnostem jejich použití)"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí správné použití jednotlivých typů hasicích přístrojů.",
+        "quote": "Vysvětlí správné použití jednotlivých typů hasicích přístrojů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Metody a prostředky při hašení požáru",
+        "url": "https://uloziste.rvp.cz/material/d8fa5b"
+      },
+      {
+        "title": "Požárním specialistou",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, který přístroj se na jaký požár hodí, a nechá tě to zdůvodnit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hasiči popisují typy přístrojů, jejich značení a použití."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro tohle učivo není jednoúčelová aplikace, kterou by stálo za to použít."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na skutečném přístroji přečteš štítek se třídami požárů a návodem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ab27ebf6-3738-4785-b030-02d81e8808ee",
+      "http://data.europa.eu/esco/skill/fb1203d0-7a3e-44f9-bed0-a3652bfbc6f8"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pozarni-poplach-a-uniknove-cesty",
+    "title": "Požární poplach a únikové cesty ze školy",
+    "aliases": [
+      "evakuace",
+      "cvičný poplach",
+      "úniková cesta",
+      "jak opustit budovu při požáru",
+      "požární poplach"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "aplikuje v modelových situacích požárního poplachu pravidla ochrany zdraví a bezpečí (bezpečné opuštění požárem ohroženého prostoru, volba vhodných metod a prostředků hašení požáru)",
+        "quote": "bezpečné opuštění požárem ohroženého prostoru"
+      },
+      {
+        "level": "Splněno",
+        "point": "Identifikuje únikové cesty z budovy školy v případě požáru.",
+        "quote": "Identifikuje únikové cesty z budovy školy v případě požáru."
+      },
+      {
+        "level": "Na začátku",
+        "point": "převede v modelové situaci, jak bezpečně opustí požárem ohrožený prostor",
+        "quote": "převede v modelové situaci, jak bezpečně opustí požárem ohrožený prostor"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vím, jak se zachovat při požáru",
+        "url": "https://uloziste.rvp.cz/material/188d3e"
+      },
+      {
+        "title": "Požární ochrana ve škole",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Z budovy odcházíš ty po únikové cestě, chatbot cestu školou nezná."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Evakuační plán vaší školy visí na zdi, ne na webu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Při poplachu odcházíš po svých, aplikace tě z budovy nevyvede."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Evakuační plán na chodbě ti ukáže únikové cesty a shromaždiště."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511",
+      "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "haseni-pozaru-v-modelove-situaci",
+    "title": "Volba způsobu hašení při požáru",
+    "aliases": [
+      "jak hasit",
+      "hašení požáru",
+      "čím uhasit oheň",
+      "hasicí prostředky",
+      "uhasit hořící olej"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "aplikuje v modelových situacích požárního poplachu pravidla ochrany zdraví a bezpečí (bezpečné opuštění požárem ohroženého prostoru, volba vhodných metod a prostředků hašení požáru)",
+        "quote": "volba vhodných metod a prostředků hašení požáru"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše zásady požární prevence, uplatňuje v modelových situacích vhodné způsoby chování v případě ohrožení požárem.",
+        "quote": "uplatňuje v modelových situacích vhodné způsoby chování v případě ohrožení požárem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Metody a prostředky při hašení požáru",
+        "url": "https://uloziste.rvp.cz/material/d8fa5b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, čím který oheň hasit a čím ne, a vymyslí ti modelové situace k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky hasičů popisují, jak hasit různé druhy požárů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "V modelové situaci se rozhoduješ ty, aplikace nic neuhasí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Hasicí přístroj nebo hasicí přikrývka malý oheň opravdu uhasí, když je umíš použít."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/301a6581-e983-4bb6-8b31-b3ee2cbc2392",
+      "http://data.europa.eu/esco/skill/ab27ebf6-3738-4785-b030-02d81e8808ee"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "povinnosti-osob-pri-pozarni-ochrane",
+    "title": "Povinnosti lidí v požární ochraně",
+    "aliases": [
+      "požární povinnosti",
+      "kdo má povinnost při požáru",
+      "ohlášení požáru",
+      "tísňová linka 150",
+      "zákon o požární ochraně"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Charakterizuje základní povinnosti osob v oblasti požární ochrany.",
+        "quote": "Charakterizuje základní povinnosti osob v oblasti požární ochrany."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Požární ochrana ve škole",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Převede úřední jazyk předpisů na srozumitelné věty a ověří, jestli jim rozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Znění zákona a stránky hasičů uvádějí povinnosti včetně ohlášení požáru."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro znalost povinností není aplikace potřeba, jde o učivo, které si zapamatuješ."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Povinnosti si musíš pamatovat, žádný nástroj je za tebe nesplní."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/61268e22-9367-4c3b-91d9-b651e4c142e2",
+      "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

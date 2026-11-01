@@ -1,0 +1,477 @@
+[
+  {
+    "slug": "porozumeni-zadani-textu",
+    "title": "Porozumění zadání textu",
+    "aliases": [
+      "zadání úkolu",
+      "co mám napsat",
+      "pochopit zadání",
+      "slohová práce zadání"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "porozumí zadání či obsahu, na který má tvořit text nebo adekvátně reagovat v komunikační situaci",
+        "quote": "porozumí zadání či obsahu, na který má tvořit text nebo adekvátně reagovat v komunikační situaci"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co zadání chce, a ty si ověříš, že ho čteš správně."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové informace nenahradí tvé čtení konkrétního zadání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe zadání nepřečte a nepochopí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a podtrhávání klíčových slov ti pomůžou zadání rozebrat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0e161427-3369-47c0-8669-9e226207f6d0",
+      "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozliseni-vypovedi-podle-funkce",
+    "title": "Otázka, prosba, výzva a oznámení",
+    "aliases": [
+      "druhy vět podle záměru",
+      "otázka prosba rozkaz",
+      "komunikační funkce",
+      "výzva a námitka",
+      "oznámení"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Diskutuje o variantách komunikačních výpovědí, které již zná (otázka, oznámení, výzva, prosba námitka ad.) a roztřídí je pomocí charakteristických znaků (např. doplnění o novou informaci, dosažení toho, co chceme).",
+        "quote": "Diskutuje o variantách komunikačních výpovědí, které již zná (otázka, oznámení, výzva, prosba námitka ad.) a roztřídí je pomocí charakteristických znaků (např. doplnění o novou informaci, dosažení toho, co chceme)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí ti příklady otázek, výzev i prosb a ty je třídíš podle znaků."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky a výukové texty vysvětlují, čím se jednotlivé výpovědi liší."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Třídit výpovědi podle znaků musíš ty, aplikace na to nemá cvičení."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka nic nevysvětlí, třídění děláš v hlavě ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+      "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zamer-autora-textu",
+    "title": "Záměr autora textu",
+    "aliases": [
+      "o co autorovi šlo",
+      "proč to napsal",
+      "záměr textu",
+      "účel textu",
+      "smysl neuměleckého textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozpozná záměr mluvčího, autora textu, a podle toho adekvátně reaguje",
+        "quote": "rozpozná záměr mluvčího, autora textu, a podle toho adekvátně reaguje"
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [
+      {
+        "title": "Komunikační funkce výpovědi a porozumění smyslu konkrétního neuměleckého textu: Jak rozumíme sdělením",
+        "url": "https://uloziste.rvp.cz/material/623ac1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak se dá záměr v textu poznat, a ty svůj odhad porovnáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš si, kdo text napsal a komu byl určen, a to záměr napoví."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Záměr autora z textu vyčteš ty, aplikace ho nepozná za tebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Záměr textu poznáváš čtením a přemýšlením, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0e161427-3369-47c0-8669-9e226207f6d0",
+      "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "co-se-rika-a-jak",
+    "title": "Co se říká a jak se to říká",
+    "aliases": [
+      "obsah a forma sdělení",
+      "co a jak",
+      "obsah sdělení",
+      "způsob vyjádření",
+      "rozdíl mezi obsahem a formou"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozlišuje mezi tím, co se říká, a jak se to říká",
+        "quote": "rozlišuje mezi tím, co se říká, a jak se to říká"
+      },
+      {
+        "level": "Na cestě",
+        "point": "rozlišuje mezi tím, co se říká, co se píše, a s jakým cílem nebo záměrem se to říká, píše",
+        "quote": "rozlišuje mezi tím, co se říká, co se píše, a s jakým cílem nebo záměrem se to říká, píše"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Řekne tutéž věc mile i ostře a ty vidíš, co se změnilo a co zůstalo."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové informace nepředvedou, jak se tatáž věc dá říct různě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rozdíl mezi obsahem a způsobem slyšíš a čteš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozdíl poznáváš sluchem a čtením, nástroj tu nic nezměří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+      "http://data.europa.eu/esco/skill/0e161427-3369-47c0-8669-9e226207f6d0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jazykove-prostredky-a-zamer",
+    "title": "Jazykové prostředky a záměr sdělení",
+    "aliases": [
+      "jazykové prostředky",
+      "jak je text napsaný",
+      "slovní zásoba v textu",
+      "styl textu",
+      "rozbor sdělení"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Analyzuje obsah i způsob sdělení (jazykové prostředky) a tyto znaky následně porovná se záměrem komunikační výpovědi (o co autorovi šlo).",
+        "quote": "Analyzuje obsah i způsob sdělení (jazykové prostředky) a tyto znaky následně porovná se záměrem komunikační výpovědi (o co autorovi šlo)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vyjmenuje jazykové prostředky v ukázce a ty hledáš, k čemu autorovi sloužily."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky a ukázky textů ukážou, jak vypadá úřední, reklamní či odborný jazyk."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rozbor textu a porovnání se záměrem děláš ty, aplikace ho neumí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zvýrazňovač pomůže označit slova a obraty, které chceš rozebrat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+      "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "adresat-a-komunikacni-sfera",
+    "title": "Adresát a styl podle situace",
+    "aliases": [
+      "komu je text určen",
+      "komunikační sféra",
+      "styl projevu",
+      "psaní dopisu organizaci",
+      "mluvit s kamarády a s učitelem"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozliší adresáta a komunikační sféry (styly) v textu, uzpůsobuje svůj projev k dosažení komunikačního cíle nebo záměru (kamarádi při hře, diskuse na internetu, přednáška před spolužáky, dopis organizaci apod.)",
+        "quote": "rozliší adresáta a komunikační sféry (styly) v textu, uzpůsobuje svůj projev k dosažení komunikačního cíle nebo záměru (kamarádi při hře, diskuse na internetu, přednáška před spolužáky, dopis organizaci apod.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Komunikační funkce výpovědi a porozumění smyslu konkrétního neuměleckého textu - analýza a tvorba textů v různých komunikačních situacích",
+        "url": "https://uloziste.rvp.cz/material/623ac1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Přepíše tutéž zprávu pro kamaráda a pro úřad a ty vidíš, co se mění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzory dopisů a zásady psaní pro různé adresáty ukážou, jak má styl vypadat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Zprávu pro konkrétního adresáta musíš zvolit a napsat ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír k tomu nic nepřidají, styl volíš podle situace ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911",
+      "http://data.europa.eu/esco/skill/609a8ac1-9d29-4237-9886-596dbbe7ca8a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osloveni-a-tykani-vykani",
+    "title": "Oslovení a tykání nebo vykání",
+    "aliases": [
+      "tykat nebo vykat",
+      "jak oslovit",
+      "oslovení učitele",
+      "zdvořilé oslovení",
+      "vzájemný respekt"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zvolí a uplatní vhodné etické a funkční postupy pro danou komunikační sféru (styl), záměr a adresáta (např. argumentace na základě vhodných zdrojů, oslovení, tykání/vykání, naslouchání, vzájemný respekt).",
+        "quote": "Zvolí a uplatní vhodné etické a funkční postupy pro danou komunikační sféru (styl), záměr a adresáta (např. argumentace na základě vhodných zdrojů, oslovení, tykání/vykání, naslouchání, vzájemný respekt)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje roli učitele nebo úředníka a ty si zkoušíš správné oslovení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Jazyková příručka vysvětlí, kdy se tyká a kdy vyká a jak se oslovuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Oslovit člověka a zachovat respekt musíš ty, aplikace ti v tom nepomůže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Oslovení volíš podle situace ty, nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/609a8ac1-9d29-4237-9886-596dbbe7ca8a",
+      "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "argumentace-na-zaklade-zdroju",
+    "title": "Argumentace na základě vhodných zdrojů",
+    "aliases": [
+      "jak argumentovat",
+      "dokázat svůj názor",
+      "zdroje pro argument",
+      "podložit tvrzení",
+      "přesvědčit druhé"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zvolí a uplatní vhodné etické a funkční postupy pro danou komunikační sféru (styl), záměr a adresáta (např. argumentace na základě vhodných zdrojů, oslovení, tykání/vykání, naslouchání, vzájemný respekt).",
+        "quote": "Zvolí a uplatní vhodné etické a funkční postupy pro danou komunikační sféru (styl), záměr a adresáta (např. argumentace na základě vhodných zdrojů, oslovení, tykání/vykání, naslouchání, vzájemný respekt)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje protistranu a ty si zkoušíš, jestli tvé důvody obstojí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a spolehlivé weby dají fakta, o která svůj názor opřeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Argumentovat a zdroje posoudit musíš ty, aplikace ti důvody nevymyslí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Knihy z knihovny dají ověřené informace, které použiješ jako důkaz."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+      "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyjadreni-vlastniho-zameru",
+    "title": "Vyjádření vlastního záměru",
+    "aliases": [
+      "jak říct, co chci",
+      "vyjádřit přání",
+      "vyjádřit prosbu",
+      "říct svůj názor",
+      "popsat svůj záměr"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Svůj komunikační záměr popíše a adekvátně vyjádří.",
+        "quote": "Svůj komunikační záměr popíše a adekvátně vyjádří."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje druhou stranu a ty si zkoušíš, jestli ti rozumí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové informace za tebe nic nevyjádří."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Říct nebo napsat, co chceš, musíš ty, aplikace to udělat nemůže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Své přání vyjádříš ty, tužka a papír k tomu nic nepřidají."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+      "http://data.europa.eu/esco/skill/609a8ac1-9d29-4237-9886-596dbbe7ca8a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

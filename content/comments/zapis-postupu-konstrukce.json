@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Zápis postupu je návod, podle kterého konstrukci zopakuje i někdo jiný, a zároveň zkouška, jestli jí opravdu rozumíš: když musíš každý krok pojmenovat, hned vidíš, kde ti v úvaze něco chybí. Symbolické značky jako k(S; r) budeš psát hlavně ve škole. Popsat postup v pevném pořadí tak, aby se podle něj dalo pracovat, ale potřebuje každý, kdo projektuje elektrické instalace nebo seřizuje stroj podle výkresu. Chatbot tvůj zápis zkontroluje, postup ale musíš vymyslet ty, jinak nepoznáš, jestli má jeho oprava smysl.",
+  "learnWithAi": [
+    {
+      "title": "Rýsování podle cizího zápisu",
+      "text": "Nech chatbota zapsat postup konstrukce a narýsuj přesně to, co v zápisu stojí, nic navíc. Když výsledek nesedí, hledej krok, který je nejasný."
+    },
+    {
+      "title": "Schválně chybný postup",
+      "text": "Popros o zápis konstrukce trojúhelníku, ve kterém je schválně jeden krok špatně. Najdi ho a oprav bez nápovědy."
+    },
+    {
+      "title": "Převod slovního postupu do značek",
+      "text": "Napiš postup konstrukce slovy a převeď ho do symbolického zápisu. Teprve potom svůj zápis porovnej s tím, který navrhne chatbot, a vyjasni si každý rozdíl."
+    }
+  ]
+}

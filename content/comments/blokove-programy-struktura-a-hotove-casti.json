@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Větší program, třeba hru s několika úrovněmi, nejde poskládat najednou. Kdo ho nejdřív rozdělí na menší části a hotové kousky pak používá znovu, dokončí ho rychleji a snáz v něm najde chybu. Stejně postupují lidé, kteří vyvíjejí software nebo navrhují velké počítačové systémy, a takových míst spíš přibude. Chatbot napíše kus kódu za pár vteřin, ale rozmyslet, z jakých částí se program skládá a jak do sebe zapadnou, zůstává na tobě. Bez toho nepoznáš, jestli to, co vygeneroval, dává smysl.",
+  "learnWithAi": [
+    {
+      "title": "Plán hry na papíře",
+      "text": "Nakresli na papír, z jakých částí se bude skládat tvoje hra, a pošli plán chatbotovi. Ať se zeptá, co se stane, když hráč prohraje, a doplň, co chybí."
+    },
+    {
+      "title": "Rozklad cizího zadání",
+      "text": "Požádej chatbota o zadání jednoduchého programu, třeba počítadla bodů ve hře, a rozděl ho na části. Teprve pak porovnej svůj rozklad s jeho."
+    },
+    {
+      "title": "Hledání opakujících se částí",
+      "text": "Ukaž chatbotovi svůj program a zeptej se, které části se v něm opakují. Vlastní blok, který je nahradí, sestav a vyzkoušej ty."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když máš problém rozložený a jednotlivé kousky vyřešené, zbývá je spojit tak, aby na sebe navazovaly a nic nechybělo ani se neopakovalo. Teprve tím vznikne postup, který funguje jako celek, ať je to program, plán školní akce, nebo návod na stavbu. Při spojování se často objeví chyby, které v jednotlivých částech nebyly vidět, třeba když jedna část čeká na údaj, který druhá nikdy nevytvoří. Kdo navrhuje velké programy nebo řídí provoz počítačových systémů, spojuje dílčí řešení každý den, a takových míst spíš přibude. Chatbot umí upozornit na chybějící krok, potřebuje ale vidět celé řešení a jeho poznámky musíš posoudit ty.",
+  "learnWithAi": [
+    {
+      "title": "Mezera mezi dvěma kusy",
+      "text": "Požádej chatbota o dva kusy postupu, které na sebe přímo nenavazují, třeba nákup surovin a pečení koláče. Doplň kroky mezi nimi a nech si říct, jestli něco nechybí."
+    },
+    {
+      "title": "Postup odehraný krok po kroku",
+      "text": "Spoj kartičky s dílčími postupy do jednoho a nech chatbota, ať ho krok po kroku „provádí“ a hlásí, co zrovna dělá. Kde se zasekne, tam je chyba ve spojení."
+    },
+    {
+      "title": "Plán třídní akce z více částí",
+      "text": "Rozdělte si se spolužáky přípravu třídní akce, každý napíše svou část a ty je spojíš do jednoho postupu. Celek pošli chatbotovi a nech ho najít místa, kde části nenavazují."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Úprava hotového programu, třeba nový level v cizí hře nebo rychlejší padání překážek, tě dostane k větším programům, než jaké zatím zvládneš napsat od začátku. Musíš se v cizím kódu zorientovat, najít správné místo a změnit ho tak, aby se nic jiného nerozbilo. S tím se potkávají lidé, kteří vyvíjejí weby nebo programují stroje ve výrobě, protože málokdy začínají na prázdné stránce. Chatbot ti vysvětlí, co která část dělá, jestli úprava funguje, ale ověříš jen tím, že program spustíš a vyzkoušíš.",
+  "learnWithAi": [
+    {
+      "title": "Vysvětlení cizí části",
+      "text": "Když v hotovém programu narazíš na část, které nerozumíš, popiš ji chatbotovi a nech si ji vysvětlit. Pak ji změň a ověř, jestli se program chová, jak čekáš."
+    },
+    {
+      "title": "Předpověď před úpravou",
+      "text": "Než v programu něco změníš, napiš chatbotovi, co podle tebe úprava způsobí. Spusť program a porovnej výsledek se svým odhadem."
+    },
+    {
+      "title": "Úkoly na vylepšení hry",
+      "text": "Popros chatbota o tři úkoly na úpravu hotové hry, od snadného po těžší, třeba přidat počítadlo bodů. Plň je jeden po druhém a hotové řešení si nenech napsat."
+    }
+  ]
+}

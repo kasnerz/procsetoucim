@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "bd272aee-adc9-4a06-a15c-a73b4b4a46a7": "V aplikaci se pořád něco pamatuje: přihlášený uživatel, obsah košíku, skóre. Při programování se určuje, kde se taková hodnota nastaví, kdy se změní a kde se čte.",
+  "f2b15a0e-e65a-438a-affb-29b9d50b77d1": "Každý program si musí něco držet v paměti a práce s proměnnými je tu základ každého dne. Při hledání chyby se často sleduje, kdy a proč se hodnota změnila.",
+  "4874fa37-0cd1-4a68-aed8-a838851f242d": "Při programování zpracování textu se do proměnných ukládají třeba počty slov nebo mezivýsledky rozboru. Psaní kódu je tu jen část práce, vedle rozboru jazyka.",
+  "68d973df-bf10-4bf7-9a1b-fbd9f604b9db": "Skripty pro analýzu biologických dat si drží mezivýsledky v proměnných, třeba počty nebo načtené údaje z databáze. Programuje se tu jako nástroj pro výzkum, ne jako hlavní cíl.",
+  "c3b82711-273d-4fa8-8de7-0ac3d99c16fc": "Při výkladu programování se proměnné ukazují studentům na příkladech a krokuje se, jak se hodnota po řádcích mění. Kdo učí, tohle musí umět vysvětlit, programy ale neplatí za hlavní náplň.",
+  "dc8ef7da-d2c0-4474-96a0-6d0385eeec1e": "Úprava skriptů a nastavení stránek někdy vyžaduje číst kód s proměnnými. Programování tu ale není hlavní činnost, víc času zabere provoz serveru a obsah webu.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Kurzy s interaktivními prvky, třeba bodováním úkolů, někdy potřebují jednoduchou logiku s proměnnými. Většinou se ale používají hotové nástroje a kód se píše zřídka.",
+  "62979364-6fac-41f2-87ca-202bca19a6ab": "Při kreslení návrhů v CAD se proměnné občas objeví v parametrech rozměrů nebo v malých skriptech. Hlavní prací je ale přesné kreslení a výpočet materiálu."
+ }
+}

@@ -1,0 +1,78 @@
+{
+  "outcome": "JJK-AJA-002-ZV9-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicky-popis-pocitu",
+      "title": "Pocity v angličtině",
+      "aliases": ["jak se cítím anglicky", "I feel nervous", "emoce v angličtině", "nálady anglicky", "feelings"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Stručně popíše své pocity"},
+        {"level": "Na cestě", "quote": "Popíše své pocity"},
+        {"level": "Splněno", "quote": "Popíše, jak se cítí"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí slova pro pocity a opraví věty, které o sobě napíšeš."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš seznamy slov pro pocity a příklady vět, třeba v jazykové příručce."},
+        "aplikace": {"verdict": "pomuze", "why": "Slovník a kontrola pravopisu ti pomůžou s výrazy a chybami."},
+        "klasicky": {"verdict": "pomuze", "why": "Slovník na papíře ti pomůže najít slovo pro pocit, který chceš říct."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "anglicky-prani-sny-a-ambice",
+      "title": "Přání, sny a plány do budoucna anglicky",
+      "aliases": ["I would like to", "moje sny anglicky", "čím chci být anglicky", "budoucnost v angličtině", "ambitions"],
+      "sources": [
+        {"level": "Na začátku", "quote": "pocity, představy, přání a ambice"},
+        {"level": "Na cestě", "quote": "Popíše své pocity, představy, přání a ambice"},
+        {"level": "Splněno", "quote": "jaké má představy, přání a ambice"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ukáže, jak se anglicky říká přání a plány, a opraví ti věty."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš fráze jako I would like to a příklady vět o budoucnosti."},
+        "aplikace": {"verdict": "pomuze", "why": "Slovník a kontrola pravopisu ti pomůžou s výrazy a chybami."},
+        "klasicky": {"verdict": "pomuze", "why": "Slovník na papíře ti pomůže najít slova pro povolání a sny."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "anglicke-zduvodneni-pocitu-a-prani",
+      "title": "Důvod pocitu nebo přání anglicky",
+      "aliases": ["because anglicky", "proč se cítím", "zdůvodnění v angličtině", "příčina a důvod anglicky", "I feel nervous when"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Popisované pocity, představy, přání a ambice jednoduše zdůvodní."},
+        {"level": "Splněno", "quote": "Popisované skutečnosti umí doplnit o kontext (např. o důvody nebo příčiny)."},
+        {"level": "Splněno", "quote": "Popíše a zdůvodní svůj pocit v konkrétní situaci."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí spojky jako because a so a opraví ti zdůvodnění, které napíšeš."},
+        "internet": {"verdict": "pomuze", "why": "Jazyková příručka ukáže spojky a příklady vět s důvodem."},
+        "aplikace": {"verdict": "pomuze", "why": "Kontrola pravopisu a překladač pomůžou s chybami a chybějícím slovem."},
+        "klasicky": {"verdict": "pomuze", "why": "Slovníkem na papíře dohledáš slovo, které ti v zdůvodnění chybí."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": ["Změna času začátku školního dne"]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Dopíše jednoduché informace", "code": "O1", "refs": ["doplneni-slov-do-anglickeho-textu"]}
+  ]
+}

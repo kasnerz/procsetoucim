@@ -1,0 +1,208 @@
+{
+  "outcome": "JJK-AJA-002-ZV9-012",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "plan-anglicke-prezentace-o-zajmu",
+      "title": "Plán prezentace o tvém zájmu anglicky",
+      "aliases": [
+        "plán prezentace anglicky",
+        "osnova prezentace",
+        "presentation plan",
+        "o čem budu mluvit",
+        "výběr tématu prezentace"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Sestaví jednoduchý plán prezentace na téma z oblasti svého zájmu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, co do plánu patří, a opraví anglické věty, které si napíšeš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady plánů prezentací a slova k tématu, které tě zajímá."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu a překladač pomůžou s chybami a chybějícím slovem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník na papíře ti pomůže najít anglická slova pro body plánu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": [
+        "Prezentace"
+      ]
+    },
+    {
+      "slug": "stavba-anglicke-prezentace-uvod-hlavni-cast-zaver",
+      "title": "Úvod, hlavní část a závěr prezentace anglicky",
+      "aliases": [
+        "jak postavit prezentaci",
+        "úvod a závěr anglicky",
+        "presentation structure",
+        "shrnutí prezentace",
+        "proč právě toto téma"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "prezentace je logicky uspořádaná a věcná (má různé části – úvod, hlavní sdělení, závěr – a zahrnuje klíčové informace daného tématu)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co patří do úvodu a závěru, a řekne ti, co v textu chybí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky prezentací a informace k tématu, ze kterých vybereš to hlavní."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Textový editor a prezentační program ti pomůžou uspořádat části a opravit chyby."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník na papíře ti pomůže najít správná slova pro své téma."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": [
+        "Prezentace"
+      ]
+    },
+    {
+      "slug": "pouziti-anglickych-frazi-pro-prezentace",
+      "title": "Fráze pro prezentace anglicky",
+      "aliases": [
+        "fráze do prezentace",
+        "today I will talk about",
+        "first, next, finally",
+        "presentation phrases",
+        "jak začít prezentaci anglicky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Používá základní jazykové struktury a fráze typické pro prezentace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí fráze jako I will talk about a dá ti věty na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš seznamy frází pro úvod, přechody a závěr prezentace."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Slovníková a jazyková aplikace ti pomůže fráze ověřit a procvičit."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník nebo učebnice na papíře ukážou, jak se fráze používají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": [
+        "Prezentace"
+      ]
+    },
+    {
+      "slug": "prednes-anglicke-prezentace-podle-osnovy",
+      "title": "Přednes prezentace anglicky podle osnovy",
+      "aliases": [
+        "mluvit před třídou anglicky",
+        "přednes prezentace",
+        "present your topic",
+        "prezentace podle poznámek",
+        "mluvená prezentace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "S využitím textové osnovy prezentuje téma z oblasti svého zájmu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Prezentuje téma z oblasti svého zájmu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Prezentaci si s ním můžeš nanečisto zkusit a nechat si položit otázky, před třídou ale mluvíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Výslovnost těžších slov si ověříš ve slovníku s nahrávkou."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahraješ se na telefon a poslechneš si, kde zadrháváš nebo mluvíš moc rychle."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky s osnovou ti pomůžou nezapomenout, co chceš říct."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": [
+        "Prezentace"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Plní jednoduché pokyny",
+      "code": "O1",
+      "refs": [
+        "pokyny-v-anglictine-ve-tride"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "outcome": "CZB-TEV-002-ZV9-006",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Reaguje na pokyny, povely a signály spojenými s pohybovou činností.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-pokyny-povely-signaly-rozcvicka"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozumí a pojmenuje pokyny, povely a signály spojené s pohybovou činností.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-pokyny-povely-signaly-rozcvicka"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Sestaví a vede krátké rozcvičení s ohledem na následující pohybovou činnost.",
+      "cards": [
+        "tv-sestaveni-a-vedeni-rozcvicky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá správné tělocvičné názvosloví.",
+      "cards": [
+        "tv-telocvicne-nazvoslovi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Organizuje skupinu, dává instrukce, kontroluje a opravuje provedení cvičení spolužáků.",
+      "cards": [
+        "tv-rizeni-skupiny-pri-cviceni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Reaguje správně na základní pokyny, povely, signály a vykonává podle nich individuální i týmovou pohybovou činnost.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-cviceni-podle-povelu-jednotlive-i-v-tymu"
+        ]
+      }
+    }
+  ]
+}

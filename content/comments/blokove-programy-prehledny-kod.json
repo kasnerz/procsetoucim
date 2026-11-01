@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Program, kterému dnes rozumíš, může být za pár týdnů nečitelný i pro tebe, pokud se proměnné jmenují „a“ a „b“ a nikde není poznámka. Dobré názvy a krátké komentáře šetří čas, když hledáš chybu nebo když na programu pracuje víc lidí. Pro ty, kdo programují v týmu, je to každodenní nutnost, protože kód po sobě navzájem čtou a upravují. Chatbot umí navrhnout lepší názvy, ale jen ty víš, co má program dělat, takže jeho návrh musíš posoudit. Učíš se tu také rozhodovat, kdy stačí rychlé řešení a kdy se vyplatí program uklidit.",
+  "learnWithAi": [
+    {
+      "title": "Lepší názvy proměnných",
+      "text": "Pošli chatbotovi seznam názvů ze svého programu a zeptej se, které nejsou srozumitelné. Nové názvy vymysli ty, jeho návrhy ber jako inspiraci."
+    },
+    {
+      "title": "Čtení zmateného kódu",
+      "text": "Požádej chatbota o krátký program se zmatenými názvy a bez komentářů. Zjisti, co dělá, a pak ho přepiš tak, aby byl čitelný."
+    },
+    {
+      "title": "Komentáře pro jiného čtenáře",
+      "text": "Doplň do svého programu komentáře a dej ho chatbotovi, ať podle nich popíše, co program dělá. Kde se splete, komentář vylepši."
+    }
+  ]
+}

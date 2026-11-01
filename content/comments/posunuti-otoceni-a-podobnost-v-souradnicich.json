@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Posunout útvar v souřadnicích znamená přičíst ke všem bodům stejná čísla, zvětšit ho dvakrát od počátku znamená všechny souřadnice vynásobit dvěma. Na tom stojí každý grafický program: když na obrazovce přesuneš nebo zvětšíš obrázek, počítač dělá právě tyhle výpočty. V práci to přímo využije hlavně ten, kdo navrhuje součástky nebo čipy, ostatním zůstane jistota, že zvětšený plánek má pořád stejné úhly. Otočení je v souřadnicích nejtěžší, a tak se hodí program, se kterým porovnáš svůj odhad.",
+  "learnWithAi": [
+    {
+      "title": "Posunutý domeček",
+      "text": "Nakresli do souřadnic jednoduchý domeček a nech si zadat, o kolik ho posunout. Nové souřadnice spočítej a dej je chatbotovi ke kontrole."
+    },
+    {
+      "title": "Otočení o pravý úhel",
+      "text": "Zeptej se, jak se změní souřadnice bodu při otočení o 90° kolem počátku, a chtěj vysvětlení na čtverečkovaném papíře. Pravidlo vyzkoušej na vlastním trojúhelníku a ověř v geometrickém programu."
+    },
+    {
+      "title": "Hledání středu podobnosti",
+      "text": "Požádej o dvojici útvarů, z nichž jeden je zvětšeninou druhého, a najdi střed podobnosti i poměr. Postup si nech vysvětlit až potom, co ho zkusíš."
+    }
+  ]
+}

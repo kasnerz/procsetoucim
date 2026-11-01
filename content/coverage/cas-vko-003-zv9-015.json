@@ -1,0 +1,89 @@
+{
+  "outcome": "CAS-VKO-003-ZV9-015",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "vysvětlí pojmy cena, nabídka, poptávka",
+      "cards": [
+        "cena-nabidka-poptavka-pojmy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "zjišťuje informace o finální ceně vybraných výrobků a nákladech na jejich výrobu, diskutuje o příčinách nerovnováhy mezi náklady a finální cenou výroku",
+      "cards": [
+        "naklady-vyroby-a-konecna-cena"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "stanovuje cenu vlastního výrobku s ohledem na náklady spojené s výrobou",
+      "cards": [
+        "stanoveni-ceny-vlastniho-vyrobku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na příkladu vysvětlí rozdíly mezi tím, čeho chtějí na trhu dosáhnout prodávající a kupující",
+      "cards": [
+        "co-chce-prodavajici-a-kupujici"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na konkrétních příkladech diskutuje o tom, jak poptávka, nabídka a konkurence ovlivňuje tvorbu ceny",
+      "cards": [
+        "poptavka-nabidka-konkurence-a-cena"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "prozkoumá vývoj ceny u vybraných produktů/služeb (proměňující se v čase a v místě)",
+      "cards": [
+        "vyvoj-ceny-v-case-a-v-miste"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na konkrétních příkladech vysvětlí, co vše tvoří cenu produktu/služby.",
+      "cards": [
+        "naklady-vyroby-a-konecna-cena"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na konkrétních příkladech vysvětlí, co vše ovlivňuje cenu produktu/služby.",
+      "cards": [
+        "poptavka-nabidka-konkurence-a-cena"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na příkladech vysvětlí, proč se liší ceny stejných produktů/služeb a co ovlivňuje změny cen v čase.",
+      "cards": [
+        "proc-se-lisi-ceny-stejneho-produktu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Uplatňuje v modelových situacích práva spotřebitele ve vztahu ke koupi a reklamaci zboží a služeb.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "pravo-spotrebitele-reklamace"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dva programy můžou dát stejný výsledek, a přesto jeden doběhne hned a druhý se trápí minutu nebo má zbytečně mnoho řádků. Poznat, které řešení je lepší, se hodí, jakmile program pracuje s hodně daty nebo ho po tobě bude číst někdo další. Na tom stojí práce lidí, kteří vyvíjejí umělou inteligenci nebo počítají simulace baterií. Chatbot ti kratší verzi kódu navrhne rychle, ale jestli je opravdu lepší a proč, musíš umět posoudit ty.",
+  "learnWithAi": [
+    {
+      "title": "Hledání zbytečného opakování",
+      "text": "Pošli chatbotovi svůj program a požádej ho, ať ti jen ukáže, kde se něco opakuje zbytečně. Kratší verzi napiš ty a ověř, že dává stejné výsledky."
+    },
+    {
+      "title": "Pomalý a rychlý postup",
+      "text": "Nech chatbota napsat dvě řešení téže úlohy, pomalé a rychlé, a neprozradit, které je které. Odhadni to, změř dobu běhu na velkém vstupu a porovnej."
+    },
+    {
+      "title": "Počítání kroků programu",
+      "text": "Zeptej se chatbota, jak se počítá, kolik kroků program udělá pro sto čísel. Spočítej to pro svůj program a výsledek si s ním zkontroluj."
+    }
+  ]
+}

@@ -47,7 +47,7 @@ def main():
                 continue
             m = measures.get(act["slug"], {})
             notes = read(C / "jobnotes" / f"{act['slug']}.json", {"notes": {}})["notes"]
-            hi = m.get("exposureMix", {}).get("high")
+            hi = (m.get("exposureMix") or {}).get("high")
             cards.append({
                 "slug": act["slug"],
                 "title": act["title"],

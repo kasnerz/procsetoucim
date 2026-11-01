@@ -1,0 +1,338 @@
+{
+  "outcome": "CAS-VKO-003-ZV9-015",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "cena-nabidka-poptavka-pojmy",
+      "title": "Cena, nabídka a poptávka",
+      "aliases": [
+        "co je cena",
+        "nabídka a poptávka",
+        "poptávka",
+        "ekonomie",
+        "tržní hospodářství"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vysvětlí pojmy cena, nabídka, poptávka"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy na příkladech a ptá se tě, jestli jim rozumíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a školní stránky ukážou pojmy s obrázky a příklady."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pojmy ti nevysvětlí aplikace, vysvětlit si je musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pojmy máš v hlavě, kalkulačka ani pravítko k nim nic nemají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+      ]
+    },
+    {
+      "slug": "naklady-vyroby-a-konecna-cena",
+      "title": "Z čeho se skládá cena výrobku",
+      "aliases": [
+        "náklady na výrobu",
+        "proč něco stojí tolik",
+        "z čeho je cena",
+        "marže",
+        "cena produktu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "zjišťuje informace o finální ceně vybraných výrobků a nákladech na jejich výrobu, diskutuje o příčinách nerovnováhy mezi náklady a finální cenou výroku"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na konkrétních příkladech vysvětlí, co vše tvoří cenu produktu/služby."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere na příkladu, kolik stojí materiál, práce a doprava."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ceny surovin a výrobků a porovnáš je s cenou v obchodě."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka sečte náklady a ukáže, kolik zbývá z ceny."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka sečte náklady, které si zjistíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0",
+        "http://data.europa.eu/esco/skill/183134a2-3f8e-4a38-9e81-35c2bec0272b"
+      ],
+      "inspiration": [
+        "I výroba něco stojí",
+        "Cena produktu",
+        "Cena, kterou nevidíme"
+      ]
+    },
+    {
+      "slug": "stanoveni-ceny-vlastniho-vyrobku",
+      "title": "Cena vlastního výrobku podle nákladů",
+      "aliases": [
+        "jak určit cenu",
+        "kolik prodávat",
+        "cena domácího výrobku",
+        "kalkulace ceny",
+        "školní minifirma"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "stanovuje cenu vlastního výrobku s ohledem na náklady spojené s výrobou"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, co všechno do nákladů započítat, a zkontroluje tvůj postup."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ceny podobných výrobků ti ukážou, v jakém rozmezí se pohybují."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka spočítá náklady a cenu s tvým ziskem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti pomůže spočítat náklady a cenu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/183134a2-3f8e-4a38-9e81-35c2bec0272b",
+        "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0"
+      ]
+    },
+    {
+      "slug": "co-chce-prodavajici-a-kupujici",
+      "title": "Co chce prodávající a co kupující",
+      "aliases": [
+        "prodávající",
+        "kupující",
+        "zákazník",
+        "kdo chce nižší cenu",
+        "vyjednávání o ceně"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na příkladu vysvětlí rozdíly mezi tím, čeho chtějí na trhu dosáhnout prodávající a kupující"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje roli prodávajícího nebo kupujícího a zkusíš si vyjednávat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady z obchodů a bazarů ukážou, co každá strana chce."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti nezahraje vyjednávání, rozdíly v zájmech musíš vysvětlit ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozdíl mezi stranami musíš promyslet ty, kalkulačka k tomu nic nemá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13",
+        "http://data.europa.eu/esco/skill/ae25d3a9-a85f-415c-a601-806013ea8229"
+      ]
+    },
+    {
+      "slug": "poptavka-nabidka-konkurence-a-cena",
+      "title": "Jak poptávka, nabídka a konkurence mění cenu",
+      "aliases": [
+        "proč zdražuje",
+        "proč zlevňuje",
+        "konkurence",
+        "málo zboží",
+        "vysoká poptávka",
+        "co ovlivňuje cenu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na konkrétních příkladech diskutuje o tom, jak poptávka, nabídka a konkurence ovlivňuje tvorbu ceny"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na konkrétních příkladech vysvětlí, co vše ovlivňuje cenu produktu/služby."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí na příkladech, proč cena roste, když je zboží málo, a zpochybní tvé závěry."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy a články ukážou skutečné případy zdražení a zlevnění."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti důvody změny ceny nevysvětlí, uvažovat musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka počítá, ale důvody změn ceny v ní nenajdeš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa",
+        "http://data.europa.eu/esco/skill/68e73bf6-2838-4705-86f4-e4bda4ac8a6f"
+      ],
+      "inspiration": [
+        "Co mění cenu"
+      ]
+    },
+    {
+      "slug": "vyvoj-ceny-v-case-a-v-miste",
+      "title": "Vývoj ceny výrobku v čase a podle místa",
+      "aliases": [
+        "ceny v obchodech",
+        "srovnání cen",
+        "zdražení",
+        "inflace",
+        "ceny v různých obchodech"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "prozkoumá vývoj ceny u vybraných produktů/služeb (proměňující se v čase a v místě)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vymyslet, jak ceny sledovat, a vysvětlí, co tabulka ukazuje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obchody a srovnávače ukážou aktuální ceny a starší letáky dřívější."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka a graf ukážou, jak se cena měnila."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírové letáky ze dvou měsíců nebo obchodů porovnáš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13",
+        "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9"
+      ]
+    },
+    {
+      "slug": "proc-se-lisi-ceny-stejneho-produktu",
+      "title": "Proč se liší ceny stejného produktu",
+      "aliases": [
+        "různé ceny",
+        "akce a slevy",
+        "sezónní ceny",
+        "proč je to jinde levnější",
+        "změna ceny v čase"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na příkladech vysvětlí, proč se liší ceny stejných produktů/služeb a co ovlivňuje změny cen v čase."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere na příkladech důvody, třeba sezónu, místo nebo slevu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ceny stejného zboží v obchodech si najdeš a porovnáš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ceny ukáže, ale důvody rozdílů musíš vysvětlit ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka rozdíl cen spočítá, ale proč vznikl, nepoví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13",
+        "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Uplatňuje v modelových situacích práva spotřebitele",
+      "code": "O1",
+      "refs": [
+        "pravo-spotrebitele-reklamace"
+      ]
+    }
+  ]
+}

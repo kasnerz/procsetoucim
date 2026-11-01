@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když rýsuješ útvar do soustavy souřadnic, spojíš dvě věci: konstrukci pravítkem a kružítkem a čísla, která polohu přesně popisují. Bod, který vznikne konstrukcí, třeba průsečík dvou přímek, má souřadnice, které odečteš z obrázku. Kdo kreslí strojní součástky nebo navrhuje čipy, zadává tvary právě souřadnicemi, i když rýsuje program. Ve škole se to učí všichni, v práci to využijí hlavně technické obory. Program ukáže souřadnice přesně, z tvého obrázku je odečteš jen přibližně, a když se čísla hodně liší, víš, že je v rýsování chyba.",
+  "learnWithAi": [
+    {
+      "title": "Střed strany trojúhelníku",
+      "text": "Požádej o souřadnice tří vrcholů trojúhelníku, narýsuj ho a urči souřadnice středu jedné strany. Výsledek si pak nech zkontrolovat."
+    },
+    {
+      "title": "Průsečík dvou přímek",
+      "text": "Popros chatbota o dvě přímky zadané body, kterými procházejí, narýsuj je a odečti souřadnice průsečíku. Porovnej to s geometrickým programem, chatbot se tu může splést."
+    },
+    {
+      "title": "Čtverec ze dvou vrcholů",
+      "text": "Nech si zadat dva sousední vrcholy čtverce a najdi zbylé dva. Řeš to nejdřív rýsováním a teprve potom se zeptej, jak se dají souřadnice spočítat."
+    }
+  ]
+}

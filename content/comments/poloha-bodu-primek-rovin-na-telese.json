@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Slova jako rovnoběžné, různoběžné nebo mimoběžné pojmenovávají, jak spolu leží hrany a stěny tělesa, a bez nich se o prostoru špatně domlouvá. Na modelu krychle je vidíš v ruce, a když je umíš popsat, snáz rozumíš výkresu nebo návodu k sestavení skříně. Kdo montuje letadla nebo kreslí díly v počítači, musí poznat, které hrany jsou kolmé a které rovnoběžné, jinak díly nebudou sedět. Program s otáčivým tělesem pomůže, pojmenovat vztah ale musíš ty, a to jde nejlíp s modelem v ruce.",
+  "learnWithAi": [
+    {
+      "title": "Kvíz na hranách krychle",
+      "text": "Označ si vrcholy krychle písmeny jako v učebnici a nech se chatbotem zkoušet, jak leží dvojice hran. Odpovídej podle modelu v ruce."
+    },
+    {
+      "title": "Mimoběžky v pokoji",
+      "text": "Zeptej se, jak poznat mimoběžky, a hledej je doma, třeba hranu stolu a hranu dveří. Své příklady si pak nech zkontrolovat."
+    },
+    {
+      "title": "Popis tělesa bez názvu",
+      "text": "Napiš chatbotovi popis jehlanu nebo kvádru jen pomocí poloh hran a stěn a nech ho hádat, o jaké těleso jde. Když netrefí, hledej, co v popisu chybělo."
+    }
+  ]
+}

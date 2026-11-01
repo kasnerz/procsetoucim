@@ -1,0 +1,469 @@
+[
+  {
+    "slug": "overovani-vysledku-programu",
+    "title": "Ověřování, jestli program počítá správně",
+    "aliases": [
+      "kontrola programu",
+      "správný výsledek",
+      "ověření programu",
+      "jestli to funguje"
+    ],
+    "outcome": "INF-INF-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Ověřuje správnost navrhovaných postupů s cílem opravit chyby.",
+        "quote": "Ověřuje správnost navrhovaných postupů s cílem opravit chyby."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Opakovaně prochází svůj postup či program a ověřuje správnost výsledků.",
+        "quote": "Opakovaně prochází svůj postup či program a ověřuje správnost výsledků."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Skóre, které zlobí (aneb: proč moje postavička počítá body špatně?)",
+        "url": "https://uloziste.rvp.cz/material/99ebb4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti k programu vymyslí příklady, u kterých znáš správný výsledek."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Správné výsledky ověříš v tabulkách a příkladech, které najdeš online."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Programovací prostředí program spustí a výsledek hned vidíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka nebo papír ti dají správný výsledek k porovnání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ce354460-500e-4eaa-8e95-8f243fcea3db",
+      "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zkouseni-casti-a-celeho-programu",
+    "title": "Zkoušení částí i celého programu",
+    "aliases": [
+      "testování programu",
+      "otestovat program",
+      "různé vstupy",
+      "zkouška programu"
+    ],
+    "outcome": "INF-INF-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Testuje různé části programu, provádí drobné úpravy pro zlepšení funkčnosti a efektivnosti.",
+        "quote": "Testuje různé části programu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Otestuje celý program, najde případné chyby (např. chybná podmínka nebo opakování) a opraví je.",
+        "quote": "Otestuje celý program"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Průběžně testuje starší i právě upravené části programu s různými vstupy, všímá si selhání programu a rozporů mezi chováním programu a očekáváním nebo zadáním pro program, odhaluje příčiny chyb.",
+        "quote": "Průběžně testuje starší i právě upravené části programu s různými vstupy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot navrhne vstupy, na kterých se programy rády pokazí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tipy, jak testovat, a seznamy běžných nezvyklých vstupů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Spuštění programu a ladicí nástroje ukážou, co program s vybraným vstupem udělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kalkulačka ani pravítko program nespustí, zkoušíš ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f4a85869-1855-45d5-a43c-7ee8cd451996",
+      "http://data.europa.eu/esco/skill/ce354460-500e-4eaa-8e95-8f243fcea3db"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozpor-programu-a-zadani",
+    "title": "Rozpor mezi programem a zadáním",
+    "aliases": [
+      "program dělá něco jiného",
+      "selhání programu",
+      "co měl program dělat",
+      "zadání programu"
+    ],
+    "outcome": "INF-INF-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Průběžně testuje starší i právě upravené části programu s různými vstupy, všímá si selhání programu a rozporů mezi chováním programu a očekáváním nebo zadáním pro program, odhaluje příčiny chyb.",
+        "quote": "všímá si selhání programu a rozporů mezi chováním programu a očekáváním nebo zadáním pro program"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Skóre, které zlobí (aneb: proč moje postavička počítá body špatně?)",
+        "url": "https://uloziste.rvp.cz/material/99ebb4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot porovná popis zadání s tím, co kód dělá, a upozorní na rozdíly."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Zadání je tvoje a ve vyhledávači nenajdeš, co od programu čekáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Spuštěný program ukáže, co dělá, a ty to srovnáš se zadáním."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papíře si vypíšeš, co má program dělat, a odškrtáš to při zkoušení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ce354460-500e-4eaa-8e95-8f243fcea3db",
+      "http://data.europa.eu/esco/skill/ca73ac82-867a-4afa-9732-834aebe896ff"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pricina-chyby-v-programu",
+    "title": "Hledání příčiny chyby v programu",
+    "aliases": [
+      "najít chybu v programu",
+      "ladění",
+      "debugging",
+      "proč program nefunguje",
+      "chybná podmínka"
+    ],
+    "outcome": "INF-INF-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Otestuje celý program, najde případné chyby (např. chybná podmínka nebo opakování) a opraví je.",
+        "quote": "najde případné chyby (např. chybná podmínka nebo opakování)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Průběžně testuje starší i právě upravené části programu s různými vstupy, všímá si selhání programu a rozporů mezi chováním programu a očekáváním nebo zadáním pro program, odhaluje příčiny chyb.",
+        "quote": "odhaluje příčiny chyb"
+      },
+      {
+        "level": "Splněno",
+        "point": "Odladí program, aby pracoval správně – systematicky nachází chybná místa programu a opravuje je, přepracovává části programu.",
+        "quote": "systematicky nachází chybná místa programu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Skóre, které zlobí (aneb: proč moje postavička počítá body špatně?)",
+        "url": "https://uloziste.rvp.cz/material/99ebb4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí chybovou hlášku a naznačí, kde může být chyba."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Chybovou hlášku vyhledáš a najdeš popsané podobné případy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Ladicí nástroj program zastaví a ukáže hodnoty proměnných v každém kroku."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papíře si krok za krokem vypíšeš hodnoty proměnných a vidíš, kde se rozejdou s očekáváním."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "oprava-a-prepracovani-programu",
+    "title": "Oprava chyb a přepracování částí programu",
+    "aliases": [
+      "opravit program",
+      "upravit kód",
+      "odladit program",
+      "přepsat část programu"
+    ],
+    "outcome": "INF-INF-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Testuje různé části programu, provádí drobné úpravy pro zlepšení funkčnosti a efektivnosti.",
+        "quote": "provádí drobné úpravy pro zlepšení funkčnosti"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Otestuje celý program, najde případné chyby (např. chybná podmínka nebo opakování) a opraví je.",
+        "quote": "a opraví je"
+      },
+      {
+        "level": "Splněno",
+        "point": "Odladí program, aby pracoval správně – systematicky nachází chybná místa programu a opravuje je, přepracovává části programu.",
+        "quote": "Odladí program, aby pracoval správně"
+      },
+      {
+        "level": "Splněno",
+        "point": "Odladí program, aby pracoval správně – systematicky nachází chybná místa programu a opravuje je, přepracovává části programu.",
+        "quote": "přepracovává části programu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot navrhne opravu a vysvětlí, proč původní kód nefungoval."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady správného zápisu podmínky nebo opakování."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Programovací prostředí po každé úpravě program znovu spustí a ukáže, jestli oprava zabrala."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kód opravuješ ty, papír ani kalkulačka ho nepřepíšou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "efektivita-reseni",
+    "title": "Hodnocení efektivity řešení",
+    "aliases": [
+      "rychlost programu",
+      "efektivní řešení",
+      "vylepšení programu",
+      "opakující se kód"
+    ],
+    "outcome": "INF-INF-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Testuje různé části programu, provádí drobné úpravy pro zlepšení funkčnosti a efektivnosti.",
+        "quote": "efektivnosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Hodnotí efektivitu svého řešení, podle potřeby navrhuje vylepšení.",
+        "quote": "Hodnotí efektivitu svého řešení, podle potřeby navrhuje vylepšení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ukáže, kde se kód zbytečně opakuje, a navrhne kratší variantu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení, proč některé postupy trvají déle než jiné."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Programovací prostředí změří, jak dlouho program běží."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Efektivitu svého řešení posuzuješ ty, klasický nástroj ji neměří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f4a85869-1855-45d5-a43c-7ee8cd451996",
+      "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "testovani-programu-s-uzivateli",
+    "title": "Testování prototypu s uživateli",
+    "aliases": [
+      "uživatelé programu",
+      "použitelnost",
+      "vyzkoušet program na ostatních",
+      "prototyp programu"
+    ],
+    "outcome": "INF-INF-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Testuje prototypy programu s uživateli, aby ověřoval a vylepšoval jeho použitelnost.",
+        "quote": "Testuje prototypy programu s uživateli, aby ověřoval a vylepšoval jeho použitelnost."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot pomůže sestavit otázky pro uživatele a roztřídit jejich odpovědi."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Ve vyhledávači nenajdeš, jak se v tvém programu zorientuje spolužák."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Dotazník v aplikaci usnadní sbírání odpovědí od více lidí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a papír stačí na zápis poznámek při sledování uživatele."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ca73ac82-867a-4afa-9732-834aebe896ff",
+      "http://data.europa.eu/esco/skill/f4a85869-1855-45d5-a43c-7ee8cd451996"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nedostatky-postupu-a-popisu",
+    "title": "Nedostatky postupu a jeho popisu",
+    "aliases": [
+      "oprava postupu",
+      "špatně popsaný postup",
+      "vylepšení popisu",
+      "nejasný návod"
+    ],
+    "outcome": "INF-INF-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Identifikuje nedostatky postupu i jeho popisu a navrhuje opravy.",
+        "quote": "Identifikuje nedostatky postupu i jeho popisu a navrhuje opravy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Postup pro přípravu na vyučování",
+        "url": "https://uloziste.rvp.cz/material/ecf665"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot najde nejasná místa v popisu postupu a navrhne přesnější slova."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové popisy postupů, se kterými svůj popis porovnáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na kreslení vývojových diagramů ukáže slabá místa v tvaru postupu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papíře postup projdeš tužkou a značíš si, kde se zadrhne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ce354460-500e-4eaa-8e95-8f243fcea3db",
+      "http://data.europa.eu/esco/skill/ca73ac82-867a-4afa-9732-834aebe896ff"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Názvy úhlů jsou zkratka: řekneš „pravý“ a každý ví, že jde o 90 stupňů, řekneš „tupý“ a je jasné, že je větší než pravý. Bez nich se nedomluvíš o trojúhelnících, o rýsování ani v dílně o tom, jestli roh sedí. Projektanti, geodeti a lidé, kteří svařují potrubí nebo vyrábějí nábytek, kontrolují úhly každý den. Úhel změří úhloměr i aplikace, ale odhadnout ho od oka a poznat, že je něco nakřivo, musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Úhly mezi ručičkami hodin",
+      "text": "Ať ti chatbot zadává časy, třeba 3:00 nebo 7:30, a ty určuješ, jaký úhel svírají ručičky. Odpovědi si nech zkontrolovat."
+    },
+    {
+      "title": "Odhad úhlů od oka",
+      "text": "Nakresli osm úhlů bez úhloměru, ke každému napiš typ a odhad ve stupních a pak je změř. U úhlů, kde se odhad nejvíc lišil, požádej chatbota o tip, jak úhly lépe odhadovat."
+    },
+    {
+      "title": "Tupý a nekonvexní úhel na dveřích",
+      "text": "Popiš chatbotovi vlastními slovy rozdíl mezi tupým a nekonvexním úhlem, třeba na otvírání dveří. Nech ho hledat mezery ve tvém vysvětlení a doplň je."
+    }
+  ]
+}

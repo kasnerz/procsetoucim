@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Spousta špatných odpovědí v testu vznikne tím, že někdo zadání přečetl napůl a odpověděl na jinou otázku. Porozumět zadání znamená zjistit, co přesně se po tobě chce a pro koho to má být, ať jde o slohovku, nebo o úkol v práci. Lidé, kteří připravují veřejné zakázky nebo odpovídají zákazníkům v chatu, čtou zadání každý den a chyba v pochopení je stojí čas i peníze. Chatbot ti zadání převypráví, ale jestli jeho výklad sedí, poznáš jen tak, že si zadání přečteš i ty.",
+  "learnWithAi": [
+    {
+      "title": "Zadání vlastními slovy",
+      "text": "Přečti zadání úkolu, převyprávěj ho chatbotovi vlastními slovy a nech si říct, jestli ti něco neuteklo."
+    },
+    {
+      "title": "Slohovka s několika podmínkami",
+      "text": "Požádej chatbota o zadání slohové práce s několika podmínkami, třeba s rozsahem a adresátem. Vypiš si všechny podmínky a nech si je zkontrolovat."
+    },
+    {
+      "title": "Odpověď mimo zadání",
+      "text": "Nech chatbota napsat krátký text, který zadání splňuje jen zčásti. Najdi, co v něm chybí nebo co je navíc."
+    }
+  ]
+}

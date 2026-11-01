@@ -1,0 +1,13 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "d0aa0792-4345-474b-9365-686cf4869d2e": "Moduly systému na sobě závisejí, a proto záleží na pořadí. Návrh architektury ukazuje, co musí být hotovo dřív, než jde na řadu další část.",
+  "812c217d-32b7-4f6a-9faf-993d3577ac7f": "Znalosti se ukládají do systému tak, aby na sebe navazovaly. Je potřeba vidět, která informace závisí na jiné, jinak odpovědi nesedí.",
+  "f0ca39a8-1e30-487c-95f9-ef2d5e734adc": "V provozu ICT na sobě závisí servery, sítě i smlouvy. Při plánování se sleduje, co se musí stát dřív a co se rozbije, když jedna část vypadne.",
+  "02eb0ae6-ecdd-4602-9c8e-60ffe6dbe1e2": "V síti jedno zařízení bez druhého nefunguje. Při návrhu a zkoušení se hlídá, co na čem závisí a v jakém pořadí se to staví.",
+  "d68ff35f-e34d-4e32-88ab-d6c06a6c25b9": "Změna jedné herní vlastnosti ovlivní ostatní, například obtížnost a odměny. Při vyvažování hry se hledají tyto vazby.",
+  "62979364-6fac-41f2-87ca-202bca19a6ab": "Změna rozměru v návrhu se promítne do dalších částí výkresu i do množství materiálu. Závislosti se hlídají, ale většinu pohlídá program.",
+  "a9c30651-ccbc-4a80-900c-7880615cdf6e": "Lekce v kurzu na sebe navazují, takže novou věc nejde vysvětlit bez předchozích. Při návrhu materiálu se hlídá, co se musí naučit dřív."
+ }
+}

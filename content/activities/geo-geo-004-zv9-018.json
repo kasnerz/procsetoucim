@@ -1,0 +1,305 @@
+[
+  {
+    "slug": "principy-udrzitelnosti-ekonomika-spolecnost-priroda",
+    "title": "Principy udržitelnosti",
+    "aliases": [
+      "udržitelnost života",
+      "udržitelný rozvoj",
+      "tři pilíře udržitelnosti",
+      "co je udržitelnost",
+      "SDG"
+    ],
+    "outcome": "GEO-GEO-004-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vysvětlí význam udržitelnosti a vybrané způsoby jak udržitelnost podpořit.",
+        "quote": "Vysvětlí význam udržitelnosti a vybrané způsoby jak udržitelnost podpořit."
+      },
+      {
+        "level": "Na začátku",
+        "point": "má povědomí o významu slovního spojení udržitelnost života",
+        "quote": "má povědomí o významu slovního spojení udržitelnost života"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše základní principy udržitelnosti.",
+        "quote": "Popíše základní principy udržitelnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak chápu SDG",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí pojem jinými slovy a zeptá se, jak mu rozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a stránky o cílech udržitelného rozvoje dávají ověřené vysvětlení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro pochopení pojmu žádná jednoúčelová aplikace nemá co nabídnout."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pojmu rozumíš z vysvětlení a příkladů, nástroj k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/469e19ed-a0bd-445a-ae2d-4ba9430e296b",
+      "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "udrzitelnost-v-odvetvi-navrh-a-dopady",
+    "title": "Udržitelnost v jednom odvětví a její dopady",
+    "aliases": [
+      "udržitelné zemědělství",
+      "udržitelná doprava",
+      "dopady místní a světové",
+      "návrh řešení",
+      "odvětví"
+    ],
+    "outcome": "GEO-GEO-004-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne, jak uplatnit principy udržitelnosti v konkrétním odvětví lidské činnosti, a zhodnotí jejich dopady na lokální i globální úrovni.",
+        "quote": "Navrhne, jak uplatnit principy udržitelnosti v konkrétním odvětví lidské činnosti, a zhodnotí jejich dopady na lokální i globální úrovni."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Já a udržitelnost",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti ukáže příklady z jiných odvětví a najde slabá místa tvého návrhu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš, jak odvětví funguje, a čísla o jeho dopadu na přírodu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Návrh vymýšlíš a dopady posuzuješ ty, jednoúčelová aplikace to neumí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nápad a úvahu o dopadech si ze svých poznatků skládáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6",
+      "http://data.europa.eu/esco/skill/469e19ed-a0bd-445a-ae2d-4ba9430e296b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ruzne-pohledy-na-problem-zivotniho-prostredi",
+    "title": "Různé pohledy na problém životního prostředí",
+    "aliases": [
+      "zájmové skupiny",
+      "kdo s čím nesouhlasí",
+      "argumenty pro a proti",
+      "environmentální problém",
+      "strany sporu"
+    ],
+    "outcome": "GEO-GEO-004-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Shrne argumenty různých pohledů na vybraný problém životního prostředí, posoudí jejich význam a formuluje vlastní názor, který obhájí před ostatními.",
+        "quote": "Shrne argumenty různých pohledů na vybraný problém životního prostředí, posoudí jejich význam"
+      },
+      {
+        "level": "Na cestě",
+        "point": "nahlíží na environmentální problémy a návrhy jejich řešení z pohledu různých zájmových skupin",
+        "quote": "nahlíží na environmentální problémy a návrhy jejich řešení z pohledu různých zájmových skupin"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Udržitelnost v médiích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vyjmenuje, co by říkali obyvatelé, podnikatelé a ochránci přírody."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a stránky úřadů ukazují, co kdo ve sporu tvrdí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pohledy skupin a váhu argumentů posuzuješ ty, aplikace to neudělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Argumenty porovnáváš ve svých poznámkách, nástroj k tomu nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/081d7679-5070-4777-bece-a28c49f15636",
+      "http://data.europa.eu/esco/skill/81af8698-9873-4b3d-b6d2-8eb275bf170b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-nazor-na-problem-a-jeho-obhajoba",
+    "title": "Vlastní názor na problém a jeho obhajoba",
+    "aliases": [
+      "obhajoba názoru",
+      "debata",
+      "diskuse ve třídě",
+      "zaujmout stanovisko",
+      "argumentace"
+    ],
+    "outcome": "GEO-GEO-004-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Shrne argumenty různých pohledů na vybraný problém životního prostředí, posoudí jejich význam a formuluje vlastní názor, který obhájí před ostatními.",
+        "quote": "formuluje vlastní názor, který obhájí před ostatními."
+      },
+      {
+        "level": "Na cestě",
+        "point": "zaujme stanovisko k otázkám udržitelného života, zajímá se o možnosti environmentálně příznivějších alternativ svého každodenního jednání",
+        "quote": "zaujme stanovisko k otázkám udržitelného života"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Udržitelnost v médiích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot hraje protistranu a zkouší, jestli tvé argumenty obstojí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ověřená fakta a data ti dají oporu pro tvrzení v debatě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Před třídou mluvíš ty, aplikace tvůj názor neobhájí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Názor si utváříš a hájíš ty, mluvou před ostatními."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/081d7679-5070-4777-bece-a28c49f15636",
+      "http://data.europa.eu/esco/skill/469e19ed-a0bd-445a-ae2d-4ba9430e296b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "setrnejsi-alternativy-kazdodenniho-jednani",
+    "title": "Šetrnější alternativy každodenního jednání",
+    "aliases": [
+      "ekologické návyky",
+      "šetrnější volba",
+      "jak žít šetrněji",
+      "dopad mého jednání",
+      "udržitelné zvyky"
+    ],
+    "outcome": "GEO-GEO-004-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zaujme stanovisko k otázkám udržitelného života, zajímá se o možnosti environmentálně příznivějších alternativ svého každodenního jednání",
+        "quote": "zajímá se o možnosti environmentálně příznivějších alternativ svého každodenního jednání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Já a udržitelnost",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot navrhne šetrnější varianty tvého dne a spočítá, co ušetří."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tipy a porovnání, jak různé volby zatěžují přírodu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na uhlíkovou stopu ukáže, co z tvých zvyků zatěžuje nejvíc."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnout se jinak musíš ty, žádný nástroj tvé zvyky nezmění."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6",
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

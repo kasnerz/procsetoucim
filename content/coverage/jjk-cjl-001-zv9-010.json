@@ -1,0 +1,90 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "porozumí zadání či obsahu, na který má tvořit text nebo adekvátně reagovat v komunikační situaci",
+      "cards": [
+        "porozumeni-zadani-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "adekvátně reaguje v konkrétní komunikační situaci (otázky, odpovědi, přání, prosba, rozkaz apod.)",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "vyp-reakce-na-vyjadreni"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "rozlišuje mezi tím, co se říká, a jak se to říká",
+      "cards": [
+        "co-se-rika-a-jak"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozlišuje mezi tím, co se říká, co se píše, a s jakým cílem nebo záměrem se to říká, píše",
+      "cards": [
+        "co-se-rika-a-jak"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozpozná záměr mluvčího, autora textu, a podle toho adekvátně reaguje",
+      "cards": [
+        "zamer-autora-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozliší adresáta a komunikační sféry (styly) v textu, uzpůsobuje svůj projev k dosažení komunikačního cíle nebo záměru (kamarádi při hře, diskuse na internetu, přednáška před spolužáky, dopis organizaci apod.)",
+      "cards": [
+        "adresat-a-komunikacni-sfera"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zvolí a uplatní vhodné etické a funkční postupy pro danou komunikační sféru (styl), záměr a adresáta (např. argumentace na základě vhodných zdrojů, oslovení, tykání/vykání, naslouchání, vzájemný respekt).",
+      "cards": [
+        "osloveni-a-tykani-vykani",
+        "argumentace-na-zaklade-zdroju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Diskutuje o variantách komunikačních výpovědí, které již zná (otázka, oznámení, výzva, prosba námitka ad.) a roztřídí je pomocí charakteristických znaků (např. doplnění o novou informaci, dosažení toho, co chceme).",
+      "cards": [
+        "rozliseni-vypovedi-podle-funkce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Analyzuje obsah i způsob sdělení (jazykové prostředky) a tyto znaky následně porovná se záměrem komunikační výpovědi (o co autorovi šlo).",
+      "cards": [
+        "jazykove-prostredky-a-zamer"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Svůj komunikační záměr popíše a adekvátně vyjádří.",
+      "cards": [
+        "vyjadreni-vlastniho-zameru"
+      ],
+      "aside": null
+    }
+  ]
+}

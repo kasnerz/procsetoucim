@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Opakování je věc, kterou počítač umí lépe než člověk: udělá totéž znovu a znovu bez chyby a bez únavy. Je ale potřeba chápat rozdíl mezi opakováním s pevným počtem a opakováním, které skončí, až platí podmínka, jinak se postavička zasekne nebo hra skončí moc brzo. Na cyklech stojí skoro každý program a pracuje s nimi každý, kdo vyvíjí hry nebo programuje stroje ve výrobě. I když ti chatbot cyklus napíše, musíš poznat, který druh se hodí a kdy smyčka nikdy neskončí.",
+  "learnWithAi": [
+    {
+      "title": "Odhad počtu opakování",
+      "text": "Požádej chatbota o pět krátkých programů s cykly popsaných slovy a u každého odhadni, kolikrát se opakuje. Odhad ověř v blokovém prostředí."
+    },
+    {
+      "title": "Pevný počet, nebo podmínka",
+      "text": "Chatbot ti zadá úkoly typu „skákej, dokud nedopadneš na zem“ a ty rozhodneš, který druh opakování se hodí. U sporných si nech vysvětlit rozdíl."
+    },
+    {
+      "title": "Nekonečná smyčka s nápovědou",
+      "text": "Když se ti program zasekne v nekonečné smyčce, popiš chatbotovi, co dělá. Požádej jen o nápovědu, ne o opravu, a chybu najdi ty."
+    }
+  ]
+}

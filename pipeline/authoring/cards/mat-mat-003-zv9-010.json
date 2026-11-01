@@ -1,0 +1,105 @@
+{
+  "outcome": "MAT-MAT-003-ZV9-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "body-v-soustave-souradnic",
+      "title": "Body v soustavě souřadnic",
+      "aliases": ["souřadnice bodu", "kartézská soustava", "osa x a y", "zakreslit bod do grafu", "pravoúhlé souřadnice"],
+      "sources": [{"level": "Na začátku", "quote": "najde a zakreslí body do kartézské soustavy souřadnic"}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, co je osa x a y, a zadá ti body k zakreslení i ke kontrole."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš výklad souřadnic a procvičovací obrázky s ukázkami bodů."},
+        "aplikace": {"verdict": "pomuze", "why": "Geometrický program zobrazí zadaný bod a ihned ukáže, jestli sedí tvé souřadnice."},
+        "klasicky": {"verdict": "pomuze", "why": "Čtverečkovaný papír a pravítko ti pomůžou přesně odměřit a zakreslit bod."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb", "http://data.europa.eu/esco/skill/b07daddc-8625-4360-946e-ad2b0e56ebf6"],
+      "inspiration": []
+    },
+    {
+      "slug": "utvary-v-souradnicich-konstrukce",
+      "title": "Útvary v soustavě souřadnic a jejich souřadnice",
+      "aliases": ["narýsovat útvar podle souřadnic", "souřadnice vrcholů", "trojúhelník v souřadnicích", "souřadnice průsečíku", "rýsování v soustavě souřadnic"],
+      "sources": [
+        {"level": "Na cestě", "quote": "narýsuje útvary do kartézské soustavy souřadnic a určí souřadnice"},
+        {"level": "Splněno", "quote": "Narýsuje útvary podle zadání kartézské soustavy souřadnic a určí souřadnice bodů zjištěných konstrukcí."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí postup konstrukce a zkontroluje souřadnice, určené z obrázku."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš vzorové konstrukce a postupy rýsování krok za krokem."},
+        "aplikace": {"verdict": "pomuze", "why": "Geometrický program vykreslí útvar a ukáže souřadnice bodu, které můžeš porovnat s tvými."},
+        "klasicky": {"verdict": "pomuze", "why": "Pravítko, úhloměr a kružítko jsou nástroje, kterými útvar narýsuješ vlastní rukou."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb", "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2"],
+      "inspiration": ["Geometrická abeceda"]
+    },
+    {
+      "slug": "poloha-bodu-primek-rovin-na-telese",
+      "title": "Poloha bodů, přímek a rovin na tělese",
+      "aliases": ["rovnoběžné stěny", "kolmé hrany", "přímka a rovina", "poloha hran krychle", "vzájemná poloha v prostoru"],
+      "sources": [{"level": "Na začátku", "quote": "pojmenuje vzájemnou polohu bodů, přímek/úseček a rovin na modelu tělesa"}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí pojmy rovnoběžné, různoběžné a kolmé a zeptá se tě na hrany krychle."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš výklad a obrázky, kde je poloha hran a stěn vyznačená barvami."},
+        "aplikace": {"verdict": "pomuze", "why": "Program s otáčivým 3D tělesem ti ukáže hrany a stěny z více stran."},
+        "klasicky": {"verdict": "pomuze", "why": "Drátěný nebo papírový model vezmeš do ruky a polohu hran vidíš a ukážeš prstem."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb", "http://data.europa.eu/esco/skill/b07daddc-8625-4360-946e-ad2b0e56ebf6"],
+      "inspiration": []
+    },
+    {
+      "slug": "teleso-podle-popisu",
+      "title": "Těleso podle popisu: model a určení",
+      "aliases": ["poznat těleso podle popisu", "vymodelovat těleso", "hranol, jehlan, válec", "těleso z papíru", "stavba z kostek podle popisu"],
+      "sources": [{"level": "Na cestě", "quote": "modeluje a určí těleso na základě popisu"}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Zadá ti popis tělesa k uhodnutí a řekne, jestli tvůj model k popisu sedí."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš přehled těles s vlastnostmi a obrázky, se kterými srovnáš svůj model."},
+        "aplikace": {"verdict": "pomuze", "why": "Program na 3D tělesa ti dovolí těleso sestavit a otočit ze všech stran."},
+        "klasicky": {"verdict": "pomuze", "why": "Z kostek, špejlí nebo papíru těleso postavíš a v ruce uvidíš, jestli sedí popis."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb", "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"],
+      "inspiration": []
+    },
+    {
+      "slug": "osova-a-stredova-soumernost-v-souradnicich",
+      "title": "Osová a středová souměrnost v soustavě souřadnic",
+      "aliases": ["souměrný obraz bodu", "zrcadlení útvaru", "osa souměrnosti", "střed souměrnosti", "souměrnost v mřížce"],
+      "sources": [{"level": "Splněno", "quote": "Popíše a realizuje geometrické zobrazení (osová souměrnost, středová souměrnost, otočení, posunutí, podobnost) dvourozměrného obrazce v kartézském systému souřadnic."}],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, jak se souřadnice bodu změní při zrcadlení, a ověří tvé výsledky."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš výklad souměrností s obrázky a vzorovými příklady."},
+        "aplikace": {"verdict": "pomuze", "why": "Geometrický program útvar zrcadlí a ukáže, jak tvůj obraz porovnat se správným."},
+        "klasicky": {"verdict": "pomuze", "why": "Pravítko, trojúhelník a překládání papíru ti pomůžou obraz přesně narýsovat a ověřit."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb", "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2"],
+      "inspiration": []
+    },
+    {
+      "slug": "posunuti-otoceni-a-podobnost-v-souradnicich",
+      "title": "Posunutí, otočení a podobnost v soustavě souřadnic",
+      "aliases": ["posunout útvar", "otočit útvar", "zvětšení a zmenšení", "podobné útvary", "souřadnice po posunutí"],
+      "sources": [{"level": "Splněno", "quote": "Popíše a realizuje geometrické zobrazení (osová souměrnost, středová souměrnost, otočení, posunutí, podobnost) dvourozměrného obrazce v kartézském systému souřadnic."}],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, jak se souřadnice mění při posunutí a zvětšení, a ověří tvé výsledky."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš výklad zobrazení s obrázky a vzorovými příklady."},
+        "aplikace": {"verdict": "pomuze", "why": "Geometrický program útvar posune nebo otočí a ukáže, kde se má objevit."},
+        "klasicky": {"verdict": "pomuze", "why": "Průsvitný papír, pravítko a kružítko ti pomůžou obraz přesně narýsovat."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb", "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2"],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Popíše polohu objektů v prostoru.", "code": "O1", "refs": ["poloha-v-prostoru-modely-teles"]}
+  ]
+}

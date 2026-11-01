@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stejný postup se dá zapsat větami, číslovanými kroky, nákresem se šipkami nebo vývojovým diagramem. Každý způsob se hodí jinam: recept na palačinky stačí v bodech, rozhodování se spoustou „když, tak“ je ale čitelnější jako schéma. Na volbě zápisu záleží, jestli postup pochopí i někdo jiný, ať už spolužák, nebo počítač. Kdo píše návody, navrhuje hry nebo programuje stroje, zapisuje postupy každý den a formu volí podle toho, kdo je bude číst. Kreslicí aplikace nebo chatbot ti schéma udělají rychle, který zápis je pro danou situaci jasný, ale musíš poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Návod na zavázání tkaniček",
+      "text": "Zapiš postup zavazování tkaniček větami a potom jako schéma. Zeptej se chatbota, který zápis by pochopilo malé dítě, a porovnej jeho odpověď se svým názorem."
+    },
+    {
+      "title": "Diagram z deštivého rána",
+      "text": "Požádej chatbota o slovní popis postupu s několika rozhodnutími, třeba co dělat ráno, když prší. Převeď ho do vývojového diagramu a nech si ho zkontrolovat."
+    },
+    {
+      "title": "Čtenář, který čte doslova",
+      "text": "Nech chatbota hrát čtenáře, který postupuje přesně podle tvého zápisu a nic si nedomýšlí. Sleduj, kde se zasekne, a zápis v tom místě uprav."
+    }
+  ]
+}

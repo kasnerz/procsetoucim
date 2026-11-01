@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Program, který funguje pro jeden vstup, ještě nemusí fungovat pro jiný, a oprava jedné části často rozbije jinou. Proto se zkouší po kouscích i jako celek, s obvyklými i nečekanými vstupy, třeba s nulou nebo prázdným textem. Kdo testuje software, dělá to celý den, a podobně uvažuje každý, kdo kontroluje stroj nebo výrobek před předáním. Chatbot ti navrhne, co vyzkoušet, jenže jestli program selhal a proč, musíš poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Vstupy, na kterých programy padají",
+      "text": "Ukaž chatbotovi zadání svého programu a nech si navrhnout neobvyklé vstupy. Každý vyzkoušej a zapiš si, co program udělal a co udělat měl."
+    },
+    {
+      "title": "Tabulka testů pro jednu funkci",
+      "text": "Sestav pro jednu část programu tabulku vstupů a očekávaných výsledků a pošli ji chatbotovi. Ať ti řekne, jaký druh vstupu v ní chybí, a ten doplň a otestuj."
+    },
+    {
+      "title": "Úprava, která rozbije starší část",
+      "text": "Požádej chatbota o program se dvěma funkcemi a o zadání malé úpravy jedné z nich. Úpravu udělej a otestuj i druhou funkci, jestli pořád funguje."
+    }
+  ]
+}

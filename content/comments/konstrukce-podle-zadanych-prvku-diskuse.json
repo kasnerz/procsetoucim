@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Diskuse řešení znamená zjistit, jestli má úloha jedno řešení, dvě, nebo žádné, a proč. Trojúhelník se stranami 2, 3 a 10 cm narýsovat nejde, a kdo to pozná dřív, než sáhne po kružítku, ušetří čas. Stejnou úvahu dělá ten, kdo navrhuje strojní součástku nebo trasu potrubí: nejdřív ověří, jestli zadané rozměry vůbec do sebe zapadnou, a teprve pak se kreslí a vyrábí. Geometrický program ti ukáže, kdy řešení zmizí, ale vysvětlit, proč zmizelo, musíš ty, a právě to se tady učíš.",
+  "learnWithAi": [
+    {
+      "title": "Odhad počtu řešení",
+      "text": "Požádej chatbota o pět zadání trojúhelníků, z nichž některá nemají řešení. Než začneš rýsovat, odhadni u každého počet řešení a pak to ověř kružítkem."
+    },
+    {
+      "title": "Kontrola zdůvodnění",
+      "text": "Napiš, proč má podle tebe úloha dvě řešení, a nech chatbota hledat slabé místo v tvé úvaze. Opravu pak domysli bez něj."
+    },
+    {
+      "title": "Hranice mezi dvěma řešeními",
+      "text": "Zeptej se, při jaké délce strany se ze dvou řešení stane jedno, ale nejdřív to zkus najít rýsováním. Odpověď chatbota si ověř v geometrickém programu, u výpočtů se plete."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Program může běžet bez jediné chybové hlášky a přesto počítat špatně. Proto se učíš vybrat si příklad, u kterého výsledek znáš předem, a porovnat ho s tím, co program vypíše. Stejně pracuje každý, kdo testuje software nebo hlídá kvalitu ve výrobě: výstupu nevěří, dokud ho neověří. Když ti kód napíše chatbot, potřebuješ tuhle dovednost ještě víc, protože jeho program vypadá přesvědčivě i ve chvíli, kdy počítá nesmysly.",
+  "learnWithAi": [
+    {
+      "title": "Příklady se známým výsledkem",
+      "text": "Popiš chatbotovi, co tvůj program počítá, a nech si navrhnout pět vstupů. Výsledky si nejdřív spočítej na papíře, teprve potom program spusť a porovnej."
+    },
+    {
+      "title": "Program s ukrytou chybou",
+      "text": "Požádej chatbota o krátký program, který u některých vstupů počítá špatně, a ať neprozradí u kterých. Zkoušej různé vstupy, dokud chybný výsledek nenajdeš."
+    },
+    {
+      "title": "Průchod programem řádek po řádku",
+      "text": "Vysvětli chatbotovi řádek po řádku, co tvůj program dělá s jedním konkrétním vstupem. Ať tě zastaví tam, kde tvoje vysvětlení nesedí s kódem."
+    }
+  ]
+}

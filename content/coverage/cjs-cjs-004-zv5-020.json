@@ -1,0 +1,81 @@
+{
+  "outcome": "CJS-CJS-004-ZV5-020",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Popíše u běžných předmětů, z jakého jsou materiálu.",
+      "cards": [
+        "material-beznych-predmetu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Třídí odpad podle materiálu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "trideni-odpadu-podle-materialu"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Porovná vlastnosti vybraných zástupců pevných látek a kapalin.",
+      "cards": [
+        "porovnani-pevnych-latek-a-kapalin"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Navrhne a provede pokus týkající se daného skupenství.",
+      "cards": [
+        "navrh-pokusu-se-skupenstvim"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Ověří experimentálně vybrané vlastnosti látek.",
+      "cards": [
+        "overeni-vlastnosti-latky-pokusem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zdůvodní výběr látky (materiálu) pro výrobu konkrétních předmětů.",
+      "cards": [
+        "vyber-materialu-pro-predmet"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše skupenství vody při oběhu vody na Zemi.",
+      "cards": [
+        "skupenstvi-vody-v-obehu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede příklady látek v různých skupenstvích.",
+      "cards": [
+        "priklady-latek-ve-skupenstvich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Porovná základní vlastnosti látek na základě vlastních pokusů.",
+      "cards": [
+        "porovnani-pevnych-latek-a-kapalin"
+      ],
+      "aside": null
+    }
+  ]
+}

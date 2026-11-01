@@ -1,0 +1,67 @@
+{
+  "outcome": "CZB-TEV-002-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-sestaveni-a-vedeni-rozcvicky",
+      "title": "Sestavení a vedení krátké rozcvičky",
+      "aliases": ["rozcvička", "rozcvičení", "jak vést rozcvičku", "zahřátí před sportem", "skupinová rozcvička"],
+      "sources": [{"level": "Splněno", "quote": "Sestaví a vede krátké rozcvičení s ohledem na následující pohybovou činnost."}],
+      "rules": ["P1", "P2"],
+      "inspiration": ["Skupinová rozcvička"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Navrhne cviky a pořadí rozcvičky podle toho, co bude následovat."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš popisy a videa cviků, ze kterých rozcvičku poskládáš."},
+        "aplikace": {"verdict": "pomuze", "why": "Cvičební aplikace ukážou cviky a hlídají čas jednotlivých částí."},
+        "klasicky": {"verdict": "nepomuze", "why": "Rozcvičku vedeš hlasem a vlastním tělem, pomůcka ji nevede za tebe."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/108ac398-6a84-454a-b56c-8bb0dee1bbf2",
+        "http://data.europa.eu/esco/skill/91695ae9-5236-4d68-af03-419dfec43b00"
+      ]
+    },
+    {
+      "slug": "tv-telocvicne-nazvoslovi",
+      "title": "Tělocvičné názvosloví",
+      "aliases": ["tělocvičné pojmy", "názvy cviků", "předklon, připažit, vzpažit", "povely v tělocviku", "slovník tělocviku"],
+      "sources": [{"level": "Splněno", "quote": "Používá správné tělocvičné názvosloví."}],
+      "rules": ["P1", "P2"],
+      "inspiration": ["Komunikace ve volejbale"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí pojmy a vymyslí otázky na procvičení jejich názvů."},
+        "internet": {"verdict": "pomuze", "why": "Slovníčky a popisy cviků ukážou, jak se který pohyb správně jmenuje."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace s cviky mají vlastní popisky, školní tělocvičné pojmy ti nezkoušejí."},
+        "klasicky": {"verdict": "nepomuze", "why": "Pojmy si osvojíš používáním při cvičení, pomůcka je za tebe neřekne."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229"
+      ]
+    },
+    {
+      "slug": "tv-rizeni-skupiny-pri-cviceni",
+      "title": "Vedení skupiny, instrukce a oprava cvičení spolužáků",
+      "aliases": ["vést skupinu v tělocviku", "dávat pokyny spolužákům", "opravit cvik", "organizace družstva", "velet při cvičení"],
+      "sources": [{"level": "Splněno", "quote": "Organizuje skupinu, dává instrukce, kontroluje a opravuje provedení cvičení spolužáků."}],
+      "rules": ["P1", "P2"],
+      "inspiration": ["Pokyny při rozcvičování - organizace", "Pokyny při rozcvičování - předvedení"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Poradí, jak jasně říct pokyn a na co se u daného cviku dívat."},
+        "internet": {"verdict": "pomuze", "why": "Popisy správného provedení cviků ti řeknou, co u spolužáků opravit."},
+        "aplikace": {"verdict": "nepomuze", "why": "Skupinu postavíš a cvik opravíš ty na místě, aplikace u toho není."},
+        "klasicky": {"verdict": "nepomuze", "why": "Píšťalka jen dává signál, skupinu organizuješ a cviky kontroluješ ty."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229",
+        "http://data.europa.eu/esco/skill/5d589320-2a07-4994-837d-334b57f283d5"
+      ]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Reaguje správně na základní pokyny", "code": "O1", "refs": ["tv-cviceni-podle-povelu-jednotlive-i-v-tymu"]},
+    {"level": "Na začátku", "start": "Reaguje na pokyny, povely a signály", "code": "O1", "refs": ["tv-pokyny-povely-signaly-rozcvicka"]},
+    {"level": "Na cestě", "start": "Rozumí a pojmenuje pokyny", "code": "O1", "refs": ["tv-pokyny-povely-signaly-rozcvicka"]}
+  ]
+}

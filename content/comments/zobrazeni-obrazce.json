@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tady obraz útvaru rýsuješ podle postupu: body přeneseš přes osu, otočíš je kolem středu nebo útvar zvětšíš v daném poměru. Trénuješ přesnost a popis postupu krok za krokem, což se hodí všude, kde se podle výkresu něco vyrábí. Strojní inženýři, konstruktéři letadel nebo lidé, kteří vyrábějí nábytek, díly zrcadlí a zvětšují pořád, i když jim dnes rýsuje počítač. Program obraz nakreslí za vteřinu, jenže zadat mu správnou osu a poznat, že výsledek nesedí, zvládne jen ten, kdo postup chápe.",
+  "learnWithAi": [
+    {
+      "title": "Trojúhelník v souřadnicích",
+      "text": "Dej si od chatbota zadat trojúhelník souřadnicemi a osu souměrnosti a obraz narýsuj do čtverečkovaného sešitu. Souřadnice obrazu mu pošli ke kontrole."
+    },
+    {
+      "title": "Domeček dvakrát větší",
+      "text": "Vyber jednoduchý obrázek ze čtverečkovaného sešitu, třeba domeček, a narýsuj ho dvakrát větší. Když nevíš, jak přenést šikmou čáru, nech si to od chatbota vysvětlit v jednoduchých krocích."
+    },
+    {
+      "title": "Postup konstrukce v bodech",
+      "text": "Narýsuj obraz útvaru ve středové souměrnosti a postup sepiš do bodů. Chatbota se zeptej, který krok chybí nebo je nepřesný."
+    }
+  ]
+}

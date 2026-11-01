@@ -1,0 +1,450 @@
+[
+  {
+    "slug": "prinos-prace-pro-lidi-a-prirodu",
+    "title": "Přínos práce pro tebe, lidi a přírodu",
+    "aliases": [
+      "k čemu je práce",
+      "proč lidé pracují",
+      "smysl práce",
+      "přínos povolání",
+      "práce a příroda"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uvědomuje si na příkladech význam práce pro sebe i společnost.",
+        "quote": "Uvědomuje si na příkladech význam práce pro sebe i společnost."
+      },
+      {
+        "level": "Na začátku",
+        "point": "diskutuje příklady činností a profesí, které přispívají k udržitelnému životnímu prostředí, k sociální soudržnosti, apod.",
+        "quote": "diskutuje příklady činností a profesí, které přispívají k udržitelnému životnímu prostředí, k sociální soudržnosti, apod."
+      },
+      {
+        "level": "Na cestě",
+        "point": "představí příklady profesí, jak přispívají zvyšování kvality života, například péče jako profese",
+        "quote": "představí příklady profesí, jak přispívají zvyšování kvality života, například péče jako profese"
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpozná přínosy výsledků lidské práce, různých profesí, dopady na komunitu, společnost, přírodu.",
+        "quote": "Rozpozná přínosy výsledků lidské práce, různých profesí, dopady na komunitu, společnost, přírodu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Příklady aktivit - Zkušenosti se zapojením se, Dopady povolání",
+        "url": ""
+      },
+      {
+        "title": "Práce, dobrovolnictví a odpovědnost vůči společnosti a přírodě",
+        "url": "https://uloziste.rvp.cz/material/7a8c58"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vyjmenuje profese a vysvětlí, co dělají pro lidi a přírodu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popisy povolání a články ukážou, komu která práce slouží."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Jedna aplikace nepopíše, co práce znamená pro tebe a lidi kolem."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kus papíru a tužka ti myšlenky nepodají, jen je zapíšeš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4",
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "moje-zkusenosti-s-peci-o-druhe",
+    "title": "Moje zkušenosti s péčí o druhé a okolí",
+    "aliases": [
+      "pomáhat druhým",
+      "péče o okolí",
+      "dobrovolnická práce",
+      "pomoc sousedům",
+      "brigáda pro obec"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zkouší se zapojovat do péče o druhé, o své okolí a sdílí své zkušenosti",
+        "quote": "zkouší se zapojovat do péče o druhé, o své okolí a sdílí své zkušenosti"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vyhodnocuje své zkušenosti s péčí o druhé a o své okolí (např. s dobrovolnickou prací)",
+        "quote": "vyhodnocuje své zkušenosti s péčí o druhé a o své okolí (např. s dobrovolnickou prací)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "diskutuje zkušenosti se zapojením do činností ve svém blízkém okolí, které přispívají k udržitelnému životnímu prostředí, k sociální soudržnosti, apod.",
+        "quote": "diskutuje zkušenosti se zapojením do činností ve svém blízkém okolí, které přispívají k udržitelnému životnímu prostředí, k sociální soudržnosti, apod."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Příklady aktivit - Zkušenosti se zapojením se, Dopady povolání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Pomáháš a hodnotíš ty, chatbot tvoje zkušenosti nezažil."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Weby dobrovolnických organizací ukážou, kde se dá zapojit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nikoho neobslouží ani nic neuklidí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pomoc druhým děláš rukama a v kontaktu s lidmi, nástroj k tomu nemá co říct."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4",
+      "http://data.europa.eu/esco/skill/2d667669-e738-41d2-8b6d-ff53fa952564"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "neplacena-prace-a-pece-v-rodine",
+    "title": "Neplacená práce a péče v rodině a komunitě",
+    "aliases": [
+      "práce doma",
+      "péče o rodinu",
+      "neplacená práce",
+      "pečování",
+      "práce bez platu"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "pojmenuje přínosy neplacené práce ve formě péče v rodině a komunitě",
+        "quote": "pojmenuje přínosy neplacené práce ve formě péče v rodině a komunitě"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reflektuje své hodnoty spojené s kariérou a světem práce, respekt k roli každého jednotlivce ve světě práce, včetně neplacené práce v rodině a komunitě.",
+        "quote": "Reflektuje své hodnoty spojené s kariérou a světem práce, respekt k roli každého jednotlivce ve světě práce, včetně neplacené práce v rodině a komunitě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Příklady aktivit - Zkušenosti se zapojením se, Dopady povolání",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co všechno je neplacená práce, a uvede příklady z domácnosti."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a statistiky ukážou, kolik péče v rodinách odvedou lidé zadarmo."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvůj pohled na vážnost práce doma nezmění."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Respekt k práci druhých vzniká u vás doma, ne s nástrojem v ruce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "moje-hodnoty-v-kariere",
+    "title": "Moje hodnoty v práci a v budoucnosti",
+    "aliases": [
+      "na čem mi záleží",
+      "co chci dělat",
+      "moje hodnoty",
+      "vysněná práce",
+      "kariérová cesta"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zkouší pojmenovat své hodnoty spojené s kariérou, vlastní budoucností",
+        "quote": "zkouší pojmenovat své hodnoty spojené s kariérou, vlastní budoucností"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reflektuje své hodnoty spojené s kariérou a světem práce, respekt k roli každého jednotlivce ve světě práce, včetně neplacené práce v rodině a komunitě.",
+        "quote": "Reflektuje své hodnoty spojené s kariérou a světem práce, respekt k roli každého jednotlivce ve světě práce, včetně neplacené práce v rodině a komunitě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Co by o sobě řekla práce?",
+        "url": "https://uloziste.rvp.cz/material/f67573"
+      },
+      {
+        "title": "Já v budoucnosti",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se tě na tvoje hodnoty a pomůže je pojmenovat, rozhodnout musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popisy povolání ukážou, co která práce od lidí chce."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s testem povolání neví, na čem záleží právě tobě."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tvoje hodnoty znáš jen ty, papír je jen zapíše."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zivotni-styl-a-predstava-budoucnosti",
+    "title": "Životní styl a představa budoucího života",
+    "aliases": [
+      "jak chci žít",
+      "moje budoucnost",
+      "práce a životní styl",
+      "co chci v dospělosti"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvažuje o svém preferovaném životním stylu a představě budoucího života",
+        "quote": "uvažuje o svém preferovaném životním stylu a představě budoucího života"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kariéra podle životního stylu",
+        "url": ""
+      },
+      {
+        "title": "Já v budoucnosti",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Jak chceš žít, ti chatbot neřekne, může se jen ptát."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popisy povolání ukážou, jak vypadá běžný den v různých pracích."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nenakreslí život, který ti vyhovuje, to víš jen ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svou představu si domýšlíš ty, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stereotypy-v-kariernich-cestach",
+    "title": "Stereotypy při volbě povolání",
+    "aliases": [
+      "genderové stereotypy",
+      "holčičí a klučičí práce",
+      "předsudky o povolání",
+      "rovné příležitosti",
+      "muži a ženy v práci"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "v modelových situacích poznává možnosti předcházení stereotypům (např. genderových a jiných) v kariérovém rozvoji",
+        "quote": "v modelových situacích poznává možnosti předcházení stereotypům (např. genderových a jiných) v kariérovém rozvoji"
+      },
+      {
+        "level": "Na cestě",
+        "point": "zvažuje stereotypy (např. genderové a jiné) ovlivňující kariérové cesty",
+        "quote": "zvažuje stereotypy (např. genderové a jiné) ovlivňující kariérové cesty"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reflektuje stereotypy (např. genderové a jiné) ovlivňující volbu kariérové cesty (kvalifikace, povolání).",
+        "quote": "Reflektuje stereotypy (např. genderové a jiné) ovlivňující volbu kariérové cesty (kvalifikace, povolání)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co by o sobě řekla práce?",
+        "url": "https://uloziste.rvp.cz/material/f67573"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne modelové situace a ukáže, kde se stereotyp skrývá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a data ukážou, kolik žen a mužů v oboru pracuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace stereotypy nepozná, zvážit je musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zvažovat vlastní předsudky nástroj nezvládne, jen o nich popovídáš s lidmi."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dopad-meho-rozhodovani-o-kariere",
+    "title": "Jak moje volba povolání ovlivní svět",
+    "aliases": [
+      "volba povolání",
+      "co chci změnit",
+      "moje práce a svět",
+      "kariérové rozhodnutí",
+      "práce a společnost"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Posoudí, jak svým kariérovým rozhodováním ovlivňuje budoucí podobu světa.",
+        "quote": "Posoudí, jak svým kariérovým rozhodováním ovlivňuje budoucí podobu světa."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce, dobrovolnictví a odpovědnost vůči společnosti a přírodě",
+        "url": "https://uloziste.rvp.cz/material/7a8c58"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere s tebou, co by které povolání přineslo lidem a přírodě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a popisy oborů ukážou, co svět v příštích letech potřebuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe volbu povolání neposoudí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnutí o své cestě děláš ty, nástroj ho za tebe nezváží."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

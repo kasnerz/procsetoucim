@@ -1,0 +1,445 @@
+[
+  {
+    "slug": "blokove-programy-struktura-a-hotove-casti",
+    "title": "Návrh struktury programu a využití hotových částí",
+    "aliases": [
+      "rozdělení programu na části",
+      "plán programu",
+      "použití hotového kódu",
+      "podprogramy ve Scratchi"
+    ],
+    "outcome": "INF-INF-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne strukturu budoucího programu, tj. rozdělení programu na jednotlivé části, opakovaně využívá již hotové části zdrojových kódů.",
+        "quote": "Navrhne strukturu budoucího programu, tj. rozdělení programu na jednotlivé části, opakovaně využívá již hotové části zdrojových kódů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot pomůže rozdělit zadání na části a zkontroluje tvůj plán."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové ukázky programů najdeš online a můžeš z nich použít části."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s blokovým programováním plán za tebe nevymyslí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nákres na papíře ti pomůže rozdělit program na části."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "blokove-programy-opakovani-s-podminkou",
+    "title": "Opakování s pevným počtem a s ukončovací podmínkou",
+    "aliases": [
+      "cyklus",
+      "opakuj do",
+      "opakuj n-krát",
+      "while a for",
+      "opakování ve Scratchi"
+    ],
+    "outcome": "INF-INF-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá různé formy opakování, zejména opakování s pevným počtem a opakování s ukončovací podmínkou, větvení programu.",
+        "quote": "Využívá různé formy opakování, zejména opakování s pevným počtem a opakování s ukončovací podmínkou, větvení programu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Kreslení čtverců s využitím bloků, proměnných a opakování",
+        "url": "https://uloziste.rvp.cz/material/70f2c2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl mezi dvěma druhy opakování a zkontroluje tvůj program."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a ukázky ti ukážou, kdy zvolit které opakování."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V blokovém programu opakování poskládáš a hned vyzkoušíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka program nespustí, opakování si na nich jen nakreslíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "blokove-programy-vetveni",
+    "title": "Větvení programu: když, tak, jinak",
+    "aliases": [
+      "podmínka",
+      "když tak jinak",
+      "if else",
+      "rozhodování v programu"
+    ],
+    "outcome": "INF-INF-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá různé formy opakování, zejména opakování s pevným počtem a opakování s ukončovací podmínkou, větvení programu.",
+        "quote": "Využívá různé formy opakování, zejména opakování s pevným počtem a opakování s ukončovací podmínkou, větvení programu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Hra – chodba s překážkami",
+        "url": "https://uloziste.rvp.cz/material/ce5e2b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jak program volí mezi cestami, a ověří tvou podmínku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příklady podmínek najdeš v návodech a ukázkových hrách."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V blokovém prostředí zkoušíš, kudy se program vydá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír program nespustí, cesty si na nich jen nakreslíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "blokove-programy-promenne",
+    "title": "Proměnné: počáteční hodnota, změny a použití",
+    "aliases": [
+      "proměnná",
+      "skóre ve hře",
+      "počítadlo",
+      "uložit hodnotu",
+      "nastavit proměnnou"
+    ],
+    "outcome": "INF-INF-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpozná potřebu využití proměnných, správně naprogramuje nastavení počátečních hodnot a průběžné úpravy i využití hodnot proměnných.",
+        "quote": "Rozpozná potřebu využití proměnných, správně naprogramuje nastavení počátečních hodnot a průběžné úpravy i využití hodnot proměnných."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Krokuje programy s proměnnými, sleduje vývoj jejich hodnot, hodnotí přínosy jejich použití; první pokusy s proměnnými jsou vedeny, postupně žák iniciativu přebírá a samostatně rozpoznává, že si program má něco pamatovat, jaké to budou hodnoty, jakým způsobem se bude hodnota proměnné měnit.",
+        "quote": "Krokuje programy s proměnnými, sleduje vývoj jejich hodnot, hodnotí přínosy jejich použití; první pokusy s proměnnými jsou vedeny, postupně žák iniciativu přebírá a samostatně rozpoznává, že si program má něco pamatovat, jaké to budou hodnoty, jakým způsobem se bude hodnota proměnné měnit."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Počítadlo kroků – chytrý trénink",
+        "url": "https://uloziste.rvp.cz/material/9e7753"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co si program pamatuje, a projde s tebou změny hodnoty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukazují, jak proměnné nastavit a měnit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V blokovém prostředí vidíš, jak se hodnota proměnné mění při běhu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Hodnoty proměnné po krocích zapíšeš do tabulky na papír."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "blokove-programy-prehledny-kod",
+    "title": "Přehledný kód: pojmenování a komentáře",
+    "aliases": [
+      "komentáře v kódu",
+      "pojmenování proměnných",
+      "čitelný program",
+      "úklid kódu"
+    ],
+    "outcome": "INF-INF-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytváří přehledný a snadno čitelný kód, využívá vhodná pojmenování podprogramů i proměnných a komentáře, zvažuje rovnováhu mezi rychlostí prvotní implementace, přehledností a úsporností kódu.",
+        "quote": "Vytváří přehledný a snadno čitelný kód, využívá vhodná pojmenování podprogramů i proměnných a komentáře, zvažuje rovnováhu mezi rychlostí prvotní implementace, přehledností a úsporností kódu."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zdrojový kód žák postupně uspořádává, přidává komentáře, zvažuje rovnováhu mezi rychlostí implementace, přehledností a úsporností kódu.",
+        "quote": "Zdrojový kód žák postupně uspořádává, přidává komentáře, zvažuje rovnováhu mezi rychlostí implementace, přehledností a úsporností kódu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot navrhne srozumitelnější názvy a ukáže, kde se hodí komentář."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zásady čitelného kódu najdeš v příručkách a ukázkách."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Blokové prostředí nepozná, který název je srozumitelný."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nic nenabídne, názvy a komentáře píšeš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "blokove-programy-uprava-hotovych-programu",
+    "title": "Úprava hotových programů",
+    "aliases": [
+      "upravit cizí program",
+      "remix ve Scratchi",
+      "změnit chování programu",
+      "čtení cizího kódu"
+    ],
+    "outcome": "INF-INF-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznamuje se složitějšími hotovými programy a na vymezených místech upravuje jejich chování; postupně narůstá obtížnost různých aspektů jeho práce.",
+        "quote": "Seznamuje se složitějšími hotovými programy a na vymezených místech upravuje jejich chování; postupně narůstá obtížnost různých aspektů jeho práce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "„Chyť myš!“ (Scratch)",
+        "url": "https://uloziste.rvp.cz/material/2a8dbe"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co dělá cizí část programu, a poradí s úpravou."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Veřejné projekty můžeš otevřít a upravovat jako vzor."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V blokovém prostředí cizí program otevřeš, upravíš a vyzkoušíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Hotový program na papíře neupravíš, protože nejde spustit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "blokove-programy-dalsi-bloky",
+    "title": "Další bloky a jejich kombinování",
+    "aliases": [
+      "nové bloky",
+      "rozšíření programu",
+      "kombinace bloků",
+      "bloky ve Scratchi"
+    ],
+    "outcome": "INF-INF-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznamuje se s dalšími bloky a s možnostmi jejich vzájemného ovlivňování a kombinování a rozšiřuje tak možnosti svých programů.",
+        "quote": "Seznamuje se s dalšími bloky a s možnostmi jejich vzájemného ovlivňování a kombinování a rozšiřuje tak možnosti svých programů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co nový blok dělá a jak ho spojit s jinými."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Přehled bloků a jejich příkladů najdeš v nápovědě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nový blok zkusíš hned v programu a uvidíš, co dělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Bez spuštěného programu nepoznáš, jak bloky na sebe působí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "blokove-programy-uzivatelska-privetivost",
+    "title": "Uživatelsky přívětivé programy",
+    "aliases": [
+      "jak se program používá",
+      "ovládání programu",
+      "jednoduché ovládání",
+      "uživatelské rozhraní"
+    ],
+    "outcome": "INF-INF-002-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytváří uživatelsky přívětivé programy.",
+        "quote": "Vytváří uživatelsky přívětivé programy."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Všímá si a hodnotí uživatelskou přívětivost jiných programů a služeb.",
+        "quote": "Všímá si a hodnotí uživatelskou přívětivost jiných programů a služeb."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot poradí, co v programu zjednodušit, a zhodnotí tvé nápady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky dobrých aplikací ti dají vzor, co funguje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezjistí, jestli se tvůj program dobře ovládá."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Spolužák, který program zkusí, ti ukáže, kde se zaškobrtne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+      "http://data.europa.eu/esco/skill/fd33c66c-70c4-40e6-b87c-5495bd3bf26e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

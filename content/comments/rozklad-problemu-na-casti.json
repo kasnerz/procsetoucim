@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Velký úkol, jako uspořádat školní turnaj nebo naprogramovat hru, se nedá udělat najednou, dá se ale rozdělit na kousky, které zvládneš jeden po druhém. Tenhle způsob myšlení se hodí při programování stejně jako při plánování výletu. Každý den ho používá, kdo vyvíjí software, navrhuje počítačové hry nebo řídí provoz počítačových systémů, a takových míst spíš přibude. Chatbot umí rozklad navrhnout taky, ale jen tak dobře, jak dobře mu popíšeš zadání, a jestli jeho kousky dávají smysl a nic nechybí, musíš poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Oslava rozložená na kroky",
+      "text": "Rozepiš přípravu oslavy na co nejmenší kroky a teprve potom požádej chatbota o jeho verzi. Porovnej obě a do svého rozkladu doplň, co ti dává smysl."
+    },
+    {
+      "title": "Hledání chybějícího kroku",
+      "text": "Pošli chatbotovi svůj rozklad nějakého úkolu a požádej ho, ať nic neopravuje, jen řekne, jestli někde chybí krok. Ten chybějící pak najdi ty."
+    },
+    {
+      "title": "Strom částí jednoduché hry",
+      "text": "Popiš chatbotovi hru, kterou chceš naprogramovat, třeba chytání padajících jablek, a nech se vyptávat, z jakých částí se skládá. Části si nakresli na papír jako strom."
+    }
+  ]
+}

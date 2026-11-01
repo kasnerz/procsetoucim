@@ -1,0 +1,479 @@
+{
+  "outcome": "CJS-CJS-004-ZV5-019",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "casti-dne-a-poradi-udalosti",
+      "title": "Části dne a pořadí událostí",
+      "aliases": [
+        "ráno poledne večer",
+        "části dne",
+        "co bylo dřív",
+        "denní program",
+        "řazení událostí"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rozliší části dne, popíše a uspořádá události v čase."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Svůj den si řadíš ty, chatbot ho za tebe neprožil."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co se ti dnes stalo dřív a co později, na webu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nezná tvůj den, pořadí událostí si určuješ ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Hodiny a obrázkový denní plán ukážou, co patří na ráno a co na večer."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/194c05ed-253c-485a-8bf0-0c8de1aaafda"
+      ],
+      "inspiration": [
+        "Části dne"
+      ]
+    },
+    {
+      "slug": "kalendar-a-casove-udaje",
+      "title": "Kalendář: dny, týdny, měsíce a roky",
+      "aliases": [
+        "kalendář",
+        "kolik dní do prázdnin",
+        "dny v týdnu",
+        "měsíce",
+        "datum"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Orientuje se v kalendáři a s jeho pomocí řeší reálné problémy s časovými údaji."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak spočítat dny do výletu, a zadá ti další úlohy s datem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Online kalendář ukáže týdny, svátky a prázdniny a zkontroluješ si s ním datum."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalendář v telefonu spočítá dny do události a ty si zkontroluješ svůj výpočet."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Nástěnný kalendář si můžeš projít prstem a odškrtávat dny."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/194c05ed-253c-485a-8bf0-0c8de1aaafda",
+        "http://data.europa.eu/esco/skill/c73ea1b8-e121-4f91-b8f0-dee4ee28d6ec"
+      ],
+      "inspiration": [
+        "Cyklus roku"
+      ]
+    },
+    {
+      "slug": "mereni-casu",
+      "title": "Měření času hodinami a stopkami",
+      "aliases": [
+        "hodiny",
+        "stopky",
+        "minuty a vteřiny",
+        "kolik je hodin",
+        "měření času"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Používá vhodná měřidla k měření vzdálenosti, času, hmotnosti a teploty"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Čas měří hodiny a stopky v tvé ruce, chatbot ti ho neodměří."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Cvičné ciferníky a online hodiny ti dají nácvik čtení času."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Stopky v telefonu změří čas a ty si zkontroluješ vlastní měření."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Hodiny, stopky nebo přesýpací hodiny ukážou, kolik času uplynulo."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/0cd8732f-e69c-4644-be07-e8bf5edc01af"
+      ]
+    },
+    {
+      "slug": "mereni-delky-a-vzdalenosti",
+      "title": "Měření délky a vzdálenosti",
+      "aliases": [
+        "metr",
+        "pravítko",
+        "kolik měří",
+        "vzdálenost mezi dvěma předměty",
+        "svinovací metr"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Používá vhodná měřidla k měření vzdálenosti, času, hmotnosti a teploty"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Odhadne a změří hmotnost, objem a délku předmětu nebo vzdálenost mezi dvěma předměty vhodnými typy měřidel"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Délku předmětu změříš ty u něj, chatbot ho nezměří."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoji lavici ani cestu do školy na webu nezměříš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa změří vzdálenost cesty a měřicí aplikace v telefonu délku předmětu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko, krejčovský nebo svinovací metr změří přesně na milimetry."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+      ],
+      "inspiration": [
+        "1 metr"
+      ]
+    },
+    {
+      "slug": "vazeni-hmotnosti",
+      "title": "Vážení: hmotnost předmětů",
+      "aliases": [
+        "váha",
+        "kolik to váží",
+        "kilogramy a gramy",
+        "vážení",
+        "hmotnost"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Používá vhodná měřidla k měření vzdálenosti, času, hmotnosti a teploty"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Odhadne a změří hmotnost, objem a délku předmětu nebo vzdálenost mezi dvěma předměty vhodnými typy měřidel"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Předmět na váhu pokládáš ty, chatbot ho nezváží."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoji tašku ani jablko na webu nezvážíš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Telefon nic nezváží, aplikace tě váhou nenahradí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kuchyňská nebo osobní váha ukáže hmotnost a ty ji zkusíš odhadnout."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/418765cd-77f9-4c6f-8b00-e56ebec767bb"
+      ],
+      "inspiration": [
+        "Měříme hmotnost",
+        "Vážíme venku"
+      ]
+    },
+    {
+      "slug": "mereni-objemu",
+      "title": "Měření objemu odměrkou",
+      "aliases": [
+        "litry",
+        "odměrka",
+        "kolik se vejde",
+        "objem tekutin",
+        "decilitr"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Odhadne a změří hmotnost, objem a délku předmětu nebo vzdálenost mezi dvěma předměty vhodnými typy měřidel"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Vodu do odměrky nalévá tvoje ruka, chatbot ji nenaměří."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Kolik se vejde do tvého hrnku, na webu nezjistíš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace za tebe nenalije a neodečte hladinu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Odměrka, kbelík a kuchyňská miska s dílky ukážou, kolik tekutiny je uvnitř."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+      ]
+    },
+    {
+      "slug": "mereni-teploty-a-zapis",
+      "title": "Měření teploty a zápis hodnot",
+      "aliases": [
+        "teploměr",
+        "stupně Celsia",
+        "teplota venku",
+        "zapisování teploty",
+        "tabulka teplot"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Používá vhodná měřidla k měření vzdálenosti, času, hmotnosti a teploty"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Měří teplotu v několika následujících dnech nebo hodinách během jednoho dne, zjištěné hodnoty zaznamenává."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Teploměr čteš ty, chatbot nezná teplotu u vašeho okna."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Předpověď ukáže teploty z meteostanice a porovnáš je se svým měřením."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka nebo poznámky v telefonu pomůžou uspořádat naměřené hodnoty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr ukáže teplotu vzduchu nebo vody a hodnoty zapíšeš do sešitu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+      ]
+    },
+    {
+      "slug": "jednotky-delky-casu-hmotnosti-teploty",
+      "title": "Jednotky délky, času, hmotnosti a teploty",
+      "aliases": [
+        "metr kilometr",
+        "gram kilogram",
+        "sekunda minuta hodina",
+        "stupně Celsia",
+        "převod jednotek"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "vyjmenuje základní jednotky vzdálenosti, času, hmotnosti a teploty"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kolik gramů je kilogram, a zadá ti krátký test z jednotek."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulka jednotek ukáže, jak se jednotky jmenují a jak spolu souvisejí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Převodník jednotek zkontroluje, jestli je tvůj převod správně."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Na metru, váze i teploměru jsou jednotky vytištěné přímo u dílků."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/fe490d6c-851b-44a8-949b-808e24c2cc54"
+      ]
+    },
+    {
+      "slug": "volba-vhodneho-meridla",
+      "title": "Volba vhodného měřidla, i digitálního",
+      "aliases": [
+        "které měřidlo",
+        "digitální váha",
+        "digitální teploměr",
+        "čím to změřit",
+        "měřidla"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Používá k měření vhodné typy měřidel, včetně digitálních."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Používá vhodná měřidla k měření vzdálenosti, času, hmotnosti a teploty"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, čím změřit délku stolu nebo vodu v konvici, a ptá se tě na důvody."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Přehled měřidel ukáže, k čemu je metr, váha, teploměr a odměrka."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Měřicí aplikace v telefonu ukáže, co digitální měřidlo umí a kde má meze."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Když měřidlo držíš v ruce, zjistíš, na co se hodí a kde zklame."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+      ]
+    },
+    {
+      "slug": "odhad-a-porovnani-s-merenim",
+      "title": "Odhad a porovnání s naměřenou hodnotou",
+      "aliases": [
+        "odhad",
+        "tipni si",
+        "kolik to bude",
+        "porovnání odhadu",
+        "zapsat měření"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zaznamená a porovná svá měření se svým odhadem."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Odhadne a změří hmotnost"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Odhad děláš ty a měření taky, chatbot rozdíl nenaměří."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Svůj odhad a měření na webu nenajdeš, porovnáš je ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "V tabulce vidíš odhad vedle měření a spočítáš si rozdíl."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Sešit s odhadem a měřením vedle sebe ukáže, o kolik se odhad lišil."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9",
+        "http://data.europa.eu/esco/skill/42c25baf-ccb3-47d9-a872-bb2ceb615538"
+      ]
+    }
+  ],
+  "aside": []
+}

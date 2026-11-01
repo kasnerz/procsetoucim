@@ -1,0 +1,430 @@
+[
+  {
+    "slug": "informace-o-zmenach-prostredi-ve-zdroji",
+    "title": "Hledání informací o změnách prostředí ve zdroji",
+    "aliases": [
+      "dobový text",
+      "práce se zdrojem",
+      "historický pramen",
+      "fotografie jako zdroj",
+      "dobový tisk"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vyhledá ve zdroji (např. dobový text, fotografie, reportáž z dobového tisku) konkrétní informaci o klimatických jevech, změnách a narušování životního prostředí a čerpání zdrojů.",
+        "quote": "Vyhledá ve zdroji (např. dobový text, fotografie, reportáž z dobového tisku) konkrétní informaci o klimatických jevech, změnách a narušování životního prostředí a čerpání zdrojů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyhledá ve více zdrojích (např. v dobových textech, fotografiích, literárních ukázkách, reportážích z dobového tisku) konkrétní informace o klimatických jevech, změnách a narušování životního prostředí a čerpání zdrojů.",
+        "quote": "Vyhledá ve více zdrojích (např. v dobových textech, fotografiích, literárních ukázkách, reportážích z dobového tisku) konkrétní informace o klimatických jevech, změnách a narušování životního prostředí a čerpání zdrojů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Slezsko bez vody",
+        "url": "https://uloziste.rvp.cz/material/08519d"
+      },
+      {
+        "title": "Jak člověk změnil krajinu Krkonoš v 19. a na začátku 20. století?",
+        "url": "https://uloziste.rvp.cz/material/f86f29"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí staré slovo nebo souvislost, ve zdroji ale hledáš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Archivy a muzea dávají dobové texty a fotografie ke čtení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace zdroj nepřečte, co je v textu nebo na fotce, hledáš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zdroj čteš a porovnáváš očima ty, žádný nástroj to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pricina-a-nasledek-zasahu-do-prirody",
+    "title": "Příčina a následek lidského zásahu do přírody",
+    "aliases": [
+      "příčina a důsledek",
+      "zemědělství a populace",
+      "fosilní paliva",
+      "oteplování",
+      "co za tím bylo"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Sám nebo s pomocí vyučujícího rozliší alespoň jednu příčinu zkoumaných situací a důsledek lidského jednání (např. objev zemědělství a růst populace, využívání fosilních paliv a oteplování planety).",
+        "quote": "Sám nebo s pomocí vyučujícího rozliší alespoň jednu příčinu zkoumaných situací a důsledek lidského jednání (např. objev zemědělství a růst populace, využívání fosilních paliv a oteplování planety)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozliší příčiny zkoumaných situací a důsledky lidského jednání (např. objev zemědělství a růst populace, využívání fosilních paliv a oteplování planety); vyvozuje závěr, že lidské zásahy byly v minulosti běžně provázeny nejistotou a omezenou předvídavostí.",
+        "quote": "Rozliší příčiny zkoumaných situací a důsledky lidského jednání (např. objev zemědělství a růst populace, využívání fosilních paliv a oteplování planety); vyvozuje závěr, že lidské zásahy byly v minulosti běžně provázeny nejistotou a omezenou předvídavostí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak mohli na Velikonočním ostrově zabránit katastrofě?",
+        "url": "https://uloziste.rvp.cz/material/53dddc"
+      },
+      {
+        "title": "Proč zanikla keltská civilizace?",
+        "url": "https://uloziste.rvp.cz/material/6f2956"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak spolu souvisí kácení, zemědělství nebo spalování uhlí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové texty popisují příčiny i následky událostí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe příčiny a následky nerozliší."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příčinu od následku oddělíš v úvaze ty, nástroj k tomu nemá co dát."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/81af8698-9873-4b3d-b6d2-8eb275bf170b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dopady-klimatu-a-zasahu-v-cesku-i-ve-svete",
+    "title": "Dopady klimatu a zásahů do přírody v Česku i ve světě",
+    "aliases": [
+      "klimatické jevy",
+      "sucho",
+      "čerpání zdrojů",
+      "kácení lesů",
+      "příklady z Česka a světa"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše konkrétní příklady dopadu klimatických jevů a narušování životního prostředí a čerpání zdrojů v kontextu České republiky i v kontextu globálním.",
+        "quote": "Popíše konkrétní příklady dopadu klimatických jevů a narušování životního prostředí a čerpání zdrojů v kontextu České republiky i v kontextu globálním."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Slezsko bez vody",
+        "url": "https://uloziste.rvp.cz/material/08519d"
+      },
+      {
+        "title": "Jak mohli na Velikonočním ostrově zabránit katastrofě?",
+        "url": "https://uloziste.rvp.cz/material/53dddc"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne příklady z Česka i ze světa, které si pak ověříš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a encyklopedie mají popsané konkrétní případy a data."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapy a grafy ukážou, kde a kdy se krajina změnila."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příklad popisuješ vlastními slovy ty, klasický nástroj k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95",
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-zasahu-do-prostredi-driv-a-dnes",
+    "title": "Porovnání zásahů do prostředí dříve a dnes",
+    "aliases": [
+      "minulost a současnost",
+      "jak se mění krajina",
+      "dřív a dnes",
+      "životní prostředí v historii"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Na příkladech porovná důsledky lidské činnosti na životní prostředí v minulosti a současnosti.",
+        "quote": "Na příkladech porovná důsledky lidské činnosti na životní prostředí v minulosti a současnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak člověk změnil krajinu Krkonoš v 19. a na začátku 20. století?",
+        "url": "https://uloziste.rvp.cz/material/f86f29"
+      },
+      {
+        "title": "Kácet les, anebo ne?",
+        "url": "https://uloziste.rvp.cz/material/81b7bb"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže najít, v čem se dnešní a dávné zásahy liší, a ty to posoudíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Historické a současné údaje o krajině si najdeš a porovnáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Staré a nové mapy nebo snímky krajiny ukážou změnu vedle sebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Porovnání vymýšlíš a zapisuješ ty, nástroj nic nedoplní."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vztah-cloveka-k-prirode-a-adaptace",
+    "title": "Proměny vztahu člověka k přírodě a přizpůsobení změnám",
+    "aliases": [
+      "vztah k přírodě",
+      "proč ničili přírodu",
+      "adaptace na změny",
+      "přelidnění a migrace",
+      "diskuse ve třídě"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Diskutuje o proměnách vztahu člověka k přírodě.",
+        "quote": "Diskutuje o proměnách vztahu člověka k přírodě."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Diskutuje o proměnách vztahu člověka k přírodě a o motivacích člověka k poškozování ekosystémů (přelidnění a migrace jako důsledek vyčerpání zdrojů).",
+        "quote": "Diskutuje o proměnách vztahu člověka k přírodě a o motivacích člověka k poškozování ekosystémů (přelidnění a migrace jako důsledek vyčerpání zdrojů)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Diskutuje o proměnách vztahu člověka k přírodě, o motivacích člověka k poškozování ekosystémů i možnostech adaptace na změny ve formě vytváření nových postupů a struktur společenského života.",
+        "quote": "Diskutuje o proměnách vztahu člověka k přírodě, o motivacích člověka k poškozování ekosystémů i možnostech adaptace na změny ve formě vytváření nových postupů a struktur společenského života."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak mohli na Velikonočním ostrově zabránit katastrofě?",
+        "url": "https://uloziste.rvp.cz/material/53dddc"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne důvody, proč lidé přírodu měnili, a pak s nimi můžeš v diskusi polemizovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Texty o dějinách krajiny dávají fakta, o která opřeš argumenty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe diskusi nevede ani nic nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutuješ se spolužáky ty, nástroj do rozhovoru nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/81af8698-9873-4b3d-b6d2-8eb275bf170b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-nazor-na-narusovani-prostredi",
+    "title": "Vlastní názor na narušování životního prostředí",
+    "aliases": [
+      "můj názor",
+      "argumentace",
+      "debata o životním prostředí",
+      "kácet les nebo ne"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Formuluje vlastní názory na narušování životního prostředí v historii i v současnosti.",
+        "quote": "Formuluje vlastní názory na narušování životního prostředí v historii i v současnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kácet les, anebo ne?",
+        "url": "https://uloziste.rvp.cz/material/81b7bb"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se na důvody a namítne protiargumenty, názor ale formuluješ ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fakta z encyklopedií a zpráv dají tvému názoru oporu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Názor nevznikne v aplikaci, ale z toho, co si myslíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Vlastní názor žádný nástroj nemá, říkáš ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/81af8698-9873-4b3d-b6d2-8eb275bf170b",
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zamyslene-a-nezamyslene-nasledky-rizika",
+    "title": "Zamýšlené a nezamýšlené následky a rizika do budoucna",
+    "aliases": [
+      "nezamýšlené důsledky",
+      "rizika",
+      "co se mohlo pokazit",
+      "výzvy do budoucna",
+      "energie a rozvoj"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Definuje potenciální rizika a výzvy směrem do budoucnosti prostřednictvím rozlišení zamýšlených a nezamýšlených důsledků lidského jednání.",
+        "quote": "Definuje potenciální rizika a výzvy směrem do budoucnosti prostřednictvím rozlišení zamýšlených a nezamýšlených důsledků lidského jednání."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak mohli na Velikonočním ostrově zabránit katastrofě?",
+        "url": "https://uloziste.rvp.cz/material/53dddc"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet, co všechno se po zásahu do přírody mohlo pokazit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a studie popisují případy, kdy zásah dopadl jinak, než lidé chtěli."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace rizika neposoudí, rozlišuješ je ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zamýšlené od nezamýšleného oddělíš v úvaze ty, nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/81af8698-9873-4b3d-b6d2-8eb275bf170b",
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

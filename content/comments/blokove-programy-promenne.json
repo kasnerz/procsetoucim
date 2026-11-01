@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Proměnná je místo, kde si program něco pamatuje, třeba skóre nebo počet životů. Bez ní by program nevěděl, co se stalo před chvílí. Nastavit správnou počáteční hodnotu a hlídat, jak se mění, je dovednost, na které stojí každý větší program, ať jde o web, nebo vědecký výpočet. Chatbot ti proměnnou nastaví, chybu typu „skóre se po nové hře nevynuluje“ ale najdeš jen tehdy, když umíš program projít krok za krokem a sledovat hodnoty.",
+  "learnWithAi": [
+    {
+      "title": "Krokování v tabulce",
+      "text": "Popros chatbota o krátký program s jednou proměnnou a v tabulce na papíře zapisuj, jak se po každém kroku mění. Výsledek porovnej se spuštěním."
+    },
+    {
+      "title": "Chyba v počáteční hodnotě",
+      "text": "Požádej o program, ve kterém je špatně nastavená počáteční hodnota, a zjisti, co to způsobí. Opravu udělej ty a ověř ji."
+    },
+    {
+      "title": "Paměť vlastní hry",
+      "text": "Vymysli jednoduchou hru a sepiš, co si musí pamatovat a jak se to bude měnit. Ať se chatbot zeptá na situace, se kterými seznam nepočítá, a chybějící proměnné doplň."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "outcome": "MAT-MAT-003-ZV9-007",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "rozpozná a pojmenuje typy n-úhelníků",
+      "cards": [
+        "mnohouhelniky-a-vlastnosti-utvaru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "využívá základní pojmy popisující vlastnosti kruhu a kružnice (poloměr, průměr, střed)",
+      "cards": [
+        "kruh-a-kruznice-pojmy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "rozpozná tělesa (hranol, válec, jehlan, kužel a kouli)",
+      "cards": [
+        "telesa-poznavani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozpozná dvojice shodných dvojrozměrných útvarů (v osové a středové souměrnosti, v posunutí, v otočení) a určí typ zobrazení",
+      "cards": [
+        "rozpoznani-zobrazeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozpozná dvojice podobných dvojrozměrných útvarů",
+      "cards": [
+        "podobne-utvary"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozpozná a pojmenuje typy úhlů (nulový, ostrý, pravý, tupý, přímý, nekonvexní, plný)",
+      "cards": [
+        "typy-uhlu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá definující vlastnosti dvourozměrných útvarů pro jejich klasifikaci.",
+      "cards": [
+        "mnohouhelniky-a-vlastnosti-utvaru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá k řešení úloh vztahy mezi úhly svíranými dvěma různoběžkami, případně úhly, které vzniknou, pokud příčka protne dvě rovnoběžky.",
+      "cards": [
+        "uhly-u-ruznobezek-a-rovnobezek"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše a používá geometrická zobrazení dvourozměrných obrazců (tzn. osová souměrnost, středová souměrnost, otočení, posunutí, podobnost).",
+      "cards": [
+        "zobrazeni-obrazce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše a používá geometrická zobrazení složená ze dvou zobrazení (tzn. osová souměrnost, středová souměrnost, otočení, posunutí, podobnost).",
+      "cards": [
+        "slozena-zobrazeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozpozná geometrické útvary a využívá jejich vlastností.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

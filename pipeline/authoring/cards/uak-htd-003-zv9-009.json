@@ -1,0 +1,381 @@
+{
+  "outcome": "UAK-HTD-003-ZV9-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "instituce-a-akce-mistni-narodni-svetove",
+      "title": "Kulturní instituce a akce: místní, národní, světové",
+      "aliases": [
+        "divadla a koncertní síně",
+        "kulturní instituce",
+        "slavné festivaly",
+        "kde se hraje a tančí",
+        "kulturní akce v Česku a ve světě"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Uvede příklad významné kulturní instituce a tradice ve svém okolí, v naší zemi nebo ve světě."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady kulturních institucí a kulturních akcí z oblasti hudby, tance a divadla regionálního, národního a celosvětového významu."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Pojmenuje kulturní instituce z oblasti hudby, tance a divadla na regionální i národní úrovni."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vypíše známá divadla a festivaly a řekne, čím jsou slavné."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové stránky divadel, orchestrů a festivalů ukážou program i historii."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa a kulturní kalendáře ukážou, kde v okolí hrají a co se chystá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Divadelní plakát nebo programový leták ti k přehledu světových institucí nestačí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f3b841c9-17d1-4cc3-9e6b-36c17b0d15d3",
+        "http://data.europa.eu/esco/skill/24554d47-70d2-4153-bb27-84e338e76792"
+      ],
+      "inspiration": [
+        "Koncertní síň"
+      ]
+    },
+    {
+      "slug": "srovnani-kulturnich-projevu-regiony-stat-svet",
+      "title": "Podobnosti a rozdíly kulturních projevů: region, Česko, svět",
+      "aliases": [
+        "folklor",
+        "lidové umění",
+        "jak se slaví svátky",
+        "tradice v jiných zemích",
+        "porovnání kultur"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše podoby uměleckých a kulturních projevů spjatých s jinou kulturou, nachází podobnosti a rozdíly mezi regionálními, národními a celosvětovými kulturními projevy (např. jak se slaví určité svátky, folklor, lidové umění)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot popíše zvyky a lidové umění jiných zemí a pomůže ti hledat, v čem se shodují."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a stránky muzeí ukážou kroje, tance a svátky z různých míst."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti srovnání nenapíše, porovnávat podobnosti a rozdíly musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas a knihy o lidovém umění ti pomůžou zařadit, odkud který zvyk pochází."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/56e30a60-0a87-4631-85ea-c69bc8bd0519"
+      ],
+      "inspiration": [
+        "Virtuální galerie kulturního světa"
+      ]
+    },
+    {
+      "slug": "projekt-o-umeni-vlastni-a-jinych-kultur",
+      "title": "Společný projekt o umění vlastní a cizích kultur",
+      "aliases": [
+        "skupinový projekt o kulturách",
+        "umění jiných zemí",
+        "projekt ve třídě",
+        "kultura různých zemí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Spolupracuje na projektu, který se zaměřuje na hlubším poznávání uměleckých projevů vlastní kultury i kultur jiných zemí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti poradí, jak rozdělit práci ve skupině, a vysvětlí pojmy z cizích kultur."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Z encyklopedií a webů muzeí vezmeš fakta a obrázky pro společnou práci."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Sdílený dokument nebo prezentace ti umožní skládat projekt ve skupině dohromady."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Spolupráce s kamarády ve třídě se odehrává mezi vámi, žádný nástroj ji nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/24554d47-70d2-4153-bb27-84e338e76792",
+        "http://data.europa.eu/esco/skill/56e30a60-0a87-4631-85ea-c69bc8bd0519"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "projevy-ruznych-kultur-v-regionu",
+      "title": "Projevy různých kultur v místě, kde žiješ",
+      "aliases": [
+        "jiné kultury v okolí",
+        "menšiny v mém městě",
+        "kulturní rozmanitost",
+        "cizí tradice u nás"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Nachází v regionu, kde žije, projevy různých kultur."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Chatbot tvůj region nezná, projevy kultur kolem sebe musíš najít ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky města a spolků ukážou akce, festivaly a komunity ve tvém okolí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapa a kalendář akcí ti ukážou, kde se kulturní akce odehrávají."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírová mapa ani plakát ti neřeknou, jaké kultury v okolí žijí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/56e30a60-0a87-4631-85ea-c69bc8bd0519"
+      ],
+      "inspiration": [
+        "Vždyť jsi Rom..."
+      ]
+    },
+    {
+      "slug": "digitalni-zdroje-o-kulturnim-deni",
+      "title": "Hledání informací o kultuře na internetu",
+      "aliases": [
+        "kde najít kulturní akce",
+        "kulturní vlog",
+        "online galerie",
+        "webové stránky muzeí",
+        "kulturní program"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využívá digitální technologie a další jemu dostupné zdroje k získávání informací o významných uměleckých a kulturních aktivitách ve svém regionu i v celostátním a světovém měřítku."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "K získávání informací o kulturním dění využívá i digitální média."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot shrne, co je zač dané muzeum nebo festival, ale fakta si ověř jinde."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač a weby kulturních institucí dají aktuální programy a informace."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s kulturním programem a virtuální prohlídky galerií ti ukážou, co se děje."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tištěný program, noviny a nástěnka v knihovně ti dají informace o dění kolem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6c6f0d6e-1f31-4413-b2ee-dabe135b29a7"
+      ],
+      "inspiration": [
+        "Virtuální galerie kulturního světa",
+        "Kulturní vlog"
+      ]
+    },
+    {
+      "slug": "kulturni-denik-a-zaznamy",
+      "title": "Kulturní deník a záznamy o zážitcích",
+      "aliases": [
+        "kulturní deník",
+        "zápisky z koncertu",
+        "záznam z divadla",
+        "deník návštěv"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Své zkušenosti a poznatky zpracovává různým způsobem (vede si kulturní deník"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "O svých kulturních aktivitách si vede záznamy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Deník je o tvém zážitku a chatbot u koncertu nebyl, zapsat ho musíš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Ve vyhledávači svůj zážitek nenajdeš, jen informace o akci."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Poznámkový nebo fotodeník ti pomůže ukládat zápisky, lístky a fotky na jednom místě."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Do papírového sešitu zapíšeš, nakreslíš i nalepíš vstupenku."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/473c68ee-1ab3-4bcf-b286-f7a8df0acec6"
+      ],
+      "inspiration": [
+        "Zakládám svůj kulturní deník"
+      ]
+    },
+    {
+      "slug": "prezentace-kulturniho-zazitku-ostatnim",
+      "title": "Představení kulturního zážitku ostatním",
+      "aliases": [
+        "vyprávění o koncertu",
+        "prezentace o návštěvě divadla",
+        "referát o výstavě",
+        "kulturní vlog"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "prezentuje svůj zážitek z kulturní akce nebo návštěvy kulturní instituce ostatním"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti pomůže poskládat osnovu vystoupení, zážitek ale vyprávíš ty."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Svůj zážitek nenajdeš na webu, můžeš si tam jen ověřit údaje o akci."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prezentační program nebo video aplikace ti pomůže spojit fotky a krátké texty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před spolužáky mluvíš ty, plakát ani sešit to za tebe neřeknou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f"
+      ],
+      "inspiration": [
+        "Kulturní vlog"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Ze zdrojů si vyhledá",
+      "code": "O1",
+      "refs": [
+        "mistni-umelecka-tradice-hledani-ve-zdrojich"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Uvede příklady kulturních institucí v blízkém okolí",
+      "code": "O1",
+      "refs": [
+        "kulturni-instituce-v-okoli-a-jejich-programy"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Popíše některé podoby uměleckých",
+      "code": "O1",
+      "refs": [
+        "umeni-jine-kultury-popis-projevu"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "S porozuměním vnímá",
+      "code": "O1",
+      "refs": [
+        "porovnani-kulturnich-projevu-svatky-a-zvyky"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Oceňuje pestrost",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

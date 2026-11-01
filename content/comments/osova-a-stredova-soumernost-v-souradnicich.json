@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "V soustavě souřadnic se zrcadlení dá zapsat čísly: při osové souměrnosti podle osy y se změní znaménko u x, při středové souměrnosti podle počátku u obou souřadnic. Takhle zrcadlí tvary i programy, ve kterých se kreslí součástky nebo díly letadel, a kde stačí nakreslit polovinu. V práci to přímo využije hlavně ten, kdo kreslí technické výkresy nebo navrhuje čipy, pro ostatní je to trénink přesnosti a představivosti. Program obraz vytvoří za tebe, ale když víš, jak se souřadnice mění, hned poznáš, že je obraz na špatné straně.",
+  "learnWithAi": [
+    {
+      "title": "Pravidlo pro znaménka souřadnic",
+      "text": "Zeptej se, co se stane se souřadnicemi bodu při zrcadlení podle osy x a podle počátku. Pravidlo si ověř na bodech, které si vymyslíš."
+    },
+    {
+      "title": "Obrazy jednoho trojúhelníku",
+      "text": "Nech si zadat trojúhelník souřadnicemi a narýsuj jeho obraz v osové i středové souměrnosti. Souřadnice obrazů zapiš dřív, než se zeptáš na správné řešení."
+    },
+    {
+      "title": "Zrcadlení podle jiné přímky",
+      "text": "Popros o úlohu se zrcadlením podle přímky x = 2 a zkus najít pravidlo pro souřadnice. Ověř ho v geometrickém programu, protože chatbot se u takových úloh plete."
+    }
+  ]
+}

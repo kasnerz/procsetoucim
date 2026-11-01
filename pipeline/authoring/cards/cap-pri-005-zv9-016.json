@@ -1,0 +1,483 @@
+{
+  "outcome": "CAP-PRI-005-ZV9-016",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "priroda-litosfera-na-modelu-zeme",
+      "title": "Litosféra na modelu stavby Země",
+      "aliases": [
+        "stavba Země",
+        "litosféra",
+        "zemská kůra",
+        "pevninská a oceánská kůra",
+        "litosférické desky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na modelu stavby Země vymezí litosféru"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "popíše základní rozdíly mezi pevninskou a oceánskou litosférou a jejich rozdělení na jednotlivé litosférické desky"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co je litosféra, a vymyslí otázky k prověření tvého popisu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice a encyklopedie mají schémata vrstev Země a mapu desek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Interaktivní model Země ukáže vrstvy a hranice desek, které nevidíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový nebo plastový model Země ti ukáže, kde litosféra leží."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "priroda-proc-se-desky-hybou",
+      "title": "Proč se litosférické desky pohybují",
+      "aliases": [
+        "pohyb desek",
+        "deskova tektonika",
+        "astenosféra",
+        "proudění v plášti",
+        "proč se hýbou kontinenty"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Objasnění principu pohybu litosférických desek"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí základní mechanismy pohybu litosférických desek po astenosféře díky energii uvolňované ze zemského jádra a zemského pláště"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí příčiny pohybu litosférických desek"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí proudění v plášti jinými slovy a opraví tvoje vysvětlení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice a encyklopedie popisují, odkud se bere energie pohybu desek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace pláště ukáže pohyb, který pod nohama nevidíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Hrnec s ohřívanou vodou a barvou ukáže proudění, které pohání desky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": [
+        "Modelujeme síly Země"
+      ]
+    },
+    {
+      "slug": "priroda-kontinenty-v-minulosti",
+      "title": "Změny rozložení kontinentů a Pangea",
+      "aliases": [
+        "Pangea",
+        "superkontinent",
+        "jak se hýbaly kontinenty",
+        "puzzle kontinentů",
+        "driftování kontinentů"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popisuje změny v uspořádání kontinentů na základě předložených map a vizualizací"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "demonstruje na zjednodušeném modelu vznik velkých superkontinentů a jejich rozpad až do současné podoby uspořádání kontinentů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Demonstruje na modelu změny rozložení kontinentů v geologické minulosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, jak vypadala Pangea, a poradí, jak poskládat model z papíru."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapy a vizualizace ukazují kontinenty v různých dobách."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Interaktivní mapa přehraje pohyb kontinentů za miliony let."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vystřižené papírové kontinenty tě nechají poskládat Pangeu vlastníma rukama."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/75ffb6d4-0b48-4471-b3c9-731b01ee1b47",
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": [
+        "Model Pangey",
+        "Pangea jako puzzle - hledání důkazů"
+      ]
+    },
+    {
+      "slug": "priroda-desky-klima-a-zivot",
+      "title": "Pohyb desek, klima a vývoj života",
+      "aliases": [
+        "desky a klima",
+        "kontinenty a život",
+        "změny klimatu v minulosti",
+        "vývoj života a kontinenty"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "jejich důsledky pro vývoj života na Zemi, popíše přitom vztah mezi pohyby litosférických desek a klimatickými změnami"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak poloha kontinentů mění proudy a podnebí, a odpoví na doplňující otázky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie popisují, jak se podnebí a život měnily s polohou kontinentů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Běžná aplikace tuhle souvislost nevysvětlí, jen ukáže mapu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj souvislost mezi deskami, podnebím a životem neukáže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "priroda-vyvrele-usazene-premenene-horniny",
+      "title": "Vyvřelé, usazené a přeměněné horniny",
+      "aliases": [
+        "druhy hornin",
+        "vyvřelé horniny",
+        "usazené horniny",
+        "přeměněné horniny",
+        "jak vznikají horniny",
+        "třídění hornin"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Klasifikuje horniny podle způsobu vzniku na vyvřelé, usazené a přeměněné."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi třemi skupinami a ověří, kam zařadíš konkrétní horninu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Atlas hornin má fotky a popis vzniku každé horniny."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace pro určování hornin navrhne skupinu podle fotky, ty ji pak ověříš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa, kladívko a sbírka hornin ti ukážou zrna, vrstvy a krystaly."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "priroda-desky-a-vznik-hornin",
+      "title": "Okraje desek a horniny, které tam vznikají",
+      "aliases": [
+        "rozhraní desek",
+        "horniny na okraji desek",
+        "oddalování a přibližování desek",
+        "výlevné a hlubinné horniny",
+        "tektonická situace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Odvození významu pohybů litosférických desek pro vznik hornin"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "identifikuje různé typy pohybů litosférických desek a odvodí typické horniny, které vznikají na různých typech deskových rozhraní"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "pomocí modelu zobrazí proces vzniku hornin v konkrétní tektonické situaci"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí na konkrétních příkladech a s použitím modelu, jak desková tektonika ovlivňuje vznik jednotlivých typů hornin."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co se děje na hranici desek, a zeptá se, jestli horninu odvodíš správně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice a dynamické modely ukazují typy rozhraní a jejich horniny."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace rozhraní desek ukáže, kde magma vystupuje a kde se horniny přetvářejí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Model z plastelíny nebo vrstev látek ukáže, jak se desky dotýkají."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": [
+        "Když se hýbe Země, vznikají horniny",
+        "Model tektonické situace"
+      ]
+    },
+    {
+      "slug": "priroda-horninovy-cyklus-a-zvetravani",
+      "title": "Horninový cyklus a zvětrávání",
+      "aliases": [
+        "koloběh hornin",
+        "zvětrávání hornin",
+        "usazování",
+        "jak se hornina mění",
+        "vznik usazených hornin"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí působení vnějších geologických činitelů na horniny jako závěrečnou fázi horninového cyklu (zvětrávání)"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "objasní vliv deskové tektoniky na formování zemského reliéfu a vytváření podmínek pro vznik usazených hornin"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se z jedné horniny stane jiná, a opraví tvůj nákres cyklu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie ukazují fotky zvětralých hornin a schémata cyklu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Animace cyklu ukáže stovky tisíc let přeměny v pár sekundách."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa a kameny z okolí ti ukážou stopy zvětrávání na vlastní oči."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": [
+        "Horninový cyklus naživo"
+      ]
+    },
+    {
+      "slug": "priroda-vnitrni-a-vnejsi-dej",
+      "title": "Vnitřní a vnější geologické děje a jejich důsledky",
+      "aliases": [
+        "vnitřní geologické děje",
+        "vnější geologické děje",
+        "co tvaruje krajinu",
+        "příčiny reliéfu",
+        "sopky a eroze"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozliší důsledky vnitřních a vnějších geologických dějů."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozlišuje na konkrétních příkladech různé příčiny (vnější a vnitřní geologické děje) utváření zemského reliéfu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zařadí příklad mezi vnitřní nebo vnější děj a vysvětlí proč."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Fotky krajiny s popisem ukazují, co ji vytvořilo."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapy reliéfu a satelitní snímky ukazují hory, údolí i sopky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj ti děje nerozliší, příčinu poznáš ty podle krajiny."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": [
+        "Modelujeme síly Země"
+      ]
+    },
+    {
+      "slug": "priroda-sopky-zemetreseni-tsunami",
+      "title": "Sopky, zemětřesení a tsunami: vznik a předpověď",
+      "aliases": [
+        "sopky",
+        "zemětřesení",
+        "tsunami",
+        "proč nejde předpovědět zemětřesení",
+        "přírodní rizika"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Objasní, jak vzniká sopečná činnost, zemětřesení nebo tsunami a proč je obtížné je předpovídat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí vznik zemětřesení a ptá se, proč nejde přesně předpovědět."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a mapy zemětřesení ukazují, kde k nim dochází."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mapou zemětřesení v reálném čase ukáže nedávné otřesy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj sopku nebo zemětřesení nevysvětlí ani nepředpoví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+      ],
+      "inspiration": [
+        "PŘÍRODNÍ DĚJE A JEJICH RIZIKA"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "vyvozuje vlastnosti společné",
+      "code": "O1",
+      "refs": [
+        "spolecne-vlastnosti-skupiny"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "popíše příčinu a následek",
+      "code": "O1",
+      "refs": [
+        "zapis-smyslovych-vjemu"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "odvozuje a dokládá jednoduché",
+      "code": "O1",
+      "refs": [
+        "propojenost-zive-a-nezive-prirody"
+      ]
+    }
+  ]
+}

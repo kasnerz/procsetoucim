@@ -1,0 +1,193 @@
+[
+  {
+    "slug": "anglicky-popis-pocitu",
+    "title": "Pocity v angličtině",
+    "aliases": [
+      "jak se cítím anglicky",
+      "I feel nervous",
+      "emoce v angličtině",
+      "nálady anglicky",
+      "feelings"
+    ],
+    "outcome": "JJK-AJA-002-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Stručně popíše své pocity, představy, přání a ambice s pomocí poskytnuté slovní zásoby a podpůrných otázek.",
+        "quote": "Stručně popíše své pocity"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše své pocity, představy, přání a ambice s pomocí podpůrných otázek.",
+        "quote": "Popíše své pocity"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše, jak se cítí, jaké má představy, přání a ambice.",
+        "quote": "Popíše, jak se cítí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí slova pro pocity a opraví věty, které o sobě napíšeš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš seznamy slov pro pocity a příklady vět, třeba v jazykové příručce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovník a kontrola pravopisu ti pomůžou s výrazy a chybami."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník na papíře ti pomůže najít slovo pro pocit, který chceš říct."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-prani-sny-a-ambice",
+    "title": "Přání, sny a plány do budoucna anglicky",
+    "aliases": [
+      "I would like to",
+      "moje sny anglicky",
+      "čím chci být anglicky",
+      "budoucnost v angličtině",
+      "ambitions"
+    ],
+    "outcome": "JJK-AJA-002-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Stručně popíše své pocity, představy, přání a ambice s pomocí poskytnuté slovní zásoby a podpůrných otázek.",
+        "quote": "pocity, představy, přání a ambice"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše své pocity, představy, přání a ambice s pomocí podpůrných otázek.",
+        "quote": "Popíše své pocity, představy, přání a ambice"
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše, jak se cítí, jaké má představy, přání a ambice.",
+        "quote": "jaké má představy, přání a ambice"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak se anglicky říká přání a plány, a opraví ti věty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš fráze jako I would like to a příklady vět o budoucnosti."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovník a kontrola pravopisu ti pomůžou s výrazy a chybami."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník na papíře ti pomůže najít slova pro povolání a sny."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicke-zduvodneni-pocitu-a-prani",
+    "title": "Důvod pocitu nebo přání anglicky",
+    "aliases": [
+      "because anglicky",
+      "proč se cítím",
+      "zdůvodnění v angličtině",
+      "příčina a důvod anglicky",
+      "I feel nervous when"
+    ],
+    "outcome": "JJK-AJA-002-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Popisované pocity, představy, přání a ambice jednoduše zdůvodní.",
+        "quote": "Popisované pocity, představy, přání a ambice jednoduše zdůvodní."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popisované skutečnosti umí doplnit o kontext (např. o důvody nebo příčiny).",
+        "quote": "Popisované skutečnosti umí doplnit o kontext (např. o důvody nebo příčiny)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše a zdůvodní svůj pocit v konkrétní situaci.",
+        "quote": "Popíše a zdůvodní svůj pocit v konkrétní situaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Změna času začátku školního dne",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí spojky jako because a so a opraví ti zdůvodnění, které napíšeš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Jazyková příručka ukáže spojky a příklady vět s důvodem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu a překladač pomůžou s chybami a chybějícím slovem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovníkem na papíře dohledáš slovo, které ti v zdůvodnění chybí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

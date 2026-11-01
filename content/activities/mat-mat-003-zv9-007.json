@@ -1,0 +1,468 @@
+[
+  {
+    "slug": "mnohouhelniky-a-vlastnosti-utvaru",
+    "title": "Typy n-úhelníků a vlastnosti útvarů",
+    "aliases": [
+      "trojúhelník, čtyřúhelník",
+      "n-úhelník",
+      "rovnoběžník, lichoběžník",
+      "třídění útvarů",
+      "vlastnosti útvarů"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozpozná a pojmenuje typy n-úhelníků",
+        "quote": "rozpozná a pojmenuje typy n-úhelníků"
+      },
+      {
+        "level": "Splněno",
+        "point": "Používá definující vlastnosti dvourozměrných útvarů pro jejich klasifikaci.",
+        "quote": "Používá definující vlastnosti dvourozměrných útvarů pro jejich klasifikaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, čím se liší lichoběžník od rovnoběžníku, a vymyslí ti úkoly."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové stránky ukážou obrázky a vlastnosti každého útvaru."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrická aplikace nechá útvary otáčet a ukáže, které strany jsou rovnoběžné."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a úhloměr ti ukážou, zda jsou strany rovnoběžné a úhly pravé."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kruh-a-kruznice-pojmy",
+    "title": "Kruh a kružnice: střed, poloměr, průměr",
+    "aliases": [
+      "poloměr a průměr",
+      "střed kružnice",
+      "kruh a kružnice",
+      "kružnice"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "využívá základní pojmy popisující vlastnosti kruhu a kružnice (poloměr, průměr, střed)",
+        "quote": "využívá základní pojmy popisující vlastnosti kruhu a kružnice (poloměr, průměr, střed)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot rozdíl mezi poloměrem a průměrem vysvětlí na příkladech z kol a talířů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky mají obrázky s popsanými částmi kružnice."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Rýsovací aplikace ukáže střed, poloměr i průměr při tažení kružnice."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "S kružítkem a pravítkem si střed, poloměr i průměr narýsuješ a změříš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "telesa-poznavani",
+    "title": "Tělesa: hranol, válec, jehlan, kužel a koule",
+    "aliases": [
+      "hranol, válec, jehlan",
+      "kužel a koule",
+      "tělesa",
+      "krychle a kvádr"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "rozpozná tělesa (hranol, válec, jehlan, kužel a kouli)",
+        "quote": "rozpozná tělesa (hranol, válec, jehlan, kužel a kouli)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Geometrie v krajině",
+        "url": "https://uloziste.rvp.cz/material/6b4371"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot popíše, podle čeho tělesa poznáš, a zeptá se tě na příklady z domova."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové stránky ukazují tělesa z různých stran."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s 3D tělesy ti je dovolí otáčet a prohlížet ze všech stran."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Modely těles vezmeš do ruky a spočítáš stěny, hrany a vrcholy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "typy-uhlu",
+    "title": "Typy úhlů: ostrý, pravý, tupý, přímý",
+    "aliases": [
+      "ostrý a tupý úhel",
+      "pravý úhel",
+      "úhly",
+      "nekonvexní úhel",
+      "plný úhel"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozpozná a pojmenuje typy úhlů (nulový, ostrý, pravý, tupý, přímý, nekonvexní, plný)",
+        "quote": "rozpozná a pojmenuje typy úhlů (nulový, ostrý, pravý, tupý, přímý, nekonvexní, plný)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl mezi tupým a nekonvexním úhlem a zadá ti procvičování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky ukazují každý typ úhlu na obrázku."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s úhly nechá úhel měnit a hned ukáže, jak se jmenuje."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Úhloměr nebo trojúhelník s pravým úhlem ti ukáže, o jaký úhel jde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uhly-u-ruznobezek-a-rovnobezek",
+    "title": "Úhly u různoběžek a u příčky rovnoběžek",
+    "aliases": [
+      "vrcholové úhly",
+      "vedlejší úhly",
+      "souhlasné a střídavé úhly",
+      "příčka rovnoběžek",
+      "dopočítání úhlů"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Používá k řešení úloh vztahy mezi úhly svíranými dvěma různoběžkami, případně úhly, které vzniknou, pokud příčka protne dvě rovnoběžky.",
+        "quote": "Používá k řešení úloh vztahy mezi úhly svíranými dvěma různoběžkami, případně úhly, které vzniknou, pokud příčka protne dvě rovnoběžky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč jsou vrcholové úhly stejné, a zkontroluje tvůj postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky ukazují dvojice úhlů na obrázcích s barvami."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrická aplikace táhne přímky a úhly se přepočítají, takže vztah vidíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Úhloměrem změříš úhly na nákresu a ověříš, že vyšly stejné."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozpoznani-zobrazeni",
+    "title": "Poznání typu zobrazení: souměrnost, posunutí, otočení",
+    "aliases": [
+      "osová souměrnost",
+      "středová souměrnost",
+      "posunutí",
+      "otočení",
+      "shodné útvary"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozpozná dvojice shodných dvojrozměrných útvarů (v osové a středové souměrnosti, v posunutí, v otočení) a určí typ zobrazení",
+        "quote": "rozpozná dvojice shodných dvojrozměrných útvarů (v osové a středové souměrnosti, v posunutí, v otočení) a určí typ zobrazení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, podle čeho poznáš osovou a středovou souměrnost, a zadá příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky mají obrázky všech čtyř zobrazení vedle sebe."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrická aplikace útvar posune, otočí nebo překlopí a ty vidíš, co se stane."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Průsvitný papír přiložíš na útvar a vyzkoušíš, jak se překrývá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zobrazeni-obrazce",
+    "title": "Zobrazení obrazce: souměrnost, posunutí, otočení",
+    "aliases": [
+      "narýsovat souměrný obraz",
+      "osa souměrnosti",
+      "střed souměrnosti",
+      "otočit útvar",
+      "posunout útvar"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše a používá geometrická zobrazení dvourozměrných obrazců (tzn. osová souměrnost, středová souměrnost, otočení, posunutí, podobnost).",
+        "quote": "Popíše a používá geometrická zobrazení dvourozměrných obrazců (tzn. osová souměrnost, středová souměrnost, otočení, posunutí, podobnost)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí postup, jak najít obraz bodu v souměrnosti, a zkontroluje popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky ukazují postup konstrukce obrazu krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrická aplikace nakreslí obraz a ty ho porovnáš se svým."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Rýsuješ pravítkem, trojúhelníkem a kružítkem, nástroje drží přesnost."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "podobne-utvary",
+    "title": "Podobné útvary a podobnost",
+    "aliases": [
+      "podobnost",
+      "zvětšení a zmenšení",
+      "měřítko útvaru",
+      "podobné trojúhelníky"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozpozná dvojice podobných dvojrozměrných útvarů",
+        "quote": "rozpozná dvojice podobných dvojrozměrných útvarů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, kdy jsou dva útvary podobné, a zadá příklady ke zkoumání."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky ukazují zvětšení a zmenšení útvarů na obrázcích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrická aplikace útvar zvětší a zmenší, takže vidíš, co zůstává stejné."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítkem změříš strany a úhloměrem úhly a ověříš poměry."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "slozena-zobrazeni",
+    "title": "Složená zobrazení: dvě zobrazení za sebou",
+    "aliases": [
+      "dvě souměrnosti za sebou",
+      "složení zobrazení",
+      "posunutí a otočení",
+      "výsledné zobrazení"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-007",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše a používá geometrická zobrazení složená ze dvou zobrazení (tzn. osová souměrnost, středová souměrnost, otočení, posunutí, podobnost).",
+        "quote": "Popíše a používá geometrická zobrazení složená ze dvou zobrazení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co vznikne po dvou souměrnostech za sebou, a zkontroluje popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky ukazují složení zobrazení v obrázcích krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrická aplikace provede dvě zobrazení po sobě a ukáže výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítkem a kružítkem první i druhý obraz narýsuješ a ověříš nákresem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

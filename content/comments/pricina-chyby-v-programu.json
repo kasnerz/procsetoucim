@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když program spadne nebo vypíše nesmysl, chybová hláška ukáže jen místo, kde se to projevilo. Chyba přitom často vznikla o kus dřív, třeba ve špatně napsané podmínce. Hledání příčiny je trpělivá práce: sleduješ hodnoty proměnných, zkoušíš, kdy se chyba objeví a kdy ne, a postupně vylučuješ. Kdo vyvíjí software nebo hry, tráví tím velkou část dne. Chatbot často odhadne, kde chyba je, ale u delšího programu se plete, a pak pomůže jen to, že umíš hledat systematicky.",
+  "learnWithAi": [
+    {
+      "title": "Vysvětlení chybové hlášky",
+      "text": "Vlož chatbotovi chybovou hlášku a požádej ho, ať ti vysvětlí, co znamená, bez hotové opravy. Místo v kódu pak najdi a oprav ty."
+    },
+    {
+      "title": "Hádanka s chybnou podmínkou",
+      "text": "Nech si od chatbota dát krátký program s jednou chybou v podmínce nebo v opakování. Najdi ji vypisováním hodnot proměnných a teprve potom si nech prozradit, jestli máš pravdu."
+    },
+    {
+      "title": "Plán hledání příčiny",
+      "text": "Popiš chatbotovi, kdy se chyba ve tvém programu objevuje a kdy ne, a nech si poradit, kam vložit kontrolní výpisy. Výpisy přidej, spusť program a z hodnot vyvoď, kde je příčina."
+    }
+  ]
+}

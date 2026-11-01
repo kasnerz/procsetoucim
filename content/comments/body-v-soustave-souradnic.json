@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Souřadnice jsou domluvený způsob, jak dvěma čísly přesně říct, kde něco leží. Stejně fungují čtverce na turistické mapě nebo políčka v tabulce, takže se ti hodí i mimo matematiku. Pracují s nimi lidé, kteří kreslí výkresy v počítači nebo montují letadla a vozidla podle výkresu, a dohromady jde zhruba o 2,7 % všech, kdo v Česku pracují. Aplikace bod zakreslí bez chyby, ale když nevíš, které číslo patří k ose x, nepoznáš, že máš čísla prohozená.",
+  "learnWithAi": [
+    {
+      "title": "Kvíz o kvadrantech",
+      "text": "Nech se chatbotem zkoušet: on řekne souřadnice, ty odpovíš, ve kterém kvadrantu bod leží a jak daleko je od os."
+    },
+    {
+      "title": "Obrázek ze spojených bodů",
+      "text": "Požádej o seznam souřadnic, které po spojení dají jednoduchý obrázek, a zakresli je do čtverečkovaného papíru. Když obrázek nedává smysl, zkontroluj nejdřív své body a pak zadání."
+    },
+    {
+      "title": "Zadání pro spolužáka",
+      "text": "Nakresli do soustavy souřadnic vlastní obrázek a vypiš souřadnice jeho vrcholů pro spolužáka. Předtím si nech zkontrolovat, jestli máš u všech bodů dobře pořadí x a y."
+    }
+  ]
+}

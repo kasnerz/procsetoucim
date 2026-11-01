@@ -1,0 +1,74 @@
+{
+  "outcome": "JJK-AJA-002-ZV9-011",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicke-vypraveni-zazitku",
+      "title": "Vyprávění zážitku anglicky",
+      "aliases": ["last weekend anglicky", "co jsem dělal o víkendu", "popis zážitku v angličtině", "příběh anglicky", "story"],
+      "sources": [
+        {"level": "Na začátku", "quote": "S pomocí modelových příkladů a podpůrných otázek vypráví nebo popíše svůj nebo cizí zážitek."},
+        {"level": "Na cestě", "quote": "S využitím textové osnovy popíše svůj nebo cizí zážitek."},
+        {"level": "Splněno", "quote": "Vypráví nebo popíše svůj nebo cizí zážitek"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ukáže vzorový příběh a zeptá se tě na detaily. Pak opraví věty, které napíšeš."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš modelové příběhy a fráze pro vyprávění v minulém čase."},
+        "aplikace": {"verdict": "pomuze", "why": "Kontrola pravopisu a překladač ti pomůžou s chybami a chybějícím slovem."},
+        "klasicky": {"verdict": "pomuze", "why": "Slovníkem na papíře dohledáš slova, která ti v příběhu chybí."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": ["Příběh na základě ilustrací"]
+    },
+    {
+      "slug": "anglicke-casove-a-spojovaci-vyrazy",
+      "title": "Časové a spojovací výrazy anglicky",
+      "aliases": ["first then finally", "after that", "when anglicky", "jak spojit věty anglicky", "linking words"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Vyjadřuje se v jednoduchých, krátkých větách."},
+        {"level": "Na cestě", "quote": "Používá jednoduché časové a spojovací výrazy, aby zajistil logickou návaznost mezi událostmi."},
+        {"level": "Splněno", "quote": "za pomoci vhodných časových a spojovacích výrazů k podpoře logické návaznosti mezi událostmi"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, kdy použít then, after that nebo while, a opraví tvoje spojení vět."},
+        "internet": {"verdict": "pomuze", "why": "Jazyková příručka ukáže seznam spojovacích slov s příklady."},
+        "aplikace": {"verdict": "pomuze", "why": "Kontrola textu upozorní na chyby ve větách, které spojuješ."},
+        "klasicky": {"verdict": "pomuze", "why": "Slovník nebo učebnice na papíře ukážou spojky a časová slova."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": ["Příběh na základě ilustrací"]
+    },
+    {
+      "slug": "anglicke-otazky-a-odpovedi",
+      "title": "Časté otázky a odpovědi anglicky",
+      "aliases": ["how are you", "what is your name", "ptát se anglicky", "otázky v angličtině", "questions and answers"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Klade otázky, se kterými se opakovaně setkal, a odpovídá na ně."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vede s tebou rozhovor, ptá se a opraví tvoje odpovědi."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš seznamy běžných otázek a odpovědí s ukázkami."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace na procvičování slovíček a frází tě otázky naučí na kartičkách."},
+        "klasicky": {"verdict": "nepomuze", "why": "Ptát se a odpovídat musíš ty, papírový slovník otázky nevede."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

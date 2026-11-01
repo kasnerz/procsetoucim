@@ -1,0 +1,85 @@
+{
+  "outcome": "INF-INF-002-ZV9-008",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Testuje různé části programu, provádí drobné úpravy pro zlepšení funkčnosti a efektivnosti.",
+      "cards": [
+        "zkouseni-casti-a-celeho-programu",
+        "oprava-a-prepracovani-programu",
+        "efektivita-reseni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Otestuje celý program, najde případné chyby (např. chybná podmínka nebo opakování) a opraví je.",
+      "cards": [
+        "zkouseni-casti-a-celeho-programu",
+        "pricina-chyby-v-programu",
+        "oprava-a-prepracovani-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Opakovaně prochází svůj postup či program a ověřuje správnost výsledků.",
+      "cards": [
+        "overovani-vysledku-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Průběžně testuje starší i právě upravené části programu s různými vstupy, všímá si selhání programu a rozporů mezi chováním programu a očekáváním nebo zadáním pro program, odhaluje příčiny chyb.",
+      "cards": [
+        "zkouseni-casti-a-celeho-programu",
+        "rozpor-programu-a-zadani",
+        "pricina-chyby-v-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Identifikuje nedostatky postupu i jeho popisu a navrhuje opravy.",
+      "cards": [
+        "nedostatky-postupu-a-popisu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Hodnotí efektivitu svého řešení, podle potřeby navrhuje vylepšení.",
+      "cards": [
+        "efektivita-reseni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Odladí program, aby pracoval správně – systematicky nachází chybná místa programu a opravuje je, přepracovává části programu.",
+      "cards": [
+        "pricina-chyby-v-programu",
+        "oprava-a-prepracovani-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Testuje prototypy programu s uživateli, aby ověřoval a vylepšoval jeho použitelnost.",
+      "cards": [
+        "testovani-programu-s-uzivateli"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Ověřuje správnost navrhovaných postupů s cílem opravit chyby.",
+      "cards": [
+        "overovani-vysledku-programu"
+      ],
+      "aside": null
+    }
+  ]
+}

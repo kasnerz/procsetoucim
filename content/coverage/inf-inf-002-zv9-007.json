@@ -1,0 +1,138 @@
+{
+  "outcome": "INF-INF-002-ZV9-007",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Sestaví program s více kroky, kombinuje různé typy bloků a zvažuje správné pořadí kroků pro splnění zadání.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bloky-programovani-sestaveni-programu"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Používá opakování v programu ke zjednodušení kódu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bloky-programovani-opakovani-cyklus"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vytvoří podprogramy pro opakující se části programu, vysvětlí jejich výhody pro přehlednost a efektivitu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bloky-programovani-podprogramy"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznamuje se složitějšími hotovými programy a na vymezených místech upravuje jejich chování; postupně narůstá obtížnost různých aspektů jeho práce.",
+      "cards": [
+        "blokove-programy-uprava-hotovych-programu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznamuje se s dalšími bloky a s možnostmi jejich vzájemného ovlivňování a kombinování a rozšiřuje tak možnosti svých programů.",
+      "cards": [
+        "blokove-programy-dalsi-bloky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Krokuje programy s proměnnými, sleduje vývoj jejich hodnot, hodnotí přínosy jejich použití; první pokusy s proměnnými jsou vedeny, postupně žák iniciativu přebírá a samostatně rozpoznává, že si program má něco pamatovat, jaké to budou hodnoty, jakým způsobem se bude hodnota proměnné měnit.",
+      "cards": [
+        "blokove-programy-promenne"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zdrojový kód žák postupně uspořádává, přidává komentáře, zvažuje rovnováhu mezi rychlostí implementace, přehledností a úsporností kódu.",
+      "cards": [
+        "blokove-programy-prehledny-kod"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Všímá si a hodnotí uživatelskou přívětivost jiných programů a služeb.",
+      "cards": [
+        "blokove-programy-uzivatelska-privetivost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznamuje se s příklady důsledků jiných programů a služeb, včetně těch obecně neočekávaných, zvažuje dopady na sebe.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhne strukturu budoucího programu, tj. rozdělení programu na jednotlivé části, opakovaně využívá již hotové části zdrojových kódů.",
+      "cards": [
+        "blokove-programy-struktura-a-hotove-casti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Využívá různé formy opakování, zejména opakování s pevným počtem a opakování s ukončovací podmínkou, větvení programu.",
+      "cards": [
+        "blokove-programy-opakovani-s-podminkou",
+        "blokove-programy-vetveni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná potřebu využití proměnných, správně naprogramuje nastavení počátečních hodnot a průběžné úpravy i využití hodnot proměnných.",
+      "cards": [
+        "blokove-programy-promenne"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytváří přehledný a snadno čitelný kód, využívá vhodná pojmenování podprogramů i proměnných a komentáře, zvažuje rovnováhu mezi rychlostí prvotní implementace, přehledností a úsporností kódu.",
+      "cards": [
+        "blokove-programy-prehledny-kod"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytváří uživatelsky přívětivé programy.",
+      "cards": [
+        "blokove-programy-uzivatelska-privetivost"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zvažuje dopady svých programů na jejich uživatele, promýšlí možné neočekávané důsledky.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    }
+  ]
+}

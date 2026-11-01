@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tady se konstrukce dostávají ze sešitu ven: kam postavit lavičku, aby byla stejně daleko od dvou cest, nebo jak najít místo pro lampu, která má osvítit tři rohy zahrady. Zadání ze života nikdo nenakreslí za tebe, musíš ho nejdřív převést na body, přímky a kružnice. Kdo navrhuje rozvody elektřiny v domě nebo seřizuje soustruh podle výkresu, dělá takový převod každý den, jen s přesnějšími nástroji. Chatbot ti úloh vymyslí, kolik chceš, a geometrický program ověří výsledek, ale rozhodnout, co je v úloze bod a co přímka, musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Úloha z vlastního okolí",
+      "text": "Popiš chatbotovi své hřiště nebo zahradu a požádej o konstrukční úlohu, která se tam dá řešit. Narýsuj ji v měřítku na papír."
+    },
+    {
+      "title": "Plánek pokoje v měřítku",
+      "text": "Narýsuj plánek svého pokoje v měřítku a nech chatbota přepočítat rozměry na skutečné. Výsledky porovnej s vlastním výpočtem, chatbot se u čísel může splést."
+    },
+    {
+      "title": "Převod zadání na geometrii",
+      "text": "Nech si vymyslet slovní úlohu, třeba o stožáru stejně vzdáleném od tří domů, a napiš, které body, přímky a kružnice v ní vidíš. Teprve potom se zeptej, jestli je převod správně."
+    }
+  ]
+}

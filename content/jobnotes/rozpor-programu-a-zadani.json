@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "106f79e4-6264-45f1-9e7a-297435cd684b": "Zadání říká, co má aplikace umět, a test ukazuje, co umí. Každý rozdíl se zapisuje jako chyba, aby ho vývojáři mohli opravit.",
+  "52d5edc9-7902-4cd3-8b06-6bd77c98d440": "Systém se porovnává s požadavky klienta a rozpory se hlásí vývojářům. Nové funkce se nevymýšlejí, ověřuje se, jestli je splněno, co se domluvilo.",
+  "5979893a-0a30-447b-8f33-1ea405600583": "Když se chování součásti liší od návrhu, hledá se důvod, ať je v mechanice nebo v softwaru. Je to jedna z částí konstrukční práce.",
+  "02eb0ae6-ecdd-4602-9c8e-60ffe6dbe1e2": "Zařízení musí splnit potřeby zákazníků a předpisy. Při zkouškách se hlídá, jestli výsledek odpovídá tomu, co se slíbilo, ale návrh sítí je důležitější.",
+  "a79170ad-0b7b-4697-864f-1748359aa10a": "Produkt se porovnává s tím, co se plánovalo, a rozdíly se řeší v harmonogramu. Samotné testování dělají jiní, tady se z výsledků vychází.",
+  "d84bf1d7-ef99-40c4-a407-3791d6531b44": "Systém se zkouší podle požadavků uživatelů. Když to nesedí, hledá se, kde vznikl rozdíl, ať je to instalace, nebo nastavení.",
+  "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d": "Zkouší se, jestli bezpečnostní opatření dělá to, co se čeká. Rozpor se zadáním se tu zjišťuje občas, hlavní je návrh a školení.",
+  "b37d15b3-402e-4792-8292-f18c0de7aca6": "Při diagnostice poruchy se zjišťuje, co zařízení dělá a co má dělat podle požadavků uživatele. Rozdíl pak ukazuje, co opravit."
+ }
+}

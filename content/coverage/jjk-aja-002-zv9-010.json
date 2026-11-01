@@ -1,0 +1,68 @@
+{
+  "outcome": "JJK-AJA-002-ZV9-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Stručně popíše své pocity, představy, přání a ambice s pomocí poskytnuté slovní zásoby a podpůrných otázek.",
+      "cards": [
+        "anglicky-popis-pocitu",
+        "anglicky-prani-sny-a-ambice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Popíše své pocity, představy, přání a ambice s pomocí podpůrných otázek.",
+      "cards": [
+        "anglicky-popis-pocitu",
+        "anglicky-prani-sny-a-ambice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Popisované pocity, představy, přání a ambice jednoduše zdůvodní.",
+      "cards": [
+        "anglicke-zduvodneni-pocitu-a-prani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše, jak se cítí, jaké má představy, přání a ambice.",
+      "cards": [
+        "anglicky-popis-pocitu",
+        "anglicky-prani-sny-a-ambice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popisované skutečnosti umí doplnit o kontext (např. o důvody nebo příčiny).",
+      "cards": [
+        "anglicke-zduvodneni-pocitu-a-prani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše a zdůvodní svůj pocit v konkrétní situaci.",
+      "cards": [
+        "anglicke-zduvodneni-pocitu-a-prani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Dopíše jednoduché informace do krátkého textu, který se týká osvojovaných témat.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "doplneni-slov-do-anglickeho-textu"
+        ]
+      }
+    }
+  ]
+}

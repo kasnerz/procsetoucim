@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Uvedený zdroj ukazuje, odkud informace máš, a učitel nebo spolužák si ji podle něj může dohledat a zkontrolovat. Zároveň je vidět, co je tvoje práce a co pochází od někoho jiného, a nikdo tě nepodezírá z opisování. Na střední a vysoké škole se bez zápisu zdrojů neobejde žádná seminární práce. Citační generátor ti zápis sestaví, ale údaje do něj musíš vzít ze skutečného zdroje, a protože chatbot si zdroje občas vymýšlí, každý jeho odkaz otevři a ověř.",
+  "learnWithAi": [
+    {
+      "title": "Ověření odkazů od chatbota",
+      "text": "Požádej chatbota o tři zdroje k tématu tvého referátu a každý zkus otevřít nebo najít v knihovně. Zapiš si, které existují a které si vymyslel."
+    },
+    {
+      "title": "Zápis knihy z tiráže",
+      "text": "Opiš z tiráže knihy, kterou máš doma, autora, název, rok a vydavatele a sestav z nich zápis zdroje podle vzoru ze školy. Chatbotovi ho dej ke kontrole, jestli nic nechybí."
+    },
+    {
+      "title": "Jednotný seznam zdrojů",
+      "text": "Vlož do chatbota seznam zdrojů ze své prezentace a zeptej se, kde zápisy nejsou jednotné. Opravy udělej podle údajů na skutečných stránkách."
+    }
+  ]
+}

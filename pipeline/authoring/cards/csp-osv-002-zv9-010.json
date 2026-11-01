@@ -1,0 +1,409 @@
+{
+  "outcome": "CSP-OSV-002-ZV9-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "emoce9-pojmenovani-a-zmeny-prozivani",
+      "title": "Pojmenování emocí a změn prožívání",
+      "aliases": [
+        "jak se cítím",
+        "pojmenovat emoce",
+        "kolo emocí",
+        "změna nálady",
+        "barvy emocí"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "zkouší pojmenovat základní i komplexnější emoce"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "všímá si změn svého prožívání"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi podobnými emocemi a nabídne slova, která hledáš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy a kola emocí ti dají slova pro to, co cítíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Deník nálad ti ukáže, jak se tvoje prožívání mění."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Co právě cítíš, poznáš jen ty, papír a tužka to nezjistí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+      ],
+      "inspiration": [
+        "Barvy emocí"
+      ]
+    },
+    {
+      "slug": "emoce9-emoce-druhych-ve-svete-i-online",
+      "title": "Poznání emocí druhých ve škole i online",
+      "aliases": [
+        "jak poznám, že je někdo naštvaný",
+        "emoce v chatu",
+        "mimika",
+        "řeč těla",
+        "tvář hráče pokeru"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "popisuje, jak se projevují emoce dalších lidí v jeho okolí"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Identifikuje vlastní emoce a emoce druhých v různých situacích ve fyzickém a digitálním prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se emoce projevují v mimice a v psaných zprávách, a ukáže příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a videa popisují mimiku, gesta a tón hlasu při různých emocích."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace na rozpoznání tváře neví, co ten druhý prožívá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Emoce druhého vnímáš ty, očima, uchem a ve vztahu k němu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+      ],
+      "inspiration": [
+        "Tvář hráče pokeru",
+        "Divadlo emocí a reakcí"
+      ]
+    },
+    {
+      "slug": "emoce9-ucinnost-technik-regulace",
+      "title": "Zkoušení a hodnocení technik regulace emocí",
+      "aliases": [
+        "jak se uklidnit",
+        "zvládání vzteku",
+        "dýchání",
+        "kdy mi technika pomohla",
+        "když se rozzuřím"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "v modelových situacích zkouší způsoby regulace vlastních emocí"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Aplikuje účinné techniky regulace svých emocí."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zkouší způsoby projevení a regulace emocí, reflektuje jejich efektivitu a přínos"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše různé techniky uklidnění a pomůže ti srovnat, co se ti osvědčilo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popisy dechových a uvolňovacích cvičení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s dechovým cvičením tě vede krok za krokem."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Uklidnit se musíš ty, žádný nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a147904-22b3-498a-b4d9-7bceeb86b45d"
+      ],
+      "inspiration": [
+        "Když se rozzuřím"
+      ]
+    },
+    {
+      "slug": "emoce9-vsimavost-k-potrebam-v-kontaktu",
+      "title": "Všímavost k vlastním potřebám při rozhovoru s druhými",
+      "aliases": [
+        "všímavost",
+        "co teď potřebuju",
+        "mindfulness",
+        "vlastní potřeby"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uplatňuje všímavost ke svému emocionálnímu prožívání a potřebám v interakci s druhými."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co je všímavost, a navrhne krátká cvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popis cvičení všímavosti a seznam základních potřeb."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s meditací tě vede k pozornosti na dech a tělo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Všimnout si sebe při hovoru můžeš jen ty, přímo v tu chvíli."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "emoce9-porozumeni-emocim-druheho",
+      "title": "Vyjádření porozumění emocím druhého",
+      "aliases": [
+        "jak ukázat, že rozumím",
+        "empatie",
+        "reakce na naštvaného kamaráda",
+        "nekonfliktní reakce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje, jak zohledňuje emocionální prožívání druhého v komunikaci (vyjádřením porozumění emocím druhého apod.)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozpoznává emoce druhých a zkouší na ně reagovat nekonfliktními způsoby"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "reflektuje, jak na něj emoce dalších lidí v okolí působí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne věty, kterými vyjádříš porozumění, a pomůže ti zamyslet se nad rozhovorem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tipy na empatické věty a nekonfliktní komunikaci."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe druhému neporozumí ani nezareaguje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Reagovat na druhého musíš ty, hlasem a tváří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": [
+        "Věcná a osobní rovina komunikace v situacích problému"
+      ]
+    },
+    {
+      "slug": "emoce9-emoce-a-potreby-v-modelovych-situacich",
+      "title": "Emoce a potřeby lidí v modelové situaci",
+      "aliases": [
+        "co asi cítí postava",
+        "modelová situace",
+        "příčiny a důsledky emocí",
+        "proč se tak zachoval",
+        "divadlo emocí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích popíše pravděpodobné emocionální prožívání a potřeby jejich aktérů a svůj názor zdůvodní."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "v modelových a dalších učebních situacích rozpoznává emoce své i druhých a zvažuje jejich příčiny i důsledky v jednání"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere příběh z různých pohledů a zeptá se, proč si to myslíš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš seznam základních lidských potřeb a příklady situací."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace úvahu o aktérech nenahradí, zdůvodnit ji musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zdůvodnění svého názoru říkáš a obhajuješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+      ],
+      "inspiration": [
+        "Divadlo emocí a reakcí"
+      ]
+    },
+    {
+      "slug": "emoce9-neuspokojene-potreby",
+      "title": "Důsledky dlouhodobě neuspokojených potřeb",
+      "aliases": [
+        "co se stane, když něco dlouho chybí",
+        "základní potřeby",
+        "únava a stres",
+        "potřeba bezpečí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na příkladu pojmenuje možné důsledky dlouhodobého neuspokojení základních lidských potřeb v prožívání a chování"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak chybějící spánek, jistota nebo přátelé ovlivňují chování."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš texty o základních potřebách a jejich nedostatku."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti důsledky ukázat nemůže, vybereš příklad a rozebereš ho ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Příklad vybíráš a rozebíráš ty, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "emoce9-emocni-bezpeci-ve-skupine",
+      "title": "Chování, které dělá třídu bezpečnou",
+      "aliases": [
+        "bezpečná třída",
+        "emoční bezpečí",
+        "jak podpořit dobré vztahy",
+        "respekt ve třídě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje, jaké chování přispívá k emocionálnímu bezpečí ve skupině (např. ve školní třídě), a navrhuje způsoby, jak toto chování podpořit."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zkouší přispět k emocionálního bezpečí ve třídě (respekt k potřebám druhých, empatická komunikace atd.)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá příklady chování, které podporuje důvěru, a pomůže ti sepsat nápady pro třídu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky pravidel třídy a programů proti šikaně."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace atmosféru ve třídě nezlepší, tu tvoří lidé."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Třídu dělají bezpečnou činy kamarádů, ne nástroj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Rozlišuje své emoce",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

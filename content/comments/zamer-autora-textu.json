@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Každý text někdo napsal s nějakým cílem: chce tě informovat, přesvědčit, pobavit nebo ti něco prodat. Když záměr poznáš, víš, jak na text reagovat, třeba jestli reklamě věřit nebo jak odpovědět na naštvaný e-mail. Kdo odpovídá lidem v zákaznickém chatu, musí z pár řádků poznat, jestli se pisatel zlobí, nebo jen něco potřebuje. Chatbot ti ukáže, podle čeho se záměr pozná, ale u zpráv z tvého okolí, třeba ve třídní skupině, víš o pisateli víc než on.",
+  "learnWithAi": [
+    {
+      "title": "Hádání záměru z ukázek",
+      "text": "Požádej chatbota o pět krátkých textů s různým záměrem, třeba reklamu, stížnost nebo pozvánku. U každého napiš, o co autorovi šlo, a teprve pak si nech říct, jak to bylo myšleno."
+    },
+    {
+      "title": "Naštvaný e-mail od souseda",
+      "text": "Nech chatbota napsat rozzlobený e-mail od souseda kvůli hluku. Urči, co pisatel doopravdy chce, a napiš odpověď, která na to reaguje."
+    },
+    {
+      "title": "Spor o záměr letáku",
+      "text": "Vezmi skutečný článek nebo leták a napiš chatbotovi, jaký záměr podle tebe má. Ať ti oponuje a ukáže místa, která by mohla svědčit pro jiný záměr."
+    }
+  ]
+}

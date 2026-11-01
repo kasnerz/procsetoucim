@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Osa úsečky, osa úhlu a úhel 60° jsou stavební kameny, ze kterých se skládají další konstrukce, třeba střed kružnice opsané trojúhelníku nebo pravidelný šestiúhelník. Když je rýsuješ kružítkem, pochopíš, proč postup funguje, a to ti zůstane, i když později budeš kreslit v počítači. Kdo kreslí stavební plány nebo navrhuje strojní součástky, pracuje dnes hlavně v programech, ale s pojmy jako osa, kolmice a přesný úhel zachází denně. Geometrický program konstrukci udělá za vteřinu, jenže zadat ji správně a všimnout si chyby dokážeš, jen když jí rozumíš.",
+  "learnWithAi": [
+    {
+      "title": "Vysvětlení osy úsečky",
+      "text": "Zeptej se chatbota, proč má každý bod na ose úsečky stejnou vzdálenost od obou krajních bodů. Chtěj vysvětlení obyčejnými slovy a zkus ho pak říct spolužákovi."
+    },
+    {
+      "title": "Kontrola slovního postupu",
+      "text": "Napiš chatbotovi, jak sestrojíš úhel 60°, a nech ho najít krok, který v postupu chybí. Podle opraveného postupu pak rýsuj na papír."
+    },
+    {
+      "title": "Šestiúhelník z úhlu 60°",
+      "text": "Požádej o úlohu, ve které z úhlu 60° a os poskládáš pravidelný šestiúhelník nebo úhel 30°. Narýsuj ji a výsledek zkontroluj úhloměrem."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "hledani-informace-v-knihach-i-na-internetu",
+      "title": "Hledání informace v tištěných i online zdrojích",
+      "aliases": ["hledání informací", "vyhledávání na internetu", "encyklopedie", "knihovna", "referát"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Vyhledá a posoudí stanovenou informaci"},
+        {"level": "Na začátku", "quote": "vyhledá informace v několika tištěných i elektronických zdrojích"},
+        {"level": "Splněno", "quote": "Vyhledá informaci v tištěných i elektronických zdrojích"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Poradí, kde a jak hledat, a pomůže s vhodnými hesly k hledání."},
+        "internet": {"verdict": "pomuze", "why": "Vyhledávač a online encyklopedie ti dají zdroje, ze kterých hledáš."},
+        "aplikace": {"verdict": "pomuze", "why": "Katalog knihovny a vyhledávací aplikace najdou knihy i články na téma."},
+        "klasicky": {"verdict": "pomuze", "why": "Encyklopedie a slovník na polici dají informaci bez internetu."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"],
+      "inspiration": ["Encyklopedie - metoda I.N.S.E.R.T."]
+    },
+    {
+      "slug": "overeni-informace-srovnanim-zdroju",
+      "title": "Ověření informace srovnáním zdrojů",
+      "aliases": ["je to pravda", "ověřování informací", "důvěryhodný zdroj", "porovnání zdrojů", "fakta"],
+      "sources": [
+        {"level": "Splněno", "quote": "porovná ji s jinými zdroji, posoudí důvěryhodnost zdroje"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Může si vymyslet nepravdivé údaje, a tak ověřování musíš dělat ty."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš tu víc zdrojů vedle sebe a uvidíš, kdo informaci vydává."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace sama nepozná, komu věřit, srovnávat zdroje musíš ty."},
+        "klasicky": {"verdict": "pomuze", "why": "Encyklopedie a odborná kniha dají zdroj, se kterým porovnáš nalezenou informaci."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"],
+      "inspiration": ["Vyhledávání, kritické posuzování a sdílení informací"]
+    },
+    {
+      "slug": "jak-vyhledavace-a-titulky-ovlivnuji-vnimani",
+      "title": "Jak vyhledávač a titulky ovlivňují, co vnímáš",
+      "aliases": ["algoritmus", "pořadí výsledků", "titulky", "zabarvená slova", "bublina"],
+      "sources": [
+        {"level": "Splněno", "quote": "odhalí a vysvětlí manipulaci s informacemi"}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, jak řazení výsledků funguje, a ukáže příklady zabarvených titulků."},
+        "internet": {"verdict": "pomuze", "why": "Můžeš porovnat, jak stejnou zprávu nadepsaly různé weby."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace ti zprávy jen řadí, jak funguje výběr, ti neukáže."},
+        "klasicky": {"verdict": "nepomuze", "why": "Tištěné noviny i zápisník ti vliv algoritmů neukážou."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"],
+      "inspiration": ["Vyhledávání, kritické posuzování a sdílení informací"]
+    },
+    {
+      "slug": "ukladani-ziskanych-informaci",
+      "title": "Ukládání nalezených informací",
+      "aliases": ["poznámky", "výpisky", "myšlenková mapa", "textový editor", "ukládání"],
+      "sources": [
+        {"level": "Splněno", "quote": "Ukládá si získané informace (písemně, do textového editoru, do připravované prezentace, myšlenkové mapy podle svých preferencí)"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Co si zapíšeš, musíš vybrat ty, chatbot ti poznámky jen zkrátí."},
+        "internet": {"verdict": "nepomuze", "why": "Hotové výpisky tě nenaučí vybrat si to podstatné."},
+        "aplikace": {"verdict": "pomuze", "why": "Textový editor a aplikace na mapy myšlenek udrží poznámky pohromadě."},
+        "klasicky": {"verdict": "pomuze", "why": "Sešit, tužka a kartičky ti poznámky uloží bez počítače."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/5fd5c985-eaaa-47aa-8314-62359c54505a"],
+      "inspiration": []
+    },
+    {
+      "slug": "uvadeni-zdroju-informaci",
+      "title": "Uvedení zdrojů informací",
+      "aliases": ["citace", "zdroje", "citační generátor", "odkaz na zdroj", "seznam literatury"],
+      "sources": [
+        {"level": "Na začátku", "quote": "uvede jejich název zdrojů"},
+        {"level": "Na cestě", "quote": "odkazuje na zdroje informací, např. názvem zdroje a odkazem"},
+        {"level": "Splněno", "quote": "Odkazuje na zdroje informací (např. s pomocí citačních generátorů)"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Zdroje si občas vymýšlí, takže je musíš zapsat podle skutečného zdroje."},
+        "internet": {"verdict": "pomuze", "why": "Ukáže, jak se zdroj zapisuje, a zdroj s autorem a adresou najdeš na stránce."},
+        "aplikace": {"verdict": "pomuze", "why": "Citační generátor ze zadaných údajů sestaví správný zápis zdroje."},
+        "klasicky": {"verdict": "nepomuze", "why": "Tužka a sešit zdroj zapíšou, ale zápis ti nepomohou sestavit."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/4fea6307-bdc0-423d-ad63-c61755c14522"],
+      "inspiration": []
+    },
+    {
+      "slug": "autorska-prava-obrazku-videi-a-hudby",
+      "title": "Autorská práva obrázků, videí a hudby",
+      "aliases": ["autorský zákon", "cizí obrázky", "licence", "stahování hudby", "copyright"],
+      "sources": [
+        {"level": "Splněno", "quote": "zohledňuje autorská práva obrázků, videí a hudby"}
+      ],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, co smíš použít a co ne, ale ověř si to u zdroje."},
+        "internet": {"verdict": "pomuze", "why": "U obrázků a hudby najdeš licenci, která říká, co s nimi smíš."},
+        "aplikace": {"verdict": "pomuze", "why": "Vyhledávání obrázků umí filtrovat jen ty, které smíš použít."},
+        "klasicky": {"verdict": "nepomuze", "why": "Tužka ani sešit tu nic nevyřeší, jde o pravidla a licence."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/e2103a1d-4a84-47a9-b4f7-774787573449"],
+      "inspiration": []
+    },
+    {
+      "slug": "predani-informaci-podle-posluchacu",
+      "title": "Sdílení a prezentace informací podle posluchačů",
+      "aliases": ["prezentace", "referát", "představit spolužákům", "komu to říkám", "mluvený projev"],
+      "sources": [
+        {"level": "Splněno", "quote": "Sdílí nebo prezentuje informace s ohledem na situaci a na posluchače nebo čtenáře"},
+        {"level": "Na cestě", "quote": "získané informace prezentuje"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Poradí, jak stejnou věc říct spolužákům a jak dospělým, a zkontroluje ti osnovu."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš tu ukázky dobrých prezentací a rady, jak mluvit k publiku."},
+        "aplikace": {"verdict": "pomuze", "why": "Prezentační program ti pomůže uspořádat slajdy a obrázky."},
+        "klasicky": {"verdict": "pomuze", "why": "Plakát a kartičky s hesly ti pomůžou při mluvení před třídou."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"],
+      "inspiration": []
+    },
+    {
+      "slug": "ktere-informace-se-hodi-sdilet",
+      "title": "Které informace sdílet a které si nechat",
+      "aliases": ["soukromí", "osobní údaje", "co zveřejnit", "sdílení na internetu", "bezpečnost na sítích"],
+      "sources": [
+        {"level": "Splněno", "quote": "Vysvětlí, které informace jsou pro sdílení vhodné a které ne"}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí rizika sdílení osobních údajů a probere s tebou příklady."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš tu rady o bezpečném chování online a o ochraně soukromí."},
+        "aplikace": {"verdict": "nepomuze", "why": "Co zveřejnit, rozhoduješ ty, aplikace ti to nerozmyslí."},
+        "klasicky": {"verdict": "nepomuze", "why": "Tady žádný klasický nástroj nemá co nabídnout."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb"],
+      "inspiration": []
+    }
+  ],
+  "aside": [{"level": "Na cestě", "start": "vyhledá informaci v tištěných i elektronických zdrojích, ověří", "code": "O1", "refs": ["zpravy-fakt-a-nazor-ve-zprave", "overovani-dat-z-vice-zdroju"]}, {"level": "Na cestě", "start": "vysvětlí, jakým způsobem ovlivňují", "code": "O1", "refs": ["zpravy-zamer-autora-sdeleni"]}, {"level": "Na cestě", "start": "ukládá si získané informace", "code": "O3", "refs": []}]
+}

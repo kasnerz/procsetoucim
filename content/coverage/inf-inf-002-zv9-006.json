@@ -1,0 +1,144 @@
+{
+  "outcome": "INF-INF-002-ZV9-006",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Pojmenuje problém, určí potřebné vstupy a výstupy a vysvětlí jejich vztahy.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "algoritmus-problem-vstupy-vystupy"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Rozdělí problém na menší části, sestaví kroky do logické posloupnosti a zváží různé možnosti.",
+      "cards": [
+        "rozklad-problemu-na-casti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Použije symboly k vytvoření přesnějšího a strukturovaného zápisu algoritmu a otestuje jeho funkčnost.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "algoritmus-zapis-sipky-symboly"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vyhodnotí různé postupy, vysvětlí své volby a navrhne, jak postupy zlepšit.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "algoritmus-porovnani-postupu"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozkládá problém řešitelný posloupností navazujících jednoduchých kroků se zřetelným a jednoznačným pořadím a triviální návazností (např. cesta na mapě).",
+      "cards": [
+        "rozklad-problemu-na-casti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Popisuje vztahy a závislosti souvisejících dílčích problémů (např. při vaření složitějšího pokrmu)",
+      "cards": [
+        "zavislosti-dilcich-problemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "pod vedením učitele posuzuje, jaká míra rozdělení problému stačí.",
+      "cards": [
+        "miry-rozdeleni-problemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Volí a využívá vhodný způsob zápisu postupu (grafický, slovní, různé kombinace).",
+      "cards": [
+        "zapis-postupu-podle-situace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vybere z více možností vhodný algoritmus pro řešený problém a svůj výběr zdůvodní.",
+      "cards": [
+        "vyber-pristupu-a-nastroju-pro-casti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Z částečných řešení sestaví úplný popis postupu řešení původního problému.",
+      "cards": [
+        "slozeni-celkoveho-reseni-z-casti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Podrobně analyzuje problém, rozhoduje o důležitosti různých okolností a o kritériích kvality řešení, určí vstupy a výstupy, nachází kroky či stavy, kterými bude nutné projít.",
+      "cards": [
+        "analyza-problemu-kriteria-kvality"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozloží složitější problém na hierarchii fází nebo částí až po jednoduché kroky, včetně určení jejich vzájemných závislostí a posloupnosti.",
+      "cards": [
+        "rozklad-problemu-na-casti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Posuzuje, jaká míra rozdělení problému stačí, při možnosti různého rozkladu hodnotí a vybírá ten, který vidí v dané situaci jako nejvhodnější.",
+      "cards": [
+        "miry-rozdeleni-problemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhuje různé přístupy, nástroje a z nich plynoucí varianty postupů řešení pro jednotlivé fáze (části) problému, rozhoduje se pro ty nejvhodnější, vhodným způsobem postupy zapisuje.",
+      "cards": [
+        "vyber-pristupu-a-nastroju-pro-casti",
+        "zapis-postupu-podle-situace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Z částečných řešení sestaví úplný popis postupu řešení původního problému.",
+      "cards": [
+        "slozeni-celkoveho-reseni-z-casti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozdělí problém na jednotlivé řešitelné části a popíše postupy k jejich řešení.",
+      "cards": [
+        "rozklad-problemu-na-casti"
+      ],
+      "aside": null
+    }
+  ]
+}

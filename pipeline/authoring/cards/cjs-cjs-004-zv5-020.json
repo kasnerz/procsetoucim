@@ -1,0 +1,345 @@
+{
+  "outcome": "CJS-CJS-004-ZV5-020",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "material-beznych-predmetu",
+      "title": "Materiál běžných předmětů",
+      "aliases": [
+        "z čeho je to vyrobené",
+        "dřevo sklo plast kov",
+        "materiály",
+        "druhy materiálů",
+        "z jakého materiálu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše u běžných předmětů, z jakého jsou materiálu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak poznat dřevo, sklo, kov a plast, a vyzkouší tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie ukáže, z čeho se běžné věci vyrábějí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti materiál předmětu na stole neurčí, sáhnout si musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Magnet, lupa a vlastní ruce ukážou, jestli je věc kovová, hladká nebo tvrdá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/26514334-a6b2-47d6-ae86-490f5ee972f7"
+      ],
+      "inspiration": [
+        "Zkoumání vlastností látek"
+      ]
+    },
+    {
+      "slug": "porovnani-pevnych-latek-a-kapalin",
+      "title": "Vlastnosti pevných látek a kapalin",
+      "aliases": [
+        "pevné látky a kapaliny",
+        "tvrdost a tekutost",
+        "vlastnosti látek",
+        "porovnání látek",
+        "co umí kapalina"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Porovná vlastnosti vybraných zástupců pevných látek a kapalin."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Porovná základní vlastnosti látek na základě vlastních pokusů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč kapalina teče a kámen ne, a pomůže sestavit tabulku."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie dá přehled vlastností, se kterými své zjištění porovnáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka v tabulkovém programu srovná zapsané vlastnosti více látek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Váha, odměrka a lupa ukážou rozdíly mezi vodou, olejem, kamenem a dřevem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44",
+        "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303"
+      ],
+      "inspiration": [
+        "Zkoumání vlastností látek"
+      ]
+    },
+    {
+      "slug": "overeni-vlastnosti-latky-pokusem",
+      "title": "Ověření vlastnosti látky pokusem",
+      "aliases": [
+        "pokus s látkami",
+        "experiment",
+        "ověřit vlastnost",
+        "školní pokus",
+        "co se stane když"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Ověří experimentálně vybrané vlastnosti látek."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot poradí, co zkusit a jak poznat, že pokus dopadl jinak, než čekáš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody na jednoduché pokusy dají nápad, co s látkami vyzkoušet."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pokus děláš rukama ty, aplikace ti látku nezvážila ani nezahřála."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Váha, teploměr a odměrka změří, co pokus ukázal."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+        "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc"
+      ],
+      "inspiration": [
+        "Zkoumání vlastností látek"
+      ]
+    },
+    {
+      "slug": "navrh-pokusu-se-skupenstvim",
+      "title": "Návrh a provedení pokusu se skupenstvím",
+      "aliases": [
+        "pokus se skupenstvím",
+        "tání ledu",
+        "zmražená voda",
+        "vlastní pokus",
+        "jak navrhnout pokus"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Navrhne a provede pokus týkající se daného skupenství."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot pomůže promyslet, co měnit a co měřit, a najde chybu v postupu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Popisy podobných pokusů ti ukážou, jak se postup zapisuje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pokus vymýšlíš a děláš ty, aplikace za tebe nic nezmrazí ani neroztaví."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr, hodiny a odměrka ukážou, co se při pokusu děje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+        "http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc"
+      ],
+      "inspiration": [
+        "Zmražené pokusy",
+        "Záhada mizející vody"
+      ]
+    },
+    {
+      "slug": "vyber-materialu-pro-predmet",
+      "title": "Výběr materiálu pro předmět",
+      "aliases": [
+        "proč je hrnek z keramiky",
+        "z čeho vyrobit",
+        "vhodný materiál",
+        "materiál na výrobu",
+        "proč je okno ze skla"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zdůvodní výběr látky (materiálu) pro výrobu konkrétních předmětů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot nabídne protiargumenty, když zdůvodňuješ, proč je kolo z kovu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie uvádí, jaké vlastnosti materiály mají a k čemu se používají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace materiál pro tvůj předmět nezdůvodní, o výběru přemýšlíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vlastním zkoušením materiálů zjistíš, který se pro věc hodí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/26514334-a6b2-47d6-ae86-490f5ee972f7",
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+      ],
+      "inspiration": [
+        "Zkoumání vlastností látek"
+      ]
+    },
+    {
+      "slug": "skupenstvi-vody-v-obehu",
+      "title": "Skupenství vody v oběhu vody",
+      "aliases": [
+        "oběh vody",
+        "koloběh vody",
+        "led pára voda",
+        "putování kapky",
+        "vypařování a srážení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše skupenství vody při oběhu vody na Zemi."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vypráví cestu kapky krok za krokem a ptá se, kdy je voda pára."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Schémata oběhu vody ukážou, kde je voda kapalná, pevná a plynná."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí aplikace ti dovolí schéma oběhu vody nakreslit a popsat."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papírový atlas obecně oběh nevysvětlí, schéma si kreslíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+      ],
+      "inspiration": [
+        "Putování kapky vody",
+        "Skupenství látek a změny skupenství"
+      ]
+    },
+    {
+      "slug": "priklady-latek-ve-skupenstvich",
+      "title": "Příklady látek v různých skupenstvích",
+      "aliases": [
+        "pevné kapalné plynné",
+        "skupenství látek",
+        "příklady látek",
+        "co je plyn",
+        "kámen voda vzduch"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady látek v různých skupenstvích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot zadá hru na třídění látek a vysvětlí, proč je těžké určit třeba dým."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie ukáže látky všech tří skupenství na obrázcích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Třídicí hra na telefonu ti dá látky, které řadíš podle skupenství."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj skupenství látek neurčí, přemýšlíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+      ],
+      "inspiration": [
+        "Skupenství látek a změny skupenství"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Třídí odpad podle materiálu.",
+      "code": "O1",
+      "refs": [
+        "trideni-odpadu-podle-materialu"
+      ]
+    }
+  ]
+}

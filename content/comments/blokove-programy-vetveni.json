@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Větvení dává programu možnost rozhodnout se: když postavička narazí na zeď, otočí se, jinak jde dál. Bez podmínek by se program choval pořád stejně, takže na nich stojí hry i stroje, které reagují na okolí. Stejnou logiku najdeš v pravidlech kolem sebe, třeba v podmínkách slevy nebo v návodu k pračce. Kdo vyvíjí software, píše podmínky každý den. Chatbot ti podmínku napíše, jestli ale pokrývá všechny případy, musíš umět posoudit ty, jinak se program v nečekané situaci zachová špatně.",
+  "learnWithAi": [
+    {
+      "title": "Pravidla z tvého dne",
+      "text": "Napiš chatbotovi pět pravidel ze svého dne ve tvaru když, tak, jinak, třeba o tom, co si vezmeš na sebe. Ať zkontroluje, jestli má každé pravidlo všechny větve."
+    },
+    {
+      "title": "Hádání cesty programu",
+      "text": "Nech chatbota popsat program s několika podmínkami v sobě a pro různé vstupy urči, co udělá. Odpovědi si ověř spuštěním v blokovém prostředí."
+    },
+    {
+      "title": "Zapomenutá větev",
+      "text": "Požádej chatbota o program s podmínkou, ve které jeden případ chybí, a najdi ho. Opravu postav a vyzkoušej v blokovém prostředí."
+    }
+  ]
+}

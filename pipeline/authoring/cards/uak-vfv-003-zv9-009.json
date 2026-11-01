@@ -1,0 +1,190 @@
+{
+  "outcome": "UAK-VFV-003-ZV9-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "predstaveni-umeleckeho-dila-ostatnim",
+      "title": "Představení uměleckého díla nebo osobnosti ostatním",
+      "aliases": [
+        "referát o obrazu",
+        "představit film",
+        "představit stavbu",
+        "prezentace o umělci",
+        "tvůrčí prezentace",
+        "videorecenze"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Představí ostatním výtvarné, architektonické nebo filmové dílo."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Tvůrčím způsobem prezentuje vybrané umělecké dílo, projev nebo osobnost."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Tvůrčím způsobem prezentuje vybrané umělecké dílo, projev nebo osobnost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vymyslet osnovu a nápady, jak dílo ukázat, text i vystoupení ale tvoříš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš obrázky, informace o autorovi a době, o kterých budeš mluvit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na prezentace, střih videa nebo koláže ti pomohou dílo hezky ukázat."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír, fixy a projektor ti pomohou ukázat dílo spolužákům."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+      ],
+      "inspiration": [
+        "Umělecké dílo v okolí",
+        "Videorecenze"
+      ]
+    },
+    {
+      "slug": "vlastni-postoj-k-umeleckemu-dilu",
+      "title": "Vlastní názor na umělecké dílo",
+      "aliases": [
+        "co si myslím o obrazu",
+        "líbí se mi film",
+        "hodnocení umění",
+        "můj názor na dílo",
+        "proč se mi to líbí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyjádří svůj postoj k vybranému uměleckému dílu, projevu nebo osobnosti"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vyjádřil svůj postoj k vybranému uměleckému dílu, projevu nebo osobnosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Co ti dílo říká, cítíš a vybíráš ty, chatbot má názor jen z cizích textů."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty o díle a o autorovi ti dají slova a souvislosti pro vlastní názor."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nerozhodne, co se ti líbí a proč."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dílo si prohlédneš a zhodnotíš ty, žádný nástroj to nepřevezme."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060",
+        "http://data.europa.eu/esco/skill/b71e3394-599c-4205-a592-1778e45626ec"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "porovnani-nazoru-diskuse-anketa",
+      "title": "Porovnání názorů: diskuse, dotazník, anketa",
+      "aliases": [
+        "anketa ve třídě",
+        "dotazník o umění",
+        "diskuse o filmu",
+        "porovnat názory",
+        "průzkum mezi spolužáky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "vhodnou formou (např. diskusí, dotazníkem, anketou) ho porovná s postoji ostatních."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vhodnou formou (např. diskusí, dotazníkem, anketou) svůj postoj k vybranému uměleckému dílu porovná s postoji ostatních."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže navrhnout otázky do ankety a poradí, jak odpovědi roztřídit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzory dotazníků a tipy, jak vést diskusi."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Formuláře a tabulky odpovědi sesbírají a spočítají."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír s tužkou ti poslouží k zápisu hlasů a odpovědí ve třídě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5f00bf83-f776-4488-b312-6725f8b6783a",
+        "http://data.europa.eu/esco/skill/9194696f-8a5a-4f7b-bf8a-a680da41c320"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Podělí se s ostatními o svůj zážitek",
+      "code": "O1",
+      "refs": [
+        "zazitek-z-kulturni-akce-vypraveni"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Uvede příklady kulturních institucí",
+      "code": "O1",
+      "refs": [
+        "kulturni-instituce-a-akce-v-okoli"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Uvede důvod, proč by svým spolužákům",
+      "code": "O1",
+      "refs": [
+        "doporuceni-kulturni-akce-kamaradum"
+      ]
+    }
+  ]
+}

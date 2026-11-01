@@ -1,0 +1,66 @@
+{
+  "outcome": "MAT-MAT-003-ZV9-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "najde a zakreslí body do kartézské soustavy souřadnic",
+      "cards": [
+        "body-v-soustave-souradnic"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "pojmenuje vzájemnou polohu bodů, přímek/úseček a rovin na modelu tělesa",
+      "cards": [
+        "poloha-bodu-primek-rovin-na-telese"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "narýsuje útvary do kartézské soustavy souřadnic a určí souřadnice",
+      "cards": [
+        "utvary-v-souradnicich-konstrukce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "modeluje a určí těleso na základě popisu",
+      "cards": [
+        "teleso-podle-popisu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Narýsuje útvary podle zadání kartézské soustavy souřadnic a určí souřadnice bodů zjištěných konstrukcí.",
+      "cards": [
+        "utvary-v-souradnicich-konstrukce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše a realizuje geometrické zobrazení (osová souměrnost, středová souměrnost, otočení, posunutí, podobnost) dvourozměrného obrazce v kartézském systému souřadnic.",
+      "cards": [
+        "osova-a-stredova-soumernost-v-souradnicich",
+        "posunuti-otoceni-a-podobnost-v-souradnicich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše polohu objektů v prostoru.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "poloha-v-prostoru-modely-teles"
+        ]
+      }
+    }
+  ]
+}

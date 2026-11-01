@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Najít chybu je polovina práce, druhá polovina je opravit ji tak, aby se nic dalšího nerozbilo. Někdy stačí změnit jeden znak v podmínce, jindy je lepší celou část přepsat, protože se v ní už nikdo nevyzná. Tohle každý den dělají lidé, kteří vyvíjejí software a hry, a hodí se to každému, kdo bude upravovat třeba vzorce v tabulce. Chatbot ti opravu navrhne rychle, ale musíš rozumět, proč funguje, jinak nepoznáš, kdy chybu jen schoval.",
+  "learnWithAi": [
+    {
+      "title": "Dvě opravy k porovnání",
+      "text": "Ukaž chatbotovi kus kódu s chybou, kterou už znáš, a nech si navrhnout dvě různé opravy. Vyber lepší z nich, zdůvodni proč a vyzkoušej ji."
+    },
+    {
+      "title": "Přepis zamotaného kódu",
+      "text": "Požádej chatbota o záměrně zmatený, ale funkční program. Přepiš ho přehledněji a ověř na stejných vstupech, že dává stejné výsledky."
+    },
+    {
+      "title": "Zdůvodnění vlastní opravy",
+      "text": "Po opravě chyby ve svém programu pošli chatbotovi původní i opravený kód a vlastními slovy napiš, proč oprava funguje. Nech si říct, jestli tvoje vysvětlení sedí."
+    }
+  ]
+}

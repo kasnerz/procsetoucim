@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Program může fungovat bez chyby a přitom dělat něco jiného, než chtěl ten, kdo ho zadal. Všimnout si takového rozporu znamená přečíst zadání pozorně, bod po bodu, a porovnat ho s tím, co program opravdu dělá. Takhle pracuje, kdo testuje software nebo hlídá, aby aplikace dělala to, co si zákazník objednal. Chatbot rozdíly někdy najde, ale zadání může pochopit stejně špatně jako člověk, takže porovnání nakonec děláš ty.",
+  "learnWithAi": [
+    {
+      "title": "Body, které musí program splnit",
+      "text": "Nech chatbota napsat krátké zadání programu a vypiš si z něj všechno, co program musí splnit. Chatbot ti pak řekne, jestli ti nějaký bod neutekl."
+    },
+    {
+      "title": "Program, který zadání nesplňuje",
+      "text": "Požádej chatbota o zadání a k němu program, který v jednom bodě dělá něco jiného. Spouštěj ho a hledej, kde se jeho chování se zadáním rozchází."
+    },
+    {
+      "title": "Zadání převyprávěné jinými slovy",
+      "text": "Vlož chatbotovi zadání svého programu a nech si ho převyprávět. Pokud ho pochopil jinak než ty, ujasni si, jak zadání zní, a podle toho program znovu vyzkoušej."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Program může fungovat bez chyby, a přesto ho lidé odloží, když nepochopí, kam kliknout nebo co po nich chce. Uživatelsky přívětivý program má jasné pokyny a srozumitelná tlačítka. Všímat si toho se vyplatí i u aplikací, které používáš každý den, protože pak víš, proč tě některé rozčilují. Na tom staví svou práci ti, kdo navrhují, jak se ovládají aplikace a weby, a takových míst spíš přibude. Chatbot poradí obecné zásady, jestli se ale tvůj program dobře ovládá, zjistíš jen tak, že ho dáš vyzkoušet někomu jinému.",
+  "learnWithAi": [
+    {
+      "title": "Rozbor známé aplikace",
+      "text": "Vyber aplikaci, kterou často používáš, a sepiš, co se v ní ovládá snadno a co ne. Chatbot ti k tomu dá zásady, podle kterých to porovnáš."
+    },
+    {
+      "title": "Otázky nováčka",
+      "text": "Popiš chatbotovi svůj program a požádej ho, ať se ptá jako někdo, kdo ho vidí poprvé. Kde se zasekne, upřesni pokyny v programu."
+    },
+    {
+      "title": "Test s někým ze třídy",
+      "text": "Dej program vyzkoušet někomu ze třídy a zapisuj, kde zaváhá. Poznámky pošli chatbotovi a s jeho pomocí vymysli, co upravit jako první."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "outcome": "MAT-MAT-003-ZV9-008",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "přiřadí k sobě těleso a jeho síť",
+      "cards": [
+        "site-teles"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "vytvoří síť krychle a kvádru",
+      "cards": [
+        "site-teles"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "určí nárys, bokorys, půdorys základního tělesa (tzn. krychle, kvádru, koule, hranolu, válce, kuželu či jehlanu)",
+      "cards": [
+        "nacrt-pudorys-bokorys-tel"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "určí různé pohledy na mnohostěny (půdorys, bokorys, nárys)",
+      "cards": [
+        "nacrt-pudorys-bokorys-tel"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "načrtne základní tělesa ve volném rovnoběžném promítání",
+      "cards": [
+        "nacrt-teles-rovnobezne-promitani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí síť běžného trojrozměrného tělesa (tzn. hranolu, válce, kuželu či jehlanu).",
+      "cards": [
+        "site-teles"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí řez běžným trojrozměrným tělesem (tzn. hranolem, válcem, kuželem či jehlanem).",
+      "cards": [
+        "rez-telesem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Modeluje základní tělesa.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

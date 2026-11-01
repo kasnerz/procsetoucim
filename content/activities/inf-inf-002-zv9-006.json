@@ -1,0 +1,419 @@
+[
+  {
+    "slug": "rozklad-problemu-na-casti",
+    "title": "Rozklad problému na menší části",
+    "aliases": [
+      "rozdělit problém",
+      "rozložit úkol",
+      "dílčí problémy",
+      "menší úkoly"
+    ],
+    "outcome": "INF-INF-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozdělí problém na jednotlivé řešitelné části a popíše postupy k jejich řešení.",
+        "quote": "Rozdělí problém na jednotlivé řešitelné části a popíše postupy k jejich řešení."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Rozdělí problém na menší části, sestaví kroky do logické posloupnosti a zváží různé možnosti.",
+        "quote": "Rozdělí problém na menší části, sestaví kroky do logické posloupnosti a zváží různé možnosti."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozloží složitější problém na hierarchii fází nebo částí až po jednoduché kroky, včetně určení jejich vzájemných závislostí a posloupnosti.",
+        "quote": "Rozloží složitější problém na hierarchii fází nebo částí až po jednoduché kroky, včetně určení jejich vzájemných závislostí a posloupnosti."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozkládá problém řešitelný posloupností navazujících jednoduchých kroků se zřetelným a jednoznačným pořadím a triviální návazností (např. cesta na mapě).",
+        "quote": "Rozkládá problém řešitelný posloupností navazujících jednoduchých kroků se zřetelným a jednoznačným pořadím a triviální návazností (např. cesta na mapě)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hra – střílečka",
+        "url": "https://uloziste.rvp.cz/material/91e2d0"
+      },
+      {
+        "title": "Uspořádej turnaj v piškvorkách",
+        "url": "https://uloziste.rvp.cz/material/6d122b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak by problém rozdělil on, a ty svůj rozklad porovnáš a doplníš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš rozpracované příklady, třeba jak se plánuje hra nebo turnaj."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe problém nerozdělí a tvůj rozklad nezkontroluje."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papír nebo kartičky si části rozkreslíš a přeskládáš do stromu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zavislosti-dilcich-problemu",
+    "title": "Závislosti mezi dílčími problémy",
+    "aliases": [
+      "co je na čem závislé",
+      "co dřív a co potom",
+      "návaznost kroků",
+      "vstup jedné části je výstup druhé"
+    ],
+    "outcome": "INF-INF-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Popisuje vztahy a závislosti souvisejících dílčích problémů (např. při vaření složitějšího pokrmu)",
+        "quote": "Popisuje vztahy a závislosti souvisejících dílčích problémů (např. při vaření složitějšího pokrmu)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co musí být hotové dřív, a upozorní na závislost, která ti uniká."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš postupy složitějších receptů a vidíš, co čeká na co."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti závislosti tvého problému sama neurčí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Šipky mezi kartičkami na papíru ukážou, co musí být hotové dřív."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "miry-rozdeleni-problemu",
+    "title": "Jak moc problém rozdělit",
+    "aliases": [
+      "kdy je rozdělení dost",
+      "jednoduché kroky",
+      "jemnost rozkladu",
+      "různé rozklady"
+    ],
+    "outcome": "INF-INF-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Posuzuje, jaká míra rozdělení problému stačí, při možnosti různého rozkladu hodnotí a vybírá ten, který vidí v dané situaci jako nejvhodnější.",
+        "quote": "Posuzuje, jaká míra rozdělení problému stačí, při možnosti různého rozkladu hodnotí a vybírá ten, který vidí v dané situaci jako nejvhodnější."
+      },
+      {
+        "level": "Na cestě",
+        "point": "pod vedením učitele posuzuje, jaká míra rozdělení problému stačí.",
+        "quote": "pod vedením učitele posuzuje, jaká míra rozdělení problému stačí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne hrubší i jemnější rozklad téhož problému a ty vybereš, který ti stačí."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Kolik dělit, záleží na tvém zadání, hotová odpověď to neurčí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti o vhodné jemnosti rozkladu nic neřeknou."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír rozklad zapíšou, jestli stačí, musíš posoudit ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "analyza-problemu-kriteria-kvality",
+    "title": "Analýza problému a kritéria kvality řešení",
+    "aliases": [
+      "co je důležité",
+      "jak poznám dobré řešení",
+      "okolnosti úkolu",
+      "požadavky na řešení"
+    ],
+    "outcome": "INF-INF-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Podrobně analyzuje problém, rozhoduje o důležitosti různých okolností a o kritériích kvality řešení, určí vstupy a výstupy, nachází kroky či stavy, kterými bude nutné projít.",
+        "quote": "Podrobně analyzuje problém, rozhoduje o důležitosti různých okolností a o kritériích kvality řešení, určí vstupy a výstupy, nachází kroky či stavy, kterými bude nutné projít."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kalkulačka pro obdélník",
+        "url": "https://uloziste.rvp.cz/material/140a18"
+      },
+      {
+        "title": "Měření teploty ve vaničce",
+        "url": "https://uloziste.rvp.cz/material/942e8e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co od řešení chceš, a navrhne kritéria, třeba rychlost nebo přesnost."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Požadavky na tvůj úkol ve vyhledávači nenajdeš, určuješ je ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe okolnosti a kritéria kvality nezvolí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Seznam kritérií si napíšeš na papír a podle něj řešení zkontroluješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-pristupu-a-nastroju-pro-casti",
+    "title": "Výběr postupu a nástroje pro každou část",
+    "aliases": [
+      "jaký nástroj použít",
+      "varianty řešení",
+      "hotový nástroj nebo vlastní",
+      "vybrat algoritmus"
+    ],
+    "outcome": "INF-INF-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhuje různé přístupy, nástroje a z nich plynoucí varianty postupů řešení pro jednotlivé fáze (části) problému, rozhoduje se pro ty nejvhodnější, vhodným způsobem postupy zapisuje.",
+        "quote": "Navrhuje různé přístupy, nástroje a z nich plynoucí varianty postupů řešení pro jednotlivé fáze (části) problému, rozhoduje se pro ty nejvhodnější"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vybere z více možností vhodný algoritmus pro řešený problém a svůj výběr zdůvodní.",
+        "quote": "Vybere z více možností vhodný algoritmus pro řešený problém a svůj výběr zdůvodní."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Uspořádej turnaj v piškvorkách",
+        "url": "https://uloziste.rvp.cz/material/6d122b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne několik postupů pro jednu část a ty vysvětlíš, který se hodí nejvíc."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš známé algoritmy a hotové nástroje a porovnáš je."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nevybere postup pro tvůj problém."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kalkulačka ani pravítko nevyberou, který postup použít."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zapis-postupu-podle-situace",
+    "title": "Volba způsobu zápisu postupu",
+    "aliases": [
+      "slovní nebo grafický zápis",
+      "jak zapsat postup",
+      "schéma postupu",
+      "zápis řešení"
+    ],
+    "outcome": "INF-INF-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Volí a využívá vhodný způsob zápisu postupu (grafický, slovní, různé kombinace).",
+        "quote": "Volí a využívá vhodný způsob zápisu postupu (grafický, slovní, různé kombinace)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Navrhuje různé přístupy, nástroje a z nich plynoucí varianty postupů řešení pro jednotlivé fáze (části) problému, rozhoduje se pro ty nejvhodnější, vhodným způsobem postupy zapisuje.",
+        "quote": "vhodným způsobem postupy zapisuje."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže stejný postup slovy, v bodech i jako schéma a ty vybereš, co je čitelnější."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzory zápisů, třeba vývojové diagramy nebo číslované kroky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace umí schéma s šipkami nakreslit a snadno přepsat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a papír stačí na slovní i grafický zápis."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "slozeni-celkoveho-reseni-z-casti",
+    "title": "Složení celého řešení z částečných řešení",
+    "aliases": [
+      "spojit části řešení",
+      "celkový postup",
+      "poskládat řešení",
+      "dát dohromady"
+    ],
+    "outcome": "INF-INF-002-ZV9-006",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Z částečných řešení sestaví úplný popis postupu řešení původního problému.",
+        "quote": "Z částečných řešení sestaví úplný popis postupu řešení původního problému."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Z částečných řešení sestaví úplný popis postupu řešení původního problému.",
+        "quote": "Z částečných řešení sestaví úplný popis postupu řešení původního problému."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Hra – střílečka",
+        "url": "https://uloziste.rvp.cz/material/91e2d0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje, jestli části navazují, a upozorní na chybějící krok mezi nimi."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Ve vyhledávači nenajdeš hotové spojení částí tvého řešení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Programovací hra z bloků ti spojený postup rovnou provede."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kartičky s dílčími řešeními poskládáš do jednoho postupu a odehraješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410",
+      "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

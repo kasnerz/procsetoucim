@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stačí změřit jeden úhel u dvou protnutých přímek a ostatní tři dopočítáš, protože vrcholové úhly jsou stejné a vedlejší dají dohromady 180 stupňů. U rovnoběžek protnutých příčkou platí podobná pravidla pro souhlasné a střídavé úhly. V geometrii je to jedno z prvních míst, kde z jednoho údaje odvodíš další bez měření. Využijí to lidé, kteří vyměřují pozemky, projektují silnice nebo montují potrubí. Aplikace úhly přepočítá, ale chybu v zadání pozná jen ten, kdo ví, proč to tak je.",
+  "learnWithAi": [
+    {
+      "title": "Rovnoběžky na fotce z ulice",
+      "text": "Vyfoť žebřík nebo zábradlí, kde příčka protíná rovnoběžky, a označ na fotce dvojice stejných úhlů. Popis pošli chatbotovi ke kontrole."
+    },
+    {
+      "title": "Dopočítání úhlů u příčky",
+      "text": "Požádej chatbota o úlohy, kde znáš jeden úhel u příčky a ostatní máš dopočítat. Ke každému výsledku napiš i důvod, třeba vrcholový nebo střídavý úhel, a nech si zkontrolovat obojí."
+    },
+    {
+      "title": "Důkaz pro spolužáka, který chyběl",
+      "text": "Vysvětli chatbotovi, proč jsou vrcholové úhly stejné, jako spolužákovi, který chyběl. Ať se doptává tam, kde tvé vysvětlení přeskakuje krok."
+    }
+  ]
+}

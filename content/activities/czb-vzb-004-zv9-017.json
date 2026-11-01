@@ -1,0 +1,539 @@
+[
+  {
+    "slug": "ukoly-armady-pri-obrane-statu",
+    "title": "Úkoly Armády ČR při obraně státu",
+    "aliases": [
+      "armáda",
+      "obrana státu",
+      "k čemu je armáda",
+      "suverenita",
+      "územní celistvost"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vyhledá a popíše hlavní úkoly Armády ČR a příklady její činnosti při obraně suverenity a územní celistvosti ČR",
+        "quote": "vyhledá a popíše hlavní úkoly Armády ČR"
+      },
+      {
+        "level": "Na cestě",
+        "point": "popíše a zdůvodní hlavní úkoly Armády ČR a uvede příklady její činnosti při obraně suverenity a územní celistvosti ČR",
+        "quote": "popíše a zdůvodní hlavní úkoly Armády ČR"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvádí úkoly ozbrojených sil ČR při zajišťování vnější bezpečnosti prostředí a při řešení nevojenských krizových situací.",
+        "quote": "při zajišťování vnější bezpečnosti prostředí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Armáda České republiky",
+        "url": "https://uloziste.rvp.cz/material/189363"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co armáda dělá a proč, a nabídne otázky na zopakování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na webu Armády ČR najdeš její úkoly a příklady z praxe."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace tě úkoly armády nenaučí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "K úkolům armády nepotřebuješ žádný nástroj, pomůže jen text."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0",
+      "http://data.europa.eu/esco/skill/1143e53e-2933-472d-8161-f26d6936c927"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pomoc-armady-pri-mimoradnych-udalostech",
+    "title": "Pomoc armády při povodních a jiných mimořádných událostech",
+    "aliases": [
+      "armáda při povodních",
+      "mimořádné události",
+      "pomoc armády",
+      "záchranné práce",
+      "krizové situace"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vyhledá a popíše příklady pomoci Armády ČR při ochraně zdraví a bezpečí při mimořádných událostech nevojenského charakteru",
+        "quote": "vyhledá a popíše příklady pomoci Armády ČR"
+      },
+      {
+        "level": "Na cestě",
+        "point": "popisuje příklady pomoci Armády ČR při ochraně zdraví a bezpečí obyvatel při mimořádných událostech nevojenského charakteru",
+        "quote": "popisuje příklady pomoci Armády ČR"
+      },
+      {
+        "level": "Splněno",
+        "point": "Uvádí úkoly ozbrojených sil ČR při zajišťování vnější bezpečnosti prostředí a při řešení nevojenských krizových situací.",
+        "quote": "při řešení nevojenských krizových situací"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč armáda pomáhá i mimo obranu, a pomůže ti s přípravou příkladů."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a stránky armády ukazují skutečné zásahy, ze kterých vybereš příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s upozorněním na mimořádné události ti neukáže, jak armáda pomáhá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pro tuhle kartu žádný klasický nástroj nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/05a7f9e0-1ebd-4853-890b-c78f37096d51",
+      "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "armada-v-miru-a-ve-valce",
+    "title": "Armáda v době míru, ve stavu ohrožení a ve válce",
+    "aliases": [
+      "armáda za války",
+      "stav ohrožení státu",
+      "válečný stav",
+      "činnost armády v míru",
+      "krizové stavy"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "porovná základní činnosti armády v době míru a při válečných konfliktech",
+        "quote": "porovná základní činnosti armády v době míru a při válečných konfliktech"
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozliší základní činnosti Armády ČR v době míru a při vyhlášení stavu ohrožení státu a válečného stavu.",
+        "quote": "Rozliší základní činnosti Armády ČR v době míru a při vyhlášení stavu ohrožení státu a válečného stavu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Armáda České republiky",
+        "url": "https://uloziste.rvp.cz/material/189363"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozdíly mezi mírem a válkou ti vysvětlí a pomůže je zařadit do tabulky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zákony a stránky armády uvádějí, co se při krizových stavech mění."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace tě rozdíly mezi stavy neprovede."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozdíly mezi stavy se nedají změřit ani vyzkoušet nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0",
+      "http://data.europa.eu/esco/skill/7fc1bae3-eb9b-4609-a374-01c2a39d827d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pilire-obrany-a-bezpecnostni-system-cr",
+    "title": "Pilíře obrany a bezpečnostní systém ČR",
+    "aliases": [
+      "bezpečnostní systém",
+      "pilíře obrany",
+      "obrana ČR",
+      "kdo chrání stát",
+      "ozbrojené složky"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí základní pilíře zajišťování obrany ČR.",
+        "quote": "Určí základní pilíře zajišťování obrany ČR."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečnostní systém ČR",
+        "url": "https://uloziste.rvp.cz/material/6d5c67"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, z čeho se obrana skládá, a pomůže ti vytvořit schéma."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky státu a encyklopedie ukazují, kdo se na obraně podílí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace schéma bezpečnostního systému neumí nahradit tvé pochopení."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Schéma systému si nakreslíš na papír a nic nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bb54f559-df6f-44ed-81df-f6bf3d43f07d",
+      "http://data.europa.eu/esco/skill/1143e53e-2933-472d-8161-f26d6936c927"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "humanitarni-mise-a-zahranicni-operace",
+    "title": "Humanitární mise a zahraniční operace armády",
+    "aliases": [
+      "zahraniční mise",
+      "humanitární pomoc",
+      "mírové mise",
+      "vojáci v zahraničí",
+      "operace v zahraničí"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí na příkladech důvody účasti ozbrojených sil v humanitárních misích a zahraničních operacích.",
+        "quote": "Vysvětlí na příkladech důvody účasti ozbrojených sil v humanitárních misích a zahraničních operacích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se vojáci účastní misí, a pomůže ti důvody vlastními slovy shrnout."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a stránky armády uvádějí konkrétní mise, ze kterých čerpáš příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti důvody účasti v misích nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "K tématu misí nepatří žádný klasický nástroj."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/05a7f9e0-1ebd-4853-890b-c78f37096d51",
+      "http://data.europa.eu/esco/skill/60571d44-dfd4-4d57-bab2-e8598cc825e5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "role-obcana-pri-obrane-statu",
+    "title": "Role, práva a povinnosti občana při obraně státu",
+    "aliases": [
+      "branná povinnost",
+      "povinnosti občana",
+      "práva občana",
+      "obrana státu občan",
+      "záloha",
+      "vojenská služba"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše roli občana a jeho práva a povinnosti při zajišťování bezpečnosti a obrany státu.",
+        "quote": "Popíše roli občana a jeho práva a povinnosti při zajišťování bezpečnosti a obrany státu."
+      },
+      {
+        "level": "Na začátku",
+        "point": "popíše úlohu občanů při zajišťování bezpečnosti státu (humanitární pomoc, možnost pracovat v ozbrojených složkách)",
+        "quote": "popíše úlohu občanů při zajišťování bezpečnosti státu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vyhledává informace a diskutuje o právech a povinnostech občana při zajišťování obrany státu",
+        "quote": "vyhledává informace a diskutuje o právech a povinnostech občana při zajišťování obrany státu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí pojem branná povinnost",
+        "quote": "vysvětlí pojem branná povinnost"
+      },
+      {
+        "level": "Splněno",
+        "point": "Objasní roli občana, jeho práva a povinnosti při zajišťování bezpečnosti a obrany státu.",
+        "quote": "Objasní roli občana, jeho práva a povinnosti při zajišťování bezpečnosti a obrany státu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Povinnosti občanů při obraně státu",
+        "url": "https://uloziste.rvp.cz/material/a7a8c0"
+      },
+      {
+        "title": "Příprava občanů k obraně státu",
+        "url": "https://uloziste.rvp.cz/material/1fca1d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pojem branná povinnost a pomůže ti nacvičit diskusi o povinnostech."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zákony a stránky ministerstva obrany uvádějí práva a povinnosti občanů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace nezná tvou roli občana lépe než text zákona."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "K povinnostem občana nic klasického nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bb54f559-df6f-44ed-81df-f6bf3d43f07d",
+      "http://data.europa.eu/esco/skill/05a7f9e0-1ebd-4853-890b-c78f37096d51"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "clenstvi-cr-v-nato-a-bezpecnostnich-organizacich",
+    "title": "Členství ČR v NATO a dalších bezpečnostních organizacích",
+    "aliases": [
+      "NATO",
+      "Evropská unie bezpečnost",
+      "výhody členství",
+      "závazky členství",
+      "spojenci"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí výhody a uvede závazky vyplývající z členství ČR v mezinárodních bezpečnostních a politicko-vojenských organizacích.",
+        "quote": "Vysvětlí výhody a uvede závazky vyplývající z členství ČR v mezinárodních bezpečnostních a politicko-vojenských organizacích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co členství přináší a čím zavazuje, a ověří, zda to umíš shrnout."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky NATO a ministerstva uvádějí smlouvy a závazky přímo."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace výhody ani závazky členství nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mapa světa ukáže členské státy, ale výhody a závazky ne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/986512f5-d37a-438f-a59d-c92157ea502b",
+      "http://data.europa.eu/esco/skill/bb54f559-df6f-44ed-81df-f6bf3d43f07d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vliv-historie-na-bezpecnost-statu",
+    "title": "Vliv historie na bezpečnost státu",
+    "aliases": [
+      "historie a bezpečnost",
+      "války v dějinách",
+      "veteráni",
+      "obrana v minulosti",
+      "vzpomínka na veterány"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje o vlivu historie na bezpečnost státu",
+        "quote": "diskutuje o vlivu historie na bezpečnost státu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Vzpomínka na válečné veterány",
+        "url": "https://uloziste.rvp.cz/material/9ff90e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou, jak minulost ovlivnila bezpečnost, a nabídne protiargumenty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a archivy popisují události, o kterých diskutuješ."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nediskutuje, tvůj názor jí chybí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskusi o historii nevede žádný klasický nástroj."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bb54f559-df6f-44ed-81df-f6bf3d43f07d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "aktualni-bezpecnostni-hrozby",
+    "title": "Aktuální bezpečnostní prostředí a hrozby pro ČR",
+    "aliases": [
+      "bezpečnostní hrozby",
+      "zprávy o bezpečnosti",
+      "hrozby pro ČR",
+      "kyberútoky",
+      "současné konflikty"
+    ],
+    "outcome": "CZB-VZB-004-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "sleduje informace o aktuálním bezpečnostním prostředí, identifikuje základní hrozby, které mohou mít vliv na bezpečnost ČR",
+        "quote": "sleduje informace o aktuálním bezpečnostním prostředí, identifikuje základní hrozby"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Shrne hrozby a vysvětlí pojmy, ale zprávy kontroluj i jinde."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zpravodajství a oficiální zprávy ukazují aktuální hrozby."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s novinkami tě hrozby rozeznávat nenaučí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Hrozby neposoudíš žádným klasickým nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bb54f559-df6f-44ed-81df-f6bf3d43f07d",
+      "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

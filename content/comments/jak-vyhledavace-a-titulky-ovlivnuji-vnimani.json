@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Vyhledávač i zpravodajská aplikace řadí výsledky podle tvého dřívějšího hledání, polohy a toho, na co klikáš, a titulek často volí slova, která tě mají přimět článek otevřít. Kdo to ví, nebere první odkaz automaticky jako nejlepší a pozná, že „šokující“ titulek může slibovat něco jiného, než stojí v textu pod ním. Hodí se to při každém čtení zpráv a reklam, protože o světě se dozvídáš hlavně přes takový výběr. Novináři a redaktoři titulky každý den píšou a ověřovatelé faktů je rozebírají.",
+  "learnWithAi": [
+    {
+      "title": "Různé titulky k jedné zprávě",
+      "text": "Vyber krátkou zprávu a požádej chatbota o tři různé titulky k ní. Bez jeho pomoci urči, který čtenáře nejvíc straší a kterými slovy toho dosahuje."
+    },
+    {
+      "title": "Rozbor titulku, který vyděsí",
+      "text": "Najdi titulek, který tě naštval nebo vyděsil, a sepiš, čím na tebe působí. Teprve potom se zeptej chatbota a porovnej, co našel on a co ty."
+    },
+    {
+      "title": "Pořadí výsledků na dvou zařízeních",
+      "text": "Se spolužákem nebo rodičem zadejte do vyhledávače stejný dotaz, každý na svém zařízení, a porovnejte pořadí výsledků. Vysvětlení rozdílů nejdřív zkuste vymyslet a pak ho srovnejte s odpovědí chatbota."
+    }
+  ]
+}

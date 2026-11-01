@@ -1,0 +1,251 @@
+{
+  "outcome": "GEO-GEO-004-ZV9-017",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vztah-prostredi-a-cinnosti-cloveka",
+      "title": "Jak lidské činnosti mění životní prostředí",
+      "aliases": [
+        "vliv člověka na přírodu",
+        "člověk a životní prostředí",
+        "dopady lidské činnosti",
+        "znečištění",
+        "příroda a lidé"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Vysvětlí na příkladech vzájemný vztah životního prostředí a aktivit člověka."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na několika odlišných příkladech doloží vzájemné vztahy životního prostředí a různých aktivit člověka"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, jak konkrétní lidské činnosti ovlivňují životní prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí souvislosti a dá příklady, které si pak ověříš jinde."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu konkrétní případy a data o stavu prostředí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapy a data o stavu světa ukážou, kde a jak se prostředí mění."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Vztah činnosti a prostředí si vysvětluješ ty, nástroj ho nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+        "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6"
+      ],
+      "inspiration": [
+        "Příběh o člověku a přírodě",
+        "Data o stavu světa"
+      ]
+    },
+    {
+      "slug": "ekosystemy-v-krajine",
+      "title": "Ekosystémy v krajině a jejich funkce",
+      "aliases": [
+        "ekosystém",
+        "les, louka, rybník",
+        "co dělá ekosystém",
+        "příroda kolem nás",
+        "biotop"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše funkci ekosystémů a identifikuje klíčové ekosystémy v krajině."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co ekosystém dělá, a pomůže ti si to uspořádat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a atlasy ukážou typy ekosystémů a jejich funkce."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na určování druhů a mapy krajiny ti pomohou poznat, kde jsi."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Atlas, lupa a dalekohled ti pomohou pozorovat krajinu venku."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ddbf25f1-b91a-4083-9ef1-cc113a46e4c0",
+        "http://data.europa.eu/esco/skill/270c4de9-97f9-4a7a-95d1-63670f1ec3bc"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "potreby-jedince-spolecnosti-a-prirody",
+      "title": "Potřeby člověka, společnosti a přírody",
+      "aliases": [
+        "potřeby člověka",
+        "co potřebuje společnost",
+        "potřeby přírody",
+        "ochrana prostředí",
+        "přírodní zdroje"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozliší potřeby jedince (fyziologické, sociální, bezpečnostní ...), společnosti (ekonomická stabilita, sociální spravdlnost, infrastruktura, kultura a hodnoty ...) a přírodního prostředí(kvalita přírodních zdrojů, ochrana prostředí, biodiverzita ...)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíly mezi třemi druhy potřeb a dá příklady na třídění."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu definice a příklady potřeb a přírodních zdrojů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace potřeby netřídí, rozhodovat o nich musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Potřeby třídíš úvahou, na papíře ani v ruce k tomu nic nemáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6",
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dopady-vyrobku-a-sluzby-na-prostredi",
+      "title": "Dopady výrobku na životní prostředí",
+      "aliases": [
+        "ekologická stopa",
+        "dopad čokolády",
+        "šetrnější alternativa",
+        "udržitelná spotřeba",
+        "jak se vyrábí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na příkladu konkrétního výrobku nebo využití určité služby shrne možné dopady na životní prostředí, případně navrhne environmentálně šetrnější alternativu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vypsat kroky výroby a nápady na šetrnější variantu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš údaje o výrobě, dopravě a odpadu konkrétního výrobku."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalkulačky stopy a aplikace s údaji o výrobcích dají srovnání."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dopady výrobku neověříš žádným klasickým nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+        "http://data.europa.eu/esco/skill/4e87c852-602a-4a0e-b8d8-20709ce14ac5"
+      ],
+      "inspiration": [
+        "Čokoláda"
+      ]
+    },
+    {
+      "slug": "kvalita-mist-z-hlediska-prirody-a-lidi",
+      "title": "Kvalita místa pro přírodu i lidi",
+      "aliases": [
+        "hodnocení místa",
+        "jak se tu žije",
+        "přírodní hodnoty",
+        "kvalita prostředí",
+        "hodnocení lokality"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zhodnotí kvalitu konkrétních míst z hlediska přírodních hodnot, potřeb jedince a lidské společnosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže sestavit hlediska hodnocení a zhodnotit tvůj popis místa."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Mapy chráněných území a data o místě ti dají podklady."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Mapy a družicové snímky ukážou zeleň, zástavbu a cesty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Místo musíš obejít a zhodnotit ty, žádný nástroj tě nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fdeabe51-1d92-4770-acfe-eff9769b3d4f",
+        "http://data.europa.eu/esco/skill/e9d6ebab-13ad-45ce-a955-fc3f1e56add8"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "má povědomí o významu slova udržitelnost",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

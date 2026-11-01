@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Postavit těleso podle popisu znamená převést slova na tvar, který si nejdřív představíš a pak vezmeš do ruky. Tohle dělá každý, kdo vyrábí nábytek na zakázku nebo navrhuje strojní díl: zákazník řekne, co chce, a z vět musí vzniknout tvar. Práce v takových oborech má do budoucna spíš přibývat. Chatbot ti popisy vymyslí a program těleso otočí ze všech stran, ale představit si ho z vět musí tvoje hlava, a to se trénuje jen zkoušením.",
+  "learnWithAi": [
+    {
+      "title": "Hádanka se stěnami a hranami",
+      "text": "Požádej chatbota, ať ti popíše těleso jen počtem a tvarem stěn a hran. Postav ho ze špejlí nebo papíru a teprve pak se zeptej na název."
+    },
+    {
+      "title": "Stavba popsaná slovy",
+      "text": "Postav z kostek tvar, popiš ho chatbotovi slovy a zeptej se, co si z popisu představuje. Když jeho odpověď nesedí, uprav popis, ne stavbu."
+    },
+    {
+      "title": "Zakázka od náročného zákazníka",
+      "text": "Nech chatbota hrát zákazníka, který chce krabici nebo poličku určitého tvaru, a vyptávej se ho, dokud přesně nevíš, co chce. Model pak postav a ukaž mu, jestli sedí."
+    }
+  ]
+}

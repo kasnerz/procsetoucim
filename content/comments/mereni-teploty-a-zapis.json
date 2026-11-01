@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Teplota rozhoduje, co si ráno oblékneš a jestli máš horečku. Když měříš několik dní za sebou a hodnoty zapisuješ, vidíš, jak se počasí mění, a učíš se vést záznam, ze kterého se dá něco vyčíst. Na tom stojí pokusy, které budeš ve vyšších třídách zapisovat a vyhodnocovat. Teplotu měří a zapisují lidé na meteorologických stanicích i ti, kdo opravují topení nebo kotle. Předpověď v telefonu ukáže teplotu pro celé město, jenže kolik je za vaším oknem, zjistíš jen teploměrem.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka na týden",
+      "text": "Požádejte chatbota, ať navrhne jednoduchou tabulku na měření teploty ráno a odpoledne. Vyplňujte ji týden podle teploměru za oknem."
+    },
+    {
+      "title": "Otázky k naměřeným hodnotám",
+      "text": "Napište chatbotovi svoje naměřené hodnoty a nechte ho klást otázky, třeba který den byl nejteplejší. Odpovídej podle vlastní tabulky."
+    },
+    {
+      "title": "Měření proti předpovědi",
+      "text": "Porovnejte s rodičem teplotu z předpovědi se svým měřením. Zeptejte se chatbota, proč se čísla mohou lišit, a jeden jeho důvod vyzkoušejte, třeba měření na slunci a ve stínu."
+    }
+  ]
+}

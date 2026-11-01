@@ -1,0 +1,405 @@
+[
+  {
+    "slug": "planety-slunecni-soustavy",
+    "title": "Planety Sluneční soustavy",
+    "aliases": [
+      "planety",
+      "osm planet",
+      "Sluneční soustava",
+      "pořadí planet",
+      "naše planeta na modelu"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-021",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Jmenuje planety Sluneční soustavy a stručně diskutuje možnosti života na nich.",
+        "quote": "Jmenuje planety Sluneční soustavy"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Ukáže na modelu Sluneční soustavy naší planetu.",
+        "quote": "Ukáže na modelu Sluneční soustavy naší planetu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Planety Sluneční soustavy",
+        "url": "https://uloziste.rvp.cz/material/8cd168"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pořadí planet a vymyslí ti říkanku na zapamatování."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie ukážou planety s obrázky a pořadím od Slunce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s 3D modelem Sluneční soustavy ti ukáže planety a Zemi mezi nimi."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na školním modelu nebo plakátu ukážeš prstem, kde je Země."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "mozny-zivot-na-planetach",
+    "title": "Možnost života na planetách",
+    "aliases": [
+      "život na jiných planetách",
+      "proč žijeme na Zemi",
+      "je život na Marsu",
+      "podmínky pro život",
+      "obyvatelná planeta"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-021",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Jmenuje planety Sluneční soustavy a stručně diskutuje možnosti života na nich.",
+        "quote": "stručně diskutuje možnosti života na nich"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhodnotí na základě zjištěných informací možnost života na Zemi.",
+        "quote": "Vyhodnotí na základě zjištěných informací možnost života na Zemi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Planety Sluneční soustavy",
+        "url": "https://uloziste.rvp.cz/material/8cd168"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Shrne, co živé věci potřebují, a pomůže ti porovnat Zemi s Marsem nebo Venuší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ověříš si údaje o teplotě a atmosféře planet v encyklopedii nebo na stránkách o vesmíru."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace o planetách ukáže jejich teplotu, vzdálenost od Slunce a atmosféru vedle sebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Teploměr ani lupa ti o životě na jiných planetách nic nepovědí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pohyb-slunce-po-obloze-a-stin",
+    "title": "Pohyb Slunce po obloze a stín",
+    "aliases": [
+      "stín",
+      "kam svítí Slunce",
+      "slunce na obloze",
+      "sluneční hodiny",
+      "délka stínu"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-021",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Pozoruje, zaznamenává a popisuje pohyb Slunce po obloze a jeho důsledky (stín).",
+        "quote": "Pozoruje, zaznamenává a popisuje pohyb Slunce po obloze a jeho důsledky (stín)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Slunce na chodníku",
+        "url": "https://uloziste.rvp.cz/material/724e3b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se stín během dne otáčí a mění délku, a poradí s pokusem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tabulky východu a západu Slunce a popis slunečních hodin."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s dráhou Slunce ukáže, kde bude v kolik hodin, a ověří tvé záznamy."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tyč, křída a metr na chodníku ti ukážou, jak se stín během dne mění."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3c748b49-fe85-42f6-b62d-b877bc8edb29"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "velikost-slunce-zeme-a-mesice",
+    "title": "Velikost Slunce, Země a Měsíce",
+    "aliases": [
+      "jak je velké Slunce",
+      "Slunce a Země",
+      "Země a Měsíc",
+      "porovnání velikostí",
+      "model z míčů"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-021",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Modeluje a porovná velikost Slunce, Země a Měsíce.",
+        "quote": "Modeluje a porovná velikost Slunce, Země a Měsíce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Slunce, Země, Měsíc",
+        "url": "https://uloziste.rvp.cz/material/b4e147"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Spočítá poměry velikostí a navrhne míčky nebo kuličky pro tvůj model."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš průměry těles a obrázky, které je dávají do poměru."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s porovnáním těles v měřítku ukáže, kolikrát je Slunce větší než Země."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Z míčů a kuliček a s pravítkem si model vyrobíš a velikosti porovnáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "promeny-nocni-oblohy",
+    "title": "Proměny noční oblohy",
+    "aliases": [
+      "hvězdy na noční obloze",
+      "noční obloha",
+      "hvězdy v zimě a v létě",
+      "pohyb hvězd",
+      "animace oblohy"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-021",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Pozoruje (zprostředkovaně na základě animace) proměny noční oblohy v průběhu jedné noci a více nocí v průběhu roku.",
+        "quote": "Pozoruje (zprostředkovaně na základě animace) proměny noční oblohy v průběhu jedné noci a více nocí v průběhu roku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se hvězdy během noci posouvají a v zimě jsou jiné než v létě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš animace a mapy oblohy pro různé noci v roce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s mapou hvězd ukáže oblohu v libovolnou hodinu i měsíc."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírová otočná mapa oblohy pomůže jen s hotovým obrázkem, proměny sama neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3c748b49-fe85-42f6-b62d-b877bc8edb29",
+      "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "otaceni-zeme-den-a-noc",
+    "title": "Otáčení Země a střídání dne a noci",
+    "aliases": [
+      "den a noc",
+      "rotace Země",
+      "proč je noc",
+      "globus a lampa",
+      "otáčení globusu"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-021",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Demonstruje na modelu otáčení Země, uvede souvislost mezi rotací Země a střídáním dne a noci.",
+        "quote": "Demonstruje na modelu otáčení Země, uvede souvislost mezi rotací Země a střídáním dne a noci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Slunce, Země, Měsíc",
+        "url": "https://uloziste.rvp.cz/material/b4e147"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se den střídá s nocí, a zkontroluje, jak to popisuješ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Animace v encyklopedii ukáže, jak osvětlení putuje po otáčející se Zemi."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s 3D Zemí ukáže, kde je zrovna den a kde noc."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Globus a lampa ti ukážou, proč se otáčením střídá den a noc."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "obeh-zeme-a-mesice-kolem-slunce-a-rok",
+    "title": "Oběh Země a Měsíce kolem Slunce, délka roku",
+    "aliases": [
+      "rok",
+      "Země obíhá kolem Slunce",
+      "Měsíc obíhá kolem Země",
+      "proč trvá rok 365 dní",
+      "přestupný rok"
+    ],
+    "outcome": "CJS-CJS-004-ZV5-021",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Demonstruje a popíše pohyby Země a Měsíce kolem Slunce.",
+        "quote": "Demonstruje a popíše pohyby Země a Měsíce kolem Slunce."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše vztah mezi oběhem Země kolem Slunce a délkou roku.",
+        "quote": "Popíše vztah mezi oběhem Země kolem Slunce a délkou roku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Cesta Země a Měsíce",
+        "url": "https://uloziste.rvp.cz/material/53fe48"
+      },
+      {
+        "title": "Slunce, Země, Měsíc",
+        "url": "https://uloziste.rvp.cz/material/b4e147"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč jeden oběh Země kolem Slunce trvá rok, a vyzkouší tě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš schémata oběžných drah a údaje o délce oběhu Země i Měsíce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s dráhami těles ukáže, jak se Země a Měsíc pohybují kolem Slunce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "S míčky a lampou předvedeš oběh Země i Měsíce a spočítáš dny v roce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff27618d-43d0-4480-83ee-8b1a672da078"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

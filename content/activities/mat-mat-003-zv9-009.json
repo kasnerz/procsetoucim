@@ -1,0 +1,321 @@
+[
+  {
+    "slug": "osa-usecky-osa-uhlu-uhel-60",
+    "title": "Osa úsečky, osa úhlu a úhel 60°",
+    "aliases": [
+      "osa úsečky",
+      "osa úhlu",
+      "úhel 60 stupňů",
+      "konstrukce kružítkem",
+      "rýsování kružítkem"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "provádí základní konstrukce (např. rovnoběžky, kolmice, osa úsečky, úhel 60°, osa úhlu, kružnice) pomocí pravítka a kružítka",
+        "quote": "provádí základní konstrukce (např. rovnoběžky, kolmice, osa úsečky, úhel 60°, osa úhlu, kružnice) pomocí pravítka a kružítka"
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se oblouky kružítka protnou, a projde s tebou postup krok za krokem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš postupy s obrázky a animacemi, jak osu nebo úhel 60° sestrojit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrický program ukáže, jestli tvoje konstrukce sedí, a dá se v něm zkoušet."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a kružítko jsou nástroje, kterými konstrukci rýsuješ na papír."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb",
+      "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zapis-postupu-konstrukce",
+    "title": "Zápis postupu konstrukce",
+    "aliases": [
+      "postup konstrukce",
+      "zápis konstrukce",
+      "symbolický zápis",
+      "jak narýsovat"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "navrhne a zapíše postup konstrukce (slovně nebo symbolicky), diskutuje podmínky řešení a realizuje rýsováním",
+        "quote": "navrhne a zapíše postup konstrukce (slovně nebo symbolicky)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Přečte tvůj zápis, upozorní na chybějící krok a ukáže, jak se píše symbolicky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové zápisy konstrukcí a vysvětlení značek jako AB nebo k(S; r)."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Zápis postupu píšeš ty, aplikace ho za tebe neuvažuje."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Podle vlastního zápisu zkusíš na papíře narýsovat, jestli postup funguje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2",
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "konstrukce-podle-zadanych-prvku-diskuse",
+    "title": "Konstrukce podle zadání a počet řešení",
+    "aliases": [
+      "konstrukční úlohy",
+      "kolik je řešení",
+      "podmínky řešení",
+      "sestroj trojúhelník",
+      "diskuse řešení"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "sestrojí útvary (včetně úhlů) podle zadaných prvků a provádí diskusi řešení",
+        "quote": "sestrojí útvary (včetně úhlů) podle zadaných prvků a provádí diskusi řešení"
+      },
+      {
+        "level": "Na cestě",
+        "point": "navrhne a zapíše postup konstrukce (slovně nebo symbolicky), diskutuje podmínky řešení a realizuje rýsováním",
+        "quote": "diskutuje podmínky řešení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Trojúhelník pod lupou – verze pro mistry",
+        "url": "https://uloziste.rvp.cz/material/be615d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kdy úloha nemá řešení nebo jich má víc, a zkontroluje tvoji úvahu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vyřešené konstrukční úlohy s rozborem, podle kterých si ověříš postup."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V geometrickém programu útvar táhneš a vidíš, kdy řešení zmizí nebo přibude."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Rýsováním zjistíš, jestli se oblouky protnou, a řešení přímo vidíš na papíře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2",
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometricky-software-konstrukce-a-telesa",
+    "title": "Konstrukce a tělesa v geometrickém programu",
+    "aliases": [
+      "geogebra",
+      "geometrický software",
+      "rýsování v počítači",
+      "tělesa v počítači",
+      "3D tělesa"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "používá geometrický software ke konstrukcím geometrických útvarů, k zobrazení těles a modelování polohových vztahů v rovině a prostoru",
+        "quote": "používá geometrický software ke konstrukcím geometrických útvarů, k zobrazení těles a modelování polohových vztahů v rovině a prostoru"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jak se v programu hledá potřebný příkaz, a vysvětlí, co ukázaná konstrukce dělá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš návody a ukázkové soubory pro práci s geometrickým programem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Program útvary přesně sestrojí, otočí těleso a ukáže vztahy, které na papíře nevidíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravítko a kružítko nejsou geometrický software, tělesa na nich neotočíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b34e2ba1-9080-48c9-9b42-ee9192a4d3f1",
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "konstrukcni-ulohy-z-praxe",
+    "title": "Konstrukční úlohy z reálného života",
+    "aliases": [
+      "geometrie v praxi",
+      "konstrukce v reálném kontextu",
+      "slovní úlohy s rýsováním",
+      "plánek",
+      "mapa a měřítko"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Aplikuje osvojené dovednosti při řešení konstrukčních úloh s reálným kontextem.",
+        "quote": "Aplikuje osvojené dovednosti při řešení konstrukčních úloh s reálným kontextem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Ilustrativní úlohy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí úlohy z praxe a vysvětlí, kterou konstrukci použít, rýsovat ale musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady, kde se konstrukce používají, třeba v technických výkresech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Geometrický program ověří, jestli tvoje konstrukce odpovídá zadání."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítkem a kružítkem narýsuješ plánek nebo výkres ve správných rozměrech."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2",
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geometrie-rukama-sit-teles",
+    "title": "Geometrie rukama: čtvercová síť, papír a sítě těles",
+    "aliases": [
+      "skládání papíru",
+      "čtvercová síť",
+      "sítě těles",
+      "modelování těles",
+      "origami"
+    ],
+    "outcome": "MAT-MAT-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "řeší úlohy pomocí manipulačních činností (např. ve čtvercové síti, překládáním papíru, modelováním těles, se sítěmi těles)",
+        "quote": "řeší úlohy pomocí manipulačních činností (např. ve čtvercové síti, překládáním papíru, modelováním těles, se sítěmi těles)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Papír skládáš a těleso lepíš rukama ty, chatbot ti to nenahradí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzory sítí těles k vystřižení a návody na skládání."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace ukáže, jak se síť složí v těleso, a pomůže tomu porozumět."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Čtverečkovaný papír, nůžky a papír ti dají tvary, které můžeš vzít do ruky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/21dfab2e-f954-49ab-8fb6-18cc98cf10bb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

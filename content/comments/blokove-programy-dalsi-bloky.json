@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Každý nový blok rozšiřuje, co tvůj program dokáže, třeba přehrát zvuk nebo kreslit. Nejvíc se ale dá postavit tam, kde bloky na sebe působí, například když zpráva od jedné postavy spustí pohyb druhé. Kdo umí kombinovat to, co zná, postaví i z mála bloků překvapivě složitou hru. Tak pracují lidé, kteří vyvíjejí digitální hry nebo programují stroje ve výrobě. Chatbot ti řekne, co blok dělá, co vznikne z jejich spojení, ale nejlíp zjistíš zkoušením.",
+  "learnWithAi": [
+    {
+      "title": "Neznámý blok v akci",
+      "text": "Vyber blok, se kterým zatím nemáš zkušenost, a zeptej se chatbota, k čemu slouží. Vyzkoušej ho v malém programu a porovnej s jeho popisem."
+    },
+    {
+      "title": "Zprávy mezi postavami",
+      "text": "Napiš chatbotovi, co mají dvě postavy ve hře dělat, když spolu komunikují, a nech si popsat, jak by si posílaly zprávy. Postav to v blokovém prostředí a vylaď chyby."
+    },
+    {
+      "title": "Výzva ke kombinaci bloků",
+      "text": "Požádej chatbota o zadání, které jde splnit jen spojením dvou bloků, které obvykle nepoužíváš. Řešení hledej bez jeho nápovědy."
+    }
+  ]
+}

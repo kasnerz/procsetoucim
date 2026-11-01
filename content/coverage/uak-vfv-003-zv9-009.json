@@ -1,0 +1,88 @@
+{
+  "outcome": "UAK-VFV-003-ZV9-009",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Podělí se s ostatními o svůj zážitek z některé kulturní události, které se účastnil.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zazitek-z-kulturni-akce-vypraveni"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Uvede příklady kulturních institucí a akcí v blízkém okolí, regionu a uvede příklady aktivit, zážitků, s nimiž se může v těchto institucích setkat.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "kulturni-instituce-a-akce-v-okoli"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Uvede důvod, proč by svým spolužákům nebo prarodičům a kamarádům doporučil navštívit nějakou kulturní událost či instituci.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "doporuceni-kulturni-akce-kamaradum"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyjádřil svůj postoj k vybranému uměleckému dílu, projevu nebo osobnosti.",
+      "cards": [
+        "vlastni-postoj-k-umeleckemu-dilu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vhodnou formou (např. diskusí, dotazníkem, anketou) svůj postoj k vybranému uměleckému dílu porovná s postoji ostatních.",
+      "cards": [
+        "porovnani-nazoru-diskuse-anketa"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Tvůrčím způsobem prezentuje vybrané umělecké dílo, projev nebo osobnost.",
+      "cards": [
+        "predstaveni-umeleckeho-dila-ostatnim"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyjádří svůj postoj k vybranému uměleckému dílu, projevu nebo osobnosti a vhodnou formou (např. diskusí, dotazníkem, anketou) ho porovná s postoji ostatních.",
+      "cards": [
+        "vlastni-postoj-k-umeleckemu-dilu",
+        "porovnani-nazoru-diskuse-anketa"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Tvůrčím způsobem prezentuje vybrané umělecké dílo, projev nebo osobnost.",
+      "cards": [
+        "predstaveni-umeleckeho-dila-ostatnim"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Představí ostatním výtvarné, architektonické nebo filmové dílo.",
+      "cards": [
+        "predstaveni-umeleckeho-dila-ostatnim"
+      ],
+      "aside": null
+    }
+  ]
+}

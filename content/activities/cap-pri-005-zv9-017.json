@@ -1,0 +1,748 @@
+[
+  {
+    "slug": "zdroje-suroviny-a-energie-v-beznem-zivote",
+    "title": "Suroviny a zdroje energie v běžném životě",
+    "aliases": [
+      "ropa a uhlí",
+      "k čemu jsou nerosty",
+      "zdroje energie",
+      "rudy",
+      "z čeho jsou věci"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše, jaké významné nerostné suroviny a energetické zdroje jsou součástí běžné potřeby člověka.",
+        "quote": "Popíše, jaké významné nerostné suroviny a energetické zdroje jsou součástí běžné potřeby člověka."
+      },
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí rozdíl mezi obnovitelnými a neobnovitelnými přírodními zdroji s pomocí různých informačních zdrojů (učebnice, encyklopedie, obrázky a videa) popíše procesy vzniku vybraných surovin (např. ropa, uhlí, zemní plyn, rudní minerály) a vysvětlí, jak jsou využívány v běžném životě (např. paliva pro dopravu, výroba elektrické energie, výroba elektrotechnických zařízení)",
+        "quote": "vysvětlí, jak jsou využívány v běžném životě"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "NEROSTNÉ BOHATSTVÍ KOLEM NÁS",
+        "url": ""
+      },
+      {
+        "title": "Obaly a nerostné suroviny: cesta plechovky a plastové lahve",
+        "url": "https://uloziste.rvp.cz/material/ed1279"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu se ropa, uhlí nebo rudy používají, a zeptá se tě na příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a učebnice mají přehled surovin a jejich využití."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Většina aplikací tohle téma nepokrývá, přehled má kniha nebo web."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj nedokáže říct, z čeho jsou věci kolem tebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vznik-ropy-uhli-plynu-a-rud",
+    "title": "Jak vznikly ropa, uhlí, plyn a rudy",
+    "aliases": [
+      "vznik ropy",
+      "vznik uhlí",
+      "zemní plyn",
+      "rudní minerály",
+      "jak vzniká uhlí"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí rozdíl mezi obnovitelnými a neobnovitelnými přírodními zdroji s pomocí různých informačních zdrojů (učebnice, encyklopedie, obrázky a videa) popíše procesy vzniku vybraných surovin (např. ropa, uhlí, zemní plyn, rudní minerály) a vysvětlí, jak jsou využívány v běžném životě (např. paliva pro dopravu, výroba elektrické energie, výroba elektrotechnických zařízení)",
+        "quote": "popíše procesy vzniku vybraných surovin"
+      },
+      {
+        "level": "Splněno",
+        "point": "Objasní neobnovitelnost nerostných surovin v důsledku procesu jejich vzniku, těžby a způsobů využití.",
+        "quote": "Objasní neobnovitelnost nerostných surovin v důsledku procesu jejich vzniku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "NEROSTNÉ BOHATSTVÍ KOLEM NÁS",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše postupně, jak se z pravěkých organismů stalo uhlí nebo ropa, a ověří tvé vysvětlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa, obrázky a encyklopedie ukazují vznik uhlí a ropy krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace, která by vznik uhlí nebo ropy ukázala, pro školu chybí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj proces trvající miliony let neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "obnovitelne-a-neobnovitelne-zdroje-rozdil",
+    "title": "Obnovitelné a neobnovitelné zdroje",
+    "aliases": [
+      "obnovitelné zdroje",
+      "neobnovitelné zdroje",
+      "proč dojde ropa",
+      "neobnovitelnost surovin",
+      "vyčerpání zásob"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí rozdíl mezi obnovitelnými a neobnovitelnými přírodními zdroji s pomocí různých informačních zdrojů (učebnice, encyklopedie, obrázky a videa) popíše procesy vzniku vybraných surovin (např. ropa, uhlí, zemní plyn, rudní minerály) a vysvětlí, jak jsou využívány v běžném životě (např. paliva pro dopravu, výroba elektrické energie, výroba elektrotechnických zařízení)",
+        "quote": "vysvětlí rozdíl mezi obnovitelnými a neobnovitelnými přírodními zdroji"
+      },
+      {
+        "level": "Na cestě",
+        "point": "na základě studia různých informačních zdrojů porovná dobu trvání procesů vedoucích ke vzniku vybraných nerostných surovin s dobou, kdy je člověk těží a využívá",
+        "quote": "na základě studia různých informačních zdrojů porovná dobu trvání procesů vedoucích ke vzniku vybraných nerostných surovin s dobou, kdy je člověk těží a využívá"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Plakát Zdroj energie",
+        "url": "https://uloziste.rvp.cz/material/c387dd"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl na příkladech a zadá otázky, podle kterých si ho zkontroluješ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu, kolik let se uhlí tvořilo a jak dlouho ho lidé těží."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka v tabulkovém procesoru ti pomůže porovnat roky vzniku a těžby."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj dobu vzniku suroviny neurčí, čísla musíš najít v textu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dopady-tezby-surovin-na-budoucnost",
+    "title": "Dopady těžby na přírodu a zdraví",
+    "aliases": [
+      "škody z těžby",
+      "těžba uhlí",
+      "vyčerpání zásob",
+      "skleníkový efekt",
+      "těžba a příroda"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše, jak těžba těchto surovin ovlivňuje budoucnost (např. vyčerpání zásob, poškození přírody, zesílení skleníkového efektu)",
+        "quote": "popíše, jak těžba těchto surovin ovlivňuje budoucnost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "NEROSTNÉ BOHATSTVÍ KOLEM NÁS",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak těžba mění krajinu a klima, a prověří tvůj popis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Reportáže a studie ukazují, jak vypadá krajina po těžbě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace dopad těžby nepopíše, můžeš jen prohlížet satelitní snímky."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nemá využití, dopady musíš popsat ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8df86db8-dfcd-414b-854f-ad1cdb18d733"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zasoby-podzemni-vody-vznik-a-vyskyt",
+    "title": "Vznik a výskyt podzemní vody",
+    "aliases": [
+      "podzemní voda",
+      "prameny",
+      "studna",
+      "kde se bere voda pod zemí",
+      "zásoby vody v krajině"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "s pomocí zprostředkované názornosti (obrázky, videa) uvede příklady vzniku a výskytu zásob podzemních vod v krajině",
+        "quote": "s pomocí zprostředkované názornosti (obrázky, videa) uvede příklady vzniku a výskytu zásob podzemních vod v krajině"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Zásoby podzemní vody a jejich ohrožení v období suchých let",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak voda vsákne do půdy a kde se hromadí, a zadá ti otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Obrázky a videa ukazují řez krajinou s vodou pod zemí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s modelem podzemní vody pro školní úroveň chybí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj podzemní vodu neukáže, příklady vybíráš z obrázků ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vliv-cloveka-na-podzemni-vodu",
+    "title": "Lidská činnost a kvalita podzemní vody",
+    "aliases": [
+      "znečištění vody",
+      "ochrana podzemní vody",
+      "zemědělství a voda",
+      "sucho",
+      "dostupnost vody"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí, jak lidské aktivity (např. zemědělství, průmysl a urbanizace) ovlivňují kvalitu a dostupnost podzemní vody, a proč je důležité ji chránit",
+        "quote": "vysvětlí, jak lidské aktivity (např. zemědělství, průmysl a urbanizace) ovlivňují kvalitu a dostupnost podzemní vody, a proč je důležité ji chránit"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí ekologický a hospodářský význam podzemní vody v krajině a vliv lidské činnosti na její kvalitu a dostupnost.",
+        "quote": "Vysvětlí ekologický a hospodářský význam podzemní vody v krajině a vliv lidské činnosti na její kvalitu a dostupnost."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zásoby podzemní vody a jejich ohrožení v období suchých let",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak hnojiva a zástavba mění vodu pod zemí, a zkontroluje tvé vysvětlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky a články ukazují, kde je podzemní voda znečištěná nebo ubývá."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace sama kvalitu podzemní vody u tebe nezměří."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Teploměr ani lupa vodu pod zemí nezměří, vysvětlit to musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/75f312e1-622b-4751-8d93-815b32feaf8d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "udrzitelne-hospodareni-s-podzemni-vodou",
+    "title": "Udržitelné hospodaření s podzemní vodou",
+    "aliases": [
+      "šetření vodou",
+      "ochrana zdrojů vody",
+      "omezení čerpání vody",
+      "doplňování vody",
+      "reportáž o suchu"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na konkrétním příkladu (např. reportáž z TV) identifikuje, jak se může s podzemní vodou hospodařit udržitelně (např. omezení čerpání vody, ochrana oblastí pro doplňování vody)",
+        "quote": "na konkrétním příkladu (např. reportáž z TV) identifikuje, jak se může s podzemní vodou hospodařit udržitelně"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Zásoby podzemní vody a jejich ohrožení v období suchých let",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti z reportáže vybrat, co se dá dělat jinak, a ověří tvůj výběr."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Reportáže a články ukazují konkrétní případy šetření vodou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe reportáž neposoudí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nemá využití, příklad vyhodnocuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/22c45bf7-e52b-475f-847b-c32a87f65a5d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "recyklace-setri-neobnovitelne-zdroje",
+    "title": "Jak recyklace šetří suroviny",
+    "aliases": [
+      "recyklace kovů",
+      "třídění odpadu",
+      "druhotné suroviny",
+      "recyklace a těžba",
+      "šetření surovin"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí, jak recyklace pomáhá šetřit neobnovitelné zdroje (např. recyklace kovů snižuje potřebu těžby rud)",
+        "quote": "vysvětlí, jak recyklace pomáhá šetřit neobnovitelné zdroje"
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí na příkladu kovů, proč recyklace snižuje těžbu, a prověří tvé vysvětlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky o recyklaci kovů a papíru ukážou, kolik se ušetří."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tohle téma nepokrývá, přehled je v textech a statistikách."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odpad třídíš rukama ty, kontejner nevysvětlí, proč se surovina šetří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/862920c8-f2d0-4058-8fb8-9f06fbfc2446",
+      "http://data.europa.eu/esco/skill/73a9561d-112c-4d8a-9d5f-b2c11c5bbd5f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "obehove-hospodarstvi-a-zivotni-cyklus-vyrobku",
+    "title": "Oběhové hospodářství a životní cyklus výrobku",
+    "aliases": [
+      "cesta výrobku",
+      "životní cyklus",
+      "oběhové hospodářství",
+      "výroba a odpad",
+      "od suroviny k odpadu"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Orientuje se v principech oběhového hospodářství a v analýze životního cyklu výrobku nebo služby.",
+        "quote": "Orientuje se v principech oběhového hospodářství a v analýze životního cyklu výrobku nebo služby."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Obaly a nerostné suroviny: cesta plechovky a plastové lahve",
+        "url": "https://uloziste.rvp.cz/material/ed1279"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere s tebou cestu výrobku od suroviny k odpadu a navrhne otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu schémata oběhového hospodářství a příklady výrobků."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulátor ekologické stopy ukáže dopad vybraného výrobku."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj životní cyklus nezmapuje, cestu sleduješ myšlením ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/22c45bf7-e52b-475f-847b-c32a87f65a5d",
+      "http://data.europa.eu/esco/skill/4e87c852-602a-4a0e-b8d8-20709ce14ac5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "obnovitelne-zdroje-umisteni-a-prinosy",
+    "title": "Obnovitelné zdroje: umístění a přínosy",
+    "aliases": [
+      "solární elektrárna",
+      "větrná elektrárna",
+      "kam postavit větrník",
+      "obnovitelná energie",
+      "ochrana přírody"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "u obnovitelných zdrojů (např. solární, větrná energie) navrhne vhodné umístění z hlediska efektivity a ochrany přírody a popíše jejich přínosy pro životní prostředí (např. méně znečištění, udržitelnost)",
+        "quote": "u obnovitelných zdrojů (např. solární, větrná energie) navrhne vhodné umístění z hlediska efektivity a ochrany přírody a popíše jejich přínosy pro životní prostředí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Plakát Zdroj energie",
+        "url": "https://uloziste.rvp.cz/material/c387dd"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou, kde svítí slunce a fouká vítr, a prověří tvůj návrh."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapy větru a slunečního svitu najdeš na webech o energetice."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa s vrstvami ochrany přírody ukáže, kde se stavět nemá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj umístění zdroje nenavrhne, rozhoduješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1e38f5be-bb7d-42c5-8301-c16cf400f8ee",
+      "http://data.europa.eu/esco/skill/83fc0b2b-6cd2-46af-b1ff-d3fc83604c26"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cinnosti-s-velkou-spotrebou-energie-a-vody",
+    "title": "Činnosti s velkou spotřebou energie a vody",
+    "aliases": [
+      "datová centra",
+      "spotřeba energie",
+      "skryté suroviny",
+      "spotřeba vody",
+      "internet a energie"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše, které činnosti člověka (včetně využití datových center) vedou k významné spotřebě energie, vzácných surovin a vody a vyjádří svůj postoj k možnému budoucímu vývoji.",
+        "quote": "Popíše, které činnosti člověka (včetně využití datových center) vedou k významné spotřebě energie, vzácných surovin a vody a vyjádří svůj postoj k možnému budoucímu vývoji."
+      },
+      {
+        "level": "Na cestě",
+        "point": "popíše, které činnosti člověka (včetně využití datových center) vedou k významné spotřebě energie, vzácných surovin a vody a vyjádří svůj postoj k možnému budoucímu vývoji",
+        "quote": "popíše, které činnosti člověka (včetně využití datových center) vedou k významné spotřebě energie, vzácných surovin a vody a vyjádří svůj postoj k možnému budoucímu vývoji"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Behind the screen: skrytá cena digitálního světa",
+        "url": "https://uloziste.rvp.cz/material/e9ac96"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kolik surovin a energie stojí telefon nebo datové centrum, a zeptá se na tvůj názor."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a statistiky ukazují spotřebu energie a vody v digitálním světě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka spotřeby ukáže, kolik energie spotřebuje tvoje zařízení."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svůj postoj k budoucnosti si tvoříš ty, klasický nástroj ho nenabídne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/83fc0b2b-6cd2-46af-b1ff-d3fc83604c26"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "udrzitelne-nakladani-s-prirodnimi-zdroji",
+    "title": "Návrh udržitelného nakládání se zdroji",
+    "aliases": [
+      "jak šetřit zdroje",
+      "udržitelnost",
+      "návrh opatření",
+      "zdraví a příroda",
+      "šetrné zdroje"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne možnosti udržitelného nakládání s přírodními zdroji, které zohledňuje dopad na zdraví lidí a na přírodu.",
+        "quote": "Navrhne možnosti udržitelného nakládání s přírodními zdroji, které zohledňuje dopad na zdraví lidí a na přírodu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti shromáždit nápady a poví, kde mají slabiny."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu příklady opatření, ze kterých můžeš vyjít."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace návrh opatření za tebe nevymyslí ani neposoudí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nemá využití, návrh vymýšlíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/22c45bf7-e52b-475f-847b-c32a87f65a5d",
+      "http://data.europa.eu/esco/skill/83fc0b2b-6cd2-46af-b1ff-d3fc83604c26"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zmeny-krajiny-cloveka-priciny-a-dusledky",
+    "title": "Jak člověk změnil krajinu",
+    "aliases": [
+      "změna krajiny",
+      "lom",
+      "důl",
+      "zásah člověka",
+      "dopady na přírodu"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "určí, jak v daném místě (v ČR i mimo ČR) člověk pozměnil krajinu",
+        "quote": "určí, jak v daném místě (v ČR i mimo ČR) člověk pozměnil krajinu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "vyhledá, co k tomu vedlo a jaké mohou být důsledky",
+        "quote": "vyhledá, co k tomu vedlo a jaké mohou být důsledky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti zformulovat příčiny a důsledky a ověří, zda něco nechybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledáš články a fotografie, které ukazují příčiny a důsledky změn."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Satelitní mapy ukážou, jak se krajina kolem lomu nebo dolu změnila."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj změnu krajiny neukáže, příčiny hledáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

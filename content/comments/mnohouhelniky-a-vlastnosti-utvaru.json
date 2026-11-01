@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kdo zná vlastnosti útvarů, nemusí je poznávat od oka: ví, že kosočtverec má všechny strany stejně dlouhé a lichoběžník jen jednu dvojici rovnoběžných stran. Hodí se to u výpočtů obsahu a obvodu, protože který vzorec použiješ, záleží na tom, o jaký útvar jde. S n-úhelníky pracují pořád lidé, kteří vyrábějí nábytek, navrhují interiéry nebo kreslí výkresy v počítači, a míst v těchto oborech spíš přibude. Aplikace ti útvar nakreslí, ale co máš před sebou na výkresu nebo na stole v dílně, musíš poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Hádání útvaru podle vlastností",
+      "text": "Požádej chatbota, ať ti popisuje útvary jen vlastnostmi, třeba čtyři stejné strany a žádný pravý úhel. Hádej název a útvar nakresli."
+    },
+    {
+      "title": "Tabulka vlastností čtyřúhelníků",
+      "text": "Sestav si tabulku čtyřúhelníků s vlastnostmi, jako jsou rovnoběžné strany nebo pravé úhly, a vyplň ji. Pošli ji chatbotovi ke kontrole a chyby oprav podle jeho vysvětlení."
+    },
+    {
+      "title": "Definice bez děr",
+      "text": "Vymysli vlastní definici čtverce nebo lichoběžníku a dej ji chatbotovi, ať hledá útvar, který jí vyhovuje, a přitom je to něco jiného. Definici pak vylepši tak, aby žádnou mezeru neměla."
+    }
+  ]
+}
