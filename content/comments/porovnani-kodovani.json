@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kódování, které je nejlepší ve všem, neexistuje: úsporné bývá složité, jednoduché zabere víc místa a přesné je zase velké. Učíš se porovnávat podle toho, na čem v dané situaci záleží, a stejně postupuješ, i když vybíráš mezi dvěma telefony nebo tarify. V práci taková srovnání dělají lidé, kteří hlídají kvalitu dat, zpracovávají statistiky nebo rozhodují, jak ukládat záznamy pacientů. Aplikace spočítá velikosti a chatbot sepíše výhody a nevýhody. Které hledisko vyhraje, záleží na tom, k čemu data potřebuješ, a to víš jen ty.",
+  "learnWithAi": [
+    {
+      "title": "Barvy zapsané dvojím způsobem",
+      "text": "Nech chatbota vymyslet dva způsoby, jak zapsat barvy pixelů, třeba slovem a číslem. Odhadni, který zabere míň místa a který se líp zpracuje, a pak si nech výpočet ukázat."
+    },
+    {
+      "title": "Tabulka výhod a slabin",
+      "text": "Vyplň vlastní tabulku, jak si dvě kódování vedou v úspornosti, přesnosti a jednoduchosti. Dej ji chatbotovi a ať u každého políčka řekne, s čím nesouhlasí."
+    },
+    {
+      "title": "Spor o lepší kódování",
+      "text": "Požádej chatbota, ať hájí jedno kódování, zatímco ty obhajuješ druhé. Po pár kolech napiš, ve které situaci by vyhrálo jeho a ve které tvoje."
+    }
+  ]
+}

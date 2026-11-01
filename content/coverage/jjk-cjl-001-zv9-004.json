@@ -1,0 +1,139 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-004",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "rozlišuje a v komunikaci užívá slova spisovná a nespisovná",
+      "cards": [
+        "spisovna-a-nespisovna-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "používá vhodně zvolená slova v daném kontextu",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "slovni-zasoba-vyber-vhodneho-slova"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "posuzuje význam slov, svoji odpověď ověří ve slovníku",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "slovni-zasoba-odhad-vyznamu-a-slovnik"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "rozlišuje antonyma, slova souřadná, nadřazená a podřazená",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "slovni-zasoba-protiklady-slov",
+          "slovni-zasoba-nadrazena-podrazena-slova"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozlišuje a v komunikaci užívá slova neutrální a citově zabarvená, slova a sousloví, významy slov, odborné názvy, rozlišuje významy běžně používaných zkratek a značek",
+      "cards": [
+        "neutralni-a-citove-zabarvena-slova",
+        "souslovi-a-odborne-nazvy",
+        "zkratky-a-znacky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "využívá v komunikaci poznatky o tvoření slov, rozlišuje významy slov utvořených různými způsoby",
+      "cards": [
+        "tvoreni-slov-a-obohacovani-slovni-zasoby"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "uvede způsoby obohacování slovní zásoby",
+      "cards": [
+        "tvoreni-slov-a-obohacovani-slovni-zasoby"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "uvede příklad slova zkratkového, přejatého, složeného a víceslovného pojmenování",
+      "cards": [
+        "prejata-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S pomocí slovníku určuje původ slov.",
+      "cards": [
+        "puvod-slov-ve-slovniku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede příklady přejatých slov a dokáže je využít v mluveném i v písemném projevu se správnou výslovností a ve správné grafické podobě.",
+      "cards": [
+        "prejata-slova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Nahrazuje přejatá slova slovy domácího původu.",
+      "cards": [
+        "nahrazovani-prejatych-a-domacich-slov"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Slova domácího původu s pomocí slovníku nahrazuje slovy přejatými.",
+      "cards": [
+        "nahrazovani-prejatych-a-domacich-slov"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná a funkčně využije nepřímá pojmenování, například v oblasti frazeologie a publicistiky.",
+      "cards": [
+        "nepriama-pojmenovani-a-frazemy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozšiřuje svoji slovní zásobu a využívá ji v mluvené i psané komunikaci.",
+      "cards": [
+        "rozsirovani-vlastni-slovni-zasoby"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Využívá znalosti o slovní zásobě a zapisuje slova do textů.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

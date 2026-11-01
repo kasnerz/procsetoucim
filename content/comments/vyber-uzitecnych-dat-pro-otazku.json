@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dobrá odpověď začíná u vhodných dat. Když chceš vědět, jestli je ve školní jídelně dost zeleniny, celostátní statistika ti moc neřekne a víc zjistíš, když týden zapisuješ, co bylo na talíři. Někdy data najdeš hotová ve veřejných statistikách, jindy si je musíš změřit nebo posbírat dotazníkem. Rozmýšlet, která data se k otázce hodí, je každodenní práce datových vědců, statistiků nebo lidí, kteří odhadují ceny a náklady, a takových míst spíš přibude. Chatbot ti poradí, kde hledat, co přesně chceš zjistit, ale víš jen ty.",
+  "learnWithAi": [
+    {
+      "title": "Data k vlastní otázce",
+      "text": "Napiš chatbotovi otázku, která tě zajímá, třeba kolik času třída tráví na mobilu. Nech si navrhnout, jaká data by pomohla, a vyber ta, která opravdu dokážeš získat."
+    },
+    {
+      "title": "Hledání veřejných statistik",
+      "text": "Zeptej se chatbota, kde v Česku najít veřejná data o jednom tématu, třeba o dopravě. Odkazy si ověř a z nalezených dat vyber jen ta, která odpovídají na tvou otázku."
+    },
+    {
+      "title": "Dotazník bez návodných otázek",
+      "text": "Sestav pět otázek do dotazníku pro třídu a nech chatbota najít ty, které jsou nejasné nebo napovídají odpověď. Uprav je a pak dotazník opravdu rozdej."
+    }
+  ]
+}

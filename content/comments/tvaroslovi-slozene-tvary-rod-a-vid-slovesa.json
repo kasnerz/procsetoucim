@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Vid rozhoduje o tom, jestli děj probíhá, nebo je hotový: „Petr psal úkol“ znamená něco jiného než „Petr napsal úkol“. Trpný rod, třeba „most byl postaven“, najdeš hlavně v úředních a odborných textech, kde se neuvádí, kdo věc udělal. Chatbot ti vid i rod určí, jenže vybrat ve vlastní větě ten správný musíš ty. Vědomě to ve své práci využívají hlavně lidé, kteří překládají nebo opravují texty, ostatním se to vrátí při učení cizího jazyka, který průběh děje vyjadřuje jinak, třeba anglickými průběhovými časy.",
+  "learnWithAi": [
+    {
+      "title": "Vidové dvojice sloves",
+      "text": "Požádej chatbota o seznam patnácti sloves a ke každému najdi vidovou dvojici, třeba „psát“ a „napsat“. Nech si dvojice zkontrolovat a u sporných se ptej proč."
+    },
+    {
+      "title": "Věty v trpném rodě",
+      "text": "Nech si dát pět vět v činném rodě a převeď je do trpného, například z věty „Dělníci postavili most“ udělej „Most byl postaven dělníky“. Chatbot ti řekne, jestli tvary sedí."
+    },
+    {
+      "title": "Přepis školního řádu",
+      "text": "Najdi ve školním řádu nebo jiném úředním textu věty v trpném rodě a přepiš je do činného. Chatbota se pak zeptej, jestli se tím nezměnil význam a který text je srozumitelnější."
+    }
+  ]
+}

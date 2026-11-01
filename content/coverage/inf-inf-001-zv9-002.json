@@ -1,0 +1,102 @@
+{
+  "outcome": "INF-INF-001-ZV9-002",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Využívá značky, piktogramy, symboly a kódy pro záznam informací.",
+      "cards": [
+        "znacky-piktogramy-a-kody"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Uvědomuje si, že různá data v počítači jsou kódována různými způsoby a zabírají různé místo v závislosti na typu dat.",
+      "cards": [
+        "velikost-ruznych-druhu-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznamuje se se způsoby kódování dat (např.: textů, obrázků, zvuků a videa).",
+      "cards": [
+        "zpusoby-kodovani-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Nastavuje rovnováhu velikosti dat a přesnosti kódování, např. počet a tím i velikost věkových kategorií, přesnost souřadnic pro určení polohy, počet rozlišovaných barev, rozlišení obrázku, frekvence měření.",
+      "cards": [
+        "velikost-a-presnost-zaznamu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Upravuje jednoduché kódování tak, aby vylepšil některou jeho vlastnost.",
+      "cards": [
+        "uprava-jednoducheho-kodovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Při zpracování a ukládání dat zvažuje rovnováhu mezi velikostí a kvalitou záznamu.",
+      "cards": [
+        "velikost-a-presnost-zaznamu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Při volbě způsobu uložení (kódování) dat zvažuje možnosti příjemce sdělení data přečíst (dekódovat).",
+      "cards": [
+        "kodovani-pro-prijemce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede a vysvětlí základní způsoby kódování různých druhů dat.",
+      "cards": [
+        "zpusoby-kodovani-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Hodnotí kódování z různých hledisek: úspornost, přesnost, jednoduchost použitého principu (a tím náročnost kódování), hodnotí možnost dalšího zpracování zakódovaných dat.",
+      "cards": [
+        "porovnani-kodovani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zváží potřebné vlastnosti kódování pro danou situaci a navrhne řešení.",
+      "cards": [
+        "navrh-kodovani-pro-situaci"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Přehled o vlastnostech kódování využívá v praktických situacích, zejména ke vhodné volbě datových typů a formátů souborů.",
+      "cards": [
+        "volba-formatu-souboru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Navrhne způsob kódování dat s cílem uložení a sdílení.",
+      "cards": [
+        "navrh-kodovani-pro-situaci"
+      ],
+      "aside": null
+    }
+  ]
+}

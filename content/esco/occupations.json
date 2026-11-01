@@ -973,6 +973,36 @@
    }
   }
  },
+ "026a5233-cad9-4b1d-8852-22c2685ab34e": {
+  "id": "026a5233-cad9-4b1d-8852-22c2685ab34e",
+  "uri": "http://data.europa.eu/esco/occupation/026a5233-cad9-4b1d-8852-22c2685ab34e",
+  "label": "Operátor/operátorka čerpadla pro těžbu ropy",
+  "labelAlt": [
+   "operátor  čerpadla pro těžbu ropy"
+  ],
+  "description": "Operátoři čerpadel pro těžbu ropy se starají o čerpadla a udržují bezporuchový oběh ropy a ropných derivátů. Monitorují průtok v potrubí v rafinérii a zkouší zařízení tak, aby bylo zajištěno co možná nejmenší narušení. Operátoři čerpadel pracují ve vysoce automatizované řídicí místnosti, kde komunikují s ostatními pracovníky za účelem koordinace činností čerpadla. Operátoři čerpadel provádějí menší opravy a údržbu a podávají zprávy.",
+  "isco4": "3134",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.29,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 23,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 23,
+    "examples": [
+     "elektronika"
+    ]
+   }
+  }
+ },
  "02b5b7b0-b856-4ac7-924c-8c35c7880b2a": {
   "id": "02b5b7b0-b856-4ac7-924c-8c35c7880b2a",
   "uri": "http://data.europa.eu/esco/occupation/02b5b7b0-b856-4ac7-924c-8c35c7880b2a",
@@ -3974,6 +4004,39 @@
    "digital": {
     "count": 2,
     "of": 46,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
+ "0ab77768-9031-4ccc-9ab8-1f73cbb36bc7": {
+  "id": "0ab77768-9031-4ccc-9ab8-1f73cbb36bc7",
+  "uri": "http://data.europa.eu/esco/occupation/0ab77768-9031-4ccc-9ab8-1f73cbb36bc7",
+  "label": "Obsluha zařízení pro perforování a navíjení hygienického papíru",
+  "labelAlt": [
+   "obsluha zařízení pro perforování a převíjení toaletního papíru"
+  ],
+  "description": "Obsluha zařízení pro perforování a navíjení hygienického papíru obsluhuje stroj, který přijímá hedvábný papír, perforuje jej a navíjí, aby vytvořil různé typy hygienického papíru.",
+  "isco4": "8143",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 40,
+    "examples": [
+     "koordinovat spedici recyklačních materiálů"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 40,
     "examples": [
      "monitorovat automatizované stroje",
      "nastavit regulátor stroje"
@@ -6994,6 +7057,40 @@
    }
   }
  },
+ "121bd198-af39-4fac-8249-b384910f7bd7": {
+  "id": "121bd198-af39-4fac-8249-b384910f7bd7",
+  "uri": "http://data.europa.eu/esco/occupation/121bd198-af39-4fac-8249-b384910f7bd7",
+  "label": "Vulkanizér/vulkanizérka pneumatik",
+  "labelAlt": [
+   "opravářka pneumatik",
+   "opravář pneumatik"
+  ],
+  "description": "Vulkanizéři pneumatik opravují trhliny a díry v pneumatikách pomocí ručních nástrojů nebo strojů.",
+  "isco4": "8141",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 26,
+    "examples": [
+     "třídit odpad",
+     "zajistit efektivní využití prostoru v obchodě"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 26,
+    "examples": [
+     "spravovat databázi obchodu"
+    ]
+   }
+  }
+ },
  "123a195c-103a-4b84-b3fd-6d40dbc15c54": {
   "id": "123a195c-103a-4b84-b3fd-6d40dbc15c54",
   "uri": "http://data.europa.eu/esco/occupation/123a195c-103a-4b84-b3fd-6d40dbc15c54",
@@ -8658,6 +8755,34 @@
    "digital": {
     "count": 0,
     "of": 34,
+    "examples": []
+   }
+  }
+ },
+ "17b29190-6746-4b81-a1d1-8053a5bbc0e9": {
+  "id": "17b29190-6746-4b81-a1d1-8053a5bbc0e9",
+  "uri": "http://data.europa.eu/esco/occupation/17b29190-6746-4b81-a1d1-8053a5bbc0e9",
+  "label": "Pracovník/pracovnice pro měkké pájení",
+  "labelAlt": [
+   "páječ"
+  ],
+  "description": "Pracovníci pro měkké pájení obsluhují různá zařízení a stroje, jako jsou plynové hořáky, pájecí stroje, svařovací stroje nebo elektrické ultrazvukové přístroje, aby se tavením a tvarováním kovových plniv mezi spoji spojily dvě nebo více položek (obvykle kovů), přičemž plnicí kov má nižší bod tavení než spojovaný kovový díl.",
+  "isco4": "7212",
+  "isco2": "72",
+  "ilo": {
+   "score": 0.13,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 46,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 46,
     "examples": []
    }
   }
@@ -10534,6 +10659,36 @@
    }
   }
  },
+ "1c5ec3d2-a241-4ba2-ba20-e4da565383a6": {
+  "id": "1c5ec3d2-a241-4ba2-ba20-e4da565383a6",
+  "uri": "http://data.europa.eu/esco/occupation/1c5ec3d2-a241-4ba2-ba20-e4da565383a6",
+  "label": "Obsluha bubnu",
+  "labelAlt": [
+   "obsluha lakovacích bubnů"
+  ],
+  "description": "Obsluha bubnu instaluje a ovládá bubnové stroje, často bubny na čištění na mokro nebo na sucho, určené k odstranění přebytečného materiálu a otřepů obrobků z těžkých a drahých kovů a ke zlepšení vzhledu povrchu, otáčí kovové obrobky v bubnu společně s pískem a případně s vodou, což umožňuje tření mezi obrobky navzájem i s pískem a způsobuje jejich zaoblení a hladkost.",
+  "isco4": "8122",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.2,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 33,
+    "examples": [
+     "monitorovat automatizované stroje"
+    ]
+   }
+  }
+ },
  "1c85eee2-a8ca-4750-a889-10a3e6c17b80": {
   "id": "1c85eee2-a8ca-4750-a889-10a3e6c17b80",
   "uri": "http://data.europa.eu/esco/occupation/1c85eee2-a8ca-4750-a889-10a3e6c17b80",
@@ -12274,6 +12429,37 @@
    }
   }
  },
+ "217e7ae2-605d-4225-afd2-6319c2408116": {
+  "id": "217e7ae2-605d-4225-afd2-6319c2408116",
+  "uri": "http://data.europa.eu/esco/occupation/217e7ae2-605d-4225-afd2-6319c2408116",
+  "label": "Obsluha řídícího centra ropné rafinérie",
+  "labelAlt": [
+   "operátor velínu ropné rafinérie",
+   "operátorka velínu ropné rafinérie"
+  ],
+  "description": "Obsluha řídícího centra ropné rafinérie provádí řadu úkolů z kontrolní místnosti rafinerie. Monitoruje procesy prostřednictvím elektronických zobrazení na monitorech, číselnících a ukazatelích. Obsluha řídícího centra provádí změny proměnných a komunikuje s ostatními odděleními. Zajišťuje plynulý průběh procesů, v souladu se zavedenými postupy. V případě nesrovnalostí nebo mimořádných událostí přijímá vhodná opatření.",
+  "isco4": "3134",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.29,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 18,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 18,
+    "examples": [
+     "elektronika"
+    ]
+   }
+  }
+ },
  "218e30f0-bd6c-4120-99ba-9a90665a314f": {
   "id": "218e30f0-bd6c-4120-99ba-9a90665a314f",
   "uri": "http://data.europa.eu/esco/occupation/218e30f0-bd6c-4120-99ba-9a90665a314f",
@@ -13167,6 +13353,34 @@
    }
   }
  },
+ "23eddde2-5e8b-4953-b275-cdc864e6d976": {
+  "id": "23eddde2-5e8b-4953-b275-cdc864e6d976",
+  "uri": "http://data.europa.eu/esco/occupation/23eddde2-5e8b-4953-b275-cdc864e6d976",
+  "label": "Strojní mazací technik/technička",
+  "labelAlt": [],
+  "description": "Strojní mazací technici zajišťují, aby byly průmyslové stroje řádně promazány a mohl být zachován jejich provoz. Na mazání strojů používají mazací pistole. Strojní mazací technici rovněž provádějí základní údržbu a opravy.",
+  "isco4": "7233",
+  "isco2": "72",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 19,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 19,
+    "examples": [
+     "technické výkresy"
+    ]
+   }
+  }
+ },
  "24119471-6ca1-465b-8f48-b2aec5c60869": {
   "id": "24119471-6ca1-465b-8f48-b2aec5c60869",
   "uri": "http://data.europa.eu/esco/occupation/24119471-6ca1-465b-8f48-b2aec5c60869",
@@ -13415,6 +13629,32 @@
    "digital": {
     "count": 0,
     "of": 34,
+    "examples": []
+   }
+  }
+ },
+ "245be6d1-fe9a-4ac8-9f81-122a687e4724": {
+  "id": "245be6d1-fe9a-4ac8-9f81-122a687e4724",
+  "uri": "http://data.europa.eu/esco/occupation/245be6d1-fe9a-4ac8-9f81-122a687e4724",
+  "label": "Tovární dělník/dělnice",
+  "labelAlt": [],
+  "description": "Tovární dělníci pomáhají obsluze strojů a montážním dělníkům. Čistí stroje a pracovní prostory. Tovární dělníci zajišťují doplnění potřeb a materiálů.",
+  "isco4": "9329",
+  "isco2": "93",
+  "ilo": {
+   "score": 0.12,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 24,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 24,
     "examples": []
    }
   }
@@ -14138,6 +14378,32 @@
    }
   }
  },
+ "262f21a3-ae78-46f4-a5f9-5a1f502caa90": {
+  "id": "262f21a3-ae78-46f4-a5f9-5a1f502caa90",
+  "uri": "http://data.europa.eu/esco/occupation/262f21a3-ae78-46f4-a5f9-5a1f502caa90",
+  "label": "Námořní důstojník/důstojnice",
+  "labelAlt": [],
+  "description": "Námořní důstojníci velí misím po dobu konfliktů i míru a dohlížejí na výcvik a rozvoj svých týmů. Dohlížejí na bojové operace svého týmu, jakož i na mise zaměřené na pomoc a na hlídky za účelem zajištění udržování míru. Pravidelně spolupracují s oddělením pro lidské zdroje HQCS, aby bylo zaručeno optimální plánování budoucích potřeb.",
+  "isco4": "0110",
+  "isco2": "01",
+  "ilo": null,
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 33,
+    "examples": [
+     "geografické informační systémy",
+     "používat geografické informační systémy"
+    ]
+   }
+  }
+ },
  "264b00c9-84d0-4dc9-b590-aed2cea2b904": {
   "id": "264b00c9-84d0-4dc9-b590-aed2cea2b904",
   "uri": "http://data.europa.eu/esco/occupation/264b00c9-84d0-4dc9-b590-aed2cea2b904",
@@ -14689,6 +14955,38 @@
     "of": 38,
     "examples": [
      "instalovat monitory pro kontrolu procesu"
+    ]
+   }
+  }
+ },
+ "27f92adf-1384-4c01-8ad0-1680ead6abf9": {
+  "id": "27f92adf-1384-4c01-8ad0-1680ead6abf9",
+  "uri": "http://data.europa.eu/esco/occupation/27f92adf-1384-4c01-8ad0-1680ead6abf9",
+  "label": "Obsluha zařízení na řezání papíru",
+  "labelAlt": [],
+  "description": "Obsluha zařízení na řezání papíru obsluhuje stroj, který řeže papír na požadovanou velikost a tvar. Řezačky na papír mohou rovněž řezat a perforovat jiné materiály v podobě listů (jako jsou kovové fólie).",
+  "isco4": "8143",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 35,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné"
+    ]
+   },
+   "digital": {
+    "count": 3,
+    "of": 35,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "obsluhovat snášecí stroj"
     ]
    }
   }
@@ -15911,6 +16209,36 @@
    }
   }
  },
+ "2be85651-c94a-4531-9df8-3cc56932960e": {
+  "id": "2be85651-c94a-4531-9df8-3cc56932960e",
+  "uri": "http://data.europa.eu/esco/occupation/2be85651-c94a-4531-9df8-3cc56932960e",
+  "label": "Obsluha zatavovacích strojů a zařízení",
+  "labelAlt": [],
+  "description": "Obsluha zatavovacích strojů a zařízení obsluhuje zatavovací a lepicí stroje za účelem spojení předmětů pro další zpracování nebo k utěsnění výrobků nebo obalů pomocí tepla.",
+  "isco4": "8183",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 30,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 30,
+    "examples": [
+     "nastavit regulátor stroje",
+     "monitorovat automatizované stroje",
+     "řešit technické problémy"
+    ]
+   }
+  }
+ },
  "2bedd02b-aeeb-4ed8-b1ae-29a706638414": {
   "id": "2bedd02b-aeeb-4ed8-b1ae-29a706638414",
   "uri": "http://data.europa.eu/esco/occupation/2bedd02b-aeeb-4ed8-b1ae-29a706638414",
@@ -16161,6 +16489,32 @@
      "připravovat marketingový plán výstavy",
      "být počítačově gramotný"
     ]
+   }
+  }
+ },
+ "2c90a752-43f0-483d-8f64-3ce5e4535aa8": {
+  "id": "2c90a752-43f0-483d-8f64-3ce5e4535aa8",
+  "uri": "http://data.europa.eu/esco/occupation/2c90a752-43f0-483d-8f64-3ce5e4535aa8",
+  "label": "Kočí",
+  "labelAlt": [],
+  "description": "Kočí vozí cestující v koňských povozech. Zajišťují bezpečnost cestujících a péči o koně.",
+  "isco4": "9332",
+  "isco2": "93",
+  "ilo": {
+   "score": 0.13,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 20,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 20,
+    "examples": []
    }
   }
  },
@@ -17021,6 +17375,43 @@
     "examples": [
      "muzejní databáze",
      "využívat prostředky ICT k řešení pracovních úkolů"
+    ]
+   }
+  }
+ },
+ "2f26a52b-cf45-4282-9138-478252161f00": {
+  "id": "2f26a52b-cf45-4282-9138-478252161f00",
+  "uri": "http://data.europa.eu/esco/occupation/2f26a52b-cf45-4282-9138-478252161f00",
+  "label": "Inženýr, inženýrka potravinářské výroby",
+  "labelAlt": [
+   "procesní inženýrka",
+   "procesní inženýr",
+   "inženýr potravinářské výroby",
+   "výrobní inženýrka",
+   "výrobní inženýr"
+  ],
+  "description": "Inženýři potravinářské výroby dohlížejí na elektrické a mechanické potřeby zařízení a strojů potřebných v procesu výroby potravin nebo nápojů. Snaží se maximalizovat produktivitu závodu tím, že se zapojují do preventivních opatření v oblasti BOZP, správné výrobní praxe, dodržování hygienických předpisů a provádění běžné údržby strojů a zařízení.",
+  "isco4": "2141",
+  "isco2": "21",
+  "ilo": {
+   "score": 0.37,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 33,
+    "examples": [
+     "omezovat plýtvání zdroji",
+     "zajistit soulad výroby potravin s legislativou v oblasti životního prostředí"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 33,
+    "examples": [
+     "elektronika"
     ]
    }
   }
@@ -19623,6 +20014,38 @@
    }
   }
  },
+ "35f62568-eb4e-4a09-9d83-ecc73116f94c": {
+  "id": "35f62568-eb4e-4a09-9d83-ecc73116f94c",
+  "uri": "http://data.europa.eu/esco/occupation/35f62568-eb4e-4a09-9d83-ecc73116f94c",
+  "label": "Pracovník/pracovnice čokoládovny",
+  "labelAlt": [
+   "operátorka čokoládovny",
+   "operátor čokoládovny"
+  ],
+  "description": "Pracovníci čokoládovny vyrábějí cukrovinky s čokoládou. Vykonávají činnosti, jako je zkoumání a ochutnávka základní čokoládové pasty a pocit z ní. Výsledkem této analýzy je zjištění, zda barva, textura a chuť čokoládové pasty splňují specifikace.",
+  "isco4": "7512",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 43,
+    "examples": [
+     "vybírat odpovídající obaly pro potravinářské výrobky",
+     "původ potravinových tuků a olejů"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 43,
+    "examples": []
+   }
+  }
+ },
  "35fbb8cd-c044-49a1-850c-010481c99b4a": {
   "id": "35fbb8cd-c044-49a1-850c-010481c99b4a",
   "uri": "http://data.europa.eu/esco/occupation/35fbb8cd-c044-49a1-850c-010481c99b4a",
@@ -19878,6 +20301,41 @@
     "of": 15,
     "examples": [
      "používat IT nástroje"
+    ]
+   }
+  }
+ },
+ "3723d7a6-7e65-4735-8235-cb01fb661b2f": {
+  "id": "3723d7a6-7e65-4735-8235-cb01fb661b2f",
+  "uri": "http://data.europa.eu/esco/occupation/3723d7a6-7e65-4735-8235-cb01fb661b2f",
+  "label": "Obsluha zařízení na lisování papíroviny",
+  "labelAlt": [
+   "pracovník lisování papíroviny",
+   "pracovnice lisování papíroviny"
+  ],
+  "description": "Obsluha zařízení na lisování papíroviny pracuje se strojem, který lisuje papírovinu do různých tvarů obvykle pro použití v lehkém, ale pevném obalovém materiálu, jako jsou například krabičky na vajíčka.",
+  "isco4": "8171",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.28,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 36,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné",
+     "koordinovat spedici recyklačních materiálů"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 36,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
     ]
    }
   }
@@ -21521,6 +21979,40 @@
    }
   }
  },
+ "3bdf6206-e952-4177-a17b-2a03bfee2144": {
+  "id": "3bdf6206-e952-4177-a17b-2a03bfee2144",
+  "uri": "http://data.europa.eu/esco/occupation/3bdf6206-e952-4177-a17b-2a03bfee2144",
+  "label": "Seřizovač/seřizovačka a obsluha konvenčních strojů na broušení dřeva",
+  "labelAlt": [
+   "brusič dřeva",
+   "brusička dřeva"
+  ],
+  "description": "Seřizovači a obsluha konvenčních strojů na broušení dřeva vyhlazují povrch dřevěných předmětů za použití brusných nástrojů. Vždy se jedná o použití brusného povrchu, obvykle brusného papíru, aby se odstranily nerovnosti.",
+  "isco4": "7523",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 41,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 41,
+    "examples": [
+     "nastavit regulátor stroje",
+     "monitorovat automatizované stroje"
+    ]
+   }
+  }
+ },
  "3c0af499-39f6-4468-9ba4-b13a26d5f888": {
   "id": "3c0af499-39f6-4468-9ba4-b13a26d5f888",
   "uri": "http://data.europa.eu/esco/occupation/3c0af499-39f6-4468-9ba4-b13a26d5f888",
@@ -22432,6 +22924,38 @@
    }
   }
  },
+ "3e626058-f669-4503-84ec-6ae1a6077a61": {
+  "id": "3e626058-f669-4503-84ec-6ae1a6077a61",
+  "uri": "http://data.europa.eu/esco/occupation/3e626058-f669-4503-84ec-6ae1a6077a61",
+  "label": "Operátor/operátorka velínu spalovny",
+  "labelAlt": [
+   "obsluha spalovny"
+  ],
+  "description": "Operátoři velínu spalovny spravují spalovací zařízení, která spalují odpad. Zajišťují údržbu zařízení a průběh procesu spalování v souladu s bezpečnostními předpisy pro spalování odpadů.",
+  "isco4": "3132",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.27,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 15,
+    "examples": [
+     "zajistit shodu s právními předpisy o nakládání s odpadem",
+     "třídit odpad",
+     "zajistit soulad s legislativou v oblasti životního prostředí"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 15,
+    "examples": []
+   }
+  }
+ },
  "3e6488b6-3ca5-46b9-b380-5cd251d24824": {
   "id": "3e6488b6-3ca5-46b9-b380-5cd251d24824",
   "uri": "http://data.europa.eu/esco/occupation/3e6488b6-3ca5-46b9-b380-5cd251d24824",
@@ -23204,6 +23728,39 @@
     "examples": [
      "prediktivní údržba",
      "být počítačově gramotný"
+    ]
+   }
+  }
+ },
+ "41535a7d-f2ed-4937-9b7e-3b14c8c755b3": {
+  "id": "41535a7d-f2ed-4937-9b7e-3b14c8c755b3",
+  "uri": "http://data.europa.eu/esco/occupation/41535a7d-f2ed-4937-9b7e-3b14c8c755b3",
+  "label": "Obsluha zařízení na bělení buničiny",
+  "labelAlt": [],
+  "description": "Obsluha zařízení na bělení buničiny obsluhuje stroj, který bělí buničinu pro použití při výrobě bílého papíru. K doplnění různých metod výroby buničiny a k získání různých stupňů bělosti se používají různé metody bělení.",
+  "isco4": "8171",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.28,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 32,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné",
+     "odstraňovat nebezpečný odpad",
+     "provádět čištění odpadních vod"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 32,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
     ]
    }
   }
@@ -24250,6 +24807,34 @@
     "examples": [
      "být počítačově gramotný"
     ]
+   }
+  }
+ },
+ "44b0f118-2a70-4eec-b301-89d7fd84a3d0": {
+  "id": "44b0f118-2a70-4eec-b301-89d7fd84a3d0",
+  "uri": "http://data.europa.eu/esco/occupation/44b0f118-2a70-4eec-b301-89d7fd84a3d0",
+  "label": "Obsluha pece na vysoušení dřeva",
+  "labelAlt": [],
+  "description": "Obsluha pece na vysoušení dřeva řídí proces aplikace tepla na vlhké nebo čerstvé dřevo, aby bylo možné získat použitelné suché dřevo. V závislosti na typu pece bude obsluha pece na vysoušení dřeva odpovědná za přemístění dřeva do pece a z pece, regulování teploty a větrání.",
+  "isco4": "7521",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 42,
+    "examples": [
+     "řídit ventilaci pecí"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 42,
+    "examples": []
    }
   }
  },
@@ -26595,6 +27180,41 @@
    }
   }
  },
+ "4b6a55a8-8ec9-4ae2-9f62-ebcea1fa93d0": {
+  "id": "4b6a55a8-8ec9-4ae2-9f62-ebcea1fa93d0",
+  "uri": "http://data.europa.eu/esco/occupation/4b6a55a8-8ec9-4ae2-9f62-ebcea1fa93d0",
+  "label": "Obsluha papírenských strojů",
+  "labelAlt": [
+   "strojník papírenských strojů"
+  ],
+  "description": "Obsluha papírenských strojů obsluhuje stroje, do kterých je dodávána kaše z buničiny, kterou rozprostřou na síť a nechají z ní odtéct vodu. Takto zpracovaná kaše z buničiny se pak vylisuje a vysuší za účelem výroby papíru.",
+  "isco4": "8171",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.28,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 34,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné",
+     "odstraňovat nebezpečný odpad",
+     "provádět čištění odpadních vod"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 34,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "4b6b09e6-e1f6-46d8-b16a-d3522c367983": {
   "id": "4b6b09e6-e1f6-46d8-b16a-d3522c367983",
   "uri": "http://data.europa.eu/esco/occupation/4b6b09e6-e1f6-46d8-b16a-d3522c367983",
@@ -27868,6 +28488,38 @@
    }
   }
  },
+ "4ea620f2-5c75-49ee-85a0-b2fb6bbf3624": {
+  "id": "4ea620f2-5c75-49ee-85a0-b2fb6bbf3624",
+  "uri": "http://data.europa.eu/esco/occupation/4ea620f2-5c75-49ee-85a0-b2fb6bbf3624",
+  "label": "Vedoucí silničního provozu",
+  "labelAlt": [],
+  "description": "Vedoucí silničního provozu dohlížejí na každodenní procesy silničního provozu, řídí je a usilují o splnění očekávání zákazníků.",
+  "isco4": "1324",
+  "isco2": "13",
+  "ilo": {
+   "score": 0.38,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 5,
+    "of": 29,
+    "examples": [
+     "dopravní legislativa",
+     "podporovat využívání udržitelné dopravy",
+     "aplikovat opatření na ochranu životního prostředí v silniční dopravě"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 29,
+    "examples": [
+     "spravovat počítačové systémy pro řízení dopravních operací"
+    ]
+   }
+  }
+ },
  "4eada7b3-5026-4030-936b-4a80aed37252": {
   "id": "4eada7b3-5026-4030-936b-4a80aed37252",
   "uri": "http://data.europa.eu/esco/occupation/4eada7b3-5026-4030-936b-4a80aed37252",
@@ -29110,6 +29762,34 @@
    }
   }
  },
+ "528e63a7-91be-4477-be2f-69ce82deb726": {
+  "id": "528e63a7-91be-4477-be2f-69ce82deb726",
+  "uri": "http://data.europa.eu/esco/occupation/528e63a7-91be-4477-be2f-69ce82deb726",
+  "label": "Obsluha tavicí pece",
+  "labelAlt": [
+   "hutník tavič"
+  ],
+  "description": "Obsluha tavicí pece sleduje proces výroby kovu před litím do forem. Dohlíží na tavné pece a řídí veškerou činnost pece, včetně interpretace počítačových dat, měření a nastavení teploty, vkládání a přidávání železa, kyslíku a dalších aditiv pro požadované složení kovové slitiny. Kontroluje chemicko-tepelné zpracování kovu za účelem dosažení norem. V případě zjištěných závad v kovovém materiálu informuje oprávněné zaměstnance a podílejí se na odstranění závady.",
+  "isco4": "3135",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.31,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 21,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 21,
+    "examples": []
+   }
+  }
+ },
  "528f90ed-e250-48bd-aacc-ffb7b1de5654": {
   "id": "528f90ed-e250-48bd-aacc-ffb7b1de5654",
   "uri": "http://data.europa.eu/esco/occupation/528f90ed-e250-48bd-aacc-ffb7b1de5654",
@@ -29393,6 +30073,40 @@
     "examples": [
      "používat software pro řízení vztahů se zákazníky",
      "být počítačově gramotný"
+    ]
+   }
+  }
+ },
+ "531e98aa-2a03-489d-b811-ebbb7389864a": {
+  "id": "531e98aa-2a03-489d-b811-ebbb7389864a",
+  "uri": "http://data.europa.eu/esco/occupation/531e98aa-2a03-489d-b811-ebbb7389864a",
+  "label": "Montážní dělník/dělnice plátěných výrobků",
+  "labelAlt": [
+   "výrobce plátěných stanů",
+   "výrobkyně plátěných stanů",
+   "výrobce plachet",
+   "výrobkyně plachet"
+  ],
+  "description": "Montážní dělníci plátěných výrobků provádí kompletaci výrobků z hustých tkanin a z usně, jako jsou stany, tašky nebo peněženky. Umělci rovněž používají jejich výrobky jako malířské plátno.",
+  "isco4": "8159",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.16,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 32,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 32,
+    "examples": [
+     "používat software pro řezání podle vzoru",
+     "technické výkresy"
     ]
    }
   }
@@ -30027,6 +30741,38 @@
      "technické výkresy",
      "automatický řídicí systém"
     ]
+   }
+  }
+ },
+ "5520bfd0-49d3-47e5-abe0-d72354711bc0": {
+  "id": "5520bfd0-49d3-47e5-abe0-d72354711bc0",
+  "uri": "http://data.europa.eu/esco/occupation/5520bfd0-49d3-47e5-abe0-d72354711bc0",
+  "label": "Čistič/čistička kakaových bobů",
+  "labelAlt": [
+   "operátor stroje na loupání kakaových bobů",
+   "operátorka stroje na loupání kakaových bobů",
+   "čističi kakaových bobů"
+  ],
+  "description": "Čističi kakaových bobů obsluhují stroje pro odstraňování cizorodých materiálů, jako jsou kameny, provázky a nečistoty z kakaových bobů. Obsluhují sila a přemísťují boby ze sil do násypek. Nasměrují vyčištěné boby do určených sil. Používají systém čištění vzduchu, aby odstranili další cizorodé látky.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 27,
+    "examples": [
+     "zajistit soulad výroby potravin s legislativou v oblasti životního prostředí"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 27,
+    "examples": []
    }
   }
  },
@@ -33592,6 +34338,37 @@
    }
   }
  },
+ "5e5522c5-4b09-4586-a8f0-3b6d66d99969": {
+  "id": "5e5522c5-4b09-4586-a8f0-3b6d66d99969",
+  "uri": "http://data.europa.eu/esco/occupation/5e5522c5-4b09-4586-a8f0-3b6d66d99969",
+  "label": "Obsluha odkorňovacích strojů",
+  "labelAlt": [],
+  "description": "Obsluha odkorňovacích strojů obsluhuje odkorňovací stroje zbavující stromy kůry. Strom je vložen do stroje, kde je kůra odstraněna oděrem nebo ořezáním.",
+  "isco4": "8172",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.14,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 41,
+    "examples": [
+     "odstraňovat odpadní materiál z řezání"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 41,
+    "examples": [
+     "nastavit regulátor stroje",
+     "technologie řezání"
+    ]
+   }
+  }
+ },
  "5e5b1b61-1351-4d3b-a293-deb3661715dd": {
   "id": "5e5b1b61-1351-4d3b-a293-deb3661715dd",
   "uri": "http://data.europa.eu/esco/occupation/5e5b1b61-1351-4d3b-a293-deb3661715dd",
@@ -34400,6 +35177,40 @@
      "řídicí systémy letadla",
      "technické výkresy",
      "provozovat dvoucestné rádiové systémy"
+    ]
+   }
+  }
+ },
+ "60b9b847-d964-4a8a-a756-904080b0f35f": {
+  "id": "60b9b847-d964-4a8a-a756-904080b0f35f",
+  "uri": "http://data.europa.eu/esco/occupation/60b9b847-d964-4a8a-a756-904080b0f35f",
+  "label": "Seřizovač/seřizovačka stroje pro lisování výlisků",
+  "labelAlt": [
+   "obsluha stroje pro lisování výlisků",
+   "pracovnice obsluhující stroj pro lisování výlisků",
+   "pracovník obsluhující stroj pro lisování výlisků"
+  ],
+  "description": "Seřizovači stroje pro lisování výlisků seřizují a obsluhují lisovací stroje, které jsou konstruovány tak, aby tvářely kovové obrobky do požadovaného tvaru působením tlaku, který zajišťuje pohyb podložky a raznice upevněné na kovovém beranidle nahoru a dolů, což vede k tváření menších kovových částí obrobku vložených do lisu.",
+  "isco4": "7223",
+  "isco2": "72",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 46,
+    "examples": []
+   },
+   "digital": {
+    "count": 5,
+    "of": 46,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "používat CAM software"
     ]
    }
   }
@@ -36059,6 +36870,37 @@
    }
   }
  },
+ "65b88636-2ebb-4049-b509-2f6da5d6ea1c": {
+  "id": "65b88636-2ebb-4049-b509-2f6da5d6ea1c",
+  "uri": "http://data.europa.eu/esco/occupation/65b88636-2ebb-4049-b509-2f6da5d6ea1c",
+  "label": "Obsluha strojů na výrobu obálek",
+  "labelAlt": [],
+  "description": "Obsluha strojů na výrobu obálek obsluhuje stroj, který přijímá papír a provádí kroky k vytvoření obálek: papír rozřeže, složí a slepí, poté na klopu obálky aplikuje slabší lepidlo potravinářské povahy, aby ji spotřebitel mohl zalepit.",
+  "isco4": "8143",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 35,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 35,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "65bd2342-f7de-4932-9164-eb480e35a791": {
   "id": "65bd2342-f7de-4932-9164-eb480e35a791",
   "uri": "http://data.europa.eu/esco/occupation/65bd2342-f7de-4932-9164-eb480e35a791",
@@ -36851,6 +37693,34 @@
      "rozšířená realita",
      "používat elektronické turistické platformy"
     ]
+   }
+  }
+ },
+ "67f12d6c-295f-4315-8c5c-8e477c7f7019": {
+  "id": "67f12d6c-295f-4315-8c5c-8e477c7f7019",
+  "uri": "http://data.europa.eu/esco/occupation/67f12d6c-295f-4315-8c5c-8e477c7f7019",
+  "label": "Pracovník/pracovnice pro získání medu",
+  "labelAlt": [
+   "obsluha zařízení pro získání medu"
+  ],
+  "description": "Pracovníci pro získání medu obsluhují stroje na extrakci tekutého medu z medových plástů. Medové plásty umisťují do strojů na extrakci medu, kde se z plástů získává med.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 22,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 22,
+    "examples": []
    }
   }
  },
@@ -38512,6 +39382,32 @@
    }
   }
  },
+ "6d72138d-2ebb-4a89-b2b2-8c22365b89bf": {
+  "id": "6d72138d-2ebb-4a89-b2b2-8c22365b89bf",
+  "uri": "http://data.europa.eu/esco/occupation/6d72138d-2ebb-4a89-b2b2-8c22365b89bf",
+  "label": "Pracovník/pracovnice pro tvrdé pájení",
+  "labelAlt": [],
+  "description": "Kovotepci obsluhují různá zařízení a stroje, aby spojili dva kovové kusy dohromady zahřátím, roztavením a vytvořením kovové výplně mezi nimi, často mosazi nebo mědi. Při spojování hliníku, stříbra, mědi, zlata nebo niklu se postupuje podobně jako při pájení, ale za použití hořáků, páječek, tavidel a svářeček a při vyšších teplotách.",
+  "isco4": "7212",
+  "isco2": "72",
+  "ilo": {
+   "score": 0.13,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 47,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 47,
+    "examples": []
+   }
+  }
+ },
  "6d765c21-267d-4d3d-a989-9b7596670477": {
   "id": "6d765c21-267d-4d3d-a989-9b7596670477",
   "uri": "http://data.europa.eu/esco/occupation/6d765c21-267d-4d3d-a989-9b7596670477",
@@ -38631,6 +39527,38 @@
     "count": 0,
     "of": 29,
     "examples": []
+   }
+  }
+ },
+ "6dbca2aa-f83b-4567-a4e7-b9a21fb948bf": {
+  "id": "6dbca2aa-f83b-4567-a4e7-b9a21fb948bf",
+  "uri": "http://data.europa.eu/esco/occupation/6dbca2aa-f83b-4567-a4e7-b9a21fb948bf",
+  "label": "Obsluha stroje na válcování kovů",
+  "labelAlt": [
+   "obsluha válcovacího stroje"
+  ],
+  "description": "Obsluha stroje na válcování kovů instaluje a obsluhuje válce na kovy určené k formování kovových obrobků do požadovaného tvaru jejich průchodem jedním nebo několika páry válců, aby se zmenšila tloušťka kovu a aby se dosáhlo homogenity. Zohledňuje také správnou teplotu pro tento proces válcování.",
+  "isco4": "8121",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.26,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 51,
+    "examples": []
+   },
+   "digital": {
+    "count": 4,
+    "of": 51,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "používat CAM software"
+    ]
    }
   }
  },
@@ -39590,6 +40518,38 @@
    }
   }
  },
+ "7109cdfd-1618-43b6-8317-8dc90fa583e6": {
+  "id": "7109cdfd-1618-43b6-8317-8dc90fa583e6",
+  "uri": "http://data.europa.eu/esco/occupation/7109cdfd-1618-43b6-8317-8dc90fa583e6",
+  "label": "Obsluha zařízení na výrobu dřevěných pelet",
+  "labelAlt": [
+   "obsluha peletovací linky na výrobu dřevěných pelet",
+   "obsluha peletovacího zařízení na dřevo"
+  ],
+  "description": "Obsluha zařízení na výrobu dřevěných pelet obsluhuje kladivový drtič s cílem přeměnit odpadní dřevěné výrobky na pelety, které se používají jako palivo. Rozdrcený produkt se následně protlačí přes lisovnici, čímž se získá standardizovaný tvar a velikost pelety.",
+  "isco4": "8172",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.14,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 36,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 36,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "7153a12d-85e0-4123-87e9-46bb1a2dc929": {
   "id": "7153a12d-85e0-4123-87e9-46bb1a2dc929",
   "uri": "http://data.europa.eu/esco/occupation/7153a12d-85e0-4123-87e9-46bb1a2dc929",
@@ -39821,6 +40781,38 @@
    }
   }
  },
+ "71a98a24-e02b-4ba6-b4df-6556d7ae98cc": {
+  "id": "71a98a24-e02b-4ba6-b4df-6556d7ae98cc",
+  "uri": "http://data.europa.eu/esco/occupation/71a98a24-e02b-4ba6-b4df-6556d7ae98cc",
+  "label": "Obsluha strojů pro konečnou úpravu papíru",
+  "labelAlt": [],
+  "description": "Obsluha strojů pro konečnou úpravu papíru pracuje se stroji, které provádějí jeden nebo více úkonů s papírem tak, aby byl vhodný pro konkrétní trhy (jako je děrování, perforování, přehýbání a kolacionování uhlovým papírem.",
+  "isco4": "8143",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 39,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné"
+    ]
+   },
+   "digital": {
+    "count": 5,
+    "of": 39,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "řešit technické problémy"
+    ]
+   }
+  }
+ },
  "71bac871-7594-4d86-a19f-592079bd8154": {
   "id": "71bac871-7594-4d86-a19f-592079bd8154",
   "uri": "http://data.europa.eu/esco/occupation/71bac871-7594-4d86-a19f-592079bd8154",
@@ -39854,6 +40846,36 @@
     "of": 35,
     "examples": [
      "systémy elektronického obchodu"
+    ]
+   }
+  }
+ },
+ "71c3a49a-e55e-42ce-bd3f-31f37d3cfab6": {
+  "id": "71c3a49a-e55e-42ce-bd3f-31f37d3cfab6",
+  "uri": "http://data.europa.eu/esco/occupation/71c3a49a-e55e-42ce-bd3f-31f37d3cfab6",
+  "label": "Pracovník/pracovnice ostrahy v obchodě",
+  "labelAlt": [
+   "detektiv v obchodě"
+  ],
+  "description": "Pracovníci ostrahy v obchodě monitorují dění v obchodech za účelem prevence a odhalování krádeží. Jakmile je dotyčná osoba zadržena při činu, přijmou veškerá právní opatření, včetně oznámení policii.",
+  "isco4": "3411",
+  "isco2": "34",
+  "ilo": {
+   "score": 0.39,
+   "gradient": "Gradient 1"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 29,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 29,
+    "examples": [
+     "obsluhovat rádiové zařízení"
     ]
    }
   }
@@ -40497,6 +41519,36 @@
     "of": 9,
     "examples": [
      "kreslit skici pro vývoj textilních výrobků pomocí softwaru"
+    ]
+   }
+  }
+ },
+ "73270b73-8c71-445f-a8d3-4647b1ae38d0": {
+  "id": "73270b73-8c71-445f-a8d3-4647b1ae38d0",
+  "uri": "http://data.europa.eu/esco/occupation/73270b73-8c71-445f-a8d3-4647b1ae38d0",
+  "label": "Obsluha strojů na výrobu papírových sáčků",
+  "labelAlt": [],
+  "description": "Obsluha strojů na výrobu papírových sáčků obsluhuje stroj, který papír skládá a lepí do podoby papírových sáčků různých velikostí, tvarů a tloušťky.",
+  "isco4": "8143",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 34,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 34,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "míchat inkoust"
     ]
    }
   }
@@ -41695,6 +42747,34 @@
    }
   }
  },
+ "7696b15a-c52e-4ac5-b38d-9eeb010c5fa3": {
+  "id": "7696b15a-c52e-4ac5-b38d-9eeb010c5fa3",
+  "uri": "http://data.europa.eu/esco/occupation/7696b15a-c52e-4ac5-b38d-9eeb010c5fa3",
+  "label": "Důstojník/důstojnice dělostřelectva",
+  "labelAlt": [
+   "dělostřelkyně",
+   "dělostřelec"
+  ],
+  "description": "Důstojníci dělostřelectva nabízejí podporu v boji v oblasti zaměřování cílů, koordinace informací, dozoru a zbraní. Řídí taktiky a rozmisťování zbraní na bojišti. Rovněž vedou vojáky.",
+  "isco4": "0110",
+  "isco2": "01",
+  "ilo": null,
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 29,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 29,
+    "examples": [
+     "obsluhovat rádiové zařízení"
+    ]
+   }
+  }
+ },
  "76a1a76c-b014-4600-8901-56cb936de7ed": {
   "id": "76a1a76c-b014-4600-8901-56cb936de7ed",
   "uri": "http://data.europa.eu/esco/occupation/76a1a76c-b014-4600-8901-56cb936de7ed",
@@ -42004,6 +43084,38 @@
     "of": 32,
     "examples": [
      "obsluhovat elektronické platební terminály"
+    ]
+   }
+  }
+ },
+ "772e57c5-fb25-4b0c-8cc8-f8944a9edfbc": {
+  "id": "772e57c5-fb25-4b0c-8cc8-f8944a9edfbc",
+  "uri": "http://data.europa.eu/esco/occupation/772e57c5-fb25-4b0c-8cc8-f8944a9edfbc",
+  "label": "Obsluha strojů pro nástřik sklolaminátu",
+  "labelAlt": [],
+  "description": "Obsluha strojů pro nástřik sklolaminátu kontroluje a udržuje stroj, který rozprašuje směs pryskyřice a skleněných vláken na takové výrobky, jako jsou například vany nebo lodní trupy, aby získali odolné a lehké kompozitní konečné výrobky.",
+  "isco4": "8142",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 39,
+    "examples": [
+     "nakládat s odpady"
+    ]
+   },
+   "digital": {
+    "count": 3,
+    "of": 39,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "dálkově regulovat proces výroby"
     ]
    }
   }
@@ -42797,6 +43909,39 @@
    "digital": {
     "count": 0,
     "of": 28,
+    "examples": []
+   }
+  }
+ },
+ "78ddc0cc-166e-437e-9c41-48aa0a6c6f93": {
+  "id": "78ddc0cc-166e-437e-9c41-48aa0a6c6f93",
+  "uri": "http://data.europa.eu/esco/occupation/78ddc0cc-166e-437e-9c41-48aa0a6c6f93",
+  "label": "Testér/testérka kořenících směsí",
+  "labelAlt": [
+   "míchačka kořenicích směsí",
+   "míchač kořenicích směsí",
+   "pracovnice výroby kořenicích směsí",
+   "míchači kořenicích směsí",
+   "pracovník výroby kořenicích směsí",
+   "obsluha stroje na míchání koření"
+  ],
+  "description": "Testéři kořenících směsí testují sypané koření pomocí mechanických sít. Obsluhují míchací stroje, které míchají a váží koření, dokud není dosaženo stanovené konzistence. Srovnávají barvy směsí koření se standardní tabulkou barev, aby se zajistilo, že barvy směsí splňují specifikace.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 23,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 23,
     "examples": []
    }
   }
@@ -43994,6 +45139,34 @@
     "of": 32,
     "examples": [
      "integrovat obsah do výstupních médií"
+    ]
+   }
+  }
+ },
+ "7c64479f-7a76-49e9-ac42-bd925f2bf99d": {
+  "id": "7c64479f-7a76-49e9-ac42-bd925f2bf99d",
+  "uri": "http://data.europa.eu/esco/occupation/7c64479f-7a76-49e9-ac42-bd925f2bf99d",
+  "label": "Pracovník/pracovnice kontrolního střediska dolu",
+  "labelAlt": [],
+  "description": "Pracovníci kontrolního střediska dolu plní řadu úkolů z kontrolního střediska dolu. Monitorují procesy prostřednictvím elektronických údajů zobrazených na monitorech a regulátorech a prostřednictvím světelných signálů. Pracovníci kontrolního střediska provádějí změny proměnných a komunikují s ostatními odděleními, aby se zajistilo, že procesy probíhají plynule a v souladu se zavedenými postupy. V případě nesrovnalostí nebo mimořádných událostí přijímají vhodná opatření.",
+  "isco4": "8131",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 18,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 18,
+    "examples": [
+     "elektronika"
     ]
    }
   }
@@ -46403,6 +47576,34 @@
    }
   }
  },
+ "82b5c6dc-6a4d-4415-80d8-5cfedfc54de7": {
+  "id": "82b5c6dc-6a4d-4415-80d8-5cfedfc54de7",
+  "uri": "http://data.europa.eu/esco/occupation/82b5c6dc-6a4d-4415-80d8-5cfedfc54de7",
+  "label": "Asistent/asistentka v oblasti klinického hodnocení",
+  "labelAlt": [],
+  "description": "Asistenti v oblasti klinického hodnocení podporují klinický výzkum léčiv. Spolupracují s výzkumníky a lékaři v nemocnicích. Spravují základní dokumenty, jako jsou formuláře klinických zpráv, protokoly studií a formuláře informovaného souhlasu. Zakládají záznamy týkající se nežádoucích účinků léků.",
+  "isco4": "3213",
+  "isco2": "32",
+  "ilo": {
+   "score": 0.3,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 15,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 15,
+    "examples": [
+     "zaznamenávat údaje z biomedicínských testů"
+    ]
+   }
+  }
+ },
  "82cbe20d-967c-4161-9ecd-eafc724d171c": {
   "id": "82cbe20d-967c-4161-9ecd-eafc724d171c",
   "uri": "http://data.europa.eu/esco/occupation/82cbe20d-967c-4161-9ecd-eafc724d171c",
@@ -46431,6 +47632,39 @@
     "count": 0,
     "of": 46,
     "examples": []
+   }
+  }
+ },
+ "82d75f3b-644a-4582-ad6b-a2a1833e44cb": {
+  "id": "82d75f3b-644a-4582-ad6b-a2a1833e44cb",
+  "uri": "http://data.europa.eu/esco/occupation/82d75f3b-644a-4582-ad6b-a2a1833e44cb",
+  "label": "Specialista/specialistka na nedestruktivní zkoušky",
+  "labelAlt": [
+   "technologický specialista v oboru nedestruktivního testování",
+   "technik nedestruktivního zkoušení",
+   "technička nedestruktivního zkoušení",
+   "technologická specialistka v oboru nedestruktivního testování"
+  ],
+  "description": "Specialisté na nedestruktivní zkoušky provádějí testování vozidel, plavidel a jiných vyrobených objektů a stavebních konstrukcí, aniž by je museli poškozovat. K provádění zkoušek používají speciální zařízení, jako je rentgen, ultrazvuk, radiografické nebo infračervené nástroje, a na základě zjištěných výsledků podávají zprávy.",
+  "isco4": "7543",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.31,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 24,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 24,
+    "examples": [
+     "používat ultrazvukové zařízení"
+    ]
    }
   }
  },
@@ -50053,6 +51287,40 @@
    }
   }
  },
+ "8d3cc890-5902-4fac-9438-6098a3ee437c": {
+  "id": "8d3cc890-5902-4fac-9438-6098a3ee437c",
+  "uri": "http://data.europa.eu/esco/occupation/8d3cc890-5902-4fac-9438-6098a3ee437c",
+  "label": "Seřizovač/seřizovačka pěchovacího lisu",
+  "labelAlt": [
+   "pracovnice obsluhující pěchovací lisy",
+   "obsluha pěchovacího lisu",
+   "pracovník obsluhující pěchovací lisy"
+  ],
+  "description": "Seřizovači pěchovacího lisu seřizují a obsluhují pěchovací lisy, zejména klikové lisy, konstruované pro tváření kováním kovových obrobků, obvykle drátů, tyčí nebo prutů, do požadovaného tvaru dělenými zápustkami s několika dutinami, které stlačují délku obrobků a zvětšují tak jejich průměr.",
+  "isco4": "7223",
+  "isco2": "72",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 45,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 45,
+    "examples": [
+     "nastavit regulátor stroje",
+     "nastavit robota pro automobilový průmysl",
+     "monitorovat automatizované stroje"
+    ]
+   }
+  }
+ },
  "8d3e8aaa-791b-4c75-a465-f3f827028f50": {
   "id": "8d3e8aaa-791b-4c75-a465-f3f827028f50",
   "uri": "http://data.europa.eu/esco/occupation/8d3e8aaa-791b-4c75-a465-f3f827028f50",
@@ -50586,6 +51854,36 @@
      "software ke správě sbírek",
      "muzejní databáze",
      "využívat prostředky ICT k řešení pracovních úkolů"
+    ]
+   }
+  }
+ },
+ "8f654b67-89f8-4669-8c9c-a4875bf22699": {
+  "id": "8f654b67-89f8-4669-8c9c-a4875bf22699",
+  "uri": "http://data.europa.eu/esco/occupation/8f654b67-89f8-4669-8c9c-a4875bf22699",
+  "label": "Obsluha laminovacích strojů",
+  "labelAlt": [],
+  "description": "Obsluha laminovacích strojů obsluhuje stroj, který nanáší plastovou vrstvu na papír za účelem jeho zpevnění a ochrany proti vlhkosti a skvrnám.",
+  "isco4": "8171",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.28,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 29,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 29,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "obsluhovat snášecí stroj"
     ]
    }
   }
@@ -51583,6 +52881,39 @@
     "of": 36,
     "examples": [
      "používat automatizované řízení procesů"
+    ]
+   }
+  }
+ },
+ "93a8bd5f-c268-46f5-8461-1138a9a96189": {
+  "id": "93a8bd5f-c268-46f5-8461-1138a9a96189",
+  "uri": "http://data.europa.eu/esco/occupation/93a8bd5f-c268-46f5-8461-1138a9a96189",
+  "label": "Pracovník/pracovnice obsluhující zápustkový kovací buchar",
+  "labelAlt": [
+   "pracovník obsluhující zápustkový kovací lis",
+   "pracovnice obsluhující zápustkový kovací lis",
+   "obsluha zápustkového kovacího bucharu"
+  ],
+  "description": "Pracovníci obsluhující zápustkový kovací buchar používají kovací stroje a vybavení, speciálně zhotovené buchary, aby formovali železné a neželezné kovové obrobky do požadovaného tvaru. Obsluhují kovací buchary, které jsou spouštěny na obrobek s cílem přetvořit jej podle tvaru raznice nebo zápustky, která může být uzavřená nebo otevřená, plně obklopující obrobek, či nikoli.",
+  "isco4": "7221",
+  "isco2": "72",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 48,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 48,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
     ]
    }
   }
@@ -53198,6 +54529,36 @@
      "využívat smíšené učení",
      "pracovat ve virtuálním učebním prostředí",
      "spravovat nalezitelná, přístupná, interoperabilní a opakovaně použitelná data"
+    ]
+   }
+  }
+ },
+ "976c739f-fec7-45c2-b12e-e1b496aa816b": {
+  "id": "976c739f-fec7-45c2-b12e-e1b496aa816b",
+  "uri": "http://data.europa.eu/esco/occupation/976c739f-fec7-45c2-b12e-e1b496aa816b",
+  "label": "Obsluha sekačky na štěpky",
+  "labelAlt": [],
+  "description": "Obsluha sekačky na štěpky obsluhuje stroje, které sekají dřevo na malé kousky pro použití v třískových deskách, pro další zpracování na buničinu nebo pro použití jako takové. Dřevo se dává do štěpky, kde je rozsekáno nebo drceno za použití různých mechanismů.",
+  "isco4": "8172",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.14,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 38,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 38,
+    "examples": [
+     "nastavit regulátor stroje"
     ]
    }
   }
@@ -57784,6 +59145,38 @@
    }
   }
  },
+ "a580e79a-b752-49c1-b033-b5ab2b34bfba": {
+  "id": "a580e79a-b752-49c1-b033-b5ab2b34bfba",
+  "uri": "http://data.europa.eu/esco/occupation/a580e79a-b752-49c1-b033-b5ab2b34bfba",
+  "label": "Zubní lékař/lékařka specialista",
+  "labelAlt": [
+   "ortodontista",
+   "orální a maxilofaciální chirurg",
+   "klinický stomatolog",
+   "ortodontistka",
+   "klinická stomatoložka"
+  ],
+  "description": "Zubní lékaři specialisté vykonávají prevenci, diagnostiku a léčbu anomálií a nemocí zubů, úst, čelistí a přilehlých tkání a specializují se na ústní chirurgii nebo ortodoncii.",
+  "isco4": "2261",
+  "isco2": "22",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 36,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 36,
+    "examples": []
+   }
+  }
+ },
  "a5826284-14fb-4866-b9be-69ce69db1b71": {
   "id": "a5826284-14fb-4866-b9be-69ce69db1b71",
   "uri": "http://data.europa.eu/esco/occupation/a5826284-14fb-4866-b9be-69ce69db1b71",
@@ -60123,6 +61516,38 @@
    }
   }
  },
+ "ac160654-0d3e-49aa-b798-1861ce9d78b6": {
+  "id": "ac160654-0d3e-49aa-b798-1861ce9d78b6",
+  "uri": "http://data.europa.eu/esco/occupation/ac160654-0d3e-49aa-b798-1861ce9d78b6",
+  "label": "Seřizovač/seřizovačka a obsluha konvenčních soustruhů",
+  "labelAlt": [],
+  "description": "Seřizovači a obsluha konvenčních soustruhů používají soustruhy k odstranění nadbytečného materiálu ze dřeva. K získání požadovaného tvaru otáčí soustruh obrobek okolo jeho osy.",
+  "isco4": "7523",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 42,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné"
+    ]
+   },
+   "digital": {
+    "count": 3,
+    "of": 42,
+    "examples": [
+     "nastavit regulátor stroje",
+     "monitorovat automatizované stroje",
+     "technologie řezání"
+    ]
+   }
+  }
+ },
  "ac1fc6a9-70d2-475c-8fa0-82ef83830968": {
   "id": "ac1fc6a9-70d2-475c-8fa0-82ef83830968",
   "uri": "http://data.europa.eu/esco/occupation/ac1fc6a9-70d2-475c-8fa0-82ef83830968",
@@ -61013,6 +62438,35 @@
      "XQuery",
      "databáze"
     ]
+   }
+  }
+ },
+ "af513bd8-4340-4452-aa30-05a073ecc49a": {
+  "id": "af513bd8-4340-4452-aa30-05a073ecc49a",
+  "uri": "http://data.europa.eu/esco/occupation/af513bd8-4340-4452-aa30-05a073ecc49a",
+  "label": "Řidič/řidička pohřební služby",
+  "labelAlt": [
+   "řidička pohřebního vozu",
+   "řidič pohřebního vozu"
+  ],
+  "description": "Řidiči pohřební služby obsluhují a udržují specializovaná vozidla pro přepravu zemřelých osob z jejich domovů, nemocnic nebo pohřebních ústavů na konečné místo jejich odpočinku. Rovněž pomáhají při plnění úkolů pohřebních zřízenců.",
+  "isco4": "8322",
+  "isco2": "83",
+  "ilo": {
+   "score": 0.28,
+   "gradient": "Gradient 1"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 21,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 21,
+    "examples": []
    }
   }
  },
@@ -62055,6 +63509,38 @@
    }
   }
  },
+ "b21aac17-8237-4264-bc2c-0e315346fd8f": {
+  "id": "b21aac17-8237-4264-bc2c-0e315346fd8f",
+  "uri": "http://data.europa.eu/esco/occupation/b21aac17-8237-4264-bc2c-0e315346fd8f",
+  "label": "Obsluha řídícího centra v chemickém závodě",
+  "labelAlt": [],
+  "description": "Obsluha řídícího centra v chemickém závodě monitoruje a kontroluje na dálku systémy produkce a podává zprávy o všech anomáliích a incidentech za použití požadovaných systémů. Pracuje u pultů v kontrolních místnostech a zajišťuje bezpečnost pracovníků výroby a výrobních zařízení.",
+  "isco4": "3133",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.29,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 16,
+    "examples": [
+     "sledování dopadu výroby"
+    ]
+   },
+   "digital": {
+    "count": 3,
+    "of": 16,
+    "examples": [
+     "dálkově regulovat proces výroby",
+     "využívat komunikační zařízení",
+     "spravovat data"
+    ]
+   }
+  }
+ },
  "b21b5952-1658-44f8-b719-e5be7fb39866": {
   "id": "b21b5952-1658-44f8-b719-e5be7fb39866",
   "uri": "http://data.europa.eu/esco/occupation/b21b5952-1658-44f8-b719-e5be7fb39866",
@@ -62406,6 +63892,34 @@
      "software pro počítačem podporované projektování (CAD)",
      "používat software CAD"
     ]
+   }
+  }
+ },
+ "b322bb4c-bbef-45c2-bd7e-00a97c3ab268": {
+  "id": "b322bb4c-bbef-45c2-bd7e-00a97c3ab268",
+  "uri": "http://data.europa.eu/esco/occupation/b322bb4c-bbef-45c2-bd7e-00a97c3ab268",
+  "label": "Dělník/dělnice protikorozní ochrany",
+  "labelAlt": [],
+  "description": "Dělníci protikorozní ochrany používají náležité vybavení a stroje pro výrobu kovových obrobků s tvrdým, odolným povrchovým nátěrem se specifickým chemickým složením, který zabraňuje korozi železa a oceli nebo ji oddaluje.",
+  "isco4": "8122",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.2,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 45,
+    "examples": [
+     "odstraňovat nebezpečný odpad"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 45,
+    "examples": []
    }
   }
  },
@@ -64925,6 +66439,32 @@
    }
   }
  },
+ "b9c80d74-97b6-4a4b-849e-a3908ba57ae1": {
+  "id": "b9c80d74-97b6-4a4b-849e-a3908ba57ae1",
+  "uri": "http://data.europa.eu/esco/occupation/b9c80d74-97b6-4a4b-849e-a3908ba57ae1",
+  "label": "Třídič/třídička ve výrobě dýhovaného dřeva",
+  "labelAlt": [],
+  "description": "Třídiči ve výrobě dýhovaného dřeva kontrolují kvalitu kousků dýhovaného dřeva. Hledají nesrovnalosti, skvrny a chyby ve výrobě a třídí kousky dýhovaného dřeva podle vhodnosti vzorců.",
+  "isco4": "7543",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.31,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   }
+  }
+ },
  "b9dd2ee7-5fea-46f8-b226-ddae9501f728": {
   "id": "b9dd2ee7-5fea-46f8-b226-ddae9501f728",
   "uri": "http://data.europa.eu/esco/occupation/b9dd2ee7-5fea-46f8-b226-ddae9501f728",
@@ -65564,6 +67104,40 @@
    }
   }
  },
+ "bc61e0de-2d72-471c-90c1-a9fe371020f9": {
+  "id": "bc61e0de-2d72-471c-90c1-a9fe371020f9",
+  "uri": "http://data.europa.eu/esco/occupation/bc61e0de-2d72-471c-90c1-a9fe371020f9",
+  "label": "Kovář/kovářka mechanického kovacího lisu",
+  "labelAlt": [
+   "pracovník obsluhující mechanické kovací lisy",
+   "pracovnice obsluhující mechanické kovací lisy",
+   "obsluha mechanického kovacího lisu"
+  ],
+  "description": "Kováři mechanického kovacího lisu seřizují a obsluhují mechanické kovací lisy, konstruované pro formování železných a neželezných kovů, včetně potrubí, trubek, dutých profilů a jiných výrobků jednostupňového zpracování oceli v požadované formě za použití přednastaveného lisovacího tlaku, který poskytují kliky, vačky a páky při opakovatelných zdvizích.",
+  "isco4": "7221",
+  "isco2": "72",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 48,
+    "examples": []
+   },
+   "digital": {
+    "count": 3,
+    "of": 48,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "nastavit robota pro automobilový průmysl"
+    ]
+   }
+  }
+ },
  "bc659adc-f42c-4ef6-89fe-fd030033f446": {
   "id": "bc659adc-f42c-4ef6-89fe-fd030033f446",
   "uri": "http://data.europa.eu/esco/occupation/bc659adc-f42c-4ef6-89fe-fd030033f446",
@@ -66171,6 +67745,36 @@
     "examples": [
      "technické výkresy",
      "3D modelování"
+    ]
+   }
+  }
+ },
+ "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3": {
+  "id": "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3",
+  "uri": "http://data.europa.eu/esco/occupation/bd5a2f44-fc06-45fd-909b-3a4001c8b8a3",
+  "label": "Příslušník/příslušnice pěchoty",
+  "labelAlt": [
+   "střelkyně",
+   "střelec",
+   "odstřelovačka",
+   "odstřelovač"
+  ],
+  "description": "Příslušníci pěchoty bojují v rámci bojových misí nebo při poskytování pomoci při mírových misích a dalších humanitárních službách. Manipulují se zbraněmi a zajišťují obranu tam, kde je zapotřebí, a snaží se dokončit mise tak, aby způsobili minimální škody.",
+  "isco4": "0310",
+  "isco2": "03",
+  "ilo": null,
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 32,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 32,
+    "examples": [
+     "obsluhovat rádiové zařízení"
     ]
    }
   }
@@ -67980,6 +69584,39 @@
    }
   }
  },
+ "c32155d3-9ac5-4e44-8e8b-25c47ad31c38": {
+  "id": "c32155d3-9ac5-4e44-8e8b-25c47ad31c38",
+  "uri": "http://data.europa.eu/esco/occupation/c32155d3-9ac5-4e44-8e8b-25c47ad31c38",
+  "label": "Obsluha zařízení na vaření štěpků",
+  "labelAlt": [],
+  "description": "Obsluha zařízení na vaření štěpků vaří dřevěné štěpky s bezvodou sodou nebo kyselinou za účelem oddělení dřevěné buničiny od nežádoucích složek. Výsledný roztok testuje.",
+  "isco4": "8171",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.28,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 37,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné",
+     "odstraňovat nebezpečný odpad",
+     "provádět čištění odpadních vod"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 37,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "c332af81-4481-4494-9786-aea1f5c5ffcf": {
   "id": "c332af81-4481-4494-9786-aea1f5c5ffcf",
   "uri": "http://data.europa.eu/esco/occupation/c332af81-4481-4494-9786-aea1f5c5ffcf",
@@ -69392,6 +71029,38 @@
    }
   }
  },
+ "c706886d-5bc7-4430-9a72-051fc483235f": {
+  "id": "c706886d-5bc7-4430-9a72-051fc483235f",
+  "uri": "http://data.europa.eu/esco/occupation/c706886d-5bc7-4430-9a72-051fc483235f",
+  "label": "Obsluha strojů na zpracování celulózy pro výrobu absorpčních hygienických potřeb",
+  "labelAlt": [
+   "obsluha strojů na výrobu hygienických tamponů",
+   "obsluha strojů na výrobu plen"
+  ],
+  "description": "Obsluha strojů na zpracování celulózy pro výrobu absorpčních hygienických potřeb obsluhuje stroj, který přijímá celulózová vlákna a stlačuje je do polštářků z vysoce absorpčního materiálu pro použití v hygienických výrobcích, jako jsou pleny a tampóny.",
+  "isco4": "8143",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 33,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "c71ee6a5-ce48-4afd-aa1e-eaabf17ccbc0": {
   "id": "c71ee6a5-ce48-4afd-aa1e-eaabf17ccbc0",
   "uri": "http://data.europa.eu/esco/occupation/c71ee6a5-ce48-4afd-aa1e-eaabf17ccbc0",
@@ -70083,6 +71752,38 @@
      "geografické informační systémy",
      "vytvářet tematické mapy",
      "vytvářet zprávy GIS"
+    ]
+   }
+  }
+ },
+ "c8ee41fc-7a5f-4255-adbd-dcc47cf2a28e": {
+  "id": "c8ee41fc-7a5f-4255-adbd-dcc47cf2a28e",
+  "uri": "http://data.europa.eu/esco/occupation/c8ee41fc-7a5f-4255-adbd-dcc47cf2a28e",
+  "label": "Myslivec/myslivkyně",
+  "labelAlt": [],
+  "description": "Myslivci sledují a pronásledují zvířata s úmyslem je chytit nebo usmrtit. Loví zvířata za účelem získávání potravy a jiných živočišných produktů, rekreace, obchodu nebo správy volně žijící zvěře. Myslivci se specializují na dovednost stopovat a střílet zvířata zbraněmi, jako jsou pušky a luky. Používají rovněž zařízení pro lov zvířat pro podobné účely.",
+  "isco4": "6224",
+  "isco2": "62",
+  "ilo": {
+   "score": 0.09,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 30,
+    "examples": [
+     "zajistit soulad s legislativou v oblasti životního prostředí",
+     "projekty na ochranu volně žijících živočichů",
+     "ekosystémy"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 30,
+    "examples": [
+     "používat geografické informační systémy"
     ]
    }
   }
@@ -72050,6 +73751,37 @@
    }
   }
  },
+ "ceb5277b-2c4d-4cb9-9b7e-b386e66e11ba": {
+  "id": "ceb5277b-2c4d-4cb9-9b7e-b386e66e11ba",
+  "uri": "http://data.europa.eu/esco/occupation/ceb5277b-2c4d-4cb9-9b7e-b386e66e11ba",
+  "label": "Seřizovač/seřizovačka a obsluha stroje na výrobu palet",
+  "labelAlt": [],
+  "description": "Seřizovači a obsluha stroje na výrobu palet pracují se stroji, které spojují dřevěné prvky dohromady pomocí hřebíků, obvykle hydraulicky. Umísťují prvky, které mají být spojeny, do správné pozice, a monitorují proces, aby nedocházelo k prostojům.",
+  "isco4": "7523",
+  "isco2": "75",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 24,
+    "examples": [
+     "odstraňovat odpadní materiál z řezání"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 24,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
+   }
+  }
+ },
  "ceb9910a-1174-4926-82c9-5afee2bd3702": {
   "id": "ceb9910a-1174-4926-82c9-5afee2bd3702",
   "uri": "http://data.europa.eu/esco/occupation/ceb9910a-1174-4926-82c9-5afee2bd3702",
@@ -72543,6 +74275,34 @@
     "examples": [
      "technické výkresy",
      "3D modelování"
+    ]
+   }
+  }
+ },
+ "d0d7d777-073f-4c33-8f27-1d4a0e8e626f": {
+  "id": "d0d7d777-073f-4c33-8f27-1d4a0e8e626f",
+  "uri": "http://data.europa.eu/esco/occupation/d0d7d777-073f-4c33-8f27-1d4a0e8e626f",
+  "label": "Celulózař/celulózařka",
+  "labelAlt": [],
+  "description": "Celulózaři ovládají a sledují vícefunkční řídicí stroje a zařízení pro řízení zpracování dřeva, celulózy, recyklovatelného papíru a jiných celulózových materiálů při výrobě buničiny. Zřizují, provozují a udržují strojní zařízení, analyzují jeho výsledky a v případě potřeby upraví postup.",
+  "isco4": "3139",
+  "isco2": "31",
+  "ilo": null,
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 32,
+    "examples": [
+     "likvidovat odpady, jež nebyly klasifikovány jako nebezpečné",
+     "koordinovat spedici recyklačních materiálů"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 32,
+    "examples": [
+     "monitorovat automatizované stroje"
     ]
    }
   }
@@ -74978,6 +76738,34 @@
    }
   }
  },
+ "d87b1c64-eed1-404c-87de-f9f81c85fbde": {
+  "id": "d87b1c64-eed1-404c-87de-f9f81c85fbde",
+  "uri": "http://data.europa.eu/esco/occupation/d87b1c64-eed1-404c-87de-f9f81c85fbde",
+  "label": "Obsluha strojů na vyzrňování bavlny",
+  "labelAlt": [],
+  "description": "Obsluha strojů na vyzrňování bavlny provádí vyzrňovací operace pro oddělování bavlněných vláken od zrn. Obsluhuje balíkové lisy a odebírá zpracované balíky ze stroje. Provádí údržbu strojového zařízení a zajišťuje hladký průběh zpracování.",
+  "isco4": "8151",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 29,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 29,
+    "examples": [
+     "obsluhovat balíkové lisy"
+    ]
+   }
+  }
+ },
  "d8e502b4-1be6-4d10-a224-151688f8f0c8": {
   "id": "d8e502b4-1be6-4d10-a224-151688f8f0c8",
   "uri": "http://data.europa.eu/esco/occupation/d8e502b4-1be6-4d10-a224-151688f8f0c8",
@@ -75101,6 +76889,37 @@
     "of": 19,
     "examples": [
      "provádět analýzu dat"
+    ]
+   }
+  }
+ },
+ "d9004a14-bda2-4c63-ab64-17ca163ac1bd": {
+  "id": "d9004a14-bda2-4c63-ab64-17ca163ac1bd",
+  "uri": "http://data.europa.eu/esco/occupation/d9004a14-bda2-4c63-ab64-17ca163ac1bd",
+  "label": "Asistent/asistentka poslance parlamentu",
+  "labelAlt": [
+   "asistentka poslance Evropského parlamentu",
+   "asistent poslance Evropského parlamentu"
+  ],
+  "description": "Asistenti poslanců parlamentu poskytují podporu úředníkům a politikům z regionálních, národních a mezinárodních parlamentů a vykonávají logistické úkoly. Revidují úřední dokumenty a dodržují postupy stanovené příslušnými parlamenty. Podporují komunikaci se zúčastněnými stranami a poskytují logistickou podporu nezbytnou pro zpracování úředních procesů.",
+  "isco4": "2422",
+  "isco2": "24",
+  "ilo": {
+   "score": 0.42,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 49,
+    "examples": []
+   },
+   "digital": {
+    "count": 1,
+    "of": 49,
+    "examples": [
+     "kancelářský software"
     ]
    }
   }
@@ -77271,6 +79090,38 @@
    }
   }
  },
+ "e0b347de-f88b-4f69-b7d0-0a965e41f0d5": {
+  "id": "e0b347de-f88b-4f69-b7d0-0a965e41f0d5",
+  "uri": "http://data.europa.eu/esco/occupation/e0b347de-f88b-4f69-b7d0-0a965e41f0d5",
+  "label": "Operátor, operátorka výrobny kakaa",
+  "labelAlt": [
+   "operátor výrobny kakaa",
+   "pracovnice výrobny kakaa",
+   "pracovník výrobny kakaa"
+  ],
+  "description": "Operátoři výrobny kakaa obsluhují stroje pro drcení kakaových bobů na prášek o požadované jemnosti. Používají systémy pneumatického třídění, které oddělují prášek na základě jeho hustoty. Kromě toho výrobky váží, balí je do sáčků a skladují je.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 30,
+    "examples": [
+     "zajistit soulad výroby potravin s legislativou v oblasti životního prostředí"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 30,
+    "examples": []
+   }
+  }
+ },
  "e0b544dd-b621-4126-a55e-054af25c6ea0": {
   "id": "e0b544dd-b621-4126-a55e-054af25c6ea0",
   "uri": "http://data.europa.eu/esco/occupation/e0b544dd-b621-4126-a55e-054af25c6ea0",
@@ -77305,6 +79156,36 @@
      "směrování sítě ICT",
      "bezpečnostní rizika sítě ICT"
     ]
+   }
+  }
+ },
+ "e0c5e005-6303-4d5a-9125-a7f86ed1c4df": {
+  "id": "e0c5e005-6303-4d5a-9125-a7f86ed1c4df",
+  "uri": "http://data.europa.eu/esco/occupation/e0c5e005-6303-4d5a-9125-a7f86ed1c4df",
+  "label": "Operátor, operátorka rozmělňovacího stroje",
+  "labelAlt": [
+   "operátor mlýnku",
+   "operátor rozmělňovacího stroje",
+   "operátorka mlýnku"
+  ],
+  "description": "Operátoři rozmělňovacího stroje obsluhují mlýny, v nichž se melou popraskané nebo rozdrcené kakaové boby za účelem získání tekuté čokolády o stanovené konzistenci. Obsluhují násypky, a to tak, že uvolňují jejich zábrany, aby vypustili kousky kakaa, které mají projít mlecími kameny.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 25,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 25,
+    "examples": []
    }
   }
  },
@@ -77601,6 +79482,38 @@
     "count": 0,
     "of": 38,
     "examples": []
+   }
+  }
+ },
+ "e19a0f13-da49-42cb-8b3a-27da8ce44c8c": {
+  "id": "e19a0f13-da49-42cb-8b3a-27da8ce44c8c",
+  "uri": "http://data.europa.eu/esco/occupation/e19a0f13-da49-42cb-8b3a-27da8ce44c8c",
+  "label": "Obsluha strojů, které lisují nebo foukají roztavenou sklovinu do forem",
+  "labelAlt": [],
+  "description": "Obsluha strojů, které lisují nebo foukají roztavenou sklovinu do forem, obsluhuje stroje, které lisují nebo foukají roztavenou sklovinu do forem za účelem formování nebo tvarování výrobků, jako jsou neony, láhve, zavařovací sklenice a sklenice na pití, a provádí údržbu těchto strojů. Nastavuje a seřizuje stroje a váží, měří a kontroluje vzorky výrobků za účelem ověření, zda splňují specifikace pro danou řadu výrobků.",
+  "isco4": "8181",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.17,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 40,
+    "examples": [
+     "nakládat s odpady",
+     "sledování dopadu výroby"
+    ]
+   },
+   "digital": {
+    "count": 2,
+    "of": 40,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje"
+    ]
    }
   }
  },
@@ -78413,6 +80326,39 @@
     "of": 27,
     "examples": [
      "obchodní software"
+    ]
+   }
+  }
+ },
+ "e4f33b45-ee95-48b5-b2f8-e397aa14ed41": {
+  "id": "e4f33b45-ee95-48b5-b2f8-e397aa14ed41",
+  "uri": "http://data.europa.eu/esco/occupation/e4f33b45-ee95-48b5-b2f8-e397aa14ed41",
+  "label": "Operátor/operátorka distribučního centra",
+  "labelAlt": [],
+  "description": "Operátoři distribučního centra zajišťují efektivní přepravu vyrobeného zboží. Stanovují trasy a kompletují přepravní doklady.",
+  "isco4": "9333",
+  "isco2": "93",
+  "ilo": {
+   "score": 0.14,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 27,
+    "examples": [
+     "omezovat plýtvání zdroji",
+     "riziko kontaminace průmyslových krmiv"
+    ]
+   },
+   "digital": {
+    "count": 3,
+    "of": 27,
+    "examples": [
+     "řešit potíže s informačními a komunikačními technologiemi",
+     "být počítačově gramotný",
+     "používat tabulkový procesor"
     ]
    }
   }
@@ -80267,6 +82213,38 @@
     "of": 66,
     "examples": [
      "používat technologie elektronického a mobilního zdravotnictví"
+    ]
+   }
+  }
+ },
+ "eb5df714-15ce-4e31-853c-678d2aba568b": {
+  "id": "eb5df714-15ce-4e31-853c-678d2aba568b",
+  "uri": "http://data.europa.eu/esco/occupation/eb5df714-15ce-4e31-853c-678d2aba568b",
+  "label": "Obsluha strojů na výrobu vlnité lepenky",
+  "labelAlt": [],
+  "description": "Obsluha strojů na výrobu vlnité lepenky obsluhuje stroj, který skládá list těžkého papíru do vlnitého tvaru, pokryje jej z obou stran a vytváří lehký, pevný materiál vhodný k balení.",
+  "isco4": "8143",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 38,
+    "examples": [
+     "koordinovat spedici recyklačních materiálů"
+    ]
+   },
+   "digital": {
+    "count": 4,
+    "of": 38,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "míchat inkoust"
     ]
    }
   }
@@ -85936,6 +87914,69 @@
    }
   }
  },
+ "fc9a86ec-7ad5-4ccb-a08f-1e369197e14a": {
+  "id": "fc9a86ec-7ad5-4ccb-a08f-1e369197e14a",
+  "uri": "http://data.europa.eu/esco/occupation/fc9a86ec-7ad5-4ccb-a08f-1e369197e14a",
+  "label": "Montážní dělník/dělnice výrobků z lepenky",
+  "labelAlt": [],
+  "description": "Montážní dělníci výrobků z lepenky konstruují součásti nebo díly vyrobené z lepenky podle přísně stanovených postupů. Montují výrobky, jako jsou trubice, cívky, lepenkové krabice, papírové talíře a řemeslné desky.",
+  "isco4": "8143",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 33,
+    "examples": [
+     "zajistit soulad s legislativou v oblasti životního prostředí",
+     "koordinovat spedici recyklačních materiálů"
+    ]
+   },
+   "digital": {
+    "count": 4,
+    "of": 33,
+    "examples": [
+     "monitorovat automatizované stroje",
+     "nastavit regulátor stroje",
+     "míchat inkoust"
+    ]
+   }
+  }
+ },
+ "fcaab37b-ada2-4832-a2fd-9d64362e0280": {
+  "id": "fcaab37b-ada2-4832-a2fd-9d64362e0280",
+  "uri": "http://data.europa.eu/esco/occupation/fcaab37b-ada2-4832-a2fd-9d64362e0280",
+  "label": "Koordinátor/koordinátorka mezinárodní výměny studentů",
+  "labelAlt": [],
+  "description": "Koordinátoři mezinárodních výměnných programů pro studenty vedou celý proces výměnného studijního programu. Spravují žádosti a přijímání studentů, zajišťují ubytování na kolejích, v kampusu nebo v rodinách a zabývají se veškerou administrativou těchto činností, včetně hodnocení studenta a oficiálních termínů. Fungují jako průvodci pro (mladé) mezinárodní studenty a pomáhají jim zorientovat se v novém kulturním prostředí.",
+  "isco4": "3343",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.54,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   },
+   "digital": {
+    "count": 4,
+    "of": 33,
+    "examples": [
+     "využívat globální distribuční systém",
+     "být počítačově gramotný",
+     "kancelářský software"
+    ]
+   }
+  }
+ },
  "fcab4bb1-c05b-43e3-98d8-f60b13c152f2": {
   "id": "fcab4bb1-c05b-43e3-98d8-f60b13c152f2",
   "uri": "http://data.europa.eu/esco/occupation/fcab4bb1-c05b-43e3-98d8-f60b13c152f2",
@@ -86896,6 +88937,32 @@
      "vedení databáze nezávislých pracovníků",
      "připravovat vizuální údaje"
     ]
+   }
+  }
+ },
+ "ff5210a5-2ea9-43b4-bebc-8d565f928eaa": {
+  "id": "ff5210a5-2ea9-43b4-bebc-8d565f928eaa",
+  "uri": "http://data.europa.eu/esco/occupation/ff5210a5-2ea9-43b4-bebc-8d565f928eaa",
+  "label": "Obsluha strojů na výrobu kosmetických výrobků",
+  "labelAlt": [],
+  "description": "Obsluha strojů na výrobu kosmetických výrobků obsluhuje stroje na výrobu kosmetických výrobků, konkrétně seřizuje příslušné stroje a nástroje, čistí je, provádí jejich údržbu a dodržuje plán výroby.",
+  "isco4": "8131",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 27,
+    "examples": []
    }
   }
  },

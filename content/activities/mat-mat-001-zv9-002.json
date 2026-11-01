@@ -1,0 +1,204 @@
+[
+  {
+    "slug": "nasobeni-a-deleni-celych-cisel",
+    "title": "Násobení a dělení celých čísel",
+    "aliases": [
+      "násobení záporných čísel",
+      "dělení záporných čísel",
+      "znaménka při násobení",
+      "mínus krát mínus"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "násobí a dělí celá čísla",
+        "quote": "násobí a dělí celá čísla"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pravidlo pro znaménka a zadá ti příklady k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu vysvětlení pravidel pro znaménka a příklady s řešením."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací aplikace zadávají příklady a hned ukážou, jestli máš správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti zkontroluje výsledek, který ti vyšel na papíře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ulohy-s-nasobenim-a-delenim-zapornych-cisel",
+    "title": "Úlohy se zápornými čísly v praxi",
+    "aliases": [
+      "slovní úlohy záporná čísla",
+      "dluh a teplota",
+      "záporná čísla v životě",
+      "násobení a dělení záporných čísel v úloze"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší úlohy z reálného světa, ve kterých je násobení či dělení dvou celých čísel, z nichž alespoň jedno je záporné.",
+        "quote": "Řeší úlohy z reálného světa, ve kterých je násobení či dělení dvou celých čísel, z nichž alespoň jedno je záporné."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Teplotní expedice",
+        "url": "https://uloziste.rvp.cz/material/ef9b39"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí podobné úlohy a vysvětlí, kterou operaci zvolit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš ukázkové slovní úlohy s řešením, podle kterých se zorientuješ."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s úlohami z praxe ti ohlídá správný výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka s mínusem ti pomůže zkontrolovat výpočet, zadání si ale musíš přečíst ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "delitele-a-nasobky",
+    "title": "Dělitelé a násobky přirozených čísel",
+    "aliases": [
+      "dělitel",
+      "násobek",
+      "dělitelnost",
+      "čísla dělitelná dvěma"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "určí dělitele a násobky přirozených čísel",
+        "quote": "určí dělitele a násobky přirozených čísel"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí znaky dělitelnosti a zadá ti čísla k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu pravidla dělitelnosti i tabulky násobků."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací aplikace zadávají čísla a hned ukážou, jestli dělitele určíš správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Násobilková tabulka a kalkulačka ti pomůžou dělitele zkusit a ověřit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "spolecni-delitele-a-spolecne-nasobky",
+    "title": "Společní dělitelé a společné násobky",
+    "aliases": [
+      "největší společný dělitel",
+      "nejmenší společný násobek",
+      "společný dělitel",
+      "společný násobek"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí společné dělitele a společné násobky dvou přirozených čísel.",
+        "quote": "Určí společné dělitele a společné násobky dvou přirozených čísel."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže postup hledání společného dělitele a zadá další dvojice čísel."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu postup s rozklady čísel a příklady s řešením."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s kalkulačkou na dělitele ti zkontroluje, co ti vyšlo."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti pomůže vyzkoušet, jestli číslo opravdu dělí obě čísla beze zbytku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

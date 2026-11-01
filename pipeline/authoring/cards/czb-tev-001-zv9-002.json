@@ -1,0 +1,37 @@
+{
+  "outcome": "CZB-TEV-001-ZV9-002",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "taktika-v-tymovych-hrach-a-soutezich",
+      "title": "Taktické varianty v týmových hrách a soutěžích",
+      "aliases": ["taktika ve hře", "týmová hra", "herní taktika", "varianty her", "soutěže v tělocviku"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Seznamuje se variantami her a soutěží."},
+        {"level": "Na cestě", "quote": "Nacvičuje taktické varianty her a soutěží."},
+        {"level": "Splněno", "quote": "Při týmových hrách a soutěžích využívá různé taktické varianty pohybových dovedností a spolupráce."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí ti různé taktiky a pomůže vymyslet, co s týmem zkusit."},
+        "internet": {"verdict": "pomuze", "why": "Videa a popisy zápasů ti ukážou, jak týmy hrají různými způsoby."},
+        "aplikace": {"verdict": "nepomuze", "why": "Taktiku hraješ s týmem na hřišti ty, aplikace za tebe nepřihraje."},
+        "klasicky": {"verdict": "pomuze", "why": "Míč, branky nebo koše jsou to, s čím se taktika opravdu zkouší."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01",
+        "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4"
+      ],
+      "inspiration": ["Varianty pohybových dovedností při hře"]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Tvoří podle zadání", "code": "O1", "refs": ["tv-varianty-pohybu-podle-zadani", "tv-pohyb-na-hudbu-a-rytmus"]},
+    {"level": "Splněno", "start": "Vytváří vlastní varianty", "code": "O1", "refs": ["tv-varianty-pohybu-podle-zadani", "tv-pohyb-na-hudbu-a-rytmus", "tv-plan-vlastni-sestavy"]},
+    {"level": "Na začátku", "start": "Zkouší a nacvičuje", "code": "O1", "refs": ["tv-varianty-pohybu-podle-zadani"]},
+    {"level": "Na cestě", "start": "Nacvičuje další", "code": "O1", "refs": ["tv-varianty-pohybu-podle-zadani", "tv-pohyb-na-hudbu-a-rytmus"]}
+  ]
+}

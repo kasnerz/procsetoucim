@@ -1,0 +1,601 @@
+[
+  {
+    "slug": "bezpecnost-cesty-a-mist-kolem-tebe",
+    "title": "Bezpečnost cesty do školy a míst, kde se pohybuješ",
+    "aliases": [
+      "cesta do školy",
+      "nebezpečná místa",
+      "bezpečné hřiště",
+      "bezpečný park",
+      "mapa bezpečí a rizik"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zhodnotí z hlediska bezpečnosti svou cestu do školy a další místa svého obvyklého pohybu mimo domov a školu",
+        "quote": "zhodnotí z hlediska bezpečnosti svou cestu do školy a další místa svého obvyklého pohybu mimo domov a školu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "posuzuje místa svého pohybu v dané lokalitě z hlediska bezpečnosti",
+        "quote": "posuzuje místa svého pohybu v dané lokalitě z hlediska bezpečnosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Posoudí a vyhodnotí místa pro trávení volného času ve svém okolí z hlediska bezpečnosti pro pohyb a pobyt lidí (hřiště, park, příroda aj.).",
+        "quote": "Posoudí a vyhodnotí místa pro trávení volného času ve svém okolí z hlediska bezpečnosti pro pohyb a pobyt lidí (hřiště, park, příroda aj.)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Mapa bezpečí a rizik",
+        "url": ""
+      },
+      {
+        "title": "Bezpečné hřiště",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Přechody a rohy u tvé školy musíš posoudit ty, chatbot je nezná."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Jak bezpečné je tvoje hřiště, ve vyhledávači nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ukáže přechody, silnice a stezky, které pak na místě zhodnotíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Místo hodnotíš očima a hlavou, papírová mapa to za tebe neposoudí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317",
+      "http://data.europa.eu/esco/skill/499c05a2-6f36-4407-83c1-dc3448d35818"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kontrola-bezpecnosti-trasy-v-mape",
+    "title": "Bezpečnost trasy z online mapy",
+    "aliases": [
+      "navigace",
+      "plánování cesty",
+      "trasa v mapě",
+      "mapy.cz",
+      "bezpečná cesta"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zhodnotí cestu, kterou si vyhledá pomocí online aplikace, z hlediska bezpečnosti",
+        "quote": "zhodnotí cestu, kterou si vyhledá pomocí online aplikace, z hlediska bezpečnosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Mapa bezpečí a rizik",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Chatbot nevidí aktuální mapu ani dopravu na tvé trase."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky z ulic a popisy trasy ukážou, kudy vede a jaká je tam silnice."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Navigace najde trasu a ukáže přechody, stezky i rušné silnice."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa ukáže okolí trasy a objížďky bez telefonu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kontakt-s-neznamymi-lidmi",
+    "title": "Bezpečný kontakt s neznámými lidmi",
+    "aliases": [
+      "cizí lidé",
+      "neznámý člověk",
+      "co když mě osloví cizí",
+      "nebezpečí od cizích",
+      "pravidla kontaktu"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvádí možná ohrožení, která mohou vzniknout při kontaktu s neznámými lidmi, rozliší, na koho se má obrátit v případě možného ohrožení nebezpečnou situaci",
+        "quote": "uvádí možná ohrožení, která mohou vzniknout při kontaktu s neznámými lidmi"
+      },
+      {
+        "level": "Splněno",
+        "point": "Dodržuje pravidla kontaktu s lidmi s ohledem na osobní bezpečí, v případě rizika či skutečného ohrožení požádá o pomoc.",
+        "quote": "Dodržuje pravidla kontaktu s lidmi s ohledem na osobní bezpečí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jak cizí lidé děti oslovují, a zodpoví tvoje otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky policie a linek pomoci popisují pravidla kontaktu s cizími."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nepozná, komu můžeš věřit, když stojíš na ulici."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravidla znáš z hlavy, žádný nástroj v ruce ti při oslovení nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/499c05a2-6f36-4407-83c1-dc3448d35818",
+      "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "komu-se-obratit-o-pomoc",
+    "title": "Komu se obrátit o pomoc a koho upozornit",
+    "aliases": [
+      "kde hledat pomoc",
+      "linka bezpečí",
+      "když se mi něco stane",
+      "říct dospělému",
+      "tísňová linka"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "uvádí možná ohrožení, která mohou vzniknout při kontaktu s neznámými lidmi, rozliší, na koho se má obrátit v případě možného ohrožení nebezpečnou situaci",
+        "quote": "rozliší, na koho se má obrátit v případě možného ohrožení nebezpečnou situaci"
+      },
+      {
+        "level": "Na začátku",
+        "point": "určí, na koho se má obrátit v případě možného ohrožení nebezpečnou situaci",
+        "quote": "určí, na koho se má obrátit v případě možného ohrožení nebezpečnou situaci"
+      },
+      {
+        "level": "Splněno",
+        "point": "Dodržuje pravidla kontaktu s lidmi s ohledem na osobní bezpečí, v případě rizika či skutečného ohrožení požádá o pomoc.",
+        "quote": "v případě rizika či skutečného ohrožení požádá o pomoc"
+      },
+      {
+        "level": "Na cestě",
+        "point": "upozorní odpovědné osoby na rizika možného ohrožení zdraví jeho či ostatních",
+        "quote": "upozorní odpovědné osoby na rizika možného ohrožení zdraví jeho či ostatních"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečně v rizikových situacích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "V nebezpečí zavoláš nebo řekneš dospělému ty, chatbot nikoho nezavolá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš čísla tísňových linek a pomoci pro děti, než je potřebuješ."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace tísňové linky pošle tvoji polohu, když zavoláš o pomoc."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Telefon a papírek s čísly fungují, i když nemáš internet."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+      "http://data.europa.eu/esco/skill/445b65c5-5b16-4f66-94ce-f2a7f49f9ee7"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nacvik-rizikovych-situaci",
+    "title": "Nácvik rizikových situací na modelu",
+    "aliases": [
+      "jak se zachovat",
+      "hraní rolí",
+      "nebezpečná situace",
+      "modelová situace",
+      "co udělám když"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "v modelových situacích předvádí, jak se zachovat v situacích potenciálního i reálného ohrožení a způsob chování zdůvodňuje",
+        "quote": "v modelových situacích předvádí, jak se zachovat v situacích potenciálního i reálného ohrožení a způsob chování zdůvodňuje"
+      },
+      {
+        "level": "Splněno",
+        "point": "Ověřuje v modelových situacích vhodné postupy řešení rizikových situací s využitím osobní i digitální komunikace.",
+        "quote": "Ověřuje v modelových situacích vhodné postupy řešení rizikových situací s využitím osobní i digitální komunikace."
+      },
+      {
+        "level": "Na cestě",
+        "point": "ověřuje si v modelových situacích vhodné postupy řešení rizikových situací s využitím osobní i digitální komunikace i komunikace s umělou inteligencí",
+        "quote": "ověřuje si v modelových situacích vhodné postupy řešení rizikových situací s využitím osobní i digitální komunikace i komunikace s umělou inteligencí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Bezpečně v rizikových situacích",
+        "url": ""
+      },
+      {
+        "title": "Večírek – ze školy do života",
+        "url": "https://uloziste.rvp.cz/material/61afe4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot s tebou zahraje situaci a řekne, co by v ní šlo udělat jinak."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příklady situací a rady policie ti ukážou, co ostatní dělají správně."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nenahradí hraní situace s lidmi, kde reaguješ svým hlasem."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Situaci předvádíš s ostatními ty, pomůcka v ruce na tom nic nezmění."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317",
+      "http://data.europa.eu/esco/skill/445b65c5-5b16-4f66-94ce-f2a7f49f9ee7"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prinosy-a-rizika-kontaktu-online-i-osobne",
+    "title": "Přínosy a rizika osobních a online kontaktů",
+    "aliases": [
+      "kamarádi na internetu",
+      "online kontakt",
+      "sociální sítě",
+      "virtuální kontakty",
+      "bezpečí na internetu"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vyhodnocuje přínosy a rizika osobních a virtuálních kontaktů",
+        "quote": "vyhodnocuje přínosy a rizika osobních a virtuálních kontaktů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovnává přínosy a rizika osobní a digitální komunikace jednotlivců i různých sociálních skupin s ohledem na osobní bezpečí.",
+        "quote": "Porovnává přínosy a rizika osobní a digitální komunikace jednotlivců i různých sociálních skupin s ohledem na osobní bezpečí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jak fungují podvody a falešné profily, a probere s tebou příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o bezpečí na internetu popisují rizika a ukazují skutečné případy."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezhodnotí, jestli je ten člověk online důvěryhodný, to musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pro porovnání přínosů a rizik nemá žádný klasický nástroj co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44",
+      "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reseni-konfliktu-v-komunikaci",
+    "title": "Řešení konfliktů v osobní i online komunikaci",
+    "aliases": [
+      "hádka",
+      "spor s kamarádem",
+      "kyberšikana",
+      "konflikt v chatu",
+      "jak řešit spor"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne adekvátní řešení možných konfliktů vznikajících při osobní i digitální komunikaci.",
+        "quote": "Navrhne adekvátní řešení možných konfliktů vznikajících při osobní i digitální komunikaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti nabídne několik způsobů, jak spor uklidnit, a vysvětlí jejich dopady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky o šikaně a hádkách popisují postupy, které se osvědčily."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Spor vyřešíš rozhovorem s druhým člověkem, aplikace ho za tebe nevede."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Smíření s druhým stojí na tom, co řekneš ty, pomůcka v ruce nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/96de2e86-e287-41f2-88ab-15a2343afc6f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bezpecny-pohyb-na-akcich-skoly-a-v-prirode",
+    "title": "Bezpečný pohyb na akcích školy a v přírodě",
+    "aliases": [
+      "škola v přírodě",
+      "výlet",
+      "exkurze",
+      "pravidla na výletě",
+      "bezpečně venku"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "řídí se zásadami bezpečného pohybu při akcích školy a při pobytu v přírodě",
+        "quote": "řídí se zásadami bezpečného pohybu při akcích školy a při pobytu v přírodě"
+      },
+      {
+        "level": "Na cestě",
+        "point": "formuluje pravidla pro bezpečný pohyb a pobyt ve venkovním prostředí",
+        "quote": "formuluje pravidla pro bezpečný pohyb a pobyt ve venkovním prostředí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot sestaví seznam pravidel pro výlet a vysvětlí, proč platí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Horská služba a turistické weby uvádějí pravidla pobytu v přírodě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pravidla venku dodržuješ ty na místě, aplikace tě nezastaví."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Na výletě se držíš pokynů učitele ty, žádná pomůcka to nezařídí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/dcc96a49-0bac-4a9c-8f8e-a32b4e47e6eb",
+      "http://data.europa.eu/esco/skill/11f536f5-b0e2-46a6-95c1-bd765946604c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pocasi-a-rizika-venku",
+    "title": "Počasí a rizika venku",
+    "aliases": [
+      "bouřka",
+      "horko a mráz",
+      "předpověď počasí",
+      "oblečení na výlet",
+      "nebezpečné počasí"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "dává do souvislostí rizika pro pohyb a chování ve vnějším prostředí a povětrnostní podmínky",
+        "quote": "dává do souvislostí rizika pro pohyb a chování ve vnějším prostředí a povětrnostní podmínky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč je bouřka na kopci nebezpečná a jak se chránit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Předpověď a výstrahy říkají, jaké počasí čeká a čeho se vyvarovat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Počasí v telefonu ukáže bouřky, vítr a teplotu přímo ve tvém místě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr ukáže, kolik je venku stupňů a jak se oblékat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1b270383-b30c-4092-a9ed-b1637ecf2b79",
+      "http://data.europa.eu/esco/skill/b29e0c5c-7d3a-44a8-a182-75374abd4e76"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zvirata-rostliny-a-odlozene-predmety",
+    "title": "Neznámá zvířata, rostliny a odložené předměty",
+    "aliases": [
+      "cizí pes",
+      "divoká zvířata",
+      "jedovaté rostliny",
+      "nalezená věc",
+      "injekční stříkačka na zemi"
+    ],
+    "outcome": "CZB-VZB-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje zásady bezpečného chování při styku s neznámými zvířaty, rostlinami, s odloženými předměty ve veřejném prostoru",
+        "quote": "diskutuje zásady bezpečného chování při styku s neznámými zvířaty, rostlinami, s odloženými předměty ve veřejném prostoru"
+      },
+      {
+        "level": "Splněno",
+        "point": "Odůvodní nutnost odpovědného chování při kontaktu s domácími i volně žijícími zvířaty, které aplikuje a předvede v modelové situaci.",
+        "quote": "Odůvodní nutnost odpovědného chování při kontaktu s domácími i volně žijícími zvířaty, které aplikuje a předvede v modelové situaci."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jak se chovat k cizímu psu, a proč nesahat na cizí věci."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Atlasy zvířat a rostlin ukážou, co je jedovaté nebo nebezpečné."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na určování rostlin pozná z fotky, jestli je rostlina jedovatá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ke zvířeti přistupuješ klidně ty, pomůcka v ruce tě nechrání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f022949a-39bf-4f54-978e-3d5fa8dd19d9",
+      "http://data.europa.eu/esco/skill/d33b9bd2-6dcb-4abc-b3c2-96b8983d5c97"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,409 @@
+{
+  "outcome": "CZB-VZB-003-ZV9-012",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pravidla-silnicniho-provozu-v-modelovych-situacich",
+      "title": "Pravidla silničního provozu v modelových situacích",
+      "aliases": [
+        "pravidla silničního provozu",
+        "dopravní značky",
+        "přednost v jízdě",
+        "přecházení silnice",
+        "křižovatka"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Prokáže znalost pravidel silničního provozu při řešení modelových situací."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "řeší modelové dopravní situace v souladu s pravidly silničního provozu s důrazem na zajištění vlastní bezpečnosti i osob v jeho okolí"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "řeší modelové situace silničního provozu jako chodec, cyklista"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "demonstruje v modelové situaci nebo při akci školy správné chování ve shodě s pravidly silničního provozu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pravidlo a vymyslí ti dopravní situace k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pravidla a značky si přečteš v autoškolních a policejních přehledech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Autoškolní aplikace zkouší značky a přednost jako test."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Dopravní hřiště a model křižovatky ti ukážou, kdo má přednost."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257",
+        "http://data.europa.eu/esco/skill/1efe7dcb-ebdc-4410-bf21-1ebd9e590044"
+      ],
+      "inspiration": [
+        "Bezpečně v silničním provozu"
+      ]
+    },
+    {
+      "slug": "rozbor-dopravni-situace-z-hlediska-bezpecnosti",
+      "title": "Rozbor dopravní situace z hlediska bezpečnosti",
+      "aliases": [
+        "nebezpečná situace na silnici",
+        "rizika v dopravě",
+        "železniční přejezd",
+        "bezpečnost na silnici"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "analyzuje konkrétní situace v silničním provozu nebo v železniční dopravě z hlediska bezpečnosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se tě, co je v popsané situaci rizikové, a opraví tvůj rozbor."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Statistiky a příklady nehod ukazují, kde se nejčastěji stávají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Mapa ti ukáže trasu, rizika v ní hledáš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rozbor situace děláš hlavou, nástroj ti ho neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+      ],
+      "inspiration": [
+        "Bezpečně nejen do školy"
+      ]
+    },
+    {
+      "slug": "vybava-chodce-a-cyklisty",
+      "title": "Bezpečnostní prvky chodce a cyklisty",
+      "aliases": [
+        "reflexní prvky",
+        "helma na kolo",
+        "světla na kole",
+        "přilba",
+        "povinná výbava kola"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zdůvodňuje význam povinných prvků výbavy cyklisty pro zdraví a bezpečí"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zdůvodní používání jednotlivých bezpečnostních prvků ve výbavě chodce i cyklisty."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "popíše používání bezpečnostních prvků ve výbavě cyklisty"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč reflexní prvek nebo přilba chrání, a zeptá se tě na důvody."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam povinné výbavy kola najdeš na stránkách policie."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace prvky nenasadí, kolo zkontroluješ očima ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Reflexní pásek, přilba a světla ti reálně pomáhají být vidět."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+      ],
+      "inspiration": [
+        "Bezpečnostní prvky v silničním provozu",
+        "Bezpečně na kole",
+        "Elektrokoloběžka"
+      ]
+    },
+    {
+      "slug": "zadrzne-systemy-v-dopravnich-prostredcich",
+      "title": "Smysl zádržných systémů",
+      "aliases": [
+        "bezpečnostní pás",
+        "autosedačka",
+        "pásy v autě",
+        "airbag",
+        "připoutání"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí smysl zádržných systémů v dopravních prostředcích."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "zádržných systémů v dopravních prostředcích"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co se s tělem děje při nárazu a proč pás drží."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Videa z nárazových zkoušek ukážou rozdíl s pásem a bez něj."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pás zapneš ty, aplikace tě před nehodou neochrání."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pás ti pomůže jen v autě, jako nástroj k učení nic nenabídne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "nebezpeci-nevhodneho-chovani-v-doprave",
+      "title": "Nebezpečí nevhodného chování v dopravě",
+      "aliases": [
+        "telefon při chůzi",
+        "jízda na kole bez rukou",
+        "riziko v dopravě",
+        "nehoda chodce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede nebezpečí (pro sebe i druhé) plynoucí z nevhodného chování v roli chodce, cyklisty, cestujícího v dopravních prostředcích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, co se může stát, když přecházíš s telefonem v ruce."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady a statistiky nehod ukazují, jak vznikají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti nebezpečí nahradit nemůže, pozor dáváš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj žádné nebezpečí nezažene, rozhoduješ se ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+      ],
+      "inspiration": [
+        "Bezpečně v silničním provozu"
+      ]
+    },
+    {
+      "slug": "ohleduplne-chovani-ucastniku-dopravy",
+      "title": "Ohleduplné chování účastníků dopravy",
+      "aliases": [
+        "ohleduplnost na silnici",
+        "chodec a cyklista",
+        "vlak a letadlo",
+        "slušné chování v dopravě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí na modelové situaci vztahy a etické chování jednotlivých účastníků silniční, železniční a letecké dopravy."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere s tebou situaci, kdy si řidič, chodec a cyklista musí ustoupit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pravidla pro jednotlivé účastníky najdeš v přehledech."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Ohleduplnost se pozná v chování lidí, aplikace ji nenaučí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj slušné chování nenahradí, zvládáš ho ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+      ],
+      "inspiration": [
+        "Bezpečně nejen do školy"
+      ]
+    },
+    {
+      "slug": "chovani-pri-dopravni-nehode",
+      "title": "Chování při dopravní nehodě",
+      "aliases": [
+        "první pomoc",
+        "dopravní nehoda",
+        "volání záchranky",
+        "svědek nehody",
+        "linka 112"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Demonstruje v modelových situacích základní postupy bezpečného chování v případě, že se stane účastníkem nebo svědkem dopravní nehody."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde s tebou kroky u nehody a ptá se, co uděláš jako první."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Postup a čísla tísňových linek najdeš u záchranářů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace záchranky pošle polohu při tísňovém volání."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nehodu zajistíš a pomoc voláš ty, nástroj ti to nepředvede."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+        "http://data.europa.eu/esco/skill/f7464f30-662b-4177-85a0-3df9693e9e58"
+      ],
+      "inspiration": [
+        "Bezpečně v silničním provozu"
+      ]
+    },
+    {
+      "slug": "bezpecne-chovani-ve-verejne-doprave",
+      "title": "Bezpečné chování ve veřejné dopravě",
+      "aliases": [
+        "autobus",
+        "tramvaj",
+        "metro",
+        "nástup a výstup",
+        "vlak",
+        "výlet"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "projevuje při akcích školy bezpečné a odpovědné chování v situacích silniční, železniční a jiné dopravy jako chodec, cyklista, cestují veřejné dopravy"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "demonstruje v modelové situaci nebo při akci školy bezpečný způsob chování v prostředcích veřejné hromadné přepravy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se chovat při nástupu a výstupu a při jízdě ve vlaku."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Přepravní řády dopravců říkají, co smíš a nesmíš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s jízdními řády ti ukáže spoj a nástupiště."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Chovat se v autobusu musíš ty, nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+      ],
+      "inspiration": [
+        "Bezpečně nejen do školy"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Pohybuje se samostatně",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

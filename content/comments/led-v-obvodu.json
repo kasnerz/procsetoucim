@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "LED svítí v semaforu i v kontrolce na nabíječce a v domácnostech nahrazuje klasické žárovky. Na rozdíl od žárovky ale záleží, jak ji zapojíš: vede proud jen jedním směrem a bez rezistoru se snadno spálí. Kdo opravuje elektroniku v letadlech nebo staví roboty, pracuje s LED a podobnými součástkami běžně, a v těchto oborech míst spíš přibude. Pro ostatní je LED dobrý první příklad polovodičové součástky, která je dnes skoro v každém přístroji. V simulátoru si můžeš chybu dovolit, se skutečnou LED poznáš, jestli chápeš, proč tam rezistor patří.",
+  "learnWithAi": [
+    {
+      "title": "LED kolem tebe",
+      "text": "Sepiš, kde všude doma nebo na ulici vidíš LED, a nech chatbota ke každému místu doplnit, proč se tam hodí víc než žárovka. Údaje o spotřebě, které uvede, si ověř."
+    },
+    {
+      "title": "Rezistor k LED",
+      "text": "Požádej chatbota, ať ti krok za krokem vysvětlí, proč LED potřebuje rezistor a jak se jeho hodnota zhruba spočítá. Výpočet pro svou baterii pak udělej bez něj a nech si ho zkontrolovat."
+    },
+    {
+      "title": "Obráceně zapojená dioda",
+      "text": "Zapoj LED obráceně, popiš chatbotu, co vidíš, a nech ho klást otázky, dokud nedokážeš vysvětlit, proč nesvítí."
+    }
+  ]
+}

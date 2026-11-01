@@ -1,0 +1,578 @@
+[
+  {
+    "slug": "pojmy-kolonialismus-imperialismus",
+    "title": "Kolonialismus a imperialismus: co znamenají",
+    "aliases": [
+      "kolonialismus",
+      "imperialismus",
+      "kolonie",
+      "říše a impéria",
+      "dějepis pojmy"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vysvětlí pojmy kolonialismus a imperialismus.",
+        "quote": "Vysvětlí pojmy kolonialismus a imperialismus."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pojmy vysvětlí jinými slovy a vymyslí příklady, které si ověříš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie dávají přesné definice obou pojmů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pojmy si musíš srovnat v hlavě, žádná aplikace to neumí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tady nemáš v ruce nic, co by pojmy vysvětlilo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priklady-kolonialismu",
+    "title": "Příklady kolonialismu, dobré i špatné stránky",
+    "aliases": [
+      "příklady kolonialismu",
+      "kladné a záporné projevy",
+      "co přinesly kolonie",
+      "kolonie"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Uvede příklady kolonialismu a jeho kladné a záporné projevy.",
+        "quote": "Uvede příklady kolonialismu a jeho kladné a záporné projevy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vyjmenuje příklady a ty z nich zkusíš poznat, co komu pomohlo a co ublížilo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a učebnice online nabízejí konkrétní příklady z různých zemí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Příklady a jejich hodnocení najdeš a zvážíš ty, aplikace to nezvládne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nic, co držíš v ruce, ti příklady kolonialismu neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozsah-evropskych-imperii-na-mape",
+    "title": "Rozsah evropských impérií na mapě",
+    "aliases": [
+      "mapa impérií",
+      "evropská impéria",
+      "britské impérium",
+      "kolonie na mapě",
+      "konflikty mezi impérii"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše jeden projev kolonialismu a imperialismu, např. za pomoci mapy demonstruje rozsah evropských impérií v 19. století.",
+        "quote": "Popíše jeden projev kolonialismu a imperialismu, např. za pomoci mapy demonstruje rozsah evropských impérií v 19. století."
+      },
+      {
+        "level": "Na cestě",
+        "point": "S pomocí mapy popíše rozsah evropských impérií v různých staletích a ukáže místa možných konfliktů mezi impérii.",
+        "quote": "S pomocí mapy popíše rozsah evropských impérií v různých staletích a ukáže místa možných konfliktů mezi impérii."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozsah evropských impérií v 19. století",
+        "url": "https://uloziste.rvp.cz/material/b494e2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti k mapě vysvětlí, proč se impéria střetávala, a ptá se tě na to, co z mapy vyčteš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Historické mapy z archivů a encyklopedií ukazují hranice říší v různých staletích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapové aplikace přepínají historické vrstvy a ukážou, jak se hranice měnily."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "V dějepisném atlasu najdeš mapy impérií a na nich ukážeš ty místa sporů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priciny-kolonialismu",
+    "title": "Příčiny kolonialismu",
+    "aliases": [
+      "proč vznikaly kolonie",
+      "zápas o Afriku",
+      "výměna plodin",
+      "zámořská kolonizace"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na vybraných příkladech z dějin kolonialismu a imperialismu vysvětlí jejich příčiny a posoudí jejich zamýšlené a nezamýšlené důsledky.",
+        "quote": "vysvětlí jejich příčiny"
+      },
+      {
+        "level": "Na cestě",
+        "point": "U vybraného příkladu analyzuje příčiny a důsledky kolonialismu (např. dopady antické řecké, středověké německé nebo novověké evropské zámořské kolonizace, výměna plodin mezi kontinenty, příčiny tzv. zápasu o Afriku v 19. století).",
+        "quote": "U vybraného příkladu analyzuje příčiny a důsledky kolonialismu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti rozebere příčiny jednoho příkladu a ty si je roztřídíš, třeba na obchod, moc a suroviny."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a učebnice popisují, proč státy kolonie zakládaly."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Příčiny z textu vyčteš ty, aplikace ti je nenajde."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příčiny nepoznáš z věci v ruce, ale z textů a map."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zamyslene-a-nezamyslene-nasledky-kolonialismu",
+    "title": "Zamýšlené a nezamýšlené následky kolonialismu",
+    "aliases": [
+      "důsledky kolonialismu",
+      "co z kolonií vzešlo",
+      "následky imperialismu"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na vybraných příkladech z dějin kolonialismu a imperialismu vysvětlí jejich příčiny a posoudí jejich zamýšlené a nezamýšlené důsledky.",
+        "quote": "posoudí jejich zamýšlené a nezamýšlené důsledky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže oddělit, co státy plánovaly a co se stalo navíc, a zeptá se na tvůj názor."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdroje na internetu ukazují následky z pohledu různých stran."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Posoudit následky děláš ty, aplikace ti to neudělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Posuzování následků se do ruky vzít nedá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dopady-kolonialismu-na-ruzne-skupiny",
+    "title": "Dopady kolonialismu na různé skupiny lidí",
+    "aliases": [
+      "kdo prohrál a kdo vyhrál",
+      "původní obyvatelé",
+      "kolonisté",
+      "otroctví"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vysvětlí krátkodobé dopady tohoto projevu kolonialismu a imperialismu na různé skupiny obyvatel.",
+        "quote": "Vysvětlí krátkodobé dopady tohoto projevu kolonialismu a imperialismu na různé skupiny obyvatel."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti k jednomu příkladu popíše, co se stalo kolonistům, obchodníkům a místním lidem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie, muzea a archivy nabízejí svědectví a popisy různých skupin."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Dopady na lidi z textu musíš vyčíst ty, aplikace ti je neukáže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Z věcí v ruce skupiny obyvatel nepoznáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kratkodobe-dopady-dekolonizace",
+    "title": "Krátkodobé dopady dekolonizace",
+    "aliases": [
+      "dekolonizace",
+      "odchod Britů z Indie",
+      "apartheid",
+      "občanská válka ve Rwandě",
+      "konec kolonií"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Na vybraném příkladu vysvětlí krátkodobé dopady dekolonizace 20. století (např. odchod Britů z Indie nebo Francouzů z Indočíny, apartheid v Jihoafrické republice či občanská válka ve Rwandě).",
+        "quote": "Na vybraném příkladu vysvětlí krátkodobé dopady dekolonizace 20. století"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Rozpad koloniálních impérií",
+        "url": "https://uloziste.rvp.cz/material/b92bb6"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti příklad vysvětlí krok za krokem a ty si pak řekneš, co se hned po odchodu změnilo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a archivní zprávy popisují události těsně po odchodu kolonizátorů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s časovou osou ukážou, v jakém pořadí se události staly."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Dějepisný atlas ukazuje, jak se po dekolonizaci změnily hranice států."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dlouhodobe-dopady-dekolonizace-a-imperialismu",
+    "title": "Dlouhodobé dopady dekolonizace a imperialismu",
+    "aliases": [
+      "důsledky dekolonizace",
+      "krátkodobé a dlouhodobé dopady",
+      "dějiny 20. a 21. století",
+      "porovnání dopadů"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porovná krátkodobé a dlouhodobé dopady dekolonizace a imperialismu na dějiny 20. a 21. století.",
+        "quote": "Porovná krátkodobé a dlouhodobé dopady dekolonizace a imperialismu na dějiny 20. a 21. století."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže srovnat rychlé a pozdní dopady v tabulce, ale úsudek zůstane na tobě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a odborné články popisují vývoj bývalých kolonií až do současnosti."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Srovnání vymýšlíš ty, aplikace ho za tebe nesestaví."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nic z toho, co držíš v ruce, srovnání dopadů nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vztahy-kolonizovanych-a-kolonizatoru",
+    "title": "Vztahy mezi kolonizovanými a kolonizátory",
+    "aliases": [
+      "kolonizátoři a kolonizovaní",
+      "bývalé kolonie",
+      "vztah metropole a kolonie"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše a porovná vztahy mezi (ex)kolonizovanými a (ex)kolonizátory.",
+        "quote": "Popíše a porovná vztahy mezi (ex)kolonizovanými a (ex)kolonizátory."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí, jak se vztah měnil před a po osamostatnění, a ty ho porovnáš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a zprávy popisují vztahy bývalých kolonií a jejich dřívějších států."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Porovnání vztahů musíš sepsat ty, aplikace ti ho nenapíše."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Vztahy mezi státy si v ruce neověříš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ceske-zeme-a-kolonialismus",
+    "title": "České země a kolonialismus",
+    "aliases": [
+      "Češi a kolonie",
+      "koloniální obchod",
+      "výpravy do světa",
+      "české cestovatelé"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pomocí příkladu z českých dějin vysvětlí, jak se české země zapojily do koloniálního obchodu nebo výprav a šíření koloniálních myšlenek.",
+        "quote": "Pomocí příkladu z českých dějin vysvětlí, jak se české země zapojily do koloniálního obchodu nebo výprav a šíření koloniálních myšlenek."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "České kulturní obrazy „druhých“",
+        "url": "https://uloziste.rvp.cz/material/516a6b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti poradí, kde hledat české příklady, ale musíš si ověřit, že jsou pravdivé."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a archivy nabízejí příběhy českých cestovatelů a obchodníků."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "České příklady aplikace nenajdou, ty je skládáš z textů."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Muzejní předměty a staré mapy pomůžou, ale do ruky je ve škole neseženeš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "predsudky-ve-zdrojich",
+    "title": "Předsudky o druhých ve zdrojích",
+    "aliases": [
+      "rasismus v obrázcích",
+      "zobrazení druhého",
+      "necivilizovanost",
+      "břímě bílého muže",
+      "kritické čtení zdrojů"
+    ],
+    "outcome": "CAS-DEJ-001-ZV9-010",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Projevy kulturní či rasové nadřazenosti rozpozná i v používaných zdrojích ve formě různých způsobů zobrazování druhého (např. necivilizovanost, divokost, méněcennost, etnické a rasové předsudky).",
+        "quote": "Projevy kulturní či rasové nadřazenosti rozpozná i v používaných zdrojích ve formě různých způsobů zobrazování druhého"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Co je to „břímě bílého muže“?",
+        "url": "https://uloziste.rvp.cz/material/0a0c53"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti ukáže, podle čeho poznáš jednostranné zobrazení, ale zdroj čteš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internet nabízí staré plakáty a texty, na kterých předsudky hledáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Předsudky v textu nebo obrázku poznáš ty, aplikace to za tebe neposoudí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj v ruce předsudek ve zdroji nepozná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

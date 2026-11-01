@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Porovnat dva příklady neznamená vždycky oba spočítat. Často stačí všimnout si, že 38 + 17 je určitě víc než 30 + 10, a odpověď je jasná. Tenhle odhad se hodí při nakupování, když vybíráš mezi dvěma nabídkami, a lidé, kteří sestavují rozpočet stavby nebo kontrolují účetnictví, ho dělají pořád, aby rychle poznali, kde něco nesedí. Kalkulačka obě strany spočítá přesně, ale když umíš porovnávat z hlavy, poznáš i to, že ti kvůli překlepu ukazuje nesmysl. Na porovnávání výrazů později navážou rovnice a nerovnice.",
+  "learnWithAi": [
+    {
+      "title": "Odhad bez počítání",
+      "text": "Nechte si s rodičem od chatbota dát dvojice příkladů, které jde porovnat bez počítání, třeba 49 + 30 a 50 + 30. Řekni, co je víc a proč, a teprve potom to spočítej."
+    },
+    {
+      "title": "Porovnání se schválnými chybami",
+      "text": "Ať chatbot napíše deset porovnání a do tří schválně dá špatné znaménko. S rodičem nebo učitelem je hledejte a každé ověř výpočtem na papíře."
+    },
+    {
+      "title": "Vlastní příklady ke kontrole",
+      "text": "Vymysli s rodičem pět dvojic příkladů a zapiš mezi ně znaménka. Chatbot je zkontroluje, a když se s ním neshodnete, spočítejte to ručně, i chatbot se plete."
+    }
+  ]
+}

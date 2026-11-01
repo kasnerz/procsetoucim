@@ -1,0 +1,78 @@
+{
+  "outcome": "CZB-TEV-001-ZV9-002",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Zkouší a nacvičuje vlastní varianty pohybových dovedností.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-varianty-pohybu-podle-zadani"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se variantami her a soutěží.",
+      "cards": [
+        "taktika-v-tymovych-hrach-a-soutezich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Nacvičuje další (nové) varianty pohybových dovedností i s hudebním a rytmickým doprovodem.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-varianty-pohybu-podle-zadani",
+          "tv-pohyb-na-hudbu-a-rytmus"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Nacvičuje taktické varianty her a soutěží.",
+      "cards": [
+        "taktika-v-tymovych-hrach-a-soutezich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytváří vlastní varianty pohybových dovedností i s hudebním a rytmickým doprovodem a předvede je.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-varianty-pohybu-podle-zadani",
+          "tv-pohyb-na-hudbu-a-rytmus",
+          "tv-plan-vlastni-sestavy"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Při týmových hrách a soutěžích využívá různé taktické varianty pohybových dovedností a spolupráce.",
+      "cards": [
+        "taktika-v-tymovych-hrach-a-soutezich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Tvoří podle zadání a své fantazie, hudebního či rytmického doprovodu varianty jednoduchých pohybových dovedností.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-varianty-pohybu-podle-zadani",
+          "tv-pohyb-na-hudbu-a-rytmus"
+        ]
+      }
+    }
+  ]
+}

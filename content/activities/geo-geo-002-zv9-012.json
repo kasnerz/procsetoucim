@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "geo-priciny-valek",
+    "title": "Příčiny válek a konfliktů",
+    "aliases": [
+      "proč jsou války",
+      "příčiny válek",
+      "voda a suroviny",
+      "náboženské rozdíly",
+      "příčiny konfliktů"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvedene základní možné příčiny válek",
+        "quote": "Uvedene základní možné příčiny válek"
+      },
+      {
+        "level": "Na cestě",
+        "point": "na konkrétních příkladech různých konfliktů uvádí hlavní příčiny konfliktů (např. nedostatečný přístup k vodě, ke zdrojům klíčových surovin, dezertifikace území, nedemokratické státní zřízení, etnické a náboženské rozdíly) a snahy o jejich mírová řešení",
+        "quote": "na konkrétních příkladech různých konfliktů uvádí hlavní příčiny konfliktů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Kde a proč lidé válčí?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč se o vodu nebo suroviny vedou spory, a zeptá se na další příklad."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie popisují příčiny konkrétních konfliktů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Příčiny konfliktů nejsou úloha pro jednoúčelovou aplikaci."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj příčiny konfliktů nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/786378b4-6661-4f51-b03c-3006a2bc2d62",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geo-ohniska-napeti-na-mape",
+    "title": "Ohniska napětí na mapě světa",
+    "aliases": [
+      "kde jsou války",
+      "konflikty na mapě",
+      "ohniska napětí",
+      "aktuální konflikty"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na mapě lokalizuje oblasti aktuálních ohnisek napětí a konfliktů",
+        "quote": "na mapě lokalizuje oblasti aktuálních ohnisek napětí a konfliktů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Konflikty v médiích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti napoví, kde konflikt probíhá, a ty to pak ověříš na mapě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internetové atlasy a zpravodajské mapy ukazují, kde se právě bojuje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ti ukáže místo konfliktu a okolní státy."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "V papírovém atlase najdeš oblast i bez internetu a vidíš ji v souvislostech."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geo-tematicka-mapa-konfliktu",
+    "title": "Tematická mapa konfliktů podle zpráv",
+    "aliases": [
+      "mapa konfliktů",
+      "vlastní mapa",
+      "zprávy o válkách",
+      "tematická mapa"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě mediálních zpráv za určité období vytvoří tematickou mapu aktuálních ohnisek napětí/konfliktů ve světě.",
+        "quote": "Na základě mediálních zpráv za určité období vytvoří tematickou mapu aktuálních ohnisek napětí/konfliktů ve světě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Konflikty v médiích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže vybrat, jaké údaje do mapy zaznamenat, a zkontroluje tvůj seznam."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zpravodajské weby dávají materiál, ze kterého mapu sestavíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí nebo mapová aplikace ti usnadní zakreslit a označit místa."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mapu nakreslíš pastelkami do slepé mapy a každé místo si tak spojíš s názvem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geo-dusledky-konfliktu",
+    "title": "Důsledky konfliktů v místě, v Česku a ve světě",
+    "aliases": [
+      "důsledky války",
+      "co válka způsobí",
+      "uprchlíci",
+      "dopady konfliktu"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na konkrétních příkladech různých konfliktů uvádí jejich krátkodobé a dlouhodobé důsledky v místě konfliktu, v Česku i ve světě (na život obyvatel, politiku, hospodářství a přírodu)",
+        "quote": "na konkrétních příkladech různých konfliktů uvádí jejich krátkodobé a dlouhodobé důsledky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže roztřídit důsledky na krátkodobé a dlouhodobé a zeptá se na další."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a encyklopedie popisují, co konflikt způsobil lidem, hospodářství i přírodě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Důsledky konfliktu z dat nevyčte, jednoúčelová aplikace tu nemá co nabídnout."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj důsledky konfliktu neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c003e77-867f-4213-b7e9-0a4671362646",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geo-mirove-reseni-konfliktu",
+    "title": "Snahy o mírové řešení konfliktů",
+    "aliases": [
+      "mír",
+      "jednání o míru",
+      "příměří",
+      "mírové úsilí",
+      "jak skončit válku"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na konkrétních příkladech různých konfliktů uvádí hlavní příčiny konfliktů (např. nedostatečný přístup k vodě, ke zdrojům klíčových surovin, dezertifikace území, nedemokratické státní zřízení, etnické a náboženské rozdíly) a snahy o jejich mírová řešení",
+        "quote": "a snahy o jejich mírová řešení"
+      },
+      {
+        "level": "Splněno",
+        "point": "Diskutuje o minulých i současných příkladech mírového úsilí ve světě.",
+        "quote": "Diskutuje o minulých i současných příkladech mírového úsilí ve světě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Války v našich dějinách",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot zahraje protistranu v diskusi a vysvětlí, jak se jednalo o míru."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a zprávy popisují mírové dohody a jejich průběh."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Mírové úsilí není úloha pro jednoúčelovou aplikaci."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutovat se dá jen s lidmi, klasický nástroj na to nestačí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c003e77-867f-4213-b7e9-0a4671362646",
+      "http://data.europa.eu/esco/skill/fa68995c-305b-4962-96e7-70782fc385f8"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geo-typologie-konfliktu",
+    "title": "Typy konfliktů s příklady",
+    "aliases": [
+      "druhy konfliktů",
+      "rozdělení konfliktů",
+      "typologie konfliktů",
+      "třídění válek"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě znalostí příčin konfliktů vytvoří jednoduchou typologii konfliktů, jednotlivé typy dokládá konkrétními příklady z minulosti i současnosti, které lokalizuje na mapě.",
+        "quote": "Na základě znalostí příčin konfliktů vytvoří jednoduchou typologii konfliktů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot zkontroluje, zda tvoje typy dávají smysl, a navrhne protipříklad."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a zprávy dodají příklady z minulosti i dneška."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulková aplikace ti pomůže příklady roztřídit do sloupců."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a pastelky ti stačí na vlastní schéma typů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c003e77-867f-4213-b7e9-0a4671362646",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geo-rozbor-konfliktu",
+    "title": "Rozbor vybraného konfliktu podle kritérií",
+    "aliases": [
+      "popis konfliktu",
+      "analýza konfliktu",
+      "příčiny a důsledky",
+      "jak konflikt skončil"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše a analyzuje vybraný konflikt na základě předem stanovených kritérií (např. příčiny, důsledky, prostorový aspekt, jak byl konflikt ukončen).",
+        "quote": "Popíše a analyzuje vybraný konflikt na základě předem stanovených kritérií"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí kritéria a po tobě zkontroluje, zda ti žádné nechybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a zprávy dodají fakta pro každé kritérium."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ti ukáže prostorovou stránku konfliktu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj rozbor konfliktu neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c003e77-867f-4213-b7e9-0a4671362646",
+      "http://data.europa.eu/esco/skill/cf9c8e73-105d-419e-86dd-4304cc6cd718"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

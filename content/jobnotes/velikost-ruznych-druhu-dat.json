@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "2079755f-d809-49e6-8037-4de6180e54c0": "Při návrhu úložišť se počítá, kolik místa zabere text, obrázek nebo video. Od toho se odvíjí, kolik disků je potřeba a jak dlouho potrvá přenos dat.",
+  "b11e1742-5e28-4270-b081-b0193d85ee7d": "V databázi se každý sloupec ukládá v nějakém datovém typu a ten rozhoduje o velikosti. Číslo, text a obrázek zabírají jinak, což se při návrhu databáze musí vědět.",
+  "32ac76f6-20a0-469e-8cac-e68634087dd3": "Lékařské snímky jsou velké soubory a v archivu jich bývá hodně. Kdo systém spravuje, musí vědět, kolik místa zabírají a jak rychle se dají otevřít.",
+  "e297ec12-4712-40a4-ad98-ba004cacb205": "Při řízení správy dat se rozhoduje, co se bude ukládat a kolik to bude stát. Velikost různých druhů dat se tu bere v úvahu při plánování úložišť.",
+  "810e5e67-acd5-499a-b307-cf5bea330859": "Při tvorbě digitálních struktur pro informace se musí počítat s tím, že textové dokumenty, tabulky a videa zabírají různě. Od toho závisí uložení i sdílení.",
+  "0d595b87-a1fc-410c-abbe-88b92cb0d334": "Ve výuce informatiky se žákům ukazuje, proč má fotka větší soubor než text. Jde o učivo, které se musí umět vysvětlit, ale práce z něj nestojí.",
+  "c3b82711-273d-4fa8-8de7-0ac3d99c16fc": "Při výuce počítačové vědy se vysvětluje, jak se data kódují a kolik zabírají. Je to základ, na který se navazuje složitějšími tématy.",
+  "c2d36adb-ecf4-4823-980b-d84b0f11b2c8": "Simulace baterií vytvářejí velké množství dat. Znalost toho, co zabírá kolik místa, se hodí při ukládání výsledků, ale hlavní práce je matematické modelování."
+ }
+}

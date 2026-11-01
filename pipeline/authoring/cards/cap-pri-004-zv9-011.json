@@ -1,0 +1,581 @@
+{
+  "outcome": "CAP-PRI-004-ZV9-011",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "urcovani-organismu-klicem",
+      "title": "Určování organismů klíčem a atlasem",
+      "aliases": [
+        "určovací klíč",
+        "atlas rostlin",
+        "poznávání druhů",
+        "aplikace na poznávání rostlin",
+        "jak poznat druh"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Určí daný organismus s pomocí určovacího klíče, atlasu nebo aplikace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, podle čeho se druhy liší, a pomůže ti vybrat správnou větev klíče."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Online atlasy a klíče ukazují fotky a znaky druhů ke srovnání."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na poznávání rostlin a zvířat navrhne druh podle fotky."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový atlas a určovací klíč vedou krok za krokem k druhu v ruce."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/14c9635f-1afe-41a1-997e-7b406751e033",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "spolecne-vlastnosti-skupiny-organismu",
+      "title": "Společné vlastnosti a projevy skupiny organismů",
+      "aliases": [
+        "společné znaky",
+        "skupiny živočichů",
+        "skupiny rostlin",
+        "životní projevy",
+        "jak se organismy podobají"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyvozuje vlastnosti společné pro danou skupinu organismů."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Identifikuje fenomény spojené se životními projevy vybrané skupiny organismů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co mají ptáci nebo savci společného, a ověří tvé závěry."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie uvádějí znaky skupin a jejich životní projevy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s atlasem třídí druhy do skupin podle znaků."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa nebo mikroskop ti ukážou znaky, které okem nevidíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pokus-vliv-podminek",
+      "title": "Pokus: vliv podmínky na život organismu",
+      "aliases": [
+        "pokus s rostlinou",
+        "světlo a klíčení",
+        "experiment v biologii",
+        "zápis pokusu",
+        "jak ověřit vliv podmínek"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Zkoumá experimentálně a zaznamená vliv dané podmínky na zvolený fenomén."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti navrhnout pokus a zkontrolovat, že měníš jen jednu podmínku."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Výsledek svého pokusu ve vyhledávači nenajdeš, musíš ho změřit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka nebo aplikace pro záznam dat zpřehlední tvá měření."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Teploměr, váha a pravítko změří, co se v pokusu děje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/89db623e-e1fc-4ec2-9a0f-7b72b4c35303",
+        "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dopady-zmeny-podminek",
+      "title": "Dopady změny podmínek na organismy",
+      "aliases": [
+        "změna prostředí",
+        "oteplování a zvířata",
+        "vymírání druhů",
+        "klima a příroda",
+        "co se stane při změně podmínek"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Zhodnotí možné pozitivní i negativní dopady změny podmínek na život organismů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, komu změna prostředí škodí a komu naopak pomáhá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Odborné články a encyklopedie uvádějí příklady druhů, které změna ovlivnila."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace úvahu o dopadech za tebe neprovede, jen ukáže data."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj ti dopady změny podmínek nevyhodnotí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "variabilita-mezi-jedinci-druhu",
+      "title": "Rozdíly mezi jedinci jednoho druhu",
+      "aliases": [
+        "samec a samice",
+        "pohlavní dimorfismus",
+        "proč jsou jedinci různí",
+        "variabilita druhu",
+        "rozdíly mezi pohlavími"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Porovná shody a rozdíly v rozmanitosti mezi jedinci jednoho druhu v závislosti na pohlaví a vnitrodruhové variabilitě."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, v čem se samci a samice liší, a pomůže ti sestavit srovnání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Atlasy a Wikipedie uvádějí rozdíly mezi pohlavími a ukázky variability."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe jedince neporovná, ukáže nanejvýš fotky."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko a váha změří velikost a hmotnost jedinců pro srovnání."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "adaptace-druhu-na-zpusob-zivota",
+      "title": "Znaky a způsob života: jak se druh přizpůsobil",
+      "aliases": [
+        "adaptace",
+        "přizpůsobení prostředí",
+        "stavba těla a způsob života",
+        "k čemu je zvířeti zobák",
+        "jak organismus přežije"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "seznámí se se způsobem života různých organismů (včetně člověka) a hledá znaky, kterými jsou organismy na daný způsob života a k daným podmínkám prostředí přizpůsobené"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "popisuje znaky konkrétních taxonomických skupin nebo konkrétního druhu a vyvodí, jak tyto znaky souvisí se způsobem života"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše adaptace konkrétního druhu nebo evoluční linie a vysvětlí, jak souvisejí s evoluční historií."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu druhu jeho znaky slouží, a ověří tvé vysvětlení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a dokumenty o přírodě popisují znaky a způsob života druhů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s atlasem vypíše znaky, souvislost se způsobem života musíš najít ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa nebo mikroskop ukážou stavbu těla, třeba zobák, srst či list."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/a07a5d41-add0-4d0f-ad01-718d39554be8"
+      ],
+      "inspiration": [
+        "Evoluční příběhy",
+        "Deník divoké přírody"
+      ]
+    },
+    {
+      "slug": "srovnani-druhu-ruzny-zpusob-zivota",
+      "title": "Srovnání druhů s různým způsobem života",
+      "aliases": [
+        "porovnání druhů",
+        "dva druhy zvířat",
+        "čím se liší druhy",
+        "srovnávací tabulka",
+        "jiný způsob života"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovná daný příklad (druh nebo skupina, znaky a způsob života) s jinými taxonomickými skupinami nebo druhy adaptovanými na jiný způsob života."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti sestavit srovnání dvou druhů a prověří, zda v něm nic nechybí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie dá údaje o znacích a životě obou druhů ke srovnání."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový program uspořádá znaky obou druhů vedle sebe."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj ti druhy nesrovná, tabulku sestavuješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/14c9635f-1afe-41a1-997e-7b406751e033"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "cteni-evolucniho-stromu",
+      "title": "Čtení evolučního stromu",
+      "aliases": [
+        "fylogenetický strom",
+        "rodokmen druhů",
+        "evoluční vývoj znaků",
+        "vznik znaků",
+        "strom života"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "s použitím vhodného fylogenetického zobrazení identifikuje vznik těchto znaků a popíše jejich evoluční vývoj"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak číst větvení stromu, a ověří, kde se znak objevil poprvé."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a encyklopedie obsahují hotové evoluční stromy s vysvětlením."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Interaktivní strom života dovolí rozbalovat větve a hledat druhy."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj strom nevyčte, čteš ho ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/14c9635f-1afe-41a1-997e-7b406751e033"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "predpoklady-evoluce-na-prikladu",
+      "title": "Přirozený výběr a adaptace na příkladu",
+      "aliases": [
+        "přirozený výběr",
+        "evoluční fitness",
+        "zdatnost",
+        "darwin",
+        "jak funguje evoluce",
+        "příklad evoluce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na konkrétním příkladu popíše předpoklady, které umožňují evoluci (vnitrodruhová rozmanitost, přirozený výběr, adaptace)"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vysvětlí pojem evoluční fitness jedince (biologická zdatnost)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na konkrétním příkladu použije pojmy související s evolucí: vnitrodruhová rozmanitost, přirozený výběr, adaptace, evoluční fitness (zdatnost)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy na příkladech a zkontroluje, zda je používáš správně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a encyklopedie uvádějí klasické příklady přirozeného výběru."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Simulace evoluce ukáže, jak se v populaci mění znaky po generacích."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj pojmy nevysvětlí, příklad rozebíráš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": [
+        "Evoluční příběhy"
+      ]
+    },
+    {
+      "slug": "mutace-a-pohlavni-rozmnozovani",
+      "title": "Mutace a pohlavní rozmnožování jako zdroj rozmanitosti",
+      "aliases": [
+        "mutace",
+        "geny",
+        "proč jsme různí",
+        "dědičnost",
+        "výhodná mutace",
+        "pohlavní rozmnožování"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí, že vnitrodruhová rozmanitost vzniká mutacemi genů a pohlavním rozmnožováním a že výhodné mutace mají na úrovni populace vyšší pravděpodobnost, že budou předány do další generace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak mutace a křížení vznikají, a zkontroluje tvé vysvětlení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Učebnice online a Wikipedie popisují mutace, geny a dědičnost."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Genetické simulace ukážou, jak se znaky kombinují v potomcích."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj geny nevysvětlí, souvislost vysvětluješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691",
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "ziskane-vlastnosti-se-nededi",
+      "title": "Proč se získané vlastnosti nedědí",
+      "aliases": [
+        "získané vlastnosti",
+        "lamarck",
+        "svaly se nedědí",
+        "jizva se nedědí",
+        "dědí se naučené"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "uvede příklady, kterými prokáže, že se získané vlastnosti obvykle nedědí"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady, kterými prokáže, že se vlastnosti získané během života jedince obvykle nedědí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou příklady jako cvičení nebo jizvu a prověří tvé argumenty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a učebnice vysvětlují rozdíl mezi dědičným a získaným znakem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace příklady za tebe nevymyslí ani neobhájí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj nedědičnost nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54b2c5ea-4475-4bf5-a433-b0dc5442e691",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "scenare-dalsiho-vyvoje",
+      "title": "Scénáře dalšího vývoje organismů a člověka",
+      "aliases": [
+        "budoucnost evoluce",
+        "jak se změní člověk",
+        "evoluce a klima",
+        "změny chování zvířat",
+        "co bude s druhy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popíše různé scénáře dalšího evolučního vývoje organismů včetně člověka v souvislosti se současnými environmentálními problémy, uvede příklady změn vlastností i chování"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše různé scénáře dalšího evolučního vývoje organismů včetně člověka v souvislosti se současnými environmentálními problémy, uvede příklady změn vlastností i chování."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou možné scénáře a ukáže, na čem jsou postavené."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Odborné články a encyklopedie uvádějí příklady druhů, které se už změnily."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe scénáře neprobere, jen ukáže data."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj budoucí vývoj nepředpoví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e"
+      ],
+      "inspiration": [
+        "Vytvoř si svého parazita"
+      ]
+    }
+  ],
+  "aside": []
+}

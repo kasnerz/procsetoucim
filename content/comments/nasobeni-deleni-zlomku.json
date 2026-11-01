@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Násobit zlomkem znamená vzít z něčeho část: polovina ze tří čtvrtin litru jsou tři osminy litru. Dělit zlomkem zase znamená zjistit, kolikrát se menší kus vejde do většího, třeba kolik čtvrtlitrových hrnků naplníš ze dvou litrů. Pravidlo „obrať zlomek a vynásob“ se snadno zapomene nebo splete, kdežto model ti ukáže, proč funguje. Kalkulačka spočítá oboje, ale úlohu ze života na příklad nepřevede, to musíš ty, ať zmenšuješ recept pro šest lidí na dva, nebo počítáš, kolik lahví naplníš ze sudu.",
+  "learnWithAi": [
+    {
+      "title": "Obdélník rozdělený na díly",
+      "text": "Požádej chatbota o pět příkladů na násobení zlomků a každý nakresli jako obdélník rozdělený na řádky a sloupce. Výsledek z obrázku porovnej s výpočtem a nech si ho zkontrolovat."
+    },
+    {
+      "title": "Obracení zlomku při dělení",
+      "text": "Když nechápeš, proč se při dělení zlomek obrací, nech si to vysvětlit na hrncích vody nebo kouscích čokolády. Pak to vysvětli vlastními slovy a zeptej se, jestli to sedí."
+    },
+    {
+      "title": "Recept pro jiný počet lidí",
+      "text": "Najdi recept a přepočítej ho pro jiný počet lidí, třeba ze šesti na čtyři. Výpočty dej chatbotu ke kontrole a u delších si je ověř i kalkulačkou, AI se v nich může splést."
+    }
+  ]
+}

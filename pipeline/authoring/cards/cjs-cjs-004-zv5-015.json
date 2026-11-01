@@ -1,0 +1,373 @@
+{
+  "outcome": "CJS-CJS-004-ZV5-015",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "zkoumani-prirodnin-smysly",
+      "title": "Zkoumání přírodnin smysly",
+      "aliases": [
+        "pozorování smysly",
+        "čich a hmat",
+        "jak vypadá kámen",
+        "zkoumání přírody",
+        "vlastnosti organismů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Zkoumá vlastnosti organismů a neživých přírodnin pomocí smyslového vnímání."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Zrakem, hmatem a čichem zkoumáš ty, chatbot nic nevidí ani necítí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Popis z webu ti nenahradí vlastní vjem listu nebo kamene."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvé smysly nezastoupí, vjem musíš mít v ruce."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa a ruka s pravítkem ukážou to, co očima nevidíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+      ],
+      "inspiration": [
+        "Mapování okolí skrze smysly"
+      ]
+    },
+    {
+      "slug": "zapis-smyslovych-vjemu",
+      "title": "Zápis a popis pozorování",
+      "aliases": [
+        "popis pozorování",
+        "zapsat co vidím",
+        "poznámky z přírody",
+        "deník pozorování"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zaznamenává a popisuje vjemy svého smyslového pozorování."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak popsat tvar, barvu nebo vůni, a navrhne tabulku do zápisu."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Ukázky zápisů a slovníky popisných slov máš po ruce, ale pozorování nezapíšou."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nepozoruje, vjemy zapisuješ podle toho, co zjistíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Sešit a tužka stačí na popis i nákres."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ]
+    },
+    {
+      "slug": "typicke-vlastnosti-organismu",
+      "title": "Typické vlastnosti organismu",
+      "aliases": [
+        "znaky rostliny",
+        "znaky zvířete",
+        "jak poznám savce",
+        "co je typické"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vyvozuje vlastnosti typické pro daný organismus."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, které znaky druh odlišují a zkontroluje tvůj závěr z pozorování."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie uvádějí typické znaky druhů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Atlasová aplikace vypíše znaky druhu, vyvodit je z pozorování musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Závěr z pozorování vyvozuješ hlavou, tužka a papír ho jen zapíšou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/73997f48-cd9d-4724-872d-86ecbb2ed9a2"
+      ]
+    },
+    {
+      "slug": "shody-a-rozdily-prirodnin",
+      "title": "Shody a rozdíly přírodnin",
+      "aliases": [
+        "porovnání",
+        "čím se liší",
+        "čím jsou podobné",
+        "srovnání kamenů a rostlin"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Porovnává shody a rozdíly mezi pozorovanými přírodninami."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže sestavit tabulku srovnání a upozorní na znak, který ti unikl."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Fotky a popisy druhů najdeš vedle sebe, ale porovnání děláš ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Tabulkový program srovná tvoje zápisy do přehledu, porovnat musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa nebo mikroskop ukážou rozdíly, které očima neuvidíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/e3fcd642-5f9c-48ee-be58-258dd895d281"
+      ],
+      "inspiration": [
+        "Zajíc nebo králík"
+      ]
+    },
+    {
+      "slug": "urceni-organismu-klicem-atlasem",
+      "title": "Určení organismu klíčem, atlasem nebo aplikací",
+      "aliases": [
+        "určovací klíč",
+        "atlas rostlin",
+        "určování rostlin",
+        "poznávání zvířat",
+        "aplikace na poznávání rostlin"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Určí daný organismus s pomocí určovacího klíče, atlasu nebo aplikace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí znaky v klíči a poradí, jak rozlišit podobné druhy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetové atlasy a Wikipedie mají fotky a popisy druhů k ověření."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Určovací aplikace navrhne druh podle fotky, ty ověříš znaky."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový atlas a určovací klíč vedou krok za krokem k druhu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/73997f48-cd9d-4724-872d-86ecbb2ed9a2",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": [
+        "Poznáváme části rostlin"
+      ]
+    },
+    {
+      "slug": "spolecne-vlastnosti-skupiny",
+      "title": "Společné vlastnosti skupiny organismů",
+      "aliases": [
+        "skupiny organismů",
+        "dřeviny",
+        "savci",
+        "členovci",
+        "co mají společného"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyvozuje vlastnosti společné pro danou skupinu organismů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, podle čeho se skupina vymezuje, a zkontroluje tvoje shrnutí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie uvádí znaky skupin, třeba savců, k ověření tvého závěru."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s přehledem druhů ukáže znaky skupiny, vyvodit je musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Závěr o skupině vyvozuješ ze svých pozorování, nástroj ho nenapíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989",
+        "http://data.europa.eu/esco/skill/73997f48-cd9d-4724-872d-86ecbb2ed9a2"
+      ],
+      "inspiration": [
+        "Obratlovci moří"
+      ]
+    },
+    {
+      "slug": "dopady-opatreni-pro-rozmanitost",
+      "title": "Dopady opatření na rozmanitost přírody",
+      "aliases": [
+        "podpora rozmanitosti",
+        "hmyzí hotel",
+        "budka pro ptáky",
+        "co se změnilo",
+        "zásah v okolí školy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje a hodnotí dopady jím realizovaného opatření podporujícího biodiverzitu v blízkém okolí školy či regionu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, podle čeho poznáš změnu, a zeptá se na to, tvoje pozorování."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Ukázky podobných zásahů a jejich výsledků ti dají srovnání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace změny v okolí školy za tebe nesleduje, vyhodnotit je musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Opatření i jeho dopady sleduješ v terénu, nástroj tě tam nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+        "http://data.europa.eu/esco/skill/96835f47-da71-415b-8cbf-d37386dc98d4"
+      ],
+      "inspiration": [
+        "Podpora rozmanitosti"
+      ]
+    },
+    {
+      "slug": "propojenost-zive-a-nezive-prirody",
+      "title": "Propojenost živé a neživé přírody",
+      "aliases": [
+        "voda a rostliny",
+        "půda a organismy",
+        "co závisí na čem",
+        "model přírody"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Pozoruje na modelových příkladech propojenost živé a neživé přírody."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co rostlina bere z půdy a vody, a vymyslí příklady k modelu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Schémata a texty o koloběhu vody nebo půdě propojení názorně ukazují."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s animovaným modelem ukáže, co s čím souvisí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Model z hlíny, vody a rostlinky ti ukáže vazby před očima."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8429098-ddac-481b-91e7-688d021c092e",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Chová se ohleduplně",
+      "code": "O1",
+      "refs": [
+        "chovani-v-prirode"
+      ]
+    }
+  ]
+}

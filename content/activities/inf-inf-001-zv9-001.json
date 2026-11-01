@@ -1,0 +1,398 @@
+[
+  {
+    "slug": "overovani-dat-z-vice-zdroju",
+    "title": "Ověřování dat z více zdrojů",
+    "aliases": [
+      "ověřování informací",
+      "nespolehlivá data",
+      "porovnání zdrojů",
+      "kde to je pravda",
+      "fake news"
+    ],
+    "outcome": "INF-INF-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Uvědomuje si, že získaná či předkládaná data mohou být nespolehlivá a že je nutné ověřovat informace z více nezávislých zdrojů.",
+        "quote": "Uvědomuje si, že získaná či předkládaná data mohou být nespolehlivá a že je nutné ověřovat informace z více nezávislých zdrojů."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Formuluje závěry na základě porovnání dat z více zdrojů.",
+        "quote": "Formuluje závěry na základě porovnání dat z více zdrojů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Chatbot může data zkomolit, takže jím ověřování neprovedeš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hledáš stejné číslo u několika nezávislých zdrojů a porovnáváš je."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Která data jsou spolehlivá, nepozná aplikace, to posuzuješ ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tištěná encyklopedie nebo statistická ročenka dá jen jeden další zdroj, porovnání uděláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "relevance-validita-spolehlivost-dat",
+    "title": "Užitečnost a spolehlivost dat a zdrojů",
+    "aliases": [
+      "relevance dat",
+      "validita",
+      "spolehlivý zdroj",
+      "hodí se to k otázce",
+      "dá se tomu věřit"
+    ],
+    "outcome": "INF-INF-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozliší různou úroveň relevance, validity a spolehlivosti dat a jejich zdrojů.",
+        "quote": "Rozliší různou úroveň relevance, validity a spolehlivosti dat a jejich zdrojů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi užitečnými a spolehlivými daty na příkladech a prověří tvůj úsudek."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zjistíš, kdo zdroj vydává, jak data sbíral a jestli se hodí k tvé otázce."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nerozhodne, jestli se data hodí k otázce a dá se jim věřit."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ruční nástroj o kvalitě dat nic neřekne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "chybne-a-zavadejici-interpretace-dat",
+    "title": "Chybné a zavádějící čtení dat",
+    "aliases": [
+      "manipulace s grafy",
+      "lživé statistiky",
+      "zavádějící graf",
+      "chyba v datech",
+      "jak se dá zmanipulovat graf"
+    ],
+    "outcome": "INF-INF-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Analyzuje základní data, učí se rozpoznávat chybné interpretace dat.",
+        "quote": "Analyzuje základní data, učí se rozpoznávat chybné interpretace dat."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozpozná očividně chybné interpretace dat.",
+        "quote": "Rozpozná očividně chybné interpretace dat."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpozná chybné interpretace dat, včetně běžných způsobů možné manipulace.",
+        "quote": "Rozpozná chybné interpretace dat, včetně běžných způsobů možné manipulace."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže běžné triky, třeba uříznutou osu grafu, a zkusí tě na nich nachytat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš sbírky zavádějících grafů a ověřovací weby, které rozebírají zkreslená čísla."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Chybu ve výkladu dat nepozná aplikace, musíš ji najít ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítkem a kalkulačkou přeměříš osu grafu a přepočítáš, jestli čísla sedí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+      "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cteni-dat-v-ruznych-podobach",
+    "title": "Čtení tabulek, schémat a grafů",
+    "aliases": [
+      "čtení grafu",
+      "infografika",
+      "tabulka a graf",
+      "schéma",
+      "vizualizace dat"
+    ],
+    "outcome": "INF-INF-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Interpretuje data v různých podobách (hodnoty v tabulkách, schémata, infografika, vizualizace...).",
+        "quote": "Interpretuje data v různých podobách (hodnoty v tabulkách, schémata, infografika, vizualizace...)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co v grafu nebo tabulce znamenají osy, sloupce a legenda."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš ukázky grafů a infografik s popisem, jak se čtou."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Z tabulky si v tabulkovém procesoru nakreslíš graf a vidíš, jak se data mění."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pravítko ani tužka ti graf nevysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1f403e44-7a79-4b91-b86a-e406208be161",
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-uzitecnych-dat-pro-otazku",
+    "title": "Výběr dat pro odpověď na otázku",
+    "aliases": [
+      "jaká data potřebuju",
+      "kde najít data",
+      "sehnat data",
+      "získání dat",
+      "hledání dat"
+    ],
+    "outcome": "INF-INF-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vybírá, vyhledává nebo získává data co nejužitečnější pro odpověď na danou otázku.",
+        "quote": "Vybírá, vyhledává nebo získává data co nejužitečnější pro odpověď na danou otázku."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Zdravý spánek – moje pohoda pod lupou",
+        "url": "https://uloziste.rvp.cz/material/bef656"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti rozmyslet, jaká data k otázce potřebuješ a kde je hledat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ve vyhledávači a v otevřených statistikách najdeš hotová data k tématu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Dotazník nebo měřicí aplikace ti data sesbírají, když víš, na co se ptát."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Metr, teploměr nebo papírový dotazník ti dají vlastní naměřená data."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+      "http://data.europa.eu/esco/skill/0d282d6e-8cb9-4339-8e7d-cfafed96b5ed"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nastroje-pro-praci-s-daty",
+    "title": "Nástroje pro práci s daty",
+    "aliases": [
+      "tabulkový procesor",
+      "excel",
+      "třídění dat",
+      "shrnutí dat",
+      "průměr a součet"
+    ],
+    "outcome": "INF-INF-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Poznává a využívá různé metody a nástroje pro práci s daty.",
+        "quote": "Poznává a využívá různé metody a nástroje pro práci s daty."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vybírá a využívá vhodné metody a nástroje pro práci s daty, jejich organizaci, strukturování a sumarizaci, aby je mohl lépe zpracovat a interpretovat.",
+        "quote": "Vybírá a využívá vhodné metody a nástroje pro práci s daty, jejich organizaci, strukturování a sumarizaci, aby je mohl lépe zpracovat a interpretovat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jaký postup a vzorec se na tvoje data hodí, a vysvětlí, jak funguje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš návody k tabulkovému procesoru s příklady řazení, filtrů a souhrnů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor data seřadí, vyfiltruje a spočítá souhrny, ty volíš postup."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačkou a papírovou tabulkou spočítáš a uspořádáš menší soubor dat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zavery-z-dat-se-spolehlivosti",
+    "title": "Závěry z dat a jejich spolehlivost",
+    "aliases": [
+      "vyvodit závěr",
+      "rozhodnutí podle dat",
+      "je to jisté",
+      "co z dat plyne",
+      "hodnocení závěru"
+    ],
+    "outcome": "INF-INF-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Formuluje odpovědi a závěry, hodnotí spolehlivost svých závěrů a rozhoduje o řešení konkrétního problému na základě dat.",
+        "quote": "Formuluje odpovědi a závěry, hodnotí spolehlivost svých závěrů a rozhoduje o řešení konkrétního problému na základě dat."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Získá z dat základní informace, interpretuje data z oblastí, se kterými má zkušenosti.",
+        "quote": "Získá z dat základní informace, interpretuje data z oblastí, se kterými má zkušenosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zdravý spánek – moje pohoda pod lupou",
+        "url": "https://uloziste.rvp.cz/material/bef656"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se, co by tvůj závěr mohlo zpochybnit, a pomůže ho přesněji napsat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš podobné případy a zjistíš, jestli k tvému závěru došli i jiní."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor spočítá, co data ukazují, závěr z toho vyvodíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kalkulačka spočítá čísla, ale závěr a jeho spolehlivost posuzuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+      "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

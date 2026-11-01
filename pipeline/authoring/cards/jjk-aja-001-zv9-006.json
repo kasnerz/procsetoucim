@@ -1,0 +1,226 @@
+{
+  "outcome": "JJK-AJA-001-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicky-hledani-informaci-v-textu-o-zajmu",
+      "title": "Hledání informací v anglickém textu o tom, co tě zajímá",
+      "aliases": [
+        "najít informaci v textu",
+        "angličtina sport",
+        "angličtina cestování",
+        "text o koníčku",
+        "čtení anglicky"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Vyhledá klíčové informace v textu o tématu, které ho zajímá."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Vyhledá si informace v textu, který odpovídá jeho úrovni a týká se tématu, které ho zajímá."
+        },
+        {
+          "level": "Splněno",
+          "quote": "samostatně vyhledává informace k zadanému tématu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí neznámá slova a ověří, že jsi v textu našel správnou informaci."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Anglické texty o sportu, hudbě nebo cestování si najdeš a přečteš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač a slovník v mobilu ti ukážou význam slova, které neznáš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník na papíře ti pomůže se slovy, na kterých se zasekneš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2"
+      ],
+      "inspiration": [
+        "Festival v Anglii",
+        "Dobrodružství v 21. století"
+      ]
+    },
+    {
+      "slug": "anglicky-hlavni-myslenky-odborneho-textu",
+      "title": "Hlavní myšlenky jednoduchého odborného textu",
+      "aliases": [
+        "o čem text je",
+        "hlavní myšlenka",
+        "odborný text anglicky",
+        "shrnutí textu",
+        "porozumění textu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozumí hlavním myšlenkám a některým konkrétním informacím v jednoduchých odborných textech z oblasti svého zájmu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co v textu znamenají odborná slova, a zeptá se tě na hlavní myšlenku."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš si výklad odborných slov a texty ze svého oboru."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač ti pomůže s jednotlivými slovy, hlavní myšlenku z odstavce ale nepoznáš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník vysvětlí slova, ale text za tebe nepochopí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+      ],
+      "inspiration": [
+        "Real or Fake? Let´s investigate!"
+      ]
+    },
+    {
+      "slug": "anglicky-porozumeni-odbornemu-textu-vlastnimi-slovy",
+      "title": "Ukázání porozumění textu psaním nebo mluvením",
+      "aliases": [
+        "odpovědi na otázky k textu",
+        "převyprávění textu",
+        "shrnutí vlastními slovy",
+        "porozumění textu",
+        "pravda nebo nepravda"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Písemně nebo ústně prokáže porozumění."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Písemně nebo ústně prokáže porozumění."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Prokáže porozumění obsahu jednoduchého textu, který se vztahuje k jeho potřebám a zájmům"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Položí ti otázky k textu a zkontroluje tvé odpovědi."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové shrnutí textu ti nepomůže, odpovídáš a vysvětluješ ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Překladač text přeloží, porozumění ale musíš ukázat ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník nic nevysvětlí za tebe a odpovědi nenapíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": [
+        "Real or Fake? Let´s investigate!"
+      ]
+    },
+    {
+      "slug": "anglicky-porovnani-informaci-z-ruznych-zdroju",
+      "title": "Porovnání informací z různých anglických zdrojů",
+      "aliases": [
+        "porovnat zdroje",
+        "dva články o stejném tématu",
+        "pravda nebo fake",
+        "ověření informace",
+        "anglické zdroje"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "porovnává získané informace z různých zdrojů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže s obtížnými větami a zeptá se, v čem se zdroje liší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš si více zdrojů ke stejnému tématu a srovnáš je."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Překladač přeloží každý zdroj zvlášť, srovnání děláš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník tě nenaučí rozpoznat, kde se zdroje liší."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2"
+      ],
+      "inspiration": [
+        "Real or Fake? Let´s investigate!"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Rozumí krátkým větám",
+      "code": "O1",
+      "refs": [
+        "cteni-znamych-slov-a-vet"
+      ]
+    }
+  ]
+}

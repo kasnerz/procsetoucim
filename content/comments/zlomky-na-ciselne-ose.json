@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Na číselné ose vidíš, jak velké jsou zlomky vůči sobě i vůči celým číslům: že 5/8 je o kus víc než polovina a −3/2 leží mezi −2 a −1. Kdo umí zlomky na osu umístit, snáz je porovná a výsledek odhadne dřív, než začne počítat. Stejná představa stojí za stupnicí teploměru, svinovacím metrem nebo měřítkem mapy, takže ji potřebují lidé, kteří kreslí mapy, pokládají podlahy nebo sledují počasí. Interaktivní aplikace ti zlomek na osu přetáhne, ale odhad z hlavy ti řekne, jestli kalkulačka neukazuje nesmysl.",
+  "learnWithAi": [
+    {
+      "title": "Seřazení deseti zlomků",
+      "text": "Požádej chatbota o deset zlomků, kladných i záporných, a seřaď je od nejmenšího. Pak je zakresli na osu a nech si pořadí zkontrolovat."
+    },
+    {
+      "title": "Osa rozdělená na třetiny",
+      "text": "Nakresli osu od −2 do 2, rozděl ji na třetiny a vyznač pět zlomků, které ti zadá chatbot. Napiš mu, mezi kterými čísly každý leží, a nech si vysvětlit případnou chybu."
+    },
+    {
+      "title": "Teploměr se zlomky",
+      "text": "Nech si vymyslet úlohy o teplotě, třeba „ráno bylo −1/2 °C a přes den se oteplilo o 3/4 °C“, a každou zakresli na osu teploměru. Výsledek ověř výpočtem a teprve potom si ho nech potvrdit."
+    }
+  ]
+}

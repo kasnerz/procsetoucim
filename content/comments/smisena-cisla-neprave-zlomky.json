@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "V receptu najdeš spíš „jeden a tři čtvrtě hrnku“ než 7/4 hrnku, protože smíšené číslo se lépe čte a představuje. Nepravý zlomek se zase lépe násobí a dělí, takže při počítání se mezi oběma zápisy přechází tam a zpátky. Převod je jednoduché dělení se zbytkem a většina kalkulaček ukáže výsledek desetinně, takže smíšené číslo z něj uděláš ty. Hodí se to hlavně v kuchyních a cukrárnách nebo na stavbě, kde se míry sčítají po kusech; mimo takové obory se se smíšenými čísly potkáš spíš málokdy.",
+  "learnWithAi": [
+    {
+      "title": "Převody na rozcvičku",
+      "text": "Požádej chatbota o deset nepravých zlomků a deset smíšených čísel na převod. Převeď je na papíře a nech si je zkontrolovat, u chyb se ptej, kde se dělení se zbytkem pokazilo."
+    },
+    {
+      "title": "Pizzy nakrájené na osminy",
+      "text": "Nech si převod vysvětlit na pizzách nakrájených na osminy, třeba u zlomku 19/8. Nakresli si to a postup pak popiš vlastními slovy."
+    },
+    {
+      "title": "Dvojnásobný recept",
+      "text": "Vezmi recept s mírami ve smíšených číslech a zdvojnásob ho. Počítej přes nepravé zlomky, výsledek převeď zpátky a postup nech chatbota zkontrolovat."
+    }
+  ]
+}

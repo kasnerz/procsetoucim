@@ -1,0 +1,440 @@
+{
+  "outcome": "CSP-OSV-002-ZV9-006",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "spolecne-znaky-a-odlisnosti-ve-vztazich",
+      "title": "Společné znaky a odlišnosti mezi mnou a druhými",
+      "aliases": [
+        "čím se lišíme",
+        "co máme společné",
+        "porovnání s kamarádem",
+        "moje vlastnosti a zájmy",
+        "jsme různí"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vnímá společné znaky a odlišnosti sebe a druhých ve svém blízkém okolí, zkouší je popsat a diskutovat ve skupině (například co oceňuje na sobě a na druhých)"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "popíše společné znaky a odlišnosti sebe a vybraných osob ve svém blízkém okolí – například srovnání vlastností, dovedností, zájmů, hodnot, chování apod."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje společné znaky a odlišnosti sebe a druhých ve svém okolí pro rozvíjení různých forem vztahů."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozpoznává různé formy mezilidských vztahů, společné znaky a odlišnosti u sebe a druhých."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti dá otázky na srovnání vlastností, zájmů a hodnot, odpovědi ale vymýšlíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam osobnostních vlastností a hodnot ti pomůže najít slova pro to, co u sebe vidíš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tě neznají, srovnání sebe a známých osob udělat nemůže."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka stačí na tabulku, kde vedle sebe napíšeš sebe a kamaráda."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": [
+        "Můj svět vztahů"
+      ]
+    },
+    {
+      "slug": "prinos-jedinecnosti-pro-skupinu",
+      "title": "Čím přispívá jedinečnost každého skupině",
+      "aliases": [
+        "každý je jiný",
+        "výhoda různorodosti",
+        "přínos pro třídu",
+        "co umím já a co ostatní",
+        "tým různých lidí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "uvědomuje si přínos jedinečnosti sebe a druhých pro skupinu (školní třídu, neformální skupinu, rodinu a širší komunitu), sebereflexí a zkušenostmi prostřednictvím modelových situací"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje přínos jedinečnosti sebe a druhých pro skupinu (školní třídu, neformální skupinu, rodinu, širší komunitu aj.) v různorodých situacích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vymyslí modelové situace třídy nebo rodiny, na kterých si rozebereš, kdo co do skupiny přináší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady z knih a článků ukazují, jak různorodé skupiny fungují."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe přínos jedinečnosti nezhodnotí, situace ve skupině posuzuješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nic z klasických nástrojů tohle neumí, přínos druhých vidíš jen ve skupině."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7"
+      ],
+      "inspiration": [
+        "Náš podink"
+      ]
+    },
+    {
+      "slug": "vyhody-a-rizika-odlisnosti-ve-vztazich",
+      "title": "Výhody a rizika odlišností ve vztazích",
+      "aliases": [
+        "odlišnosti ve vztazích",
+        "spor kvůli rozdílům",
+        "rodina a kamarádi jsou jiní",
+        "partnerské vztahy",
+        "modelová situace"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "v modelových situacích popíše výhody a případná rizika odlišností pro utváření vztahů s druhými (např. vztahy se spolužáky, rodinné, přátelské a partnerské vztahy aj.)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot popíše modelové situace mezi spolužáky nebo kamarády a ptá se, co odlišnost přinese a co zkomplikuje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a poradny o vztazích ukazují, jak odlišnosti pomáhají i vadí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace vztah mezi lidmi nevidí, výhody a rizika posuzuješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj vztahy neposoudí, pomůže jen rozhovor s lidmi kolem tebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ]
+    },
+    {
+      "slug": "co-o-druhem-vim-a-co-si-myslim",
+      "title": "Co o druhém vím a co si jen myslím",
+      "aliases": [
+        "vím nebo si myslím",
+        "domněnky o lidech",
+        "fakta a dojmy",
+        "znám ho opravdu",
+        "hádání cizích myšlenek"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "v modelových situacích rozpozná a popíše rozdíl mezi tím, co o druhé osobě ví a co se o ní domnívá"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti dá modelové situace a ty v nich oddělíš, co je jisté a co jen odhad."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové informace ti neřeknou, co víš o konkrétním člověku ve své třídě."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nevidí do tvého vztahu, rozlišovat vědění a domněnky musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír se dvěma sloupci, vím a myslím si, ti pomůže věci roztřídit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf",
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ]
+    },
+    {
+      "slug": "chyby-ve-vnimani-druhych",
+      "title": "Chyby ve vnímání druhých a jak jim předcházet",
+      "aliases": [
+        "první dojem",
+        "špatný odhad lidí",
+        "předsudky o druhých",
+        "komunikační šum",
+        "jak se nemýlit v lidech"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "v modelových situacích rozpozná a charakterizuje možné chyby ve vnímání druhých a navrhuje strategie, jak jim předcházet"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná a charakterizuje možné chyby ve vnímání druhých a uplatňuje strategie, jak jim předcházet."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vymyslí situace s typickými omyly ve vnímání lidí a pomůže ti navrhnout, jak jim předejít."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o předsudcích a prvním dojmu vysvětlí, jak omyly vznikají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe chyby v tvém vnímání druhých nenajde."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj nepomůže, chyby si všímáš při setkání s lidmi ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ca953f7-541d-4f67-bc55-7721348366cf",
+        "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+      ],
+      "inspiration": [
+        "Komunikační šum"
+      ]
+    },
+    {
+      "slug": "formy-mezilidskych-vztahu",
+      "title": "Různé formy mezilidských vztahů",
+      "aliases": [
+        "přátelství",
+        "rodinné vztahy",
+        "partnerské vztahy",
+        "vztahy v komunitě",
+        "jak se chovám ke komu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "zkouší si v modelových situacích jak jedná v různých formách mezilidských vztahů (přátelské, partnerské, rodinné vztahy, vztahy v širší komunitě, aj.)"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozpoznává různé formy mezilidských vztahů, společné znaky a odlišnosti u sebe a druhých."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti zahraje modelové situace, třeba rozhovor s kamarádem nebo s babičkou, a ty si zkusíš jednat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty a příklady ukazují, v čem se přátelské, rodinné a partnerské vztahy liší."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvé vztahy neznají, jednání v nich nevyzkoušíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Se skutečnými lidmi se potkáváš ty, žádný nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ],
+      "inspiration": [
+        "Můj svět vztahů",
+        "Dobré přátelské vztahy"
+      ]
+    },
+    {
+      "slug": "moje-dovednosti-ve-vztazich",
+      "title": "Moje dovednosti vytvářet a udržovat vztahy",
+      "aliases": [
+        "jak jsem na tom s kamarády",
+        "co umím ve vztazích",
+        "zlepšit vztah",
+        "sebehodnocení",
+        "navazování přátelství"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zkouší posoudit své dovedností vytvářet a udržovat různé formy mezilidských vztahů, a navrhout, jak může přispět k rozvoji a kvalitě vztahů s druhými"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje své dovednosti vytvářet a udržovat různé formy mezilidských vztahů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti klade otázky k tvému chování ve vztazích a pomůže vymyslet, co zkusit jinak."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Dotazníky a texty o přátelství dávají hotová kritéria, podle kterých se posoudíš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nevidí tvé chování mezi lidmi, hodnotit se musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Deník nebo sešit ti pomůže zapsat si, co se ti ve vztazích daří a co ne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7"
+      ]
+    },
+    {
+      "slug": "potreby-v-blizkych-vztazich",
+      "title": "Potřeby naplňované v blízkých vztazích",
+      "aliases": [
+        "co potřebuju od kamaráda",
+        "blízký člověk",
+        "potřeba být přijat",
+        "rodina a přátelé",
+        "k čemu mi jsou vztahy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "diskutuje potřeby naplňované v blízkých vztazích s druhými"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot pomůže pojmenovat potřeby jako jistota, pochopení nebo zábava a vymyslet otázky do diskuse."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty o lidských potřebách ti dají slova, kterými popíšeš, co vztahy přinášejí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe diskusi nevede, potřeby ve svých vztazích znáš jen ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj tu nepomůže, diskutuješ s lidmi kolem sebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc"
+      ]
+    },
+    {
+      "slug": "pece-o-blizke-vztahy",
+      "title": "Péče o blízké vztahy",
+      "aliases": [
+        "udržet přátelství",
+        "jak pečovat o vztah",
+        "význam vztahů",
+        "rodina a přátelé",
+        "partnerské vztahy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvědomuje si potřebu péče o blízké vztahy s druhými (přátelské, partnerské, rodinné aj.) a reflektuje význam těchto vztahů pro sebe a druhé."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Chatbot se o tvé vztahy nepostará, pozornost k blízkým lidem projevuješ ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články o péči o přátelské a rodinné vztahy dají nápady, co pro vztahy dělat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe vztah nezachrání, i zpráva kamarádovi je tvoje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Čas s blízkými lidmi nahradit nelze, žádný nástroj to neumí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7"
+      ]
+    }
+  ],
+  "aside": []
+}

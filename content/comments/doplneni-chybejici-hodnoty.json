@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Doplnit chybějící číslo je první krok k rovnicím, jen místo písmene x tu stojí prázdné okénko. Hodí se to i mimo školu, když zjišťuješ, kolik ještě potřebuješ našetřit na kolo nebo kolik lidí se ještě vejde do auta. U nerovnosti se navíc učíš, že správných odpovědí může být víc, a to se v matematice ještě mnohokrát vrátí. S doplňováním počítají lidé, kteří plánují výrobu nebo rozpočet stavby, vždycky když zjišťují, kolik ještě chybí do cíle. Chatbot nebo kalkulačka ti doplněné číslo zkontrolují, ale přijít na to, které číslo tam patří, se naučíš jen vlastním zkoušením.",
+  "learnWithAi": [
+    {
+      "title": "Příklady s prázdným okénkem",
+      "text": "Požádejte spolu chatbota o deset příkladů s okénkem, třeba 8 + ☐ = 15. Doplň čísla na papír a výsledky mu pak ukažte ke kontrole."
+    },
+    {
+      "title": "Všechna čísla, která sedí",
+      "text": "U nerovnosti jako 3 + ☐ < 7 vypiš s rodičem všechna čísla, která do okénka patří. Chatbot vám pak řekne, jestli nějaké chybí nebo přebývá."
+    },
+    {
+      "title": "Hádání skrytého čísla",
+      "text": "Hrajte s chatbotem hru, ve které si myslí číslo a dává nápovědy typu „s pětkou dá dohromady dvanáct“. Hádáš ty a rodič hlídá, jestli nápovědy dávají smysl."
+    }
+  ]
+}

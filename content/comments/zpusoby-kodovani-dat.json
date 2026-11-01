@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Všechno, co v počítači vidíš a slyšíš, je uložené jako čísla: písmena mají svá čísla, obrázek je mřížka barevných bodů a zvuk je dlouhá řada měření za sebou. Když to pochopíš, dává smysl, proč se fotka při velkém zvětšení rozpadne na čtverečky nebo proč se v e-mailu místo háčků občas objeví divné znaky. Kdo bude programovat, pracovat s daty nebo spravovat záznamy v nemocnici, staví na tom všechno další. Ostatním stačí základ, aby věděli, co se v telefonu děje, když fotí nebo posílají zprávu.",
+  "learnWithAi": [
+    {
+      "title": "Obrázek z mřížky čísel",
+      "text": "Nech chatbota zapsat malý obrázek jako mřížku nul a jedniček, kde jednička znamená černý čtvereček. Vybarvi ho na čtverečkovaném papíře a porovnej s tím, co měl obrázek ukazovat."
+    },
+    {
+      "title": "Jméno převedené na čísla",
+      "text": "Převeď své jméno na čísla podle tabulky ASCII, kterou najdeš na internetu. Chatbot ať tvůj zápis zkontroluje a vysvětlí, proč písmena s háčky potřebují jiné kódování."
+    },
+    {
+      "title": "Vzorkování zvuku vlastními slovy",
+      "text": "Požádej chatbota o jednoduché vysvětlení, jak se zvuk mění na čísla. Potom mu ho vrať vlastními slovy, klidně s nákresem, a nech si ukázat, kde se pleteš."
+    }
+  ]
+}

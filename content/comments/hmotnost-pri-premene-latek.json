@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Zákon zachování hmotnosti zní jednoduše, jenže v pokusu se často zdá, že neplatí: svíčka hořením ubývá a sklenice se šumivou tabletou je po chvíli lehčí. Když stejnou reakci uděláš v uzavřené nádobě a zvážíš ji před a po, váha ukáže totéž a pochopíš, že plyn nezmizel, jen unikl do vzduchu. Z toho vychází každý výpočet v chemii, protože kdo navrhuje výrobu v továrně, musí vědět, kolik látky do reakce vstoupí a kolik z ní vyjde. Chatbot ti zákon vysvětlí, přesvědčí tě ale až vlastní vážení.",
+  "learnWithAi": [
+    {
+      "title": "Odhad před vážením",
+      "text": "Popros chatbota o několik přeměn, třeba tání ledu, rozpouštění cukru nebo hoření papíru, a u každé odhadni, jestli se hmotnost změní. Vysvětlení si nech dát jen tam, kde tvůj odhad nesedí."
+    },
+    {
+      "title": "Spolužák, který tomu nevěří",
+      "text": "Nech chatbota hrát spolužáka, který tvrdí, že hořením látka mizí. Přesvědč ho argumenty a návrhem pokusu, který by to ukázal na vahách."
+    },
+    {
+      "title": "Rozdíl na vahách",
+      "text": "Zadej chatbotu hodnoty z vážení před reakcí a po ní a nech se doptávat, čím vysvětluješ rozdíl. Když bude rozdíly počítat, přepočítej si je."
+    }
+  ]
+}

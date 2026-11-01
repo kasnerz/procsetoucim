@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Multimetr je první přístroj, po kterém sáhne každý, kdo opravuje elektroniku nebo zkouší, jestli je baterie ještě dobrá. Učíš se ho přepnout na správnou veličinu a zapojit: napětí se měří vedle součástky, proud v obvodu za ní. Spletené zapojení může přístroj poškodit, proto je dobré to mít v rukou dřív, než budeš měřit něco silnějšího než baterii. Při testování desek s plošnými spoji nebo při kalibraci přístrojů se takhle měří celé dny. Jestli číslo na displeji dává smysl, ale posoudíš jen ty, protože víš, co a jak měříš.",
+  "learnWithAi": [
+    {
+      "title": "Kvíz z nastavení přístroje",
+      "text": "Nech se chatbotem zkoušet, kam otočit přepínač a kam zapojit hroty, když chceš změřit napětí baterie nebo proud v obvodu. Odpovídej bez nápovědy."
+    },
+    {
+      "title": "Odhad před měřením",
+      "text": "Před měřením napiš chatbotu, jakou hodnotu čekáš, třeba u nové a staré baterie. Po měření mu dej skutečná čísla a nech se doptávat, proč se liší."
+    },
+    {
+      "title": "Podivné hodnoty na displeji",
+      "text": "Požádej chatbota o pár situací, kdy multimetr ukazuje nesmysl, třeba nulu nebo blikající jedničku. Zkus přijít na to, co je špatně nastavené, a ověř si to v návodu k vašemu přístroji."
+    }
+  ]
+}

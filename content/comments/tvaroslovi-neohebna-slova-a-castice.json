@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Předložky, spojky, příslovce, částice a citoslovce se neohýbají, a přesto se v nich chybuje: plete se „s“ a „z“ a před některými spojkami chybí čárka. Kdo spojky pozná, snáz píše čárky, protože čárka stojí často právě před nimi. Částice jako „ať“, „kéž“ nebo „copak“ zase mění tón věty a z obyčejného sdělení udělají přání nebo pochybnost. Kontrola pravopisu některé chyby podtrhne, ale o tom, jestli napsat „s“, nebo „z“, rozhoduje smysl věty. Nejvíc se to hodí lidem, kteří píšou a opravují texty pro druhé.",
+  "learnWithAi": [
+    {
+      "title": "Předložky s a z",
+      "text": "Požádej chatbota o dvacet vět s vynechanou předložkou „s“ nebo „z“, třeba „jablko spadlo _ stromu“. Doplň je a chyby si nech vysvětlit."
+    },
+    {
+      "title": "Čárky před spojkami",
+      "text": "Nech si dát odstavec bez čárek, najdi v něm všechny spojky a rozhodni, kam čárka patří. Chatbot ti potom ukáže, kde je chyba a proč."
+    },
+    {
+      "title": "Jedna věta s pěti částicemi",
+      "text": "Napiš obyčejnou větu a přepiš ji pětkrát s různými částicemi, třeba „ať“, „kéž“, „vždyť“, „copak“ a „snad“. Odhadni, jak se mění význam, a teprve pak se zeptej chatbota."
+    }
+  ]
+}

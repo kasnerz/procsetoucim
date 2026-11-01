@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Zkrátit zlomek znamená napsat stejné číslo jednodušeji: 12/16 a 3/4 jsou totéž, jen druhý zápis se lépe čte, porovnává a počítá. Rozšiřování potřebuješ, když sčítáš zlomky s různými jmenovateli, takže bez něj se v dalších příkladech se zlomky nepohneš. Kalkulačka se zlomky ti základní tvar ukáže, ale poznat, že 6/8 a 9/12 jsou stejně velké kusy, se hodí i v kuchyni, když zmenšuješ recept, nebo v dílně při měření. Počítají tak lidé v kuchyních a cukrárnách, ti, kdo staví krovy, i učitelé matematiky.",
+  "learnWithAi": [
+    {
+      "title": "Dvojice stejných zlomků",
+      "text": "Požádej chatbota o dvacet zamíchaných zlomků, z nichž některé mají stejnou hodnotu. Najdi dvojice, krácením ukaž, proč patří k sobě, a nech si to zkontrolovat."
+    },
+    {
+      "title": "Krácení krok za krokem",
+      "text": "Zkrať zlomek s velkými čísly, třeba 84/126, a každý krok si zapiš. Chatbot ať zkontroluje, jestli je výsledek v základním tvaru, a hodnotu si ověř i na kalkulačce."
+    },
+    {
+      "title": "Výklad pro čtvrťáka",
+      "text": "Nech chatbota hrát žáka ze čtvrté třídy, který nechápe, proč se zlomek krácením nezmění. Vysvětli mu to obrázkem i čísly a odpovídej na jeho otázky."
+    }
+  ]
+}

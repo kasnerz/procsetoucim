@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Slovní druhy jsou základ, na kterém stojí skoro celá mluvnice: dokud nepoznáš sloveso od podstatného jména, těžko určíš pád, vid nebo větný člen. V souvislém textu je to těžší než v seznamu slov, protože stejné slovo může být jednou podstatné jméno („krásný večer“) a jindy příslovce („přijdu večer“). Hodí se to i u cizích jazyků, kde slovník u každého slova uvádí, jaký je to slovní druh. Chatbot ti text rozebere rychle, u takových dvojznačných slov se ale občas splete a poznáš to, jen když víš, jak se na slovo zeptat.",
+  "learnWithAi": [
+    {
+      "title": "Slova s dvojí rolí",
+      "text": "Požádej chatbota o věty, ve kterých je stejné slovo jednou podstatné jméno a jindy příslovce nebo předložka, třeba „večer“ nebo „kolem“. Urči druh v každé větě a nech si to zkontrolovat."
+    },
+    {
+      "title": "Rozbor jedné sloky",
+      "text": "Vezmi text oblíbené písničky a urči slovní druhy v jedné sloce. Chatbot ti rozbor zkontroluje, u sporných slov se ptej, jak se to pozná z věty."
+    },
+    {
+      "title": "Schválně pokažený rozbor",
+      "text": "Nech chatbota rozebrat krátký odstavec a schválně v rozboru udělat tři chyby, aniž by řekl kde. Najdi je a vysvětli, proč je to špatně."
+    }
+  ]
+}

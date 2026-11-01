@@ -1,0 +1,281 @@
+[
+  {
+    "slug": "zivot-drive-a-dnes-rozdily",
+    "title": "Jak lidé žili dříve a jak žijí dnes",
+    "aliases": [
+      "dříve a dnes",
+      "život v minulosti",
+      "rozdíly mezi minulostí a současností",
+      "vynálezy",
+      "doprava dříve"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše, jak lidé žili dříve a jak žijí dnes.",
+        "quote": "Popíše, jak lidé žili dříve a jak žijí dnes."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Identifikuje rozdíly mezi minulostí a současností (vybavení budov, dopravní prostředky, objevy a vynálezy atd.) s využitím názorných příkladů.",
+        "quote": "Identifikuje rozdíly mezi minulostí a současností (vybavení budov, dopravní prostředky, objevy a vynálezy atd.) s využitím názorných příkladů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pomocníci v domácnosti",
+        "url": ""
+      },
+      {
+        "title": "Můj den v minulosti",
+        "url": "https://uloziste.rvp.cz/material/83a8fe"
+      },
+      {
+        "title": "Jak si děti dříve hrály",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se dřív žilo, a ty si pak rozdíly popíšeš po svém."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš staré fotografie, popisy domácností a příběhy vynálezů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádný jednoúčelový program ti rozdíly mezi dobami nenajde."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Rodinné album a staré předměty z domu ukážou, jak se žilo dřív."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "co-se-zmenilo-a-co-zustava",
+    "title": "Co se změnilo a co zůstává stejné",
+    "aliases": [
+      "změny v čase",
+      "co zůstalo stejné",
+      "srovnání minulosti a dneška",
+      "proměny života"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porovná, co se změnilo a co zůstává stejné.",
+        "quote": "Porovná, co se změnilo a co zůstává stejné."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Simulace práce na poli dnes a dříve",
+        "url": "https://uloziste.rvp.cz/material/8558b9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere s tebou příklady a zeptá se, co se opravdu změnilo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotografie a popisy z různých dob si můžeš vedle sebe porovnat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Srovnání dob v jednoúčelové aplikaci nenajdeš, porovnáváš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Starý a nový předmět vedle sebe ukážou rozdíl i shodu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "promena-krajiny-na-historicke-mape",
+    "title": "Proměna krajiny a sídel na historické mapě",
+    "aliases": [
+      "stará mapa",
+      "historická mapa",
+      "jak se změnila krajina",
+      "mapa regionu",
+      "dřívější podoba obce"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Ukáže na příkladech proměnu krajiny a sídel na historické mapě regionu a státu.",
+        "quote": "Ukáže na příkladech proměnu krajiny a sídel na historické mapě regionu a státu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Místo, kde žijeme ve 20. století",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Starou mapu nevidí, změny v krajině na ní hledáš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Archivy starých map si můžeš prohlédnout a porovnat s dnešními."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapová aplikace ukáže dnešní podobu, se kterou starou mapu srovnáš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa a atlas ukážou, kde stála sídla a jak vypadala krajina."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3172f001-a4dd-4e7e-9f74-9707b2e7c6e1",
+      "http://data.europa.eu/esco/skill/2dfa5bd5-c87c-461c-bce9-69b2c58732bd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "duveryhodnost-informaci-o-udalosti",
+    "title": "Důvěryhodnost informací o historické události",
+    "aliases": [
+      "je to pravda",
+      "ověřování informací",
+      "spolehlivý zdroj",
+      "historická událost",
+      "kdo to napsal"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Posoudí důvěryhodnost informací ve zpracování historické události.",
+        "quote": "Posoudí důvěryhodnost informací ve zpracování historické události."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, na co se u zdroje ptát, ale jeho odpověď si musíš ověřit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Více zdrojů k jedné události si můžeš porovnat a hledat shody."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádný program za tebe neposoudí, komu se dá věřit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a učebnice jsou ověřený zdroj, se kterým text srovnáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "orientace-v-case-minulost-pritomnost-budoucnost",
+    "title": "Minulost, současnost a budoucnost",
+    "aliases": [
+      "časová osa",
+      "dříve a později",
+      "co bylo, je a bude",
+      "řazení událostí"
+    ],
+    "outcome": "CJS-CJS-003-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Orientuje se v čase (minulost, současnost a budoucnost).",
+        "quote": "Orientuje se v čase (minulost, současnost a budoucnost)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadá ti příklady a ty je zařadíš na minulost, současnost a budoucnost."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové časové osy ukazují, co se stalo dřív a co později."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalendář a aplikace s časovou osou ti pomůžou události seřadit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový kalendář a hodiny ti ukážou včera, dnes a zítra."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

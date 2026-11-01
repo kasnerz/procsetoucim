@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když výpočet se zlomky zdůvodníš obrázkem, třeba koláčem nebo proužkem papíru, ukážeš tím, proč postup vůbec funguje. Pravidla jako „najdi společného jmenovatele“ se dají naučit nazpaměť a pak snadno zapomenout nebo poplést, kdežto model si dokážeš kdykoli znovu nakreslit. Kdo umí výpočet vysvětlit na obrázku, pozná taky, kdy aplikace nebo chatbot ukazují nesmysl. Nejvíc se to hodí lidem, kteří druhým něco vysvětlují, ať je to učitel matematiky, nebo zkušený člověk v dílně, který zaučuje nováčka.",
+  "learnWithAi": [
+    {
+      "title": "Model ke každému příkladu",
+      "text": "Požádej chatbota o tři příklady se zlomky, vyřeš je a ke každému nakresli model. Popiš mu obrázek slovy a nech si říct, jestli opravdu vysvětluje výsledek."
+    },
+    {
+      "title": "Žák, který se ptá proč",
+      "text": "Nech chatbota hrát žáka, který se pořád ptá „a proč?“, a vysvětluj mu sčítání zlomků jen pomocí obrázků. Když nevíš, jak dál, vrať se ke kreslení."
+    },
+    {
+      "title": "Proužek proti číselné ose",
+      "text": "Vyřeš jeden příklad na dělení zlomků dvěma modely, proužkem a číselnou osou. Pak se chatbota zeptej na další model a porovnej, který je pro tebe nejjasnější."
+    }
+  ]
+}

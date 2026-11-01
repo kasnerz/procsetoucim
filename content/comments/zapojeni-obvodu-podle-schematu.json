@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Schéma je společný jazyk, ve kterém se kreslí každý elektrický obvod, od kapesní svítilny po elektroinstalaci v domě. Podle schémat pracuje každý, kdo dělá rozvody v bytech nebo montuje ovládací panely, a bez nich by se v drátech nikdo nevyznal. Ve škole začínáš s baterií a žárovkou, ale učíš se na nich to hlavní: proud teče jen uzavřenou smyčkou a vypínač ji přerušuje. Simulátor ti ukáže, jestli žárovka bude svítit. Dráty ale spojuješ rukama ty a chybu najdeš jen tehdy, když umíš skutečný obvod porovnat se schématem.",
+  "learnWithAi": [
+    {
+      "title": "Schéma podle popisu",
+      "text": "Požádej chatbota, ať ti slovy popíše jednoduchý obvod, třeba baterii, dvě žárovky a vypínač. Nakresli k němu schéma se správnými značkami a nech si ho zkontrolovat."
+    },
+    {
+      "title": "Žárovky za sebou a vedle sebe",
+      "text": "Nech si vysvětlit rozdíl mezi zapojením dvou žárovek za sebou a vedle sebe a nakresli obě schémata. Obě pak zapoj a zjisti, co se stane, když jednu žárovku vyšroubuješ."
+    },
+    {
+      "title": "Hledání chyby v zapojení",
+      "text": "Popiš chatbotu, jak máš obvod zapojený a co nefunguje, třeba že svítí jen jedna žárovka. Nech ho klást otázky, dokud příčinu nenajdeš, a odpověď ať neprozrazuje."
+    }
+  ]
+}

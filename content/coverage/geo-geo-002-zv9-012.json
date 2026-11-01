@@ -1,0 +1,71 @@
+{
+  "outcome": "GEO-GEO-002-ZV9-012",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Uvedene základní možné příčiny válek",
+      "cards": [
+        "geo-priciny-valek"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na mapě lokalizuje oblasti aktuálních ohnisek napětí a konfliktů",
+      "cards": [
+        "geo-ohniska-napeti-na-mape"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na konkrétních příkladech různých konfliktů uvádí hlavní příčiny konfliktů (např. nedostatečný přístup k vodě, ke zdrojům klíčových surovin, dezertifikace území, nedemokratické státní zřízení, etnické a náboženské rozdíly) a snahy o jejich mírová řešení",
+      "cards": [
+        "geo-priciny-valek",
+        "geo-mirove-reseni-konfliktu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "na konkrétních příkladech různých konfliktů uvádí jejich krátkodobé a dlouhodobé důsledky v místě konfliktu, v Česku i ve světě (na život obyvatel, politiku, hospodářství a přírodu)",
+      "cards": [
+        "geo-dusledky-konfliktu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě mediálních zpráv za určité období vytvoří tematickou mapu aktuálních ohnisek napětí/konfliktů ve světě.",
+      "cards": [
+        "geo-tematicka-mapa-konfliktu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě znalostí příčin konfliktů vytvoří jednoduchou typologii konfliktů, jednotlivé typy dokládá konkrétními příklady z minulosti i současnosti, které lokalizuje na mapě.",
+      "cards": [
+        "geo-typologie-konfliktu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše a analyzuje vybraný konflikt na základě předem stanovených kritérií (např. příčiny, důsledky, prostorový aspekt, jak byl konflikt ukončen).",
+      "cards": [
+        "geo-rozbor-konfliktu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Diskutuje o minulých i současných příkladech mírového úsilí ve světě.",
+      "cards": [
+        "geo-mirove-reseni-konfliktu"
+      ],
+      "aside": null
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-003",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tvaroslovi-tvary-podle-kategorii",
+      "title": "Tvary slov podle mluvnických kategorií",
+      "aliases": [
+        "skloňování",
+        "časování",
+        "pády",
+        "ohýbání slov",
+        "tvary slov"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Utvoří tvary slov podle zadaných tvaroslovných kategorií."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "spisovné tvary slov tvoří v souladu s jazykovou normou"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se slovo ohýbá, a dá ti slova na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka ukáže vzor a správné tvary slova."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na procvičování gramatiky ti hned řekne, jestli je tvar správně."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír tvary slov nezkontrolují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f",
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov - mluvnické kategorie sloves, neohebné slovní druhy"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-zajmena-a-cislovky",
+      "title": "Tvary zájmen a číslovek",
+      "aliases": [
+        "zájmena",
+        "číslovky",
+        "skloňování zájmen",
+        "dvěma, dvěmi",
+        "mě, mne"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "tvoří tvary méně obtížných zájmen a číslovek"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kdy se píše mě a mně, a vymyslí ti věty na cvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka ukáže tvary zájmen a číslovek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na gramatiku opraví chybný tvar."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír tvary nezkontrolují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f",
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-urceni-padu-cisla-vzoru-rodu",
+      "title": "Pád, číslo, rod a vzor podstatných jmen",
+      "aliases": [
+        "určování pádů",
+        "vzory podstatných jmen",
+        "pán, hrad, žena, růže",
+        "rod podstatných jmen",
+        "skloňování"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "určí pád, číslo, vzor a rod podstatných jmen"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak poznat pád a vzor, a zkontroluje tvé určení slova."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Tabulky vzorů a pádů najdeš v příručce."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Cvičení z českého jazyka ti hned ukáže, kde je tvé určení špatně."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka ani sešit tvé určení nezkontrolují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov, stavba slova, jmenné kategorie"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-druh-a-vzor-pridavnych-jmen",
+      "title": "Druh a vzor přídavných jmen",
+      "aliases": [
+        "přídavná jména",
+        "vzor mladý a jarní",
+        "tvrdá a měkká přídavná jména",
+        "přivlastňovací přídavná jména",
+        "skloňování přídavných jmen"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "určí druh a vzor přídavných jmen;"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí druhy přídavných jmen a ověří, jestli je vzor vybraný dobře."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka ukáže vzory a druhy přídavných jmen."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na procvičování gramatiky ti ukáže, kde je v určení chyba."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír tvé určení nezkontrolují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-slovni-druhy-v-textu",
+      "title": "Slovní druhy v souvislém textu",
+      "aliases": [
+        "určování slovních druhů",
+        "slovní druhy v textu",
+        "rozbor textu",
+        "slovní druh"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "určuje slovní druhy v souvislém textu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže na příkladu, jak slovní druh poznat podle věty, a opraví tvůj rozbor."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka vysvětlí, jak slovní druhy rozlišit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Online cvičení pozná chybně určený slovní druh a ukáže správný."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír tvé určení nezkontrolují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f",
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov - mluvnické kategorie sloves, neohebné slovní druhy"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-kategorie-sloves",
+      "title": "Osoba, číslo, způsob a čas slovesa",
+      "aliases": [
+        "časování sloves",
+        "slovesná osoba",
+        "způsob slovesa",
+        "čas slovesa",
+        "oznamovací, rozkazovací, podmiňovací"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "určí mluvnické kategorie slovesa – osobu, číslo, způsob, čas"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak kategorie slovesa poznat, a zkontroluje tvůj rozbor."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka ukáže časování sloves i jejich kategorie."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na procvičování gramatiky ti ukáže, kde je v určení chyba."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír tvé určení nezkontrolují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov - mluvnické kategorie sloves, neohebné slovní druhy"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-slozene-tvary-rod-a-vid-slovesa",
+      "title": "Složené tvary, rod a vid slovesa",
+      "aliases": [
+        "slovesný rod",
+        "vid slovesa",
+        "trpný rod",
+        "dokonavé a nedokonavé sloveso",
+        "složené tvary sloves"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje jednoduché a složené tvary slovesa"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "určuje slovesný rod a vid"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí činný a trpný rod nebo vid na příkladech a ověří tvé určení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka vysvětlí rod a vid a ukáže příklady."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na gramatiku opraví chybné určení."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír tvé určení nezkontrolují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov - mluvnické kategorie sloves, neohebné slovní druhy"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-neohebna-slova-a-castice",
+      "title": "Neohebná slova včetně částic",
+      "aliases": [
+        "předložky",
+        "spojky",
+        "částice",
+        "příslovce",
+        "citoslovce",
+        "neohebné slovní druhy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Správně užívá všechna neohebná slova včetně částic."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozpoznává a charakterizuje neohebné slovní druhy (s výjimkou částic);"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi příslovcem, částicí a spojkou a ověří tvůj výběr."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka ukáže, jak se jednotlivé druhy neohebných slov používají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na gramatiku ti ukáže špatně určené slovo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka a papír slova nezkontrolují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f",
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov - mluvnické kategorie sloves, neohebné slovní druhy"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-prejata-slova",
+      "title": "Slova přejatá a jejich tvary",
+      "aliases": [
+        "přejatá slova",
+        "cizí slova",
+        "skloňování cizích slov",
+        "tvary přejatých slov",
+        "slova z cizího jazyka"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Správně užívá slova přejatá a jejich tvary."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se přejaté slovo skloňuje, a dá ti věty k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka a slovník cizích slov ukážou význam i správné tvary."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na gramatiku ukáže správný tvar přejatého slova."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník cizích slov v knize ukáže význam a tvary přejatého slova."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-spisovne-a-nespisovne-tvary",
+      "title": "Spisovné a nespisovné tvary slov",
+      "aliases": [
+        "spisovná čeština",
+        "obecná čeština",
+        "slang",
+        "hovorová čeština",
+        "spisovné a nespisovné"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozlišuje v mluveném i psaném projevu spisovné a nespisovné tvary slov"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl mezi spisovným, hovorovým a obecným tvarem a dá příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka řekne, jestli je tvar spisovný."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s kontrolou pravopisu podtrhne mnohé nespisovné tvary."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravidla českého pravopisu v knize ukážou spisovné tvary."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+        "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-oprava-nevhodnych-tvaru",
+      "title": "Oprava nevhodných tvarů v textu",
+      "aliases": [
+        "oprava textu",
+        "nespisovné tvary",
+        "úřední dopis",
+        "spisovně místo obecně",
+        "korektura"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyhledá v textu tvary slov užité nevhodně a nahradí je vhodnými"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Najde ve tvém textu nevhodné tvary a vysvětlí, proč se k situaci nehodí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručka ukáže správný tvar, když tvar neznáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu označí řadu nespisovných tvarů."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tužka najde chybu až ve chvíli, kdy ji najdeš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+        "http://data.europa.eu/esco/skill/637ca2e2-0624-48b1-be6e-9ff4580344ac"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov"
+      ]
+    },
+    {
+      "slug": "tvaroslovi-vyber-vhodneho-vyjadreni",
+      "title": "Volba vyjádření podle situace",
+      "aliases": [
+        "formální a neformální",
+        "spisovně nebo obecně",
+        "komunikační situace",
+        "jak mluvit s úřady",
+        "jak psát kamarádovi"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Užívá vhodné slovní tvary vzhledem ke komunikační situaci."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Pro danou komunikační situaci navrhne vhodný způsob vyjádření"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Při vlastní komunikaci vhodně užívá slovní tvary v souladu se svým komunikačním záměrem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jak napsat úřadu a jak kamarádovi, a ukáže rozdíl v tvarech."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručky stylu ukážou ukázky formálních a neformálních textů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nevědí, komu píšeš a co chceš říct."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Komu a jak mluvíš, rozhoduješ ty, ne pravítko ani slovník."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/aa56a80c-b4d5-495c-9c15-70b5a7933911",
+        "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f"
+      ],
+      "inspiration": [
+        "Spisovné a nespisovné tvary slov"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "zaznamená stavbu slova",
+      "code": "O1",
+      "refs": [
+        "slovni-zasoba-stavba-slova-pribuzna-slova"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "rozpozná podstatná jména",
+      "code": "O1",
+      "refs": [
+        "slovni-druhy"
+      ]
+    }
+  ]
+}

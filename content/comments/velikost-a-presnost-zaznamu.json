@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Každý záznam je kompromis: fotka ve vysokém rozlišení je ostrá, ale zabere hodně místa, a teploměr, který měří každou sekundu, zaplní paměť čísly, která nikdo nepotřebuje. Učíš se rozhodnout, jaká přesnost pro daný účel stačí, třeba jestli polohu potřebuješ na metr přesně, nebo stačí vědět čtvrť. S tím se denně potýkají lidé, kteří navrhují databáze, zpracovávají statistiky nebo vedou evidenci zvířat v zoo. Aplikace ti rozdíl ukáže a chatbot ho vysvětlí, ale co je pro tvůj projekt dost dobré, rozhodneš ty, protože jen ty víš, k čemu data budou.",
+  "learnWithAi": [
+    {
+      "title": "Fotka na plakát i do zprávy",
+      "text": "Zmenši stejnou fotku na několik rozlišení a rozhodni, která verze ještě stačí na plakát a která do zprávy. Chatbotovi svou volbu zdůvodni a nech ho hledat slabá místa."
+    },
+    {
+      "title": "Plán měření teploty ve třídě",
+      "text": "Popiš chatbotovi, že chceš měsíc měřit teplotu ve třídě. Ať se tě ptá, jak často a jak přesně měřit, a každou odpověď zdůvodni."
+    },
+    {
+      "title": "Věkové skupiny v dotazníku",
+      "text": "Navrhni věkové kategorie pro školní dotazník a nech chatbota najít, kde jsou moc hrubé nebo zbytečně jemné. Uprav je podle toho, na co se dotazníkem ptáš."
+    }
+  ]
+}

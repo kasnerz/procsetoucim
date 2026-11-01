@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Napětí, proud a odpor potkáš na každé nabíječce i baterii a v návodu ke spotřebiči. Bez nich nepochopíš, proč výkonný spotřebič nepatří do tenkého prodlužovacího kabelu ani proč se baterie liší počtem voltů. Kdo navrhuje elektroniku nebo pracuje na rozvodné síti, mluví těmi slovy denně, a v těchto oborech míst spíš přibude. Chatbot ti veličiny vysvětlí přirovnáním k vodě v trubkách a simulátor ukáže, jak se mění. Značky a jednotky ale musíš mít v hlavě, protože na nich stojí každý další výpočet, třeba Ohmův zákon.",
+  "learnWithAi": [
+    {
+      "title": "Značky a jednotky zpaměti",
+      "text": "Nech se chatbotem zkoušet: řekne veličinu a ty odpovíš značkou a jednotkou, nebo naopak. Po deseti otázkách ať ti shrne, co ti nešlo."
+    },
+    {
+      "title": "Voda v trubkách",
+      "text": "Požádej chatbota, ať ti vysvětlí napětí, proud a odpor na vodě v trubkách, a potom totéž vysvětli zpátky vlastními slovy. Ať ti řekne, kde přirovnání pokulhává."
+    },
+    {
+      "title": "Štítek z nabíječky",
+      "text": "Opiš údaje ze štítku nabíječky a zkus říct, co která hodnota znamená. Teprve pak si nech od chatbota vysvětlit hodnoty, u kterých si nevíš rady."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dvě anglické stránky o stejné věci si často protiřečí: jedna uvádí jinou otevírací dobu nebo cenu, jiná chválí výrobek, který jinde dostal špatné hodnocení. Porovnat je znamená všimnout si, kde se liší, a zjistit, které z nich věřit víc, třeba podle toho, kdo text napsal a kdy. Chatbot ti rozdíly sepíše, jenže i on se může mýlit a zdroje si občas vymyslí, takže posouzení zůstává na tobě. Lidé, kteří ověřují fakta nebo píšou zprávy ze zahraničí, to dělají každý den, a hodí se to každému, kdo se podle informací z internetu rozhoduje.",
+  "learnWithAi": [
+    {
+      "title": "Recenze, které si odporují",
+      "text": "Požádej chatbota o dvě krátké anglické recenze stejného filmu, které se v něčem liší. Sepiš rozdíly a teprve potom porovnej svůj seznam s tím, co najde on."
+    },
+    {
+      "title": "Stránky o stejném zvířeti",
+      "text": "Najdi dvě anglické stránky o stejném zvířeti nebo místě a vypiš údaje, které se liší. Chatbota se zeptej, podle čeho poznat spolehlivější zdroj, a rozhodni se podle toho."
+    },
+    {
+      "title": "Kontrola shrnutí od AI",
+      "text": "Nech chatbota shrnout tři anglické texty k jednomu tématu do tabulky a každý údaj dohledej v původním textu. Uvidíš, jestli shrnutí sedí a kde se AI spletla."
+    }
+  ]
+}

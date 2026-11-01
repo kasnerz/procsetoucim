@@ -1,0 +1,67 @@
+{
+  "outcome": "JJK-AJA-001-ZV9-006",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Vyhledá klíčové informace v textu o tématu, které ho zajímá.",
+      "cards": [
+        "anglicky-hledani-informaci-v-textu-o-zajmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Písemně nebo ústně prokáže porozumění.",
+      "cards": [
+        "anglicky-porozumeni-odbornemu-textu-vlastnimi-slovy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyhledá si informace v textu, který odpovídá jeho úrovni a týká se tématu, které ho zajímá.",
+      "cards": [
+        "anglicky-hledani-informaci-v-textu-o-zajmu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Písemně nebo ústně prokáže porozumění.",
+      "cards": [
+        "anglicky-porozumeni-odbornemu-textu-vlastnimi-slovy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozumí hlavním myšlenkám a některým konkrétním informacím v jednoduchých odborných textech z oblasti svého zájmu.",
+      "cards": [
+        "anglicky-hlavni-myslenky-odborneho-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Prokáže porozumění obsahu jednoduchého textu, který se vztahuje k jeho potřebám a zájmům (např. porovnává získané informace z různých zdrojů, samostatně vyhledává informace k zadanému tématu).",
+      "cards": [
+        "anglicky-hledani-informaci-v-textu-o-zajmu",
+        "anglicky-porozumeni-odbornemu-textu-vlastnimi-slovy",
+        "anglicky-porovnani-informaci-z-ruznych-zdroju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozumí krátkým větám, mluveným i psaným, se vztahem k jeho potřebám a zájmům.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "cteni-znamych-slov-a-vet"
+        ]
+      }
+    }
+  ]
+}

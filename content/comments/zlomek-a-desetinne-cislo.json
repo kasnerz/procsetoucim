@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Ceny, hmotnosti a výsledky měření se píšou desetinnými čísly, kdežto v receptech, sázkových kurzech nebo v řeči se drží zlomky. Když umíš jedno převést na druhé, víš, že čtvrt kila je 0,25 kg a že třetina v desetinném zápisu nikdy neskončí. Převod je obyčejné dělení čitatele jmenovatelem a kalkulačka ho udělá hned, jenže u polovin, čtvrtin nebo pětin se vyplatí znát výsledek zpaměti, ať hned vidíš, když číslo na displeji nesedí. Takhle počítají lidé, kteří sestavují rozpočty staveb, vedou účetnictví nebo pracují v laboratoři.",
+  "learnWithAi": [
+    {
+      "title": "Běžné zlomky zpaměti",
+      "text": "Zahraj si s chatbotem rychlý kvíz: on řekne zlomek, ty odpovíš desetinným číslem zpaměti. Nech si na konci vypsat ty, které ti nešly."
+    },
+    {
+      "title": "Periodická čísla na papíře",
+      "text": "Požádej chatbota o pět zlomků, které vedou na nekonečné desetinné číslo, třeba 2/3 nebo 5/6. Vyděl je písemně, zjisti, které číslice se opakují, a výsledek porovnej s kalkulačkou."
+    },
+    {
+      "title": "Nákupní seznam se zlomky",
+      "text": "Nech si od chatbota sestavit nákupní seznam s množstvím ve zlomcích, třeba „tři čtvrtě kila jablek“, a přepiš ho do desetinných čísel. Celkovou cenu spočítej a ověř na kalkulačce."
+    }
+  ]
+}

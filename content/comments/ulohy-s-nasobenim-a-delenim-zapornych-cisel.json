@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Ve slovní úloze se zápornými čísly bývá těžší rozhodnout, co čím násobit, než to potom spočítat. Pokles teploty o tři stupně za hodinu nebo roční ztrátu firmy rozpočítanou na měsíce zapíšeš jako příklad se znaménky a výsledek pak dává smysl i ve skutečnosti. S takovými čísly denně pracují účetní a finanční obchodníci, kteří sledují, kde peníze přibývají a kde ubývají. Kalkulačka ani chatbot nevědí, co se v tvé situaci děje, dokud jim to správně nepopíšeš. Proto se hodí umět úlohu převést na příklad a odhadnout, jestli má výsledek vyjít kladný, nebo záporný.",
+  "learnWithAi": [
+    {
+      "title": "Úlohy z vlastního života",
+      "text": "Napiš chatbotovi situaci, kterou znáš, třeba kapesné a dluh u kamaráda, a požádej ho, ať z ní udělá tři slovní úlohy se zápornými čísly. Vyřeš je a pošli mu postup ke kontrole."
+    },
+    {
+      "title": "Zápis úlohy bez počítání",
+      "text": "Nech si zadat několik slovních úloh a u každé napiš jen příklad, kterým ji vyřešíš. Chatbot ti řekne, jestli sedí operace i znaménka, počítat zatím nemusíš."
+    },
+    {
+      "title": "Ověření cizího řešení",
+      "text": "Požádej chatbota, ať delší úlohu vyřeší, a zeptej se, co výsledek znamená ve skutečnosti. Jeho výpočet si přepočítej kalkulačkou, u delších úloh se AI občas splete."
+    }
+  ]
+}

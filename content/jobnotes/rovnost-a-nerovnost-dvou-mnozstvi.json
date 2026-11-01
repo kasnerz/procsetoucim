@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "2b871272-bd61-4206-bd1a-0b96d7023098": "U pokladny se pořád porovnává, jestli zákazník dal víc, nebo míň, než stojí nákup. Podle toho se vrací peníze nebo se žádá doplatek.",
+  "961cbd1f-2a9b-4756-b227-67a1c23c94b6": "Při směně žetonů za peníze musí částky přesně sedět. Na konci směny se porovnává, zda se obsah pokladny rovná záznamům, a rozdíl se musí vysvětlit.",
+  "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81": "Ve směnárně se porovnává, kolik peněz klient dává a kolik dostane za kurz. Kontroluje se také, jestli se součet všech transakcí rovná stavu v pokladně.",
+  "8188136d-df82-4910-91e1-b185ec17c3c9": "Při příjmu mléka se porovnává, kolik jej přišlo a kolik je ve skladu. Množství v cisterně a v nádrži se musí shodovat, jinak je potřeba hledat chybu.",
+  "cd94def5-3442-4c2e-ae3d-0761a3008bcb": "Při kompletaci objednávky se porovnává počet kusů v krabici s tím, co je na seznamu. Pokud se čísla neshodují, zásilka se nesmí odeslat.",
+  "c3dc576e-2a58-4481-9b6f-9853067af8ea": "Při nákupu a prodeji dřeva se porovnávají objemy a ceny. Kdo obchoduje, rychle pozná, zda nabídka vychází výhodněji než druhá.",
+  "d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee": "Skladník nebo skladnice porovnává stav zásob v evidenci a ve skladu. Když se čísla nerovnají, musí se zjistit, kam zboží zmizelo.",
+  "f1ecc3c4-8212-4386-871a-6fda1b5b4d91": "Při dražbě se nabídky pořád porovnávají a hlásí se ta vyšší. Dražebník nebo dražebnice musí v okamžiku poznat, která částka je větší, a prodat zboží právě za ni."
+ }
+}

@@ -1,0 +1,476 @@
+[
+  {
+    "slug": "zlomek-cast-celku-pomer",
+    "title": "Zlomek jako část celku, poměr a číslo",
+    "aliases": [
+      "co znamená zlomek",
+      "zlomek jako poměr",
+      "část celku",
+      "racionální číslo"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "interpretuje význam zlomku v širším kontextu situace – část celku, racionální číslo, poměr atd.",
+        "quote": "interpretuje význam zlomku v širším kontextu situace – část celku, racionální číslo, poměr atd."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí zlomek na příkladech z různých situací a vymyslí ti úlohy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a výukové stránky ukážou zlomek na obrázcích."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Výukové aplikace ukazují zlomek jako koláč, úsečku i poměr."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír na přehýbání nebo čokoláda ti ukážou zlomek jako část celku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kraceni-rozsirovani-zlomku",
+    "title": "Rozšiřování a krácení zlomků",
+    "aliases": [
+      "ekvivalentní zlomky",
+      "krácení zlomků",
+      "základní tvar",
+      "stejné zlomky"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "určí ekvivalentní zlomky",
+        "quote": "určí ekvivalentní zlomky"
+      },
+      {
+        "level": "Na začátku",
+        "point": "vyjádří zlomek v základním tvaru",
+        "quote": "vyjádří zlomek v základním tvaru"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se zlomek dá krátit, a zkontroluje tvůj základní tvar."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky mají vzorové příklady krácení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s kontrolou ti ihned řekne, jestli je zlomek zkrácený."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří, že původní a zkrácený zlomek mají stejnou hodnotu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zlomky-na-ciselne-ose",
+    "title": "Zlomky na číselné ose, i záporné",
+    "aliases": [
+      "číselná osa",
+      "záporné zlomky",
+      "zlomek na ose",
+      "kam patří zlomek"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "zobrazuje zlomky na číselnou osu, a to včetně záporných zlomků",
+        "quote": "zobrazuje zlomky na číselnou osu, a to včetně záporných zlomků"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje, kam jsi zlomek umístil, a vysvětlí chyby."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky mají obrázky číselné osy se zlomky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Interaktivní osa ti zlomek nechá přetáhnout a hned ukáže chybu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko s kreslením osy na papír ti pomůže rozdělit úsek na stejné díly."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "scitani-odcitani-zlomku",
+    "title": "Sčítání a odčítání zlomků",
+    "aliases": [
+      "sčítání zlomků",
+      "odčítání zlomků",
+      "společný jmenovatel",
+      "zlomky počítání"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "sčítá a odčítá zlomky pomocí modelů",
+        "quote": "sčítá a odčítá zlomky pomocí modelů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "sčítá a odčítá zlomky pomocí číselného zápisu",
+        "quote": "sčítá a odčítá zlomky pomocí číselného zápisu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí postup se společným jmenovatelem a zkontroluje tvůj výpočet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky mají vzorové příklady krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s kontrolou ukáže model i tvůj chybný krok."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří výsledek, který jsi na papíře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nasobeni-deleni-zlomku",
+    "title": "Násobení a dělení zlomků",
+    "aliases": [
+      "násobení zlomků",
+      "dělení zlomků",
+      "zlomek krát zlomek",
+      "převrácený zlomek"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "násobí a dělí zlomky pomocí modelů",
+        "quote": "násobí a dělí zlomky pomocí modelů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "násobí a dělí zlomky pomocí číselného zápisu",
+        "quote": "násobí a dělí zlomky pomocí číselného zápisu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se při dělení zlomek převrací, a zkontroluje tvůj výpočet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky ukazují násobení zlomků na obrázku čtverce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s kontrolou ukáže model a opraví chybný krok."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří výsledek, který máš z papíře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zlomek-a-desetinne-cislo",
+    "title": "Zlomek a desetinné číslo",
+    "aliases": [
+      "zlomek na desetinné číslo",
+      "převod zlomku",
+      "desetinné číslo",
+      "dělení čitatele jmenovatelem"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zapíše zlomek jako desetinné číslo",
+        "quote": "zapíše zlomek jako desetinné číslo"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí převod dělením čitatele jmenovatelem a zkontroluje tvůj zápis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Převodní tabulky a výukové stránky ukážou běžné zlomky jako desetinná čísla."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s kontrolou ti ihned řekne, jestli je zápis správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří výsledek dělení, které máš na papíře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "smisena-cisla-neprave-zlomky",
+    "title": "Smíšené číslo a nepravý zlomek",
+    "aliases": [
+      "smíšené číslo",
+      "nepravý zlomek",
+      "převod smíšeného čísla",
+      "celé a zlomek"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zapíše nepravý zlomek pomocí smíšeného čísla a naopak",
+        "quote": "zapíše nepravý zlomek pomocí smíšeného čísla a naopak"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí převod na příkladech a zkontroluje tvoje výsledky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky mají vzorové příklady převodů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s kontrolou ti ihned ukáže, jestli je převod správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří výsledek, který máš na papíře."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zduvodneni-postupu-s-modelem",
+    "title": "Zdůvodnění výpočtu se zlomky na modelu",
+    "aliases": [
+      "proč to takhle vyjde",
+      "model zlomků",
+      "vysvětli postup",
+      "nakresli zlomek"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zdůvodní postupy a výpočty pomocí modelů.",
+        "quote": "Zdůvodní postupy a výpočty pomocí modelů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, proč postup funguje, a ukáže ti jiný model."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Výukové stránky mají obrázky modelů zlomků."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí a výukové aplikace ti model zlomku nakreslí a rozdělí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, pravítko a pastelky ti pomůžou model nakreslit a vybarvit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "slovni-ulohy-se-zlomky-9",
+    "title": "Slovní úlohy se zlomky ze života",
+    "aliases": [
+      "slovní úlohy zlomky",
+      "zlomky v reálném životě",
+      "smíšená čísla úlohy",
+      "recept zlomky"
+    ],
+    "outcome": "MAT-MAT-001-ZV9-001",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší úlohy z reálného světa, které obsahují sčítání a odčítání pravých a nepravých zlomků a smíšených čísel.",
+        "quote": "Řeší úlohy z reálného světa, které obsahují sčítání a odčítání pravých a nepravých zlomků a smíšených čísel."
+      },
+      {
+        "level": "Splněno",
+        "point": "Řeší úlohy z reálného světa, které obsahují násobení a dělení zlomků (pravých a nepravých zlomků a smíšených čísel).",
+        "quote": "Řeší úlohy z reálného světa, které obsahují násobení a dělení zlomků (pravých a nepravých zlomků a smíšených čísel)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí úlohy z běžných situací a zkontroluje tvůj postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Sbírky slovních úloh nabídnou příklady k procvičení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s úlohami ti ukáže, kde se v postupu spleteš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří čísla, když si úlohu zapíšeš a rozepíšeš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

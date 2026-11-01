@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Nejčastější chyba při pokusu přichází až na konci: závěr tvrdí víc, než data ukazují. Ze tří měření nejde poznat, že něco platí vždycky, a jedna podivná hodnota může být jen chyba při měření. Jako hlavní náplň práce to mají hlavně lidé ve výzkumu a v laboratořích, a těch není mnoho. Stejnou dovednost ale potřebuješ pokaždé, když čteš, že nějaký výrobek „prokazatelně funguje“. Tabulkový procesor spočítá průměr a chatbot navrhne závěr, jestli sedí k tvým datům, ale posoudíš jen ty, protože víš, jak měření proběhlo.",
+  "learnWithAi": [
+    {
+      "title": "Přehnané závěry",
+      "text": "Požádej chatbota o malou tabulku vymyšlených měření a k ní několik závěrů, z nichž některé tvrdí víc, než data dovolí. Rozhodni, které obstojí, a zdůvodni proč."
+    },
+    {
+      "title": "Vlastní závěr na zkoušku",
+      "text": "Napiš závěr ze svého pokusu a nech chatbota hledat, co v něm data nepodporují. S jeho námitkami nemusíš souhlasit, každou si ale ověř v tabulce."
+    },
+    {
+      "title": "Spor o jedno měření",
+      "text": "Nech chatbota obhajovat jiný závěr z tvých dat, než je ten tvůj, a přesvědčuj ho jen čísly z tabulky. Průměry, které uvede, si přepočítej."
+    }
+  ]
+}

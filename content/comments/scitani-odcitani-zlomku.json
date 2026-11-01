@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Sčítat a odčítat zlomky potřebuješ, kdykoli skládáš kusy různé velikosti, třeba když z jedné pizzy zbyla polovina, z druhé tři osminy a chceš vědět, kolik je to dohromady. Model, tedy nakreslený koláč nebo proužek, ti ukáže, proč se jmenovatelé nesčítají, a číselný zápis ti pak dovolí počítat rychle. Kalkulačka výsledek dá taky, jenže když nevíš, co se při sčítání děje, nepoznáš ani chybně zadaný příklad. V práci se zlomky sčítají v kuchyních a cukrárnách nebo na stavbě, kde se skládají díly různé délky.",
+  "learnWithAi": [
+    {
+      "title": "Příklady na proužcích papíru",
+      "text": "Požádej chatbota o pět příkladů na sčítání zlomků s různými jmenovateli. Každý vyřeš nejdřív nakresleným proužkem, pak číselně, a nech si oba postupy zkontrolovat."
+    },
+    {
+      "title": "Postup se schovanými chybami",
+      "text": "Nech chatbota vyřešit příklad na odčítání zlomků schválně se dvěma chybami. Najdi je a vysvětli mu, co je špatně a proč."
+    },
+    {
+      "title": "Zbytky dortů po oslavě",
+      "text": "Vymysli s chatbotem oslavu, po které zbyly kusy několika dortů, a spočítej, kolik dortu zbylo dohromady a kolik ho snědli hosté. Delší výpočty si ověř kalkulačkou, AI se v nich může splést."
+    }
+  ]
+}

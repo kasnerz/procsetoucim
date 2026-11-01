@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Naměřená čísla jsou k ničemu, když je za týden nikdo nepřečte, ani ty. Přehledná tabulka s jednotkami a graf s popsanými osami ukážou na první pohled, co se při pokusu dělo. V laboratořích a zkušebnách se takhle zapisuje každý den, protože podle záznamů se rozhoduje, jestli je voda pitná nebo součástka bezpečná. Tabulkový procesor nakreslí graf za pár vteřin, jenže vybrat vhodný typ grafu a poznat, že useknutá osa výsledek zkresluje, musíš umět ty. Stejné grafy potkáš ve zprávách a na sociálních sítích.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka z neuspořádaných čísel",
+      "text": "Požádej chatbota o neuspořádaný zápis z vymyšleného pokusu, třeba časy a teploty v jedné dlouhé větě. Udělej z něj tabulku s jednotkami a nech si ji zkontrolovat."
+    },
+    {
+      "title": "Zavádějící graf",
+      "text": "Nech si popsat graf, který něco zkresluje, například osou, která nezačíná u nuly. Zkus přijít na to, co je špatně, dřív, než ti to chatbot řekne."
+    },
+    {
+      "title": "Kontrola vlastního protokolu",
+      "text": "Vlož chatbotu tabulku a popis grafu ze svého protokolu a ptej se, čemu by spolužák nerozuměl. Opravy dělej ručně, ne zkopírováním jeho verze."
+    }
+  ]
+}

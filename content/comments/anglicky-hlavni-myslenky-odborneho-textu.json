@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Návod k dronu, popis rostliny nebo článek o vesmíru najdeš často jen anglicky, a kdo pochopí hlavní myšlenku, nemusí čekat na český překlad. Odborný text má hodně slov, která v učebnici nejsou, jeho stavba ale bývá přehledná: o čem to je, co se zjistilo a co z toho plyne. Hodí se to každému, kdo půjde studovat dál, a v práci hlavně lidem, kteří překládají, učí jazyky nebo píšou zprávy ze zahraničí. Překladač pomůže se slovy, ale co je v odstavci hlavní, musíš poznat ty, jinak nezjistíš ani to, jestli strojové shrnutí sedí.",
+  "learnWithAi": [
+    {
+      "title": "Kartičky s odbornými slovy",
+      "text": "Požádej chatbota, ať z textu vybere pět odborných slov a ke každému napíše jednoduchou větu. Udělej si z nich kartičky a druhý den se otestuj."
+    },
+    {
+      "title": "Hlavní myšlenka v jedné větě",
+      "text": "Přečti anglický odstavec ze svého oboru a napiš jeho hlavní myšlenku jednou českou větou. Chatbot ať ji porovná s textem a řekne, co v ní chybí."
+    },
+    {
+      "title": "Zkoušení z přečteného textu",
+      "text": "Vlož chatbotovi anglický text o něčem, co tě zajímá, a ať se tě na něj anglicky ptá. Odpovídej bez překladače a nakonec si nech říct, které myšlenky ti unikly."
+    }
+  ]
+}

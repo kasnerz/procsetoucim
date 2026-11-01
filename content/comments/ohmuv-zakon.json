@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Ohmův zákon je jeden vzorec, se kterým spočítáš, jaký proud poteče, když znáš napětí a odpor. Kdo navrhuje elektroniku nebo rozvody, s ním počítá pořád, třeba když vybírá rezistor k LED nebo kontroluje, jestli vedení zátěž vydrží. Převracet vzorec tak, aby ti vyšla neznámá veličina, se ti bude hodit i u dalších vzorců ve fyzice a chemii. Kalkulačka výsledek spočítá, jenže jen když víš, co do ní zadat. Když ti kvůli miliampérům vyjde číslo tisíckrát větší, musíš to poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Příklady od nejlehčích",
+      "text": "Požádej chatbota o pět příkladů na Ohmův zákon od nejlehčích a výsledky mu posílej jeden po druhém. Když ti něco nevyjde, ať ukáže jen krok s chybou, a jeho výpočty si přepočítej."
+    },
+    {
+      "title": "Převracení vzorce",
+      "text": "Nech si vysvětlit, jak ze vzorce U = R · I dostat odpor nebo proud. Stejný postup pak zkus bez nápovědy u jiného vzorce, třeba pro rychlost."
+    },
+    {
+      "title": "Úloha s kapesní svítilnou",
+      "text": "Popros chatbota o slovní úlohu se skutečným zařízením, třeba s žárovkou v kapesní svítilně. Vyřeš ji a odhadni, jestli výsledek dává smysl, dřív než ti ho potvrdí."
+    }
+  ]
+}

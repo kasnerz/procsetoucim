@@ -1,0 +1,385 @@
+[
+  {
+    "slug": "reflexe-rolove-hry-pocity",
+    "title": "Rozbor rolové hry: emoce a téma",
+    "aliases": [
+      "co jsem cítil při hře",
+      "pocity z hraní",
+      "rozbor scénky",
+      "rolová hra",
+      "o čem hra byla"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prostřednictvím herních aktivit ve třídě (zejména rolové hry) vstupuje do fiktivních situací, reflektuje zážitek z této hry, pojmenuje svými slovy přítomné emoce a popíše význam tohoto zážitku pro pochopení témat, která situace obsahuje.",
+        "quote": "reflektuje zážitek z této hry, pojmenuje svými slovy přítomné emoce a popíše význam tohoto zážitku"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Postupně si osvojuje schopnost vstupovat za postavu do fiktivních situací při hrách a improvizacích, reflektuje své zážitky a s pomocí učitele pojmenuje téma, které situace obsahuje.",
+        "quote": "reflektuje své zážitky a s pomocí učitele pojmenuje téma, které situace obsahuje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Emoce",
+        "url": "https://uloziste.rvp.cz/material/d13afc"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se tě na zážitek a nabídne slova pro pocity, vybíráš a říkáš je ty."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvoje pocity z hry v hotových textech nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe pocity z hry nepojmenuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zážitek z hry si prožil jen ty, nástroj k tomu nemá co dodat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74be20a7-fcfe-4715-bb62-8937a547a982"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "divadelni-prostredky-hlas-pohyb-loutky",
+    "title": "Divadelní prostředky: hlas, gesto, pohyb, loutky",
+    "aliases": [
+      "jak zahrát postavu",
+      "loutky",
+      "rekvizity",
+      "gesta",
+      "divadlo hlasem a tělem",
+      "etuda"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá jemu dosažitelné divadelní prostředky (včetně možnosti využít předměty, loutky) pro prozkoumávání myšlenek, emocí, dějů, situací, mezilidských vztahů, témat v procesu vlastní i týmové jevištní tvorby.",
+        "quote": "Využívá jemu dosažitelné divadelní prostředky (včetně možnosti využít předměty, loutky)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "S jistější dovedností využívá divadelní prostředky (včetně možnosti využívání jednoduchých rekvizit, animace předmětů a loutek) k prozkoumávání témat a mezilidských vztahů v týmové tvorbě.",
+        "quote": "S jistější dovedností využívá divadelní prostředky"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Využívá elementární divadelní formy a postupy divadla (například hraje role, improvizuje, pracuje s předměty a loutkami, vytváří jednoduché etudy) ke zkoumání jemu dostupných námětů a témat a jejich sdělování * podílí se na základě svých dovedností, preferencí a zájmu na tvorbě a realizaci drobného jevištního tvaru (hraje postavu, promýšlí dialogy, připravuje scénu ve třídě, tvoří zvukový nebo hudebním doprovod apod.), pojmenuje svou roli ve společném tvůrčím procesu.",
+        "quote": "Využívá elementární divadelní formy a postupy divadla"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Tělo mluví, ale co říká?",
+        "url": "https://uloziste.rvp.cz/material/a68cab"
+      },
+      {
+        "title": "Tvorba postavy a její proměna",
+        "url": "https://uloziste.rvp.cz/material/f2b2cf"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Hlas, gesto a pohyb předvádíš ty, chatbot je za tebe nezahraje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky loutkového a činoherního divadla ti ukážou, co jde zahrát."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvoje tělo a hlas na jevišti nevyzkouší."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Loutka nebo rekvizita ti dá, co zahrát, a zkusíš s ní víc způsobů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74be20a7-fcfe-4715-bb62-8937a547a982",
+      "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "namety-a-zdroje-pro-scenku",
+    "title": "Náměty a zdroje pro vlastní scénku",
+    "aliases": [
+      "co zahrát",
+      "nápad na scénku",
+      "příběh pro divadlo",
+      "inspirace pro hru",
+      "námět"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pro vlastní i týmovou tvorbu využívá různé náměty a zdroje.",
+        "quote": "Pro vlastní i týmovou tvorbu využívá různé náměty a zdroje."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Pro svou individuální i skupinovou tvorbu zkouší využívat různé náměty a zdroje (literární příběhy, příběhy a situace z reálného světa, výtvarná díla, hudební díla, poezie, předměty...).",
+        "quote": "Pro svou individuální i skupinovou tvorbu zkouší využívat různé náměty a zdroje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Od tématu k příběhu",
+        "url": "https://uloziste.rvp.cz/material/2317d1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne náměty z příběhů, básní nebo zpráv a ty z nich vybereš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš básně, povídky, články a obrazy, které můžeš zahrát."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe náměty nevybere a nic ti k tomu nenabídne."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kniha, noviny nebo obraz ti dají příběh k zahrání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1263904f-1c2c-48f5-a6ca-0176ef5d2060"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jevistni-tvar-pro-spoluzaky-tymova-role",
+    "title": "Jevištní tvar pro spolužáky a role v týmu",
+    "aliases": [
+      "scénka pro třídu",
+      "role v týmu",
+      "divadelní představení",
+      "kdo co dělá",
+      "zkoušení hry"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Podílí se na tvorbě drobných jevištních tvarů a prezentací pro spolužáky v jemu odpovídající týmové roli.",
+        "quote": "Podílí se na tvorbě drobných jevištních tvarů a prezentací pro spolužáky"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zapojuje se do komplexnějších týmových projektů, volí způsob a míru zapojení, přijímá odpovědnost za svou roli (herec/hráč, ten, kdo připravuje scénu, ozvučuje, pomáhá s tvorbou kostýmů apod.) a rozvíjí vlastní nápady.",
+        "quote": "Zapojuje se do komplexnějších týmových projektů, volí způsob a míru zapojení"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Využívá elementární divadelní formy a postupy divadla (například hraje role, improvizuje, pracuje s předměty a loutkami, vytváří jednoduché etudy) ke zkoumání jemu dostupných námětů a témat a jejich sdělování * podílí se na základě svých dovedností, preferencí a zájmu na tvorbě a realizaci drobného jevištního tvaru (hraje postavu, promýšlí dialogy, připravuje scénu ve třídě, tvoří zvukový nebo hudebním doprovod apod.), pojmenuje svou roli ve společném tvůrčím procesu.",
+        "quote": "podílí se na základě svých dovedností, preferencí a zájmu na tvorbě a realizaci drobného jevištního tvaru"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Spolu?",
+        "url": "https://uloziste.rvp.cz/material/599fa9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže rozepsat plán zkoušek a rozdělení rolí, rozhodnutí je na týmu."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvoji roli v týmu ti hotový text nenajde."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nezahraje ani nepřipraví scénu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Hraješ a stavíš scénu ty se spolužáky, nástroj tu nic nedělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f34ee429-b36d-49f9-a927-80b67a467cc8",
+      "http://data.europa.eu/esco/skill/b983e86d-61d5-4ebf-8810-2650c91da096"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "propojeni-umeni-v-inscenaci",
+    "title": "Hudba, výtvarno a pohyb v inscenaci",
+    "aliases": [
+      "hudba ve scénce",
+      "kulisy",
+      "kostýmy",
+      "výtvarná stránka divadla",
+      "pohybová stylizace"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Podle svých preferencí zapojuje do společné tvorby postupy a prostředky jiných druhů umění a jemu dostupné technologie.",
+        "quote": "Podle svých preferencí zapojuje do společné tvorby postupy a prostředky jiných druhů umění"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkouší do společné tvorby zapojovat různé druhy umění (hudbu, výtvarné pojetí scény a kostýmů, pohybovou stylizaci, filmové projekce, apod.)a experimentuje s technologiemi při tvorbě a prezentaci.",
+        "quote": "Zkouší do společné tvorby zapojovat různé druhy umění"
+      },
+      {
+        "level": "Na začátku",
+        "point": "V tvorbě propojuje prostředky různých umění.",
+        "quote": "V tvorbě propojuje prostředky různých umění."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne nápady na hudbu, kulisy a kostýmy, vybereš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky inscenací a kostýmů ti ukážou, co jde zkombinovat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Hudební nebo kreslicí aplikace ti pomůže vyzkoušet zvuk a vzhled scény."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nástroj, barvy a látky ti pomůžou doprovod i scénu doopravdy udělat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c7d328f4-87a7-4091-8eb5-122f471bd954"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "technologie-v-inscenaci",
+    "title": "Technologie při tvorbě a předvedení scénky",
+    "aliases": [
+      "nahrávání zvuku",
+      "projekce",
+      "video ve scénce",
+      "telefon při divadle",
+      "pravidla používání techniky"
+    ],
+    "outcome": "UAK-HTD-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Podle svých preferencí zapojuje do společné tvorby postupy a prostředky jiných druhů umění a jemu dostupné technologie.",
+        "quote": "jemu dostupné technologie"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zkouší do společné tvorby zapojovat různé druhy umění (hudbu, výtvarné pojetí scény a kostýmů, pohybovou stylizaci, filmové projekce, apod.)a experimentuje s technologiemi při tvorbě a prezentaci.",
+        "quote": "experimentuje s technologiemi při tvorbě a prezentaci"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Využívá jemu dostupné technologie při tvůrčích činnostech a v prezentacích, dodržuje pravidla jejich použití.",
+        "quote": "Využívá jemu dostupné technologie při tvůrčích činnostech a v prezentacích, dodržuje pravidla jejich použití."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí postup, třeba jak nahrát zvuk nebo pustit projekci, a upozorní na pravidla."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukážou, jak techniku nastavit a bezpečně používat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na záznam, střih a projekci ti scénku pomůžou zvukově i obrazově doplnit."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Bez digitální techniky tu klasický nástroj nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e2c884e4-4952-4a5c-ba69-ad406b66bd7d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

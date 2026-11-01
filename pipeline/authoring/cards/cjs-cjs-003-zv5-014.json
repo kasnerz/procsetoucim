@@ -1,0 +1,391 @@
+{
+  "outcome": "CJS-CJS-003-ZV5-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "svatky-priklady-statnich-svatku-a-dnu",
+      "title": "Státní svátky a významné dny v Česku",
+      "aliases": [
+        "státní svátky",
+        "významné dny",
+        "svátky v ČR",
+        "kdy je volno",
+        "17. listopad"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Uvede příklady vybraných státních svátků, významných dnů v ČR a významných událostí."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Vyjmenuje dva vybrané státní svátky, významné dny a regionální tradice."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vyjmenuje státní svátky a zeptá se tě na ně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Kalendář svátků a Wikipedie ukážou, které dny jsou státní svátky."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace svátky jen vypíše, pamatovat si je musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový kalendář má státní svátky vyznačené červeně."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+      ],
+      "inspiration": [
+        "Státní svátek 17. listopad",
+        "1. květen – Svátek práce",
+        "8. květen – Den vítězství nad nacismem",
+        "Svatý Václav"
+      ]
+    },
+    {
+      "slug": "svatky-zjistovani-faktu-o-svatcich",
+      "title": "Zjištění faktů o svátcích a výročích",
+      "aliases": [
+        "najít informace o svátku",
+        "kdy vznikl svátek",
+        "výročí",
+        "fakta o svátcích"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zjišťuje faktografické informace o státních i ostatních svátcích, významných dnech a slavných výročí v ČR."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot odpoví na dotaz, ale datum a jména si ověř jinde."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie mají data a stručné popisy svátků."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač a mapa pamětihodností najdou místa spojená s výročím."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a kalendář svátků v knize dají ověřená data."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f5eae448-0e52-4550-b982-9ff108c2ef55",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "svatky-svatek-a-historicka-udalost",
+      "title": "Spojení svátku s historickou událostí",
+      "aliases": [
+        "proč se slaví",
+        "událost ke svátku",
+        "8. květen",
+        "17. listopad",
+        "svatý Václav"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Propojí vybraný státní svátek, významný den, tradici s konkrétní historickou událostí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vypráví, co se stalo, a ptá se tě, co ke svátku patří."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a učebnice online popíšou událost a její datum."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace data a události nespojí, spojuješ je ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Časová osa na papíře ti ukáže, kdy se událost stala."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/f5eae448-0e52-4550-b982-9ff108c2ef55"
+      ],
+      "inspiration": [
+        "Svatý Václav",
+        "8. květen – Den vítězství nad nacismem",
+        "Státní svátek 17. listopad",
+        "1. květen – Svátek práce"
+      ]
+    },
+    {
+      "slug": "svatky-vyznam-udrzovani-tradic",
+      "title": "Proč udržovat tradice",
+      "aliases": [
+        "k čemu jsou tradice",
+        "význam tradic",
+        "zvyky",
+        "proč slavit"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vyjádří vlastními slovy význam udržování tradic."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se tě ptá a zkouší tvoje důvody, nahradit je nemůže."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Texty o tradicích ti dají příklady, o čem přemýšlet."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe důvod nevymyslí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka ani pravítko o tradicích nic neřeknou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c",
+        "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "svatky-statni-symboly-cr",
+      "title": "Státní symboly České republiky",
+      "aliases": [
+        "vlajka",
+        "státní znak",
+        "hymna",
+        "symboly ČR",
+        "státní symboly"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Pozná symboly ČR."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot tě vyzkouší, který symbol je který."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázky vlajky a znaku a nahrávka hymny jsou na webu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kvízová aplikace s obrázky ti symboly procvičí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Vlajka, mince nebo razítko ti symbol ukážou přímo."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": [
+        "Státní symboly"
+      ]
+    },
+    {
+      "slug": "svatky-duvody-oslavy-statniho-svatku",
+      "title": "Důvody oslavy státního svátku",
+      "aliases": [
+        "proč slavíme",
+        "důvod svátku",
+        "vysvětlit svátek",
+        "státní svátek"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vysvětlí důvody oslavy vybraného státního svátku."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P5"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se ptá, proč se svátek slaví, a opraví omyly."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie vysvětlí, co se dne stalo a proč se slaví."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace vysvětlení neumí, vysvětlovat budeš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj důvody oslavy nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/f5eae448-0e52-4550-b982-9ff108c2ef55"
+      ],
+      "inspiration": [
+        "Státní svátek 17. listopad",
+        "1. květen – Svátek práce",
+        "8. květen – Den vítězství nad nacismem",
+        "Svatý Václav"
+      ]
+    },
+    {
+      "slug": "svatky-tradice-regionu-a-jineho-regionu",
+      "title": "Porovnání tradic dvou regionů",
+      "aliases": [
+        "tradice kraje",
+        "masopust",
+        "zvyky v regionu",
+        "porovnat tradice"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Porovnává tradice svého regionu s tradicemi jiného regionu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot popíše zvyky jiného kraje, ty je porovnáš se svými."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Webové stránky obcí a muzeí popisují místní tradice."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tradice neporovná, porovnáváš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Mapa Česka ukáže, kde se tradice slaví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c",
+        "http://data.europa.eu/esco/skill/7d23c508-c007-4221-bb84-0c9a479b8ea6",
+        "http://data.europa.eu/esco/skill/f5eae448-0e52-4550-b982-9ff108c2ef55"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "svatky-narozeniny-vanoce-velikonoce",
+      "title": "Jak slavím narozeniny, Vánoce a Velikonoce",
+      "aliases": [
+        "narozeniny",
+        "Vánoce",
+        "Velikonoce",
+        "rodinné zvyky",
+        "jak slavíme"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše, jak slaví narozeniny, Vánoce a Velikonoce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Slavíš s rodinou ty, chatbot o tvých oslavách nic neví."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Web neví, jak slavíte doma."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvoje oslavy nepopíše."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj tvoje zvyky nezná, vyprávíš je ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d51ca82a-1a70-449d-91b3-9465f7ba905c"
+      ],
+      "inspiration": [
+        "Slavíme státní svátky a významné dny"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Reflektuje prožitý tematický den",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

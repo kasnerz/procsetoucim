@@ -1,0 +1,63 @@
+{
+  "outcome": "MAT-MAT-005-ZV5-013",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozpozná a zapíše rovnost, nerovnost dvou množství (kvantit) vyjádřeného počtem, veličinou.",
+      "cards": [
+        "rovnost-a-nerovnost-dvou-mnozstvi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Rozpozná a zapíše rovnost a nerovnost číselných výrazů.",
+      "cards": [
+        "rovnost-a-nerovnost-ciselnych-vyrazu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Doplní chybějící hodnotu v rovnosti i v nerovnosti.",
+      "cards": [
+        "doplneni-chybejici-hodnoty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Popíše číselné vztahy v reálné situaci pomocí rovnosti či nerovnosti, rovnicové situace.",
+      "cards": [
+        "zapis-situace-rovnosti-a-nerovnosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytvoří a popíše slovy situaci k danému číselnému výrazu, rovnosti a nerovnosti.",
+      "cards": [
+        "pribeh-k-ciselnemu-vyrazu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší rovnicové situace a jednoduché rovnice zapsané nematematickým zápisem (např. váhy).",
+      "cards": [
+        "rovnicove-situace-a-vahy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Řeší jednoduché problémy související s rovností či nerovností v běžných situacích.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

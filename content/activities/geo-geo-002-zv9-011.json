@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "globalizace-vyznam-slova",
+    "title": "Význam slova globalizace",
+    "aliases": [
+      "co je globalizace",
+      "globální",
+      "propojený svět",
+      "globalizace vysvětlení"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Má základní povědomí o významu slova globalizace/globální",
+        "quote": "Má základní povědomí o významu slova globalizace/globální"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Globalizace není sprosté slovo",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí slovo jednoduše a na příkladech, na cokoli se můžeš doptat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a Wikipedie slovo vysvětlují a ukazují příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Vysvětlení jednoho slova žádná jednoúčelová aplikace nenabízí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník cizích slov nebo encyklopedie slovo vysvětlí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/77931759-69af-4637-8b26-c8376f9240e2",
+      "http://data.europa.eu/esco/skill/0db1a833-e4b7-4cae-9c6f-ddcdd4326e85"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "globalizace-priciny-a-projevy",
+    "title": "Příčiny a projevy globalizace",
+    "aliases": [
+      "proč je svět propojený",
+      "globalizace v hospodářství",
+      "globalizace v kultuře",
+      "projevy globalizace"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "uvede příčiny a projevy globalizace ve sféře hospodářství, obchodu, kultury, politiky, způsobu života obyvatel, přírody a životního prostředí ve vybraných místech či regionech",
+        "quote": "uvede příčiny a projevy globalizace ve sféře hospodářství, obchodu, kultury, politiky, způsobu života obyvatel, přírody a životního prostředí ve vybraných místech či regionech"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Co si mohu koupit všude na světě?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí příčiny a projevy na příkladech a ověří, jestli jsi je pochopil."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš články, data o obchodu a mapy, ze kterých příklady poskládáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapy a grafy obchodu ukážou, kam zboží putuje a odkud přichází."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas a učebnice ukážou obchodní trasy a vybrané regiony."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/77931759-69af-4637-8b26-c8376f9240e2",
+      "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "globalizace-vyrobek-a-nadnarodni-firma",
+    "title": "Cesta výrobku světem a nadnárodní firma",
+    "aliases": [
+      "odkud je můj mobil",
+      "kde se vyrábí",
+      "nadnárodní korporace",
+      "globální firma"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na příkladu jím vlastněného/užívaného výrobku/služby doloží hospodářskou nebo kulturní provázanost světa (na příkladu globální firmy vysvětlí principy činnosti nadnárodních korporací, včetně lokalizace jejích hlavních částí v různých regionech světa).",
+        "quote": "Na příkladu jím vlastněného/užívaného výrobku/služby doloží hospodářskou nebo kulturní provázanost světa (na příkladu globální firmy vysvětlí principy činnosti nadnárodních korporací, včetně lokalizace jejích hlavních částí v různých regionech světa)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Můj mobil a svět – Příběh jedné kapsy",
+        "url": "https://uloziste.rvp.cz/material/ee0ead"
+      },
+      {
+        "title": "Co máme dnes v penálu?",
+        "url": "https://uloziste.rvp.cz/material/59b675"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti poskládat, kde se výrobek navrhuje, vyrábí a prodává, a vysvětlí, proč."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Firmy a zpravodajské weby uvádějí, kde mají továrny, sídlo a trhy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ti ukáže, kde jednotlivé části firmy sídlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Svůj výrobek máš v ruce ty, klasický nástroj k tomu nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/77931759-69af-4637-8b26-c8376f9240e2",
+      "http://data.europa.eu/esco/skill/f929c89e-c363-4132-a918-e021d57b307c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "globalizace-sireni-jevu",
+    "title": "Šíření nemoci, módy nebo vynálezu po světě",
+    "aliases": [
+      "šíření nemocí",
+      "kulturní trendy",
+      "jak se šíří móda",
+      "technologické inovace"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na příkladu procesu šíření vybraného jevu popíše globální propojení světa (např. šíření nemocí, kulturní trendy, technologické inovace)",
+        "quote": "na příkladu procesu šíření vybraného jevu popíše globální propojení světa (např. šíření nemocí, kulturní trendy, technologické inovace)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se jev šířil, a pomůže ti sepsat jeho cestu po světě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis šíření vybraného jevu a mapy, kudy se šířil."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapy a grafy šíření ukážou jev v čase a po zemích."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Atlas a nástěnná mapa ti pomohou jeho cestu zakreslit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7d594881-a9b4-4d4c-8a8b-75082c136b78"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "globalizace-komu-prospiva-komu-skodi",
+    "title": "Komu globalizace prospívá a komu škodí",
+    "aliases": [
+      "výhody a nevýhody globalizace",
+      "dopady globalizace",
+      "globalizace v mém okolí",
+      "pro a proti"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na konkrétních příkladech ze světa a z místa svého bydliště posoudí, komu/čemu dopady globalizace prospívají a komu/čemu škodí",
+        "quote": "na konkrétních příkladech ze světa a z místa svého bydliště posoudí, komu/čemu dopady globalizace prospívají a komu/čemu škodí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Globalizace není sprosté slovo",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí protiargumenty a ukáže další pohledy, rozhodnout se ale musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš zprávy a data o dopadech na místa, firmy i přírodu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace za tebe neposoudí, komu co prospívá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Úsudek o dopadech neumí změřit žádný nástroj, uděláš ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e541c69c-ea80-4b17-87cb-4001d0b9d303",
+      "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "globalizace-opatreni-v-miste-bydliste",
+    "title": "Seznam opatření proti globálním problémům u nás doma",
+    "aliases": [
+      "mysli globálně jednej lokálně",
+      "co můžu udělat",
+      "globální problémy",
+      "opatření v obci"
+    ],
+    "outcome": "GEO-GEO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří krátký seznam opatření, která mohou zavedením v místě bydliště napomoci řešení jednoho nebo více globálních problémů.",
+        "quote": "Vytvoří krátký seznam opatření, která mohou zavedením v místě bydliště napomoci řešení jednoho nebo více globálních problémů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Mysli globálně - jednej lokálně!",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne nápady na opatření, ty vybereš, co se v tvém okolí opravdu dá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady opatření z jiných měst a škol."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Seznam pro své okolí sestavíš ty, aplikace ho nezná."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Znáš své okolí ty, klasický nástroj ti žádné opatření nevymyslí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6",
+      "http://data.europa.eu/esco/skill/103f7814-d262-4df6-a1b6-759bc51f76cb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

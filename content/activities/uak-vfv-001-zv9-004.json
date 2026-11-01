@@ -1,0 +1,385 @@
+[
+  {
+    "slug": "vyber-a-uchovani-vlastnich-praci",
+    "title": "Výběr a uchování vlastních prací",
+    "aliases": [
+      "co si nechat ze své tvorby",
+      "schovat si obrázky",
+      "uchování prací",
+      "archiv vlastních prací",
+      "dokumentace tvorby"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Dokumentuje vlastní tvorbu.",
+        "quote": "Dokumentuje vlastní tvorbu."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vybírá pro něj důležité výsledky vlastní tvůrčí činnosti a vhodným způsobem je uchovává.",
+        "quote": "Vybírá pro něj důležité výsledky vlastní tvůrčí činnosti a vhodným způsobem je uchovává."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Označení, popis a archivace vlastních tvůrčích výsledků",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Které své práce ti za to stojí, rozhoduješ ty, chatbot je nezná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukážou, jak se papírové a digitální práce uchovávají, aby nezačaly žloutnout."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Fotky a složky v telefonu nebo počítači uloží práci, i když ji nemůžeš nosit s sebou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Desky, složka nebo krabice chrání papírové práce před pomačkáním."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/473c68ee-1ab3-4bcf-b286-f7a8df0acec6",
+      "http://data.europa.eu/esco/skill/6451e645-67b5-4cc7-aafd-fab19629fa82"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zalozeni-portfolia-podle-kriterii",
+    "title": "Založení portfolia podle vlastních kritérií",
+    "aliases": [
+      "portfolio",
+      "složka s pracemi",
+      "jak uspořádat portfolio",
+      "třídění prací",
+      "kritéria výběru"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Založil portfolio vlastní tvorby (dále jen portfolio) a uspořádal jej podle samostatně stanovených kritérií.",
+        "quote": "Založil portfolio vlastní tvorby (dále jen portfolio) a uspořádal jej podle samostatně stanovených kritérií."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Portfolio",
+        "url": "https://uloziste.rvp.cz/material/127193"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, podle čeho práce řadit (téma, technika, čas), a ty si vybereš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky portfolií mladých tvůrců ti dají nápad, jak své uspořádat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na složky a štítky ti práce přeskupí, když změníš kritérium."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pořadač s kancelářskými deskami a lístky s popisem ti práce srovná podle tématu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/473c68ee-1ab3-4bcf-b286-f7a8df0acec6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "forma-portfolia-digitalni-fyzicka",
+    "title": "Digitální, papírové nebo kombinované portfolio",
+    "aliases": [
+      "složka nebo web",
+      "papírové portfolio",
+      "digitální portfolio",
+      "kam dát své práce",
+      "forma portfolia"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vede portfolio vlastní tvorby ve formě, která vychází z jeho preferencí nebo z dohody s učitelem (digitální, fyzická nebo kombinovaná podoba).",
+        "quote": "Vede portfolio vlastní tvorby ve formě, která vychází z jeho preferencí nebo z dohody s učitelem (digitální, fyzická nebo kombinovaná podoba)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Prezentace digitální sbírky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Srovná výhody papírového a digitálního portfolia, volba zůstane na tobě."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš ukázky papírových i online portfolií a uvidíš rozdíly."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Cloudové úložiště nebo jednoduchý web udrží digitální portfolio pohromadě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Velké desky na výkresy nebo album udrží papírové portfolio pohromadě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/473c68ee-1ab3-4bcf-b286-f7a8df0acec6",
+      "http://data.europa.eu/esco/skill/fa3e5cec-703e-4d46-b3bb-e8a89540ab54"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "aktualizace-a-trideni-portfolia",
+    "title": "Průběžná aktualizace a třídění portfolia",
+    "aliases": [
+      "doplňování portfolia",
+      "vyřazení starých prací",
+      "pravidelné třídění",
+      "aktualizace portfolia"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Průběžně aktualizuje a třídí portfolio v intervalech, které si zvolil nebo na kterých se domluvil s učitelem.",
+        "quote": "Průběžně aktualizuje a třídí portfolio v intervalech, které si zvolil nebo na kterých se domluvil s učitelem."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Nové práce přidáváš a staré vyřazuješ ty, chatbot neví, co jsi vytvořil."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvoje portfolio na internetu nenajdeš, třídíš ho z toho, co máš doma."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalendář ti v daný den připomene, že máš portfolio projít a doplnit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pořadač a lístky s datem usnadní přeřazení a přidání nových prací."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/473c68ee-1ab3-4bcf-b286-f7a8df0acec6",
+      "http://data.europa.eu/esco/skill/6451e645-67b5-4cc7-aafd-fab19629fa82"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zpusob-dokumentace-vlastni-tvorby",
+    "title": "Fotografie, video nebo popis vlastní práce",
+    "aliases": [
+      "jak vyfotit obrázek",
+      "natočit postup tvorby",
+      "popis práce",
+      "dokumentace tvorby",
+      "fotka sochy"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Volí vhodný způsob dokumentace vlastní tvorby s ohledem na použité prostředky (např. digitální fotografie, video, textový popis).",
+        "quote": "Volí vhodný způsob dokumentace vlastní tvorby s ohledem na použité prostředky (např. digitální fotografie, video, textový popis)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Označení, popis a archivace vlastních tvůrčích výsledků",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, co zachytit fotkou, co videem a co popsat slovy, třeba u sochy nebo performance."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukážou, jak práci vyfotit bez odlesků a ve správném světle."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Foťák a střih videa v telefonu zachytí obraz, sochu i postup tvorby."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stativ nebo lampa pomohou vyfotit práci ostře a bez stínů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38509fa4-7c06-4a4b-9622-f521f03c37b8",
+      "http://data.europa.eu/esco/skill/6451e645-67b5-4cc7-aafd-fab19629fa82"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prezentace-obsahu-portfolia",
+    "title": "Představení vlastního portfolia ostatním",
+    "aliases": [
+      "prezentace portfolia",
+      "ukázat své práce",
+      "výstavka prací",
+      "mluvit o své tvorbě"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prezentuje obsah svého portfolia formou, která mu vyhovuje a kterou považuje za přínosnou pro ostatní.",
+        "quote": "Prezentuje obsah svého portfolia formou, která mu vyhovuje a kterou považuje za přínosnou pro ostatní."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Prezentace digitální sbírky",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne osnovu představení a zeptá se, co by publikum zajímalo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky online sbírek a výstav ti dají nápad, jak práce předvést."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prezentační program nebo jednoduchý web z tvých fotek složí ukázku pro ostatní."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nástěnka nebo stůl s pracemi ti umožní výstavku udělat přímo ve třídě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/473c68ee-1ab3-4bcf-b286-f7a8df0acec6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zmeny-portfolia-a-dalsi-prace",
+    "title": "Změny portfolia a plán další tvorby",
+    "aliases": [
+      "jak se mi změnila tvorba",
+      "co jsem se naučil ve výtvarce",
+      "pokrok v tvorbě",
+      "kam dál s tvorbou"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-004",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí, jakými změnami portfolio za dané období prošlo a jak s ním zamýšlí pracovat dál.",
+        "quote": "Vysvětlí, jakými změnami portfolio za dané období prošlo a jak s ním zamýšlí pracovat dál."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co se v pracích změnilo, a pomůže ti své myšlenky vyslovit."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Změny ve své tvorbě vidíš jen ty, na internetu o nich nic není."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nepozná, v čem se tvoje práce posunuly."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Starší a nové práce vedle sebe na stole ti ukážou, co se změnilo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/473c68ee-1ab3-4bcf-b286-f7a8df0acec6",
+      "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

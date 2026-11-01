@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "taktika-v-tymovych-hrach-a-soutezich",
+    "title": "Taktické varianty v týmových hrách a soutěžích",
+    "aliases": [
+      "taktika ve hře",
+      "týmová hra",
+      "herní taktika",
+      "varianty her",
+      "soutěže v tělocviku"
+    ],
+    "outcome": "CZB-TEV-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Seznamuje se variantami her a soutěží.",
+        "quote": "Seznamuje se variantami her a soutěží."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Nacvičuje taktické varianty her a soutěží.",
+        "quote": "Nacvičuje taktické varianty her a soutěží."
+      },
+      {
+        "level": "Splněno",
+        "point": "Při týmových hrách a soutěžích využívá různé taktické varianty pohybových dovedností a spolupráce.",
+        "quote": "Při týmových hrách a soutěžích využívá různé taktické varianty pohybových dovedností a spolupráce."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Varianty pohybových dovedností při hře",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí ti různé taktiky a pomůže vymyslet, co s týmem zkusit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a popisy zápasů ti ukážou, jak týmy hrají různými způsoby."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Taktiku hraješ s týmem na hřišti ty, aplikace za tebe nepřihraje."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Míč, branky nebo koše jsou to, s čím se taktika opravdu zkouší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01",
+      "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

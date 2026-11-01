@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když v žádosti na úřad nebo v e-mailu řediteli najdeš „potřebuju“ nebo „velkej“, dá se to spravit dřív, než text odešleš. Najít takové tvary v hotovém textu a nahradit je znamená zkontrolovat vlastní práci a hodí se všude, kde záleží na tom, jak působíš. Funguje to i obráceně: do povídky nebo do dialogu můžeš nespisovný tvar dát schválně, aby postava zněla přirozeně, a spisovný tvar by tam rušil. Kontrola pravopisu řadu tvarů podtrhne, ale neví, komu píšeš, takže výběr zůstává na tobě. Lidé, kteří opravují texty, píšou zprávy nebo reklamy, to dělají každý den.",
+  "learnWithAi": [
+    {
+      "title": "E-mail na úřad s chybami",
+      "text": "Požádej chatbota o e-mail na úřad, ve kterém je schovaných šest nespisovných tvarů. Najdi je, oprav a teprve potom si nech ukázat, co ti uniklo."
+    },
+    {
+      "title": "Omluvenka do školy nanečisto",
+      "text": "Napiš omluvenku nebo žádost do školy a nech chatbota jen označit tvary, které se do formálního textu nehodí. Oprav je ty a zeptej se, proč by v rozhovoru nevadily."
+    },
+    {
+      "title": "Dialog dvou postav",
+      "text": "Vymysli krátký dialog, kde jedna postava mluví spisovně a druhá obecnou češtinou. Chatbot ti řekne, jestli se ti tvary někde nepromíchaly."
+    }
+  ]
+}

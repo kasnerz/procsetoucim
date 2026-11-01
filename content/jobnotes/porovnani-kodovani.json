@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "2079755f-d809-49e6-8037-4de6180e54c0": "Při návrhu datových skladů se volí, jak data uložit, aby zabírala málo místa a šla dál zpracovat. Úspornost, přesnost a jednoduchost se tu poměřují běžně.",
+  "810e5e67-acd5-499a-b307-cf5bea330859": "Kdo řídí ukládání informací v organizaci, občas posuzuje, v jaké podobě je uchovat. Do podrobností kódování ale většinou nejde, to řeší technici.",
+  "ef909843-97c6-4c48-8038-2e7aefdfcad5": "Ve zdravotnických systémech se záznamy ukládají v nějaké podobě a vedení dohlíží na provoz. Srovnávat způsoby kódování tu přijde jen občas.",
+  "14eb2c85-fce5-40b6-bcd0-46ac99994b0d": "Při převodu papírových záznamů do elektronické podoby se rozhoduje, v jakém formátu je uložit, aby se daly později dál zpracovat. Samotné kódování řeší software.",
+  "983c2816-a339-4817-97f4-151a9ff3e64d": "Vedení lékařské dokumentace dbá na to, aby šly záznamy o pacientech dobře uložit a znovu najít. Srovnávání kódování tu ale nepatří k hlavní práci.",
+  "7086d0ca-1e77-4690-89c9-7ed1a0478fa3": "Při kontrole přesnosti údajů se zjišťuje, jestli se při zápisu nebo převodu něco neztratilo či nezkreslilo. Kódování samo se řeší jen občas.",
+  "e7417f4f-7072-4b07-a71f-71f6fc7f5e5b": "Záznamy o zvířatech se vedou v jednotném systému a posílají se do mezinárodních databází. Záleží tedy na tom, aby šlo data předat dál, kódování samo se řeší málokdy.",
+  "ac8b3cd1-a127-4e6a-8208-5cfcf7111955": "Ve statistice se s daty pracuje v tabulkách a formát se obvykle bere hotový. Srovnávat kódování tu přijde jen výjimečně."
+ }
+}

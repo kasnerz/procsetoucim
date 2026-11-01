@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Navrhnout kódování od nuly je informatika v malém: musíš vědět, co chceš uložit, kdo to bude číst a kolik místa nebo času na to máš. Hodí se to při šifrovací hře na táboře, při zápisu výsledků měření do tabulky nebo když vedeš přehled, kdo si co půjčil ze třídní knihovničky. Lidé, kteří vyvíjejí chytrá zařízení nebo navrhují systémy pro nemocnice, takhle rozhodují pořád. Chatbot ti nabídne hotové řešení, jenže to sedí jen tehdy, když mu umíš svou situaci přesně popsat, a právě to se tu učíš.",
+  "learnWithAi": [
+    {
+      "title": "Otázky před návrhem",
+      "text": "Řekni chatbotovi, co chceš uložit, a požádej ho, ať se tě vyptá na všechno, co k návrhu potřebuje vědět. Teprve s odpověďmi v ruce navrhni kód na papír."
+    },
+    {
+      "title": "Zápis výsledků turnaje",
+      "text": "Navrhni, jak zapsat výsledky třídního turnaje do co nejkratšího řetězce znaků. Chatbot ať ho zkusí přečíst a řekne, co z něj vyčíst nejde."
+    },
+    {
+      "title": "Dva návrhy vedle sebe",
+      "text": "Vymysli pro stejnou situaci dva různé návrhy a ukaž je chatbotovi. Ať ti k oběma položí otázky a podle svých odpovědí vyber ten lepší."
+    }
+  ]
+}

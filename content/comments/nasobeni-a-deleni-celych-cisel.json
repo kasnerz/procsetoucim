@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Se zápornými čísly počítáš, kdykoli něco klesne pod nulu, třeba dluh na účtu nebo teplota v zimě. Pravidla pro znaménka ti řeknou, kterým směrem se výsledek pohne, když dluh rozdělíš na splátky nebo měsíční ztrátu vynásobíš dvanácti. Takhle počítají lidé, kteří sestavují rozpočty staveb nebo kontrolují daně. Kalkulačka znaménko spočítá správně, jenže překlep v zadání neodhalí. Když předem víš, jestli má vyjít plus, nebo mínus, chybu poznáš hned.",
+  "learnWithAi": [
+    {
+      "title": "Dvacet příkladů se znaménky",
+      "text": "Chtěj po chatbotovi dvacet příkladů typu (−6) · 4 nebo (−36) : (−9). Spočítej je na papír a teprve potom mu pošli výsledky ke kontrole."
+    },
+    {
+      "title": "Mínus krát mínus na dluzích",
+      "text": "Zeptej se, proč mínus krát mínus dává plus, a chtěj vysvětlení na příkladu s dluhy nebo s teploměrem. Zkus to pak převyprávět vlastními slovy a nech si říct, jestli to sedí."
+    },
+    {
+      "title": "Hledání schované chyby",
+      "text": "Nech chatbota vyřešit pět příkladů a schválně do dvou z nich udělat chybu ve znaménku. Najdi je a vysvětli, kde se chyba stala."
+    }
+  ]
+}

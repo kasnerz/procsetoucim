@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Navigace hledá hlavně rychlou cestu a pěšky nebo na kole tě klidně pošle podél silnice bez chodníku nebo přes rušnou křižovatku. Proto se vyplatí trasu před cestou projít v mapě, podívat se na fotky ulic a rozhodnout, kde ji upravit. Řidiči, dispečeři nebo strážci přírody takhle plánují cestu každý den, protože odpovídají i za bezpečí ostatních. Aplikace ti dá podklady, ale jestli je trasa v pořádku pro tebe a pro tuhle denní dobu, posoudíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Seznam kontrol pro trasu",
+      "text": "Nech si od chatbota sestavit krátký seznam, co na trase v mapě kontrolovat, třeba chodníky a přechody. Projdi s ním cestu na výlet nebo na trénink."
+    },
+    {
+      "title": "Dvě trasy do stejného cíle",
+      "text": "Najdi v mapě dvě cesty do stejného cíle a popiš chatbotovi, čím se liší. Nech si říct, co ještě porovnat, a vyber tu, kterou půjdeš."
+    },
+    {
+      "title": "Cesta po setmění",
+      "text": "Popiš chatbotovi trasu, kterou chodíš za světla, a zeptej se, co se na ní změní večer nebo v zimě. Jeho odpovědi pak ověř na fotkách ulic v mapě."
+    }
+  ]
+}

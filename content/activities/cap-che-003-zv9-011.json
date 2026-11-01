@@ -1,0 +1,631 @@
+[
+  {
+    "slug": "mereni-teploty-ph-casu",
+    "title": "Měření teploty, pH a času při pokusu",
+    "aliases": [
+      "měření v chemii",
+      "teploměr",
+      "pH papírek",
+      "stopky při pokusu"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše základní postupy pozorování a měření (např. teploty, pH, doby průběhu chemické reakce).",
+        "quote": "Popíše základní postupy pozorování a měření (např. teploty, pH, doby průběhu chemické reakce)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Měření nejen v chemii",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se teplota, pH a čas měří a čím."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis postupů a přístrojů, třeba pH stupnici."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Stopky v telefonu odměří dobu průběhu reakce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Teploměr a pH papírek ti hodnotu ukážou přímo v pokusu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c0e81b5-9d3d-4933-82f1-9af41ca43407",
+      "http://data.europa.eu/esco/skill/8259c2c0-2749-41e2-a4a8-4a64a76eab37"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bezpecna-prace-s-chemikaliemi",
+    "title": "Bezpečná práce s chemikáliemi a ochranné pomůcky",
+    "aliases": [
+      "bezpečnost v laboratoři",
+      "ochranné brýle",
+      "rukavice",
+      "výstražné symboly"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pracuje bezpečně s chemickými látkami, při práci používá ochranné pomůcky.",
+        "quote": "Pracuje bezpečně s chemickými látkami, při práci používá ochranné pomůcky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co značí výstražný symbol a jak s látkou zacházet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Bezpečnostní listy a značky nebezpečí si tu najdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti chemikálie nepodrží ani nenasadí brýle."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Brýle, rukavice a plášť tě chrání před rozstříknutou látkou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/89d2bb53-67fc-4b9e-80c7-07b6c587bc0d",
+      "http://data.europa.eu/esco/skill/6122d586-5978-431f-8e7a-96e61fc1f3fc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cil-a-plan-pokusu",
+    "title": "Cíl a plán pokusu",
+    "aliases": [
+      "jak naplánovat pokus",
+      "hypotéza",
+      "co chci zjistit",
+      "postup pokusu"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Formuluje cíle pozorování, demonstrací a pokusů.",
+        "quote": "Formuluje cíle pozorování, demonstrací a pokusů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Naplánuje provedení pokusu, provede jej, vyhodnotí a prezentuje jeho výsledky.",
+        "quote": "Naplánuje provedení pokusu, provede jej, vyhodnotí a prezentuje jeho výsledky."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti vymyslet postup a upozorní na kroky, které ti chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové popisy podobných pokusů ti dají inspiraci."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nerozhodne, co chceš zjistit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zápisník ti drží cíl a kroky pokusu před očima."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8259c2c0-2749-41e2-a4a8-4a64a76eab37",
+      "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rychlost-reakce-pokus",
+    "title": "Pokus o rychlosti chemické reakce",
+    "aliases": [
+      "koncentrace, povrch, teplota",
+      "rychlost reakce",
+      "co urychlí reakci",
+      "ovlivňujeme rychlost reakce"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne postup a následně provede a vyhodnotí pokus s cílem ověření faktorů ovlivňujících rychlost chemické reakce (koncentrace, povrch, teplota).",
+        "quote": "Navrhne postup a následně provede a vyhodnotí pokus s cílem ověření faktorů ovlivňujících rychlost chemické reakce (koncentrace, povrch, teplota)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Ověření faktorů ovlivňujících rychlost chemické reakce",
+        "url": ""
+      },
+      {
+        "title": "Ovlivňujeme rychlost chemické reakce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se reakce se změnou teploty nebo povrchu zrychluje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popsané příklady, třeba šumivá tableta ve vodě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Reakci ve zkumavce žádná aplikace neprovede."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zkumavky, teploměr a stopky ti dají měřitelný výsledek."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1",
+      "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zapis-vysledku-tabulky-grafy",
+    "title": "Záznam výsledků pokusu: tabulky, grafy, fotografie",
+    "aliases": [
+      "tabulka z pokusu",
+      "graf z měření",
+      "fotodokumentace",
+      "protokol z pokusu"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zaznamená naměřená data a výsledky prezentuje systematickým a přehledným způsobem (např. tabulky, grafy, fotografie).",
+        "quote": "Zaznamená naměřená data a výsledky prezentuje systematickým a přehledným způsobem (např. tabulky, grafy, fotografie)."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jak tabulku nebo graf uspořádat, aby byl přehledný."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Tvoje naměřené hodnoty na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor z čísel nakreslí graf, foťák zachytí průběh."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a milimetrový papír ti pomůžou nakreslit graf ručně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/328733a7-6d84-420d-a65c-2a8014fadc60",
+      "http://data.europa.eu/esco/skill/aafbfaa4-5f93-457e-8cb8-d4ed855277f8"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zavery-z-namerenych-dat",
+    "title": "Závěry z dat pokusu",
+    "aliases": [
+      "vyhodnocení pokusu",
+      "co vyplývá z měření",
+      "závěr z pokusu",
+      "analýza výsledků"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Analyzuje získaná data z pozorování, demonstrací nebo pokusů a vyvodí z nich závěry.",
+        "quote": "Analyzuje získaná data z pozorování, demonstrací nebo pokusů a vyvodí z nich závěry."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se, co data ukazují, a ověří ti logiku závěru."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Závěr z tvých dat ti nikdo na internetu nenapíše."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor spočítá průměr a vykreslí trend."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti pomůže přepočítat naměřené hodnoty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/aafbfaa4-5f93-457e-8cb8-d4ed855277f8"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "oddeleni-slozek-smesi",
+    "title": "Oddělení složek směsi",
+    "aliases": [
+      "filtrace",
+      "krystalizace",
+      "chromatografie na papíře",
+      "jak oddělit sůl od písku"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím vhodných experimentálních metod od sebe oddělí dvě složky směsi.",
+        "quote": "S využitím vhodných experimentálních metod od sebe oddělí dvě složky směsi."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kterou metodu zvolit pro jakou směs."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popsané postupy filtrace nebo krystalizace."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Směs neoddělíš v telefonu, děláš to rukama."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Filtrační papír, nálevka a kádinka složky skutečně oddělí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8259c2c0-2749-41e2-a4a8-4a64a76eab37",
+      "http://data.europa.eu/esco/skill/e2e9bf69-80b3-4237-afd9-40960dc3c67e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "extrakce-prirodni-latky",
+    "title": "Extrakce látky z přírodního zdroje",
+    "aliases": [
+      "extrakce kofeinu",
+      "barvivo z ovoce",
+      "výluh",
+      "vyluhování"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Provede extrakci přírodní látky z jejího přirozeného zdroje (např. kofeinu z kávy, barviv z ovoce a zeleniny).",
+        "quote": "Provede extrakci přírodní látky z jejího přirozeného zdroje (např. kofeinu z kávy, barviv z ovoce a zeleniny)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se látka do rozpouštědla vyluhuje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu postup, třeba extrakci barviv z červeného zelí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Extrakt nevznikne v aplikaci, vyluhuješ ho ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kádinka, teplá voda a filtr ti látku ze zdroje opravdu vytáhnou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8259c2c0-2749-41e2-a4a8-4a64a76eab37",
+      "http://data.europa.eu/esco/skill/e2e9bf69-80b3-4237-afd9-40960dc3c67e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zmena-ph-indikatory",
+    "title": "Změna pH s acidobazickými indikátory",
+    "aliases": [
+      "kyselé nebo zásadité",
+      "indikátor pH",
+      "lakmus",
+      "červené zelí indikátor"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "S využitím acidobazických indikátorů demonstruje změnu pH vyvolanou přidáním kyseliny/zásady.",
+        "quote": "S využitím acidobazických indikátorů demonstruje změnu pH vyvolanou přidáním kyseliny/zásady."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kyselé nebo zásadité?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč indikátor mění barvu při přidání kyseliny."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu barevnou stupnici indikátoru."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s fotoaparátem porovná barvu se stupnicí pH."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Indikátorový papírek nebo roztok změnu pH ukáže barvou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5c0e81b5-9d3d-4933-82f1-9af41ca43407",
+      "http://data.europa.eu/esco/skill/ab2e56f3-24f0-413b-a67b-291a67fc2d1f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hmotnost-pri-premene-latek",
+    "title": "Mění se hmotnost při přeměně látek",
+    "aliases": [
+      "zákon zachování hmotnosti",
+      "vážení při reakci",
+      "váhy v chemii",
+      "ocelová sopka"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě provedeného pokusu zhodnotí, zda se mění hmotnost látky v průběhu chemické a fyzikální přeměny.",
+        "quote": "Na základě provedeného pokusu zhodnotí, zda se mění hmotnost látky v průběhu chemické a fyzikální přeměny."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Ocelová sopka",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se hmotnost při uzavřené reakci nemění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu popis zachování hmotnosti i příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Hmotnost vyváženého vzorku aplikace nezjistí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Laboratorní váhy ti před a po reakci ukážou skutečný rozdíl."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/74aa00bc-db99-4984-8817-7df2ca954ea1",
+      "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozliseni-latek-podle-vlastnosti",
+    "title": "Rozlišení látek podle vlastností",
+    "aliases": [
+      "sůl, cukr a jedlá soda",
+      "hustota",
+      "rozpustnost",
+      "teplota tání a varu"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Na základě informace o vlastnostech (hustota, rozpustnost, tepelná a elektrická vodivost, teplota tání a varu) od sebe rozliší vybrané látky (např. sůl, cukr, jedlá soda).",
+        "quote": "Na základě informace o vlastnostech (hustota, rozpustnost, tepelná a elektrická vodivost, teplota tání a varu) od sebe rozliší vybrané látky (např. sůl, cukr, jedlá soda)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se látky liší hustotou nebo rozpustností."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Tabulky vlastností látek si tu najdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Neznámý prášek aplikace nepozná, zkoušíš ho ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Váha, odměrný válec a teploměr ti vlastnosti změří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39aa5571-45ce-4ba3-a280-f6870ef0075f",
+      "http://data.europa.eu/esco/skill/ab2e56f3-24f0-413b-a67b-291a67fc2d1f",
+      "http://data.europa.eu/esco/skill/0a017a46-23aa-4b9e-83b5-0ef1817fbad9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "dukaz-latek-pri-reakci",
+    "title": "Důkaz látek vznikajících při reakci",
+    "aliases": [
+      "důkaz kyslíku",
+      "důkaz oxidu uhličitého",
+      "vápenná voda",
+      "jak poznat, že vznikl plyn"
+    ],
+    "outcome": "CAP-CHE-003-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Experimentálně prokáže přítomnost vybraných látek vznikajících při reakci (např. kyslík, oxid uhličitý, kyselina, zásada).",
+        "quote": "Experimentálně prokáže přítomnost vybraných látek vznikajících při reakci (např. kyslík, oxid uhličitý, kyselina, zásada)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se který plyn dokazuje a co uvidíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu klasické důkazové zkoušky."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Důkaz proběhne ve zkumavce, ne v aplikaci."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zkumavka, doutnající špejle a indikátor látku prokážou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ab2e56f3-24f0-413b-a67b-291a67fc2d1f",
+      "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

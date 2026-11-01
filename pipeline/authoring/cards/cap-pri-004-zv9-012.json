@@ -1,0 +1,426 @@
+{
+  "outcome": "CAP-PRI-004-ZV9-012",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "urcovani-organismu-klicem-a-atlasem",
+      "title": "Určování organismů podle klíče a atlasu",
+      "aliases": [
+        "určovací klíč",
+        "atlas rostlin",
+        "poznávání živočichů",
+        "jak poznat strom",
+        "určování druhů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "určí daný organismus s pomocí určovacího klíče, atlasu nebo aplikace"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "s pomocí jednoduchých grafických klíčů určí pozorované organismy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "S pomocí jednoduchých klíčů určí pozorované organismy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí ti pojmy v klíči a poradí, jak postupovat krok za krokem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Atlasy a online klíče ukážou obrázky a znaky, podle kterých určuješ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na poznávání rostlin navrhne druh a ty ho ověříš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Lupa a tištěný atlas ti pomůžou prohlédnout drobné znaky přímo na organismu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/14c9635f-1afe-41a1-997e-7b406751e033",
+        "http://data.europa.eu/esco/skill/73997f48-cd9d-4724-872d-86ecbb2ed9a2"
+      ],
+      "inspiration": [
+        "Třídění živých organismů dle společných znaků"
+      ]
+    },
+    {
+      "slug": "zarazeni-do-skupin-podle-znaku",
+      "title": "Zařazení organismů do skupin podle znaků",
+      "aliases": [
+        "třídění organismů",
+        "skupiny živočichů",
+        "společné znaky",
+        "taxonomické skupiny",
+        "rozdělení rostlin a hub"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Třídí vybrané zástupce živočichů, rostlin a hub do skupin."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "vyvozuje vlastnosti společné pro danou skupinu organismů"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na základě znalosti charakteristických znaků, zařadí organismy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Na základě znalosti charakteristických znaků zařadí organismy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí znaky skupin a zkouší tě na příkladech organismů."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a Wikipedie uvádějí znaky skupin i zástupce."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace druh rozpozná, ale proč patří do skupiny, vyvozuješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Atlas ukáže zástupce, znaky a zařazení musíš najít a porovnat ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/14c9635f-1afe-41a1-997e-7b406751e033",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": [
+        "Třídění živých organismů dle společných znaků"
+      ]
+    },
+    {
+      "slug": "vyznamne-druhy-organismu",
+      "title": "Hospodářsky významné, chráněné a jedovaté druhy",
+      "aliases": [
+        "jedovaté houby",
+        "chráněné druhy",
+        "nebezpeční živočichové",
+        "užitečné rostliny",
+        "jedovaté rostliny"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady hospodářsky významných, chráněných, pro člověka nebezpečných a jedovatých druhů z různých skupin"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč je druh chráněný nebo nebezpečný, a doplní příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy chráněných druhů a atlasy jedovatých hub jsou ověřený zdroj."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace druh pozná, ale nebezpečnost si musíš ověřit v atlasu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tištěný atlas jedovatých druhů ti ukáže rozlišovací znaky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/73997f48-cd9d-4724-872d-86ecbb2ed9a2",
+        "http://data.europa.eu/esco/skill/a07a5d41-add0-4d0f-ad01-718d39554be8"
+      ]
+    },
+    {
+      "slug": "vyvoj-znaku-ve-fylogenetickem-schematu",
+      "title": "Vývoj znaku ve fylogenetickém schématu",
+      "aliases": [
+        "fylogenetický strom",
+        "evoluce dýchání",
+        "pokryv těla obratlovců",
+        "vývoj znaku",
+        "příbuzenský strom"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "s pomocí jednoduchého fylogenetického schématu popíše, jak se konkrétní znak vyvíjel"
+        },
+        {
+          "level": "Splněno",
+          "quote": "S pomocí jednoduchého fylogenetického schématu popíše, jak se konkrétní znak vyvíjel"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti číst větvení stromu a vysvětlí, proč se znaky přizpůsobily."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázky stromů života ukážou, kde se skupiny rozvětvily."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace schéma nevysvětlí, čtení větvení a závěry děláš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nakreslit strom a vyvodit z něj závěr musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": [
+        "Fylogenetické stromy",
+        "Evoluční strom a taxonomické vztahy"
+      ]
+    },
+    {
+      "slug": "clovek-v-pribuzenskych-vztazich",
+      "title": "Člověk v příbuzenství živočichů",
+      "aliases": [
+        "původ člověka",
+        "vývoj člověka",
+        "předci člověka",
+        "neandertálec",
+        "příbuzní člověka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zařadí člověka do příbuzenských vztahů s ostatními skupinami živočichů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Zařadí člověka do příbuzenských vztahů s ostatními skupinami živočichů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kdo jsou naši příbuzní a jak se větve křížily."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a muzejní stránky ukazují nálezy a mapy šíření předků."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s časovou osou nic nevysvětlí, zobrazení musíš číst ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zobrazení vývoje člověka si z papíru přečteš ty, nástroj ti ho nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c2aacac0-5a16-4493-b769-e7c052916d39",
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793"
+      ],
+      "inspiration": [
+        "Vznik a vývoj člověka"
+      ]
+    },
+    {
+      "slug": "podobny-znak-bez-pribuznosti",
+      "title": "Podobné znaky nepříbuzných organismů",
+      "aliases": [
+        "křídlo ptáků a netopýrů",
+        "konvergence",
+        "podobnost bez příbuznosti",
+        "analogie",
+        "proč vypadají podobně"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyjmenuje několik příkladů, kdy mají organismy podobný znak, ale není to z důvodu příbuznosti"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vyjmenuje několik příkladů, kdy mají organismy podobný znak, ale není to z důvodu příbuznosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč stejný způsob života vytvoří podobný znak, a dá příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie uvádí příklady, třeba křídla ptáků a netopýrů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace příklady nepodá, rozlišit původ znaku musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Atlas ukáže stavbu křídel, ale srovnat je musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": [
+        "Evoluční strom a taxonomické vztahy"
+      ]
+    },
+    {
+      "slug": "spolecny-jednobunecny-predek",
+      "title": "Společný jednobuněčný předek",
+      "aliases": [
+        "první buňka",
+        "vznik života",
+        "předek všech organismů",
+        "prabuňka",
+        "život bez kyslíku"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popíše společného jednobuněčného předka včetně prostředí"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Popíše společného jednobuněčného předka včetně prostředí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak žil první předek, a odpoví na doplňující otázky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie popisuje prostředí a podobu nejstarších buněk."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace předka nepřiblíží, popis skládáš ty z toho, co víš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mikroskop ukáže dnešní bakterie, předka ale neukáže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": [
+        "Fylogenetické stromy"
+      ]
+    },
+    {
+      "slug": "jednobunecne-a-mnohobunecne-ve-schematu",
+      "title": "Jednobuněčné a mnohobuněčné organismy ve schématu",
+      "aliases": [
+        "vznik buňky s jádrem",
+        "jednobuněčné organismy",
+        "mnohobuněčné organismy",
+        "eukaryota",
+        "strom života"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "s pomocí jednoduchého fylogenetického schématu porovná rozmanitost jednobuněčných a mnohobuněčných organismů"
+        },
+        {
+          "level": "Splněno",
+          "quote": "S pomocí jednoduchého fylogenetického schématu porovná rozmanitost jednobuněčných a mnohobuněčných organismů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kde ve stromu vznikla buňka s jádrem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázky stromu života ukazují větve jednobuněčných i mnohobuněčných."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace schéma nevyčte, porovnat větve musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Mikroskop ti ukáže řasy a prvoky, které porovnáváš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793",
+        "http://data.europa.eu/esco/skill/9433da85-70fa-4a25-8f96-71fa59dd1989"
+      ],
+      "inspiration": [
+        "Fylogenetické stromy",
+        "Řasy pod mikroskopem i na talíři"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "zhodnotí možné pozitivní",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

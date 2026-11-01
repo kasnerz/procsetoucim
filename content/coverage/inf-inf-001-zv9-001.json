@@ -1,0 +1,124 @@
+{
+  "outcome": "INF-INF-001-ZV9-001",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozpozná různé druhy dat - číslo, text, obrázek a pojmenuje je.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "druhy-dat"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Provede sběr dat k určitému tématu a zaznamená je do přehledné tabulky.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "sber-dat-do-tabulky"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Analyzuje základní data, učí se rozpoznávat chybné interpretace dat.",
+      "cards": [
+        "chybne-a-zavadejici-interpretace-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Formuluje závěry na základě porovnání dat z více zdrojů.",
+      "cards": [
+        "overovani-dat-z-vice-zdroju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Uvědomuje si, že získaná či předkládaná data mohou být nespolehlivá a že je nutné ověřovat informace z více nezávislých zdrojů.",
+      "cards": [
+        "overovani-dat-z-vice-zdroju"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozliší různou úroveň relevance, validity a spolehlivosti dat a jejich zdrojů.",
+      "cards": [
+        "relevance-validita-spolehlivost-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Poznává a využívá různé metody a nástroje pro práci s daty.",
+      "cards": [
+        "nastroje-pro-praci-s-daty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozpozná očividně chybné interpretace dat.",
+      "cards": [
+        "chybne-a-zavadejici-interpretace-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Interpretuje data v různých podobách (hodnoty v tabulkách, schémata, infografika, vizualizace...).",
+      "cards": [
+        "cteni-dat-v-ruznych-podobach"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vybírá, vyhledává nebo získává data co nejužitečnější pro odpověď na danou otázku.",
+      "cards": [
+        "vyber-uzitecnych-dat-pro-otazku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vybírá a využívá vhodné metody a nástroje pro práci s daty, jejich organizaci, strukturování a sumarizaci, aby je mohl lépe zpracovat a interpretovat.",
+      "cards": [
+        "nastroje-pro-praci-s-daty"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná chybné interpretace dat, včetně běžných způsobů možné manipulace.",
+      "cards": [
+        "chybne-a-zavadejici-interpretace-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Formuluje odpovědi a závěry, hodnotí spolehlivost svých závěrů a rozhoduje o řešení konkrétního problému na základě dat.",
+      "cards": [
+        "zavery-z-dat-se-spolehlivosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Získá z dat základní informace, interpretuje data z oblastí, se kterými má zkušenosti.",
+      "cards": [
+        "zavery-z-dat-se-spolehlivosti"
+      ],
+      "aside": null
+    }
+  ]
+}

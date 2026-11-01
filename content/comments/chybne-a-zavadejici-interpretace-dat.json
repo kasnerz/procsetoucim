@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Graf s osou, která nezačíná od nuly, udělá z malého rozdílu obrovský skok a článek pak píše o „dramatickém růstu“. Podobných triků je víc: srovnání nesrovnatelného, procenta bez celkového počtu nebo závěr, že jedna věc způsobuje druhou, jen protože rostou spolu. Když je poznáš, nenaletíš reklamě ani předvolební kampani a ve vlastním referátu je nepoužiješ omylem. Statistici, datoví analytici a epidemiologové na to myslí u každé práce s čísly a takových míst spíš přibude. Chatbot tě na trikách může vyzkoušet, jenže sám někdy čte data chybně, takže kontrola zůstává na tobě.",
+  "learnWithAi": [
+    {
+      "title": "Grafy s nachytávkou",
+      "text": "Požádej chatbota, ať ti popíše pět grafů, z nichž některé klamou. U každého rozhodni, jestli je v pořádku, a teprve pak si přečti jeho vysvětlení."
+    },
+    {
+      "title": "Rozbor titulku s procenty",
+      "text": "Najdi ve zprávách titulek s procenty a napiš, co by v něm mohlo být zavádějící. Porovnej svůj rozbor s rozborem chatbota a v původních datech se podívej, kdo má pravdu."
+    },
+    {
+      "title": "Poctivý a klamavý graf",
+      "text": "Vezmi skutečná čísla, třeba své známky ze dvou pololetí, a nakresli z nich v tabulkovém procesoru jeden poctivý a jeden klamavý graf. Chatbotovi popiš svůj trik a nech si říct, jak by ho poznal pozorný čtenář."
+    }
+  ]
+}

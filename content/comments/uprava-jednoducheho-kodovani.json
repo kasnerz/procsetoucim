@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Vylepšit kód znamená vzít něco, co funguje, a udělat to kratší, odolnější proti chybám nebo snazší na čtení. Stejně přemýšlejí lidé, kteří programují chytrou domácnost nebo zařízení posílající data přes internet, protože každý ušetřený znak i každá přidaná kontrola má svou cenu. Ve škole to zkoušíš na malých kódech, třeba na tajné abecedě, a zjistíš, že každá změna něco přinese a něco vezme. Chatbot ti úpravu navrhne rychle, ale jestli se pro tvůj účel hodí, poznáš až zkouškou. Většině lidí to poslouží spíš jako trénink přemýšlení než jako věc, kterou budou v práci dělat.",
+  "learnWithAi": [
+    {
+      "title": "Kratší značky pro častá písmena",
+      "text": "Požádej chatbota o jednoduchý kód, kde má každé písmeno stejně dlouhou značku. Uprav ho tak, aby častá písmena měla kratší značky, a nech si spočítat, kolik se tím na jedné větě ušetří."
+    },
+    {
+      "title": "Zisky a ztráty úpravy",
+      "text": "Ukaž chatbotovi původní kód i svou upravenou verzi a vysvětli mu, co změna přinesla a co vzala. Ať se doptává, dokud to nemáš jasně pojmenované."
+    },
+    {
+      "title": "Kontrolní znak proti překlepům",
+      "text": "Vymysli, jak k číselnému kódu přidat jeden znak navíc, podle kterého se pozná překlep. Návrh popiš chatbotovi a nech ho hledat chybu, kterou tvůj kontrolní znak nezachytí."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Jízdní řád, graf s předpovědí počasí, nutriční tabulka na jogurtu nebo infografika ve zprávách, to všechno jsou data a každé se čte trochu jinak. Když se rychle zorientuješ v osách, legendě a jednotkách, za pár vteřin zjistíš, kdy ti jede autobus nebo kolik cukru je ve svačině. V práci čtou grafy a tabulky statistici a analytici, ale taky lidé v call centrech nebo v údržbě strojů, kde graf prozradí, že se blíží porucha. Chatbot vysvětlí, co znamenají osy a legenda, jenže na zastávce nebo v obchodě se rozhoduješ hned a bez něj.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k nutriční tabulce",
+      "text": "Vyfoť nutriční tabulku z jogurtu a nech chatbota vymyslet k ní pět otázek. Odpovídej podle tabulky a nech si odpovědi zkontrolovat."
+    },
+    {
+      "title": "Popis grafu vlastními slovy",
+      "text": "Najdi ve zprávách graf a napiš třemi větami, co ukazuje. Pošli chatbotovi graf i svůj popis a nech si říct, co v popisu chybí nebo je nepřesné."
+    },
+    {
+      "title": "Tabulka převedená do grafu",
+      "text": "Vezmi tabulku, třeba průměrné teploty po měsících, a udělej z ní graf v tabulkovém procesoru. Chatbota se zeptej, jaký typ grafu se hodí nejlíp, a zdůvodni, jestli s ním souhlasíš."
+    }
+  ]
+}

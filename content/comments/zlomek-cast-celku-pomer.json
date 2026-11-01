@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Zlomek může znamenat kus celku („tři čtvrtiny pizzy“), poměr („jeden díl sirupu na čtyři díly vody“) i obyčejné číslo, které leží mezi dvěma celými. Když poznáš, který význam zrovna platí, nezmateš se v receptu, v návodu na ředění barvy ani u nabídky „třetina zdarma“. Kalkulačka ti zlomek převede na desetinné číslo, ale co to číslo v dané situaci znamená, musíš vědět ty. V kuchyních a cukrárnách se přepočítávají recepty, v pivovarech hlídají poměry surovin a kdo vypisuje sázkové kurzy, vyjadřuje šance právě poměrem.",
+  "learnWithAi": [
+    {
+      "title": "Zlomky z receptu",
+      "text": "Vypiš z receptu všechny zlomky a u každého rozhodni, jestli jde o část celku, nebo o poměr. Svoje rozhodnutí ukaž chatbotu a nech si ho okomentovat."
+    },
+    {
+      "title": "Dvě třetiny v pěti situacích",
+      "text": "Požádej chatbota o pět situací se zlomkem 2/3, každou s trochu jiným významem. Ke každé nakresli obrázek a napiš, co zlomek znamená."
+    },
+    {
+      "title": "Vlastní úloha s poměrem",
+      "text": "Vymysli úlohu, ve které zlomek znamená poměr, a dej ji chatbotu vyřešit. Když vyjde něco jiného, než čekáš, zjisti, jestli je chyba v zadání, nebo v jeho výpočtu."
+    }
+  ]
+}

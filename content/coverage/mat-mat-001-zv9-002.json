@@ -1,0 +1,71 @@
+{
+  "outcome": "MAT-MAT-001-ZV9-002",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "porovnává celá čísla a zobrazuje je na číselnou osu",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zaporna-cisla-na-ose"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "sčítá a odčítá celá čísla pomocí modelů a číselného zápisu",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "pocitani-se-zapornymi-cisly"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "násobí a dělí celá čísla",
+      "cards": [
+        "nasobeni-a-deleni-celych-cisel"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "určí dělitele a násobky přirozených čísel",
+      "cards": [
+        "delitele-a-nasobky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí společné dělitele a společné násobky dvou přirozených čísel.",
+      "cards": [
+        "spolecni-delitele-a-spolecne-nasobky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy z reálného světa, ve kterých je násobení či dělení dvou celých čísel, z nichž alespoň jedno je záporné.",
+      "cards": [
+        "ulohy-s-nasobenim-a-delenim-zapornych-cisel"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Pozná záporná čísla a rozliší je v běžných situacích.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zaporna-cisla-v-situacich"
+        ]
+      }
+    }
+  ]
+}

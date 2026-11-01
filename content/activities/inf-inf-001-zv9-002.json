@@ -1,0 +1,485 @@
+[
+  {
+    "slug": "znacky-piktogramy-a-kody",
+    "title": "Značky, piktogramy a kódy",
+    "aliases": [
+      "piktogramy",
+      "značky",
+      "symboly",
+      "kódy",
+      "morseovka"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Využívá značky, piktogramy, symboly a kódy pro záznam informací.",
+        "quote": "Využívá značky, piktogramy, symboly a kódy pro záznam informací."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak fungují kódy, a vymyslí s tebou zkušební zprávy k luštění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam tabulky značek, piktogramů a kódů, třeba Morseovu abecedu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti značky nevymyslí ani nenakreslí tvoje vlastní do sešitu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka stačí na vlastní značky a tajnou zprávu pro kamaráda."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "velikost-ruznych-druhu-dat",
+    "title": "Různá data zabírají různé místo",
+    "aliases": [
+      "velikost souboru",
+      "kolik místa zabírá",
+      "megabajty",
+      "paměť v počítači"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvědomuje si, že různá data v počítači jsou kódována různými způsoby a zabírají různé místo v závislosti na typu dat.",
+        "quote": "Uvědomuje si, že různá data v počítači jsou kódována různými způsoby a zabírají různé místo v závislosti na typu dat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč video zabírá víc místa než text, a pomůže s odhadem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam příklady velikostí souborů a vysvětlení bajtů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Správce souborů ukáže velikost každé fotky, písničky a dokumentu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj velikost digitálních dat neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+      "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zpusoby-kodovani-dat",
+    "title": "Kódování textu, obrázků, zvuku a videa",
+    "aliases": [
+      "jak se kóduje text",
+      "kódování obrázků",
+      "pixely",
+      "jak funguje zvuk v počítači"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Seznamuje se se způsoby kódování dat (např.: textů, obrázků, zvuků a videa).",
+        "quote": "Seznamuje se se způsoby kódování dat (např.: textů, obrázků, zvuků a videa)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede a vysvětlí základní způsoby kódování různých druhů dat.",
+        "quote": "Předvede a vysvětlí základní způsoby kódování různých druhů dat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí kódování po krocích a dá ti příklady ke zkoušení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam popis pixelů, ASCII a vzorkování zvuku."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Editor obrázků nebo zvuku ukáže, z čeho se soubor skládá."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Čtverečkovaný papír a pastelky ti ukážou, jak vzniká obrázek z pixelů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "velikost-a-presnost-zaznamu",
+    "title": "Velikost dat a přesnost záznamu",
+    "aliases": [
+      "velikost nebo kvalita",
+      "rozlišení obrázku",
+      "počet barev",
+      "komprese"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Nastavuje rovnováhu velikosti dat a přesnosti kódování, např. počet a tím i velikost věkových kategorií, přesnost souřadnic pro určení polohy, počet rozlišovaných barev, rozlišení obrázku, frekvence měření.",
+        "quote": "Nastavuje rovnováhu velikosti dat a přesnosti kódování, např. počet a tím i velikost věkových kategorií, přesnost souřadnic pro určení polohy, počet rozlišovaných barev, rozlišení obrázku, frekvence měření."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Při zpracování a ukládání dat zvažuje rovnováhu mezi velikostí a kvalitou záznamu.",
+        "quote": "Při zpracování a ukládání dat zvažuje rovnováhu mezi velikostí a kvalitou záznamu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Optimalizace kódování meteorologických dat",
+        "url": "https://uloziste.rvp.cz/material/9b9bd8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co přesnější záznam stojí, a probere s tebou příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam srovnání kvality obrázků a zvuků při různé velikosti."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Editor obrázku ukáže, co udělá nižší rozlišení nebo méně barev."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhodnutí, co stačí, děláš ty podle toho, k čemu data potřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uprava-jednoducheho-kodovani",
+    "title": "Vylepšení jednoduchého kódování",
+    "aliases": [
+      "upravit kód",
+      "zlepšit šifru",
+      "kratší kód",
+      "opravit kódování"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Upravuje jednoduché kódování tak, aby vylepšil některou jeho vlastnost.",
+        "quote": "Upravuje jednoduché kódování tak, aby vylepšil některou jeho vlastnost."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, co v kódu zkrátit nebo zpřesnit, a ty to vyzkoušíš."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové odpovědi nenajdeš, úpravu vymýšlíš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka nebo textový editor ti dovolí kód rychle přepsat a vyzkoušet."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papíře si kód přepíšeš a zkusíš, jestli ho kamarád přečte."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kodovani-pro-prijemce",
+    "title": "Kódování, které příjemce přečte",
+    "aliases": [
+      "dekódování",
+      "poslat zprávu",
+      "aby to druhý přečetl",
+      "pravidla kódu"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Při volbě způsobu uložení (kódování) dat zvažuje možnosti příjemce sdělení data přečíst (dekódovat).",
+        "quote": "Při volbě způsobu uložení (kódování) dat zvažuje možnosti příjemce sdělení data přečíst (dekódovat)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje příjemce, který zprávu čte, a řekne ti, kde se zasekl."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co umí přečíst konkrétní člověk, ti web neřekne."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepozná, jestli kód pochopí tvůj kamarád."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zprávu na papíře dáš kamarádovi a hned vidíš, jestli ji přečte."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "navrh-kodovani-pro-situaci",
+    "title": "Návrh kódování pro danou situaci",
+    "aliases": [
+      "vymyslet kód",
+      "navrhnout kódování",
+      "uložení a sdílení dat",
+      "korálky na provázku"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Navrhne způsob kódování dat s cílem uložení a sdílení.",
+        "quote": "Navrhne způsob kódování dat s cílem uložení a sdílení."
+      },
+      {
+        "level": "Splněno",
+        "point": "Zváží potřebné vlastnosti kódování pro danou situaci a navrhne řešení.",
+        "quote": "Zváží potřebné vlastnosti kódování pro danou situaci a navrhne řešení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Optimalizace kódování meteorologických dat",
+        "url": "https://uloziste.rvp.cz/material/9b9bd8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se, co a komu posíláš, a pomůže ti návrh promyslet."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotový návrh pro tvou situaci na webu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka nebo editor ti dovolí návrh hned vyzkoušet na vzorku dat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír, tužka nebo korálky na provázku stačí k vyzkoušení návrhu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-kodovani",
+    "title": "Porovnání kódování podle kritérií",
+    "aliases": [
+      "které kódování je lepší",
+      "úspornost",
+      "přesnost",
+      "srovnání kódů"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Hodnotí kódování z různých hledisek: úspornost, přesnost, jednoduchost použitého principu (a tím náročnost kódování), hodnotí možnost dalšího zpracování zakódovaných dat.",
+        "quote": "Hodnotí kódování z různých hledisek: úspornost, přesnost, jednoduchost použitého principu (a tím náročnost kódování), hodnotí možnost dalšího zpracování zakódovaných dat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou kritéria a ukáže výhody i slabiny každého kódu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam srovnání běžných kódování a jejich vlastností."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace ti spočítá velikost zakódovaných dat u různých variant."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Které kritérium je v tvé situaci hlavní, rozhodneš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volba-formatu-souboru",
+    "title": "Volba datového typu a formátu souboru",
+    "aliases": [
+      "JPG nebo PNG",
+      "formáty souborů",
+      "typ souboru",
+      "MP3"
+    ],
+    "outcome": "INF-INF-001-ZV9-002",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Přehled o vlastnostech kódování využívá v praktických situacích, zejména ke vhodné volbě datových typů a formátů souborů.",
+        "quote": "Přehled o vlastnostech kódování využívá v praktických situacích, zejména ke vhodné volbě datových typů a formátů souborů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Porovnání vlastností různých typů souborů s obrázkem",
+        "url": "https://uloziste.rvp.cz/material/3c6c83"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, který formát se hodí pro fotku, kresbu nebo zvuk, a proč."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tam přehled formátů a jejich vlastností."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Editor obrázku uloží stejný obrázek v několika formátech a ty porovnáš velikost."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Formát souboru je digitální věc, klasický nástroj k ní nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+      "http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

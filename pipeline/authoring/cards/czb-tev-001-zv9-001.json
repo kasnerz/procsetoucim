@@ -1,0 +1,75 @@
+{
+  "outcome": "CZB-TEV-001-ZV9-001",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "nacvik-pohybove-dovednosti-podle-ukazky",
+      "title": "Nácvik pohybové dovednosti podle ukázky",
+      "aliases": ["nácvik pohybu", "tělocvik nácvik", "cvičení podle ukázky", "naučit se pohyb", "technika pohybu"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Na základě ukázky se seznamuje s očekávanými pohybovými dovednostmi."},
+        {"level": "Na cestě", "quote": "Nacvičuje pohybové dovednosti."},
+        {"level": "Splněno", "quote": "Předvede pohybové dovednosti."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Pohyb předvádíš tělem ty, chatbot ti ho jen popíše slovy."},
+        "internet": {"verdict": "pomuze", "why": "Video s trenérem ti ukáže, jak má pohyb vypadat, než ho zkusíš."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace s videem nebo záznamem z mobilu ti ukáže tvůj pohyb zpomaleně."},
+        "klasicky": {"verdict": "pomuze", "why": "Míč, raketa nebo koš ti dají skutečnou zpětnou vazbu: trefíš, nebo ne."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229",
+        "http://data.europa.eu/esco/skill/2ff6daae-8319-4e56-bc4d-bb574754aec4"
+      ],
+      "inspiration": ["Basketbal: dvojtakt se střelbou na koš - nácvik", "YouTube trenér"]
+    },
+    {
+      "slug": "pohybova-dovednost-v-individualni-a-tymove-cinnosti",
+      "title": "Pohybová dovednost v samostatné a týmové hře",
+      "aliases": ["týmová hra", "tělocvik hra", "použít naučený pohyb", "basketbal", "spolupráce ve sportu"],
+      "sources": [
+        {"level": "Splněno", "quote": "Využívá tyto dovednosti při individuální či týmové činnosti."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Ve hře běháš a přihráváš ty, chatbot ti na hřišti nepomůže."},
+        "internet": {"verdict": "nepomuze", "why": "Pravidla si najdeš, ale hru s ostatními hraješ ty, v reálném čase."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace za tebe nepřihraje a nepozná, kam se v týmu postavit."},
+        "klasicky": {"verdict": "pomuze", "why": "Míč, koš nebo raketa jsou to, s čím se hra opravdu hraje a trénuje."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01",
+        "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229"
+      ],
+      "inspiration": ["Basketbal: dvojtakt se střelbou na koš"]
+    },
+    {
+      "slug": "uprava-pohybu-podle-zpetne-vazby",
+      "title": "Úprava pohybu podle rady učitele nebo spolužáka",
+      "aliases": ["zpětná vazba v tělocviku", "oprava techniky", "rada od trenéra", "zlepšit pohyb", "chyby v pohybu"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Reaguje na zpětnou vazbu učitele nebo spolužáka."},
+        {"level": "Splněno", "quote": "Reaguje na zpětnou vazbu učitele nebo spolužáka."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Chatbot tě při cvičení nevidí, nepozná, co ti v pohybu nejde."},
+        "internet": {"verdict": "pomuze", "why": "Videa a popisy techniky ukážou, jak vypadá správný pohyb, který porovnáš se svým."},
+        "aplikace": {"verdict": "pomuze", "why": "Záznam z mobilu ti ukáže chybu, kterou při pohybu neucítíš."},
+        "klasicky": {"verdict": "nepomuze", "why": "Radu musí říct člověk, který tě vidí, míč ani koš ji nedají."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ac846964-c171-4d43-8834-cc83ff96f582",
+        "http://data.europa.eu/esco/skill/dbadb531-2fb9-4361-b80b-9be8c3c54229"
+      ],
+      "inspiration": ["YouTube trenér"]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Osvojí si pohybové dovednosti", "code": "O3", "refs": []}
+  ]
+}

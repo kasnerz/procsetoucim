@@ -1,0 +1,499 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-004",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "spisovna-a-nespisovna-slova",
+      "title": "Spisovná a nespisovná slova",
+      "aliases": [
+        "spisovná čeština",
+        "nespisovná slova",
+        "hovorová čeština",
+        "obecná čeština",
+        "slang"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozlišuje a v komunikaci užívá slova spisovná a nespisovná"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl a vymyslí příklady slov do spisovné i nespisovné věty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka řekne, jestli je slovo spisovné."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu v textovém editoru podtrhne mnohá nespisovná slova."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovo do rozhovoru nebo školního textu vybíráš ty, žádný nástroj se tě nezastane."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ]
+    },
+    {
+      "slug": "neutralni-a-citove-zabarvena-slova",
+      "title": "Neutrální a citově zabarvená slova",
+      "aliases": [
+        "citově zabarvená slova",
+        "expresivní slova",
+        "zdrobněliny",
+        "hanlivá slova",
+        "neutrální slova"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje a v komunikaci užívá slova neutrální a citově zabarvená"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, jak se věta mění, když dosadíš neutrální nebo citově zabarvené slovo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky u hesel uvádějí, zda je slovo hanlivé, hovorové nebo zdrobnělé."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s takovým rozlišením pro češtinu nepomůže, citové zabarvení posoudíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový slovník u hesla značí, jestli slovo působí hanlivě nebo mazlivě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ]
+    },
+    {
+      "slug": "souslovi-a-odborne-nazvy",
+      "title": "Sousloví a odborné názvy",
+      "aliases": [
+        "sousloví",
+        "víceslovné pojmenování",
+        "odborný název",
+        "odborné termíny",
+        "slovo a sousloví"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "slova a sousloví"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "odborné názvy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se sousloví liší od dvou volných slov, a dá příklady z různých oborů."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a odborné slovníky uvádějí odborné názvy a jejich význam."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s vyhledáváním názvů ti dá hotový výsledek, rozlišovat sousloví musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník cizích slov a odborná příručka vysvětlí, co odborný název znamená."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ],
+      "inspiration": [
+        "Rozšiřování slovní zásoby"
+      ]
+    },
+    {
+      "slug": "zkratky-a-znacky",
+      "title": "Významy zkratek a značek",
+      "aliases": [
+        "zkratky",
+        "značky",
+        "zkratková slova",
+        "značka",
+        "co znamená zkratka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozlišuje významy běžně používaných zkratek a značek"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozluští zkratku a řekne, že stejná zkratka může znamenat různé věci."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy zkratek na internetu ukážou, co zkratka znamená."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti zkratku jen přeloží, pochopit ji v kontextu musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tištěný slovník zkratek a značek najdeš u příručky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ]
+    },
+    {
+      "slug": "puvod-slov-ve-slovniku",
+      "title": "Původ slov ve slovníku",
+      "aliases": [
+        "etymologie",
+        "původ slova",
+        "etymologický slovník",
+        "odkud slovo pochází",
+        "slovo domácí a přejaté"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "S pomocí slovníku určuje původ slov."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, odkud slovo pochází, ale ověř si to ve slovníku, chatbot se může splést."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Online etymologické slovníky u hesla uvádějí původ."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace určující původ slov pro češtinu nejsou, hledat v hesle budeš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový slovník cizích slov u hesla ukáže, z jakého jazyka slovo je."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ]
+    },
+    {
+      "slug": "prejata-slova",
+      "title": "Přejatá slova a jejich užívání",
+      "aliases": [
+        "přejatá slova",
+        "cizí slova",
+        "výslovnost cizích slov",
+        "pravopis přejatých slov",
+        "internacionalismy"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady přejatých slov a dokáže je využít v mluveném i v písemném projevu se správnou výslovností a ve správné grafické podobě."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvede příklad slova zkratkového, přejatého, složeného a víceslovného pojmenování"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá příklady přejatých slov a vysvětlí jejich pravopis, výslovnost zkontroluješ jinde."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka ukáže správný pravopis a výslovnost přejatého slova."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu ti označí chybně napsané přejaté slovo."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník cizích slov uvádí výslovnost i správný zápis."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ]
+    },
+    {
+      "slug": "nahrazovani-prejatych-a-domacich-slov",
+      "title": "Přejatá slova a slova domácího původu",
+      "aliases": [
+        "nahrazení cizích slov",
+        "český ekvivalent",
+        "domácí slovo",
+        "přejaté slovo místo domácího",
+        "synonyma"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Nahrazuje přejatá slova slovy domácího původu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Slova domácího původu s pomocí slovníku nahrazuje slovy přejatými."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne české slovo místo cizího i naopak, rozhodnout, co sedí do textu, musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník synonym a Internetová jazyková příručka nabídnou slova stejného významu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s takovou záměnou pro češtinu nepomůže, vhodnost slova posoudíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník cizích slov a slovník synonym ukážou české i cizí protějšky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ]
+    },
+    {
+      "slug": "tvoreni-slov-a-obohacovani-slovni-zasoby",
+      "title": "Tvoření slov a obohacování slovní zásoby",
+      "aliases": [
+        "tvoření slov",
+        "skládání slov",
+        "zkratková slova",
+        "odvozování",
+        "jak vznikají slova"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "využívá v komunikaci poznatky o tvoření slov, rozlišuje významy slov utvořených různými způsoby"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvede způsoby obohacování slovní zásoby"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí odvozování, skládání i zkracování a vymyslí k nim další slova."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Jazykové příručky a encyklopedie popisují, jak slova vznikají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvoření slov rozebere, ale význam nově utvořeného slova posoudíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Učebnice a slovník ukazují, z jakých částí je slovo složeno."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/d4ae9564-0b61-4aa0-9df0-d4fdc969fd6f"
+      ],
+      "inspiration": [
+        "Předpony a přípony"
+      ]
+    },
+    {
+      "slug": "nepriama-pojmenovani-a-frazemy",
+      "title": "Nepřímá pojmenování a rčení",
+      "aliases": [
+        "frazeologie",
+        "rčení",
+        "přísloví",
+        "přirovnání",
+        "metafora",
+        "publicistika"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná a funkčně využije nepřímá pojmenování, například v oblasti frazeologie a publicistiky."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí význam rčení a vymyslí věty, kde se hodí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník frazémů a přísloví vysvětlí původ i význam rčení."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace rčení jen přeloží doslova, funkční užití ve vlastním textu je na tobě."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník české frazeologie uvádí významy rčení s příklady."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2"
+      ]
+    },
+    {
+      "slug": "rozsirovani-vlastni-slovni-zasoby",
+      "title": "Rozšiřování vlastní slovní zásoby",
+      "aliases": [
+        "slovní zásoba",
+        "nová slova",
+        "bohatší slovní zásoba",
+        "učení slovíček",
+        "čtení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozšiřuje svoji slovní zásobu a využívá ji v mluvené i psané komunikaci."
+        }
+      ],
+      "rules": [
+        "P1"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí cvičení s novými slovy a vysvětlí jejich význam, použít je musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky a texty na internetu ti dávají nová slova a příklady jejich užití."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na slovíčka ti nová slova procvičuje a připomíná."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník a čtená kniha ti nová slova ukazují v souvislostech."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/810df100-e85a-4c13-b619-34030a75ecc2",
+        "http://data.europa.eu/esco/skill/e70e248e-9fed-4e22-8fb1-87567441ce0c"
+      ],
+      "inspiration": [
+        "Rozvíjíme slovní zásobu"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Využívá znalosti o slovní zásobě",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "používá vhodně zvolená slova v daném kontextu",
+      "code": "O1",
+      "refs": [
+        "slovni-zasoba-vyber-vhodneho-slova"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "posuzuje význam slov",
+      "code": "O1",
+      "refs": [
+        "slovni-zasoba-odhad-vyznamu-a-slovnik"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "rozlišuje antonyma",
+      "code": "O1",
+      "refs": [
+        "slovni-zasoba-protiklady-slov",
+        "slovni-zasoba-nadrazena-podrazena-slova"
+      ]
+    }
+  ]
+}

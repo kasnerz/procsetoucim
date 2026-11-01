@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Ve slovní úloze je nejtěžší přeložit text na výpočet: poznat, že „o třetinu víc“ znamená násobit čtyřmi třetinami a že „třetina ze zbytku“ se počítá z nového celku. Potřebuješ to při zmenšování receptu nebo při dělení útraty. Kalkulačka spočítá čísla, ale jaká čísla a jakou operaci, rozhodneš ty. Chatbot vyřeší i dlouhou úlohu, jenže se v ní občas splete a chybu najde jen ten, kdo postup zná. V kuchyních, cukrárnách i na stavbě se takové úlohy řeší denně a zlomky v práci potřebuje zhruba čtvrtina lidí, kteří v Česku pracují.",
+  "learnWithAi": [
+    {
+      "title": "Úlohy z vlastního dne",
+      "text": "Popiš chatbotu, co dnes děláš, a nech ho z toho vymyslet tři slovní úlohy se zlomky. Vyřeš je a nech si zkontrolovat postup, ne jen výsledek."
+    },
+    {
+      "title": "Zápis bez počítání",
+      "text": "Než začneš počítat, napiš k úloze jen zápis toho, co znáš a co hledáš, a ukaž ho chatbotu. Ať ti řekne, jestli zápis odpovídá textu, počítej až potom."
+    },
+    {
+      "title": "Kontrola řešení od chatbota",
+      "text": "Nech chatbota vyřešit dlouhou úlohu se zlomky a jeho řešení přepočítej krok za krokem. Když se výsledky liší, zjisti, kde je chyba, a čísla ověř kalkulačkou."
+    }
+  ]
+}

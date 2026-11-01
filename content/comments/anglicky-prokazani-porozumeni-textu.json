@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Porozumění textu se pozná podle toho, že jeho obsah dokážeš říct vlastními slovy nebo odpovědět na otázku, kterou v textu doslova nenajdeš. Překladač ti článek převede do češtiny, ale pochopit ho musíš pořád ty, a bez toho snadno přijmeš špatný překlad nebo zkreslené shrnutí za dobré. Ve škole to ukazuješ testem nebo převyprávěním, později třeba tím, že správně odpovíš na e-mail nebo zareaguješ na pokyn od někoho ze zahraničí. Překladatelé, diplomaté a lidé, kteří si dopisují s firmami v cizině, na tom mají postavenou celou práci.",
+  "learnWithAi": [
+    {
+      "title": "Tvrzení na ověření",
+      "text": "Nech si k anglickému textu vymyslet deset tvrzení, z nichž některá neplatí. U každého najdi v textu větu, která ho potvrdí nebo vyvrátí, a teprve pak si řekni o řešení."
+    },
+    {
+      "title": "Převyprávění vlastními slovy",
+      "text": "Dej chatbotu krátký anglický článek a převyprávěj ho česky nebo anglicky. Požádej ho, ať ti řekne, co v tvém převyprávění chybí nebo je jinak než v textu."
+    },
+    {
+      "title": "Otázky mezi řádky",
+      "text": "Požádej chatbota o anglický příběh na jednu stránku a o otázky, na které odpověď v textu doslova nestojí. Odpovídej celými větami a nech si říct, jestli tvoje odpověď z textu opravdu vyplývá."
+    }
+  ]
+}

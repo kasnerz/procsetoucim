@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Aplikace v mobilu navrhne jméno rostliny z fotky skoro okamžitě, jenže u podobných druhů se umí splést a u hub může být omyl nebezpečný. Kdo umí projít určovací klíč, ví, na které znaky se dívat, třeba na tvar listu, stavbu květu nebo počet nohou. Návrh aplikace pak dokáže ověřit, nebo odmítnout. Arboristé, kteří rozhodují o péči o stromy, zahradníci nebo ekologové při průzkumu krajiny to dělají běžně. Pro ostatní je to hlavně dovednost na výlety a do zahrady.",
+  "learnWithAi": [
+    {
+      "title": "Slovníček pojmů z klíče",
+      "text": "Popros chatbota, ať ti vysvětlí pojmy z určovacího klíče, které neznáš, třeba zpeřený list nebo okvětí. Každý znak si pak najdi na skutečné rostlině."
+    },
+    {
+      "title": "Hádanka podle znaků",
+      "text": "Požádej chatbota, ať si myslí jeden strom a na tvoje otázky o znacích odpovídá jen ano, nebo ne. Postupuj jako v klíči a zkus druh uhodnout co nejméně otázkami."
+    },
+    {
+      "title": "Kontrola návrhu z aplikace",
+      "text": "Vyfoť na procházce rostlinu a nech aplikaci navrhnout druh. Ten pak ověř v klíči nebo atlasu znak po znaku a zapiš si, jestli se aplikace trefila."
+    }
+  ]
+}

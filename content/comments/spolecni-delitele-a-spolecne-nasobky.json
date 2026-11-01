@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Společný násobek hledáš, když se dvě věci opakují v různém rytmu a chceš vědět, kdy se zase potkají, třeba autobus jezdí každých dvanáct minut a tramvaj každých osm. Největší společný dělitel ti zase řekne, na kolik stejných skupin rozdělíš dvě různá množství, aby nic nezbylo. Obkladači tak volí velikost dlaždic, aby se vešly na stěnu bez řezání, a plánovači nákupů skládají objednávky z balení různých velikostí. Ve škole se to hodí hlavně při sčítání zlomků s různými jmenovateli. Rozklad na prvočinitele zvládne i aplikace, ale u malých čísel to v hlavě máš rychleji, než ji otevřeš.",
+  "learnWithAi": [
+    {
+      "title": "Autobus a tramvaj na zastávce",
+      "text": "Požádej chatbota o pět úloh o věcech, které se opakují v různém rytmu, třeba o semaforech nebo spojích. U každé najdi, kdy se potkají, a výsledek mu pošli ke kontrole."
+    },
+    {
+      "title": "Rozklad na prvočinitele",
+      "text": "Když nevíš, jak číslo rozložit na prvočinitele, nech chatbota ukázat jen první krok. Další kroky dopočítej a ukaž mu svůj postup."
+    },
+    {
+      "title": "Dlaždice na stěnu bez řezání",
+      "text": "Zadej chatbotovi rozměry stěny v centimetrech a zeptej se, jaké čtvercové dlaždice se na ni vejdou celé. Spočítej to přes společné dělitele a porovnej s jeho odpovědí, u větších čísel se může splést."
+    }
+  ]
+}

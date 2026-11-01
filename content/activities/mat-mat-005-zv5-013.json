@@ -1,0 +1,332 @@
+[
+  {
+    "slug": "rovnost-a-nerovnost-dvou-mnozstvi",
+    "title": "Rovnost a nerovnost dvou množství",
+    "aliases": [
+      "větší menší rovná se",
+      "porovnávání množství",
+      "znaménka větší a menší",
+      "kdo má víc"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozpozná a zapíše rovnost, nerovnost dvou množství (kvantit) vyjádřeného počtem, veličinou.",
+        "quote": "Rozpozná a zapíše rovnost, nerovnost dvou množství (kvantit) vyjádřeného počtem, veličinou."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kufr do letadla",
+        "url": ""
+      },
+      {
+        "title": "Kdo ujde víc?",
+        "url": ""
+      },
+      {
+        "title": "Jednotky",
+        "url": "https://uloziste.rvp.cz/material/f7a35d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí ti znaménka a dá ti příklady na porovnávání, které můžeš zkoušet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ve výkladu a cvičeních najdeš, kdy se píše větší, menší a rovná se."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací hry ti hned ukážou, jestli jsi znaménko zvolil správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kostky nebo váhy ti ukážou, které množství je větší nebo jestli jsou stejná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rovnost-a-nerovnost-ciselnych-vyrazu",
+    "title": "Rovnost a nerovnost číselných výrazů",
+    "aliases": [
+      "porovnání příkladů",
+      "dosaď znaménko",
+      "větší nebo menší než výsledek",
+      "rovná se nebo ne"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozpozná a zapíše rovnost a nerovnost číselných výrazů.",
+        "quote": "Rozpozná a zapíše rovnost a nerovnost číselných výrazů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak porovnat dva příklady, a dá ti další k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš výklad a cvičení na porovnávání výrazů s hotovými řešeními."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Cvičení ti hned řekne, jestli je tvoje znaménko správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačkou si spočítáš obě strany a zkontroluješ, co je větší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "doplneni-chybejici-hodnoty",
+    "title": "Doplnění chybějící hodnoty",
+    "aliases": [
+      "doplň číslo",
+      "co chybí",
+      "neznámá",
+      "doplň do rovnosti"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Doplní chybějící hodnotu v rovnosti i v nerovnosti.",
+        "quote": "Doplní chybějící hodnotu v rovnosti i v nerovnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí postup na příkladu a zkontroluje, jestli ti doplněné číslo vychází."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové příklady s postupem, podle nichž si zkusíš vlastní."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací program ti ověří doplněné číslo a zadá další příklad."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačkou si zkontroluješ, jestli po doplnění obě strany sedí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zapis-situace-rovnosti-a-nerovnosti",
+    "title": "Zápis situace rovností nebo nerovností",
+    "aliases": [
+      "slovní úloha zápis",
+      "zapiš příklad k příběhu",
+      "vztah mezi čísly",
+      "kufr do letadla"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Popíše číselné vztahy v reálné situaci pomocí rovnosti či nerovnosti, rovnicové situace.",
+        "quote": "Popíše číselné vztahy v reálné situaci pomocí rovnosti či nerovnosti, rovnicové situace."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kufr do letadla",
+        "url": ""
+      },
+      {
+        "title": "Kdo ujde víc?",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak příběh převést na zápis, a dá ti další situace na zkoušení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové slovní úlohy s rozepsaným zápisem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Program umí počítat zadaný výraz, ale situaci do zápisu převádíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Váhy nebo věci z kufru ti ukážou, co je stejné a co větší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/a5826fe3-8df6-4fa8-adad-b7116864588f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pribeh-k-ciselnemu-vyrazu",
+    "title": "Příběh k číselnému výrazu",
+    "aliases": [
+      "vymysli slovní úlohu",
+      "příklad slovy",
+      "vyprávění k příkladu",
+      "popiš příklad"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří a popíše slovy situaci k danému číselnému výrazu, rovnosti a nerovnosti.",
+        "quote": "Vytvoří a popíše slovy situaci k danému číselnému výrazu, rovnosti a nerovnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti vzory příběhů k výrazu a řekne, jestli tvůj příběh k zápisu sedí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ve sbírkách slovních úloh najdeš příklady, jak se výraz vypráví."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Příběh k výrazu vymýšlíš a říkáš slovy ty, program ho za tebe nevymyslí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kalkulačka a pravítko nemají k vymýšlení příběhu co říct."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a5826fe3-8df6-4fa8-adad-b7116864588f",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rovnicove-situace-a-vahy",
+    "title": "Rovnicové situace a váhy",
+    "aliases": [
+      "rovnice na vahách",
+      "řešení rovnic",
+      "neznámá na váze",
+      "nematematický zápis rovnic"
+    ],
+    "outcome": "MAT-MAT-005-ZV5-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší rovnicové situace a jednoduché rovnice zapsané nematematickým zápisem (např. váhy).",
+        "quote": "Řeší rovnicové situace a jednoduché rovnice zapsané nematematickým zápisem (např. váhy)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Váhy",
+        "url": "https://uloziste.rvp.cz/material/f8085d"
+      },
+      {
+        "title": "Nematematický zápis rovnic",
+        "url": "https://uloziste.rvp.cz/material/8fae69"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak z vah poznat neznámou, a zkontroluje tvůj postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš obrázkové hádanky s vahami i vysvětlení, jak se řeší."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Hry s vahami ti ukážou, jestli rovnováha po tvém řešení sedí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na pravých vahách a závažích si rovnici vyzkoušíš rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/19ba11f3-9c99-41fd-a7c9-f77e6a026186"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

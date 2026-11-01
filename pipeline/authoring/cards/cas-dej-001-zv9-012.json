@@ -1,0 +1,361 @@
+{
+  "outcome": "CAS-DEJ-001-ZV9-012",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "projevy-politickeho-extremismu-dnes",
+      "title": "Projevy politického extremismu dnes",
+      "aliases": [
+        "extremismus",
+        "extremisti",
+        "radikálové",
+        "nenávistné projevy",
+        "krajní pravice a levice"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Samostatně nebo společně s vyučujícím vymezí různé příklady projevů politického extremismu v současném veřejném prostoru."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Rozpozná charakteristické rysy současného politického extremismu a hledá rozdíly od historických příkladů politického extremismu."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Diskutuje o tom, jak se ve veřejném prostoru projevuje politický extremismus a jaké jsou jeho historické kořeny."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, podle čeho extremismus poznáš, a porovná dnešní projevy s historickými."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a zprávy popisují, co je extremismus a kde se objevuje."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti extremismus ve veřejném prostoru nerozpozná, úsudek je na tobě."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "V diskusi se spolužáky nástroj nepomůže, rozpoznáváš a porovnáváš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/513673ed-7007-4aa8-a803-e71162ec0e5d",
+        "http://data.europa.eu/esco/skill/c5449667-9b40-4114-8d74-f51177669984"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "fasismus-nacismus-komunismus-znaky-a-nastoleni",
+      "title": "Fašismus, nacismus a komunismus: znaky a nastolení",
+      "aliases": [
+        "fašismus",
+        "nacismus",
+        "komunismus",
+        "Hitler",
+        "Mussolini",
+        "Stalin",
+        "jak vznikla diktatura",
+        "únor 1948"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše základní znaky nacismu a komunismu a jejich hlavních dopady na životy lidí v českých zemích."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Vyhledá informace o nejznámějších příkladech nastolení diktatury a autoritativních režimů v kontextu českých, evropských i světových dějin (fašismus, sovětský komunismus); dokáže tyto případy vztáhnout k politickému extremismu a jeho dopadům na život lidí v dané době."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne znaky režimů a vysvětlí souvislosti, ty si pak fakta ověříš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Wikipedie a učebnice dají data, události a příčiny vzniku diktatur."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s časovou osou nebo kvízem ti pomůže události zařadit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Znaky režimů a jejich dopady na lidi si musíš zapamatovat a pochopit ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "http://data.europa.eu/esco/skill/513673ed-7007-4aa8-a803-e71162ec0e5d"
+      ],
+      "inspiration": [
+        "Myšlenkový svět nacismu"
+      ]
+    },
+    {
+      "slug": "propaganda-a-manipulace-ve-zdroji",
+      "title": "Propaganda a manipulace ve zdroji",
+      "aliases": [
+        "propaganda",
+        "plakát",
+        "manipulace",
+        "dobový obrázek",
+        "kritické čtení zdroje"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Téma politického extremismu historizuje na vybraném příkladě – zkoumá zdroj, který ilustruje dobovou propagandu, manipulativní techniky a autoritativní formy vládnutí."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Sám nebo s pomocí popíše důležité prvky ve zdroji, při hledání jejich významu vychází ze své osobní zkušenosti a nezohledňuje historický kontext."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zkoumá zdroje, které ilustrují dobovou propagandu, manipulativní techniky a extremistické formy vládnutí a ovládání (diktatura, rasismus, fašismus, nacismus, komunismus, maoismus apod.), včetně jejich dopadů na obyvatele českých zemí."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Pracuje se zdroji a odpoví na otázky nezbytné pro kritické posouzení situací v minulosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Doptáš se na dobu vzniku zdroje a vysvětlí, jak propaganda působí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Archivy a muzea nabízejí dobové plakáty a texty, které zkoumáš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe zdroj nerozebere, hlavní sdělení hledáš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Lupa ani tužka zdroj nevyhodnotí, to děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0"
+      ],
+      "inspiration": [
+        "Myšlenkový svět nacismu",
+        "Kdo byl jejich nepřítel?"
+      ]
+    },
+    {
+      "slug": "jak-rezimy-ziskavaly-loajalitu-a-omezovaly-svobody",
+      "title": "Jak režimy získávaly loajalitu a omezovaly svobody",
+      "aliases": [
+        "loajalita občanů",
+        "zákaz svobody",
+        "justiční vraždy",
+        "zločiny proti lidskosti",
+        "Milada Horáková",
+        "život v diktatuře"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Sám nebo s pomocí vyučujícího při zkoumání identifikuje a vyjmenuje, jakými způsoby uvedené režimy získávaly loajalitu občanů, současně však omezovaly individuální i kolektivní svobody, včetně nejvýznamnějších příkladů justičních vražd a zločinů proti lidskosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne způsoby, jak režimy získávaly lidi, a zeptá se tě na příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a archivy popisují procesy, perzekuci i konkrétní oběti."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti zdroje neprojde, způsoby ovládání vyhledáváš a řadíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj za tebe způsoby ovládání nevyjmenuje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/513673ed-7007-4aa8-a803-e71162ec0e5d",
+        "http://data.europa.eu/esco/skill/c5449667-9b40-4114-8d74-f51177669984"
+      ],
+      "inspiration": [
+        "Milada Horáková",
+        "Ovlivňuje život v komunistické diktatuře dodnes naši rodinu a společnost?"
+      ]
+    },
+    {
+      "slug": "prechod-k-demokracii-a-jeho-problemy",
+      "title": "Přechod k demokracii a jeho problémy",
+      "aliases": [
+        "tranzice",
+        "po pádu komunismu",
+        "restituce",
+        "rehabilitace obětí",
+        "1989"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zkoumá procesy přechodu k demokracii a identifikuje problémy, které bylo nutné řešit (např. restituce majetku, rehabilitace obětí)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co přechod k demokracii obnášel, a ukáže příklady problémů."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a články popisují restituce, rehabilitace a další kroky."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace problémy přechodu k demokracii za tebe nenajde."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj nevyhodnotí, které problémy bylo nutné řešit, přemýšlíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/513673ed-7007-4aa8-a803-e71162ec0e5d",
+        "http://data.europa.eu/esco/skill/c5449667-9b40-4114-8d74-f51177669984"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "vyznam-a-dopad-nedemokratickych-rezimu-na-svobodu",
+      "title": "Význam a dopad nedemokratických režimů na svobodu",
+      "aliases": [
+        "svoboda",
+        "diktatura dnes",
+        "aktuálnost",
+        "individuální a kolektivní svoboda",
+        "hrozba autoritářství"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Posoudí význam a aktuálnost nastolování autoritativního politického režimu, diktatury či politiky extremismu a vysvětlí jejich dopad na individuální a kolektivní svobodu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nabídne protiargumenty a ověří, jestli tvoje vysvětlení drží pohromadě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a zprávy dají příklady dnešního autoritářství k porovnání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace úsudek o svobodě nevydá, posuzuješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj význam a aktuálnost neposoudí, to děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/513673ed-7007-4aa8-a803-e71162ec0e5d",
+        "http://data.europa.eu/esco/skill/c5449667-9b40-4114-8d74-f51177669984"
+      ],
+      "inspiration": [
+        "Obdiv k Hitlerovi: svoboda slova, nebo extremismus?"
+      ]
+    },
+    {
+      "slug": "historicka-argumentace-v-diskusi",
+      "title": "Historická argumentace v diskusi",
+      "aliases": [
+        "diskuse",
+        "argumenty",
+        "názorová různost",
+        "respektovat názor",
+        "debata o historii"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "V diskuzi využije zásady historické argumentace v mantinelech ústavních práv a hodnot spojených s názorovou pluralitou; respektuje postoje a způsob argumentace spolužáků a také jednotlivých aktérů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zkouší s tebou argumenty a ukáže, kde se opíráš o fakta."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdroje dají fakta a data, o která argument opřeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace diskusi se spolužáky nenahradí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "V diskusi mluvíš a nasloucháš ty, žádný nástroj to neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ce6a9c03-7d45-4551-b47c-d6af1110f6a0",
+        "http://data.europa.eu/esco/skill/c5449667-9b40-4114-8d74-f51177669984"
+      ],
+      "inspiration": [
+        "Obdiv k Hitlerovi: svoboda slova, nebo extremismus?"
+      ]
+    }
+  ],
+  "aside": []
+}

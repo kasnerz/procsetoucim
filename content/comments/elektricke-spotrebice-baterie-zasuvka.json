@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Rozdíl mezi spotřebičem na baterii a spotřebičem ze zásuvky ti řekne, kde hrozí opravdové nebezpečí: baterie v ovladači ti neublíží, proud ze zásuvky může zabít. Z toho vychází všechno, co se pak naučíš o obvodech, protože vypínač obvod přerušuje a dráty uvnitř vedou proud tam, kam má jít. Kdo montuje, kontroluje nebo opravuje elektrická zařízení, s tím pracuje denně, a v těchto oborech míst spíš přibude. Pro ostatní je to hlavně základ k tomu, aby s elektřinou doma zacházeli rozumně.",
+  "learnWithAi": [
+    {
+      "title": "Lampa bez vypínače",
+      "text": "Zeptej se chatbota, co by se stalo, kdyby lampa neměla vypínač, a nech ho klást podobné otázky o dalších spotřebičích. Odpovídej vlastními slovy."
+    },
+    {
+      "title": "Soupis spotřebičů v bytě",
+      "text": "Projdi byt, sepiš spotřebiče a ke každému napiš, jestli jede na baterii, nebo ze zásuvky. Seznam dej chatbotu a nech se doptat na sporné případy, třeba telefon na nabíječce."
+    },
+    {
+      "title": "Vnitřek staré hračky",
+      "text": "Vyfoť vnitřek staré hračky na baterie, kterou rozeberete s dospělým, a ptej se chatbota, co jsou jednotlivé díly. Jeho popis ber jako tip a spotřebiče do zásuvky nerozebírej."
+    }
+  ]
+}

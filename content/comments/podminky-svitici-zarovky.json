@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Žárovka svítí, jen když proud může projít celou cestou od zdroje přes žárovku a zpátky. Tuhle podmínku kontroluje jako první každý, kdo hledá závadu: když nesvítí pouliční lampa, hledá se místo, kde je obvod přerušený. Lidé, kteří opravují osvětlení nebo pokládají kabely, takhle uvažují každý den. Simulátor ti ukáže, co se stane po přerušení drátu, a chatbot vysvětlí proč. Podmínky ale musíš umět říct vlastními slovy, jinak u první nefunkční lampičky doma nevíš, kde začít.",
+  "learnWithAi": [
+    {
+      "title": "Svítí, nebo nesvítí",
+      "text": "Požádej chatbota o pět slovně popsaných obvodů a u každého rozhodni, jestli žárovka svítí. Odpovědi zdůvodni a teprve pak si je nech zkontrolovat."
+    },
+    {
+      "title": "Pravidla vlastními slovy",
+      "text": "Napiš podmínky, za kterých žárovka svítí, a nech chatbota hledat obvod, ve kterém je splněné všechno, co píšeš, a žárovka přesto nesvítí. Pravidla pak doplň."
+    },
+    {
+      "title": "Nesvítící lampička",
+      "text": "Nech chatbota hrát někoho, komu doma nesvítí lampička a kdo odpovídá jen na to, na co se zeptáš. Vyptávej se ho, dokud nezjistíš, kde je problém."
+    }
+  ]
+}

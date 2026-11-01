@@ -1,0 +1,405 @@
+{
+  "outcome": "CSP-OSV-001-ZV9-005",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "moje-potreby-pri-uleni",
+      "title": "Moje potřeby při učení",
+      "aliases": [
+        "co potřebuju při učení",
+        "kde se mi dobře učí",
+        "denní režim a učení",
+        "moje překážky při učení",
+        "jak se učím"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pojmenuje své potřeby při učení (spojené s různými typy vzdělávacích obsahů, prostředím pro učení, denním režimem, sociálními podpůrnými vztahy aj.) a vhodné způsoby jejich naplnění."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vnímá své potřeby při učení a diskutuje o možných způsobech jejich naplnění"
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Uvede příklady svých potřeb a překážek při učení."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "poznává své potřeby při učení"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Když popíšeš, jak se učíš, pomůže ti potřeby pojmenovat a navrhne, co zkusit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popisy typů prostředí a denního režimu, které učení pomáhají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na plánování dne ti ukáže, kdy se ti daří učit."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Deník v sešitu ti ukáže, co ti při učení pomáhá a co ruší."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Vedení si deníku k učení",
+        "Co mi pomáhá při učení"
+      ]
+    },
+    {
+      "slug": "zkousim-ruzne-zpusoby-uceni",
+      "title": "Zkoušení různých způsobů učení",
+      "aliases": [
+        "jak se učit",
+        "techniky učení",
+        "učení různými způsoby",
+        "kartičky a myšlenkové mapy"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "zkouší si různé způsoby učení s různými vzdělávacími obsahy"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "na příkladech různých vzdělávacích obsahů a činností, které jsou pro něj náročné, zkouší různé vhodné techniky učení"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí různé techniky a vymyslí cvičení na tvoje téma."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popis technik, třeba kartiček nebo myšlenkové mapy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s kartičkami ti dovolí techniku hned vyzkoušet."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírové kartičky a barevné fixy použiješ při učení rukama."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Kreativní přístupy k učení",
+        "Aktivní metody učení"
+      ]
+    },
+    {
+      "slug": "ucebni-strategie-a-jejich-ucinnost",
+      "title": "Strategie učení a jejich účinnost",
+      "aliases": [
+        "co funguje při učení",
+        "vyhodnocení učení",
+        "zapamatování",
+        "soustředěná práce s textem",
+        "motivace k učení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na příkladech různých vzdělávacích obsahů a činností, které jsou pro něj náročné, využije různé strategie a techniky učení a vyhodnotí jejich účinnost."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne postup a otestuje tě, takže uvidíš, zda ti strategie pomohla."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popis strategií pro práci s textem a zapamatování."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na zkoušení ti ukáže, kolik z učiva ti zůstalo v hlavě."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Časovač a zápisky ti ukážou, jestli se soustředíš déle."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Aktivní metody učení"
+      ]
+    },
+    {
+      "slug": "volba-strategie-uceni",
+      "title": "Volba strategie podle cíle učení",
+      "aliases": [
+        "jak se co učit",
+        "učení slovíček a učení textu",
+        "výběr techniky učení",
+        "proč se tak učím"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích zahrnujících různé typy vzdělávacích cílů a obsahů navrhne vhodné strategie a techniky učení, svou volbu zdůvodní."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná, jak se učit básničku, slovíčka a postup, a zdůvodní to."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš doporučení technik pro různé typy učiva."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Volbu strategie a její zdůvodnění děláš ty, aplikace ji nenavrhne."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Volba techniky je tvoje rozhodnutí, nástroj ti ji nedá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Co mi pomáhá při učení"
+      ]
+    },
+    {
+      "slug": "prekonavani-prekazek-v-uceni",
+      "title": "Překonávání překážek a žádost o pomoc při učení",
+      "aliases": [
+        "když se mi nedaří učit",
+        "jak požádat o pomoc",
+        "nechce se mi učit",
+        "rušení při učení",
+        "digitální drak"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích využívá různé postupy k překonávání překážek při učení."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "v modelových situacích získává zkušenost s možnými způsoby překonávání překážek při učení a reflektuje přínosy"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "v modelových situacích získává zkušenost s překonáváním překážek při učení, vyžádání si pomoci při učení"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne postupy při únavě nebo rozptylování a nacvičí s tebou, jak o pomoc říct."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tipy, jak zvládnout rušení a odkládání."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace blokující rušivé aplikace ti pomůže se soustředit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pomoc musíš říct nahlas ty, nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Zkrocení digitálního draka"
+      ]
+    },
+    {
+      "slug": "uceni-samostatne-a-ve-skupine",
+      "title": "Učení samostatně a ve skupině",
+      "aliases": [
+        "učení ve dvojicích",
+        "skupinové učení",
+        "učení s učitelem",
+        "společné učení",
+        "samostatné učení"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozvíjí učení samostatně, ve skupině, s pomocí učitele aj."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zkouší reflektovat zkušenosti s učením v různých formách (například samostatné a ve skupině)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vymyslet, jak si ve skupině rozdělit role a jak se navzájem zkoušet."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš nápady na skupinové metody učení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Sdílené poznámky nebo kartičky umožní se učit společně na dálku."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Skupinu tvoří lidé u stolu, to žádný nástroj nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Aktivní metody učení"
+      ]
+    },
+    {
+      "slug": "zpetny-pohled-na-uceni",
+      "title": "Zpětný pohled na své učení",
+      "aliases": [
+        "jak mi šlo učení",
+        "co jsem se naučil o učení",
+        "deník učení",
+        "hodnocení vlastního učení"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje své zkušenosti s procesem učení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže přemýšlet, když mu napíšeš, co se povedlo a co ne."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "O tvých zkušenostech s učením na webu nic není."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Deníková aplikace uchová zápisky, ke kterým se vrátíš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový deník ti dovolí listovat zpět a porovnat týdny."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Vedení si deníku k učení"
+      ]
+    },
+    {
+      "slug": "ruzne-cesty-k-cili-uceni",
+      "title": "Různé cesty k cíli učení",
+      "aliases": [
+        "jak se dostat k cíli",
+        "sdílení zkušeností s učením",
+        "inspirace od spolužáků",
+        "jak to dělají druzí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Prezentuje různé vhodné cesty k dosažení vzdělávacích cílů."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "zkouší si různé cesty k dosažení vzdělávacích cílů a sdílet své zkušenosti, inspiruje se od ostatních"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne víc postupů k jednomu cíli, které můžeš vyzkoušet."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příběhy a postupy lidí, kteří se k cíli dostali jinak."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Prezentovat a sdílet zkušenosti s třídou musíš ty, aplikace to neudělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Představit svou cestu spolužákům můžeš jen ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/468135b7-5757-48c3-9509-fde0e13ec5be"
+      ],
+      "inspiration": [
+        "Kreativní přístupy k učení"
+      ]
+    }
+  ],
+  "aside": []
+}

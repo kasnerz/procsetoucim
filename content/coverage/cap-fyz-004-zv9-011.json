@@ -1,0 +1,126 @@
+{
+  "outcome": "CAP-FYZ-004-ZV9-011",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Zná některé elektrické spotřebiče a ví, že jsou na baterii nebo se připojují do zásuvky.",
+      "cards": [
+        "elektricke-spotrebice-baterie-zasuvka"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Ví, že spotřebiče mají obvykle vypínač a obvykle jsou v nich dráty.",
+      "cards": [
+        "elektricke-spotrebice-baterie-zasuvka"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkouší zapojit žárovičku k baterii nebo jinému zdroji malého napětí tak, aby svítila.",
+      "cards": [
+        "zapojeni-obvodu-podle-schematu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Formuluje podmínky, které musí obvod splňovat, aby žárovka svítila.",
+      "cards": [
+        "podminky-svitici-zarovky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s elektrickými veličinami (napětí, proud, odpor) – jejich značkami, jednotkami a fyzikálním významem.",
+      "cards": [
+        "napeti-proud-odpor"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s multimetrem, zkouší měřit napětí baterií, odpor rezistoru, proud v obvodu.",
+      "cards": [
+        "mereni-multimetrem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznámí se s LED jako zástupcem polovodičových součástek a náhradou žárovek.",
+      "cards": [
+        "led-v-obvodu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zapojí obvod se zdrojem, dvěma žárovkami a vypínačem.",
+      "cards": [
+        "zapojeni-obvodu-podle-schematu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Změří napětí na zdroji, napětí na žárovce a odpor rezistoru.",
+      "cards": [
+        "mereni-multimetrem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Změří proud v obvodu.",
+      "cards": [
+        "mereni-multimetrem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Pomocí obvodu se žárovkou zkusí, které předměty vedou proud a které ne.",
+      "cards": [
+        "vodive-a-nevodive-predmety"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Formuluje Ohmův zákon a používá ho v konkrétních jednoduchých výpočtech.",
+      "cards": [
+        "ohmuv-zakon"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zapojí obvod s LED tak, aby svítila a nezničila se; uvede příklady běžného využití LED.",
+      "cards": [
+        "led-v-obvodu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Formuluje pravidla bezpečného zacházení s elektrickými spotřebiči.",
+      "cards": [
+        "bezpecne-zachazeni-se-spotrebici"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Zapojí podle schématu jednoduchý elektrický obvod.",
+      "cards": [
+        "zapojeni-obvodu-podle-schematu"
+      ],
+      "aside": null
+    }
+  ]
+}

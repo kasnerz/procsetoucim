@@ -1,0 +1,301 @@
+[
+  {
+    "slug": "anglicky-hledani-informace-v-beznem-textu",
+    "title": "Hledání informace v anglickém textu z každodenního života",
+    "aliases": [
+      "angličtina čtení",
+      "anglický leták",
+      "anglický e-mail",
+      "jízdní řád v angličtině",
+      "jídelní lístek v angličtině"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyhledá v jednoduchém textu s autentickými prvky základní informace, které se vztahují k jeho potřebám a zájmům.",
+        "quote": "Vyhledá v jednoduchém textu s autentickými prvky základní informace, které se vztahují k jeho potřebám a zájmům."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Vyhledá základní informace v textech z každodenního života s vizuální podporou.",
+        "quote": "Vyhledá základní informace v textech z každodenního života s vizuální podporou."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyhledává základní informace v textech z každodenního života.",
+        "quote": "Vyhledává základní informace v textech z každodenního života."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhledává informace v materiálech každodenní potřeby a následně s nimi pracuje.",
+        "quote": "Vyhledává informace v materiálech každodenní potřeby"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jídelní lístek",
+        "url": ""
+      },
+      {
+        "title": "Jízdní řád",
+        "url": "https://uloziste.rvp.cz/material/2a98ce"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí ti slova a zkratky, které v textu nenajdeš, a vymyslí další texty na čtení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Online slovník ti ukáže význam slova, které ti v textu chybí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač nebo čtečka z fotky ti pomůže s neznámým slovem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník ti dá význam slova, když nemáš po ruce telefon."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-prokazani-porozumeni-textu",
+    "title": "Ukázání porozumění anglickému textu",
+    "aliases": [
+      "porozumění textu",
+      "odpovědi na otázky k textu",
+      "převyprávění textu",
+      "čtení s porozuměním angličtina"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Písemně nebo ústně prokáže porozumění.",
+        "quote": "Písemně nebo ústně prokáže porozumění."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Písemně nebo ústně prokáže porozumění.",
+        "quote": "Písemně nebo ústně prokáže porozumění."
+      },
+      {
+        "level": "Splněno",
+        "point": "Prokáže porozumění obsahu jednoduchého textu, který se vztahuje k jeho potřebám a zájmům (např. porovnává získané informace z různých zdrojů, samostatně vyhledává informace k zadanému tématu).",
+        "quote": "Prokáže porozumění obsahu jednoduchého textu, který se vztahuje k jeho potřebám a zájmům"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptá se tě na obsah textu a řekne ti, co v textu chápeš jinak."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové informace ti neukážou, jestli rozumíš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Překladač ti text převede, ale porozumění ověříš ty, třeba vlastními slovy."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ti dá slova, o obsahu ti neřekne nic."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-prace-s-nalezenymi-informacemi",
+    "title": "Použití informací z anglického textu",
+    "aliases": [
+      "práce s informacemi",
+      "naplánování podle jízdního řádu",
+      "výběr z jídelního lístku",
+      "použít informace z letáku"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhledává informace v materiálech každodenní potřeby a následně s nimi pracuje.",
+        "quote": "a následně s nimi pracuje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jízdní řád",
+        "url": "https://uloziste.rvp.cz/material/2a98ce"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zadá ti úkol s textem a opraví tvůj postup, třeba plán výletu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapy a webové jízdní řády ti dají data, se kterými můžeš pracovat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s jízdními řády nebo mapou ti ověří, správnost tvého času a trasy."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa nebo jízdní řád ti dají podklad pro vlastní plán."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-porovnani-informaci-z-vice-zdroju",
+    "title": "Porovnání informací z různých anglických zdrojů",
+    "aliases": [
+      "porovnání zdrojů",
+      "více zdrojů",
+      "ověřit informaci",
+      "kontrola informací v angličtině"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prokáže porozumění obsahu jednoduchého textu, který se vztahuje k jeho potřebám a zájmům (např. porovnává získané informace z různých zdrojů, samostatně vyhledává informace k zadanému tématu).",
+        "quote": "porovnává získané informace z různých zdrojů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti sepsat rozdíly mezi dvěma texty, ale zdroje musíš posoudit ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Dá ti víc zdrojů k jednomu tématu, které můžeš srovnat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti zdroj přeloží, ale porovnat je musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ani tužka za tebe zdroje nesrovnají."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-samostatne-hledani-k-tematu",
+    "title": "Samostatné hledání informací k zadanému tématu v angličtině",
+    "aliases": [
+      "hledání na internetu v angličtině",
+      "referát v angličtině",
+      "anglické zdroje k tématu",
+      "vyhledat informace"
+    ],
+    "outcome": "JJK-AJA-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prokáže porozumění obsahu jednoduchého textu, který se vztahuje k jeho potřebám a zájmům (např. porovnává získané informace z různých zdrojů, samostatně vyhledává informace k zadanému tématu).",
+        "quote": "samostatně vyhledává informace k zadanému tématu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Youtubeři",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne ti klíčová slova pro hledání a vysvětlí, co v nalezeném textu znamenají."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač ti ukáže anglické stránky, ve kterých hledáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti pomůže s neznámými slovy ve stránce, kterou čteš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník ti dá význam slov, bez kterých text nepochopíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/ba93b71b-c433-4a01-8246-ed2daa85a9a2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

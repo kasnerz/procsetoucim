@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "2079755f-d809-49e6-8037-4de6180e54c0": "Data se ukládají tak, aby je dokázali číst další lidé a programy, hlavně datoví vědci. Formát se proto volí podle toho, kdo ho bude číst a čím.",
+  "6ce5f7e3-a534-4aa2-ab23-255408ddb53a": "Zařízení posílá data dál do systému, který jim musí rozumět. Při programování se proto kóduje tak, aby druhá strana měla k dekódování všechno potřebné.",
+  "32ac76f6-20a0-469e-8cac-e68634087dd3": "Lékaři si snímky otevírají v různých programech na různých počítačích. Kdo archiv spravuje, hlídá, aby se každý snímek dal zobrazit tam, kde ho někdo potřebuje.",
+  "14eb2c85-fce5-40b6-bcd0-46ac99994b0d": "Záznamy o pacientech musí být čitelné pro zdravotníky, kteří je později otevřou. Při převodu z papíru se proto drží formát, který bude všem srozumitelný.",
+  "ef909843-97c6-4c48-8038-2e7aefdfcad5": "Zdravotnické systémy si mezi sebou vyměňují záznamy a každý musí rozumět formátu druhého. Kódování tu řeší hlavně odborníci, vedoucí hlídá, aby výměna fungovala.",
+  "e7417f4f-7072-4b07-a71f-71f6fc7f5e5b": "Zprávy se posílají do regionálních a mezinárodních databází, které mají vlastní formát. Záznamy se proto musí připravit tak, aby je příjemce přečetl.",
+  "f470b785-643c-46f9-8b31-6085427ab7b8": "Letecké informace se předávají společnostem a jejich systémům v dohodnutých formátech. Volba kódování je ale daná předpisy, takže záleží hlavně na správném dodržení.",
+  "716df735-77eb-47c8-8c06-d86e46903989": "Zařízení v domácnosti od různých výrobců si musí rozumět. Při propojování se řeší, jakým způsobem zařízení komunikují, aby jedno povel druhého vůbec přečetlo."
+ }
+}

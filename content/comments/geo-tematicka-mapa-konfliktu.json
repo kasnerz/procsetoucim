@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tematická mapa ze zpráv tě nutí číst pozorně: co se kde stalo, kdy a jestli to potvrzuje víc zdrojů. Vybrat, co do mapy patří, a zvolit značky tak, aby se v ní druzí vyznali, je stejná práce, jakou dělá každý, kdo kreslí mapy do atlasů nebo připravuje podklady pro ministerstvo zahraničí. Většině lidí to v práci k ničemu nebude, umět si seřadit zprávy z několika týdnů se ale hodí každému, kdo chce vědět, co se ve světě děje. Kreslicí aplikace značky zakreslí úhledně, která zpráva je spolehlivá, ale rozhoduješ ty.",
+  "learnWithAi": [
+    {
+      "title": "Legenda pro vlastní mapu",
+      "text": "Popros chatbota o návrh značek a barev pro mapu konfliktů, třeba podle typu nebo délky. Vyber si jen ty, kterým rozumíš, a legendu dotvoř po svém."
+    },
+    {
+      "title": "Kontrola seznamu zpráv",
+      "text": "Sepiš si za dva týdny zprávy o konfliktech s místem a datem. Ukaž seznam chatbotovi a zeptej se, co chybí nebo je nejasné, místa si ale ověř v atlase."
+    },
+    {
+      "title": "Výklad hotové mapy",
+      "text": "Popiš chatbotovi slovy svou hotovou mapu a nech ho klást otázky jako spolužák. Kde nevíš, co odpovědět, mapu doplň."
+    }
+  ]
+}

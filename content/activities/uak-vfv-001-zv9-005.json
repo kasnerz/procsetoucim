@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "co-chci-dilem-sdelit",
+    "title": "Co chci dílem sdělit",
+    "aliases": [
+      "sdělení díla",
+      "poselství díla",
+      "co chci říct",
+      "záměr tvorby",
+      "o čem je můj obrázek"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Určil, co je pro něj na díle významné a co chce jinak než slovy sdělit ostatním.",
+        "quote": "Určil, co je pro něj na díle významné a co chce jinak než slovy sdělit ostatním."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Uvědomuje si širší souvislosti vlastní tvorby (inspirační zdroje, zamýšlené sdělení) a dokáže je popsat.",
+        "quote": "Uvědomuje si širší souvislosti vlastní tvorby (inspirační zdroje, zamýšlené sdělení) a dokáže je popsat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Poselství díla",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, co chceš říct, a pomůže ti to srozumitelně popsat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš ukázky děl a jejich výklad, ze kterých vidíš, jak autoři sdělují myšlenku."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezjistí, co chceš sdělit, to víš jen ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Co je na díle důležité, rozhoduješ ty, tužka ani štětec to nezjistí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5d09da0d-ac68-40a1-9c21-cd6d9413358d",
+      "http://data.europa.eu/esco/skill/24301020-af48-4532-a1a6-e58567789436"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "srozumitelnost-sdeleni-dila",
+    "title": "Ověření, jestli sdělení díla pochopili",
+    "aliases": [
+      "pochopili můj obrázek",
+      "srozumitelnost díla",
+      "co v díle vidí ostatní",
+      "zeptat se diváků"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Ověřuje, zda bylo tvůrčí sdělení srozumitelné.",
+        "quote": "Ověřuje, zda bylo tvůrčí sdělení srozumitelné."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Poselství díla",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Co v díle vidí spolužáci, se musíš zeptat jich, chatbot to neví."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Reakce diváků na tvé dílo na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti neřekne, co spolužáci v díle pochopili."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Ptáš se spolužáků ty, žádný nástroj to za tebe neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/08e2ff26-88ff-47b5-9d37-d19ace01b075",
+      "http://data.europa.eu/esco/skill/5d09da0d-ac68-40a1-9c21-cd6d9413358d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zpetna-vazba-k-tvorbe",
+    "title": "Přijetí zpětné vazby k tvorbě",
+    "aliases": [
+      "zpětná vazba",
+      "kritika díla",
+      "feedback",
+      "co říkají spolužáci",
+      "poučení z chyb"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vyslechne si zpětnou vazbu od spolužáků a zamýšlí se nad ní.",
+        "quote": "Vyslechne si zpětnou vazbu od spolužáků a zamýšlí se nad ní."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyslechne si zpětnou vazbu spolužáků a učitele v bezpečném prostředí řízené diskuse.",
+        "quote": "Vyslechne si zpětnou vazbu spolužáků a učitele v bezpečném prostředí řízené diskuse."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhodnotí přínosy zpětné vazby pro sebe sama.",
+        "quote": "Vyhodnotí přínosy zpětné vazby pro sebe sama."
+      },
+      {
+        "level": "Splněno",
+        "point": "Formuluje přínos zpětné vazby pro další tvůrčí práci (poučí se z chyb).",
+        "quote": "Formuluje přínos zpětné vazby pro další tvůrčí práci (poučí se z chyb)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Fotíme s feedbackem",
+        "url": "https://uloziste.rvp.cz/material/8ca2d9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti zpětnou vazbu roztřídit a vymyslet, co z ní zkusíš příště."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš rady, jak zpětnou vazbu brát a jak se z ní poučit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace spolužáky nenahradí, zpětnou vazbu slyšíš od lidí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zpětnou vazbu vyslechneš ty, žádný nástroj to za tebe neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/05aa7c09-46e7-433f-a81b-92841f4551e7",
+      "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zamer-a-vysledek-dila",
+    "title": "Rozdíl mezi záměrem a výsledkem",
+    "aliases": [
+      "záměr a výsledek",
+      "co jsem chtěl a co vyšlo",
+      "proč dílo dopadlo jinak",
+      "hodnocení vlastního díla"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše rozdíl mezi svým tvůrčím záměrem a dosaženým výsledkem, zamyslí se nad důvody tohoto rozdílu.",
+        "quote": "Popíše rozdíl mezi svým tvůrčím záměrem a dosaženým výsledkem, zamyslí se nad důvody tohoto rozdílu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pitching (představení a obhajoba záměru) audiovizuálního díla",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Když mu záměr a výsledek popíšeš, pomůže ti hledat důvody rozdílu."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Rozdíl mezi tvým záměrem a dílem na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezná tvůj záměr, takže ho s výsledkem neporovná."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Skica záměru vedle hotového díla ukáže, co se změnilo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b71e3394-599c-4205-a592-1778e45626ec",
+      "http://data.europa.eu/esco/skill/5d09da0d-ac68-40a1-9c21-cd6d9413358d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hodnoceni-procesu-tvorby",
+    "title": "Hodnocení vlastního procesu tvorby",
+    "aliases": [
+      "jak se mi tvořilo",
+      "překážky při tvorbě",
+      "zkušenost z tvorby",
+      "co mi tvorba dala"
+    ],
+    "outcome": "UAK-VFV-001-ZV9-005",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Hodnotí zkušenost z přípravy a průběhu procesu tvorby (očekávání, proces, překážky, výsledek).",
+        "quote": "Hodnotí zkušenost z přípravy a průběhu procesu tvorby (očekávání, proces, překážky, výsledek)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Pojmenuje význam tvůrčí zkušenosti pro sebe sama a svou další tvorbu.",
+        "quote": "Pojmenuje význam tvůrčí zkušenosti pro sebe sama a svou další tvorbu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Klade otázky k očekávání, překážkám a výsledku a pomáhá ti odpovědi formulovat."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Svou zkušenost z tvorby na internetu nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tvou zkušenost nezná, takže ji nepopíše."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Deník nebo sešit s poznámkami z tvorby ti zachová průběh práce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69",
+      "http://data.europa.eu/esco/skill/b71e3394-599c-4205-a592-1778e45626ec"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

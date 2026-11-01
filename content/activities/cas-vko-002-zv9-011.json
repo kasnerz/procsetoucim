@@ -1,0 +1,357 @@
+[
+  {
+    "slug": "co-je-eu-a-nato",
+    "title": "Co je Evropská unie a NATO",
+    "aliases": [
+      "EU",
+      "NATO",
+      "Evropská unie",
+      "Severoatlantická aliance",
+      "proč vznikla EU"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vysvětlí jednoduchými slovy, co je to Evropská unie a NATO",
+        "quote": "vysvětlí jednoduchými slovy, co je to Evropská unie a NATO"
+      },
+      {
+        "level": "Na cestě",
+        "point": "popíše, v čem je EU a NATO unikátní",
+        "quote": "popíše, v čem je EU a NATO unikátní"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí význam vzniku EU a NATO a smysl jejich fungování.",
+        "quote": "Vysvětlí význam vzniku EU a NATO a smysl jejich fungování."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Evropská unie kolem nás",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí jednoduše, čím se EU a NATO liší, a můžeš se ptát dál."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a stránky organizací dají historii a seznam členů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nemá co vysvětlit o smyslu obou organizací."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mapa a atlas ukážou, které státy do EU a NATO patří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/309bc48b-2899-4396-9242-efc26c0e1aee",
+      "http://data.europa.eu/esco/skill/fbf53f87-9192-4a7f-b3c9-92a8c395c719"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "integrace-ekonomicka-politicka",
+    "title": "Ekonomická a politická integrace",
+    "aliases": [
+      "integrace",
+      "spolupráce států",
+      "jednotný trh",
+      "společná měna",
+      "co je integrace"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "seznamuje se s pojmem ekonomická a politická integrace",
+        "quote": "seznamuje se s pojmem ekonomická a politická integrace"
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše na konkrétním vyobrazení výhody a nevýhody politické a ekonomické integrace v EU.",
+        "quote": "Popíše na konkrétním vyobrazení výhody a nevýhody politické a ekonomické integrace v EU."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí oba pojmy na příkladech a ty si je zkusíš říct vlastními slovy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a učebnice dají definice a příklady z EU."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace pojem integrace nevysvětluje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj k pojmu nic nenabídne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/309bc48b-2899-4396-9242-efc26c0e1aee",
+      "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "eu-nato-v-beznem-zivote",
+    "title": "EU a NATO v běžném životě",
+    "aliases": [
+      "EU kolem mě",
+      "roaming",
+      "euro",
+      "cestování bez hranic",
+      "příklad z běžného života"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "popíše alespoň jeden konkrétní příklad z běžného života, kde se setkává s projevy členství ČR v mezinárodní organizaci",
+        "quote": "popíše alespoň jeden konkrétní příklad z běžného života, kde se setkává s projevy členství ČR v mezinárodní organizaci"
+      },
+      {
+        "level": "Splněno",
+        "point": "Pojmenuje a na konkrétních příkladech z vlastního života doloží výhody a nevýhody členství v EU/NATO.",
+        "quote": "Pojmenuje a na konkrétních příkladech z vlastního života doloží výhody a nevýhody členství v EU/NATO."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Evropská unie kolem nás",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí příklady z každodenního života, ty vybereš ty, které znáš ze svého okolí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a weby EU ukazují, co členství mění v běžném životě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace tvůj příklad z života nenajde."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Své zkušenosti si vybavuješ ty, nástroj to nezvládne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/309bc48b-2899-4396-9242-efc26c0e1aee",
+      "http://data.europa.eu/esco/skill/fbf53f87-9192-4a7f-b3c9-92a8c395c719"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "trideni-informaci-o-eu-a-nato",
+    "title": "Třídění informací o EU a NATO",
+    "aliases": [
+      "třídění informací",
+      "činnost EU",
+      "rozhodnutí EU",
+      "kritéria třídění",
+      "co dělá NATO"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "třídí dostupné základní informace o činnosti a/nebo rozhodnutích EU a NATO podle různých kritérií",
+        "quote": "třídí dostupné základní informace o činnosti a/nebo rozhodnutích EU a NATO podle různých kritérií"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne způsoby třídění a ty rozhodneš, který sedí na tvoje informace."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a oficiální stránky dají materiál, který třídíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka v tabulkovém programu pomůže informace seřadit podle sloupců."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lístky na stole můžeš přeskládat podle různých kritérií."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/309bc48b-2899-4396-9242-efc26c0e1aee",
+      "http://data.europa.eu/esco/skill/f39a5dcd-1b8b-4eff-a021-a96196fd71eb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "overovani-vyroku-o-eu-a-nato",
+    "title": "Ověřování výroků o EU a NATO",
+    "aliases": [
+      "ověřování faktů",
+      "fake news",
+      "pravda nebo lež",
+      "výroky politiků",
+      "dezinformace"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "analyzuje výroky o EU a/nebo NATO z veřejného prostoru a ověřuje jejich pravdivost s použitím konkrétních dat a fakt",
+        "quote": "analyzuje výroky o EU a/nebo NATO z veřejného prostoru a ověřuje jejich pravdivost s použitím konkrétních dat a fakt"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "ČR v NATO: fakta vs. názory",
+        "url": "https://uloziste.rvp.cz/material/1caf8d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere výrok na tvrzení, která jdeš ověřit, ale fakta může splést."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky a ověřovatelé tvrzení dají data, se kterými výrok porovnáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace sama výrok neověří, rozhodnout musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj výroky neověří."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3",
+      "http://data.europa.eu/esco/skill/f39a5dcd-1b8b-4eff-a021-a96196fd71eb"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "clenstvi-cr-pro-a-proti",
+    "title": "Členství ČR v EU a NATO: pro a proti",
+    "aliases": [
+      "pro a proti",
+      "výhody a nevýhody členství",
+      "být nebo nebýt v EU",
+      "argumentace",
+      "názor na EU"
+    ],
+    "outcome": "CAS-VKO-002-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zvažuje fakta pro a proti k otázce členství ČR v EU a/nebo NATO",
+        "quote": "zvažuje fakta pro a proti k otázce členství ČR v EU a/nebo NATO"
+      },
+      {
+        "level": "Splněno",
+        "point": "S použitím faktů a dat argumentuje, proč být nebo nebýt členem EU/NATO.",
+        "quote": "S použitím faktů a dat argumentuje, proč být nebo nebýt členem EU/NATO."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Evropa na miskách vah: Zvažujeme výhody a nevýhody spolupráce",
+        "url": "https://uloziste.rvp.cz/material/2c715a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě na protiargumenty a pomůže ti argumenty seřadit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistiky a články dají fakta, o která svůj názor opřeš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka nebo graf ukážou čísla k obchodu a financím."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír se dvěma sloupci pomůže srovnat pro a proti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]
