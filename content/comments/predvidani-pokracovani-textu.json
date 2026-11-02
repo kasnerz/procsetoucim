@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kdo při čtení tipuje, co přijde dál, čte pozorněji: hledá v textu stopy, a když se tip nepotvrdí, vrátí se a zjišťuje proč. U detektivky to jde skoro bez přemýšlení, u odborného článku tím odhadne, kam autor míří, a rychleji se v něm zorientuje. U zprávy nebo pracovního e-mailu se zase hodí tušit, k čemu text směřuje, ještě než to v něm stojí. Chatbot ti po tvém tipu ukáže, podle čeho šlo pokračování poznat, ale tipovat musíš první ty, jinak z toho nic nemáš.",
+  "learnWithAi": [
+    {
+      "title": "Povídka zastavená v půlce",
+      "text": "Požádej chatbota o krátkou povídku, kterou zastaví v půlce. Napiš, jak podle tebe skončí a proč, a teprve potom si nech poslat zbytek."
+    },
+    {
+      "title": "Článek po kouscích",
+      "text": "Nech chatbota rozdělit naučný článek na části a posílat ti je po jedné. Před každou další částí napiš, co v ní podle tebe bude, a sleduj, jak často se trefíš."
+    },
+    {
+      "title": "Hledání stop v úryvku",
+      "text": "Vlož chatbotu úryvek z knihy, kterou čteš, a svůj tip na další kapitolu. Ať ti ukáže, které věty tvůj tip podporují a které mu odporují."
+    }
+  ]
+}

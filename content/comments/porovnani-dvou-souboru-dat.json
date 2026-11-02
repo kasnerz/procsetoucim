@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Jestli šel test líp vaší třídě, nebo té vedlejší, z dlouhého seznamu známek nevyčteš. Pomůže, když u obou souborů spočítáš průměr nebo medián a výsledky porovnáš. Pak se vyplatí zkontrolovat, jestli jedno z čísel nezkreslilo pár extrémních hodnot. Takhle pracují lidé, kteří kontrolují účetnictví, hlídají finance firem nebo zkoumají, jestli se po nějaké změně něco opravdu zlepšilo. Tabulkový program ti obě sady čísel spočítá vedle sebe, ale závěr z nich dělá člověk, a ten musí vědět, jestli porovnává srovnatelné věci.",
+  "learnWithAi": [
+    {
+      "title": "Test ve dvou třídách",
+      "text": "Řekni chatbotovi, ať vymyslí známky ze stejného testu ve dvou třídách. Spočítej u obou průměr a medián a jednou větou napiš, které třídě se dařilo víc."
+    },
+    {
+      "title": "Teploty ze dvou měst",
+      "text": "Vyhledej skutečné teploty ze dvou měst za stejný měsíc a zeptej se chatbota, co má smysl u nich porovnat. Výpočty v tabulce i závěr už jsou na tobě."
+    },
+    {
+      "title": "Kontrola vlastního závěru",
+      "text": "Svůj závěr z porovnání dvou souborů dat pošli chatbotovi a zeptej se, jestli z čísel opravdu vyplývá. Když najde slabé místo, oprav ho vlastními slovy."
+    }
+  ]
+}

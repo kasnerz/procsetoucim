@@ -1,0 +1,40 @@
+{
+  "outcome": "CZB-TEV-002-ZV9-008",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-usili-o-zlepseni-vykonu",
+      "title": "Zlepšování výkonu při dalším měření",
+      "aliases": ["zlepšit výkon", "trénink na lepší čas", "osobní rekord", "jak se zlepšit v běhu", "opakované měření"],
+      "sources": [
+        {"level": "Splněno", "quote": "Usiluje o zlepšení pohybového výkonu."},
+        {"level": "Minimální doporučená úroveň", "quote": "usiluje o jejich zlepšení."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Navrhne ti tréninkový plán a poradí, co zkusit změnit."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš tréninkové návody a videa ke svému cvičení."},
+        "aplikace": {"verdict": "pomuze", "why": "Zapisuje tvoje výkony a ukáže, jak se vyvíjejí."},
+        "klasicky": {"verdict": "pomuze", "why": "Stopky a metr ukážou, jestli je další pokus lepší."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/14db3283-8b66-4649-9192-41defda9c33e",
+        "http://data.europa.eu/esco/skill/de1d76d0-6fa2-488f-a65a-007c22384ba2"
+      ],
+      "inspiration": ["Měření výkonu v běhu na 60 m - reflexe"]
+    }
+  ],
+  "aside": [
+    {"level": "Na cestě", "start": "Zkouší různé způsoby", "code": "O1", "refs": ["tv-mereni-vykonu-pomucky-hod-micku"]},
+    {"level": "Na cestě", "start": "Seznamuje se s vhodnými aplikacemi", "code": "O1", "refs": ["tv-vyber-aplikace-pro-mereni-pohybu"]},
+    {"level": "Na začátku", "start": "Seznamuje se s dalšími způsoby", "code": "O1", "refs": ["tv-mereni-vykonu-pomucky-hod-micku"]},
+    {"level": "Splněno", "start": "Změří svůj výkon.", "code": "O1", "refs": ["tv-mereni-vykonu-pomucky-hod-micku"]},
+    {"level": "Splněno", "start": "Vybere a použije vhodnou aplikaci", "code": "O1", "refs": ["tv-vyber-aplikace-pro-mereni-pohybu"]},
+    {"level": "Splněno", "start": "Změřený výkon zaznamená", "code": "O1", "refs": ["tv-zapis-a-porovnani-vykonu-s-predchozim"]},
+    {"level": "Splněno", "start": "Uvede, co je možnou příčinou", "code": "O1", "refs": ["tv-pricina-zlepseni-ci-zhorseni-vykonu"]},
+    {"level": "Splněno", "start": "Rozhodne o zařazení pohybových", "code": "O1", "refs": ["tv-zarazeni-pohybu-do-dne-pro-zlepseni-vykonu"]}
+  ]
+}

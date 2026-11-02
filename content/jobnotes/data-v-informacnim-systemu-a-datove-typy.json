@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "e7417f4f-7072-4b07-a71f-71f6fc7f5e5b": "Do záznamů o zvířatech se ukládají jména, data narození, přesuny nebo zdravotní stav. Každá položka má svůj druh údaje, text nebo datum, a pravidelně se z nich píší zprávy.",
+  "8d9ec84d-cf2d-4179-87bc-335cda54a427": "Tady se rozhoduje, jaká data databáze ukládá a jakého jsou typu, třeba text, číslo nebo datum. Návrh datového modelu je hlavní náplní práce.",
+  "3765a20d-5160-4e8f-82f1-ad7872b9db24": "Systémy záznamů ukládají rozdílné údaje, dokumenty, data i čísla. Aby se informace dala najít a poskytnout, je potřeba vědět, jaká data jsou kde a kdo k nim smí.",
+  "983c2816-a339-4817-97f4-151a9ff3e64d": "Lékařské záznamy obsahují údaje o pacientech, jména, diagnózy, data a výsledky. Odpovídá se za jejich správu a řídí se, kdo k jakým údajům smí.",
+  "14eb2c85-fce5-40b6-bcd0-46ac99994b0d": "Údaje z papírových záznamů pacientů se převádějí do elektronické podoby. Je nutné vědět, co které políčko obsahuje, aby se nic nespletlo, a udržovat aktuální i archivní záznamy.",
+  "b11e1742-5e28-4270-b081-b0193d85ee7d": "Databáze se tu programují a mění, takže se každý den řeší, jaká data se ukládají a v jakém tvaru. Typy dat jsou tu základ celé práce.",
+  "ef909843-97c6-4c48-8038-2e7aefdfcad5": "Zdravotnické zařízení používá systémy plné dat o pacientech a léčbě. Dohlíží se na jejich provoz, takže se musí vědět, co která databáze obsahuje a k čemu slouží.",
+  "6353b3e8-e8f2-4ecb-b230-186927139892": "Údaje o zákaznících a účtech se třídí a vkládají do systému. Je nutné poznat, co kam patří, a ověřovat, že zadané údaje souhlasí s podklady."
+ }
+}

@@ -1,0 +1,712 @@
+[
+  {
+    "slug": "vysvetleni-textu-vlastnimi-slovy",
+    "title": "Vysvětlení jednoduchého textu vlastními slovy",
+    "aliases": [
+      "porozumění textu",
+      "převyprávění",
+      "vlastními slovy",
+      "co text říká"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "porozumí jednoduchému textu a vysvětlí jeho význam vlastními slovy",
+        "quote": "porozumí jednoduchému textu a vysvětlí jeho význam vlastními slovy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí těžké slovo nebo větu a poslechne si tvoje vysvětlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník nebo příručka objasní slova, kterým nerozumíš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti text jen přeloží nebo přečte, vysvětlovat vlastními slovy musíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Výkladový slovník ti pomůže s významem neznámých slov."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "klicova-slova-v-textu",
+    "title": "Hledání klíčových slov v textu",
+    "aliases": [
+      "klíčová slova",
+      "hlavní slova",
+      "podtrhávání",
+      "důležitá slova"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vyhledá v textu klíčová slova;",
+        "quote": "vyhledá v textu klíčová slova;"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje, jestli tvoje klíčová slova opravdu vystihují text."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotová klíčová slova ti k textu nikdo nenajde, vybíráš je ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Vyhledávání slov v textu ti ukáže, kde se slovo opakuje."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zvýrazňovač a tužka pomáhají důležitá slova označit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osnova-vlastniho-textu",
+    "title": "Osnova vlastního textu",
+    "aliases": [
+      "osnova",
+      "plán textu",
+      "body k psaní",
+      "členění textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "využívá osnovu při tvorbě vlastního textu",
+        "quote": "využívá osnovu při tvorbě vlastního textu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže ti příklady osnov a řekne, co v nich chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové osnovy najdeš ve školních materiálech a na výukových webech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na myšlenkové mapy ti pomůže body seřadit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka ti stačí na body a jejich pořadí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/c2f70431-2cc5-4552-bcb7-6564512c15bd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "slohovy-utvar-z-klicovych-slov",
+    "title": "Jednoduchý slohový útvar z klíčových slov",
+    "aliases": [
+      "krátký text podle slov",
+      "sloh",
+      "napsat text ze slov",
+      "vypravování"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vytvoří jednoduchý slohový útvar pomocí klíčových slov",
+        "quote": "vytvoří jednoduchý slohový útvar pomocí klíčových slov"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Řekne ti, co v tvém krátkém textu chybí nebo nesedí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky jednoduchých slohových útvarů najdeš na výukových webech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Textový editor podtrhne chyby, text ale nevymyslí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Na papír píšeš ty, tužka a sešit ti text nevymyslí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/c2f70431-2cc5-4552-bcb7-6564512c15bd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "poznamky-vypisky-vytah",
+    "title": "Poznámky, výpisky a výtah z textu",
+    "aliases": [
+      "výpisky",
+      "poznámky z textu",
+      "výtah",
+      "zápis z hodiny",
+      "shrnutí textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "vytvoří stručné poznámky, výpisky nebo výtah z textu",
+        "quote": "vytvoří stručné poznámky, výpisky nebo výtah z textu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Porovná tvůj výtah s textem a upozorní na vynechané důležité věci."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Výpisky z knihy máš mít v hlavě i v sešitě, hotový výtah z internetu ti to nenahradí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na poznámky je řadí pod nadpisy a umí v nich hledat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Sešit, tužka a zvýrazňovač jsou pro psaní výpisků nejpřímější cesta."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "fakta-a-nazory",
+    "title": "Rozlišování faktů a názorů",
+    "aliases": [
+      "fakt a názor",
+      "pravda a mínění",
+      "co je fakt",
+      "názor v textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "odliší s pomocí učitele a v diskusi se spolužáky fakta a názory",
+        "quote": "odliší s pomocí učitele a v diskusi se spolužáky fakta a názory"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere s tebou větu a ukáže, co se dá ověřit a co je mínění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Z encyklopedie a ověřených zdrojů zjistíš, co z textu platí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti názor od faktu neodliší, to posoudíš v diskusi ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj k tomu nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/db33c0f3-43ee-4ba3-ba47-9269ac837697",
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jazykova-norma-v-textu",
+    "title": "Pravidla spisovného jazyka v textu a řeči",
+    "aliases": [
+      "jazyková norma",
+      "spisovná čeština",
+      "pravidla češtiny",
+      "správně psát a mluvit",
+      "pravopis v textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "aplikuje získaná pravidla jazykové normy dle svých schopností do tvorby textů nebo komunikační situace",
+        "quote": "aplikuje získaná pravidla jazykové normy dle svých schopností do tvorby textů nebo komunikační situace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč je v tvé větě chyba, a vymyslí cvičné věty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internetová jazyková příručka ti ukáže správný tvar a pravidlo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu podtrhne chyby v tvém textu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník a pravidla pravopisu rozhodnou, co je správně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "komunikacni-sfery",
+    "title": "Komunikační sféry a jejich jazyk",
+    "aliases": [
+      "styly",
+      "komunikační sféra",
+      "úřední a běžný jazyk",
+      "jak se mluví kde",
+      "funkční styly"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozliší jednotlivé komunikační sféry",
+        "quote": "rozliší jednotlivé komunikační sféry"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Přepíše tutéž zprávu do úředního a do kamarádského jazyka a ty porovnáš rozdíly."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky textů z různých sfér najdeš na internetu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace sféry rozpozná jen podle slov, rozlišit situaci musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj k tomu nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "slohovy-utvar-kompozice-a-vecnost",
+    "title": "Slohový útvar se správnou stavbou",
+    "aliases": [
+      "sloh",
+      "kompozice textu",
+      "úvod stať závěr",
+      "stavba textu",
+      "věcná správnost"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "podle svých schopností a zadání učitele vytvoří kompozičně a věcně správně slohový útvar",
+        "quote": "podle svých schopností a zadání učitele vytvoří kompozičně a věcně správně slohový útvar"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje stavbu tvého textu a upozorní na slabé místo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové texty a rady k psaní najdeš na internetu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Textový editor ti ukáže odstavce a pravopisné chyby."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír text nesestaví, stavbu rozhoduješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "etika-komunikace-a-argumentacni-fauly",
+    "title": "Respektující komunikace a argumentační fauly",
+    "aliases": [
+      "slušná komunikace",
+      "oslovení",
+      "argumentační faul",
+      "stereotypy",
+      "generalizace",
+      "jak se slušně vyjadřovat"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zvolí a uplatní vhodné etické postupy podle svých schopností pro prostředí a adresáta (respektující komunikace, oslovení, nepoužívání argumentačních faulů, stereotypy, generalizování ad.).",
+        "quote": "Zvolí a uplatní vhodné etické postupy podle svých schopností pro prostředí a adresáta (respektující komunikace, oslovení, nepoužívání argumentačních faulů, stereotypy, generalizování ad.)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Najde argumentační fauly ve tvém textu a vysvětlí, proč nefungují."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Seznam argumentačních faulů s příklady si přečteš na internetu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tón ani úctu k adresátovi nehlídá, to děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj k tomu nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+      "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozvijeni-myslenky-podle-ucelu",
+    "title": "Rozvíjení myšlenky podle účelu textu",
+    "aliases": [
+      "rozvinout myšlenku",
+      "účel textu",
+      "přehledný text",
+      "odstavec",
+      "jak psát přehledně"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Správně a přehledně rozvíjí myšlenku s ohledem na účel textu.",
+        "quote": "Správně a přehledně rozvíjí myšlenku s ohledem na účel textu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Řekne, kde se tvoje myšlenka ztrácí a co jí chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rady k psaní odstavců a vzorové texty najdeš na internetu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Textový editor ti pomůže text rozdělit do odstavců."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj k tomu nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nadvetne-spojovani",
+    "title": "Propojení vět a odstavců v textu",
+    "aliases": [
+      "nadvětné spojování",
+      "spojovací výrazy",
+      "návaznost vět",
+      "zájmena a opakování slov",
+      "souvislý text"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Správně propojuje text prostředky nadvětného spojování.",
+        "quote": "Správně propojuje text prostředky nadvětného spojování."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže ti, kde text drncá, a nabídne spojovací výrazy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Seznam spojovacích výrazů s příklady najdeš na internetu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola textu upozorní na opakování stejných slov."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj k tomu nemá co nabídnout."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/96ae5ab6-d696-4d4f-be1c-d02e722c6f55",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "usporadani-uryvku-do-textu",
+    "title": "Uspořádání úryvků do smysluplného textu",
+    "aliases": [
+      "seřadit věty",
+      "pořadí odstavců",
+      "textová návaznost",
+      "poskládat text",
+      "zamíchaný text"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uspořádá úryvky tak, aby sestavený text dával smysl a aby byla dodržena textová návaznost.",
+        "quote": "Uspořádá úryvky tak, aby sestavený text dával smysl a aby byla dodržena textová návaznost."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zamíchá ti úryvky na procvičení a vysvětlí, kde se pořadí liší od tvého."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové pořadí úryvků na internetu neurčí, jak ho navrhneš ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti úryvky nepoloží do správného smyslu, to posoudíš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stříhání úryvků na papírky a skládání pomáhá vyzkoušet pořadí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "narocnejsi-slohovy-utvar",
+    "title": "Esej, výklad a líčení",
+    "aliases": [
+      "esej",
+      "výklad",
+      "líčení",
+      "slohová práce",
+      "delší sloh"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří náročnější slohový útvar podle zadání (esej, výklad, líčení ad.).",
+        "quote": "Vytvoří náročnější slohový útvar podle zadání (esej, výklad, líčení ad.)."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, co chceš říct, a ukáže slabá místa v tvém textu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové eseje, výklady a líčení najdeš na výukových webech."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Textový editor ti pomůže s pravopisem a členěním."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Text napíšeš ty, tužka a papír ho nesestaví."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/00b9a3aa-7070-4bb5-8020-f228a97cf42f",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

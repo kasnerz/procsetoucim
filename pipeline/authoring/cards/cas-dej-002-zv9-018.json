@@ -1,0 +1,356 @@
+{
+  "outcome": "CAS-DEJ-002-ZV9-018",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "vyuziti-historie-dnes",
+      "title": "Příklady využití historie v dnešním životě",
+      "aliases": [
+        "k čemu je dějepis",
+        "historie dnes",
+        "poučení z minulosti",
+        "dějiny a současnost",
+        "modelová situace"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vymezí různé příklady toho, jak je možné v současné historické kultuře využívat historické poznání"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot navrhne příklady, kde se dnes historie hodí, a ty je vybereš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy a články ukazují, jak se na minulost odkazuje dnes."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná aplikace ti příklady z tvého okolí nenajde."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "S klasickým nástrojem tuhle úvahu nezvládneš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+      ],
+      "inspiration": [
+        "Zaslouží si pomník?",
+        "Co se děje s pomníkem?"
+      ]
+    },
+    {
+      "slug": "zkoumani-zdroje-o-udalosti",
+      "title": "Zkoumání zdroje o historické události",
+      "aliases": [
+        "rozbor zdroje",
+        "hlavní sdělení textu",
+        "článek o historii",
+        "historický pramen",
+        "práce se zdrojem"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Prozkoumá jeden zdroj, který je součástí jeho aktivity."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Prozkoumá zdroje, které jsou součástí jeho aktivity"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí těžší slova a souvislosti, zdroj ale čteš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na internetu najdeš autora, dobu vzniku a další zdroje k porovnání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe zdroj nepřečte, hlavní sdělení hledáš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník ti vysvětlí slovo, zdroj jím ale nerozebereš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Zeď, múr, die Mauer"
+      ]
+    },
+    {
+      "slug": "posouzeni-argumentu-a-manipulace",
+      "title": "Posouzení postojů, argumentů a manipulace ve zdroji",
+      "aliases": [
+        "manipulace v textu",
+        "kdo má pravdu",
+        "argumenty autora",
+        "kritické čtení",
+        "proč to autor tvrdí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Ve zdrojích posoudí postoje a způsoby argumentace jednotlivých aktérů."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Odpoví na otázky nezbytné pro kritické posouzení situace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se ptá, proč autor píše právě tohle, a ty hledáš odpovědi."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Fakta z textu si ověříš v encyklopedii nebo v dalších zdrojích."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepozná, co je v textu postoj a co argument."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Posoudit autora a jeho důvody klasický nástroj neumí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+        "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22"
+      ],
+      "inspiration": [
+        "Jak nahlížet na očkování",
+        "Je možné se poučit z holocaustu?"
+      ]
+    },
+    {
+      "slug": "vlastni-postoj-k-situaci",
+      "title": "Vlastní postoj k situaci z dějin",
+      "aliases": [
+        "jak bych se zachoval",
+        "můj názor",
+        "zaujmout postoj",
+        "rozhodnutí v situaci",
+        "jak bych jednal"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Navrhne, jak by se v dané situaci zachoval."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Sám nebo ve skupině určí, kterou možnost využívání historického poznání si chce vyzkoušet."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ukáže, jak se na věc dívají různé strany, rozhodnout se musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš, jak podobné situace řešili lidé před tebou."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace se za tebe nerozhodne a postoj ti nevytvoří."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Postoj si nezměříš ani nespočítáš, vzniká v tvé hlavě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22"
+      ],
+      "inspiration": [
+        "Zaslouží si pomník?"
+      ]
+    },
+    {
+      "slug": "diskuse-o-ruznych-pohledech",
+      "title": "Diskuse s ostatními o různých pohledech na událost",
+      "aliases": [
+        "debata ve třídě",
+        "hádka o historii",
+        "protichůdné názory",
+        "argumentovat",
+        "diskuze o minulosti"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Při vlastní tvorbě zohlední různé pohledy na danou událost a zaujme podložené postoje, přičemž použije argumenty, které citlivě aplikuje v rámci diskuse s ostatními."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti zahraje protistranu, takže si argumenty vyzkoušíš nanečisto."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na internetu seženeš fakta a zdroje, o které svůj názor opřeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nediskutuje, mluvíš a posloucháš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Diskusi s lidmi vedeš hlasem, nástroj k tomu nepotřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+        "http://data.europa.eu/esco/skill/bad0f996-a299-4631-a7d8-104185b2ef22"
+      ],
+      "inspiration": [
+        "Co se děje s pomníkem?"
+      ]
+    },
+    {
+      "slug": "vlastni-vystup-k-historickemu-tematu",
+      "title": "Vlastní výstup: pomník, název ulice, dopis nebo reakce",
+      "aliases": [
+        "dopis zastupitelstvu",
+        "nová ulice",
+        "pamětní deska",
+        "návrh pomníku",
+        "reakce na nepravdu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Představí svůj výběr, postoj nebo stanovisko"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Využije historické poznání, které získal z různých kriticky prozkoumaných zdrojů, k proměně svého současného okolí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti poradí s osnovou dopisu a ty ho napíšeš po svém."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš vzory dopisů a informace o osobnosti, kterou navrhuješ."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Textový editor ohlídá chyby a pomůže s úpravou textu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pero a papír text nevymyslí, výběr a argumenty jsou na tobě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+        "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+      ],
+      "inspiration": [
+        "Zaslouží si pomník?"
+      ]
+    },
+    {
+      "slug": "predstaveni-vystupu-ve-tride",
+      "title": "Představení výstupu ve třídě, škole nebo obci",
+      "aliases": [
+        "prezentace ve třídě",
+        "vystoupení",
+        "představit projekt",
+        "mluvený projev",
+        "obhajoba názoru"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vytvoří a ve třídě, škole či obci představí vlastní výstup, v němž zohlední i protichůdné názory."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti položí otázky, jaké by mohli mít posluchači."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové informace ti projev nepřednesou."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prezentační program pomůže s posloupností snímků."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před lidmi mluvíš ty, žádný nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b",
+        "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na cestě",
+      "start": "Osvojuje si strategie",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

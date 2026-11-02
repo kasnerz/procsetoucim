@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tvoje známky smí vidět rodiče a učitelé, ale ne spolužáci, a zapisovat je smí jen ten, kdo tě učí. Systém to hlídá přes práva, která určují, kdo smí data číst, kdo měnit a kdo mazat. Když je někdo nastaví špatně, může si cizí člověk přečíst lékařskou zprávu nebo přepsat údaj v katastru, a proto se tomu věnují lidé, kteří spravují databáze a hlídají bezpečnost informací. Chatbot ti na příkladech ukáže, jak se práva rozdělují. Kdo má k čemu přístup ve vaší škole, ale zjistíš jen ve vlastním systému nebo dotazem.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka čtení a zápisu",
+      "text": "Ať ti chatbot připraví seznam údajů ze školního systému a seznam rolí. Doplň do tabulky, kdo smí který údaj číst a kdo měnit, a u sporných políček si nech vysvětlit, jak to bývá."
+    },
+    {
+      "title": "Příběh o špatném nastavení",
+      "text": "Požádej chatbota o krátký příběh, kde se kvůli špatně nastaveným právům dostal údaj k nepovolanému člověku. Najdi, které právo bylo chybně, a navrhni opravu."
+    },
+    {
+      "title": "Sdílené fotky z výletu",
+      "text": "Navrhni práva pro systém, ve kterém si třída sdílí fotky z výletu. Chatbot ať hraje rodiče, který nechce fotky svého dítěte ukazovat cizím, a návrh uprav podle jeho námitek."
+    }
+  ]
+}

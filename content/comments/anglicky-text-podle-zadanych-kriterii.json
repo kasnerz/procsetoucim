@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "U jazykových zkoušek i v práci často dostaneš přesné zadání: jak dlouhý má text být, co v něm musí zaznít a jakým tónem ho máš psát. Hezký text, který vynechá jeden bod, zadání nesplní. Lidé v cestovních kancelářích, turistických informacích nebo na zahraničních odděleních takhle denně odpovídají na anglické dotazy a jejich odpověď musí pokrýt každou otázku. Chatbot porovná tvůj text se zadáním za pár vteřin, ale kontrolovat se podle bodů zadání se vyplatí naučit, protože u zkoušky ho mít nebudeš.",
+  "learnWithAi": [
+    {
+      "title": "Zadání jako u zkoušky",
+      "text": "Řekni chatbotovi, ať ti vymyslí zadání krátkého anglického textu s délkou a body, které musíš zmínit. Napiš text a nech chatbota zkontrolovat, který bod chybí."
+    },
+    {
+      "title": "Jedna zpráva ve dvou tónech",
+      "text": "Napiš stejnou zprávu anglicky dvakrát, jednou kamarádovi a jednou do hotelu. Ať chatbot označí místa, kde tón neodpovídá adresátovi, a oprav je."
+    },
+    {
+      "title": "Hodnocení podle kritérií",
+      "text": "Vlož do chatbota svůj hotový text i zadání a popros ho o hodnocení podle jednotlivých kritérií. Kde ztrácíš body, text oprav a nech ho ohodnotit znovu."
+    }
+  ]
+}

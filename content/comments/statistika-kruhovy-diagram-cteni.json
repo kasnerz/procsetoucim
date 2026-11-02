@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kruhový diagram ukazuje, jak se celek dělí na části, třeba kolik peněz z rozpočtu obce jde na co nebo jak dopadla anketa ve třídě. Umět z něj vyčíst podíly se hodí u výsledků voleb nebo u vyúčtování energií, kde bývá diagram místo tabulky. Statistici a finanční analytici s takovými grafy pracují pořád a ukazují je klientům. Počítač ti diagram nakreslí okamžitě, ale vyčíst z něj podíl a všimnout si, že výseče nesedí s popisky nebo že šikmý trojrozměrný kruh zvětšuje přední výseč, musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Úhel výseče a procenta",
+      "text": "Zeptej se chatbota, proč čtvrtině celku odpovídá výseč s pravým úhlem. Na jednom diagramu si to ověř úhloměrem."
+    },
+    {
+      "title": "Počty lidí z procent",
+      "text": "Požádej chatbota o pět slovních úloh, kde je kruhový diagram s procenty a celkový počet, třeba žáků ve škole. Spočítej, kolik jich je v každé části, a výpočty si ověř kalkulačkou."
+    },
+    {
+      "title": "Diagram z novin",
+      "text": "Vyfoť kruhový diagram z učebnice nebo novin a napiš, jaké podíly z něj čteš. Pošli fotku i svůj odhad chatbotu a nech si ukázat, kde se vaše čtení liší."
+    }
+  ]
+}

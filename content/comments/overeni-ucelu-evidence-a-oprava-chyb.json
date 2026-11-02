@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tabulka může vypadat úhledně, a přesto neodpovědět na otázku, kvůli které vznikla. Když má evidence tréninků ukázat, kolik kdo naběhal za měsíc, a chybí v ní datum, nepomůže žádné řazení. Ověřit evidenci znamená vzít si zadání, zkusit z dat vytáhnout každou požadovanou odpověď a opravit, co nejde. Takhle pracují lidé, kteří hlídají kvalitu dat nebo výrobků, a v jejich oborech míst spíš přibude. Chatbot ti vymyslí zkušební záznamy, ale jestli evidence odpovídá zadání, posoudíš tak, že ji projdeš bod po bodu.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka se schovanými chybami",
+      "text": "Řekni chatbotovi, ať připraví malou evidenci se třemi schovanými chybami. Najdi je a oprav a teprve potom si nech říct, které to byly."
+    },
+    {
+      "title": "Záludné zkušební záznamy",
+      "text": "Napiš chatbotovi, co tvoje evidence sleduje, a nech si vymyslet deset záludných záznamů, třeba se dvěma stejnými jmény nebo chybějícím datem. Vlož je do tabulky a zjisti, co vydrží."
+    },
+    {
+      "title": "Otázky ze zadání",
+      "text": "Přepiš zadání do otázek, na které má evidence odpovídat, a porovnej svůj seznam s tím, co vypíše chatbot. Na každou otázku pak zkus najít odpověď ve své tabulce filtrem nebo řazením."
+    }
+  ]
+}

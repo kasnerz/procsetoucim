@@ -1,0 +1,339 @@
+[
+  {
+    "slug": "co-zdravi-prospiva-a-skodi",
+    "title": "Co zdraví prospívá a co škodí",
+    "aliases": [
+      "zdravý životní styl",
+      "co škodí zdraví",
+      "zdravé a nezdravé",
+      "návykové látky",
+      "co je zdravé"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-025",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozlišuje, co prospívá zdraví, co škodí, předvede v modelové situaci odmítnutí návykové látky.",
+        "quote": "Rozlišuje, co prospívá zdraví, co škodí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak se rozhodneš?",
+        "url": "https://uloziste.rvp.cz/material/ac565e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč něco zdraví škodí, a doplní příklady k tomu, co už znáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu ověřené informace o tom, co zdraví prospívá a co ho poškozuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nerozhodne, co zdraví škodí, jen počítá kroky nebo kalorie."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír nic o zdraví nevysvětlí, tříděním přání si poradíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+      "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odmitnuti-cigarety-alkoholu-a-drog",
+    "title": "Odmítnutí cigarety, alkoholu a drog",
+    "aliases": [
+      "říct ne",
+      "odmítnout cigaretu",
+      "odmítání alkoholu",
+      "jak odmítnout drogy",
+      "modelová situace"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-025",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozlišuje, co prospívá zdraví, co škodí, předvede v modelové situaci odmítnutí návykové látky.",
+        "quote": "předvede v modelové situaci odmítnutí návykové látky"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Předvádí základní postupy při odmítání cigaret, alkoholu, drog.",
+        "quote": "Předvádí základní postupy při odmítání cigaret, alkoholu, drog."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Umím říct ne",
+        "url": "https://uloziste.rvp.cz/material/4ae83a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne věty, jak říct ne, a zahraje druhou stranu, ať si je můžeš vyzkoušet nahlas."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu ukázkové věty a rady, jak nabídku slušně a jasně odmítnout."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "V živé situaci musíš ne říct ty, aplikace to nezvládne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odmítáš hlasem a řečí těla před druhými, nástroj v tom nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a0cad388-3c4c-4786-b238-fc39f8c495af",
+      "http://data.europa.eu/esco/skill/bfe4f330-d595-48c7-ab3c-f309471d6953"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odmitnuti-sladkosti-od-cizich",
+    "title": "Nepřijmout sladkosti ani nápoj od cizího člověka",
+    "aliases": [
+      "cizí člověk nabízí sladkosti",
+      "bonbón od cizího",
+      "neznámý člověk",
+      "bezpečí",
+      "odmítnout cizího"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-025",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Předvede v modelových situacích nepřijetí potravin zejména sladkostí a nápojů od cizí osoby.",
+        "quote": "Předvede v modelových situacích nepřijetí potravin zejména sladkostí a nápojů od cizí osoby."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se od cizích nebere jídlo, a projde s tebou, co říct a kam utéct."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu rady policie a prevence, jak se zachovat, když ti cizí člověk něco nabízí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "V reálné situaci řekneš ne ty, aplikace to nezvládne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odmítnout a odejít musíš ty, žádný nástroj to za tebe nezvládne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a65fb963-6faf-47b2-a3d9-c4e5e4d833c5",
+      "http://data.europa.eu/esco/skill/f8d4a24c-fb62-444e-9525-7aa5662f440d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pasivni-koureni",
+    "title": "Kouření a pobyt v zakouřeném prostoru",
+    "aliases": [
+      "pasivní kouření",
+      "cigarety",
+      "kouř v místnosti",
+      "kouření škodí",
+      "zakouřená místnost"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-025",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Diskutuje skutečnost, že kouření i pobyt v zakouřeném prostoru má negativní na zdraví.",
+        "quote": "Diskutuje skutečnost, že kouření i pobyt v zakouřeném prostoru má negativní na zdraví."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Pasivní kouření",
+        "url": "https://uloziste.rvp.cz/material/636abd"
+      },
+      {
+        "title": "Anketa: kouření",
+        "url": "https://uloziste.rvp.cz/material/53efe3"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co kouř dělá s plícemi i těm, kdo jen sedí poblíž, a odpoví na tvé otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu ověřená data a články o tom, jak kouř škodí i nekuřákům."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace k diskusi s ostatními nic nepřidá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskutovat se spolužáky můžeš jen ty a oni, žádný nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/99550622-4c7f-4bba-884b-d4b03dbaf91d",
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "mapa-nasledku-zavislosti",
+    "title": "Myšlenková mapa o následcích závislosti",
+    "aliases": [
+      "myšlenková mapa",
+      "mind map",
+      "důsledky závislosti",
+      "závislost a zdraví",
+      "vyhledávání informací"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-025",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vyhledává základní informace a vytvoří myšlenkovou mapu o negativních důsledcích závislostního chování na zdraví a bezpečí.",
+        "quote": "Vyhledává základní informace a vytvoří myšlenkovou mapu o negativních důsledcích závislostního chování na zdraví a bezpečí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Návykové látky a jejich vliv na zdraví",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne, jaké větve do mapy patří, a ukáže, co v ní ještě chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu ověřené informace o následcích závislosti, ze kterých mapu sestavíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na myšlenkové mapy ti pomůže mapu přehledně nakreslit a upravovat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a pastelky ti stačí k nakreslení vlastní mapy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+      "http://data.europa.eu/esco/skill/ffc7b5ae-1bae-42eb-b9dd-c9044fea7105"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rizika-digitalnich-technologii",
+    "title": "Rizika nadměrného používání telefonu a počítače",
+    "aliases": [
+      "závislost na hrách",
+      "sociální sítě",
+      "moc času u obrazovky",
+      "digitální technologie",
+      "počítačové hry"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-025",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede rizika spojená s nadměrným používáním digitálních technologií.",
+        "quote": "Uvede rizika spojená s nadměrným používáním digitálních technologií."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co dlouhé hraní a scrollování dělá se spánkem a pozorností, a dá příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu články a doporučení lékařů o tom, kolik času u obrazovky je moc."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace měří, kolik času trávíš v telefonu, a ukáže to v číslech."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rizika posoudíš podle svých zkušeností, žádný klasický nástroj nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+      "http://data.europa.eu/esco/skill/a65fb963-6faf-47b2-a3d9-c4e5e4d833c5"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

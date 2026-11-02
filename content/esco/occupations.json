@@ -23060,6 +23060,34 @@
    }
   }
  },
+ "3cee6bea-4a19-4511-9bbb-fdf820857555": {
+  "id": "3cee6bea-4a19-4511-9bbb-fdf820857555",
+  "uri": "http://data.europa.eu/esco/occupation/3cee6bea-4a19-4511-9bbb-fdf820857555",
+  "label": "Kriminální vyšetřovatel/vyšetřovatelka",
+  "labelAlt": [],
+  "description": "Kriminální vyšetřovatelé zkoumají a zpracovávají místa trestných činů a důkazy, které se v nich nacházejí. V souladu s pravidly a předpisy řeší a chrání důkazy a izolují místo činu od vnějších vlivů. Fotografují místo činu, zajišťují zachování důkazů a podávají zprávy.",
+  "isco4": "3355",
+  "isco2": "33",
+  "ilo": {
+   "score": 0.23,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 26,
+    "examples": [
+     "posuzovat znečištění"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 26,
+    "examples": []
+   }
+  }
+ },
  "3d0f86c1-9bdd-4e84-bc62-93a716128c8d": {
   "id": "3d0f86c1-9bdd-4e84-bc62-93a716128c8d",
   "uri": "http://data.europa.eu/esco/occupation/3d0f86c1-9bdd-4e84-bc62-93a716128c8d",
@@ -23911,6 +23939,35 @@
      "být počítačově gramotný",
      "zřídit hlavní projektové úložiště"
     ]
+   }
+  }
+ },
+ "3f54ceba-3c4e-4ba1-8ddb-9e49a881a60a": {
+  "id": "3f54ceba-3c4e-4ba1-8ddb-9e49a881a60a",
+  "uri": "http://data.europa.eu/esco/occupation/3f54ceba-3c4e-4ba1-8ddb-9e49a881a60a",
+  "label": "Koordinátor/koordinátorka bezpečnosti a ochrany zdraví při práci na staveništi",
+  "labelAlt": [],
+  "description": "Koordinátoři bezpečnosti a ochrany zdraví při práci na staveništi dohlížejí na, vymáhají a kontrolují opatření v oblasti bezpečnosti a ochrany zdraví na staveništích. Rovněž mají na starosti pracovní úrazy a podnikají kroky k zajištění toho, aby bezpečnostní politiky byly správně prováděny.",
+  "isco4": "3112",
+  "isco2": "31",
+  "ilo": {
+   "score": 0.28,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 33,
+    "examples": [
+     "právní předpisy v oblasti životního prostředí",
+     "dodržovat ve stavebnictví postupy v oblasti bezpečnosti a ochrany zdraví"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 33,
+    "examples": []
    }
   }
  },
@@ -28310,6 +28367,41 @@
     "examples": [
      "technické výkresy",
      "počítačová simulace"
+    ]
+   }
+  }
+ },
+ "4be4ea31-1211-4f0c-82bb-f6fe10791f4d": {
+  "id": "4be4ea31-1211-4f0c-82bb-f6fe10791f4d",
+  "uri": "http://data.europa.eu/esco/occupation/4be4ea31-1211-4f0c-82bb-f6fe10791f4d",
+  "label": "Generální ředitel/ředitelka letiště",
+  "labelAlt": [
+   "ředitelka letiště",
+   "ředitel letiště"
+  ],
+  "description": "Generální ředitelé letišť vedou skupinu ředitelů letiště, která je odpovědná za všechny oblasti letiště. Plánují strategické vedení letiště a rozhodují o něm na základě informací poskytnutých jejich týmem vedoucích pracovníků.",
+  "isco4": "1120",
+  "isco2": "11",
+  "ilo": {
+   "score": 0.38,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 38,
+    "examples": [
+     "letištní předpisy týkající se životního prostředí",
+     "koordinovat letištní ekologické zásady",
+     "provádět environmentální studie letiště"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 38,
+    "examples": [
+     "bezpečnostní standardy ICT"
     ]
    }
   }
@@ -46729,6 +46821,41 @@
    }
   }
  },
+ "7d8b3c73-20f8-467e-91e4-00378673a2cd": {
+  "id": "7d8b3c73-20f8-467e-91e4-00378673a2cd",
+  "uri": "http://data.europa.eu/esco/occupation/7d8b3c73-20f8-467e-91e4-00378673a2cd",
+  "label": "Inspektor/inspektorka potravinářské inspekce",
+  "labelAlt": [
+   "manažer kvality",
+   "manažerka kvality",
+   "koordinátorka kontroly kvality potravin",
+   "manažerka bezpečnosti potravin",
+   "manažer bezpečnosti potravin",
+   "koordinátor kontroly kvality potravin",
+   "inspektor bezpečnosti potravin",
+   "inspektorka bezpečnosti potravin"
+  ],
+  "description": "Inspektoři potravinářské inspekce provádějí inspekce v potravinářském prostředí z hlediska bezpečnosti potravin. Jsou součástí úředních kontrolních orgánů, které kontrolují potravinářské výrobky a postupy s cílem zajistit dodržování předpisů a právních regulí upravujících bezpečnost a ochranu zdraví.",
+  "isco4": "3257",
+  "isco2": "32",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 60,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 60,
+    "examples": []
+   }
+  }
+ },
  "7d9242d3-2a55-45e3-9d67-be76f879de0b": {
   "id": "7d9242d3-2a55-45e3-9d67-be76f879de0b",
   "uri": "http://data.europa.eu/esco/occupation/7d9242d3-2a55-45e3-9d67-be76f879de0b",
@@ -51154,6 +51281,38 @@
     "count": 0,
     "of": 15,
     "examples": []
+   }
+  }
+ },
+ "8908d5aa-ac58-465e-9b75-7e02ed4af3a9": {
+  "id": "8908d5aa-ac58-465e-9b75-7e02ed4af3a9",
+  "uri": "http://data.europa.eu/esco/occupation/8908d5aa-ac58-465e-9b75-7e02ed4af3a9",
+  "label": "Koordinátor/koordinátorka vodní dopravy",
+  "labelAlt": [
+   "koordinátorka lodní dopravy"
+  ],
+  "description": "Koordinátoři vodní dopravy řídí pohyby plavidla v přístavech a vodních cestách. Zajišťují účinné nasazení plavidel námořní společnosti.",
+  "isco4": "4323",
+  "isco2": "43",
+  "ilo": {
+   "score": 0.5,
+   "gradient": "Gradient 3"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 34,
+    "examples": []
+   },
+   "digital": {
+    "count": 4,
+    "of": 34,
+    "examples": [
+     "námořní telekomunikace",
+     "obsluhovat přístavní komunikační systémy",
+     "spravovat dispečerský software"
+    ]
    }
   }
  },
@@ -68642,6 +68801,32 @@
    }
   }
  },
+ "bac62d45-bb74-45fa-9b38-a3ebf2095212": {
+  "id": "bac62d45-bb74-45fa-9b38-a3ebf2095212",
+  "uri": "http://data.europa.eu/esco/occupation/bac62d45-bb74-45fa-9b38-a3ebf2095212",
+  "label": "Administrativní pracovník/pracovnice pro právní případy",
+  "labelAlt": [],
+  "description": "Administrativní pracovníci pro právní případy dohlížejí nad pokrokem v trestních a občanskoprávních věcech od okamžiku zahájení řízení až po jeho uzavření. Přezkoumávají spisy věcí a jejich pokrok, aby bylo zajištěno, že řízení probíhá v souladu s právními předpisy. Rovněž zajišťují, aby řízení probíhalo v příslušném časovém rámci a aby před uzavřením věci byly učiněny veškeré závěry.",
+  "isco4": "3411",
+  "isco2": "34",
+  "ilo": {
+   "score": 0.39,
+   "gradient": "Gradient 1"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   }
+  }
+ },
  "bac64fa2-dcd6-47bb-8e5c-04e04a86a199": {
   "id": "bac64fa2-dcd6-47bb-8e5c-04e04a86a199",
   "uri": "http://data.europa.eu/esco/occupation/bac64fa2-dcd6-47bb-8e5c-04e04a86a199",
@@ -75837,6 +76022,36 @@
    }
   }
  },
+ "cea4d5c9-7805-434a-8e6b-af5e9fa54c9e": {
+  "id": "cea4d5c9-7805-434a-8e6b-af5e9fa54c9e",
+  "uri": "http://data.europa.eu/esco/occupation/cea4d5c9-7805-434a-8e6b-af5e9fa54c9e",
+  "label": "Obsluha skeneru",
+  "labelAlt": [],
+  "description": "Obsluha skeneru ovládá skenery. Vkládá tištěné materiály do stroje a nastavuje ovládací prvky stroje nebo na řídicím počítači, aby získala co nejvyšší rozlišení při skenování.",
+  "isco4": "7321",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.38,
+   "gradient": "Gradient 1"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 36,
+    "examples": []
+   },
+   "digital": {
+    "count": 16,
+    "of": 36,
+    "examples": [
+     "digitalizace",
+     "vytvářet digitální soubory",
+     "vytvářet digitální obrazy"
+    ]
+   }
+  }
+ },
  "ceb1a21b-a6d5-49eb-a3f3-d53fec25d5f8": {
   "id": "ceb1a21b-a6d5-49eb-a3f3-d53fec25d5f8",
   "uri": "http://data.europa.eu/esco/occupation/ceb1a21b-a6d5-49eb-a3f3-d53fec25d5f8",
@@ -77729,6 +77944,37 @@
     "of": 26,
     "examples": [
      "být počítačově gramotný"
+    ]
+   }
+  }
+ },
+ "d4709722-6f17-4bec-a5f4-1b660e6b28b1": {
+  "id": "d4709722-6f17-4bec-a5f4-1b660e6b28b1",
+  "uri": "http://data.europa.eu/esco/occupation/d4709722-6f17-4bec-a5f4-1b660e6b28b1",
+  "label": "Vedoucí pracovník/pracovnice pro manipulaci s klecemi a dohled nad souvisejícími činnostmi v akvakultuře",
+  "labelAlt": [
+   "vedoucí pracovník pro manipulaci s klecemi a dohled  nad souvisejícími činnostmi v akvakultuře"
+  ],
+  "description": "Vedoucí pracovníci pro manipulaci s klecemi a dohled nad souvisejícími činnostmi v akvakultuře provádějí a dohlížejí na kotvení klecí ve stálých chovných stanicích, volně plovoucích klecí nebo samohybných a částečně ponořených klecí. V otevřených nebo částečně otevřených vodních oblastech bezpečně provozují a kotví různé typy velkých klecí a reagují na podmínky, jako jsou proudy, vlny a profil mořského dna.",
+  "isco4": "6221",
+  "isco2": "62",
+  "ilo": {
+   "score": 0.22,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 41,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 41,
+    "examples": [
+     "používat komunikační zařízení",
+     "obsluhovat nouzový komunikační systém"
     ]
    }
   }

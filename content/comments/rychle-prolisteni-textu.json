@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Na internetu přečteš jen zlomek toho, co ti vyhledávač nabídne. Rychlé pročítání ti během chvilky řekne, jestli článek obsahuje to, co hledáš, a jestli má smysl na odkaz vůbec kliknout. Stejně tak najdeš odjezd v jízdním řádu nebo údaj v učebnici před písemkou. V práci to potřebují třeba lidé, kteří ověřují fakta pro noviny, nebo analytici, kteří denně procházejí spoustu zpráv. Chatbot ti text shrne, jenže orientovat se v textu se tím nenaučíš, a rychlým pohledem si ověříš i to, jestli jeho shrnutí sedí.",
+  "learnWithAi": [
+    {
+      "title": "Hledání údajů na čas",
+      "text": "Požádej chatbota o dlouhý text plný čísel a jmen a o pět otázek k němu. Odpovědi hledej rychlým pročítáním a měř si čas."
+    },
+    {
+      "title": "Odkazy podle úryvků",
+      "text": "Zadej do vyhledávače otázku a podle nadpisů a úryvků vyber dva odkazy, které na ni podle tebe odpovídají. Chatbotu napiš důvody svého výběru a nech si poradit, čeho dalšího si u úryvků všímat."
+    },
+    {
+      "title": "Shrnutí proti originálu",
+      "text": "Nech chatbota shrnout delší článek a potom rychle projeď originál očima. Najdi aspoň jednu věc, kterou shrnutí vynechalo nebo popsalo jinak."
+    }
+  ]
+}

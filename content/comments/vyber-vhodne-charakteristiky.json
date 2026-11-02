@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Spočítat průměr zvládne kalkulačka, ale rozhodnout, které číslo situaci opravdu popisuje, musí člověk. U mezd stačí pár velmi vysokých platů a průměr vyskočí nahoru, proto se u nich často uvádí i medián. Modus se hodí tam, kde jde o nejčastější volbu, třeba u velikosti trička, kterou má obchod objednat nejvíc. Tahle úvaha se ti hodí pokaždé, když někdo něco dokazuje čísly, ať jde o ceny bytů, nebo o výsledky třídy. V práci ji denně používají lidé, kteří zpracovávají průzkumy nebo radí firmám s penězi, a takových míst spíš přibude.",
+  "learnWithAi": [
+    {
+      "title": "Situace s čísly k rozhodnutí",
+      "text": "Zadej chatbotovi, ať ti popíše pět situací s čísly, třeba platy v malé firmě nebo velikosti bot v obchodě. U každé napiš, kterou charakteristiku zvolíš a proč, a až pak si přečti jeho názor."
+    },
+    {
+      "title": "Zavádějící průměr v titulku",
+      "text": "Chatbot ti může napsat novinový titulek, ve kterém průměr čtenáře mate. Přijď na to, kde je háček, a navrhni, jaké číslo by tam patřilo."
+    },
+    {
+      "title": "Debata o cenách bytů",
+      "text": "Zahraj si s chatbotem debatu o cenách bytů v jednom městě: on hájí průměr, ty medián. Každý tvůj argument se musí opírat o to, jak data vypadají, třeba o pár velmi drahých bytů."
+    }
+  ]
+}

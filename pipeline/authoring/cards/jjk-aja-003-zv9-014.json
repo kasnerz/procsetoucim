@@ -1,0 +1,180 @@
+{
+  "outcome": "JJK-AJA-003-ZV9-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicke-pozvani-navrh-omluva",
+      "title": "Pozvání, návrh a omluva v angličtině",
+      "aliases": [
+        "pozvat kamaráda anglicky",
+        "would you like to",
+        "sorry anglicky",
+        "omluvit se anglicky",
+        "navrhnout anglicky"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Vyjádří ústně pozvání, návrh a omluvu a na tyto podněty reaguje."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje kamaráda, který tě zve nebo se omlouvá, a ty odpovídáš anglicky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš hotové fráze pro pozvání, návrh i omluvu a jejich nahrávky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s dialogy ti dá fráze nahlas zopakovat a odpovědět na ně."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník s tebou nemluví, zvát a omlouvat se musíš ty člověku naproti."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Dialogue about weekend plans"
+      ]
+    },
+    {
+      "slug": "anglicke-zahajeni-a-ukonceni-rozhovoru",
+      "title": "Začátek a konec anglického rozhovoru",
+      "aliases": [
+        "jak začít rozhovor anglicky",
+        "jak ukončit rozhovor anglicky",
+        "by the way",
+        "nice talking to you",
+        "rozloučit se anglicky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "dokáže rozhovor zahájit, udržet i ukončit"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "V rozhovoru nanečisto zkoušíš, jak začít, navázat a slušně skončit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš fráze k zahájení a ukončení rozhovoru s ukázkami."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mluvenými dialogy ti dá nahlas zkusit začátek i závěr rozhovoru."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník s tebou nemluví, rozhovor začínáš a končíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Talking about weekend"
+      ]
+    },
+    {
+      "slug": "anglicke-stridani-mluvciho-a-posluchace",
+      "title": "Střídání mluvení a poslouchání v angličtině",
+      "aliases": [
+        "reagovat anglicky",
+        "konverzace anglicky",
+        "dialog anglicky",
+        "poslouchat a odpovědět",
+        "really? anglicky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "reaguje adekvátně na podněty druhých a přirozeně střídá role mluvčího a posluchače"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vede s tebou dialog nanečisto a nutí tě reagovat na to, co řekne."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš nahrávky dialogů, ze kterých poznáš, jak se reaguje."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s mluvenými dialogy tě nechá odpovídat na repliky nahlas."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník s tebou nemluví, reagovat na člověka musíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Dialogues"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Zapojuje se do rozhovoru o známých tématech",
+      "code": "O1",
+      "refs": [
+        "anglicky-rozhovor-znama-temata",
+        "anglicky-nazor-s-vysvetlenim"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Do rozhovorů na známá témata",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "Dokáže samostatně odpovídat",
+      "code": "O1",
+      "refs": [
+        "anglicka-konverzace-otazky-a-odpovedi",
+        "anglicky-rozhovor-znama-temata"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Jeho vyjadřování",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

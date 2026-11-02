@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Popsat účel systému jednou větou zní snadno, dokud to nezkusíš, protože věta o školním systému musí pokrýt potřeby žáků, rodičů, učitelů i vedení. Takové shrnutí stojí na začátku zadání nového softwaru a podle něj se pak rozhoduje, co do systému patří a co ne. Lidé, kteří připravují zadání pro programátory, ho píšou u každého projektu. Hodí se to i mimo počítače, když máš někomu rychle vysvětlit, k čemu nějaká věc je. Chatbot ti ukáže, jak takové věty vypadají, svou ale musíš složit ty, jinak nevíš, jestli systému rozumíš.",
+  "learnWithAi": [
+    {
+      "title": "Hádání systému podle účelu",
+      "text": "Požádej chatbota o pět vět, které popisují účel různých systémů, bez jejich názvu. Hádej, o jaký systém jde, a napiš, kdo ho používá."
+    },
+    {
+      "title": "Jedna věta pro známou aplikaci",
+      "text": "Napiš jednou větou, k čemu slouží aplikace, kterou používáš denně, a dej ji chatbotovi. Ať ti řekne, která skupina uživatelů v ní chybí, a větu oprav ty."
+    },
+    {
+      "title": "Systém pro školní jídelnu",
+      "text": "Vymysli systém pro školní jídelnu, sepiš jeho uživatele a jednu větu účelu. Chatbot ať hraje vedoucí jídelny a zkouší, jestli tvá věta pokryje i její potřeby."
+    }
+  ]
+}

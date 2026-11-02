@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když ve školním systému pět minut hledáš, kde se omlouvá absence, chyba je spíš v rozhraní. Umět říct, co přesně mate, třeba nejasný název tlačítka, chybějící nápověda nebo malé písmo, se hodí při psaní recenze aplikace, při stížnosti i ve chvíli, kdy budeš něco navrhovat. Lidé, kteří zkoušejí, jestli aplikaci zvládne ovládat i člověk se slabým zrakem, se tím živí, a takové práce spíš přibude. Chatbot ti dá kritéria přehlednosti. Jestli je obrazovka opravdu přehledná, ale poznáš, až ji zkusíš ovládat, nejlépe s někým, kdo ji vidí poprvé.",
+  "learnWithAi": [
+    {
+      "title": "Kritéria pro jednu obrazovku",
+      "text": "Zeptej se chatbota na pět znaků přehledného rozhraní a podle nich ohodnoť jednu obrazovku školního systému. U každého bodu napiš konkrétní příklad."
+    },
+    {
+      "title": "Přepsaná nápověda",
+      "text": "Najdi v nějaké aplikaci nápovědu, která ti nepomohla, a přepiš ji vlastními slovy. Chatbota požádej, ať ji čte jako úplný začátečník a řekne, co mu není jasné."
+    },
+    {
+      "title": "Test s nováčkem",
+      "text": "Vymysli úkol, třeba najít rozvrh na příští týden, a dej ho někomu, kdo systém nezná. Sleduj, kde se zasekne, a s chatbotem pak hledej, jak by šlo rozhraní upravit."
+    }
+  ]
+}

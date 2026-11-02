@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Graf sám nic neřekne, dokud ho někdo nepopíše: co roste, co klesá, co je větší než co a kde se něco zlomilo. Kdo umí z grafu vyčíst vztahy a říct je v pár větách, rozumí zprávám i výsledkům ankety a nenechá se nachytat přehnaným titulkem nad grafem. Statistici, demografové a analytici trhu se tím živí a míst v takové práci spíš přibude. Chatbot ti popis grafu napíše, ale občas přečte hodnotu špatně nebo si souvislost domyslí, takže jeho text musíš umět porovnat s grafem.",
+  "learnWithAi": [
+    {
+      "title": "Pár vět ke grafu ze zpráv",
+      "text": "Najdi graf ve zprávách, napiš k němu dvě nebo tři věty o tom, co ukazuje, a pošli chatbotu obojí. Ať ti řekne, jestli popis odpovídá datům a jestli v něm něco podstatného chybí."
+    },
+    {
+      "title": "Popis se schovanými chybami",
+      "text": "Pošli chatbotu jednoduchý graf a požádej ho o popis se dvěma schválně chybnými tvrzeními. Najdi je jen podle grafu."
+    },
+    {
+      "title": "Poctivý a přehnaný titulek",
+      "text": "Vymysli ke grafu jeden pravdivý novinový titulek a jeden, který přehání. Nech chatbota posoudit, který z nich data opravdu podpoří, a s jeho verdiktem se nespokoj bez vlastní kontroly."
+    }
+  ]
+}

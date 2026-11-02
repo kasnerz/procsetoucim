@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Text, ve kterém každá věta začíná stejně nebo věty na sebe nenavazují, se čte jako seznam. Výrazy jako proto, naopak, kromě toho nebo zato a odkazy zpět typu „tento problém“ vedou čtenáře od jedné myšlenky ke druhé. Kdo je umí používat, píše texty, které se dobře čtou a těžko se dají pochopit špatně. Pracují s tím lidé, kteří píšou zprávy, reklamy nebo knihy, a jejich práci hodně mění AI. Chatbot ti text uhladí, ale zvolené spojovací slovo někdy změní smysl a poznat to musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Odstavec s prázdnými místy",
+      "text": "Popros chatbota o odstavec bez spojovacích výrazů mezi větami. Doplň je, porovnej s originálem a kde se lišíte, zvaž, která verze dává lepší smysl."
+    },
+    {
+      "title": "Opakované začátky vět",
+      "text": "Vlož do chatbota svou slohovku a zeptej se, kde se opakuje stejné slovo nebo stejný začátek vět. Přepiš ta místa vlastními spojovacími výrazy."
+    },
+    {
+      "title": "Spojka, která mění smysl",
+      "text": "Napiš dvě věty a spoj je postupně slovy proto, přesto a naopak. Nech chatbota vysvětlit, jak se smysl mění, a ověř, jestli to vidíš stejně."
+    }
+  ]
+}

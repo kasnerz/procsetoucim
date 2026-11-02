@@ -1,0 +1,594 @@
+[
+  {
+    "slug": "ucastnici-provozu-a-jejich-role",
+    "title": "Účastníci silničního provozu a jejich role",
+    "aliases": [
+      "chodec",
+      "cyklista",
+      "řidič",
+      "kdo jezdí po silnici",
+      "dopravní výchova"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Pojmenuje účastníky silničního provozu a jejich role.",
+        "quote": "Pojmenuje účastníky silničního provozu a jejich role."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Role účastníků silničního provozu",
+        "url": "https://uloziste.rvp.cz/material/7ded9f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kdo je chodec, cyklista a řidič a co od nich provoz čeká."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o bezpečnosti v dopravě ukazují obrázky rolí s popisem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace role v provozu nevysvětlí, řešíš je na ulici."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj tu nepomáhá, role poznáš z obrázku nebo z ulice."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "svetelne-signaly-a-dopravni-znacky",
+    "title": "Světelné signály a dopravní značky",
+    "aliases": [
+      "semafor",
+      "dopravní značky",
+      "značky pro chodce",
+      "značky pro cyklisty",
+      "přechod"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozeznává světelné signály a základní dopravní značky pro chodce.",
+        "quote": "Rozeznává světelné signály a základní dopravní značky pro chodce."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prokáže znalost dopravního značení pro chodce a cyklisty.",
+        "quote": "Prokáže znalost dopravního značení pro chodce a cyklisty."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chodcem a cyklistou",
+        "url": "https://uloziste.rvp.cz/material/65aaf1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co značka znamená, a zkouší tě z toho."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Přehled značek s obrázky ti ukáže, jak která vypadá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kvíz se značkami tě zkouší a hned ukáže, kde je chyba."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Značky se učíš poznávat očima, žádná pomůcka to neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/267a2f67-f526-4432-8723-7d8bbd3ab1e6",
+      "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "chuze-po-chodniku-a-prechazeni-silnice",
+    "title": "Chůze po chodníku a přecházení silnice",
+    "aliases": [
+      "přecházení silnice",
+      "přechod pro chodce",
+      "železniční přejezd",
+      "rozhlédnout se",
+      "chodník"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Bezpečně se pohybuje po chodníku a na přechodu v doprovodu dospělé (starší) osoby (ve skupině), správně se rozhlédne.",
+        "quote": "Bezpečně se pohybuje po chodníku a na přechodu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Pohybuje se bezpečně po chodníku (jako jednotlivec i ve skupině).",
+        "quote": "Pohybuje se bezpečně po chodníku"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Předvede správný způsob přecházení silnice a železničních přejezdů, na přechodu se světelnou signalizaci a bez ní.",
+        "quote": "Předvede správný způsob přecházení silnice a železničních přejezdů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chodcem a cyklistou",
+        "url": "https://uloziste.rvp.cz/material/65aaf1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Silnici přecházíš ty, chatbot se za tebe nerozhlédne."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Rozhlížet se a přecházet se naučíš jen přímo na přechodu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe auto nezahlédne, rozhlížíš se ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pomůcka tu nepomůže, přecházíš vlastníma nohama a očima."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1efe7dcb-ebdc-4410-bf21-1ebd9e590044",
+      "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "reflexni-prvky-a-vybava-kola",
+    "title": "Výbava kola a bezpečnostní prvky cyklisty",
+    "aliases": [
+      "povinná výbava kola",
+      "přilba",
+      "reflexní vesta",
+      "světla a odrazky",
+      "oblečení na kolo"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Používá za snížené viditelnosti reflexní doplňky.",
+        "quote": "Používá za snížené viditelnosti reflexní doplňky."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Popíše základní vybavení kola, vč. jeho povinné i doporučené výbavy (brzdy, světla, odrazky, blatníky) i vhodné oblečení a obutí (podle počasí), včetně přilby, reflexních prvků.",
+        "quote": "Popíše základní vybavení kola"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zdůvodní používání bezpečnostních prvků ve výbavě cyklisty.",
+        "quote": "Zdůvodní používání bezpečnostních prvků ve výbavě cyklisty."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Role cyklisty",
+        "url": "https://uloziste.rvp.cz/material/6456ed"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, k čemu je každá část výbavy, a projde s tebou, jestli ti nic nechybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Seznam povinné výbavy kola je na stránkách o bezpečnosti v dopravě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti brzdy ani světla nezkontroluje, díváš se na kolo ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Reflexní pásek, přilba a světla ti vybavení ukážou i vyzkoušíš na vlastním kole."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "mobil-a-sluchatka-v-provozu",
+    "title": "Mobil a sluchátka v silničním provozu",
+    "aliases": [
+      "mobil na přechodu",
+      "sluchátka na ulici",
+      "pozornost v provozu",
+      "nebezpečí v dopravě"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí rizika používání mobilního telefonu/sluchátek v silničním provozu.",
+        "quote": "Vysvětlí rizika používání mobilního telefonu/sluchátek v silničním provozu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co při chůzi s mobilem neslyšíš a nevidíš, a pomůže ti to zdůvodnit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky o bezpečnosti v dopravě uvádějí příklady nehod kvůli mobilu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace riziko nevysvětlí, pozornost na ulici držíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pomůcka tu nepomůže, jde o to, kam se díváš a co slyšíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "modelove-situace-chodce-a-cyklisty",
+    "title": "Řešení dopravních situací chodce a cyklisty",
+    "aliases": [
+      "dopravní situace",
+      "kdo má přednost",
+      "pravidla pro chodce",
+      "pravidla pro cyklisty",
+      "dopravní test"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší modelové situace silničního provozu jako chodec nebo cyklista.",
+        "quote": "Řeší modelové situace silničního provozu jako chodec nebo cyklista."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Chodcem a cyklistou",
+        "url": "https://uloziste.rvp.cz/material/65aaf1"
+      },
+      {
+        "title": "Cyklovýlet",
+        "url": "https://uloziste.rvp.cz/material/e76cba"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí dopravní situace k řešení a řekne, kde se tvé rozhodnutí rozchází s pravidly."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Dopravní testy a obrázky křižovatek najdeš na stránkách o bezpečnosti v dopravě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s dopravními testy dá situaci na obrázku a opraví tě."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papírovém plánku křižovatky s autíčky situaci vyzkoušíš a vysvětlíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257",
+      "http://data.europa.eu/esco/skill/1efe7dcb-ebdc-4410-bf21-1ebd9e590044"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "chovani-v-provozu-na-dopravnim-hristi",
+    "title": "Správné chování v provozu na dopravním hřišti",
+    "aliases": [
+      "dopravní hřiště",
+      "jízda na kole",
+      "jízda na koloběžce",
+      "přednost v jízdě",
+      "akce školy"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Demonstruje v modelové situaci nebo při akci školy správné chování ve shodě s pravidly silničního provozu.",
+        "quote": "Demonstruje v modelové situaci nebo při akci školy správné chování ve shodě s pravidly silničního provozu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Cyklovýlet",
+        "url": "https://uloziste.rvp.cz/material/e76cba"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Po hřišti jezdíš ty, chatbot za tebe nezabrzdí ani nedá přednost."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Jízdu ve značeném provozu neuvidíš na obrázku, musíš ji zkusit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nezatočí řídítky, správně jezdit se naučíš jízdou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kolo s přilbou a značky na hřišti ti dovolí pravidla vyzkoušet."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1efe7dcb-ebdc-4410-bf21-1ebd9e590044"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "bezpecne-chovani-na-nastupisti-a-ve-verejne-doprave",
+    "title": "Chování na nástupišti a ve veřejné dopravě",
+    "aliases": [
+      "nástupiště",
+      "nastupování a vystupování",
+      "autobus",
+      "vlak",
+      "tramvaj"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Chová se bezpečně na nástupišti a dodržuje pokyny dospělých pro nástup a výstup z dopravního prostředku.",
+        "quote": "Chová se bezpečně na nástupišti"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Dodržuje základní pravidla bezpečnosti při jízdě ve veřejné dopravě.",
+        "quote": "Dodržuje základní pravidla bezpečnosti při jízdě ve veřejné dopravě."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Uplatňuje vhodné a bezpečné chování na nástupišti prostředků veřejné dopravy, při nastupování a vystupování, během jízdy.",
+        "quote": "Uplatňuje vhodné a bezpečné chování na nástupišti prostředků veřejné dopravy"
+      },
+      {
+        "level": "Splněno",
+        "point": "Demonstruje v modelové situaci nebo při akci školy bezpečný způsob chování v prostředcích veřejné hromadné přepravy.",
+        "quote": "Demonstruje v modelové situaci nebo při akci školy bezpečný způsob chování v prostředcích veřejné hromadné přepravy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Na nástupišti stojíš ty, chatbot za tebe neodstoupí od hrany."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Pravidla si přečteš, ale chovat se musíš ty přímo na místě."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s jízdním řádem ti neřekne, jak se v autobuse držet."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pomůcka tu není, bezpečně se chováš tělem a pozorností."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cesta-do-skoly-z-hlediska-provozu",
+    "title": "Cesta do školy z hlediska silničního provozu",
+    "aliases": [
+      "cesta do školy",
+      "bezpečná cesta",
+      "nebezpečná místa",
+      "přechody cestou do školy"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše cestu do školy z hlediska silničního provozu.",
+        "quote": "Popíše cestu do školy z hlediska silničního provozu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Tvou ulici nezná, popíšeš ji z vlastní zkušenosti ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapa a fotky ulic ti připomenou přechody, semafory a křižovatky na cestě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa ukáže tvou trasu s ulicemi a přechody, které pak popíšeš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový plánek okolí ti pomůže trasu nakreslit a označit místa."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/48f480aa-c9a8-4552-b1c5-e94330912257"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hledani-bezpecne-trasy-v-aplikaci",
+    "title": "Hledání a posouzení bezpečné trasy v online mapě",
+    "aliases": [
+      "mapa v telefonu",
+      "navigace pro chodce",
+      "plánování trasy",
+      "bezpečná trasa",
+      "mapy.cz"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-023",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Používá online aplikace pro vyhledání správné trasy pohybu ve vnějším prostředí.",
+        "quote": "Používá online aplikace pro vyhledání správné trasy pohybu ve vnějším prostředí."
+      },
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí cestu, kterou si vyhledá pomocí online aplikace, z hlediska bezpečnosti.",
+        "quote": "Zhodnotí cestu, kterou si vyhledá pomocí online aplikace, z hlediska bezpečnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Plánujeme výlet",
+        "url": "https://uloziste.rvp.cz/material/f27cd4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Aktuální mapu ulic nevidí, trasu si vyhledáš a posoudíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fotky ulic a stránky o bezpečné chůzi ukážou, která místa jsou riziková."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Mapa najde trasu pro chodce nebo kolo a ukáže přechody a cyklostezky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová mapa ukáže okolí a ověříš s ní, co navrhla aplikace."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0b449eb1-d082-4e62-95d7-5cf59bdf2097",
+      "http://data.europa.eu/esco/skill/e46186e4-c784-4122-9828-4881c01bfae0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

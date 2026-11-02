@@ -1,0 +1,520 @@
+{
+  "outcome": "CSP-OSV-003-ZV9-012",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "karierove-zdroje",
+      "title": "Zdroje informací o škole, práci a rozvoji",
+      "aliases": [
+        "kde zjistit o školách",
+        "informace o povolání",
+        "jak najít info o práci",
+        "kam po základce",
+        "zdroje o práci"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozpozná zdroje informací týkající se vzdělávání, práce a vlastního rozvoje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kde se o školách a povoláních dozvíš víc, a navrhne, co hledat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu přehledy škol, oborů a povolání z jednoho místa."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Databáze škol a nabídek práce ti ukážou obory i volná místa."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Brožury a příručky pro výběr školy máš na stole a můžeš je listovat."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3fcc49e8-71f8-4265-9e48-2e8c3465340a",
+        "http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1",
+        "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d"
+      ],
+      "inspiration": [
+        "Sherlock kariérových informací"
+      ]
+    },
+    {
+      "slug": "prilezitosti-k-rozvoji-zajmu",
+      "title": "Příležitosti k rozvoji mých zájmů",
+      "aliases": [
+        "kroužky",
+        "kam se přihlásit",
+        "jak rozvíjet koníček",
+        "co dělat ve volném čase",
+        "nabídka zájmových aktivit"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vyhledává příležitosti k rozvoji svých zájmů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Podle tvých zájmů navrhne kroužky, kurzy nebo soutěže, které můžeš zkusit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vyhledávač a weby měst a škol ukážou kroužky a kurzy ve tvém okolí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s nabídkou kurzů a akcí ukážou, co se kde koná."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Příležitost musíš najít a vyzkoušet ty, tištěný leták ji nenajde za tebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1",
+        "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "moje-potreby-a-preference-v-rozvoji",
+      "title": "Moje potřeby a preference v rozvoji",
+      "aliases": [
+        "co mě baví",
+        "co potřebuji se naučit",
+        "moje silné stránky",
+        "co chci rozvíjet",
+        "moje priority"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "pojmenovává své potřeby a preference v oblasti vlastního rozvoje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se tě na zájmy a priority a pomáhá ti je vyslovit vlastními slovy."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co tě baví a co potřebuješ, ve vyhledávači nenajdeš, to víš jen ty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti za tebe nepoví, co chceš rozvíjet."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír a tužka pomůžou sepsat, co tě baví a co ti jde."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0ffed47f-d320-48cf-988d-40449825085c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "rict-druhym-co-chci-rozvijet",
+      "title": "Říct druhým, co potřebuji a co chci rozvíjet",
+      "aliases": [
+        "mluvit o svých plánech",
+        "poradit se s rodiči",
+        "říct učiteli",
+        "domluvit se",
+        "vyjádřit své přání"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "komunikuje své potřeby a preference v oblasti vlastního rozvoje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Rozhovor s rodiči nebo učitelem vedeš ty, chatbot za tebe nepromluví."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Ve vyhledávači nenajdeš, jak se rozhodnout a co druhým říct."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tebou nemluví, rozhovor je mezi lidmi."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mluvíš nahlas se skutečným člověkem, nástroj na to nemáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0ffed47f-d320-48cf-988d-40449825085c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zkusenosti-se-svetem-prace",
+      "title": "Dobrovolnictví, stáže, exkurze a soutěže",
+      "aliases": [
+        "jak získat zkušenost s prací",
+        "brigáda",
+        "exkurze do firmy",
+        "dobrovolnická práce",
+        "jak najít stáž",
+        "soutěže pro školáky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "vyhledává relevantní zdroje a možnosti pro získání zkušeností se světem práce (dobrovolnictví, stáže, exkurze, soutěže apod.)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, kde hledat dobrovolnictví, exkurze nebo soutěže a jak se zeptat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webech organizací a škol najdeš termíny exkurzí, soutěží i dobrovolnických akcí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Portály s dobrovolnickými akcemi a nabídkami stáží ukážou volná místa."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na exkurzi nebo do soutěže se musíš přihlásit a dojít ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d",
+        "http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pratele-ze-spolecnych-zajmu",
+      "title": "Přátelství ze společných zájmů",
+      "aliases": [
+        "najít kamarády se stejným koníčkem",
+        "kroužek a kamarádi",
+        "sdílet zájmy",
+        "nová přátelství"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "na základě společných zájmů rozvíjí pozitivní vztahy s druhými"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Vztah vzniká mezi tebou a lidmi, chatbot ho za tebe nevytvoří."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu kroužky a kluby, kde se potkávají lidé se stejným zájmem."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tebou kamarády nenavážou, musíš mluvit ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Přátelství se dělá povídáním a společnou činností, ne nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0ffed47f-d320-48cf-988d-40449825085c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "zdroje-o-dopadech-povolani",
+      "title": "Zdroje o dopadech povolání na společnost a přírodu",
+      "aliases": [
+        "jak práce ovlivňuje svět",
+        "dopady povolání",
+        "zdroje o životním prostředí",
+        "co práce způsobí"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zkouší uvést různé zdroje o dopadech vybraných povolání na společnost a životní prostředí"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Shrne, jaké dopady povolání mívá, a řekne, kde je ověřit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články, zprávy a stránky organizací ukážou, co práce způsobuje ve společnosti i přírodě."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Žádná jednoúčelová aplikace dopady povolání nesbírá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tištěné tabulky tohle neřeknou, dopady najdeš jen v textech o oboru."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "informace-pro-hledani-prace",
+      "title": "Informace pro hledání a udržení práce",
+      "aliases": [
+        "jak najít práci",
+        "životopis",
+        "pracovní inzerát",
+        "pohovor",
+        "pracovní nabídky",
+        "jak si práci udržet"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "V modelových situacích využívá informace ke vzdělávacím a pracovním příležitostem, k nalezení, vytvoření a/nebo udržení práce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Můžeš si s ním nanečisto projít pohovor a nechat si vysvětlit inzerát."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš nabídky práce a popisy, co zaměstnavatelé chtějí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Pracovní portály ukážou nabídky a pomůžou připravit životopis."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Modelové situace řešíš ty s ostatními ve třídě, nástroj v tom nepomáhá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d",
+        "http://data.europa.eu/esco/skill/6345d3a4-7d1a-40a9-9a82-6ed06beffe7b"
+      ],
+      "inspiration": [
+        "Sherlock kariérových informací"
+      ]
+    },
+    {
+      "slug": "lide-site-a-zdroje-pro-rozhodovani",
+      "title": "Lidé, sítě a zdroje pro rozhodování o další cestě",
+      "aliases": [
+        "koho se zeptat na radu",
+        "výchovný poradce",
+        "kariérová síť",
+        "kontakty",
+        "online sítě",
+        "komu zavolat"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Identifikuje osoby, sítě a informační zdroje, které může využít při rozhodování o svém dalším vzdělávání a kariérovém směřování."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje význam vytváření pozitivních vztahů a sítí pro vlastní kariérový rozvoj"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže sepsat, na koho se obrátit, a vysvětlí, k čemu jsou kontakty dobré."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webech škol a úřadů práce najdeš poradny a kontakty."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe nenavrhne, koho znáš a kdo ti poradí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír s nakresleným schématem ti ukáže, koho znáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3fcc49e8-71f8-4265-9e48-2e8c3465340a"
+      ],
+      "inspiration": [
+        "Kariérová vztahová síť",
+        "Public Café"
+      ]
+    },
+    {
+      "slug": "porovnani-kariernich-zdroju",
+      "title": "Porovnání kariérových zdrojů a jejich důvěryhodnost",
+      "aliases": [
+        "které informace jsou spolehlivé",
+        "porovnání webů o školách",
+        "důvěryhodný zdroj",
+        "jak poznat dobrý zdroj"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Posuzuje a porovnává přínos různých vybraných kariérových informačních zdrojů, které jsou relevantní pro jeho představu o vlastní budoucnosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak poznat důvěryhodný zdroj, a s porovnáním ti dá otázky k ověření."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Můžeš si zdroje otevřít vedle sebe a porovnat je s oficiálními stránkami."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nepozná, který zdroj je pro tvou budoucnost užitečný."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zvažuješ ty, podle toho, co chceš, nástroj ti hodnocení nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3fcc49e8-71f8-4265-9e48-2e8c3465340a",
+        "http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1"
+      ],
+      "inspiration": [
+        "Sherlock kariérových informací"
+      ]
+    },
+    {
+      "slug": "prezentace-profesni-oblasti",
+      "title": "Prezentace o vybrané profesní oblasti",
+      "aliases": [
+        "referát o povolání",
+        "představit obor",
+        "prezentace o povolání",
+        "co se mění v oboru",
+        "mapa profesí"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Prezentuje svá zjištění o aktuální podobě a proměnách vybrané profesní oblasti, která ho zajímá."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti uspořádat poznámky, vysvětlí těžké pojmy a zeptá se na slabá místa."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zjistíš tu, jak obor vypadá dnes a čím se mění."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Prezentační program a kreslicí aplikace pomůžou udělat obrázky a snímky."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před třídou mluvíš ty, nástroj za tebe nevystoupí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+      ],
+      "inspiration": [
+        "Mapa profesí"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Využívá pro svůj kariérový rozvoj vybrané",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "uvádí příklady dopadů vybraných činností a povolání",
+      "code": "O1",
+      "refs": [
+        "prinos-prace-pro-lidi-a-prirodu"
+      ]
+    }
+  ]
+}

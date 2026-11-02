@@ -1,0 +1,154 @@
+{
+  "outcome": "INF-INF-003-ZV9-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "navrh-evidence-dat-pro-problem",
+      "title": "Návrh evidence dat pro zadaný problém",
+      "aliases": ["evidence dat", "jaká data sbírat", "návrh evidence", "co má evidence umět", "zadání úlohy"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Analyzuje jednoduchý problém či zadání, navrhne evidenci dat pro jeho řešení."},
+        {"level": "Splněno", "quote": "Navrhne evidenci dat pro řešení zadaného problému"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot ti položí otázky k zadání a navrhne, jaké údaje by evidence mohla sbírat."},
+        "internet": {"verdict": "pomuze", "why": "Ukázky evidencí a vzorové tabulky ti ukážou, jaké údaje se obvykle sbírají."},
+        "aplikace": {"verdict": "nepomuze", "why": "Co má evidence umět, rozhoduješ podle zadání ty, aplikace to nevymyslí."},
+        "klasicky": {"verdict": "pomuze", "why": "Na papír si napíšeš, co o čem chceš vědět, a škrtáš, co je navíc."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779",
+        "http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511"
+      ],
+      "inspiration": ["Evidence výkonů sportovních disciplín z tělesné výchovy", "Příšerky - evidence"]
+    },
+    {
+      "slug": "sloupce-evidence-nazvy-a-typy",
+      "title": "Sloupce evidence: názvy a typy dat",
+      "aliases": ["sloupce tabulky", "typ dat", "název sloupce", "číslo nebo text", "datum ve sloupci"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Navrhne tabulku pro evidenci dat – určí potřebné sloupce, rozhodne o jejich názvech a typu"}
+      ],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot vysvětlí rozdíl mezi textem, číslem a datem a ukáže příklady sloupců."},
+        "internet": {"verdict": "pomuze", "why": "Návody k tabulkám vysvětlují typy dat ve sloupcích."},
+        "aplikace": {"verdict": "pomuze", "why": "Tabulkový editor ukáže, jak se text, číslo a datum chovají při řazení a počítání."},
+        "klasicky": {"verdict": "nepomuze", "why": "Typ sloupce se nastavuje v tabulce, na papíře ho nevyzkoušíš."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511",
+        "http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779"
+      ],
+      "inspiration": ["Vytvoření tabulky se zadanými kritérii"]
+    },
+    {
+      "slug": "vytvoreni-tabulky-evidence",
+      "title": "Vytvoření tabulky pro evidenci dat",
+      "aliases": ["tabulka v tabulkovém editoru", "vytvořit tabulku", "evidence mých věcí", "tabulka o zálibě", "Excel tabulka"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Sestaví tabulku pro evidenci dat získaných z okruhu svého zájmu."},
+        {"level": "Na cestě", "quote": "tabulku vytvoří"},
+        {"level": "Splněno", "quote": "Vytvoří tabulku pro evidenci dat"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot ti poradí, jak tabulku v editoru založit, když nevíš, kde začít."},
+        "internet": {"verdict": "pomuze", "why": "Návody a videa ukazují krok za krokem, jak se tabulka vytvoří."},
+        "aplikace": {"verdict": "pomuze", "why": "V tabulkovém editoru nebo databázi tabulku vytvoříš a hned vyzkoušíš."},
+        "klasicky": {"verdict": "nepomuze", "why": "Papírový nákres pomůže s plánem, ale tabulka s daty vzniká na počítači."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1"
+      ],
+      "inspiration": ["Vytvoření tabulky se zadanými kritérii", "Evidence výkonů sportovních disciplín z tělesné výchovy"]
+    },
+    {
+      "slug": "pravidla-pro-prace-se-zaznamy",
+      "title": "Pravidla pro práci se záznamy v evidenci",
+      "aliases": ["jak vést evidenci", "pravidla pro zápis", "kdo co zapisuje", "aktuální data", "udržet evidenci v pořádku"],
+      "sources": [
+        {"level": "Splněno", "quote": "určí pravidla a postupy pro práci se záznamy, aby byl udržen soulad evidence se skutečností"}
+      ],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot navrhne pravidla, třeba kdo záznam smí měnit a jak se opravují chyby."},
+        "internet": {"verdict": "pomuze", "why": "Pravidla pro vedení evidencí z praxe ti dají nápady, co si určit."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace pravidla neurčí, domluvit se musíte vy, kdo evidenci používáte."},
+        "klasicky": {"verdict": "nepomuze", "why": "Pravidla si napíšeš a odsouhlasíš ty a spolužáci, nástroj k tomu nepotřebuješ."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/29fb0fb5-dfc4-4098-ac9b-3a712000f48f",
+        "http://data.europa.eu/esco/skill/54c9c155-9293-4329-8ed2-2e76e8b519d4"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pristupova-prava-ke-sdilene-tabulce",
+      "title": "Přístupová práva ke sdílené tabulce",
+      "aliases": ["kdo smí upravovat", "jen pro čtení", "sdílení tabulky", "formulář", "cloudová tabulka"],
+      "sources": [
+        {"level": "Splněno", "quote": "nastaví k ní přístupová práva"}
+      ],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot vysvětlí rozdíl mezi čtením a úpravami a poradí, komu co povolit."},
+        "internet": {"verdict": "pomuze", "why": "Nápověda cloudové tabulky popisuje, kde se sdílení a oprávnění nastavují."},
+        "aplikace": {"verdict": "pomuze", "why": "Ve sdílené tabulce nastavíš, kdo smí jen číst a kdo upravovat."},
+        "klasicky": {"verdict": "nepomuze", "why": "Přístup ke sdílené tabulce se nastavuje online, ne papírem."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/29fb0fb5-dfc4-4098-ac9b-3a712000f48f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "overeni-ucelu-evidence-a-oprava-chyb",
+      "title": "Ověření, že evidence plní svůj účel",
+      "aliases": ["kontrola tabulky", "oprava chyb v tabulce", "funguje evidence", "chyby v datech", "zkouška tabulky"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Ověří, že evidence plní zadaný účel, opraví případné chyby."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot ti pomůže vymyslet zkušební záznamy a najít, co v návrhu chybí."},
+        "internet": {"verdict": "nepomuze", "why": "Jestli tvoje evidence odpovídá zadání, na internetu nenajdeš."},
+        "aplikace": {"verdict": "pomuze", "why": "Řazení a filtry v tabulce ukážou, jestli se dá z dat vyčíst, co zadání chce."},
+        "klasicky": {"verdict": "nepomuze", "why": "Evidenci vyzkoušíš v tabulce na počítači, papír k tomu nestačí."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/54c9c155-9293-4329-8ed2-2e76e8b519d4",
+        "http://data.europa.eu/esco/skill/ce354460-500e-4eaa-8e95-8f243fcea3db"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "testovani-evidence-se-spoluzaky",
+      "title": "Testování evidence se spolužáky a návrh vylepšení",
+      "aliases": ["vyzkoušet tabulku s kamarády", "zpětná vazba k tabulce", "vylepšení evidence", "testování s uživateli", "spolužáci testují"],
+      "sources": [
+        {"level": "Splněno", "quote": "Otestuje evidenci dat s využitím jiných uživatelů (spolužáků), ověří, že evidence plní zadaný účel, opraví případné chyby a na základě testování navrhne možná vylepšení."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Chatbot ti pomůže sestavit otázky pro spolužáky a roztřídit jejich připomínky."},
+        "internet": {"verdict": "nepomuze", "why": "Co spolužákům v tvé evidenci nevyhovuje, se dozvíš jen od nich."},
+        "aplikace": {"verdict": "pomuze", "why": "Sdílená tabulka nebo formulář ukáže, co spolužáci zapsali a kde se spletli."},
+        "klasicky": {"verdict": "nepomuze", "why": "Zkoušku s ostatními nezastoupí žádný nástroj, musíte ji projít spolu."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ce354460-500e-4eaa-8e95-8f243fcea3db"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {"level": "Na začátku", "start": "Analyzuje zadání, určují potřebná data", "code": "O1", "refs": ["urceni-potrebnych-dat-zadani-ulohy"]},
+    {"level": "Na začátku", "start": "Zaznamená a uspořádá různé typy dat", "code": "O1", "refs": ["zapis-dat-do-tabulky-seznamu-sbirka"]}
+  ]
+}

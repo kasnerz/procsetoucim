@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Napsat z několika hesel souvislý text budeš potřebovat pokaždé, když máš v poznámkách jen pár slov a musíš z nich udělat slohovku, odpověď v písemce nebo krátkou zprávu. Musíš domyslet, co mezi slovy chybí, a spojit je do vět, které na sebe navazují. Takhle pracují lidé ve sportovní redakci, kteří mají z utkání jen pár poznámek, nebo ti, kdo připravují texty na web a do výukových kurzů. Chatbot ti z hesel vyrobí text okamžitě, jenže pak to nezvládneš ve chvíli, kdy ho nemáš po ruce, třeba právě u písemky.",
+  "learnWithAi": [
+    {
+      "title": "Příběh z náhodných slov",
+      "text": "Popros chatbota o pět náhodných slov a napiš z nich krátký příběh. Nech si říct, kde věty nenavazují, a oprav to bez jeho návrhu."
+    },
+    {
+      "title": "Odstavec z poznámek k lekci",
+      "text": "Udělej si z lekce dějepisu nebo přírodopisu pár hesel a napiš z nich odstavec. Chatbot ti řekne, co z hesel chybí, fakta si ale ověř v učebnici, protože se může splést."
+    },
+    {
+      "title": "Dvě verze ze stejných hesel",
+      "text": "Zadej chatbotovi stejná hesla, ze kterých píšeš ty, až když máš svůj text hotový. Porovnej obě verze, vyber z té jeho jednu věc, která se ti líbí, a zkus ji použít po svém."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Nakreslit kruhový diagram znamená přepočítat podíly na úhly: polovina je 180 stupňů, desetina 36. Při tom pochopíš, proč musí všechny části dohromady dát celek a proč se kruh hodí jen tam, kde se něco dělí na díly. Tabulkový procesor nakreslí diagram za pár vteřin, jenže ze špatných dat stejně ochotně nakreslí nesmysl, a ten musíš umět poznat. Diagramy do zpráv a prezentací chystají statistici a datoví analytici, přehled o rodinném rozpočtu nebo o školní anketě si ale nakreslí každý.",
+  "learnWithAi": [
+    {
+      "title": "Anketa o oblíbených sportech",
+      "text": "Nech chatbota vymyslet výsledky malé ankety, třeba o oblíbených sportech ve třídě. Přepočítej odpovědi na úhly, diagram vyrýsuj a výpočty pošli ke kontrole."
+    },
+    {
+      "title": "Vhodnost kruhového diagramu",
+      "text": "Požádej chatbota o několik různých souborů dat a u každého rozhodni, jestli se hodí kruhový diagram. Volbu zdůvodni a nech si ji posoudit."
+    },
+    {
+      "title": "Diagram se schválnou chybou",
+      "text": "Popros chatbota o popis diagramu se schovanou chybou, třeba výseče dají dohromady víc než celek. Chybu najdi a vysvětli, jak by měl diagram vypadat správně."
+    }
+  ]
+}

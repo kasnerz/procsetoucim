@@ -1,0 +1,406 @@
+[
+  {
+    "slug": "statistika-kruhovy-diagram-cteni",
+    "title": "Čtení kruhového diagramu",
+    "aliases": [
+      "koláčový graf",
+      "výseče",
+      "podíly v grafu",
+      "kruhový graf"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Získá data ze sloupcového, kruhového a Vennova diagramu a ze spojnicových grafů a bodových grafů.",
+        "quote": "Získá data ze sloupcového, kruhového a Vennova diagramu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co znamenají výseče a jak z nich poznáš podíl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš hotové kruhové diagramy s podíly a procvičíš si jejich čtení."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace graf jen ukáže, úhel výseče z něj vyčteš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Úhloměr změří úhel výseče, ze kterého spočítáš podíl."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "statistika-spojnicovy-graf-cteni",
+    "title": "Čtení spojnicového grafu",
+    "aliases": [
+      "čárový graf",
+      "graf v čase",
+      "vývoj hodnot",
+      "křivka v grafu"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Získá data ze sloupcového, kruhového a Vennova diagramu a ze spojnicových grafů a bodových grafů.",
+        "quote": "ze spojnicových grafů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co značí stoupání a klesání čáry, a pošle ti úlohy na čtení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš reálné grafy vývoje, třeba teploty nebo cen, a čteš z nich hodnoty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace graf jen zobrazí, hodnoty z něj čteš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a čtverečkovaný papír ti pomůžou přesně odečíst hodnotu z osy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "statistika-bodovy-graf-cteni",
+    "title": "Čtení bodového grafu",
+    "aliases": [
+      "bodový diagram",
+      "body v grafu",
+      "dvě veličiny",
+      "souřadnice v grafu"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Získá data ze sloupcového, kruhového a Vennova diagramu a ze spojnicových grafů a bodových grafů.",
+        "quote": "a bodových grafů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co značí každý bod a co říká jejich rozmístění."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příklady bodových grafů, třeba výška a váha, a čteš z nich."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace graf jen zobrazí, souřadnice bodů čteš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko pomůže dvojici hodnot přesně přenést z os na body."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "statistika-kruhovy-diagram-tvorba",
+    "title": "Sestrojení kruhového diagramu",
+    "aliases": [
+      "nakreslit koláčový graf",
+      "výseče v kruhu",
+      "podíly do kruhu",
+      "kruhový graf kreslení"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uspořádá data a sestrojí sloupcové, kruhové diagramy a Vennovy diagramy, spojnicové a bodové grafy (i se SW podporou).",
+        "quote": "sestrojí sloupcové, kruhové diagramy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak podíly přepočítat na úhly výsečí, a zkontroluje tvé výpočty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš návody a vzorové diagramy, podle kterých se můžeš řídit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor diagram nakreslí a ty vidíš, jestli se shoduje s tvým."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kružítko a úhloměr potřebuješ na přesné vyrýsování výsečí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389",
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "statistika-spojnicovy-bodovy-graf-tvorba",
+    "title": "Sestrojení spojnicového a bodového grafu",
+    "aliases": [
+      "nakreslit graf",
+      "vynést body do grafu",
+      "osy grafu",
+      "spojnicový graf kreslení"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uspořádá data a sestrojí sloupcové, kruhové diagramy a Vennovy diagramy, spojnicové a bodové grafy (i se SW podporou).",
+        "quote": "spojnicové a bodové grafy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí volbu os a měřítka a zkontroluje, kam patří tvé body."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš návody a vzorové grafy s popsanými osami."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor graf nakreslí a ty vidíš, jestli se shoduje s tvým."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Čtverečkovaný papír a pravítko potřebuješ na ruční zakreslení os a bodů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389",
+      "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "statistika-graf-v-tabulkovem-procesoru",
+    "title": "Graf v tabulkovém procesoru",
+    "aliases": [
+      "graf v excelu",
+      "graf v počítači",
+      "tabulka a graf",
+      "grafy v softwaru"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uspořádá data a sestrojí sloupcové, kruhové diagramy a Vennovy diagramy, spojnicové a bodové grafy (i se SW podporou).",
+        "quote": "(i se SW podporou)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak v programu vybrat data a typ grafu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš videonávody pro konkrétní program."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V tabulkovém procesoru zapíšeš data a vytvoříš z nich graf."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Graf v tabulce vzniká v počítači, papír a tužka ho neudělají."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+      "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "statistika-popis-vztahu-v-datech",
+    "title": "Popis vztahů v zobrazených datech",
+    "aliases": [
+      "co říká graf",
+      "porovnání hodnot",
+      "trend v grafu",
+      "závislost v datech"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše vztahy v rámci zobrazení dat.",
+        "quote": "Popíše vztahy v rámci zobrazení dat."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkontroluje, jestli tvůj popis grafu odpovídá datům."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš články s grafy a komentářem, ze kterých poznáš dobrý popis."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace graf jen zobrazí, vztahy v něm popisuješ ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Co z grafu plyne, vyčteš ty, pravítko ani kalkulačka to neřeknou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "statistika-ulohy-z-realneho-zivota",
+    "title": "Úlohy s daty z reálného života",
+    "aliases": [
+      "rodinný rozpočet",
+      "slovní úlohy s grafem",
+      "data v praxi",
+      "výdaje domácnosti"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-011",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší úlohy z reálného života s využitím získaných dat.",
+        "quote": "Řeší úlohy z reálného života s využitím získaných dat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Rodinný rozpočet",
+        "url": "https://uloziste.rvp.cz/material/1f505d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí zadání úlohy a zkontroluje tvůj postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš skutečná čísla, třeba ceny nebo výdaje domácností."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový procesor spočítá součty a podíly z tvých dat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří výpočty z úloh."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50",
+      "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

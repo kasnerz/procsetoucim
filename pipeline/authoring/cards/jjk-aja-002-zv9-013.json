@@ -1,0 +1,202 @@
+{
+  "outcome": "JJK-AJA-002-ZV9-013",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicky-text-uvod-hlavni-cast-zaver",
+      "title": "Anglický text s úvodem, hlavní částí a závěrem",
+      "aliases": [
+        "anglická slohovka",
+        "napsat text anglicky",
+        "essay",
+        "úvod a závěr",
+        "písemný projev angličtina"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Napíše krátký strukturovaný (úvod, hlavní část, závěr) text o tématu, které si osvojil."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Napíše krátký souvislý text s jasnou a logickou strukturou na téma, které si osvojil."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Napíše několik jednoduchých vět o tématu, které si osvojil."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": [
+        "Napiš krátký souvislý text"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Projde tvůj text, ukáže chyby a vysvětlí je nebo navrhne lepší pořadí částí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzorové texty a jazyková příručka ukážou, jak úvod a závěr vypadají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu a překladač najdou překlepy a neznámá slova."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník v knížce ti poradí slovo, kterým text dopíšeš."
+        }
+      }
+    },
+    {
+      "slug": "spojovaci-vyrazy-v-anglickem-textu",
+      "title": "Spojovací výrazy mezi větami v angličtině",
+      "aliases": [
+        "and but because",
+        "first then finally",
+        "spojky angličtina",
+        "navazování vět",
+        "linking words"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Používá jednoduché prostředky textové návaznosti."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Udržuje logickou návaznost vět."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, kdy se hodí and, but nebo because, a dá ti věty k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam spojovacích slov s příklady ti ukáže, čím věty navázat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Cvičení na doplnění spojek ti hned ukážou správné řešení."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírová příručka nebo učebnice má přehled spojek s příklady."
+        }
+      }
+    },
+    {
+      "slug": "anglicky-text-podle-zadanych-kriterii",
+      "title": "Anglický text podle zadání a kritérií",
+      "aliases": [
+        "slohová práce podle zadání",
+        "počet slov",
+        "kritéria hodnocení",
+        "psaní podle zadání angličtina",
+        "formální požadavky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Napíše krátký souvislý text s použitím prostředků textové návaznosti podle zadaných obsahových a formálních kritérií."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": [
+        "Napiš krátký souvislý text"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná tvůj text se zadáním a řekne, co z něj chybí nebo kolik slov přebývá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky podobných zadání s hodnocením ti ukážou, co se čeká."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Počítadlo slov a kontrola pravopisu ohlídají délku a překlepy."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Odškrtáváš kritéria na papíře a tužkou si text projdeš podle nich."
+        }
+      }
+    },
+    {
+      "slug": "anglicky-pozadat-o-pomoc-nebo-radu",
+      "title": "Ústní žádost o pomoc, radu nebo instrukci anglicky",
+      "aliases": [
+        "can you help me",
+        "zeptat se na cestu anglicky",
+        "požádat o radu",
+        "could you tell me",
+        "mluvení angličtina"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Požádá ústně o pomoc, radu nebo instrukci a na podobné požadavky reaguje."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje jednu stranu rozhovoru, ty se ptáš a odpovídáš a on opraví tvé věty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam užitečných frází ti ukáže, jak slušně požádat o pomoc."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahrávání hlasu ti dovolí poslechnout, jak zníš, a věty zkusit znovu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kartičky s frázemi ti při cvičení s kamarádem pomůžou rozmluvit se."
+        }
+      }
+    }
+  ],
+  "aside": []
+}

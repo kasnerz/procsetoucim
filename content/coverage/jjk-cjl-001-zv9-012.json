@@ -1,0 +1,150 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-012",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "kontroluje, zda čtenému rozumí, či ne,",
+      "cards": [
+        "sledovani-porozumeni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "rychle vyhledá informaci podle orientačních prvků,",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "hledani-informace-v-textu"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "nalézá souvislosti mezi dvěma částmi jednoho textu, klade jednoduché otázky, předvídá, jak bude děj pokračovat dál.",
+      "cards": [
+        "predvidani-pokracovani-textu",
+        "souvislosti-mezi-texty-a-zkusenostmi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "vybírá texty, které jsou vhodné pro daný účel,",
+      "cards": [
+        "vyber-textu-podle-ucelu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "podle orientačních prvků rychle vyhledá informaci jak v tištěném, tak v elektronickém textu,",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "hledani-informace-v-textu"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "vybírá nejdůležitější informace z beletristického, básnického, naučného i publicistického textu a stručně je sdělí ostatním,",
+      "cards": [
+        "hlavni-informace-z-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "využívá různé formy písemných záznamů (např. myšlenkové mapy),",
+      "cards": [
+        "zapisky-k-pochopeni-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "sleduje, zda textu rozumí, a pokouší se objasnit části textu, kterým nerozumí, klade různě složité otázky a hledá na ně v textech odpovědi, předvídá, jak text (beletristický i naučný) bude dále pokračovat, popíše své představy plynoucí z přečteného, hledá a nalézá souvislosti mezi různými texty i vlastními zkušenostmi, odhaluje jednoduché skryté informace.",
+      "cards": [
+        "sledovani-porozumeni",
+        "predvidani-pokracovani-textu",
+        "otazky-a-odpovedi-v-textu",
+        "predstavy-pri-cteni",
+        "souvislosti-mezi-texty-a-zkusenostmi",
+        "skryte-a-neprime-informace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "V případě potřeby text rychle pročítá (skenuje) s cílem rychle vyhledat informaci, popřípadě posoudit, zda bude použitelný (např. zda je užitečné kliknout na odkaz při vyhledávání nebo v článcích).",
+      "cards": [
+        "rychle-prolisteni-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Podle účelu svého čtení volí vhodný způsob čtení (hluboké čtení, rychlé čtení); zběžně prohlíží i rozsáhlejší texty, aby o nich získal všeobecný přehled (skimming).",
+      "cards": [
+        "volba-zpusobu-cteni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Využívá orientační prvky a pokročilejší vyhledávací nástroje; orientuje se ve složených komunikátech a v nelineárním textu.",
+      "cards": [
+        "orientace-ve-slozenych-textech"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vědomě používá základní strategie porozumění textu (sledování vlastního porozumění, předvídání, hledání souvislostí, vizualizace, kladení otázek…).",
+      "cards": [
+        "sledovani-porozumeni",
+        "predvidani-pokracovani-textu",
+        "otazky-a-odpovedi-v-textu",
+        "predstavy-pri-cteni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Odhalí záměr autora a možného adresáta.",
+      "cards": [
+        "zamer-autora-a-adresat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Využívá různé formy písemných záznamů k usnadnění pochopení (nákresy, myšlenkové mapy, značky, poznámky na okrajích apod.), vysvětlí, která je pro něj v daném případě nejvhodnější.",
+      "cards": [
+        "zapisky-k-pochopeni-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Na základě získaných informací a využitých strategií rozumí textu, vyvodí nepřímo sdělené informace a dokáže ho interpretovat.",
+      "cards": [
+        "skryte-a-neprime-informace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Chápe a dokáže interpretovat přiměřeně obtížný text.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

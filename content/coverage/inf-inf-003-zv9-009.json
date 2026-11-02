@@ -1,0 +1,119 @@
+{
+  "outcome": "INF-INF-003-ZV9-009",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Diskutuje o funkcích a účelu známých informačních systémů, uvede konkrétní příklady a situace.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "ucel-informacniho-systemu-skolni-obedy"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Popíše informační systém - funkce pro různé uživatele a jejich potřeby.",
+      "cards": [
+        "role-uzivatelu-a-jejich-potreby"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Popíše funkce informačního systému a typy dat, se kterými pracují.",
+      "cards": [
+        "data-v-informacnim-systemu-a-datove-typy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vysvětlí informační systém z pohledu různých uživatelů. Zhodnotí užitečnost informačního systému, jeho výhody a nevýhody.",
+      "cards": [
+        "hodnoceni-uzitecnosti-systemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznamuje se s předem zpracovanými příklady informačních systémů, aby porozuměl, co vše zahrnuje informační systém a jak vypadají možná kritéria jeho účelnosti a užitečnosti.",
+      "cards": [
+        "hodnoceni-uzitecnosti-systemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozlišuje skupiny uživatelů informačního systému (např. žák, učitel, třídní učitel, zákonný zástupce, vedení školy, správce systému), uvede příklady činností, které v IS vykonávají, popíše potřeby, které jim systém pomáhá řešit, zformuluje účel systému jako celku.",
+      "cards": [
+        "role-uzivatelu-a-jejich-potreby",
+        "ucel-informacniho-systemu-jako-celku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozpozná, jaká data vybraný IS ukládá, rozlišuje základní datové typy.",
+      "cards": [
+        "data-v-informacnim-systemu-a-datove-typy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zkoumá situace, které mohou uživatelé systému zažít, odhadne potenciální problémy a navrhne možná řešení.",
+      "cards": [
+        "problemy-uzivatelu-systemu-a-reseni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí význam informačních systémů ve společnosti.",
+      "cards": [
+        "vyznam-informacnich-systemu-ve-spolecnosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozlišuje různé role uživatelů informačního systému, uvede příklady činností, které v IS vykonávají, popíše potřeby, které jim systém pomáhá řešit, zformuluje účel systému jako celku.",
+      "cards": [
+        "role-uzivatelu-a-jejich-potreby",
+        "ucel-informacniho-systemu-jako-celku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná, jaká data vybraný IS ukládá, rozlišuje základní datové typy a jaká práva ke kterým datům mají jednotliví uživatelé IS.",
+      "cards": [
+        "data-v-informacnim-systemu-a-datove-typy",
+        "prava-uzivatelu-k-datum"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zkoumá uživatelské rozhraní IS, hodnotí jeho přehlednost a použitelnost, nápovědu a podporu uživatele.",
+      "cards": [
+        "uzivatelske-rozhrani-prehlednost-napoveda"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše účel informačních systémů z jeho blízkého okolí.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "ucel-informacniho-systemu-skolni-obedy"
+        ]
+      }
+    }
+  ]
+}

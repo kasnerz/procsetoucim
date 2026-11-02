@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Klíčová slova jsou těch pár slov, ze kterých jde poznat, o čem text je. Kdo je umí najít, rychle projde dlouhý článek, udělá si výpisky nebo zadá do vyhledávače dotaz, který opravdu něco najde. V práci je hledají lidé, kteří procházejí staré dokumenty v archivech, píšou zákony nebo upravují webové stránky tak, aby je našel vyhledávač. Chatbot ti je vypíše za vteřinu, jenže jestli trefil podstatu, poznáš jen tehdy, když je umíš najít taky.",
+  "learnWithAi": [
+    {
+      "title": "Hádání tématu podle slov",
+      "text": "Napiš chatbotovi jen klíčová slova vybraná z textu a ať zkusí uhodnout, o čem text je. Když se trefí vedle, chybí mezi nimi to podstatné."
+    },
+    {
+      "title": "Souboj dvou výběrů",
+      "text": "Vyber z krátkého článku pět klíčových slov a stejný úkol zadej chatbotovi. Porovnej oba seznamy a u každého rozdílu rozhodni, čí slovo vystihuje text lépe."
+    },
+    {
+      "title": "Dotazy do vyhledávače",
+      "text": "Popros chatbota o otázku z dějepisu nebo zeměpisu, na kterou máš najít odpověď. Sestav z ní klíčová slova pro vyhledávač, vyhledej je a ověř, jestli odpověď opravdu najdeš."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "outcome": "INF-INF-003-ZV9-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Analyzuje zadání, určují potřebná data a rozpozná, jaká data jsou důležitá.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "urceni-potrebnych-dat-zadani-ulohy"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Zaznamená a uspořádá různé typy dat v tabulce nebo seznamu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zapis-dat-do-tabulky-seznamu-sbirka"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Analyzuje jednoduchý problém či zadání, navrhne evidenci dat pro jeho řešení.",
+      "cards": [
+        "navrh-evidence-dat-pro-problem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Navrhne tabulku pro evidenci dat – určí potřebné sloupce, rozhodne o jejich názvech a typu, tabulku vytvoří.",
+      "cards": [
+        "sloupce-evidence-nazvy-a-typy",
+        "vytvoreni-tabulky-evidence"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Ověří, že evidence plní zadaný účel, opraví případné chyby.",
+      "cards": [
+        "overeni-ucelu-evidence-a-oprava-chyb"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Navrhne evidenci dat pro řešení zadaného problému – formuluje problém, určí základní informace, které má evidence dat shromažďovat a jaké výstupy má poskytovat.",
+      "cards": [
+        "navrh-evidence-dat-pro-problem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vytvoří tabulku pro evidenci dat, nastaví k ní přístupová práva a určí pravidla a postupy pro práci se záznamy, aby byl udržen soulad evidence se skutečností.",
+      "cards": [
+        "vytvoreni-tabulky-evidence",
+        "pravidla-pro-prace-se-zaznamy",
+        "pristupova-prava-ke-sdilene-tabulce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Otestuje evidenci dat s využitím jiných uživatelů (spolužáků), ověří, že evidence plní zadaný účel, opraví případné chyby a na základě testování navrhne možná vylepšení.",
+      "cards": [
+        "testovani-evidence-se-spoluzaky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Sestaví tabulku pro evidenci dat získaných z okruhu svého zájmu.",
+      "cards": [
+        "vytvoreni-tabulky-evidence"
+      ],
+      "aside": null
+    }
+  ]
+}

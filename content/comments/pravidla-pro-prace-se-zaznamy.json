@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Evidence má cenu jen tehdy, když odpovídá skutečnosti. Jakmile si někdo vezme míč ze třídní půjčovny a nezapíše to, tabulka přestane sedět a nikdo jí nevěří. Proto se předem domlouvá, kdo záznamy zapisuje, kdo je smí měnit, jak se opravuje chyba a jak často se evidence kontroluje. Přesně tohle řeší lidé, kteří spravují databáze nebo hlídají kvalitu dat, a s pravidly pracuje i každý, kdo vede seznam členů spolku nebo klubu. Chatbot ti navrhne sadu pravidel, ale dodržovat je musí lidé, kteří s tabulkou pracují, takže se na nich musíte domluvit vy.",
+  "learnWithAi": [
+    {
+      "title": "Potíže bez pravidel",
+      "text": "Zeptej se chatbota, co všechno se může v evidenci půjčování pokazit, když nikdo nemá pravidla. Ke každé potíži vymysli pravidlo, které by jí zabránilo."
+    },
+    {
+      "title": "Nepořádný uživatel evidence",
+      "text": "Ať chatbot hraje uživatele, který pravidla obchází a zapisuje nepořádně. Vysvětluj mu, proč má záznam opravit, a sleduj, kde tvoje pravidla nejsou dost jasná."
+    },
+    {
+      "title": "Mezery v pravidlech",
+      "text": "Pošli chatbotovi svoje pravidla a nech ho najít situace, na které nepamatují. Doplň je tak, aby jim rozuměl i někdo, kdo u návrhu nebyl."
+    }
+  ]
+}

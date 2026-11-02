@@ -1,0 +1,419 @@
+[
+  {
+    "slug": "vyuziti-historie-dnes",
+    "title": "Příklady využití historie v dnešním životě",
+    "aliases": [
+      "k čemu je dějepis",
+      "historie dnes",
+      "poučení z minulosti",
+      "dějiny a současnost",
+      "modelová situace"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Samostatně nebo společně s vyučujícím vymezí různé příklady toho, jak je možné v současné historické kultuře využívat historické poznání, resp. jak lze takové situace modelovat ve škole.",
+        "quote": "vymezí různé příklady toho, jak je možné v současné historické kultuře využívat historické poznání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Zaslouží si pomník?",
+        "url": "https://uloziste.rvp.cz/material/6b7dbe"
+      },
+      {
+        "title": "Co se děje s pomníkem?",
+        "url": "https://uloziste.rvp.cz/material/8ef407"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot navrhne příklady, kde se dnes historie hodí, a ty je vybereš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a články ukazují, jak se na minulost odkazuje dnes."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti příklady z tvého okolí nenajde."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "S klasickým nástrojem tuhle úvahu nezvládneš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zkoumani-zdroje-o-udalosti",
+    "title": "Zkoumání zdroje o historické události",
+    "aliases": [
+      "rozbor zdroje",
+      "hlavní sdělení textu",
+      "článek o historii",
+      "historický pramen",
+      "práce se zdrojem"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Prozkoumá jeden zdroj, který je součástí jeho aktivity.",
+        "quote": "Prozkoumá jeden zdroj, který je součástí jeho aktivity."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Prozkoumá zdroje, které jsou součástí jeho aktivity – např. článek s historickou tematikou, diskusní příspěvek na internetu, zadání pro tvorbu pomníku, pamětní desky nebo výběru názvu nové ulice zprostředkované nebo modelově vytvořené vyučujícím apod.",
+        "quote": "Prozkoumá zdroje, které jsou součástí jeho aktivity"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zeď, múr, die Mauer",
+        "url": "https://uloziste.rvp.cz/material/cd2f63"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí těžší slova a souvislosti, zdroj ale čteš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na internetu najdeš autora, dobu vzniku a další zdroje k porovnání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe zdroj nepřečte, hlavní sdělení hledáš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník ti vysvětlí slovo, zdroj jím ale nerozebereš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "posouzeni-argumentu-a-manipulace",
+    "title": "Posouzení postojů, argumentů a manipulace ve zdroji",
+    "aliases": [
+      "manipulace v textu",
+      "kdo má pravdu",
+      "argumenty autora",
+      "kritické čtení",
+      "proč to autor tvrdí"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Ve zdrojích posoudí postoje a způsoby argumentace jednotlivých aktérů.",
+        "quote": "Ve zdrojích posoudí postoje a způsoby argumentace jednotlivých aktérů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Odpoví na otázky nezbytné pro kritické posouzení situace (např. Jaké je hlavní sdělení textu/obrázku/příběhu? Kdo se zachoval správně? Je, nebo není tvrzení manipulativní a proč? Proč autor tvrdí zrovna toto? Porušuje některou ze zásad demokracie a lidských práv? Jak lze přispět ke kultivaci jednostranných nebo netolerantních postojů? Jak na podobné situace reagoval někdo přede mnou?).",
+        "quote": "Odpoví na otázky nezbytné pro kritické posouzení situace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak nahlížet na očkování",
+        "url": "https://uloziste.rvp.cz/material/97ec43"
+      },
+      {
+        "title": "Je možné se poučit z holocaustu?",
+        "url": "https://uloziste.rvp.cz/material/d38e20"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot se ptá, proč autor píše právě tohle, a ty hledáš odpovědi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Fakta z textu si ověříš v encyklopedii nebo v dalších zdrojích."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepozná, co je v textu postoj a co argument."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Posoudit autora a jeho důvody klasický nástroj neumí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/fac4775a-39d0-4bc4-a014-26ea1461bd8a",
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-postoj-k-situaci",
+    "title": "Vlastní postoj k situaci z dějin",
+    "aliases": [
+      "jak bych se zachoval",
+      "můj názor",
+      "zaujmout postoj",
+      "rozhodnutí v situaci",
+      "jak bych jednal"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Navrhne, jak by se v dané situaci zachoval.",
+        "quote": "Navrhne, jak by se v dané situaci zachoval."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Sám nebo ve skupině určí, kterou možnost využívání historického poznání si chce vyzkoušet.",
+        "quote": "Sám nebo ve skupině určí, kterou možnost využívání historického poznání si chce vyzkoušet."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zaslouží si pomník?",
+        "url": "https://uloziste.rvp.cz/material/6b7dbe"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ukáže, jak se na věc dívají různé strany, rozhodnout se musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš, jak podobné situace řešili lidé před tebou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace se za tebe nerozhodne a postoj ti nevytvoří."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Postoj si nezměříš ani nespočítáš, vzniká v tvé hlavě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "diskuse-o-ruznych-pohledech",
+    "title": "Diskuse s ostatními o různých pohledech na událost",
+    "aliases": [
+      "debata ve třídě",
+      "hádka o historii",
+      "protichůdné názory",
+      "argumentovat",
+      "diskuze o minulosti"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Při vlastní tvorbě zohlední různé pohledy na danou událost a zaujme podložené postoje, přičemž použije argumenty, které citlivě aplikuje v rámci diskuse s ostatními.",
+        "quote": "Při vlastní tvorbě zohlední různé pohledy na danou událost a zaujme podložené postoje, přičemž použije argumenty, které citlivě aplikuje v rámci diskuse s ostatními."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Co se děje s pomníkem?",
+        "url": "https://uloziste.rvp.cz/material/8ef407"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti zahraje protistranu, takže si argumenty vyzkoušíš nanečisto."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na internetu seženeš fakta a zdroje, o které svůj názor opřeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace za tebe nediskutuje, mluvíš a posloucháš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Diskusi s lidmi vedeš hlasem, nástroj k tomu nepotřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+      "http://data.europa.eu/esco/skill/bad0f996-a299-4631-a7d8-104185b2ef22"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vlastni-vystup-k-historickemu-tematu",
+    "title": "Vlastní výstup: pomník, název ulice, dopis nebo reakce",
+    "aliases": [
+      "dopis zastupitelstvu",
+      "nová ulice",
+      "pamětní deska",
+      "návrh pomníku",
+      "reakce na nepravdu"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Představí svůj výběr, postoj nebo stanovisko (např. navrhne jméno nové ulice pojmenované po historické osobnosti a připraví koncept dopisu zastupitelstvu, kde svůj výběr objasní; zformuluje reakci na text obsahující historickou manipulaci nebo nepravdu; odkáže na zdroj a sdílí kvalitní historický text na sociálních sítích; zapojí se do internetové diskuse nebo vzpomínkové akce u příležitosti významného výročí; reaguje na řetězový e-mail apod.).",
+        "quote": "Představí svůj výběr, postoj nebo stanovisko"
+      },
+      {
+        "level": "Splněno",
+        "point": "Využije historické poznání, které získal z různých kriticky prozkoumaných zdrojů, k proměně svého současného okolí.",
+        "quote": "Využije historické poznání, které získal z různých kriticky prozkoumaných zdrojů, k proměně svého současného okolí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Zaslouží si pomník?",
+        "url": "https://uloziste.rvp.cz/material/6b7dbe"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti poradí s osnovou dopisu a ty ho napíšeš po svém."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzory dopisů a informace o osobnosti, kterou navrhuješ."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Textový editor ohlídá chyby a pomůže s úpravou textu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pero a papír text nevymyslí, výběr a argumenty jsou na tobě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c",
+      "http://data.europa.eu/esco/skill/30560a8b-e9e9-4988-8192-8bf15bac72b3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "predstaveni-vystupu-ve-tride",
+    "title": "Představení výstupu ve třídě, škole nebo obci",
+    "aliases": [
+      "prezentace ve třídě",
+      "vystoupení",
+      "představit projekt",
+      "mluvený projev",
+      "obhajoba názoru"
+    ],
+    "outcome": "CAS-DEJ-002-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vytvoří a ve třídě, škole či obci představí vlastní výstup, v němž zohlední i protichůdné názory.",
+        "quote": "Vytvoří a ve třídě, škole či obci představí vlastní výstup, v němž zohlední i protichůdné názory."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti položí otázky, jaké by mohli mít posluchači."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové informace ti projev nepřednesou."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Prezentační program pomůže s posloupností snímků."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Před lidmi mluvíš ty, žádný nástroj to za tebe neudělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b",
+      "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

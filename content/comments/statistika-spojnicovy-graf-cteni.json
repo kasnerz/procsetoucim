@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Spojnicový graf ukazuje, jak se něco mění v čase, třeba teplota přes den nebo cena benzínu během roku. Když z něj umíš číst, poznáš, kdy hodnota rostla, kde byl vrchol a jestli se čára opravdu prudce láme, nebo to tak jen vypadá kvůli ose. Grafy vývoje najdeš v předpovědi počasí i ve zprávách a lidé, kteří odhadují vývoj počtu obyvatel nebo cen, z nich vycházejí každý den. Aplikace graf vykreslí, ale co znamená strmá čára nebo podivně zvolené měřítko, musíš poznat ty.",
+  "learnWithAi": [
+    {
+      "title": "Prodej zmrzliny po měsících",
+      "text": "Ať ti chatbot vypíše hodnoty pro spojnicový graf, třeba prodej zmrzliny po měsících, a položí k nim otázky. Graf si načrtni na čtverečkovaný papír a odpovídej podle něj."
+    },
+    {
+      "title": "Graf počasí za týden",
+      "text": "Vyhledej skutečný graf teploty za poslední týden a napiš k němu, kdy bylo nejtepleji a jak se teplota měnila. Pošli graf i svůj popis chatbotu a nech si ho zkontrolovat."
+    },
+    {
+      "title": "Zkreslení useknutou osou",
+      "text": "Zeptej se chatbota, jak se dá spojnicový graf zkreslit volbou osy. Najdi ve zprávách graf, kde osa nezačíná nulou, a zkus popsat, jak by vypadal poctivě."
+    }
+  ]
+}

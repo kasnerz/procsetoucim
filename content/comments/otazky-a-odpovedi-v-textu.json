@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když si k textu kladeš otázky, poznáš, co z něj opravdu víš. Jednoduchá otázka typu kdo nebo kde ověří fakta, složitější otázka typu proč nebo co by bylo, kdyby, tě donutí hledat souvislosti, které v textu nejsou napsané přímo. Tak se dá učit na písemku z dějepisu a podobně pracují lidé, kteří hledají odpověď v předpisech nebo ve smlouvě. Chatbot ti na otázku odpoví hned, jenže neví, jestli to v tvém textu opravdu stojí, a to musíš umět ověřit ty.",
+  "learnWithAi": [
+    {
+      "title": "Otázky od lehkých po těžké",
+      "text": "Napiš k přečtenému textu tři jednoduché otázky a pošli je chatbotu. Ať ti ukáže, jak z nich udělat otázky typu proč nebo co kdyby, a odpovědi na ně hledej v textu."
+    },
+    {
+      "title": "Kvíz s hledáním v odstavcích",
+      "text": "Požádej chatbota, ať k tvému textu vymyslí deset otázek různé obtížnosti. Ke každé odpovědi zapiš číslo odstavce, ve kterém je opora."
+    },
+    {
+      "title": "Odpověď, která v textu není",
+      "text": "Zeptej se chatbota na něco k textu, co v něm přímo nestojí, a nech ho odpovědět. Porovnej odpověď s textem a rozliš, co z ní text opravdu říká a co chatbot přidal."
+    }
+  ]
+}

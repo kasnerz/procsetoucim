@@ -1,0 +1,72 @@
+{
+  "outcome": "JJK-AJA-003-ZV9-014",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Zapojuje se do rozhovoru o známých tématech a dokáže klást otázky a reagovat na odpovědi, vyjádří velmi jednoduše svůj názor.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "anglicky-rozhovor-znama-temata",
+          "anglicky-nazor-s-vysvetlenim"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Do rozhovorů na známá témata se zapojuje většinou spontánně.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Dokáže samostatně odpovídat a klást jednoduché otázky, čímž udržuje rozhovor.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "anglicka-konverzace-otazky-a-odpovedi",
+          "anglicky-rozhovor-znama-temata"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Jeho vyjadřování je celkově plynulejší, i když může váhat nebo chybovat v méně známých situacích, kdy potřebuje podporu.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Zapojuje do rozhovorů o známých tématech, dokáže rozhovor zahájit, udržet i ukončit.",
+      "cards": [
+        "anglicke-zahajeni-a-ukonceni-rozhovoru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zapojuje se aktivně a spontánně do rozhovoru, reaguje adekvátně na podněty druhých a přirozeně střídá role mluvčího a posluchače.",
+      "cards": [
+        "anglicke-stridani-mluvciho-a-posluchace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vyjádří ústně pozvání, návrh a omluvu a na tyto podněty reaguje.",
+      "cards": [
+        "anglicke-pozvani-navrh-omluva"
+      ],
+      "aside": null
+    }
+  ]
+}

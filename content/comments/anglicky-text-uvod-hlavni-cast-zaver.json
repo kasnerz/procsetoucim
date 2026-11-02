@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Krátký anglický text píšeš, když odpovídáš na e-mail kamarádovi z ciziny, posíláš přihlášku na tábor v zahraničí nebo píšeš recenzi hry. Když má úvod, hlavní část a závěr, čtenář se v něm hned vyzná a nemusí hádat, kam text míří. Psanou angličtinu potřebují lidé v cestovních kancelářích, na zahraničních odděleních firem nebo ve výzkumu, kde se píše pro kolegy z celého světa. Překladač a chatbot ti text vyrobí za pár vteřin, ale jestli říká to, co chceš, a jestli v něm není chyba, poznáš jen tehdy, když umíš podobný text napsat i bez nich.",
+  "learnWithAi": [
+    {
+      "title": "Rozházené věty o koníčku",
+      "text": "Nech chatbota napsat krátký anglický text o tvém koníčku a rozházet jeho věty. Poskládej je zpátky do úvodu, hlavní části a závěru a zkontroluj se podle originálu."
+    },
+    {
+      "title": "Závěr k rozepsanému textu",
+      "text": "Ať ti chatbot napíše úvod a hlavní část krátkého textu bez závěru. Dopiš závěr, který k nim sedí, a nech si říct, jestli opravdu shrnuje to podstatné."
+    },
+    {
+      "title": "Oprava vlastního textu",
+      "text": "Napiš anglicky asi osmdesát slov o tom, jak trávíš víkend, a vlož je do chatbota s prosbou, ať chyby jen označí, ne opraví. Opravit je zkus nejdřív bez nápovědy."
+    }
+  ]
+}

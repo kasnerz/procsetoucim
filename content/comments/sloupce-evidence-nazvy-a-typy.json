@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když do sloupce s datem narození někdo napíše „loni v létě“, tabulka ho neseřadí ani z něj nespočítá věk. Proto se při návrhu evidence rozhoduje, které sloupce budou čísla, které text a které datum, a jak se budou jmenovat, aby jim rozuměl i někdo jiný. Na tom stojí každá tabulka, kterou budeš později řadit, filtrovat nebo z ní počítat průměry. Pro lidi, kteří navrhují a vyvíjejí databáze, je to každodenní rutina. Chatbot ti typy vysvětlí, ale jaký sloupec tvoje data potřebují, poznáš jen z toho, co s nimi chceš dělat.",
+  "learnWithAi": [
+    {
+      "title": "Hádanka na typy dat",
+      "text": "Řekni chatbotovi, ať ti vypíše patnáct různých údajů, třeba PSČ, cenu, telefonní číslo nebo datum. U každého urči typ sloupce a nech si vysvětlit, kde se mýlíš."
+    },
+    {
+      "title": "Kontrola názvů sloupců",
+      "text": "Pošli chatbotovi názvy sloupců své tabulky bez dalšího vysvětlení a ať napíše, co si pod každým představí. Když si pod některým představí něco jiného, přejmenuj ho."
+    },
+    {
+      "title": "Číslo uložené jako text",
+      "text": "Zeptej se chatbota, co se stane, když číslo uložíš jako text, a vyzkoušej to v tabulkovém editoru. Seřaď sloupec a zjisti, jestli to dopadne tak, jak chatbot tvrdil."
+    }
+  ]
+}

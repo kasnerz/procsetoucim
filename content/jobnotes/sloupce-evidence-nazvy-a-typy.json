@@ -1,0 +1,10 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "8d9ec84d-cf2d-4179-87bc-335cda54a427": "Tady se navrhují tabulky, tedy které sloupce budou existovat, jak se budou jmenovat a jaký typ dat se do nich vejde. Schémata databází jsou hlavní práce.",
+  "b11e1742-5e28-4270-b081-b0193d85ee7d": "Při změnách databáze se mění i tabulky, přidávají se sloupce a upravují typy dat. Datové modely se tu programují a upravují, ale navrhování celé databáze dělají jiní.",
+  "810e5e67-acd5-499a-b307-cf5bea330859": "Datové modely se tu tvoří jako součást řízení informací. Sloupce a typy dat tu hlavně určují, jak se bude s informacemi později pracovat.",
+  "8213b4bc-60ce-4ffc-9e00-9758fb2003c6": "Nástroje ke sběru dat obsahují tabulky s předem určenými sloupci a typy údajů. Datové modely se tu navrhují, ale jen jako příprava k analýze a hodnocení."
+ }
+}

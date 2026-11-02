@@ -1,0 +1,272 @@
+[
+  {
+    "slug": "median-a-modus",
+    "title": "Medián a modus souboru dat",
+    "aliases": [
+      "medián",
+      "modus",
+      "prostřední hodnota",
+      "nejčastější hodnota",
+      "průměr, medián, modus"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí a popíše aritmetický průměr, medián a modus různých souborů dat a vybere, která charakteristika je v daném kontextu nejvhodnější.",
+        "quote": "Určí a popíše aritmetický průměr, medián a modus různých souborů dat"
+      },
+      {
+        "level": "Na cestě",
+        "point": "řeší úlohy včetně úloh z reálného světa, ve kterých se počítá průměr, medián či modus souboru dat.",
+        "quote": "řeší úlohy včetně úloh z reálného světa, ve kterých se počítá průměr, medián či modus souboru dat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi mediánem a modem a zadá ti další soubory k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš výklad a vzorové příklady, na kterých si postup ověříš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program seřadí hodnoty a spočítá medián i modus, takže zkontroluješ svůj výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti pohlídá součty, hodnoty ale seřadíš a prostřední najdeš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-vhodne-charakteristiky",
+    "title": "Kterou charakteristiku zvolit: průměr, medián, nebo modus",
+    "aliases": [
+      "průměr nebo medián",
+      "co je lepší průměr nebo medián",
+      "typická hodnota",
+      "kdy použít modus"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí a popíše aritmetický průměr, medián a modus různých souborů dat a vybere, která charakteristika je v daném kontextu nejvhodnější.",
+        "quote": "vybere, která charakteristika je v daném kontextu nejvhodnější."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou, proč se v dané situaci hodí jedna hodnota víc než jiná."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články o platech a cenách ukazují, kdy se uvádí průměr a kdy medián."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Program vypočítá všechny tři hodnoty, vybrat tu pravou musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kalkulačka počítá, ale neřekne ti, která hodnota k situaci sedí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odlehle-hodnoty-a-zmena-souboru",
+    "title": "Odlehlé hodnoty a změna souboru dat",
+    "aliases": [
+      "odlehlá hodnota",
+      "extrém v datech",
+      "přidání hodnoty do souboru",
+      "co se stane s průměrem",
+      "vliv na medián"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpozná vliv odlehlých hodnot v souboru dat na průměr a medián.",
+        "quote": "Rozpozná vliv odlehlých hodnot v souboru dat na průměr a medián."
+      },
+      {
+        "level": "Na cestě",
+        "point": "popíše dopad přidání nebo odebrání určité hodnoty ze souboru dat na průměr, medián nebo modus",
+        "quote": "popíše dopad přidání nebo odebrání určité hodnoty ze souboru dat na průměr, medián nebo modus"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč jedna extrémní hodnota hýbe průměrem, ale mediánem skoro ne."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš názorné příklady, třeba jak jeden velmi vysoký plat zvedne průměr."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "V tabulce hodnotu změníš a hned vidíš, jak se průměr a medián pohnou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačkou si před přidáním hodnoty a po něm spočítáš průměr a porovnáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "porovnani-dvou-souboru-dat",
+    "title": "Porovnání dvou souborů dat",
+    "aliases": [
+      "porovnání dat",
+      "kdo je lepší podle dat",
+      "srovnání dvou tříd",
+      "dva soubory dat"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "porovná klíčové charakteristiky dvou různých, ale souvisejících souborů dat",
+        "quote": "porovná klíčové charakteristiky dvou různých, ale souvisejících souborů dat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže vymyslet, co u dvou souborů porovnávat, a zkontroluje tvůj závěr."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Statistické úřady nabízejí hotová data, která můžeš mezi sebou porovnat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program spočítá charakteristiky obou souborů vedle sebe."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti usnadní výpočty, závěr z porovnání ale napíšeš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-vzorku-z-dat",
+    "title": "Výběr vzorku, který se blíží celku",
+    "aliases": [
+      "výběr vzorku",
+      "reprezentativní vzorek",
+      "průzkum veřejného mínění",
+      "kolik lidí se zeptat"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí vhodné metody výběru vzorku tak, aby se jeho charakteristika co nejvíce blížila charakteristice celého souboru.",
+        "quote": "Určí vhodné metody výběru vzorku tak, aby se jeho charakteristika co nejvíce blížila charakteristice celého souboru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak dlouho trávíme čas na mobilu?",
+        "url": "https://uloziste.rvp.cz/material/f3b53f"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou, koho se v průzkumu ptát, aby výsledek nebyl zkreslený."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis, jak se dělají průzkumy a proč záleží na výběru lidí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program vybere náhodné řádky z dat a ty porovnáš s celkem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kostkou nebo losováním z krabice si vzorek vybereš náhodně a spravedlivě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+      "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

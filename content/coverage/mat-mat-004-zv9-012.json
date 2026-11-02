@@ -1,0 +1,66 @@
+{
+  "outcome": "MAT-MAT-004-ZV9-012",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "určí aritmetický průměr souboru dat",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "statistika-aritmeticky-prumer"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "porovná klíčové charakteristiky dvou různých, ale souvisejících souborů dat",
+      "cards": [
+        "porovnani-dvou-souboru-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "řeší úlohy včetně úloh z reálného světa, ve kterých se počítá průměr, medián či modus souboru dat.",
+      "cards": [
+        "median-a-modus"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "popíše dopad přidání nebo odebrání určité hodnoty ze souboru dat na průměr, medián nebo modus",
+      "cards": [
+        "odlehle-hodnoty-a-zmena-souboru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí a popíše aritmetický průměr, medián a modus různých souborů dat a vybere, která charakteristika je v daném kontextu nejvhodnější.",
+      "cards": [
+        "median-a-modus",
+        "vyber-vhodne-charakteristiky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná vliv odlehlých hodnot v souboru dat na průměr a medián.",
+      "cards": [
+        "odlehle-hodnoty-a-zmena-souboru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí vhodné metody výběru vzorku tak, aby se jeho charakteristika co nejvíce blížila charakteristice celého souboru.",
+      "cards": [
+        "vyber-vzorku-z-dat"
+      ],
+      "aside": null
+    }
+  ]
+}

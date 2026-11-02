@@ -1,0 +1,88 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-025",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Diskutuje skutečnost, že kouření i pobyt v zakouřeném prostoru má negativní na zdraví.",
+      "cards": [
+        "pasivni-koureni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Předvede v modelových situacích nepřijetí potravin zejména sladkostí a nápojů od cizí osoby.",
+      "cards": [
+        "odmitnuti-sladkosti-od-cizich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Předvádí základní postupy při odmítání cigaret, alkoholu, drog.",
+      "cards": [
+        "odmitnuti-cigarety-alkoholu-a-drog"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyhledává základní informace a vytvoří myšlenkovou mapu o negativních důsledcích závislostního chování na zdraví a bezpečí.",
+      "cards": [
+        "mapa-nasledku-zavislosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zdůvodní výhody, které přináší život bez závislostí.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "vyhody-zivota-bez-zavislosti"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše vliv zneužívání nejčastějších návykových látek na zdraví člověka.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zdravotni-rizika-navykovych-latek"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Vybere, na koho se může obrátit v situacích, kdy se v jeho okolí vyskytne problém související se zneužíváním návykových látek či ohrožení závislostním chováním.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "pomoc-pri-zavislosti-ve-tvem-okoli"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede rizika spojená s nadměrným používáním digitálních technologií.",
+      "cards": [
+        "rizika-digitalnich-technologii"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozlišuje, co prospívá zdraví, co škodí, předvede v modelové situaci odmítnutí návykové látky.",
+      "cards": [
+        "co-zdravi-prospiva-a-skodi",
+        "odmitnuti-cigarety-alkoholu-a-drog"
+      ],
+      "aside": null
+    }
+  ]
+}

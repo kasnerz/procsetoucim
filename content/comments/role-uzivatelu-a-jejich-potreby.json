@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Ve školním systému vidí žák rozvrh a známky, učitel do něj známky zapisuje, rodič omlouvá absenci a správce nastavuje, kdo co smí. Každá role od systému potřebuje něco jiného a kdo navrhuje software, musí tyhle potřeby znát dřív, než se začne programovat. Lidé, kteří pro firmy a úřady rozebírají, co mají systémy umět, se tím živí a takových míst spíš přibude. Typické role ti vyjmenuje chatbot. Jak systém vypadá z pohledu tvé třídní učitelky, ale zjistíš spíš tím, že se jí zeptáš.",
+  "learnWithAi": [
+    {
+      "title": "Tabulka rolí ve školním systému",
+      "text": "Sepiš role ve vašem školním systému a ke každé dvě činnosti. Porovnej tabulku s tím, co navrhne chatbot, a doplň jen to, co u vás opravdu platí."
+    },
+    {
+      "title": "Zmatený rodič u přihlášení",
+      "text": "Ať chatbot hraje rodiče, který se poprvé přihlašuje do školního systému a neví si rady. Otázkami zjisti, co potřebuje, a zapiš to jako požadavky na systém."
+    },
+    {
+      "title": "Role v systému sportovního klubu",
+      "text": "Vymysli role pro systém vašeho sportovního klubu nebo knihovny a k nim jejich potřeby. Chatbota požádej, ať najde roli, která ti chybí."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Jméno je text, počet zameškaných hodin celé číslo, den narození datum a omluvená absence ano, nebo ne. Když systém ukládá údaje ve správném typu, umí je seřadit, sečíst nebo vyhledat, kdežto datum uložené jako text se seřadí špatně. S tím pracuje zhruba 6 % lidí, kteří v Česku pracují, od těch, kdo navrhují databáze, po ty, kdo vedou zdravotnickou dokumentaci nebo evidenci zvířat v zoo. Tabulkový program ti typ sloupce ukáže. Když ale navrhuješ vlastní tabulku, musíš rozhodnout ty, jaký typ který údaj potřebuje.",
+  "learnWithAi": [
+    {
+      "title": "Dvacet údajů k zařazení",
+      "text": "Ať ti chatbot vypíše dvacet údajů, třeba PSČ, cenu nebo čas příjezdu, a ty ke každému napiš datový typ. Nech si vysvětlit ty, u kterých se vaše odpovědi liší."
+    },
+    {
+      "title": "Tvůj profil ve školním systému",
+      "text": "Projdi si svůj profil ve školním systému a vypiš, jaké údaje o tobě ukládá. Ke každému dopiš typ a chatbota se zeptej jen tam, kde váháš."
+    },
+    {
+      "title": "Tabulka se špatnými typy",
+      "text": "Požádej chatbota o malou tabulku, kde jsou některé údaje uložené ve špatném typu, třeba datum jako text. Najdi chyby a vyzkoušej v tabulkovém programu, co se stane při řazení."
+    }
+  ]
+}

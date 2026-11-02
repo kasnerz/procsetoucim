@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Bodový graf zachytí každou věc jako jeden bod, třeba každého spolužáka podle výšky a váhy. Z rozmístění bodů poznáš, jestli spolu dvě veličiny souvisí, třeba jestli vyšší lidé obvykle víc váží, a všimneš si i bodů, které z řady vybočují. Takové grafy čtou klimatologové, když porovnávají teplotu a srážky, nebo analytici, kteří hledají, co ovlivňuje prodej. Aplikace body nakreslí, ale jestli z nich plyne souvislost, nebo jde o náhodu, musíš posoudit ty, a taky vědět, že souvislost ještě neznamená, že jedno způsobuje druhé.",
+  "learnWithAi": [
+    {
+      "title": "Bod, který nezapadá",
+      "text": "Ať ti chatbot vypíše dvacet dvojic čísel, z nichž jedna schválně vybočuje. Zakresli je, najdi bod, který se vymyká, a vymysli, čím by se dal vysvětlit."
+    },
+    {
+      "title": "Výška a chodidla spolužáků",
+      "text": "Změř se spolužáky výšku a délku chodidla, nakresli bodový graf a popiš, co z něj vyčteš. Pošli hodnoty i popis chatbotu a nech ho popis zkontrolovat."
+    },
+    {
+      "title": "Souvislost a příčina",
+      "text": "Nech si od chatbota na příkladech vysvětlit, proč dvě veličiny mohou růst spolu, i když jedna nezpůsobuje druhou. Vymysli vlastní takový příklad a nech ho posoudit."
+    }
+  ]
+}

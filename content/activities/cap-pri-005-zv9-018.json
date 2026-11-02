@@ -1,0 +1,471 @@
+[
+  {
+    "slug": "podminky-pro-vznik-zivota",
+    "title": "Podmínky pro vznik života na Zemi",
+    "aliases": [
+      "jak vznikl život",
+      "voda a atmosféra",
+      "geosféry",
+      "proč je na Zemi život",
+      "litosféra a hydrosféra"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "objasní podmínky nutné pro vznik života na Zemi na základě životních projevů organismů (např. přítomnost vody, vhodné teploty, atmosféry)",
+        "quote": "objasní podmínky nutné pro vznik života na Zemi"
+      },
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí význam jednotlivých geosfér (litosféry, atmosféry, hydrosféry a pedosféry) pro rozvoj života na Zemi (např. atmosféra s kyslíkem umožňující rozvoj složitějších forem života)",
+        "quote": "vysvětlí význam jednotlivých geosfér"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč život potřebuje vodu a vhodnou atmosféru, a ptá se tě na tvé odpovědi."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové weby ukážou schémata geosfér a podmínek pro život."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Jednoúčelová aplikace tuhle souvislost nevysvětlí, musíš ji pochopit ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Učebnice a atlas ukazují stavbu Země a jednotlivé geosféry v obrázcích."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hlavni-udalosti-vyvoje-zeme-a-zivota",
+    "title": "Hlavní události v historii Země a života",
+    "aliases": [
+      "kambrická exploze",
+      "vznik Země",
+      "Pangea",
+      "dějiny Země",
+      "vývoj života"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "s využitím různých informačních zdrojů (učebnice, digitální zdroje) identifikuje klíčová období v geologické historii, např. vznik Země, formování atmosféry a hydrosféry, kambrickou explozi, vznik Pangey a velká vymírání",
+        "quote": "identifikuje klíčová období v geologické historii"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vymezí klíčové etapy geologického a biologického vývoje na Zemi a faktory, které je ovlivňovaly.",
+        "quote": "Vymezí klíčové etapy geologického a biologického vývoje na Zemi"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "Krok za krokem historií Země",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Shrne, co se v které etapě stalo, a zkouší tě z pořadí událostí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a vzdělávací weby mají přehledy etap vývoje Země i života."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Výuková aplikace nebo kvíz procvičí pořadí a názvy etap."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Učebnice a nástěnný plakát ukazují etapy vývoje Země pohromadě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/a339d0ed-0dc9-4d76-8d6c-b26f68f97e4a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "geologicka-casova-osa",
+    "title": "Geologická časová osa a doba trvání ér",
+    "aliases": [
+      "prvohory druhohory třetihory",
+      "časová osa Země",
+      "geologické éry",
+      "jak dlouho trval vývoj",
+      "čtvrtohory"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vytvoří a vysvětlí geologickou časovou osu, na které vymezí hlavní události jednotlivých geologických ér (např. prahory, prvohory, druhohory, třetihory) a propojí je s vývojem života (např. evoluce savců).s pomocí časové osy posuzuje dobu hlavních událostí v geologické minulosti Země (vznik planety Země a jejích dílčích geosfér, hlavní etapy vývoje života na Zemi, velká vymírání)",
+        "quote": "vytvoří a vysvětlí geologickou časovou osu"
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovná s pomocí geologické časové osy dobu trvání vývoje jednotlivých geosfér a biosféry.",
+        "quote": "Porovná s pomocí geologické časové osy dobu trvání vývoje jednotlivých geosfér a biosféry."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "Cesta časem geologickou historií Země",
+        "url": "https://uloziste.rvp.cz/material/af4493"
+      },
+      {
+        "title": "Časová osa a princip superpozice",
+        "url": "https://uloziste.rvp.cz/material/08988a"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti rozmyslet měřítko osy a zkontroluje, jestli máš éry ve správném pořadí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové časové osy ukážou, kdy éry začaly a jak dlouho trvaly."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí nebo tabulková aplikace ti pomůže osu zakreslit ve správném měřítku."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pásek papíru a pravítko ti ukážou, jak malou část dějin tvoří lidé."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/75ffb6d4-0b48-4471-b3c9-731b01ee1b47",
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sopky-a-posun-kontinentu",
+    "title": "Sopky a posun kontinentů ve vývoji života",
+    "aliases": [
+      "desková tektonika",
+      "vulkanická činnost",
+      "pohyb kontinentů",
+      "sopky a život",
+      "jak vznikají pohoří"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše hlavní geologické procesy, které formovaly jednotlivé geosféry a měly vliv na vývoj života (např. vulkanická činnost, desková tektonika)",
+        "quote": "popíše hlavní geologické procesy, které formovaly jednotlivé geosféry"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak sopky a pohyb desek mění krajinu a podmínky pro život."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Mapy desek a animace pohybu kontinentů vidíš na webu názorně."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s modelem Země ukáže, jak se kontinenty posouvaly."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Glóbus, atlas a učebnice ukazují rozložení desek a sopečných oblastí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "horniny-a-zkameneliny-z-regionu",
+    "title": "Horniny a zkameněliny z okolí jako důkaz událostí",
+    "aliases": [
+      "zkameněliny",
+      "fosilie",
+      "horniny v okolí",
+      "co vypráví kámen",
+      "sbírka hornin"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na konkrétních příkladech hornin a zkamenělin z regionu demonstruje významné geologické události",
+        "quote": "na konkrétních příkladech hornin a zkamenělin z regionu demonstruje významné geologické události"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na konkrétním příkladu horniny, zkameněliny nebo geologického jevu demonstruje procesy, které ho formovaly.",
+        "quote": "Na konkrétním příkladu horniny, zkameněliny nebo geologického jevu demonstruje procesy, které ho formovaly."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Kámen ve své ruce rozpoznáš a popíšeš ty, chatbot ho nevidí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Geologické mapy a atlasy hornin ti pomůžou zjistit, co se u vás našlo."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace pro určování z fotky navrhne druh horniny nebo zkameněliny ke kontrole."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lupa a atlas hornin ti pomůžou prohlédnout vzorek zblízka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/a339d0ed-0dc9-4d76-8d6c-b26f68f97e4a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "urcovani-stari-hornin",
+    "title": "Jak se určuje stáří hornin",
+    "aliases": [
+      "stáří hornin",
+      "vrstvy hornin",
+      "superpozice",
+      "radiometrické datování",
+      "jak se pozná stáří zkameněliny"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vysvětlí význam vědeckých postupů používaných při zkoumání geologické minulosti (např. relativní určování stáří pomocí vrstev hornin a zkamenělin, absolutní určování pomocí radiometrických metod).základě různých zdrojů (např. učebnice, encyklopedie, digitální zdroje)",
+        "quote": "vysvětlí význam vědeckých postupů používaných při zkoumání geologické minulosti"
+      },
+      {
+        "level": "Splněno",
+        "point": "Dokládá na konkrétním příkladu horninového záznamu (hornina, vrstevní sled hornin) možnosti jeho zkoumání a význam pro poznání geologické minulosti Země.",
+        "quote": "Dokládá na konkrétním příkladu horninového záznamu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "Časová osa a princip superpozice",
+        "url": "https://uloziste.rvp.cz/material/08988a"
+      },
+      {
+        "title": "Cesta do hlubin geologického času",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi stářím podle vrstev a změřeným stářím a zeptá se tě na příklad."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a schémata vrstevních sledů ukazují, jak se stáří čte z hornin."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro datování hornin nemáš žádnou použitelnou aplikaci, rozbor vrstev děláš ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Obrázek vrstev v učebnici nebo odkryv v lomu ukáže, která vrstva je starší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/75ffb6d4-0b48-4471-b3c9-731b01ee1b47"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zmeny-klimatu-v-minulosti",
+    "title": "Změny klimatu v minulosti Země",
+    "aliases": [
+      "doba ledová",
+      "oteplení",
+      "klima v minulosti",
+      "dopad meteoritu",
+      "proč se měnilo klima"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "na základě různých informačních zdrojů vysvětlí, jak klimatické změny v minulosti ovlivnily život na Zemi (např. doba ledová, oteplení během druhohor) a jaké faktory je způsobily (např. sopečná činnost, dopady meteoritů)",
+        "quote": "na základě různých informačních zdrojů vysvětlí, jak klimatické změny v minulosti ovlivnily život na Zemi"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí příčiny dob ledových a oteplení a pomůže ti shrnout, co způsobily."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a grafy teplot z minulosti ukazují, jak se klima měnilo."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Samostatná aplikace tyhle souvislosti nevysvětlí, srovnáváš zdroje ty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Učebnice a atlas dějin Země shrnují, co se v dobách ledových dělo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/cfccea88-0558-40d4-b896-56a1e7993e24",
+      "http://data.europa.eu/esco/skill/1565b401-1754-4b07-8f1a-eb5869e64d95"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vymirani-driv-a-dnes",
+    "title": "Velká vymírání dříve a dnes",
+    "aliases": [
+      "vymírání druhů",
+      "vyhynutí dinosaurů",
+      "šesté vymírání",
+      "proč druhy vymírají",
+      "ohrožené druhy"
+    ],
+    "outcome": "CAP-PRI-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Porovnává informace o rychlosti, intenzitě a příčinách vymírání v geologické minulosti a v současnosti.",
+        "quote": "Porovnává informace o rychlosti, intenzitě a příčinách vymírání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P5"
+    ],
+    "inspiration": [
+      {
+        "title": "Velká vymírání",
+        "url": "https://uloziste.rvp.cz/material/a4400b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti uspořádat srovnání příčin a rychlosti vymírání dříve a dnes."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vědecké přehledy a seznamy ohrožených druhů dávají čísla pro srovnání."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový kalkulátor ti pomůže srovnat vyhynulé druhy v různých obdobích."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Učebnice a časová osa ukazují jednotlivá velká vymírání vedle sebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bdd25f8-4b6e-40fe-a2cf-c1badc594114",
+      "http://data.europa.eu/esco/skill/74b89bd4-3490-401b-8be0-f1324f062793"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

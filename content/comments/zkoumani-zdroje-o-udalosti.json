@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Každý článek, příspěvek na sítích nebo návrh pomníku někdo vytvořil v určité době a s nějakým úmyslem. Prozkoumat zdroj znamená zjistit, kdo za ním stojí, kdy a pro koho vznikl a co z něj opravdu plyne, dřív než mu uvěříš nebo ho pošleš dál. Archiváři a historici to dělají se starými listinami každý den, ale stejný postup se ti hodí u každé zprávy, která ti přijde do telefonu. Chatbot ti vysvětlí neznámá slova a souvislosti, zdroj ale musíš přečíst a posoudit ty, protože i chatbot se plete a ne vždy ví, odkud jeho informace pocházejí.",
+  "learnWithAi": [
+    {
+      "title": "Otázky ke každému zdroji",
+      "text": "Popros chatbota o krátký seznam otázek, které si historik klade u každého zdroje. Použij je na text z hodiny a odpovědi napiš vlastními slovy."
+    },
+    {
+      "title": "Vysvětlení nejasných míst",
+      "text": "Vlož chatbotovi jen větu, které nerozumíš, ne celý text, a nech si ji vysvětlit. Hlavní sdělení zdroje pak shrň bez jeho pomoci."
+    },
+    {
+      "title": "Porovnání dvou textů o události",
+      "text": "Najdi dva texty o stejné události, třeba z učebnice a z internetové diskuse. Popiš chatbotovi, v čem se liší, a nech se od něj vyptávat, čím si ty rozdíly vysvětluješ."
+    }
+  ]
+}

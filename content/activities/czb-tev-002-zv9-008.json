@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "tv-usili-o-zlepseni-vykonu",
+    "title": "Zlepšování výkonu při dalším měření",
+    "aliases": [
+      "zlepšit výkon",
+      "trénink na lepší čas",
+      "osobní rekord",
+      "jak se zlepšit v běhu",
+      "opakované měření"
+    ],
+    "outcome": "CZB-TEV-002-ZV9-008",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Usiluje o zlepšení pohybového výkonu.",
+        "quote": "Usiluje o zlepšení pohybového výkonu."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Měří pohybové výkony, porovnává je s výkony přechozími a usiluje o jejich zlepšení.",
+        "quote": "usiluje o jejich zlepšení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Měření výkonu v běhu na 60 m - reflexe",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne ti tréninkový plán a poradí, co zkusit změnit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tréninkové návody a videa ke svému cvičení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Zapisuje tvoje výkony a ukáže, jak se vyvíjejí."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Stopky a metr ukážou, jestli je další pokus lepší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/14db3283-8b66-4649-9192-41defda9c33e",
+      "http://data.europa.eu/esco/skill/de1d76d0-6fa2-488f-a65a-007c22384ba2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

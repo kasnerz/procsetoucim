@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Než začneš cokoli zapisovat do tabulky, musíš vědět, na co ji budeš potřebovat. Kdo eviduje půjčené knihy ve třídní knihovničce, chce na konci zjistit, kdo má kterou knihu a od kdy, a podle toho vybírá, jaké údaje sbírat. Stejnou úvahu dělají lidé, kteří navrhují databáze pro firmy a úřady, a míst v této práci spíš přibude. Chatbot ti k zadání nabídne seznam údajů, ale jen ty víš, na jaké otázky má evidence odpovídat, a podle toho poznáš, co v jeho návrhu chybí a co je navíc.",
+  "learnWithAi": [
+    {
+      "title": "Zadání od vedení kroužku",
+      "text": "Požádej chatbota, ať hraje roli někoho, kdo vede sportovní kroužek a chce evidovat docházku. Vyptej se na jeho potřeby a sepiš, jaké údaje bude evidence sbírat."
+    },
+    {
+      "title": "Dva návrhy vedle sebe",
+      "text": "Navrhni na papír, jaké údaje má evidence obsahovat, a teprve potom si nech od chatbota udělat vlastní návrh. U každého rozdílu rozhodni, který návrh líp odpovídá zadání."
+    },
+    {
+      "title": "Výstupy, které má evidence dát",
+      "text": "Napiš chatbotovi otázky, na které má tvoje evidence odpovídat, a seznam sloupců. Ať ti řekne, na kterou otázku z tvých údajů odpověď nezjistíš."
+    }
+  ]
+}

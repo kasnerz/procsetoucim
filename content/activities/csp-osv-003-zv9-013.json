@@ -1,0 +1,702 @@
+[
+  {
+    "slug": "kariera-otevrene-moznosti",
+    "title": "Vzdělání a práce, které jsou ti otevřené",
+    "aliases": [
+      "kam po deváté třídě",
+      "jaké mám možnosti",
+      "střední školy a práce",
+      "co můžu dělat po škole"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpoznává na příkladech vzdělávací a pracovní příležitosti, které jsou mu otevřené.",
+        "quote": "Rozpoznává na příkladech vzdělávací a pracovní příležitosti, které jsou mu otevřené."
+      },
+      {
+        "level": "Splněno",
+        "point": "Rozpoznává širokou škálu vzdělávacích a pracovních příležitostí, které jsou mu otevřené (např. druhy a úrovně formálního vzdělávání, možnosti neformálního učení, druhy povolání, porovnání zaměstnání a podnikání).",
+        "quote": "Rozpoznává širokou škálu vzdělávacích a pracovních příležitostí, které jsou mu otevřené"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Den otevřených dveří",
+        "url": "https://uloziste.rvp.cz/material/474927"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se liší druhy škol a jaké jsou možnosti po základce."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš přehledy oborů, škol a povolání s popisem práce."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Portály s nabídkou škol a oborů umí filtrovat podle města i zaměření."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír ti možnosti nenabídnou, vybrat si musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d",
+      "http://data.europa.eu/esco/skill/d9a3cb06-d6e0-4a64-88a6-9a8e11a99c93"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-druhy-vzdelavani",
+    "title": "Druhy a úrovně vzdělávání a neformální učení",
+    "aliases": [
+      "typy škol",
+      "střední škola a učiliště",
+      "kurzy a zájmové učení",
+      "gymnázium nebo učební obor"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpoznává širokou škálu vzdělávacích a pracovních příležitostí, které jsou mu otevřené (např. druhy a úrovně formálního vzdělávání, možnosti neformálního učení, druhy povolání, porovnání zaměstnání a podnikání).",
+        "quote": "druhy a úrovně formálního vzdělávání, možnosti neformálního učení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Srovná gymnázium, obor s maturitou a učební obor a vysvětlí, co které dává."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na stránkách škol a ministerstva najdeš popis typů studia."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s přehledem škol ti nesdělí, co ti sedí a jak se učit mimo školu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kurz nebo kroužek si musíš vyzkoušet, žádný nástroj ho za tebe neprojde."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f7940b22-764a-43f0-9642-f60f5897109b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-zamestnani-a-podnikani",
+    "title": "Zaměstnání a podnikání vedle sebe",
+    "aliases": [
+      "zaměstnanec nebo podnikatel",
+      "živnost",
+      "práce na smlouvu",
+      "vlastní firma"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpoznává širokou škálu vzdělávacích a pracovních příležitostí, které jsou mu otevřené (např. druhy a úrovně formálního vzdělávání, možnosti neformálního učení, druhy povolání, porovnání zaměstnání a podnikání).",
+        "quote": "porovnání zaměstnání a podnikání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vypíše výhody a rizika práce ve firmě i vlastního podnikání a ptá se na tvoje priority."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis živnosti, smlouvy i příběhy lidí, kteří podnikají."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace na fakturaci ukáže práci podnikatele, o tvé volbě nerozhodne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papír a tužka ti pomůžou nanejvýš sepsat plusy a minusy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-druhy-povolani",
+    "title": "Druhy povolání a co lidé v práci dělají",
+    "aliases": [
+      "jaká jsou povolání",
+      "profese",
+      "co dělá…",
+      "pracovní činnosti"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpoznává širokou škálu vzdělávacích a pracovních příležitostí, které jsou mu otevřené (např. druhy a úrovně formálního vzdělávání, možnosti neformálního učení, druhy povolání, porovnání zaměstnání a podnikání).",
+        "quote": "druhy povolání"
+      },
+      {
+        "level": "Na začátku",
+        "point": "zkouší popsat vybrané druhy pracovních činností a své preference",
+        "quote": "zkouší popsat vybrané druhy pracovních činností a své preference"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Popíše pracovní den v různých povoláních a zeptá se, co by tě bavilo."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Katalogy povolání ukazují, co člověk dělá, a často i jaké škole se věnoval."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace a testy zájmů navrhnou obory, ke kterým se hodíš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Preference poznáš z vlastní zkušenosti, ne z nástroje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d",
+      "http://data.europa.eu/esco/skill/d9a3cb06-d6e0-4a64-88a6-9a8e11a99c93"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-silne-stranky",
+    "title": "Moje silné stránky a co zlepšit",
+    "aliases": [
+      "v čem jsem dobrý",
+      "slabé a silné stránky",
+      "moje dovednosti",
+      "sebepoznání"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "na základě svých zkušeností pojmenuje své silné stránky, příležitosti k rozvoji",
+        "quote": "na základě svých zkušeností pojmenuje své silné stránky, příležitosti k rozvoji"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti najít slova pro to, co ti jde, když mu popíšeš, co děláš."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Obecné popisy silných stránek nevědí nic o tobě."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Dotazník nebo deník úspěchů ti pomůže si vzpomenout, co se ti dařilo."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pojmenovat své silné stránky můžeš jen ty, z vlastní zkušenosti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f7940b22-764a-43f0-9642-f60f5897109b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-rozvoj-zajmu",
+    "title": "Kroky k rozvoji mých zájmů",
+    "aliases": [
+      "jak se zlepšit v koníčku",
+      "plán na zájmy",
+      "kroužky a kurzy",
+      "co dál se svým zájmem"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "plánuje kroky k rozvoji svých zájmů",
+        "quote": "plánuje kroky k rozvoji svých zájmů"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozdělí zájem na menší kroky a navrhne, co zkusit jako první."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš kroužky, kurzy, videa a soutěže pro svůj zájem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalendář nebo aplikace na úkoly hlídá, které kroky už jsou hotové."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Sešit s plánem a odškrtávacím seznamem ti kroky připomíná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f7940b22-764a-43f0-9642-f60f5897109b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-jak-se-rozhoduji",
+    "title": "Co mi usnadňuje rozhodování",
+    "aliases": [
+      "jak se rozhoduju",
+      "kdo mi radí",
+      "nejistota a náhoda",
+      "těžké rozhodnutí"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "ze své zkušenosti popíše, co usnadňuje rozhodování v běžných životních situacích (kdo je zapojený do rozhodování, kdo mu pomáhá, jaké využívá strategie, jak pracuje se změnou, náhodou a nejistotou)",
+        "quote": "ze své zkušenosti popíše, co usnadňuje rozhodování v běžných životních situacích"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže postupy rozhodování, třeba plusy a minusy nebo řazení podle důležitosti."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis metod rozhodování a rady, jak zvládat nejistotu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti nepoví, kdo ti při rozhodování pomáhá a co funguje u tebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zkušenost s vlastním rozhodováním mít musíš ty, žádný nástroj ji nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-dovednosti-pro-povolani",
+    "title": "Dovednosti, které potřebuješ pro vysněné povolání",
+    "aliases": [
+      "práce snů",
+      "co se musím naučit",
+      "jaké školy a dovednosti",
+      "jak se tam dostat"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozpoznává dovednosti a vědomosti, které budou pro jeho představu o budoucím povolání klíčové, a reflektuje jak se zaměřuje na jejich rozvoj",
+        "quote": "rozpoznává dovednosti a vědomosti, které budou pro jeho představu o budoucím povolání klíčové"
+      },
+      {
+        "level": "Splněno",
+        "point": "Posuzuje vztah mezi rozvojem svých dovedností a představou o kariérové cestě.",
+        "quote": "Posuzuje vztah mezi rozvojem svých dovedností a představou o kariérové cestě."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Práce snů",
+        "url": "https://uloziste.rvp.cz/material/5b428e"
+      },
+      {
+        "title": "Výběr směru podle znalostí a předpokladů",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vypíše dovednosti, které se v oboru hodí, a navrhne, jak je začít trénovat."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Popisy povolání uvádějí potřebné dovednosti a vzdělání."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Databáze povolání ukáže požadavky na dovednosti a související obory."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dovednosti si procvičuješ ty, žádný nástroj to neudělá za tebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d",
+      "http://data.europa.eu/esco/skill/a7e78a0b-aec1-45fb-8f86-d1b4ab1f9c69"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-zdroje-informaci",
+    "title": "Hledání zdrojů o školách a práci",
+    "aliases": [
+      "kde najít informace o školách",
+      "úřad práce",
+      "portál o povoláních",
+      "jak poznat dobrý zdroj"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "diskutuje, jak na základě vlastních priorit nalezl vybrané relevantní zdroje k vzdělávacím a pracovním příležitostem",
+        "quote": "diskutuje, jak na základě vlastních priorit nalezl vybrané relevantní zdroje k vzdělávacím a pracovním příležitostem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, kde hledat, ale odkazy a čísla si ověř, může si je vymýšlet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač, stránky škol a portály o povoláních dají aktuální údaje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Portály s přehledem škol a pracovních nabídek ukážou, co se opravdu nabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zdroje podle svých priorit musíš vybrat a porovnat ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/38a5c459-c591-4f76-a358-37de342bb11d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-vlivy-na-rozhodovani",
+    "title": "Vlivy na rozhodování o budoucnosti",
+    "aliases": [
+      "rodina a kamarádi radí",
+      "co ovlivňuje výběr školy",
+      "tlak okolí",
+      "kdo mi ovlivňuje volbu"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "seznamuje se s různými vlivy na kariérové rozhodování",
+        "quote": "seznamuje se s různými vlivy na kariérové rozhodování"
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelových situacích se rozhoduje, jaké příležitosti využije pro svou preferovanou budoucnost, a kriticky zhodnotí vlivy na svoje rozhodování (rodiny, komunity, společnosti atd.).",
+        "quote": "kriticky zhodnotí vlivy na svoje rozhodování (rodiny, komunity, společnosti atd.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Rodkomen vzdělání a povolání v rodině",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak rodina, vrstevníci nebo trh práce volbu ovlivňují."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš texty o tom, co ovlivňuje volbu povolání."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepozná, kdo a jak ovlivňuje právě tebe."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozhovor s rodinou a kamarády vede ty, nástroj ho nenahradí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-posuzovani-prilezitosti",
+    "title": "Posuzování příležitostí podle mých priorit",
+    "aliases": [
+      "co si vybrat",
+      "porovnání škol",
+      "výhody a nevýhody oboru",
+      "můj žebříček důležitého"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zkouší si posuzovat kariérové příležitosti z ohledem na vlastní priority a úroveň rozvoje relevantních kompetencí",
+        "quote": "zkouší si posuzovat kariérové příležitosti z ohledem na vlastní priority a úroveň rozvoje relevantních kompetencí"
+      },
+      {
+        "level": "Splněno",
+        "point": "V modelových situacích se rozhoduje, jaké příležitosti využije pro svou preferovanou budoucnost, a kriticky zhodnotí vlivy na svoje rozhodování (rodiny, komunity, společnosti atd.).",
+        "quote": "V modelových situacích se rozhoduje, jaké příležitosti využije pro svou preferovanou budoucnost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "V modelové situaci porovná dvě možnosti podle tvých kritérií."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky škol a oborů ti dají údaje pro srovnání."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka v tabulkovém programu srovná možnosti podle bodů."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová tabulka s kritérii a body ti pomůže možnosti seřadit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-omezeni-a-stereotypy",
+    "title": "Překonávání omezení a stereotypů",
+    "aliases": [
+      "stereotypy v povoláních",
+      "muži a ženy v práci",
+      "handicap a práce",
+      "co mi brání"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "v modelových situacích získává zkušenost s možnostmi překonání různých omezení a stereotypů",
+        "quote": "v modelových situacích získává zkušenost s možnostmi překonání různých omezení a stereotypů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Reflektuje své horizonty a jejich rozšiřování (představy o vlastních možnostech a limitech v dalším vzdělávání a světě práce, možná znevýhodnění, stereotypy atd.).",
+        "quote": "Reflektuje své horizonty a jejich rozšiřování"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Hraje s tebou modelovou situaci a hledá cesty, jak překážku obejít."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš příběhy lidí, kteří dělají povolání proti stereotypu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace modelovou situaci nezažije a tvé představy o limitech nezmění."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Překážky a stereotypy řešíš v hovoru s lidmi, ne s nástrojem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "kariera-planovani",
+    "title": "Kariérový plán a jeho úpravy",
+    "aliases": [
+      "plán na budoucnost",
+      "kam chci jít",
+      "pracovní list plán",
+      "upravit plán"
+    ],
+    "outcome": "CSP-OSV-003-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Sestavuje si kariérový plán s využitím relevantních zdrojů ke vzdělávacím a pracovním příležitostem, s reflexí svých hodnot a možností (dovedností, silných stránek, omezení apod.), kariérový plán průběžně upravuje na základě reflexe vlastních priorit.",
+        "quote": "Sestavuje si kariérový plán s využitím relevantních zdrojů ke vzdělávacím a pracovním příležitostem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Zpracování kariérového plánu na základě struktury v pracovním listu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže plán rozepsat do kroků a navrhne otázky, které si klást při úpravách."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdroje o školách a práci dodají údaje, na kterých plán stavíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalendář nebo aplikace na plánování hlídá termíny přihlášek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pracovní list a tužka ti plán přehledně zapíšou a půjde ho přepsat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/089af6fe-a65e-4271-a232-b2d97ba6f43a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

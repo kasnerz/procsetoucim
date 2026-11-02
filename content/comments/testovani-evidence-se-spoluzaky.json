@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Kdo tabulku navrhl, přesně ví, co kam patří, a proto si chyb v ní často nevšimne. Spolužák, který ji vidí poprvé, napíše datum jinak, nenajde správný sloupec nebo zapíše něco, s čím nikdo nepočítal, a tím ukáže, co je potřeba změnit. Na tom stojí práce lidí, kteří testují software a jeho použitelnost: dívají se, kde se běžný uživatel zasekne, a navrhují úpravy. Chatbot ti pomůže připravit otázky a roztřídit připomínky, ale jak se v evidenci vyznají skuteční lidé, zjistíš jen od nich.",
+  "learnWithAi": [
+    {
+      "title": "Generálka před testem",
+      "text": "Před testem se spolužáky popiš chatbotovi svou evidenci a ať hraje někoho, kdo ji vidí poprvé a ptá se na všechno, čemu nerozumí. Z jeho otázek poznáš, co upravit dřív, než ji dáš ostatním."
+    },
+    {
+      "title": "Úkoly pro zkušební kolo",
+      "text": "Nech chatbota navrhnout pět úkolů, které spolužáci v tvé evidenci splní, třeba zapsat nový záznam nebo najít jeden údaj. Uprav je, aby seděly na tvou tabulku."
+    },
+    {
+      "title": "Třídění připomínek",
+      "text": "Sepiš všechno, co spolužáci při testu řekli nebo kde se zasekli, a dej to chatbotovi roztřídit podle vážnosti. O pořadí oprav ale rozhodni podle vlastního úsudku."
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+[
+  {
+    "slug": "vyznam-informacnich-systemu-ve-spolecnosti",
+    "title": "Význam informačních systémů ve společnosti",
+    "aliases": [
+      "k čemu jsou informační systémy",
+      "informační systémy ve společnosti",
+      "e-shop, banka, nemocnice",
+      "proč se používají"
+    ],
+    "outcome": "INF-INF-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí význam informačních systémů ve společnosti.",
+        "quote": "Vysvětlí význam informačních systémů ve společnosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co systémy ve společnosti řeší, a doplní příklady k tvému výkladu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš články a příklady systémů z bank, úřadů nebo zdravotnictví."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádný program ti význam systémů ve společnosti nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kalkulačka ani pravítko k tomuhle tématu nic nenabídnou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e",
+      "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "role-uzivatelu-a-jejich-potreby",
+    "title": "Role uživatelů a jejich potřeby",
+    "aliases": [
+      "kdo systém používá",
+      "žák, učitel, rodič, správce",
+      "role v informačním systému",
+      "co kdo v systému dělá"
+    ],
+    "outcome": "INF-INF-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozlišuje různé role uživatelů informačního systému, uvede příklady činností, které v IS vykonávají, popíše potřeby, které jim systém pomáhá řešit, zformuluje účel systému jako celku.",
+        "quote": "Rozlišuje různé role uživatelů informačního systému, uvede příklady činností, které v IS vykonávají, popíše potřeby, které jim systém pomáhá řešit"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozlišuje skupiny uživatelů informačního systému (např. žák, učitel, třídní učitel, zákonný zástupce, vedení školy, správce systému), uvede příklady činností, které v IS vykonávají, popíše potřeby, které jim systém pomáhá řešit, zformuluje účel systému jako celku.",
+        "quote": "Rozlišuje skupiny uživatelů informačního systému (např. žák, učitel, třídní učitel, zákonný zástupce, vedení školy, správce systému), uvede příklady činností, které v IS vykonávají, popíše potřeby, které jim systém pomáhá řešit"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše informační systém - funkce pro různé uživatele a jejich potřeby.",
+        "quote": "Popíše informační systém - funkce pro různé uživatele a jejich potřeby."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Analýza uživatelů informačního systému školy",
+        "url": "https://uloziste.rvp.cz/material/7e2c9f"
+      },
+      {
+        "title": "Informační systém školy, úlohy, role a práva",
+        "url": "https://uloziste.rvp.cz/material/cfc8d5"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ptáš se ho na role a jejich potřeby a porovnáš to s tím, co vymyslíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popisy školních systémů a uživatelské příručky s rolemi."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Role v systému své školy poznáš jen tím, že si ho projdeš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tabulka na papíře ti pomůže seřadit role, činnosti a potřeby."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e",
+      "http://data.europa.eu/esco/skill/ed5bbc64-7017-4e2e-b44e-65df88013a84"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ucel-informacniho-systemu-jako-celku",
+    "title": "Účel informačního systému jako celku",
+    "aliases": [
+      "k čemu systém slouží",
+      "účel systému",
+      "cíl informačního systému",
+      "shrnutí funkcí"
+    ],
+    "outcome": "INF-INF-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozlišuje různé role uživatelů informačního systému, uvede příklady činností, které v IS vykonávají, popíše potřeby, které jim systém pomáhá řešit, zformuluje účel systému jako celku.",
+        "quote": "zformuluje účel systému jako celku"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozlišuje skupiny uživatelů informačního systému (např. žák, učitel, třídní učitel, zákonný zástupce, vedení školy, správce systému), uvede příklady činností, které v IS vykonávají, popíše potřeby, které jim systém pomáhá řešit, zformuluje účel systému jako celku.",
+        "quote": "zformuluje účel systému jako celku"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti příklady, jak se účel systému napíše jednou větou, a ty svoji větu porovnáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukáže popisy účelu skutečných systémů, třeba školních nebo knihovních."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Účel systému shrneš ty, žádný program za tebe větu nevymyslí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nic z klasických nástrojů účel systému neurčí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "data-v-informacnim-systemu-a-datove-typy",
+    "title": "Data v informačním systému a datové typy",
+    "aliases": [
+      "jaká data systém ukládá",
+      "datové typy",
+      "text, číslo, datum",
+      "co je v databázi"
+    ],
+    "outcome": "INF-INF-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpozná, jaká data vybraný IS ukládá, rozlišuje základní datové typy a jaká práva ke kterým datům mají jednotliví uživatelé IS.",
+        "quote": "Rozpozná, jaká data vybraný IS ukládá, rozlišuje základní datové typy"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Rozpozná, jaká data vybraný IS ukládá, rozlišuje základní datové typy.",
+        "quote": "Rozpozná, jaká data vybraný IS ukládá, rozlišuje základní datové typy."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popíše funkce informačního systému a typy dat, se kterými pracují.",
+        "quote": "Popíše funkce informačního systému a typy dat, se kterými pracují."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co víš o datech ve školním systému?",
+        "url": "https://uloziste.rvp.cz/material/21aad1"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi textem, číslem a datem a opraví tvé zařazení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš výklad datových typů s příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulka v tabulkovém procesoru ti ukáže typ dat u každého sloupce."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj ti datový typ neurčí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1",
+      "http://data.europa.eu/esco/skill/43ae58b9-5e56-4524-b45a-b422777a0576"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prava-uzivatelu-k-datum",
+    "title": "Práva uživatelů k datům",
+    "aliases": [
+      "kdo smí co vidět",
+      "oprávnění v systému",
+      "kdo může měnit známky",
+      "přístupová práva"
+    ],
+    "outcome": "INF-INF-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpozná, jaká data vybraný IS ukládá, rozlišuje základní datové typy a jaká práva ke kterým datům mají jednotliví uživatelé IS.",
+        "quote": "a jaká práva ke kterým datům mají jednotliví uživatelé IS"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Informační systém školy, úlohy, role a práva",
+        "url": "https://uloziste.rvp.cz/material/cfc8d5"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže na příkladech, kdo co smí číst a měnit, a ty zkusíš práva přiřadit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš informace o ochraně osobních údajů a přístupu k nim."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Práva ve svém školním systému nezjistíš v aplikaci mimo něj."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj k oprávněním nic neřekne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2a3a96a3-709e-4d60-81f6-d247d6933f13",
+      "http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "uzivatelske-rozhrani-prehlednost-napoveda",
+    "title": "Uživatelské rozhraní: přehlednost a nápověda",
+    "aliases": [
+      "je systém přehledný",
+      "použitelnost",
+      "nápověda v aplikaci",
+      "ovládání systému"
+    ],
+    "outcome": "INF-INF-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zkoumá uživatelské rozhraní IS, hodnotí jeho přehlednost a použitelnost, nápovědu a podporu uživatele.",
+        "quote": "Zkoumá uživatelské rozhraní IS, hodnotí jeho přehlednost a použitelnost, nápovědu a podporu uživatele."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Dá ti kritéria přehlednosti, podle kterých rozhraní ty posoudíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš zásady dobrého ovládání a příklady špatných rozhraní."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rozhraní musíš vyzkoušet na vlastní obrazovce, hodnotí ho tvoje zkušenost."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj přehlednost obrazovky neposoudí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hodnoceni-uzitecnosti-systemu",
+    "title": "Hodnocení užitečnosti, výhod a nevýhod",
+    "aliases": [
+      "je systém užitečný",
+      "výhody a nevýhody",
+      "kritéria užitečnosti",
+      "k čemu je systém dobrý"
+    ],
+    "outcome": "INF-INF-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vysvětlí informační systém z pohledu různých uživatelů. Zhodnotí užitečnost informačního systému, jeho výhody a nevýhody.",
+        "quote": "Zhodnotí užitečnost informačního systému, jeho výhody a nevýhody."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Seznamuje se s předem zpracovanými příklady informačních systémů, aby porozuměl, co vše zahrnuje informační systém a jak vypadají možná kritéria jeho účelnosti a užitečnosti.",
+        "quote": "aby porozuměl, co vše zahrnuje informační systém a jak vypadají možná kritéria jeho účelnosti a užitečnosti"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne kritéria užitečnosti a ty podle nich systém posoudíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Dá ti hotové příklady zpracovaných systémů a recenze."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Užitečnost pro uživatele posoudíš ty, žádná aplikace to nespočítá."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírová tabulka výhod a nevýhod ti pomůže srovnat pohledy uživatelů."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e",
+      "http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "problemy-uzivatelu-systemu-a-reseni",
+    "title": "Problémy uživatelů a návrh řešení",
+    "aliases": [
+      "co může jít špatně",
+      "chyby v systému",
+      "zapomenuté heslo",
+      "návrh vylepšení"
+    ],
+    "outcome": "INF-INF-003-ZV9-009",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zkoumá situace, které mohou uživatelé systému zažít, odhadne potenciální problémy a navrhne možná řešení.",
+        "quote": "Zkoumá situace, které mohou uživatelé systému zažít, odhadne potenciální problémy a navrhne možná řešení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí další situace a řešení, ty je porovnáš s vlastními nápady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš časté problémy systémů a rady k nim."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Problémy a řešení vymýšlíš ty, aplikace je za tebe neodhadne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj problémy v systému neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ed5bbc64-7017-4e2e-b44e-65df88013a84",
+      "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

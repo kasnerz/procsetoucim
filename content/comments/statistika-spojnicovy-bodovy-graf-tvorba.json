@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Při kreslení grafu se musíš rozhodnout, co dát na kterou osu, jak zvolit měřítko a kde osu začít, aby se body vešly a graf nelhal. Program tyhle volby udělá automaticky, ale ne vždy dobře, a kdo umí osy nakreslit ručně, pozná, že useknutá osa dělá z malé změny velký skok. Datoví analytici nebo lidé v logistice kreslí grafy na počítači, rozhodnutí o osách a měřítku ale dělají oni. Když jednou nakreslíš graf z vlastního měření, snáz pak poznáš, jestli graf od programu ukazuje data poctivě.",
+  "learnWithAi": [
+    {
+      "title": "Volba os a měřítka",
+      "text": "Ať ti chatbot dá tabulku dvou veličin, třeba věku stromů a obvodu kmene. Rozhodni, co patří na kterou osu a jaké měřítko zvolíš, a teprve potom se ho zeptej na jeho návrh."
+    },
+    {
+      "title": "Týden venkovní teploty",
+      "text": "Měř týden každý večer venkovní teplotu a zakresli ji do spojnicového grafu. Pošli hodnoty i fotku grafu chatbotu a zeptej se, jestli se k tvým datům zvolené měřítko hodí."
+    },
+    {
+      "title": "Poctivá a useknutá osa",
+      "text": "Nakresli stejná data dvakrát, jednou s osou od nuly a jednou useknutou. Popiš chatbotu, jaký dojem který graf budí, a nech si vysvětlit, kdy je která volba poctivá."
+    }
+  ]
+}

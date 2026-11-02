@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stačí, aby do kavárny přišel jeden milionář, a průměrný příjem hostů prudce vyskočí, i když nikomu z ostatních nepřibyla ani koruna. Medián se přitom skoro nepohne, protože ho zajímá jen pořadí hodnot. Kdo to chápe, nenechá se nachytat na čísla ve zprávách a v datech si všimne podezřelé hodnoty, třeba výšky zapsané v milimetrech místo v centimetrech. S odlehlými hodnotami pracují každý den lidé, kteří počítají pojištění, sledují klima nebo radí s financemi. Tabulka ti po změně jednoho čísla hned ukáže nový výsledek, ale jestli tu hodnotu v datech nechat, musíš posoudit ty.",
+  "learnWithAi": [
+    {
+      "title": "Odhad před výpočtem",
+      "text": "Napiš chatbotovi deset čísel a požádej ho, ať k nim přidá jednu extrémní hodnotu. Než cokoli spočítáš, odhadni, jak se pohne průměr a jak medián, a pak odhad ověř výpočtem."
+    },
+    {
+      "title": "Vysvětlení na platech ve firmě",
+      "text": "Když ti není jasné, proč medián na extrém skoro nereaguje, nech si to ukázat na platech v malé firmě. Vysvětli to pak vlastními slovy a chatbot ať posoudí, jestli to sedí."
+    },
+    {
+      "title": "Nesmyslný údaj v tabulce",
+      "text": "Vyžádej si od chatbota tabulku naměřených hodnot, ve které je schovaný jeden nesmyslný údaj. Najdi ho, rozhodni, jestli ho vyřadit, a spočítej, jak se tím změní průměr i medián."
+    }
+  ]
+}

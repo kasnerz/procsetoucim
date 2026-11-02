@@ -1,0 +1,702 @@
+[
+  {
+    "slug": "sledovani-porozumeni",
+    "title": "Sledování, zda čtenému rozumíš",
+    "aliases": [
+      "rozumím textu",
+      "nerozumím čtenému",
+      "kontrola porozumění",
+      "co jsem přečetl",
+      "strategie čtení"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "kontroluje, zda čtenému rozumí, či ne,",
+        "quote": "kontroluje, zda čtenému rozumí, či ne"
+      },
+      {
+        "level": "Na cestě",
+        "point": "sleduje, zda textu rozumí, a pokouší se objasnit části textu, kterým nerozumí, klade různě složité otázky a hledá na ně v textech odpovědi, předvídá, jak text (beletristický i naučný) bude dále pokračovat, popíše své představy plynoucí z přečteného, hledá a nalézá souvislosti mezi různými texty i vlastními zkušenostmi, odhaluje jednoduché skryté informace.",
+        "quote": "sleduje, zda textu rozumí, a pokouší se objasnit části textu, kterým nerozumí"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vědomě používá základní strategie porozumění textu (sledování vlastního porozumění, předvídání, hledání souvislostí, vizualizace, kladení otázek…).",
+        "quote": "Vědomě používá základní strategie porozumění textu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí místo, kterému nerozumíš, a ty zkusíš říct, co z něj plyne."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovník a encyklopedie objasní neznámá slova a pojmy."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Že textu nerozumíš, poznáš jen ty, aplikace to za tebe nepozná."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník vysvětlí slovo, na kterém se zasekneš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "predvidani-pokracovani-textu",
+    "title": "Předvídání, jak text bude pokračovat",
+    "aliases": [
+      "hádání konce",
+      "co bude dál v textu",
+      "předpověď děje",
+      "tipování pokračování"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "nalézá souvislosti mezi dvěma částmi jednoho textu, klade jednoduché otázky, předvídá, jak bude děj pokračovat dál.",
+        "quote": "předvídá, jak bude děj pokračovat dál"
+      },
+      {
+        "level": "Na cestě",
+        "point": "sleduje, zda textu rozumí, a pokouší se objasnit části textu, kterým nerozumí, klade různě složité otázky a hledá na ně v textech odpovědi, předvídá, jak text (beletristický i naučný) bude dále pokračovat, popíše své představy plynoucí z přečteného, hledá a nalézá souvislosti mezi různými texty i vlastními zkušenostmi, odhaluje jednoduché skryté informace.",
+        "quote": "předvídá, jak text (beletristický i naučný) bude dále pokračovat"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vědomě používá základní strategie porozumění textu (sledování vlastního porozumění, předvídání, hledání souvislostí, vizualizace, kladení otázek…).",
+        "quote": "předvídání"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti po tvém tipu ukáže, podle čeho se dalo pokračování poznat."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové pokračování na internetu by tvůj tip jen nahradilo."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Tipovat umíš jen ty, aplikace tuhle přípravu nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a papír tipování nepomůžou, hádáš z textu v hlavě."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "otazky-a-odpovedi-v-textu",
+    "title": "Otázky k textu a hledání odpovědí",
+    "aliases": [
+      "kladení otázek",
+      "otázky k textu",
+      "odpovědi v textu",
+      "různě složité otázky"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "sleduje, zda textu rozumí, a pokouší se objasnit části textu, kterým nerozumí, klade různě složité otázky a hledá na ně v textech odpovědi, předvídá, jak text (beletristický i naučný) bude dále pokračovat, popíše své představy plynoucí z přečteného, hledá a nalézá souvislosti mezi různými texty i vlastními zkušenostmi, odhaluje jednoduché skryté informace.",
+        "quote": "klade různě složité otázky a hledá na ně v textech odpovědi"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vědomě používá základní strategie porozumění textu (sledování vlastního porozumění, předvídání, hledání souvislostí, vizualizace, kladení otázek…).",
+        "quote": "kladení otázek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti ukáže, jak jednoduchou otázku změnit na složitější, odpověď hledáš ty."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Odpověď na internetu bys jen přepsal ze zdroje, text si neprojdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace odpověď vyhledá za tebe, otázku a hledání v textu nenacvičíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lepicí papírky u textu ti pomůžou zapsat otázky a odpovědi."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "predstavy-pri-cteni",
+    "title": "Představy při čtení",
+    "aliases": [
+      "vizualizace textu",
+      "představit si děj",
+      "obraz v hlavě",
+      "kreslení k textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "sleduje, zda textu rozumí, a pokouší se objasnit části textu, kterým nerozumí, klade různě složité otázky a hledá na ně v textech odpovědi, předvídá, jak text (beletristický i naučný) bude dále pokračovat, popíše své představy plynoucí z přečteného, hledá a nalézá souvislosti mezi různými texty i vlastními zkušenostmi, odhaluje jednoduché skryté informace.",
+        "quote": "popíše své představy plynoucí z přečteného"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vědomě používá základní strategie porozumění textu (sledování vlastního porozumění, předvídání, hledání souvislostí, vizualizace, kladení otázek…).",
+        "quote": "vizualizace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti položí otázky k tvé představě a ty ji upřesníš."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Cizí obrázky z internetu tvou vlastní představu nenahradí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace ti pomůže představu rychle načrtnout."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a papír ti pomůžou představu nakreslit nebo popsat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "souvislosti-mezi-texty-a-zkusenostmi",
+    "title": "Souvislosti v textu, mezi texty a se zkušeností",
+    "aliases": [
+      "propojování textů",
+      "souvislosti v textu",
+      "co mi to připomíná",
+      "vlastní zkušenost a text"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "nalézá souvislosti mezi dvěma částmi jednoho textu, klade jednoduché otázky, předvídá, jak bude děj pokračovat dál.",
+        "quote": "nalézá souvislosti mezi dvěma částmi jednoho textu"
+      },
+      {
+        "level": "Na cestě",
+        "point": "sleduje, zda textu rozumí, a pokouší se objasnit části textu, kterým nerozumí, klade různě složité otázky a hledá na ně v textech odpovědi, předvídá, jak text (beletristický i naučný) bude dále pokračovat, popíše své představy plynoucí z přečteného, hledá a nalézá souvislosti mezi různými texty i vlastními zkušenostmi, odhaluje jednoduché skryté informace.",
+        "quote": "hledá a nalézá souvislosti mezi různými texty i vlastními zkušenostmi"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Vlastní zkušenost máš jen ty, chatbot ji nezná a souvislost za tebe nenajde."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Internet nabídne cizí souvislosti, tvoje zkušenost v nich není."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nepropojí text s tvými vlastními zážitky."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Souvislosti mezi texty a životem hledáš v hlavě ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rychle-prolisteni-textu",
+    "title": "Rychlé pročítání textu při hledání informace",
+    "aliases": [
+      "skenování textu",
+      "rychlé čtení",
+      "najít informaci v textu",
+      "má cenu kliknout na odkaz"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "V případě potřeby text rychle pročítá (skenuje) s cílem rychle vyhledat informaci, popřípadě posoudit, zda bude použitelný (např. zda je užitečné kliknout na odkaz při vyhledávání nebo v článcích).",
+        "quote": "V případě potřeby text rychle pročítá (skenuje)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Postupy a strategie umožňující vnímat, chápat a interpretovat text: Rychlá orientace v textu",
+        "url": "https://uloziste.rvp.cz/material/6825f0"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Chatbot by text shrnul za tebe, rychlé pročítání si tak nenacvičíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Úryvky ve výsledcích hledání ti ukážou, jestli má smysl odkaz otevřít."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Hledání slova na stránce ti ukáže, kde se v textu pohybovat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rychle pročítáš očima ty, papírový nástroj k tomu nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "volba-zpusobu-cteni",
+    "title": "Volba způsobu čtení podle účelu",
+    "aliases": [
+      "hluboké čtení",
+      "rychlé čtení",
+      "skimming",
+      "přehledové čtení",
+      "jak číst text"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Podle účelu svého čtení volí vhodný způsob čtení (hluboké čtení, rychlé čtení); zběžně prohlíží i rozsáhlejší texty, aby o nich získal všeobecný přehled (skimming).",
+        "quote": "Podle účelu svého čtení volí vhodný způsob čtení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl mezi způsoby čtení a poradí, který se hodí k tvému textu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a články o technikách čtení ti ukážou, jak na to."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace způsob čtení nevybere, vybíráš ho ty podle účelu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Způsob čtení volíš ty, klasický nástroj k tomu neexistuje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "orientace-ve-slozenych-textech",
+    "title": "Orientace ve složených a nelineárních textech",
+    "aliases": [
+      "obsah a rejstřík",
+      "infografika",
+      "text s obrázky a tabulkou",
+      "vyhledávání v textu",
+      "orientační prvky"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá orientační prvky a pokročilejší vyhledávací nástroje; orientuje se ve složených komunikátech a v nelineárním textu.",
+        "quote": "Využívá orientační prvky a pokročilejší vyhledávací nástroje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Složený text projdeš očima ty, shrnutí od chatbotu orientaci nenahradí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledávací operátory a rady ti zpřesní hledání na webu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Hledání v dokumentu a v PDF ti rychle najde správné místo."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Obsah a rejstřík v knize ti ukážou, kde hledat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zapisky-k-pochopeni-textu",
+    "title": "Zápisky, které pomáhají pochopit text",
+    "aliases": [
+      "myšlenková mapa",
+      "poznámky na okraj",
+      "nákres k textu",
+      "značky v textu",
+      "zápisky ke čtení"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "využívá různé formy písemných záznamů (např. myšlenkové mapy),",
+        "quote": "využívá různé formy písemných záznamů"
+      },
+      {
+        "level": "Splněno",
+        "point": "Využívá různé formy písemných záznamů k usnadnění pochopení (nákresy, myšlenkové mapy, značky, poznámky na okrajích apod.), vysvětlí, která je pro něj v daném případě nejvhodnější.",
+        "quote": "Využívá různé formy písemných záznamů k usnadnění pochopení"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Zápisky děláš ty, aby sis text zapamatoval a pochopil, chatbot je nenapíše za tebe."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzory myšlenkových map ti ukážou, jak může zápis vypadat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na myšlenkové mapy ti pomůže zápis uspořádat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka, papír a lepicí papírky jsou základ poznámek na okraji."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zamer-autora-a-adresat",
+    "title": "Záměr autora a komu je text určen",
+    "aliases": [
+      "proč to autor napsal",
+      "adresát textu",
+      "komu je text určen",
+      "záměr textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Odhalí záměr autora a možného adresáta.",
+        "quote": "Odhalí záměr autora a možného adresáta"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, podle čeho se záměr pozná, třeba podle tónu a výběru slov."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Informace o autorovi a vydavateli napoví, komu text patří."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace záměr autora v textu neodhalí, hledáš ho ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Záměr autora čteš z textu ty, klasický nástroj k tomu není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "skryte-a-neprime-informace",
+    "title": "Skryté a nepřímo sdělené informace v textu",
+    "aliases": [
+      "čtení mezi řádky",
+      "skrytý význam",
+      "interpretace textu",
+      "co autor myslel"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "sleduje, zda textu rozumí, a pokouší se objasnit části textu, kterým nerozumí, klade různě složité otázky a hledá na ně v textech odpovědi, předvídá, jak text (beletristický i naučný) bude dále pokračovat, popíše své představy plynoucí z přečteného, hledá a nalézá souvislosti mezi různými texty i vlastními zkušenostmi, odhaluje jednoduché skryté informace.",
+        "quote": "odhaluje jednoduché skryté informace"
+      },
+      {
+        "level": "Splněno",
+        "point": "Na základě získaných informací a využitých strategií rozumí textu, vyvodí nepřímo sdělené informace a dokáže ho interpretovat.",
+        "quote": "vyvodí nepřímo sdělené informace a dokáže ho interpretovat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti k úryvku položí otázky, které vedou k nepřímému sdělení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rozbory a výklady děl ti ukážou, jak se text interpretuje."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace skrytý význam nenajde, vyvozuješ ho ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Skryté informace v textu odhalíš jen svou hlavou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff862044-d49e-4417-bf65-1ae2c0a47e5a",
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-textu-podle-ucelu",
+    "title": "Výběr textu podle účelu čtení",
+    "aliases": [
+      "jakou knihu si vybrat",
+      "výběr zdroje",
+      "vhodný text",
+      "jak najít vhodný text"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vybírá texty, které jsou vhodné pro daný účel,",
+        "quote": "vybírá texty, které jsou vhodné pro daný účel"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti poradí, jaké druhy textů se hodí pro tvůj účel."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vyhledávač a encyklopedie ti nabídnou texty k tématu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Online katalog knihovny ti ukáže knihy k tématu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Knihovna a anotace na obalu knihy ti pomůžou vybrat."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/7287dff1-7420-4d24-939a-5f4eb15b752b",
+      "http://data.europa.eu/esco/skill/f8d30e1d-baa7-4d35-b9f4-df7e1650396e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hlavni-informace-z-textu",
+    "title": "Hlavní informace z textu a jejich převyprávění",
+    "aliases": [
+      "shrnutí textu",
+      "hlavní myšlenka",
+      "stručný obsah",
+      "převyprávění"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "vybírá nejdůležitější informace z beletristického, básnického, naučného i publicistického textu a stručně je sdělí ostatním,",
+        "quote": "vybírá nejdůležitější informace z beletristického, básnického, naučného i publicistického textu a stručně je sdělí ostatním"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot zkontroluje, jestli tvoje shrnutí nic důležitého nevynechalo."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Hotové shrnutí z internetu bys jen opsal, hlavní myšlenku nenajdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace shrne text za tebe, ty se vybírat a vyprávět nenaučíš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zvýrazňovač ti pomůže označit to nejdůležitější."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

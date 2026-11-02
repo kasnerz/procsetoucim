@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Průměr zná skoro každý, jenže když se v číslech objeví pár extrémů, přestane popisovat to běžné. Medián je prostřední hodnota seřazených čísel a modus ta, která se opakuje nejčastěji, třeba velikost bot, kterou obchod prodá nejvíc. Potkáš je ve zprávách o mzdách nebo ve výsledcích průzkumů. Práce s takovými čísly patří k povolání zhruba 2,6 % lidí, kteří v Česku pracují, hlavně ve statistice, ve výzkumu trhu a při zkoumání obyvatelstva. Tabulkový program obě hodnoty spočítá hned, ale jestli dávají smysl, poznáš, jen když víš, co znamenají.",
+  "learnWithAi": [
+    {
+      "title": "Krátké soubory ke kontrole",
+      "text": "Požádej chatbota o pět krátkých souborů čísel, třeba známky nebo výšky spolužáků. Medián a modus urči na papíře a teprve potom mu výsledky pošli ke kontrole."
+    },
+    {
+      "title": "Medián při sudém počtu hodnot",
+      "text": "Nech si na jednom příkladu jednoduše vysvětlit, jak najít medián, když je hodnot sudý počet. Hned potom vymysli vlastní soubor a spočítej ho bez nápovědy."
+    },
+    {
+      "title": "Úloha z prodejny bot",
+      "text": "Chtěj po chatbotovi slovní úlohu z prodejny bot, ve které se ptá na průměr, medián i modus. Vyřeš ji a zdůvodni, které z těch čísel se hodí při objednávání nového zboží."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "outcome": "MAT-MAT-004-ZV9-011",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "čte a vytvoří grafický záznam souboru dat (tabulky, grafy, schémata, Vennovy diagramy pro dvě i tři množiny)",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "statistika-cteni-grafu-tabulek",
+          "statistika-kresleni-grafu-tabulek"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "získá informace z organizovaného souboru dat pro řešení problémů",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "statistika-informace-z-dat-problemy"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "organizuje soubor dat podle vhodného organizačního principu a graficky je prezentuje",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "statistika-kresleni-grafu-tabulek"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "získá informace z organizovaného souboru dat",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "statistika-informace-z-dat-problemy"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Získá data ze sloupcového, kruhového a Vennova diagramu a ze spojnicových grafů a bodových grafů.",
+      "cards": [
+        "statistika-kruhovy-diagram-cteni",
+        "statistika-spojnicovy-graf-cteni",
+        "statistika-bodovy-graf-cteni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uspořádá data a sestrojí sloupcové, kruhové diagramy a Vennovy diagramy, spojnicové a bodové grafy (i se SW podporou).",
+      "cards": [
+        "statistika-kruhovy-diagram-tvorba",
+        "statistika-spojnicovy-bodovy-graf-tvorba",
+        "statistika-graf-v-tabulkovem-procesoru"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše vztahy v rámci zobrazení dat.",
+      "cards": [
+        "statistika-popis-vztahu-v-datech"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy z reálného života s využitím získaných dat.",
+      "cards": [
+        "statistika-ulohy-z-realneho-zivota"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Interpretuje a vytváří data v tabulce, sloupcovým, příp. výsečovým diagramem.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "statistika-cteni-grafu-tabulek",
+          "statistika-kresleni-grafu-tabulek"
+        ]
+      }
+    }
+  ]
+}

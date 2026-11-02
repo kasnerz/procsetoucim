@@ -1,0 +1,454 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-024",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "obdobi-lidskeho-zivota",
+      "title": "Období lidského života a členové rodiny",
+      "aliases": [
+        "dětství a stáří",
+        "etapy života",
+        "dospívání a dospělost",
+        "členové rodiny podle věku",
+        "babička a dědeček"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Pojmenuje jednotlivé etapy lidského života."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Pojmenuje členy rodiny, seřadí členy rodiny podle věku."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "S využitím obrazového materiálu rozlišuje a popisuje období lidského života."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Popisuje období lidského života - dětství, dospívání, dospělost, stáří."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Charakterizuje jednotlivá období lidského života."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se dětství, dospívání, dospělost a stáří liší, a zeptá se tě na příklady z rodiny."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a obrázky ukazují, jak vypadají jednotlivá období života."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti období života nepopíše, přemýšlet o rodině musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný jednoduchý nástroj ti členy rodiny podle věku neseřadí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/868fc91a-f988-48e2-81e5-33e1b3de0ac2",
+        "http://data.europa.eu/esco/skill/ad649b0b-ced2-48b6-be0a-0c35e07a445f"
+      ],
+      "inspiration": [
+        "Zdraví v každém věku",
+        "Kdo to je?"
+      ]
+    },
+    {
+      "slug": "casti-tela-a-organy",
+      "title": "Části těla a některé orgány",
+      "aliases": [
+        "části těla",
+        "orgány",
+        "srdce a plíce",
+        "jak vypadá tělo",
+        "anatomie"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Orientuje se na svém těle, pojmenuje části těla a některé orgány, uvede jejich funkci."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu který orgán slouží, a může tě z částí těla vyzkoušet."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Atlas těla a encyklopedie ukazují, kde orgány jsou a co dělají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s 3D modelem těla ti orgány otočí a popíše."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Model těla nebo nástěnný obraz ti orgány ukáže na jednom místě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3"
+      ],
+      "inspiration": [
+        "Kdo to je?"
+      ]
+    },
+    {
+      "slug": "soustavy-lidskeho-tela",
+      "title": "Soustavy lidského těla a jejich funkce",
+      "aliases": [
+        "orgánové soustavy",
+        "trávicí soustava",
+        "dýchací soustava",
+        "oběhová soustava",
+        "nervová soustava"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popisuje funkce nejdůležitějších orgánů a soustav lidského těla (nervová, dýchací, trávicí, vylučovací, pohybová a opěrná, oběhová, smyslová, rozmnožovací)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede funkci nejdůležitějších orgánů a soustav lidského těla – nervová, dýchací, trávicí, vylučovací, pohybová a opěrná, oběhová, smyslová, rozmnožovací."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co která soustava dělá a jak spolu souvisejí, a zadá ti otázky na procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a schémata ukazují každou soustavu s popisem."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s modelem těla ti soustavy zobrazí po vrstvách."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Model těla nebo atlas ti soustavy ukáže bez obrazovky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3",
+        "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7"
+      ]
+    },
+    {
+      "slug": "zasady-zdraveho-zivota",
+      "title": "Spánek, strava, pohyb a stres: co dělají zdraví",
+      "aliases": [
+        "zdravý způsob života",
+        "spánek a pitný režim",
+        "kouření",
+        "pohyb a zdraví",
+        "stres"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Popisuje na konkrétních příkladech, jak může ovlivnit zdraví člověka dodržování stravovacího a pitného režimu, dostatečný spánek, pravidelná pohybová aktivita, kouření, stresové situace."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede a zdůvodní zásady zdravého způsobu života, které aktuálně dodržuje."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozliší pozitivní a negativní vlivy způsobu života na činnost organismu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí na příkladech, jak spánek, jídlo nebo stres působí na tělo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby pro děti shrnují, kolik spánku, vody a pohybu tělo potřebuje."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na sledování spánku a pohybu ti ukáže, jak žiješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Teploměr ani pravítko ti vliv spánku nebo stravy nezměří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+      ],
+      "inspiration": [
+        "Zdravý životní styl",
+        "Na cestě ke zdraví"
+      ]
+    },
+    {
+      "slug": "dusledky-nevhodneho-zivotniho-stylu",
+      "title": "Důsledky nevhodného způsobu života a obezita",
+      "aliases": [
+        "obezita",
+        "proč jsou lidé při těle",
+        "nezdravý život",
+        "nemoc po letech",
+        "špatné stravování"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Uvádí příklady, jaké důsledky na zdraví může mít dlouhodobý nevhodný způsob života, diskutuje příčiny obezity."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvede příklady, kdy se dlouhodobý nevhodný způsob života projeví v podobě nemoci až s časovým odstupem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč se obezita nebo nemoc projeví až po letech, a dá příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Odborné weby popisují příčiny obezity a její důsledky."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti důsledky životního stylu nevysvětlí, jen počítají kroky nebo jídlo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Váha ani metr ti nevysvětlí, proč obezita vzniká."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "http://data.europa.eu/esco/skill/9fa6b84e-d625-4d1d-a5d0-e7f6b357deb8"
+      ],
+      "inspiration": [
+        "Zdravý životní styl"
+      ]
+    },
+    {
+      "slug": "projevy-beznych-nemoci",
+      "title": "Projevy běžných nemocí a proč o nich říct dospělým",
+      "aliases": [
+        "bolest hlavy",
+        "bolest břicha",
+        "kašel",
+        "kdy říct mamce",
+        "příznaky nemoci"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "popíše, jak se mohou projevovat běžné nemoci (bolest hlavy, bolest břicha, kašel) a zdůvodní nutnost o těchto projevech informovat dospělé"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co může bolest břicha nebo kašel znamenat a proč se to řekne dospělému."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby popisují běžné příznaky a kdy jít k lékaři."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti příznak nepocítí ani nezhodnotí, říct to musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Teploměr změří jen teplotu, bolest hlavy ani kašel nepopíše."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac",
+        "http://data.europa.eu/esco/skill/9ec4252d-cbe8-4134-88fa-549dee1883f3"
+      ]
+    },
+    {
+      "slug": "prenos-nemoci-a-ochrana",
+      "title": "Jak se přenáší nemoci a jak se chránit",
+      "aliases": [
+        "přenos nemocí",
+        "jak se šíří nachlazení",
+        "kapénky",
+        "nákaza",
+        "jak se nenakazit"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Popisuje možné způsoby přenosu onemocnění (dotykem, krví, vzduchem atd.) a navrhuje postup ochrany proti přenosu těchto onemocnění."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak se nemoc přenáší dotykem, krví nebo vzduchem, a pomůže ti sepsat ochranu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby shrnují cesty nákazy a způsoby ochrany."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti cestu přenosu nevysvětlí, jen případně hlásí nemoc v okolí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Mýdlo ani kapesník ti cestu přenosu nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d13053b-ee35-492c-8976-8178420df398",
+        "http://data.europa.eu/esco/skill/9fa6b84e-d625-4d1d-a5d0-e7f6b357deb8"
+      ]
+    },
+    {
+      "slug": "chovani-pri-nachlazeni",
+      "title": "Chování při nachlazení: ruce, kapesník, vlastní nádobí",
+      "aliases": [
+        "mytí rukou",
+        "kapesník a rouška",
+        "nachlazení",
+        "kašel do lokte",
+        "nemoc ve třídě"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Při nachlazení a jiných chorobách přenosných kapénkovou nákazou se chová podle pokynů dospělých a ve shodě s hygienickými zásadami (používá kapesník, roušku, myje si ruce, používá své nádobí atd.)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Chová se odpovědně při nemocech přenášených vzduchem nebo dotykem (zakrytí úst, mytí rukou, nošení roušky atd.), zdůvodní takové chování."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Ruce myješ a do lokte kašleš ty, chatbot to za tebe neudělá."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby ukazují, proč a jak si mýt ruce a zakrýt ústa."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti ruce neumyje, chování při nemoci neovlivní."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Mýdlo, kapesník a vlastní hrnek chrání tebe i ostatní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d13053b-ee35-492c-8976-8178420df398",
+        "http://data.europa.eu/esco/skill/0c944316-12f6-4949-a156-a03dbaae790f"
+      ]
+    },
+    {
+      "slug": "rozhodovani-ve-prospech-zdravi",
+      "title": "Rozhodování ve prospěch zdraví v modelových situacích",
+      "aliases": [
+        "co je zdravé",
+        "modelové situace",
+        "zdravá volba",
+        "riziko pro zdraví",
+        "jak se rozhodnout"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozhodne se v modelových situacích účelně ve prospěch zdraví."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zahraje s tebou situaci a ukáže, jaké riziko která volba pro zdraví má."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zdravotnické weby shrnují, co zdraví prospívá a co škodí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe situaci nevyhodnotí, rozhodnout se musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný jednoduchý nástroj tvé rozhodnutí neposoudí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d",
+        "http://data.europa.eu/esco/skill/097098fc-6d89-44e9-9305-98ac5c0a78ac"
+      ],
+      "inspiration": [
+        "Na cestě ke zdraví"
+      ]
+    }
+  ],
+  "aside": []
+}
