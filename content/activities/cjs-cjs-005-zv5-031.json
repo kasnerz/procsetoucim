@@ -1,0 +1,338 @@
+[
+  {
+    "slug": "casti-denniho-rezimu",
+    "title": "Části mého denního režimu",
+    "aliases": [
+      "denní režim",
+      "můj den",
+      "rozvrh dne",
+      "učení, jídlo, odpočinek, spánek",
+      "co dělám za den"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-031",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše složky vlastního denního režimu a osvojené znalosti uplatňuje v každodenním životě.",
+        "quote": "Popíše složky vlastního denního režimu"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Popisuje svůj denní režim, uvádí činnosti, které se opakují v pracovních dnech, rozlišuje čas na učení, jídlo, zábavu, odpočinek, spánek.",
+        "quote": "Popisuje svůj denní režim, uvádí činnosti, které se opakují v pracovních dnech, rozlišuje čas na učení, jídlo, zábavu, odpočinek, spánek."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Můj den plný pohody",
+        "url": "https://uloziste.rvp.cz/material/adfe22"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Na příkladu jiného dne ti ukáže, jaké části den má, a zeptá se, co v tom tvém chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu doporučení, kolik času patří spánku, jídlu a pohybu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kalendář nebo plánovač ti rozdělí den na barevné bloky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový rozvrh a hodiny ti pomůžou zapsat, co děláš a kdy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c73ea1b8-e121-4f91-b8f0-dee4ee28d6ec",
+      "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "osobni-hygiena-kazdy-den",
+    "title": "Základní návyky osobní hygieny",
+    "aliases": [
+      "mytí rukou",
+      "čištění zubů",
+      "osobní hygiena",
+      "sprcha",
+      "hygiena"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-031",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Dodržuje základní návyky osobní hygieny.",
+        "quote": "Dodržuje základní návyky osobní hygieny."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Osobní hygiena",
+        "url": "https://uloziste.rvp.cz/material/4809be"
+      },
+      {
+        "title": "Zásady hygieny pro naše zdraví",
+        "url": "https://uloziste.rvp.cz/material/73a17c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč a kdy si myješ ruce, a poradí postup, který si pak ověříš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotní stránky ukazují postup mytí rukou a čištění zubů krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Časovač v aplikaci odpočítá dvě minuty na zuby."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mýdlo, kartáček a přesýpací hodiny pomůžou, ale umýt se musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0c944316-12f6-4949-a156-a03dbaae790f",
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sebeobsluha-a-pece-o-veci",
+    "title": "Sebeobsluha a péče o své věci a okolí",
+    "aliases": [
+      "úklid pokoje",
+      "starat se o své věci",
+      "sebeobsluha",
+      "pořádek",
+      "oblékání"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-031",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Zvládá sebeobsluhu, péči o své věci a blízké prostředí.",
+        "quote": "Zvládá sebeobsluhu, péči o své věci a blízké prostředí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Pokoj uklízíš a oblečení skládáš rukama ty, chatbot to za tebe neudělá."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody ukážou, jak složit tričko nebo vyprat skvrnu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Věci si uklidíš a o ně postaráš ty, aplikace u toho nepomůže."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Koště, hadr a věšák jsou nástroje, kterými o své věci pečuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4f1b6304-f54a-42f0-9604-5427a28d240f",
+      "http://data.europa.eu/esco/skill/5598739b-6718-4cff-8402-91d7f65b1505"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pravidelne-jidlo-a-piti",
+    "title": "Pravidelné jídlo a pití",
+    "aliases": [
+      "stravování",
+      "pitný režim",
+      "snídaně",
+      "kolik pít",
+      "pravidelná strava"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-031",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí potřebu dodržování pravidelného stravovacího a pitného režimu.",
+        "quote": "Vysvětlí potřebu dodržování pravidelného stravovacího a pitného režimu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Moje životospráva",
+        "url": "https://uloziste.rvp.cz/material/6eb793"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co se děje s tělem při dlouhé pauze mezi jídly, a dá ti příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu doporučení, kolik jídel denně a kolik tekutin je pro děti vhodné."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na pití vody připomíná a počítá vypité sklenice."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Jídlo ani sklenici vody žádný klasický nástroj nevyřeší, jíš a piješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/63e6742e-5ee7-4008-a17d-0b2079e7fae0",
+      "http://data.europa.eu/esco/skill/78de3e5f-e3ea-4da2-aa09-3704d03ba622"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pravidelny-spanek",
+    "title": "Spánek a jeho pravidelnost",
+    "aliases": [
+      "spánek",
+      "kolik spát",
+      "chodit včas spát",
+      "únava",
+      "večerka"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-031",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí potřebu dodržování pravidelného spánkového režimu pro zdraví.",
+        "quote": "Vysvětlí potřebu dodržování pravidelného spánkového režimu pro zdraví."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Moje životospráva",
+        "url": "https://uloziste.rvp.cz/material/6eb793"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co dělá spánek s pamětí a náladou, a zeptá se, jak spíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš tu doporučenou délku spánku pro tvůj věk."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s budíkem a připomínkou večerky hlídá, kdy jít spát."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Budík a hodiny ti pomůžou chodit spát a vstávat ve stejnou dobu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3",
+      "http://data.europa.eu/esco/skill/51e53aff-6f8a-42ca-9cb9-47335130f4d7"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "planovani-casu-s-ohledem-na-druhe",
+    "title": "Plánování času s ohledem na druhé",
+    "aliases": [
+      "naplánovat si čas",
+      "domluva v rodině",
+      "kdy co stihnu",
+      "střídání koupelny",
+      "rozvrhnout si odpoledne"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-031",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Naplánuje svůj čas a uplatňuje své potřeby i s ohledem na nároky a potřeby jiných osob.",
+        "quote": "Naplánuje svůj čas a uplatňuje své potřeby i s ohledem na nároky a potřeby jiných osob."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti rozepsat odpoledne a ukáže, kde se tvoje plány střetnou s plány rodiny."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Co potřebují lidé u vás doma, se z internetu nedozvíš, musíš se zeptat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Sdílený kalendář ukáže, kdy je kdo doma a kdy má co na práci."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový týdenní rozvrh na lednici ukáže všem, kdo co potřebuje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c73ea1b8-e121-4f91-b8f0-dee4ee28d6ec",
+      "http://data.europa.eu/esco/skill/194c05ed-253c-485a-8bf0-0c8de1aaafda"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

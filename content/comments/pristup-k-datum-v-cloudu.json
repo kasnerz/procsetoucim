@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když nasdílíš složku s fotkami odkazem, může ji otevřít každý, komu ten odkaz někdo přepošle. Proto se hodí znát rozdíl mezi tím, kdo smí soubor jen vidět a kdo ho smí měnit, a umět přístup zase odebrat, když skončí skupinová práce. Ve škole to potřebuješ u společných projektů, v práci u každého sdíleného dokumentu, a lidé, kteří spravují archivy, dokumenty nebo osobní údaje, se tím zabývají celý den. Cloudová aplikace ti ukáže, kdo má přístup, komu ho dát, ale rozhodneš podle toho, co v souboru je.",
+  "learnWithAi": [
+    {
+      "title": "Pojmy ze sdílení souborů",
+      "text": "Nech si od chatbota vysvětlit, co znamená sdílení odkazem, právo komentovat a vlastník souboru. Tyto volby pak najdi ve svém úložišti."
+    },
+    {
+      "title": "Práva pro skupinový projekt",
+      "text": "Popiš chatbotovi skupinový projekt a ať se tě zeptá, kdo má soubory jen číst a kdo upravovat. Práva pak nastav ve skutečné cloudové službě."
+    },
+    {
+      "title": "Úklid starého sdílení",
+      "text": "Projdi ve svém úložišti, co máš nasdílené jiným lidem, a seznam bez osobních údajů ukaž chatbotovi. Ať se u každé položky zeptá, proč ji ještě sdílíš, a co je zbytečné, zruš."
+    }
+  ]
+}

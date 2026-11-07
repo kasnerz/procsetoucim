@@ -1,0 +1,356 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-026",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "prirodni-a-lidmi-zpusobene-udalosti",
+      "title": "Přírodní události a události zaviněné lidmi",
+      "aliases": [
+        "povodeň",
+        "vichřice",
+        "sesuv půdy",
+        "lavina",
+        "havárie",
+        "dopravní nehoda",
+        "mimořádné události"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vyhledává a popisuje konkrétní mimořádné události přírodního charakteru a mimořádné události zaviněné lidmi (nejčastější v ČR – povodně, větrné smršti, sesuvy půdy, laviny, hromadné dopravní nehody, průmyslové havárie)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Diskutuje o mimořádných událostech, o jejich příčinách a následcích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak povodeň nebo sesuv vznikne, a pomůže ti probrat příčiny."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš zprávy a fotky skutečných povodní, lavin i havárií v Česku."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s varováním ti událost neprobere ani nepopíše."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj ti tu nepomůže, mapa s přehledem událostí je spíš zdroj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+        "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a"
+      ],
+      "inspiration": [
+        "Mimořádné události"
+      ]
+    },
+    {
+      "slug": "vozidla-izs",
+      "title": "Poznávání vozidel záchranných složek",
+      "aliases": [
+        "sanitka",
+        "hasičské auto",
+        "policejní auto",
+        "vozidla IZS",
+        "barvy vozidel"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Rozezná vozidla základních složek IZS."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, podle čeho se sanitka, hasiči a policie liší, a zeptá se tě."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Fotky a videa ukážou vozidla hasičů, policie i záchranky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kvízová aplikace ti dá obrázky vozidel k poznávání."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Poznávat auta na ulici musíš ty, nástroj k tomu není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e",
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453"
+      ],
+      "inspiration": [
+        "Integrovaný záchranný systém zasahuje"
+      ]
+    },
+    {
+      "slug": "ukoly-policie-hasicu-zachranky",
+      "title": "Úkoly Policie, hasičů a záchranné služby",
+      "aliases": [
+        "policie",
+        "hasiči",
+        "záchranka",
+        "složky IZS",
+        "kdo co dělá"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede na konkrétních příkladech základní úkoly jednotlivých složek IZS při ochraně zdraví a bezpečí obyvatel."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Charakterizuje základní úkoly Policie ČR (ochrana veřejného pořádku a bezpečnosti); HZS ČR (ochrana života, zdraví obyvatel a majetku před požáry a poskytování účinné pomoci při mimořádných událostech) a Zdravotnické záchranné služby (poskytování přednemocniční neodkladné péče osobám se závažným poškozením zdraví nebo osobám, které jsou v přímém ohrožení života)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co dělá která složka, a vymyslí příklady, které si pak řekneš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Stránky policie, hasičů a záchranky popisují jejich práci."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s tísňovým voláním složky nepopisuje, jen volá pomoc."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "K úkolům složek žádný klasický nástroj nemáš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e",
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453"
+      ],
+      "inspiration": [
+        "Integrovaný záchranný systém zasahuje"
+      ]
+    },
+    {
+      "slug": "kde-hledat-pomoc",
+      "title": "Na koho se obrátit při ohrožení",
+      "aliases": [
+        "kde hledat pomoc",
+        "komu zavolat",
+        "dospělý",
+        "tísňová linka"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Uvede, na koho se obrátí v případě ohrožení, kde může hledat pomoc."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Probere s tebou, koho požádat o pomoc doma, ve škole a venku."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu přehled linek a míst, kde ti pomůžou."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace neví, kdo je zrovna u tebe, a rozhodnout musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Na rozhodnutí, koho zavolat, nepotřebuješ žádný nástroj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2adc2a4a-bb29-4a7f-aab7-d1a21bf08b9e"
+      ],
+      "inspiration": [
+        "Tísňová volání"
+      ]
+    },
+    {
+      "slug": "chovani-pri-mimoradne-udalosti-s-dospelym",
+      "title": "Chování při mimořádné události podle pokynů dospělého",
+      "aliases": [
+        "co dělat při nebezpečí",
+        "poslouchat dospělého",
+        "modelová situace",
+        "cvičný poplach"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Předvede v modelové situaci účelné chování v případě vzniku mimořádné události podle pokynů dospělého."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše si s tebou, jak se zachovat, a vymyslí modelové situace k nacvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu zásady chování a ukázková videa k nácviku."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jednat podle pokynů musíš ty, aplikace nenahradí nácvik."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nácvik se dělá s tělem a s dospělým, ne s nástrojem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+        "http://data.europa.eu/esco/skill/e43cb15d-b48c-43f9-a995-0dfd87b903b9"
+      ],
+      "inspiration": [
+        "Vědět znamená přežít"
+      ]
+    },
+    {
+      "slug": "bezpecny-odchod-z-domova",
+      "title": "Bezpečný odchod z domova",
+      "aliases": [
+        "odchod z bytu",
+        "vypnout spotřebiče",
+        "zavřít okna",
+        "zavřít vodu"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Popíše bezpečný odchod z domova (voda zastavena; uhašen otevřený oheň, zavřená okna a dveře, vypnuté spotřebiče)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Sestaví s tebou seznam věcí ke kontrole před odchodem."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pokyny hasičů říkají, co před odchodem vypnout a zavřít."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Kohoutky a spotřebiče kontroluješ rukama ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj za tebe nezkontroluje, že je doma všechno vypnuté."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b"
+      ],
+      "inspiration": [
+        "Vědět znamená přežít"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Uvede příklady mimořádných událostí.",
+      "code": "O1",
+      "refs": [
+        "priklady-mimoradnych-udalosti"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Předvede v modelové situaci základní postupy jednání v případě zaznění varovného signálu.",
+      "code": "O1",
+      "refs": [
+        "postup-pri-vseobecne-vystraze-a-ukryti"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Postupuje podle naučených postupů při modelové evakuaci školy.",
+      "code": "O1",
+      "refs": [
+        "evakuace-skoly"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Rozliší další signály",
+      "code": "O1",
+      "refs": [
+        "varovne-signaly-sirena"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Vybírá, co patří do evakuačního zavazadla",
+      "code": "O1",
+      "refs": [
+        "evakuacni-zavazadlo"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Uvede čísla linek tísňového volání",
+      "code": "O1",
+      "refs": [
+        "cisla-tisnoveho-volani"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Procvičuje komunikaci s operátorem",
+      "code": "O1",
+      "refs": [
+        "ohlaseni-mimoradne-udalosti-operatorovi"
+      ]
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Popíše účelné způsoby chování",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

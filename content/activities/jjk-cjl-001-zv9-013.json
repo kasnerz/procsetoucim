@@ -1,0 +1,335 @@
+[
+  {
+    "slug": "reklama-a-opravdovy-svet",
+    "title": "Svět v reklamě a opravdový svět",
+    "aliases": [
+      "reklama a realita",
+      "jak vypadá reklama",
+      "pravda v reklamě",
+      "upravené fotky",
+      "co reklama nezobrazuje"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozliší svět zobrazovaný v reklamách od opravdového světa",
+        "quote": "rozliší svět zobrazovaný v reklamách od opravdového světa"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Nebezpečí reklamy",
+        "url": "https://uloziste.rvp.cz/material/5af2aa"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, čím reklama zkresluje, a vymyslí příklady, které porovnáš s tím, co znáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš reklamu a recenze nebo testy stejného výrobku a porovnáš je."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti neřeknou, co je v reklamě přikrášlené, porovnat to musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj ti rozdíl mezi reklamou a skutečností neukáže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f",
+      "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stereotypy-v-reklame-a-mediich",
+    "title": "Stereotypy v reklamě a médiích",
+    "aliases": [
+      "stereotypy v reklamě",
+      "jak reklama zobrazuje lidi",
+      "role mužů a žen v reklamě",
+      "klišé v médiích",
+      "předsudky v reklamě"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozpozná stereotypy zobrazované v reklamách a dalších mediálních sděleních",
+        "quote": "rozpozná stereotypy zobrazované v reklamách a dalších mediálních sděleních"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Uvede příklady stereotypů a vysvětlí, proč jsou zjednodušené, ty je pak hledáš v reklamách."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a rozbory ukazují, jak média zobrazují různé skupiny lidí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace stereotyp v konkrétní reklamě nenajde, všímat si ho musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný jednoduchý nástroj stereotyp v reklamě neodhalí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f",
+      "http://data.europa.eu/esco/skill/253112b8-f613-4e1d-a691-d80ca258e21a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "typy-manipulace",
+    "title": "Sugesce, přesvědčování a propaganda",
+    "aliases": [
+      "druhy manipulace",
+      "co je propaganda",
+      "sugesce",
+      "brainwashing",
+      "přesvědčování a manipulace"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozliší typy manipulace – například sugesce, přesvědčování, propaganda, brainwashing.",
+        "quote": "Rozliší typy manipulace – například sugesce, přesvědčování, propaganda, brainwashing."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi jednotlivými typy a dá příklady, které můžeš zkusit roztřídit."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové weby popisují každý typ a ukazují historické příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace typy manipulace nerozliší, rozhoduješ o nich ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj typy manipulace nerozliší."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+      "http://data.europa.eu/esco/skill/0af93aed-bb3e-4ce7-ad77-a41139c7e7c5",
+      "http://data.europa.eu/esco/skill/253112b8-f613-4e1d-a691-d80ca258e21a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "prostredky-manipulace",
+    "title": "Psychologické, jazykové a obrazové prostředky manipulace",
+    "aliases": [
+      "triky manipulátorů",
+      "jak manipulace funguje",
+      "manipulace obrazem a zvukem",
+      "citové vydírání",
+      "manipulativní techniky"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozliší a vyhledává prostředky manipulace – psychologické, jazykové, audiovizuální.",
+        "quote": "Rozliší a vyhledává prostředky manipulace – psychologické, jazykové, audiovizuální."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí jednotlivé triky a vymyslí ukázky, v nichž je hledáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popisy triků a ukázky z videí nebo zpráv, které si projdeš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace trik v konkrétním sdělení nenajde, hledáš ho ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj prostředky manipulace nepozná."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c8ab7e5b-b786-412f-a519-dfd93517b698",
+      "http://data.europa.eu/esco/skill/fef96bad-e623-42cd-b961-d1adf39db8b9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jazykove-prostredky-v-reklame",
+    "title": "Jazykové prostředky v reklamě",
+    "aliases": [
+      "slogan",
+      "reklamní heslo",
+      "jak reklama používá slova",
+      "slova v reklamě",
+      "superlativy v reklamě"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozliší, které jazykové prostředky a jakým způsobem jsou využívány v reklamních sděleních.",
+        "quote": "Rozliší, které jazykové prostředky a jakým způsobem jsou využívány v reklamních sděleních."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Nebezpečí reklamy",
+        "url": "https://uloziste.rvp.cz/material/5af2aa"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pojmenuje, jak slova v reklamě působí, a navrhne ukázky, v nichž je hledáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš reklamní hesla a texty a rozbory, jak jsou napsané."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace jazyk reklamy nerozebere, rozbor děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj jazyk reklamy nerozebere."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f",
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "jak-se-branit-manipulaci",
+    "title": "Jak reagovat na manipulaci",
+    "aliases": [
+      "jak se bránit manipulaci",
+      "co dělat při manipulaci",
+      "říct ne",
+      "nenechat se zmanipulovat",
+      "obrana proti manipulaci"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-013",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Využívá poznatky o praktikách manipulátorů, aby se mohl proti manipulaci bránit.",
+        "quote": "Využívá poznatky o praktikách manipulátorů, aby se mohl proti manipulaci bránit."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Rozpozná manipulaci v jednoduchých mediálních sděleních, popíše, jak mají na manipulaci lidé reagovat.",
+        "quote": "popíše, jak mají na manipulaci lidé reagovat"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Dezinformace a manipulace v médiích",
+        "url": ""
+      },
+      {
+        "title": "Manipulace v médiích",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou, jak odpovědět, a můžeš si s ním zkusit scénky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Poradny a organizace pro děti popisují, jak se manipulaci bránit a komu to říct."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Odmítnout nebo se ozvat musíš ty, aplikace to za tebe v rozhovoru neudělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Obyčejný nástroj ti v reakci na manipulaci nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/39e7d2a3-8d01-497c-8c5f-d51ab53a4a22",
+      "http://data.europa.eu/esco/skill/fef96bad-e623-42cd-b961-d1adf39db8b9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

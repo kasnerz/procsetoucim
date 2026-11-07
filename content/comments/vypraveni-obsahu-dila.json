@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Převyprávět knihu nebo film tak, aby to druhého bavilo a dávalo smysl, potřebuješ u čtenářského deníku, u ústní zkoušky z literatury i ve chvíli, kdy kamarádovi doporučuješ seriál. Musíš přitom vybrat, co je pro děj podstatné, udržet pořadí a neprozradit každou maličkost. V práci to výslovně potřebuje jen malý kousek lidí, zhruba 0,2 % těch, kdo v Česku pracují, třeba ti, kdo učí literaturu nebo redigují knihy, ale vyprávět souvisle a po pořádku se hodí každému, kdo něco vysvětluje. Hotový obsah z internetu ti řekne, co se stalo, vyprávět nahlas vlastními slovy se tím ale nenaučíš.",
+  "learnWithAi": [
+    {
+      "title": "Otázky k ději knihy",
+      "text": "Napiš chatbotovi název knihy, kterou právě čteš, ať ti položí pět otázek k ději. Odpovídej bez nahlížení do knihy a odpovědi si ověř v textu, u méně známých knih se chatbot plete."
+    },
+    {
+      "title": "Doporučení bez prozrazení konce",
+      "text": "Sepiš obsah knihy jako doporučení pro spolužáky, bez prozrazení konce. Chatbot ať hraje čtenáře, který knihu nezná, a řekne ti, čemu nerozuměl a jestli ho to láká."
+    },
+    {
+      "title": "Minutové vyprávění na nahrávku",
+      "text": "Nahraj si do mobilu minutové vyprávění oblíbeného filmu a nech si nahrávku přepsat. Přepis dej chatbotovi a zeptej se, kde se děj ztrácí nebo přeskakuje."
+    }
+  ]
+}

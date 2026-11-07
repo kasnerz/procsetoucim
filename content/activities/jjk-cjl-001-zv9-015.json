@@ -1,0 +1,558 @@
+[
+  {
+    "slug": "vypraveni-obsahu-dila",
+    "title": "Převyprávění obsahu knihy nebo filmu",
+    "aliases": [
+      "převyprávění",
+      "vyprávění děje",
+      "obsah knihy",
+      "obsah filmu",
+      "co se stalo v knize"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vypráví obsah literárního díla anebo díla z oblasti dalších druhů umění.",
+        "quote": "Vypráví obsah literárního díla anebo díla z oblasti dalších druhů umění."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Děj vyprávíš ty vlastními slovy, chatbotův souhrn za tebe nic nenacvičí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Anotace a stručné obsahy ti ukážou, jestli ti nic v ději neuniklo."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Přehrávač nebo čtečka dílo jen zobrazí, vyprávět musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Knihu si můžeš otevřít, ale vyprávění zvládneš jen svým hlasem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0ab9d433-10e5-4683-ae54-4687179a5259",
+      "http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "autor-a-postavy",
+    "title": "Rozlišení názorů autora a postav",
+    "aliases": [
+      "autor a postava",
+      "co si myslí autor",
+      "názor postavy",
+      "vypravěč a autor",
+      "kdo to říká"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "odlišuje počínání postav, vyjadřované názory apod. od počínání či názorů autora",
+        "quote": "odlišuje počínání postav, vyjadřované názory apod. od počínání či názorů autora"
+      },
+      {
+        "level": "Na cestě",
+        "point": "odlišuje jednání postav, vyjadřované názory apod. od jednání či názorů autora",
+        "quote": "odlišuje jednání postav, vyjadřované názory apod. od jednání či názorů autora"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí na příkladu, proč postava může říkat něco jiného než autor."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rozhovory s autory a životopisy ukážou, jak o svém díle mluví autor nebo autorka."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s rozborem textu neumí rozeznat, kdo mluví, autor, nebo postava."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka a vlastní poznámky u textu nepomůžou, to je o tvém čtení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0ab9d433-10e5-4683-ae54-4687179a5259",
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "motivace-a-jednani-postav",
+    "title": "Motivace a jednání postav",
+    "aliases": [
+      "proč to postava udělala",
+      "chování postav",
+      "charakteristika postavy",
+      "důsledky jednání",
+      "motivace postavy"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popisuje a vysvětluje obsahově-formální prvky textu (díla) a vysvětluje, jakou v něm mají funkci; vysvětlí motivaci, jednání a prožívání postav a uvažuje nad jejich důsledky; objasňuje autorský záměr.",
+        "quote": "vysvětlí motivaci, jednání a prožívání postav a uvažuje nad jejich důsledky"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Interpretujeme text",
+        "url": "https://uloziste.rvp.cz/material/41765d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Může se zeptat na otázky, ze kterých vyjde tvůj vlastní výklad chování postavy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rozbory děl nabídnou různé výklady, se kterými svůj porovnáš."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s poznámkami k dílu nevysvětlí, proč se postava rozhodla tak, jak se rozhodla."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Poznámky na okraji knihy ti pomůžou zapsat důkazy, ale úvahu děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0ab9d433-10e5-4683-ae54-4687179a5259",
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ironie-alegorie-a-symbol",
+    "title": "Ironie, alegorie a symbol v textu",
+    "aliases": [
+      "ironie",
+      "alegorie",
+      "symbol v textu",
+      "jak poznat ironii",
+      "skrytý význam"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "samostatně či s dopomocí postihne podstatné prvky uměleckého textu (díla) a objasní autorský záměr – rozpoznává prózu a poezii (její náročnější formy, spojené s volným veršem), žánr, tematiku a povahu textu (text vážný / humorný; ironie, alegorie, symbol).",
+        "quote": "rozpoznává prózu a poezii (její náročnější formy, spojené s volným veršem), žánr, tematiku a povahu textu (text vážný / humorný; ironie, alegorie, symbol)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [
+      {
+        "title": "Interpretujeme text: Příběh z Bible a jeho výklad",
+        "url": "https://uloziste.rvp.cz/material/41765d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co je ironie nebo symbol, a zkontroluje ti tvůj výklad uvedené ukázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Slovníky literárních pojmů dají definice a příklady ke každému pojmu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s rozborem textu ironii a symboly nepozná, čtenář musí cítit tón textu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník cizích slov vysvětlí pojem, v textu ho ale hledáš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+      "http://data.europa.eu/esco/skill/3659c733-e366-4a2f-86c6-304ab01481cc"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "proza-poezie-a-volny-vers",
+    "title": "Próza, poezie a volný verš",
+    "aliases": [
+      "volný verš",
+      "próza a poezie",
+      "básně bez rýmu",
+      "jak poznat báseň",
+      "žánr textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "samostatně či s dopomocí postihne podstatné prvky uměleckého textu (díla) a objasní autorský záměr – rozpoznává prózu a poezii (její náročnější formy, spojené s volným veršem), žánr, tematiku a povahu textu (text vážný / humorný; ironie, alegorie, symbol).",
+        "quote": "rozpoznává prózu a poezii (její náročnější formy, spojené s volným veršem), žánr, tematiku a povahu textu (text vážný / humorný; ironie, alegorie, symbol)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Rozebere ukázku a vysvětlí, proč ji řadí k próze, nebo k poezii s volným veršem."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázky básní bez rýmů najdeš online a můžeš je porovnat s rýmovanými."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s básněmi ti text ukáže, rozpoznat formu musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tištěná antologie ti dá básně na čtení, ale rozpoznávání je tvoje práce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+      "http://data.europa.eu/esco/skill/7bb85eab-18df-437c-adce-7b729abb315e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sekundarni-funkce-dila",
+    "title": "Další účel textu: poučit, přesvědčit, pobavit",
+    "aliases": [
+      "sekundární funkce",
+      "k čemu text slouží",
+      "poselství",
+      "text s cílem",
+      "poučení v textu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "rozpoznává, zda má umělecký text (dílo) výraznou sekundární funkci (funkce)",
+        "quote": "rozpoznává, zda má umělecký text (dílo) výraznou sekundární funkci (funkce)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co znamená sekundární funkce díla, a probere s tebou příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příklady děl s poučným nebo propagačním záměrem najdeš v encyklopediích."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti text přečte, ale cíl textu poznáš jen svým čtením."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zvýrazňovač pomůže označit místa, kde text k něčemu vyzývá, úsudek je tvůj."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "recitace-a-cetba-nahlas",
+    "title": "Srovnání recitace a čtení nahlas",
+    "aliases": [
+      "recitace",
+      "čtení nahlas",
+      "jak přednášet báseň",
+      "hlasový přednes",
+      "porovnání přednesu"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Posuzuje a srovnává různá podání textu (recitace, četba); promýšlí, jaká forma podání by umocnila estetickou působivost textu (díla).",
+        "quote": "Posuzuje a srovnává různá podání textu (recitace, četba); promýšlí, jaká forma podání by umocnila estetickou působivost textu (díla)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "posuzuje a srovnává různá podání textu (recitace, četba)",
+        "quote": "posuzuje a srovnává různá podání textu (recitace, četba)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Přednes posloucháš a posuzuješ ty, chatbot ti ho neslyší."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Nahrávky stejné básně v různých podáních můžeš pustit a porovnat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s audioknihami nabídne víc čtenářů téhož textu k porovnání."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Přednes před třídou si nenacvičíš nikde jinde než nahlas pro sebe."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0ab9d433-10e5-4683-ae54-4687179a5259",
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zpracovani-latky-v-ruznych-dilech",
+    "title": "Stejný příběh v knize, filmu a komiksu",
+    "aliases": [
+      "kniha a film",
+      "filmová adaptace",
+      "komiks podle knihy",
+      "shody a rozdíly",
+      "stejný příběh jinak"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Nachází základní shody a rozdíly různých literárních zpracování téže látky, popřípadě zpracování látky v literárním díle a v dalších dílech se slovesnými prvky (divadlo, film, komiks aj.); nachází nejrůznější souvislosti (tematické, žánrové, jazykové…) mezi uměleckým textem (dílem) a dalšími texty (díly).",
+        "quote": "Nachází základní shody a rozdíly různých literárních zpracování téže látky, popřípadě zpracování látky v literárním díle a v dalších dílech se slovesnými prvky (divadlo, film, komiks aj.); nachází nejrůznější souvislosti (tematické, žánrové, jazykové…) mezi uměleckým textem (dílem) a dalšími texty (díly)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "nachází základní shody a rozdíly různých literárních zpracování téže látky, popř. zpracování látky v literárním díle a v dalších dílech se slovesnými prvky (divadlo, film, komiks aj.)",
+        "quote": "nachází základní shody a rozdíly různých literárních zpracování téže látky, popř. zpracování látky v literárním díle a v dalších dílech se slovesnými prvky (divadlo, film, komiks aj.)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Interpretujeme text",
+        "url": "https://uloziste.rvp.cz/material/41765d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže poskládat tabulku shod a rozdílů, ale dílo musíš znát ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zpracování téže látky najdeš v databázích filmů a knih."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Služba s filmy a knihami ukáže víc verzí jednoho příběhu k porovnání."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Knihu i komiks si můžeš položit vedle sebe, srovnání děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25",
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "informace-o-autorovi-a-dobe-dila",
+    "title": "Informace o autorovi a době vzniku díla",
+    "aliases": [
+      "životopis autora",
+      "kdy dílo vzniklo",
+      "doba vzniku",
+      "kontext díla",
+      "informace o autorovi"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "V souvislosti s interpretací sám či s dopomocí vyhledává pro dílo podstatné informace kontextového rázu (biografické, literární, umělecké, kulturněhistorické).",
+        "quote": "V souvislosti s interpretací sám či s dopomocí vyhledává pro dílo podstatné informace kontextového rázu (biografické, literární, umělecké, kulturněhistorické)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "v souvislosti s interpretací sám či s dopomocí vyhledává základní informace kontextového rázu (biografické, literární, umělecké, kulturněhistorické)",
+        "quote": "v souvislosti s interpretací sám či s dopomocí vyhledává základní informace kontextového rázu (biografické, literární, umělecké, kulturněhistorické)"
+      },
+      {
+        "level": "Na cestě",
+        "point": "v souvislosti s interpretací sám či s dopomocí vyhledává pro dílo podstatné informace kontextového rázu (biografické, literární, umělecké, kulturněhistorické)",
+        "quote": "v souvislosti s interpretací sám či s dopomocí vyhledává pro dílo podstatné informace kontextového rázu (biografické, literární, umělecké, kulturněhistorické)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Shrne, co k dílu souvisí, jen si jeho údaje ověř jinde, může se plést."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie, Wikipedie a webové stránky knihoven dají ověřené životopisy a data."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace knihoven a digitální archivy ukážou díla a jejich vydání."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tištěná encyklopedie nebo slovník literatury dají ověřené údaje o autorech."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f8d30e1d-baa7-4d35-b9f4-df7e1650396e",
+      "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vecne-vyjadreni-o-dile",
+    "title": "Věcné vyjádření poznatků a názorů o textu",
+    "aliases": [
+      "věcný rozbor",
+      "jak mluvit o knize",
+      "diskuse o textu",
+      "kultivovaný projev",
+      "názor na dílo"
+    ],
+    "outcome": "JJK-CJL-001-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Prokazuje schopnost věcně a kultivovaně vyjadřovat poznatky, myšlenky a názory a týmž způsobem o nich diskutovat; upevňuje si pozitivní postoj ke čtení, k literatuře a umění obecně.",
+        "quote": "Prokazuje schopnost věcně a kultivovaně vyjadřovat poznatky, myšlenky a názory a týmž způsobem o nich diskutovat; upevňuje si pozitivní postoj ke čtení, k literatuře a umění obecně."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zkusí si s tebou přípravu rozboru, ale mluvíš a diskutuješ pak ty."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Web ti věcnost neukáže, mluvit k tématu se naučíš jen vlastním hlasem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace s poznámkami ti text uloží, ale nevede tvůj projev."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Plakát nebo kartičky s body ti pomůžou projev uspořádat, hlavní je tvoje vyjadřování."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+      "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

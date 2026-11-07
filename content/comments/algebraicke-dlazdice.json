@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Algebraické dlaždice jsou školní pomůcka: velký čtverec znamená x², obdélník x a malý čtvereček jedničku. Když je skládáš, vidíš, proč se x a x² nedají sečíst do jednoho členu nebo proč součin dvou závorek dává právě tolik dílků. V práci s nimi skoro nikdo nepracuje, slouží k tomu, aby úpravy výrazů nebyly jen pravidla nazpaměť. Když si úpravu jednou poskládáš jako obdélník z dílků, snáz si ji vybavíš i při počítání na papíře. Virtuální dlaždice v aplikaci fungují podobně, chatbot ti je ale do ruky nevloží.",
+  "learnWithAi": [
+    {
+      "title": "Dlaždice z barevného papíru",
+      "text": "Požádej chatbota o návod, jak si vystřihnout sadu dlaždic z barevného papíru a jaké rozměry mají mít. Vyrob si je a polož z nich první výraz."
+    },
+    {
+      "title": "Výrazy ke skládání",
+      "text": "Nech si zadat deset výrazů od nejlehčích, třeba 2x + 3, až po x² + 3x + 2. Každý poskládej z dlaždic a výsledek zapiš."
+    },
+    {
+      "title": "Obdélník jako součin závorek",
+      "text": "Poskládej z dlaždic obdélník a popiš chatbotovi, kolik má jakých dílků. Ať se tě zeptá na délky jeho stran a ty je zkus zapsat jako součin dvou závorek."
+    }
+  ]
+}

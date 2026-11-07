@@ -1,0 +1,156 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-026",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Uvede příklady mimořádných událostí.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "priklady-mimoradnych-udalosti"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Předvede v modelové situaci účelné chování v případě vzniku mimořádné události podle pokynů dospělého.",
+      "cards": [
+        "chovani-pri-mimoradne-udalosti-s-dospelym"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Uvede, na koho se obrátí v případě ohrožení, kde může hledat pomoc.",
+      "cards": [
+        "kde-hledat-pomoc"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Rozezná vozidla základních složek IZS.",
+      "cards": [
+        "vozidla-izs"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozliší další signály (Požární poplach a Zkouška sirén), vysvětlí, k čemu slouží.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "varovne-signaly-sirena"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vybírá, co patří do evakuačního zavazadla, a svůj výběr zdůvodňuje.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "evakuacni-zavazadlo"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Charakterizuje základní úkoly Policie ČR (ochrana veřejného pořádku a bezpečnosti); HZS ČR (ochrana života, zdraví obyvatel a majetku před požáry a poskytování účinné pomoci při mimořádných událostech) a Zdravotnické záchranné služby (poskytování přednemocniční neodkladné péče osobám se závažným poškozením zdraví nebo osobám, které jsou v přímém ohrožení života).",
+      "cards": [
+        "ukoly-policie-hasicu-zachranky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vyhledává a popisuje konkrétní mimořádné události přírodního charakteru a mimořádné události zaviněné lidmi (nejčastější v ČR – povodně, větrné smršti, sesuvy půdy, laviny, hromadné dopravní nehody, průmyslové havárie).",
+      "cards": [
+        "prirodni-a-lidmi-zpusobene-udalosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Popíše bezpečný odchod z domova (voda zastavena; uhašen otevřený oheň, zavřená okna a dveře, vypnuté spotřebiče).",
+      "cards": [
+        "bezpecny-odchod-z-domova"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Uvede čísla linek tísňového volání (158, 150, 155, 112).",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "cisla-tisnoveho-volani"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Diskutuje o mimořádných událostech, o jejich příčinách a následcích.",
+      "cards": [
+        "prirodni-a-lidmi-zpusobene-udalosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Procvičuje komunikaci s operátorem tísňové linky.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "ohlaseni-mimoradne-udalosti-operatorovi"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede v modelové situaci základní postupy jednání v případě zaznění varovného signálu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "postup-pri-vseobecne-vystraze-a-ukryti"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Postupuje podle naučených postupů při modelové evakuaci školy.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "evakuace-skoly"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede na konkrétních příkladech základní úkoly jednotlivých složek IZS při ochraně zdraví a bezpečí obyvatel.",
+      "cards": [
+        "ukoly-policie-hasicu-zachranky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše účelné způsoby chování v situacích ohrožujících zdraví a v modelových situacích simulujících mimořádné události, zná telefonní čísla IZS.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

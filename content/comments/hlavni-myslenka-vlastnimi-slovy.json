@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Hlavní myšlenka je jedna nebo dvě věty, které zbydou, když z textu odstraníš příklady a podrobnosti. Říct ji vlastními slovy, ne opsanou větou z originálu, ukáže tobě i učiteli, že textu opravdu rozumíš. Kdo píše odborné články nebo zprávy, převádí takhle cizí texty do vlastních slov a nemusí je opisovat. Chatbot umí text přeformulovat, jenže pak je to jeho formulace, a když se tě někdo zeptá, co tím autor myslel, odpovídáš ty.",
+  "learnWithAi": [
+    {
+      "title": "Myšlenka na lísteček",
+      "text": "Přečti si anglický odstavec, zavři ho a napiš jeho hlavní myšlenku svými slovy na malý lísteček. Chatbotovi pošli odstavec i lísteček a zeptej se, jestli myšlenka sedí."
+    },
+    {
+      "title": "Hlavní myšlenka mezi podrobnostmi",
+      "text": "Popros chatbota o krátký anglický text a k němu čtyři věty, z nichž jen jedna vystihuje hlavní myšlenku. Vyber ji a vysvětli anglicky, proč ostatní jsou jen podrobnosti."
+    },
+    {
+      "title": "Věta řečená jinak",
+      "text": "Zadej chatbotovi větu z anglické učebnice, ať ji dvakrát přeformuluje. Pak napiš vlastní verzi, ve které z originálu nezůstane žádné slovo kromě jmen."
+    }
+  ]
+}

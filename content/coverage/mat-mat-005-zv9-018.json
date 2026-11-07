@@ -1,0 +1,80 @@
+{
+  "outcome": "MAT-MAT-005-ZV9-018",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "řeší lineární rovnici a soustavu dvou lineárních rovnic pomocí modelů",
+      "cards": [
+        "linearni-rovnice-uvahou-a-upravami",
+        "soustava-dvou-linearnich-rovnic"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "řeší lineární rovnici a soustavu dvou lineárních rovnic (úvahou, experimentem, ekvivalentními úpravami)",
+      "cards": [
+        "linearni-rovnice-uvahou-a-upravami",
+        "soustava-dvou-linearnich-rovnic"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "řeší lineární nerovnici a znázorní řešení na číselné ose",
+      "cards": [
+        "linearni-nerovnice-na-ose"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "zobrazí lineární rovnici graficky a určí průsečíky grafu s osou x a y",
+      "cards": [
+        "graf-linearni-rovnice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa pomocí lineárních rovnic a soustavy lineárních rovnic.",
+      "cards": [
+        "rovnice-z-realne-ulohy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Interpretuje rovnice a jejich řešení v rámci daného kontextu.",
+      "cards": [
+        "vyznam-reseni-rovnice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší graficky soustavu dvou lineárních rovnic.",
+      "cards": [
+        "graficke-reseni-soustavy"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší složitější nerovnice, výsledek znázorní na číselné ose.",
+      "cards": [
+        "slozitejsi-nerovnice"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší úlohy včetně úloh z reálného světa pomocí nerovnic.",
+      "cards": [
+        "nerovnice-z-realne-ulohy"
+      ],
+      "aside": null
+    }
+  ]
+}

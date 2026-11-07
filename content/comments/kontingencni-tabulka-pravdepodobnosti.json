@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tabulka, kde máš v řádcích třeba kluky a holky a ve sloupcích, jestli jezdí do školy autobusem, ukazuje dvě věci najednou. Když ji umíš číst, spočítáš z ní, jak pravděpodobné je, že náhodně vybraný člověk má obě vlastnosti, nebo jen jednu z nich. Takové tabulky najdeš ve zprávách o průzkumech a lidé v pojišťovnách nebo v marketingu s nimi pracují pořád. Tabulkový procesor ti čísla sečte, ale musíš vědět, který součet patří k tvé otázce, jinak dostaneš přesné číslo k nesprávné otázce.",
+  "learnWithAi": [
+    {
+      "title": "Řádek proti celé tabulce",
+      "text": "Zeptej se chatbota, proč vychází jiná šance, když počítáš z celkového součtu, a jiná, když jen z jednoho řádku. Ať ti to ukáže na příkladu, který si pak přepočítáš."
+    },
+    {
+      "title": "Tabulka s prázdnými políčky",
+      "text": "Popros chatbota o tabulku, ve které chybí několik čísel, a k ní o otázku na pravděpodobnost. Chybějící čísla doplň ze součtů a odpověď spočítej ty."
+    },
+    {
+      "title": "Anketa ve třídě",
+      "text": "Udělej ve třídě anketu se dvěma otázkami a výsledky zapiš do tabulky. Spočítej z ní tři pravděpodobnosti a pošli je chatbotovi i s tabulkou ke kontrole."
+    }
+  ]
+}

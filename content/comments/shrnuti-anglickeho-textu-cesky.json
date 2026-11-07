@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Ve shrnutí z celého textu nebo nahrávky necháš jen to, bez čeho by druhý nepochopil, o co jde, a řekneš to vlastními slovy. Hodí se to u referátu z anglického zdroje, u videa, které chceš doporučit, nebo když rodičům vysvětluješ podmínky v anglické aplikaci. Kdo pracuje v zahraničním obchodě nebo píše zprávy ze zahraničí, shrnuje anglické podklady pro české kolegy a čtenáře denně. Chatbot dokáže text shrnout za pár vteřin, ale jestli jeho shrnutí sedí, poznáš jen tehdy, když textu rozumíš a umíš ho shrnout taky.",
+  "learnWithAi": [
+    {
+      "title": "Shrnutí do jedné věty",
+      "text": "Přečti si krátký anglický článek a shrň ho česky do jedné věty. Pak požádej chatbota o jeho vlastní větu a porovnej, co do ní dal on a co ty."
+    },
+    {
+      "title": "Schovaná chyba ve shrnutí",
+      "text": "Nech chatbota shrnout anglický text česky a schválně do shrnutí zamíchat jednu chybu. Přečti si originál a najdi, co nesedí."
+    },
+    {
+      "title": "Podmínky aplikace pro rodiče",
+      "text": "Vyber si anglické podmínky používání nějaké hry nebo aplikace a shrň rodičům česky, k čemu se v nich zavazuješ. Svůj výklad porovnej s tím, co z textu vyčte chatbot, a sporná místa si najdi v originále."
+    }
+  ]
+}

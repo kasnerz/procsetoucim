@@ -1,0 +1,305 @@
+[
+  {
+    "slug": "ohen-pomaha-i-skodi",
+    "title": "Oheň, který pomáhá i škodí",
+    "aliases": [
+      "k čemu je oheň",
+      "oheň a nebezpečí",
+      "oheň dobrý sluha",
+      "kdy je oheň nebezpečný"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-027",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Popíše, kdy oheň lidem pomáhá a kdy může škodit.",
+        "quote": "Popíše, kdy oheň lidem pomáhá a kdy může škodit."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Oheň pomáhá i škodí",
+        "url": "https://uloziste.rvp.cz/material/63c9b4"
+      },
+      {
+        "title": "Oheň je dobrý sluha, ale zlý pán",
+        "url": "https://uloziste.rvp.cz/material/0e5672"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí, k čemu oheň slouží a kdy hrozí požár."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Encyklopedie a výukové stránky ukážou užitečný i ničivý oheň."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace k tomuhle nic užitečného nenabízí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný nástroj ti nepomůže rozlišit užitečný oheň od nebezpečného."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b",
+      "http://data.europa.eu/esco/skill/e2ba5755-d934-486e-b6cb-a938c2857b79"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "chovani-pri-pozaru",
+    "title": "Chování při požáru a požárním poplachu",
+    "aliases": [
+      "co dělat při požáru",
+      "požární poplach",
+      "evakuace",
+      "cvičný poplach",
+      "hoří"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-027",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Převede v modelové situaci, jak se zachovat v případě vzniku požáru.",
+        "quote": "Převede v modelové situaci, jak se zachovat v případě vzniku požáru."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Zvládá pod vedením učitele chování v modelové situaci požárního poplachu.",
+        "quote": "Zvládá pod vedením učitele chování v modelové situaci požárního poplachu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Nebezpečí požáru",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Ven ze třídy jdeš ty, chatbot tě z budovy nevyvede."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Při poplachu nemáš čas hledat, řídíš se tím, co se nacvičovalo."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace tě z hořící budovy neevakuuje."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Únikový plán na zdi ukazuje cestu ven a sraz před školou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511",
+      "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "signal-pozarniho-poplachu",
+    "title": "Signál požárního poplachu",
+    "aliases": [
+      "siréna",
+      "hlásič požáru",
+      "poplach ve škole",
+      "jak zní poplach"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-027",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozliší signál požárního poplachu.",
+        "quote": "Rozliší signál požárního poplachu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Nebezpečí požáru",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Zvuk poplachu uslyšíš ve škole, chatbot ti ho nezahraje."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na internetu si můžeš poslechnout ukázku poplachu a naučit se ho poznat."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace v telefonu poplach ve škole nezastoupí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroj k tomu nepotřebuješ, signál se naučíš poznat uchem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511",
+      "http://data.europa.eu/esco/skill/61268e22-9367-4c3b-91d9-b651e4c142e2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nezpusobit-pozar",
+    "title": "Chování, při kterém nevznikne požár",
+    "aliases": [
+      "jak předejít požáru",
+      "bezpečné chování s ohněm",
+      "hořlavé látky",
+      "zápalky a svíčky"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-027",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Předvede v modelové situaci, jak se chovat, aby nezpůsobil požár.",
+        "quote": "Předvede v modelové situaci, jak se chovat, aby nezpůsobil požár."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Popíše v modelové situaci bezpečné chování při styku s hořlavými látkami, pyrotechnikou a uvede příklady pravidel protipožární ochrany v modelových situacích.",
+        "quote": "Popíše v modelové situaci bezpečné chování při styku s hořlavými látkami, pyrotechnikou a uvede příklady pravidel protipožární ochrany v modelových situacích."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Oheň je dobrý sluha, ale zlý pán",
+        "url": "https://uloziste.rvp.cz/material/0e5672"
+      },
+      {
+        "title": "Výbušné a hořlavé látky",
+        "url": "https://uloziste.rvp.cz/material/3a143c"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí pravidla a vymyslí situace k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hasiči mají na webu zásady prevence s příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti bezpečné chování neukáže."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Správně se chováš ty, žádný nástroj to za tebe nedělá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/e8edc3cf-b12b-4ffc-8546-3657a00ca604",
+      "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "odmitnuti-ohne-a-pyrotechniky",
+    "title": "Odmítnutí ohně a zábavní pyrotechniky",
+    "aliases": [
+      "petardy",
+      "ohňostroj",
+      "hraní si s ohněm",
+      "proč nesmím petardy",
+      "zapalovač"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-027",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Odmítne v modelové situaci použití zábavní pyrotechniky a manipulaci s otevřeným ohněm.",
+        "quote": "Odmítne v modelové situaci použití zábavní pyrotechniky a manipulaci s otevřeným ohněm."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zdůvodní, proč manipulovat s otevřeným ohněm a zábavní pyrotechnikou mohou pouze dospělí.",
+        "quote": "Zdůvodní, proč manipulovat s otevřeným ohněm a zábavní pyrotechnikou mohou pouze dospělí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Pozor na zábavní pyrotechniku",
+        "url": "https://uloziste.rvp.cz/material/09707e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, proč jsou petardy nebezpečné, a nacvičí s tebou odmítnutí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a stránky hasičů ukazují, jak petardy zraňují."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Odmítnout kamaráda musíš ty, aplikace to nezvládne."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Nástroj za tebe nikoho neodmítne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5ed83764-c32f-402d-b5b3-168cddfbe4c5",
+      "http://data.europa.eu/esco/skill/e8edc3cf-b12b-4ffc-8546-3657a00ca604"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

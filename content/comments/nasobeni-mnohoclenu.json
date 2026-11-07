@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Roznásobení závorek je krok, na kterém stojí velká část další algebry, od rovnic po vzorce pro obsahy ploch. Když si součin dvou závorek nakreslíš jako obdélník rozdělený na menší políčka, vidíš, proč z nich vyjde víc členů než dva. Ve fyzice nebo v chemické výrobě se takhle upravují vzorce, než se do nich dosadí čísla. Aplikace roznásobí cokoliv, ale kdo umí odhadnout, kolik členů má vyjít, pozná i překlep v zadání.",
+  "learnWithAi": [
+    {
+      "title": "Obdélník rozdělený na součiny",
+      "text": "Nakresli součin dvou závorek jako obdélník a popiš chatbotovi, co je v kterém políčku. Ať ti řekne, jestli některé políčko chybí."
+    },
+    {
+      "title": "Deset závorek na rozcvičku",
+      "text": "Řekni si o deset příkladů od jednočlenu krát závorka až po dvě závorky se třemi členy. Výsledky nech zkontrolovat a u chyb chtěj jen nápovědu, ne celé řešení."
+    },
+    {
+      "title": "Kontrola dosazením čísla",
+      "text": "Vynásob dvě závorky a nech si vysvětlit, jak správnost ověříš dosazením třeba x = 2 do obou tvarů. Zkoušku pak spočítej ty na kalkulačce."
+    }
+  ]
+}

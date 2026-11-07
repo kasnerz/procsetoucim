@@ -1,0 +1,300 @@
+[
+  {
+    "slug": "ohlaseni-urazu-dospelemu",
+    "title": "Ohlášení úrazu dospělému",
+    "aliases": [
+      "co dělat při úrazu",
+      "říct dospělému",
+      "zranění",
+      "komu říct o úrazu",
+      "bolest"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-029",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Ohlásí ihned případné poranění či zhoršení zdravotního stavu dospělému.",
+        "quote": "Ohlásí ihned případné poranění či zhoršení zdravotního stavu dospělému."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Zdůvodní, proč je třeba v případě každého poranění přivolat pomoc dospělého.",
+        "quote": "Zdůvodní, proč je třeba v případě každého poranění přivolat pomoc dospělého."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Stali jsme se svědky úrazu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se i malé zranění říká dospělému, a projde s tebou příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zdravotnické stránky pro děti popisují, jak zranění poznat a komu ho ohlásit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti úraz za tebe neohlásí, dospělému to říkáš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dospělému to říkáš hlasem ty, žádný nástroj to nezařídí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "komu-se-pri-urazu-ve-skole-obratit",
+    "title": "Komu se při úrazu ve škole obrátit",
+    "aliases": [
+      "úraz ve škole",
+      "učitel při úrazu",
+      "školní ošetřovna",
+      "koho zavolat",
+      "kdo pomůže"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-029",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede, na koho se v případě úrazu ve škole obrátit.",
+        "quote": "Uvede, na koho se v případě úrazu ve škole obrátit."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Stali jsme se svědky úrazu",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě na různá místa ve škole a procvičí s tebou, koho kde zavolat."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Kdo ve tvé škole pomáhá, v obecném textu nenajdeš, ví to škola."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace nezná tvoji školu ani učitele, kteří ti pomůžou."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dospělého ve škole oslovuješ ty, nástroj za tebe nikoho nezavolá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "postup-osetreni-drobneho-poraneni",
+    "title": "Postup ošetření drobného poranění",
+    "aliases": [
+      "ošetření ranky",
+      "odřenina",
+      "náplast",
+      "první pomoc",
+      "škrábnutí"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-029",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Navrhne postup ošetření drobného poranění na modelových příkladech.",
+        "quote": "Navrhne postup ošetření drobného poranění na modelových příkladech."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Procvičuje v modelových situacích správný postup ošetření drobného poranění.",
+        "quote": "Procvičuje v modelových situacích správný postup ošetření drobného poranění."
+      },
+      {
+        "level": "Splněno",
+        "point": "Předvede v modelové situaci správný postup ošetření drobného poranění.",
+        "quote": "Předvede v modelové situaci správný postup ošetření drobného poranění."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "První pomoc krok za krokem",
+        "url": "https://uloziste.rvp.cz/material/bc7c75"
+      },
+      {
+        "title": "Modelová situace: ošetření poranění",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí kroky ošetření a zadá ti modelové případy k promyšlení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Odborné stránky o první pomoci ukazují postup krok za krokem s obrázky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s první pomocí ukáže kroky a ověří, co víš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Lékárnička s náplastí a obvazem se k ošetření používá rukama, nácvik jde na modelu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+      "http://data.europa.eu/esco/skill/f7464f30-662b-4177-85a0-3df9693e9e58"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ochrana-pred-nakazou-krvi",
+    "title": "Ochrana před nákazou krví při ošetření",
+    "aliases": [
+      "rukavice",
+      "krev",
+      "krvácení",
+      "nákaza",
+      "ochrana při ošetření"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-029",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Předvede v modelové situaci při ošetření krvácejícího poranění, jak se chránit před možnou nákazou krví.",
+        "quote": "Předvede v modelové situaci při ošetření krvácejícího poranění, jak se chránit před možnou nákazou krví."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Modelová situace: ošetření poranění",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se krve nedotýkáš holou rukou, a zeptá se tě na postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Příručky první pomoci popisují ochranu rukavicemi a mytí rukou."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Rukavice si navlékáš ty, aplikace to za tebe neudělá."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Jednorázové rukavice a obvaz z lékárničky tě před krví chrání."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6",
+      "http://data.europa.eu/esco/skill/f7464f30-662b-4177-85a0-3df9693e9e58"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nezachranovat-na-vlastni-pest",
+    "title": "Kdy nezachraňovat na vlastní pěst",
+    "aliases": [
+      "záchrana",
+      "nebezpečná situace",
+      "pomoc dospělých",
+      "hrdinství",
+      "nebezpečí"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-029",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Diskutuje, proč není správné pokoušet se samostatně o záchranu tam, kde na to nestačíme, uvede příklady takových situací.",
+        "quote": "Diskutuje, proč není správné pokoušet se samostatně o záchranu tam, kde na to nestačíme, uvede příklady takových situací."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Umíme si poradit",
+        "url": "https://uloziste.rvp.cz/material/65c494"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou příklady, kdy záchrana přesahuje tvoje síly, a zdůvodní proč."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Rady hasičů a záchranářů říkají, kdy volat pomoc místo zásahu."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace v takové chvíli nic nezachrání, rozhodnout se musíš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kdy na záchranu nestačíš, poznáš ty na místě, žádný nástroj to nepoví."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1d21f6ad-340f-45da-a0a3-4e83867f47a6"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

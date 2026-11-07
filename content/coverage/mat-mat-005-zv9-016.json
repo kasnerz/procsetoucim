@@ -1,0 +1,55 @@
+{
+  "outcome": "MAT-MAT-005-ZV9-016",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "sestaví tabulku nebo grafické znázornění popisující situaci s poměrem a procenty",
+      "cards": [
+        "tabulka-a-graf-pomeru-a-procent"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "popíše a zdůvodní závislosti v řešeném problému",
+      "cards": [
+        "zavislosti-v-uloze-s-pomerem"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší reálné problémy s procenty.",
+      "cards": [
+        "procenta-v-realnych-ulohach"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Řeší reálné problémy pomocí poměru a úměry.",
+      "cards": [
+        "pomer-a-umera-v-uloham"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zapíše podíl jako dva stejné poměry a modeluje proporcionální vztah.",
+      "cards": [
+        "podil-jako-dva-stejne-pomery"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Řeší jednoduché úlohy pomocí poměru a procent.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

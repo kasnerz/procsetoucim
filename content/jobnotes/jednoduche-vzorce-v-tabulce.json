@@ -1,0 +1,14 @@
+{
+ "draftedBy": "claude-sonnet-5-5",
+ "promptVersion": "jobnotes-v2",
+ "notes": {
+  "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": "Vzorce jsou základ této práce: součty, průměry a další výpočty se v tabulce zadají jednou pro celý sloupec, nepočítají se ručně u každého řádku.",
+  "ac8b3cd1-a127-4e6a-8208-5cfcf7111955": "Průměry a další statistické funkce se v tabulce počítají vzorcem a výsledky jdou rovnou do analýzy. Pokročilejší metody už jdou nad základní funkce.",
+  "219d1c30-3849-4de3-b0d6-07da187b6521": "Náklady na materiál, práci a čas se v tabulce sčítají vzorci, takže změna jedné ceny přepíše celý odhad.",
+  "ff656b3a-65a8-4b4f-b04e-9db12936519b": "Z dat o porodnosti nebo úmrtnosti se vzorci počítají změny a podíly. Složitější statistika už jde nad rámec jednoduchých funkcí.",
+  "84fabf82-4abf-4f41-99aa-55718a2e500b": "Součty a rozdíly v účetních údajích se v tabulce počítají vzorcem, takže se nepřepisují ručně a méně se chybuje.",
+  "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230": "Údaje o výrobě a přepravě se v tabulce sčítají a porovnávají vzorci, a z toho se hledají úspornější řešení.",
+  "99492920-e5a5-4dba-9e5a-93193147198c": "Statistické údaje se v tabulce zpracují vzorci a funkcemi. Ekonomické modely jsou ale složitější než jednoduchý vzorec.",
+  "6e92d4b5-3167-4166-802f-da7753951a31": "Výsledky dotazníků se zpracují tabulkovými funkcemi, třeba součty a průměry odpovědí, a z nich se píše zpráva pro zákazníka."
+ }
+}

@@ -1,0 +1,435 @@
+{
+  "outcome": "CSP-OSV-003-ZV9-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "povinnosti-a-volny-cas",
+      "title": "Povinnosti a volný čas",
+      "aliases": [
+        "povinnosti",
+        "volný čas",
+        "co musím a co chci",
+        "škola a volno"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Rozpoznává rozdíl mezi povinnostmi a volným časem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Na tvůj seznam dne ti řekne, co je povinnost a co volno, a zeptá se na sporné případy."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Rozdíl mezi povinností a volnem poznáš z vlastního dne, ne z webu."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s úkoly jen třídí položky, které do nich zadáš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír se dvěma sloupci Musím a Chci ti rozdělí den na dvě části."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/65ca5e3c-940c-46b2-b277-aff394cfdd4c",
+        "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3"
+      ],
+      "inspiration": [
+        "Rovnováha v životě"
+      ]
+    },
+    {
+      "slug": "popis-dne-a-tydne",
+      "title": "Popis svého dne a týdne",
+      "aliases": [
+        "můj den",
+        "můj týden",
+        "denní režim",
+        "rozvrh dne",
+        "co dělám během týdne"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "popíše členění svého běžného dne a týdne"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se na čas vstávání, školu a kroužky a pomůže ti den srovnat do pořadí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvůj den na webu nenajdeš, znáš ho jen ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kalendář nebo plánovač ti ukáže týden po hodinách a vyjdou z něj mezery."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový rozvrh týdne s hodinami ti ukáže, kam čas teče."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/65ca5e3c-940c-46b2-b277-aff394cfdd4c",
+        "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3"
+      ],
+      "inspiration": [
+        "Můj týden pod lupou"
+      ]
+    },
+    {
+      "slug": "vyvazeny-denni-plan",
+      "title": "Návrh vyváženého dne",
+      "aliases": [
+        "denní plán",
+        "rozvrh dne",
+        "aktivita a odpočinek",
+        "učení a volno",
+        "domácí povinnosti"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zkouší si vhodné členění dne z hlediska rovnováhy mezi aktivitou a odpočinkem"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Navrhuje a diskutuje o členění dne, ve kterém je v rovnováze různý typ aktivit a odpočinku (učení, podílení se na činnostech v domácnosti, volnočasové aktivity apod.)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná tvůj návrh dne s jiným a ptá se, kdy si odpočineš. O plánu se s ním můžeš dohadovat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tipy, kolik spánku a pohybu děti obvykle potřebují."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Plánovač dne ti ukáže, jestli se učení, domácnost a volno vejdou do hodin."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový rozvrh dne barevně rozliší učení, domácnost a odpočinek."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/65ca5e3c-940c-46b2-b277-aff394cfdd4c",
+        "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3"
+      ],
+      "inspiration": [
+        "Můj den jako tým – kdo ve mně rozhoduje?"
+      ]
+    },
+    {
+      "slug": "aktivity-pro-wellbeing",
+      "title": "Aktivity, po kterých se cítíš dobře",
+      "aliases": [
+        "wellbeing",
+        "pohoda",
+        "co mi dělá dobře",
+        "odpočinek",
+        "duševní pohoda"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozpozná aktivity a činnosti, které přispívají k jeho wellbeingu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se, po čem se cítíš lépe, a pomůže ti pojmenovat, co ti dělá dobře."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popis, co pomáhá psychické pohodě: spánek, pohyb, přátelé."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Jak se cítíš, ti neřekne žádná aplikace, jen ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pocit pohody si nezměříš ani na papíře, vnímáš ho ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3",
+        "http://data.europa.eu/esco/skill/988c06ea-7ab9-4ee4-a64b-9e93f2527c6d"
+      ],
+      "inspiration": [
+        "Rovnováha v životě"
+      ]
+    },
+    {
+      "slug": "zivotni-role-a-hodnoty",
+      "title": "Životní role a hodnoty",
+      "aliases": [
+        "moje role",
+        "co je pro mě důležité",
+        "hodnoty",
+        "kdo jsem doma a ve škole"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "diskutuje o svých životních rolích a hodnotách a na konkrétních příkladech rozpoznává ty, které jsou pro něj důležité"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se na tvé role (dítě, kamarád, žák, člen kroužku) a na to, co je pro tebe důležité."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co je důležité pro tebe, na webu nenajdeš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvé hodnoty neznají a nemá je co porovnat."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka jen zapíšou, co si rozmyslíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ],
+      "inspiration": [
+        "Cesty životem"
+      ]
+    },
+    {
+      "slug": "role-a-kariera",
+      "title": "Životní role a kariérní cesta",
+      "aliases": [
+        "role v životě",
+        "kariéra",
+        "budoucí povolání",
+        "práce a rodina",
+        "jak se mění role"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "seznamuje se vztahem mezi kariérovou cestou a různými životními rolemi (např. vzhledem k věku, sociálnímu postavení, genderu)"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje vlastní aktuální životní role a jejich proměny v budoucnosti ve vztahu ke své představě kariérové cesty."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Popíše, jak se role mění s věkem, a zeptá se, jak si představuješ sebe za deset let."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příběhy lidí a popisy povolání, ze kterých vidíš, jak se práce skládá s rodinou."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s popisem povolání ukáže práci, ne tvé role a tvou cestu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Čára života na papíře ti ukáže, kdy se změní škola, práce a rodina."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed"
+      ],
+      "inspiration": [
+        "Cesty životem"
+      ]
+    },
+    {
+      "slug": "kariera-hodnoty-a-wellbeing",
+      "title": "Kariérní cíle, hodnoty a wellbeing",
+      "aliases": [
+        "moje cíle",
+        "kariérní cíle",
+        "co chci dělat",
+        "řízení vlastní dráhy",
+        "práce a pohoda"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "získává dovednosti potřebné k řízení vlastní profesní a vzdělávací dráhy s ohledem na svůj wellbeing"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje vztah mezi svými kariérovými cíli, životními hodnotami a vlastním wellbeingem."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Zeptá se, co chceš dělat a co k tomu potřebuješ, a upozorní na rozpory s tvými hodnotami."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu školy a úřadů práce najdeš přehled oborů, škol a povolání."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s testem povolání dá tip, ale tvé hodnoty ti nezváží."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Tabulka cílů a hodnot na papíře ti ukáže, co si odporuje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "http://data.europa.eu/esco/skill/cc3b901c-4d66-48f8-90b9-41883be1e1ed",
+        "http://data.europa.eu/esco/skill/fbdfc3bf-56a0-4454-a17d-2f513fe57b53"
+      ],
+      "inspiration": [
+        "Cesty životem"
+      ]
+    },
+    {
+      "slug": "podpora-blizkych-pro-karieru",
+      "title": "Blízcí lidé a kariérní rozvoj",
+      "aliases": [
+        "podpora rodiny",
+        "kdo mi pomáhá",
+        "zázemí",
+        "kamarádi a budoucnost"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Posuzuje význam podpůrných mezilidských vztahů a sociálního zázemí v osobním životě pro svůj kariérový rozvoj."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti sepsat, kdo ti pomáhá, a zeptá se, jak ti pomohou s dalším studiem."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Kdo ti doma a mezi kamarády pomáhá, na webu nezjistíš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nezná tvé blízké a jejich podporu nezhodnotí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Nakreslená mapa blízkých lidí ti ukáže, na koho se obrátit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ],
+      "inspiration": [
+        "Význam volnočasových aktivit"
+      ]
+    },
+    {
+      "slug": "prinos-volnocasovych-aktivit",
+      "title": "Co mi dávají volnočasové aktivity",
+      "aliases": [
+        "kroužky",
+        "koníčky",
+        "volný čas",
+        "co se v kroužku naučím",
+        "zájmy a práce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje přínos svých volnočasových aktivit z hlediska svého osobního a kariérového rozvoje."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se, co ti kroužek dal, a pomůže ti propojit to s dovednostmi do práce."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš popisy povolání, ve kterých se využijí dovednosti z koníčků."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s kroužky ukáže nabídku, ale co ti dal tvůj, nevyčte."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Seznam kroužků a dovedností na papíře ti ukáže, co z nich máš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+        "http://data.europa.eu/esco/skill/9efc639c-712f-4857-acf9-ad311b7d69f3"
+      ],
+      "inspiration": [
+        "Význam volnočasových aktivit"
+      ]
+    }
+  ],
+  "aside": []
+}

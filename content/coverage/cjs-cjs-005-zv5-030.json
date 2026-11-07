@@ -1,0 +1,123 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-030",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Řekne „ne“ v situacích, které to vyžadují (při nevhodném dotýkání).",
+      "cards": [
+        "rict-ne-nevhodnemu-dotykani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Uvede, koho v případě potřeby přivolat na pomoc a jak.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bz-komu-se-obratit"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Řeší konflikty s vrstevníky dohodou, odmítá násilí, ponižování.",
+      "cards": [
+        "konflikty-dohodou-bez-nasili"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Reaguje vhodně v modelových situacích na neadekvátní chování se sexuálním podtextem, aktivně se proti takovým způsobům chování vymezuje.",
+      "cards": [
+        "rict-ne-nevhodnemu-dotykani"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Předvede v modelové situaci odmítnutí komunikace, která je mu nepříjemná.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bz-odmitnuti-neprijemne-komunikace"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Předvede způsoby jednání v případě vlastního ohrožení a ohrožení jiných.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bz-chovani-v-ohrozeni-modelove-situace"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozpozná v modelových situacích způsoby chování, které už nelze tolerovat a navrhuje postupy vhodné reakce (požádání o pomoc důvěryhodnou osobu či instituci).",
+      "cards": [
+        "neprijatelne-chovani-a-pomoc"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozhodne na modelových příkladech, které chování ve vztahu lze považovat za respektující a bezpečné a proti kterým způsobům chování je třeba se vymezit.",
+      "cards": [
+        "respektujici-navazovani-vztahu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede, na kterou důvěryhodnou osobu či instituci se obrátí v případě pocitu ohrožení sexuálním zneužíváním.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bz-komu-se-obratit"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná na modelových příkladech projevy partnerského, sexuálního a/nebo genderově podmíněného násilí.",
+      "cards": [
+        "rozpoznani-nasili-ve-vztahu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uplatňuje v modelových situacích respektující chování při navazování vrstevnických vztahů.",
+      "cards": [
+        "respektujici-navazovani-vztahu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Identifikuje v modelových situacích chování osob, kterým ohrožují bezpečí druhých, a zdůvodní právo takové chování odmítnout.",
+      "cards": [
+        "neprijatelne-chovani-a-pomoc"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Pozná bezpečné sexuální chování a obrátí se na důvěryhodnou osobu v případě pocitu ohrožení.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

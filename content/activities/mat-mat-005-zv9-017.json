@@ -1,0 +1,383 @@
+[
+  {
+    "slug": "vyraz-pro-situaci-s-vice-promennymi",
+    "title": "Výraz pro situaci s více proměnnými",
+    "aliases": [
+      "zápis výrazu",
+      "písmena místo čísel",
+      "proměnné",
+      "slovní úloha výrazem",
+      "algebra"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Používá výrazy pro znázornění problémových situací s více proměnnými.",
+        "quote": "Používá výrazy pro znázornění problémových situací s více proměnnými."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Kavárna na festivalu – Kolik si vyděláme?",
+        "url": "https://uloziste.rvp.cz/material/cd139e"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak z příběhu vzniká výraz, a zadá ti další situace k zápisu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorově řešené příklady, podle kterých si zápis výrazu vyzkoušíš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Cvičná aplikace nebo tabulka ti ověří, jestli tvůj výraz dává správné hodnoty."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papíře si situaci nakreslíš a výraz z obrázku vyčteš krok za krokem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "algebraicke-dlazdice",
+    "title": "Výrazy z algebraických dlaždic",
+    "aliases": [
+      "algebraické dlaždice",
+      "dlaždice",
+      "skládání výrazů",
+      "obrázek výrazu",
+      "modelování výrazu"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "využívá manipulace s geometrickými útvary (algebraickými dlaždicemi) pro modelování algebraických výrazů a jejich úpravy",
+        "quote": "využívá manipulace s geometrickými útvary (algebraickými dlaždicemi) pro modelování algebraických výrazů a jejich úpravy"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Dlaždice skládáš a přesouváš ty, chatbot ti je do ruky nevloží."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš obrázky a návody, jak dlaždicemi znázornit výraz."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s virtuálními dlaždicemi ti je nechá přesouvat a ukáže výsledek úpravy."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírové nebo plastové dlaždice si složíš a úpravu výrazu vidíš před sebou."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "scitani-a-odcitani-vyrazu",
+    "title": "Sčítání a odčítání výrazů",
+    "aliases": [
+      "sčítání mnohočlenů",
+      "odčítání mnohočlenů",
+      "sloučení členů",
+      "úprava výrazu",
+      "lineární výrazy"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Sčítá a odčítá výrazy.",
+        "quote": "Sčítá a odčítá výrazy."
+      },
+      {
+        "level": "Na cestě",
+        "point": "sčítá a odčítá lineární výrazy i mnohočleny pomocí vizualizace",
+        "quote": "sčítá a odčítá lineární výrazy i mnohočleny pomocí vizualizace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, které členy se sloučí, a zkontroluje tvůj postup po krocích."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení s příklady a cvičení s výsledky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na úpravu výrazů ti ukáže, jestli ti členy vyšly správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na papíře členy podtrháváš a slučuješ a kalkulačkou ověříš dosazením čísla."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/55e910e4-736d-44cf-bfa9-b15adc5d91d2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nasobeni-mnohoclenu",
+    "title": "Násobení mnohočlenu jednočlenem i mnohočlenem",
+    "aliases": [
+      "roznásobení závorek",
+      "násobení závorek",
+      "mnohočleny",
+      "jednočlen",
+      "roznásobit"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Násobí mnohočlen jednočlenem i mnohočlenem.",
+        "quote": "Násobí mnohočlen jednočlenem i mnohočlenem."
+      },
+      {
+        "level": "Na cestě",
+        "point": "násobí mnohočlen jednočlenem i mnohočlenem pomocí vizualizace",
+        "quote": "násobí mnohočlen jednočlenem i mnohočlenem pomocí vizualizace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak se roznásobuje závorka, a projde s tebou chyby v tvém postupu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš postupy s obrázky ploch a cvičení s řešením."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na úpravu výrazů ověří, jestli závorky vyšly správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Obdélník nakreslený na papír ti ukáže, kam patří jednotlivé součiny."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/55e910e4-736d-44cf-bfa9-b15adc5d91d2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "deleni-mnohoclenu-jednoclenem",
+    "title": "Dělení mnohočlenu jednočlenem",
+    "aliases": [
+      "dělení výrazů",
+      "krácení výrazu",
+      "dělení mnohočlenu",
+      "dělení závorky",
+      "algebraické dělení"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Dělí mnohočlen jednočlenem.",
+        "quote": "Dělí mnohočlen jednočlenem."
+      },
+      {
+        "level": "Na cestě",
+        "point": "dělí mnohočlen jednočlenem pomocí vizualizace",
+        "quote": "dělí mnohočlen jednočlenem pomocí vizualizace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, že se dělí každý člen zvlášť, a opraví tvůj postup."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové příklady dělení a úlohy s výsledky na kontrolu."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na úpravu výrazů ti potvrdí, jestli podíl vyšel správně."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Výsledek ověříš na papíře zpětným vynásobením."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/55e910e4-736d-44cf-bfa9-b15adc5d91d2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pravidla-pro-umocnovani",
+    "title": "Zjednodušení výrazů s mocninami",
+    "aliases": [
+      "umocňování",
+      "mocniny",
+      "exponenty",
+      "pravidla pro mocniny",
+      "exponenciální výrazy"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Určí hodnotu a zjednoduší exponenciální výrazy, použije k tomu pravidla pro umocňování.",
+        "quote": "Určí hodnotu a zjednoduší exponenciální výrazy, použije k tomu pravidla pro umocňování."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí pravidla pro mocniny na příkladech a zkontroluje tvoje zjednodušení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš přehled pravidel pro mocniny a příklady s výsledky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na úpravu výrazů ti ukáže zjednodušený tvar na porovnání."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka spočítá hodnotu mocniny, takže si ověříš výsledek úpravy."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vytykani-ve-vyrazech",
+    "title": "Vytýkání a rozklad výrazů",
+    "aliases": [
+      "vytýkání",
+      "vytknout před závorku",
+      "rozklad na součin",
+      "rozklad výrazu",
+      "úprava výrazů"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Upravuje výrazy s využitím vytýkání lineárních a exponenciálních výrazů.",
+        "quote": "Upravuje výrazy s využitím vytýkání lineárních a exponenciálních výrazů."
+      },
+      {
+        "level": "Na cestě",
+        "point": "upraví mocninné výrazy i mnohočleny například rozkladem a vytýkáním pomocí vizualizace",
+        "quote": "upraví mocninné výrazy i mnohočleny například rozkladem a vytýkáním pomocí vizualizace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co mají členy společné, a prověří, jestli vytýkání sedí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorově vyřešené příklady vytýkání a cvičení s výsledky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na úpravu výrazů ti ukáže rozložený tvar, se kterým porovnáš svůj."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Zpětným roznásobením na papíře poznáš, že je vytýkání v pořádku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/55e910e4-736d-44cf-bfa9-b15adc5d91d2"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

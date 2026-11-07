@@ -1,0 +1,31 @@
+{
+  "outcome": "JJK-AJA-004-ZV9-020",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Zprostředkuje dílčí informace uvedené v mluveném a psaném textu či vizuálních materiálech z cílového jazyka do češtiny či OMJ.",
+      "cards": [
+        "rekni-cesky-co-zaznelo-anglicky",
+        "rekni-cesky-co-je-v-anglickem-clanku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zprostředkuje dílčí informace uvedené v mluveném a psaném textu či vizuálních materiálech z češtiny či OMJ do cílového jazyka.",
+      "cards": [
+        "rekni-anglicky-co-je-v-ceskem-textu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zprostředkuje konkrétní informace uvedené v mluveném a psaném textu a zprostředkuje informace zobrazené ve vizuálních materiálech.",
+      "cards": [
+        "popis-grafu-a-diagramu-anglicky"
+      ],
+      "aside": null
+    }
+  ]
+}

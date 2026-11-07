@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když vybíráš oběd ze dvou polévek, tří hlavních jídel a dvou dezertů, stromový graf ti ukáže všechny kombinace jako větve a nemusíš je držet v hlavě. Každá cesta od kořene ke konci větve je jedna možnost, takže je stačí spočítat. Stejný obrázek se hodí, když plánuješ cestu s přestupy nebo přemýšlíš, jak může dopadnout rozhodnutí v několika krocích. Lidé, kteří posuzují, co se může pokazit na stroji nebo ve firmě, kreslí podobné stromy, aby jim žádná možnost neutekla. Kreslicí aplikace strom zpřehlední, ale rozvětvit ho podle úlohy musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Kódy na zámku se třemi kolečky",
+      "text": "Nech si od chatbota zadat zámek se třemi kolečky, kde má každé jen pár znaků. Nakresli strom všech kódů, spočítej je a výsledek si nech ověřit."
+    },
+    {
+      "title": "Strom popsaný větev po větvi",
+      "text": "Popiš chatbotovi svůj nakreslený strom slovy, větev po větvi, a zeptej se, jestli odpovídá zadání. Opravy dělej na papíře ty."
+    },
+    {
+      "title": "Výlet se dvěma přestupy",
+      "text": "Vymysli výlet se dvěma přestupy, kde máš na každém úseku víc spojů. Nakresli strom všech tras a s chatbotem prober, jak se změní, když jeden spoj nepojede."
+    }
+  ]
+}

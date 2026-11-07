@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tabulka nebo graf ukáže na první pohled to, co by ve větách zabralo celý odstavec, třeba jak se dělí rozpočet třídy nebo kolik procent hlasů dostaly strany ve volbách. Kdo pracuje se statistikou, ekonomikou nebo daty, takové přehledy sestavuje a čte každý den, a těchto míst bude spíš přibývat. Tabulkový program graf nakreslí za pár vteřin. Který druh grafu se k údajům hodí a kdy koláčový graf spíš mate, ale musíš posoudit ty.",
+  "learnWithAi": [
+    {
+      "title": "Koláč z měsíčních útrat",
+      "text": "Sepiš své útraty za měsíc a nakresli z nich koláčový graf v procentech. Chatbotovi pošli tabulku a nech ho zkontrolovat, jestli ti procenta dávají dohromady celý koláč."
+    },
+    {
+      "title": "Zavádějící graf k odhalení",
+      "text": "Požádej chatbota, ať popíše graf, který čísla zkresluje, třeba osou, která nezačíná od nuly. Najdi, co je na něm zavádějící, a teprve pak si přečti jeho vysvětlení."
+    },
+    {
+      "title": "Anketa ve třídě",
+      "text": "Udělej ve třídě krátkou anketu a výsledky převeď do tabulky s procenty i do grafu. Zeptej se chatbota, jaký druh grafu by zvolil on a proč, a porovnej to se svou volbou."
+    }
+  ]
+}

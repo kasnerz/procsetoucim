@@ -1,0 +1,383 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "umely-a-neumely-text",
+      "title": "Umělecký a neumělecký text",
+      "aliases": [
+        "umělecký text",
+        "odborný text",
+        "fikce",
+        "čím se liší básnička od návodu",
+        "umělecké dílo"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Je schopný vysvětlit rozdíl mezi neuměleckými a uměleckými texty"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvědomuje si specifičnost uměleckého textu (díla) a je schopen ji ukázat na konkrétním textu (díle)"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "uvědomuje si specifičnost uměleckého textu (umění)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí rozdíl a ukáže ho na příkladech, rozdíl na konkrétním textu pak hledáš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky a příručky literatury uvádějí znaky uměleckého textu s ukázkami."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Rozdíl mezi textem o skutečnosti a příběhem poznáš při čtení ty, ne program."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj ti rozdíl neukáže, text čteš a porovnáváš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0ab9d433-10e5-4683-ae54-4687179a5259",
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+      ]
+    },
+    {
+      "slug": "ctenarske-portfolio-nejen-pro-deti",
+      "title": "Čtení i mimo knihy pro mladé",
+      "aliases": [
+        "co číst",
+        "výběr knih",
+        "knihy pro dospělé",
+        "moje čtenářství",
+        "čtenářský deník"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vybírá si umělecké texty (umělecká díla se slovesnými prvky) podle svého zájmu a rozšiřuje své čtenářské (divácké...) portfolio a záběr; při výběru se neomezuje na díla určená pro děti či dospívající"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vybírá si umělecké texty (umělecká díla se slovesnými prvky) podle svého zájmu a rozšiřuje své čtenářské (divácké...) portfolio a záběr"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "vybírá si umělecké texty (umělecká díla se slovesnými prvky) podle svého zájmu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Podle toho, co tě baví, navrhne další knihy a filmy, vybíráš z nich ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Čtenářské weby, žebříčky a doporučené seznamy ukazují knihy podobné těm, které tě bavily."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Knihovní a čtenářské aplikace evidují, co čteš, a nabízejí další tituly."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "V knihovně si knihy listuješ a půjčuješ a rychle poznáš, jestli tě zaujmou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0ab9d433-10e5-4683-ae54-4687179a5259",
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+      ]
+    },
+    {
+      "slug": "hlavni-prvky-dila",
+      "title": "Obsah a forma literárního díla",
+      "aliases": [
+        "téma a motiv",
+        "kompozice",
+        "děj a postavy",
+        "rozbor textu",
+        "jazyk díla"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Popíše stěžejní obsahově-formální prvky textu (díla)."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "popíše jednoduše základní obsahově-formální prvky textu (díla)"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "jednoduše popisuje tematickou stránku textu (díla)"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojmy jako téma, motiv nebo kompozice a ověří, zda je tvůj popis díla správný."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příručky a rozbory děl ukazují, jaké prvky v textu hledat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Dílo musíš přečíst ty, aplikace ti ho nepřečte ani nerozebere."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Prvky díla hledáš v textu ty, tužka ti je jen pomůže označit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0ab9d433-10e5-4683-ae54-4687179a5259",
+        "http://data.europa.eu/esco/skill/7bb85eab-18df-437c-adce-7b729abb315e"
+      ]
+    },
+    {
+      "slug": "prozitek-z-divadla-a-filmu",
+      "title": "Vyjádření prožitku z knihy, divadla a filmu",
+      "aliases": [
+        "dojem z filmu",
+        "líbilo se mi",
+        "recenze",
+        "dojem z představení",
+        "jak se mi kniha líbila"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vyjádří svůj prožitek z uměleckého textu, jeho divadelního nebo audiovizuálního zpracování apod."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "vyjádří svůj prožitek z uměleckého textu, jeho divadelního nebo audiovizuálního zpracování apod."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Vyjádří pozitivní anebo negativní emoci vůči literárnímu, divadelnímu a audiovizuálnímu dílu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti najít slova pro to, co cítíš, a zeptá se, co se ti líbilo. Prožitek je ale tvůj."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky čtenářských a filmových recenzí ti dají vzor, jak o dojmu psát."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Prožitek máš ty, aplikace ho za tebe nepocítí ani nepopíše."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dojem z díla neumí vyjádřit žádný přístroj, vyjadřuješ ho ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+        "http://data.europa.eu/esco/skill/1633770e-5606-4422-b293-6c8c551fe663"
+      ]
+    },
+    {
+      "slug": "dilo-a-moje-zkusenost",
+      "title": "Souvislosti mezi dílem a mou zkušeností",
+      "aliases": [
+        "co mi to připomíná",
+        "kniha a můj život",
+        "přečtené knihy a filmy",
+        "podobné příběhy",
+        "moje zkušenost s textem"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "uvědoměle hledá souvislosti mezi dílem a vlastními čtenářskými a diváckými zkušenostmi"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "je schopen nacházet širší souvislosti mezi dílem a vlastními čtenářskými a diváckými zkušenostmi"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se, co ti dílo připomíná, a navrhne podobné knihy a filmy. Zkušenost je tvoje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznamy podobných děl ti ukážou, s čím se dílo dá srovnat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Svůj život a dosavadní čtení zná jen ten, kdo je zažil, tedy ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zkušenost si s dílem spojuješ v hlavě, nástroj ti to neusnadní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+      ]
+    },
+    {
+      "slug": "sdileni-prozitku-a-kulturni-diskuse",
+      "title": "Sdílení prožitků z díla a diskuse o nich",
+      "aliases": [
+        "diskuse o knize",
+        "jiný názor na film",
+        "čtenářský kroužek",
+        "rozdílné dojmy",
+        "slušná diskuse"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Sdílí své čtenářské (posluchačské, divácké) prožitky s prožitky ostatních a předjímá a současně přijímá jejich možnou rozdílnost; v diskusi se vyjadřuje kultivovaně."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "sdílí své čtenářské (posluchačské, divácké) prožitky s prožitky ostatních a přijímá jejich možnou rozdílnost; v diskusi se vyjadřuje kultivovaně"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "S ostatními mluvíš ty, jejich dojmy slyšíš naživo a chatbot za tebe nikoho neposlouchá."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Diskuse se vede se spolužáky, internet za tebe nikoho neposlechne ani neodpoví."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Se spolužáky se bavíš ty, aplikace tvůj názor nepředá a cizí ti nevysvětlí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "V rozhovoru přijímáš cizí názory a mluvíš za sebe ty, žádný nástroj to neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+      ]
+    },
+    {
+      "slug": "system-literarnich-poznatku",
+      "title": "Literární pojmy a vztahy mezi nimi",
+      "aliases": [
+        "literární pojmy",
+        "literární teorie",
+        "druhy a žánry",
+        "uspořádání poznatků",
+        "pojmy z umění"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "si na základě svých stávajících znalostí vytváří relativně ucelený systém literárních poznatků"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "si v návaznosti na svoje stávající znalosti spontánně osvojuje literární pojmy"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem a dá příklady, můžeš si nechat ověřit, zda si pojmy spojuješ správně."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovníky literárních pojmů a encyklopedie pojmy přesně definují."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kartičky na učení pojmů ti pomůžou je procvičit."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník literárních pojmů v knize ti pojem vysvětlí a ukáže na ukázkách."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7bb85eab-18df-437c-adce-7b729abb315e",
+        "http://data.europa.eu/esco/skill/3659c733-e366-4a2f-86c6-304ab01481cc"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "získává či udržuje si základní čtenářské návyky",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na cestě",
+      "start": "rozvíjí své čtenářské návyky",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "formuluje své čtenářské či posluchačské prožitky",
+      "code": "O1",
+      "refs": [
+        "dojmy-ze-cteni-a-poslechu",
+        "text-a-moje-zkusenost"
+      ]
+    }
+  ]
+}

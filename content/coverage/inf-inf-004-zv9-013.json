@@ -1,0 +1,150 @@
+{
+  "outcome": "INF-INF-004-ZV9-013",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Vybírá bezpečné aplikace a webové stránky, rozpozná varovné signály.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "overene-aplikace-varovne-signaly"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Uvede možná opatření pro bezpečné připojení k digitálním zařízením.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bezpecne-pripojeni-wifi-pevne"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Používá silná hesla, vysvětlí význam biometrických údajů pro zabezpečení.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "bezpecna-hesla-rizika-dat"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Rozliší různé typy dat a informací, popíše rizika jejich sdílení a uvede příklady možných důsledků.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "citliva-data-zneuziti-udaju"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Zjišťuje, jak algoritmy mění obsah na internetu podle toho, co dělá uživatel, a diskutuje o tom, jak to může ovlivnit jeho vlastní rozhodování.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "obsah-internetu-podle-chovani"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Na základě porozumění tomu, jak fungují počítače a sítě, vysvětlí základní podstatu běžných kybernetických útoků (např. malware, ransomware, phishing, DDoS útoky…).",
+      "cards": [
+        "druhy-kyberutoku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Učí se posuzovat funkčnost bezpečnostních nástrojů, které jeho operační systém nabízí (aktualizace software, firewall, antivir, webový štít…).",
+      "cards": [
+        "bezpecnostni-nastroje-systemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Nastavuje pravidla přístupu ke svým datům a k jejich sdílení.",
+      "cards": [
+        "pristup-k-datum-v-cloudu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Navrhne vlastní pravidla pro ovlivnění své (nevědomé) digitální stopy, kterou svojí činností vytváří (např. cookies, metadata, historie a logování činnosti, sledování uživatele při pohybu v cloudu).",
+      "cards": [
+        "pravidla-pro-digitalni-stopu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětlí, jak je možné, že různí uživatelé získávají různý obsah stejných služeb (výsledky vyhledávání, reklama, obsah sociálních sítí).",
+      "cards": [
+        "ruzny-obsah-pro-ruzne-uzivatele"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Sleduje aktuální bezpečnostní situaci, analyzuje aktuální rizika a vysvětlí, jak lze předcházet kyberútokům, které by se ho mohly týkat.",
+      "cards": [
+        "aktualni-rizika-a-obrana"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Ověřuje funkčnost bezpečnostních nástrojů, které jeho operační systém nabízí, řeší nalezené nedostatky, případně vyhledá odbornou pomoc.",
+      "cards": [
+        "bezpecnostni-nastroje-systemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "S porozuměním fungování cloudu řídí přístup ke svým datům a k jejich sdílení.",
+      "cards": [
+        "pristup-k-datum-v-cloudu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozhodne se k použití konkrétních pravidel pro minimalizaci své nechtěné digitální stopy (metadata, logy, data dalších uživatelů), svou volbu zdůvodní.",
+      "cards": [
+        "pravidla-pro-digitalni-stopu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Diskutuje přínosy a rizika algoritmicky personalizovaného či generovaného obsahu.",
+      "cards": [
+        "ruzny-obsah-pro-ruzne-uzivatele"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Dodržuje pravidla a zásady ochrany při práci s daty.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

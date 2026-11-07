@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Ve velké tabulce s tisíci řádky už jeden součet nestačí. Funkce je potřeba skládat do sebe, třeba spočítat průměr jen u řádků, které splní podmínku, nebo dohledat cenu podle kódu zboží. Takhle pracují lidé, kteří hlídají náklady firmy, nastavují ceny nebo řídí nákup a dodávky, a takových míst spíš přibude. Chatbot ti složený vzorec napíše rychle, ale u velké tabulky chybu okem nepoznáš. Proto je potřeba umět vzorec přečíst a ověřit ho na pár řádcích ručně.",
+  "learnWithAi": [
+    {
+      "title": "Složený vzorec po částech",
+      "text": "Popros chatbota o jeden složený vzorec, třeba průměr s podmínkou, a rozeber ho po částech vlastními slovy. Nech si říct, kde je tvůj výklad špatně."
+    },
+    {
+      "title": "Kontrola na třech řádcích",
+      "text": "Když ti chatbot napíše vzorec pro celou tabulku, vyber tři řádky a spočítej je kalkulačkou. Pokud čísla nesedí, popiš mu rozdíl a hledejte chybu spolu."
+    },
+    {
+      "title": "Otázky k prodejům obchodu",
+      "text": "Nech si od chatbota vygenerovat cvičná data o prodejích obchodu za rok a tři otázky, na které z nich jde odpovědět. Vzorce sestav bez jeho pomoci a ukaž mu je až hotové."
+    }
+  ]
+}

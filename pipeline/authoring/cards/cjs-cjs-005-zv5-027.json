@@ -1,0 +1,287 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-027",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "ohen-pomaha-i-skodi",
+      "title": "Oheň, který pomáhá i škodí",
+      "aliases": [
+        "k čemu je oheň",
+        "oheň a nebezpečí",
+        "oheň dobrý sluha",
+        "kdy je oheň nebezpečný"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Popíše, kdy oheň lidem pomáhá a kdy může škodit."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí, k čemu oheň slouží a kdy hrozí požár."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výukové stránky ukážou užitečný i ničivý oheň."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace k tomuhle nic užitečného nenabízí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj ti nepomůže rozlišit užitečný oheň od nebezpečného."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b",
+        "http://data.europa.eu/esco/skill/e2ba5755-d934-486e-b6cb-a938c2857b79"
+      ],
+      "inspiration": [
+        "Oheň pomáhá i škodí",
+        "Oheň je dobrý sluha, ale zlý pán"
+      ]
+    },
+    {
+      "slug": "chovani-pri-pozaru",
+      "title": "Chování při požáru a požárním poplachu",
+      "aliases": [
+        "co dělat při požáru",
+        "požární poplach",
+        "evakuace",
+        "cvičný poplach",
+        "hoří"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Převede v modelové situaci, jak se zachovat v případě vzniku požáru."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Zvládá pod vedením učitele chování v modelové situaci požárního poplachu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Ven ze třídy jdeš ty, chatbot tě z budovy nevyvede."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Při poplachu nemáš čas hledat, řídíš se tím, co se nacvičovalo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tě z hořící budovy neevakuuje."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Únikový plán na zdi ukazuje cestu ven a sraz před školou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511",
+        "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b"
+      ],
+      "inspiration": [
+        "Nebezpečí požáru"
+      ]
+    },
+    {
+      "slug": "signal-pozarniho-poplachu",
+      "title": "Signál požárního poplachu",
+      "aliases": [
+        "siréna",
+        "hlásič požáru",
+        "poplach ve škole",
+        "jak zní poplach"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Rozliší signál požárního poplachu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Zvuk poplachu uslyšíš ve škole, chatbot ti ho nezahraje."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na internetu si můžeš poslechnout ukázku poplachu a naučit se ho poznat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace v telefonu poplach ve škole nezastoupí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj k tomu nepotřebuješ, signál se naučíš poznat uchem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c1b0bfc2-4932-4e03-9077-92bc56042511",
+        "http://data.europa.eu/esco/skill/61268e22-9367-4c3b-91d9-b651e4c142e2"
+      ],
+      "inspiration": [
+        "Nebezpečí požáru"
+      ]
+    },
+    {
+      "slug": "nezpusobit-pozar",
+      "title": "Chování, při kterém nevznikne požár",
+      "aliases": [
+        "jak předejít požáru",
+        "bezpečné chování s ohněm",
+        "hořlavé látky",
+        "zápalky a svíčky"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Předvede v modelové situaci, jak se chovat, aby nezpůsobil požár."
+        },
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Popíše v modelové situaci bezpečné chování při styku s hořlavými látkami, pyrotechnikou a uvede příklady pravidel protipožární ochrany v modelových situacích."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti vysvětlí pravidla a vymyslí situace k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Hasiči mají na webu zásady prevence s příklady."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti bezpečné chování neukáže."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Správně se chováš ty, žádný nástroj to za tebe nedělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e8edc3cf-b12b-4ffc-8546-3657a00ca604",
+        "http://data.europa.eu/esco/skill/861009ea-4d15-4e80-a8dc-7db41ecaf49b"
+      ],
+      "inspiration": [
+        "Oheň je dobrý sluha, ale zlý pán",
+        "Výbušné a hořlavé látky"
+      ]
+    },
+    {
+      "slug": "odmitnuti-ohne-a-pyrotechniky",
+      "title": "Odmítnutí ohně a zábavní pyrotechniky",
+      "aliases": [
+        "petardy",
+        "ohňostroj",
+        "hraní si s ohněm",
+        "proč nesmím petardy",
+        "zapalovač"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Odmítne v modelové situaci použití zábavní pyrotechniky a manipulaci s otevřeným ohněm."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "Zdůvodní, proč manipulovat s otevřeným ohněm a zábavní pyrotechnikou mohou pouze dospělí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, proč jsou petardy nebezpečné, a nacvičí s tebou odmítnutí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy a stránky hasičů ukazují, jak petardy zraňují."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Odmítnout kamaráda musíš ty, aplikace to nezvládne."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Nástroj za tebe nikoho neodmítne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5ed83764-c32f-402d-b5b3-168cddfbe4c5",
+        "http://data.europa.eu/esco/skill/e8edc3cf-b12b-4ffc-8546-3657a00ca604"
+      ],
+      "inspiration": [
+        "Pozor na zábavní pyrotechniku"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Uvede příklady, jak může vzniknout",
+      "code": "O1",
+      "refs": [
+        "priciny-a-rizika-pozaru"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Uvede příklady, jak může oheň vzniknout",
+      "code": "O1",
+      "refs": [
+        "priciny-a-rizika-pozaru"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Rozpozná piktogramy",
+      "code": "O1",
+      "refs": [
+        "piktogramy-horlavych-latek"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Vyhledává a popisuje piktogramy",
+      "code": "O1",
+      "refs": [
+        "piktogramy-horlavych-latek"
+      ]
+    }
+  ]
+}

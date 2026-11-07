@@ -1,0 +1,117 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-031",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Dodržuje základní návyky osobní hygieny.",
+      "cards": [
+        "osobni-hygiena-kazdy-den"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Zvládá sebeobsluhu, péči o své věci a blízké prostředí.",
+      "cards": [
+        "sebeobsluha-a-pece-o-veci"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Popisuje svůj denní režim, uvádí činnosti, které se opakují v pracovních dnech, rozlišuje čas na učení, jídlo, zábavu, odpočinek, spánek.",
+      "cards": [
+        "casti-denniho-rezimu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětlí potřebu dodržování pravidelného stravovacího a pitného režimu.",
+      "cards": [
+        "pravidelne-jidlo-a-piti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětlí potřebu dodržování pravidelného pohybového režimu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "pravidelnost-delka-intenzita"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětlí potřebu dodržování pravidelného spánkového režimu pro zdraví.",
+      "cards": [
+        "pravidelny-spanek"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Naplánuje svůj čas a uplatňuje své potřeby i s ohledem na nároky a potřeby jiných osob.",
+      "cards": [
+        "planovani-casu-s-ohledem-na-druhe"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Diskutuje, které aktivity je vhodné zařazovat do denního režimu, a které činnosti v denním režimu mohou představovat zdravotní problémy.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "ktere-cinnosti-dne-zdravi-prospivaji-a-skodi"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše/předvede prvky duševní hygieny, které zařazuje do vlastního denního režimu.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "relaxacni-techniky-psychohygiena-kompenzace"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Zdůvodní potřebu uplatňování základních hygienických opatření při prevenci nákazy i šíření infekčních nemocí.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "osobni-hygiena-a-nakazy-denni-rezim-hygiena"
+        ]
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Zhodnotí v modelových situacích, jak může dodržování/nedodržování denního režimu ovlivňovat lidské zdraví.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "rizika-spatneho-denniho-rezimu-a-nemoci"
+        ]
+      }
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Popíše složky vlastního denního režimu a osvojené znalosti uplatňuje v každodenním životě.",
+      "cards": [
+        "casti-denniho-rezimu"
+      ],
+      "aside": null
+    }
+  ]
+}

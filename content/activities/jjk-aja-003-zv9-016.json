@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "anglicky-email-dopis-se-strukturou",
+    "title": "Anglický e-mail nebo dopis se zdvořilým rámcem",
+    "aliases": [
+      "e-mail v angličtině",
+      "dopis v angličtině",
+      "formal letter",
+      "psaní e-mailu",
+      "Dear a Best wishes"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Napíše jednoduchý text, například dopis nebo e-mail s odpovídající strukturou, ve kterém sdělí základní informace nebo požadavek. Text je srozumitelný, i když s možnými drobnými nepřesnostmi, které nebrání pochopení.",
+        "quote": "Napíše jednoduchý text, například dopis nebo e-mail s odpovídající strukturou, ve kterém sdělí základní informace nebo požadavek."
+      },
+      {
+        "level": "Splněno",
+        "point": "Srozumitelně a přehledně formuluje text svého sdělení.",
+        "quote": "Srozumitelně a přehledně formuluje text svého sdělení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Writting an email",
+        "url": ""
+      },
+      {
+        "title": "Let's answer the letter!",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak e-mail začít a skončit, a ukáže chyby v tvém textu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové e-maily a seznamy frází ukážou, jak se píše oslovení a rozloučení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kontrola pravopisu najde překlepy a slovník poradí s výrazem."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník a tištěná příručka s frázemi ti pomohou najít správné slovo."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicke-otazky-pokyny-informace-v-psane-zprave",
+    "title": "Otázky, pokyny a informace v psané zprávě",
+    "aliases": [
+      "ptát se anglicky písemně",
+      "pokyny v angličtině",
+      "požádat o informace",
+      "napsat otázku anglicky",
+      "please send me"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Pokládá otázky, dává pokyny či poskytuje informace.",
+        "quote": "Pokládá otázky, dává pokyny či poskytuje informace."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak se zdvořile ptát a žádat, a opraví tvou větu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Seznam frází pro prosby a otázky ti poslouží jako vzor."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač a kontrola pravopisu ověří slovo i větu, kterou napíšeš."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Slovník pomůže najít slovo, které potřebuješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicke-zprostredkovani-psaneho-textu",
+    "title": "Převyprávění anglického textu česky",
+    "aliases": [
+      "přeložit text",
+      "říct česky o čem je text",
+      "shrnutí anglického textu",
+      "porozumění textu",
+      "mediation"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Zprostředkuje základní téma jednoduchého psaného textu, který se týká osvojovaných témat.",
+        "quote": "Zprostředkuje základní téma jednoduchého psaného textu, který se týká osvojovaných témat."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí neznámá slova a zeptá se, jak tvé shrnutí zní."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Internetový slovník dohledá slovo, které neznáš."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ukáže, co slova znamenají, a ty z nich složíš hlavní myšlenku."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový slovník pomůže s neznámým slovem."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

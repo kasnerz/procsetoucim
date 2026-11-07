@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Složitější nerovnice mají závorky, zlomky nebo neznámou na obou stranách, takže se v nich dá pokazit víc úprav. Učí tě držet postup krok za krokem a hlídat znak nerovnosti celou cestu, což se hodí u každého delšího výpočtu. V běžném životě je skoro nepotřebuješ, kdo ale bude studovat techniku nebo přírodní vědy, setká se s nimi znovu. Aplikace postup ukáže, a když ho porovnáš se svým, najdeš přesně krok, kde se znak ztratil.",
+  "learnWithAi": [
+    {
+      "title": "Řada od lehčí k těžší",
+      "text": "Požádej o pět nerovnic, kde každá přidá jednu komplikaci, třeba závorku nebo zlomek. Řeš je postupně a po každé si nech zkontrolovat zakreslení na ose."
+    },
+    {
+      "title": "Číslo řádku s chybou",
+      "text": "Vyřeš nerovnici se závorkami a zlomky a pošli chatbotovi celý postup. Ať ti neřekne výsledek, jen řádek, kde je první chyba."
+    },
+    {
+      "title": "Přepočítaný postup chatbota",
+      "text": "Sestav vlastní složitější nerovnici a nech ji chatbota vyřešit. Jeho postup přepočítej krok po kroku, v delších úpravách se chatbot plete."
+    }
+  ]
+}

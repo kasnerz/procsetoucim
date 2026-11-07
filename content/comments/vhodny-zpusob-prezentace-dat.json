@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stejná čísla můžeš ukázat jako tabulku, graf, seznam nebo mapu a každá podoba se hodí na něco jiného. Jízdní řád je tabulka, protože v něm hledáš jeden řádek, kdežto vývoj teploty za rok se líp čte z čáry. Volit podobu podle toho, kdo to bude číst a co v tom hledá, potřebuje každý, kdo něco předvádí, od referátu ve škole po přehled pro vedení firmy. Nejvíc se tím živí lidé, kteří analyzují data, a takových míst spíš přibude. Aplikace ti zobrazí, o co si řekneš, jenže vybrat vhodnou podobu musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Stejná data ve dvou podobách",
+      "text": "Požádej chatbota o malou sadu dat, třeba počty návštěvníků bazénu po měsících, a zpracuj ji jako tabulku i jako graf. Rozhodni, která podoba se hodí na plakát a která pro správu bazénu."
+    },
+    {
+      "title": "Hádání účelu přehledu",
+      "text": "Nech chatbota popsat pět situací, kdy někdo potřebuje ukázat data, třeba lékárna nebo školní jídelna. Ke každé navrhni podobu a nech si zdůvodnit, kde by volil jinak."
+    },
+    {
+      "title": "Kritika cizího přehledu",
+      "text": "Najdi v novinách nebo na webu obce graf či tabulku a popiš chatbotovi, co ukazuje. Zeptej se ho, komu ta podoba vyhovuje a komu ne, a s jeho názorem se klidně přeli."
+    }
+  ]
+}

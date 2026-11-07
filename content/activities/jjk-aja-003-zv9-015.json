@@ -1,0 +1,244 @@
+[
+  {
+    "slug": "anglicky-rekni-co-potrebujes",
+    "title": "Říct anglicky, co potřebuješ",
+    "aliases": [
+      "I need",
+      "I would like",
+      "říct anglicky co chci",
+      "požádat anglicky",
+      "objednat anglicky"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vyjádří své potřeby jen základními frázemi nebo jednotlivými slovy, často s podporou učitele, na otázky reaguje jednoduše a krátce, při získávání potřebných informací potřebuje dopomoc či podporu.",
+        "quote": "Vyjádří své potřeby jen základními frázemi nebo jednotlivými slovy"
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyjádří své potřeby a vyžádá si informace v běžných situacích, a to s minimální podporou.",
+        "quote": "Vyjádří své potřeby"
+      },
+      {
+        "level": "Splněno",
+        "point": "Jasně vyjadřuje své potřeby a dokáže si samostatně vyžádat potřebné informace, pokládá otázky a reaguje na odpovědi tak, aby potřebné informace získal.",
+        "quote": "Jasně vyjadřuje své potřeby"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "A swallen ankle",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje prodavače nebo recepčního a ty mu anglicky řekneš, co potřebuješ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš hotové fráze pro obchod, hotel nebo doktora s nahrávkou výslovnosti."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s dialogy tě nechá fráze nahlas zopakovat a ohodnotí výslovnost."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník s tebou nemluví, o co žádáš, musíš říct ty člověku naproti."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-vyzadat-si-informace",
+    "title": "Zeptat se anglicky na potřebnou informaci",
+    "aliases": [
+      "zeptat se anglicky",
+      "kde je",
+      "kolik stojí",
+      "how much",
+      "zjistit informace anglicky"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vyjádří své potřeby a vyžádá si informace v běžných situacích, a to s minimální podporou.",
+        "quote": "vyžádá si informace v běžných situacích"
+      },
+      {
+        "level": "Splněno",
+        "point": "Jasně vyjadřuje své potřeby a dokáže si samostatně vyžádat potřebné informace, pokládá otázky a reaguje na odpovědi tak, aby potřebné informace získal.",
+        "quote": "dokáže si samostatně vyžádat potřebné informace"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Phone call to the hotel",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Hraje pracovníka na recepci a ty se ho anglicky ptáš, dokud nezjistíš, co potřebuješ."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzory otázek na cestu, cenu nebo čas a ukázky telefonátů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Překladač ti ukáže, jak se anglicky zeptat, a nahlas to přečte."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník nepromluví za tebe, ptát se musíš ty a v pravý čas."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-doptat-se-na-odpoved",
+    "title": "Reakce na odpověď a doptání v angličtině",
+    "aliases": [
+      "doptat se anglicky",
+      "can you repeat",
+      "nerozumím anglicky",
+      "požádat o zopakování",
+      "follow-up question"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Klade otázky a většinou reaguje tak, aby získal potřebné informace, i když jeho projev může být občas váhavý nebo nepřesný, zvláště při složitějších situacích.",
+        "quote": "Klade otázky a většinou reaguje tak, aby získal potřebné informace"
+      },
+      {
+        "level": "Splněno",
+        "point": "Jasně vyjadřuje své potřeby a dokáže si samostatně vyžádat potřebné informace, pokládá otázky a reaguje na odpovědi tak, aby potřebné informace získal.",
+        "quote": "pokládá otázky a reaguje na odpovědi tak, aby potřebné informace získal"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Phone call to the hotel",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Odpovídá nejasně, takže se musíš anglicky doptávat, a vysvětlí ti fráze jako Could you repeat that."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš fráze pro požádání o zopakování a nahrávky rozhovorů s doptáváním."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s rozhovory ti nechá zvolit odpověď a ukáže, jestli odpověď obsahuje hledanou informaci."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Papírový slovník nereaguje na to, co člověk řekl, doptat se musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicky-kratky-nazor-a-otazka-na-nazor",
+    "title": "Krátký názor a otázka na názor v angličtině",
+    "aliases": [
+      "říct názor anglicky",
+      "I think",
+      "what do you think",
+      "zeptat se na názor",
+      "souhlasit anglicky"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-015",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vyjádří stručnou formou ústní názor a požádá jinou osobu o názor.",
+        "quote": "Vyjádří stručnou formou ústní názor a požádá jinou osobu o názor."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Hraje spolužáka, ty řekneš názor anglicky, zeptáš se na jeho a on odpoví."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš fráze jako I think a What about you a ukázky krátkých rozhovorů."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s dialogy ti dá fráze nahlas zopakovat a použít v krátké výměně."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník nemá názor ani nikoho, kdo by odpověděl, ptát se musíš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

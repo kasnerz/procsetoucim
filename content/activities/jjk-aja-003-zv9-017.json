@@ -1,0 +1,137 @@
+[
+  {
+    "slug": "anglicky-vyjadreni-pocitu",
+    "title": "Vyjádření pocitů anglicky",
+    "aliases": [
+      "pocity v angličtině",
+      "jak říct radost",
+      "překvapení anglicky",
+      "emoce",
+      "I feel"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vhodně vyjádří své pocity pomocí jazykových prostředků.",
+        "quote": "Vhodně vyjádří své pocity pomocí jazykových prostředků."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Dokáže vyjádřit své pocity pomocí jednoduchých vět a základních jazykových prostředků.",
+        "quote": "Dokáže vyjádřit své pocity pomocí jednoduchých vět a základních jazykových prostředků."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Žák vyjádří své pocity pouze základními slovy nebo jednoduchými frázemi, při vyjadřování emocí je jeho projev často nepřesný nebo váhavý, na pocity druhých jednoduše reaguje.",
+        "quote": "Žák vyjádří své pocity pouze základními slovy nebo jednoduchými frázemi"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Let's express your feelings!",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi slovy pro pocity a dá ti věty k procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "V online slovnících najdeš slova a fráze pro různé pocity."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Slovníčková aplikace ti pocity procvičí a ukáže, jak se čtou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tištěný slovník ti dá přesné slovo pro to, co cítíš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicka-reakce-na-pocity-druhych",
+    "title": "Reakce na pocity druhých anglicky",
+    "aliases": [
+      "reagovat na radost",
+      "co říct kamarádovi",
+      "soucit anglicky",
+      "odpověď na pocity",
+      "I'm sorry to hear that"
+    ],
+    "outcome": "JJK-AJA-003-ZV9-017",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyjadřuje své pocity ústní i písemnou formou a na pocity druhých adekvátně reaguje.",
+        "quote": "Vyjadřuje své pocity ústní i písemnou formou a na pocity druhých adekvátně reaguje."
+      },
+      {
+        "level": "Na cestě",
+        "point": "S menší podporou dokáže reagovat i na pocity ostatních.",
+        "quote": "S menší podporou dokáže reagovat i na pocity ostatních."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Žák vyjádří své pocity pouze základními slovy nebo jednoduchými frázemi, při vyjadřování emocí je jeho projev často nepřesný nebo váhavý, na pocity druhých jednoduše reaguje.",
+        "quote": "na pocity druhých jednoduše reaguje"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Let's express your feelings!",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže, jak slušně odpovědět na radost i smutek, a můžeš si zahrát rozhovor."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš ukázky dialogů a užitečných frází pro reakce."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Reagovat na živého člověka musíš ty, aplikace s frázemi to nenahradí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovník nepoví, jak vhodně odpovědět konkrétnímu člověku."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/f0a84d52-91fd-45ec-9fe9-e363d9318b9e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

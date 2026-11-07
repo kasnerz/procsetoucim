@@ -1793,6 +1793,40 @@
    }
   }
  },
+ "0458929a-f6c9-40ed-8ce3-caa9f03a6b5b": {
+  "id": "0458929a-f6c9-40ed-8ce3-caa9f03a6b5b",
+  "uri": "http://data.europa.eu/esco/occupation/0458929a-f6c9-40ed-8ce3-caa9f03a6b5b",
+  "label": "Obsluha stroje na mletí kávy",
+  "labelAlt": [
+   "operátor stroje na mletí kávy",
+   "obsluha průmyslových kávomlýnků",
+   "operátoři stroje na mletí kávy",
+   "operátorka stroje na mletí kávy"
+  ],
+  "description": "Obsluha stroje na mletí kávy obsluhuje stroje drtící kávová zrna na požadovanou jemnost.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 27,
+    "examples": [
+     "odstranit odpad z potravin",
+     "zajistit soulad výroby potravin s legislativou v oblasti životního prostředí"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 27,
+    "examples": []
+   }
+  }
+ },
  "045f05f2-4ff8-46b2-9d08-e12a81657498": {
   "id": "045f05f2-4ff8-46b2-9d08-e12a81657498",
   "uri": "http://data.europa.eu/esco/occupation/045f05f2-4ff8-46b2-9d08-e12a81657498",
@@ -4422,6 +4456,35 @@
      "čtečky čipů",
      "lokalizovat mikročip u zvířat, zjišťovat přítomnost mirkočipu u zvířat"
     ]
+   }
+  }
+ },
+ "0b15375e-dfdd-4047-9efb-096e0aaee7d2": {
+  "id": "0b15375e-dfdd-4047-9efb-096e0aaee7d2",
+  "uri": "http://data.europa.eu/esco/occupation/0b15375e-dfdd-4047-9efb-096e0aaee7d2",
+  "label": "Prodavač/prodavačka v obchodě",
+  "labelAlt": [
+   "prodavačka v muzejním obchodě",
+   "prodavač v muzejním obchodě"
+  ],
+  "description": "Prodavači v obchodě pracují v obchodech, kde vykonávají asistenční úkony. Pomáhají uživatelům v jejich každodenní práci, jako je objednávání a doplňování zboží a zásob, poskytování obecného poradenství zákazníkům, prodej výrobků a údržba obchodu.",
+  "isco4": "5223",
+  "isco2": "52",
+  "ilo": {
+   "score": 0.38,
+   "gradient": "Gradient 1"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 35,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 35,
+    "examples": []
    }
   }
  },
@@ -14748,6 +14811,32 @@
    }
   }
  },
+ "26087cc4-6226-41b0-9f97-9564ebe90dce": {
+  "id": "26087cc4-6226-41b0-9f97-9564ebe90dce",
+  "uri": "http://data.europa.eu/esco/occupation/26087cc4-6226-41b0-9f97-9564ebe90dce",
+  "label": "Šatnář/šatnářka",
+  "labelAlt": [],
+  "description": "Šatnáři zajišťují, aby kabáty a tašky klientů byly bezpečně uloženy v šatně. Komunikují s klienty za účelem přijímání jejich věcí, mění lístky za odpovídající položky, které vrací jejich vlastníkům. Mohou pomáhat s žádostmi a stížnostmi.",
+  "isco4": "9629",
+  "isco2": "96",
+  "ilo": {
+   "score": 0.29,
+   "gradient": "Minimal Exposure"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 25,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 25,
+    "examples": []
+   }
+  }
+ },
  "260b01cc-7dd6-4584-8863-cae5426819c6": {
   "id": "260b01cc-7dd6-4584-8863-cae5426819c6",
   "uri": "http://data.europa.eu/esco/occupation/260b01cc-7dd6-4584-8863-cae5426819c6",
@@ -17840,6 +17929,39 @@
     "of": 19,
     "examples": [
      "být počítačově gramotný"
+    ]
+   }
+  }
+ },
+ "2ef000b1-8058-4e5a-9646-c5d4e7dbfdae": {
+  "id": "2ef000b1-8058-4e5a-9646-c5d4e7dbfdae",
+  "uri": "http://data.europa.eu/esco/occupation/2ef000b1-8058-4e5a-9646-c5d4e7dbfdae",
+  "label": "Údržbář/údržbářka komunikační infrastruktury",
+  "labelAlt": [
+   "technička oddělení infrastruktury",
+   "technik oddělení infrastruktury"
+  ],
+  "description": "Údržbáři komunikační infrastruktury provádějí instalace, opravy, obsluhu a údržbu infrastruktury pro komunikační systémy.",
+  "isco4": "7422",
+  "isco2": "74",
+  "ilo": {
+   "score": 0.24,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 26,
+    "examples": []
+   },
+   "digital": {
+    "count": 19,
+    "of": 26,
+    "examples": [
+     "směrování sítě ICT",
+     "bezpečnostní rizika sítě ICT",
+     "pořizování zařízení sítí ICT"
     ]
    }
   }
@@ -21045,6 +21167,32 @@
    }
   }
  },
+ "375137f7-5fc2-424e-9f63-d7ff4441c11e": {
+  "id": "375137f7-5fc2-424e-9f63-d7ff4441c11e",
+  "uri": "http://data.europa.eu/esco/occupation/375137f7-5fc2-424e-9f63-d7ff4441c11e",
+  "label": "Umělecký rytec a leptař, umělecká rytkyně a leptařka",
+  "labelAlt": [],
+  "description": "Umělečtí rytci a leptaři gravírují nápisy a ozdobné vzory na šperky a používají k tomu gravírovací pomůcky. Kreslí a upravují nápisy a vzory na výrobku, ryjí vzor do výrobku a začišťují jej.",
+  "isco4": "7313",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 40,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 40,
+    "examples": []
+   }
+  }
+ },
  "375a4d32-0950-45db-9d85-3fc2a86f1d85": {
   "id": "375a4d32-0950-45db-9d85-3fc2a86f1d85",
   "uri": "http://data.europa.eu/esco/occupation/375a4d32-0950-45db-9d85-3fc2a86f1d85",
@@ -21995,6 +22143,35 @@
     "examples": [
      "provádět analýzu dat",
      "používat IT systémy pro komerční účely"
+    ]
+   }
+  }
+ },
+ "3a55bf97-a0d2-47a0-a8b3-b248d32c7969": {
+  "id": "3a55bf97-a0d2-47a0-a8b3-b248d32c7969",
+  "uri": "http://data.europa.eu/esco/occupation/3a55bf97-a0d2-47a0-a8b3-b248d32c7969",
+  "label": "Rytec/rytkyně skla",
+  "labelAlt": [],
+  "description": "Rytci skla gravírují nápisy a ozdobné vzory na skleněné výrobky a používají k tomu gravírovací pomůcky. Kreslí a upravují nápisy a vzory na výrobku, ryjí vzor do výrobku a dokončují jej.",
+  "isco4": "7316",
+  "isco2": "73",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 33,
+    "examples": [
+     "nastavit regulátor stroje",
+     "monitorovat automatizované stroje"
     ]
    }
   }
@@ -37709,6 +37886,43 @@
     "count": 0,
     "of": 19,
     "examples": []
+   }
+  }
+ },
+ "64c7d461-152c-477f-a8e2-c2c537e9d617": {
+  "id": "64c7d461-152c-477f-a8e2-c2c537e9d617",
+  "uri": "http://data.europa.eu/esco/occupation/64c7d461-152c-477f-a8e2-c2c537e9d617",
+  "label": "Síťový technik/síťová technička IKT",
+  "labelAlt": [
+   "technik sítí",
+   "síťový technik",
+   "technička sítí",
+   "síťová technička",
+   "technička sítě",
+   "technik sítě"
+  ],
+  "description": "Síťoví technici IKT instalují, spravují a udržují sítě pro přenos dat, zařízení pro datovou komunikaci a nainstalovaná zařízení v síti, jako jsou tiskárny a úložné sítě. Rovněž analyzují a řeší problémy spojené se sítí hlášené uživateli.",
+  "isco4": "3513",
+  "isco2": "35",
+  "ilo": {
+   "score": 0.43,
+   "gradient": "Gradient 2"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 39,
+    "examples": []
+   },
+   "digital": {
+    "count": 34,
+    "of": 39,
+    "examples": [
+     "směrování sítě ICT",
+     "bezpečnostní rizika sítě ICT",
+     "omezení síťových kabelů ICT"
+    ]
    }
   }
  },
@@ -55718,6 +55932,37 @@
    }
   }
  },
+ "96a0d8d3-d4a6-473d-80d6-b5dbadde940a": {
+  "id": "96a0d8d3-d4a6-473d-80d6-b5dbadde940a",
+  "uri": "http://data.europa.eu/esco/occupation/96a0d8d3-d4a6-473d-80d6-b5dbadde940a",
+  "label": "Pracovník/pracovnice restaurace rychlého občerstvení",
+  "labelAlt": [
+   "pracovnice rychlého občerstvení",
+   "pracovník rychlého občerstvení",
+   "člen týmu restaurace rychlého občerstvení",
+   "členka týmu restaurace rychlého občerstvení"
+  ],
+  "description": "Pracovníci restaurace rychlého občerstvení připravují, vaří a servírují jídla a nápoje.",
+  "isco4": "9411",
+  "isco2": "94",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 24,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 24,
+    "examples": []
+   }
+  }
+ },
  "96be6ac3-5932-4bfc-933d-84b267d0d486": {
   "id": "96be6ac3-5932-4bfc-933d-84b267d0d486",
   "uri": "http://data.europa.eu/esco/occupation/96be6ac3-5932-4bfc-933d-84b267d0d486",
@@ -56159,6 +56404,37 @@
     "examples": [
      "právní předpisy týkající se bezpečnosti ICT"
     ]
+   }
+  }
+ },
+ "9757122b-1161-4f4a-8286-a603d4ad7012": {
+  "id": "9757122b-1161-4f4a-8286-a603d4ad7012",
+  "uri": "http://data.europa.eu/esco/occupation/9757122b-1161-4f4a-8286-a603d4ad7012",
+  "label": "Pracovník/pracovnice lihovaru",
+  "labelAlt": [
+   "operátorka lihovaru",
+   "operátor lihovaru"
+  ],
+  "description": "Pracovníci lihovaru obsluhují průmyslové destilační zařízení a strojní zařízení. Provádějí údržbu a čištění strojů a válcových sudů a razítkují vrchní části sudů.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 25,
+    "examples": [
+     "upravit postupy účelného zpracovávání potravin"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 25,
+    "examples": []
    }
   }
  },
@@ -59031,6 +59307,35 @@
    }
   }
  },
+ "a02a1117-212f-4a49-b21a-d3b971e00e48": {
+  "id": "a02a1117-212f-4a49-b21a-d3b971e00e48",
+  "uri": "http://data.europa.eu/esco/occupation/a02a1117-212f-4a49-b21a-d3b971e00e48",
+  "label": "Pekař/pekařka pizzy",
+  "labelAlt": [
+   "pracovník přípravy pizzy",
+   "pracovnice přípravy pizzy"
+  ],
+  "description": "Pekaři pizzy jsou odpovědní za přípravu a pečení pizzy.",
+  "isco4": "9411",
+  "isco2": "94",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 20,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 20,
+    "examples": []
+   }
+  }
+ },
  "a04eedcf-8424-475a-8dc5-f30a9da4b151": {
   "id": "a04eedcf-8424-475a-8dc5-f30a9da4b151",
   "uri": "http://data.europa.eu/esco/occupation/a04eedcf-8424-475a-8dc5-f30a9da4b151",
@@ -59873,6 +60178,41 @@
     "count": 0,
     "of": 37,
     "examples": []
+   }
+  }
+ },
+ "a256838b-0843-4ad2-a2fb-4531f94e63d8": {
+  "id": "a256838b-0843-4ad2-a2fb-4531f94e63d8",
+  "uri": "http://data.europa.eu/esco/occupation/a256838b-0843-4ad2-a2fb-4531f94e63d8",
+  "label": "Osobní kuchař/kuchařka",
+  "labelAlt": [
+   "soukromý kuchař",
+   "soukromá kuchařka"
+  ],
+  "description": "Osobní kuchaři dodržují pravidla týkající se potravin a hygienických zařízení pro přípravu stravy pro své zaměstnavatele. Berou v úvahu nesnášenlivost zaměstnavatele vůči konkrétním složkám nebo jejich preference a připravují pokrmy v domácnosti zaměstnavatele. Osobní kuchaři mohou být rovněž požádáni, aby při zvláštních příležitostech zorganizovali i malé bankety nebo jiné druhy stolování při zvláštních příležitostech.",
+  "isco4": "3434",
+  "isco2": "34",
+  "ilo": {
+   "score": 0.25,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 3,
+    "of": 50,
+    "examples": [
+     "systémy pro sledování plýtvání potravinami",
+     "používat technologie účinně využívající zdroje ve stravovacích zařízeních",
+     "odstranit odpad z potravin"
+    ]
+   },
+   "digital": {
+    "count": 1,
+    "of": 50,
+    "examples": [
+     "systémy pro sledování plýtvání potravinami"
+    ]
    }
   }
  },
@@ -68617,6 +68957,32 @@
    }
   }
  },
+ "b9de6d8b-1cf6-4722-bf8c-d73aad03bf87": {
+  "id": "b9de6d8b-1cf6-4722-bf8c-d73aad03bf87",
+  "uri": "http://data.europa.eu/esco/occupation/b9de6d8b-1cf6-4722-bf8c-d73aad03bf87",
+  "label": "Kuchař/kuchařka pro přípravu pokrmů z ryb",
+  "labelAlt": [],
+  "description": "Kuchaři pro přípravu pokrmů z ryb jsou odpovědní za přípravu a prezentaci pokrmů z ryb za použití různých technik. K těmto pokrmům mohou rovněž připravovat doplňující omáčky a nakupovat čerstvé ryby.",
+  "isco4": "5120",
+  "isco2": "51",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 34,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 34,
+    "examples": []
+   }
+  }
+ },
  "b9e51ff4-d7fb-4653-bc72-65086ffc6e65": {
   "id": "b9e51ff4-d7fb-4653-bc72-65086ffc6e65",
   "uri": "http://data.europa.eu/esco/occupation/b9e51ff4-d7fb-4653-bc72-65086ffc6e65",
@@ -69061,6 +69427,32 @@
      "používat elektronické zadávání zakázek",
      "knihovny softwarových komponent"
     ]
+   }
+  }
+ },
+ "bbaa1444-2c0a-4f76-8375-d72e3ea968fd": {
+  "id": "bbaa1444-2c0a-4f76-8375-d72e3ea968fd",
+  "uri": "http://data.europa.eu/esco/occupation/bbaa1444-2c0a-4f76-8375-d72e3ea968fd",
+  "label": "Kuchař specializovaný/kuchařka specializovaná na grilování",
+  "labelAlt": [],
+  "description": "Kuchaři specializovaní na grilování připravují a dodávají maso, zeleninu a ryby pomocí grilovacího zařízení, jako jsou grily a rožně.",
+  "isco4": "5120",
+  "isco2": "51",
+  "ilo": {
+   "score": 0.18,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 33,
+    "examples": []
+   },
+   "digital": {
+    "count": 0,
+    "of": 33,
+    "examples": []
    }
   }
  },
@@ -70494,6 +70886,37 @@
      "agilní řízení projektu",
      "lean metody projektového řízení"
     ]
+   }
+  }
+ },
+ "beacd3d6-e414-42ea-baf9-3ddc34fc143a": {
+  "id": "beacd3d6-e414-42ea-baf9-3ddc34fc143a",
+  "uri": "http://data.europa.eu/esco/occupation/beacd3d6-e414-42ea-baf9-3ddc34fc143a",
+  "label": "Lihovarník/lihovarnice",
+  "labelAlt": [
+   "pracovnice zajišťující výrobu lihu a destilátů",
+   "pracovník zajišťující výrobu lihu a destilátů"
+  ],
+  "description": "Lihovarníci získávají alkohol z kvasničného extraktu za účelem jeho použití při výrobě destilovaných likérů. Hodnotí množství kvasinek a teplotu s cílem stanovit vhodné podmínky pro destilaci.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 1,
+    "of": 23,
+    "examples": [
+     "upravit postupy účelného zpracovávání potravin"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 23,
+    "examples": []
    }
   }
  },
@@ -74739,6 +75162,39 @@
      "monitorovat automatizované stroje",
      "nastavit regulátor stroje"
     ]
+   }
+  }
+ },
+ "ca2da084-3bfa-47d8-84ba-ef890191708d": {
+  "id": "ca2da084-3bfa-47d8-84ba-ef890191708d",
+  "uri": "http://data.europa.eu/esco/occupation/ca2da084-3bfa-47d8-84ba-ef890191708d",
+  "label": "Pracovník/pracovnice výroby vermutu",
+  "labelAlt": [
+   "operátor výroby vermutu",
+   "pracovníci výroby vermutu",
+   "operátorka výroby vermutu"
+  ],
+  "description": "Pracovníci výroby vermutu provádějí všechny výrobní procesy nutné k výrobě vermutu. Mísí suroviny a rostlinné výtažky s vínem a jinými lihovinami. Provádějí maceraci, míšení a filtrování nápojů s rostlinnými výtažky. Kromě toho řídí zrání nápojů a předpovídají, kdy je vermut připraven k plnění do lahví.",
+  "isco4": "8160",
+  "isco2": "81",
+  "ilo": {
+   "score": 0.15,
+   "gradient": "Not Exposed"
+  },
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 2,
+    "of": 27,
+    "examples": [
+     "procesy filtrace nápojů",
+     "rizika z přísad"
+    ]
+   },
+   "digital": {
+    "count": 0,
+    "of": 27,
+    "examples": []
    }
   }
  },
@@ -82875,6 +83331,35 @@
     "of": 35,
     "examples": [
      "pracovat ve virtuálním učebním prostředí"
+    ]
+   }
+  }
+ },
+ "e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4": {
+  "id": "e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4",
+  "uri": "http://data.europa.eu/esco/occupation/e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4",
+  "label": "Major/majorka",
+  "labelAlt": [
+   "velitelka praporu",
+   "velitel praporu"
+  ],
+  "description": "Majoři velí velkým jednotkám důstojníků a vojáků a dohlížejí na jejich výcvik a dobré podmínky. Dohlížejí také na administrativu a správu vybavení.",
+  "isco4": "0110",
+  "isco2": "01",
+  "ilo": null,
+  "collections": {
+   "research": false,
+   "green": {
+    "count": 0,
+    "of": 28,
+    "examples": []
+   },
+   "digital": {
+    "count": 2,
+    "of": 28,
+    "examples": [
+     "geografické informační systémy",
+     "používat geografické informační systémy"
     ]
    }
   }

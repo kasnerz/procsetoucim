@@ -1,0 +1,75 @@
+{
+  "outcome": "CJS-CJS-006-ZV5-033",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "ceske-mince-a-bankovky",
+      "title": "České mince a bankovky podle hodnoty",
+      "aliases": ["mince", "bankovky", "peníze", "koruny", "hodnota peněz"],
+      "sources": [{"level": "Na začátku", "quote": "Rozlišuje české mince a bankovky podle hodnoty."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Peníze držíš v ruce ty, chatbot ti je nepozná a nepodá."},
+        "internet": {"verdict": "pomuze", "why": "Na stránkách banky vidíš všechny české mince a bankovky i s hodnotou."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace mince a bankovky v ruce nerozliší, poznáváš je ty."},
+        "klasicky": {"verdict": "pomuze", "why": "Hrací nebo opravdové peníze si prohlédneš a roztřídíš podle hodnoty."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/63321ecf-4fc6-44d9-88f1-5373a4f3038a"],
+      "inspiration": ["Používání peněz"]
+    },
+    {
+      "slug": "zaplatit-danou-castku",
+      "title": "Zaplacení dané částky různými způsoby",
+      "aliases": ["platba", "platit v obchodě", "nákup", "zaplatit mincemi", "hotovost"],
+      "sources": [
+        {"level": "Splněno", "quote": "Používá peníze v reálných i modelových situacích."},
+        {"level": "Splněno", "quote": "Zaplatí různými způsoby danou částku."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Platíš ty u pokladny, chatbot za tebe nic nevyloží."},
+        "internet": {"verdict": "nepomuze", "why": "Hotovostní platbu nevyřešíš čtením, peníze odpočítáváš rukama ty."},
+        "aplikace": {"verdict": "pomuze", "why": "Hra na nakupování nebo pokladna v mobilu ti dá nácvik platby s různými mincemi."},
+        "klasicky": {"verdict": "pomuze", "why": "S hracími penězi a obchůdkem si zaplacení částky vyzkoušíš v třídě."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/bdcac0c8-b77a-4640-9eaf-c0cf3efd1e23"],
+      "inspiration": ["Používání peněz", "Super výhra: Rychlý nákup"]
+    },
+    {
+      "slug": "vraceni-spravneho-obnosu",
+      "title": "Vrácení správného obnosu",
+      "aliases": ["drobné", "vrácené peníze", "kolik vrátit", "odčítání peněz", "pokladna"],
+      "sources": [{"level": "Splněno", "quote": "Vrátí nazpět správný obnos."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vymyslí ti příklady s vracením drobných a zkontroluje tvůj postup."},
+        "internet": {"verdict": "nepomuze", "why": "Hotové informace ti nepomůžou, drobné odpočítáváš ty."},
+        "aplikace": {"verdict": "pomuze", "why": "Hra na pokladnu ti zadává ceny a hned ukáže, jestli drobné sedí."},
+        "klasicky": {"verdict": "pomuze", "why": "Kalkulačka ti ověří rozdíl, hrací peníze si drobné odpočítáš na stole."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/bdcac0c8-b77a-4640-9eaf-c0cf3efd1e23", "http://data.europa.eu/esco/skill/0cb013af-6dd9-4fb2-b34e-63dda1a5cf82"],
+      "inspiration": ["Super výhra: Rychlý nákup"]
+    },
+    {
+      "slug": "odhad-ceny-nakupu",
+      "title": "Odhad cen potravin a celkové ceny nákupu",
+      "aliases": ["kolik to stojí", "ceny potravin", "nákupní seznam", "odhad ceny", "vystačí peníze"],
+      "sources": [{"level": "Na cestě", "quote": "Odhaduje ceny základních potravin a celkovou cenu jednoduchého nákupu v modelových situacích."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Zadá ti nákupní seznam a po tvém odhadu ti ukáže, jak se lišíš."},
+        "internet": {"verdict": "pomuze", "why": "V internetových obchodech zjistíš skutečné ceny a porovnáš je s odhadem."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace obchodů a tabulka ti seznam sečtou a ukážou, o kolik se odhad minul."},
+        "klasicky": {"verdict": "pomuze", "why": "Kalkulačka a letáky z obchodů ti ověří odhad celkové ceny."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/687010cd-3f09-45c1-b6f8-0b860c129699"],
+      "inspiration": ["Nakupování podle nákupního seznamu", "Nakupujeme chytře"]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Používá peníze v jednoduchých modelových situacích.", "code": "O3", "refs": []}
+  ]
+}

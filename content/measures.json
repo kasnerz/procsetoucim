@@ -31573,6 +31573,1834 @@
   "foundationCount": 1,
   "transferCount": 3
  },
+ "prirodni-a-lidmi-zpusobene-udalosti": {
+  "occupationCount": 16,
+  "employmentShare": 0.0075,
+  "highExposureShare": 0.1005,
+  "trendPct": 1.2,
+  "topOccupations": [
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129",
+   "bd1cd902-1fb1-40b1-abce-bb9ef60805b4",
+   "64b136da-aedf-48a2-96a0-72eb850bfcd0",
+   "57e87533-e523-4ee5-bf21-94a39fcc279b",
+   "0b5dfc02-b825-4445-811d-d39ed442657e",
+   "1b422c31-f242-46b5-bbdc-aa63885e4b5c",
+   "b874b541-2cb3-460b-96d7-4f83fe04b41d",
+   "ff63fa99-c634-4e6f-a693-6a49482952e9"
+  ],
+  "relevance": {
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129": 0.863,
+   "bd1cd902-1fb1-40b1-abce-bb9ef60805b4": 0.75,
+   "64b136da-aedf-48a2-96a0-72eb850bfcd0": 0.735,
+   "57e87533-e523-4ee5-bf21-94a39fcc279b": 0.718,
+   "0b5dfc02-b825-4445-811d-d39ed442657e": 0.662,
+   "1b422c31-f242-46b5-bbdc-aa63885e4b5c": 0.635,
+   "b874b541-2cb3-460b-96d7-4f83fe04b41d": 0.552,
+   "ff63fa99-c634-4e6f-a693-6a49482952e9": 0.537
+  },
+  "employment": 40600,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.0007,
+   "3": 0.0014,
+   "4": 0.0008,
+   "5": 0.0028,
+   "6": 0.0003,
+   "7": 0.0011
+  },
+  "exposureMix": {
+   "high": 0.1005,
+   "medium": 0.15,
+   "low": 0.0123,
+   "none": 0.7372
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "vozidla-izs": {
+  "occupationCount": 10,
+  "employmentShare": 0.0052,
+  "highExposureShare": 0.0,
+  "trendPct": 1.8,
+  "topOccupations": [
+   "64e909ad-1bd0-493c-a8dc-1afbed0c9c2f",
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129",
+   "b8b98b65-7db2-43f8-8ac4-2f1903984e7b",
+   "0b5dfc02-b825-4445-811d-d39ed442657e",
+   "a30734bb-2f10-4747-a94c-75f5ec3c63a4",
+   "b874b541-2cb3-460b-96d7-4f83fe04b41d"
+  ],
+  "relevance": {
+   "64e909ad-1bd0-493c-a8dc-1afbed0c9c2f": 0.62,
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129": 0.608,
+   "b8b98b65-7db2-43f8-8ac4-2f1903984e7b": 0.515,
+   "0b5dfc02-b825-4445-811d-d39ed442657e": 0.512,
+   "a30734bb-2f10-4747-a94c-75f5ec3c63a4": 0.345,
+   "b874b541-2cb3-460b-96d7-4f83fe04b41d": 0.302
+  },
+  "employment": 28200,
+  "byMajor": {
+   "2": 0.0003,
+   "3": 0.0008,
+   "5": 0.0034,
+   "6": 0.0002,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0646,
+   "low": 0.0,
+   "none": 0.9354
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "ukoly-policie-hasicu-zachranky": {
+  "occupationCount": 10,
+  "employmentShare": 0.0052,
+  "highExposureShare": 0.0,
+  "trendPct": 1.8,
+  "topOccupations": [
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129",
+   "b8b98b65-7db2-43f8-8ac4-2f1903984e7b",
+   "64e909ad-1bd0-493c-a8dc-1afbed0c9c2f",
+   "0b5dfc02-b825-4445-811d-d39ed442657e",
+   "b874b541-2cb3-460b-96d7-4f83fe04b41d",
+   "c8ee6499-7613-4c02-9edf-2a0edcf47705",
+   "a30734bb-2f10-4747-a94c-75f5ec3c63a4"
+  ],
+  "relevance": {
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129": 0.777,
+   "b8b98b65-7db2-43f8-8ac4-2f1903984e7b": 0.718,
+   "64e909ad-1bd0-493c-a8dc-1afbed0c9c2f": 0.705,
+   "0b5dfc02-b825-4445-811d-d39ed442657e": 0.655,
+   "b874b541-2cb3-460b-96d7-4f83fe04b41d": 0.435,
+   "c8ee6499-7613-4c02-9edf-2a0edcf47705": 0.367,
+   "a30734bb-2f10-4747-a94c-75f5ec3c63a4": 0.307
+  },
+  "employment": 28200,
+  "byMajor": {
+   "2": 0.0003,
+   "3": 0.0008,
+   "5": 0.0034,
+   "6": 0.0002,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0646,
+   "low": 0.0,
+   "none": 0.9354
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "kde-hledat-pomoc": {
+  "occupationCount": 4,
+  "employmentShare": 0.0016,
+  "highExposureShare": 0.0,
+  "trendPct": -16.8,
+  "topOccupations": [
+   "4cbe5a17-056c-489a-9f10-f9d816905000",
+   "b8b98b65-7db2-43f8-8ac4-2f1903984e7b",
+   "24413f38-e457-4de1-bba0-5a02b7282e2c",
+   "c8ee6499-7613-4c02-9edf-2a0edcf47705"
+  ],
+  "relevance": {
+   "4cbe5a17-056c-489a-9f10-f9d816905000": 0.585,
+   "b8b98b65-7db2-43f8-8ac4-2f1903984e7b": 0.51,
+   "24413f38-e457-4de1-bba0-5a02b7282e2c": 0.507,
+   "c8ee6499-7613-4c02-9edf-2a0edcf47705": 0.485
+  },
+  "employment": 8900,
+  "byMajor": {
+   "3": 0.0002,
+   "5": 0.0013,
+   "6": 0.0002
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.0,
+   "none": 1.0
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "chovani-pri-mimoradne-udalosti-s-dospelym": {
+  "occupationCount": 11,
+  "employmentShare": 0.0042,
+  "highExposureShare": 0.0,
+  "trendPct": 6.9,
+  "topOccupations": [
+   "fdc8adfb-1807-4146-98ae-3a26fbe19996",
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129",
+   "64e909ad-1bd0-493c-a8dc-1afbed0c9c2f",
+   "1de91afd-9da2-47ab-a7e7-19bf931709a4",
+   "86c892cf-09a3-44c8-b9d1-814d93dbcbb4",
+   "0b5dfc02-b825-4445-811d-d39ed442657e",
+   "b874b541-2cb3-460b-96d7-4f83fe04b41d",
+   "853698f5-0f1e-42ae-9301-e5411a26dae2"
+  ],
+  "relevance": {
+   "fdc8adfb-1807-4146-98ae-3a26fbe19996": 0.642,
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129": 0.64,
+   "64e909ad-1bd0-493c-a8dc-1afbed0c9c2f": 0.562,
+   "1de91afd-9da2-47ab-a7e7-19bf931709a4": 0.545,
+   "86c892cf-09a3-44c8-b9d1-814d93dbcbb4": 0.545,
+   "0b5dfc02-b825-4445-811d-d39ed442657e": 0.537,
+   "b874b541-2cb3-460b-96d7-4f83fe04b41d": 0.535,
+   "853698f5-0f1e-42ae-9301-e5411a26dae2": 0.485
+  },
+  "employment": 22900,
+  "byMajor": {
+   "2": 0.0007,
+   "3": 0.001,
+   "5": 0.0021,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0797,
+   "low": 0.0797,
+   "none": 0.8406
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "bezpecny-odchod-z-domova": {
+  "occupationCount": 16,
+  "employmentShare": 0.0069,
+  "highExposureShare": 0.0,
+  "trendPct": -4.9,
+  "topOccupations": [
+   "f2413988-f76a-4636-a4b1-9952517aa21f",
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e",
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39",
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852",
+   "4c9ca706-3973-4926-854d-44011662ca83",
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271",
+   "1999bdfa-f9c4-4a0b-8565-0305108ca65e",
+   "4305327d-3537-4dfb-a913-bce6614362f1"
+  ],
+  "relevance": {
+   "f2413988-f76a-4636-a4b1-9952517aa21f": 0.522,
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e": 0.515,
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39": 0.502,
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852": 0.492,
+   "4c9ca706-3973-4926-854d-44011662ca83": 0.463,
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271": 0.455,
+   "1999bdfa-f9c4-4a0b-8565-0305108ca65e": 0.453,
+   "4305327d-3537-4dfb-a913-bce6614362f1": 0.448
+  },
+  "employment": 37200,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.0006,
+   "3": 0.0007,
+   "5": 0.0026,
+   "7": 0.0009,
+   "8": 0.0016
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.3426,
+   "none": 0.6574
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "ohen-pomaha-i-skodi": {
+  "occupationCount": 21,
+  "employmentShare": 0.0094,
+  "highExposureShare": 0.0,
+  "trendPct": -3.1,
+  "topOccupations": [
+   "1cd93859-d796-4559-90c4-4b4597cd6e54",
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f",
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271",
+   "5d46e448-b6bb-48e5-b245-5aad68e06085",
+   "5ed024ab-3b6a-4e06-a7fe-8a29f8469a64",
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e",
+   "f2413988-f76a-4636-a4b1-9952517aa21f",
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852"
+  ],
+  "relevance": {
+   "1cd93859-d796-4559-90c4-4b4597cd6e54": 0.92,
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f": 0.91,
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271": 0.905,
+   "5d46e448-b6bb-48e5-b245-5aad68e06085": 0.905,
+   "5ed024ab-3b6a-4e06-a7fe-8a29f8469a64": 0.88,
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e": 0.833,
+   "f2413988-f76a-4636-a4b1-9952517aa21f": 0.818,
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852": 0.805
+  },
+  "employment": 51200,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.0006,
+   "3": 0.0007,
+   "5": 0.0026,
+   "7": 0.0034,
+   "8": 0.0017
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.2487,
+   "none": 0.7513
+  },
+  "foundationCount": 3,
+  "transferCount": 3
+ },
+ "chovani-pri-pozaru": {
+  "occupationCount": 35,
+  "employmentShare": 0.0149,
+  "highExposureShare": 0.1013,
+  "trendPct": -5.7,
+  "topOccupations": [
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39",
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271",
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f",
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852",
+   "f2413988-f76a-4636-a4b1-9952517aa21f",
+   "95f56fc4-99f9-49da-b942-1dfbc857e933",
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e",
+   "b8139469-92cc-4f57-9e69-a0d9f7fc3817"
+  ],
+  "relevance": {
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39": 0.868,
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271": 0.86,
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f": 0.795,
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852": 0.705,
+   "f2413988-f76a-4636-a4b1-9952517aa21f": 0.7,
+   "95f56fc4-99f9-49da-b942-1dfbc857e933": 0.662,
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e": 0.627,
+   "b8139469-92cc-4f57-9e69-a0d9f7fc3817": 0.62
+  },
+  "employment": 80600,
+  "byMajor": {
+   "1": 0.0014,
+   "2": 0.0013,
+   "3": 0.0015,
+   "4": 0.0015,
+   "5": 0.0058,
+   "6": 0.0003,
+   "7": 0.0016,
+   "8": 0.0016
+  },
+  "exposureMix": {
+   "high": 0.1013,
+   "medium": 0.0773,
+   "low": 0.1704,
+   "none": 0.6511
+  },
+  "foundationCount": 3,
+  "transferCount": 3
+ },
+ "signal-pozarniho-poplachu": {
+  "occupationCount": 36,
+  "employmentShare": 0.0168,
+  "highExposureShare": 0.0898,
+  "trendPct": -4.8,
+  "topOccupations": [
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271",
+   "4c9ca706-3973-4926-854d-44011662ca83",
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39",
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f",
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852",
+   "f2413988-f76a-4636-a4b1-9952517aa21f",
+   "b42c5ed4-c6e4-4694-934f-96127719cc43",
+   "4be368e3-badb-4b9f-9d0a-4d0f7565540a"
+  ],
+  "relevance": {
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271": 0.767,
+   "4c9ca706-3973-4926-854d-44011662ca83": 0.76,
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39": 0.733,
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f": 0.713,
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852": 0.573,
+   "f2413988-f76a-4636-a4b1-9952517aa21f": 0.57,
+   "b42c5ed4-c6e4-4694-934f-96127719cc43": 0.542,
+   "4be368e3-badb-4b9f-9d0a-4d0f7565540a": 0.54
+  },
+  "employment": 90900,
+  "byMajor": {
+   "1": 0.0017,
+   "2": 0.0012,
+   "3": 0.0013,
+   "4": 0.0015,
+   "5": 0.0064,
+   "6": 0.0003,
+   "7": 0.0025,
+   "8": 0.0014,
+   "9": 0.0004
+  },
+  "exposureMix": {
+   "high": 0.0898,
+   "medium": 0.09,
+   "low": 0.1426,
+   "none": 0.6776
+  },
+  "foundationCount": 3,
+  "transferCount": 3
+ },
+ "nezpusobit-pozar": {
+  "occupationCount": 23,
+  "employmentShare": 0.008,
+  "highExposureShare": 0.0,
+  "trendPct": -5.1,
+  "topOccupations": [
+   "1999bdfa-f9c4-4a0b-8565-0305108ca65e",
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e",
+   "4305327d-3537-4dfb-a913-bce6614362f1",
+   "6725a5bb-b79d-4128-9494-089389ae2a48",
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f",
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271",
+   "1cd93859-d796-4559-90c4-4b4597cd6e54",
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852"
+  ],
+  "relevance": {
+   "1999bdfa-f9c4-4a0b-8565-0305108ca65e": 0.917,
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e": 0.807,
+   "4305327d-3537-4dfb-a913-bce6614362f1": 0.797,
+   "6725a5bb-b79d-4128-9494-089389ae2a48": 0.79,
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f": 0.782,
+   "9c3cdf9a-f62f-4d73-bb8d-4cfc85c2d271": 0.775,
+   "1cd93859-d796-4559-90c4-4b4597cd6e54": 0.762,
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852": 0.748
+  },
+  "employment": 43200,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.0006,
+   "3": 0.0008,
+   "5": 0.0026,
+   "7": 0.0014,
+   "8": 0.0021
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.3671,
+   "none": 0.6329
+  },
+  "foundationCount": 3,
+  "transferCount": 3
+ },
+ "odmitnuti-ohne-a-pyrotechniky": {
+  "occupationCount": 12,
+  "employmentShare": 0.0022,
+  "highExposureShare": 0.0,
+  "trendPct": -4.4,
+  "topOccupations": [
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e",
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852",
+   "fdc8adfb-1807-4146-98ae-3a26fbe19996",
+   "1999bdfa-f9c4-4a0b-8565-0305108ca65e",
+   "c4046ba8-cfe0-4748-beac-22e865962d75",
+   "6725a5bb-b79d-4128-9494-089389ae2a48",
+   "a2a126ac-d90d-4e9f-97d1-9b8dff2ff946"
+  ],
+  "relevance": {
+   "c302791c-6864-4ec5-9a6c-2fca38764f0e": 0.598,
+   "a05d0a6d-7b60-445a-8dcb-282c7d5a6852": 0.52,
+   "fdc8adfb-1807-4146-98ae-3a26fbe19996": 0.49,
+   "1999bdfa-f9c4-4a0b-8565-0305108ca65e": 0.445,
+   "c4046ba8-cfe0-4748-beac-22e865962d75": 0.415,
+   "6725a5bb-b79d-4128-9494-089389ae2a48": 0.4,
+   "a2a126ac-d90d-4e9f-97d1-9b8dff2ff946": 0.275
+  },
+  "employment": 11900,
+  "byMajor": {
+   "1": 0.0001,
+   "3": 0.0003,
+   "7": 0.0004,
+   "8": 0.0014
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.6159,
+   "none": 0.3841
+  },
+  "foundationCount": 3,
+  "transferCount": 3
+ },
+ "rozdil-policista-a-vojak": {
+  "occupationCount": 93,
+  "employmentShare": 0.0329,
+  "highExposureShare": 0.0922,
+  "trendPct": -8.0,
+  "topOccupations": [
+   "4cbe5a17-056c-489a-9f10-f9d816905000",
+   "71c3a49a-e55e-42ce-bd3f-31f37d3cfab6",
+   "e9507d34-c70f-474f-a4a3-d2cbfe50f6e9",
+   "262f21a3-ae78-46f4-a5f9-5a1f502caa90",
+   "37442765-f7bb-4ccd-9de1-4790296f3d37",
+   "6b304370-0112-4881-a1bd-27d8df645d00",
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3",
+   "c6a26e11-bdf1-47a1-849d-fdcf819d458d"
+  ],
+  "relevance": {
+   "4cbe5a17-056c-489a-9f10-f9d816905000": 0.415,
+   "71c3a49a-e55e-42ce-bd3f-31f37d3cfab6": 0.405,
+   "e9507d34-c70f-474f-a4a3-d2cbfe50f6e9": 0.383,
+   "262f21a3-ae78-46f4-a5f9-5a1f502caa90": 0.372,
+   "37442765-f7bb-4ccd-9de1-4790296f3d37": 0.367,
+   "6b304370-0112-4881-a1bd-27d8df645d00": 0.36,
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3": 0.33,
+   "c6a26e11-bdf1-47a1-849d-fdcf819d458d": 0.315
+  },
+  "employment": 178500,
+  "byMajor": {
+   "1": 0.0008,
+   "2": 0.0014,
+   "3": 0.0032,
+   "4": 0.003,
+   "5": 0.0098,
+   "7": 0.0022,
+   "8": 0.0091,
+   "9": 0.0034
+  },
+  "exposureMix": {
+   "high": 0.0922,
+   "medium": 0.0336,
+   "low": 0.2648,
+   "none": 0.6095
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "cinnosti-armady-v-miru-a-ve-valce": {
+  "occupationCount": 17,
+  "employmentShare": 0.0003,
+  "highExposureShare": 0.0,
+  "trendPct": -6.6,
+  "topOccupations": [
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497",
+   "bbd1fe06-1b55-4937-9317-fc162311ab38",
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3",
+   "853698f5-0f1e-42ae-9301-e5411a26dae2",
+   "86c892cf-09a3-44c8-b9d1-814d93dbcbb4",
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f",
+   "555235ce-8c45-409b-a6c9-83e69c2d2bce"
+  ],
+  "relevance": {
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497": 0.718,
+   "bbd1fe06-1b55-4937-9317-fc162311ab38": 0.713,
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3": 0.685,
+   "853698f5-0f1e-42ae-9301-e5411a26dae2": 0.645,
+   "86c892cf-09a3-44c8-b9d1-814d93dbcbb4": 0.608,
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f": 0.593,
+   "555235ce-8c45-409b-a6c9-83e69c2d2bce": 0.263
+  },
+  "employment": 1800,
+  "byMajor": {
+   "2": 0.0003
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 1.0,
+   "none": 0.0
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "hlavni-funkce-armady": {
+  "occupationCount": 13,
+  "employmentShare": 0.0,
+  "highExposureShare": null,
+  "trendPct": null,
+  "topOccupations": [
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3",
+   "c6a26e11-bdf1-47a1-849d-fdcf819d458d",
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497",
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f",
+   "86c892cf-09a3-44c8-b9d1-814d93dbcbb4"
+  ],
+  "relevance": {
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3": 0.897,
+   "c6a26e11-bdf1-47a1-849d-fdcf819d458d": 0.887,
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497": 0.875,
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f": 0.805,
+   "86c892cf-09a3-44c8-b9d1-814d93dbcbb4": 0.78
+  },
+  "employment": 0,
+  "byMajor": {},
+  "exposureMix": null,
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "armada-pomaha-pri-zivelnich-udalostech": {
+  "occupationCount": 8,
+  "employmentShare": 0.0038,
+  "highExposureShare": 0.0,
+  "trendPct": 9.6,
+  "topOccupations": [
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129",
+   "0b5dfc02-b825-4445-811d-d39ed442657e",
+   "55af6be8-039a-419c-b278-55b3f7d9ef92"
+  ],
+  "relevance": {
+   "ea4c9aa1-cb9d-4037-a748-ac1305af7129": 0.52,
+   "0b5dfc02-b825-4445-811d-d39ed442657e": 0.295,
+   "55af6be8-039a-419c-b278-55b3f7d9ef92": 0.275
+  },
+  "employment": 20400,
+  "byMajor": {
+   "2": 0.0003,
+   "3": 0.0009,
+   "5": 0.0021,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0894,
+   "low": 0.0,
+   "none": 0.9106
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "obcane-a-bezpecnost-statu": {
+  "occupationCount": 8,
+  "employmentShare": 0.0,
+  "highExposureShare": null,
+  "trendPct": null,
+  "topOccupations": [
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3",
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f",
+   "262f21a3-ae78-46f4-a5f9-5a1f502caa90",
+   "c6a26e11-bdf1-47a1-849d-fdcf819d458d",
+   "1de91afd-9da2-47ab-a7e7-19bf931709a4"
+  ],
+  "relevance": {
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3": 0.868,
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f": 0.738,
+   "262f21a3-ae78-46f4-a5f9-5a1f502caa90": 0.72,
+   "c6a26e11-bdf1-47a1-849d-fdcf819d458d": 0.695,
+   "1de91afd-9da2-47ab-a7e7-19bf931709a4": 0.623
+  },
+  "employment": 0,
+  "byMajor": {},
+  "exposureMix": null,
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "cesko-v-nato": {
+  "occupationCount": 12,
+  "employmentShare": 0.0004,
+  "highExposureShare": 0.0,
+  "trendPct": 38.1,
+  "topOccupations": [
+   "c6e5e0e7-fa99-4f71-9fc1-9889d85282a5",
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497",
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3",
+   "8b26eec6-7497-4218-8364-9b5983b04ae7",
+   "1de91afd-9da2-47ab-a7e7-19bf931709a4",
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f"
+  ],
+  "relevance": {
+   "c6e5e0e7-fa99-4f71-9fc1-9889d85282a5": 0.745,
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497": 0.575,
+   "bd5a2f44-fc06-45fd-909b-3a4001c8b8a3": 0.482,
+   "8b26eec6-7497-4218-8364-9b5983b04ae7": 0.35,
+   "1de91afd-9da2-47ab-a7e7-19bf931709a4": 0.34,
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f": 0.312
+  },
+  "employment": 2000,
+  "byMajor": {
+   "1": 0.0004
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 1.0,
+   "low": 0.0,
+   "none": 0.0
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "ohlaseni-urazu-dospelemu": {
+  "occupationCount": 55,
+  "employmentShare": 0.0283,
+  "highExposureShare": 0.0,
+  "trendPct": 2.0,
+  "topOccupations": [
+   "95f56fc4-99f9-49da-b942-1dfbc857e933",
+   "55af6be8-039a-419c-b278-55b3f7d9ef92",
+   "52a769ab-c899-4e8c-b31d-e5c2a01f32e3",
+   "3025dea4-1752-40a9-9431-fd874420386f",
+   "f20d3ae6-baeb-482c-b68d-c2fb115e5dde",
+   "a30734bb-2f10-4747-a94c-75f5ec3c63a4",
+   "f8e435dd-7aa9-4d7a-97c3-b3b5789b6b25",
+   "19cb84ca-952e-4f33-b31a-c918db074a6e"
+  ],
+  "relevance": {
+   "95f56fc4-99f9-49da-b942-1dfbc857e933": 0.652,
+   "55af6be8-039a-419c-b278-55b3f7d9ef92": 0.618,
+   "52a769ab-c899-4e8c-b31d-e5c2a01f32e3": 0.605,
+   "3025dea4-1752-40a9-9431-fd874420386f": 0.562,
+   "f20d3ae6-baeb-482c-b68d-c2fb115e5dde": 0.557,
+   "a30734bb-2f10-4747-a94c-75f5ec3c63a4": 0.522,
+   "f8e435dd-7aa9-4d7a-97c3-b3b5789b6b25": 0.517,
+   "19cb84ca-952e-4f33-b31a-c918db074a6e": 0.507
+  },
+  "employment": 153500,
+  "byMajor": {
+   "1": 0.0,
+   "2": 0.0007,
+   "3": 0.0028,
+   "5": 0.0126,
+   "6": 0.0027,
+   "7": 0.001,
+   "8": 0.0085
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.1393,
+   "none": 0.8607
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "komu-se-pri-urazu-ve-skole-obratit": {
+  "occupationCount": 55,
+  "employmentShare": 0.0283,
+  "highExposureShare": 0.0,
+  "trendPct": 2.0,
+  "topOccupations": [
+   "55af6be8-039a-419c-b278-55b3f7d9ef92",
+   "825ab049-2f0c-4acf-b402-9c6bb51acca2",
+   "95f56fc4-99f9-49da-b942-1dfbc857e933",
+   "ee646fa1-3f09-4e43-9275-3aa958ca00ae",
+   "59cfa27b-874f-48b7-8880-b65420239559",
+   "3025dea4-1752-40a9-9431-fd874420386f",
+   "4ac3c3a0-eb56-491f-8d21-1e5539a05b54",
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39"
+  ],
+  "relevance": {
+   "55af6be8-039a-419c-b278-55b3f7d9ef92": 0.505,
+   "825ab049-2f0c-4acf-b402-9c6bb51acca2": 0.5,
+   "95f56fc4-99f9-49da-b942-1dfbc857e933": 0.455,
+   "ee646fa1-3f09-4e43-9275-3aa958ca00ae": 0.398,
+   "59cfa27b-874f-48b7-8880-b65420239559": 0.36,
+   "3025dea4-1752-40a9-9431-fd874420386f": 0.335,
+   "4ac3c3a0-eb56-491f-8d21-1e5539a05b54": 0.31,
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39": 0.307
+  },
+  "employment": 153500,
+  "byMajor": {
+   "1": 0.0,
+   "2": 0.0007,
+   "3": 0.0028,
+   "5": 0.0126,
+   "6": 0.0027,
+   "7": 0.001,
+   "8": 0.0085
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.1393,
+   "none": 0.8607
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "postup-osetreni-drobneho-poraneni": {
+  "occupationCount": 73,
+  "employmentShare": 0.0357,
+  "highExposureShare": 0.0,
+  "trendPct": 2.5,
+  "topOccupations": [
+   "b560456a-bc4d-41a9-94c8-bf8636147246",
+   "8d3e8aaa-791b-4c75-a465-f3f827028f50",
+   "0b5dfc02-b825-4445-811d-d39ed442657e",
+   "87d0795a-d41f-47ee-979f-0ab7d73836e7",
+   "3025dea4-1752-40a9-9431-fd874420386f",
+   "5a80044b-9b2f-40eb-a210-0c1c3c958e0e",
+   "55af6be8-039a-419c-b278-55b3f7d9ef92",
+   "b8139469-92cc-4f57-9e69-a0d9f7fc3817"
+  ],
+  "relevance": {
+   "b560456a-bc4d-41a9-94c8-bf8636147246": 0.81,
+   "8d3e8aaa-791b-4c75-a465-f3f827028f50": 0.7,
+   "0b5dfc02-b825-4445-811d-d39ed442657e": 0.657,
+   "87d0795a-d41f-47ee-979f-0ab7d73836e7": 0.647,
+   "3025dea4-1752-40a9-9431-fd874420386f": 0.637,
+   "5a80044b-9b2f-40eb-a210-0c1c3c958e0e": 0.623,
+   "55af6be8-039a-419c-b278-55b3f7d9ef92": 0.608,
+   "b8139469-92cc-4f57-9e69-a0d9f7fc3817": 0.595
+  },
+  "employment": 193300,
+  "byMajor": {
+   "1": 0.0,
+   "2": 0.0042,
+   "3": 0.0038,
+   "5": 0.0153,
+   "6": 0.0027,
+   "7": 0.001,
+   "8": 0.0085
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0073,
+   "low": 0.1422,
+   "none": 0.8505
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "ochrana-pred-nakazou-krvi": {
+  "occupationCount": 73,
+  "employmentShare": 0.0357,
+  "highExposureShare": 0.0,
+  "trendPct": 2.5,
+  "topOccupations": [
+   "0b5dfc02-b825-4445-811d-d39ed442657e",
+   "8d3e8aaa-791b-4c75-a465-f3f827028f50",
+   "b560456a-bc4d-41a9-94c8-bf8636147246",
+   "eb6efbb9-9216-4e86-bc3b-de2223cd4667",
+   "87d0795a-d41f-47ee-979f-0ab7d73836e7",
+   "37c7880e-cfee-4c41-a41b-061682fefde3",
+   "b8139469-92cc-4f57-9e69-a0d9f7fc3817",
+   "5a80044b-9b2f-40eb-a210-0c1c3c958e0e"
+  ],
+  "relevance": {
+   "0b5dfc02-b825-4445-811d-d39ed442657e": 0.92,
+   "8d3e8aaa-791b-4c75-a465-f3f827028f50": 0.882,
+   "b560456a-bc4d-41a9-94c8-bf8636147246": 0.868,
+   "eb6efbb9-9216-4e86-bc3b-de2223cd4667": 0.835,
+   "87d0795a-d41f-47ee-979f-0ab7d73836e7": 0.807,
+   "37c7880e-cfee-4c41-a41b-061682fefde3": 0.682,
+   "b8139469-92cc-4f57-9e69-a0d9f7fc3817": 0.615,
+   "5a80044b-9b2f-40eb-a210-0c1c3c958e0e": 0.613
+  },
+  "employment": 193300,
+  "byMajor": {
+   "1": 0.0,
+   "2": 0.0042,
+   "3": 0.0038,
+   "5": 0.0153,
+   "6": 0.0027,
+   "7": 0.001,
+   "8": 0.0085
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0073,
+   "low": 0.1422,
+   "none": 0.8505
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "nezachranovat-na-vlastni-pest": {
+  "occupationCount": 55,
+  "employmentShare": 0.0283,
+  "highExposureShare": 0.0,
+  "trendPct": 2.0,
+  "topOccupations": [
+   "3025dea4-1752-40a9-9431-fd874420386f",
+   "55af6be8-039a-419c-b278-55b3f7d9ef92",
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f",
+   "bcc199fe-f7df-42a5-bd45-e33ae6160f26",
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39",
+   "52a769ab-c899-4e8c-b31d-e5c2a01f32e3",
+   "b8139469-92cc-4f57-9e69-a0d9f7fc3817",
+   "0b5dfc02-b825-4445-811d-d39ed442657e"
+  ],
+  "relevance": {
+   "3025dea4-1752-40a9-9431-fd874420386f": 0.823,
+   "55af6be8-039a-419c-b278-55b3f7d9ef92": 0.792,
+   "1bb2aa65-1524-4961-8dba-ad25f34f195f": 0.785,
+   "bcc199fe-f7df-42a5-bd45-e33ae6160f26": 0.777,
+   "88721b6c-d2ce-41c6-8878-73c0d3aacf39": 0.752,
+   "52a769ab-c899-4e8c-b31d-e5c2a01f32e3": 0.743,
+   "b8139469-92cc-4f57-9e69-a0d9f7fc3817": 0.69,
+   "0b5dfc02-b825-4445-811d-d39ed442657e": 0.688
+  },
+  "employment": 153500,
+  "byMajor": {
+   "1": 0.0,
+   "2": 0.0007,
+   "3": 0.0028,
+   "5": 0.0126,
+   "6": 0.0027,
+   "7": 0.001,
+   "8": 0.0085
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.1393,
+   "none": 0.8607
+  },
+  "foundationCount": 1,
+  "transferCount": 2
+ },
+ "rict-ne-nevhodnemu-dotykani": {
+  "occupationCount": 51,
+  "employmentShare": 0.0075,
+  "highExposureShare": 0.0,
+  "trendPct": 7.3,
+  "topOccupations": [
+   "0d423a2e-6fb7-4704-8544-bd6c522b3c62",
+   "19f6634f-ec0c-4513-b0d9-d43f9ddeb82d",
+   "3f74aad8-2d60-4be2-b059-8dba5568d530",
+   "9c55aa23-e3f2-4c00-8c90-5ed5204951a3",
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d",
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1"
+  ],
+  "relevance": {
+   "0d423a2e-6fb7-4704-8544-bd6c522b3c62": 0.615,
+   "19f6634f-ec0c-4513-b0d9-d43f9ddeb82d": 0.555,
+   "3f74aad8-2d60-4be2-b059-8dba5568d530": 0.547,
+   "9c55aa23-e3f2-4c00-8c90-5ed5204951a3": 0.527,
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d": 0.522,
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409": 0.51,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.482,
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.268
+  },
+  "employment": 40800,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.004,
+   "3": 0.0016,
+   "5": 0.0015
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0173,
+   "low": 0.3221,
+   "none": 0.6607
+  },
+  "foundationCount": 2,
+  "transferCount": 3
+ },
+ "konflikty-dohodou-bez-nasili": {
+  "occupationCount": 88,
+  "employmentShare": 0.0267,
+  "highExposureShare": 0.5597,
+  "trendPct": 4.7,
+  "topOccupations": [
+   "403be630-8d1e-43b7-9f07-098aca5bb689",
+   "666846b2-01ce-43f6-8cb7-f3be09fac4a2",
+   "20b9f370-6b56-4679-8c06-c23b866a5bd0",
+   "13d1b2b4-99dd-44da-9734-c9f74bae18f7",
+   "cb60beab-7afb-4e99-8162-221abea68e6d",
+   "5c5b153e-4bf8-4f3d-973d-12fabf306d12",
+   "bea99fea-0383-4c63-b944-70d4799de2c5",
+   "78eacaf8-06d6-4b78-920f-edece2e41464"
+  ],
+  "relevance": {
+   "403be630-8d1e-43b7-9f07-098aca5bb689": 0.978,
+   "666846b2-01ce-43f6-8cb7-f3be09fac4a2": 0.938,
+   "20b9f370-6b56-4679-8c06-c23b866a5bd0": 0.868,
+   "13d1b2b4-99dd-44da-9734-c9f74bae18f7": 0.775,
+   "cb60beab-7afb-4e99-8162-221abea68e6d": 0.765,
+   "5c5b153e-4bf8-4f3d-973d-12fabf306d12": 0.75,
+   "bea99fea-0383-4c63-b944-70d4799de2c5": 0.74,
+   "78eacaf8-06d6-4b78-920f-edece2e41464": 0.672
+  },
+  "employment": 144800,
+  "byMajor": {
+   "1": 0.0049,
+   "2": 0.0008,
+   "3": 0.0148,
+   "4": 0.0005,
+   "5": 0.0015,
+   "8": 0.0043
+  },
+  "exposureMix": {
+   "high": 0.5597,
+   "medium": 0.0367,
+   "low": 0.176,
+   "none": 0.2276
+  },
+  "foundationCount": 2,
+  "transferCount": 3
+ },
+ "respektujici-navazovani-vztahu": {
+  "occupationCount": 51,
+  "employmentShare": 0.0176,
+  "highExposureShare": 0.0,
+  "trendPct": 4.7,
+  "topOccupations": [
+   "a76a05bb-e04d-4be8-953e-1ffd691dd58d",
+   "789d9781-8724-4367-936a-3a4cb7c54315",
+   "af69484e-b43f-4685-b22d-f3418df45c4d",
+   "f9395e4d-d66f-49ce-a8f5-721991139e79",
+   "9487f835-b5a9-4742-8ecf-35520911e28c",
+   "d38c2107-98f2-47b7-8bb4-f69750d51082",
+   "b01affdd-c8a9-4121-bc50-a5be17f014eb"
+  ],
+  "relevance": {
+   "a76a05bb-e04d-4be8-953e-1ffd691dd58d": 0.873,
+   "789d9781-8724-4367-936a-3a4cb7c54315": 0.858,
+   "af69484e-b43f-4685-b22d-f3418df45c4d": 0.828,
+   "f9395e4d-d66f-49ce-a8f5-721991139e79": 0.828,
+   "9487f835-b5a9-4742-8ecf-35520911e28c": 0.812,
+   "d38c2107-98f2-47b7-8bb4-f69750d51082": 0.792,
+   "b01affdd-c8a9-4121-bc50-a5be17f014eb": 0.755
+  },
+  "employment": 95300,
+  "byMajor": {
+   "2": 0.0125,
+   "3": 0.0036,
+   "5": 0.0015
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0406,
+   "low": 0.2622,
+   "none": 0.6972
+  },
+  "foundationCount": 2,
+  "transferCount": 3
+ },
+ "rozpoznani-nasili-ve-vztahu": {
+  "occupationCount": 52,
+  "employmentShare": 0.0077,
+  "highExposureShare": 0.0,
+  "trendPct": 7.3,
+  "topOccupations": [
+   "90569478-805c-4d14-a1ba-e9c9c4ac2818",
+   "b9dd2ee7-5fea-46f8-b226-ddae9501f728",
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409",
+   "92df4ee3-bce3-45f6-a693-597df1b96f43",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "c18fddf5-cfc4-4f9c-94d6-86608faaa1dd",
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1",
+   "3f74aad8-2d60-4be2-b059-8dba5568d530"
+  ],
+  "relevance": {
+   "90569478-805c-4d14-a1ba-e9c9c4ac2818": 0.863,
+   "b9dd2ee7-5fea-46f8-b226-ddae9501f728": 0.797,
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409": 0.74,
+   "92df4ee3-bce3-45f6-a693-597df1b96f43": 0.705,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.527,
+   "c18fddf5-cfc4-4f9c-94d6-86608faaa1dd": 0.522,
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.415,
+   "3f74aad8-2d60-4be2-b059-8dba5568d530": 0.407
+  },
+  "employment": 41500,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.0041,
+   "3": 0.0016,
+   "5": 0.0015
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.017,
+   "low": 0.3166,
+   "none": 0.6664
+  },
+  "foundationCount": 2,
+  "transferCount": 3
+ },
+ "neprijatelne-chovani-a-pomoc": {
+  "occupationCount": 51,
+  "employmentShare": 0.0075,
+  "highExposureShare": 0.0,
+  "trendPct": 7.3,
+  "topOccupations": [
+   "0d423a2e-6fb7-4704-8544-bd6c522b3c62",
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409",
+   "92df4ee3-bce3-45f6-a693-597df1b96f43",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "19f6634f-ec0c-4513-b0d9-d43f9ddeb82d",
+   "3f74aad8-2d60-4be2-b059-8dba5568d530",
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d",
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1"
+  ],
+  "relevance": {
+   "0d423a2e-6fb7-4704-8544-bd6c522b3c62": 0.83,
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409": 0.818,
+   "92df4ee3-bce3-45f6-a693-597df1b96f43": 0.787,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.777,
+   "19f6634f-ec0c-4513-b0d9-d43f9ddeb82d": 0.775,
+   "3f74aad8-2d60-4be2-b059-8dba5568d530": 0.77,
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d": 0.725,
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.52
+  },
+  "employment": 40800,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.004,
+   "3": 0.0016,
+   "5": 0.0015
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0173,
+   "low": 0.3221,
+   "none": 0.6607
+  },
+  "foundationCount": 2,
+  "transferCount": 3
+ },
+ "casti-denniho-rezimu": {
+  "occupationCount": 28,
+  "employmentShare": 0.0088,
+  "highExposureShare": 0.2995,
+  "trendPct": -3.5,
+  "topOccupations": [
+   "fae51298-03a8-4df4-829a-685dddc1580e",
+   "f4de7e28-ca67-46cd-b760-30e02b3aa83b",
+   "a4c5fb46-1d72-47de-b349-f579a0f1edfb",
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443",
+   "2a04a1df-a3b9-403e-a245-e7f93fdddd44",
+   "67d8c64f-e0d9-4e0b-be8b-510f9e20e698",
+   "b42c5ed4-c6e4-4694-934f-96127719cc43",
+   "21ae429f-a152-46a6-a73c-9ec65c7803f0"
+  ],
+  "relevance": {
+   "fae51298-03a8-4df4-829a-685dddc1580e": 0.64,
+   "f4de7e28-ca67-46cd-b760-30e02b3aa83b": 0.565,
+   "a4c5fb46-1d72-47de-b349-f579a0f1edfb": 0.527,
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443": 0.5,
+   "2a04a1df-a3b9-403e-a245-e7f93fdddd44": 0.492,
+   "67d8c64f-e0d9-4e0b-be8b-510f9e20e698": 0.482,
+   "b42c5ed4-c6e4-4694-934f-96127719cc43": 0.463,
+   "21ae429f-a152-46a6-a73c-9ec65c7803f0": 0.453
+  },
+  "employment": 47600,
+  "byMajor": {
+   "1": 0.0009,
+   "2": 0.0008,
+   "3": 0.0035,
+   "4": 0.0015,
+   "5": 0.0015,
+   "7": 0.0006
+  },
+  "exposureMix": {
+   "high": 0.2995,
+   "medium": 0.178,
+   "low": 0.1001,
+   "none": 0.4224
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "osobni-hygiena-kazdy-den": {
+  "occupationCount": 92,
+  "employmentShare": 0.0274,
+  "highExposureShare": 0.0,
+  "trendPct": 1.9,
+  "topOccupations": [
+   "0c041d1e-1841-4acb-b0a1-2c387a61bf65",
+   "c0386702-0699-4550-920b-1f7027c9a3d9",
+   "d18deca3-3063-4970-9ddc-e3c70404a28c",
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34",
+   "bdc74965-1d1a-4f8e-a490-9cf71f494e02",
+   "95cda6a9-a70a-4a93-9442-11d573cb4a02",
+   "d38c2107-98f2-47b7-8bb4-f69750d51082",
+   "26852256-d423-41bb-8178-4d37ff2528b9"
+  ],
+  "relevance": {
+   "0c041d1e-1841-4acb-b0a1-2c387a61bf65": 0.92,
+   "c0386702-0699-4550-920b-1f7027c9a3d9": 0.912,
+   "d18deca3-3063-4970-9ddc-e3c70404a28c": 0.89,
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34": 0.873,
+   "bdc74965-1d1a-4f8e-a490-9cf71f494e02": 0.865,
+   "95cda6a9-a70a-4a93-9442-11d573cb4a02": 0.865,
+   "d38c2107-98f2-47b7-8bb4-f69750d51082": 0.86,
+   "26852256-d423-41bb-8178-4d37ff2528b9": 0.848
+  },
+  "employment": 148400,
+  "byMajor": {
+   "2": 0.0134,
+   "3": 0.0044,
+   "4": 0.0008,
+   "5": 0.0039,
+   "7": 0.0027,
+   "8": 0.0023
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0261,
+   "low": 0.2374,
+   "none": 0.7365
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "sebeobsluha-a-pece-o-veci": {
+  "occupationCount": 68,
+  "employmentShare": 0.0391,
+  "highExposureShare": 0.0,
+  "trendPct": -0.0,
+  "topOccupations": [
+   "f756fdab-7726-4c48-bfcc-94ff8810fc08",
+   "69e4e877-9d7a-4df0-973b-34defd318e26",
+   "731ecac4-06e8-4ec2-a559-101fecbd9183",
+   "6d50f735-dca9-4a02-96dc-e4310ed98ae2",
+   "9c55aa23-e3f2-4c00-8c90-5ed5204951a3",
+   "e1cf6897-158d-4b48-a39e-2a3a8cac216c",
+   "26087cc4-6226-41b0-9f97-9564ebe90dce",
+   "90f75f67-495d-49fa-ab57-2f320e251d7e"
+  ],
+  "relevance": {
+   "f756fdab-7726-4c48-bfcc-94ff8810fc08": 0.965,
+   "69e4e877-9d7a-4df0-973b-34defd318e26": 0.965,
+   "731ecac4-06e8-4ec2-a559-101fecbd9183": 0.95,
+   "6d50f735-dca9-4a02-96dc-e4310ed98ae2": 0.935,
+   "9c55aa23-e3f2-4c00-8c90-5ed5204951a3": 0.89,
+   "e1cf6897-158d-4b48-a39e-2a3a8cac216c": 0.86,
+   "26087cc4-6226-41b0-9f97-9564ebe90dce": 0.818,
+   "90f75f67-495d-49fa-ab57-2f320e251d7e": 0.79
+  },
+  "employment": 211900,
+  "byMajor": {
+   "2": 0.0019,
+   "3": 0.0016,
+   "4": 0.0003,
+   "5": 0.0092,
+   "7": 0.008,
+   "8": 0.0028,
+   "9": 0.0155
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0785,
+   "low": 0.093,
+   "none": 0.8285
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "pravidelne-jidlo-a-piti": {
+  "occupationCount": 6,
+  "employmentShare": 0.0021,
+  "highExposureShare": 0.0,
+  "trendPct": 4.1,
+  "topOccupations": [
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+   "80a2aba7-ef7d-46ef-a8ec-15ff6131c0f1"
+  ],
+  "relevance": {
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f": 0.782,
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135": 0.723,
+   "80a2aba7-ef7d-46ef-a8ec-15ff6131c0f1": 0.713
+  },
+  "employment": 11600,
+  "byMajor": {
+   "2": 0.0018,
+   "3": 0.0003
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.4908,
+   "none": 0.5092
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "pravidelny-spanek": {
+  "occupationCount": 32,
+  "employmentShare": 0.0113,
+  "highExposureShare": 0.0,
+  "trendPct": 7.1,
+  "topOccupations": [
+   "80a2aba7-ef7d-46ef-a8ec-15ff6131c0f1",
+   "8d3e8aaa-791b-4c75-a465-f3f827028f50",
+   "b01affdd-c8a9-4121-bc50-a5be17f014eb",
+   "ceda6443-e1dd-4890-b018-42318e3abac2",
+   "25829508-63f3-41c3-affc-ddbb5c077930",
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a",
+   "8289625a-c1c1-4a49-8ddd-37be4c3cd3fc",
+   "1bbaf82c-67ae-4beb-9a55-7298acf5b2af"
+  ],
+  "relevance": {
+   "80a2aba7-ef7d-46ef-a8ec-15ff6131c0f1": 0.6,
+   "8d3e8aaa-791b-4c75-a465-f3f827028f50": 0.54,
+   "b01affdd-c8a9-4121-bc50-a5be17f014eb": 0.527,
+   "ceda6443-e1dd-4890-b018-42318e3abac2": 0.482,
+   "25829508-63f3-41c3-affc-ddbb5c077930": 0.46,
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a": 0.403,
+   "8289625a-c1c1-4a49-8ddd-37be4c3cd3fc": 0.393,
+   "1bbaf82c-67ae-4beb-9a55-7298acf5b2af": 0.347
+  },
+  "employment": 61000,
+  "byMajor": {
+   "2": 0.0079,
+   "3": 0.0019,
+   "5": 0.0015
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0125,
+   "low": 0.3221,
+   "none": 0.6654
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "planovani-casu-s-ohledem-na-druhe": {
+  "occupationCount": 119,
+  "employmentShare": 0.0357,
+  "highExposureShare": 0.135,
+  "trendPct": -3.5,
+  "topOccupations": [
+   "92be1fac-97c4-4d4d-ada7-f6aa07d6f316",
+   "1b38a27d-ef98-4d9f-b1b2-8c109bf47e79",
+   "b12b14fd-5b74-40c6-afd9-dd35b34e27ed",
+   "eb9479c6-5fdf-4f45-ace4-28b547b8c7e5",
+   "2a04a1df-a3b9-403e-a245-e7f93fdddd44",
+   "49e28648-4fa8-4b36-ac4d-781c108547bf",
+   "c94f3565-d987-431f-a46b-6f4e018e0bd7",
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443"
+  ],
+  "relevance": {
+   "92be1fac-97c4-4d4d-ada7-f6aa07d6f316": 0.958,
+   "1b38a27d-ef98-4d9f-b1b2-8c109bf47e79": 0.94,
+   "b12b14fd-5b74-40c6-afd9-dd35b34e27ed": 0.922,
+   "eb9479c6-5fdf-4f45-ace4-28b547b8c7e5": 0.917,
+   "2a04a1df-a3b9-403e-a245-e7f93fdddd44": 0.912,
+   "49e28648-4fa8-4b36-ac4d-781c108547bf": 0.912,
+   "c94f3565-d987-431f-a46b-6f4e018e0bd7": 0.907,
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443": 0.895
+  },
+  "employment": 193300,
+  "byMajor": {
+   "1": 0.0011,
+   "2": 0.0029,
+   "3": 0.0073,
+   "4": 0.004,
+   "5": 0.0033,
+   "7": 0.002,
+   "8": 0.0115,
+   "9": 0.0035
+  },
+  "exposureMix": {
+   "high": 0.135,
+   "medium": 0.1102,
+   "low": 0.2303,
+   "none": 0.5246
+  },
+  "foundationCount": 2,
+  "transferCount": 2
+ },
+ "jidelnicek-na-cely-den": {
+  "occupationCount": 2,
+  "employmentShare": 0.001,
+  "highExposureShare": 0.0,
+  "trendPct": 7.3,
+  "topOccupations": [
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+   "763f82c2-81e3-48d2-9cdf-f532b5016a1f"
+  ],
+  "relevance": {
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f": 0.787,
+   "763f82c2-81e3-48d2-9cdf-f532b5016a1f": 0.765
+  },
+  "employment": 5200,
+  "byMajor": {
+   "2": 0.0004,
+   "5": 0.0006
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.3763,
+   "none": 0.6237
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "pet-denni-jidel-a-pestra-strava": {
+  "occupationCount": 9,
+  "employmentShare": 0.0029,
+  "highExposureShare": 0.0,
+  "trendPct": 2.4,
+  "topOccupations": [
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd",
+   "c37d0026-989b-4705-9bcb-30cccd8308fa",
+   "e97ce81a-cf24-4012-b39e-f87bedc5b450",
+   "9905cc76-d48b-49b1-94ab-17becb30be1a"
+  ],
+  "relevance": {
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135": 0.762,
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f": 0.757,
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd": 0.733,
+   "c37d0026-989b-4705-9bcb-30cccd8308fa": 0.715,
+   "e97ce81a-cf24-4012-b39e-f87bedc5b450": 0.487,
+   "9905cc76-d48b-49b1-94ab-17becb30be1a": 0.425
+  },
+  "employment": 15500,
+  "byMajor": {
+   "2": 0.0016,
+   "3": 0.0005,
+   "5": 0.0006,
+   "7": 0.0002
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0491,
+   "low": 0.555,
+   "none": 0.3959
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "zdravy-talir": {
+  "occupationCount": 9,
+  "employmentShare": 0.0029,
+  "highExposureShare": 0.0,
+  "trendPct": 2.4,
+  "topOccupations": [
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd",
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+   "c37d0026-989b-4705-9bcb-30cccd8308fa",
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+   "e97ce81a-cf24-4012-b39e-f87bedc5b450",
+   "9905cc76-d48b-49b1-94ab-17becb30be1a"
+  ],
+  "relevance": {
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd": 0.863,
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f": 0.82,
+   "c37d0026-989b-4705-9bcb-30cccd8308fa": 0.78,
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135": 0.738,
+   "e97ce81a-cf24-4012-b39e-f87bedc5b450": 0.51,
+   "9905cc76-d48b-49b1-94ab-17becb30be1a": 0.435
+  },
+  "employment": 15500,
+  "byMajor": {
+   "2": 0.0016,
+   "3": 0.0005,
+   "5": 0.0006,
+   "7": 0.0002
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0491,
+   "low": 0.555,
+   "none": 0.3959
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "ovoce-a-zelenina-druhy": {
+  "occupationCount": 7,
+  "employmentShare": 0.0025,
+  "highExposureShare": 0.1635,
+  "trendPct": -1.7,
+  "topOccupations": [
+   "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547",
+   "373db468-bd25-4b67-a6e0-4ac79d9a9e85",
+   "fd882949-aad7-42ff-825e-00d49a5ec469",
+   "73bdadf0-2175-4097-8f4d-b6dabeb0a030",
+   "dc29cd23-d6ba-46b0-bc2f-424e20270099",
+   "5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32",
+   "39b4e367-94b5-49fe-bcd7-4b116865ca59"
+  ],
+  "relevance": {
+   "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547": 0.963,
+   "373db468-bd25-4b67-a6e0-4ac79d9a9e85": 0.917,
+   "fd882949-aad7-42ff-825e-00d49a5ec469": 0.81,
+   "73bdadf0-2175-4097-8f4d-b6dabeb0a030": 0.738,
+   "dc29cd23-d6ba-46b0-bc2f-424e20270099": 0.67,
+   "5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32": 0.665,
+   "39b4e367-94b5-49fe-bcd7-4b116865ca59": 0.585
+  },
+  "employment": 13300,
+  "byMajor": {
+   "1": 0.0002,
+   "3": 0.0008,
+   "5": 0.0009,
+   "6": 0.0004,
+   "9": 0.0002
+  },
+  "exposureMix": {
+   "high": 0.1635,
+   "medium": 0.5458,
+   "low": 0.0753,
+   "none": 0.2154
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "napoje-a-pitny-rezim": {
+  "occupationCount": 5,
+  "employmentShare": 0.0023,
+  "highExposureShare": 0.0,
+  "trendPct": 5.2,
+  "topOccupations": [
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+   "763f82c2-81e3-48d2-9cdf-f532b5016a1f",
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd",
+   "9905cc76-d48b-49b1-94ab-17becb30be1a",
+   "11a6d0f6-e692-4774-aa5f-193b67d31022"
+  ],
+  "relevance": {
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f": 0.725,
+   "763f82c2-81e3-48d2-9cdf-f532b5016a1f": 0.62,
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd": 0.595,
+   "9905cc76-d48b-49b1-94ab-17becb30be1a": 0.417,
+   "11a6d0f6-e692-4774-aa5f-193b67d31022": 0.343
+  },
+  "employment": 12300,
+  "byMajor": {
+   "2": 0.0011,
+   "5": 0.0012
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.3085,
+   "none": 0.6915
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "sul-cukr-tuk-doporuceni": {
+  "occupationCount": 9,
+  "employmentShare": 0.0029,
+  "highExposureShare": 0.0,
+  "trendPct": 2.4,
+  "topOccupations": [
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd",
+   "c37d0026-989b-4705-9bcb-30cccd8308fa",
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+   "33fe4c90-c4fd-4860-bdc5-24fcab16f45a",
+   "e97ce81a-cf24-4012-b39e-f87bedc5b450",
+   "9905cc76-d48b-49b1-94ab-17becb30be1a",
+   "b4306d87-7992-47fc-914a-4485a4e7003c"
+  ],
+  "relevance": {
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd": 0.955,
+   "c37d0026-989b-4705-9bcb-30cccd8308fa": 0.897,
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f": 0.838,
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135": 0.802,
+   "33fe4c90-c4fd-4860-bdc5-24fcab16f45a": 0.635,
+   "e97ce81a-cf24-4012-b39e-f87bedc5b450": 0.593,
+   "9905cc76-d48b-49b1-94ab-17becb30be1a": 0.557,
+   "b4306d87-7992-47fc-914a-4485a4e7003c": 0.378
+  },
+  "employment": 15500,
+  "byMajor": {
+   "2": 0.0016,
+   "3": 0.0005,
+   "5": 0.0006,
+   "7": 0.0002
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0491,
+   "low": 0.555,
+   "none": 0.3959
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "datum-pouzitelnosti-a-trvanlivosti": {
+  "occupationCount": 28,
+  "employmentShare": 0.0078,
+  "highExposureShare": 0.0,
+  "trendPct": -2.1,
+  "topOccupations": [
+   "37c7880e-cfee-4c41-a41b-061682fefde3",
+   "062d666b-8b5f-4ff2-9047-113831eb3e9f",
+   "b4306d87-7992-47fc-914a-4485a4e7003c",
+   "01484951-15e6-4b88-a20f-1201868d36a0",
+   "2a2da883-8af5-4b98-832e-00e6681b22c3",
+   "a256838b-0843-4ad2-a2fb-4531f94e63d8",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34"
+  ],
+  "relevance": {
+   "37c7880e-cfee-4c41-a41b-061682fefde3": 0.85,
+   "062d666b-8b5f-4ff2-9047-113831eb3e9f": 0.84,
+   "b4306d87-7992-47fc-914a-4485a4e7003c": 0.838,
+   "01484951-15e6-4b88-a20f-1201868d36a0": 0.823,
+   "2a2da883-8af5-4b98-832e-00e6681b22c3": 0.82,
+   "a256838b-0843-4ad2-a2fb-4531f94e63d8": 0.81,
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca": 0.802,
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34": 0.775
+  },
+  "employment": 42400,
+  "byMajor": {
+   "2": 0.0015,
+   "3": 0.0006,
+   "4": 0.0008,
+   "5": 0.0025,
+   "7": 0.0016,
+   "8": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.1379,
+   "low": 0.2516,
+   "none": 0.6105
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "hygiena-pri-jidle-a-pracovni-plocha": {
+  "occupationCount": 72,
+  "employmentShare": 0.0176,
+  "highExposureShare": 0.1824,
+  "trendPct": -1.2,
+  "topOccupations": [
+   "b4bff870-5c8f-4c33-b07f-f04d79830633",
+   "c0386702-0699-4550-920b-1f7027c9a3d9",
+   "84dfc210-db07-4a83-87fe-d6131907ea83",
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34",
+   "defc8417-eeb6-4f13-8fcd-6518b99a40f4",
+   "1aadb308-432a-4d01-b54b-b4f7f76dd419",
+   "952c766a-db5c-42b2-809d-d14cbb02cdb6",
+   "69e4e877-9d7a-4df0-973b-34defd318e26"
+  ],
+  "relevance": {
+   "b4bff870-5c8f-4c33-b07f-f04d79830633": 0.965,
+   "c0386702-0699-4550-920b-1f7027c9a3d9": 0.963,
+   "84dfc210-db07-4a83-87fe-d6131907ea83": 0.96,
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34": 0.958,
+   "defc8417-eeb6-4f13-8fcd-6518b99a40f4": 0.95,
+   "1aadb308-432a-4d01-b54b-b4f7f76dd419": 0.943,
+   "952c766a-db5c-42b2-809d-d14cbb02cdb6": 0.853,
+   "69e4e877-9d7a-4df0-973b-34defd318e26": 0.848
+  },
+  "employment": 95300,
+  "byMajor": {
+   "1": 0.0008,
+   "2": 0.0012,
+   "3": 0.004,
+   "5": 0.0021,
+   "7": 0.0022,
+   "8": 0.0055,
+   "9": 0.0017
+  },
+  "exposureMix": {
+   "high": 0.1824,
+   "medium": 0.0223,
+   "low": 0.1438,
+   "none": 0.6516
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "priprava-pokrmu-a-napoje": {
+  "occupationCount": 12,
+  "employmentShare": 0.0024,
+  "highExposureShare": 0.0,
+  "trendPct": -0.6,
+  "topOccupations": [
+   "e20816a9-51d0-410b-b2c6-cbc22c1c4256",
+   "64c180d0-029b-4dc7-b582-77899d171186",
+   "ca2da084-3bfa-47d8-84ba-ef890191708d"
+  ],
+  "relevance": {
+   "e20816a9-51d0-410b-b2c6-cbc22c1c4256": 0.71,
+   "64c180d0-029b-4dc7-b582-77899d171186": 0.703,
+   "ca2da084-3bfa-47d8-84ba-ef890191708d": 0.417
+  },
+  "employment": 12800,
+  "byMajor": {
+   "2": 0.0001,
+   "3": 0.0002,
+   "5": 0.0006,
+   "6": 0.0004,
+   "8": 0.0011
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.1315,
+   "none": 0.8685
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "stolovani-prostirani": {
+  "occupationCount": 3,
+  "employmentShare": 0.0018,
+  "highExposureShare": 0.0,
+  "trendPct": 6.7,
+  "topOccupations": [
+   "d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471",
+   "74cbe6fb-336f-4f3f-8c8f-7645b279a231"
+  ],
+  "relevance": {
+   "d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471": 0.932,
+   "74cbe6fb-336f-4f3f-8c8f-7645b279a231": 0.902
+  },
+  "employment": 9800,
+  "byMajor": {
+   "5": 0.0018
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.6667,
+   "none": 0.3333
+  },
+  "foundationCount": 1,
+  "transferCount": 3
+ },
+ "ceske-mince-a-bankovky": {
+  "occupationCount": 6,
+  "employmentShare": 0.0038,
+  "highExposureShare": 0.0673,
+  "trendPct": 3.0,
+  "topOccupations": [
+   "9a99a5fe-875d-49b2-9b53-cc1b73be1659",
+   "6f7c1e84-8162-4c20-a575-b57ff624eef5",
+   "c1a86d6d-7785-43e1-994b-958eba58fff7",
+   "7720f392-6ea0-4455-a805-7b7eef38a709",
+   "9cee6106-04cf-401a-ae4c-b4b8652d6915"
+  ],
+  "relevance": {
+   "9a99a5fe-875d-49b2-9b53-cc1b73be1659": 0.897,
+   "6f7c1e84-8162-4c20-a575-b57ff624eef5": 0.767,
+   "c1a86d6d-7785-43e1-994b-958eba58fff7": 0.642,
+   "7720f392-6ea0-4455-a805-7b7eef38a709": 0.625,
+   "9cee6106-04cf-401a-ae4c-b4b8652d6915": 0.58
+  },
+  "employment": 20600,
+  "byMajor": {
+   "3": 0.0003,
+   "4": 0.0003,
+   "5": 0.0018,
+   "8": 0.0014
+  },
+  "exposureMix": {
+   "high": 0.0673,
+   "medium": 0.3725,
+   "low": 0.5602,
+   "none": 0.0
+  },
+  "foundationCount": 2,
+  "transferCount": 4
+ },
+ "zaplatit-danou-castku": {
+  "occupationCount": 51,
+  "employmentShare": 0.0335,
+  "highExposureShare": 0.1975,
+  "trendPct": -3.0,
+  "topOccupations": [
+   "2b871272-bd61-4206-bd1a-0b96d7023098",
+   "b059d331-2dd9-4d7d-923e-1dd029d2e58c",
+   "c822ca35-6c36-4eab-97fa-90f2775091c3",
+   "bdf2dd9d-6c92-46f4-a8e7-76c12302d3e7",
+   "6a6e174e-cffa-49a9-9f2f-aa39c81cdee5",
+   "2f5e38a0-6578-4665-bdbd-e2ab505be140",
+   "53ed8787-3423-4843-8c63-7be1877d29e2",
+   "96a0d8d3-d4a6-473d-80d6-b5dbadde940a"
+  ],
+  "relevance": {
+   "2b871272-bd61-4206-bd1a-0b96d7023098": 0.965,
+   "b059d331-2dd9-4d7d-923e-1dd029d2e58c": 0.94,
+   "c822ca35-6c36-4eab-97fa-90f2775091c3": 0.915,
+   "bdf2dd9d-6c92-46f4-a8e7-76c12302d3e7": 0.912,
+   "6a6e174e-cffa-49a9-9f2f-aa39c81cdee5": 0.88,
+   "2f5e38a0-6578-4665-bdbd-e2ab505be140": 0.782,
+   "53ed8787-3423-4843-8c63-7be1877d29e2": 0.757,
+   "96a0d8d3-d4a6-473d-80d6-b5dbadde940a": 0.675
+  },
+  "employment": 181600,
+  "byMajor": {
+   "2": 0.0004,
+   "3": 0.0007,
+   "4": 0.0043,
+   "5": 0.0276,
+   "9": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.1975,
+   "medium": 0.3754,
+   "low": 0.1569,
+   "none": 0.2702
+  },
+  "foundationCount": 2,
+  "transferCount": 4
+ },
+ "vraceni-spravneho-obnosu": {
+  "occupationCount": 92,
+  "employmentShare": 0.0712,
+  "highExposureShare": 0.0842,
+  "trendPct": -2.7,
+  "topOccupations": [
+   "961cbd1f-2a9b-4756-b227-67a1c23c94b6",
+   "2b871272-bd61-4206-bd1a-0b96d7023098",
+   "b059d331-2dd9-4d7d-923e-1dd029d2e58c",
+   "c822ca35-6c36-4eab-97fa-90f2775091c3",
+   "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81",
+   "bdf2dd9d-6c92-46f4-a8e7-76c12302d3e7",
+   "2f5e38a0-6578-4665-bdbd-e2ab505be140",
+   "d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471"
+  ],
+  "relevance": {
+   "961cbd1f-2a9b-4756-b227-67a1c23c94b6": 0.948,
+   "2b871272-bd61-4206-bd1a-0b96d7023098": 0.927,
+   "b059d331-2dd9-4d7d-923e-1dd029d2e58c": 0.927,
+   "c822ca35-6c36-4eab-97fa-90f2775091c3": 0.917,
+   "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81": 0.86,
+   "bdf2dd9d-6c92-46f4-a8e7-76c12302d3e7": 0.835,
+   "2f5e38a0-6578-4665-bdbd-e2ab505be140": 0.765,
+   "d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471": 0.745
+  },
+  "employment": 385700,
+  "byMajor": {
+   "2": 0.0007,
+   "3": 0.0007,
+   "4": 0.0051,
+   "5": 0.0641,
+   "9": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0842,
+   "medium": 0.7393,
+   "low": 0.0788,
+   "none": 0.0977
+  },
+  "foundationCount": 2,
+  "transferCount": 4
+ },
+ "odhad-ceny-nakupu": {
+  "occupationCount": 47,
+  "employmentShare": 0.0037,
+  "highExposureShare": 0.0,
+  "trendPct": -28.1,
+  "topOccupations": [
+   "79874366-6ec2-4601-aceb-9dbb8e68d015",
+   "acf28133-525f-4838-9248-d852e28b8f98",
+   "bdfb48e0-79dc-4b63-8470-db2e03b37326",
+   "c76dda38-938c-404e-8a6d-78c8705eebc0"
+  ],
+  "relevance": {
+   "79874366-6ec2-4601-aceb-9dbb8e68d015": 0.73,
+   "acf28133-525f-4838-9248-d852e28b8f98": 0.652,
+   "bdfb48e0-79dc-4b63-8470-db2e03b37326": 0.578,
+   "c76dda38-938c-404e-8a6d-78c8705eebc0": 0.54
+  },
+  "employment": 20300,
+  "byMajor": {
+   "1": 0.0019,
+   "5": 0.0019
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.4993,
+   "low": 0.5007,
+   "none": 0.0
+  },
+  "foundationCount": 2,
+  "transferCount": 4
+ },
  "silne-stranky-a-vlastnosti": {
   "occupationCount": 210,
   "employmentShare": 0.0463,
@@ -37164,6 +38992,608 @@
   "foundationCount": 0,
   "transferCount": 2
  },
+ "povinnosti-a-volny-cas": {
+  "occupationCount": 29,
+  "employmentShare": 0.0081,
+  "highExposureShare": 0.0,
+  "trendPct": 2.3,
+  "topOccupations": [
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "64b136da-aedf-48a2-96a0-72eb850bfcd0",
+   "03632d98-0ae3-4dd2-941c-3b48de9a0219",
+   "ce6230b8-154f-4e0b-ac03-dca3a269a19c",
+   "c94f3565-d987-431f-a46b-6f4e018e0bd7",
+   "bea99fea-0383-4c63-b944-70d4799de2c5",
+   "55f001af-fa48-4c0c-a7e5-fc69babe3d45",
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a"
+  ],
+  "relevance": {
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.645,
+   "64b136da-aedf-48a2-96a0-72eb850bfcd0": 0.545,
+   "03632d98-0ae3-4dd2-941c-3b48de9a0219": 0.545,
+   "ce6230b8-154f-4e0b-ac03-dca3a269a19c": 0.542,
+   "c94f3565-d987-431f-a46b-6f4e018e0bd7": 0.532,
+   "bea99fea-0383-4c63-b944-70d4799de2c5": 0.505,
+   "55f001af-fa48-4c0c-a7e5-fc69babe3d45": 0.492,
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a": 0.487
+  },
+  "employment": 43800,
+  "byMajor": {
+   "1": 0.0025,
+   "2": 0.0001,
+   "3": 0.0006,
+   "4": 0.002,
+   "8": 0.0028
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.5695,
+   "low": 0.3456,
+   "none": 0.0848
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "popis-dne-a-tydne": {
+  "occupationCount": 29,
+  "employmentShare": 0.0081,
+  "highExposureShare": 0.0,
+  "trendPct": 2.3,
+  "topOccupations": [
+   "c6bd511a-d966-4df9-a48e-4f800354f268",
+   "b42c5ed4-c6e4-4694-934f-96127719cc43",
+   "0c408028-c48f-4df8-ba5d-c3d3be15f5a2",
+   "080fc550-b7ca-4576-aaf5-06fffbede994",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "bea99fea-0383-4c63-b944-70d4799de2c5",
+   "771955d9-e988-47f3-b60f-207adb2cd571",
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a"
+  ],
+  "relevance": {
+   "c6bd511a-d966-4df9-a48e-4f800354f268": 0.61,
+   "b42c5ed4-c6e4-4694-934f-96127719cc43": 0.542,
+   "0c408028-c48f-4df8-ba5d-c3d3be15f5a2": 0.527,
+   "080fc550-b7ca-4576-aaf5-06fffbede994": 0.515,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.512,
+   "bea99fea-0383-4c63-b944-70d4799de2c5": 0.507,
+   "771955d9-e988-47f3-b60f-207adb2cd571": 0.507,
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a": 0.495
+  },
+  "employment": 43800,
+  "byMajor": {
+   "1": 0.0025,
+   "2": 0.0001,
+   "3": 0.0006,
+   "4": 0.002,
+   "8": 0.0028
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.5695,
+   "low": 0.3456,
+   "none": 0.0848
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "vyvazeny-denni-plan": {
+  "occupationCount": 29,
+  "employmentShare": 0.0081,
+  "highExposureShare": 0.0,
+  "trendPct": 2.3,
+  "topOccupations": [
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "03632d98-0ae3-4dd2-941c-3b48de9a0219",
+   "ce6230b8-154f-4e0b-ac03-dca3a269a19c",
+   "bea99fea-0383-4c63-b944-70d4799de2c5",
+   "c94f3565-d987-431f-a46b-6f4e018e0bd7",
+   "c6bd511a-d966-4df9-a48e-4f800354f268",
+   "0c408028-c48f-4df8-ba5d-c3d3be15f5a2",
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a"
+  ],
+  "relevance": {
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.715,
+   "03632d98-0ae3-4dd2-941c-3b48de9a0219": 0.688,
+   "ce6230b8-154f-4e0b-ac03-dca3a269a19c": 0.665,
+   "bea99fea-0383-4c63-b944-70d4799de2c5": 0.652,
+   "c94f3565-d987-431f-a46b-6f4e018e0bd7": 0.652,
+   "c6bd511a-d966-4df9-a48e-4f800354f268": 0.65,
+   "0c408028-c48f-4df8-ba5d-c3d3be15f5a2": 0.6,
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a": 0.585
+  },
+  "employment": 43800,
+  "byMajor": {
+   "1": 0.0025,
+   "2": 0.0001,
+   "3": 0.0006,
+   "4": 0.002,
+   "8": 0.0028
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.5695,
+   "low": 0.3456,
+   "none": 0.0848
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "aktivity-pro-wellbeing": {
+  "occupationCount": 8,
+  "employmentShare": 0.001,
+  "highExposureShare": 0.0,
+  "trendPct": -10.7,
+  "topOccupations": [
+   "ceda6443-e1dd-4890-b018-42318e3abac2",
+   "394bdd9b-3ee8-43a9-b943-442ce146bb21",
+   "f7177f79-63e7-4944-8896-044056b62523"
+  ],
+  "relevance": {
+   "ceda6443-e1dd-4890-b018-42318e3abac2": 0.805,
+   "394bdd9b-3ee8-43a9-b943-442ce146bb21": 0.752,
+   "f7177f79-63e7-4944-8896-044056b62523": 0.75
+  },
+  "employment": 5600,
+  "byMajor": {
+   "3": 0.001
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.2945,
+   "none": 0.7055
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "zivotni-role-a-hodnoty": {
+  "occupationCount": 210,
+  "employmentShare": 0.0463,
+  "highExposureShare": 0.0268,
+  "trendPct": 7.4,
+  "topOccupations": [
+   "b7507136-e71e-47e8-b873-e77d5cdf2922",
+   "af69484e-b43f-4685-b22d-f3418df45c4d",
+   "5a9acd29-666c-4ca1-b10e-e086584a526b",
+   "6667bf29-a3e3-4513-a71b-82c67206045b",
+   "920c22e1-10a1-4afa-86b3-c43da8488391",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "31d0e6b8-64ae-4b04-b988-dbee03a4aaa9",
+   "3f74aad8-2d60-4be2-b059-8dba5568d530"
+  ],
+  "relevance": {
+   "b7507136-e71e-47e8-b873-e77d5cdf2922": 0.828,
+   "af69484e-b43f-4685-b22d-f3418df45c4d": 0.812,
+   "5a9acd29-666c-4ca1-b10e-e086584a526b": 0.743,
+   "6667bf29-a3e3-4513-a71b-82c67206045b": 0.723,
+   "920c22e1-10a1-4afa-86b3-c43da8488391": 0.705,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.67,
+   "31d0e6b8-64ae-4b04-b988-dbee03a4aaa9": 0.613,
+   "3f74aad8-2d60-4be2-b059-8dba5568d530": 0.595
+  },
+  "employment": 251000,
+  "byMajor": {
+   "1": 0.001,
+   "2": 0.0351,
+   "3": 0.0034,
+   "5": 0.006,
+   "7": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0268,
+   "medium": 0.1415,
+   "low": 0.4665,
+   "none": 0.3652
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "role-a-kariera": {
+  "occupationCount": 236,
+  "employmentShare": 0.0538,
+  "highExposureShare": 0.0407,
+  "trendPct": 8.6,
+  "topOccupations": [
+   "dc69f2ed-ebe9-43da-bf9d-31aac874d4c2",
+   "98b261ec-def2-4871-b062-56cdd290c844",
+   "949ab84f-5d76-4139-a568-45691b7ebc53",
+   "920c22e1-10a1-4afa-86b3-c43da8488391",
+   "6667bf29-a3e3-4513-a71b-82c67206045b",
+   "4c89c65c-4e35-44e3-8fa0-5d73e9e15325",
+   "f605bcd2-90b6-45a0-a558-d05016d68a77",
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1"
+  ],
+  "relevance": {
+   "dc69f2ed-ebe9-43da-bf9d-31aac874d4c2": 0.693,
+   "98b261ec-def2-4871-b062-56cdd290c844": 0.667,
+   "949ab84f-5d76-4139-a568-45691b7ebc53": 0.552,
+   "920c22e1-10a1-4afa-86b3-c43da8488391": 0.542,
+   "6667bf29-a3e3-4513-a71b-82c67206045b": 0.537,
+   "4c89c65c-4e35-44e3-8fa0-5d73e9e15325": 0.532,
+   "f605bcd2-90b6-45a0-a558-d05016d68a77": 0.507,
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.5
+  },
+  "employment": 291500,
+  "byMajor": {
+   "1": 0.0047,
+   "2": 0.036,
+   "3": 0.0047,
+   "5": 0.0076,
+   "7": 0.0008,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0407,
+   "medium": 0.1506,
+   "low": 0.4583,
+   "none": 0.3504
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "kariera-hodnoty-a-wellbeing": {
+  "occupationCount": 237,
+  "employmentShare": 0.0539,
+  "highExposureShare": 0.0407,
+  "trendPct": 8.5,
+  "topOccupations": [
+   "b7507136-e71e-47e8-b873-e77d5cdf2922",
+   "fa4a3b52-990c-44eb-a912-490f5d689400",
+   "f605bcd2-90b6-45a0-a558-d05016d68a77",
+   "6c3fd65e-2d24-47d8-bc22-9e93512bdcc2",
+   "920c22e1-10a1-4afa-86b3-c43da8488391",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "6667bf29-a3e3-4513-a71b-82c67206045b",
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d"
+  ],
+  "relevance": {
+   "b7507136-e71e-47e8-b873-e77d5cdf2922": 0.77,
+   "fa4a3b52-990c-44eb-a912-490f5d689400": 0.765,
+   "f605bcd2-90b6-45a0-a558-d05016d68a77": 0.645,
+   "6c3fd65e-2d24-47d8-bc22-9e93512bdcc2": 0.615,
+   "920c22e1-10a1-4afa-86b3-c43da8488391": 0.605,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.588,
+   "6667bf29-a3e3-4513-a71b-82c67206045b": 0.585,
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d": 0.575
+  },
+  "employment": 292000,
+  "byMajor": {
+   "1": 0.0047,
+   "2": 0.036,
+   "3": 0.0047,
+   "5": 0.0076,
+   "7": 0.0008,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0407,
+   "medium": 0.1503,
+   "low": 0.4593,
+   "none": 0.3498
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "podpora-blizkych-pro-karieru": {
+  "occupationCount": 210,
+  "employmentShare": 0.0463,
+  "highExposureShare": 0.0268,
+  "trendPct": 7.4,
+  "topOccupations": [
+   "5d758e75-a116-485a-b800-5db08ffd3ba1",
+   "dc69f2ed-ebe9-43da-bf9d-31aac874d4c2",
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409",
+   "8d703e8f-1e57-4246-8a6b-cb87a760d4ab",
+   "920c22e1-10a1-4afa-86b3-c43da8488391",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d",
+   "31d0e6b8-64ae-4b04-b988-dbee03a4aaa9"
+  ],
+  "relevance": {
+   "5d758e75-a116-485a-b800-5db08ffd3ba1": 0.75,
+   "dc69f2ed-ebe9-43da-bf9d-31aac874d4c2": 0.725,
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409": 0.7,
+   "8d703e8f-1e57-4246-8a6b-cb87a760d4ab": 0.64,
+   "920c22e1-10a1-4afa-86b3-c43da8488391": 0.583,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.578,
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d": 0.568,
+   "31d0e6b8-64ae-4b04-b988-dbee03a4aaa9": 0.542
+  },
+  "employment": 251000,
+  "byMajor": {
+   "1": 0.001,
+   "2": 0.0351,
+   "3": 0.0034,
+   "5": 0.006,
+   "7": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0268,
+   "medium": 0.1415,
+   "low": 0.4665,
+   "none": 0.3652
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "prinos-volnocasovych-aktivit": {
+  "occupationCount": 214,
+  "employmentShare": 0.0469,
+  "highExposureShare": 0.0264,
+  "trendPct": 7.1,
+  "topOccupations": [
+   "b7507136-e71e-47e8-b873-e77d5cdf2922",
+   "4bdc4e52-1c9c-4d80-898a-18522d905fee",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "6667bf29-a3e3-4513-a71b-82c67206045b",
+   "4d7d2628-1405-4ff2-b5b5-bd0d57ed9bbd",
+   "3f74aad8-2d60-4be2-b059-8dba5568d530",
+   "920c22e1-10a1-4afa-86b3-c43da8488391",
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1"
+  ],
+  "relevance": {
+   "b7507136-e71e-47e8-b873-e77d5cdf2922": 0.72,
+   "4bdc4e52-1c9c-4d80-898a-18522d905fee": 0.608,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.585,
+   "6667bf29-a3e3-4513-a71b-82c67206045b": 0.512,
+   "4d7d2628-1405-4ff2-b5b5-bd0d57ed9bbd": 0.487,
+   "3f74aad8-2d60-4be2-b059-8dba5568d530": 0.44,
+   "920c22e1-10a1-4afa-86b3-c43da8488391": 0.41,
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.365
+  },
+  "employment": 254400,
+  "byMajor": {
+   "1": 0.001,
+   "2": 0.0351,
+   "3": 0.004,
+   "5": 0.006,
+   "7": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0264,
+   "medium": 0.1396,
+   "low": 0.4668,
+   "none": 0.3672
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "sbirani-dokladu-do-portfolia": {
+  "occupationCount": 210,
+  "employmentShare": 0.0463,
+  "highExposureShare": 0.0268,
+  "trendPct": 7.4,
+  "topOccupations": [
+   "20786e6d-36f0-4d1e-b033-05101fa71f3c",
+   "fa4a3b52-990c-44eb-a912-490f5d689400",
+   "c60ede09-b67b-4173-8991-b9b694149488",
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62",
+   "4d7d2628-1405-4ff2-b5b5-bd0d57ed9bbd",
+   "557f9ccc-4e46-4bb2-8d20-272cd978b152",
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1",
+   "f3e23761-0663-4ae0-97a2-0b2dd3fa38a1"
+  ],
+  "relevance": {
+   "20786e6d-36f0-4d1e-b033-05101fa71f3c": 0.557,
+   "fa4a3b52-990c-44eb-a912-490f5d689400": 0.545,
+   "c60ede09-b67b-4173-8991-b9b694149488": 0.537,
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62": 0.515,
+   "4d7d2628-1405-4ff2-b5b5-bd0d57ed9bbd": 0.463,
+   "557f9ccc-4e46-4bb2-8d20-272cd978b152": 0.46,
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.44,
+   "f3e23761-0663-4ae0-97a2-0b2dd3fa38a1": 0.438
+  },
+  "employment": 251000,
+  "byMajor": {
+   "1": 0.001,
+   "2": 0.0351,
+   "3": 0.0034,
+   "5": 0.006,
+   "7": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0268,
+   "medium": 0.1415,
+   "low": 0.4665,
+   "none": 0.3652
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "podoby-a-nastroje-portfolia": {
+  "occupationCount": 210,
+  "employmentShare": 0.0463,
+  "highExposureShare": 0.0268,
+  "trendPct": 7.4,
+  "topOccupations": [
+   "fa4a3b52-990c-44eb-a912-490f5d689400",
+   "c60ede09-b67b-4173-8991-b9b694149488",
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62",
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1",
+   "20786e6d-36f0-4d1e-b033-05101fa71f3c",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "6667bf29-a3e3-4513-a71b-82c67206045b",
+   "20e39113-05f5-4184-94e2-f5e8e8c8d2ea"
+  ],
+  "relevance": {
+   "fa4a3b52-990c-44eb-a912-490f5d689400": 0.505,
+   "c60ede09-b67b-4173-8991-b9b694149488": 0.482,
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62": 0.417,
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.398,
+   "20786e6d-36f0-4d1e-b033-05101fa71f3c": 0.38,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.362,
+   "6667bf29-a3e3-4513-a71b-82c67206045b": 0.35,
+   "20e39113-05f5-4184-94e2-f5e8e8c8d2ea": 0.295
+  },
+  "employment": 251000,
+  "byMajor": {
+   "1": 0.001,
+   "2": 0.0351,
+   "3": 0.0034,
+   "5": 0.006,
+   "7": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0268,
+   "medium": 0.1415,
+   "low": 0.4665,
+   "none": 0.3652
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "cile-podle-portfolia": {
+  "occupationCount": 210,
+  "employmentShare": 0.0463,
+  "highExposureShare": 0.0268,
+  "trendPct": 7.4,
+  "topOccupations": [
+   "fa4a3b52-990c-44eb-a912-490f5d689400",
+   "b7507136-e71e-47e8-b873-e77d5cdf2922",
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1",
+   "6667bf29-a3e3-4513-a71b-82c67206045b",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62",
+   "920c22e1-10a1-4afa-86b3-c43da8488391",
+   "1f5932eb-b36d-44e1-a063-7aa9e228af51"
+  ],
+  "relevance": {
+   "fa4a3b52-990c-44eb-a912-490f5d689400": 0.613,
+   "b7507136-e71e-47e8-b873-e77d5cdf2922": 0.552,
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.475,
+   "6667bf29-a3e3-4513-a71b-82c67206045b": 0.4,
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef": 0.365,
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62": 0.36,
+   "920c22e1-10a1-4afa-86b3-c43da8488391": 0.352,
+   "1f5932eb-b36d-44e1-a063-7aa9e228af51": 0.32
+  },
+  "employment": 251000,
+  "byMajor": {
+   "1": 0.001,
+   "2": 0.0351,
+   "3": 0.0034,
+   "5": 0.006,
+   "7": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0268,
+   "medium": 0.1415,
+   "low": 0.4665,
+   "none": 0.3652
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "aktualizace-portfolia": {
+  "occupationCount": 210,
+  "employmentShare": 0.0463,
+  "highExposureShare": 0.0268,
+  "trendPct": 7.4,
+  "topOccupations": [
+   "c60ede09-b67b-4173-8991-b9b694149488",
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62",
+   "fa4a3b52-990c-44eb-a912-490f5d689400",
+   "40da2fc6-8cb4-4cd3-8fe3-899715905070",
+   "920c22e1-10a1-4afa-86b3-c43da8488391",
+   "4e8a5d3e-66de-4661-9927-ef3123cc79e9",
+   "e3229e40-f571-4b26-baca-29edc8fe313e",
+   "20e39113-05f5-4184-94e2-f5e8e8c8d2ea"
+  ],
+  "relevance": {
+   "c60ede09-b67b-4173-8991-b9b694149488": 0.547,
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62": 0.535,
+   "fa4a3b52-990c-44eb-a912-490f5d689400": 0.443,
+   "40da2fc6-8cb4-4cd3-8fe3-899715905070": 0.378,
+   "920c22e1-10a1-4afa-86b3-c43da8488391": 0.347,
+   "4e8a5d3e-66de-4661-9927-ef3123cc79e9": 0.31,
+   "e3229e40-f571-4b26-baca-29edc8fe313e": 0.287,
+   "20e39113-05f5-4184-94e2-f5e8e8c8d2ea": 0.282
+  },
+  "employment": 251000,
+  "byMajor": {
+   "1": 0.001,
+   "2": 0.0351,
+   "3": 0.0034,
+   "5": 0.006,
+   "7": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0268,
+   "medium": 0.1415,
+   "low": 0.4665,
+   "none": 0.3652
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "zpetna-vazba-k-portfoliu": {
+  "occupationCount": 210,
+  "employmentShare": 0.0463,
+  "highExposureShare": 0.0268,
+  "trendPct": 7.4,
+  "topOccupations": [
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1",
+   "fa4a3b52-990c-44eb-a912-490f5d689400",
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62",
+   "07b91f36-8272-493a-8e1c-5625e77efe68",
+   "4e8a5d3e-66de-4661-9927-ef3123cc79e9",
+   "20e39113-05f5-4184-94e2-f5e8e8c8d2ea",
+   "e3229e40-f571-4b26-baca-29edc8fe313e",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30"
+  ],
+  "relevance": {
+   "3a55ef85-5abf-48e2-884b-5efaf881bfb1": 0.625,
+   "fa4a3b52-990c-44eb-a912-490f5d689400": 0.62,
+   "9af5fd79-d76e-4343-bc13-ff2d172aec62": 0.583,
+   "07b91f36-8272-493a-8e1c-5625e77efe68": 0.568,
+   "4e8a5d3e-66de-4661-9927-ef3123cc79e9": 0.532,
+   "20e39113-05f5-4184-94e2-f5e8e8c8d2ea": 0.443,
+   "e3229e40-f571-4b26-baca-29edc8fe313e": 0.44,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.425
+  },
+  "employment": 251000,
+  "byMajor": {
+   "1": 0.001,
+   "2": 0.0351,
+   "3": 0.0034,
+   "5": 0.006,
+   "7": 0.0008
+  },
+  "exposureMix": {
+   "high": 0.0268,
+   "medium": 0.1415,
+   "low": 0.4665,
+   "none": 0.3652
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "prezentace-portfolia": {
+  "occupationCount": 5,
+  "employmentShare": 0.0007,
+  "highExposureShare": 0.0,
+  "trendPct": 5.2,
+  "topOccupations": [
+   "a655aff1-e5e9-4c64-bc85-b902568a3dfb",
+   "26171f39-e85a-448f-bd28-a73a5a99927f"
+  ],
+  "relevance": {
+   "a655aff1-e5e9-4c64-bc85-b902568a3dfb": 0.487,
+   "26171f39-e85a-448f-bd28-a73a5a99927f": 0.345
+  },
+  "employment": 3500,
+  "byMajor": {
+   "2": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.2,
+   "none": 0.8
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
  "technicke-materialy": {
   "occupationCount": 35,
   "employmentShare": 0.0053,
@@ -41037,6 +43467,318 @@
    "medium": 0.0,
    "low": 0.7149,
    "none": 0.2851
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "tv-nevhodne-jednani-a-porusena-prava": {
+  "occupationCount": 3,
+  "employmentShare": 0.0003,
+  "highExposureShare": 0.0,
+  "trendPct": -6.8,
+  "topOccupations": [
+   "388155cc-7ab8-46c7-8051-aefc7b276c84",
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a"
+  ],
+  "relevance": {
+   "388155cc-7ab8-46c7-8051-aefc7b276c84": 0.88,
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a": 0.667
+  },
+  "employment": 1700,
+  "byMajor": {
+   "3": 0.0003
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 1.0,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "tv-vliv-jednani-na-ostatni-sportovce": {
+  "occupationCount": 2,
+  "employmentShare": 0.0002,
+  "highExposureShare": 0.0,
+  "trendPct": -6.8,
+  "topOccupations": [
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a",
+   "0af6fc82-8e5e-46c6-a4ca-a672ecf7704c"
+  ],
+  "relevance": {
+   "3e9c1262-4fe2-4eb1-bf94-4fe64498393a": 0.815,
+   "0af6fc82-8e5e-46c6-a4ca-a672ecf7704c": 0.745
+  },
+  "employment": 1100,
+  "byMajor": {
+   "3": 0.0002
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 1.0,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "tv-podpora-znevyhodnenych-osob": {
+  "occupationCount": 13,
+  "employmentShare": 0.0027,
+  "highExposureShare": 0.0,
+  "trendPct": 15.7,
+  "topOccupations": [
+   "f4525ed8-54eb-4a3b-90db-55cc01b0d9fd",
+   "8d703e8f-1e57-4246-8a6b-cb87a760d4ab",
+   "3f74aad8-2d60-4be2-b059-8dba5568d530"
+  ],
+  "relevance": {
+   "f4525ed8-54eb-4a3b-90db-55cc01b0d9fd": 0.887,
+   "8d703e8f-1e57-4246-8a6b-cb87a760d4ab": 0.873,
+   "3f74aad8-2d60-4be2-b059-8dba5568d530": 0.677
+  },
+  "employment": 14600,
+  "byMajor": {
+   "3": 0.0012,
+   "5": 0.0015
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.4545,
+   "none": 0.5455
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "tv-ochrana-prirody-pri-pohybu": {
+  "occupationCount": 3,
+  "employmentShare": 0.0009,
+  "highExposureShare": 0.0,
+  "trendPct": -2.4,
+  "topOccupations": [
+   "773cf1de-50a4-42e7-bab1-e68dcbae3f54",
+   "b865693a-eb11-44cc-bf6c-38e5b4d7e169",
+   "c3fc5265-6333-483f-9339-b4b860efa08d"
+  ],
+  "relevance": {
+   "773cf1de-50a4-42e7-bab1-e68dcbae3f54": 0.797,
+   "b865693a-eb11-44cc-bf6c-38e5b4d7e169": 0.743,
+   "c3fc5265-6333-483f-9339-b4b860efa08d": 0.733
+  },
+  "employment": 5000,
+  "byMajor": {
+   "3": 0.0004,
+   "6": 0.0004,
+   "9": 0.0002
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.4316,
+   "none": 0.5684
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "tv-priprava-neznameho-prostoru-v-terenu": {
+  "occupationCount": 19,
+  "employmentShare": 0.0029,
+  "highExposureShare": 0.0,
+  "trendPct": -4.0,
+  "topOccupations": [
+   "67d8c64f-e0d9-4e0b-be8b-510f9e20e698",
+   "a1b32703-a2e5-4e0a-910f-7cdd0293b52d",
+   "a10849c1-f0d8-4600-bca6-9549c2517650",
+   "e777fb61-16f5-476b-8262-578edfdb4d9d",
+   "1185cfe1-49a7-44a7-8dee-45b2f36727f9"
+  ],
+  "relevance": {
+   "67d8c64f-e0d9-4e0b-be8b-510f9e20e698": 0.835,
+   "a1b32703-a2e5-4e0a-910f-7cdd0293b52d": 0.787,
+   "a10849c1-f0d8-4600-bca6-9549c2517650": 0.755,
+   "e777fb61-16f5-476b-8262-578edfdb4d9d": 0.715,
+   "1185cfe1-49a7-44a7-8dee-45b2f36727f9": 0.388
+  },
+  "employment": 15700,
+  "byMajor": {
+   "2": 0.0007,
+   "3": 0.0016,
+   "5": 0.0006
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.6739,
+   "none": 0.3261
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "tv-planovani-pripravy-na-vylet-ci-turnaj": {
+  "occupationCount": 6,
+  "employmentShare": 0.0011,
+  "highExposureShare": 0.0,
+  "trendPct": 0.5,
+  "topOccupations": [
+   "4dceca8d-9faf-487b-b342-c9d7dc209533",
+   "a1b32703-a2e5-4e0a-910f-7cdd0293b52d",
+   "1185cfe1-49a7-44a7-8dee-45b2f36727f9"
+  ],
+  "relevance": {
+   "4dceca8d-9faf-487b-b342-c9d7dc209533": 0.815,
+   "a1b32703-a2e5-4e0a-910f-7cdd0293b52d": 0.738,
+   "1185cfe1-49a7-44a7-8dee-45b2f36727f9": 0.362
+  },
+  "employment": 6000,
+  "byMajor": {
+   "3": 0.0005,
+   "5": 0.0006
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.0,
+   "low": 0.5422,
+   "none": 0.4578
+  },
+  "foundationCount": 0,
+  "transferCount": 3
+ },
+ "rozhovor-o-sportovnim-deni": {
+  "occupationCount": 5,
+  "employmentShare": 0.0013,
+  "highExposureShare": 0.0989,
+  "trendPct": -11.1,
+  "topOccupations": [
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5",
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a",
+   "a10849c1-f0d8-4600-bca6-9549c2517650",
+   "e777fb61-16f5-476b-8262-578edfdb4d9d",
+   "e96cec32-9960-4496-a790-a9d2254906fc"
+  ],
+  "relevance": {
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5": 0.848,
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a": 0.585,
+   "a10849c1-f0d8-4600-bca6-9549c2517650": 0.532,
+   "e777fb61-16f5-476b-8262-578edfdb4d9d": 0.495,
+   "e96cec32-9960-4496-a790-a9d2254906fc": 0.32
+  },
+  "employment": 7100,
+  "byMajor": {
+   "2": 0.0008,
+   "4": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0989,
+   "medium": 0.3897,
+   "low": 0.2557,
+   "none": 0.2557
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "hledani-informaci-o-sportovnim-deni": {
+  "occupationCount": 5,
+  "employmentShare": 0.0013,
+  "highExposureShare": 0.0989,
+  "trendPct": -11.1,
+  "topOccupations": [
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5",
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a",
+   "e777fb61-16f5-476b-8262-578edfdb4d9d",
+   "a10849c1-f0d8-4600-bca6-9549c2517650",
+   "e96cec32-9960-4496-a790-a9d2254906fc"
+  ],
+  "relevance": {
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5": 0.912,
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a": 0.795,
+   "e777fb61-16f5-476b-8262-578edfdb4d9d": 0.44,
+   "a10849c1-f0d8-4600-bca6-9549c2517650": 0.425,
+   "e96cec32-9960-4496-a790-a9d2254906fc": 0.255
+  },
+  "employment": 7100,
+  "byMajor": {
+   "2": 0.0008,
+   "4": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0989,
+   "medium": 0.3897,
+   "low": 0.2557,
+   "none": 0.2557
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "uspechy-sportovcu-ze-zvoleneho-zdroje": {
+  "occupationCount": 5,
+  "employmentShare": 0.0013,
+  "highExposureShare": 0.0989,
+  "trendPct": -11.1,
+  "topOccupations": [
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5",
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a",
+   "a10849c1-f0d8-4600-bca6-9549c2517650",
+   "e777fb61-16f5-476b-8262-578edfdb4d9d"
+  ],
+  "relevance": {
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5": 0.738,
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a": 0.388,
+   "a10849c1-f0d8-4600-bca6-9549c2517650": 0.357,
+   "e777fb61-16f5-476b-8262-578edfdb4d9d": 0.345
+  },
+  "employment": 7100,
+  "byMajor": {
+   "2": 0.0008,
+   "4": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0989,
+   "medium": 0.3897,
+   "low": 0.2557,
+   "none": 0.2557
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "predstaveni-sportovniho-deni": {
+  "occupationCount": 14,
+  "employmentShare": 0.0054,
+  "highExposureShare": 0.1255,
+  "trendPct": 11.6,
+  "topOccupations": [
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5",
+   "c0489e22-6a1b-4e52-974a-eb71bbb42134",
+   "6cc19251-763b-4de1-b4f7-526c9ff732d2",
+   "a10849c1-f0d8-4600-bca6-9549c2517650",
+   "e777fb61-16f5-476b-8262-578edfdb4d9d",
+   "cd7b838c-51f6-41ec-9067-bb974c0f991b",
+   "b89ba3a8-f03a-46b8-ac54-c87d7204aad0",
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a"
+  ],
+  "relevance": {
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5": 0.838,
+   "c0489e22-6a1b-4e52-974a-eb71bbb42134": 0.482,
+   "6cc19251-763b-4de1-b4f7-526c9ff732d2": 0.453,
+   "a10849c1-f0d8-4600-bca6-9549c2517650": 0.422,
+   "e777fb61-16f5-476b-8262-578edfdb4d9d": 0.415,
+   "cd7b838c-51f6-41ec-9067-bb974c0f991b": 0.297,
+   "b89ba3a8-f03a-46b8-ac54-c87d7204aad0": 0.282,
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a": 0.278
+  },
+  "employment": 29000,
+  "byMajor": {
+   "1": 0.0011,
+   "2": 0.0019,
+   "4": 0.0005,
+   "5": 0.0019
+  },
+  "exposureMix": {
+   "high": 0.1255,
+   "medium": 0.5466,
+   "low": 0.2651,
+   "none": 0.0628
   },
   "foundationCount": 0,
   "transferCount": 2
@@ -55475,6 +58217,295 @@
   "foundationCount": 0,
   "transferCount": 7
  },
+ "razeni-a-filtrovani-v-tabulce": {
+  "occupationCount": 45,
+  "employmentShare": 0.0365,
+  "highExposureShare": 0.7392,
+  "trendPct": -2.6,
+  "topOccupations": [
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825",
+   "e7417f4f-7072-4b07-a71f-71f6fc7f5e5b",
+   "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230",
+   "7086d0ca-1e77-4690-89c9-7ed1a0478fa3",
+   "14eb2c85-fce5-40b6-bcd0-46ac99994b0d",
+   "d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee",
+   "f470b785-643c-46f9-8b31-6085427ab7b8"
+  ],
+  "relevance": {
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955": 0.845,
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": 0.838,
+   "e7417f4f-7072-4b07-a71f-71f6fc7f5e5b": 0.818,
+   "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230": 0.795,
+   "7086d0ca-1e77-4690-89c9-7ed1a0478fa3": 0.795,
+   "14eb2c85-fce5-40b6-bcd0-46ac99994b0d": 0.748,
+   "d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee": 0.743,
+   "f470b785-643c-46f9-8b31-6085427ab7b8": 0.738
+  },
+  "employment": 197800,
+  "byMajor": {
+   "2": 0.0019,
+   "3": 0.0035,
+   "4": 0.0152,
+   "5": 0.0159
+  },
+  "exposureMix": {
+   "high": 0.7392,
+   "medium": 0.1564,
+   "low": 0.0916,
+   "none": 0.0128
+  },
+  "foundationCount": 0,
+  "transferCount": 7
+ },
+ "vyber-a-seskupeni-dat-podle-uzivatele": {
+  "occupationCount": 22,
+  "employmentShare": 0.0166,
+  "highExposureShare": 0.7108,
+  "trendPct": -1.1,
+  "topOccupations": [
+   "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230",
+   "a7594892-ff23-4e2a-aedf-2f967ebca15c",
+   "84fabf82-4abf-4f41-99aa-55718a2e500b",
+   "d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee",
+   "c8b296be-54ae-48cf-be21-031fa8457937",
+   "dab60fc6-c16e-4de7-b969-b323784f5a49",
+   "f56e33a3-01bb-46ba-98f4-d47aa242b983",
+   "2a04a1df-a3b9-403e-a245-e7f93fdddd44"
+  ],
+  "relevance": {
+   "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230": 0.78,
+   "a7594892-ff23-4e2a-aedf-2f967ebca15c": 0.74,
+   "84fabf82-4abf-4f41-99aa-55718a2e500b": 0.723,
+   "d7a9f9e0-e2f5-4804-a0e0-b21ebb1403ee": 0.71,
+   "c8b296be-54ae-48cf-be21-031fa8457937": 0.698,
+   "dab60fc6-c16e-4de7-b969-b323784f5a49": 0.688,
+   "f56e33a3-01bb-46ba-98f4-d47aa242b983": 0.682,
+   "2a04a1df-a3b9-403e-a245-e7f93fdddd44": 0.642
+  },
+  "employment": 89800,
+  "byMajor": {
+   "1": 0.0015,
+   "2": 0.0008,
+   "3": 0.0024,
+   "4": 0.0109,
+   "5": 0.0009
+  },
+  "exposureMix": {
+   "high": 0.7108,
+   "medium": 0.1764,
+   "low": 0.1128,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 7
+ },
+ "vhodny-zpusob-prezentace-dat": {
+  "occupationCount": 13,
+  "employmentShare": 0.0038,
+  "highExposureShare": 0.2388,
+  "trendPct": 22.0,
+  "topOccupations": [
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "810e5e67-acd5-499a-b307-cf5bea330859",
+   "b3ce981c-5b32-4de2-8e53-502a6357b2bc",
+   "a7594892-ff23-4e2a-aedf-2f967ebca15c",
+   "dab60fc6-c16e-4de7-b969-b323784f5a49",
+   "f56e33a3-01bb-46ba-98f4-d47aa242b983",
+   "35553663-deab-4d9a-bf22-15c1625d28e8",
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0"
+  ],
+  "relevance": {
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.835,
+   "810e5e67-acd5-499a-b307-cf5bea330859": 0.772,
+   "b3ce981c-5b32-4de2-8e53-502a6357b2bc": 0.765,
+   "a7594892-ff23-4e2a-aedf-2f967ebca15c": 0.75,
+   "dab60fc6-c16e-4de7-b969-b323784f5a49": 0.695,
+   "f56e33a3-01bb-46ba-98f4-d47aa242b983": 0.677,
+   "35553663-deab-4d9a-bf22-15c1625d28e8": 0.545,
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0": 0.52
+  },
+  "employment": 20700,
+  "byMajor": {
+   "1": 0.0016,
+   "2": 0.0013,
+   "3": 0.0004,
+   "4": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2388,
+   "medium": 0.737,
+   "low": 0.0241,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 7
+ },
+ "jednoduche-vzorce-v-tabulce": {
+  "occupationCount": 93,
+  "employmentShare": 0.0284,
+  "highExposureShare": 0.4571,
+  "trendPct": 4.4,
+  "topOccupations": [
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825",
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "ff656b3a-65a8-4b4f-b04e-9db12936519b",
+   "84fabf82-4abf-4f41-99aa-55718a2e500b",
+   "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "6e92d4b5-3167-4166-802f-da7753951a31"
+  ],
+  "relevance": {
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": 0.895,
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955": 0.848,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.795,
+   "ff656b3a-65a8-4b4f-b04e-9db12936519b": 0.772,
+   "84fabf82-4abf-4f41-99aa-55718a2e500b": 0.748,
+   "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230": 0.743,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.698,
+   "6e92d4b5-3167-4166-802f-da7753951a31": 0.682
+  },
+  "employment": 153800,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0091,
+   "3": 0.0072,
+   "4": 0.0104,
+   "5": 0.0009,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.4571,
+   "medium": 0.1689,
+   "low": 0.1401,
+   "none": 0.234
+  },
+  "foundationCount": 0,
+  "transferCount": 7
+ },
+ "kombinace-funkci-ve-velke-tabulce": {
+  "occupationCount": 141,
+  "employmentShare": 0.043,
+  "highExposureShare": 0.4299,
+  "trendPct": 10.9,
+  "topOccupations": [
+   "84871c2a-abd1-45eb-b03a-65e51a26fd84",
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825",
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+   "30ca97f4-a4fd-4189-a781-ac08f6b09b78",
+   "e16c2422-1323-4d8a-bd0f-c7584de70be1",
+   "84fabf82-4abf-4f41-99aa-55718a2e500b",
+   "aacc3918-b5d3-484b-9480-5d29aa550d74",
+   "377865f0-c327-4599-8c7e-d428c6588edf"
+  ],
+  "relevance": {
+   "84871c2a-abd1-45eb-b03a-65e51a26fd84": 0.858,
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": 0.848,
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955": 0.825,
+   "30ca97f4-a4fd-4189-a781-ac08f6b09b78": 0.812,
+   "e16c2422-1323-4d8a-bd0f-c7584de70be1": 0.795,
+   "84fabf82-4abf-4f41-99aa-55718a2e500b": 0.715,
+   "aacc3918-b5d3-484b-9480-5d29aa550d74": 0.713,
+   "377865f0-c327-4599-8c7e-d428c6588edf": 0.693
+  },
+  "employment": 233000,
+  "byMajor": {
+   "1": 0.0043,
+   "2": 0.0166,
+   "3": 0.0067,
+   "4": 0.0119,
+   "5": 0.0019,
+   "6": 0.0002,
+   "7": 0.0015
+  },
+  "exposureMix": {
+   "high": 0.4299,
+   "medium": 0.2847,
+   "low": 0.1611,
+   "none": 0.1243
+  },
+  "foundationCount": 0,
+  "transferCount": 7
+ },
+ "volba-typu-grafu": {
+  "occupationCount": 8,
+  "employmentShare": 0.0024,
+  "highExposureShare": 0.2821,
+  "trendPct": 25.2,
+  "topOccupations": [
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "60082a99-d8ef-4e84-9290-78902681b6ed",
+   "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+   "b7f47c25-bdf3-42fa-a68e-ad32754b2dba",
+   "810e5e67-acd5-499a-b307-cf5bea330859",
+   "b3ce981c-5b32-4de2-8e53-502a6357b2bc"
+  ],
+  "relevance": {
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.833,
+   "60082a99-d8ef-4e84-9290-78902681b6ed": 0.755,
+   "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2": 0.718,
+   "b7f47c25-bdf3-42fa-a68e-ad32754b2dba": 0.708,
+   "810e5e67-acd5-499a-b307-cf5bea330859": 0.695,
+   "b3ce981c-5b32-4de2-8e53-502a6357b2bc": 0.613
+  },
+  "employment": 12900,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0019,
+   "3": 0.0004
+  },
+  "exposureMix": {
+   "high": 0.2821,
+   "medium": 0.7179,
+   "low": 0.0,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 7
+ },
+ "tvorba-grafu-z-dat": {
+  "occupationCount": 19,
+  "employmentShare": 0.0158,
+  "highExposureShare": 0.7406,
+  "trendPct": -2.7,
+  "topOccupations": [
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230",
+   "810e5e67-acd5-499a-b307-cf5bea330859",
+   "35553663-deab-4d9a-bf22-15c1625d28e8",
+   "b3ce981c-5b32-4de2-8e53-502a6357b2bc",
+   "c8b296be-54ae-48cf-be21-031fa8457937",
+   "84fabf82-4abf-4f41-99aa-55718a2e500b",
+   "6c999fc7-c6b7-4ef3-a4b9-af124a1783a2"
+  ],
+  "relevance": {
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.83,
+   "51cd3a7a-eae6-4dc6-9f24-179d7ec6d230": 0.7,
+   "810e5e67-acd5-499a-b307-cf5bea330859": 0.647,
+   "35553663-deab-4d9a-bf22-15c1625d28e8": 0.605,
+   "b3ce981c-5b32-4de2-8e53-502a6357b2bc": 0.595,
+   "c8b296be-54ae-48cf-be21-031fa8457937": 0.427,
+   "84fabf82-4abf-4f41-99aa-55718a2e500b": 0.388,
+   "6c999fc7-c6b7-4ef3-a4b9-af124a1783a2": 0.37
+  },
+  "employment": 85400,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0016,
+   "3": 0.0028,
+   "4": 0.0104,
+   "5": 0.0009
+  },
+  "exposureMix": {
+   "high": 0.7406,
+   "medium": 0.1466,
+   "low": 0.1128,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 7
+ },
  "vyber-aplikace-pro-ukol-digitalni-zarizeni": {
   "occupationCount": 22,
   "employmentShare": 0.007,
@@ -56233,6 +59264,525 @@
   },
   "foundationCount": 1,
   "transferCount": 5
+ },
+ "dily-pocitace-a-jejich-spoluprace": {
+  "occupationCount": 14,
+  "employmentShare": 0.0036,
+  "highExposureShare": 0.1486,
+  "trendPct": 3.9,
+  "topOccupations": [
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972",
+   "4588cd69-e6a5-4668-94c7-f02a3d86a649",
+   "0d595b87-a1fc-410c-abbe-88b92cb0d334",
+   "68d973df-bf10-4bf7-9a1b-fbd9f604b9db",
+   "b1c0714d-77f1-4732-8fd8-9f0739fb9974",
+   "1a6d1acf-5956-4ba0-95bf-b15b05a02013",
+   "35d4ab0d-5a2a-4ed8-b8ba-7169314168f5",
+   "243f3b7e-cd7a-419a-94c0-d4f2040f09af"
+  ],
+  "relevance": {
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972": 0.925,
+   "4588cd69-e6a5-4668-94c7-f02a3d86a649": 0.833,
+   "0d595b87-a1fc-410c-abbe-88b92cb0d334": 0.713,
+   "68d973df-bf10-4bf7-9a1b-fbd9f604b9db": 0.532,
+   "b1c0714d-77f1-4732-8fd8-9f0739fb9974": 0.502,
+   "1a6d1acf-5956-4ba0-95bf-b15b05a02013": 0.495,
+   "35d4ab0d-5a2a-4ed8-b8ba-7169314168f5": 0.477,
+   "243f3b7e-cd7a-419a-94c0-d4f2040f09af": 0.39
+  },
+  "employment": 19400,
+  "byMajor": {
+   "1": 0.0003,
+   "2": 0.0014,
+   "3": 0.0008,
+   "7": 0.0005,
+   "8": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1486,
+   "medium": 0.3504,
+   "low": 0.2787,
+   "none": 0.2223
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "vyber-pocitace-podle-vyuziti": {
+  "occupationCount": 14,
+  "employmentShare": 0.0036,
+  "highExposureShare": 0.1486,
+  "trendPct": 3.9,
+  "topOccupations": [
+   "35d4ab0d-5a2a-4ed8-b8ba-7169314168f5",
+   "243f3b7e-cd7a-419a-94c0-d4f2040f09af",
+   "4588cd69-e6a5-4668-94c7-f02a3d86a649",
+   "0d595b87-a1fc-410c-abbe-88b92cb0d334",
+   "7d9c060a-f280-441d-baf9-7d4a6b520a2a",
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972",
+   "30b25ee4-da97-4167-8592-460217f6bdcc",
+   "b1c0714d-77f1-4732-8fd8-9f0739fb9974"
+  ],
+  "relevance": {
+   "35d4ab0d-5a2a-4ed8-b8ba-7169314168f5": 0.802,
+   "243f3b7e-cd7a-419a-94c0-d4f2040f09af": 0.68,
+   "4588cd69-e6a5-4668-94c7-f02a3d86a649": 0.6,
+   "0d595b87-a1fc-410c-abbe-88b92cb0d334": 0.547,
+   "7d9c060a-f280-441d-baf9-7d4a6b520a2a": 0.545,
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972": 0.532,
+   "30b25ee4-da97-4167-8592-460217f6bdcc": 0.53,
+   "b1c0714d-77f1-4732-8fd8-9f0739fb9974": 0.495
+  },
+  "employment": 19400,
+  "byMajor": {
+   "1": 0.0003,
+   "2": 0.0014,
+   "3": 0.0008,
+   "7": 0.0005,
+   "8": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1486,
+   "medium": 0.3504,
+   "low": 0.2787,
+   "none": 0.2223
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "operacni-system-pocitac-telefon": {
+  "occupationCount": 12,
+  "employmentShare": 0.0044,
+  "highExposureShare": 0.3829,
+  "trendPct": 19.5,
+  "topOccupations": [
+   "9e2e6e1e-363b-4e1b-a673-7bc0f7343300",
+   "0c448a27-10ec-43ba-b880-d9938bade424",
+   "b37d15b3-402e-4792-8292-f18c0de7aca6",
+   "f0f6d531-eb96-4bad-84ff-8e2999ea68e6",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d"
+  ],
+  "relevance": {
+   "9e2e6e1e-363b-4e1b-a673-7bc0f7343300": 0.907,
+   "0c448a27-10ec-43ba-b880-d9938bade424": 0.882,
+   "b37d15b3-402e-4792-8292-f18c0de7aca6": 0.853,
+   "f0f6d531-eb96-4bad-84ff-8e2999ea68e6": 0.833,
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d": 0.792
+  },
+  "employment": 23800,
+  "byMajor": {
+   "2": 0.003,
+   "3": 0.0005,
+   "7": 0.0009
+  },
+  "exposureMix": {
+   "high": 0.3829,
+   "medium": 0.4088,
+   "low": 0.0,
+   "none": 0.2083
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "typy-siti-lan-internet-mobilni": {
+  "occupationCount": 7,
+  "employmentShare": 0.0026,
+  "highExposureShare": 0.2565,
+  "trendPct": 1.7,
+  "topOccupations": [
+   "64c7d461-152c-477f-a8e2-c2c537e9d617",
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d",
+   "e0b544dd-b621-4126-a55e-054af25c6ea0",
+   "2ef000b1-8058-4e5a-9646-c5d4e7dbfdae",
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "8edd8bff-cb59-4c9c-ab0f-59e77d18be48"
+  ],
+  "relevance": {
+   "64c7d461-152c-477f-a8e2-c2c537e9d617": 0.965,
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d": 0.958,
+   "e0b544dd-b621-4126-a55e-054af25c6ea0": 0.943,
+   "2ef000b1-8058-4e5a-9646-c5d4e7dbfdae": 0.922,
+   "3e7bf729-4442-4b9f-ad5e-83111963795c": 0.868,
+   "8edd8bff-cb59-4c9c-ab0f-59e77d18be48": 0.672
+  },
+  "employment": 14200,
+  "byMajor": {
+   "2": 0.0008,
+   "3": 0.0014,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2565,
+   "medium": 0.569,
+   "low": 0.0,
+   "none": 0.1745
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "vyber-site-wifi-kabel": {
+  "occupationCount": 7,
+  "employmentShare": 0.0026,
+  "highExposureShare": 0.2565,
+  "trendPct": 1.7,
+  "topOccupations": [
+   "e0b544dd-b621-4126-a55e-054af25c6ea0",
+   "64c7d461-152c-477f-a8e2-c2c537e9d617",
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d",
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "2ef000b1-8058-4e5a-9646-c5d4e7dbfdae",
+   "8edd8bff-cb59-4c9c-ab0f-59e77d18be48"
+  ],
+  "relevance": {
+   "e0b544dd-b621-4126-a55e-054af25c6ea0": 0.89,
+   "64c7d461-152c-477f-a8e2-c2c537e9d617": 0.885,
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d": 0.87,
+   "3e7bf729-4442-4b9f-ad5e-83111963795c": 0.835,
+   "2ef000b1-8058-4e5a-9646-c5d4e7dbfdae": 0.818,
+   "8edd8bff-cb59-4c9c-ab0f-59e77d18be48": 0.632
+  },
+  "employment": 14200,
+  "byMajor": {
+   "2": 0.0008,
+   "3": 0.0014,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2565,
+   "medium": 0.569,
+   "low": 0.0,
+   "none": 0.1745
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "web-a-cloudove-sluzby": {
+  "occupationCount": 10,
+  "employmentShare": 0.003,
+  "highExposureShare": 0.7921,
+  "trendPct": 30.9,
+  "topOccupations": [
+   "81480b40-a318-47f3-9b2c-56b69ed67d95",
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d",
+   "716df735-77eb-47c8-8c06-d86e46903989",
+   "ac1fc6a9-70d2-475c-8fa0-82ef83830968"
+  ],
+  "relevance": {
+   "81480b40-a318-47f3-9b2c-56b69ed67d95": 0.85,
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d": 0.84,
+   "716df735-77eb-47c8-8c06-d86e46903989": 0.795,
+   "ac1fc6a9-70d2-475c-8fa0-82ef83830968": 0.56
+  },
+  "employment": 16100,
+  "byMajor": {
+   "2": 0.003
+  },
+  "exposureMix": {
+   "high": 0.7921,
+   "medium": 0.1132,
+   "low": 0.0473,
+   "none": 0.0473
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "problemy-zarizeni-a-site": {
+  "occupationCount": 11,
+  "employmentShare": 0.0039,
+  "highExposureShare": 0.2056,
+  "trendPct": 2.6,
+  "topOccupations": [
+   "aaeec9a7-dc57-4485-890c-86b3eef735f9",
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972",
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "38a7f453-a7f0-45d2-a74d-5b92506e4a21",
+   "0ce5a9f4-e00a-4bbe-b255-3c63407167a4",
+   "102e75c8-3b47-4964-9b47-30a980aed25c",
+   "8cb59bc4-1f39-477e-beea-effed12d186c"
+  ],
+  "relevance": {
+   "aaeec9a7-dc57-4485-890c-86b3eef735f9": 0.97,
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972": 0.96,
+   "3e7bf729-4442-4b9f-ad5e-83111963795c": 0.96,
+   "38a7f453-a7f0-45d2-a74d-5b92506e4a21": 0.795,
+   "0ce5a9f4-e00a-4bbe-b255-3c63407167a4": 0.688,
+   "102e75c8-3b47-4964-9b47-30a980aed25c": 0.578,
+   "8cb59bc4-1f39-477e-beea-effed12d186c": 0.388
+  },
+  "employment": 21200,
+  "byMajor": {
+   "2": 0.0015,
+   "3": 0.002,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2056,
+   "medium": 0.6339,
+   "low": 0.0434,
+   "none": 0.1172
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "hodnoceni-informaci-o-technologiich": {
+  "occupationCount": 5,
+  "employmentShare": 0.0007,
+  "highExposureShare": 1.0,
+  "trendPct": 5.2,
+  "topOccupations": [
+   "b65530b8-0b50-49da-8e9e-331b161374a5",
+   "cbdb80db-c760-4b68-b074-88c397650ef5"
+  ],
+  "relevance": {
+   "b65530b8-0b50-49da-8e9e-331b161374a5": 0.927,
+   "cbdb80db-c760-4b68-b074-88c397650ef5": 0.78
+  },
+  "employment": 3500,
+  "byMajor": {
+   "2": 0.0007
+  },
+  "exposureMix": {
+   "high": 1.0,
+   "medium": 0.0,
+   "low": 0.0,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "druhy-kyberutoku": {
+  "occupationCount": 17,
+  "employmentShare": 0.0053,
+  "highExposureShare": 0.191,
+  "trendPct": 27.1,
+  "topOccupations": [
+   "0464b062-cea6-4164-b10d-956c61956ae7",
+   "0ce5a9f4-e00a-4bbe-b255-3c63407167a4",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "b1ed68f8-8d51-4bcc-8825-bd554859480f",
+   "1619d7f3-7d95-407c-a20e-47745bfcde73",
+   "82616669-cc82-4455-9332-a2df209e9f3e",
+   "a14e96a7-6c4d-4d69-8c6f-7ccadf77bac5"
+  ],
+  "relevance": {
+   "0464b062-cea6-4164-b10d-956c61956ae7": 0.917,
+   "0ce5a9f4-e00a-4bbe-b255-3c63407167a4": 0.912,
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d": 0.887,
+   "b1ed68f8-8d51-4bcc-8825-bd554859480f": 0.805,
+   "1619d7f3-7d95-407c-a20e-47745bfcde73": 0.517,
+   "82616669-cc82-4455-9332-a2df209e9f3e": 0.417,
+   "a14e96a7-6c4d-4d69-8c6f-7ccadf77bac5": 0.412
+  },
+  "employment": 28700,
+  "byMajor": {
+   "1": 0.0007,
+   "2": 0.0041,
+   "3": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.191,
+   "medium": 0.6211,
+   "low": 0.1196,
+   "none": 0.0683
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "aktualni-rizika-a-obrana": {
+  "occupationCount": 17,
+  "employmentShare": 0.0053,
+  "highExposureShare": 0.191,
+  "trendPct": 27.1,
+  "topOccupations": [
+   "0464b062-cea6-4164-b10d-956c61956ae7",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "276ba420-ef09-4a0e-b215-2c2e2f80ad28",
+   "b1ed68f8-8d51-4bcc-8825-bd554859480f",
+   "1619d7f3-7d95-407c-a20e-47745bfcde73",
+   "a14e96a7-6c4d-4d69-8c6f-7ccadf77bac5",
+   "82616669-cc82-4455-9332-a2df209e9f3e",
+   "ac1fc6a9-70d2-475c-8fa0-82ef83830968"
+  ],
+  "relevance": {
+   "0464b062-cea6-4164-b10d-956c61956ae7": 0.948,
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d": 0.925,
+   "276ba420-ef09-4a0e-b215-2c2e2f80ad28": 0.925,
+   "b1ed68f8-8d51-4bcc-8825-bd554859480f": 0.912,
+   "1619d7f3-7d95-407c-a20e-47745bfcde73": 0.603,
+   "a14e96a7-6c4d-4d69-8c6f-7ccadf77bac5": 0.535,
+   "82616669-cc82-4455-9332-a2df209e9f3e": 0.497,
+   "ac1fc6a9-70d2-475c-8fa0-82ef83830968": 0.282
+  },
+  "employment": 28700,
+  "byMajor": {
+   "1": 0.0007,
+   "2": 0.0041,
+   "3": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.191,
+   "medium": 0.6211,
+   "low": 0.1196,
+   "none": 0.0683
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "bezpecnostni-nastroje-systemu": {
+  "occupationCount": 10,
+  "employmentShare": 0.0035,
+  "highExposureShare": 0.4216,
+  "trendPct": 11.3,
+  "topOccupations": [
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "9e2e6e1e-363b-4e1b-a673-7bc0f7343300",
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "81480b40-a318-47f3-9b2c-56b69ed67d95",
+   "8cb59bc4-1f39-477e-beea-effed12d186c"
+  ],
+  "relevance": {
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d": 0.917,
+   "9e2e6e1e-363b-4e1b-a673-7bc0f7343300": 0.84,
+   "3e7bf729-4442-4b9f-ad5e-83111963795c": 0.785,
+   "81480b40-a318-47f3-9b2c-56b69ed67d95": 0.772,
+   "8cb59bc4-1f39-477e-beea-effed12d186c": 0.432
+  },
+  "employment": 19000,
+  "byMajor": {
+   "2": 0.0021,
+   "3": 0.0014
+  },
+  "exposureMix": {
+   "high": 0.4216,
+   "medium": 0.5784,
+   "low": 0.0,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "pristup-k-datum-v-cloudu": {
+  "occupationCount": 24,
+  "employmentShare": 0.0075,
+  "highExposureShare": 0.3958,
+  "trendPct": 17.8,
+  "topOccupations": [
+   "cc325a8f-702e-4bf0-893f-5b5d456475ad",
+   "276ba420-ef09-4a0e-b215-2c2e2f80ad28",
+   "ef5b17a5-3ca8-4965-bd3d-61c4aca490d1",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "e3b08984-19fe-4d51-a1b0-990676fc7234",
+   "1619d7f3-7d95-407c-a20e-47745bfcde73",
+   "4e82464b-e9d7-4d51-9116-294ab40c5169",
+   "9ab0f0db-1128-4050-becd-b09db5eabdaa"
+  ],
+  "relevance": {
+   "cc325a8f-702e-4bf0-893f-5b5d456475ad": 0.887,
+   "276ba420-ef09-4a0e-b215-2c2e2f80ad28": 0.797,
+   "ef5b17a5-3ca8-4965-bd3d-61c4aca490d1": 0.772,
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d": 0.677,
+   "e3b08984-19fe-4d51-a1b0-990676fc7234": 0.647,
+   "1619d7f3-7d95-407c-a20e-47745bfcde73": 0.583,
+   "4e82464b-e9d7-4d51-9116-294ab40c5169": 0.575,
+   "9ab0f0db-1128-4050-becd-b09db5eabdaa": 0.557
+  },
+  "employment": 40600,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0058,
+   "3": 0.0006,
+   "4": 0.001
+  },
+  "exposureMix": {
+   "high": 0.3958,
+   "medium": 0.4331,
+   "low": 0.1296,
+   "none": 0.0414
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "pravidla-pro-digitalni-stopu": {
+  "occupationCount": 22,
+  "employmentShare": 0.0073,
+  "highExposureShare": 0.1718,
+  "trendPct": 4.5,
+  "topOccupations": [
+   "1619d7f3-7d95-407c-a20e-47745bfcde73",
+   "276ba420-ef09-4a0e-b215-2c2e2f80ad28",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "a99b38bc-6e71-4bef-b127-0f2b5e357815",
+   "4e82464b-e9d7-4d51-9116-294ab40c5169",
+   "ef5b17a5-3ca8-4965-bd3d-61c4aca490d1",
+   "27a88c48-1d09-4a8c-a82a-a61ea16476d9",
+   "32ac76f6-20a0-469e-8cac-e68634087dd3"
+  ],
+  "relevance": {
+   "1619d7f3-7d95-407c-a20e-47745bfcde73": 0.637,
+   "276ba420-ef09-4a0e-b215-2c2e2f80ad28": 0.613,
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d": 0.595,
+   "a99b38bc-6e71-4bef-b127-0f2b5e357815": 0.532,
+   "4e82464b-e9d7-4d51-9116-294ab40c5169": 0.445,
+   "ef5b17a5-3ca8-4965-bd3d-61c4aca490d1": 0.443,
+   "27a88c48-1d09-4a8c-a82a-a61ea16476d9": 0.435,
+   "32ac76f6-20a0-469e-8cac-e68634087dd3": 0.427
+  },
+  "employment": 39600,
+  "byMajor": {
+   "1": 0.0009,
+   "2": 0.0028,
+   "3": 0.0014,
+   "4": 0.0022
+  },
+  "exposureMix": {
+   "high": 0.1718,
+   "medium": 0.5664,
+   "low": 0.2387,
+   "none": 0.0232
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "ruzny-obsah-pro-ruzne-uzivatele": {
+  "occupationCount": 19,
+  "employmentShare": 0.0062,
+  "highExposureShare": 0.2052,
+  "trendPct": 15.7,
+  "topOccupations": [
+   "a6a0b60f-08da-4faa-bf54-942987efb471",
+   "9c9752b7-3e3b-4a08-8553-b63a013f8072",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "8213b4bc-60ce-4ffc-9e00-9758fb2003c6",
+   "1619d7f3-7d95-407c-a20e-47745bfcde73",
+   "276ba420-ef09-4a0e-b215-2c2e2f80ad28",
+   "e3b08984-19fe-4d51-a1b0-990676fc7234",
+   "9ab0f0db-1128-4050-becd-b09db5eabdaa"
+  ],
+  "relevance": {
+   "a6a0b60f-08da-4faa-bf54-942987efb471": 0.507,
+   "9c9752b7-3e3b-4a08-8553-b63a013f8072": 0.477,
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d": 0.468,
+   "8213b4bc-60ce-4ffc-9e00-9758fb2003c6": 0.448,
+   "1619d7f3-7d95-407c-a20e-47745bfcde73": 0.438,
+   "276ba420-ef09-4a0e-b215-2c2e2f80ad28": 0.422,
+   "e3b08984-19fe-4d51-a1b0-990676fc7234": 0.375,
+   "9ab0f0db-1128-4050-becd-b09db5eabdaa": 0.302
+  },
+  "employment": 33800,
+  "byMajor": {
+   "1": 0.0002,
+   "2": 0.0042,
+   "3": 0.0005,
+   "4": 0.001,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2052,
+   "medium": 0.6423,
+   "low": 0.0791,
+   "none": 0.0734
+  },
+  "foundationCount": 0,
+  "transferCount": 6
  },
  "pokyny-v-anglictine-ve-tride": {
   "occupationCount": 219,
@@ -59290,6 +62840,842 @@
    "medium": 0.1344,
    "low": 0.3307,
    "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicky-rekni-co-potrebujes": {
+  "occupationCount": 181,
+  "employmentShare": 0.0403,
+  "highExposureShare": 0.4815,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074",
+   "9b35eab1-2adc-4057-a620-181862656a19",
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19",
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef",
+   "c8505fa5-0a33-4143-bd87-f24f569e8813"
+  ],
+  "relevance": {
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074": 0.855,
+   "9b35eab1-2adc-4057-a620-181862656a19": 0.855,
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19": 0.848,
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950": 0.835,
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79": 0.807,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.797,
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef": 0.79,
+   "c8505fa5-0a33-4143-bd87-f24f569e8813": 0.772
+  },
+  "employment": 218400,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0122,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4815,
+   "medium": 0.1344,
+   "low": 0.3307,
+   "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicky-vyzadat-si-informace": {
+  "occupationCount": 181,
+  "employmentShare": 0.0403,
+  "highExposureShare": 0.4815,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074",
+   "4cc98057-8ed5-4b45-855b-7a67bc2e5bae",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "c8505fa5-0a33-4143-bd87-f24f569e8813",
+   "9b35eab1-2adc-4057-a620-181862656a19",
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19",
+   "12142c2c-9b6f-4e4f-8153-f1a51554e4e0"
+  ],
+  "relevance": {
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950": 0.868,
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074": 0.855,
+   "4cc98057-8ed5-4b45-855b-7a67bc2e5bae": 0.848,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.84,
+   "c8505fa5-0a33-4143-bd87-f24f569e8813": 0.83,
+   "9b35eab1-2adc-4057-a620-181862656a19": 0.828,
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19": 0.825,
+   "12142c2c-9b6f-4e4f-8153-f1a51554e4e0": 0.815
+  },
+  "employment": 218400,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0122,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4815,
+   "medium": 0.1344,
+   "low": 0.3307,
+   "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicky-doptat-se-na-odpoved": {
+  "occupationCount": 181,
+  "employmentShare": 0.0403,
+  "highExposureShare": 0.4815,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19",
+   "9b35eab1-2adc-4057-a620-181862656a19",
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79",
+   "26105840-8abb-4f91-a888-1211cb798b0b",
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef"
+  ],
+  "relevance": {
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19": 0.943,
+   "9b35eab1-2adc-4057-a620-181862656a19": 0.925,
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074": 0.915,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.9,
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950": 0.88,
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79": 0.875,
+   "26105840-8abb-4f91-a888-1211cb798b0b": 0.848,
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef": 0.848
+  },
+  "employment": 218400,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0122,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4815,
+   "medium": 0.1344,
+   "low": 0.3307,
+   "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicky-kratky-nazor-a-otazka-na-nazor": {
+  "occupationCount": 181,
+  "employmentShare": 0.0403,
+  "highExposureShare": 0.4815,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "bfc92738-128b-44f5-92d4-51b10df17961",
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef",
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19",
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79"
+  ],
+  "relevance": {
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b": 0.757,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.72,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.713,
+   "bfc92738-128b-44f5-92d4-51b10df17961": 0.685,
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef": 0.685,
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950": 0.682,
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19": 0.647,
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79": 0.637
+  },
+  "employment": 218400,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0122,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4815,
+   "medium": 0.1344,
+   "low": 0.3307,
+   "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicky-email-dopis-se-strukturou": {
+  "occupationCount": 196,
+  "employmentShare": 0.0477,
+  "highExposureShare": 0.531,
+  "trendPct": 5.8,
+  "topOccupations": [
+   "c8505fa5-0a33-4143-bd87-f24f569e8813",
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0",
+   "95d8f19e-f62b-443f-ac53-324ea8f98cf5",
+   "e997358a-f6ed-4b5d-bebe-2a33b01ea3d2",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "d694b54f-208a-4154-9fe1-d3d335992467",
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b",
+   "3ae7c42b-7929-402f-bcbc-882b8679abf4"
+  ],
+  "relevance": {
+   "c8505fa5-0a33-4143-bd87-f24f569e8813": 0.848,
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0": 0.745,
+   "95d8f19e-f62b-443f-ac53-324ea8f98cf5": 0.735,
+   "e997358a-f6ed-4b5d-bebe-2a33b01ea3d2": 0.735,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.725,
+   "d694b54f-208a-4154-9fe1-d3d335992467": 0.713,
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b": 0.71,
+   "3ae7c42b-7929-402f-bcbc-882b8679abf4": 0.71
+  },
+  "employment": 258500,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0147,
+   "3": 0.0166,
+   "4": 0.0063,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.531,
+   "medium": 0.1276,
+   "low": 0.2962,
+   "none": 0.0451
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicke-otazky-pokyny-informace-v-psane-zprave": {
+  "occupationCount": 196,
+  "employmentShare": 0.0477,
+  "highExposureShare": 0.531,
+  "trendPct": 5.8,
+  "topOccupations": [
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0",
+   "c8505fa5-0a33-4143-bd87-f24f569e8813",
+   "8cb59bc4-1f39-477e-beea-effed12d186c",
+   "79f8f68c-5509-4119-9373-8bef1c364d31",
+   "5b9a678a-7c35-4c50-a804-754b82652ee6",
+   "ec5b72d1-0206-4179-9abd-570c66bc44b9",
+   "a9c30651-ccbc-4a80-900c-7880615cdf6e",
+   "e997358a-f6ed-4b5d-bebe-2a33b01ea3d2"
+  ],
+  "relevance": {
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0": 0.917,
+   "c8505fa5-0a33-4143-bd87-f24f569e8813": 0.907,
+   "8cb59bc4-1f39-477e-beea-effed12d186c": 0.885,
+   "79f8f68c-5509-4119-9373-8bef1c364d31": 0.848,
+   "5b9a678a-7c35-4c50-a804-754b82652ee6": 0.84,
+   "ec5b72d1-0206-4179-9abd-570c66bc44b9": 0.833,
+   "a9c30651-ccbc-4a80-900c-7880615cdf6e": 0.812,
+   "e997358a-f6ed-4b5d-bebe-2a33b01ea3d2": 0.805
+  },
+  "employment": 258500,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0147,
+   "3": 0.0166,
+   "4": 0.0063,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.531,
+   "medium": 0.1276,
+   "low": 0.2962,
+   "none": 0.0451
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicke-zprostredkovani-psaneho-textu": {
+  "occupationCount": 196,
+  "employmentShare": 0.0477,
+  "highExposureShare": 0.531,
+  "trendPct": 5.8,
+  "topOccupations": [
+   "1a07bd7d-2e1d-4930-a84a-1a442b8f2a44",
+   "da4589ce-7534-4cc1-9ce4-cabf9364b87c",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074",
+   "ec5b72d1-0206-4179-9abd-570c66bc44b9",
+   "c8505fa5-0a33-4143-bd87-f24f569e8813",
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b",
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef"
+  ],
+  "relevance": {
+   "1a07bd7d-2e1d-4930-a84a-1a442b8f2a44": 0.688,
+   "da4589ce-7534-4cc1-9ce4-cabf9364b87c": 0.623,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.525,
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074": 0.517,
+   "ec5b72d1-0206-4179-9abd-570c66bc44b9": 0.517,
+   "c8505fa5-0a33-4143-bd87-f24f569e8813": 0.512,
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b": 0.507,
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef": 0.505
+  },
+  "employment": 258500,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0147,
+   "3": 0.0166,
+   "4": 0.0063,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.531,
+   "medium": 0.1276,
+   "low": 0.2962,
+   "none": 0.0451
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicky-vyjadreni-pocitu": {
+  "occupationCount": 181,
+  "employmentShare": 0.0403,
+  "highExposureShare": 0.4815,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19",
+   "52ded7d7-11df-42e3-b90a-d7f4b70fb4b9",
+   "8801ef16-92a4-4889-8f80-9b78206c7ec0",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074",
+   "c549f0de-c415-428e-865c-973bcd224b39"
+  ],
+  "relevance": {
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950": 0.578,
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19": 0.57,
+   "52ded7d7-11df-42e3-b90a-d7f4b70fb4b9": 0.542,
+   "8801ef16-92a4-4889-8f80-9b78206c7ec0": 0.537,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.512,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.485,
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074": 0.477,
+   "c549f0de-c415-428e-865c-973bcd224b39": 0.477
+  },
+  "employment": 218400,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0122,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4815,
+   "medium": 0.1344,
+   "low": 0.3307,
+   "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicka-reakce-na-pocity-druhych": {
+  "occupationCount": 190,
+  "employmentShare": 0.042,
+  "highExposureShare": 0.4614,
+  "trendPct": 6.3,
+  "topOccupations": [
+   "5727b567-993d-4d41-a13d-81a6af1a9a8e",
+   "52ded7d7-11df-42e3-b90a-d7f4b70fb4b9",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79",
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b"
+  ],
+  "relevance": {
+   "5727b567-993d-4d41-a13d-81a6af1a9a8e": 0.887,
+   "52ded7d7-11df-42e3-b90a-d7f4b70fb4b9": 0.838,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.833,
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19": 0.83,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.792,
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950": 0.79,
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79": 0.73,
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b": 0.715
+  },
+  "employment": 227900,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0139,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4614,
+   "medium": 0.1352,
+   "low": 0.3249,
+   "none": 0.0784
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicky-osobni-nazor-na-temata": {
+  "occupationCount": 181,
+  "employmentShare": 0.0403,
+  "highExposureShare": 0.4815,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "bfc92738-128b-44f5-92d4-51b10df17961",
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef",
+   "c549f0de-c415-428e-865c-973bcd224b39",
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b",
+   "6cd08cbe-7611-4d70-8886-6c59c0385442",
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074"
+  ],
+  "relevance": {
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.792,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.695,
+   "bfc92738-128b-44f5-92d4-51b10df17961": 0.682,
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef": 0.682,
+   "c549f0de-c415-428e-865c-973bcd224b39": 0.675,
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b": 0.647,
+   "6cd08cbe-7611-4d70-8886-6c59c0385442": 0.623,
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074": 0.605
+  },
+  "employment": 218400,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0122,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4815,
+   "medium": 0.1344,
+   "low": 0.3307,
+   "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "anglicka-reakce-na-nazory-a-diskuse": {
+  "occupationCount": 185,
+  "employmentShare": 0.0415,
+  "highExposureShare": 0.4674,
+  "trendPct": 6.5,
+  "topOccupations": [
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19",
+   "bfc92738-128b-44f5-92d4-51b10df17961",
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef",
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074",
+   "6cd08cbe-7611-4d70-8886-6c59c0385442"
+  ],
+  "relevance": {
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.932,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.902,
+   "0ededdc2-050a-4ec3-8e70-6295105fcd19": 0.85,
+   "bfc92738-128b-44f5-92d4-51b10df17961": 0.82,
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef": 0.807,
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950": 0.792,
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074": 0.76,
+   "6cd08cbe-7611-4d70-8886-6c59c0385442": 0.755
+  },
+  "employment": 224900,
+  "byMajor": {
+   "1": 0.0072,
+   "2": 0.0123,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4674,
+   "medium": 0.1304,
+   "low": 0.321,
+   "none": 0.0811
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "poznamky-z-anglickeho-vykladu": {
+  "occupationCount": 199,
+  "employmentShare": 0.0428,
+  "highExposureShare": 0.5018,
+  "trendPct": 6.1,
+  "topOccupations": [
+   "23e692a9-a242-4d4f-988f-ed562f757864",
+   "db3da11f-67a0-415f-b785-81f33d3be810",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "5ac65daa-0896-4193-9f0e-8b00746b78a1",
+   "5a282a39-5346-454a-b1ef-c1217c50e156",
+   "73ceb2f9-18e3-4cfe-9c06-e9fb31ece440",
+   "d9632b0a-3c95-4a8a-a15c-c5413beda52e"
+  ],
+  "relevance": {
+   "23e692a9-a242-4d4f-988f-ed562f757864": 0.812,
+   "db3da11f-67a0-415f-b785-81f33d3be810": 0.667,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.637,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.608,
+   "5ac65daa-0896-4193-9f0e-8b00746b78a1": 0.573,
+   "5a282a39-5346-454a-b1ef-c1217c50e156": 0.565,
+   "73ceb2f9-18e3-4cfe-9c06-e9fb31ece440": 0.555,
+   "d9632b0a-3c95-4a8a-a15c-c5413beda52e": 0.55
+  },
+  "employment": 232000,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0146,
+   "3": 0.0159,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.5018,
+   "medium": 0.1288,
+   "low": 0.3112,
+   "none": 0.0581
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "rekni-cesky-co-zaznelo-anglicky": {
+  "occupationCount": 181,
+  "employmentShare": 0.0403,
+  "highExposureShare": 0.4815,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "23e692a9-a242-4d4f-988f-ed562f757864",
+   "9a2147aa-a72f-4f83-8653-c3f50d4e1e73",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "bbba890e-ecae-43ba-9c5b-a65baa318f15",
+   "7d7ea936-a1c6-499d-9aa7-054e943b019b",
+   "e1fdd92c-46bd-45a0-8672-7f500c950cb0",
+   "e763dfa6-924d-493b-892a-6435e0cffe70"
+  ],
+  "relevance": {
+   "23e692a9-a242-4d4f-988f-ed562f757864": 0.892,
+   "9a2147aa-a72f-4f83-8653-c3f50d4e1e73": 0.802,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.618,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.61,
+   "bbba890e-ecae-43ba-9c5b-a65baa318f15": 0.583,
+   "7d7ea936-a1c6-499d-9aa7-054e943b019b": 0.575,
+   "e1fdd92c-46bd-45a0-8672-7f500c950cb0": 0.57,
+   "e763dfa6-924d-493b-892a-6435e0cffe70": 0.568
+  },
+  "employment": 218400,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0122,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4815,
+   "medium": 0.1344,
+   "low": 0.3307,
+   "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "rekni-cesky-co-je-v-anglickem-clanku": {
+  "occupationCount": 183,
+  "employmentShare": 0.0406,
+  "highExposureShare": 0.4848,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "55d2eb3e-1e49-404a-b4bf-be4829694a59",
+   "1a07bd7d-2e1d-4930-a84a-1a442b8f2a44",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "3ae7c42b-7929-402f-bcbc-882b8679abf4",
+   "d3ac4c05-79e2-42da-b8c6-e55765aee381",
+   "c8505fa5-0a33-4143-bd87-f24f569e8813",
+   "972ef593-89c3-468b-aad5-81bc575feb58"
+  ],
+  "relevance": {
+   "55d2eb3e-1e49-404a-b4bf-be4829694a59": 0.835,
+   "1a07bd7d-2e1d-4930-a84a-1a442b8f2a44": 0.823,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.665,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.655,
+   "3ae7c42b-7929-402f-bcbc-882b8679abf4": 0.6,
+   "d3ac4c05-79e2-42da-b8c6-e55765aee381": 0.6,
+   "c8505fa5-0a33-4143-bd87-f24f569e8813": 0.593,
+   "972ef593-89c3-468b-aad5-81bc575feb58": 0.59
+  },
+  "employment": 219800,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0124,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4848,
+   "medium": 0.1335,
+   "low": 0.3286,
+   "none": 0.0531
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "rekni-anglicky-co-je-v-ceskem-textu": {
+  "occupationCount": 183,
+  "employmentShare": 0.0406,
+  "highExposureShare": 0.4848,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "23e692a9-a242-4d4f-988f-ed562f757864",
+   "55d2eb3e-1e49-404a-b4bf-be4829694a59",
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "9b35eab1-2adc-4057-a620-181862656a19",
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950"
+  ],
+  "relevance": {
+   "23e692a9-a242-4d4f-988f-ed562f757864": 0.902,
+   "55d2eb3e-1e49-404a-b4bf-be4829694a59": 0.855,
+   "b476f45f-2c79-44d5-a4d7-fa357aa83074": 0.7,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.657,
+   "9b35eab1-2adc-4057-a620-181862656a19": 0.655,
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79": 0.655,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.652,
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950": 0.62
+  },
+  "employment": 219800,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0124,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4848,
+   "medium": 0.1335,
+   "low": 0.3286,
+   "none": 0.0531
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "popis-grafu-a-diagramu-anglicky": {
+  "occupationCount": 181,
+  "employmentShare": 0.0403,
+  "highExposureShare": 0.4815,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+   "ff656b3a-65a8-4b4f-b04e-9db12936519b",
+   "6e92d4b5-3167-4166-802f-da7753951a31",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "6cd08cbe-7611-4d70-8886-6c59c0385442",
+   "5ac65daa-0896-4193-9f0e-8b00746b78a1",
+   "8a0c1556-f616-4d41-a03c-8a093a644807"
+  ],
+  "relevance": {
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.762,
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955": 0.76,
+   "ff656b3a-65a8-4b4f-b04e-9db12936519b": 0.703,
+   "6e92d4b5-3167-4166-802f-da7753951a31": 0.667,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.645,
+   "6cd08cbe-7611-4d70-8886-6c59c0385442": 0.637,
+   "5ac65daa-0896-4193-9f0e-8b00746b78a1": 0.63,
+   "8a0c1556-f616-4d41-a03c-8a093a644807": 0.618
+  },
+  "employment": 218400,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0122,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4815,
+   "medium": 0.1344,
+   "low": 0.3307,
+   "none": 0.0534
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "shrnuti-anglickeho-textu-cesky": {
+  "occupationCount": 183,
+  "employmentShare": 0.0406,
+  "highExposureShare": 0.4848,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "55d2eb3e-1e49-404a-b4bf-be4829694a59",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "4cc98057-8ed5-4b45-855b-7a67bc2e5bae",
+   "fd00e4bb-dcee-41d7-81d3-2cdebad8fe70",
+   "d9632b0a-3c95-4a8a-a15c-c5413beda52e",
+   "39b4e367-94b5-49fe-bcd7-4b116865ca59",
+   "3ae7c42b-7929-402f-bcbc-882b8679abf4"
+  ],
+  "relevance": {
+   "55d2eb3e-1e49-404a-b4bf-be4829694a59": 0.723,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.66,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.66,
+   "4cc98057-8ed5-4b45-855b-7a67bc2e5bae": 0.625,
+   "fd00e4bb-dcee-41d7-81d3-2cdebad8fe70": 0.608,
+   "d9632b0a-3c95-4a8a-a15c-c5413beda52e": 0.603,
+   "39b4e367-94b5-49fe-bcd7-4b116865ca59": 0.593,
+   "3ae7c42b-7929-402f-bcbc-882b8679abf4": 0.59
+  },
+  "employment": 219800,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0124,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4848,
+   "medium": 0.1335,
+   "low": 0.3286,
+   "none": 0.0531
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "shrnuti-ceskeho-textu-anglicky": {
+  "occupationCount": 183,
+  "employmentShare": 0.0406,
+  "highExposureShare": 0.4848,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "4cc98057-8ed5-4b45-855b-7a67bc2e5bae",
+   "55d2eb3e-1e49-404a-b4bf-be4829694a59",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79",
+   "c8505fa5-0a33-4143-bd87-f24f569e8813",
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef",
+   "9b35eab1-2adc-4057-a620-181862656a19"
+  ],
+  "relevance": {
+   "4cc98057-8ed5-4b45-855b-7a67bc2e5bae": 0.685,
+   "55d2eb3e-1e49-404a-b4bf-be4829694a59": 0.662,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.57,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.545,
+   "f4e3dd1c-f86b-4a69-8887-547255eadc79": 0.495,
+   "c8505fa5-0a33-4143-bd87-f24f569e8813": 0.492,
+   "be3c021d-bd93-45a0-ad32-e8fa8e0d17ef": 0.482,
+   "9b35eab1-2adc-4057-a620-181862656a19": 0.477
+  },
+  "employment": 219800,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0124,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4848,
+   "medium": 0.1335,
+   "low": 0.3286,
+   "none": 0.0531
+  },
+  "foundationCount": 0,
+  "transferCount": 2
+ },
+ "hlavni-myslenka-vlastnimi-slovy": {
+  "occupationCount": 182,
+  "employmentShare": 0.0404,
+  "highExposureShare": 0.4832,
+  "trendPct": 6.2,
+  "topOccupations": [
+   "0cd729a6-ed11-4338-ac4b-d4b924390128",
+   "4cc98057-8ed5-4b45-855b-7a67bc2e5bae",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4",
+   "5ac65daa-0896-4193-9f0e-8b00746b78a1",
+   "6e92d4b5-3167-4166-802f-da7753951a31",
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353",
+   "e3229e40-f571-4b26-baca-29edc8fe313e"
+  ],
+  "relevance": {
+   "0cd729a6-ed11-4338-ac4b-d4b924390128": 0.79,
+   "4cc98057-8ed5-4b45-855b-7a67bc2e5bae": 0.77,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.72,
+   "1fb92021-9576-4c85-8759-f6918e9f0ad4": 0.698,
+   "5ac65daa-0896-4193-9f0e-8b00746b78a1": 0.693,
+   "6e92d4b5-3167-4166-802f-da7753951a31": 0.675,
+   "190ec9a5-938c-45a5-bd9c-c12b1af33353": 0.67,
+   "e3229e40-f571-4b26-baca-29edc8fe313e": 0.642
+  },
+  "employment": 219100,
+  "byMajor": {
+   "1": 0.0061,
+   "2": 0.0123,
+   "3": 0.0158,
+   "4": 0.0023,
+   "5": 0.0033,
+   "7": 0.0004,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.4832,
+   "medium": 0.1339,
+   "low": 0.3297,
+   "none": 0.0532
   },
   "foundationCount": 0,
   "transferCount": 2
@@ -65831,6 +70217,863 @@
   },
   "foundationCount": 0,
   "transferCount": 5
+ },
+ "reklama-a-opravdovy-svet": {
+  "occupationCount": 29,
+  "employmentShare": 0.0074,
+  "highExposureShare": 0.4002,
+  "trendPct": 11.9,
+  "topOccupations": [
+   "3e213d52-e7a0-4980-99d9-23da1f717f50",
+   "b1ab3572-fa2f-4624-8eac-3c3d986d237b",
+   "54cba39a-5bb8-4e4c-89cd-d6097d3c6c3a",
+   "4ebf2dae-c326-4627-befe-fbc91410f432",
+   "d261a6a4-7ea7-4295-a84e-f4b1a56990d7",
+   "f5332f2d-3119-4194-8b5c-d0a5d97f55ef",
+   "6ba25e0f-7fb8-4879-a1f9-d4f8945966be",
+   "b1c0714d-77f1-4732-8fd8-9f0739fb9974"
+  ],
+  "relevance": {
+   "3e213d52-e7a0-4980-99d9-23da1f717f50": 0.787,
+   "b1ab3572-fa2f-4624-8eac-3c3d986d237b": 0.775,
+   "54cba39a-5bb8-4e4c-89cd-d6097d3c6c3a": 0.69,
+   "4ebf2dae-c326-4627-befe-fbc91410f432": 0.68,
+   "d261a6a4-7ea7-4295-a84e-f4b1a56990d7": 0.615,
+   "f5332f2d-3119-4194-8b5c-d0a5d97f55ef": 0.613,
+   "6ba25e0f-7fb8-4879-a1f9-d4f8945966be": 0.552,
+   "b1c0714d-77f1-4732-8fd8-9f0739fb9974": 0.55
+  },
+  "employment": 40100,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.0037,
+   "3": 0.0023,
+   "4": 0.001
+  },
+  "exposureMix": {
+   "high": 0.4002,
+   "medium": 0.2223,
+   "low": 0.3413,
+   "none": 0.0362
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "stereotypy-v-reklame-a-mediich": {
+  "occupationCount": 17,
+  "employmentShare": 0.0052,
+  "highExposureShare": 0.5528,
+  "trendPct": 15.5,
+  "topOccupations": [
+   "d2db926b-8b14-4686-9c98-fb0dc3a38cbb",
+   "3e213d52-e7a0-4980-99d9-23da1f717f50",
+   "6cd08cbe-7611-4d70-8886-6c59c0385442",
+   "19db5ad1-ffbf-41a0-8746-d3878f0d5dbd",
+   "4ebf2dae-c326-4627-befe-fbc91410f432",
+   "54cba39a-5bb8-4e4c-89cd-d6097d3c6c3a",
+   "d261a6a4-7ea7-4295-a84e-f4b1a56990d7",
+   "f5332f2d-3119-4194-8b5c-d0a5d97f55ef"
+  ],
+  "relevance": {
+   "d2db926b-8b14-4686-9c98-fb0dc3a38cbb": 0.777,
+   "3e213d52-e7a0-4980-99d9-23da1f717f50": 0.733,
+   "6cd08cbe-7611-4d70-8886-6c59c0385442": 0.715,
+   "19db5ad1-ffbf-41a0-8746-d3878f0d5dbd": 0.71,
+   "4ebf2dae-c326-4627-befe-fbc91410f432": 0.642,
+   "54cba39a-5bb8-4e4c-89cd-d6097d3c6c3a": 0.64,
+   "d261a6a4-7ea7-4295-a84e-f4b1a56990d7": 0.547,
+   "f5332f2d-3119-4194-8b5c-d0a5d97f55ef": 0.535
+  },
+  "employment": 28200,
+  "byMajor": {
+   "1": 0.0005,
+   "2": 0.0026,
+   "3": 0.0012,
+   "4": 0.001
+  },
+  "exposureMix": {
+   "high": 0.5528,
+   "medium": 0.2238,
+   "low": 0.2234,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "typy-manipulace": {
+  "occupationCount": 11,
+  "employmentShare": 0.002,
+  "highExposureShare": 0.2053,
+  "trendPct": 17.9,
+  "topOccupations": [
+   "13427968-250b-4967-a682-afac5cd0af4f",
+   "b866b3bb-3dbd-4b3d-9a53-9ec15f43ca2f",
+   "e9cf8b24-6b8b-47cc-9dd3-b601aa135960",
+   "6cd08cbe-7611-4d70-8886-6c59c0385442",
+   "4795d4e3-c623-47ff-abab-7de97fcb764e",
+   "e047b8f5-9491-4da2-8816-7aa37ad2370d"
+  ],
+  "relevance": {
+   "13427968-250b-4967-a682-afac5cd0af4f": 0.945,
+   "b866b3bb-3dbd-4b3d-9a53-9ec15f43ca2f": 0.895,
+   "e9cf8b24-6b8b-47cc-9dd3-b601aa135960": 0.875,
+   "6cd08cbe-7611-4d70-8886-6c59c0385442": 0.795,
+   "4795d4e3-c623-47ff-abab-7de97fcb764e": 0.667,
+   "e047b8f5-9491-4da2-8816-7aa37ad2370d": 0.347
+  },
+  "employment": 10600,
+  "byMajor": {
+   "1": 0.0004,
+   "2": 0.0016
+  },
+  "exposureMix": {
+   "high": 0.2053,
+   "medium": 0.3383,
+   "low": 0.3843,
+   "none": 0.0721
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "prostredky-manipulace": {
+  "occupationCount": 15,
+  "employmentShare": 0.0026,
+  "highExposureShare": 0.0,
+  "trendPct": 3.8,
+  "topOccupations": [
+   "1a7fb683-6544-4442-b54c-ec72ef468ff0",
+   "ecd0fad8-b099-4c47-93f6-dde9f6f6c5fc",
+   "6fed206a-ac4d-492b-a81a-5a3a0f2b67bc",
+   "364d9e9f-b14c-4905-b9e5-5de623dba268",
+   "48c8eccb-4bd0-487e-a187-4953cbbe956e"
+  ],
+  "relevance": {
+   "1a7fb683-6544-4442-b54c-ec72ef468ff0": 0.805,
+   "ecd0fad8-b099-4c47-93f6-dde9f6f6c5fc": 0.765,
+   "6fed206a-ac4d-492b-a81a-5a3a0f2b67bc": 0.443,
+   "364d9e9f-b14c-4905-b9e5-5de623dba268": 0.383,
+   "48c8eccb-4bd0-487e-a187-4953cbbe956e": 0.367
+  },
+  "employment": 14000,
+  "byMajor": {
+   "2": 0.0015,
+   "3": 0.0011
+  },
+  "exposureMix": {
+   "high": 0.0,
+   "medium": 0.2919,
+   "low": 0.5438,
+   "none": 0.1642
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "jazykove-prostredky-v-reklame": {
+  "occupationCount": 44,
+  "employmentShare": 0.0096,
+  "highExposureShare": 0.5703,
+  "trendPct": 12.4,
+  "topOccupations": [
+   "b1ab3572-fa2f-4624-8eac-3c3d986d237b",
+   "d2db926b-8b14-4686-9c98-fb0dc3a38cbb",
+   "4ebf2dae-c326-4627-befe-fbc91410f432",
+   "54cba39a-5bb8-4e4c-89cd-d6097d3c6c3a",
+   "d261a6a4-7ea7-4295-a84e-f4b1a56990d7",
+   "cee31c49-abe9-4f29-ad10-5eefe63f2a57",
+   "e9cf8b24-6b8b-47cc-9dd3-b601aa135960",
+   "ac80b511-fd22-4edf-8570-e531704778bd"
+  ],
+  "relevance": {
+   "b1ab3572-fa2f-4624-8eac-3c3d986d237b": 0.932,
+   "d2db926b-8b14-4686-9c98-fb0dc3a38cbb": 0.905,
+   "4ebf2dae-c326-4627-befe-fbc91410f432": 0.723,
+   "54cba39a-5bb8-4e4c-89cd-d6097d3c6c3a": 0.705,
+   "d261a6a4-7ea7-4295-a84e-f4b1a56990d7": 0.595,
+   "cee31c49-abe9-4f29-ad10-5eefe63f2a57": 0.527,
+   "e9cf8b24-6b8b-47cc-9dd3-b601aa135960": 0.468,
+   "ac80b511-fd22-4edf-8570-e531704778bd": 0.45
+  },
+  "employment": 52200,
+  "byMajor": {
+   "1": 0.0008,
+   "2": 0.0065,
+   "3": 0.0013,
+   "4": 0.001
+  },
+  "exposureMix": {
+   "high": 0.5703,
+   "medium": 0.1463,
+   "low": 0.2338,
+   "none": 0.0496
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "jak-se-branit-manipulaci": {
+  "occupationCount": 10,
+  "employmentShare": 0.0018,
+  "highExposureShare": 0.2199,
+  "trendPct": 18.9,
+  "topOccupations": [
+   "e9cf8b24-6b8b-47cc-9dd3-b601aa135960",
+   "b866b3bb-3dbd-4b3d-9a53-9ec15f43ca2f",
+   "094e04fd-3039-4615-850b-b232794f84f5",
+   "13427968-250b-4967-a682-afac5cd0af4f",
+   "4795d4e3-c623-47ff-abab-7de97fcb764e",
+   "e047b8f5-9491-4da2-8816-7aa37ad2370d"
+  ],
+  "relevance": {
+   "e9cf8b24-6b8b-47cc-9dd3-b601aa135960": 0.65,
+   "b866b3bb-3dbd-4b3d-9a53-9ec15f43ca2f": 0.645,
+   "094e04fd-3039-4615-850b-b232794f84f5": 0.585,
+   "13427968-250b-4967-a682-afac5cd0af4f": 0.54,
+   "4795d4e3-c623-47ff-abab-7de97fcb764e": 0.525,
+   "e047b8f5-9491-4da2-8816-7aa37ad2370d": 0.265
+  },
+  "employment": 9900,
+  "byMajor": {
+   "1": 0.0004,
+   "2": 0.0015
+  },
+  "exposureMix": {
+   "high": 0.2199,
+   "medium": 0.2199,
+   "low": 0.4117,
+   "none": 0.1485
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "umely-a-neumely-text": {
+  "occupationCount": 24,
+  "employmentShare": 0.0035,
+  "highExposureShare": 0.7125,
+  "trendPct": 2.4,
+  "topOccupations": [
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1",
+   "480d2853-db07-43d4-847f-7ffdd8d368f5"
+  ],
+  "relevance": {
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.9,
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.895,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.858,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.85,
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1": 0.438,
+   "480d2853-db07-43d4-847f-7ffdd8d368f5": 0.35
+  },
+  "employment": 18800,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0033,
+   "3": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.7125,
+   "medium": 0.0669,
+   "low": 0.1236,
+   "none": 0.097
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "ctenarske-portfolio-nejen-pro-deti": {
+  "occupationCount": 24,
+  "employmentShare": 0.0035,
+  "highExposureShare": 0.7125,
+  "trendPct": 2.4,
+  "topOccupations": [
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1"
+  ],
+  "relevance": {
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.818,
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.812,
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.767,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.745,
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1": 0.625
+  },
+  "employment": 18800,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0033,
+   "3": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.7125,
+   "medium": 0.0669,
+   "low": 0.1236,
+   "none": 0.097
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "hlavni-prvky-dila": {
+  "occupationCount": 9,
+  "employmentShare": 0.0015,
+  "highExposureShare": 0.3571,
+  "trendPct": -2.4,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "4bef1707-a251-427e-9d8b-96595ec38d45",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1",
+   "97467934-a220-41ca-96df-36fc85258c47"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.927,
+   "4bef1707-a251-427e-9d8b-96595ec38d45": 0.825,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.81,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.782,
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1": 0.417,
+   "97467934-a220-41ca-96df-36fc85258c47": 0.407
+  },
+  "employment": 7900,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0013
+  },
+  "exposureMix": {
+   "high": 0.3571,
+   "medium": 0.1178,
+   "low": 0.2942,
+   "none": 0.2309
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "prozitek-z-divadla-a-filmu": {
+  "occupationCount": 62,
+  "employmentShare": 0.0111,
+  "highExposureShare": 0.2586,
+  "trendPct": -0.3,
+  "topOccupations": [
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "d3570716-cc0d-4a61-b9a0-9b3081050e9d",
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "790c8dca-f624-4bdc-ac16-27bc13ead188",
+   "068df7d1-516f-4829-b339-294cb0cf6318",
+   "d1b1dfdf-7d60-430a-b569-7dd71b2ebeaa",
+   "874a2080-a9b6-46a9-8662-c9b7d4208f73"
+  ],
+  "relevance": {
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.932,
+   "d3570716-cc0d-4a61-b9a0-9b3081050e9d": 0.873,
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.843,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.69,
+   "790c8dca-f624-4bdc-ac16-27bc13ead188": 0.565,
+   "068df7d1-516f-4829-b339-294cb0cf6318": 0.557,
+   "d1b1dfdf-7d60-430a-b569-7dd71b2ebeaa": 0.55,
+   "874a2080-a9b6-46a9-8662-c9b7d4208f73": 0.54
+  },
+  "employment": 60100,
+  "byMajor": {
+   "2": 0.004,
+   "3": 0.0042,
+   "5": 0.0024,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2586,
+   "medium": 0.0424,
+   "low": 0.3443,
+   "none": 0.3547
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "dilo-a-moje-zkusenost": {
+  "occupationCount": 97,
+  "employmentShare": 0.0203,
+  "highExposureShare": 0.4682,
+  "trendPct": 12.9,
+  "topOccupations": [
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "d3570716-cc0d-4a61-b9a0-9b3081050e9d",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "480d2853-db07-43d4-847f-7ffdd8d368f5",
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0",
+   "a74f6c51-37e5-423e-aa5b-044e98663027"
+  ],
+  "relevance": {
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.91,
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.82,
+   "d3570716-cc0d-4a61-b9a0-9b3081050e9d": 0.795,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.685,
+   "480d2853-db07-43d4-847f-7ffdd8d368f5": 0.362,
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0": 0.255,
+   "a74f6c51-37e5-423e-aa5b-044e98663027": 0.25
+  },
+  "employment": 109900,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0152,
+   "3": 0.0009,
+   "4": 0.0041
+  },
+  "exposureMix": {
+   "high": 0.4682,
+   "medium": 0.2984,
+   "low": 0.1676,
+   "none": 0.0658
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "sdileni-prozitku-a-kulturni-diskuse": {
+  "occupationCount": 21,
+  "employmentShare": 0.0031,
+  "highExposureShare": 0.7514,
+  "trendPct": 2.3,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "d3570716-cc0d-4a61-b9a0-9b3081050e9d",
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "480d2853-db07-43d4-847f-7ffdd8d368f5"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.848,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.765,
+   "d3570716-cc0d-4a61-b9a0-9b3081050e9d": 0.725,
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.632,
+   "480d2853-db07-43d4-847f-7ffdd8d368f5": 0.438
+  },
+  "employment": 16900,
+  "byMajor": {
+   "2": 0.003,
+   "3": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.7514,
+   "medium": 0.0327,
+   "low": 0.108,
+   "none": 0.108
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "system-literarnich-poznatku": {
+  "occupationCount": 6,
+  "employmentShare": 0.0011,
+  "highExposureShare": 0.2438,
+  "trendPct": -5.2,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "b06a1dde-e5a1-4219-9491-2bedd0282e4b",
+   "97467934-a220-41ca-96df-36fc85258c47",
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.945,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.925,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.917,
+   "b06a1dde-e5a1-4219-9491-2bedd0282e4b": 0.767,
+   "97467934-a220-41ca-96df-36fc85258c47": 0.445,
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1": 0.395
+  },
+  "employment": 5800,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0009
+  },
+  "exposureMix": {
+   "high": 0.2438,
+   "medium": 0.0389,
+   "low": 0.4019,
+   "none": 0.3154
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "vypraveni-obsahu-dila": {
+  "occupationCount": 10,
+  "employmentShare": 0.0017,
+  "highExposureShare": 0.3105,
+  "trendPct": 0.1,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "4bef1707-a251-427e-9d8b-96595ec38d45",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.667,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.522,
+   "4bef1707-a251-427e-9d8b-96595ec38d45": 0.485,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.477,
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1": 0.37
+  },
+  "employment": 9100,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0016
+  },
+  "exposureMix": {
+   "high": 0.3105,
+   "medium": 0.0776,
+   "low": 0.3335,
+   "none": 0.2784
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "autor-a-postavy": {
+  "occupationCount": 24,
+  "employmentShare": 0.0035,
+  "highExposureShare": 0.7125,
+  "trendPct": 2.4,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "480d2853-db07-43d4-847f-7ffdd8d368f5"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.845,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.828,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.782,
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.715,
+   "480d2853-db07-43d4-847f-7ffdd8d368f5": 0.292
+  },
+  "employment": 18800,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0033,
+   "3": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.7125,
+   "medium": 0.0669,
+   "low": 0.1236,
+   "none": 0.097
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "motivace-a-jednani-postav": {
+  "occupationCount": 24,
+  "employmentShare": 0.0035,
+  "highExposureShare": 0.7125,
+  "trendPct": 2.4,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "ebe936e2-64e7-4777-94d6-42caa5a12409",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "480d2853-db07-43d4-847f-7ffdd8d368f5",
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.922,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.848,
+   "ebe936e2-64e7-4777-94d6-42caa5a12409": 0.845,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.84,
+   "480d2853-db07-43d4-847f-7ffdd8d368f5": 0.378,
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1": 0.292
+  },
+  "employment": 18800,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0033,
+   "3": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.7125,
+   "medium": 0.0669,
+   "low": 0.1236,
+   "none": 0.097
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "ironie-alegorie-a-symbol": {
+  "occupationCount": 21,
+  "employmentShare": 0.0031,
+  "highExposureShare": 0.7514,
+  "trendPct": 2.3,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "480d2853-db07-43d4-847f-7ffdd8d368f5"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.938,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.925,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.91,
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.87,
+   "480d2853-db07-43d4-847f-7ffdd8d368f5": 0.27
+  },
+  "employment": 16900,
+  "byMajor": {
+   "2": 0.003,
+   "3": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.7514,
+   "medium": 0.0327,
+   "low": 0.108,
+   "none": 0.108
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "proza-poezie-a-volny-vers": {
+  "occupationCount": 23,
+  "employmentShare": 0.0032,
+  "highExposureShare": 0.7204,
+  "trendPct": 1.4,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "97467934-a220-41ca-96df-36fc85258c47",
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.958,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.93,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.91,
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.833,
+   "97467934-a220-41ca-96df-36fc85258c47": 0.463,
+   "24d39e12-e104-49d3-8224-8b7a5f9b99d1": 0.403
+  },
+  "employment": 17600,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.003,
+   "3": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.7204,
+   "medium": 0.0441,
+   "low": 0.1319,
+   "none": 0.1035
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "sekundarni-funkce-dila": {
+  "occupationCount": 62,
+  "employmentShare": 0.0111,
+  "highExposureShare": 0.2586,
+  "trendPct": -0.3,
+  "topOccupations": [
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "e1106f6d-81fc-44f8-af94-8b7d2763065c",
+   "c995fe34-0909-4ce3-b7b7-97945efede56",
+   "068df7d1-516f-4829-b339-294cb0cf6318",
+   "0da2ee5c-b480-498f-97a8-a292a0f4c54c"
+  ],
+  "relevance": {
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.815,
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.812,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.802,
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.772,
+   "e1106f6d-81fc-44f8-af94-8b7d2763065c": 0.482,
+   "c995fe34-0909-4ce3-b7b7-97945efede56": 0.427,
+   "068df7d1-516f-4829-b339-294cb0cf6318": 0.393,
+   "0da2ee5c-b480-498f-97a8-a292a0f4c54c": 0.39
+  },
+  "employment": 60100,
+  "byMajor": {
+   "2": 0.004,
+   "3": 0.0042,
+   "5": 0.0024,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2586,
+   "medium": 0.0424,
+   "low": 0.3443,
+   "none": 0.3547
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "recitace-a-cetba-nahlas": {
+  "occupationCount": 49,
+  "employmentShare": 0.0094,
+  "highExposureShare": 0.0707,
+  "trendPct": -1.2,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "e1106f6d-81fc-44f8-af94-8b7d2763065c",
+   "1aa4bb15-c527-4a3b-9270-b3c71c4be111",
+   "0da2ee5c-b480-498f-97a8-a292a0f4c54c",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "790c8dca-f624-4bdc-ac16-27bc13ead188",
+   "19db5ad1-ffbf-41a0-8746-d3878f0d5dbd",
+   "b06a1dde-e5a1-4219-9491-2bedd0282e4b"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.588,
+   "e1106f6d-81fc-44f8-af94-8b7d2763065c": 0.51,
+   "1aa4bb15-c527-4a3b-9270-b3c71c4be111": 0.475,
+   "0da2ee5c-b480-498f-97a8-a292a0f4c54c": 0.472,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.472,
+   "790c8dca-f624-4bdc-ac16-27bc13ead188": 0.443,
+   "19db5ad1-ffbf-41a0-8746-d3878f0d5dbd": 0.39,
+   "b06a1dde-e5a1-4219-9491-2bedd0282e4b": 0.383
+  },
+  "employment": 50900,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0023,
+   "3": 0.0041,
+   "5": 0.0024,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0707,
+   "medium": 0.056,
+   "low": 0.4365,
+   "none": 0.4368
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "zpracovani-latky-v-ruznych-dilech": {
+  "occupationCount": 50,
+  "employmentShare": 0.008,
+  "highExposureShare": 0.2987,
+  "trendPct": 3.2,
+  "topOccupations": [
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "1b949bae-882f-40ff-9fe7-3c8ede5e38b5",
+   "874a2080-a9b6-46a9-8662-c9b7d4208f73",
+   "d1b1dfdf-7d60-430a-b569-7dd71b2ebeaa",
+   "5dd01019-3999-4d90-bc8a-7a04b0b208b0"
+  ],
+  "relevance": {
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.685,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.667,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.625,
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.62,
+   "1b949bae-882f-40ff-9fe7-3c8ede5e38b5": 0.482,
+   "874a2080-a9b6-46a9-8662-c9b7d4208f73": 0.477,
+   "d1b1dfdf-7d60-430a-b569-7dd71b2ebeaa": 0.455,
+   "5dd01019-3999-4d90-bc8a-7a04b0b208b0": 0.4
+  },
+  "employment": 43600,
+  "byMajor": {
+   "2": 0.0055,
+   "3": 0.0009,
+   "5": 0.0012,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2987,
+   "medium": 0.0669,
+   "low": 0.2103,
+   "none": 0.424
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "informace-o-autorovi-a-dobe-dila": {
+  "occupationCount": 34,
+  "employmentShare": 0.0056,
+  "highExposureShare": 0.0969,
+  "trendPct": 4.0,
+  "topOccupations": [
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "d1b1dfdf-7d60-430a-b569-7dd71b2ebeaa",
+   "874a2080-a9b6-46a9-8662-c9b7d4208f73",
+   "72bcb223-da77-4ed5-a03a-796fd5ece728",
+   "b06a1dde-e5a1-4219-9491-2bedd0282e4b",
+   "5dd01019-3999-4d90-bc8a-7a04b0b208b0",
+   "790c8dca-f624-4bdc-ac16-27bc13ead188",
+   "1b949bae-882f-40ff-9fe7-3c8ede5e38b5"
+  ],
+  "relevance": {
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.892,
+   "d1b1dfdf-7d60-430a-b569-7dd71b2ebeaa": 0.545,
+   "874a2080-a9b6-46a9-8662-c9b7d4208f73": 0.517,
+   "72bcb223-da77-4ed5-a03a-796fd5ece728": 0.448,
+   "b06a1dde-e5a1-4219-9491-2bedd0282e4b": 0.4,
+   "5dd01019-3999-4d90-bc8a-7a04b0b208b0": 0.39,
+   "790c8dca-f624-4bdc-ac16-27bc13ead188": 0.352,
+   "1b949bae-882f-40ff-9fe7-3c8ede5e38b5": 0.343
+  },
+  "employment": 30200,
+  "byMajor": {
+   "2": 0.0031,
+   "3": 0.0008,
+   "5": 0.0012,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.0969,
+   "medium": 0.1029,
+   "low": 0.2442,
+   "none": 0.556
+  },
+  "foundationCount": 0,
+  "transferCount": 4
+ },
+ "vecne-vyjadreni-o-dile": {
+  "occupationCount": 62,
+  "employmentShare": 0.0111,
+  "highExposureShare": 0.2586,
+  "trendPct": -0.3,
+  "topOccupations": [
+   "fdd8eef7-d89c-419f-9166-0747f466a769",
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce",
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d",
+   "c011a88b-95ab-46ad-ad30-539e3fc56092",
+   "e1106f6d-81fc-44f8-af94-8b7d2763065c",
+   "874a2080-a9b6-46a9-8662-c9b7d4208f73",
+   "790c8dca-f624-4bdc-ac16-27bc13ead188",
+   "d1b1dfdf-7d60-430a-b569-7dd71b2ebeaa"
+  ],
+  "relevance": {
+   "fdd8eef7-d89c-419f-9166-0747f466a769": 0.968,
+   "f3d8bc61-f812-4106-afd2-a356e4c11fce": 0.915,
+   "9a7e780a-b778-4a5a-b4eb-309d394d313d": 0.912,
+   "c011a88b-95ab-46ad-ad30-539e3fc56092": 0.91,
+   "e1106f6d-81fc-44f8-af94-8b7d2763065c": 0.6,
+   "874a2080-a9b6-46a9-8662-c9b7d4208f73": 0.57,
+   "790c8dca-f624-4bdc-ac16-27bc13ead188": 0.547,
+   "d1b1dfdf-7d60-430a-b569-7dd71b2ebeaa": 0.535
+  },
+  "employment": 60100,
+  "byMajor": {
+   "2": 0.004,
+   "3": 0.0042,
+   "5": 0.0024,
+   "7": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2586,
+   "medium": 0.0424,
+   "low": 0.3443,
+   "none": 0.3547
+  },
+  "foundationCount": 0,
+  "transferCount": 4
  },
  "odpovedi-na-otazky-v-cizim-jazyce": {
   "occupationCount": 320,
@@ -73117,6 +78360,222 @@
   "foundationCount": 0,
   "transferCount": 7
  },
+ "pravdepodobnost-zlomkem-na-ose": {
+  "occupationCount": 10,
+  "employmentShare": 0.0036,
+  "highExposureShare": 0.3354,
+  "trendPct": 4.2,
+  "topOccupations": [
+   "491cf76d-eb0d-4f15-90f0-3f5c9b11472a",
+   "b09acdda-6680-49d1-a411-129610ee3bc0",
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd",
+   "4975c4cc-a89f-4ea8-82aa-501258dfb2f9"
+  ],
+  "relevance": {
+   "491cf76d-eb0d-4f15-90f0-3f5c9b11472a": 0.81,
+   "b09acdda-6680-49d1-a411-129610ee3bc0": 0.665,
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd": 0.61,
+   "4975c4cc-a89f-4ea8-82aa-501258dfb2f9": 0.58
+  },
+  "employment": 19600,
+  "byMajor": {
+   "2": 0.0004,
+   "3": 0.0032
+  },
+  "exposureMix": {
+   "high": 0.3354,
+   "medium": 0.2215,
+   "low": 0.4431,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "stromovy-diagram-pravdepodobnosti": {
+  "occupationCount": 10,
+  "employmentShare": 0.0036,
+  "highExposureShare": 0.3354,
+  "trendPct": 4.2,
+  "topOccupations": [
+   "491cf76d-eb0d-4f15-90f0-3f5c9b11472a",
+   "b09acdda-6680-49d1-a411-129610ee3bc0",
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd",
+   "4975c4cc-a89f-4ea8-82aa-501258dfb2f9"
+  ],
+  "relevance": {
+   "491cf76d-eb0d-4f15-90f0-3f5c9b11472a": 0.75,
+   "b09acdda-6680-49d1-a411-129610ee3bc0": 0.62,
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd": 0.578,
+   "4975c4cc-a89f-4ea8-82aa-501258dfb2f9": 0.557
+  },
+  "employment": 19600,
+  "byMajor": {
+   "2": 0.0004,
+   "3": 0.0032
+  },
+  "exposureMix": {
+   "high": 0.3354,
+   "medium": 0.2215,
+   "low": 0.4431,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "kontingencni-tabulka-pravdepodobnosti": {
+  "occupationCount": 17,
+  "employmentShare": 0.0058,
+  "highExposureShare": 0.2734,
+  "trendPct": 11.0,
+  "topOccupations": [
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd",
+   "b09acdda-6680-49d1-a411-129610ee3bc0",
+   "4975c4cc-a89f-4ea8-82aa-501258dfb2f9",
+   "6fcf4638-e7c7-4978-9302-9a7b63a3d57c",
+   "dab60fc6-c16e-4de7-b969-b323784f5a49",
+   "f56e33a3-01bb-46ba-98f4-d47aa242b983",
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0",
+   "a1cf1406-3632-494c-bff3-0bd5d5327d8f"
+  ],
+  "relevance": {
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd": 0.667,
+   "b09acdda-6680-49d1-a411-129610ee3bc0": 0.652,
+   "4975c4cc-a89f-4ea8-82aa-501258dfb2f9": 0.61,
+   "6fcf4638-e7c7-4978-9302-9a7b63a3d57c": 0.557,
+   "dab60fc6-c16e-4de7-b969-b323784f5a49": 0.492,
+   "f56e33a3-01bb-46ba-98f4-d47aa242b983": 0.393,
+   "137b1d11-c4bc-4016-89ba-45345d4c71f0": 0.35,
+   "a1cf1406-3632-494c-bff3-0bd5d5327d8f": 0.34
+  },
+  "employment": 31400,
+  "byMajor": {
+   "1": 0.0015,
+   "2": 0.0005,
+   "3": 0.0032,
+   "4": 0.0005
+  },
+  "exposureMix": {
+   "high": 0.2734,
+   "medium": 0.4342,
+   "low": 0.2924,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "systematicke-hledani-vsech-moznosti": {
+  "occupationCount": 82,
+  "employmentShare": 0.0603,
+  "highExposureShare": 0.0698,
+  "trendPct": -2.0,
+  "topOccupations": [
+   "07dfff6d-a0d0-4202-a697-fe9176c15999",
+   "b42d8731-386b-4d34-a824-4b736feee1e5",
+   "afc5a0f4-42e5-4bfb-910c-2b54b44f99c5",
+   "f3eb330a-03b5-4537-ac0e-bcee5c67bcff",
+   "b09acdda-6680-49d1-a411-129610ee3bc0",
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443",
+   "fbceeac6-798b-4307-a825-626707a753ad",
+   "9a99a5fe-875d-49b2-9b53-cc1b73be1659"
+  ],
+  "relevance": {
+   "07dfff6d-a0d0-4202-a697-fe9176c15999": 0.66,
+   "b42d8731-386b-4d34-a824-4b736feee1e5": 0.623,
+   "afc5a0f4-42e5-4bfb-910c-2b54b44f99c5": 0.61,
+   "f3eb330a-03b5-4537-ac0e-bcee5c67bcff": 0.605,
+   "b09acdda-6680-49d1-a411-129610ee3bc0": 0.6,
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443": 0.595,
+   "fbceeac6-798b-4307-a825-626707a753ad": 0.585,
+   "9a99a5fe-875d-49b2-9b53-cc1b73be1659": 0.573
+  },
+  "employment": 327000,
+  "byMajor": {
+   "2": 0.0016,
+   "3": 0.0047,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0001,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0698,
+   "medium": 0.8363,
+   "low": 0.064,
+   "none": 0.0299
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "stromovy-graf-moznosti": {
+  "occupationCount": 82,
+  "employmentShare": 0.0603,
+  "highExposureShare": 0.0698,
+  "trendPct": -2.0,
+  "topOccupations": [
+   "07dfff6d-a0d0-4202-a697-fe9176c15999",
+   "b09acdda-6680-49d1-a411-129610ee3bc0",
+   "fbceeac6-798b-4307-a825-626707a753ad",
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd",
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443",
+   "0f5b4653-50b2-413a-826d-39d447480c21",
+   "002da35b-7808-43f3-83bf-63596b8b351f",
+   "f3eb330a-03b5-4537-ac0e-bcee5c67bcff"
+  ],
+  "relevance": {
+   "07dfff6d-a0d0-4202-a697-fe9176c15999": 0.525,
+   "b09acdda-6680-49d1-a411-129610ee3bc0": 0.465,
+   "fbceeac6-798b-4307-a825-626707a753ad": 0.385,
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd": 0.355,
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443": 0.347,
+   "0f5b4653-50b2-413a-826d-39d447480c21": 0.333,
+   "002da35b-7808-43f3-83bf-63596b8b351f": 0.33,
+   "f3eb330a-03b5-4537-ac0e-bcee5c67bcff": 0.273
+  },
+  "employment": 327000,
+  "byMajor": {
+   "2": 0.0016,
+   "3": 0.0047,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0001,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0698,
+   "medium": 0.8363,
+   "low": 0.064,
+   "none": 0.0299
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "vypis-vysledku-s-vracenim-a-bez": {
+  "occupationCount": 9,
+  "employmentShare": 0.0035,
+  "highExposureShare": 0.3085,
+  "trendPct": 2.8,
+  "topOccupations": [
+   "b09acdda-6680-49d1-a411-129610ee3bc0",
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd"
+  ],
+  "relevance": {
+   "b09acdda-6680-49d1-a411-129610ee3bc0": 0.287,
+   "7bcafcd7-3f35-4a72-849c-c92b334927fd": 0.268
+  },
+  "employment": 18800,
+  "byMajor": {
+   "2": 0.0003,
+   "3": 0.0032
+  },
+  "exposureMix": {
+   "high": 0.3085,
+   "medium": 0.2305,
+   "low": 0.461,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
  "pravidelnosti-tvary-barvy-zvuky": {
   "occupationCount": 73,
   "employmentShare": 0.0569,
@@ -73601,6 +79060,960 @@
    "none": 0.3796
   },
   "foundationCount": 2,
+  "transferCount": 6
+ },
+ "pravidlo-nelinearni-rady": {
+  "occupationCount": 73,
+  "employmentShare": 0.0569,
+  "highExposureShare": 0.0512,
+  "trendPct": -2.3,
+  "topOccupations": [
+   "fbceeac6-798b-4307-a825-626707a753ad",
+   "30ca97f4-a4fd-4189-a781-ac08f6b09b78",
+   "002da35b-7808-43f3-83bf-63596b8b351f",
+   "07dfff6d-a0d0-4202-a697-fe9176c15999",
+   "dbdc9f7b-31c6-4f21-a9c5-48253bb69c08"
+  ],
+  "relevance": {
+   "fbceeac6-798b-4307-a825-626707a753ad": 0.412,
+   "30ca97f4-a4fd-4189-a781-ac08f6b09b78": 0.36,
+   "002da35b-7808-43f3-83bf-63596b8b351f": 0.355,
+   "07dfff6d-a0d0-4202-a697-fe9176c15999": 0.333,
+   "dbdc9f7b-31c6-4f21-a9c5-48253bb69c08": 0.255
+  },
+  "employment": 308100,
+  "byMajor": {
+   "2": 0.0013,
+   "3": 0.0015,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0001,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0512,
+   "medium": 0.8834,
+   "low": 0.0331,
+   "none": 0.0323
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "rada-druhych-mocnin": {
+  "occupationCount": 73,
+  "employmentShare": 0.0569,
+  "highExposureShare": 0.0512,
+  "trendPct": -2.3,
+  "topOccupations": [
+   "fbceeac6-798b-4307-a825-626707a753ad",
+   "30ca97f4-a4fd-4189-a781-ac08f6b09b78",
+   "07dfff6d-a0d0-4202-a697-fe9176c15999",
+   "002da35b-7808-43f3-83bf-63596b8b351f"
+  ],
+  "relevance": {
+   "fbceeac6-798b-4307-a825-626707a753ad": 0.41,
+   "30ca97f4-a4fd-4189-a781-ac08f6b09b78": 0.37,
+   "07dfff6d-a0d0-4202-a697-fe9176c15999": 0.31,
+   "002da35b-7808-43f3-83bf-63596b8b351f": 0.297
+  },
+  "employment": 308100,
+  "byMajor": {
+   "2": 0.0013,
+   "3": 0.0015,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0001,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0512,
+   "medium": 0.8834,
+   "low": 0.0331,
+   "none": 0.0323
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "procenta-v-realnych-ulohach": {
+  "occupationCount": 79,
+  "employmentShare": 0.0141,
+  "highExposureShare": 0.1205,
+  "trendPct": 14.0,
+  "topOccupations": [
+   "ff656b3a-65a8-4b4f-b04e-9db12936519b",
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "12ff7f9c-c5b5-4d4a-b585-c350dd1400eb",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "6e92d4b5-3167-4166-802f-da7753951a31"
+  ],
+  "relevance": {
+   "ff656b3a-65a8-4b4f-b04e-9db12936519b": 0.787,
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955": 0.762,
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": 0.755,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.695,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.695,
+   "12ff7f9c-c5b5-4d4a-b585-c350dd1400eb": 0.645,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.632,
+   "6e92d4b5-3167-4166-802f-da7753951a31": 0.63
+  },
+  "employment": 76500,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0086,
+   "3": 0.0048,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1205,
+   "medium": 0.2538,
+   "low": 0.1556,
+   "none": 0.4701
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "pomer-a-umera-v-uloham": {
+  "occupationCount": 152,
+  "employmentShare": 0.071,
+  "highExposureShare": 0.0679,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547",
+   "ad8ab454-b506-46a5-afd3-66bbffd54115",
+   "974494ee-5f32-4eec-9950-9d431e902dc1",
+   "574f3232-1d07-4034-8cac-c57ddbfff192",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "364cb5ca-3002-425f-b815-aefa513df78a"
+  ],
+  "relevance": {
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.77,
+   "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547": 0.765,
+   "ad8ab454-b506-46a5-afd3-66bbffd54115": 0.752,
+   "974494ee-5f32-4eec-9950-9d431e902dc1": 0.745,
+   "574f3232-1d07-4034-8cac-c57ddbfff192": 0.74,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.73,
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.725,
+   "364cb5ca-3002-425f-b815-aefa513df78a": 0.72
+  },
+  "employment": 384700,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0099,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0679,
+   "medium": 0.7322,
+   "low": 0.0625,
+   "none": 0.1374
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "podil-jako-dva-stejne-pomery": {
+  "occupationCount": 152,
+  "employmentShare": 0.071,
+  "highExposureShare": 0.0679,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "364cb5ca-3002-425f-b815-aefa513df78a",
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "ad8ab454-b506-46a5-afd3-66bbffd54115",
+   "574f3232-1d07-4034-8cac-c57ddbfff192",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "dbdc9f7b-31c6-4f21-a9c5-48253bb69c08",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30"
+  ],
+  "relevance": {
+   "364cb5ca-3002-425f-b815-aefa513df78a": 0.755,
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.72,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.71,
+   "ad8ab454-b506-46a5-afd3-66bbffd54115": 0.705,
+   "574f3232-1d07-4034-8cac-c57ddbfff192": 0.698,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.635,
+   "dbdc9f7b-31c6-4f21-a9c5-48253bb69c08": 0.627,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.61
+  },
+  "employment": 384700,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0099,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0679,
+   "medium": 0.7322,
+   "low": 0.0625,
+   "none": 0.1374
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "tabulka-a-graf-pomeru-a-procent": {
+  "occupationCount": 81,
+  "employmentShare": 0.0148,
+  "highExposureShare": 0.115,
+  "trendPct": 13.0,
+  "topOccupations": [
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825",
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+   "ff656b3a-65a8-4b4f-b04e-9db12936519b",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "12ff7f9c-c5b5-4d4a-b585-c350dd1400eb"
+  ],
+  "relevance": {
+   "d2e63d7e-2605-4af1-bb7d-b1ed9ad08825": 0.848,
+   "ac8b3cd1-a127-4e6a-8208-5cfcf7111955": 0.828,
+   "ff656b3a-65a8-4b4f-b04e-9db12936519b": 0.82,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.71,
+   "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2": 0.695,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.677,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.667,
+   "12ff7f9c-c5b5-4d4a-b585-c350dd1400eb": 0.667
+  },
+  "employment": 80200,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0092,
+   "3": 0.0048,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.115,
+   "medium": 0.2423,
+   "low": 0.1713,
+   "none": 0.4715
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "zavislosti-v-uloze-s-pomerem": {
+  "occupationCount": 152,
+  "employmentShare": 0.071,
+  "highExposureShare": 0.0679,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "fbceeac6-798b-4307-a825-626707a753ad",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "b9296f1a-a68b-4ac7-9904-f2cf1374fbaf",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6"
+  ],
+  "relevance": {
+   "fbceeac6-798b-4307-a825-626707a753ad": 0.69,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.68,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.67,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.662,
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.652,
+   "b9296f1a-a68b-4ac7-9904-f2cf1374fbaf": 0.63,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.618,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.59
+  },
+  "employment": 384700,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0099,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0679,
+   "medium": 0.7322,
+   "low": 0.0625,
+   "none": 0.1374
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "vyraz-pro-situaci-s-vice-promennymi": {
+  "occupationCount": 80,
+  "employmentShare": 0.0143,
+  "highExposureShare": 0.1193,
+  "trendPct": 14.2,
+  "topOccupations": [
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "1c862e14-80f8-4aa8-8f1c-fd2ca95b63ad",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "12ff7f9c-c5b5-4d4a-b585-c350dd1400eb"
+  ],
+  "relevance": {
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.785,
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.782,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.77,
+   "1c862e14-80f8-4aa8-8f1c-fd2ca95b63ad": 0.72,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.715,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.688,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.672,
+   "12ff7f9c-c5b5-4d4a-b585-c350dd1400eb": 0.662
+  },
+  "employment": 77300,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0087,
+   "3": 0.0048,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1193,
+   "medium": 0.2612,
+   "low": 0.1541,
+   "none": 0.4655
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "algebraicke-dlazdice": {
+  "occupationCount": 6,
+  "employmentShare": 0.0012,
+  "highExposureShare": 0.2278,
+  "trendPct": 23.5,
+  "topOccupations": [
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30"
+  ],
+  "relevance": {
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.26
+  },
+  "employment": 6700,
+  "byMajor": {
+   "2": 0.0012
+  },
+  "exposureMix": {
+   "high": 0.2278,
+   "medium": 0.5001,
+   "low": 0.2721,
+   "none": 0.0
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "scitani-a-odcitani-vyrazu": {
+  "occupationCount": 79,
+  "employmentShare": 0.0141,
+  "highExposureShare": 0.1205,
+  "trendPct": 14.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "72628f3a-fd49-499a-9741-870b0a1fcef2",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "219d1c30-3849-4de3-b0d6-07da187b6521"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.835,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.627,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.615,
+   "72628f3a-fd49-499a-9741-870b0a1fcef2": 0.593,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.52,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.507,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.5,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.482
+  },
+  "employment": 76500,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0086,
+   "3": 0.0048,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1205,
+   "medium": 0.2538,
+   "low": 0.1556,
+   "none": 0.4701
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "nasobeni-mnohoclenu": {
+  "occupationCount": 79,
+  "employmentShare": 0.0141,
+  "highExposureShare": 0.1205,
+  "trendPct": 14.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "72628f3a-fd49-499a-9741-870b0a1fcef2",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "99492920-e5a5-4dba-9e5a-93193147198c"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.777,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.56,
+   "72628f3a-fd49-499a-9741-870b0a1fcef2": 0.557,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.542,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.455,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.45,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.435,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.425
+  },
+  "employment": 76500,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0086,
+   "3": 0.0048,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1205,
+   "medium": 0.2538,
+   "low": 0.1556,
+   "none": 0.4701
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "deleni-mnohoclenu-jednoclenem": {
+  "occupationCount": 79,
+  "employmentShare": 0.0141,
+  "highExposureShare": 0.1205,
+  "trendPct": 14.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "72628f3a-fd49-499a-9741-870b0a1fcef2",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "04849c5c-9236-4a75-aabb-11c6d03e459c",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "99492920-e5a5-4dba-9e5a-93193147198c"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.672,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.435,
+   "72628f3a-fd49-499a-9741-870b0a1fcef2": 0.417,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.365,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.323,
+   "04849c5c-9236-4a75-aabb-11c6d03e459c": 0.315,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.282,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.273
+  },
+  "employment": 76500,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0086,
+   "3": 0.0048,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1205,
+   "medium": 0.2538,
+   "low": 0.1556,
+   "none": 0.4701
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "pravidla-pro-umocnovani": {
+  "occupationCount": 79,
+  "employmentShare": 0.0141,
+  "highExposureShare": 0.1205,
+  "trendPct": 14.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "57a12047-4f1e-40ed-add5-9736923f231b",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "1c5a45b9-440e-4726-b565-16a952abd341",
+   "a9bcc9e0-5be7-47a0-818b-acad10fe90d9"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.787,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.695,
+   "57a12047-4f1e-40ed-add5-9736923f231b": 0.608,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.56,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.535,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.512,
+   "1c5a45b9-440e-4726-b565-16a952abd341": 0.502,
+   "a9bcc9e0-5be7-47a0-818b-acad10fe90d9": 0.48
+  },
+  "employment": 76500,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0086,
+   "3": 0.0048,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1205,
+   "medium": 0.2538,
+   "low": 0.1556,
+   "none": 0.4701
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "vytykani-ve-vyrazech": {
+  "occupationCount": 79,
+  "employmentShare": 0.0141,
+  "highExposureShare": 0.1205,
+  "trendPct": 14.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "72628f3a-fd49-499a-9741-870b0a1fcef2",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "b9296f1a-a68b-4ac7-9904-f2cf1374fbaf"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.805,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.557,
+   "72628f3a-fd49-499a-9741-870b0a1fcef2": 0.55,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.537,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.432,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.407,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.395,
+   "b9296f1a-a68b-4ac7-9904-f2cf1374fbaf": 0.395
+  },
+  "employment": 76500,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0086,
+   "3": 0.0048,
+   "7": 0.0007
+  },
+  "exposureMix": {
+   "high": 0.1205,
+   "medium": 0.2538,
+   "low": 0.1556,
+   "none": 0.4701
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "linearni-rovnice-uvahou-a-upravami": {
+  "occupationCount": 152,
+  "employmentShare": 0.071,
+  "highExposureShare": 0.0679,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "579254cf-6d69-4889-9000-9c79dc568644",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "04849c5c-9236-4a75-aabb-11c6d03e459c",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.833,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.645,
+   "579254cf-6d69-4889-9000-9c79dc568644": 0.578,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.575,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.55,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.53,
+   "04849c5c-9236-4a75-aabb-11c6d03e459c": 0.512,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.507
+  },
+  "employment": 384700,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0099,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0679,
+   "medium": 0.7322,
+   "low": 0.0625,
+   "none": 0.1374
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "soustava-dvou-linearnich-rovnic": {
+  "occupationCount": 152,
+  "employmentShare": 0.071,
+  "highExposureShare": 0.0679,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "579254cf-6d69-4889-9000-9c79dc568644",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "624986f9-21ef-4cdf-8cf6-8407a337ec2f"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.777,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.578,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.552,
+   "579254cf-6d69-4889-9000-9c79dc568644": 0.542,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.532,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.5,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.485,
+   "624986f9-21ef-4cdf-8cf6-8407a337ec2f": 0.477
+  },
+  "employment": 384700,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0099,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0679,
+   "medium": 0.7322,
+   "low": 0.0625,
+   "none": 0.1374
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "rovnice-z-realne-ulohy": {
+  "occupationCount": 153,
+  "employmentShare": 0.0711,
+  "highExposureShare": 0.0677,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "579254cf-6d69-4889-9000-9c79dc568644",
+   "04849c5c-9236-4a75-aabb-11c6d03e459c",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "99492920-e5a5-4dba-9e5a-93193147198c"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.84,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.66,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.62,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.588,
+   "579254cf-6d69-4889-9000-9c79dc568644": 0.557,
+   "04849c5c-9236-4a75-aabb-11c6d03e459c": 0.515,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.505,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.492
+  },
+  "employment": 385400,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.01,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0677,
+   "medium": 0.7328,
+   "low": 0.0624,
+   "none": 0.1371
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "vyznam-reseni-rovnice": {
+  "occupationCount": 210,
+  "employmentShare": 0.0817,
+  "highExposureShare": 0.0675,
+  "trendPct": 2.1,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "2026adb2-62d7-4b92-9ccb-105abdebe37d",
+   "04849c5c-9236-4a75-aabb-11c6d03e459c",
+   "fbceeac6-798b-4307-a825-626707a753ad",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "219d1c30-3849-4de3-b0d6-07da187b6521"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.815,
+   "2026adb2-62d7-4b92-9ccb-105abdebe37d": 0.552,
+   "04849c5c-9236-4a75-aabb-11c6d03e459c": 0.535,
+   "fbceeac6-798b-4307-a825-626707a753ad": 0.53,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.522,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.517,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.505,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.497
+  },
+  "employment": 442700,
+  "byMajor": {
+   "1": 0.0003,
+   "2": 0.0157,
+   "3": 0.0083,
+   "4": 0.0043,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0005,
+   "9": 0.0004
+  },
+  "exposureMix": {
+   "high": 0.0675,
+   "medium": 0.6602,
+   "low": 0.1225,
+   "none": 0.1497
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "graf-linearni-rovnice": {
+  "occupationCount": 161,
+  "employmentShare": 0.0293,
+  "highExposureShare": 0.0979,
+  "trendPct": 12.4,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "a9bcc9e0-5be7-47a0-818b-acad10fe90d9",
+   "579254cf-6d69-4889-9000-9c79dc568644",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "99492920-e5a5-4dba-9e5a-93193147198c"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.75,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.485,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.455,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.435,
+   "a9bcc9e0-5be7-47a0-818b-acad10fe90d9": 0.427,
+   "579254cf-6d69-4889-9000-9c79dc568644": 0.415,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.41,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.395
+  },
+  "employment": 158900,
+  "byMajor": {
+   "1": 0.0004,
+   "2": 0.0169,
+   "3": 0.0079,
+   "4": 0.002,
+   "7": 0.0013,
+   "8": 0.0004,
+   "9": 0.0004
+  },
+  "exposureMix": {
+   "high": 0.0979,
+   "medium": 0.2588,
+   "low": 0.2451,
+   "none": 0.3981
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "graficke-reseni-soustavy": {
+  "occupationCount": 210,
+  "employmentShare": 0.0817,
+  "highExposureShare": 0.0675,
+  "trendPct": 2.1,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "4d34a9ee-2653-4da0-bef7-f59294577224",
+   "ab360abd-32e2-4e03-967d-a10758efffa7",
+   "b31e404e-9af6-457d-a58a-208f612eeba3",
+   "04849c5c-9236-4a75-aabb-11c6d03e459c",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.557,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.328,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.297,
+   "4d34a9ee-2653-4da0-bef7-f59294577224": 0.295,
+   "ab360abd-32e2-4e03-967d-a10758efffa7": 0.285,
+   "b31e404e-9af6-457d-a58a-208f612eeba3": 0.278,
+   "04849c5c-9236-4a75-aabb-11c6d03e459c": 0.278,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.258
+  },
+  "employment": 442700,
+  "byMajor": {
+   "1": 0.0003,
+   "2": 0.0157,
+   "3": 0.0083,
+   "4": 0.0043,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0005,
+   "9": 0.0004
+  },
+  "exposureMix": {
+   "high": 0.0675,
+   "medium": 0.6602,
+   "low": 0.1225,
+   "none": 0.1497
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "linearni-nerovnice-na-ose": {
+  "occupationCount": 152,
+  "employmentShare": 0.071,
+  "highExposureShare": 0.0679,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "579254cf-6d69-4889-9000-9c79dc568644",
+   "fbceeac6-798b-4307-a825-626707a753ad",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "99492920-e5a5-4dba-9e5a-93193147198c"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.693,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.443,
+   "579254cf-6d69-4889-9000-9c79dc568644": 0.38,
+   "fbceeac6-798b-4307-a825-626707a753ad": 0.372,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.365,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.352,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.335,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.32
+  },
+  "employment": 384700,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0099,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0679,
+   "medium": 0.7322,
+   "low": 0.0625,
+   "none": 0.1374
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "slozitejsi-nerovnice": {
+  "occupationCount": 152,
+  "employmentShare": 0.071,
+  "highExposureShare": 0.0679,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b",
+   "fbceeac6-798b-4307-a825-626707a753ad",
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+   "04849c5c-9236-4a75-aabb-11c6d03e459c",
+   "1c5a45b9-440e-4726-b565-16a952abd341"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.735,
+   "dab9c6dd-8efb-4fe2-8b10-477ef2bcfd8b": 0.453,
+   "fbceeac6-798b-4307-a825-626707a753ad": 0.43,
+   "7f2761eb-4edc-48ad-9fbf-eed0a0db9a21": 0.42,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.39,
+   "258e46f9-0075-4a2e-adae-1ff0477e0f30": 0.383,
+   "04849c5c-9236-4a75-aabb-11c6d03e459c": 0.355,
+   "1c5a45b9-440e-4726-b565-16a952abd341": 0.347
+  },
+  "employment": 384700,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.0099,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0679,
+   "medium": 0.7322,
+   "low": 0.0625,
+   "none": 0.1374
+  },
+  "foundationCount": 0,
+  "transferCount": 6
+ },
+ "nerovnice-z-realne-ulohy": {
+  "occupationCount": 153,
+  "employmentShare": 0.0711,
+  "highExposureShare": 0.0677,
+  "trendPct": 1.0,
+  "topOccupations": [
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d",
+   "219d1c30-3849-4de3-b0d6-07da187b6521",
+   "0e99c929-364f-4b0a-8a64-2aab42420f00",
+   "579254cf-6d69-4889-9000-9c79dc568644",
+   "35bc3847-58ad-46f5-8921-e58acc2762a6",
+   "99492920-e5a5-4dba-9e5a-93193147198c",
+   "dbdc9f7b-31c6-4f21-a9c5-48253bb69c08",
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443"
+  ],
+  "relevance": {
+   "f0e1cc13-48e0-4995-8699-ee43467bce0d": 0.71,
+   "219d1c30-3849-4de3-b0d6-07da187b6521": 0.575,
+   "0e99c929-364f-4b0a-8a64-2aab42420f00": 0.487,
+   "579254cf-6d69-4889-9000-9c79dc568644": 0.465,
+   "35bc3847-58ad-46f5-8921-e58acc2762a6": 0.455,
+   "99492920-e5a5-4dba-9e5a-93193147198c": 0.425,
+   "dbdc9f7b-31c6-4f21-a9c5-48253bb69c08": 0.42,
+   "b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443": 0.407
+  },
+  "employment": 385400,
+  "byMajor": {
+   "1": 0.0001,
+   "2": 0.01,
+   "3": 0.0063,
+   "4": 0.0023,
+   "5": 0.0515,
+   "7": 0.0007,
+   "8": 0.0001
+  },
+  "exposureMix": {
+   "high": 0.0677,
+   "medium": 0.7328,
+   "low": 0.0624,
+   "none": 0.1371
+  },
+  "foundationCount": 0,
   "transferCount": 6
  },
  "htd-rytmus-a-rytmicke-hry": {

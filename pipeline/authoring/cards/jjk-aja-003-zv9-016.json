@@ -1,0 +1,160 @@
+{
+  "outcome": "JJK-AJA-003-ZV9-016",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicky-email-dopis-se-strukturou",
+      "title": "Anglický e-mail nebo dopis se zdvořilým rámcem",
+      "aliases": [
+        "e-mail v angličtině",
+        "dopis v angličtině",
+        "formal letter",
+        "psaní e-mailu",
+        "Dear a Best wishes"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Napíše jednoduchý text, například dopis nebo e-mail s odpovídající strukturou, ve kterém sdělí základní informace nebo požadavek."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Srozumitelně a přehledně formuluje text svého sdělení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak e-mail začít a skončit, a ukáže chyby v tvém textu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzorové e-maily a seznamy frází ukážou, jak se píše oslovení a rozloučení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu najde překlepy a slovník poradí s výrazem."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník a tištěná příručka s frázemi ti pomohou najít správné slovo."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Writting an email",
+        "Let's answer the letter!"
+      ]
+    },
+    {
+      "slug": "anglicke-otazky-pokyny-informace-v-psane-zprave",
+      "title": "Otázky, pokyny a informace v psané zprávě",
+      "aliases": [
+        "ptát se anglicky písemně",
+        "pokyny v angličtině",
+        "požádat o informace",
+        "napsat otázku anglicky",
+        "please send me"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Pokládá otázky, dává pokyny či poskytuje informace."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, jak se zdvořile ptát a žádat, a opraví tvou větu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Seznam frází pro prosby a otázky ti poslouží jako vzor."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač a kontrola pravopisu ověří slovo i větu, kterou napíšeš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník pomůže najít slovo, které potřebuješ."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ]
+    },
+    {
+      "slug": "anglicke-zprostredkovani-psaneho-textu",
+      "title": "Převyprávění anglického textu česky",
+      "aliases": [
+        "přeložit text",
+        "říct česky o čem je text",
+        "shrnutí anglického textu",
+        "porozumění textu",
+        "mediation"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Zprostředkuje základní téma jednoduchého psaného textu, který se týká osvojovaných témat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí neznámá slova a zeptá se, jak tvé shrnutí zní."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetový slovník dohledá slovo, které neznáš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač ukáže, co slova znamenají, a ty z nich složíš hlavní myšlenku."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový slovník pomůže s neznámým slovem."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Napíše vzkaz nebo krátkou zprávu",
+      "code": "O1",
+      "refs": [
+        "anglicky-vzkaz-prani-psana-zprava"
+      ]
+    }
+  ]
+}

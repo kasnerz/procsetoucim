@@ -1,0 +1,79 @@
+{
+  "outcome": "CZB-TEV-002-ZV9-011",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "rozhovor-o-sportovnim-deni",
+      "title": "Rozhovor o aktuálním sportovním dění",
+      "aliases": ["bavit se o sportu", "sportovní novinky", "diskuze o sportu", "co se děje ve sportu", "sport ve škole a ve světě"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Diskutuje o aktuálním sportovní dění ve škole, v obci, regionu, ČR, ve světě."},
+        {"level": "Minimální doporučená úroveň", "quote": "Diskutuje o aktuálním sportovní dění ve škole, v obci, regionu, ČR, ve světě."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Diskutuješ se spolužáky ty, chatbot za tebe názor nemá."},
+        "internet": {"verdict": "pomuze", "why": "Ve zprávách a na webech klubů najdeš, o čem se ve sportu mluví."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace s výsledky ti nabídne čísla, rozhovor ale vedeš ty."},
+        "klasicky": {"verdict": "nepomuze", "why": "K rozhovoru nepotřebuješ žádný nástroj, jen spolužáky a vlastní názor."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/7f6f3d05-7b6f-4622-9082-6c355edfcb7e"],
+      "inspiration": ["Sportovní dění - diskuze"]
+    },
+    {
+      "slug": "hledani-informaci-o-sportovnim-deni",
+      "title": "Hledání informací o sportovním dění",
+      "aliases": ["sportovní zprávy", "kde najít výsledky", "sport v okolí", "sportovní akce", "výsledky zápasů"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Vyhledá informace o aktuálním sportovním dění ve škole, v obci, regionu, ČR, ve světě."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Aktuální výsledky a školní akce chatbot nezná, mohl by si je vymyslet."},
+        "internet": {"verdict": "pomuze", "why": "Zpravodajské weby, stránky klubů a obce ukazují, co se právě děje."},
+        "aplikace": {"verdict": "pomuze", "why": "Sportovní aplikace ukazují živé výsledky a rozpisy zápasů."},
+        "klasicky": {"verdict": "pomuze", "why": "Školní nástěnka, noviny a plakáty hlásí akce ve škole a v obci."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/7f6f3d05-7b6f-4622-9082-6c355edfcb7e"],
+      "inspiration": ["Sportovní dění - vyhledávání", "Sport v našem okolí"]
+    },
+    {
+      "slug": "uspechy-sportovcu-ze-zvoleneho-zdroje",
+      "title": "Úspěchy sportovců za vybrané období",
+      "aliases": ["úspěchy sportovců", "výsledky sportovce", "olympiáda", "mistrovství", "rekordy"],
+      "sources": [
+        {"level": "Splněno", "quote": "Vybere ze samostatně zvoleného zdroje informace o úspěších místních, českých, světových sportovců za vybrané období v daném sportu."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "nepomuze", "why": "Úspěchy za konkrétní období by chatbot mohl zkomolit, zdroj vybíráš a ověřuješ ty."},
+        "internet": {"verdict": "pomuze", "why": "Výsledkové listiny, Wikipedie a weby svazů mají úspěchy sportovců po letech."},
+        "aplikace": {"verdict": "pomuze", "why": "Sportovní aplikace mají historii výsledků a tabulky podle sezón."},
+        "klasicky": {"verdict": "pomuze", "why": "Ročenky, noviny a kroniky klubu uvádějí úspěchy místních sportovců."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/7f6f3d05-7b6f-4622-9082-6c355edfcb7e"],
+      "inspiration": ["Sportovní událost"]
+    },
+    {
+      "slug": "predstaveni-sportovniho-deni",
+      "title": "Představení sportovního dění ostatním",
+      "aliases": ["prezentace o sportu", "referát o sportu", "vyprávět o zápase", "sportovní nástěnka", "reflexe sportovní události"],
+      "sources": [
+        {"level": "Splněno", "quote": "Prezentuje informace o aktuálním sportovním dění ve škole, v obci, regionu, ČR, ve světě."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Navrhne osnovu vystoupení a doptá se na místa, která ve vystoupení chybí."},
+        "internet": {"verdict": "pomuze", "why": "Fotky, tabulky a zprávy dodají materiál, který ukážeš ostatním."},
+        "aplikace": {"verdict": "pomuze", "why": "Prezentační program a editor ti pomůžou sestavit nástěnku nebo snímky."},
+        "klasicky": {"verdict": "pomuze", "why": "Plakát, fixy a tabule stačí na ukázku před třídou."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/7f6f3d05-7b6f-4622-9082-6c355edfcb7e", "http://data.europa.eu/esco/skill/1ba59ce0-7fec-434b-8d5c-9b275250a26c"],
+      "inspiration": ["Sportovní dění - reflexe"]
+    }
+  ],
+  "aside": []
+}

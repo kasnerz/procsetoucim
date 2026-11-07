@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Úlohy ze života přicházejí jako příběh, třeba kolik metrů pletiva koupit na plot nebo za jak dlouho se potkají dvě auta. Nejtěžší krok je převést text do rovnice, tedy zvolit neznámou a zapsat, co o ní víš. Kdo odhaduje náklady výroby nebo navrhuje stroje, dělá přesně tohle a samotné počítání pak často nechá na počítači. Chatbot ti s přepisem pomůže, u vlastního rozpočtu nebo zakázky ti ale nikdo nenapíše zadání tak úhledně jako v učebnici.",
+  "learnWithAi": [
+    {
+      "title": "Neznámá ze zadání",
+      "text": "Požádej o tři slovní úlohy a u každé nejdřív jen napiš, co označíš jako x. Chatbot ať tvou volbu zkontroluje, a teprve pak sestav a vyřeš rovnici."
+    },
+    {
+      "title": "Úloha s údajem navíc",
+      "text": "Chtěj po chatbotovi slovní úlohu, ve které je jeden údaj zbytečný. Najdi ho, sestav rovnici bez něj a výsledek ověř dosazením do textu úlohy."
+    },
+    {
+      "title": "Příběh z vlastního dne",
+      "text": "Vymysli slovní úlohu ze svého dne, třeba z nákupu nebo tréninku, a napiš ji chatbotovi i s rovnicí. Ať posoudí, jestli rovnice opravdu odpovídá příběhu."
+    }
+  ]
+}

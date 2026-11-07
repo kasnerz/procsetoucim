@@ -1,0 +1,289 @@
+[
+  {
+    "slug": "rict-ne-nevhodnemu-dotykani",
+    "title": "Říct „ne“ při nevhodném dotýkání",
+    "aliases": [
+      "říct ne",
+      "cizí doteky",
+      "osobní prostor",
+      "nevhodné doteky",
+      "umím říct dost"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-030",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Řekne „ne“ v situacích, které to vyžadují (při nevhodném dotýkání).",
+        "quote": "Řekne „ne“ v situacích, které to vyžadují (při nevhodném dotýkání)."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Reaguje vhodně v modelových situacích na neadekvátní chování se sexuálním podtextem, aktivně se proti takovým způsobům chování vymezuje.",
+        "quote": "Reaguje vhodně v modelových situacích na neadekvátní chování se sexuálním podtextem, aktivně se proti takovým způsobům chování vymezuje."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jasné a rozhodné \"ne\"",
+        "url": ""
+      },
+      {
+        "title": "Cizí doteky",
+        "url": "https://uloziste.rvp.cz/material/d15608"
+      },
+      {
+        "title": "Umím říct dost!",
+        "url": "https://uloziste.rvp.cz/material/7c1c4b"
+      },
+      {
+        "title": "Můj osobní prostor – nevstupovat, prosím",
+        "url": "https://uloziste.rvp.cz/material/ce4519"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "„Ne“ říkáš nahlas ty, chatbot ti ho v dané chvíli neřekne."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky pro děti vysvětlí, co je osobní prostor a kdy doteky nejsou v pořádku."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti odmítnutí nenacvičí, rozhoduje se na místě mezi lidmi."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odmítnout dokážeš jen ty před druhým člověkem, žádná pomůcka to nezastoupí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "konflikty-dohodou-bez-nasili",
+    "title": "Řešení sporů dohodou bez násilí",
+    "aliases": [
+      "hádka",
+      "spor se spolužákem",
+      "dohoda",
+      "ponižování",
+      "šikana"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-030",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Řeší konflikty s vrstevníky dohodou, odmítá násilí, ponižování.",
+        "quote": "Řeší konflikty s vrstevníky dohodou, odmítá násilí, ponižování."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak spor popsat klidně, a navrhne věty, kterými začít dohodu."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš popsané postupy, jak se po hádce dohodnout, a příklady z jiných tříd."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Domluvit se se spolužákem musíš ty, aplikace za tebe hádku nevyřeší."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Spor se řeší mluvením a poslechem, žádná pomůcka v tom nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "respektujici-navazovani-vztahu",
+    "title": "Respektující chování při navazování vztahů",
+    "aliases": [
+      "kamarádství",
+      "chodit spolu",
+      "souhlas",
+      "bezpečný vztah",
+      "respekt ve vztahu"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-030",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozhodne na modelových příkladech, které chování ve vztahu lze považovat za respektující a bezpečné a proti kterým způsobům chování je třeba se vymezit.",
+        "quote": "Rozhodne na modelových příkladech, které chování ve vztahu lze považovat za respektující a bezpečné a proti kterým způsobům chování je třeba se vymezit."
+      },
+      {
+        "level": "Splněno",
+        "point": "Uplatňuje v modelových situacích respektující chování při navazování vrstevnických vztahů.",
+        "quote": "Uplatňuje v modelových situacích respektující chování při navazování vrstevnických vztahů."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Probere s tebou příklady a vysvětlí, proč je které chování v pořádku, nebo ne."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky pro mladé uvádějí znaky respektujícího vztahu a ukázkové situace."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Respekt k druhému ukazuješ svým chováním, aplikace ho za tebe nepředvede."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Jak se k druhým chováš, nezměníš žádnou pomůckou, jen svým jednáním."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/60b2dd49-c677-4f47-816e-aff3b577e113",
+      "http://data.europa.eu/esco/skill/d80ec9e6-7e81-4615-88e9-979b072e8864"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rozpoznani-nasili-ve-vztahu",
+    "title": "Rozpoznání partnerského a sexuálního násilí",
+    "aliases": [
+      "násilí ve vztahu",
+      "sexuální zneužívání",
+      "genderové násilí",
+      "znaky násilí",
+      "ubližování"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-030",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Rozpozná na modelových příkladech projevy partnerského, sexuálního a/nebo genderově podmíněného násilí.",
+        "quote": "Rozpozná na modelových příkladech projevy partnerského, sexuálního a/nebo genderově podmíněného násilí."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak násilí ve vztahu vypadá, a projde s tebou modelové situace."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Poradenské stránky popisují znaky násilí a uvádějí příklady."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Posoudit konkrétní situaci umíš jen ty, aplikace ji nevidí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Násilí nepoznáš pomůckou, poznáš ho z toho, co se děje mezi lidmi."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/497ac2d8-6a9c-45d1-8149-e7aa2d9e2cff",
+      "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "neprijatelne-chovani-a-pomoc",
+    "title": "Chování, které nelze tolerovat, a jak zareagovat",
+    "aliases": [
+      "nevhodné chování",
+      "kdy zasáhnout",
+      "požádat o pomoc",
+      "odmítnout chování",
+      "ohrožení druhých"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-030",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozpozná v modelových situacích způsoby chování, které už nelze tolerovat a navrhuje postupy vhodné reakce (požádání o pomoc důvěryhodnou osobu či instituci).",
+        "quote": "Rozpozná v modelových situacích způsoby chování, které už nelze tolerovat a navrhuje postupy vhodné reakce (požádání o pomoc důvěryhodnou osobu či instituci)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Identifikuje v modelových situacích chování osob, kterým ohrožují bezpečí druhých, a zdůvodní právo takové chování odmítnout.",
+        "quote": "Identifikuje v modelových situacích chování osob, kterým ohrožují bezpečí druhých, a zdůvodní právo takové chování odmítnout."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Projde s tebou modelové situace a vysvětlí, proč máš právo chování odmítnout."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš kontakty linek a organizací, které pomáhají dětem."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Reagovat a říct to dospělému musíš ty, aplikace to za tebe neudělá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Odmítnutí i žádost o pomoc jsou slova, která říkáš ty, ne pomůcka."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3dbf27e5-bb92-4b31-b242-d6b02d933184"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

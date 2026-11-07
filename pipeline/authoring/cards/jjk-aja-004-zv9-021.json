@@ -1,0 +1,73 @@
+{
+  "outcome": "JJK-AJA-004-ZV9-021",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "shrnuti-anglickeho-textu-cesky",
+      "title": "Shrnutí anglického textu česky",
+      "aliases": ["shrnout anglický text", "převyprávění z angličtiny", "o čem to bylo", "mediace do češtiny", "videorecept česky"],
+      "sources": [
+        {"level": "Na začátku", "quote": "Shrne klíčové informace z mluveného a psaného textu psaného v cílovém jazyce svými slovy v češtině či v OMJ."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ukáže ti, co je v textu hlavní, a můžeš s ním porovnat své shrnutí."},
+        "internet": {"verdict": "pomuze", "why": "Slovníky a ukázky shrnutí ti pomůžou s neznámými slovy i stavbou shrnutí."},
+        "aplikace": {"verdict": "pomuze", "why": "Překladač ti ukáže význam slov, které v textu nechápeš."},
+        "klasicky": {"verdict": "pomuze", "why": "Tištěný slovník vysvětlí neznámá slova a tužkou si podtrhneš hlavní věci."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/449f0945-4943-49f9-bd98-edfdfd7c00ba"
+      ],
+      "inspiration": ["Návštěva muzea v Londýně", "Regionální muzeum - zprostředkování informací"]
+    },
+    {
+      "slug": "shrnuti-ceskeho-textu-anglicky",
+      "title": "Shrnutí českého textu anglicky",
+      "aliases": ["shrnout český text anglicky", "vysvětlit cizinci", "převyprávění do angličtiny", "mediace do angličtiny", "prohlídka města pro cizince"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Shrne v cílovém jazyce klíčové informace z mluveného a psaného textu, který byl produkován v češtině nebo v OMJ."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Opraví tvé anglické shrnutí a ukáže, jak totéž říct jinými slovy."},
+        "internet": {"verdict": "pomuze", "why": "Online slovníky a příručky ti dají správná anglická slova a fráze."},
+        "aplikace": {"verdict": "pomuze", "why": "Slovníček a kontrola pravopisu ti ukážou chyby v tvém anglickém textu."},
+        "klasicky": {"verdict": "pomuze", "why": "Slovník ti dá přesné anglické slovo, které hledáš."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/449f0945-4943-49f9-bd98-edfdfd7c00ba"
+      ],
+      "inspiration": ["Prohlídka města pro cizince", "Regionální muzeum - zprostředkování informací"]
+    },
+    {
+      "slug": "hlavni-myslenka-vlastnimi-slovy",
+      "title": "Hlavní myšlenka textu vlastními slovy",
+      "aliases": ["parafráze", "říct jinými slovy", "shrnutí textu", "hlavní myšlenka", "rozhovor nebo prezentace"],
+      "sources": [
+        {"level": "Splněno", "quote": "Shrne vlastními slovy hlavní myšlenku či myšlenky mluveného a psaného textu pomocí vlastních slov či parafrázováním originálního textu."}
+      ],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ukáže jiné způsoby, jak větu přeformulovat, a porovná je s tvým shrnutím."},
+        "internet": {"verdict": "pomuze", "why": "Slovníky synonym a ukázky parafrází ti dají jiná slova pro stejnou věc."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace přeloží slova, ale hlavní myšlenku z textu vybíráš ty."},
+        "klasicky": {"verdict": "pomuze", "why": "Slovník synonym ti nabídne jiná slova, než jsou v původním textu."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/6e47b77e-5707-4f87-914a-34251fda4926"
+      ],
+      "inspiration": ["Návštěva muzea v Londýně"]
+    }
+  ],
+  "aside": []
+}

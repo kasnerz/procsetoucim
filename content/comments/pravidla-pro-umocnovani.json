@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Pravidla pro mocniny šetří spoustu psaní: místo dlouhého násobení stejných čísel napíšeš mocninu a při násobení mocnin se stejným základem jen sečteš exponenty. Mocniny se objeví všude, kde jsou čísla obrovská nebo maličká, třeba u vzdáleností hvězd, velikosti bakterií nebo paměti počítače. V astronomii, fyzice nebo při zpracování obrazu v počítači se s nimi počítá denně. Kalkulačka hodnotu mocniny spočítá, výraz s písmeny ale bez pravidel nezjednoduší, a právě s písmeny se ve vzorcích pracuje.",
+  "learnWithAi": [
+    {
+      "title": "Pravidla odvozená z násobení",
+      "text": "Zeptej se chatbota, proč platí a² · a³ = a⁵, a chtěj vysvětlení rozepsáním na jednotlivá a. Stejným způsobem si odvoď pravidlo pro dělení mocnin."
+    },
+    {
+      "title": "Kvíz ze zjednodušování",
+      "text": "Nech se vyzkoušet z deseti výrazů, od a³ · a² po výrazy se závorkami a zlomky. Odpovídej bez kalkulačky a chybné odpovědi si nech vysvětlit."
+    },
+    {
+      "title": "Velká čísla z vesmíru",
+      "text": "Požádej o vzdálenosti několika planet zapsané pomocí mocnin deseti a porovnej je mezi sebou podle pravidel. Hodnoty si ověř v encyklopedii, chatbot se v číslech může splést."
+    }
+  ]
+}

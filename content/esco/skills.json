@@ -1638,6 +1638,19 @@
   "narrowerCount": 2,
   "optionalFor": 15
  },
+ "http://data.europa.eu/esco/skill/0af93aed-bb3e-4ce7-ad77-a41139c7e7c5": {
+  "uri": "http://data.europa.eu/esco/skill/0af93aed-bb3e-4ce7-ad77-a41139c7e7c5",
+  "label": "přesvědčovací metody",
+  "description": "Různé metody, které se používají při navazování kontaktů s cílovou skupinou nebo s jednotlivci za účelem získání podpory pro danou věc, jako je aktivní přesvědčování (chození od dveří ke dveřím), přesvědčování uchazečů (chození od dveří ke dveřím nebo vystupování na veřejnosti s přítomným zástupcem pro danou věc), telefonické přesvědčování, přesvědčování kolemjdoucích na ulici a jiné přesvědčovací metody.",
+  "essentialFor": [
+   "13427968-250b-4967-a682-afac5cd0af4f"
+  ],
+  "essentialForDirect": [
+   "13427968-250b-4967-a682-afac5cd0af4f"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 0
+ },
  "http://data.europa.eu/esco/skill/0b449eb1-d082-4e62-95d7-5cf59bdf2097": {
   "uri": "http://data.europa.eu/esco/skill/0b449eb1-d082-4e62-95d7-5cf59bdf2097",
   "label": "používat moderní elektronické navigační pomůcky",
@@ -1976,6 +1989,121 @@
   ],
   "narrowerCount": 3,
   "optionalFor": 5
+ },
+ "http://data.europa.eu/esco/skill/0cb013af-6dd9-4fb2-b34e-63dda1a5cf82": {
+  "uri": "http://data.europa.eu/esco/skill/0cb013af-6dd9-4fb2-b34e-63dda1a5cf82",
+  "label": "obsluhovat registrační pokladnu",
+  "description": "Registrovat a provádět hotovostní transakce s využitím pokladny.",
+  "essentialFor": [
+   "03b9d7c4-9590-4e0d-97a7-470254e165d4",
+   "062d666b-8b5f-4ff2-9047-113831eb3e9f",
+   "0b15375e-dfdd-4047-9efb-096e0aaee7d2",
+   "0d9eed6b-4908-4112-bf37-ae08e2f0f326",
+   "11103139-4555-4696-b331-1ee581ff9a38",
+   "1246764a-ce7c-45e8-9675-e445d145e818",
+   "13da27aa-ca6a-476d-ab2c-efc9e5bd97b2",
+   "268565be-d94f-4983-a33f-2b7dabc61f24",
+   "2b871272-bd61-4206-bd1a-0b96d7023098",
+   "2e9c9404-0d86-453c-9001-3a0cd1d1323b",
+   "399afb40-d58b-4f4a-aa52-a0378fccaf65",
+   "3a17bd32-8a00-47cb-82aa-2b5660cf1192",
+   "3f32394b-f1b1-48ef-96ee-74405fb7c6b6",
+   "3ff2fdf4-af54-4517-873d-73e9353f112e",
+   "41beead9-98ad-4c89-b6e0-a14149f4eeab",
+   "4ae3ad16-2d33-406c-8497-c66f7d61b914",
+   "4b1b1c9c-579c-45c8-8a34-db39f544c031",
+   "4dc6e03f-bfb0-4078-a453-01bd1cb735aa",
+   "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547",
+   "528f90ed-e250-48bd-aacc-ffb7b1de5654",
+   "547b304b-9a72-4717-9b24-b7046df5f64e",
+   "56a535ff-189b-45da-97d4-775f78744f83",
+   "612430b3-dd43-4786-b823-0466c4953f66",
+   "63d99701-1a6c-4c57-87c8-4b0d5c0b4408",
+   "6a163fef-dee8-4583-82b0-13b76d8a27b2",
+   "6a6e174e-cffa-49a9-9f2f-aa39c81cdee5",
+   "6e0e068b-cd5c-4400-8899-54056087fa14",
+   "71bac871-7594-4d86-a19f-592079bd8154",
+   "72149e37-f4f4-4570-8c17-27444160aa16",
+   "773753ad-c4f7-4052-b3b4-440435199d6b",
+   "7b74626d-b487-48a1-9e80-47faf9928210",
+   "80fe3002-3ae4-4d3b-8969-0f2ce1049d7d",
+   "8269720b-49c7-4185-ad7e-05d8d31ac041",
+   "8712c91f-defb-4483-9e99-d9f896664a11",
+   "8f8455a9-d2ac-4f1c-ac83-4f4aa82b1eb7",
+   "961cbd1f-2a9b-4756-b227-67a1c23c94b6",
+   "974494ee-5f32-4eec-9950-9d431e902dc1",
+   "9ba74e8a-c40c-4228-9998-eb3c7a5c11df",
+   "a10222e7-1940-4ca3-86c1-99b115535969",
+   "aa9c6416-6a17-4e2f-a7c4-6d47c205d480",
+   "b674a89a-4439-4ad5-822d-518036415503",
+   "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81",
+   "c0768628-46ad-4077-aee0-66ab6d7711df",
+   "c76dda38-938c-404e-8a6d-78c8705eebc0",
+   "c822ca35-6c36-4eab-97fa-90f2775091c3",
+   "ccf0becd-247d-4497-9ee7-25a46c1ffb7a",
+   "d9fb82d0-9b07-4c38-b8e2-d146ff8850b9",
+   "e02d7c8a-1e38-4a67-a6e1-f580e550238f",
+   "e11e5be4-49e7-48ac-8e0d-6d3ffd3dbcd0",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "f4b4fb1d-0224-4e6b-b7c9-84bcf133be00",
+   "f8304b4c-1220-4979-b2dd-47d2a2f0734a"
+  ],
+  "essentialForDirect": [
+   "03b9d7c4-9590-4e0d-97a7-470254e165d4",
+   "062d666b-8b5f-4ff2-9047-113831eb3e9f",
+   "0b15375e-dfdd-4047-9efb-096e0aaee7d2",
+   "0d9eed6b-4908-4112-bf37-ae08e2f0f326",
+   "11103139-4555-4696-b331-1ee581ff9a38",
+   "1246764a-ce7c-45e8-9675-e445d145e818",
+   "13da27aa-ca6a-476d-ab2c-efc9e5bd97b2",
+   "268565be-d94f-4983-a33f-2b7dabc61f24",
+   "2b871272-bd61-4206-bd1a-0b96d7023098",
+   "2e9c9404-0d86-453c-9001-3a0cd1d1323b",
+   "399afb40-d58b-4f4a-aa52-a0378fccaf65",
+   "3a17bd32-8a00-47cb-82aa-2b5660cf1192",
+   "3f32394b-f1b1-48ef-96ee-74405fb7c6b6",
+   "3ff2fdf4-af54-4517-873d-73e9353f112e",
+   "41beead9-98ad-4c89-b6e0-a14149f4eeab",
+   "4ae3ad16-2d33-406c-8497-c66f7d61b914",
+   "4b1b1c9c-579c-45c8-8a34-db39f544c031",
+   "4dc6e03f-bfb0-4078-a453-01bd1cb735aa",
+   "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547",
+   "528f90ed-e250-48bd-aacc-ffb7b1de5654",
+   "547b304b-9a72-4717-9b24-b7046df5f64e",
+   "56a535ff-189b-45da-97d4-775f78744f83",
+   "612430b3-dd43-4786-b823-0466c4953f66",
+   "63d99701-1a6c-4c57-87c8-4b0d5c0b4408",
+   "6a163fef-dee8-4583-82b0-13b76d8a27b2",
+   "6a6e174e-cffa-49a9-9f2f-aa39c81cdee5",
+   "6e0e068b-cd5c-4400-8899-54056087fa14",
+   "71bac871-7594-4d86-a19f-592079bd8154",
+   "72149e37-f4f4-4570-8c17-27444160aa16",
+   "773753ad-c4f7-4052-b3b4-440435199d6b",
+   "7b74626d-b487-48a1-9e80-47faf9928210",
+   "80fe3002-3ae4-4d3b-8969-0f2ce1049d7d",
+   "8269720b-49c7-4185-ad7e-05d8d31ac041",
+   "8712c91f-defb-4483-9e99-d9f896664a11",
+   "8f8455a9-d2ac-4f1c-ac83-4f4aa82b1eb7",
+   "961cbd1f-2a9b-4756-b227-67a1c23c94b6",
+   "974494ee-5f32-4eec-9950-9d431e902dc1",
+   "9ba74e8a-c40c-4228-9998-eb3c7a5c11df",
+   "a10222e7-1940-4ca3-86c1-99b115535969",
+   "aa9c6416-6a17-4e2f-a7c4-6d47c205d480",
+   "b674a89a-4439-4ad5-822d-518036415503",
+   "b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81",
+   "c0768628-46ad-4077-aee0-66ab6d7711df",
+   "c76dda38-938c-404e-8a6d-78c8705eebc0",
+   "c822ca35-6c36-4eab-97fa-90f2775091c3",
+   "ccf0becd-247d-4497-9ee7-25a46c1ffb7a",
+   "d9fb82d0-9b07-4c38-b8e2-d146ff8850b9",
+   "e02d7c8a-1e38-4a67-a6e1-f580e550238f",
+   "e11e5be4-49e7-48ac-8e0d-6d3ffd3dbcd0",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "f4b4fb1d-0224-4e6b-b7c9-84bcf133be00",
+   "f8304b4c-1220-4979-b2dd-47d2a2f0734a"
+  ],
+  "narrowerCount": 1,
+  "optionalFor": 9
  },
  "http://data.europa.eu/esco/skill/0cd8732f-e69c-4644-be07-e8bf5edc01af": {
   "uri": "http://data.europa.eu/esco/skill/0cd8732f-e69c-4644-be07-e8bf5edc01af",
@@ -2400,6 +2528,43 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 41
+ },
+ "http://data.europa.eu/esco/skill/0f298334-ae4a-4ab7-96c2-0d90d2883768": {
+  "uri": "http://data.europa.eu/esco/skill/0f298334-ae4a-4ab7-96c2-0d90d2883768",
+  "label": "pomáhat osobám se zdravotním postižením při komunitních aktivitách",
+  "description": "Usnadnit začleňování zdravotně postižených osob do komunity a podpořit je při vytváření a udržování vztahů prostřednictvím přístupu ke komunitní činnosti, místům a službám.",
+  "essentialFor": [
+   "1f5932eb-b36d-44e1-a063-7aa9e228af51",
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409",
+   "3f74aad8-2d60-4be2-b059-8dba5568d530",
+   "4c89c65c-4e35-44e3-8fa0-5d73e9e15325",
+   "4d7d2628-1405-4ff2-b5b5-bd0d57ed9bbd",
+   "4edbde9f-218e-49c7-812f-c45262fb4128",
+   "50743f62-3d5b-4ef6-b706-00d2b1adfcc3",
+   "5a9acd29-666c-4ca1-b10e-e086584a526b",
+   "6667bf29-a3e3-4513-a71b-82c67206045b",
+   "78f474ae-c154-4206-ad0f-d8a00e9c541e",
+   "8d703e8f-1e57-4246-8a6b-cb87a760d4ab",
+   "c6239b9e-5973-4b0a-a2ed-4c4b41331e04",
+   "f4525ed8-54eb-4a3b-90db-55cc01b0d9fd"
+  ],
+  "essentialForDirect": [
+   "1f5932eb-b36d-44e1-a063-7aa9e228af51",
+   "2ae76ccc-f02e-4eb6-b693-fff70ba8f409",
+   "3f74aad8-2d60-4be2-b059-8dba5568d530",
+   "4c89c65c-4e35-44e3-8fa0-5d73e9e15325",
+   "4d7d2628-1405-4ff2-b5b5-bd0d57ed9bbd",
+   "4edbde9f-218e-49c7-812f-c45262fb4128",
+   "50743f62-3d5b-4ef6-b706-00d2b1adfcc3",
+   "5a9acd29-666c-4ca1-b10e-e086584a526b",
+   "6667bf29-a3e3-4513-a71b-82c67206045b",
+   "78f474ae-c154-4206-ad0f-d8a00e9c541e",
+   "8d703e8f-1e57-4246-8a6b-cb87a760d4ab",
+   "c6239b9e-5973-4b0a-a2ed-4c4b41331e04",
+   "f4525ed8-54eb-4a3b-90db-55cc01b0d9fd"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 4
  },
  "http://data.europa.eu/esco/skill/0ffed47f-d320-48cf-988d-40449825085c": {
   "uri": "http://data.europa.eu/esco/skill/0ffed47f-d320-48cf-988d-40449825085c",
@@ -6383,6 +6548,21 @@
   "narrowerCount": 0,
   "optionalFor": 14
  },
+ "http://data.europa.eu/esco/skill/253112b8-f613-4e1d-a691-d80ca258e21a": {
+  "uri": "http://data.europa.eu/esco/skill/253112b8-f613-4e1d-a691-d80ca258e21a",
+  "label": "mediální studia",
+  "description": "Akademický obor, který se zabývá historií, obsahem a vlivem různých sdělovacích prostředků se zvláštním zaměřením na masovou komunikaci.",
+  "essentialFor": [
+   "19db5ad1-ffbf-41a0-8746-d3878f0d5dbd",
+   "6cd08cbe-7611-4d70-8886-6c59c0385442"
+  ],
+  "essentialForDirect": [
+   "19db5ad1-ffbf-41a0-8746-d3878f0d5dbd",
+   "6cd08cbe-7611-4d70-8886-6c59c0385442"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 4
+ },
  "http://data.europa.eu/esco/skill/26071360-b2b1-4089-9c73-b51792b29ed5": {
   "uri": "http://data.europa.eu/esco/skill/26071360-b2b1-4089-9c73-b51792b29ed5",
   "label": "provádět montáž kovových částí",
@@ -8039,6 +8219,25 @@
   "narrowerCount": 2,
   "optionalFor": 16
  },
+ "http://data.europa.eu/esco/skill/2ca4c857-1450-4004-9fdb-8500def6b8fa": {
+  "uri": "http://data.europa.eu/esco/skill/2ca4c857-1450-4004-9fdb-8500def6b8fa",
+  "label": "vojenská logistika",
+  "description": "Operace dodávky a poptávky zboží, materiálu a zdrojů na vojenských základnách a během vojenských operací v terénu, přerušení nepřátelských dodávek, analýza nákladů, požadavky na zařízení a další vojenské logistické činnosti.",
+  "essentialFor": [
+   "8b26eec6-7497-4218-8364-9b5983b04ae7",
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497",
+   "bbd1fe06-1b55-4937-9317-fc162311ab38",
+   "c6e5e0e7-fa99-4f71-9fc1-9889d85282a5"
+  ],
+  "essentialForDirect": [
+   "8b26eec6-7497-4218-8364-9b5983b04ae7",
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497",
+   "bbd1fe06-1b55-4937-9317-fc162311ab38",
+   "c6e5e0e7-fa99-4f71-9fc1-9889d85282a5"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 4
+ },
  "http://data.europa.eu/esco/skill/2d667669-e738-41d2-8b6d-ff53fa952564": {
   "uri": "http://data.europa.eu/esco/skill/2d667669-e738-41d2-8b6d-ff53fa952564",
   "label": "zapojovat dobrovolníky",
@@ -9312,6 +9511,25 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 4
+ },
+ "http://data.europa.eu/esco/skill/3497ebe1-d417-4105-a68f-f7bbcac7ee5f": {
+  "uri": "http://data.europa.eu/esco/skill/3497ebe1-d417-4105-a68f-f7bbcac7ee5f",
+  "label": "hardwarové specifikace IKT",
+  "description": "Vlastnosti, použití a provoz různých hardwarových produktů, jako jsou tiskárny, obrazovky a notebooky.",
+  "essentialFor": [
+   "0d595b87-a1fc-410c-abbe-88b92cb0d334",
+   "4588cd69-e6a5-4668-94c7-f02a3d86a649",
+   "a79170ad-0b7b-4697-864f-1748359aa10a",
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972"
+  ],
+  "essentialForDirect": [
+   "0d595b87-a1fc-410c-abbe-88b92cb0d334",
+   "4588cd69-e6a5-4668-94c7-f02a3d86a649",
+   "a79170ad-0b7b-4697-864f-1748359aa10a",
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 2
  },
  "http://data.europa.eu/esco/skill/351cd749-498c-4ed3-9e38-58fc9bbf8f0e": {
   "uri": "http://data.europa.eu/esco/skill/351cd749-498c-4ed3-9e38-58fc9bbf8f0e",
@@ -13712,6 +13930,21 @@
   "narrowerCount": 0,
   "optionalFor": 13
  },
+ "http://data.europa.eu/esco/skill/545c80e8-7ab2-42fe-af64-242211e94709": {
+  "uri": "http://data.europa.eu/esco/skill/545c80e8-7ab2-42fe-af64-242211e94709",
+  "label": "analyzovat konfiguraci a výkon sítí",
+  "description": "Analyzovat základní síťové údaje (např. soubory nastavení routeru, směrovací protokoly), kapacitu provozu sítě a výkonnostní charakteristiky sítě ICT, například rozlehlá počítačová síť a lokální počítačová síť, které propojují počítače pomocí kabelů nebo bezdrátových spojení a umožňují výměnu dat.",
+  "essentialFor": [
+   "64c7d461-152c-477f-a8e2-c2c537e9d617",
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d"
+  ],
+  "essentialForDirect": [
+   "64c7d461-152c-477f-a8e2-c2c537e9d617",
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 1
+ },
  "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38": {
   "uri": "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38",
   "label": "algoritmy",
@@ -13888,6 +14121,107 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 1
+ },
+ "http://data.europa.eu/esco/skill/5598739b-6718-4cff-8402-91d7f65b1505": {
+  "uri": "http://data.europa.eu/esco/skill/5598739b-6718-4cff-8402-91d7f65b1505",
+  "label": "udržovat čistotu pracovních prostor",
+  "description": "Udržovat pracovní prostory a vybavení v řádném a čistém stavu.",
+  "essentialFor": [
+   "056f1849-7ff8-4d6f-9b8a-176a610bba44",
+   "099a901f-91a7-4d26-af2e-f385247dcf20",
+   "245be6d1-fe9a-4ac8-9f81-122a687e4724",
+   "24d378d8-1e16-4667-bdb4-1f4a0f2c6379",
+   "26087cc4-6226-41b0-9f97-9564ebe90dce",
+   "2dcb5dad-1902-4051-9023-d725485479a7",
+   "2f5e38a0-6578-4665-bdbd-e2ab505be140",
+   "336cf331-8082-4a0c-bf5f-e7c54706211c",
+   "375137f7-5fc2-424e-9f63-d7ff4441c11e",
+   "3a55bf97-a0d2-47a0-a8b3-b248d32c7969",
+   "3b4eb248-6b40-42fe-9d10-cba8ccfe6613",
+   "41a8e7c8-e1d8-4984-9b3c-dbbad1699f83",
+   "463558cd-6e02-43a8-a675-d4e65af70431",
+   "4ad4024e-d1d3-4dea-b6d1-2c7948111dce",
+   "565987b2-b980-4881-891c-cc4d5ab61d07",
+   "5ab842f6-1f75-4d84-bf41-b8a9799347df",
+   "61704d4b-f54b-43e5-a7de-bfd7a76f2f0d",
+   "69e6db0b-30b4-4e0e-b95b-173f8bc3da73",
+   "754c349d-67d5-48e5-81c1-e84d2fab59d0",
+   "782ced63-e234-42a4-a7bd-a2d9a12ee61a",
+   "7cb71c5f-c310-481c-b46b-d0044328758c",
+   "802a0e5d-5625-4166-a1f0-d13e2586df55",
+   "80a2aba7-ef7d-46ef-a8ec-15ff6131c0f1",
+   "8b2d562c-8407-49cd-9843-636c352b8c82",
+   "90f75f67-495d-49fa-ab57-2f320e251d7e",
+   "9487f835-b5a9-4742-8ecf-35520911e28c",
+   "9ab80ce6-504f-474f-bb91-98163e9d45fd",
+   "a02a1117-212f-4a49-b21a-d3b971e00e48",
+   "a784b063-89cf-441b-9624-deed9dbdeae6",
+   "b01affdd-c8a9-4121-bc50-a5be17f014eb",
+   "b059d331-2dd9-4d7d-923e-1dd029d2e58c",
+   "b9de6d8b-1cf6-4722-bf8c-d73aad03bf87",
+   "bbaa1444-2c0a-4f76-8375-d72e3ea968fd",
+   "c6c48286-2037-47e3-a132-b745dce858e2",
+   "c822ca35-6c36-4eab-97fa-90f2775091c3",
+   "cbad55a4-c7cf-4ab6-9540-eac72b26729b",
+   "ceda6443-e1dd-4890-b018-42318e3abac2",
+   "d3fd0898-51f7-42a3-8f44-09408fc796f6",
+   "e1cf6897-158d-4b48-a39e-2a3a8cac216c",
+   "e20816a9-51d0-410b-b2c6-cbc22c1c4256",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "f0691bb2-c717-4215-a814-88a15b10ee4d",
+   "f0978ec0-ae7d-4c4a-8f80-3fd200edddac",
+   "f3fc11ca-9a72-40da-bf0f-b2aab7e33079",
+   "f4a25243-b06a-42a9-9c69-246853df63ad",
+   "f756fdab-7726-4c48-bfcc-94ff8810fc08",
+   "fb1a7aab-1e33-4712-b8e0-d335243aba58"
+  ],
+  "essentialForDirect": [
+   "056f1849-7ff8-4d6f-9b8a-176a610bba44",
+   "099a901f-91a7-4d26-af2e-f385247dcf20",
+   "245be6d1-fe9a-4ac8-9f81-122a687e4724",
+   "24d378d8-1e16-4667-bdb4-1f4a0f2c6379",
+   "2dcb5dad-1902-4051-9023-d725485479a7",
+   "336cf331-8082-4a0c-bf5f-e7c54706211c",
+   "3b4eb248-6b40-42fe-9d10-cba8ccfe6613",
+   "41a8e7c8-e1d8-4984-9b3c-dbbad1699f83",
+   "463558cd-6e02-43a8-a675-d4e65af70431",
+   "4ad4024e-d1d3-4dea-b6d1-2c7948111dce",
+   "5ab842f6-1f75-4d84-bf41-b8a9799347df",
+   "61704d4b-f54b-43e5-a7de-bfd7a76f2f0d",
+   "69e6db0b-30b4-4e0e-b95b-173f8bc3da73",
+   "754c349d-67d5-48e5-81c1-e84d2fab59d0",
+   "782ced63-e234-42a4-a7bd-a2d9a12ee61a",
+   "7cb71c5f-c310-481c-b46b-d0044328758c",
+   "80a2aba7-ef7d-46ef-a8ec-15ff6131c0f1",
+   "9487f835-b5a9-4742-8ecf-35520911e28c",
+   "a784b063-89cf-441b-9624-deed9dbdeae6",
+   "b01affdd-c8a9-4121-bc50-a5be17f014eb",
+   "b059d331-2dd9-4d7d-923e-1dd029d2e58c",
+   "c6c48286-2037-47e3-a132-b745dce858e2",
+   "c822ca35-6c36-4eab-97fa-90f2775091c3",
+   "ceda6443-e1dd-4890-b018-42318e3abac2",
+   "d3fd0898-51f7-42a3-8f44-09408fc796f6",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "f0691bb2-c717-4215-a814-88a15b10ee4d",
+   "f0978ec0-ae7d-4c4a-8f80-3fd200edddac",
+   "f3fc11ca-9a72-40da-bf0f-b2aab7e33079",
+   "f4a25243-b06a-42a9-9c69-246853df63ad"
+  ],
+  "narrowerCount": 5,
+  "optionalFor": 27
+ },
+ "http://data.europa.eu/esco/skill/55e910e4-736d-44cf-bfa9-b15adc5d91d2": {
+  "uri": "http://data.europa.eu/esco/skill/55e910e4-736d-44cf-bfa9-b15adc5d91d2",
+  "label": "algebra",
+  "description": "Podobor matematiky, který používá vzorce, symboly a rovnice k vyjádření čísel a množství a k práci s nimi.",
+  "essentialFor": [
+   "72628f3a-fd49-499a-9741-870b0a1fcef2"
+  ],
+  "essentialForDirect": [
+   "72628f3a-fd49-499a-9741-870b0a1fcef2"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 2
  },
  "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7": {
   "uri": "http://data.europa.eu/esco/skill/5609c548-8581-4a28-8afc-5f744868e9c7",
@@ -16309,6 +16643,29 @@
   "narrowerCount": 0,
   "optionalFor": 2
  },
+ "http://data.europa.eu/esco/skill/63321ecf-4fc6-44d9-88f1-5373a4f3038a": {
+  "uri": "http://data.europa.eu/esco/skill/63321ecf-4fc6-44d9-88f1-5373a4f3038a",
+  "label": "disponovat drobnou hotovostí",
+  "description": "Disponovat drobnou hotovostí pro menší výdaje a transakce, které jsou vyžadovány pro každodenní provoz podniku.",
+  "essentialFor": [
+   "6f7c1e84-8162-4c20-a575-b57ff624eef5",
+   "7720f392-6ea0-4455-a805-7b7eef38a709",
+   "9a99a5fe-875d-49b2-9b53-cc1b73be1659",
+   "9cee6106-04cf-401a-ae4c-b4b8652d6915",
+   "c1a86d6d-7785-43e1-994b-958eba58fff7",
+   "ea034d66-0d35-4891-b82c-6434cad2c76f"
+  ],
+  "essentialForDirect": [
+   "6f7c1e84-8162-4c20-a575-b57ff624eef5",
+   "7720f392-6ea0-4455-a805-7b7eef38a709",
+   "9a99a5fe-875d-49b2-9b53-cc1b73be1659",
+   "9cee6106-04cf-401a-ae4c-b4b8652d6915",
+   "c1a86d6d-7785-43e1-994b-958eba58fff7",
+   "ea034d66-0d35-4891-b82c-6434cad2c76f"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 10
+ },
  "http://data.europa.eu/esco/skill/6339a2d3-0c34-4156-b202-5929764fb720": {
   "uri": "http://data.europa.eu/esco/skill/6339a2d3-0c34-4156-b202-5929764fb720",
   "label": "hudební notace",
@@ -16367,6 +16724,21 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 34
+ },
+ "http://data.europa.eu/esco/skill/63e6742e-5ee7-4008-a17d-0b2079e7fae0": {
+  "uri": "http://data.europa.eu/esco/skill/63e6742e-5ee7-4008-a17d-0b2079e7fae0",
+  "label": "výživa zdravých osob",
+  "description": "Typ výživy potřebný pro zdravé jedince všech věkových kategorií.",
+  "essentialFor": [
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f"
+  ],
+  "essentialForDirect": [
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 1
  },
  "http://data.europa.eu/esco/skill/6451e645-67b5-4cc7-aafd-fab19629fa82": {
   "uri": "http://data.europa.eu/esco/skill/6451e645-67b5-4cc7-aafd-fab19629fa82",
@@ -16432,6 +16804,27 @@
   ],
   "narrowerCount": 2,
   "optionalFor": 8
+ },
+ "http://data.europa.eu/esco/skill/6474fc36-67ae-436b-9d39-c14402c6a89b": {
+  "uri": "http://data.europa.eu/esco/skill/6474fc36-67ae-436b-9d39-c14402c6a89b",
+  "label": "používat hardware (IKT)",
+  "description": "Schopnost používat zařízení, jako je monitor, myš, klávesnice, zařízení pro ukládání dat, tiskárny, skenery atd., k provádění takových operací, jako je zapojení, spuštění, vypnutí, restartování, ukládání souborů a jiné operace.",
+  "essentialFor": [
+   "1242d99a-47f1-4a62-b884-33746db8a6ca",
+   "38a7f453-a7f0-45d2-a74d-5b92506e4a21",
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "aaeec9a7-dc57-4485-890c-86b3eef735f9",
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972"
+  ],
+  "essentialForDirect": [
+   "1242d99a-47f1-4a62-b884-33746db8a6ca",
+   "38a7f453-a7f0-45d2-a74d-5b92506e4a21",
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "aaeec9a7-dc57-4485-890c-86b3eef735f9",
+   "b7aa4b4e-dbb6-4f58-b36c-35b9a7267972"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 2
  },
  "http://data.europa.eu/esco/skill/64e09849-a7db-4d6b-a932-66264420eb97": {
   "uri": "http://data.europa.eu/esco/skill/64e09849-a7db-4d6b-a932-66264420eb97",
@@ -16557,6 +16950,67 @@
   "narrowerCount": 1,
   "optionalFor": 1
  },
+ "http://data.europa.eu/esco/skill/65ca5e3c-940c-46b2-b277-aff394cfdd4c": {
+  "uri": "http://data.europa.eu/esco/skill/65ca5e3c-940c-46b2-b277-aff394cfdd4c",
+  "label": "stanovit denní priority",
+  "description": "Stanovit denní priority pro personál; efektivní multitasking.",
+  "essentialFor": [
+   "03632d98-0ae3-4dd2-941c-3b48de9a0219",
+   "080fc550-b7ca-4576-aaf5-06fffbede994",
+   "0c408028-c48f-4df8-ba5d-c3d3be15f5a2",
+   "146f2c99-3f8b-4856-95ba-3ecfea681809",
+   "1c948509-4015-40b0-b380-105fc85782a5",
+   "33e3a746-f209-4a1a-96df-301505531cb2",
+   "511f366c-ba41-4826-9622-8cda6d6e3b91",
+   "55f001af-fa48-4c0c-a7e5-fc69babe3d45",
+   "5cff1eee-9027-4064-8a26-35b1877e4eb3",
+   "6066ed14-ace3-4352-b656-2b621fd7bc88",
+   "64b136da-aedf-48a2-96a0-72eb850bfcd0",
+   "771955d9-e988-47f3-b60f-207adb2cd571",
+   "7ed2e153-8da8-4c0d-b4c5-3402c623f34b",
+   "a005f8a2-2d8a-433e-8d89-13575f822fd4",
+   "b42c5ed4-c6e4-4694-934f-96127719cc43",
+   "b5f6bb2c-0602-484d-a87f-9cac33f83010",
+   "bea99fea-0383-4c63-b944-70d4799de2c5",
+   "c6bd511a-d966-4df9-a48e-4f800354f268",
+   "c94f3565-d987-431f-a46b-6f4e018e0bd7",
+   "ce6230b8-154f-4e0b-ac03-dca3a269a19c",
+   "db4f28ff-c208-4830-ab8b-4b07776db134",
+   "e9507d34-c70f-474f-a4a3-d2cbfe50f6e9",
+   "eea2b5c6-48d1-4612-957e-585783b3c7bb",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d"
+  ],
+  "essentialForDirect": [
+   "03632d98-0ae3-4dd2-941c-3b48de9a0219",
+   "080fc550-b7ca-4576-aaf5-06fffbede994",
+   "0c408028-c48f-4df8-ba5d-c3d3be15f5a2",
+   "146f2c99-3f8b-4856-95ba-3ecfea681809",
+   "1c948509-4015-40b0-b380-105fc85782a5",
+   "33e3a746-f209-4a1a-96df-301505531cb2",
+   "511f366c-ba41-4826-9622-8cda6d6e3b91",
+   "55f001af-fa48-4c0c-a7e5-fc69babe3d45",
+   "5cff1eee-9027-4064-8a26-35b1877e4eb3",
+   "6066ed14-ace3-4352-b656-2b621fd7bc88",
+   "64b136da-aedf-48a2-96a0-72eb850bfcd0",
+   "771955d9-e988-47f3-b60f-207adb2cd571",
+   "7ed2e153-8da8-4c0d-b4c5-3402c623f34b",
+   "a005f8a2-2d8a-433e-8d89-13575f822fd4",
+   "b42c5ed4-c6e4-4694-934f-96127719cc43",
+   "b5f6bb2c-0602-484d-a87f-9cac33f83010",
+   "bea99fea-0383-4c63-b944-70d4799de2c5",
+   "c6bd511a-d966-4df9-a48e-4f800354f268",
+   "c94f3565-d987-431f-a46b-6f4e018e0bd7",
+   "ce6230b8-154f-4e0b-ac03-dca3a269a19c",
+   "db4f28ff-c208-4830-ab8b-4b07776db134",
+   "e9507d34-c70f-474f-a4a3-d2cbfe50f6e9",
+   "eea2b5c6-48d1-4612-957e-585783b3c7bb",
+   "f5576c5b-8d03-4a3d-9cb7-b8c4ac07a7ef",
+   "fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 1
+ },
  "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1": {
   "uri": "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1",
   "label": "software pro vizualizaci dat",
@@ -16673,6 +17127,111 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 3
+ },
+ "http://data.europa.eu/esco/skill/687010cd-3f09-45c1-b6f8-0b860c129699": {
+  "uri": "http://data.europa.eu/esco/skill/687010cd-3f09-45c1-b6f8-0b860c129699",
+  "label": "kontrolovat akční prodejní ceny",
+  "description": "Zajistit, aby byly prodejní ceny a slevové akce náležitě uplatňovány na pokladnách.",
+  "essentialFor": [
+   "00913533-5237-4870-9003-d1cb806603c9",
+   "0249b723-1d20-4ff9-8623-d20b98d0b4a4",
+   "03b55cb5-9735-4582-8e20-2b1cb76635cb",
+   "0c849f7b-fa3b-4faf-8501-0e50cd200ba1",
+   "19c2acbf-766c-4728-b960-b91252a95fd1",
+   "1b3e150f-8ec1-47e2-a2ef-d02632efe0d5",
+   "2afdf635-3cdb-4914-ab61-5dd7d7d46792",
+   "2ce45b9f-ebfb-4105-8e12-690ba2bf00aa",
+   "3a8ac6cd-b59a-4b93-b071-0324e895b8e4",
+   "3c1041c1-7a20-41fd-8cb2-529d7f671226",
+   "463a687a-c7e9-469a-bb38-dcdfe1e7e35f",
+   "47b747bb-5bbf-40d5-aa3e-8d4a79238502",
+   "574f46e2-e48d-4cde-a7b1-877004ea4c52",
+   "5779aa3b-b32f-42f7-9581-ef5ce2092621",
+   "5f770d3d-5c42-4c22-bc06-23bebd182a37",
+   "60528794-1a68-4440-a141-2df011be98be",
+   "664f7498-8e4b-48f8-9fe2-436a692f1204",
+   "691c86d9-d88f-440f-b885-7ed9726f782c",
+   "6e8917c8-d883-4475-954c-ec241215ca18",
+   "75fb7771-0403-4116-9c01-9c5717bec600",
+   "79874366-6ec2-4601-aceb-9dbb8e68d015",
+   "7f0b46be-8b7a-4675-987d-89a8a7193730",
+   "814205e9-8bd1-4653-bdbc-fd2f9e9a8225",
+   "87fd9791-0922-4da0-a984-f518aadf85ec",
+   "8bbac392-3d62-4c46-a56e-3f244fdda216",
+   "9703fe09-51fd-4d00-a2a1-99ba809521ac",
+   "97467934-a220-41ca-96df-36fc85258c47",
+   "980c52f3-0054-45b1-a6f1-20ee8a1e8b9e",
+   "98f9909b-016d-4c62-90ae-893b0cbabbca",
+   "9beeb1f0-5aca-4bde-bae9-c74ddb94fac3",
+   "9e81adde-9983-44fa-b74b-c548d0dbfbdd",
+   "acf28133-525f-4838-9248-d852e28b8f98",
+   "b21b5952-1658-44f8-b719-e5be7fb39866",
+   "b66eb697-e65d-4bbb-b51c-d847f6875f1a",
+   "b7744a45-a4ce-4037-b679-3d2377e17f31",
+   "bdfb48e0-79dc-4b63-8470-db2e03b37326",
+   "c76dda38-938c-404e-8a6d-78c8705eebc0",
+   "d4dd502d-9407-456c-a54a-b733fc9cf68b",
+   "d871af8b-f6d7-4377-b609-d422afe3b5de",
+   "d8e5410b-5199-403f-8cbd-d32efb17a296",
+   "e1c9b304-2784-48e7-b7e8-089867743bbf",
+   "e7f6e98a-cef5-41be-b65c-70cf1feed11d",
+   "eda6cb5e-c27a-4661-b536-eadeb387dee3",
+   "f07aab15-c7e8-49a4-a8dd-221d9cf3a925",
+   "f2f4ed8f-c9d3-47e4-8f72-a30739bcea2b",
+   "f70e5875-df7e-40be-a315-3ac1c9d36d64",
+   "f88fb9dd-5a46-4086-a284-b1992174e55c"
+  ],
+  "essentialForDirect": [
+   "00913533-5237-4870-9003-d1cb806603c9",
+   "0249b723-1d20-4ff9-8623-d20b98d0b4a4",
+   "03b55cb5-9735-4582-8e20-2b1cb76635cb",
+   "0c849f7b-fa3b-4faf-8501-0e50cd200ba1",
+   "19c2acbf-766c-4728-b960-b91252a95fd1",
+   "1b3e150f-8ec1-47e2-a2ef-d02632efe0d5",
+   "2afdf635-3cdb-4914-ab61-5dd7d7d46792",
+   "2ce45b9f-ebfb-4105-8e12-690ba2bf00aa",
+   "3a8ac6cd-b59a-4b93-b071-0324e895b8e4",
+   "3c1041c1-7a20-41fd-8cb2-529d7f671226",
+   "463a687a-c7e9-469a-bb38-dcdfe1e7e35f",
+   "47b747bb-5bbf-40d5-aa3e-8d4a79238502",
+   "574f46e2-e48d-4cde-a7b1-877004ea4c52",
+   "5779aa3b-b32f-42f7-9581-ef5ce2092621",
+   "5f770d3d-5c42-4c22-bc06-23bebd182a37",
+   "60528794-1a68-4440-a141-2df011be98be",
+   "664f7498-8e4b-48f8-9fe2-436a692f1204",
+   "691c86d9-d88f-440f-b885-7ed9726f782c",
+   "6e8917c8-d883-4475-954c-ec241215ca18",
+   "75fb7771-0403-4116-9c01-9c5717bec600",
+   "79874366-6ec2-4601-aceb-9dbb8e68d015",
+   "7f0b46be-8b7a-4675-987d-89a8a7193730",
+   "814205e9-8bd1-4653-bdbc-fd2f9e9a8225",
+   "87fd9791-0922-4da0-a984-f518aadf85ec",
+   "8bbac392-3d62-4c46-a56e-3f244fdda216",
+   "9703fe09-51fd-4d00-a2a1-99ba809521ac",
+   "97467934-a220-41ca-96df-36fc85258c47",
+   "980c52f3-0054-45b1-a6f1-20ee8a1e8b9e",
+   "98f9909b-016d-4c62-90ae-893b0cbabbca",
+   "9beeb1f0-5aca-4bde-bae9-c74ddb94fac3",
+   "9e81adde-9983-44fa-b74b-c548d0dbfbdd",
+   "acf28133-525f-4838-9248-d852e28b8f98",
+   "b21b5952-1658-44f8-b719-e5be7fb39866",
+   "b66eb697-e65d-4bbb-b51c-d847f6875f1a",
+   "b7744a45-a4ce-4037-b679-3d2377e17f31",
+   "bdfb48e0-79dc-4b63-8470-db2e03b37326",
+   "c76dda38-938c-404e-8a6d-78c8705eebc0",
+   "d4dd502d-9407-456c-a54a-b733fc9cf68b",
+   "d871af8b-f6d7-4377-b609-d422afe3b5de",
+   "d8e5410b-5199-403f-8cbd-d32efb17a296",
+   "e1c9b304-2784-48e7-b7e8-089867743bbf",
+   "e7f6e98a-cef5-41be-b65c-70cf1feed11d",
+   "eda6cb5e-c27a-4661-b536-eadeb387dee3",
+   "f07aab15-c7e8-49a4-a8dd-221d9cf3a925",
+   "f2f4ed8f-c9d3-47e4-8f72-a30739bcea2b",
+   "f70e5875-df7e-40be-a315-3ac1c9d36d64",
+   "f88fb9dd-5a46-4086-a284-b1992174e55c"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 0
  },
  "http://data.europa.eu/esco/skill/68b6ef08-d823-489d-a95c-752ae6f6e6a7": {
   "uri": "http://data.europa.eu/esco/skill/68b6ef08-d823-489d-a95c-752ae6f6e6a7",
@@ -17383,6 +17942,23 @@
   ],
   "essentialForDirect": [],
   "narrowerCount": 6,
+  "optionalFor": 0
+ },
+ "http://data.europa.eu/esco/skill/6e47b77e-5707-4f87-914a-34251fda4926": {
+  "uri": "http://data.europa.eu/esco/skill/6e47b77e-5707-4f87-914a-34251fda4926",
+  "label": "porozumět textu určenému k překladu",
+  "description": "Číst a analyzovat obsah a témata materiálu, který má být přeložen. Překladatel musí chápat to, co je napsáno, aby mohl co nejlépe přeložit obsah. Doslovný překlad není vždy možný a překladatel musí vytvořit text, který co nejlépe zachovává smysl textu.",
+  "essentialFor": [
+   "1a07bd7d-2e1d-4930-a84a-1a442b8f2a44",
+   "83588a0e-b63d-4483-a884-06f1e3a1a4be",
+   "da4589ce-7534-4cc1-9ce4-cabf9364b87c"
+  ],
+  "essentialForDirect": [
+   "1a07bd7d-2e1d-4930-a84a-1a442b8f2a44",
+   "83588a0e-b63d-4483-a884-06f1e3a1a4be",
+   "da4589ce-7534-4cc1-9ce4-cabf9364b87c"
+  ],
+  "narrowerCount": 0,
   "optionalFor": 0
  },
  "http://data.europa.eu/esco/skill/6f571969-3640-4774-a9bc-fd2ef583fdec": {
@@ -18808,6 +19384,61 @@
   "narrowerCount": 0,
   "optionalFor": 5
  },
+ "http://data.europa.eu/esco/skill/791fa659-3382-49f8-a8dd-505226d0da48": {
+  "uri": "http://data.europa.eu/esco/skill/791fa659-3382-49f8-a8dd-505226d0da48",
+  "label": "pravidla potravinářské hygieny",
+  "description": "Soubor vnitrostátních a mezinárodních předpisů pro hygienu a bezpečnost potravin, např. nařízení (ES) č. 852/2004.",
+  "essentialFor": [
+   "00fdad73-4551-4e43-b256-1d4a3759db1e",
+   "2171a849-4065-411c-8390-835b7782ed8b",
+   "33cd8ff4-62f2-4a3f-b053-6e009ecef6da",
+   "37c44fdd-eff0-4e16-b459-b3a81fe663ec",
+   "39b4e367-94b5-49fe-bcd7-4b116865ca59",
+   "42abcbcb-721b-4da6-9c06-f6951969d056",
+   "4311b9e0-064e-41bc-b120-5eb21f337780",
+   "65beb253-61b0-4f8f-9c3c-49419913fd18",
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+   "72d4b5a3-5458-41e5-8b4e-cb4fb3fd0fbc",
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+   "98588703-5f5c-41c6-a240-3411b6518b83",
+   "9ab02537-920a-4549-9711-fd999fd40c28",
+   "9faaae26-804d-48f3-97b0-84f7e1aceae8",
+   "afcf9d03-6e51-4548-8cec-cfa50972929d",
+   "b2826761-6fc4-4344-9d36-d8455cb6b185",
+   "b789dae6-6c77-4f46-9253-098c424c92f2",
+   "d9632b0a-3c95-4a8a-a15c-c5413beda52e",
+   "dc29cd23-d6ba-46b0-bc2f-424e20270099",
+   "ddac39cf-5d8b-416a-b24b-9ce3a8a4a668",
+   "f3d2074e-3f44-45b0-b896-5ee5629a23c1",
+   "f738f568-b4ff-4f23-acb7-5f99d9a3b393"
+  ],
+  "essentialForDirect": [
+   "00fdad73-4551-4e43-b256-1d4a3759db1e",
+   "2171a849-4065-411c-8390-835b7782ed8b",
+   "33cd8ff4-62f2-4a3f-b053-6e009ecef6da",
+   "37c44fdd-eff0-4e16-b459-b3a81fe663ec",
+   "39b4e367-94b5-49fe-bcd7-4b116865ca59",
+   "42abcbcb-721b-4da6-9c06-f6951969d056",
+   "4311b9e0-064e-41bc-b120-5eb21f337780",
+   "65beb253-61b0-4f8f-9c3c-49419913fd18",
+   "68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+   "72d4b5a3-5458-41e5-8b4e-cb4fb3fd0fbc",
+   "8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+   "98588703-5f5c-41c6-a240-3411b6518b83",
+   "9ab02537-920a-4549-9711-fd999fd40c28",
+   "9faaae26-804d-48f3-97b0-84f7e1aceae8",
+   "afcf9d03-6e51-4548-8cec-cfa50972929d",
+   "b2826761-6fc4-4344-9d36-d8455cb6b185",
+   "b789dae6-6c77-4f46-9253-098c424c92f2",
+   "d9632b0a-3c95-4a8a-a15c-c5413beda52e",
+   "dc29cd23-d6ba-46b0-bc2f-424e20270099",
+   "ddac39cf-5d8b-416a-b24b-9ce3a8a4a668",
+   "f3d2074e-3f44-45b0-b896-5ee5629a23c1",
+   "f738f568-b4ff-4f23-acb7-5f99d9a3b393"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 5
+ },
  "http://data.europa.eu/esco/skill/7935deb6-0bed-4e38-985e-1f83b8e16940": {
   "uri": "http://data.europa.eu/esco/skill/7935deb6-0bed-4e38-985e-1f83b8e16940",
   "label": "účastnit se tréninku",
@@ -19911,6 +20542,27 @@
    "e14548c8-c2b9-4ef8-8670-d5967d7ad804"
   ],
   "narrowerCount": 7,
+  "optionalFor": 5
+ },
+ "http://data.europa.eu/esco/skill/7f6f3d05-7b6f-4622-9082-6c355edfcb7e": {
+  "uri": "http://data.europa.eu/esco/skill/7f6f3d05-7b6f-4622-9082-6c355edfcb7e",
+  "label": "informace o sportovních soutěžích",
+  "description": "Informace o nejnovějších výsledcích, soutěžích a akcích v rámci sportovního odvětví.",
+  "essentialFor": [
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a",
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5",
+   "a10849c1-f0d8-4600-bca6-9549c2517650",
+   "e777fb61-16f5-476b-8262-578edfdb4d9d",
+   "e96cec32-9960-4496-a790-a9d2254906fc"
+  ],
+  "essentialForDirect": [
+   "264e1a4a-5074-47e2-a6d9-d225d48e8a9a",
+   "70b5896f-988e-4084-9c19-2c82bd5cc9a5",
+   "a10849c1-f0d8-4600-bca6-9549c2517650",
+   "e777fb61-16f5-476b-8262-578edfdb4d9d",
+   "e96cec32-9960-4496-a790-a9d2254906fc"
+  ],
+  "narrowerCount": 0,
   "optionalFor": 5
  },
  "http://data.europa.eu/esco/skill/7fc1bae3-eb9b-4609-a374-01c2a39d827d": {
@@ -21386,6 +22038,21 @@
   "narrowerCount": 1,
   "optionalFor": 3
  },
+ "http://data.europa.eu/esco/skill/8b5962d7-b195-4459-addb-d15a48cc4b64": {
+  "uri": "http://data.europa.eu/esco/skill/8b5962d7-b195-4459-addb-d15a48cc4b64",
+  "label": "tlumočit mluvený jazyk mezi dvěma stranami",
+  "description": "Převádět jeden jazyk na druhý s cílem zajistit komunikaci mezi dvěma stranami, které nemluví společným jazykem.",
+  "essentialFor": [
+   "23e692a9-a242-4d4f-988f-ed562f757864",
+   "7d7ea936-a1c6-499d-9aa7-054e943b019b"
+  ],
+  "essentialForDirect": [
+   "23e692a9-a242-4d4f-988f-ed562f757864",
+   "7d7ea936-a1c6-499d-9aa7-054e943b019b"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 1
+ },
  "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25": {
   "uri": "http://data.europa.eu/esco/skill/8bbf9c69-ba9d-4e6d-a50a-ba4f666e0d25",
   "label": "zasazovat umělecké dílo do souvislostí",
@@ -21711,6 +22378,26 @@
   "narrowerCount": 0,
   "optionalFor": 5
  },
+ "http://data.europa.eu/esco/skill/8eb292fb-55f2-4952-b05d-1cbc205f515c": {
+  "uri": "http://data.europa.eu/esco/skill/8eb292fb-55f2-4952-b05d-1cbc205f515c",
+  "label": "zpracovávat ovoce a zeleninu",
+  "description": "Zpracovávat ovoce a zeleninu, což se týká všech druhů metod a technik používaných k přípravě potravinářských výrobků vyrobených s použitím ovoce a zeleniny jako surovin.",
+  "essentialFor": [
+   "5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32",
+   "64c180d0-029b-4dc7-b582-77899d171186",
+   "7235d075-ecf6-42ba-8a60-d7e79bbce152",
+   "defc8417-eeb6-4f13-8fcd-6518b99a40f4",
+   "e20816a9-51d0-410b-b2c6-cbc22c1c4256"
+  ],
+  "essentialForDirect": [
+   "5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32",
+   "64c180d0-029b-4dc7-b582-77899d171186",
+   "7235d075-ecf6-42ba-8a60-d7e79bbce152",
+   "defc8417-eeb6-4f13-8fcd-6518b99a40f4"
+  ],
+  "narrowerCount": 5,
+  "optionalFor": 1
+ },
  "http://data.europa.eu/esco/skill/8f585def-6ade-41b3-b897-3d71fba4151d": {
   "uri": "http://data.europa.eu/esco/skill/8f585def-6ade-41b3-b897-3d71fba4151d",
   "label": "alternativní energie",
@@ -21773,6 +22460,23 @@
   ],
   "narrowerCount": 1,
   "optionalFor": 21
+ },
+ "http://data.europa.eu/esco/skill/906d21c9-7a9c-4919-817d-10676f9ddfe4": {
+  "uri": "http://data.europa.eu/esco/skill/906d21c9-7a9c-4919-817d-10676f9ddfe4",
+  "label": "prostírat stoly",
+  "description": "Uspořádat a prostírat stoly pro zvláštní události.",
+  "essentialFor": [
+   "74cbe6fb-336f-4f3f-8c8f-7645b279a231",
+   "a1b86a8b-ad91-4192-b386-bbf89bb11699",
+   "d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471"
+  ],
+  "essentialForDirect": [
+   "74cbe6fb-336f-4f3f-8c8f-7645b279a231",
+   "a1b86a8b-ad91-4192-b386-bbf89bb11699",
+   "d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 2
  },
  "http://data.europa.eu/esco/skill/907039e2-5b33-4ea5-96ca-b6082711b491": {
   "uri": "http://data.europa.eu/esco/skill/907039e2-5b33-4ea5-96ca-b6082711b491",
@@ -22989,6 +23693,27 @@
   "narrowerCount": 3,
   "optionalFor": 0
  },
+ "http://data.europa.eu/esco/skill/976455eb-5bbe-4493-ae64-ed16c3b009ea": {
+  "uri": "http://data.europa.eu/esco/skill/976455eb-5bbe-4493-ae64-ed16c3b009ea",
+  "label": "mobilní operační systémy",
+  "description": "Vlastnosti, omezení, architektury a další vlastnosti operačních systémů určených pro provoz na mobilních zařízeních, jako je Android nebo iOS.",
+  "essentialFor": [
+   "2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c",
+   "b37d15b3-402e-4792-8292-f18c0de7aca6",
+   "bb6198c4-1d3e-40b9-9cc4-ad2dd9d7c74b",
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d",
+   "f0f6d531-eb96-4bad-84ff-8e2999ea68e6"
+  ],
+  "essentialForDirect": [
+   "2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c",
+   "b37d15b3-402e-4792-8292-f18c0de7aca6",
+   "bb6198c4-1d3e-40b9-9cc4-ad2dd9d7c74b",
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d",
+   "f0f6d531-eb96-4bad-84ff-8e2999ea68e6"
+  ],
+  "narrowerCount": 3,
+  "optionalFor": 3
+ },
  "http://data.europa.eu/esco/skill/97965983-0da4-4902-9daf-d5cd2693ef73": {
   "uri": "http://data.europa.eu/esco/skill/97965983-0da4-4902-9daf-d5cd2693ef73",
   "label": "3D modelování",
@@ -23358,6 +24083,37 @@
   "narrowerCount": 0,
   "optionalFor": 2
  },
+ "http://data.europa.eu/esco/skill/9983816d-cc78-4d3f-9e3c-c7baa9ebc77a": {
+  "uri": "http://data.europa.eu/esco/skill/9983816d-cc78-4d3f-9e3c-c7baa9ebc77a",
+  "label": "počítačové vybavení",
+  "description": "Nabízené počítače, počítačové vybavení a software, jejich funkce, vlastnosti a právní a regulační požadavky.",
+  "essentialFor": [
+   "1a6d1acf-5956-4ba0-95bf-b15b05a02013",
+   "243f3b7e-cd7a-419a-94c0-d4f2040f09af",
+   "30b25ee4-da97-4167-8592-460217f6bdcc",
+   "35d4ab0d-5a2a-4ed8-b8ba-7169314168f5",
+   "48c8eccb-4bd0-487e-a187-4953cbbe956e",
+   "68d973df-bf10-4bf7-9a1b-fbd9f604b9db",
+   "7d9c060a-f280-441d-baf9-7d4a6b520a2a",
+   "83b30677-6468-4a04-b20c-15daf6bc8fb5",
+   "b1c0714d-77f1-4732-8fd8-9f0739fb9974",
+   "ec2c0655-5ba0-4cc8-860a-977f73b37f34"
+  ],
+  "essentialForDirect": [
+   "1a6d1acf-5956-4ba0-95bf-b15b05a02013",
+   "243f3b7e-cd7a-419a-94c0-d4f2040f09af",
+   "30b25ee4-da97-4167-8592-460217f6bdcc",
+   "35d4ab0d-5a2a-4ed8-b8ba-7169314168f5",
+   "48c8eccb-4bd0-487e-a187-4953cbbe956e",
+   "68d973df-bf10-4bf7-9a1b-fbd9f604b9db",
+   "7d9c060a-f280-441d-baf9-7d4a6b520a2a",
+   "83b30677-6468-4a04-b20c-15daf6bc8fb5",
+   "b1c0714d-77f1-4732-8fd8-9f0739fb9974",
+   "ec2c0655-5ba0-4cc8-860a-977f73b37f34"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 7
+ },
  "http://data.europa.eu/esco/skill/9b63d92b-5a3a-46b0-b2ba-c98b39ea5aaf": {
   "uri": "http://data.europa.eu/esco/skill/9b63d92b-5a3a-46b0-b2ba-c98b39ea5aaf",
   "label": "systém zdravotní péče",
@@ -23411,6 +24167,27 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 1
+ },
+ "http://data.europa.eu/esco/skill/9babbf24-1523-4b74-9770-c07c447920cc": {
+  "uri": "http://data.europa.eu/esco/skill/9babbf24-1523-4b74-9770-c07c447920cc",
+  "label": "ovoce a zelenina",
+  "description": "Nabízené produkty z ovoce a zeleniny, jejich funkce, vlastnosti a právní a regulační požadavky.",
+  "essentialFor": [
+   "39b4e367-94b5-49fe-bcd7-4b116865ca59",
+   "5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32",
+   "73bdadf0-2175-4097-8f4d-b6dabeb0a030",
+   "dc29cd23-d6ba-46b0-bc2f-424e20270099",
+   "fd882949-aad7-42ff-825e-00d49a5ec469"
+  ],
+  "essentialForDirect": [
+   "39b4e367-94b5-49fe-bcd7-4b116865ca59",
+   "5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32",
+   "73bdadf0-2175-4097-8f4d-b6dabeb0a030",
+   "dc29cd23-d6ba-46b0-bc2f-424e20270099",
+   "fd882949-aad7-42ff-825e-00d49a5ec469"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 6
  },
  "http://data.europa.eu/esco/skill/9bb41cd3-eb0e-4fb3-a345-c9c6ed5d43dd": {
   "uri": "http://data.europa.eu/esco/skill/9bb41cd3-eb0e-4fb3-a345-c9c6ed5d43dd",
@@ -24325,6 +25102,117 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 1
+ },
+ "http://data.europa.eu/esco/skill/a34f4fd4-1aff-4941-82d5-542ac94f81c3": {
+  "uri": "http://data.europa.eu/esco/skill/a34f4fd4-1aff-4941-82d5-542ac94f81c3",
+  "label": "dodržovat hygienické postupy při zpracovávání potravin",
+  "description": "Zajistit čistý pracovní prostor podle hygienických norem v potravinářském průmyslu.",
+  "essentialFor": [
+   "0090dd54-057a-4f65-bbe8-f74c4999e8e8",
+   "0458929a-f6c9-40ed-8ce3-caa9f03a6b5b",
+   "05f6eaeb-b285-46bd-a44a-225bd429e329",
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34",
+   "16ec2281-b0b3-4cde-9888-2cb6cc492c25",
+   "1aadb308-432a-4d01-b54b-b4f7f76dd419",
+   "1ab184b6-de00-4476-ba1d-c6a71c668be3",
+   "26852256-d423-41bb-8178-4d37ff2528b9",
+   "28d82e8d-7379-4245-a5a0-c5a68864a528",
+   "2a2da883-8af5-4b98-832e-00e6681b22c3",
+   "303931a2-860a-4f76-83ac-3c190d67287e",
+   "33fe4c90-c4fd-4860-bdc5-24fcab16f45a",
+   "34b63359-faad-4d6a-9d4d-98c2c15b9fac",
+   "34ec79d0-85fb-445a-a5f2-df51b70c6375",
+   "375a4d32-0950-45db-9d85-3fc2a86f1d85",
+   "37c7880e-cfee-4c41-a41b-061682fefde3",
+   "3a3fac9d-323e-4ba6-989b-0e1d44e113cc",
+   "3caa57c9-d360-4ce4-8000-34a983666ba7",
+   "43841fa5-f8ae-43ce-834d-5482ec23ef9e",
+   "5d9e63a2-8013-434e-9f92-3b3d54a0c320",
+   "62f53135-e091-4aa6-8895-5851d72271b9",
+   "67f12d6c-295f-4315-8c5c-8e477c7f7019",
+   "69e4e877-9d7a-4df0-973b-34defd318e26",
+   "706e8b26-befb-429b-b71d-f72fad1bae12",
+   "7235d075-ecf6-42ba-8a60-d7e79bbce152",
+   "7cd070f5-b5dd-4228-bdcf-0419dbacfcf4",
+   "7e33b166-4a6d-40f3-8048-83b3a9d3ef49",
+   "804f1ae2-429c-48a9-9858-d5d42df144eb",
+   "8188136d-df82-4910-91e1-b185ec17c3c9",
+   "84dfc210-db07-4a83-87fe-d6131907ea83",
+   "87cb6ef5-fa94-4af4-9511-6fe64c463835",
+   "9161b2df-624c-4f5e-ad6c-0392439fa5c3",
+   "9388a977-6f79-4509-81aa-026bc49e1919",
+   "952c766a-db5c-42b2-809d-d14cbb02cdb6",
+   "9757122b-1161-4f4a-8286-a603d4ad7012",
+   "9aeefea6-11c3-4479-b703-902ee84787d7",
+   "b0fa69b4-998c-4e66-acd3-5f5d73cadb5c",
+   "b4bff870-5c8f-4c33-b07f-f04d79830633",
+   "b69d9b94-a40c-434d-af8f-e584257314f6",
+   "b997a091-23b3-4f87-a6bc-bdbea2f609ae",
+   "beacd3d6-e414-42ea-baf9-3ddc34fc143a",
+   "c0386702-0699-4550-920b-1f7027c9a3d9",
+   "c37d0026-989b-4705-9bcb-30cccd8308fa",
+   "d2df16f3-87d7-4c6e-a640-95cee39a8f4e",
+   "defc8417-eeb6-4f13-8fcd-6518b99a40f4",
+   "e00c46c4-bd3c-4d88-8d30-fc6f951554bd",
+   "ecfcf554-254f-4dd7-a20c-b60cc6b16054",
+   "ed41ca50-bb2a-41e2-a332-9b2df83040c1",
+   "f53dbdb1-2f64-42f8-a6a4-0552c40e4f57",
+   "f6f1a9c5-a956-4a10-98ad-b83525e843fb"
+  ],
+  "essentialForDirect": [
+   "0090dd54-057a-4f65-bbe8-f74c4999e8e8",
+   "0458929a-f6c9-40ed-8ce3-caa9f03a6b5b",
+   "05f6eaeb-b285-46bd-a44a-225bd429e329",
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34",
+   "16ec2281-b0b3-4cde-9888-2cb6cc492c25",
+   "1aadb308-432a-4d01-b54b-b4f7f76dd419",
+   "1ab184b6-de00-4476-ba1d-c6a71c668be3",
+   "26852256-d423-41bb-8178-4d37ff2528b9",
+   "28d82e8d-7379-4245-a5a0-c5a68864a528",
+   "2a2da883-8af5-4b98-832e-00e6681b22c3",
+   "303931a2-860a-4f76-83ac-3c190d67287e",
+   "33fe4c90-c4fd-4860-bdc5-24fcab16f45a",
+   "34b63359-faad-4d6a-9d4d-98c2c15b9fac",
+   "34ec79d0-85fb-445a-a5f2-df51b70c6375",
+   "375a4d32-0950-45db-9d85-3fc2a86f1d85",
+   "37c7880e-cfee-4c41-a41b-061682fefde3",
+   "3a3fac9d-323e-4ba6-989b-0e1d44e113cc",
+   "3caa57c9-d360-4ce4-8000-34a983666ba7",
+   "43841fa5-f8ae-43ce-834d-5482ec23ef9e",
+   "5d9e63a2-8013-434e-9f92-3b3d54a0c320",
+   "62f53135-e091-4aa6-8895-5851d72271b9",
+   "67f12d6c-295f-4315-8c5c-8e477c7f7019",
+   "69e4e877-9d7a-4df0-973b-34defd318e26",
+   "706e8b26-befb-429b-b71d-f72fad1bae12",
+   "7235d075-ecf6-42ba-8a60-d7e79bbce152",
+   "7cd070f5-b5dd-4228-bdcf-0419dbacfcf4",
+   "7e33b166-4a6d-40f3-8048-83b3a9d3ef49",
+   "804f1ae2-429c-48a9-9858-d5d42df144eb",
+   "8188136d-df82-4910-91e1-b185ec17c3c9",
+   "84dfc210-db07-4a83-87fe-d6131907ea83",
+   "87cb6ef5-fa94-4af4-9511-6fe64c463835",
+   "9161b2df-624c-4f5e-ad6c-0392439fa5c3",
+   "9388a977-6f79-4509-81aa-026bc49e1919",
+   "952c766a-db5c-42b2-809d-d14cbb02cdb6",
+   "9757122b-1161-4f4a-8286-a603d4ad7012",
+   "9aeefea6-11c3-4479-b703-902ee84787d7",
+   "b0fa69b4-998c-4e66-acd3-5f5d73cadb5c",
+   "b4bff870-5c8f-4c33-b07f-f04d79830633",
+   "b69d9b94-a40c-434d-af8f-e584257314f6",
+   "b997a091-23b3-4f87-a6bc-bdbea2f609ae",
+   "beacd3d6-e414-42ea-baf9-3ddc34fc143a",
+   "c0386702-0699-4550-920b-1f7027c9a3d9",
+   "c37d0026-989b-4705-9bcb-30cccd8308fa",
+   "d2df16f3-87d7-4c6e-a640-95cee39a8f4e",
+   "defc8417-eeb6-4f13-8fcd-6518b99a40f4",
+   "e00c46c4-bd3c-4d88-8d30-fc6f951554bd",
+   "ecfcf554-254f-4dd7-a20c-b60cc6b16054",
+   "ed41ca50-bb2a-41e2-a332-9b2df83040c1",
+   "f53dbdb1-2f64-42f8-a6a4-0552c40e4f57",
+   "f6f1a9c5-a956-4a10-98ad-b83525e843fb"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 25
  },
  "http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5": {
   "uri": "http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5",
@@ -26393,6 +27281,69 @@
   "narrowerCount": 1,
   "optionalFor": 3
  },
+ "http://data.europa.eu/esco/skill/b4b3b539-81ae-43aa-a540-0e2ea2c7e802": {
+  "uri": "http://data.europa.eu/esco/skill/b4b3b539-81ae-43aa-a540-0e2ea2c7e802",
+  "label": "skladování potravin",
+  "description": "Vhodné podmínky a metody uchovávání potravin v rámci jejich ochrany před zkažením, a to se zohledněním vlhkosti, osvětlení, teploty a dalších faktorů daného prostředí.",
+  "essentialFor": [
+   "00ab5610-e715-428f-99f6-b1e5e469dbcd",
+   "01484951-15e6-4b88-a20f-1201868d36a0",
+   "062d666b-8b5f-4ff2-9047-113831eb3e9f",
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34",
+   "2a2da883-8af5-4b98-832e-00e6681b22c3",
+   "2f26a52b-cf45-4282-9138-478252161f00",
+   "37c7880e-cfee-4c41-a41b-061682fefde3",
+   "48b336d2-7ffb-49a3-a010-444b68ddd12d",
+   "4b709f9e-6112-4d58-81b0-2d6e6a69d61b",
+   "68ffc53b-6067-4fe7-bd85-c96f4a6c1e45",
+   "709170ae-2b9a-4e7a-8201-260da7211898",
+   "7e33b166-4a6d-40f3-8048-83b3a9d3ef49",
+   "8188136d-df82-4910-91e1-b185ec17c3c9",
+   "84dfc210-db07-4a83-87fe-d6131907ea83",
+   "9aeefea6-11c3-4479-b703-902ee84787d7",
+   "a256838b-0843-4ad2-a2fb-4531f94e63d8",
+   "b10dc548-10e1-4447-8406-5101ff170bbf",
+   "b4306d87-7992-47fc-914a-4485a4e7003c",
+   "c0386702-0699-4550-920b-1f7027c9a3d9",
+   "c37d0026-989b-4705-9bcb-30cccd8308fa",
+   "c872187a-079b-413b-8503-7b5dd92abb88",
+   "d4cbc865-ad88-4b07-9525-2af3dd31cf0d",
+   "defc8417-eeb6-4f13-8fcd-6518b99a40f4",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "f6f1a9c5-a956-4a10-98ad-b83525e843fb",
+   "f84dbfe2-fa6b-43ef-97f5-54c3ad9c631f"
+  ],
+  "essentialForDirect": [
+   "00ab5610-e715-428f-99f6-b1e5e469dbcd",
+   "01484951-15e6-4b88-a20f-1201868d36a0",
+   "062d666b-8b5f-4ff2-9047-113831eb3e9f",
+   "11e6d39e-1295-40e7-8eea-3eb042bc7e34",
+   "2a2da883-8af5-4b98-832e-00e6681b22c3",
+   "2f26a52b-cf45-4282-9138-478252161f00",
+   "37c7880e-cfee-4c41-a41b-061682fefde3",
+   "48b336d2-7ffb-49a3-a010-444b68ddd12d",
+   "4b709f9e-6112-4d58-81b0-2d6e6a69d61b",
+   "68ffc53b-6067-4fe7-bd85-c96f4a6c1e45",
+   "709170ae-2b9a-4e7a-8201-260da7211898",
+   "7e33b166-4a6d-40f3-8048-83b3a9d3ef49",
+   "8188136d-df82-4910-91e1-b185ec17c3c9",
+   "84dfc210-db07-4a83-87fe-d6131907ea83",
+   "9aeefea6-11c3-4479-b703-902ee84787d7",
+   "a256838b-0843-4ad2-a2fb-4531f94e63d8",
+   "b10dc548-10e1-4447-8406-5101ff170bbf",
+   "b4306d87-7992-47fc-914a-4485a4e7003c",
+   "c0386702-0699-4550-920b-1f7027c9a3d9",
+   "c37d0026-989b-4705-9bcb-30cccd8308fa",
+   "c872187a-079b-413b-8503-7b5dd92abb88",
+   "d4cbc865-ad88-4b07-9525-2af3dd31cf0d",
+   "defc8417-eeb6-4f13-8fcd-6518b99a40f4",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "f6f1a9c5-a956-4a10-98ad-b83525e843fb",
+   "f84dbfe2-fa6b-43ef-97f5-54c3ad9c631f"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 10
+ },
  "http://data.europa.eu/esco/skill/b6d7afec-bee3-46e8-8651-c6b1f38d435d": {
   "uri": "http://data.europa.eu/esco/skill/b6d7afec-bee3-46e8-8651-c6b1f38d435d",
   "label": "posuzovat povahu zranění při mimořádné události",
@@ -27285,6 +28236,25 @@
   "narrowerCount": 0,
   "optionalFor": 2
  },
+ "http://data.europa.eu/esco/skill/bb2b4485-2bad-402f-8517-44bf7d9afff4": {
+  "uri": "http://data.europa.eu/esco/skill/bb2b4485-2bad-402f-8517-44bf7d9afff4",
+  "label": "zavést antivirový software",
+  "description": "Stáhnout, instalovat a aktualizovat software pro prevenci, odhalování a odstraňování škodlivého softwaru, jako jsou počítačové viry.",
+  "essentialFor": [
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "64c7d461-152c-477f-a8e2-c2c537e9d617",
+   "81480b40-a318-47f3-9b2c-56b69ed67d95",
+   "9e2e6e1e-363b-4e1b-a673-7bc0f7343300"
+  ],
+  "essentialForDirect": [
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "64c7d461-152c-477f-a8e2-c2c537e9d617",
+   "81480b40-a318-47f3-9b2c-56b69ed67d95",
+   "9e2e6e1e-363b-4e1b-a673-7bc0f7343300"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 19
+ },
  "http://data.europa.eu/esco/skill/bb54f559-df6f-44ed-81df-f6bf3d43f07d": {
   "uri": "http://data.europa.eu/esco/skill/bb54f559-df6f-44ed-81df-f6bf3d43f07d",
   "label": "rozvíjet obrannou politiku",
@@ -27378,6 +28348,29 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 3
+ },
+ "http://data.europa.eu/esco/skill/bca6e153-2209-4b36-9d05-4e0d382ffc57": {
+  "uri": "http://data.europa.eu/esco/skill/bca6e153-2209-4b36-9d05-4e0d382ffc57",
+  "label": "spravovat materiál pro venkovní aktivity",
+  "description": "Rozpoznat a spojit meteorologii s topografií; použít princip „nezanechat žádné stopy“.",
+  "essentialFor": [
+   "1185cfe1-49a7-44a7-8dee-45b2f36727f9",
+   "234be692-befb-41df-bdf0-e1b2f4eaf5e7",
+   "4dceca8d-9faf-487b-b342-c9d7dc209533",
+   "67d8c64f-e0d9-4e0b-be8b-510f9e20e698",
+   "6e298596-882b-4687-a0cf-3eb37f8fd328",
+   "a1b32703-a2e5-4e0a-910f-7cdd0293b52d"
+  ],
+  "essentialForDirect": [
+   "1185cfe1-49a7-44a7-8dee-45b2f36727f9",
+   "234be692-befb-41df-bdf0-e1b2f4eaf5e7",
+   "4dceca8d-9faf-487b-b342-c9d7dc209533",
+   "67d8c64f-e0d9-4e0b-be8b-510f9e20e698",
+   "6e298596-882b-4687-a0cf-3eb37f8fd328",
+   "a1b32703-a2e5-4e0a-910f-7cdd0293b52d"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 1
  },
  "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707": {
   "uri": "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707",
@@ -27611,6 +28604,116 @@
    "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d"
   ],
   "narrowerCount": 2,
+  "optionalFor": 36
+ },
+ "http://data.europa.eu/esco/skill/bdcac0c8-b77a-4640-9eaf-c0cf3efd1e23": {
+  "uri": "http://data.europa.eu/esco/skill/bdcac0c8-b77a-4640-9eaf-c0cf3efd1e23",
+  "label": "zpracovávat platby",
+  "description": "Přijímat platby, jako je hotovost, kreditní karty a debetní karty. Vyřizovat vrácení v případě reklamace nebo spravovat poukázky a marketingové nástroje, jako jsou prémiové karty nebo členské karty. Věnovat pozornost bezpečnosti a ochraně osobních údajů.",
+  "essentialFor": [
+   "009d29de-5872-43be-8d9b-abd27f8c99f1",
+   "099a901f-91a7-4d26-af2e-f385247dcf20",
+   "099c6bb0-22d3-4c5d-8bf5-70910af381ef",
+   "11103139-4555-4696-b331-1ee581ff9a38",
+   "13da27aa-ca6a-476d-ab2c-efc9e5bd97b2",
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b",
+   "2b871272-bd61-4206-bd1a-0b96d7023098",
+   "2bedd02b-aeeb-4ed8-b1ae-29a706638414",
+   "2d5a50c6-0bf4-45c3-805c-44d1bf1e3d12",
+   "2f5e38a0-6578-4665-bdbd-e2ab505be140",
+   "2ff9e53c-6e7f-42af-8d71-b5dd7f283089",
+   "3900b684-6b4b-4133-b134-e1d129d60383",
+   "3cc87d40-f402-4f57-9353-4b36a031cfc5",
+   "3f32394b-f1b1-48ef-96ee-74405fb7c6b6",
+   "4e0c14d6-b170-40f1-bcdc-703c0b92109b",
+   "4e7a3641-7bd3-4290-9f0c-0e7ca776fb0e",
+   "50a66df6-c141-4b4a-937a-d3bc55737ae3",
+   "53ed8787-3423-4843-8c63-7be1877d29e2",
+   "56245067-16f0-43e7-84fa-4a1e794a6ac0",
+   "601db24d-cc02-48f3-9939-8c8b41b34ef7",
+   "612430b3-dd43-4786-b823-0466c4953f66",
+   "6a6e174e-cffa-49a9-9f2f-aa39c81cdee5",
+   "6e0e068b-cd5c-4400-8899-54056087fa14",
+   "6e6e44ba-d9f0-403b-93d4-a8d4bd67787a",
+   "73357956-f607-4baa-9ce6-03beb9b39da2",
+   "7720f392-6ea0-4455-a805-7b7eef38a709",
+   "79f8f68c-5509-4119-9373-8bef1c364d31",
+   "82025c02-9082-416c-998b-f51eb0359ee6",
+   "8dded776-dc04-4099-a32c-7c5a41ee00e1",
+   "961cbd1f-2a9b-4756-b227-67a1c23c94b6",
+   "96a0d8d3-d4a6-473d-80d6-b5dbadde940a",
+   "9cee6106-04cf-401a-ae4c-b4b8652d6915",
+   "a1da839e-9b70-4032-bb83-820790e77003",
+   "a527f263-0feb-4d55-b416-0577e9dc7847",
+   "ade351da-7bda-424e-8682-bbdcab2a25be",
+   "b059d331-2dd9-4d7d-923e-1dd029d2e58c",
+   "b2e81332-0972-4e0f-9a4d-1d15c9c9513b",
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "b972feaa-e2a6-4b22-9de4-18040f3f04eb",
+   "bdf2dd9d-6c92-46f4-a8e7-76c12302d3e7",
+   "bffbe18a-cb8b-4f90-bd87-7505cd3b16f5",
+   "c76dda38-938c-404e-8a6d-78c8705eebc0",
+   "c822ca35-6c36-4eab-97fa-90f2775091c3",
+   "d3fd0898-51f7-42a3-8f44-09408fc796f6",
+   "d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471",
+   "d6b339ed-8dc9-4281-8c91-c8287eceee40",
+   "e20816a9-51d0-410b-b2c6-cbc22c1c4256",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "f00154a5-d27f-429e-b9a4-1d65c672cee7",
+   "f874980a-e08f-4a58-bc21-2ff3cf472ec5",
+   "fcaab37b-ada2-4832-a2fd-9d64362e0280"
+  ],
+  "essentialForDirect": [
+   "009d29de-5872-43be-8d9b-abd27f8c99f1",
+   "099a901f-91a7-4d26-af2e-f385247dcf20",
+   "099c6bb0-22d3-4c5d-8bf5-70910af381ef",
+   "11103139-4555-4696-b331-1ee581ff9a38",
+   "13da27aa-ca6a-476d-ab2c-efc9e5bd97b2",
+   "291da1ab-1f90-426d-bbc5-60d0fa7d608b",
+   "2b871272-bd61-4206-bd1a-0b96d7023098",
+   "2bedd02b-aeeb-4ed8-b1ae-29a706638414",
+   "2d5a50c6-0bf4-45c3-805c-44d1bf1e3d12",
+   "2f5e38a0-6578-4665-bdbd-e2ab505be140",
+   "2ff9e53c-6e7f-42af-8d71-b5dd7f283089",
+   "3900b684-6b4b-4133-b134-e1d129d60383",
+   "3cc87d40-f402-4f57-9353-4b36a031cfc5",
+   "3f32394b-f1b1-48ef-96ee-74405fb7c6b6",
+   "4e0c14d6-b170-40f1-bcdc-703c0b92109b",
+   "4e7a3641-7bd3-4290-9f0c-0e7ca776fb0e",
+   "50a66df6-c141-4b4a-937a-d3bc55737ae3",
+   "53ed8787-3423-4843-8c63-7be1877d29e2",
+   "56245067-16f0-43e7-84fa-4a1e794a6ac0",
+   "601db24d-cc02-48f3-9939-8c8b41b34ef7",
+   "612430b3-dd43-4786-b823-0466c4953f66",
+   "6a6e174e-cffa-49a9-9f2f-aa39c81cdee5",
+   "6e0e068b-cd5c-4400-8899-54056087fa14",
+   "6e6e44ba-d9f0-403b-93d4-a8d4bd67787a",
+   "73357956-f607-4baa-9ce6-03beb9b39da2",
+   "79f8f68c-5509-4119-9373-8bef1c364d31",
+   "82025c02-9082-416c-998b-f51eb0359ee6",
+   "8dded776-dc04-4099-a32c-7c5a41ee00e1",
+   "961cbd1f-2a9b-4756-b227-67a1c23c94b6",
+   "96a0d8d3-d4a6-473d-80d6-b5dbadde940a",
+   "a1da839e-9b70-4032-bb83-820790e77003",
+   "a527f263-0feb-4d55-b416-0577e9dc7847",
+   "b059d331-2dd9-4d7d-923e-1dd029d2e58c",
+   "b2e81332-0972-4e0f-9a4d-1d15c9c9513b",
+   "b5d76ddd-f59a-491a-9543-f6c0e2d8a950",
+   "b972feaa-e2a6-4b22-9de4-18040f3f04eb",
+   "bdf2dd9d-6c92-46f4-a8e7-76c12302d3e7",
+   "bffbe18a-cb8b-4f90-bd87-7505cd3b16f5",
+   "c76dda38-938c-404e-8a6d-78c8705eebc0",
+   "c822ca35-6c36-4eab-97fa-90f2775091c3",
+   "d3fd0898-51f7-42a3-8f44-09408fc796f6",
+   "d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471",
+   "d6b339ed-8dc9-4281-8c91-c8287eceee40",
+   "e20816a9-51d0-410b-b2c6-cbc22c1c4256",
+   "e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+   "f00154a5-d27f-429e-b9a4-1d65c672cee7",
+   "f874980a-e08f-4a58-bc21-2ff3cf472ec5",
+   "fcaab37b-ada2-4832-a2fd-9d64362e0280"
+  ],
+  "narrowerCount": 3,
   "optionalFor": 36
  },
  "http://data.europa.eu/esco/skill/be3f635b-b400-4eb3-b4cc-c44a34f26eae": {
@@ -30111,6 +31214,29 @@
   "narrowerCount": 0,
   "optionalFor": 11
  },
+ "http://data.europa.eu/esco/skill/d08c420c-d3c6-4485-af6f-f2544e9aa0ac": {
+  "uri": "http://data.europa.eu/esco/skill/d08c420c-d3c6-4485-af6f-f2544e9aa0ac",
+  "label": "provádět posouzení rizik u venkovních aktivit",
+  "description": "Navrhovat a předvádět uplatňování odpovědných a bezpečných postupů v odvětví outdoorových aktivit.",
+  "essentialFor": [
+   "1185cfe1-49a7-44a7-8dee-45b2f36727f9",
+   "234be692-befb-41df-bdf0-e1b2f4eaf5e7",
+   "4dceca8d-9faf-487b-b342-c9d7dc209533",
+   "67d8c64f-e0d9-4e0b-be8b-510f9e20e698",
+   "6e298596-882b-4687-a0cf-3eb37f8fd328",
+   "a1b32703-a2e5-4e0a-910f-7cdd0293b52d"
+  ],
+  "essentialForDirect": [
+   "1185cfe1-49a7-44a7-8dee-45b2f36727f9",
+   "234be692-befb-41df-bdf0-e1b2f4eaf5e7",
+   "4dceca8d-9faf-487b-b342-c9d7dc209533",
+   "67d8c64f-e0d9-4e0b-be8b-510f9e20e698",
+   "6e298596-882b-4687-a0cf-3eb37f8fd328",
+   "a1b32703-a2e5-4e0a-910f-7cdd0293b52d"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 2
+ },
  "http://data.europa.eu/esco/skill/d0f2f8a7-d935-4a6d-8e54-dcc3e5e2cbeb": {
   "uri": "http://data.europa.eu/esco/skill/d0f2f8a7-d935-4a6d-8e54-dcc3e5e2cbeb",
   "label": "prezentovat zprávy",
@@ -30507,6 +31633,47 @@
   ],
   "narrowerCount": 1,
   "optionalFor": 1
+ },
+ "http://data.europa.eu/esco/skill/d220e067-ed2b-4ad0-94b9-7b27cb4aed22": {
+  "uri": "http://data.europa.eu/esco/skill/d220e067-ed2b-4ad0-94b9-7b27cb4aed22",
+  "label": "vojenská výzbroj",
+  "description": "Typy zbraní používaných různými vojenskými složkami, jako je armáda, námořnictvo a letectvo, v rámci různých národů po celém světě; vlastnosti zbraní, jejich ničivý potenciál a způsob, jak se proti nim bránit.",
+  "essentialFor": [
+   "1de91afd-9da2-47ab-a7e7-19bf931709a4",
+   "262f21a3-ae78-46f4-a5f9-5a1f502caa90",
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f",
+   "555235ce-8c45-409b-a6c9-83e69c2d2bce",
+   "7696b15a-c52e-4ac5-b38d-9eeb010c5fa3",
+   "853698f5-0f1e-42ae-9301-e5411a26dae2",
+   "86c892cf-09a3-44c8-b9d1-814d93dbcbb4",
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497",
+   "b223f402-0318-4e27-8691-df6e7f7295d2",
+   "b864c9a3-ef6e-46a0-a40c-66188f74dfa7",
+   "bbd1fe06-1b55-4937-9317-fc162311ab38",
+   "c6a26e11-bdf1-47a1-849d-fdcf819d458d",
+   "cb3b2662-774a-4e6f-841e-f120244d7031",
+   "e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4",
+   "f2cc5978-e45c-4f28-b859-7f89221b0505"
+  ],
+  "essentialForDirect": [
+   "1de91afd-9da2-47ab-a7e7-19bf931709a4",
+   "262f21a3-ae78-46f4-a5f9-5a1f502caa90",
+   "4a3f40a8-0587-494c-b8d3-7098b8c5992f",
+   "555235ce-8c45-409b-a6c9-83e69c2d2bce",
+   "7696b15a-c52e-4ac5-b38d-9eeb010c5fa3",
+   "853698f5-0f1e-42ae-9301-e5411a26dae2",
+   "86c892cf-09a3-44c8-b9d1-814d93dbcbb4",
+   "9bf4c8ea-e814-4772-ae31-0f29672dc497",
+   "b223f402-0318-4e27-8691-df6e7f7295d2",
+   "b864c9a3-ef6e-46a0-a40c-66188f74dfa7",
+   "bbd1fe06-1b55-4937-9317-fc162311ab38",
+   "c6a26e11-bdf1-47a1-849d-fdcf819d458d",
+   "cb3b2662-774a-4e6f-841e-f120244d7031",
+   "e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4",
+   "f2cc5978-e45c-4f28-b859-7f89221b0505"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 4
  },
  "http://data.europa.eu/esco/skill/d2f95b34-44ca-4902-8252-09c202f46a3d": {
   "uri": "http://data.europa.eu/esco/skill/d2f95b34-44ca-4902-8252-09c202f46a3d",
@@ -31736,6 +32903,27 @@
   "narrowerCount": 0,
   "optionalFor": 15
  },
+ "http://data.europa.eu/esco/skill/df329d70-87b0-466b-a214-3431f36e2a5e": {
+  "uri": "http://data.europa.eu/esco/skill/df329d70-87b0-466b-a214-3431f36e2a5e",
+  "label": "chránit zařízení IKT",
+  "description": "Chránit zařízení a digitální obsah a chápat rizika a hrozby v digitálním prostředí. Seznámit se s bezpečnostními a ochrannými opatřeními a řádně zohlednit spolehlivost a soukromí. Využívat nástroje a metody, které maximalizují bezpečnost zařízení a informací v oblasti informačních a komunikačních technologií prostřednictvím kontroly přístupu, jako jsou hesla, digitální podpisy, biometrie a ochrany systémů, jako je firewall, antivirový systém, filtry proti spamu.",
+  "essentialFor": [
+   "0ce5a9f4-e00a-4bbe-b255-3c63407167a4",
+   "102e75c8-3b47-4964-9b47-30a980aed25c",
+   "8cb59bc4-1f39-477e-beea-effed12d186c",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "cc325a8f-702e-4bf0-893f-5b5d456475ad",
+   "fe0fa514-b48d-4a53-9757-a283c0baacf0"
+  ],
+  "essentialForDirect": [
+   "0ce5a9f4-e00a-4bbe-b255-3c63407167a4",
+   "102e75c8-3b47-4964-9b47-30a980aed25c",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "cc325a8f-702e-4bf0-893f-5b5d456475ad"
+  ],
+  "narrowerCount": 2,
+  "optionalFor": 0
+ },
  "http://data.europa.eu/esco/skill/dfb9cec6-3ae3-408a-9d57-c44361bf7aaf": {
   "uri": "http://data.europa.eu/esco/skill/dfb9cec6-3ae3-408a-9d57-c44361bf7aaf",
   "label": "poskytovat multimediální obsah",
@@ -32147,6 +33335,22 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 2
+ },
+ "http://data.europa.eu/esco/skill/e2c6ceb1-2356-46f7-9129-a9ae88cfb162": {
+  "uri": "http://data.europa.eu/esco/skill/e2c6ceb1-2356-46f7-9129-a9ae88cfb162",
+  "label": "vybírat ovoce a zeleninu",
+  "description": "Vybírat ovoce a zeleninu pro sběr podle velikosti, barvy a zralosti.",
+  "essentialFor": [
+   "373db468-bd25-4b67-a6e0-4ac79d9a9e85",
+   "51ca3c6e-1c9b-49e4-aa09-9e77d1a59547",
+   "5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32"
+  ],
+  "essentialForDirect": [
+   "373db468-bd25-4b67-a6e0-4ac79d9a9e85",
+   "5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32"
+  ],
+  "narrowerCount": 3,
+  "optionalFor": 0
  },
  "http://data.europa.eu/esco/skill/e2c81781-19c8-4349-94a2-7ae3a541596a": {
   "uri": "http://data.europa.eu/esco/skill/e2c81781-19c8-4349-94a2-7ae3a541596a",
@@ -32933,6 +34137,31 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 1
+ },
+ "http://data.europa.eu/esco/skill/ee95757e-6d1e-47b6-b9e0-b16512dc25a9": {
+  "uri": "http://data.europa.eu/esco/skill/ee95757e-6d1e-47b6-b9e0-b16512dc25a9",
+  "label": "míchat nápoje",
+  "description": "Vytvářet nové nápoje, které jsou atraktivní pro trh, zajímavé pro podniky a inovativní na trhu.",
+  "essentialFor": [
+   "497a65bf-04e5-48ed-939e-2a68419f8144",
+   "5baffa9d-1607-4665-be94-662bad26b9ff",
+   "7cd070f5-b5dd-4228-bdcf-0419dbacfcf4",
+   "9757122b-1161-4f4a-8286-a603d4ad7012",
+   "beacd3d6-e414-42ea-baf9-3ddc34fc143a",
+   "ca2da084-3bfa-47d8-84ba-ef890191708d",
+   "f4e0016b-29fa-48ac-b98d-364c658f8aed"
+  ],
+  "essentialForDirect": [
+   "497a65bf-04e5-48ed-939e-2a68419f8144",
+   "5baffa9d-1607-4665-be94-662bad26b9ff",
+   "7cd070f5-b5dd-4228-bdcf-0419dbacfcf4",
+   "9757122b-1161-4f4a-8286-a603d4ad7012",
+   "beacd3d6-e414-42ea-baf9-3ddc34fc143a",
+   "ca2da084-3bfa-47d8-84ba-ef890191708d",
+   "f4e0016b-29fa-48ac-b98d-364c658f8aed"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 0
  },
  "http://data.europa.eu/esco/skill/eed2447e-13a2-4583-9066-cdb38d90c808": {
   "uri": "http://data.europa.eu/esco/skill/eed2447e-13a2-4583-9066-cdb38d90c808",
@@ -34361,6 +35590,59 @@
   "narrowerCount": 0,
   "optionalFor": 16
  },
+ "http://data.europa.eu/esco/skill/f9a6f35b-01a7-40c9-8b61-b6ee46f97272": {
+  "uri": "http://data.europa.eu/esco/skill/f9a6f35b-01a7-40c9-8b61-b6ee46f97272",
+  "label": "operační systémy",
+  "description": "Funkce, omezení, architektury a další vlastnosti operačních systémů, jako jsou Linux, Windows, MacOS atd.",
+  "essentialFor": [
+   "0464b062-cea6-4164-b10d-956c61956ae7",
+   "0c448a27-10ec-43ba-b880-d9938bade424",
+   "0ce5a9f4-e00a-4bbe-b255-3c63407167a4",
+   "2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c",
+   "349ee6f6-c295-4c38-9b98-48765b55280e",
+   "76ef0a87-6afe-4560-b5d0-9a086abe45c5",
+   "9e2e6e1e-363b-4e1b-a673-7bc0f7343300",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "b37d15b3-402e-4792-8292-f18c0de7aca6",
+   "bb6198c4-1d3e-40b9-9cc4-ad2dd9d7c74b",
+   "cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d",
+   "f0f6d531-eb96-4bad-84ff-8e2999ea68e6"
+  ],
+  "essentialForDirect": [
+   "0464b062-cea6-4164-b10d-956c61956ae7",
+   "0c448a27-10ec-43ba-b880-d9938bade424",
+   "0ce5a9f4-e00a-4bbe-b255-3c63407167a4",
+   "349ee6f6-c295-4c38-9b98-48765b55280e",
+   "76ef0a87-6afe-4560-b5d0-9a086abe45c5",
+   "9e2e6e1e-363b-4e1b-a673-7bc0f7343300",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d"
+  ],
+  "narrowerCount": 4,
+  "optionalFor": 1
+ },
+ "http://data.europa.eu/esco/skill/f9e788df-d68a-4f92-92c7-80e135fc35ff": {
+  "uri": "http://data.europa.eu/esco/skill/f9e788df-d68a-4f92-92c7-80e135fc35ff",
+  "label": "hardware sítí ICT",
+  "description": "Zařízení informačních a komunikačních technologií nebo zařízení pro vytváření počítačových sítí, jako jsou systémy UPS, elektrické systémy, zařízení pro vytváření sítí a strukturované kabelové systémy.",
+  "essentialFor": [
+   "2ef000b1-8058-4e5a-9646-c5d4e7dbfdae",
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "64c7d461-152c-477f-a8e2-c2c537e9d617",
+   "8edd8bff-cb59-4c9c-ab0f-59e77d18be48",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "e0b544dd-b621-4126-a55e-054af25c6ea0"
+  ],
+  "essentialForDirect": [
+   "2ef000b1-8058-4e5a-9646-c5d4e7dbfdae",
+   "3e7bf729-4442-4b9f-ad5e-83111963795c",
+   "64c7d461-152c-477f-a8e2-c2c537e9d617",
+   "8edd8bff-cb59-4c9c-ab0f-59e77d18be48",
+   "a44a1dc5-be08-4840-8bd5-770c4ac1ca6d",
+   "e0b544dd-b621-4126-a55e-054af25c6ea0"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 1
+ },
  "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a": {
   "uri": "http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a",
   "label": "připravit záložní plán pro krizové situace",
@@ -35250,6 +36532,19 @@
   ],
   "narrowerCount": 0,
   "optionalFor": 3
+ },
+ "http://data.europa.eu/esco/skill/fef96bad-e623-42cd-b961-d1adf39db8b9": {
+  "uri": "http://data.europa.eu/esco/skill/fef96bad-e623-42cd-b961-d1adf39db8b9",
+  "label": "mediální a informační gramotnost",
+  "description": "Schopnost získat přístup k médiím, porozumět různým aspektům médií a jejich obsahu a kriticky jej hodnotit a vytvářet sdělení v různých oblastech. Patří sem řada kognitivních, emocionálních a sociálních schopností, které zahrnují používání textových nástrojů a technologií, schopnost kritického myšlení a analýzy, vytváření zpráv a tvořivost a schopnost zapojit reflexivní a etické myšlení.",
+  "essentialFor": [
+   "094e04fd-3039-4615-850b-b232794f84f5"
+  ],
+  "essentialForDirect": [
+   "094e04fd-3039-4615-850b-b232794f84f5"
+  ],
+  "narrowerCount": 0,
+  "optionalFor": 5
  },
  "http://data.europa.eu/esco/skill/ff258a7e-b2ba-414a-9878-2380ecf89de0": {
   "uri": "http://data.europa.eu/esco/skill/ff258a7e-b2ba-414a-9878-2380ecf89de0",

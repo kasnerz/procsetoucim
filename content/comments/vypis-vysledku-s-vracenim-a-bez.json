@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Táhneš dvě kuličky z pytlíku a záleží na tom, jestli první vrátíš zpátky. S vracením můžeš vytáhnout dvakrát tutéž, bez vracení ne, a tím se změní seznam všech možných výsledků i šance každého z nich. Ten rozdíl potkáš u losování nebo u karetních her. V práci s ním počítají hlavně lidé, kteří odhadují rizika pro firmy a pojišťovny, pro ostatní je to spíš základ, na kterém stojí další počítání pravděpodobnosti. Chatbot ti výčet zkontroluje, jenže úlohu mu musíš zadat správně, a k tomu potřebuješ poznat, o který případ jde.",
+  "learnWithAi": [
+    {
+      "title": "Dva výpisy pro stejný pytlík",
+      "text": "Vezmi tři kuličky různých barev a vypiš všechny dvojice s vracením i bez něj. Oba seznamy dej chatbotovi a nech ho najít, co chybí nebo přebývá."
+    },
+    {
+      "title": "Poznávání typu úlohy",
+      "text": "Chatbot ti může dát deset krátkých zadání ze života, třeba losování ve třídě nebo dva hody kostkou. U každého rozhodni, jestli jde o tah s vracením, nebo bez, a porovnej to s jeho odpovědí."
+    },
+    {
+      "title": "Pokus se čtyřmi kartami",
+      "text": "Zamíchej čtyři různé karty, táhni dvě bez vracení a pokus zopakuj dvacetkrát. S chatbotem pak prober, proč se některé dvojice objevily častěji, i když mají stejnou šanci."
+    }
+  ]
+}

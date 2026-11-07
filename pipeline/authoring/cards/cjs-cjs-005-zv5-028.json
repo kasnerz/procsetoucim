@@ -1,0 +1,125 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-028",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "rozdil-policista-a-vojak",
+      "title": "Rozdíl mezi policistou a vojákem",
+      "aliases": ["policista a voják", "policie a armáda", "kdo co dělá", "voják nebo policista"],
+      "sources": [{"level": "Na začátku", "quote": "Uvede rozdíl mezi policistou a vojákem a tím, co dělají."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, co dělá policie a co armáda, a zeptá se tě na příklady."},
+        "internet": {"verdict": "pomuze", "why": "Na stránkách policie a armády najdeš popis jejich práce."},
+        "aplikace": {"verdict": "nepomuze", "why": "Žádná aplikace ti rozdíl mezi policistou a vojákem nevysvětlí."},
+        "klasicky": {"verdict": "nepomuze", "why": "Encyklopedie pro děti je k tomu užitečná, ale klasický nástroj to není."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/499c05a2-6f36-4407-83c1-dc3448d35818",
+        "http://data.europa.eu/esco/skill/42645b84-0699-4072-b9cf-335512434b67"
+      ],
+      "inspiration": ["Policista nebo voják"]
+    },
+    {
+      "slug": "cinnosti-armady-v-miru-a-ve-valce",
+      "title": "Co dělá armáda v míru a co ve válce",
+      "aliases": ["armáda v míru", "armáda za války", "úkoly armády", "mise armády", "povodně a armáda"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Třídí na modelových situacích hlavní činnosti Armády ČR v době míru a při válečných konfliktech."},
+        {"level": "Na cestě", "quote": "Vyhledává příklady o činnosti Armády ČR v době míru"},
+        {"level": "Splněno", "quote": "Porovná základní činnosti armády v době míru a při válečných konfliktech."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vymyslí ti situace k třídění a vysvětlí, kam která patří."},
+        "internet": {"verdict": "pomuze", "why": "Zprávy a stránky armády ukážou skutečné příklady z míru i z konfliktů."},
+        "aplikace": {"verdict": "nepomuze", "why": "Pro třídění činností armády žádná aplikace není."},
+        "klasicky": {"verdict": "pomuze", "why": "Kartičky se situacemi si roztřídíš na stole do dvou hromádek."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0",
+        "http://data.europa.eu/esco/skill/d220e067-ed2b-4ad0-94b9-7b27cb4aed22"
+      ],
+      "inspiration": ["Činnost armády"]
+    },
+    {
+      "slug": "hlavni-funkce-armady",
+      "title": "Hlavní úkol armády: obrana státu a mír",
+      "aliases": ["obrana státu", "k čemu je armáda", "zahraniční mise", "územní celistvost", "suverenita"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Vysvětlí, jaká je hlavní funkce Armády ČR"},
+        {"level": "Splněno", "quote": "Vyhledá a popíše hlavní úkoly Armády ČR a příklady její činnosti při obraně suverenity a územní celistvosti ČR."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Řekne ti jednoduše, co je obrana státu, a ptá se, jestli jí rozumíš."},
+        "internet": {"verdict": "pomuze", "why": "Oficiální stránky armády uvádějí její úkoly a ukázky z cvičení a misí."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace pro úkoly armády nejsou, vysvětlení najdeš jinde."},
+        "klasicky": {"verdict": "nepomuze", "why": "Mapa ukáže hranice, úkoly armády z ní nevyčteš."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0",
+        "http://data.europa.eu/esco/skill/7fc1bae3-eb9b-4609-a374-01c2a39d827d"
+      ],
+      "inspiration": ["Vojáci brání svou zemi"]
+    },
+    {
+      "slug": "armada-pomaha-pri-zivelnich-udalostech",
+      "title": "Pomoc armády při mimořádných událostech",
+      "aliases": ["armáda při povodni", "vojáci pomáhají", "mimořádná událost", "pomoc při katastrofě"],
+      "sources": [{"level": "Splněno", "quote": "Vyhledá a popíše příklady pomoci Armády ČR při ochraně zdraví a bezpečí při mimořádných událostech nevojenského charakteru."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Pomůže ti sestavit osnovu, co vojáci při povodni dělají, a zkontroluje ji."},
+        "internet": {"verdict": "pomuze", "why": "Zpravodajství a stránky armády popisují konkrétní zásahy při povodních a požárech."},
+        "aplikace": {"verdict": "nepomuze", "why": "Pro příklady pomoci armády není žádná aplikace."},
+        "klasicky": {"verdict": "nepomuze", "why": "Příklady zásahů si musíš dohledat, žádný klasický nástroj je nenabídne."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+        "http://data.europa.eu/esco/skill/b6d7afec-bee3-46e8-8651-c6b1f38d435d"
+      ],
+      "inspiration": ["Činnost armády při mimořádných událostech"]
+    },
+    {
+      "slug": "obcane-a-bezpecnost-statu",
+      "title": "Jak občané přispívají k bezpečnosti státu",
+      "aliases": ["role občanů", "humanitární pomoc", "práce v armádě", "bezpečnost státu", "záchranné složky"],
+      "sources": [{"level": "Splněno", "quote": "Popíše úlohu občanů při zajišťování bezpečnosti státu"}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ukáže ti, jak může pomoci každý člověk, a zeptá se tě na vlastní nápady."},
+        "internet": {"verdict": "pomuze", "why": "Stránky armády a humanitárních organizací ukazují, jak se zapojit."},
+        "aplikace": {"verdict": "nepomuze", "why": "Aplikace ti úlohu občanů nevysvětlí."},
+        "klasicky": {"verdict": "nepomuze", "why": "Pro tuto otázku neexistuje klasický nástroj."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/05a7f9e0-1ebd-4853-890b-c78f37096d51",
+        "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0"
+      ],
+      "inspiration": ["Armáda ČR chrání naši bezpečnost"]
+    },
+    {
+      "slug": "cesko-v-nato",
+      "title": "Proč je Česko v NATO",
+      "aliases": ["NATO", "spojenci", "vojenská aliance", "bezpečnost státu"],
+      "sources": [{"level": "Splněno", "quote": "Uvede význam zapojení ČR do NATO pro zajištění bezpečnosti státu."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, co NATO znamená, a ověří, jak tomu rozumíš."},
+        "internet": {"verdict": "pomuze", "why": "Wikipedie a stránky NATO říkají, kdo je členem a co si členové slibují."},
+        "aplikace": {"verdict": "nepomuze", "why": "Pro význam členství v NATO žádná aplikace není."},
+        "klasicky": {"verdict": "pomuze", "why": "Na mapě vidíš, které země jsou členy a kde leží Česko."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0",
+        "http://data.europa.eu/esco/skill/2ca4c857-1450-4004-9fdb-8500def6b8fa"
+      ],
+      "inspiration": ["Armáda ČR chrání naši bezpečnost"]
+    }
+  ],
+  "aside": []
+}

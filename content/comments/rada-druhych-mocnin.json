@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Čísla 1, 4, 9, 16, 25 jsou počty teček ve čtvercích se stranou 1, 2, 3, 4 a 5. Když si je nakreslíš, uvidíš, proč mezery mezi nimi rostou: každý další čtverec dostane navíc celý pruh teček podél dvou stran. Díky obrázku řadu doplníš, i když si zrovna nepamatuješ, kolik je 13 na druhou. Druhé mocniny potkáš u plochy pokoje nebo u počtu dlaždic na čtvercovou terasu. Kalkulačka je spočítá hned, ale představa čtverce ti řekne, jestli výsledek dává smysl.",
+  "learnWithAi": [
+    {
+      "title": "Tečkované čtverce na papíře",
+      "text": "Na čtverečkovaný papír nakresli čtverce se stranou 1 až 6 a u každého spočítej, kolik teček přibylo. Zeptej se chatbota, jestli v přírůstcích vidí stejné pravidlo jako ty."
+    },
+    {
+      "title": "Odhad druhé mocniny zpaměti",
+      "text": "Řekni chatbotovi, ať ti zadává čísla do dvaceti, a ty bez kalkulačky urči jejich druhou mocninu. Když se spleteš, ať ti ukáže, jak výsledek odvodit z menšího čtverce."
+    },
+    {
+      "title": "Jiné obrazce z teček",
+      "text": "Požádej chatbota, ať ti slovy popíše řadu obrazců z teček, třeba trojúhelníků. Nakresli si je, napiš z nich řadu čísel a pravidlo zkus najít dřív, než ti ho prozradí."
+    }
+  ]
+}

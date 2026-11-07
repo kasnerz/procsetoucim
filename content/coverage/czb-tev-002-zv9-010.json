@@ -1,0 +1,73 @@
+{
+  "outcome": "CZB-TEV-002-ZV9-010",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Seznamuje se s konkrétním prostorem pro realizaci pohybových dovedností.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-priprava-telocvicny-prostor-organizace"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Sleduje přípravu na pohybovou činnost v oblasti materiální, fyziologické a mentální.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-priprava-materialni-pomucky-nacini",
+          "tv-priprava-fyziologicka-rozcvicka-telo",
+          "tv-priprava-mentalni-soustredeni-pred-pohybem"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zvažuje vhodnost přípravy konkrétního prostoru pro realizaci pohybových dovedností.",
+      "cards": [
+        "tv-priprava-neznameho-prostoru-v-terenu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Uvažuje a plánuje přípravu na pohybovou činnost v oblasti materiální, fyziologické a mentální.",
+      "cards": [
+        "tv-planovani-pripravy-na-vylet-ci-turnaj"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Spolupracuje při organizaci pohybových činností s ohledem na konkrétní prostor pro realizaci pohybových dovedností.",
+      "cards": [
+        "tv-priprava-neznameho-prostoru-v-terenu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Podílí se na materiální, fyziologické a mentální přípravě na pohybovou činnost.",
+      "cards": [
+        "tv-planovani-pripravy-na-vylet-ci-turnaj"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Spolupracuje při organizaci pohybových činností v prostorách určených pro realizaci pohybových činností.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "tv-priprava-telocvicny-prostor-organizace"
+        ]
+      }
+    }
+  ]
+}

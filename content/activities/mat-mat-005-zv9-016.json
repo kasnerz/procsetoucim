@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "procenta-v-realnych-ulohach",
+    "title": "Procenta v reálných úlohách",
+    "aliases": [
+      "procenta",
+      "počítání procent",
+      "sleva v procentech",
+      "kolik procent",
+      "základ a procentová část"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší reálné problémy s procenty.",
+        "quote": "Řeší reálné problémy s procenty."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Benefiční koncert",
+        "url": "https://uloziste.rvp.cz/material/7b29c4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí postup na slevě nebo úroku a zadá ti další úlohy na zkoušku."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové příklady procent s řešením krok za krokem."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na procenta zkontroluje tvůj výsledek a nabídne další příklady."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka s tlačítkem procent ti ověří tvůj výpočet."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pomer-a-umera-v-uloham",
+    "title": "Poměr a přímá úměra v reálných úlohách",
+    "aliases": [
+      "poměr",
+      "úměra",
+      "trojčlenka",
+      "přímá úměra",
+      "recept pro víc lidí",
+      "směs v poměru"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší reálné problémy pomocí poměru a úměry.",
+        "quote": "Řeší reálné problémy pomocí poměru a úměry."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak z poměru spočítat chybějící hodnotu, a vymyslí tolik příkladů, kolik chceš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vysvětlení trojčlenky a poměru s vyřešenými příklady."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na úlohy s poměrem ti hned řekne, jestli ti vyšlo správné číslo."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří dělení a násobení, které při úměře počítáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "podil-jako-dva-stejne-pomery",
+    "title": "Podíl jako dva stejné poměry",
+    "aliases": [
+      "rovnost poměrů",
+      "zápis podílu",
+      "proporce",
+      "a:b = c:d",
+      "dvojice stejných poměrů"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Zapíše podíl jako dva stejné poměry a modeluje proporcionální vztah.",
+        "quote": "Zapíše podíl jako dva stejné poměry a modeluje proporcionální vztah."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se dvě stejné poměry dají zapsat rovnicí, a zkontroluje tvůj zápis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš výklad proporcí s příklady zápisu a řešení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s tabulkou nebo grafem ti ukáže, že dvojice hodnot leží na jedné přímce."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a papír s mřížkou ti pomůžou nakreslit stejné poměry jako podobné obdélníky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "tabulka-a-graf-pomeru-a-procent",
+    "title": "Tabulka nebo graf k poměru a procentům",
+    "aliases": [
+      "tabulka s procenty",
+      "graf poměru",
+      "kruhový diagram",
+      "znázornění procent",
+      "tabulka úměry"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "sestaví tabulku nebo grafické znázornění popisující situaci s poměrem a procenty",
+        "quote": "sestaví tabulku nebo grafické znázornění popisující situaci s poměrem a procenty"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Poradí, jak údaje uspořádat do tabulky, a zkontroluje, jestli sedí řádky a sloupce."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš ukázky tabulek a grafů procent, podle kterých si uděláš vlastní."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulkový program nebo kreslicí aplikace ti graf rovnou nakreslí z tvých čísel."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko, kružítko a papír s mřížkou ti stačí na ruční tabulku i graf."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a5826fe3-8df6-4fa8-adad-b7116864588f",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zavislosti-v-uloze-s-pomerem",
+    "title": "Popis závislostí v úloze",
+    "aliases": [
+      "co na čem závisí",
+      "když se zvětší, tak",
+      "vztah mezi veličinami",
+      "zdůvodnění řešení",
+      "proč to tak vyjde"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-016",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "popíše a zdůvodní závislosti v řešeném problému",
+        "quote": "popíše a zdůvodní závislosti v řešeném problému"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se tě, co se při změně jedné veličiny stane s druhou, a posoudí tvé zdůvodnění."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Zdůvodnění vlastní úlohy ve vyhledávači nenajdeš, musíš ho vymyslet."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace spočítá výsledek, ale proč na čem závisí, ti nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kalkulačka počítá čísla, závislost mezi nimi popisuješ slovy ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

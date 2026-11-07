@@ -1,0 +1,486 @@
+[
+  {
+    "slug": "linearni-rovnice-uvahou-a-upravami",
+    "title": "Lineární rovnice: úvaha, model a úpravy",
+    "aliases": [
+      "rovnice",
+      "řešení rovnice",
+      "neznámá x",
+      "ekvivalentní úpravy",
+      "lineární rovnice"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "řeší lineární rovnici a soustavu dvou lineárních rovnic pomocí modelů",
+        "quote": "řeší lineární rovnici a soustavu dvou lineárních rovnic pomocí modelů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "řeší lineární rovnici a soustavu dvou lineárních rovnic (úvahou, experimentem, ekvivalentními úpravami)",
+        "quote": "řeší lineární rovnici a soustavu dvou lineárních rovnic (úvahou, experimentem, ekvivalentními úpravami)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí úpravy krok za krokem a zadá další rovnice na procvičení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorně řešené rovnice a postup úprav s vysvětlením."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Fotomatematika ukáže postup a zkouškou ověří výsledek."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti pomůže ověřit dosazením, že x vychází."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "soustava-dvou-linearnich-rovnic",
+    "title": "Soustava dvou rovnic o dvou neznámých",
+    "aliases": [
+      "soustava rovnic",
+      "dvě neznámé",
+      "dosazovací metoda",
+      "sčítací metoda",
+      "x a y"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "řeší lineární rovnici a soustavu dvou lineárních rovnic pomocí modelů",
+        "quote": "řeší lineární rovnici a soustavu dvou lineárních rovnic pomocí modelů"
+      },
+      {
+        "level": "Na cestě",
+        "point": "řeší lineární rovnici a soustavu dvou lineárních rovnic (úvahou, experimentem, ekvivalentními úpravami)",
+        "quote": "řeší lineární rovnici a soustavu dvou lineárních rovnic (úvahou, experimentem, ekvivalentními úpravami)"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P3",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí dosazovací i sčítací metodu a zadá další soustavy."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace ukáže postup a zkouškou ověří, že dvojice vyhovuje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Najdeš rozepsané řešení soustavy a vysvětlení obou metod."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří dosazení do obou rovnic."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "rovnice-z-realne-ulohy",
+    "title": "Slovní úloha jako rovnice",
+    "aliases": [
+      "slovní úlohy",
+      "sestavit rovnici",
+      "úloha z praxe",
+      "rovnice z textu"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší úlohy včetně úloh z reálného světa pomocí lineárních rovnic a soustavy lineárních rovnic.",
+        "quote": "Řeší úlohy včetně úloh z reálného světa pomocí lineárních rovnic a soustavy lineárních rovnic."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Ilustrativní úloha",
+        "url": ""
+      },
+      {
+        "title": "Ilustrativní úlohy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže přepsat text úlohy do rovnice a zkontroluje tvůj zápis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace ukáže zápis rovnice a ověří, že výsledek vychází."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové slovní úlohy a postup, jak z textu vzít rovnici."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti zvládne počty, rovnici ze zadání ale sestavuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyznam-reseni-rovnice",
+    "title": "Co znamená řešení rovnice v příběhu",
+    "aliases": [
+      "interpretace řešení",
+      "smysl výsledku",
+      "odpověď slovní úlohy",
+      "zkouška"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Interpretuje rovnice a jejich řešení v rámci daného kontextu.",
+        "quote": "Interpretuje rovnice a jejich řešení v rámci daného kontextu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zeptá se, jestli výsledek dává smysl, a pomůže ti odpověď zformulovat."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Aplikace spočítá x, ale co znamená v příběhu, posuzuješ ty."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Smysl výsledku v tvé úloze ve vyhledávači nenajdeš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Kalkulačka x spočítá, jednotku a smysl odpovědi musíš posoudit ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "graf-linearni-rovnice",
+    "title": "Graf lineární rovnice a průsečíky s osami",
+    "aliases": [
+      "přímka v soustavě souřadnic",
+      "graf rovnice",
+      "průsečík s osou x",
+      "průsečík s osou y"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "zobrazí lineární rovnici graficky a určí průsečíky grafu s osou x a y",
+        "quote": "zobrazí lineární rovnici graficky a určí průsečíky grafu s osou x a y"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak najít průsečíky, a zkontroluje tvé výpočty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace na kreslení grafů přímku vykreslí a průsečíky ukáže."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Najdeš postup a ukázky grafů přímek s vyznačenými průsečíky."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a čtverečkovaný papír ti pomůžou přímku narýsovat přesně."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "graficke-reseni-soustavy",
+    "title": "Řešení soustavy rovnic grafem",
+    "aliases": [
+      "průsečík dvou přímek",
+      "soustava a graf",
+      "grafické řešení"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší graficky soustavu dvou lineárních rovnic.",
+        "quote": "Řeší graficky soustavu dvou lineárních rovnic."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, že řešením je průsečík přímek, a zkontroluje tvůj výsledek."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace na grafy nakreslí obě přímky a průsečík ukáže."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Najdeš obrázky dvou přímek a vysvětlení, co průsečík znamená."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Pravítko a papír s osami ti pomůžou přesně rýsovat obě přímky."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6fc6f757-6baa-49fe-9a82-6ba6a52f2e13",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "linearni-nerovnice-na-ose",
+    "title": "Lineární nerovnice a číselná osa",
+    "aliases": [
+      "nerovnice",
+      "řešení nerovnice",
+      "interval",
+      "větší než",
+      "menší než"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "řeší lineární nerovnici a znázorní řešení na číselné ose",
+        "quote": "řeší lineární nerovnici a znázorní řešení na číselné ose"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, kdy se při úpravě otočí znaménko, a zadá další nerovnice."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace ukáže postup a řešení vyznačí na ose."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Najdeš řešené nerovnice a postup zakreslení na osu."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří dosazením pár čísel, jestli nerovnost platí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "slozitejsi-nerovnice",
+    "title": "Složitější nerovnice a číselná osa",
+    "aliases": [
+      "nerovnice se závorkami",
+      "nerovnice se zlomky",
+      "nerovnice na ose"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší složitější nerovnice, výsledek znázorní na číselné ose.",
+        "quote": "Řeší složitější nerovnice, výsledek znázorní na číselné ose."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí kroky a zkontroluje, kde se úpravy pokazily."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace ukáže postup a vyznačí řešení na ose."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Najdeš rozepsané řešení složitějších nerovnic."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka ti ověří dosazením, jestli výsledek platí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "nerovnice-z-realne-ulohy",
+    "title": "Slovní úloha jako nerovnice",
+    "aliases": [
+      "nerovnice v praxi",
+      "kolik nejvýš",
+      "kolik nejméně",
+      "rozpočet nerovnicí"
+    ],
+    "outcome": "MAT-MAT-005-ZV9-018",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Řeší úlohy včetně úloh z reálného světa pomocí nerovnic.",
+        "quote": "Řeší úlohy včetně úloh z reálného světa pomocí nerovnic."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Ilustrativní úloha",
+        "url": ""
+      },
+      {
+        "title": "Ilustrativní úlohy",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže přepsat text úlohy do nerovnice a zkontroluje tvůj zápis."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace ukáže zápis nerovnice i řešení na ose."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Najdeš vzorové úlohy, třeba kolik toho stihneš koupit za dané peníze."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kalkulačka zvládne počty, nerovnici ze zadání sestavuješ ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8",
+      "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Seřadit tabulku podle jména nebo vyfiltrovat jen řádky, které tě zajímají, patří k nejběžnějším věcem při práci s daty. Dělá to každý den, kdo zpracovává statistiky, řídí sklad nebo spravuje zdravotní dokumentaci. V povoláních, kde se to vyžaduje, pracují necelá 4 % lidí v Česku a většinu z nich AI mění hodně. Chatbot ti poradí, kde filtr najdeš, nebo tabulku přefiltruje za tebe, ale podle čeho filtrovat a jestli výsledek dává smysl, musíš poznat ty. Když tabulka po filtru ukazuje jen část řádků, snadno zapomeneš, že ostatní tam pořád jsou.",
+  "learnWithAi": [
+    {
+      "title": "Řazení podle dvou sloupců",
+      "text": "Zeptej se chatbota, jak seřadit tabulku nejdřív podle třídy a potom podle příjmení, a vyzkoušej to na vlastní tabulce. Když výsledek nesedí, popiš mu, co vidíš, a hledejte chybu spolu."
+    },
+    {
+      "title": "Cvičná tabulka třídy",
+      "text": "Nech chatbota vymyslet tabulku třiceti žáků se známkami a kroužky a k ní pět úkolů, třeba najít všechny s florbalem a jedničkou z matematiky. Vyřeš je filtrem v tabulkovém procesoru."
+    },
+    {
+      "title": "Dvě cesty ke stejnému výsledku",
+      "text": "Vyfiltruj tabulku podle dvou podmínek a spočítej řádky, které zbyly. Zeptej se chatbota, jak by se stejný dotaz dal udělat jinak, a ověř, jestli ti vyjde stejný počet."
+    }
+  ]
+}

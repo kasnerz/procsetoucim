@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Výsledek x = 2,5 nic neznamená, dokud neřekneš, že jsou to dvě a půl hodiny, nebo nepoznáš, že půl autobusu objednat nejde. Posoudit, jestli řešení v příběhu dává smysl, je poslední krok každé úlohy. Zhruba 8 % lidí, kteří v Česku pracují, takové výsledky v práci posuzuje, od ekonomie po stavbu lodí, a záporná délka nebo nesmyslně vysoká cena jim prozradí chybu dřív než přepočítávání. Kalkulačka i aplikace x spočítají. Jestli je rozumné, ale pozná jen ten, kdo zná situaci, ze které rovnice vznikla.",
+  "learnWithAi": [
+    {
+      "title": "Výsledky k posouzení",
+      "text": "Požádej chatbota o pět slovních úloh i s vypočteným x a ať některá řešení v příběhu nedávají smysl. Najdi je a napiš, proč neobstojí."
+    },
+    {
+      "title": "Odpověď celou větou",
+      "text": "Ke každé úloze z učebnice napiš odpověď celou větou i s jednotkou. Chatbot ať posoudí, jestli odpověď sedí k otázce, nebo jen opakuje číslo."
+    },
+    {
+      "title": "Zadání bez rozumného řešení",
+      "text": "Nech si od chatbota ukázat slovní úlohu, jejíž rovnice dá řešení bez smyslu, třeba záporný počet lidí. Vymysli podobnou a vysvětli, co je v zadání špatně."
+    }
+  ]
+}

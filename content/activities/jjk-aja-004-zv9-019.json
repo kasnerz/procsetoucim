@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "poznamky-z-anglickeho-vykladu",
+    "title": "Anglické poznámky během výkladu",
+    "aliases": [
+      "poznámky z poslechu",
+      "zápisky z angličtiny",
+      "hesla z videa",
+      "poznámky z podcastu",
+      "psaní poznámek anglicky"
+    ],
+    "outcome": "JJK-AJA-004-ZV9-019",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Dělá si během výkladu stručné poznámky, které dokáže následně využít.",
+        "quote": "Dělá si během výkladu stručné poznámky, které dokáže následně využít."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Zapisuje si během výkladu poznámky v podobě výčtu.",
+        "quote": "Zapisuje si během výkladu poznámky v podobě výčtu."
+      },
+      {
+        "level": "Splněno",
+        "point": "Píše si stručné a srozumitelné poznámky, které vystihují klíčové informace během výkladu na známé téma.",
+        "quote": "Píše si stručné a srozumitelné poznámky, které vystihují klíčové informace během výkladu na známé téma."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Poznámky k tématu o kapesném",
+        "url": ""
+      },
+      {
+        "title": "Hesla k tématu o kapesném",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Z přepisu výkladu ti ukáže, která hesla jsou klíčová, a s tvými poznámkami je porovnáš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Videa a podcasty na známá témata si můžeš pouštět znovu a poznámky si doplnit."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Přehrávač zpomalí nahrávku a vrátí ji, takže si poznámky stihneš zapsat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Sešit a tužka stačí na hesla, která zapisuješ během poslechu."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

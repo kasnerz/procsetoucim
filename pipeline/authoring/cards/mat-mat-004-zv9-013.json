@@ -1,0 +1,74 @@
+{
+  "outcome": "MAT-MAT-004-ZV9-013",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pravdepodobnost-zlomkem-na-ose",
+      "title": "Pravděpodobnost zlomkem a na ose od 0 do 1",
+      "aliases": ["pravděpodobnost", "šance zlomkem", "jak velká je šance", "od nemožného po jisté", "pravděpodobnost jevu"],
+      "sources": [
+        {"level": "Na cestě", "quote": "vypočítá pravděpodobnost výskytu elementárního jevu, přičemž odpověď je vyjádřena zlomkem nebo desetinným číslem, a zařadí získané hodnoty na stupnici od 0 (nemožné) do 1 (jisté)"},
+        {"level": "Splněno", "quote": "Vypočítá pravděpodobnost jevů v konečném prostoru."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, jak se šance počítá, a dá ti další příklady k procvičení."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš vysvětlení vzorce a vyřešené příklady s kostkou nebo losem."},
+        "aplikace": {"verdict": "pomuze", "why": "Simulátor kostky či losování ti ukáže, jak se výsledky blíží spočítané šanci."},
+        "klasicky": {"verdict": "pomuze", "why": "Kostka a karty ti dají pokus, kterým svůj výpočet ověříš, a kalkulačka převede zlomek na desetinné číslo."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1dabb413-18e8-48ed-a963-44978e67ad32",
+        "http://data.europa.eu/esco/skill/b758675a-b03b-4e4b-897c-57ca14b1a3d0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "stromovy-diagram-pravdepodobnosti",
+      "title": "Stromový diagram a pravděpodobnost",
+      "aliases": ["stromový diagram", "strom možností", "více pokusů za sebou", "házení dvěma kostkami", "pravděpodobnost ve stromu"],
+      "sources": [
+        {"level": "Splněno", "quote": "Používá širokou škálu zobrazení, jako jsou stromové diagramy a kontingenční tabulky, ke zkoumání pravděpodobnosti náhodných jevů."}
+      ],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Ukáže, jak strom rozvětvit, a zkontroluje, jestli ti nechybí žádná větev."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš hotové stromy k příkladům s mincí, kostkou nebo kuličkami."},
+        "aplikace": {"verdict": "pomuze", "why": "Kreslicí aplikace nebo online editor ti strom pomůže narýsovat čistě."},
+        "klasicky": {"verdict": "pomuze", "why": "Tužka a papír stačí na strom, kostka a mince ti ukážou, co se opravdu stane."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1dabb413-18e8-48ed-a963-44978e67ad32",
+        "http://data.europa.eu/esco/skill/b758675a-b03b-4e4b-897c-57ca14b1a3d0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "kontingencni-tabulka-pravdepodobnosti",
+      "title": "Tabulka četností a pravděpodobnost",
+      "aliases": ["kontingenční tabulka", "dvourozměrná tabulka", "tabulka počtů", "kolik z nich", "šance z tabulky"],
+      "sources": [
+        {"level": "Splněno", "quote": "Používá širokou škálu zobrazení, jako jsou stromové diagramy a kontingenční tabulky, ke zkoumání pravděpodobnosti náhodných jevů."}
+      ],
+      "rules": ["P1", "P2", "P3"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, jak číst řádky a sloupce, a ověří tvůj výpočet šance z tabulky."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš vzorové tabulky a vysvětlení, jak z nich šanci odvodit."},
+        "aplikace": {"verdict": "pomuze", "why": "Tabulkový procesor sečte řádky a sloupce a spočítá podíly, ty pak jen přečteš."},
+        "klasicky": {"verdict": "pomuze", "why": "Kalkulačka zkontroluje tvé podíly, tabulku si nakreslíš na papír."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61",
+        "http://data.europa.eu/esco/skill/1dabb413-18e8-48ed-a963-44978e67ad32"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": [
+    {"level": "Na začátku", "start": "určí, zda výskyt určitého náhodného jevu je jistý, pravděpodobný nebo nemožný", "code": "O1", "refs": ["jiste-nahodne-nemozne-jevy"]},
+    {"level": "Na cestě", "start": "porovná pravděpodobnost dvou nebo více náhodných jevů", "code": "O1", "refs": ["odhad-pravdepodobnosti-jevu"]}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "outcome": "JJK-AJA-004-ZV9-021",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Shrne klíčové informace z mluveného a psaného textu psaného v cílovém jazyce svými slovy v češtině či v OMJ.",
+      "cards": [
+        "shrnuti-anglickeho-textu-cesky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Shrne v cílovém jazyce klíčové informace z mluveného a psaného textu, který byl produkován v češtině nebo v OMJ.",
+      "cards": [
+        "shrnuti-ceskeho-textu-anglicky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Shrne vlastními slovy hlavní myšlenku či myšlenky mluveného a psaného textu pomocí vlastních slov či parafrázováním originálního textu.",
+      "cards": [
+        "hlavni-myslenka-vlastnimi-slovy"
+      ],
+      "aside": null
+    }
+  ]
+}

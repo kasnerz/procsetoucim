@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Řada 2, 4, 6, 8 roste pořád o stejný krok, kdežto 1, 4, 9, 16 se rozbíhá čím dál rychleji. Poznat, podle jakého pravidla čísla rostou, se hodí všude, kde se něco zrychluje, třeba u úspor s úrokem nebo u plochy čtverce, když mu prodlužuješ stranu. Když pravidlo poznáš, odhadneš další čísla dopředu a nepřekvapí tě, že něco, co ze začátku roste pomalu, za chvíli uteče. Podobné odhady dělají lidé, kteří plánují nákupy nebo počítají náklady zakázek. Chatbot ti pravidlo najde hned, ale jestli sedí na situaci, kterou zrovna řešíš, posoudíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Řady s utajeným pravidlem",
+      "text": "Popros chatbota o šest řad čísel s různými pravidly, aniž by ti je prozradil. Ke každé dopiš dva další členy a pravidlo slovy a teprve pak si ho nech říct."
+    },
+    {
+      "title": "Nápověda místo řešení",
+      "text": "Když se v řadě zasekneš, chtěj po chatbotovi jen malou nápovědu, třeba co udělat s rozdíly sousedních čísel. Zbytek dopočítej ty."
+    },
+    {
+      "title": "Vlastní řada pro chatbota",
+      "text": "Vymysli vlastní nelineární řadu, napiš z ní pět čísel a nech chatbota hádat pravidlo. Když se netrefí nebo najde jiné pravidlo, které taky sedí, zkus pochopit proč."
+    }
+  ]
+}

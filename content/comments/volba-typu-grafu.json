@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Teplota za celý měsíc patří do čárového grafu, protože ukazuje vývoj, kdežto porovnání tříd ve sběru papíru se líp čte ze sloupců. Bodový graf zase odhalí, jestli spolu dvě věci souvisejí, třeba čas strávený učením a známky. Když zvolíš špatný typ, čtenář přehlédne to podstatné, nebo si z grafu odnese něco, co v datech není. Grafy podle záměru volí každý den lidé, kteří analyzují data nebo investice, a takových míst spíš přibude. Aplikace nakreslí jakýkoli graf, o který si řekneš, výběr typu je ale na tobě.",
+  "learnWithAi": [
+    {
+      "title": "Sloupce, nebo čára",
+      "text": "Zeptej se chatbota, kdy se hodí sloupcový a kdy čárový graf, a nech si ke každému dát jeden příklad dat. Pak vymysli vlastní data, u kterých se to nedá jasně rozhodnout."
+    },
+    {
+      "title": "Typ grafu ke každé otázce",
+      "text": "Napiš chatbotovi pět otázek k datům, třeba jak se měnila návštěvnost kina, a ke každé navrhni typ grafu. Ať ti řekne, kde by volil jinak a proč."
+    },
+    {
+      "title": "Graf z vlastního měření",
+      "text": "Sbírej týden nějaká data, třeba kolik minut ti trvá cesta do školy, a vytvoř z nich graf v tabulkovém procesoru. Chatbotovi popiš svou volbu typu a obhaj ji."
+    }
+  ]
+}

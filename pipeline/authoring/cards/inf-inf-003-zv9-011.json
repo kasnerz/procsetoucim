@@ -1,0 +1,372 @@
+{
+  "outcome": "INF-INF-003-ZV9-011",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "razeni-a-filtrovani-v-tabulce",
+      "title": "Řazení a filtrování v tabulce",
+      "aliases": [
+        "řazení tabulky",
+        "filtr v excelu",
+        "seřadit data",
+        "automatický filtr",
+        "zobrazení dat"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Nastavuje zobrazení, řazení a filtrování dat v tabulce pro řešení problému."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "řazení a filtrování i pomocí několika kritérií"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak v tabulce zapnout filtr a řadit podle dvou sloupců."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody ukážou krok za krokem, kde filtr v tabulce najdeš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "V tabulkovém procesoru vidíš hned, jak se řádky po seřazení změní."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tabulku v počítači řadíš a filtruješ ty, papír s tím nepomůže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50"
+      ]
+    },
+    {
+      "slug": "vyber-a-seskupeni-dat-podle-uzivatele",
+      "title": "Zobrazení tabulky podle potřeb uživatele",
+      "aliases": [
+        "výběr sloupců",
+        "seskupování dat",
+        "podmíněné formátování",
+        "skrýt sloupce",
+        "tabulka pro uživatele"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "nastavuje výběr a zobrazení tabulkových dat (např. výběr sloupců"
+        },
+        {
+          "level": "Splněno",
+          "quote": "nastavuje výběr a zobrazení tabulkových dat podle potřeb uživatelů"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, které sloupce schovat a co obarvit, když tabulku čte trenér."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady hotových přehledů ukážou, co různí uživatelé v tabulce hledají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor skryje sloupce, seskupí řádky a obarví hodnoty podle pravidla."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zobrazení nastavuješ v programu ty, papír ho nezmění."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61"
+      ]
+    },
+    {
+      "slug": "vhodny-zpusob-prezentace-dat",
+      "title": "Volba způsobu zobrazení dat podle účelu",
+      "aliases": [
+        "tabulka nebo graf",
+        "jak ukázat data",
+        "prezentace dat",
+        "přehled dat",
+        "komu data ukázat"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Seznamuje se s různými způsoby prezentace dat pro daný účel"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Volí vhodný způsob prezentace dat pro daný účel"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Porovná tabulku, graf a seznam pro tvůj účel a vysvětlí, proč se hodí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky přehledů dat z různých oborů ti dají nápad, jak data ukázat."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace data zobrazí, ale vybrat způsob podle účelu musíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírové přehledy, třeba jízdní řád nebo rozpis, ukazují různé způsoby zápisu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389",
+        "http://data.europa.eu/esco/skill/daa52226-7795-48ff-aa3e-ad3189d9aa61"
+      ],
+      "inspiration": [
+        "Obce v ČR"
+      ]
+    },
+    {
+      "slug": "jednoduche-vzorce-v-tabulce",
+      "title": "Jednoduché vzorce a funkce v tabulce",
+      "aliases": [
+        "vzorce v excelu",
+        "součet v tabulce",
+        "průměr",
+        "funkce KDYŽ",
+        "automatický výpočet"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Používá jednoduché vzorce a základní funkce (statistické, logické, textové, časové) pro automatické zpracování dat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak zapsat součet, průměr nebo podmínku, a vymyslí cvičné příklady."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Nápověda tabulkového procesoru popisuje každou funkci s ukázkou."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor vzorec spočítá a hned vidíš, jestli sedí tvoje představa."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačkou ověříš, jestli vzorec v tabulce vrátil správný výsledek."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": [
+        "Příšerky - automatické zpracování dat"
+      ]
+    },
+    {
+      "slug": "kombinace-funkci-ve-velke-tabulce",
+      "title": "Kombinace funkcí ve velké tabulce",
+      "aliases": [
+        "složitější vzorce",
+        "vnořené funkce",
+        "výpočty ve velké tabulce",
+        "vzorec s podmínkou",
+        "rozsáhlá tabulka"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Používá jednoduché vzorce a kombinace základních funkcí pro automatické zpracování dat a výpočty v rozsáhlé tabulce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže vzorec poskládat z funkcí a najít, kde se při složení pokazil."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příklady vzorců ze stránek o tabulkách ukážou, jak se funkce spojují."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor označí chybu ve vzorci a přepočítá celý sloupec."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačkou zkontroluješ výsledek u několika řádků."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be",
+        "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+      ],
+      "inspiration": [
+        "Příšerky - automatické zpracování dat"
+      ]
+    },
+    {
+      "slug": "volba-typu-grafu",
+      "title": "Volba typu grafu podle záměru",
+      "aliases": [
+        "sloupcový graf",
+        "čárový graf",
+        "bodový graf",
+        "jaký graf zvolit",
+        "graf nebo tabulka"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Volí a vytváří vizualizace dat (např. sloupcové, bodové, čárové grafy)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Volí vhodný způsob prezentace dat pro daný účel"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, jestli pro vývoj v čase zvolit čárový graf a pro porovnání sloupcový."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky grafů a přehledy typů grafů ti dají vzor, co k čemu slouží."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace zobrazí náhled grafu, takže hned vidíš, jestli data vystihl."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Milimetrový papír a pravítko ti nic nevyberou, graf si tím jen nakreslíš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389",
+        "http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1"
+      ],
+      "inspiration": [
+        "Chyby v grafu"
+      ]
+    },
+    {
+      "slug": "tvorba-grafu-z-dat",
+      "title": "Vytvoření grafu z dat",
+      "aliases": [
+        "nakreslit graf",
+        "graf v tabulce",
+        "sloupcový graf z dat",
+        "osy grafu",
+        "popisky grafu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Volí a vytváří vizualizace dat odpovídající záměru."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co patří na osy a do popisků, a upozorní na chyby v grafu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody ukážou, jak v tabulkovém procesoru graf vložit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor z označených dat nakreslí graf, který pak upravuješ."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Na čtverečkovaném papíře graf nakreslíš rukou, osy a popisky děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389",
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be"
+      ],
+      "inspiration": [
+        "Chyby v grafu"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "Uvede příklady, kde je vhodné",
+      "code": "O1",
+      "refs": [
+        "seznam-nebo-tabulka-kdy-ktera-struktura"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Třídí data v tabulce",
+      "code": "O1",
+      "refs": [
+        "trideni-dat-kategorie-sloupce"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vysvětlí, jak třídění",
+      "code": "O1",
+      "refs": [
+        "proc-trideni-usnadnuje-praci-s-daty"
+      ]
+    }
+  ]
+}

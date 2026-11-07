@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Dělení mnohočlenu jednočlenem je obrácené násobení: vydělíš každý člen zvlášť a správnost ověříš zpětným vynásobením. Hodí se, když zjednodušuješ zlomky s proměnnými nebo když ze vzorce potřebuješ vyjádřit jednu veličinu. Ve fyzice i při stavbě lodí se vzorce takhle zkracují, než se do nich dosadí čísla. Aplikace podíl spočítá, nejčastější chybu, zapomenutý člen, ale odhalíš i bez ní zkouškou za pár vteřin.",
+  "learnWithAi": [
+    {
+      "title": "Zkouška zpětným násobením",
+      "text": "Vyděl mnohočlen jednočlenem a pošli chatbotovi jen svůj výsledek. Ať se tě zeptá, jak ho ověříš, a zkoušku pak spočítej ty."
+    },
+    {
+      "title": "Zapomenutý člen",
+      "text": "Chtěj po chatbotovi pět špatně vyřešených příkladů, ve kterých se zapomnělo vydělit jeden člen. Najdi, kde chybí, a oprav je."
+    },
+    {
+      "title": "Vzorec z fyziky na zjednodušení",
+      "text": "Popros chatbota o vzorec z fyziky, který se dá zjednodušit vydělením. Uprav ho a nech si vysvětlit, co ta úprava znamená pro veličiny ve vzorci."
+    }
+  ]
+}

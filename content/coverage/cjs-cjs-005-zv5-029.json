@@ -1,0 +1,103 @@
+{
+  "outcome": "CJS-CJS-005-ZV5-029",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Ohlásí ihned případné poranění či zhoršení zdravotního stavu dospělému.",
+      "cards": [
+        "ohlaseni-urazu-dospelemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "Navrhne postup ošetření drobného poranění na modelových příkladech.",
+      "cards": [
+        "postup-osetreni-drobneho-poraneni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Procvičuje v modelových situacích správný postup ošetření drobného poranění.",
+      "cards": [
+        "postup-osetreni-drobneho-poraneni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Zdůvodní, proč je třeba v případě každého poranění přivolat pomoc dospělého.",
+      "cards": [
+        "ohlaseni-urazu-dospelemu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Procvičuje správný způsob komunikace s operátorem záchranné služby.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "volani-zachranne-sluzby"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Diskutuje, proč není správné pokoušet se samostatně o záchranu tam, kde na to nestačíme, uvede příklady takových situací.",
+      "cards": [
+        "nezachranovat-na-vlastni-pest"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede v modelové situaci správný postup ošetření drobného poranění.",
+      "cards": [
+        "postup-osetreni-drobneho-poraneni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Uvede, na koho se v případě úrazu ve škole obrátit.",
+      "cards": [
+        "komu-se-pri-urazu-ve-skole-obratit"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede v modelové situaci při ošetření krvácejícího poranění, jak se chránit před možnou nákazou krví.",
+      "cards": [
+        "ochrana-pred-nakazou-krvi"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Předvede správný způsob volání na záchrannou službu a komunikaci s operátorem.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "volani-zachranne-sluzby"
+        ]
+      }
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "V modelové situaci přivolá lékařskou pomoc.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "volani-zachranne-sluzby"
+        ]
+      }
+    }
+  ]
+}

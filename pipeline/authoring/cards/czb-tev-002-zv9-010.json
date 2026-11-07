@@ -1,0 +1,55 @@
+{
+  "outcome": "CZB-TEV-002-ZV9-010",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-priprava-neznameho-prostoru-v-terenu",
+      "title": "Příprava neznámého prostoru pro pohyb",
+      "aliases": ["pohyb v přírodě", "orientační běh", "příprava trasy", "nové prostředí pro sport", "bezpečný terén"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Zvažuje vhodnost přípravy konkrétního prostoru pro realizaci pohybových dovedností."},
+        {"level": "Splněno", "quote": "Spolupracuje při organizaci pohybových činností s ohledem na konkrétní prostor pro realizaci pohybových dovedností."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, na co si dát pozor v lese nebo na vodě, a pomůže sestavit seznam rizik."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš mapu místa, předpověď počasí a pravidla pro dané prostředí."},
+        "aplikace": {"verdict": "pomuze", "why": "Mapa a navigace ukážou trasu, převýšení a místa, kde se dá zabloudit."},
+        "klasicky": {"verdict": "pomuze", "why": "Papírová mapa a buzola ti pomohou trasu posoudit i bez signálu."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/d08c420c-d3c6-4485-af6f-f2544e9aa0ac",
+        "http://data.europa.eu/esco/skill/65baf502-04a6-41c9-962f-9629de5c5a0a"
+      ],
+      "inspiration": ["Orientační běh", "Příprava na pohybovou činnost - seznámení"]
+    },
+    {
+      "slug": "tv-planovani-pripravy-na-vylet-ci-turnaj",
+      "title": "Plánování přípravy na pohybovou akci",
+      "aliases": ["příprava na turnaj", "co si vzít na výlet", "plán pohybové akce", "organizace turnaje", "seznam vybavení"],
+      "sources": [
+        {"level": "Na cestě", "quote": "Uvažuje a plánuje přípravu na pohybovou činnost v oblasti materiální, fyziologické a mentální."},
+        {"level": "Splněno", "quote": "Podílí se na materiální, fyziologické a mentální přípravě na pohybovou činnost."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Z tvého popisu akce sestaví návrh seznamu vybavení a pomůže zvážit, co by chybělo."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš doporučení k oblečení, pití a rozcvičce pro daný sport a počasí."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace s počasím a kalendář ti pomohou naplánovat čas a vybavení."},
+        "klasicky": {"verdict": "nepomuze", "why": "Plán a sbalené věci jsou tvoje práce, žádné náčiní to za tebe nepromyslí."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bca6e153-2209-4b36-9d05-4e0d382ffc57"
+      ],
+      "inspiration": ["Příprava na pohybovou činnost - plánování", "Školní florbalový turnaj"]
+    }
+  ],
+  "aside": [
+    {"level": "Minimální doporučená úroveň", "start": "Spolupracuje při organizaci pohybových činností v prostorách", "code": "O1", "refs": ["tv-priprava-telocvicny-prostor-organizace"]},
+    {"level": "Na začátku", "start": "Seznamuje se s konkrétním prostorem", "code": "O1", "refs": ["tv-priprava-telocvicny-prostor-organizace"]},
+    {"level": "Na začátku", "start": "Sleduje přípravu na pohybovou činnost", "code": "O1", "refs": ["tv-priprava-materialni-pomucky-nacini", "tv-priprava-fyziologicka-rozcvicka-telo", "tv-priprava-mentalni-soustredeni-pred-pohybem"]}
+  ]
+}

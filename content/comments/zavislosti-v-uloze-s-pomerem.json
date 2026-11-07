@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když umíš slovy říct, co udělá jedna veličina při změně druhé, poznáš chybu ve výpočtu dřív než učitel. Čím víc lidí pracuje, tím dřív je hotovo, a dvakrát víc litrů stojí dvakrát víc peněz. V ekonomii, fyzice nebo při odhadu nákladů výroby se modely takhle zdůvodňují před kolegy i zákazníky. Kalkulačka ani aplikace ti neřeknou, proč výsledek vyšel. Chatbot zdůvodnění napsat umí, jenže u zkoušky nebo na poradě musíš svou úlohu vysvětlit ty.",
+  "learnWithAi": [
+    {
+      "title": "Veličiny z běžného dne",
+      "text": "Vymysli pět dvojic veličin ze svého dne, třeba rychlost chůze a čas cesty. U každé popiš, jak spolu souvisí, a nech chatbota říct, kde je tvoje zdůvodnění slabé."
+    },
+    {
+      "title": "Dvojnásobek místo čísla",
+      "text": "Zadej chatbotovi úlohu, kterou zrovna řešíš z učebnice, a ať se tě ptá, co se stane, když se jedno číslo zdvojnásobí. Odpovídej celou větou i s důvodem."
+    },
+    {
+      "title": "Obhajoba vlastního postupu",
+      "text": "Pošli chatbotovi svůj postup a požádej ho, ať hraje přísného zkoušejícího, který chce každý krok zdůvodnit. Vysvětli mu, proč tvůj výsledek dává smysl."
+    }
+  ]
+}

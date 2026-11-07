@@ -1,0 +1,54 @@
+{
+  "outcome": "MAT-MAT-005-ZV9-015",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "vytvoří pravidelnost a řady čísel podle daného pravidla",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "vlastni-ciselne-rady-pravidelnosti",
+          "doplneni-ciselne-rady-pravidlo"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "posoudí správnost pravidelnosti a řady čísel s daným pravidlem",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "zduvodneni-pravidla-ciselne-rady"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "rozpozná a doplní o další členy nelineární řady čísel , včetně mocninných, s podporou vizuálních reprezentací vzoru",
+      "cards": [
+        "rada-druhych-mocnin"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná pravidelnosti a nelineární řady čísel včetně řady čísel s druhou mocninou a pokračuje v nich.",
+      "cards": [
+        "pravidlo-nelinearni-rady"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Rozpozná, vyjádří, doplní a tvoří pravidelnosti a číselné řady.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

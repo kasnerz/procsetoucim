@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Soustava rovnic se hodí, když hledáš dvě neznámá čísla a máš o nich dvě různé informace. Tak třeba zjistíš cenu lístku pro dospělého a pro dítě, když znáš dva různé nákupy, nebo jak smíchat dva roztoky, aby vyšla správná koncentrace. Dosazovací a sčítací metoda jsou dva způsoby, jak jednu neznámou vyřadit a dopočítat druhou. V chemické výrobě, strojírenství nebo zeměměřictví se takové soustavy sestavují běžně a velké pak počítá počítač. Správný výsledek ti ale dá, jen když soustavu dobře sestavíš a poznáš, kdy výsledek nedává smysl.",
+  "learnWithAi": [
+    {
+      "title": "Pět soustav bez výsledků",
+      "text": "Nech si od chatbota dát pět soustav bez výsledků a každou vyřeš. Správnost ověř dosazením do obou rovnic na kalkulačce, chatbot se v delších výpočtech občas splete."
+    },
+    {
+      "title": "Vstupenky do zoo",
+      "text": "Požádej o úlohu se vstupenkami, kde znáš ceny dvou různých nákupů. Sestav soustavu, vyřeš ji a chatbotovi ukaž až hotové řešení."
+    },
+    {
+      "title": "Dvě metody na jedné soustavě",
+      "text": "Vyřeš jednu soustavu dosazovací i sčítací metodou a pošli chatbotovi oba postupy. Ať ti řekne, která metoda se tu hodila víc a proč."
+    }
+  ]
+}

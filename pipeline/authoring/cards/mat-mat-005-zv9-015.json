@@ -1,0 +1,125 @@
+{
+  "outcome": "MAT-MAT-005-ZV9-015",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "pravidlo-nelinearni-rady",
+      "title": "Pravidlo nelineární řady čísel",
+      "aliases": [
+        "nelineární řada",
+        "pravidlo řady",
+        "jak roste řada",
+        "čísla s druhou mocninou",
+        "pokračování řady"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná pravidelnosti a nelineární řady čísel včetně řady čísel s druhou mocninou a pokračuje v nich."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, proč řada 1, 4, 9, 16 neroste o stejný krok, a dá ti další řady k procvičení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tu vysvětlení druhých mocnin a příklady řad s řešením."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Cvičné aplikace ti dávají řady a hned ukážou, jestli tvoje pravidlo sedí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačkou ověříš, jestli čísla v řadě odpovídají tvému pravidlu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+      ],
+      "inspiration": [
+        "Číselné řady v kontextu učiva 2. stupně ZŠ"
+      ]
+    },
+    {
+      "slug": "rada-druhych-mocnin",
+      "title": "Řada druhých mocnin",
+      "aliases": [
+        "druhá mocnina",
+        "čtverce čísel",
+        "1, 4, 9, 16",
+        "mocniny",
+        "čtvercová čísla"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "rozpozná a doplní o další členy nelineární řady čísel , včetně mocninných, s podporou vizuálních reprezentací vzoru"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Nakreslí slovy čtverce z teček a vysvětlí, proč další člen je 25."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Obrázky čtvercových čísel ti ukážou vzor, ze kterého řadu doplníš."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kreslicí nebo cvičná aplikace skládá čtverce a hned ukáže, kolik jich je."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Čtverečkovaný papír a kalkulačka: čtverce nakreslíš a výsledek ověříš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+      ],
+      "inspiration": [
+        "Číselné řady v kontextu učiva 2. stupně ZŠ"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Na začátku",
+      "start": "vytvoří pravidelnost a řady čísel",
+      "code": "O1",
+      "refs": [
+        "vlastni-ciselne-rady-pravidelnosti",
+        "doplneni-ciselne-rady-pravidlo"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "posoudí správnost pravidelnosti",
+      "code": "O1",
+      "refs": [
+        "zduvodneni-pravidla-ciselne-rady"
+      ]
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Rozpozná, vyjádří, doplní",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "outcome": "INF-INF-003-ZV9-011",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Uvede příklady, kde je vhodné použít různé typy struktur, seznam, tabulka.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "seznam-nebo-tabulka-kdy-ktera-struktura"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Třídí data v tabulce nebo seznamu podle zadaných kategorií - shodné a odlišné vlastnosti.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "trideni-dat-kategorie-sloupce"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vysvětlí, jak třídění usnadňuje práci s daty.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "proc-trideni-usnadnuje-praci-s-daty"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Seznamuje se s různými způsoby prezentace dat pro daný účel, nastavuje výběr a zobrazení tabulkových dat (např. výběr sloupců, řazení a filtrování i pomocí několika kritérií, seskupování, podmíněné formátování...).",
+      "cards": [
+        "razeni-a-filtrovani-v-tabulce",
+        "vyber-a-seskupeni-dat-podle-uzivatele",
+        "vhodny-zpusob-prezentace-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Používá jednoduché vzorce a základní funkce (statistické, logické, textové, časové) pro automatické zpracování dat.",
+      "cards": [
+        "jednoduche-vzorce-v-tabulce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Volí a vytváří vizualizace dat (např. sloupcové, bodové, čárové grafy).",
+      "cards": [
+        "volba-typu-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Volí vhodný způsob prezentace dat pro daný účel, nastavuje výběr a zobrazení tabulkových dat podle potřeb uživatelů.",
+      "cards": [
+        "vyber-a-seskupeni-dat-podle-uzivatele",
+        "vhodny-zpusob-prezentace-dat",
+        "volba-typu-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá jednoduché vzorce a kombinace základních funkcí pro automatické zpracování dat a výpočty v rozsáhlé tabulce.",
+      "cards": [
+        "kombinace-funkci-ve-velke-tabulce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Volí a vytváří vizualizace dat odpovídající záměru.",
+      "cards": [
+        "tvorba-grafu-z-dat"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Nastavuje zobrazení, řazení a filtrování dat v tabulce pro řešení problému.",
+      "cards": [
+        "razeni-a-filtrovani-v-tabulce"
+      ],
+      "aside": null
+    }
+  ]
+}

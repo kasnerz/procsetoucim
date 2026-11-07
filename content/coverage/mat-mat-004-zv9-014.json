@@ -1,0 +1,64 @@
+{
+  "outcome": "MAT-MAT-004-ZV9-014",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "určí a zdůvodní všechny možnosti splňující více podmínek",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "vice-podminek-najednou-triprvky",
+          "zduvodneni-pro-vsechny-prvky-triprvky"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "pracuje s negací (nesplňuje danou podmínku)",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "negace-nesplnuje-podminku-triprvky"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "najde vhodný organizační princip pro danou situaci, který umožní najít výsledek",
+      "cards": [
+        "systematicke-hledani-vsech-moznosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "reprezentuje situaci vhodným způsobem, např. stromovým grafem",
+      "cards": [
+        "stromovy-graf-moznosti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Systematicky vypíše všechny možné výsledky (prostor elementárních jevů) pro situaci zahrnující jev složený ze dvou elementárních jevů, buď s vrácením vybraného předmětu do sady, nebo bez jeho vrácení.",
+      "cards": [
+        "vypis-vysledku-s-vracenim-a-bez"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vyhledá všechny prvky nebo skupiny prvků, které splňují dané jednoduché podmínky.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "hledani-podle-podminky-tricarka"
+        ]
+      }
+    }
+  ]
+}

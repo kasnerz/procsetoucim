@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když dvě rovnice nakreslíš jako přímky, řešení soustavy uvidíš jako bod, kde se protnou. Graf navíc hned ukáže, kdy soustava řešení nemá, protože jsou přímky rovnoběžné. Hodí se třeba při porovnání dvou tarifů, kdy průsečík řekne, od kolika minut se vyplatí ten druhý. V ekonomii nebo elektronice se takhle hledá bod, kde se dvě závislosti vyrovnají, a podobné úlohy v práci řeší zhruba 8 % lidí, kteří v Česku pracují. Aplikace přímky nakreslí přesněji než ruka, význam průsečíku ale vysvětlíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Rovnoběžky a jiné výjimky",
+      "text": "Zeptej se, jak z rovnic předem poznat, že se přímky neprotnou. Vysvětlení si ověř tak, že dvě takové přímky nakreslíš do aplikace na grafy."
+    },
+    {
+      "title": "Průsečík odečtený z papíru",
+      "text": "Odečti průsečík z vlastního grafu na papíře a pošli ho chatbotovi. Ať ti ukáže, jak bod ověřit výpočtem, a výpočet pak udělej ty."
+    },
+    {
+      "title": "Dva tarify v jednom grafu",
+      "text": "Požádej chatbota o dva vymyšlené tarify na mobil s různým paušálem a cenou za minutu. Nakresli oba do jednoho grafu a z průsečíku urči, kdy se vyplatí který."
+    }
+  ]
+}

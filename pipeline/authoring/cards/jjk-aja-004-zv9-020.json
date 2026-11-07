@@ -1,0 +1,194 @@
+{
+  "outcome": "JJK-AJA-004-ZV9-020",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "rekni-cesky-co-zaznelo-anglicky",
+      "title": "Říct česky, co zaznělo v anglické nahrávce",
+      "aliases": [
+        "přeložit nahrávku",
+        "podcast v angličtině",
+        "rozhovor v angličtině",
+        "říct česky o čem to bylo",
+        "mediace"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Zprostředkuje dílčí informace uvedené v mluveném a psaném textu či vizuálních materiálech z cílového jazyka do češtiny či OMJ."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Nahrávku posloucháš ty, chatbot ji za tebe neslyší, a co zaznělo, musíš říct ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš nahrávky s přepisem, kde si ověříš, jestli sedí hlavní informace."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Přehrávač zpomalí nahrávku a vrátí ji, kdykoli ti něco uteče."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Slovník nahrávku neslyší, poslech a převyprávění zvládáš jen ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/8b5962d7-b195-4459-addb-d15a48cc4b64"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "rekni-cesky-co-je-v-anglickem-clanku",
+      "title": "Říct česky, co je v anglickém článku",
+      "aliases": [
+        "článek v angličtině",
+        "přeložit článek",
+        "shrnout anglický text",
+        "časopis v angličtině",
+        "o čem je text"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Zprostředkuje dílčí informace uvedené v mluveném a psaném textu či vizuálních materiálech z cílového jazyka do češtiny či OMJ."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí slova a věty, kterým nerozumíš, a ověří, jestli tvé shrnutí obsahuje hlavní informace."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník dohledá neznámé slovo i jeho význam v dané větě."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač ukáže, co věta znamená, a ty z toho složíš vlastní převyprávění."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový slovník pomůže s neznámými slovy, informace z článku vybíráš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/449f0945-4943-49f9-bd98-edfdfd7c00ba"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "rekni-anglicky-co-je-v-ceskem-textu",
+      "title": "Říct anglicky, co je v českém textu nebo nahrávce",
+      "aliases": [
+        "říct anglicky o čem je text",
+        "převyprávět anglicky",
+        "přeložit do angličtiny",
+        "česky do anglicky",
+        "shrnout anglicky"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zprostředkuje dílčí informace uvedené v mluveném a psaném textu či vizuálních materiálech z češtiny či OMJ do cílového jazyka."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Přečte tvé anglické shrnutí a ukáže, co chybí nebo kde je chyba."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník a jazyková příručka ti dají anglická slova a vzory vět."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Překladač nabídne anglické slovo, které hledáš, a ty vybereš, které sedí."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papírový slovník najde anglická slova, větu skládáš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/449f0945-4943-49f9-bd98-edfdfd7c00ba"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "popis-grafu-a-diagramu-anglicky",
+      "title": "Popis jednoduchého grafu nebo sloupcového diagramu",
+      "aliases": [
+        "popsat graf",
+        "sloupcový diagram",
+        "statistika v angličtině",
+        "describe a chart",
+        "interpretace grafu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "zprostředkuje informace zobrazené ve vizuálních materiálech"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poslechne si tvůj popis grafu, doptá se a ukáže, jak věty říct lépe."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš fráze pro popis grafů, třeba the most, the least, increase."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový program nakreslí z čísel sloupcový graf, který pak popisuješ."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko a papír ti pomůžou odečíst hodnoty ze sloupců, popis říkáš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+      ],
+      "inspiration": [
+        "Statistika",
+        "Volný čas teenagerů I"
+      ]
+    }
+  ],
+  "aside": []
+}

@@ -1,0 +1,154 @@
+{
+  "outcome": "INF-INF-004-ZV9-012",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Používá společné prvky ovládání v různých aplikacích a na různých zařízeních.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "spolecne-ovladani-aplikaci-kopirovani-scrollovani"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vybírá a kombinuje různé aplikace pro řešení komplexnějších úkolů a porovnává různé možnosti.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "vyber-aplikace-pro-ukol-digitalni-zarizeni"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Spravuje soubory - pojmenovává, ukládá, přejmenovává, maže, na různých zařízeních a rozpozná rozdíl mezi lokálně a cloudově uloženými daty.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "pojmenovani-a-ukladani-souboru-lokalne-cloud",
+          "mazani-dat-dokument-ze-slozky-plochy"
+        ]
+      }
+    },
+    {
+      "level": "Na začátku",
+      "point": "Vysvětlí výhody a nevýhody práce v online a offline prostředí. Popíše výhody a nevýhody Wi-Fi a pevného připojení.",
+      "cards": [
+        "vyber-site-wifi-kabel"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětlí fungování počítače z hlediska jeho základních dílů (procesor, operační paměť, úložiště/disky).",
+      "cards": [
+        "dily-pocitace-a-jejich-spoluprace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Volí typ (stolní počítač, notebook, tablet, chytrý telefon) počítače podle jeho využití.",
+      "cards": [
+        "vyber-pocitace-podle-vyuziti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Vysvětlí roli operačního systému při využívání počítače a zvládá základy ovládání jednoho běžně využívaného operačního systému.",
+      "cards": [
+        "operacni-system-pocitac-telefon"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Rozezná typ sítě, do které je zařízení připojeno, vysvětlí princip jejího fungování (LAN, Internet, WI-FI, Bluetooth, mobilní sítě).",
+      "cards": [
+        "typy-siti-lan-internet-mobilni"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Identifikuje nejčastější problémy hardware, software a počítačové sítě.",
+      "cards": [
+        "problemy-zarizeni-a-site"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Získává informace o technologiích z různých zdrojů, učí se rozpoznávat nepřesné formulace a úmyslné manipulace.",
+      "cards": [
+        "hodnoceni-informaci-o-technologiich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Popíše součinnost základních dílů počítače při běžných operacích – při spuštění programu, uložení a otevření dokumentu.",
+      "cards": [
+        "dily-pocitace-a-jejich-spoluprace"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Volí typ a základní parametry počítače podle jeho využití.",
+      "cards": [
+        "vyber-pocitace-podle-vyuziti"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí roli operačního systému při využívání počítače a ovládá alespoň jeden běžně využívaný operační systém pro stolní počítače a jeden pro mobilní zařízení (tablet nebo telefon).",
+      "cards": [
+        "operacni-system-pocitac-telefon"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vysvětlí rámcově principy fungování LAN, internetu a mobilních sítí, zvolí vhodnou síť pro danou činnost, s porozuměním využívá World Wide Web a cloudové služby.",
+      "cards": [
+        "typy-siti-lan-internet-mobilni",
+        "vyber-site-wifi-kabel",
+        "web-a-cloudove-sluzby"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Identifikuje běžné problémy hardwaru, softwaru a počítačové sítě, ty jednoduché vyřeší, u složitějších zformuluje požadavek na podporu nebo opravu.",
+      "cards": [
+        "problemy-zarizeni-a-site"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Hodnotí informace o technologiích z různých zdrojů, rozpoznává nepřesné formulace, odhaluje úmyslné manipulace a dezinformace a dokáže je vysvětlit ostatním.",
+      "cards": [
+        "hodnoceni-informaci-o-technologiich"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Vybírá pro své potřeby hardware, software, digitální zařízení a připojení do sítě na základě svých zkušeností.",
+      "cards": [
+        "vyber-pocitace-podle-vyuziti"
+      ],
+      "aside": null
+    }
+  ]
+}

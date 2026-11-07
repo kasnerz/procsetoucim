@@ -1,0 +1,357 @@
+{
+  "outcome": "INF-INF-004-ZV9-013",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "druhy-kyberutoku",
+      "title": "Druhy kyberútoků",
+      "aliases": [
+        "phishing",
+        "malware",
+        "ransomware",
+        "DDoS",
+        "viry v počítači",
+        "hackeři"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Na základě porozumění tomu, jak fungují počítače a sítě, vysvětlí základní podstatu běžných kybernetických útoků (např. malware, ransomware, phishing, DDoS útoky…)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí na příkladech, jak phishing, malware nebo DDoS funguje, a odpoví na doplňující otázky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a encyklopedie popisují jednotlivé útoky i skutečné případy."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace útok nevysvětlí, jen případně hlídá; porozumět musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj útoky nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44",
+        "http://data.europa.eu/esco/skill/5898d99a-62a4-4e10-a2e3-0d815ce44248"
+      ],
+      "inspiration": [
+        "Myšlenková mapa zabezpečení počítače"
+      ]
+    },
+    {
+      "slug": "aktualni-rizika-a-obrana",
+      "title": "Aktuální rizika a jak jim předejít",
+      "aliases": [
+        "bezpečnostní novinky",
+        "falešné e-maily",
+        "kyberútok",
+        "jak se bránit",
+        "zprávy o útocích"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Sleduje aktuální bezpečnostní situaci, analyzuje aktuální rizika a vysvětlí, jak lze předcházet kyberútokům, které by se ho mohly týkat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Aktuální hrozby nezná spolehlivě, odpověď může být zastaralá nebo vymyšlená."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Zprávy a stránky bezpečnostních úřadů ukazují, jaké útoky se právě šíří."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti rizika nerozebere, rozhodnout, co se tě týká, musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný klasický nástroj bezpečnostní situaci nesleduje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44",
+        "http://data.europa.eu/esco/skill/5898d99a-62a4-4e10-a2e3-0d815ce44248"
+      ],
+      "inspiration": [
+        "Chraň si, co je tvoje – jak zabezpečit své zařízení?"
+      ]
+    },
+    {
+      "slug": "bezpecnostni-nastroje-systemu",
+      "title": "Zabezpečení zařízení: aktualizace, firewall, antivir",
+      "aliases": [
+        "aktualizace",
+        "firewall",
+        "antivirus",
+        "webový štít",
+        "zabezpečit počítač",
+        "zabezpečit mobil"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Učí se posuzovat funkčnost bezpečnostních nástrojů, které jeho operační systém nabízí (aktualizace software, firewall, antivir, webový štít…)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Ověřuje funkčnost bezpečnostních nástrojů, které jeho operační systém nabízí, řeší nalezené nedostatky, případně vyhledá odbornou pomoc."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu firewall nebo aktualizace slouží, a poradí, jak nalezený problém řešit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody výrobců systému ukazují, kde se nastavení nachází a co znamená."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Antivir a nastavení systému samy zkontrolují, co je zapnuté a co chybí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj bezpečnost zařízení nezkontroluje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/df329d70-87b0-466b-a214-3431f36e2a5e",
+        "http://data.europa.eu/esco/skill/bb2b4485-2bad-402f-8517-44bf7d9afff4"
+      ],
+      "inspiration": [
+        "Chraň si, co je tvoje – jak zabezpečit své zařízení?",
+        "Myšlenková mapa zabezpečení počítače"
+      ]
+    },
+    {
+      "slug": "pristup-k-datum-v-cloudu",
+      "title": "Kdo smí vidět a sdílet tvoje data v cloudu",
+      "aliases": [
+        "sdílení souborů",
+        "oprávnění",
+        "cloud",
+        "sdílený odkaz",
+        "Google Disk",
+        "kdo vidí můj soubor"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Nastavuje pravidla přístupu ke svým datům a k jejich sdílení."
+        },
+        {
+          "level": "Splněno",
+          "quote": "S porozuměním fungování cloudu řídí přístup ke svým datům a k jejich sdílení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co znamenají práva k prohlížení a úpravám, a probere s tebou, komu jaké dát."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Nápověda cloudové služby ukazuje, kde se přístup nastavuje."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Cloudová aplikace ti ukáže, kdo má k souboru přístup, a umožní to změnit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k nastavení cloudu nic nemá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0",
+        "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "pravidla-pro-digitalni-stopu",
+      "title": "Pravidla pro digitální stopu",
+      "aliases": [
+        "digitální stopa",
+        "cookies",
+        "metadata",
+        "historie prohlížeče",
+        "sledování na internetu",
+        "co o mně ví mobil"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Navrhne vlastní pravidla pro ovlivnění své (nevědomé) digitální stopy, kterou svojí činností vytváří (např. cookies, metadata, historie a logování činnosti, sledování uživatele při pohybu v cloudu)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozhodne se k použití konkrétních pravidel pro minimalizaci své nechtěné digitální stopy (metadata, logy, data dalších uživatelů), svou volbu zdůvodní."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co jsou cookies a metadata, a zeptá se tě, proč chceš dané pravidlo."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Návody ukazují, jak vypnout sledování nebo smazat historii v prohlížeči a telefonu."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nastavení prohlížeče a telefonu ukáže, co si o tobě ukládají, a umožní to omezit."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravidla si volíš a zdůvodňuješ ty, žádný klasický nástroj je nenavrhne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb",
+        "http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5"
+      ],
+      "inspiration": [
+        "Pátrání po digitální stopě",
+        "Co o mně ví (nejen) můj mobil?"
+      ]
+    },
+    {
+      "slug": "ruzny-obsah-pro-ruzne-uzivatele",
+      "title": "Proč každý vidí na internetu něco jiného",
+      "aliases": [
+        "personalizace",
+        "algoritmy",
+        "doporučený obsah",
+        "reklamy podle mě",
+        "bublina na sociálních sítích",
+        "výsledky vyhledávání"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Vysvětlí, jak je možné, že různí uživatelé získávají různý obsah stejných služeb (výsledky vyhledávání, reklama, obsah sociálních sítí)."
+        },
+        {
+          "level": "Splněno",
+          "quote": "Diskutuje přínosy a rizika algoritmicky personalizovaného či generovaného obsahu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak služby přizpůsobují obsah, a s tebou probere výhody i rizika."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a pokusy ukazují, jak se výsledky vyhledávání a reklamy liší mezi lidmi."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Porovnáš výsledky na dvou účtech nebo v anonymním okně a rozdíl hned uvidíš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj algoritmy neukáže, o výhodách a rizicích se bavíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97"
+      ],
+      "inspiration": [
+        "Co o mně ví (nejen) můj mobil?"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Dodržuje pravidla a zásady och",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Vybírá bezpečné aplikace a web",
+      "code": "O1",
+      "refs": [
+        "overene-aplikace-varovne-signaly"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Uvede možná opatření pro bezpe",
+      "code": "O1",
+      "refs": [
+        "bezpecne-pripojeni-wifi-pevne"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Používá silná hesla, vysvětlí ",
+      "code": "O1",
+      "refs": [
+        "bezpecna-hesla-rizika-dat"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Rozliší různé typy dat a infor",
+      "code": "O1",
+      "refs": [
+        "citliva-data-zneuziti-udaju"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Zjišťuje, jak algoritmy mění o",
+      "code": "O1",
+      "refs": [
+        "obsah-internetu-podle-chovani"
+      ]
+    }
+  ]
+}

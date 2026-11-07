@@ -1,0 +1,56 @@
+{
+  "outcome": "JJK-AJA-003-ZV9-018",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "anglicky-osobni-nazor-na-temata",
+      "title": "Vyjádření vlastního názoru anglicky",
+      "aliases": ["I think", "můj názor anglicky", "říct co si myslím", "názor v angličtině", "in my opinion"],
+      "sources": [
+        {"level": "Splněno", "quote": "Srozumitelně vyjádří své osobní názory na sdílená témata."},
+        {"level": "Na cestě", "quote": "Vyjádří svůj názor na známá témata pomocí jednoduchých vět."},
+        {"level": "Na začátku", "quote": "Vyjádří svůj názor pouze velmi jednoduše a stručně"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí, jak názor začít a zdůvodnit, a nechá tě ho vyslovit na zkoušku."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš seznamy frází pro názor a ukázky, jak ho zdůvodnit."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace s větami ti názorové fráze procvičí a ukáže výslovnost."},
+        "klasicky": {"verdict": "nepomuze", "why": "Co si myslíš, musíš říct ty, slovník to za tebe nevymyslí."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "anglicka-reakce-na-nazory-a-diskuse",
+      "title": "Reakce na názory druhých a diskuse anglicky",
+      "aliases": ["souhlasit anglicky", "nesouhlasit anglicky", "I agree", "diskuse v angličtině", "reagovat na názor"],
+      "sources": [
+        {"level": "Splněno", "quote": "Reaguje na názory ostatních a zapojí se do diskuse."},
+        {"level": "Na cestě", "quote": "Při diskuzích občas reaguje na názory ostatních, přičemž používá základní fráze pro souhlas, nesouhlas."},
+        {"level": "Na cestě", "quote": "Do diskuzí se zapojuje aktivněji"},
+        {"level": "Na začátku", "quote": "zapojuje se několika slovy do jednoduché diskuze"}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Zahraje s tebou diskusi a vysvětlí fráze pro souhlas, nesouhlas i doplnění."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš fráze pro souhlas a nesouhlas a ukázky anglických diskusí."},
+        "aplikace": {"verdict": "nepomuze", "why": "Do živé diskuse se zapojuješ ty, aplikace s frázemi za tebe nezareaguje."},
+        "klasicky": {"verdict": "nepomuze", "why": "Slovník nepoví, co odpovědět na to, co právě zaznělo."}
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+        "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+        "http://data.europa.eu/esco/skill/bad0f996-a299-4631-a7d8-104185b2ef22"
+      ],
+      "inspiration": []
+    }
+  ],
+  "aside": []
+}

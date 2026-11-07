@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Výraz s několika proměnnými je zkratka pro celý příběh, třeba kolik zaplatíš za x lístků do kina a y porcí popcornu. Jakmile situaci takhle zapíšeš, můžeš dosazovat různá čísla a úlohu nemusíš počítat pořád znovu. Ve fyzice, v předpovědi počasí nebo při výpočtu nákladů výroby se takové výrazy sestavují denně a míst v těchto oborech spíš přibude. Počítač dosadí rychleji než ty, výraz pro skutečnou situaci mu ale musí napsat někdo, kdo jí rozumí.",
+  "learnWithAi": [
+    {
+      "title": "Příběhy ze sportu a obchodu",
+      "text": "Požádej chatbota o pět krátkých situací z obchodu nebo sportu, ve kterých vystupují dvě neznámá množství. Zapiš ke každé výraz a nech si ho zkontrolovat."
+    },
+    {
+      "title": "Příběh k hotovému výrazu",
+      "text": "Napiš chatbotovi výraz, třeba 3x + 2y, a vymysli k němu situaci ty. Chatbot posoudí, jestli tvůj příběh výrazu opravdu odpovídá."
+    },
+    {
+      "title": "Rozpočet třídního výletu",
+      "text": "Sestav výraz pro cenu výletu podle počtu žáků, učitelů a nocí. Nech chatbota dosadit čísla a kalkulačkou si ověř, že počítá správně."
+    }
+  ]
+}

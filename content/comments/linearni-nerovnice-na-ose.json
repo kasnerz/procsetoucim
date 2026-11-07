@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Nerovnice odpovídá na otázky se slovy „nejvýš“ nebo „aspoň“, třeba kolik rohlíků koupíš za stovku nebo kolik bodů potřebuješ na jedničku. Řešením je celý úsek čísel, a proto se zakresluje na číselnou osu. Nejčastější chyba je zapomenout otočit znak nerovnosti při násobení záporným číslem, a tu odhalí rychlá zkouška dosazením. Při navrhování strojů nebo plánování rozpočtu se nerovnicemi hlídají meze, které se nesmějí překročit.",
+  "learnWithAi": [
+    {
+      "title": "Plné a prázdné kolečko",
+      "text": "Nech si zadat šest nerovnic a řešení každé zakresli na osu. Chatbotovi napiš, kde máš plné a kde prázdné kolečko, a nech si to zkontrolovat."
+    },
+    {
+      "title": "Otočený znak nerovnosti",
+      "text": "Chtěj na konkrétních číslech vysvětlit, proč se při násobení záporným číslem obrátí znak nerovnosti. Vyzkoušej to na třech vlastních příkladech."
+    },
+    {
+      "title": "Zkouška třemi čísly",
+      "text": "Vyřeš nerovnici a vyber tři čísla: jedno uvnitř řešení, jedno na hranici a jedno mimo. Dosaď je, a když něco nesedí, nech chatbota najít krok, kde je chyba."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "outcome": "JJK-AJA-003-ZV9-016",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Napíše vzkaz nebo krátkou zprávu, ve které stručně sdělí základní požadované informace.",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "anglicky-vzkaz-prani-psana-zprava"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "Napíše jednoduchý text, například dopis nebo e-mail s odpovídající strukturou, ve kterém sdělí základní informace nebo požadavek. Text je srozumitelný, i když s možnými drobnými nepřesnostmi, které nebrání pochopení.",
+      "cards": [
+        "anglicky-email-dopis-se-strukturou"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Srozumitelně a přehledně formuluje text svého sdělení.",
+      "cards": [
+        "anglicky-email-dopis-se-strukturou"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Pokládá otázky, dává pokyny či poskytuje informace.",
+      "cards": [
+        "anglicke-otazky-pokyny-informace-v-psane-zprave"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Zprostředkuje základní téma jednoduchého psaného textu, který se týká osvojovaných témat.",
+      "cards": [
+        "anglicke-zprostredkovani-psaneho-textu"
+      ],
+      "aside": null
+    }
+  ]
+}

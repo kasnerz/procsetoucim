@@ -1,0 +1,591 @@
+[
+  {
+    "slug": "jidelnicek-na-cely-den",
+    "title": "Jídelníček na celý den",
+    "aliases": [
+      "co sníst za den",
+      "jídelníček",
+      "pestrý jídelníček",
+      "zdravé jídlo na den",
+      "snídaně oběd večeře"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Z nabídnutých potravin sestaví pro sebe vyvážený jídelníček na celý den v souladu se zásadami zdravé výživy.",
+        "quote": "Z nabídnutých potravin sestaví pro sebe vyvážený jídelníček na celý den"
+      },
+      {
+        "level": "Splněno",
+        "point": "Zhodnotí pestrost svého jídelníčku, navrhne jídelníček pro sebe na jeden den.",
+        "quote": "Zhodnotí pestrost svého jídelníčku, navrhne jídelníček pro sebe na jeden den."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Určí, které potraviny a nápoje je vhodné konzumovat v jednotlivých denních jídlech.",
+        "quote": "Určí, které potraviny a nápoje je vhodné konzumovat v jednotlivých denních jídlech."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Stravujeme se správně?",
+        "url": "https://uloziste.rvp.cz/material/4dc30e"
+      },
+      {
+        "title": "Jakub a jeho stravování",
+        "url": "https://uloziste.rvp.cz/material/1767d7"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co do kterého jídla patří, a řekne, co ve tvém jídelníčku chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Doporučení pro děti najdeš v ověřených zdrojích, třeba v kuchařkách pro školy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na zápis jídla ukáže, jestli je den pestrý."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papír a tužka stačí na zápis dne a na škrtání toho, co se opakuje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/ff82aa43-aef7-40fe-9d0e-2426e95b4417",
+      "http://data.europa.eu/esco/skill/e2858f53-a141-4cba-ad05-5b5a976b1d62"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "pet-denni-jidel-a-pestra-strava",
+    "title": "Pět denních jídel a pestrá strava",
+    "aliases": [
+      "snídaně svačina oběd",
+      "kolikrát denně jíst",
+      "pestrá strava",
+      "denní jídla"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Rozlišuje pět denních jídel, chápe základní význam pestré stravy.",
+        "quote": "Rozlišuje pět denních jídel, chápe základní význam pestré stravy."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Výživa",
+        "url": "https://uloziste.rvp.cz/material/57097b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, proč se jí pětkrát denně a proč má být jídlo pestré."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti jídla nerozliší, rozdíl mezi svačinou a obědem poznáš ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Najdeš popis denních jídel a příklady pestrého stolu."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Žádný klasický nástroj k rozlišování jídel nepomáhá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+      "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "zdravy-talir",
+    "title": "Zdravý talíř",
+    "aliases": [
+      "zdravý talíř",
+      "pyramida výživy",
+      "co patří na talíř",
+      "poměr jídla na talíři"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Orientuje se v principech zdravého talíře.",
+        "quote": "Orientuje se v principech zdravého talíře."
+      }
+    ],
+    "rules": [
+      "P1"
+    ],
+    "inspiration": [
+      {
+        "title": "Výživa",
+        "url": "https://uloziste.rvp.cz/material/57097b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co a v jakém poměru patří na talíř, a opraví tvůj nákres."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace s fotkou jídla ukáže, co na talíři převládá."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Obrázky zdravého talíře si můžeš prohlédnout a porovnat."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Papírový talíř a pastelky ti pomůžou rozdělit jídlo na díly."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+      "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "ovoce-a-zelenina-druhy",
+    "title": "Druhy ovoce a zeleniny",
+    "aliases": [
+      "ovoce",
+      "zelenina",
+      "jaké ovoce znáš",
+      "pojmenovat potraviny"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Pojmenuje základní potraviny a nápoje.",
+        "quote": "Pojmenuje základní potraviny a nápoje."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Uvede různé druhy ovoce a zeleniny.",
+        "quote": "Uvede různé druhy ovoce a zeleniny."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Může tě zkoušet a přidat druhy, které ti nenapadají."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace na poznávání rostlin pozná plod z fotky."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Atlas a encyklopedie ukážou, jak ovoce a zelenina vypadají."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na trhu nebo doma si druhy prohlédneš, přivoníš a poznáš rukama."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9babbf24-1523-4b74-9770-c07c447920cc",
+      "http://data.europa.eu/esco/skill/e2c6ceb1-2356-46f7-9129-a9ae88cfb162"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "napoje-a-pitny-rezim",
+    "title": "Nápoje a pitný režim",
+    "aliases": [
+      "kolik pít",
+      "vhodné nápoje",
+      "pitný režim",
+      "pití během dne",
+      "sladké nápoje"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Zhodnotí vhodnost nápojů a znázorní doporučené množství přijímaných tekutin pro sebe.",
+        "quote": "Zhodnotí vhodnost nápojů a znázorní doporučené množství přijímaných tekutin pro sebe."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí zásady a význam stravovacího a pitného režimu, který podporuje zdraví a minimalizuje jeho možné poškození.",
+        "quote": "Vysvětlí zásady a význam stravovacího a pitného režimu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Co pijeme",
+        "url": "https://uloziste.rvp.cz/material/8faa46"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, které nápoje se hodí a proč, a pomůže spočítat tvé množství."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace připomíná pití a sčítá vypité množství."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Doporučení k pití a složení nápojů najdeš v ověřených zdrojích."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Odměrka a láhev s ryskami ukážou, kolik opravdu vypiješ."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1",
+      "http://data.europa.eu/esco/skill/e2858f53-a141-4cba-ad05-5b5a976b1d62"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "sul-cukr-tuk-doporuceni",
+    "title": "Sůl, cukr a tuk v jídle",
+    "aliases": [
+      "kolik soli",
+      "kolik cukru",
+      "tuky v jídle",
+      "skrytý cukr",
+      "nezdravé potraviny"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí doporučení k přiměřené konzumaci soli, cukru, tuku.",
+        "quote": "Vysvětlí doporučení k přiměřené konzumaci soli, cukru, tuku."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Uvede potraviny, které mají velké množství cukru, soli a nevhodných tuků.",
+        "quote": "Uvede potraviny, které mají velké množství cukru, soli a nevhodných tuků."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Výživa",
+        "url": "https://uloziste.rvp.cz/material/57097b"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí doporučení a vyjmenuje potraviny, kde se cukr a sůl schovávají."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace se skenerem čárových kódů ukáže složení balených potravin."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Tabulky složení a doporučení ukážou, v čem je kolik cukru a soli."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kuchyňská váha a lžička ti ukážou, kolik cukru v nápoji opravdu je."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2846ad39-6535-48cf-a4c4-64f0ae9066c1",
+      "http://data.europa.eu/esco/skill/13d96098-2ff0-46b8-b326-b7c0e18cc1f1"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "datum-pouzitelnosti-a-trvanlivosti",
+    "title": "Data použitelnosti a minimální trvanlivosti",
+    "aliases": [
+      "datum spotřeby",
+      "datum minimální trvanlivosti",
+      "prošlé jídlo",
+      "expirace",
+      "co znamená datum na obalu"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Orientuje se v datech použitelnosti a minimální trvanlivosti.",
+        "quote": "Orientuje se v datech použitelnosti a minimální trvanlivosti."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí rozdíl mezi datem spotřeby a minimální trvanlivostí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace se skenerem čárových kódů načte údaje o výrobku, datum ale musíš najít ty."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Pravidla pro označování potravin najdeš v ověřených zdrojích."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Datum na obalu čteš a posuzuješ ty, nástroj ti ho nepřečte."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/b4b3b539-81ae-43aa-a540-0e2ea2c7e802",
+      "http://data.europa.eu/esco/skill/e9a68ed0-d96e-4054-b1c3-9bbdc5ed6b46"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hygiena-pri-jidle-a-pracovni-plocha",
+    "title": "Hygiena při jídle a pořádek na pracovní ploše",
+    "aliases": [
+      "mytí rukou",
+      "čistota v kuchyni",
+      "hygiena potravin",
+      "bezpečnost při vaření",
+      "úklid po vaření"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Dodržuje základní hygienická pravidla při zacházení s potravinami a nápoji.",
+        "quote": "Dodržuje základní hygienická pravidla při zacházení s potravinami a nápoji."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Udržuje pořádek a čistotu pracovních ploch, dodržuje zásady hygieny a bezpečnosti práce.",
+        "quote": "Udržuje pořádek a čistotu pracovních ploch, dodržuje zásady hygieny a bezpečnosti práce."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Dodržuje základní pravidla hygieny v souvislosti s jídlem a pitím a odpovídající kulturu stolování.",
+        "quote": "Dodržuje základní pravidla hygieny v souvislosti s jídlem a pitím"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Příprava pokrmu",
+        "url": "https://uloziste.rvp.cz/material/3caeb8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Ruce myješ a plochu uklízíš ty, chatbot ti je neumyje."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti ruce neumyje a stůl neuklidí."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Pravidla hygieny a bezpečnosti si můžeš přečíst a vytisknout jako přehled."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Mýdlo, utěrka a čistá prkénka jsou základ čisté práce."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/a34f4fd4-1aff-4941-82d5-542ac94f81c3",
+      "http://data.europa.eu/esco/skill/791fa659-3382-49f8-a8dd-505226d0da48"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "priprava-pokrmu-a-napoje",
+    "title": "Příprava jednoduchého pokrmu a nápoje",
+    "aliases": [
+      "vaření",
+      "příprava jídla",
+      "jednoduchý recept",
+      "příprava svačiny",
+      "míchání nápoje"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Navrhne a připraví jednoduchý pokrm a nápoj v souladu s výživovým doporučením.",
+        "quote": "Navrhne a připraví jednoduchý pokrm a nápoj v souladu s výživovým doporučením."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Příprava pokrmu",
+        "url": "https://uloziste.rvp.cz/material/3caeb8"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Navrhne jednoduché recepty a vysvětlí postup, vařit ale musíš ty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Aplikace s recepty počítá množství surovin a měří čas."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Recepty pro děti i s postupem najdeš na webech o vaření."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Nůž, prkénko, váha a odměrka jsou to, čím jídlo opravdu vznikne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8eb292fb-55f2-4952-b05d-1cbc205f515c",
+      "http://data.europa.eu/esco/skill/ee95757e-6d1e-47b6-b9e0-b16512dc25a9"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stolovani-prostirani",
+    "title": "Prostírání a stolování",
+    "aliases": [
+      "prostírání stolu",
+      "správné stolování",
+      "chování u stolu",
+      "příbor",
+      "společenské chování při jídle"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-032",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Upraví stůl pro jednoduché stolování související s připraveným nápojem nebo pokrmem.",
+        "quote": "Upraví stůl pro jednoduché stolování související s připraveným nápojem nebo pokrmem."
+      },
+      {
+        "level": "Splněno",
+        "point": "Dodržuje pravidla správného stolování a společenského chování.",
+        "quote": "Dodržuje pravidla správného stolování a společenského chování."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "nepomuze",
+        "why": "Stůl prostřeš a u jídla se chováš ty, chatbot to za tebe neudělá."
+      },
+      "internet": {
+        "verdict": "nepomuze",
+        "why": "Aplikace stůl neprostře a u jídla se za tebe nezachová."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Obrázky prostřeného stolu ukážou, kam patří příbor a talíř."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příbor a talíře skládáš a používáš ty při opravdovém jídle."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/906d21c9-7a9c-4919-817d-10676f9ddfe4"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

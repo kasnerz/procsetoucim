@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Zápis a : b = c : d říká úsporně, že dvě věci rostou spolu. Jakmile úměru zapíšeš jako rovnost poměrů, chybějící číslo dopočítáš jednou úpravou a nemusíš pokaždé vymýšlet postup znovu. Architektonické výkresy, mapy i modely aut stojí na stejném poměru zmenšení a kdo je kreslí, s takovým zápisem počítá běžně. Program chybějící číslo spočítá za tebe, správně ho ale zadáš jen tehdy, když víš, které hodnoty k sobě patří.",
+  "learnWithAi": [
+    {
+      "title": "Úměry se zakrytým číslem",
+      "text": "Požádej chatbota o sadu úměr, ve kterých chybí jedno číslo. Dopočítej je a u těch, kde ti nesedí zkouška, si nech ukázat, kde je chyba."
+    },
+    {
+      "title": "Zmenšený plánek pokoje",
+      "text": "Změř svůj pokoj a zvol, v jakém poměru ho nakreslíš na papír. Rovnost poměrů pro délku i šířku napiš ty, chatbot ti jen zkontroluje, jestli sedí."
+    },
+    {
+      "title": "Čísla na špatných místech",
+      "text": "Napiš k slovní úloze vlastní úměru a nech chatbota posoudit, jestli jsou čísla na správných místech. Případnou chybu oprav ty a vysvětli mu, proč je zápis teď správně."
+    }
+  ]
+}

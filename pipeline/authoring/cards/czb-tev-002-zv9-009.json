@@ -1,0 +1,251 @@
+{
+  "outcome": "CZB-TEV-002-ZV9-009",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "tv-nevhodne-jednani-a-porusena-prava",
+      "title": "Nevhodné jednání a porušená práva a povinnosti",
+      "aliases": [
+        "nefér hra",
+        "porušení pravidel",
+        "faul",
+        "podvádění ve hře",
+        "práva a povinnosti hráče"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Označí nevhodné jednání a zdůvodní, v čem byla porušena práva a povinnosti."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, co je nefér jednání, a nabídne příklady k rozboru."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pravidla her a olympijské zásady si můžeš dohledat a porovnat s tím, co se stalo."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti nepoznají, co se v hře opravdu stalo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Žádný nástroj nepozná nefér jednání, to posuzuješ ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/733db58b-f62e-4548-8078-b0f4e5182383",
+        "http://data.europa.eu/esco/skill/45fce913-bbf7-4796-a190-4f9f4ac439a4"
+      ],
+      "inspiration": [
+        "Principy fair play - uvědomění"
+      ]
+    },
+    {
+      "slug": "tv-vliv-jednani-na-ostatni-sportovce",
+      "title": "Vliv vhodného a nevhodného jednání na ostatní sportovce",
+      "aliases": [
+        "jak se chovat ke spoluhráčům",
+        "nefér chování",
+        "sportovní etika",
+        "dopad faulu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Uvede, jaký vliv může mít eticky nevhodné a vhodné jednání na jiné sportovce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot s tebou projde, jak se po nefér zákroku cítí soupeř i tým."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Příběhy ze sportu a rozhovory se sportovci najdeš a můžeš s nimi srovnat vlastní zkušenost."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti dopad na lidi z hřiště nezjistí."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Dopad na spoluhráče a soupeře poznáš jen ve hře, žádný nástroj ho neukáže."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/733db58b-f62e-4548-8078-b0f4e5182383"
+      ],
+      "inspiration": [
+        "Principy fair play - uvědomění"
+      ]
+    },
+    {
+      "slug": "tv-podpora-znevyhodnenych-osob",
+      "title": "Podpora znevýhodněných spolužáků a soupeřů",
+      "aliases": [
+        "pomoc slabším ve sportu",
+        "inkluze v tělocviku",
+        "handicap ve sportu",
+        "pomoc spolužákovi"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Podporuje znevýhodněné osoby."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot poradí, jak upravit pravidla hry, aby se mohli zapojit všichni."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady, jak hrají sport lidé s handicapem, třeba paralympionici."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace spolužákovi neporadí ani nepomůže, to uděláš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Podpora spolužáka je tvoje jednání, žádný nástroj ji nenahradí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0f298334-ae4a-4ab7-96c2-0d90d2883768"
+      ],
+      "inspiration": [
+        "Principy fair play - uplatňování"
+      ]
+    },
+    {
+      "slug": "tv-ochrana-prirody-pri-pohybu",
+      "title": "Ochrana přírody při pohybových činnostech",
+      "aliases": [
+        "chování v přírodě",
+        "neodhazovat odpadky při sportu",
+        "šetrný pohyb v lese",
+        "ochrana přírody při turistice"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Jedná se zásadami pro ochranu přírodního prostředí."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak se chovat na túře nebo závodě, aby příroda nestrádala."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Pravidla pro chráněná území a zásady chování v přírodě si dohledáš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace za tebe odpadky neodnese ani stezku neohlídá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Přírodu chráníš svým chováním venku, žádný nástroj to za tebe neudělá."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/ae6d655d-bbce-4701-ba04-d687cfa90eda"
+      ],
+      "inspiration": [
+        "Principy fair play - uplatňování"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Jedná v duchu fair play, respektuje",
+      "code": "O3",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "Seznamuje se s principy fair play",
+      "code": "O1",
+      "refs": [
+        "tv-principy-fair-play-seznameni"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "Uvede (předvede)",
+      "code": "O1",
+      "refs": [
+        "tv-principy-fair-play-seznameni"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Koriguje své jednání",
+      "code": "O1",
+      "refs": [
+        "tv-oprava-vlastniho-jednani-fairplaycz"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "Uvědomuje si rozdílnost",
+      "code": "O1",
+      "refs": [
+        "tv-ohled-na-ruzne-dovednosti-fairplaycz"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Jedná v duchu fair play.",
+      "code": "O1",
+      "refs": [
+        "tv-oprava-vlastniho-jednani-fairplaycz"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Respektuje pohybové",
+      "code": "O1",
+      "refs": [
+        "tv-ohled-na-ruzne-dovednosti-fairplaycz"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Zhodnotí své jednání",
+      "code": "O1",
+      "refs": [
+        "tv-hodnoceni-jednani-v-utkani-fairplaycz"
+      ]
+    }
+  ]
+}

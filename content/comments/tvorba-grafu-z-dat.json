@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Graf je hotový, až když ho někdo jiný přečte bez tvého vysvětlování. Potřebuje k tomu popsané osy s jednotkami, název, který říká, co graf ukazuje, a rozumné měřítko. Tabulkový procesor z označených dat nakreslí graf jedním kliknutím, ale klidně nabídne i nesmysl, třeba čáru mezi hodnotami, které na sebe nenavazují, nebo popisky přes sebe. Hotové grafy do přehledů dělají lidé, kteří analyzují data, řídí dodávky nebo zpracovávají daně, a v jejich práci AI mění hodně úkolů. Rozumět tomu, co v grafu má být, ti pomůže poznat, jestli to, co nástroj vyrobil, sedí.",
+  "learnWithAi": [
+    {
+      "title": "Popisky, kterým rozumí každý",
+      "text": "Vytvoř graf v tabulkovém procesoru a popiš chatbotovi, co je na osách, v názvu a v legendě. Nech si říct, co by člověk bez tvého vysvětlení nepochopil, a oprav to."
+    },
+    {
+      "title": "Graf rukou na papír",
+      "text": "Popros chatbota o malou tabulku, třeba srážky za šest měsíců, a nakresli z ní graf na čtverečkovaný papír. Porovnej ho s grafem, který z týchž dat udělá tabulkový procesor."
+    },
+    {
+      "title": "Hledání chyb v grafu",
+      "text": "Ať ti chatbot popíše graf s několika chybami, třeba chybějící jednotkou nebo nesmyslným měřítkem. Chyby najdi a vysvětli, jak by je čtenář mohl špatně pochopit."
+    }
+  ]
+}

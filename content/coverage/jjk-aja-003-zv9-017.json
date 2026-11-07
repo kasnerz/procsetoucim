@@ -1,0 +1,56 @@
+{
+  "outcome": "JJK-AJA-003-ZV9-017",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Žák vyjádří své pocity pouze základními slovy nebo jednoduchými frázemi, při vyjadřování emocí je jeho projev často nepřesný nebo váhavý, na pocity druhých jednoduše reaguje.",
+      "cards": [
+        "anglicky-vyjadreni-pocitu",
+        "anglicka-reakce-na-pocity-druhych"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Dokáže vyjádřit své pocity pomocí jednoduchých vět a základních jazykových prostředků.",
+      "cards": [
+        "anglicky-vyjadreni-pocitu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "S menší podporou dokáže reagovat i na pocity ostatních.",
+      "cards": [
+        "anglicka-reakce-na-pocity-druhych"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Při vyjadřování emocí jeho projev občas obsahuje nepřesnosti nebo váhání, zejména u složitějších pocitů.",
+      "cards": [],
+      "aside": {
+        "code": "O2",
+        "refs": []
+      }
+    },
+    {
+      "level": "Splněno",
+      "point": "Vhodně vyjádří své pocity pomocí jazykových prostředků.",
+      "cards": [
+        "anglicky-vyjadreni-pocitu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vyjadřuje své pocity ústní i písemnou formou a na pocity druhých adekvátně reaguje.",
+      "cards": [
+        "anglicka-reakce-na-pocity-druhych"
+      ],
+      "aside": null
+    }
+  ]
+}

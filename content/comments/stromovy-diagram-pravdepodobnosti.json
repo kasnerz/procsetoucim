@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Hod dvěma mincemi nebo tah dvou karet se odehrává ve dvou krocích a možnosti se v hlavě snadno zamotají. Stromový diagram je rozloží na větve, takže vidíš všechny cesty a u každé její šanci. Stejně se dá nakreslit i rozhodování: co se stane, když zvolím tohle, a co když tamto. Lidé, kteří odhadují rizika ve firmách nebo v pojišťovnách, takové stromy používají, aby jim nic neuteklo. Chatbot ti strom popíše taky, ale chybějící větev v něm poznáš, jen když víš, jak se strom staví.",
+  "learnWithAi": [
+    {
+      "title": "Proč se po větvi násobí",
+      "text": "Když ti není jasné, proč se pravděpodobnosti po větvi násobí a různé větve sčítají, zeptej se chatbota. Ať ti to ukáže na příkladu s barevnými kuličkami."
+    },
+    {
+      "title": "Strom pro tři hody mincí",
+      "text": "Na papír nakresli strom pro tři hody mincí a spočítej šanci, že padnou přesně dva rubové. Chatbotovi pošli výsledek i postup a nech si říct, jestli ti nechybí větev."
+    },
+    {
+      "title": "Úloha od chatbota s chytákem",
+      "text": "Požádej chatbota o úlohu s tahem bez vracení a ať ve stromu schválně udělá jednu chybu. Najdi ji a celý výpočet si přepočítej, chatbot se může splést i jinde."
+    }
+  ]
+}

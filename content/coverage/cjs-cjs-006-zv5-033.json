@@ -1,0 +1,55 @@
+{
+  "outcome": "CJS-CJS-006-ZV5-033",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "Rozlišuje české mince a bankovky podle hodnoty.",
+      "cards": [
+        "ceske-mince-a-bankovky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "Odhaduje ceny základních potravin a celkovou cenu jednoduchého nákupu v modelových situacích.",
+      "cards": [
+        "odhad-ceny-nakupu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá peníze v reálných i modelových situacích.",
+      "cards": [
+        "zaplatit-danou-castku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Zaplatí různými způsoby danou částku.",
+      "cards": [
+        "zaplatit-danou-castku"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vrátí nazpět správný obnos.",
+      "cards": [
+        "vraceni-spravneho-obnosu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Minimální doporučená úroveň",
+      "point": "Používá peníze v jednoduchých modelových situacích.",
+      "cards": [],
+      "aside": {
+        "code": "O3",
+        "refs": []
+      }
+    }
+  ]
+}

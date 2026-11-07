@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Sčítání a odčítání výrazů je algebra v nejjednodušší podobě: sloučíš, co k sobě patří, a zbytek necháš být, podobně jako když zvlášť počítáš koruny a eura. Bez toho se nehneš u rovnic, které přijdou hned potom. V práci se vzorci, třeba ve fyzice nebo ekonomii, se to dělá pořád, většinou rovnou v hlavě. Aplikace výraz upraví bleskově, jenže když nevidíš, které členy jdou dohromady, nepoznáš, že ti kvůli špatně zadané závorce ukázala nesmysl.",
+  "learnWithAi": [
+    {
+      "title": "Hromádky podobných členů",
+      "text": "Popros chatbota o výrazy s pomíchanými členy, třeba 3x + 2y − x + 5y. Roztřiď je na hromádky a nech si ověřit, jestli ti nic nezbylo."
+    },
+    {
+      "title": "Minus před závorkou",
+      "text": "Zeptej se, proč se při odčítání závorky mění všechna znaménka uvnitř. Vysvětlení chtěj na penězích nebo teplotě a vyzkoušej ho na třech vlastních příkladech."
+    },
+    {
+      "title": "Postup se schovanou chybou",
+      "text": "Požádej chatbota, ať vyřeší příklad a udělá v něm jednu chybu schválně. Najdi ji ty a napiš, jak měl postup vypadat."
+    }
+  ]
+}

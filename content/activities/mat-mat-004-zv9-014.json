@@ -1,0 +1,168 @@
+[
+  {
+    "slug": "systematicke-hledani-vsech-moznosti",
+    "title": "Systematické hledání všech možností",
+    "aliases": [
+      "jak najít všechny možnosti",
+      "kolik je možností",
+      "vypsat všechny možnosti",
+      "uspořádání možností"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "najde vhodný organizační princip pro danou situaci, který umožní najít výsledek",
+        "quote": "najde vhodný organizační princip pro danou situaci, který umožní najít výsledek"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Svačinová kombinace",
+        "url": "https://uloziste.rvp.cz/material/2f6bb2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti ukáže, jak možnosti uspořádat, a zkontroluje, jestli žádnou nevynecháš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázkové úlohy a postupy na výčet možností najdeš ve výkladech a cvičebnicích online."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Procvičovací aplikace dají úlohy a hned ukážou, jestli máš všechny možnosti."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Tužka s papírem uspořádání nevymyslí, hledáš ho ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/1dabb413-18e8-48ed-a963-44978e67ad32"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "stromovy-graf-moznosti",
+    "title": "Stromový graf možností",
+    "aliases": [
+      "stromový graf",
+      "strom možností",
+      "větvení",
+      "schéma možností",
+      "diagram možností"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "reprezentuje situaci vhodným způsobem, např. stromovým grafem",
+        "quote": "reprezentuje situaci vhodným způsobem, např. stromovým grafem"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Svačinová kombinace",
+        "url": "https://uloziste.rvp.cz/material/2f6bb2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, jak strom kreslit, a poví, kde ve tvém stromu něco chybí."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Hotové příklady stromových grafů ti ukážou, jak se větví možnosti."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Kreslicí aplikace nebo schémata ti dovolí strom snadno opravit a rozšířit."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Tužka a papír stačí, strom si nakreslíš a větve spočítáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+      "http://data.europa.eu/esco/skill/1dabb413-18e8-48ed-a963-44978e67ad32"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vypis-vysledku-s-vracenim-a-bez",
+    "title": "Výpis všech výsledků s vracením a bez vracení",
+    "aliases": [
+      "tažení s vracením",
+      "tažení bez vracení",
+      "všechny dvojice",
+      "losování kuliček",
+      "prostor elementárních jevů"
+    ],
+    "outcome": "MAT-MAT-004-ZV9-014",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Systematicky vypíše všechny možné výsledky (prostor elementárních jevů) pro situaci zahrnující jev složený ze dvou elementárních jevů, buď s vrácením vybraného předmětu do sady, nebo bez jeho vrácení.",
+        "quote": "Systematicky vypíše všechny možné výsledky (prostor elementárních jevů) pro situaci zahrnující jev složený ze dvou elementárních jevů, buď s vrácením vybraného předmětu do sady, nebo bez jeho vrácení."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Svačinová kombinace",
+        "url": "https://uloziste.rvp.cz/material/2f6bb2"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl mezi vracením a nevracením a zkontroluje tvůj výčet."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Vzorové úlohy s tažením z pytlíku ti ukážou správný výpis."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace s tažením a generátorem náhody ti ukážou, jaké dvojice vzniknou."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kostky, karty nebo kuličky si můžeš zkusit tahat a výsledky ověřit."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/1dabb413-18e8-48ed-a963-44978e67ad32"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

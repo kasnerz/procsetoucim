@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Předpověď počasí udává šanci na déšť a ty podle ní rozhoduješ, jestli si vezmeš deštník. Když umíš šanci spočítat jako zlomek a umístit ji mezi 0 a 1, rozumíš tomu, co taková čísla znamenají, a poznáš, kdy je něco skoro jisté a kdy jen o trochu pravděpodobnější než hod mincí. Hodí se to u her a losování i při čtení zpráv o rizicích. Pojišťovny a hazardní hry na tom stojí a lidé, kteří v nich pracují, počítají šance každý den. Chatbot ti výpočet udělá rychle, ale jestli dává smysl, poznáš jen tehdy, když víš, jak vzniká.",
+  "learnWithAi": [
+    {
+      "title": "Úlohy s kostkou a kartami",
+      "text": "Zadej chatbotovi, ať ti dá deset úloh s kostkou, mincí a balíčkem karet. Výsledek napiš zlomkem i desetinným číslem a nech si ho zkontrolovat."
+    },
+    {
+      "title": "Jevy od nemožného k jistému",
+      "text": "Vymysli osm jevů ze života, třeba že zítra vyjde slunce nebo že ti padne šestka, a seřaď je na ose od 0 do 1. Zeptej se chatbota, se kterým pořadím nesouhlasí, a rozhodni, kdo má pravdu."
+    },
+    {
+      "title": "Pokus proti výpočtu",
+      "text": "Spočítej, jaká je šance, že na kostce padne víc než čtyřka, a pak třicetkrát hoď. Chatbota popros, ať ti vysvětlí, proč se tvůj pokus od výpočtu trochu liší."
+    }
+  ]
+}

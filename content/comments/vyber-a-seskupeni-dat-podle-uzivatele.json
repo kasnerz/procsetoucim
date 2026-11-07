@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Stejná tabulka slouží různým lidem k různým věcem. Trenérka chce vidět docházku a výkony, rodiče jen termíny zápasů. Kdo umí schovat zbytečné sloupce, seskupit řádky a obarvit to podstatné, udělá z obří tabulky přehled, ve kterém se člověk vyzná za pár vteřin. V práci to dělají lidé, kteří chystají přehledy pro vedení v obchodě, ve skladu, v dopravě nebo v daních. Tabulkový procesor zobrazení přepne jedním kliknutím a chatbot poradí jak, ale co konkrétní člověk potřebuje vidět, musíš zjistit od něj.",
+  "learnWithAi": [
+    {
+      "title": "Barvy podle pravidla",
+      "text": "Jak nastavit podmíněné formátování, aby se známky horší než trojka obarvily červeně, ti chatbot vysvětlí krok za krokem. Vyzkoušej to a změň pár hodnot, ať vidíš, jestli se barva mění."
+    },
+    {
+      "title": "Jedna tabulka pro dva čtenáře",
+      "text": "Nech si od chatbota vygenerovat tabulku výsledků turnaje a připrav z ní dvě zobrazení, pro hráče a pro pořadatele. Ukaž mu oba návrhy a zeptej se, co by kterému čtenáři chybělo."
+    },
+    {
+      "title": "Rozhovor se zadavatelkou",
+      "text": "Ať chatbot hraje vedoucí oddílu, která chce přehled docházky na jeden pohled. Vyptej se jí, co přesně potřebuje, a teprve podle toho tabulku nastav."
+    }
+  ]
+}

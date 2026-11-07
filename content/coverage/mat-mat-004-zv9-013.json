@@ -1,0 +1,53 @@
+{
+  "outcome": "MAT-MAT-004-ZV9-013",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "určí, zda výskyt určitého náhodného jevu je jistý, pravděpodobný nebo nemožný",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "jiste-nahodne-nemozne-jevy"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "porovná pravděpodobnost dvou nebo více náhodných jevů s použitím popisných slov",
+      "cards": [],
+      "aside": {
+        "code": "O1",
+        "refs": [
+          "odhad-pravdepodobnosti-jevu"
+        ]
+      }
+    },
+    {
+      "level": "Na cestě",
+      "point": "vypočítá pravděpodobnost výskytu elementárního jevu, přičemž odpověď je vyjádřena zlomkem nebo desetinným číslem, a zařadí získané hodnoty na stupnici od 0 (nemožné) do 1 (jisté)",
+      "cards": [
+        "pravdepodobnost-zlomkem-na-ose"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Vypočítá pravděpodobnost jevů v konečném prostoru.",
+      "cards": [
+        "pravdepodobnost-zlomkem-na-ose"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Používá širokou škálu zobrazení, jako jsou stromové diagramy a kontingenční tabulky, ke zkoumání pravděpodobnosti náhodných jevů.",
+      "cards": [
+        "stromovy-diagram-pravdepodobnosti",
+        "kontingencni-tabulka-pravdepodobnosti"
+      ],
+      "aside": null
+    }
+  ]
+}

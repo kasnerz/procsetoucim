@@ -1,0 +1,476 @@
+[
+  {
+    "slug": "dily-pocitace-a-jejich-spoluprace",
+    "title": "Díly počítače a jak spolu pracují",
+    "aliases": [
+      "procesor",
+      "operační paměť",
+      "disk",
+      "z čeho se skládá počítač",
+      "co se děje při spuštění programu"
+    ],
+    "outcome": "INF-INF-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí fungování počítače z hlediska jeho základních dílů (procesor, operační paměť, úložiště/disky).",
+        "quote": "Vysvětlí fungování počítače z hlediska jeho základních dílů (procesor, operační paměť, úložiště/disky)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Popíše součinnost základních dílů počítače při běžných operacích – při spuštění programu, uložení a otevření dokumentu.",
+        "quote": "Popíše součinnost základních dílů počítače při běžných operacích – při spuštění programu, uložení a otevření dokumentu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Počítač, místní (lokální) síť a internet",
+        "url": "https://uloziste.rvp.cz/material/511331"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti vysvětlí, co dělá procesor, paměť a disk, a zodpoví doplňující otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a články o počítači ukazují schémata dílů a jejich úlohy."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace o parametrech počítače ukáže tvůj procesor, paměť a disk."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Dílům počítače porozumíš z vysvětlení, tužka ani kalkulačka ti v tom nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/3497ebe1-d417-4105-a68f-f7bbcac7ee5f",
+      "http://data.europa.eu/esco/skill/9983816d-cc78-4d3f-9e3c-c7baa9ebc77a"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-pocitace-podle-vyuziti",
+    "title": "Výběr počítače podle využití",
+    "aliases": [
+      "jaký počítač koupit",
+      "notebook nebo tablet",
+      "parametry počítače",
+      "stolní počítač nebo telefon"
+    ],
+    "outcome": "INF-INF-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Volí typ (stolní počítač, notebook, tablet, chytrý telefon) počítače podle jeho využití.",
+        "quote": "Volí typ (stolní počítač, notebook, tablet, chytrý telefon) počítače podle jeho využití."
+      },
+      {
+        "level": "Splněno",
+        "point": "Volí typ a základní parametry počítače podle jeho využití.",
+        "quote": "Volí typ a základní parametry počítače podle jeho využití."
+      },
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Vybírá pro své potřeby hardware, software, digitální zařízení a připojení do sítě na základě svých zkušeností.",
+        "quote": "Vybírá pro své potřeby hardware, software, digitální zařízení a připojení do sítě na základě svých zkušeností."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Jak si zařídit domácí digitální pracoviště?",
+        "url": "https://uloziste.rvp.cz/material/e866f4"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti k tvým potřebám poradí, jaký typ zařízení a jaké parametry dávají smysl."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Srovnávače a recenze ukazují parametry a ceny zařízení vedle sebe."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti zařízení nevybere, vybíráš ty podle toho, co budeš dělat."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj tu nic neporovná, rozhoduješ podle využití ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/9983816d-cc78-4d3f-9e3c-c7baa9ebc77a",
+      "http://data.europa.eu/esco/skill/3497ebe1-d417-4105-a68f-f7bbcac7ee5f"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "operacni-system-pocitac-telefon",
+    "title": "Operační systém počítače a telefonu",
+    "aliases": [
+      "Windows",
+      "Android",
+      "iOS",
+      "Linux",
+      "k čemu je operační systém"
+    ],
+    "outcome": "INF-INF-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí roli operačního systému při využívání počítače a zvládá základy ovládání jednoho běžně využívaného operačního systému.",
+        "quote": "Vysvětlí roli operačního systému při využívání počítače a zvládá základy ovládání jednoho běžně využívaného operačního systému."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí roli operačního systému při využívání počítače a ovládá alespoň jeden běžně využívaný operační systém pro stolní počítače a jeden pro mobilní zařízení (tablet nebo telefon).",
+        "quote": "Vysvětlí roli operačního systému při využívání počítače a ovládá alespoň jeden běžně využívaný operační systém pro stolní počítače a jeden pro mobilní zařízení (tablet nebo telefon)."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co operační systém dělá, a krok za krokem poradí s nastavením."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Nápověda výrobce a návody ukazují, kde se v systému co nastavuje."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Výukové aplikace a nápověda v systému tě provedou ovládáním krok za krokem."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Systém ovládáš myší, klávesnicí nebo prstem, klasický nástroj ti k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f9a6f35b-01a7-40c9-8b61-b6ee46f97272",
+      "http://data.europa.eu/esco/skill/976455eb-5bbe-4493-ae64-ed16c3b009ea"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "typy-siti-lan-internet-mobilni",
+    "title": "Sítě: LAN, internet, Wi-Fi a mobilní síť",
+    "aliases": [
+      "místní síť",
+      "Bluetooth",
+      "jak funguje internet",
+      "do jaké sítě jsem připojen"
+    ],
+    "outcome": "INF-INF-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Rozezná typ sítě, do které je zařízení připojeno, vysvětlí princip jejího fungování (LAN, Internet, WI-FI, Bluetooth, mobilní sítě).",
+        "quote": "Rozezná typ sítě, do které je zařízení připojeno, vysvětlí princip jejího fungování (LAN, Internet, WI-FI, Bluetooth, mobilní sítě)."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí rámcově principy fungování LAN, internetu a mobilních sítí, zvolí vhodnou síť pro danou činnost, s porozuměním využívá World Wide Web a cloudové služby.",
+        "quote": "Vysvětlí rámcově principy fungování LAN, internetu a mobilních sítí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Počítač, místní (lokální) síť a internet",
+        "url": "https://uloziste.rvp.cz/material/511331"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí rozdíl mezi LAN, internetem a mobilní sítí a odpoví na doplňující otázky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a články o sítích ukazují schémata a příklady zapojení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Nastavení sítě v zařízení ukáže, k jaké síti je zařízení připojené."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Principům sítí porozumíš z vysvětlení, klasický nástroj ti v tom nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f9e788df-d68a-4f92-92c7-80e135fc35ff",
+      "http://data.europa.eu/esco/skill/545c80e8-7ab2-42fe-af64-242211e94709"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "vyber-site-wifi-kabel",
+    "title": "Výběr vhodné sítě: Wi-Fi, kabel, mobilní data",
+    "aliases": [
+      "Wi-Fi nebo kabel",
+      "mobilní data",
+      "rychlé připojení",
+      "kdy použít kabel"
+    ],
+    "outcome": "INF-INF-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Vysvětlí výhody a nevýhody práce v online a offline prostředí. Popíše výhody a nevýhody Wi-Fi a pevného připojení.",
+        "quote": "Popíše výhody a nevýhody Wi-Fi a pevného připojení."
+      },
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí rámcově principy fungování LAN, internetu a mobilních sítí, zvolí vhodnou síť pro danou činnost, s porozuměním využívá World Wide Web a cloudové služby.",
+        "quote": "zvolí vhodnou síť pro danou činnost"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Počítač, místní (lokální) síť a internet",
+        "url": "https://uloziste.rvp.cz/material/511331"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot porovná Wi-Fi, kabel a mobilní data a poradí, co se hodí k tvé činnosti."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Články a návody srovnávají rychlost, stabilitu a spotřebu dat u jednotlivých připojení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Aplikace na měření rychlosti ukáže, jak rychlé připojení právě máš."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Síť pro danou činnost volíš ty, klasický nástroj ti k tomu nepomůže."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f9e788df-d68a-4f92-92c7-80e135fc35ff",
+      "http://data.europa.eu/esco/skill/545c80e8-7ab2-42fe-af64-242211e94709"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "web-a-cloudove-sluzby",
+    "title": "Web a cloudové služby",
+    "aliases": [
+      "cloud",
+      "uložení v cloudu",
+      "World Wide Web",
+      "Google Disk",
+      "online služby"
+    ],
+    "outcome": "INF-INF-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vysvětlí rámcově principy fungování LAN, internetu a mobilních sítí, zvolí vhodnou síť pro danou činnost, s porozuměním využívá World Wide Web a cloudové služby.",
+        "quote": "s porozuměním využívá World Wide Web a cloudové služby"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot vysvětlí, co je web a cloud a kam se data skutečně ukládají."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a nápověda služeb ukazují, jak cloudové úložiště a sdílení používat."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Cloudové aplikace ti dovolí pracovat s daty z různých zařízení."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj pro práci s webem a cloudem nemáš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "problemy-zarizeni-a-site",
+    "title": "Řešení problémů zařízení a sítě",
+    "aliases": [
+      "počítač se nezapne",
+      "nejde internet",
+      "pomalý počítač",
+      "oprava počítače",
+      "požádat o pomoc"
+    ],
+    "outcome": "INF-INF-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Identifikuje nejčastější problémy hardware, software a počítačové sítě.",
+        "quote": "Identifikuje nejčastější problémy hardware, software a počítačové sítě."
+      },
+      {
+        "level": "Splněno",
+        "point": "Identifikuje běžné problémy hardwaru, softwaru a počítačové sítě, ty jednoduché vyřeší, u složitějších zformuluje požadavek na podporu nebo opravu.",
+        "quote": "Identifikuje běžné problémy hardwaru, softwaru a počítačové sítě, ty jednoduché vyřeší, u složitějších zformuluje požadavek na podporu nebo opravu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Servisní workshop – oprava běžných technických problémů",
+        "url": "https://uloziste.rvp.cz/material/7fe69d"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti pomůže zúžit příčinu a poradí postup, ty ho zkoušíš na zařízení."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Návody a fóra popisují známé závady a jejich řešení."
+      },
+      "aplikace": {
+        "verdict": "pomuze",
+        "why": "Diagnostické nástroje v systému ukážou stav disku, paměti a připojení."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Šroubovák nebo kabel na zkoušku ti pomůžou vyloučit závadu na zařízení."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/6474fc36-67ae-436b-9d39-c14402c6a89b",
+      "http://data.europa.eu/esco/skill/df329d70-87b0-466b-a214-3431f36e2a5e"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hodnoceni-informaci-o-technologiich",
+    "title": "Hodnocení informací o technologiích",
+    "aliases": [
+      "falešné zprávy o technologiích",
+      "dezinformace",
+      "jak poznat manipulaci",
+      "ověřování zdrojů"
+    ],
+    "outcome": "INF-INF-004-ZV9-012",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Získává informace o technologiích z různých zdrojů, učí se rozpoznávat nepřesné formulace a úmyslné manipulace.",
+        "quote": "Získává informace o technologiích z různých zdrojů, učí se rozpoznávat nepřesné formulace a úmyslné manipulace."
+      },
+      {
+        "level": "Splněno",
+        "point": "Hodnotí informace o technologiích z různých zdrojů, rozpoznává nepřesné formulace, odhaluje úmyslné manipulace a dezinformace a dokáže je vysvětlit ostatním.",
+        "quote": "Hodnotí informace o technologiích z různých zdrojů, rozpoznává nepřesné formulace, odhaluje úmyslné manipulace a dezinformace a dokáže je vysvětlit ostatním."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Chatbot ti ukáže, na co si dát pozor, ale i on se může mýlit, tak ho ověřuj."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Porovnáš víc zdrojů a ověřovací weby, které dezinformace rozebírají."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti zdroj neposoudí, úsudek o tom, čemu věřit, děláš ty."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Klasický nástroj ti informace neověří, úsudek děláš ty."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/f12e0891-dbcf-4225-9574-a619f39ec0c3"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Graf promění rovnici v obrázek: přímka ukáže najednou všechny dvojice čísel, které rovnici splňují, a průsečíky s osami prozradí, kde něco začíná nebo končí. Z grafu spotřeby třeba vyčteš, kdy v nádrži dojde benzín, a z grafu ceny, kolik zaplatíš jen za příjezd opraváře. Ve fyzice, strojírenství nebo při práci s daty se takové grafy čtou a kreslí denně a v těchto oborech míst spíš přibude. Aplikace přímku nakreslí za tebe, co z ní plyne, ale vyčteš ty.",
+  "learnWithAi": [
+    {
+      "title": "Průsečíky bez kreslení",
+      "text": "Nech si zadat pět rovnic přímek a u každé spočítej, kde protne osu x a osu y. Výsledky porovnej s grafem v aplikaci na kreslení grafů."
+    },
+    {
+      "title": "Vypouštění bazénu",
+      "text": "Popros chatbota o rovnici, která popisuje, kolik vody zbývá v bazénu, když se vypouští. Nakresli graf a vysvětli mu, co znamenají oba průsečíky s osami."
+    },
+    {
+      "title": "Rovnice podle hotové přímky",
+      "text": "Nakresli na čtverečkovaný papír přímku přes dva body a z grafu urči její rovnici. Chatbotovi napiš oba body i svou rovnici a nech si ji ověřit."
+    }
+  ]
+}

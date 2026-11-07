@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "rozdil-policista-a-vojak",
+    "title": "Rozdíl mezi policistou a vojákem",
+    "aliases": [
+      "policista a voják",
+      "policie a armáda",
+      "kdo co dělá",
+      "voják nebo policista"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-028",
+    "levelSource": [
+      {
+        "level": "Na začátku",
+        "point": "Uvede rozdíl mezi policistou a vojákem a tím, co dělají.",
+        "quote": "Uvede rozdíl mezi policistou a vojákem a tím, co dělají."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Policista nebo voják",
+        "url": "https://uloziste.rvp.cz/material/02ecdd"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co dělá policie a co armáda, a zeptá se tě na příklady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Na stránkách policie a armády najdeš popis jejich práce."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Žádná aplikace ti rozdíl mezi policistou a vojákem nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Encyklopedie pro děti je k tomu užitečná, ale klasický nástroj to není."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/499c05a2-6f36-4407-83c1-dc3448d35818",
+      "http://data.europa.eu/esco/skill/42645b84-0699-4072-b9cf-335512434b67"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cinnosti-armady-v-miru-a-ve-valce",
+    "title": "Co dělá armáda v míru a co ve válce",
+    "aliases": [
+      "armáda v míru",
+      "armáda za války",
+      "úkoly armády",
+      "mise armády",
+      "povodně a armáda"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-028",
+    "levelSource": [
+      {
+        "level": "Minimální doporučená úroveň",
+        "point": "Třídí na modelových situacích hlavní činnosti Armády ČR v době míru a při válečných konfliktech.",
+        "quote": "Třídí na modelových situacích hlavní činnosti Armády ČR v době míru a při válečných konfliktech."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Vyhledává příklady o činnosti Armády ČR v době míru (pomoc při mimořádných událostech) a ve válečných (ozbrojených) konfliktech (při obraně státu, v misích v oblastech ozbrojených konfliktů).",
+        "quote": "Vyhledává příklady o činnosti Armády ČR v době míru"
+      },
+      {
+        "level": "Splněno",
+        "point": "Porovná základní činnosti armády v době míru a při válečných konfliktech.",
+        "quote": "Porovná základní činnosti armády v době míru a při válečných konfliktech."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Činnost armády",
+        "url": "https://uloziste.rvp.cz/material/2b9ac9"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vymyslí ti situace k třídění a vysvětlí, kam která patří."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zprávy a stránky armády ukážou skutečné příklady z míru i z konfliktů."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro třídění činností armády žádná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Kartičky se situacemi si roztřídíš na stole do dvou hromádek."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0",
+      "http://data.europa.eu/esco/skill/d220e067-ed2b-4ad0-94b9-7b27cb4aed22"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "hlavni-funkce-armady",
+    "title": "Hlavní úkol armády: obrana státu a mír",
+    "aliases": [
+      "obrana státu",
+      "k čemu je armáda",
+      "zahraniční mise",
+      "územní celistvost",
+      "suverenita"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-028",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Vysvětlí, jaká je hlavní funkce Armády ČR - obrana suverenity a územní celistvosti České republiky, plnění úkolů v rámci zahraničních operací k udržení a nastolení míru.",
+        "quote": "Vysvětlí, jaká je hlavní funkce Armády ČR"
+      },
+      {
+        "level": "Splněno",
+        "point": "Vyhledá a popíše hlavní úkoly Armády ČR a příklady její činnosti při obraně suverenity a územní celistvosti ČR.",
+        "quote": "Vyhledá a popíše hlavní úkoly Armády ČR a příklady její činnosti při obraně suverenity a územní celistvosti ČR."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Vojáci brání svou zemi",
+        "url": "https://uloziste.rvp.cz/material/ff4462"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Řekne ti jednoduše, co je obrana státu, a ptá se, jestli jí rozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Oficiální stránky armády uvádějí její úkoly a ukázky z cvičení a misí."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace pro úkoly armády nejsou, vysvětlení najdeš jinde."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Mapa ukáže hranice, úkoly armády z ní nevyčteš."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0",
+      "http://data.europa.eu/esco/skill/7fc1bae3-eb9b-4609-a374-01c2a39d827d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "armada-pomaha-pri-zivelnich-udalostech",
+    "title": "Pomoc armády při mimořádných událostech",
+    "aliases": [
+      "armáda při povodni",
+      "vojáci pomáhají",
+      "mimořádná událost",
+      "pomoc při katastrofě"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-028",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Vyhledá a popíše příklady pomoci Armády ČR při ochraně zdraví a bezpečí při mimořádných událostech nevojenského charakteru.",
+        "quote": "Vyhledá a popíše příklady pomoci Armády ČR při ochraně zdraví a bezpečí při mimořádných událostech nevojenského charakteru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Činnost armády při mimořádných událostech",
+        "url": "https://uloziste.rvp.cz/material/916784"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Pomůže ti sestavit osnovu, co vojáci při povodni dělají, a zkontroluje ji."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Zpravodajství a stránky armády popisují konkrétní zásahy při povodních a požárech."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro příklady pomoci armády není žádná aplikace."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Příklady zásahů si musíš dohledat, žádný klasický nástroj je nenabídne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453",
+      "http://data.europa.eu/esco/skill/b6d7afec-bee3-46e8-8651-c6b1f38d435d"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "obcane-a-bezpecnost-statu",
+    "title": "Jak občané přispívají k bezpečnosti státu",
+    "aliases": [
+      "role občanů",
+      "humanitární pomoc",
+      "práce v armádě",
+      "bezpečnost státu",
+      "záchranné složky"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-028",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Popíše úlohu občanů při zajišťování bezpečnosti státu (humanitární pomoc, možnost pracovat v ozbrojených složkách).",
+        "quote": "Popíše úlohu občanů při zajišťování bezpečnosti státu"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Armáda ČR chrání naši bezpečnost",
+        "url": "https://uloziste.rvp.cz/material/b6f757"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Ukáže ti, jak může pomoci každý člověk, a zeptá se tě na vlastní nápady."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Stránky armády a humanitárních organizací ukazují, jak se zapojit."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Aplikace ti úlohu občanů nevysvětlí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pro tuto otázku neexistuje klasický nástroj."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/05a7f9e0-1ebd-4853-890b-c78f37096d51",
+      "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "cesko-v-nato",
+    "title": "Proč je Česko v NATO",
+    "aliases": [
+      "NATO",
+      "spojenci",
+      "vojenská aliance",
+      "bezpečnost státu"
+    ],
+    "outcome": "CJS-CJS-005-ZV5-028",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Uvede význam zapojení ČR do NATO pro zajištění bezpečnosti státu.",
+        "quote": "Uvede význam zapojení ČR do NATO pro zajištění bezpečnosti státu."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Armáda ČR chrání naši bezpečnost",
+        "url": "https://uloziste.rvp.cz/material/b6f757"
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, co NATO znamená, a ověří, jak tomu rozumíš."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Wikipedie a stránky NATO říkají, kdo je členem a co si členové slibují."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Pro význam členství v NATO žádná aplikace není."
+      },
+      "klasicky": {
+        "verdict": "pomuze",
+        "why": "Na mapě vidíš, které země jsou členy a kde leží Česko."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2357e4f8-4b42-4969-bd17-cfea963956c0",
+      "http://data.europa.eu/esco/skill/2ca4c857-1450-4004-9fdb-8500def6b8fa"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

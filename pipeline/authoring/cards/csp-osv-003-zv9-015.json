@@ -1,0 +1,307 @@
+{
+  "outcome": "CSP-OSV-003-ZV9-015",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "sbirani-dokladu-do-portfolia",
+      "title": "Sbírání dokladů o úspěších a zkušenostech",
+      "aliases": [
+        "portfolio",
+        "moje úspěchy",
+        "diplomy a certifikáty",
+        "co si schovat",
+        "kariérové portfolio"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozpozná své zájmy a úspěchy vhodné pro uchování v portfoliu"
+        },
+        {
+          "level": "Na začátku",
+          "quote": "zkouší si zaznamenávat úspěchy při rozvoji svých zájmů v portfoliu"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "sbírá doklady o svých zkušenostech a úspěších"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Prostřednictvím portfolia eviduje, monitoruje a reflektuje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Své zážitky znáš jen ty, doklady za tebe chatbot neshromáždí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoje diplomy a práce na internetu nenajdeš, máš je doma."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Složka s fotkami a tabulka pomůžou doklady uložit a najít."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pořadač nebo desky udrží diplomy a práce pohromadě."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ],
+      "inspiration": [
+        "Portfolio příběhů"
+      ]
+    },
+    {
+      "slug": "podoby-a-nastroje-portfolia",
+      "title": "Podoby a nástroje kariérového portfolia",
+      "aliases": [
+        "e-portfolio",
+        "jak udělat portfolio",
+        "online portfolio",
+        "k čemu je portfolio",
+        "portfolio na papíře"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Posoudí vhodné postupy a nástroje při tvorbě osobního kariérového portfolia"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí, jak může portfolio vypadat, a pomůže srovnat podoby."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam ukázky portfolií a příklady, kde se používají."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Webová šablona nebo prezentace ti dá hotovou kostru portfolia."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Desky a lepidlo stačí na portfolio na papíře."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ],
+      "inspiration": [
+        "Online kariérové portfolio"
+      ]
+    },
+    {
+      "slug": "cile-podle-portfolia",
+      "title": "Kariérové cíle podle portfolia",
+      "aliases": [
+        "moje cíle",
+        "co chci dělat",
+        "kam dál po škole",
+        "výběr školy",
+        "zájmy a budoucí práce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využívá portfolio pro identifikaci cílů osobního a kariérového rozvoje"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot se ptá, co z portfolia vyplývá, a pomůže cíle pojmenovat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Přehledy škol a povolání ukážou, kam tvoje zájmy vedou."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace cíle nevybere, o tom, co chceš, rozhoduješ ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Cíle vzniknou z tvého rozhodování, klasický nástroj k tomu není."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ],
+      "inspiration": [
+        "Moje portfolio - reflexe a další kroky"
+      ]
+    },
+    {
+      "slug": "aktualizace-portfolia",
+      "title": "Úprava a aktualizace portfolia",
+      "aliases": [
+        "aktualizovat portfolio",
+        "změna cílů",
+        "co do portfolia přidat",
+        "pokrok",
+        "vyřadit z portfolia"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "upravuje portfolio na základě vyhodnocování svého rozvoje"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Reflektuje, jak se mu daří aktualizovat portfolio"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Co se ti změnilo, víš jen ty, chatbot to za tebe nevyhodnotí."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvůj rozvoj na internetu nenajdeš, poznáš ho na vlastních výsledcích."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Datum u položek a historie verzí ukážou, co se v portfoliu změnilo."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír s portfoliem ti změny nepřipomene."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ]
+    },
+    {
+      "slug": "zpetna-vazba-k-portfoliu",
+      "title": "Zpětná vazba k portfoliu",
+      "aliases": [
+        "hodnocení portfolia",
+        "co říkáš na moje portfolio",
+        "rady od učitele",
+        "kritika",
+        "názor druhých"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "přijímá hodnocení a zpětnou vazbu k portfoliu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot může komentáře roztřídit a ukázat, které se týkají tvých cílů."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Názory na tvoje portfolio internet nemá, ptáš se lidí kolem sebe."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nerozhodne, která rada se hodí k tvým cílům."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Rady poslouchá a posuzuje ten, kdo portfolio tvoří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612"
+      ],
+      "inspiration": [
+        "Co říkáš na moje portfolio?"
+      ]
+    },
+    {
+      "slug": "prezentace-portfolia",
+      "title": "Představení portfolia v modelové situaci",
+      "aliases": [
+        "prezentace portfolia",
+        "představení sebe sama",
+        "pohovor nanečisto",
+        "co ukázat",
+        "mluvení před třídou"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "v modelové situaci prezentuje vybrané zájmy a úspěchy"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Prezentuje v modelových situacích a reflektuje svou prezentaci"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot může hrát tazatele a zeptat se na tvoje portfolio."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš tam příklady, jak se lidé představují při přijímání do školy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahrávka hlasu nebo videa ukáže, jak působíš před kamerou."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Před lidmi mluvíš ty, žádný nástroj to za tebe nezvládne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/68c27e3e-a3f7-4f76-856a-761d65364199"
+      ],
+      "inspiration": [
+        "Já v obraze"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Minimální doporučená úroveň",
+      "start": "Tvoří podle návodu osobní kariérové portfolio",
+      "code": "O3",
+      "refs": []
+    }
+  ]
+}
