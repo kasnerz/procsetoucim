@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Čím déle svítíš, tím víc zaplatíš za elektřinu. Když poznáš, že jedna veličina závisí na druhé, dokážeš odhadnout, co se stane, když jednu z nich změníš, a nenecháš se překvapit účtem nebo dobou cesty. S takovými závislostmi pracují lidé, kteří zkoumají data nebo dělají fyzikální pokusy, ale i ti, kdo za pultem váží ovoce a počítají cenu, dohromady zhruba 6 % lidí, kteří v Česku pracují. Aplikace ti z čísel nakreslí graf, ale všimnout si, že spolu dvě věci souvisejí, a zeptat se proč, musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Situace k rozpoznání",
+      "text": "Požádej chatbota o deset krátkých situací, ve kterých spolu dvě veličiny někdy souvisejí a někdy ne. U každé rozhodni a teprve pak si nech odpověď zkontrolovat."
+    },
+    {
+      "title": "Závislosti v domácnosti",
+      "text": "Sepiš pět dvojic věcí z domova, které na sobě závisejí, třeba množství vody ve vaně a dobu napouštění. Ukaž seznam chatbotovi a nech si říct, u kterých dvojic to úplně neplatí."
+    },
+    {
+      "title": "Úvaha o ceně taxíku",
+      "text": "Nech chatbota popsat, jak se počítá cena taxíku podle ujetých kilometrů. Vymysli k tomu otázky typu „co se stane, když“, odpověz na ně a odpovědi si nech zkontrolovat."
+    }
+  ]
+}

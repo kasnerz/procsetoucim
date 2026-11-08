@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Hodně skutečných grafů se skládá z několika rovných úseků za sebou: jízda autem s chvílí v koloně nebo tarif, který po určitém počtu minut zdraží. Kdo umí napsat předpis pro každý úsek zvlášť, dokáže situaci přesně popsat a dopočítat hodnotu v kterémkoli bodě. S grafy složenými z částí pracují lidé, kteří sledují zemětřesení, hlídají chemické provozy nebo zkoumají ekonomiku. Aplikace ti ukáže, jestli tvůj předpis dává stejný graf, ale najít body zlomu a spočítat sklon jednotlivých úseků musíš umět ty.",
+  "learnWithAi": [
+    {
+      "title": "Sklon jednoho úseku",
+      "text": "U úseku, kde si nevíš rady se sklonem, napiš chatbotovi souřadnice dvou jeho bodů. Požádej jen o postup a čísla dosaď ty."
+    },
+    {
+      "title": "Graf ze tří úseků",
+      "text": "Požádej chatbota o graf složený ze tří úseků, zadaný body zlomu. Najdi předpisy všech tří částí a ověř je dosazením, protože v delším výpočtu se chatbot může splést."
+    },
+    {
+      "title": "Cesta do školy v grafu",
+      "text": "Rozděl svou cestu do školy na úseky, třeba chůzi, čekání a jízdu autobusem, a nakresli graf vzdálenosti v čase. Předpisy jednotlivých úseků dej chatbotovi ke kontrole."
+    }
+  ]
+}

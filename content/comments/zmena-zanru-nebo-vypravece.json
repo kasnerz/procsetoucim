@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Když stejný příběh přepíšeš jako pohádku nebo novinovou zprávu, případně ho necháš vyprávět jinou postavu, uvidíš, co s textem dělá žánr a vypravěč. Hodí se to při čtení: rychleji poznáš, že vypravěč zná jen část pravdy nebo že reklama napodobuje přátelskou radu. Takhle pracují scenáristé, když převádějí knihu na film, a spisovatelé, kteří zkoušejí, z čí strany příběh vyprávět. Chatbot ti text do jiného žánru přepíše za pár vteřin, jenže posoudit, jestli přepis funguje a co se v něm ztratilo, dokáže jen ten, kdo to má vyzkoušené.",
+  "learnWithAi": [
+    {
+      "title": "Hádání žánru podle ukázky",
+      "text": "Požádej chatbota o pět krátkých úryvků v různých žánrech bez názvu. Urči žánr každého z nich a teprve pak si nech vysvětlit, podle čeho se dal poznat."
+    },
+    {
+      "title": "Scéna z pohledu vedlejší postavy",
+      "text": "Vyber scénu z knihy, kterou právě čteš, a přepiš ji z pohledu vedlejší postavy. Chatbota se zeptej, kde tvůj nový vypravěč ví víc, než by mohl vědět."
+    },
+    {
+      "title": "Pohádka jako novinová zpráva",
+      "text": "Napiš známou pohádku jako krátkou zprávu do novin. Nech pak chatbota najít místa, která pořád znějí pohádkově, a přepiš je podle sebe."
+    }
+  ]
+}

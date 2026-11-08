@@ -1,0 +1,550 @@
+{
+  "outcome": "JJK-CJL-001-ZV9-016",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "zmena-zanru-nebo-vypravece",
+      "title": "Změna žánru nebo vypravěče",
+      "aliases": [
+        "přepsat pohádku",
+        "změna vypravěče",
+        "jiný žánr",
+        "psaní podle zadání",
+        "techniky psaní"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "psaní podle zadaného žánru, přeměna žánru či vypravěče"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozšiřuje svůj rejstřík forem a technik práce s textem"
+        },
+        {
+          "level": "Splněno",
+          "quote": "prakticky zvládá nejrůznější formy a techniky práce s textem"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, čím se žánry a vypravěči liší, a ukáže ukázku k porovnání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady žánrů a textů vyprávěných z různých pohledů."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace text nepřepíše do jiného žánru tak, aby to byla tvoje práce."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka jen zapíšou, co vymyslíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7bb85eab-18df-437c-adce-7b729abb315e",
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+      ]
+    },
+    {
+      "slug": "slovni-hricky-a-nonsens",
+      "title": "Slovní hříčky a nonsens",
+      "aliases": [
+        "slovní hříčka",
+        "nesmysl",
+        "hra se slovy",
+        "vymýšlení hříček",
+        "nonsensová báseň"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "slovní hříčky, vytváření nonsensu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P3"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, jak hříčky fungují, a dá příklady, podle kterých vymyslíš vlastní."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Sbírky hříčcek a nonsensových básní ti dají vzor."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nemá cit pro to, co je vtipné, hříčku musíš vymyslet ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník synonym a rýmů ti pomůže najít slova, která se hodí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+      ]
+    },
+    {
+      "slug": "pretvareni-textu-s-vice-prvky",
+      "title": "Přetváření textu s více prvky",
+      "aliases": [
+        "přetvořit příběh",
+        "dotvořit text",
+        "předloha",
+        "změna děje a postav",
+        "tvorba podle předlohy"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "je schopen přitom pracovat s více než jednou vrstvou (prvkem) uměleckého díla; vytváří umělecky zaměřený text"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne, co v předloze změnit, a dá varianty k porovnání s tvými."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš předlohy, které můžeš přetvořit."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Textový editor ukládá verze, takže porovnáš starý a nový text."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Papír a tužka jen zapíšou, co vymyslíš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+      ],
+      "inspiration": [
+        "Přetváření literárního díla - tvorba příběhu podle předlohy"
+      ]
+    },
+    {
+      "slug": "popis-postupu-pri-psani",
+      "title": "Popis postupu při psaní vlastního textu",
+      "aliases": [
+        "jak jsem psal",
+        "reflexe tvorby",
+        "rozbor vlastního textu",
+        "proč jsem to napsal",
+        "postup tvorby"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "Vypráví příběhy a popisuje jevy a děje, popíše postupy, jak tvoří vlastní text."
+        },
+        {
+          "level": "Na cestě",
+          "quote": "své kreativní aktivity je schopen průběžně popisovat"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ptá se, proč je ve větě to a to slovo, a ty odpovídáš vlastními slovy."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na webu nenajdeš odpověď, proč píšeš právě takto."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nezná tvoje rozhodnutí při psaní."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Deník nebo poznámky při psaní ti pomůžou postup zachytit."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd",
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+      ]
+    },
+    {
+      "slug": "reakce-na-zpetnou-vazbu-k-textu",
+      "title": "Reakce na zpětnou vazbu k vlastnímu textu",
+      "aliases": [
+        "zpětná vazba",
+        "hodnocení textu",
+        "co řekli spolužáci",
+        "úprava podle připomínek",
+        "rozbor textu s učitelem"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "reflektuje vyjádření učitele a spolužáků či jiných příjemců díla"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Dá další pohled na text, který porovnáš s tím, co řekli spolužáci."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Co si o tvém textu myslí čtenáři, na webu nezjistíš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace neví, jak text přijali tvoji čtenáři."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Zpětnou vazbu dostaneš od lidí, ne od nástroje."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c",
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+      ]
+    },
+    {
+      "slug": "prednes-umeleckeho-textu",
+      "title": "Přednes uměleckého textu",
+      "aliases": [
+        "recitace",
+        "čtení nahlas",
+        "přednes básně",
+        "hlasité čtení",
+        "vystoupení před třídou"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "je schopen přečíst či přednést umělecký text s pochopením"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozvíjí svoji schopnost prezentovat (přečíst, přednést…) umělecký text tak, aby umocnil jeho estetickou působivost"
+        },
+        {
+          "level": "Splněno",
+          "quote": "schopnost prezentovat (přečíst, přednést) umělecký text tak, aby umocnil jeho estetickou působivost"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poradí, kde udělat pauzy a co zdůraznit, přednést text musíš ty."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky přednesu si poslechneš a porovnáš s vlastním."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Nahrávání hlasu ti dovolí slyšet se a text přednést znovu."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Hlasem ho přednášíš ty, žádný nástroj to nezastoupí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+      ]
+    },
+    {
+      "slug": "literarni-pojmy-pri-tvorbe",
+      "title": "Literární pojmy při vlastní tvorbě",
+      "aliases": [
+        "literární pojmy",
+        "žánry",
+        "básnické prostředky",
+        "literární termíny",
+        "slovník pojmů"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "spontánně si osvojuje základní literární či umělecké poznatky (žánrové a jiné termíny apod.) a využívá je k porozumění uměleckému textu a jeho vytváření"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "spontánně si osvojuje literární pojmy a další pojmy z oblasti umění a rozšiřuje svoje znalosti o umění"
+        },
+        {
+          "level": "Splněno",
+          "quote": "využívá podle svých možností rejstřík literárních znalostí a znalostí z oblasti umění"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí pojem na příkladu a zeptá se tě, kde ho použiješ."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a slovníky pojmů dají přesné definice."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Pro literární pojmy nemá aplikace co nabídnout."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník literárních pojmů máš po ruce při psaní."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/3659c733-e366-4a2f-86c6-304ab01481cc",
+        "http://data.europa.eu/esco/skill/7bb85eab-18df-437c-adce-7b729abb315e"
+      ]
+    },
+    {
+      "slug": "vlastni-zkusenosti-v-textu",
+      "title": "Vlastní zkušenosti jako námět textu",
+      "aliases": [
+        "psaní ze života",
+        "vlastní zážitek",
+        "čtenářská zkušenost",
+        "námět na příběh",
+        "co jsem zažil"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "spontánně promítá do svých kreativních aktivit své čtenářské a životní zkušenosti"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "uvědomuje si souvislost mezi uměleckým textem a vlastními životními nebo čtenářskými zkušenostmi a promítá toto vědomí do kreativních aktivit"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Uvědomuje si souvislost mezi uměleckým textem a vlastními životními nebo čtenářskými zkušenostmi a promítá toto vědomí do kreativních aktivit"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Tvoje zážitky zná jen tvá hlava, chatbot ti je nevybaví."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Na internetu najdeš cizí příběhy, ne svoje zkušenosti."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace tvoje zážitky nezná."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Deník nebo poznámky uchovají zážitky, ze kterých můžeš psát."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1ef9cce1-bce6-4ec6-9071-41348f4c1acd",
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac"
+      ]
+    },
+    {
+      "slug": "styl-a-vyjadrovani-ve-vlastnim-textu",
+      "title": "Styl a vyjadřování ve vlastním textu",
+      "aliases": [
+        "styl psaní",
+        "stylistika",
+        "bohatší slovní zásoba",
+        "hezčí věty",
+        "vyjadřovací schopnosti"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "využívá základní vyjadřovací schopnosti a stylistické dovednosti adekvátní danému věku"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "rozvíjí svoje vyjadřovací schopnosti a stylistické dovednosti"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Rozvíjí svoje vyjadřovací schopnosti a stylistické dovednosti"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Ukáže, co je v tvém textu těžkopádné, a nabídne varianty k porovnání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Internetová jazyková příručka a slovník synonym pomůžou s výrazy."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Kontrola pravopisu najde chyby, styl ale posoudíš ty."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Slovník synonym nabídne slova, ze kterých vybereš."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+        "http://data.europa.eu/esco/skill/c89a26a1-96ef-48d7-abfe-bf4b8e3bbe1c"
+      ]
+    },
+    {
+      "slug": "popis-vlastniho-vkusu-v-umeni",
+      "title": "Popis vlastního vkusu v umění",
+      "aliases": [
+        "co se mi líbí",
+        "oblíbená kniha",
+        "oblíbený žánr",
+        "můj vkus",
+        "estetické preference"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "jednoduše popisuje své estetické preference"
+        },
+        {
+          "level": "Na cestě",
+          "quote": "ujasňuje si a tříbí si své estetické preference a je schopen je popsat"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Cíleně rozvíjí své estetické zájmy a preference, je schopný je popsat a reflektovat."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Co se ti líbí, vyplyne z tvých zážitků, chatbot to za tebe neposoudí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Recenze a ukázky děl ti ukážou, co všechno existuje, a ty si vybereš."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace nemá tvůj vkus, doporučí jen to, co se podobá dřívějším volbám."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Tvůj vkus nezměří žádný nástroj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/e29b6a69-4401-4243-b429-08962c4d6060"
+      ]
+    }
+  ],
+  "aside": [
+    {
+      "level": "Splněno",
+      "start": "Podle zadání či spontánně doplňuje",
+      "code": "O1",
+      "refs": [
+        "dotvareni-pohadky-o-ucene-huse",
+        "psani-vlastniho-pribehu-podle-prectene-knihy"
+      ]
+    },
+    {
+      "level": "Na začátku",
+      "start": "podle zadání či spontánně jednoduše doplňuje",
+      "code": "O1",
+      "refs": [
+        "dotvareni-pohadky-o-ucene-huse",
+        "psani-vlastniho-pribehu-podle-prectene-knihy",
+        "ztvarneni-textu-komiksem-etudou-nebo-zaznamem"
+      ]
+    },
+    {
+      "level": "Splněno",
+      "start": "Propojuje různé druhy umění",
+      "code": "O1",
+      "refs": [
+        "ztvarneni-textu-komiksem-etudou-nebo-zaznamem",
+        "propojeni-umeni-v-inscenaci"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "ve svých aktivitách je schopen propojit",
+      "code": "O1",
+      "refs": [
+        "ztvarneni-textu-komiksem-etudou-nebo-zaznamem",
+        "propojeni-umeni-v-inscenaci"
+      ]
+    },
+    {
+      "level": "Na cestě",
+      "start": "uvědomuje si, že k jeho životu patří",
+      "code": "O2",
+      "refs": []
+    },
+    {
+      "level": "Na začátku",
+      "start": "uvědomuje si, že k jeho životu patří",
+      "code": "O2",
+      "refs": []
+    }
+  ]
+}

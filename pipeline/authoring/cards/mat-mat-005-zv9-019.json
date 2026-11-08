@@ -1,0 +1,366 @@
+{
+  "outcome": "MAT-MAT-005-ZV9-019",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "zavislost-dvou-velicin",
+      "title": "Závislost mezi dvěma veličinami",
+      "aliases": [
+        "závislost veličin",
+        "co na čem závisí",
+        "když se jedno mění, mění se druhé",
+        "funkce"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "rozpozná závislost mezi dvěma veličinami"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí na příkladech, co na čem závisí, a zadá ti situace k rozpoznání."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázky závislostí, třeba cena a množství, najdeš ve cvičeních a výkladech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace s grafy ti ukáže, jak se jedna veličina mění s druhou."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Závislost poznáš ty z toho, jak se věci mění, nástroj ji nerozpozná za tebe."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+        "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "cteni-z-tabulky-a-grafu",
+      "title": "Čtení informací z tabulky nebo grafu",
+      "aliases": [
+        "čtení z grafu",
+        "čtení z tabulky",
+        "vyčíst z grafu",
+        "hodnota z grafu"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "vyčte z tabulky nebo grafu závislosti požadované informace"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak graf číst, a zkontroluje, jestli hodnotu čteš z té správné osy."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Ukázkové grafy a tabulky s postupem čtení najdeš v učebních materiálech."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor nebo aplikace s grafem ukáže hodnotu po najetí na bod."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko přiložené ke grafu pomůže najít správnou hodnotu na ose."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29",
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "tabulka-podle-predpisu",
+      "title": "Tabulka hodnot podle předpisu",
+      "aliases": [
+        "tabulka funkčních hodnot",
+        "sestavit tabulku",
+        "dosazování do předpisu",
+        "tabulka x a y"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "sestaví tabulku vyjadřující vztah závislosti dvou veličin podle daného předpisu"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí dosazování do předpisu a zkontroluje, jestli ti hodnoty v tabulce vycházejí."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš příklady tabulek k předpisům i postup, jak hodnoty dosazovat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor spočítá hodnoty z předpisu a ty si je porovnáš se svými."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti pomůže zkontrolovat výpočet jednotlivých hodnot."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+        "http://data.europa.eu/esco/skill/a5826fe3-8df6-4fa8-adad-b7116864588f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "prirazeni-predpisu-tabulky-a-grafu",
+      "title": "Přiřazení předpisu, tabulky a grafu funkce",
+      "aliases": [
+        "k čemu patří graf",
+        "přiřadit graf k tabulce",
+        "přiřadit předpis ke grafu",
+        "nepřímá úměrnost",
+        "kvadratická funkce"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "přiřadí tabulku funkčních hodnot k příslušnému grafu funkce a naopak"
+        },
+        {
+          "level": "Splněno",
+          "quote": "Přiřadí funkci (lineární, nepřímá úměrnost a ryze kvadratická) vyjádřenou předpisem k příslušnému grafu nebo tabulce a naopak."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak poznat typ funkce podle tvaru grafu, a dá ti další dvojice k přiřazení."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Přehledy grafů funkcí a ukázkové úlohy ti pomohou tvary rozeznat."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na kreslení grafů ukáže graf předpisu, ty ho porovnáš s úlohou."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír s osami a tužka ti pomůžou vynést body z tabulky a vidět tvar."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+        "http://data.europa.eu/esco/skill/a5826fe3-8df6-4fa8-adad-b7116864588f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "graf-linearni-funkce-a-pruseciky",
+      "title": "Graf lineární funkce a průsečíky s osami",
+      "aliases": [
+        "nakreslit graf funkce",
+        "průsečík s osou x",
+        "průsečík s osou y",
+        "přímka v soustavě souřadnic"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "zobrazí lineární funkci graficky a určí průsečíky grafu s osou x a y"
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí postup kreslení a průsečíky a zkontroluje body, které vyjdou ve tvém výpočtu."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš postup krok za krokem i vzorové příklady s průsečíky."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na kreslení grafů ukáže přímku a její průsečíky, a ty si je porovnáš se svým."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Pravítko a čtverečkovaný papír potřebuješ na přesné narýsování přímky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+        "http://data.europa.eu/esco/skill/a5826fe3-8df6-4fa8-adad-b7116864588f",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "rozpoznani-linearni-funkce",
+      "title": "Rozpoznání lineární funkce z textu, grafu a předpisu",
+      "aliases": [
+        "poznat lineární funkci",
+        "přímka nebo křivka",
+        "lineární závislost",
+        "lineární funkce"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Rozpozná lineární funkci z textu, z grafu a z předpisu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, podle čeho lineární funkci poznáš, a zadá ti texty, grafy a předpisy k roztřídění."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš výklad s ukázkami lineárních i nelineárních závislostí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na grafy ukáže, jestli předpis dává přímku."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Pravítko ani kalkulačka lineární funkci nerozpoznají, na to potřebuješ vlastní úvahu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+        "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "predpis-po-castech-linearni-funkce",
+      "title": "Předpis funkce podle grafu složeného z částí",
+      "aliases": [
+        "předpis z grafu",
+        "funkce po částech",
+        "graf z úseček",
+        "různé úseky grafu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Určí předpis po částech lineární funkce znázorněné grafem, ať už v podobě množiny bodů, nebo souvislé čáry (přímky nebo křivky)."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, jak najít předpis každého úseku, a zkontroluje tvůj výsledek."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Vzorové příklady ukazují, jak z bodů grafu zjistit předpis."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace na grafy ti ukáže, jestli předpis, který napíšeš, dá stejný graf."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti pomůže ověřit, jestli body grafu předpis splňují."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c",
+        "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "funkce-v-realnych-problemech",
+      "title": "Funkce při řešení reálných problémů",
+      "aliases": [
+        "funkce v praxi",
+        "slovní úloha s funkcí",
+        "cena stahování dat",
+        "využití funkce",
+        "závislost v životě"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Využívá znalosti o funkcích k řešení reálných problémů."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Pomůže ti zapsat situaci funkcí a vysvětlí, co výsledek znamená."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Najdeš ukázky úloh, třeba ceny tarifů, a postupy jejich řešení."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový procesor spočítá hodnoty a nakreslí graf, ze kterého výsledek vyčteš."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti spočítá jednotlivé hodnoty, úvahu o situaci ale děláš ty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8",
+        "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde",
+        "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+      ],
+      "inspiration": [
+        "Cena stahování dat"
+      ]
+    }
+  ],
+  "aside": []
+}

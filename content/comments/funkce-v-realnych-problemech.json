@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Výběr mobilního tarifu, porovnání dvou půjčoven kol nebo odhad, kdy ti dojde kapesné: to všechno jde zapsat funkcí a spočítat dopředu, bez zkoušení naslepo. Funkce ti ukáže, od kterého bodu se jedna možnost vyplatí víc než druhá. Takhle pracují lidé, kteří předpovídají počasí, odhadují výrobní náklady nebo radí firmám s penězi, dohromady zhruba 7 % pracujících v Česku. Tabulkový procesor ti spočítá a nakreslí, co zadáš, a chatbot pomůže situaci zapsat. Posoudit, co do funkce patří a co z výsledku plyne pro tvoje rozhodnutí, ale musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Úloha z tvého koníčka",
+      "text": "Řekni chatbotovi, čemu se ve volném čase věnuješ, a nech ho podle toho vymyslet slovní úlohu na funkce. Vyřeš ji a ověř, jestli čísla v zadání dávají smysl."
+    },
+    {
+      "title": "Souboj dvou půjčoven kol",
+      "text": "Porovnej dva skutečné ceníky, třeba dvou půjčoven kol, tak, že je zapíšeš funkcemi. Urči, od kolika hodin se vyplatí která, a výpočet dej chatbotovi ke kontrole."
+    },
+    {
+      "title": "Výsledek vysvětlený laikovi",
+      "text": "Výsledek vyřešené úlohy vysvětli chatbotovi vlastními slovy, jako by o funkcích nic nevěděl. Ať se doptává tam, kde vysvětlení nedává smysl."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Tabulka udělá z hromádky čísel přehled: v jednom sloupci příjmy, v druhém výdaje, dole součty, a na první pohled vidíš, jestli peníze vyjdou. Uspořádat čísla do tabulky potřebují lidé, kteří vedou obchod nebo knihovnu, a celkem se to týká zhruba 7,1 % lidí, kteří v Česku pracují. Tabulkový program řádky sečte za tebe, ale jaké sloupce a kategorie potřebuješ, musíš vymyslet ty. Bez toho ti program ukáže jen prázdnou mřížku.",
+  "learnWithAi": [
+    {
+      "title": "Rozházené údaje k uspořádání",
+      "text": "S rodičem si od chatbota vyžádejte krátký příběh, ve kterém jsou rozházené příjmy a výdaje jednoho dítěte. Udělejte z nich na papíře tabulku se sloupci a součty."
+    },
+    {
+      "title": "Návrh sloupců a kategorií",
+      "text": "Nakreslete s rodičem vlastní tabulku rozpočtu a popište ji chatbotovi. Zeptejte se, jestli by nějaké kategorie spojil nebo rozdělil, a rozhodněte, co z toho vezmete."
+    },
+    {
+      "title": "První tabulka v počítači",
+      "text": "Přepište s rodičem papírovou tabulku do tabulkového programu. Když nebudete vědět, jak nastavit součet, nechte si od chatbota vysvětlit jen ten krok, který chybí."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Lineární funkce dá přímku, nepřímá úměrnost dvě zakřivené větve a y = x² parabolu. Když tyhle tvary poznáš z předpisu i z tabulky, rychle se zorientuješ v grafech, které potkáš, třeba v grafu spotřeby nebo rychlosti. Kdo učí matematiku, zkoumá fyzikální děje nebo plánuje nákupy pro firmu, přechází mezi předpisem, tabulkou a grafem běžně. Aplikace na grafy ti vykreslí jakýkoli předpis, ale když si tvar dokážeš představit předem, hned uvidíš chybu v zadání nebo ve výpočtu.",
+  "learnWithAi": [
+    {
+      "title": "Pexeso předpisů a tabulek",
+      "text": "Požádej chatbota o čtyři předpisy a čtyři tabulky hodnot v promíchaném pořadí. Přiřaď je k sobě a nech si přiřazení zkontrolovat."
+    },
+    {
+      "title": "Náčrt před vykreslením",
+      "text": "Než vložíš předpis do aplikace na grafy, nakresli rukou, jak by měl graf vypadat. Když se náčrt liší, zeptej se chatbota, podle čeho se to dalo poznat dopředu."
+    },
+    {
+      "title": "Graf popsaný jen slovy",
+      "text": "Zkus chatbotovi slovy popsat graf z učebnice, třeba „klesá a blíží se k ose x“, a nech ho hádat typ funkce. Když se netrefí, zpřesni svůj popis."
+    }
+  ]
+}

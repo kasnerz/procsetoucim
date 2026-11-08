@@ -1,0 +1,293 @@
+{
+  "outcome": "CJS-CJS-006-ZV5-035",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "prijmy-vydaje-rozpocet",
+      "title": "Příjmy, výdaje a rozpočet",
+      "aliases": [
+        "příjmy a výdaje",
+        "co je rozpočet",
+        "kapesné",
+        "peníze přicházejí a odcházejí",
+        "hospodaření s penězi"
+      ],
+      "sources": [
+        {
+          "level": "Minimální doporučená úroveň",
+          "quote": "V osobním rozpočtu rozezná základní příjmy a výdaje."
+        },
+        {
+          "level": "Na začátku",
+          "quote": "Seznámí se s pojmy příjmy, výdaje, rozpočet."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P4"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí pojmy na příkladu kapesného a vymyslí ti věci na rozlišování."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník nebo encyklopedie pojmy příjem, výdaj a rozpočet vysvětlí."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace s rozpočtem pojmy neučí, jen počítají s čísly, která jim zadáš."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka ani pravítko ti nepomůžou poznat, co je příjem a co výdaj."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+        "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12"
+      ],
+      "inspiration": [
+        "Osobní rozpočet"
+      ]
+    },
+    {
+      "slug": "rozpocet-modeloveho-vrstevnika",
+      "title": "Rozpočet pro vymyšleného vrstevníka",
+      "aliases": [
+        "rozpočet pro kamaráda",
+        "měsíční rozpočet",
+        "kolik utratí za měsíc",
+        "příklad rozpočtu",
+        "rozpočet na papír"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Sestaví rozpočet pro svého modelového vrstevníka."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vymyslí příběh vrstevníka a projde s tebou, co do rozpočtu patří."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na webu najdeš ceny běžných věcí, třeba lístku do kina nebo svačiny."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka v počítači sečte tvé řádky a hned ukáže celkové příjmy a výdaje."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ti ověří součty a papír s tužkou stačí na sestavení rozpočtu."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+        "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12"
+      ],
+      "inspiration": [
+        "Osobní rozpočet",
+        "Rozpočet na výlet"
+      ]
+    },
+    {
+      "slug": "porovnani-prijmu-a-vydaju",
+      "title": "Porovnání příjmů a výdajů",
+      "aliases": [
+        "víc příjmů nebo výdajů",
+        "stačí peníze",
+        "kolik zbyde",
+        "rozdíl příjmů a výdajů",
+        "kdo utrácí víc"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Porovná příjmy a výdaje na příkladech jednoduchých rozpočtů jedince."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot ti dá další příklady rozpočtů a vysvětlí, proč jeden vychází lépe."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Hotové odpovědi na webu tvé srovnání nahradí, ale samotné porovnávání nenaučí."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka spočítá rozdíl příjmů a výdajů a ty si ověříš svůj výsledek."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ověří, kolik zbylo nebo kolik chybí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+        "http://data.europa.eu/esco/skill/faf8943c-72ff-4736-a587-25508695d6f0"
+      ],
+      "inspiration": [
+        "Osobní rozpočet",
+        "Rozpočet na výlet"
+      ]
+    },
+    {
+      "slug": "zapis-vlastnich-prijmu-a-vydaju",
+      "title": "Zápis vlastních příjmů a výdajů",
+      "aliases": [
+        "moje kapesné",
+        "co jsem utratil",
+        "záznam útrat",
+        "sešit s výdaji",
+        "osobní rozpočet na měsíc"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zapisuje si po určitou dobu své vlastní příjmy a výdaje a zpracuje svůj osobní rozpočet pro svou vlastní potřebu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "nepomuze",
+          "why": "Co dostaneš a utratíš, víš jen ty, chatbot to za tebe nezapíše ani nezažije."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Tvoje peníze na internetu nenajdeš, zapisuješ je ty."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Aplikace nebo tabulka drží záznamy pohromadě a sečtou je za celý týden."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Sešit a tužka stačí na denní zápis, kalkulačka sečte řádky."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/faf8943c-72ff-4736-a587-25508695d6f0",
+        "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12"
+      ],
+      "inspiration": [
+        "Osobní rozpočet"
+      ]
+    },
+    {
+      "slug": "osobni-rozpocet-do-tabulky",
+      "title": "Osobní rozpočet v tabulce",
+      "aliases": [
+        "tabulka rozpočtu",
+        "uspořádat příjmy a výdaje",
+        "přehled peněz",
+        "rozpočet do sloupců",
+        "sestavit rozpočet"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Zpracuje informace o příjmech a výdajích jednotlivce do strukturovaného osobního rozpočtu."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot poradí, jak rozpočet rozdělit do sloupců a kategorií."
+        },
+        "internet": {
+          "verdict": "nepomuze",
+          "why": "Web ti tabulku sestavit nepomůže, sestavuješ ji ty ze svých údajů."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulkový program počítá součty a ukáže přehledné řádky i sloupce."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Papír s pravítkem a kalkulačka stačí na tabulku a součty."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+        "http://data.europa.eu/esco/skill/faf8943c-72ff-4736-a587-25508695d6f0",
+        "http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be"
+      ],
+      "inspiration": [
+        "Osobní rozpočet"
+      ]
+    },
+    {
+      "slug": "druhy-rozpoctu-schodek-prebytek",
+      "title": "Vyrovnaný, schodkový a přebytkový rozpočet",
+      "aliases": [
+        "schodek",
+        "přebytek",
+        "vyrovnaný rozpočet",
+        "dluh nebo úspora",
+        "peněz je málo nebo hodně"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Vybere ukázku rozpočtu vyrovnaného, schodkového a přebytkového mezi několika různými jednoduchými rozpočty jednotlivce."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Chatbot vysvětlí tři druhy rozpočtu a dá ti ukázky, ve kterých je poznáš."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Slovník a encyklopedie vysvětlí schodek a přebytek."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Tabulka spočítá rozdíl, podle kterého poznáš druh rozpočtu."
+        },
+        "klasicky": {
+          "verdict": "pomuze",
+          "why": "Kalkulačka ukáže, jestli výdaje přesahují příjmy, nebo ne."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea",
+        "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12"
+      ],
+      "inspiration": [
+        "Osobní rozpočet"
+      ]
+    }
+  ],
+  "aside": []
+}

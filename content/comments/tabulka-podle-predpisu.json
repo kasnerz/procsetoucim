@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Z předpisu jako y = 2x + 3 toho na první pohled moc nevyčteš, dokud nedosadíš pár čísel. Tabulka hodnot z něj udělá něco, co vidíš: odkud y začíná a jak rychle roste. Stejně se počítá cena podle počtu kusů nebo spotřeba podle ujetých kilometrů. V práci takhle počítají třeba lidé, kteří odhadují výrobní náklady, připravují předpověď počasí nebo učí matematiku a fyziku, a takových míst spíš přibude. Tabulkový procesor vyplní stovky řádků za vteřinu, jen když mu správně zadáš vzorec, a jestli čísla dávají smysl, poznáš, jen když víš, co ten vzorec dělá.",
+  "learnWithAi": [
+    {
+      "title": "Pět předpisů k dosazování",
+      "text": "Nech si od chatbota dát pět předpisů a ke každému sestav tabulku pro x od minus dvou do dvou. Výsledky mu pošli ke kontrole a u chyb si nech ukázat, kde se dosazování pokazilo."
+    },
+    {
+      "title": "Tabulka se schovanými chybami",
+      "text": "Požádej chatbota o tabulku k předpisu, ve které jsou schválně dvě chyby. Najdi je dosazením a ověř kalkulačkou."
+    },
+    {
+      "title": "Předpis k ceně mobilních dat",
+      "text": "Popiš chatbotovi skutečnou situaci, třeba cenu dat s měsíčním paušálem, a nech ho napsat předpis. Tabulku pro několik hodnot spočítej ručně a porovnej, jestli předpis situaci opravdu odpovídá."
+    }
+  ]
+}

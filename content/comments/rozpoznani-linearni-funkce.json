@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Lineární funkce je všude, kde se něco mění pořád stejně rychle: každá minuta hovoru stojí stejně, každý kilometr spálí podobné množství paliva. Když ji poznáš ze slovního popisu, z grafu i z předpisu, víš, kdy můžeš počítat jednoduše a kdy se věci mění nerovnoměrně. Kdo pracuje s daty, plánuje nákupy nebo zkoumá fyzikální děje, potřebuje rychle odhadnout, jestli je závislost lineární, protože s přímkou se počítá nejsnáz. Aplikace ti přímku ukáže, ale ve slovní úloze nebo v článku ti ji nikdo nenakreslí a poznat ji musíš ty.",
+  "learnWithAi": [
+    {
+      "title": "Hromádka zadání k roztřídění",
+      "text": "Požádej chatbota o deset zadání: krátké texty, popisy grafů a předpisy. Roztřiď je na lineární a ostatní a u chyb si nech vysvětlit proč."
+    },
+    {
+      "title": "Podobné předpisy na rozlišení",
+      "text": "Vyžádej si od chatbota dvojice předpisů, které vypadají podobně, ale jen jeden z nich je lineární. Nejdřív vyber a pak si to ověř v aplikaci na grafy."
+    },
+    {
+      "title": "Lineární růst v ceníku",
+      "text": "Najdi skutečný ceník, třeba jízdného nebo mobilního tarifu, a rozhodni, jestli cena roste lineárně. Své zdůvodnění napiš chatbotovi a nech ho hledat slabá místa."
+    }
+  ]
+}

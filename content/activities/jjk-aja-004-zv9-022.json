@@ -1,0 +1,257 @@
+[
+  {
+    "slug": "anglicke-davani-slova-v-diskusi",
+    "title": "Udělování slova a výzva k názoru v angličtině",
+    "aliases": [
+      "moderování diskuse anglicky",
+      "kdo je na řadě",
+      "vést diskusi v angličtině",
+      "výzva k vyjádření názoru",
+      "moderátor skupiny"
+    ],
+    "outcome": "JJK-AJA-004-ZV9-022",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Dokáže v diskusi udělovat slovo a vyzvat zúčastněné osoby k vyjádření vlastního názoru. V případě rozdílných názorů dokáže jednoduchými prostředky vyjádřit porozumění.",
+        "quote": "Dokáže v diskusi udělovat slovo a vyzvat zúčastněné osoby k vyjádření vlastního názoru."
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2"
+    ],
+    "inspiration": [
+      {
+        "title": "Diskuze nad programem k vánoční besídce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Zahraje členy skupiny a ty si na něm zkusíš dávat slovo anglicky."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš hotové fráze pro vedení diskuse, třeba Who would like to start?"
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Moderuješ živou skupinu ty, aplikace ji za tebe nevede."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Slovo dáváš spolužákům ty, hlasem a pohledem, žádný nástroj to nezvládne."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/5b46f572-7ced-4efd-b270-a81a164d521c",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicke-pokyny-pro-skupinu",
+    "title": "Jednoduché pokyny pro skupinu v angličtině",
+    "aliases": [
+      "pokyny anglicky",
+      "instrukce pro skupinu",
+      "řídit činnost ve skupině",
+      "příkazy v angličtině",
+      "vysvětlit úkol anglicky"
+    ],
+    "outcome": "JJK-AJA-004-ZV9-022",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Moderuje interakci a činnosti ve skupině, uděluje jednoduché pokyny, vyjádří porozumění a požádá o vysvětlení.",
+        "quote": "uděluje jednoduché pokyny"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Dosažení komunikačního cíle: Žák dokáže pomocí jednoduchých poznámek a příležitostných otázek dát najevo, že rozumí, a dokáže zjistit, zda všemu rozumí ostatní členové skupiny. Vyzve členy skupiny, aby představili svůj návrh, a dokáže spolupracující skupině podat zcela jednoduché instrukce.",
+        "quote": "dokáže spolupracující skupině podat zcela jednoduché instrukce"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Diskuze nad programem k vánoční besídce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Opraví tvé pokyny a ukáže kratší a srozumitelnější věty."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Seznam užitečných frází pro pokyny ti dá hotový slovník."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Skupina pracuje podle tvých slov, aplikace jí pokyny nedá."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Pokyny říkáš nahlas ty a hned vidíš, jestli ti skupina rozumí."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicke-vyjadreni-porozumeni",
+    "title": "Vyjádření porozumění při rozdílných názorech",
+    "aliases": [
+      "rozumím ti anglicky",
+      "souhlas a nesouhlas",
+      "respektující diskuse",
+      "říct že rozumím",
+      "spor ve skupině"
+    ],
+    "outcome": "JJK-AJA-004-ZV9-022",
+    "levelSource": [
+      {
+        "level": "Na cestě",
+        "point": "Moderuje interakci a činnosti ve skupině, jejíž členové mají rozdílné názory. Vyjádří porozumění.",
+        "quote": "Moderuje interakci a činnosti ve skupině, jejíž členové mají rozdílné názory. Vyjádří porozumění."
+      },
+      {
+        "level": "Na cestě",
+        "point": "Dokáže v diskusi udělovat slovo a vyzvat zúčastněné osoby k vyjádření vlastního názoru. V případě rozdílných názorů dokáže jednoduchými prostředky vyjádřit porozumění.",
+        "quote": "V případě rozdílných názorů dokáže jednoduchými prostředky vyjádřit porozumění."
+      },
+      {
+        "level": "Na začátku",
+        "point": "Dosažení komunikačního cíle: Žák dokáže pomocí jednoduchých poznámek a příležitostných otázek dát najevo, že rozumí, a dokáže zjistit, zda všemu rozumí ostatní členové skupiny. Vyzve členy skupiny, aby představili svůj návrh, a dokáže spolupracující skupině podat zcela jednoduché instrukce.",
+        "quote": "dát najevo, že rozumí"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Diskuze nad programem k vánoční besídce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Nabídne fráze jako I see what you mean a nechá tě to nacvičit v rozhovoru."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Ukázkové dialogy a seznamy frází ukazují, jak vyjádřit porozumění."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Porozumění dáváš najevo ty ve chvíli, kdy někdo mluví, aplikace to nezastoupí."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Rozumět druhému a říct mu to musíš ty, nástroj k tomu nic nepřidá."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8b5962d7-b195-4459-addb-d15a48cc4b64",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  },
+  {
+    "slug": "anglicke-ptani-se-na-vysvetleni",
+    "title": "Zjišťování, zda skupina rozumí, a žádost o vysvětlení",
+    "aliases": [
+      "požádat o vysvětlení anglicky",
+      "Can you explain",
+      "rozumíte všichni",
+      "ověřit porozumění",
+      "doptat se anglicky"
+    ],
+    "outcome": "JJK-AJA-004-ZV9-022",
+    "levelSource": [
+      {
+        "level": "Splněno",
+        "point": "Moderuje interakci a činnosti ve skupině, uděluje jednoduché pokyny, vyjádří porozumění a požádá o vysvětlení.",
+        "quote": "vyjádří porozumění a požádá o vysvětlení"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Dosažení komunikačního cíle: Žák dokáže pomocí jednoduchých poznámek a příležitostných otázek dát najevo, že rozumí, a dokáže zjistit, zda všemu rozumí ostatní členové skupiny. Vyzve členy skupiny, aby představili svůj návrh, a dokáže spolupracující skupině podat zcela jednoduché instrukce.",
+        "quote": "dokáže zjistit, zda všemu rozumí ostatní členové skupiny"
+      },
+      {
+        "level": "Na začátku",
+        "point": "Dosažení komunikačního cíle: Žák dokáže pomocí jednoduchých poznámek a příležitostných otázek dát najevo, že rozumí, a dokáže zjistit, zda všemu rozumí ostatní členové skupiny. Vyzve členy skupiny, aby představili svůj návrh, a dokáže spolupracující skupině podat zcela jednoduché instrukce.",
+        "quote": "Vyzve členy skupiny, aby představili svůj návrh"
+      }
+    ],
+    "rules": [
+      "P1",
+      "P2",
+      "P4"
+    ],
+    "inspiration": [
+      {
+        "title": "Diskuze nad programem k vánoční besídce",
+        "url": ""
+      }
+    ],
+    "tools": {
+      "chatbot": {
+        "verdict": "pomuze",
+        "why": "Vysvětlí, jak se slušně doptat, a zkoušíš si to s ním na příkladech."
+      },
+      "internet": {
+        "verdict": "pomuze",
+        "why": "Najdeš fráze jako Could you explain that again? i s ukázkami použití."
+      },
+      "aplikace": {
+        "verdict": "nepomuze",
+        "why": "Ptát se členů skupiny musíš ty, aplikace jim otázku nepoloží."
+      },
+      "klasicky": {
+        "verdict": "nepomuze",
+        "why": "Zda ostatní rozumí, poznáš z jejich reakcí, ne z nástroje."
+      }
+    },
+    "escoSkills": [
+      "http://data.europa.eu/esco/skill/8b5962d7-b195-4459-addb-d15a48cc4b64",
+      "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac",
+      "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0"
+    ],
+    "review": {
+      "draftedBy": "claude-sonnet-5-5",
+      "promptVersion": "cards-v2",
+      "reviewed": false
+    }
+  }
+]

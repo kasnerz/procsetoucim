@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Přímka v grafu ukáže na první pohled, jak se něco mění, a průsečíky s osami prozradí, odkud se začíná a kdy se dojde na nulu. Takhle zjistíš, kdy ti při stejném utrácení dojdou peníze nebo za jak dlouho se vypustí nádrž. Rýsováním přímky a dosazováním nuly se ti propojí počítání s obrázkem. Takové grafy kreslí a čtou lidé, kteří učí matematiku, předpovídají počasí nebo zkoumají fyzikální jevy, celkem zhruba 7 % pracujících v Česku. Aplikace přímku i průsečíky ukáže hned, ale jestli do ní vede správný předpis, ověříš jen vlastním výpočtem.",
+  "learnWithAi": [
+    {
+      "title": "Série přímek k narýsování",
+      "text": "Nech si od chatbota zadat několik lineárních funkcí. Narýsuj je, spočítej průsečíky s osami a výsledky mu pošli ke kontrole."
+    },
+    {
+      "title": "Proč se dosazuje nula",
+      "text": "Když nevíš, proč se při hledání průsečíku dosazuje nula, zeptej se chatbota. Požádej o vysvětlení na jedné konkrétní přímce a pak to zkus na jiné."
+    },
+    {
+      "title": "Vypouštění bazénu jako přímka",
+      "text": "Požádej chatbota o slovní úlohu, třeba o vypouštění bazénu, kterou jde zapsat lineární funkcí. Sestav předpis, najdi průsečíky a vysvětli, co v příběhu znamenají."
+    }
+  ]
+}

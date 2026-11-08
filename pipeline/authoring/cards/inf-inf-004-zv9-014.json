@@ -1,0 +1,274 @@
+{
+  "outcome": "INF-INF-004-ZV9-014",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "digitalni-technologie-kazdy-den",
+      "title": "Digitální technologie v každodenním životě",
+      "aliases": [
+        "technologie kolem nás",
+        "co používám denně",
+        "mobil a internet",
+        "chytré zařízení",
+        "příklady technologií"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Uvede příklady použití digitálních technologií v každodenním životě člověka."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Navrhne příklady z domova, školy i dopravy, které ti pak můžou připomenout další."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a přehledy ukážou, kde všude se technologie používají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace ti příklady nevymyslí, všímat si jich musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Kalkulačka ani pravítko ti příklady z tvého dne nenajdou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e"
+      ],
+      "inspiration": [
+        "Co hýbe světem technologií? – Trendy kolem nás"
+      ]
+    },
+    {
+      "slug": "digitalni-nastroje-pro-uceni",
+      "title": "Nástroje a digitální zdroje pro učení",
+      "aliases": [
+        "čím se učím",
+        "výukové aplikace",
+        "učení s počítačem",
+        "online zdroje",
+        "školní systém"
+      ],
+      "sources": [
+        {
+          "level": "Na začátku",
+          "quote": "Charakterizuje nástroje a digitální zdroje, které využívá při svém učení."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, k čemu která výuková aplikace nebo zdroj slouží a čím se liší."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Na stránkách nástrojů a zdrojů najdeš, co umí a co ne."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Vlastní výukovou aplikaci si vyzkoušíš a popíšeš, co ti dává."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejné školní pomůcky digitální nástroje nepopíšou."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/b363bb5f-2c79-40af-94da-33e06f9dee9f"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "dopady-technologii-na-muj-zivot",
+      "title": "Dopady technologií na můj život",
+      "aliases": [
+        "jak mě ovlivňuje mobil",
+        "čas u obrazovky",
+        "výhody a nevýhody technologií",
+        "viditelné a skryté technologie",
+        "diskuse o technologiích"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Diskutuje o viditelných i méně známých digitálních technologiích, které používá a které zná, reflektuje dopady jejich používání na svůj život."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Poví, kde se skrývají technologie, které nevidíš, a zeptá se tě na tvé zkušenosti."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Články a studie ukážou, jaké dopady technologií se zkoumají."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace na čas u obrazovky čísla ukáže, ale dopad na život hodnotíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj k hodnocení vlastních zkušeností nic nenabízí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "technologie-v-oborech-prinosy-rizika",
+      "title": "Přínosy a rizika technologií v oborech",
+      "aliases": [
+        "technologie ve zdravotnictví",
+        "technologie v dopravě",
+        "výhody a rizika",
+        "význam technologií",
+        "technologie v průmyslu"
+      ],
+      "sources": [
+        {
+          "level": "Splněno",
+          "quote": "Na základě konkrétních příkladů toho, jak se určité digitální technologie využívají v různých oborech (školství, zdravotnictví, průmysl, umění, doprava), odhaduje jejich význam, přínosy a rizika."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Rozebere s tebou výhody i rizika na příkladu a pomůže ti argumenty uspořádat."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Odborné články a zprávy dodají konkrétní příklady i čísla."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace úvahu o přínosech a rizicích za tebe neudělá."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj úvahu o přínosech a rizicích nepodpoří."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "technologie-v-oborech-co-delaji",
+      "title": "Technologie v různých oborech a k čemu slouží",
+      "aliases": [
+        "jaké technologie se používají v práci",
+        "technologie v nemocnici",
+        "technologie v továrně",
+        "obory a technologie",
+        "práce s technologií"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Zkoumá s jakými digitálními technologiemi se v různých oborech pracuje a k čemu se využívají."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vysvětlí, co daná technologie v oboru dělá, a odpoví na doplňující otázky."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Popisy oborů, videa a články ukážou technologie v praxi."
+        },
+        "aplikace": {
+          "verdict": "nepomuze",
+          "why": "Aplikace oboru nepřiblíží, zkoumat musíš ty."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Klasický nástroj ti o technologiích v oborech nic nepoví."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e"
+      ],
+      "inspiration": []
+    },
+    {
+      "slug": "principy-novych-technologii",
+      "title": "Jak fungují nové technologie",
+      "aliases": [
+        "virtuální realita",
+        "3D tisk",
+        "internet věcí",
+        "blockchain",
+        "kvantový počítač"
+      ],
+      "sources": [
+        {
+          "level": "Na cestě",
+          "quote": "Seznamuje se se základními principy fungování vybraných technologií (např. virtuální realita, 3D tisk, IoT, blockchain, kvantové počítače) pomocí jednoduchých analogií a příkladů, uvede hranice, kde tyto analogie selhávají."
+        }
+      ],
+      "rules": [
+        "P1",
+        "P2"
+      ],
+      "tools": {
+        "chatbot": {
+          "verdict": "pomuze",
+          "why": "Vymyslí analogie a příklady a na tvou otázku řekne, kde analogie přestává platit."
+        },
+        "internet": {
+          "verdict": "pomuze",
+          "why": "Encyklopedie a výkladová videa popíšou princip i jeho hranice."
+        },
+        "aplikace": {
+          "verdict": "pomuze",
+          "why": "Slicer pro 3D tisk nebo ukázka virtuální reality principy předvedou v praxi."
+        },
+        "klasicky": {
+          "verdict": "nepomuze",
+          "why": "Obyčejné nástroje princip nové technologie nevysvětlí."
+        }
+      },
+      "skills": [
+        "http://data.europa.eu/esco/skill/f049d050-12da-4e40-813a-2b5eb6df6b51",
+        "http://data.europa.eu/esco/skill/42cb7669-c371-4903-9c0b-13db67b2e4bb"
+      ],
+      "inspiration": [
+        "3D tisk v současnosti a v budoucnosti",
+        "3D tisk na pomoc v domácnosti"
+      ]
+    }
+  ],
+  "aside": []
+}

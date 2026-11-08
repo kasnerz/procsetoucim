@@ -1,0 +1,78 @@
+{
+  "outcome": "MAT-MAT-005-ZV9-019",
+  "promptVersion": "cards-v2",
+  "points": [
+    {
+      "level": "Na začátku",
+      "point": "rozpozná závislost mezi dvěma veličinami",
+      "cards": [
+        "zavislost-dvou-velicin"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na začátku",
+      "point": "vyčte z tabulky nebo grafu závislosti požadované informace",
+      "cards": [
+        "cteni-z-tabulky-a-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "sestaví tabulku vyjadřující vztah závislosti dvou veličin podle daného předpisu",
+      "cards": [
+        "tabulka-podle-predpisu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "přiřadí tabulku funkčních hodnot k příslušnému grafu funkce a naopak",
+      "cards": [
+        "prirazeni-predpisu-tabulky-a-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Na cestě",
+      "point": "zobrazí lineární funkci graficky a určí průsečíky grafu s osou x a y",
+      "cards": [
+        "graf-linearni-funkce-a-pruseciky"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Určí předpis po částech lineární funkce znázorněné grafem, ať už v podobě množiny bodů, nebo souvislé čáry (přímky nebo křivky).",
+      "cards": [
+        "predpis-po-castech-linearni-funkce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Rozpozná lineární funkci z textu, z grafu a z předpisu.",
+      "cards": [
+        "rozpoznani-linearni-funkce"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Přiřadí funkci (lineární, nepřímá úměrnost a ryze kvadratická) vyjádřenou předpisem k příslušnému grafu nebo tabulce a naopak.",
+      "cards": [
+        "prirazeni-predpisu-tabulky-a-grafu"
+      ],
+      "aside": null
+    },
+    {
+      "level": "Splněno",
+      "point": "Využívá znalosti o funkcích k řešení reálných problémů.",
+      "cards": [
+        "funkce-v-realnych-problemech"
+      ],
+      "aside": null
+    }
+  ]
+}

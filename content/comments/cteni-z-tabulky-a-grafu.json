@@ -1,0 +1,19 @@
+{
+  "draftedBy": "claude-opus-5-5",
+  "promptVersion": "comment-v5",
+  "comment": "Jízdní řád, předpověď počasí, tabulka ligy nebo graf ve zprávách: všude hledáš jedno číslo a nesmíš si splést řádek nebo osu. Kdo grafy čte pozorně, pozná taky, když je někdo nakreslí tak, aby vypadaly dramatičtěji, než ve skutečnosti jsou. V práci to dělají denně lidé, kteří analyzují data, plánují dopravu nebo sledují provoz call centra. Tabulkový procesor ti hodnotu ukáže po najetí myší, ale graf v novinách nebo na nástěnce přečteš jen ty.",
+  "learnWithAi": [
+    {
+      "title": "Týden teplot a pět otázek",
+      "text": "Požádej chatbota o tabulku, třeba teplot za jeden týden, a o pět otázek k ní. Odpověz a nech si odpovědi zkontrolovat."
+    },
+    {
+      "title": "Graf ze zpráv pod lupou",
+      "text": "Najdi v novinách nebo na webu graf a napiš, co z něj vyčteš. Popiš chatbotovi, co v grafu je, a nech si říct, jestli tvoje závěry z dat opravdu plynou."
+    },
+    {
+      "title": "Tabulka z vlastních čísel",
+      "text": "Sestav tabulku třeba ze svého kapesného za několik měsíců a vymysli k ní otázky. Dej obojí chatbotovi a zkontroluj, jestli odpoví stejně jako ty."
+    }
+  ]
+}

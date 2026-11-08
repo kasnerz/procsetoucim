@@ -1,0 +1,88 @@
+{
+  "outcome": "CJS-CJS-006-ZV5-034",
+  "draftedBy": "claude-sonnet-5-5",
+  "promptVersion": "cards-v2",
+  "toolsVersion": "tools-v2",
+  "reviewed": false,
+  "cards": [
+    {
+      "slug": "prani-a-potreby-a-penize",
+      "title": "Přání a potřeby podle peněz",
+      "aliases": ["přání a potřeby", "co potřebuju a co chci", "kapesné", "na co mám peníze", "nezbytné výdaje"],
+      "sources": [{"level": "Na začátku", "quote": "Porovná své potřeby a přání s finančními možnostmi."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vysvětlí rozdíl mezi potřebou a přáním a navrhne další příklady."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš výklad pojmů a ukázky, co rodina platí nejdřív."},
+        "aplikace": {"verdict": "nepomuze", "why": "Co je pro tebe potřeba a co jen přání, žádná aplikace nerozhodne."},
+        "klasicky": {"verdict": "pomuze", "why": "Do dvou sloupců na papíře si přání a potřeby roztřídíš a porovnáš s penězi."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af", "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12"],
+      "inspiration": ["Nezbytné výdaje v rodině"]
+    },
+    {
+      "slug": "moje-financni-moznosti",
+      "title": "Peníze, které mám k dispozici",
+      "aliases": ["kapesné", "příjmy", "kolik mám peněz", "našetřeno", "moje peníze"],
+      "sources": [{"level": "Splněno", "quote": "Analyzuje finanční možnosti, které má k dispozici."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vypíše, odkud děti mívají peníze, a zkontroluje tvůj seznam."},
+        "internet": {"verdict": "nepomuze", "why": "Kolik peněz máš ty, na webu nenajdeš."},
+        "aplikace": {"verdict": "pomuze", "why": "Tabulka nebo aplikace na rozpočet ti spočítá součet kapesného a úspor."},
+        "klasicky": {"verdict": "pomuze", "why": "Mince a bankovky spočítáš, kalkulačka ti zkontroluje součet."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12", "http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af"],
+      "inspiration": ["Můj rozpočet"]
+    },
+    {
+      "slug": "cena-prani",
+      "title": "Kolik stojí různá přání",
+      "aliases": ["cena", "kolik to stojí", "náklady", "porovnání cen", "co je dražší"],
+      "sources": [{"level": "Splněno", "quote": "Vyhodnotí finanční náklady na realizaci různých přání."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Pomůže rozepsat, co všechno k přání patří, a zkontroluje součet."},
+        "internet": {"verdict": "pomuze", "why": "Ceny v e-shopech a letácích porovnáš na jednom místě."},
+        "aplikace": {"verdict": "pomuze", "why": "Tabulka sečte ceny a seřadí přání od nejlevnějšího."},
+        "klasicky": {"verdict": "pomuze", "why": "Kalkulačkou si ověříš součet cen, vypsané na papíře."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12", "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480"],
+      "inspiration": ["Nákupy a splněná přání", "Školní obchůdek"]
+    },
+    {
+      "slug": "dovolim-si-to",
+      "title": "Přání, na které mi peníze stačí",
+      "aliases": ["dovolit si", "mám na to", "naspořit na přání", "stačí mi peníze", "rozpočet"],
+      "sources": [{"level": "Splněno", "quote": "Vyhodnotí na základě finančních možností, zda může realizovat svoje konkrétní přání."}],
+      "rules": ["P1", "P2"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Projde s tebou, jestli cena přání vychází, a zeptá se, kde chybí peníze."},
+        "internet": {"verdict": "nepomuze", "why": "Tvoje peníze a tvoje přání web nezná, rozhodnout musíš ty."},
+        "aplikace": {"verdict": "pomuze", "why": "Aplikace na rozpočet ukáže, kolik zbývá a za jak dlouho našetříš."},
+        "klasicky": {"verdict": "pomuze", "why": "Kalkulačkou odečteš cenu od peněz a vidíš, kolik chybí."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12", "http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af"],
+      "inspiration": ["Můj rozpočet", "Nákupy a splněná přání"]
+    },
+    {
+      "slug": "ktera-prani-se-splni",
+      "title": "Která přání se splní a proč ne všechna",
+      "aliases": ["proč si nemůžu koupit všechno", "příběh o penězích", "rodina a rozpočet", "nesplněné přání", "rozdíl mezi rodinami"],
+      "sources": [
+        {"level": "Minimální doporučená úroveň", "quote": "Uvede příklad, proč není možné realizovat všechny chtěné výdaje ."},
+        {"level": "Na cestě", "quote": "Vyjmenuje přání dítěte z příběhu či modelové situace a vysvětlí, která jeho přání mohou být splněna a která ne, a vysvětlí proč."}
+      ],
+      "rules": ["P1", "P2", "P4"],
+      "tools": {
+        "chatbot": {"verdict": "pomuze", "why": "Vymyslí příběh s přáními a ptá se, která vyjdou a proč."},
+        "internet": {"verdict": "pomuze", "why": "Najdeš ukázky rodinného rozpočtu, ze kterých vidíš, co se vejde."},
+        "aplikace": {"verdict": "nepomuze", "why": "Úvahu, proč se všechno nevejde, aplikace za tebe nevysvětlí."},
+        "klasicky": {"verdict": "pomuze", "why": "Papír a kalkulačka ukážou, kolik by přání stála a kolik peněz je."}
+      },
+      "skills": ["http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12", "http://data.europa.eu/esco/skill/73d95ec0-d7fb-45e5-8134-b2ee1c0be8af"],
+      "inspiration": ["Rodinný rozpočet – Co si může rodina dovolit", "Nákupy a splněná přání"]
+    }
+  ],
+  "aside": []
+}
